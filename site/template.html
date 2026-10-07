@@ -216,6 +216,7 @@ tbody tr:hover td{background:var(--hover)}
   <a href="#kort" data-view="kort">Kort</a>
   <a href="#tal" data-view="tal">Tal og levetider</a>
   <a href="#kilder" data-view="kilder">Kilder og billeder</a>
+  <a href="https://sloev.github.io/tree/plakat.html" target="_blank" rel="noopener" class="ext">Plakat ↗</a>
 </nav>
 
 <!-- ============ OVERSIGT ============ -->
@@ -311,6 +312,7 @@ tbody tr:hover td{background:var(--hover)}
   </div>
   <div class="block">
     <div class="sec-head"><span class="eyebrow">Hent</span><h2>Brug data andre steder</h2></div>
+    <p><a href="https://sloev.github.io/tree/plakat.html" target="_blank" rel="noopener">Slægtsplakaten</a> kan filtreres, zoomes og udskrives. Færdige PDF'er: <a href="https://sloev.github.io/tree/plakat-A2-5-generationer.pdf" target="_blank" rel="noopener">A2, 5 generationer</a>, <a href="https://sloev.github.io/tree/plakat-A1-alle-aner.pdf" target="_blank" rel="noopener">A1, alle aner</a>, <a href="https://sloev.github.io/tree/plakat-A3-fars-side.pdf" target="_blank" rel="noopener">A3, fars side</a> og <a href="https://sloev.github.io/tree/plakat-A3-mors-side.pdf" target="_blank" rel="noopener">A3, mors side</a>.</p>
     <p>Hele træet findes som GEDCOM-fil, der kan importeres i MyHeritage, Geni, Ancestry eller Gramps: <a href="https://github.com/sloev/tree/blob/master/family-tree.ged" target="_blank" rel="noopener">family-tree.ged på GitHub</a>. Kildedata og byggescripts ligger i <a href="https://github.com/sloev/tree" target="_blank" rel="noopener">github.com/sloev/tree</a>.</p>
   </div>
 </section>
@@ -433,7 +435,7 @@ function go(v){ if(!VIEWS.includes(v)) v='oversigt';
   if(location.hash!=='#'+v) history.replaceState(null,'','#'+v);
   try{ localStorage.setItem('view',v) }catch(e){}
 }
-document.querySelectorAll('.tabs a').forEach(a=>a.addEventListener('click',e=>{ e.preventDefault(); go(a.dataset.view); window.scrollTo({top:0}); }));
+document.querySelectorAll('.tabs a[data-view]').forEach(a=>a.addEventListener('click',e=>{ e.preventDefault(); go(a.dataset.view); window.scrollTo({top:0}); }));
 addEventListener('hashchange',()=>go(location.hash.slice(1)));
 
 // ---------- fælles ----------
@@ -494,7 +496,7 @@ function renderOversigt(){
 
   document.getElementById('open').innerHTML = [
     ['Mors søster og dine halvsøskende','Nulevende personer er ikke i de offentlige registre. Send navne og fødselsår, så kommer de med i træet.'],
-    ['Gerdas pigenavn','Mormor Gerda er født 17. aug. 1935. Hendes pigenavn eller fødested åbner en hel fjerdedel af træet.'],
+    ['Gerdas pigenavn','Mormor Gerda er født 17. aug. 1935 og er ifølge familien i familie med de Pedersen\'er, der arvede Langø i Lindelse Nor. Langø blev købt i 1894 af Marius Christensen, "Kongen af Langø". Hendes pigenavn eller forældres navne vil åbne en hel fjerdedel af træet.'],
     ['Liss Pedersens forældre','Farmor Liss er født 18. april 1931 og var en af syv søskende. Hendes fødesogn vil åbne Pedersen-linjen.'],
     ['Hvem var Lorenz\' far?','Retten udpegede Wilhelm Krogh i 1932, men familien har fået at vide, at det var Sophus Petersen fra Påkjær i Nybøl (1903–1945). En DNA-test (fx MyHeritage eller Ancestry) af Vivi eller dig kan vise et match med efterkommere af den ene eller den anden.'],
     ['Wilhelm Kroghs slægt','Lorenz\' biologiske far er født 9. okt. 1908 i Landkreis Flensburg. Hans forældre står i tyske standsregistre (Standesamt), der ikke er i de danske arkiver.'],

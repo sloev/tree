@@ -1,0 +1,209 @@
+<title>Slægtsplakat Gårdsted og Gedde</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=IM+Fell+English+SC&family=Instrument+Sans:wght@400;500;600&display=swap">
+<style id="pagestyle">@page{size:A2 landscape;margin:0}</style>
+<style>
+/* Layout: værktøjslinje øverst, plakaten fylder resten og kan zoomes/panoreres. Plakatens farver er pergament og blæk, uafhængigt af tema. */
+:root{
+  --ui-bg:#f3f5f2; --ui-ink:#1b2422; --ui-ink-2:#4d5955; --ui-rule:#c3ccc7; --ui-sheet:#fbfcfa; --ui-accent:#7a2e1f;
+  --f-display:"IM Fell DW Pica", "Iowan Old Style", Georgia, serif;
+  --f-sc:"IM Fell English SC", "IM Fell DW Pica", Georgia, serif;
+  --f-body:"Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--ui-bg:#121614;--ui-ink:#eef2ef;--ui-ink-2:#b9c3bf;--ui-rule:#3a4440;--ui-sheet:#1a1f1d;--ui-accent:#e08a74;color-scheme:dark}}
+:root[data-theme="dark"]{--ui-bg:#121614;--ui-ink:#eef2ef;--ui-ink-2:#b9c3bf;--ui-rule:#3a4440;--ui-sheet:#1a1f1d;--ui-accent:#e08a74;color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{height:100%}
+body{margin:0;background:var(--ui-bg);color:var(--ui-ink);font:14px/1.45 var(--f-body);display:flex;flex-direction:column}
+.bar{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;padding:10px 16px;border-bottom:1px solid var(--ui-rule);background:var(--ui-bg);padding-top:calc(10px + env(safe-area-inset-top,0px))}
+.bar h1{font:400 1.25rem/1 var(--f-display);margin:0 8px 0 0}
+.bar label{font-size:.8rem;color:var(--ui-ink-2);display:inline-flex;align-items:center;gap:6px}
+.bar select{font:inherit;font-size:.85rem;padding:5px 7px;border:1px solid var(--ui-rule);border-radius:5px;background:var(--ui-sheet);color:var(--ui-ink)}
+.bar input[type=checkbox]{accent-color:var(--ui-accent)}
+.btn{all:unset;cursor:pointer;font-size:.84rem;padding:6px 10px;border:1px solid var(--ui-rule);border-radius:5px;background:var(--ui-sheet);color:var(--ui-ink)}
+.btn:hover{border-color:var(--ui-ink)}
+.btn:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--ui-accent);outline-offset:2px}
+.grp{display:inline-flex;gap:4px}
+.spacer{flex:1}
+.links{font-size:.8rem;color:var(--ui-ink-2);display:flex;gap:10px;flex-wrap:wrap}
+.links a{color:inherit;text-underline-offset:3px}
+.stage{flex:1;min-height:0;position:relative;overflow:hidden;touch-action:none;cursor:grab;background:var(--ui-bg)}
+.stage.drag{cursor:grabbing}
+#poster{width:100%;height:100%;display:block}
+.hint{position:absolute;left:12px;bottom:calc(10px + env(safe-area-inset-bottom,0px));font-size:.75rem;color:var(--ui-ink-2);background:var(--ui-sheet);border:1px solid var(--ui-rule);border-radius:5px;padding:4px 8px;pointer-events:none}
+@media print{
+  body{display:block;background:#fff}
+  .bar,.hint{display:none!important}
+  .stage{position:fixed;inset:0;overflow:visible}
+  #poster{width:100vw;height:100vh}
+}
+</style>
+<div class="bar">
+  <h1>Slægtsplakat</h1>
+  <label for="gens">Generationer <select id="gens"></select></label>
+  <label for="side">Vis <select id="side"><option value="1">Begge sider</option><option value="2">Fars side</option><option value="3">Mors side</option></select></label>
+  <label for="style">Stil <select id="style"><option value="parch">Pergament</option><option value="light">Lys</option></select></label>
+  <label><input type="checkbox" id="sibs"> Søskende</label>
+  <label><input type="checkbox" id="lines" checked> Farv efter linje</label>
+  <label for="paper">Papir <select id="paper"><option>A3</option><option selected>A2</option><option>A1</option><option>A0</option></select></label>
+  <span class="grp"><button class="btn" id="zin" type="button" aria-label="Zoom ind">+</button><button class="btn" id="zout" type="button" aria-label="Zoom ud">−</button><button class="btn" id="zfit" type="button">Tilpas</button></span>
+  <button class="btn" id="print" type="button">Udskriv / gem som PDF</button>
+  <span class="spacer"></span>
+  <span class="links" id="pdfs"></span>
+</div>
+<div class="stage" id="stage"><svg id="poster" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Slægtsplakat"></svg><div class="hint">Træk for at flytte · rul eller knib for at zoome</div></div>
+
+<script>
+const DATA = __DATA__;
+const PDFS = __PDFS__;
+</script>
+<script>
+(function(){
+const P=DATA.people, byId=Object.fromEntries(P.map(p=>[p.id,p]));
+const ahn=Object.fromEntries(P.filter(p=>p.ahnen).map(p=>[p.ahnen,p]));
+const NS='http://www.w3.org/2000/svg';
+const el=(t,a={},parent)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(parent)parent.appendChild(e);return e;};
+const yr=s=>{if(!s)return null;const m=String(s).match(/\d{4}/);return m?+m[0]:null;};
+const clean=n=>n.replace(/\s*\(.*?\)/,'');
+const life=p=>p.living?'':[p.born?(String(p.born).startsWith('ca.')?p.born:yr(p.born)||p.born):'?', p.died?(yr(p.died)||p.died):''].join(' – ').replace(/ – $/,'');
+const genOf=n=>Math.floor(Math.log2(n));
+const maxG=Math.max(...Object.keys(ahn).map(n=>genOf(+n)))+1;
+const $=id=>document.getElementById(id);
+const gs=$('gens'); for(let g=3; g<=maxG; g++){ const o=document.createElement('option'); o.value=g; o.textContent=g===maxG?`${g} (alle)`:g; if(g===5) o.selected=true; gs.appendChild(o); }
+$('pdfs').innerHTML = PDFS.length? 'Færdige PDF\'er: '+PDFS.map(([t,u])=>`<a href="${u}" target="_blank" rel="noopener">${t}</a>`).join(''):'';
+
+const THEMES={
+  parch:{bg1:'#f4e9cf',bg2:'#e2cfa3',edge:'#b99a63',ink:'#3b2a17',ink2:'#6b5233',bark:'#5a3f26',bark2:'#7a5a3a',leaf:['#7f9a52','#9bb068','#6d8a48','#b3c27d'],leafOp:.33,frame:'#a9853f',frame2:'#e8d4a2',plate:'#f6ecd3',plateEdge:'#b99a63',medal:'#efe2c2',sil:'#8a6f4a',title:'#3b2a17'},
+  light:{bg1:'#fbfcfa',bg2:'#eef2ef',edge:'#c3ccc7',ink:'#1b2422',ink2:'#4d5955',bark:'#59615d',bark2:'#7d8a85',leaf:['#a9c7b4','#c4d8c9','#93b8a0','#d6e4da'],leafOp:.45,frame:'#7d8a85',frame2:'#e4e9e5',plate:'#ffffff',plateEdge:'#c3ccc7',medal:'#f3f5f2',sil:'#9aa6a1',title:'#1b2422'}
+};
+const LINEC={jorgensen:'#2a78d6',gaardsted:'#eb6834',rousing:'#1baf7a',frederiksen:'#eda100',gedde:'#e87ba4',maternal:'#8d8a80',self:'#3b2a17'};
+
+// pseudo-random, stabilt pr. person
+const rnd=seed=>{let x=seed*9301+49297;return()=>{x=(x*9301+49297)%233280;return x/233280;};};
+
+const svg=$('poster');
+let VB=null, FULL=null;
+function siblingsOf(p){ return P.filter(c=>c.id!==p.id&&((p.father&&c.father===p.father)||(p.mother&&c.mother===p.mother)||c.sibof===p.id||(p.sibof&&c.sibof===p.sibof))).sort((a,b)=>(yr(a.born)||0)-(yr(b.born)||0)); }
+
+function render(){
+  const G=+gs.value, side=+$('side').value, T=THEMES[$('style').value], showSibs=$('sibs').checked, colorLines=$('lines').checked;
+  svg.innerHTML='';
+  const inSide=n=> side===1 || n===1 || (n.toString(2)[1]===(side===2?'0':'1'));
+  // pladser: kendte aner + ukendte forældre til kendte personer i de første 3 generationer
+  const slots={};
+  (function visit(n){ if(genOf(n)>=G||!inSide(n)) return; slots[n]=ahn[n]||null; if(!ahn[n]) return; for(const c of [2*n,2*n+1]) if(genOf(c)<G&&inSide(c)&&(ahn[c]||genOf(c)<=3)) visit(c); })(1);
+  // bladrækkefølge
+  let leaf=0; const xi={};
+  (function lay(n){ const k=[2*n,2*n+1].filter(c=>c in slots); if(!k.length){ xi[n]=leaf++; return xi[n]; } const xs=k.map(lay); xi[n]=(xs[0]+xs[xs.length-1])/2; return xi[n]; })(1);
+  const gmax=Math.max(...Object.keys(slots).map(n=>genOf(+n)));
+  const COL=172, ROW=showSibs?250:212, PADX=210, TOPPAD=90, BOTTOM=300;
+  const W=Math.max(1400, leaf*COL+PADX*2), H=TOPPAD+(gmax+1)*ROW+BOTTOM;
+  const offX=(W-leaf*COL)/2;
+  const pos=n=>({x:offX+(xi[n]+.5)*COL, y:TOPPAD+(gmax-genOf(n))*ROW+70});
+  svg.setAttribute('viewBox',`0 0 ${W} ${H}`); FULL=[0,0,W,H]; VB=FULL.slice();
+
+  // baggrund
+  const defs=el('defs',{},svg);
+  const rg=el('radialGradient',{id:'bg',cx:'50%',cy:'45%',r:'75%'},defs);
+  el('stop',{offset:'0%','stop-color':T.bg1},rg); el('stop',{offset:'100%','stop-color':T.bg2},rg);
+  const flt=el('filter',{id:'grain',x:0,y:0,width:'100%',height:'100%'},defs);
+  el('feTurbulence',{type:'fractalNoise',baseFrequency:'.9',numOctaves:2,seed:7},flt);
+  el('feColorMatrix',{type:'matrix',values:'0 0 0 0 .35  0 0 0 0 .25  0 0 0 0 .1  0 0 0 .07 0'},flt);
+  el('rect',{x:0,y:0,width:W,height:H,fill:'url(#bg)'},svg);
+  el('rect',{x:22,y:22,width:W-44,height:H-44,fill:'none',stroke:T.edge,'stroke-width':3,rx:10},svg);
+  el('rect',{x:34,y:34,width:W-68,height:H-68,fill:'none',stroke:T.edge,'stroke-width':1,rx:6},svg);
+
+  // løv bag kortene
+  const foliage=el('g',{},svg);
+  for(const n of Object.keys(slots).map(Number)){ const {x,y}=pos(n); const r=rnd(n*7+3); const g=genOf(n);
+    for(let i=0;i<5;i++){ el('circle',{cx:x+(r()-.5)*COL*1.1, cy:y+(r()-.6)*ROW*.55, r:40+r()*48-g*2, fill:T.leaf[i%T.leaf.length], opacity:T.leafOp},foliage); } }
+
+  // stamme og grene
+  const branches=el('g',{fill:'none','stroke-linecap':'round'},svg);
+  const root=pos(1), groundY=H-BOTTOM+150;
+  const tw=46;
+  el('path',{d:`M${root.x-tw},${groundY} C${root.x-tw*.6},${groundY-90} ${root.x-26},${root.y+120} ${root.x-14},${root.y+40} L${root.x+14},${root.y+40} C${root.x+26},${root.y+120} ${root.x+tw*.6},${groundY-90} ${root.x+tw},${groundY} Z`,fill:T.bark,stroke:'none'},branches);
+  for(const [dx,len] of [[-1,150],[1,140],[-1,70],[1,80]]){ el('path',{d:`M${root.x+dx*20},${groundY-10} q${dx*len*.5},${10} ${dx*len},${34}`,stroke:T.bark,'stroke-width':12},branches); }
+  for(const n of Object.keys(slots).map(Number)){ if(n===1) continue; const a=pos(Math.floor(n/2)), b=pos(n), g=genOf(n);
+    const w=Math.max(3, 24-g*4.2);
+    const y1=a.y-48, y2=b.y+92;
+    el('path',{d:`M${a.x},${y1} C${a.x},${(y1+y2)/2} ${b.x},${(y1+y2)/2+20} ${b.x},${y2}`,stroke:T.bark,'stroke-width':w},branches);
+    el('path',{d:`M${a.x},${y1} C${a.x},${(y1+y2)/2} ${b.x},${(y1+y2)/2+20} ${b.x},${y2}`,stroke:T.bark2,'stroke-width':Math.max(1,w*.25),opacity:.6},branches); }
+
+  // kort
+  const cards=el('g',{},svg);
+  const sil='M0,-14 a11,12 0 1,1 0.01,0 Z M-22,26 q2,-24 22,-24 q20,0 22,24 Z';
+  for(const n of Object.keys(slots).map(Number)){
+    const p=slots[n], {x,y}=pos(n), g=genOf(n), s=Math.max(.72, 1-g*.06);
+    const c=el('g',{transform:`translate(${x},${y}) scale(${s})`},cards);
+    const ring = p&&colorLines ? LINEC[p.line]||T.frame : T.frame;
+    el('ellipse',{cx:0,cy:-6,rx:44,ry:52,fill:T.frame2,stroke:T.frame,'stroke-width':3},c);
+    el('ellipse',{cx:0,cy:-6,rx:37,ry:45,fill:T.medal,stroke:ring,'stroke-width':colorLines&&p?4:1.5},c);
+    el('path',{d:sil,transform:'translate(0,-4) scale(1.15)',fill:p?T.sil:'none',stroke:p?'none':T.sil,'stroke-dasharray':p?'':'3 3',opacity:p?.75:.6},c);
+    if(p&&p.conf!=='record'&&p.conf!=='told') el('text',{x:0,y:-38,'text-anchor':'middle',style:'font-family:var(--f-display)','font-size':12,fill:T.ink2},c).textContent='?';
+    const name=p?clean(p.name):(n%2?'Ukendt mor':'Ukendt far');
+    const lines=wrap(name, 20);
+    const sib = showSibs&&p ? siblingsOf(p) : [];
+    const sibLine = sib.length ? 'Søskende: '+sib.slice(0,3).map(q=>clean(q.name).split(' ')[0]+(yr(q.born)?` ${yr(q.born)}`:'')).join(', ')+(sib.length>3?` +${sib.length-3}`:'') : '';
+    const sibLines = sibLine? wrap(sibLine, 30) : [];
+    const ph = 22 + lines.length*17 + (p&&life(p)?15:0) + (p&&p.bplace?14:0) + sibLines.length*13;
+    el('rect',{x:-76,y:50,width:152,height:ph,rx:5,fill:T.plate,stroke:T.plateEdge,'stroke-width':1.2},c);
+    el('path',{d:`M-76,${58} l-10,-6 l0,${ph-4} l10,-6`,fill:T.plate,stroke:T.plateEdge,'stroke-width':1.2},c);
+    el('path',{d:`M76,${58} l10,-6 l0,${ph-4} l-10,-6`,fill:T.plate,stroke:T.plateEdge,'stroke-width':1.2},c);
+    let ty=68;
+    lines.forEach(t=>{ el('text',{x:0,y:ty,'text-anchor':'middle',style:'font-family:var(--f-display)','font-size':15.5,fill:p?T.ink:T.ink2},c).textContent=t; ty+=17; });
+    if(p&&life(p)){ el('text',{x:0,y:ty,'text-anchor':'middle',style:'font-family:var(--f-display)','font-size':12.5,'font-style':'italic',fill:T.ink2},c).textContent=life(p); ty+=15; }
+    if(p&&p.bplace){ el('text',{x:0,y:ty,'text-anchor':'middle',style:'font-family:var(--f-body)','font-size':10.5,fill:T.ink2},c).textContent=p.bplace; ty+=14; }
+    sibLines.forEach(t=>{ el('text',{x:0,y:ty,'text-anchor':'middle',style:'font-family:var(--f-body)','font-size':9.5,fill:T.ink2},c).textContent=t; ty+=13; });
+  }
+
+  // generationsetiketter
+  for(let g=0; g<=gmax; g++){ const y=TOPPAD+(gmax-g)*ROW+70;
+    const lab=['Dig','Forældre','Bedsteforældre','Oldeforældre','Tipoldeforældre','Tiptipoldeforældre'][g]||`${g+1}. generation`;
+    el('text',{x:58,y:y-4,style:'font-family:var(--f-sc)','font-size':15,fill:T.ink2,'letter-spacing':'.06em'},svg).textContent=lab;
+    const yrs=Object.keys(slots).map(Number).filter(n=>genOf(n)===g&&slots[n]).map(n=>yr(slots[n].born)).filter(Boolean);
+    if(yrs.length) el('text',{x:58,y:y+14,style:'font-family:var(--f-display)','font-size':12,'font-style':'italic',fill:T.ink2},svg).textContent=`født ${Math.min(...yrs)}${Math.max(...yrs)!==Math.min(...yrs)?'–'+Math.max(...yrs):''}`;
+  }
+
+  // titelbanner
+  const by=H-118, bw=Math.min(900, W*.6), bx=W/2;
+  const ban=el('g',{},svg);
+  el('path',{d:`M${bx-bw/2-70},${by-10} l40,0 l-18,30 l18,30 l-40,0 Z`,fill:T.plate,stroke:T.plateEdge,'stroke-width':2},ban);
+  el('path',{d:`M${bx+bw/2+70},${by-10} l-40,0 l18,30 l-18,30 l40,0 Z`,fill:T.plate,stroke:T.plateEdge,'stroke-width':2},ban);
+  el('path',{d:`M${bx-bw/2},${by-26} Q${bx},${by-44} ${bx+bw/2},${by-26} L${bx+bw/2},${by+56} Q${bx},${by+38} ${bx-bw/2},${by+56} Z`,fill:T.plate,stroke:T.plateEdge,'stroke-width':2.5},ban);
+  const sideTxt={1:'',2:' · fars side',3:' · mors side'}[side];
+  el('text',{x:bx,y:by+18,'text-anchor':'middle',style:'font-family:var(--f-sc)','font-size':44,fill:T.title,'letter-spacing':'.04em'},ban).textContent='Slægten Gårdsted · Gedde';
+  el('text',{x:bx,y:by+86,'text-anchor':'middle',style:'font-family:var(--f-display)','font-size':17,'font-style':'italic',fill:T.ink2},ban).textContent=`Johannes Gårdsted Valbjørns aner${sideTxt} · ${gmax+1} generationer · efter kirkebøger og folketællinger`;
+  applyVB();
+}
+function wrap(t,n){ const w=t.split(' '); const out=[]; let cur=''; for(const x of w){ if((cur+' '+x).trim().length>n && cur){ out.push(cur); cur=x; } else cur=(cur+' '+x).trim(); } if(cur) out.push(cur); return out.slice(0,3); }
+
+// ---------- zoom og panorering ----------
+const stage=$('stage');
+function applyVB(){ svg.setAttribute('viewBox',VB.join(' ')); }
+function zoomAt(f,cx,cy){ const r=svg.getBoundingClientRect(); const sx=VB[2]/r.width, sy=VB[3]/r.height, s=Math.max(sx,sy);
+  const px=VB[0]+(cx-r.left - (r.width-VB[2]/s)/2)*s, py=VB[1]+(cy-r.top-(r.height-VB[3]/s)/2)*s;
+  const nw=Math.min(FULL[2]*1.5, Math.max(FULL[2]/30, VB[2]/f)), nh=VB[3]*nw/VB[2];
+  VB=[px-(px-VB[0])*nw/VB[2], py-(py-VB[1])*nh/VB[3], nw, nh]; applyVB(); }
+stage.addEventListener('wheel',e=>{ e.preventDefault(); zoomAt(e.deltaY<0?1.15:1/1.15,e.clientX,e.clientY); },{passive:false});
+const pts=new Map(); let last=null, lastD=null;
+stage.addEventListener('pointerdown',e=>{ stage.setPointerCapture(e.pointerId); pts.set(e.pointerId,[e.clientX,e.clientY]); stage.classList.add('drag'); last=[e.clientX,e.clientY]; lastD=null; });
+stage.addEventListener('pointermove',e=>{ if(!pts.has(e.pointerId)) return; pts.set(e.pointerId,[e.clientX,e.clientY]);
+  const r=svg.getBoundingClientRect(), s=Math.max(VB[2]/r.width,VB[3]/r.height);
+  if(pts.size===2){ const [a,b]=[...pts.values()]; const d=Math.hypot(a[0]-b[0],a[1]-b[1]); if(lastD) zoomAt(d/lastD,(a[0]+b[0])/2,(a[1]+b[1])/2); lastD=d; return; }
+  if(last){ VB[0]-=(e.clientX-last[0])*s; VB[1]-=(e.clientY-last[1])*s; applyVB(); } last=[e.clientX,e.clientY]; });
+const up=e=>{ pts.delete(e.pointerId); if(!pts.size){ stage.classList.remove('drag'); last=null; } lastD=null; };
+stage.addEventListener('pointerup',up); stage.addEventListener('pointercancel',up);
+const mid=()=>{ const r=svg.getBoundingClientRect(); return [r.left+r.width/2, r.top+r.height/2]; };
+$('zin').onclick=()=>zoomAt(1.3,...mid()); $('zout').onclick=()=>zoomAt(1/1.3,...mid()); $('zfit').onclick=()=>{ VB=FULL.slice(); applyVB(); };
+$('paper').onchange=()=>{ $('pagestyle').textContent=`@page{size:${$('paper').value} landscape;margin:0}`; };
+$('print').onclick=()=>{ VB=FULL.slice(); applyVB(); window.print(); };
+['gens','side','style','sibs','lines'].forEach(id=>$(id).addEventListener('change',render));
+// forudvalg via #anker, fx #g7-mor-lys
+const h=location.hash.slice(1); if(h){ const m=h.match(/g(\d+)/); if(m&&gs.querySelector(`option[value="${m[1]}"]`)) gs.value=m[1];
+  if(/far/.test(h)) $('side').value='2'; if(/mor/.test(h)) $('side').value='3'; if(/lys/.test(h)) $('style').value='light'; if(/sosk/.test(h)) $('sibs').checked=true; }
+render();
+window.__posterReady=true;
+})();
+</script>

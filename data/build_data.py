@@ -125,8 +125,11 @@ person("p6", "Lorenz Heinrich Frederiksen", "M", ahnen=6, line="maternal", conf=
             "MyHeritage: Folketælling 1940, 'Lorens Henrick Frederiksen'"])
 person("p7", "Gerda Frederiksen", "F", ahnen=7, line="maternal", conf="record",
        born="1935-08-17", died="2019-07-18", dplace="Svendborg", spouse="p6",
-       note="Begravet på Sankt Jørgens Kirkegård i Svendborg sammen med sin mand Lorenz. Pigenavnet er endnu ukendt.",
-       src=["BillionGraves via MyHeritage (samling 10147): Gerda Frederiksen, Sankt Jørgens Kirkegård, Svendborg"])
+       note="Begravet på Sankt Jørgens Kirkegård i Svendborg sammen med sin mand Lorenz. Pigenavnet er endnu ukendt. "
+            "Familien fortæller, at hun er i familie med de Pedersen'er, der arvede Langø i Lindelse Nor på Langeland. "
+            "Langø blev købt i 1894 af husmand Marius Christensen og hustru Ane Marie, og i 1911 byggede han med sine sønner og svigersøn "
+            "den 334 m lange dæmning til Langeland. Han blev kaldt 'Kongen af Langø'. Pedersen'erne kan være efterkommere gennem en datter.",
+       src=["BillionGraves via MyHeritage (samling 10147): Gerda Frederiksen, Sankt Jørgens Kirkegård, Svendborg", "Familiens oplysninger (Langø)", "Fyens Stiftstidende: Historien om en dæmning"])
 
 # ================= Oldeforældre =================
 person("p8", "Aage Evald Oskar Jørgensen", "M", ahnen=8, line="jorgensen", born="1890-10-17", bplace="Slagelse",
