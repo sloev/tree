@@ -1,0 +1,570 @@
+0 HEAD
+1 SOUR ClaudeCode
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME Johannes /Gårdsted Valbjørn/
+1 SEX M
+1 NOTE Born Johannes Gårdsted Jørgensen.
+1 FAMC @F1@
+0 @I2@ INDI
+1 NAME Jørgen /Jørgensen/
+1 SEX M
+1 FAMS @F1@
+1 FAMC @F2@
+0 @I3@ INDI
+1 NAME Vivi /Frederiksen Gedde/
+1 SEX F
+1 FAMS @F1@
+1 FAMC @F3@
+0 @I4@ INDI
+1 NAME Evald Johannes /Gårdsted-Jørgensen/
+1 SEX M
+1 BIRT
+2 DATE 20 AUG 1922
+2 PLAC Kolind, Randers amt, Denmark
+1 OCCU Priest and teacher; parish priest of Hune 1981-89
+1 NOTE Teacher exam Silkeborg Seminarium 1953. Author. Source: Teologisk Stat/Kirkelig håndbog 2000 via litteraturpriser.dk.
+1 FAMS @F2@
+1 FAMC @F4@
+0 @I5@ INDI
+1 NAME Liss /Pedersen/
+1 SEX F
+1 NOTE Married Evald 1953 (source: litteraturpriser.dk). Unconfirmed that she is Jørgen's mother.
+1 FAMS @F2@
+0 @I6@ INDI
+1 NAME Lorenz /Frederiksen/
+1 SEX M
+1 FAMS @F3@
+0 @I8@ INDI
+1 NAME Aage Evald Oskar /Jørgensen/
+1 SEX M
+1 BIRT
+2 DATE 17 OCT 1890
+2 PLAC Slagelse Sankt Mikkel, Sorø amt, Denmark
+1 OCCU Night watchman, Copenhagen (1918); servant/farmhand in Kolind (1921)
+1 NOTE Identification as Evald's father is inferred: in the 1921 census he lives in Kolind in the household of Johanne Marie Gaardsted's mother; Evald (b. Kolind 1922) carries his name Evald and hers (Johanne->Johannes, Gaardsted). Confirm in Kolind church book 1922.
+1 FAMS @F4@
+1 FAMC @F5@
+0 @I16@ INDI
+1 NAME Jørgen Anton /Jørgensen/
+1 SEX M
+1 BIRT
+2 DATE 6 OCT 1857
+2 PLAC Vor Frue, København, Denmark
+1 DEAT
+2 DATE 4 AUG 1914
+2 PLAC Slagelse Sankt Mikkel, Sorø amt, Denmark
+1 OCCU Typographer (Sorø Amts Bogtrykkeri, Slagelse)
+1 NOTE Later records give birth year 1858.
+1 FAMS @F5@
+1 FAMC @F6@
+0 @I17@ INDI
+1 NAME Lovisa (Louise) /Larsson/
+1 SEX F
+1 BIRT
+2 DATE 28 JUN 1862
+2 PLAC Malmö, Sweden
+1 DEAT
+2 DATE 12 OCT 1910
+2 PLAC Slagelse Sankt Mikkel, Sorø amt, Denmark
+1 OCCU Housemaid in Copenhagen (1885)
+1 NOTE Father: Niels Larsen.
+1 FAMS @F5@
+1 FAMC @F7@
+0 @I32@ INDI
+1 NAME Niels /Jørgensen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1826
+2 PLAC Svendborg amt, Denmark (parish written 'Hove'/'Høje')
+1 DEAT
+2 DATE BET 1885 AND 1892
+2 PLAC København
+1 OCCU Grocer (høker) 1860; labourer (arbejdsmand) 1880-85
+1 FAMS @F6@
+0 @I33@ INDI
+1 NAME Johanne Sophie /Hansen/
+1 SEX F
+1 BIRT
+2 DATE ABT 1825
+2 PLAC Viby sogn, Roskilde amt, Denmark
+1 DEAT
+2 DATE ABT 1910
+2 PLAC København
+1 OCCU Widow on old-age support (1901)
+1 FAMS @F6@
+0 @I34@ INDI
+1 NAME Niels /Larsen/
+1 SEX M
+1 NOTE Swedish; known only from daughter's death record.
+1 FAMS @F7@
+0 @I40@ INDI
+1 NAME Johanne Marie Margrethe /Jørgensen/
+1 SEX F
+1 BIRT
+2 DATE 21 OCT 1886
+2 PLAC Copenhagen
+1 FAMC @F5@
+0 @I41@ INDI
+1 NAME Niels Sophus Holger /Jørgensen/
+1 SEX M
+1 BIRT
+2 DATE 21 OCT 1886
+2 PLAC Copenhagen
+1 FAMC @F5@
+0 @I42@ INDI
+1 NAME Agnes Ingeborg /Jørgensen/
+1 SEX F
+1 BIRT
+2 DATE 30 JUL 1888
+2 PLAC Copenhagen
+1 FAMC @F5@
+0 @I43@ INDI
+1 NAME Karl Alfred Peter /Jørgensen/
+1 SEX M
+1 BIRT
+2 DATE 24 OCT 1892
+2 PLAC Slagelse
+1 FAMC @F5@
+0 @I44@ INDI
+1 NAME Ellen Sophie Elisabeth /Jørgensen/
+1 SEX F
+1 BIRT
+2 DATE 7 JAN 1895
+2 PLAC Slagelse
+1 FAMC @F5@
+0 @I45@ INDI
+1 NAME Anna Louise Mathilde /Jørgensen/
+1 SEX F
+1 BIRT
+2 DATE 26 DEC 1899
+2 PLAC Slagelse
+1 FAMC @F5@
+0 @I46@ INDI
+1 NAME Hans Sophus Frederik /Jørgensen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1855
+2 PLAC København
+1 OCCU Passementmaker
+1 FAMC @F6@
+0 @I47@ INDI
+1 NAME Anna Margrethe /Jørgensen/
+1 SEX F
+1 BIRT
+2 DATE 18 NOV 1855
+2 PLAC København
+1 OCCU Dressmaker
+1 FAMC @F6@
+0 @I48@ INDI
+1 NAME Peter /Jørgensen/
+1 SEX M
+1 BIRT
+2 DATE 5 APR 1862
+2 PLAC København
+1 OCCU Shoemaker
+1 FAMC @F6@
+0 @I49@ INDI
+1 NAME Agnes Mathilde /Jørgensen/
+1 SEX F
+1 BIRT
+2 DATE 3 AUG 1871
+2 PLAC København
+1 OCCU Dressmaker
+1 FAMC @F6@
+0 @I9@ INDI
+1 NAME Johanne Marie /Gaardsted/
+1 SEX F
+1 BIRT
+2 DATE 29 JAN 1879
+2 PLAC Ebeltoft, Randers amt, Denmark
+1 OCCU Servant (1911); living with widowed mother in Kolind (1921)
+1 FAMS @F4@
+1 FAMC @F8@
+0 @I18@ INDI
+1 NAME Hans Peter /Gaardsted/
+1 SEX M
+1 BIRT
+2 DATE 3 MAY 1852
+2 PLAC Tirstrup, Randers amt, Denmark
+1 DEAT
+2 DATE 26 MAR 1913
+2 PLAC Kolind, Randers amt, Denmark
+1 OCCU Farmhand in Ebeltoft (1880); smallholder/house-owner farmer in Kolind (1901)
+1 NOTE Owned the smallholding 'Petersminde' on Højsletvej, Kolind (local history).
+1 FAMS @F8@
+1 FAMC @F10@
+0 @I19@ INDI
+1 NAME Rasmine Christine /Andersen/
+1 SEX F
+1 BIRT
+2 DATE 16 SEP 1855
+2 PLAC Fuglslev, Randers amt, Denmark
+1 NOTE Widow in Kolind 1916 and 1921.
+1 FAMS @F8@
+1 FAMC @F11@
+0 @I36@ INDI
+1 NAME Joachim (Jochum) /Gaardsted/
+1 SEX M
+1 BIRT
+2 DATE ABT 1791
+2 PLAC Skødstrup sogn, Denmark
+1 DEAT
+2 DATE 18 JUN 1865
+2 PLAC Tirstrup, Randers amt, Denmark
+1 OCCU Farmer and parish bailiff (gårdmand og sognefoged), Tirstrup
+1 FAMS @F9@
+1 FAMS @F10@
+0 @I37@ INDI
+1 NAME Ane Sophie /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1812
+2 PLAC Rosmus sogn, Randers amt, Denmark
+1 DEAT
+2 DATE 27 FEB 1886
+2 PLAC Tirstrup, Randers amt, Denmark
+1 FAMS @F10@
+0 @I39x@ INDI
+1 NAME Marie Kjerstine /Christensdatter/
+1 SEX F
+1 NOTE Joachim's first wife.
+1 FAMS @F9@
+0 @I50@ INDI
+1 NAME Claus Christian /Gaardsted/
+1 SEX M
+1 BIRT
+2 DATE 28 JUL 1832
+2 PLAC Tirstrup
+1 DEAT
+2 DATE 1863
+2 PLAC Thorsager
+1 FAMC @F9@
+0 @I51@ INDI
+1 NAME Marie Kirstine /Gaardsted/
+1 SEX F
+1 BIRT
+2 DATE ABT 1839
+2 PLAC Tirstrup
+1 FAMC @F10@
+0 @I52@ INDI
+1 NAME Jens /Gaardsted/
+1 SEX M
+1 BIRT
+2 DATE ABT 1841
+2 PLAC Tirstrup
+1 DEAT
+2 DATE 1914
+2 PLAC Tirstrup
+1 OCCU Farm owner, Tirstrup
+1 FAMC @F10@
+0 @I53@ INDI
+1 NAME Mette Marie /Gaardsted/
+1 SEX F
+1 BIRT
+2 DATE 1844
+2 PLAC Tirstrup
+1 DEAT
+2 DATE 1847
+2 PLAC Tirstrup
+1 FAMC @F10@
+0 @I54@ INDI
+1 NAME Johanne /Gaardsted/
+1 SEX F
+1 BIRT
+2 DATE 1847
+2 PLAC Tirstrup
+1 FAMC @F10@
+0 @I55@ INDI
+1 NAME Ernst Adolph /Gaardsted/
+1 SEX M
+1 BIRT
+2 DATE 1849
+2 PLAC Tirstrup
+1 FAMC @F10@
+0 @I60@ INDI
+1 NAME Sofie /Gaardsted/
+1 SEX F
+1 BIRT
+2 DATE ABT 1881
+2 PLAC Ebeltoft
+1 FAMC @F8@
+0 @I61@ INDI
+1 NAME Agnes Kristiane /Gaardsted/
+1 SEX F
+1 BIRT
+2 DATE 1883
+2 PLAC Kolind
+1 FAMC @F8@
+0 @I62@ INDI
+1 NAME Jokum /Gaardsted/
+1 SEX M
+1 BIRT
+2 DATE ABT 1886
+2 PLAC Kolind
+1 FAMC @F8@
+0 @I63@ INDI
+1 NAME Martin Marinus /Gaardsted/
+1 SEX M
+1 BIRT
+2 DATE 10 NOV 1888
+2 PLAC Kolind
+1 FAMC @F8@
+0 @I64@ INDI
+1 NAME Axel Villiam /Gaardsted/
+1 SEX M
+1 BIRT
+2 DATE 20 AUG 1891
+2 PLAC Kolind
+1 DEAT
+2 DATE 7 MAR 1894
+2 PLAC Kolind
+1 FAMC @F8@
+0 @I65@ INDI
+1 NAME Jensine Mariane Magdalene /Gaardsted/
+1 SEX F
+1 BIRT
+2 DATE 6 JUN 1894
+2 PLAC Kolind
+1 FAMC @F8@
+0 @I66@ INDI
+1 NAME Petra Ottine /Gaardsted/
+1 SEX F
+1 BIRT
+2 DATE 25 FEB 1897
+2 PLAC Kolind
+1 FAMC @F8@
+0 @I67@ INDI
+1 NAME Axel Vilhelm Alfred /Gaardsted/
+1 SEX M
+1 BIRT
+2 DATE 5 DEC 1900
+2 PLAC Kolind
+1 FAMC @F8@
+0 @I38@ INDI
+1 NAME Anders Rasmussen /Rousing/
+1 SEX M
+1 BIRT
+2 DATE 12 MAR 1818
+2 PLAC Fuglslev, Randers amt, Denmark
+1 DEAT
+2 DATE 20 DEC 1886
+2 PLAC Fuglslev, Randers amt, Denmark
+1 OCCU Farmer (gårdmand), Fuglslev
+1 FAMS @F11@
+1 FAMC @F12@
+0 @I39@ INDI
+1 NAME Mariane /Hansdatter/
+1 SEX F
+1 BIRT
+2 DATE 11 APR 1817
+2 PLAC Fuglslev, Randers amt, Denmark
+1 DEAT
+2 DATE 26 JUL 1885
+2 PLAC Fuglslev, Randers amt, Denmark
+1 OCCU Servant at Fuglslev mill (1834-40)
+1 FAMS @F11@
+1 FAMC @F13@
+0 @I76@ INDI
+1 NAME Rasmus Jensen /Rousing/
+1 SEX M
+1 BIRT
+2 DATE ABT 1780
+2 PLAC Fuglslev
+1 DEAT
+2 DATE 25 MAY 1858
+2 PLAC Fuglslev (probable)
+1 OCCU Freeholder farmer and parish bailiff (selvejer gårdmand og sognefoged)
+1 FAMS @F12@
+1 FAMC @F14@
+0 @I77@ INDI
+1 NAME Karen /Christensdatter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1780
+1 DEAT
+2 DATE 25 APR 1855
+2 PLAC Fuglslev
+1 FAMS @F12@
+0 @I78@ INDI
+1 NAME Hans /Jacobsen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1794
+1 FAMS @F13@
+0 @I79@ INDI
+1 NAME Maren /Rasmusdatter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1798
+1 FAMS @F13@
+0 @I152@ INDI
+1 NAME Jens /Rasmussen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1755
+1 OCCU Farmer (bonde og gårdbeboer), Fuglslev
+1 NOTE Probable father of Rasmus Jensen (1801 census household).
+1 FAMS @F14@
+1 FAMC @F15@
+0 @I153@ INDI
+1 NAME Margrethe /Christensdatter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1758
+1 NOTE Probable mother of Rasmus Jensen.
+1 FAMS @F14@
+0 @I304@ INDI
+1 NAME Rasmus /Jensen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1718
+1 OCCU Farmer (bonde og gårdmand), Fuglslev 1787
+1 NOTE Possible father of Jens Rasmussen - naming pattern only.
+1 FAMS @F15@
+0 @I70@ INDI
+1 NAME Rasmus /Andersen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1845
+2 PLAC Fuglslev
+1 FAMC @F11@
+0 @I71@ INDI
+1 NAME Hans /Andersen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1847
+2 PLAC Fuglslev
+1 FAMC @F11@
+0 @I72@ INDI
+1 NAME Søren /Andersen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1850
+2 PLAC Fuglslev
+1 FAMC @F11@
+0 @I73@ INDI
+1 NAME Jensine Caroline /Andersen/
+1 SEX F
+1 BIRT
+2 DATE ABT 1852
+2 PLAC Fuglslev
+1 FAMC @F11@
+0 @I80@ INDI
+1 NAME Christen /Rasmussen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1812
+2 PLAC Fuglslev
+1 FAMC @F12@
+0 @I81@ INDI
+1 NAME Jens Christian /Rasmussen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1816
+2 PLAC Fuglslev
+1 FAMC @F12@
+0 @F1@ FAM
+1 HUSB @I2@
+1 WIFE @I3@
+1 CHIL @I1@
+0 @F2@ FAM
+1 HUSB @I4@
+1 WIFE @I5@
+1 CHIL @I2@
+1 MARR
+2 DATE 1953
+0 @F3@ FAM
+1 HUSB @I6@
+1 CHIL @I3@
+0 @F4@ FAM
+1 HUSB @I8@
+1 WIFE @I9@
+1 CHIL @I4@
+0 @F5@ FAM
+1 HUSB @I16@
+1 WIFE @I17@
+1 CHIL @I40@
+1 CHIL @I41@
+1 CHIL @I42@
+1 CHIL @I8@
+1 CHIL @I43@
+1 CHIL @I44@
+1 CHIL @I45@
+1 MARR
+2 DATE 31 JAN 1886
+2 PLAC Sankt Johannes, København
+0 @F6@ FAM
+1 HUSB @I32@
+1 WIFE @I33@
+1 CHIL @I46@
+1 CHIL @I47@
+1 CHIL @I16@
+1 CHIL @I48@
+1 CHIL @I49@
+0 @F7@ FAM
+1 HUSB @I34@
+1 CHIL @I17@
+0 @F8@ FAM
+1 HUSB @I18@
+1 WIFE @I19@
+1 CHIL @I9@
+1 CHIL @I60@
+1 CHIL @I61@
+1 CHIL @I62@
+1 CHIL @I63@
+1 CHIL @I64@
+1 CHIL @I65@
+1 CHIL @I66@
+1 CHIL @I67@
+0 @F9@ FAM
+1 HUSB @I36@
+1 WIFE @I39x@
+1 CHIL @I50@
+0 @F10@ FAM
+1 HUSB @I36@
+1 WIFE @I37@
+1 CHIL @I51@
+1 CHIL @I52@
+1 CHIL @I53@
+1 CHIL @I54@
+1 CHIL @I55@
+1 CHIL @I18@
+1 MARR
+2 DATE 19 OCT 1833
+2 PLAC Rosmus
+0 @F11@ FAM
+1 HUSB @I38@
+1 WIFE @I39@
+1 CHIL @I70@
+1 CHIL @I71@
+1 CHIL @I72@
+1 CHIL @I73@
+1 CHIL @I19@
+1 MARR
+2 DATE 3 SEP 1841
+2 PLAC Fuglslev
+0 @F12@ FAM
+1 HUSB @I76@
+1 WIFE @I77@
+1 CHIL @I80@
+1 CHIL @I81@
+1 CHIL @I38@
+0 @F13@ FAM
+1 HUSB @I78@
+1 WIFE @I79@
+1 CHIL @I39@
+1 MARR
+2 DATE 6 JUL 1817
+2 PLAC Fuglslev
+0 @F14@ FAM
+1 HUSB @I152@
+1 WIFE @I153@
+1 CHIL @I76@
+0 @F15@ FAM
+1 HUSB @I304@
+1 CHIL @I152@
+0 TRLR
