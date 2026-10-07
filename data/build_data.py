@@ -185,8 +185,12 @@ person("p62", "Marius Michelsen Christensen", "M", ahnen=62, line="larsen", born
        res=[(1858, "Rudkøbing", "født"), (1883, "Rudkøbing", "gift"), (1894, "Langø, Lindelse Nor", "købte Langø"), (1921, "Langø, Lindelse Nor", "")],
        note="'Kongen af Langø'. Han købte øen Langø i Lindelse Nor i 1894 sammen med hustruen Ane Marie, og i 1911 byggede han med håndkraft "
             "og hjælp fra sønner og svigersøn den 334 m lange dæmning, som gjorde øen landfast. Ifølge familien gik Langø senere i arv til "
-            "efterkommere med navnet Pedersen. Flere af familiens slægtninge fra Sydlangeland udvandrede til Amerika.",
-       src=["LL:12-15570702", "LL:13-5085956", "LL:9-1827830", "LL:24-817715", "LL:25-805444", "Fyens Stiftstidende: Historien om en dæmning"])
+            "efterkommere med navnet Pedersen. Flere af familiens slægtninge fra Sydlangeland udvandrede til Amerika. "
+            "Barnebarnet Lisbeth Skov, født Christensen, fortæller i 'En Langø-piges erindringer', at øen før 1894 havde hørt under "
+            "Hjortholm gods og siden tre gårde i Haugbølle, som brugte den til græsning: kreaturerne blev svømmet over om foråret og hjem om efteråret. "
+            "En skomager havde købt øen og bygget et simpelt hus, men den kom på tvangsauktion, hvorefter Marius og Ane Marie købte den.",
+       src=["LL:12-15570702", "LL:13-5085956", "LL:9-1827830", "LL:24-817715", "LL:25-805444", "Fyens Stiftstidende: Historien om en dæmning",
+            "Lisbeth Skov f. Christensen: En Langø-piges erindringer (privattryk, familiens eksemplar)"])
 person("p63", "Ane Marie Jørgensen", "F", ahnen=63, line="larsen", born="1859-09-07", bplace="Skrøbelev", spouse="p62",
        res=[(1894, "Langø, Lindelse Nor", "")], src=["LL:13-5085957", "LL:9-1827831", "LL:25-805445"])
 person("p124", "Christen Michelsen", "M", ahnen=124, line="larsen", spouse="p125", src=["LL:12-15570703"])
@@ -639,6 +643,9 @@ CATS = [("Kirke og præstegerning", ["præst", "kordegn"]), ("Undervisning og fo
         ("Handel og vognmand", ["høker", "købmand", "vognmand"]), ("Fattigvæsen", ["fattiggård"])]
 
 PHOTOS = [
+    dict(file="images/langoe-erindringer.jpg", title="En Langø-piges erindringer",
+         caption="Lisbeth Skov, født Christensen, barnebarn af Marius og Ane Marie: 'Min farfar og farmor, Marius og Ane Marie Christensen købte Langø i 1894.' Med luftfoto af dæmningen og stuehuset på Langø.",
+         credit="Familiens eksemplar", link="https://da.wikipedia.org/wiki/Lindelse_Nor"),
     dict(file="images/sophus-daab-nybol-1903.jpg", title="Sophus' dåb, Nybøl 1903",
          caption="Nybøl kirkebog 1903 nr. 12: døbt 24. juli, født 28. juni, 'Sophus', ægte søn af gårdmand Peter Petersen og hustru Anna Cathrine Marie f. Petersen i Nybøl.",
          credit="Rigsarkivet, Arkivalieronline", link="https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=17217126"),
