@@ -31,9 +31,11 @@ YOU  Johannes Gårdsted Valbjørn ✅
 │  │           ├─ Hans Jacobsen 📜 c.1794
 │  │           └─ Maren Rasmusdatter 📜 c.1798
 │  └─ Liss Gaardsted-Jørgensen (née Pedersen) 📜  b. 18 Apr 1931 – d. 2002 · parish clerk
+│        (one of 7 children; sisters incl. Karen Margrethe Enevoldsen and Ane Elvira Pedersen)
 └─ Vivi Frederiksen Gedde ✅
-   ├─ Lorenz Frederiksen ✅  (born out of wedlock; biological father unknown)
-   └─ Gerda ✅
+   ├─ Lorenz Heinrich Frederiksen 📜  b. 12 Jan 1932 – d. 6 May 2009 · buried Sankt Jørgens Kirkegård, Svendborg
+   │     (born out of wedlock; biological father unknown)
+   └─ Gerda Frederiksen 📜  b. 17 Aug 1935 – d. 18 Jul 2019 · buried Sankt Jørgens Kirkegård, Svendborg
 ```
 
 ## What's new this round
@@ -52,13 +54,16 @@ YOU  Johannes Gårdsted Valbjørn ✅
   - Midtdjurs Lokalhistoriske Arkiv A847: Johanne and Sofie Gaardsted's memoirs of Petersminde, Kolind.
 
 ## Still open
-- **Lorenz Frederiksen and Gerda.** I need birth dates and places. An illegitimate child is often baptised under the mother's surname, and the birth entry names the mother and sometimes the alleged father.
+- **Lorenz's birthplace.** He is not in the Svendborg Vor Frue or Sankt Nikolaj birth registers for January 1932, so he was born somewhere else. The name Lorenz Heinrich points to Southern Jutland. The MyHeritage 1940 census record ("Lorens Henrick Frederiksen") should name the place.
+- **Gerda's maiden name.**
 - **Liss's parents.** Her birth parish would unlock the Pedersen line.
 - **Claus Gaardsted's origins.** He came to Vosnæsgaard after 1784, and his first marriage was elsewhere.
 - **Lovisa Larsson.** Her line continues in Swedish records (Malmö, 1862; father Niels Larsen).
 - **Niels Jørgensen's birthplace.** It is written "Hove/Høje, Svendborg amt", and I couldn't identify that parish.
 
 ## Sources
+- BillionGraves via MyHeritage (collection 10147): the grave of Lorenz H. Frederiksen and Gerda Frederiksen at Sankt Jørgens Kirkegård, Svendborg.
+- FamilySearch Family Tree: Liss Jørgensen (née Pedersen), 1931–2002.
 - Rigsarkivet: Link Lives (indexed church books 1557–1917, censuses 1787–1921) and Arkivalieronline (original church-book images).
 - Danish Family Search (1925 and 1940 censuses).
 - arkiv.dk (Hadsten, Svendborg, Saltum, Aalborg, Egebjerg and Midtdjurs archives).

@@ -18,7 +18,8 @@
    "res": [],
    "father": "p2",
    "mother": "p3",
-   "living": true
+   "living": true,
+   "sibof": null
   },
   {
    "id": "p2",
@@ -38,7 +39,8 @@
    "res": [],
    "father": "p4",
    "mother": "p5",
-   "living": true
+   "living": true,
+   "sibof": null
   },
   {
    "id": "p3",
@@ -58,7 +60,8 @@
    "res": [],
    "father": "p6",
    "mother": "p7",
-   "living": true
+   "living": true,
+   "sibof": null
   },
   {
    "id": "u1",
@@ -78,7 +81,8 @@
    "res": [],
    "father": "p4",
    "mother": "p5",
-   "living": true
+   "living": true,
+   "sibof": null
   },
   {
    "id": "u2",
@@ -98,7 +102,8 @@
    "res": [],
    "father": "p4",
    "mother": "p5",
-   "living": true
+   "living": true,
+   "sibof": null
   },
   {
    "id": "p4",
@@ -178,7 +183,8 @@
    ],
    "father": "p8",
    "mother": "p9",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p5",
@@ -195,10 +201,11 @@
     "Parish clerk (kordegn), trained in Hune"
    ],
    "conf": "record",
-   "note": "Married Evald 1953. Birth date from Evald's personal archive (Hadsten Lokalarkiv). Her parents are not yet identified.",
+   "note": "Married Evald 1953, aged 22; three sons (Jørgen, Arne, Ole). One of seven children; siblings include Karen Margrethe Enevoldsen (née Pedersen) and Ane Elvira Pedersen. Birth date from Evald's personal archive (Hadsten Lokalarkiv). Her parents are not yet identified.",
    "src": [
     "ARK:2162357",
-    "litteraturpriser.dk"
+    "litteraturpriser.dk",
+    "FamilySearch Family Tree: Liss Jørgensen (født Pedersen) 1931–2002"
    ],
    "res": [
     [
@@ -214,47 +221,56 @@
    ],
    "father": null,
    "mother": null,
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p6",
-   "name": "Lorenz Frederiksen",
+   "name": "Lorenz Heinrich Frederiksen",
    "sex": "M",
    "ahnen": 6,
    "line": "maternal",
    "rel": null,
-   "born": null,
+   "born": "1932-01-12",
    "bplace": null,
-   "died": null,
-   "dplace": null,
+   "died": "2009-05-06",
+   "dplace": "Svendborg",
    "occ": [],
-   "conf": "told",
-   "note": "Born out of wedlock; the man he grew up with as father was not his biological father. No public record found yet: needs his birth date and parish.",
-   "src": [],
+   "conf": "record",
+   "note": "Buried at Sankt Jørgens Kirkegård, Svendborg, with his wife Gerda. Born out of wedlock: the man he grew up with as father was not his biological father (family information). A 1940 census record exists under the spelling 'Lorens Henrick Frederiksen' (MyHeritage). His birth is not in the Svendborg Vor Frue or Sankt Nikolaj registers for January 1932, so he was born elsewhere; the name Lorenz Heinrich suggests Southern Jutland.",
+   "src": [
+    "BillionGraves via MyHeritage (collection 10147): Lorenz H. [Lorenz Heinrich] Frederiksen, Sankt Jørgens Kirkegård, Svendborg",
+    "MyHeritage: 1940 Denmark Census, 'Lorens Henrick Frederiksen' (related record, not yet viewed)",
+    "AO: Svendborg Vor Frue & Sankt Nikolaj birth registers 1932 checked, no entry (negative search)"
+   ],
    "res": [],
    "father": null,
    "mother": null,
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p7",
-   "name": "Gerda",
+   "name": "Gerda Frederiksen",
    "sex": "F",
    "ahnen": 7,
    "line": "maternal",
    "rel": null,
-   "born": null,
+   "born": "1935-08-17",
    "bplace": null,
-   "died": null,
-   "dplace": null,
+   "died": "2019-07-18",
+   "dplace": "Svendborg",
    "occ": [],
-   "conf": "told",
-   "note": "Maiden name not yet known.",
-   "src": [],
+   "conf": "record",
+   "note": "Buried at Sankt Jørgens Kirkegård, Svendborg, with her husband Lorenz. Maiden name not yet known.",
+   "src": [
+    "BillionGraves via MyHeritage (collection 10147): Gerda Frederiksen, Sankt Jørgens Kirkegård, Svendborg"
+   ],
    "res": [],
    "father": null,
    "mother": null,
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p8",
@@ -311,7 +327,8 @@
    ],
    "father": "p16",
    "mother": "p17",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p9",
@@ -360,7 +377,8 @@
    ],
    "father": "p18",
    "mother": "p19",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_ester",
@@ -382,7 +400,8 @@
    "res": [],
    "father": "p8",
    "mother": "p9",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p16",
@@ -433,7 +452,8 @@
    ],
    "father": "p32",
    "mother": "p33",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p17",
@@ -475,7 +495,8 @@
    ],
    "father": "p34",
    "mother": null,
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p18",
@@ -519,7 +540,8 @@
    ],
    "father": "p36",
    "mother": "p37",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p19",
@@ -565,7 +587,8 @@
    ],
    "father": "p38",
    "mother": "p39",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p32",
@@ -603,7 +626,8 @@
    ],
    "father": null,
    "mother": null,
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p33",
@@ -629,7 +653,8 @@
    "res": [],
    "father": null,
    "mother": null,
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p34",
@@ -651,7 +676,8 @@
    "res": [],
    "father": null,
    "mother": null,
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p36",
@@ -701,7 +727,8 @@
    ],
    "father": "p72",
    "mother": "p73",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p37",
@@ -725,7 +752,8 @@
    "res": [],
    "father": null,
    "mother": null,
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p38",
@@ -754,7 +782,8 @@
    "res": [],
    "father": "p76",
    "mother": "p77",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p39",
@@ -780,7 +809,8 @@
    "res": [],
    "father": "p78",
    "mother": "p79",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p72",
@@ -819,7 +849,8 @@
    ],
    "father": null,
    "mother": null,
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p73",
@@ -842,7 +873,8 @@
    "res": [],
    "father": null,
    "mother": null,
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p76",
@@ -868,7 +900,8 @@
    "res": [],
    "father": "p152",
    "mother": "p153",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p77",
@@ -891,7 +924,8 @@
    "res": [],
    "father": null,
    "mother": null,
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p78",
@@ -914,7 +948,8 @@
    "res": [],
    "father": null,
    "mother": null,
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p79",
@@ -936,7 +971,8 @@
    "res": [],
    "father": null,
    "mother": null,
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p152",
@@ -961,7 +997,8 @@
    "res": [],
    "father": "p304",
    "mother": null,
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p153",
@@ -983,7 +1020,8 @@
    "res": [],
    "father": null,
    "mother": null,
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "p304",
@@ -1007,7 +1045,8 @@
    "res": [],
    "father": null,
    "mother": null,
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p16_0",
@@ -1027,7 +1066,8 @@
    "res": [],
    "father": "p16",
    "mother": "p17",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p16_1",
@@ -1047,7 +1087,8 @@
    "res": [],
    "father": "p16",
    "mother": "p17",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p16_2",
@@ -1067,7 +1108,8 @@
    "res": [],
    "father": "p16",
    "mother": "p17",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p16_3",
@@ -1087,7 +1129,8 @@
    "res": [],
    "father": "p16",
    "mother": "p17",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p16_4",
@@ -1107,7 +1150,8 @@
    "res": [],
    "father": "p16",
    "mother": "p17",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p16_5",
@@ -1127,7 +1171,8 @@
    "res": [],
    "father": "p16",
    "mother": "p17",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p32_0",
@@ -1149,7 +1194,8 @@
    "res": [],
    "father": "p32",
    "mother": "p33",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p32_1",
@@ -1171,7 +1217,8 @@
    "res": [],
    "father": "p32",
    "mother": "p33",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p32_2",
@@ -1193,7 +1240,8 @@
    "res": [],
    "father": "p32",
    "mother": "p33",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p32_3",
@@ -1215,7 +1263,8 @@
    "res": [],
    "father": "p32",
    "mother": "p33",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p18_0",
@@ -1237,7 +1286,8 @@
    "res": [],
    "father": "p18",
    "mother": "p19",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p18_1",
@@ -1259,7 +1309,8 @@
    "res": [],
    "father": "p18",
    "mother": "p19",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p18_2",
@@ -1281,7 +1332,8 @@
    "res": [],
    "father": "p18",
    "mother": "p19",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p18_3",
@@ -1301,7 +1353,8 @@
    "res": [],
    "father": "p18",
    "mother": "p19",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p18_4",
@@ -1323,7 +1376,8 @@
    "res": [],
    "father": "p18",
    "mother": "p19",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p18_5",
@@ -1343,7 +1397,8 @@
    "res": [],
    "father": "p18",
    "mother": "p19",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p18_6",
@@ -1363,7 +1418,8 @@
    "res": [],
    "father": "p18",
    "mother": "p19",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p18_7",
@@ -1383,7 +1439,8 @@
    "res": [],
    "father": "p18",
    "mother": "p19",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p36_0",
@@ -1403,7 +1460,8 @@
    "res": [],
    "father": "p36",
    "mother": "p37",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p36_1",
@@ -1425,7 +1483,8 @@
    "res": [],
    "father": "p36",
    "mother": "p37",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p36_2",
@@ -1445,7 +1504,8 @@
    "res": [],
    "father": "p36",
    "mother": "p37",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p36_3",
@@ -1465,7 +1525,8 @@
    "res": [],
    "father": "p36",
    "mother": "p37",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p36_4",
@@ -1485,7 +1546,8 @@
    "res": [],
    "father": "p36",
    "mother": "p37",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_claus_ch",
@@ -1505,7 +1567,8 @@
    "res": [],
    "father": "p36",
    "mother": null,
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p72_0",
@@ -1527,7 +1590,8 @@
    "res": [],
    "father": "p72",
    "mother": "p73",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p72_1",
@@ -1547,7 +1611,8 @@
    "res": [],
    "father": "p72",
    "mother": "p73",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p38_0",
@@ -1567,7 +1632,8 @@
    "res": [],
    "father": "p38",
    "mother": "p39",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p38_1",
@@ -1587,7 +1653,8 @@
    "res": [],
    "father": "p38",
    "mother": "p39",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p38_2",
@@ -1607,7 +1674,8 @@
    "res": [],
    "father": "p38",
    "mother": "p39",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p38_3",
@@ -1627,7 +1695,8 @@
    "res": [],
    "father": "p38",
    "mother": "p39",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p76_0",
@@ -1647,7 +1716,8 @@
    "res": [],
    "father": "p76",
    "mother": "p77",
-   "living": false
+   "living": false,
+   "sibof": null
   },
   {
    "id": "s_p76_1",
@@ -1667,7 +1737,54 @@
    "res": [],
    "father": "p76",
    "mother": "p77",
-   "living": false
+   "living": false,
+   "sibof": null
+  },
+  {
+   "id": "s_liss_1",
+   "name": "Karen Margrethe Enevoldsen (née Pedersen)",
+   "sex": "F",
+   "ahnen": null,
+   "line": "jorgensen",
+   "rel": "Liss's sister",
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "FamilySearch Family Tree"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": "p5"
+  },
+  {
+   "id": "s_liss_2",
+   "name": "Ane Elvira Pedersen",
+   "sex": "F",
+   "ahnen": null,
+   "line": "jorgensen",
+   "rel": "Liss's sister",
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "FamilySearch Family Tree"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": "p5"
   }
  ],
  "places": {
@@ -1898,6 +2015,10 @@
   [
    "Fuglslev Church",
    "https://arkiv.dk/vis/6189757"
+  ],
+  [
+   "Grave of Lorenz H. Frederiksen and Gerda Frederiksen, Sankt Jørgens Kirkegård, Svendborg (BillionGraves record on MyHeritage)",
+   "https://www.myheritage.dk/research/collection-10147/billiongraves?itemId=1483464614&action=showRecord"
   ],
   [
    "Petersminde memoirs of Johanne & Sofie Gaardsted (archive)",

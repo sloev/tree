@@ -114,23 +114,41 @@
 1 RESI
 2 DATE 1981
 2 PLAC Hune
-1 NOTE Married Evald 1953. Birth date from Evald's personal archive (Hadsten Lokalarkiv). Her parents are not yet identified.
+1 NOTE Married Evald 1953, aged 22; three sons (Jørgen, Arne, Ole). One of seven children; siblings include Karen Margrethe Enevoldsen (née Pedersen) and Ane Elvira Pedersen. Birth date from Evald's personal archive (Hadsten Lokalarkiv). Her parents are not yet identified.
 1 SOUR
 2 PAGE ARK:2162357
 1 SOUR
 2 PAGE litteraturpriser.dk
+1 SOUR
+2 PAGE FamilySearch Family Tree: Liss Jørgensen (født Pedersen) 1931–2002
 1 FAMS @F2@
 0 @p6@ INDI
-1 NAME Lorenz /Frederiksen/
+1 NAME Lorenz Heinrich /Frederiksen/
 1 SEX M
-1 NOTE Born out of wedlock; the man he grew up with as father was not his biological father. No public record found yet: needs his birth date and parish.
-1 NOTE Confidence: told
+1 BIRT
+2 DATE 12 JAN 1932
+1 DEAT
+2 DATE 6 MAY 2009
+2 PLAC Svendborg, Denmark
+1 NOTE Buried at Sankt Jørgens Kirkegård, Svendborg, with his wife Gerda. Born out of wedlock: the man he grew up with as father was not his biological father (family information). A 1940 census record exists under the spelling 'Lorens Henrick Frederiksen' (MyHeritage). His birth is not in the Svendborg Vor Frue or Sankt Nikolaj registers for January 1932, so he was born elsewhere; the name Lorenz Heinrich suggests Southern Jutland.
+1 SOUR
+2 PAGE BillionGraves via MyHeritage (collection 10147): Lorenz H. [Lorenz Heinrich] Frederiksen, Sankt Jørgens Kirkegård, Svendborg
+1 SOUR
+2 PAGE MyHeritage: 1940 Denmark Census, 'Lorens Henrick Frederiksen' (related record, not yet viewed)
+1 SOUR
+2 PAGE AO: Svendborg Vor Frue & Sankt Nikolaj birth registers 1932 checked, no entry (negative search)
 1 FAMS @F3@
 0 @p7@ INDI
-1 NAME Gerda
+1 NAME Gerda /Frederiksen/
 1 SEX F
-1 NOTE Maiden name not yet known.
-1 NOTE Confidence: told
+1 BIRT
+2 DATE 17 AUG 1935
+1 DEAT
+2 DATE 18 JUL 2019
+2 PLAC Svendborg, Denmark
+1 NOTE Buried at Sankt Jørgens Kirkegård, Svendborg, with her husband Lorenz. Maiden name not yet known.
+1 SOUR
+2 PAGE BillionGraves via MyHeritage (collection 10147): Gerda Frederiksen, Sankt Jørgens Kirkegård, Svendborg
 1 FAMS @F3@
 0 @p8@ INDI
 1 NAME Aage Evald Oskar /Jørgensen/
@@ -848,6 +866,16 @@
 1 BIRT
 2 DATE 1816
 1 FAMC @F12@
+0 @s_liss_1@ INDI
+1 NAME Karen Margrethe /Enevoldsen/
+1 SEX F
+1 SOUR
+2 PAGE FamilySearch Family Tree
+0 @s_liss_2@ INDI
+1 NAME Ane Elvira /Pedersen/
+1 SEX F
+1 SOUR
+2 PAGE FamilySearch Family Tree
 0 @F1@ FAM
 1 HUSB @p2@
 1 WIFE @p3@

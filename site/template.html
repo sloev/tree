@@ -143,7 +143,7 @@ tr:hover td{background:var(--hover)}
   <div class="lead">
     <span class="eyebrow">Slægtsbog · nine generations · 1718–2026</span>
     <h1>Gaardsted-Jørgensen Slægt</h1>
-    <p class="ink2">The ancestry of Johannes Gårdsted Valbjørn, traced through Danish church books and censuses. Your father's line is documented back to the 1700s on Djursland, Mols and in Copenhagen. Your mother's line is waiting for dates.</p>
+    <p class="ink2">The ancestry of Johannes Gårdsted Valbjørn, traced through Danish church books and censuses. Your father's line is documented back to the 1700s on Djursland, Mols and in Copenhagen. Your mother's parents are identified from their grave in Svendborg. Their parents are the next step.</p>
     <div class="legend" id="legend"></div>
   </div>
   <div class="tiles" id="tiles"></div>
@@ -214,12 +214,18 @@ tr:hover td{background:var(--hover)}
   <div class="tbl-wrap"><table><thead><tr><th>Name</th><th>Relation</th><th>Born</th><th>Died</th><th>Occupation</th><th>Record</th></tr></thead><tbody id="tbody"></tbody></table></div>
 </section>
 
+<section id="sources">
+  <div class="sec-head"><span class="eyebrow">Kilder</span><h2>Sources</h2>
+  <p class="muted">Every person in the register lists the exact records behind them. These are the collections used.</p></div>
+  <div class="tbl-wrap"><table><thead><tr><th>Source</th><th>What it gave</th><th>Citations</th></tr></thead><tbody id="srcbody"></tbody></table></div>
+</section>
+
 <section id="open">
   <div class="sec-head"><span class="eyebrow">Næste skridt</span><h2>Still open</h2></div>
   <div class="open">
-    <div><b>Your mother's side</b>Lorenz Frederiksen was born out of wedlock, so he may have been registered under his mother's surname. With his birth date and parish, his baptism entry will name his mother and possibly the father.</div>
-    <div><b>Gerda</b>Her maiden name, birth date or birthplace is the key to that whole quarter of the tree.</div>
-    <div><b>Liss's parents</b>Born 18 Apr 1931. Her birth parish would unlock the Pedersen line.</div>
+    <div><b>Where Lorenz was born</b>Born 12 Jan 1932, but not in Svendborg town. The 1940 census record on MyHeritage ("Lorens Henrick Frederiksen") or his death certificate names the place. His baptism entry will name his mother and, possibly, his biological father.</div>
+    <div><b>Gerda's maiden name</b>Born 17 Aug 1935. Her maiden name or birthplace opens that quarter of the tree.</div>
+    <div><b>Liss's parents</b>Born 18 Apr 1931, one of seven children. The FamilySearch tree that lists her siblings probably also names her parents.</div>
     <div><b>Claus Gaardsted's origins</b>He came to Vosnæsgaard after 1784, from a first marriage elsewhere. Finding his first marriage would extend the Gaardsted line past 1750.</div>
     <div><b>Lovisa Larsson in Malmö</b>Born 28 Jun 1862, daughter of Niels Larsen. Swedish parish records (Riksarkivet) continue this branch.</div>
     <div><b>Evald's own family tree</b>Hadsten Lokalarkiv (A37) holds "Slægtstavle for Evald Gaardsted-Jørgensen". Asking the archive for a copy could fill in many gaps.</div>
@@ -312,7 +318,7 @@ function select(id){
   const p=byId[id]; if(!p) return;
   Object.values(nodes).forEach(n=>n.classList.remove('sel')); if(nodes[id]) nodes[id].classList.add('sel');
   const kids = P.filter(c=>c.father===id||c.mother===id);
-  const sibs = P.filter(c=>c.id!==id && ((p.father&&c.father===p.father)||(p.mother&&c.mother===p.mother)));
+  const sibs = P.filter(c=>c.id!==id && ((p.father&&c.father===p.father)||(p.mother&&c.mother===p.mother)||c.sibof===id||(p.sibof&&(c.id===p.sibof||c.sibof===p.sibof))));
   const par = [p.father,p.mother].filter(Boolean).map(i=>byId[i]).filter(Boolean);
   const life = p.living? 'Living' : [p.born?`b. ${fmtDate(p.born)}${p.bplace?', '+p.bplace:''}`:'', p.died?`d. ${fmtDate(p.died)}${p.dplace?', '+p.dplace:''}`:''].filter(Boolean).join('<br>');
   const d=document.getElementById('detail');
@@ -424,6 +430,22 @@ hbars(document.getElementById('regionchart'), Object.entries(reg).map(([r,w])=>[
 // ---------- gallery ----------
 document.getElementById('gallery').innerHTML=DATA.photos.map((ph,i)=>`<figure><a href="${ph.link}" target="_blank" rel="noopener"><img src="${IMGS[i]}" alt="${esc(ph.title)}"></a><figcaption><b>${esc(ph.title)}</b>${esc(ph.caption)}<span class="muted">${esc(ph.credit)}</span></figcaption></figure>`).join('');
 document.getElementById('links').innerHTML=DATA.links.map(([t,u])=>`<li><a href="${u}" target="_blank" rel="noopener">${esc(t)}</a></li>`).join('');
+
+// ---------- sources ----------
+const SRC=[
+ ['LL','Rigsarkivet, Link Lives','https://link-lives.dk/soeg/','Indexed church books 1557–1917 and censuses 1787–1921: births, marriages, deaths, households'],
+ ['AO','Rigsarkivet, Arkivalieronline','https://www.sa.dk/ao/','Original church-book images: Kolind 1922, Skødstrup 1792, Svendborg 1932'],
+ ['DFS','Danish Family Search','https://www.danishfamilysearch.dk/','1925 census (Gjellerup) and 1940 census searches'],
+ ['ARK','arkiv.dk, Danish local archives','https://arkiv.dk/','Evald and Liss biographies, obituary notices, photographs'],
+ ['BillionGraves','BillionGraves via MyHeritage','https://www.myheritage.dk/research/collection-10147/billiongraves?itemId=1483464614&action=showRecord','Grave of Lorenz and Gerda Frederiksen, Svendborg: birth and death dates'],
+ ['FamilySearch','FamilySearch Family Tree','https://www.familysearch.org/tree/','Liss Pedersen: marriage 1953, siblings, three sons'],
+ ['litteraturpriser','litteraturpriser.dk','https://www.litteraturpriser.dk/d.aspx?type=person&side=GEvaldGaardstedJoergensen','Evald: author, teacher exam 1953, marriage to Liss 1953'],
+ ['Trap','Trap Danmark / danskeherregaarde.dk','https://www.danskeherregaarde.dk/nutid/vosnaesgaard','Bogensholm and Vosnæsgaard ownership history'],
+ ['MyHeritage','MyHeritage record collections','https://www.myheritage.dk/','1940 census record for Lorens Henrick Frederiksen (not yet viewed)'],
+];
+const allSrc=P.flatMap(p=>p.src);
+document.getElementById('srcbody').innerHTML=SRC.map(([k,n,u,w])=>{const c=allSrc.filter(s=>s.startsWith(k)).length;
+  return `<tr><td><a href="${u}" target="_blank" rel="noopener">${esc(n)}</a></td><td>${esc(w)}</td><td class="num">${c}</td></tr>`}).join('');
 
 // ---------- table ----------
 const fl=document.getElementById('fline'); Object.entries(LINES).forEach(([k,v])=>{ if(k!=='self'){ const o=document.createElement('option'); o.value=k;o.textContent=v; fl.appendChild(o);} });

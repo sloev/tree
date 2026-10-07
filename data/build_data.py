@@ -37,11 +37,11 @@ PLACES = {
 P = []
 def person(id, name, sex, *, ahnen=None, line=None, rel=None, born=None, bplace=None,
            died=None, dplace=None, occ=(), conf="record", note=None, src=(), res=(),
-           father=None, mother=None, living=False):
+           father=None, mother=None, living=False, sibof=None):
     P.append(dict(id=id, name=name, sex=sex, ahnen=ahnen, line=line, rel=rel,
                   born=born, bplace=bplace, died=died, dplace=dplace, occ=list(occ),
                   conf=conf, note=note, src=list(src), res=[list(r) for r in res],
-                  father=father, mother=mother, living=living))
+                  father=father, mother=mother, living=living, sibof=sibof))
 
 # ---------------- Generation 1-2: you and parents ----------------
 person("p1", "Johannes Gårdsted Valbjørn", "M", ahnen=1, line="self", living=True, conf="told",
@@ -74,12 +74,23 @@ person("p4", "Evald Johannes Gaardsted-Jørgensen", "M", ahnen=4, line="jorgense
             "ARK:3079233", "ARK:7091946", "litteraturpriser.dk"])
 person("p5", "Liss Gaardsted-Jørgensen (née Pedersen)", "F", ahnen=5, line="jorgensen",
        born="1931-04-18", died="2002", occ=["Parish clerk (kordegn), trained in Hune"],
-       note="Married Evald 1953. Birth date from Evald's personal archive (Hadsten Lokalarkiv). Her parents are not yet identified.",
-       src=["ARK:2162357", "litteraturpriser.dk"], res=[(1953, "Ollerup", "married life"), (1981, "Hune", "")])
-person("p6", "Lorenz Frederiksen", "M", ahnen=6, line="maternal", conf="told",
-       note="Born out of wedlock; the man he grew up with as father was not his biological father. No public record found yet: "
-            "needs his birth date and parish.")
-person("p7", "Gerda", "F", ahnen=7, line="maternal", conf="told", note="Maiden name not yet known.")
+       note="Married Evald 1953, aged 22; three sons (Jørgen, Arne, Ole). One of seven children; siblings include "
+            "Karen Margrethe Enevoldsen (née Pedersen) and Ane Elvira Pedersen. Birth date from Evald's personal archive "
+            "(Hadsten Lokalarkiv). Her parents are not yet identified.",
+       src=["ARK:2162357", "litteraturpriser.dk", "FamilySearch Family Tree: Liss Jørgensen (født Pedersen) 1931–2002"], res=[(1953, "Ollerup", "married life"), (1981, "Hune", "")])
+person("p6", "Lorenz Heinrich Frederiksen", "M", ahnen=6, line="maternal", conf="record",
+       born="1932-01-12", died="2009-05-06", dplace="Svendborg",
+       note="Buried at Sankt Jørgens Kirkegård, Svendborg, with his wife Gerda. Born out of wedlock: the man he grew up with "
+            "as father was not his biological father (family information). A 1940 census record exists under the spelling "
+            "'Lorens Henrick Frederiksen' (MyHeritage). His birth is not in the Svendborg Vor Frue or Sankt Nikolaj registers "
+            "for January 1932, so he was born elsewhere; the name Lorenz Heinrich suggests Southern Jutland.",
+       src=["BillionGraves via MyHeritage (collection 10147): Lorenz H. [Lorenz Heinrich] Frederiksen, Sankt Jørgens Kirkegård, Svendborg",
+            "MyHeritage: 1940 Denmark Census, 'Lorens Henrick Frederiksen' (related record, not yet viewed)",
+            "AO: Svendborg Vor Frue & Sankt Nikolaj birth registers 1932 checked, no entry (negative search)"])
+person("p7", "Gerda Frederiksen", "F", ahnen=7, line="maternal", conf="record",
+       born="1935-08-17", died="2019-07-18", dplace="Svendborg",
+       note="Buried at Sankt Jørgens Kirkegård, Svendborg, with her husband Lorenz. Maiden name not yet known.",
+       src=["BillionGraves via MyHeritage (collection 10147): Gerda Frederiksen, Sankt Jørgens Kirkegård, Svendborg"])
 
 # ---------------- Generation 4 ----------------
 person("p8", "Aage Evald Oskar Jørgensen", "M", ahnen=8, line="jorgensen", born="1890-10-17", bplace="Slagelse",
@@ -230,6 +241,10 @@ sibs(("p76", "p77"), "rousing", "Anders's sibling", [
     ("Christen Rasmussen", "M", "1812", {}), ("Jens Christian Rasmussen", "M", "1816", {}),
 ])
 
+person("s_liss_1", "Karen Margrethe Enevoldsen (née Pedersen)", "F", rel="Liss's sister", line="jorgensen", sibof="p5",
+       src=["FamilySearch Family Tree"])
+person("s_liss_2", "Ane Elvira Pedersen", "F", rel="Liss's sister", line="jorgensen", sibof="p5", src=["FamilySearch Family Tree"])
+
 # Occupation categories for statistics
 CATS = [("Clergy & church", ["priest", "clerk", "kordegn"]), ("Teaching & writing", ["teacher", "author"]),
         ("Farming & estates", ["farm", "cottager", "smallholder", "estate", "forpagter", "bonde"]),
@@ -257,6 +272,8 @@ LINKS = [
     ("Kolind station c.1920", "https://arkiv.dk/vis/4212435"),
     ("Tirstrup Church, 1920", "https://arkiv.dk/vis/2623461"),
     ("Fuglslev Church", "https://arkiv.dk/vis/6189757"),
+    ("Grave of Lorenz H. Frederiksen and Gerda Frederiksen, Sankt Jørgens Kirkegård, Svendborg (BillionGraves record on MyHeritage)",
+     "https://www.myheritage.dk/research/collection-10147/billiongraves?itemId=1483464614&action=showRecord"),
     ("Petersminde memoirs of Johanne & Sofie Gaardsted (archive)", "https://arkiv.dk/vis/4407757"),
     ("Evald Gaardsted-Jørgensen's personal archive, incl. his own family tree (Hadsten)", "https://arkiv.dk/vis/2162357"),
 ]
