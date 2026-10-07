@@ -13,13 +13,15 @@
    "dplace": null,
    "occ": [],
    "conf": "told",
-   "note": "Born Johannes Gårdsted Jørgensen.",
+   "note": "Født Johannes Gårdsted Jørgensen.",
    "src": [],
    "res": [],
    "father": "p2",
    "mother": "p3",
    "living": true,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "p2",
@@ -40,7 +42,9 @@
    "father": "p4",
    "mother": "p5",
    "living": true,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "p3",
@@ -61,7 +65,9 @@
    "father": "p6",
    "mother": "p7",
    "living": true,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "u1",
@@ -69,7 +75,7 @@
    "sex": "M",
    "ahnen": null,
    "line": "jorgensen",
-   "rel": "uncle (father's brother)",
+   "rel": "farbror",
    "born": null,
    "bplace": null,
    "died": null,
@@ -82,7 +88,9 @@
    "father": "p4",
    "mother": "p5",
    "living": true,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "u2",
@@ -90,7 +98,7 @@
    "sex": "M",
    "ahnen": null,
    "line": "jorgensen",
-   "rel": "uncle (father's brother)",
+   "rel": "farbror",
    "born": null,
    "bplace": null,
    "died": null,
@@ -103,7 +111,9 @@
    "father": "p4",
    "mother": "p5",
    "living": true,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "p4",
@@ -117,17 +127,17 @@
    "died": "2008-11",
    "dplace": "Svendborg",
    "occ": [
-    "Schoolteacher",
-    "Folk high school teacher, Ollerup Gymnastikhøjskole",
-    "Parish clerk (kordegn), Svendborg 1976–81",
-    "Parish priest, Hune & Rødhus (Jetsmark) 1981–89",
-    "Author"
+    "Lærer",
+    "Højskolelærer, Ollerup Gymnastikhøjskole",
+    "Kordegn, Svendborg 1976–81",
+    "Sognepræst, Hune og Rødhus (Jetsmark) 1981–89",
+    "Forfatter"
    ],
    "conf": "record",
-   "note": "Baptised 8 Oct 1922 in Kolind Church by pastor J.P. Jensen. Godparents: widow Rasmine Kristine Gaardsted (grandmother), poorhouse manager Martin Marinus Gaardsted of Bregnet and bachelor Axel Vilhelm Alfred Gaardsted (uncles). Surname formally changed to Gaardsted-Jørgensen by name certificate 1983/1985 (margin note). Novels incl. 'De kom til en by' (1999, about the move to Hadsten in 1932), 'Skriv hjem, Niels', 'Jos og hans verden'; 'Leck Fischer. Signalement af en digter' (1973). His personal archive incl. a family tree is in Hadsten Lokalarkiv (A37).",
+   "note": "Døbt 8. okt. 1922 i Kolind Kirke af pastor J.P. Jensen. Faddere: enken Rasmine Kristine Gaardsted (farmor), fattiggårdsbestyrer Martin Marinus Gaardsted, Bregnet, og ungkarl Axel Vilhelm Alfred Gaardsted (morbrødre). Navneforandring til Gaardsted-Jørgensen ved navnebevis 1983/1985 (randnote). Romaner bl.a. 'De kom til en by' (1999, om flytningen til Hadsten 1932), 'Skriv hjem, Niels' og 'Jos og hans verden'; 'Leck Fischer. Signalement af en digter' (1973). Hans personarkiv med en egen slægtstavle ligger i Hadsten Lokalarkiv (A37).",
    "src": [
-    "AO:27841253 (Kolind church book 1920–36, Fødte Mandkøn 1922 no. 6)",
-    "DFS:18978912 (census 1925)",
+    "AO:27841253 (Kolind kirkebog 1920–36, fødte drenge 1922 nr. 6)",
+    "DFS:18978912 (folketælling 1925)",
     "ARK:2162357",
     "ARK:906257",
     "ARK:3079233",
@@ -138,57 +148,59 @@
     [
      1922,
      "Kolind",
-     "born at Kolind Mark"
+     "født på Kolind Mark"
     ],
     [
      1925,
      "Gjellerup / Hammerum",
-     "child at the poorhouse his father managed"
+     "barn på fattiggården, som faren bestyrede"
     ],
     [
      1932,
      "Hadsten",
-     "family moved here; Ågade, then Ballevej"
+     "familien flyttede hertil; Ågade, senere Ballevej"
     ],
     [
      1953,
      "Silkeborg",
-     "teacher's exam, Silkeborg Seminarium"
+     "lærereksamen, Silkeborg Seminarium"
     ],
     [
      1965,
      "Ollerup",
-     "teacher at Ollerup Gymnastikhøjskole"
+     "lærer på Ollerup Gymnastikhøjskole"
     ],
     [
      1976,
      "Svendborg",
-     "parish clerk"
+     "kordegn"
     ],
     [
      1981,
      "Hune",
-     "parish priest"
+     "sognepræst"
     ],
     [
      1990,
      "Ollerup",
-     "retired, Toften 6"
+     "pensioneret, Toften 6"
     ],
     [
      2003,
      "Svendborg",
-     "after Liss's death"
+     "efter Liss' død"
     ]
    ],
    "father": "p8",
    "mother": "p9",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": "p5"
   },
   {
    "id": "p5",
-   "name": "Liss Gaardsted-Jørgensen (née Pedersen)",
+   "name": "Liss Gaardsted-Jørgensen (f. Pedersen)",
    "sex": "F",
    "ahnen": 5,
    "line": "jorgensen",
@@ -198,10 +210,10 @@
    "died": "2002",
    "dplace": null,
    "occ": [
-    "Parish clerk (kordegn), trained in Hune"
+    "Kordegn, uddannet i Hune"
    ],
    "conf": "record",
-   "note": "Married Evald 1953, aged 22; three sons (Jørgen, Arne, Ole). One of seven children; siblings include Karen Margrethe Enevoldsen (née Pedersen) and Ane Elvira Pedersen. Birth date from Evald's personal archive (Hadsten Lokalarkiv). Her parents are not yet identified.",
+   "note": "Gift med Evald 1953, 22 år gammel; tre sønner (Jørgen, Arne, Ole). Et af syv søskende, bl.a. Karen Margrethe Enevoldsen (f. Pedersen) og Ane Elvira Pedersen. Fødselsdatoen stammer fra Evalds personarkiv (Hadsten Lokalarkiv). Hendes forældre er endnu ikke fundet.",
    "src": [
     "ARK:2162357",
     "litteraturpriser.dk",
@@ -211,7 +223,7 @@
     [
      1953,
      "Ollerup",
-     "married life"
+     "gift"
     ],
     [
      1981,
@@ -222,7 +234,9 @@
    "father": null,
    "mother": null,
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": "p4"
   },
   {
    "id": "p6",
@@ -237,121 +251,611 @@
    "dplace": "Svendborg",
    "occ": [],
    "conf": "record",
-   "note": "Baptism entry (Broager Vestre distrikt 1933 no. 1): born 12 Jan 1932 in Egernsund, baptised at home 1 Jan 1933; parents labourer Peter Frederiksen and wife Else Gedde Jensen, Egernsund (per letter from the civil registrar 11/7 1932). Godparents: the father; labourer Lorenz Frederiksen and wife Catharina, Egernsund (his grandparents); farmer Jens Jensen's wife, Dalsgaard. Family information: Lorenz grew up with Peter Frederiksen as his father and only learned as an adult that he was not his biological father. Buried with his wife Gerda at Sankt Jørgens Kirkegård, Svendborg.",
+   "note": "Det borgerlige fødselsregister for Egernsund (1932 nr. 4, anmeldt 16. jan. 1932) siger, at Else Gedde Frederiksen, f. Jensen, fødte ham 12. jan. 1932 kl. 5.30. En randnote af 11. juli 1932 siger, at landarbejder Wilhelm Krogh fra Snogbæk er den biologiske far. Det bygger på hans faderskabserklæring af 5. april 1932 og en retsafgørelse af 10. juni 1932. Stedfaren Peter Frederiksen gav drengen sit efternavn. Det stemmer med familiens fortælling om, at Lorenz først som voksen fandt ud af, at Peter ikke var hans far. Ifølge dåbsindførslen i Broager Vestre distrikt (1933 nr. 1) var fadderne stedfaren selv, arbejdsmand Lorenz Frederiksen og hustru Catharina, Egernsund, samt gårdejer Jens Jensens hustru fra Dalsgaard. Lorenz er begravet sammen med hustruen Gerda på Sankt Jørgens Kirkegård i Svendborg.",
    "src": [
-    "AO:Broager Vestre distrikt kontraministerialbog 1906–48, Fødte 1933 no. 1 (bsid 201141, image 112)",
-    "BillionGraves via MyHeritage (collection 10147): Lorenz H. [Lorenz Heinrich] Frederiksen, Sankt Jørgens Kirkegård, Svendborg",
-    "MyHeritage: 1940 Denmark Census, 'Lorens Henrick Frederiksen'"
+    "AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4 (bsid 37658, billede 125)",
+    "AO:Broager Vestre distrikt kontraministerialbog 1906–48, fødte 1933 nr. 1 (bsid 201141, billede 112)",
+    "BillionGraves via MyHeritage (samling 10147): Lorenz H. Frederiksen, Sankt Jørgens Kirkegård, Svendborg",
+    "MyHeritage: Folketælling 1940, 'Lorens Henrick Frederiksen'"
    ],
    "res": [
     [
      1932,
      "Egernsund",
-     "born; baptised at home 1 Jan 1933"
+     "født; hjemmedøbt 1. jan. 1933"
     ],
     [
      2009,
      "Svendborg",
-     "died; buried Sankt Jørgens Kirkegård"
+     "død; begravet på Sankt Jørgens Kirkegård"
     ]
    ],
    "father": "p12",
    "mother": "p13",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": "pf12",
+   "spouse": "p7"
   },
   {
-   "id": "p12",
-   "name": "Peter Frederiksen",
-   "sex": "M",
-   "ahnen": 12,
-   "line": "frederiksen",
+   "id": "p7",
+   "name": "Gerda Frederiksen",
+   "sex": "F",
+   "ahnen": 7,
+   "line": "maternal",
    "rel": null,
-   "born": "1902-02-15",
-   "bplace": "Broager",
+   "born": "1935-08-17",
+   "bplace": null,
+   "died": "2019-07-18",
+   "dplace": "Svendborg",
+   "occ": [],
+   "conf": "record",
+   "note": "Begravet på Sankt Jørgens Kirkegård i Svendborg sammen med sin mand Lorenz. Pigenavnet er endnu ukendt.",
+   "src": [
+    "BillionGraves via MyHeritage (samling 10147): Gerda Frederiksen, Sankt Jørgens Kirkegård, Svendborg"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p6"
+  },
+  {
+   "id": "p8",
+   "name": "Aage Evald Oskar Jørgensen",
+   "sex": "M",
+   "ahnen": 8,
+   "line": "jorgensen",
+   "rel": null,
+   "born": "1890-10-17",
+   "bplace": "Slagelse",
    "died": null,
    "dplace": null,
    "occ": [
-    "Farm servant, Broager (1921)",
-    "Labourer (arbejder), Egernsund (1932)"
+    "Natvægter, København (1918)",
+    "Gårdbestyrer, Kolind (1921–22)",
+    "Bestyrer af Gjellerup fattiggård (1925)"
    ],
    "conf": "record",
-   "note": "Lorenz's father in law (named in the baptism entry). Family information says he was not Lorenz's biological father.",
+   "note": "Gift med Jensine Gaardsted i Kolind Kirke 29. okt. 1921.",
    "src": [
-    "LL:12-15018348",
-    "LL:14-2208771",
-    "LL:25-5954688",
-    "AO:Broager Vestre 1933 no. 1"
+    "LL:12-16940206",
+    "LL:9-1795573",
+    "LL:17-1153878",
+    "LL:25-1032486",
+    "AO:27841253",
+    "DFS:18978910"
+   ],
+   "res": [
+    [
+     1890,
+     "Slagelse",
+     "født"
+    ],
+    [
+     1918,
+     "København",
+     "natvægter"
+    ],
+    [
+     1921,
+     "Kolind",
+     "i familien Gaardsteds hus"
+    ],
+    [
+     1925,
+     "Gjellerup / Hammerum",
+     "bestyrer af Gjellerup fattiggård"
+    ],
+    [
+     1932,
+     "Hadsten",
+     "flyttede hertil med familien"
+    ]
+   ],
+   "father": "p16",
+   "mother": "p17",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p9"
+  },
+  {
+   "id": "p9",
+   "name": "Jensine Mariane Magdalene Gaardsted",
+   "sex": "F",
+   "ahnen": 9,
+   "line": "gaardsted",
+   "rel": null,
+   "born": "1894-06-06",
+   "bplace": "Kolind",
+   "died": null,
+   "dplace": null,
+   "occ": [
+    "Tjenestepige, København (1915)"
+   ],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:9-1332311",
+    "LL:14-3965870",
+    "LL:17-936099",
+    "AO:27841253",
+    "DFS:18978911"
+   ],
+   "res": [
+    [
+     1894,
+     "Kolind",
+     "født"
+    ],
+    [
+     1915,
+     "København",
+     "tjenestepige"
+    ],
+    [
+     1925,
+     "Gjellerup / Hammerum",
+     "bestyrerens hustru"
+    ],
+    [
+     1932,
+     "Hadsten",
+     ""
+    ]
+   ],
+   "father": "p18",
+   "mother": "p19",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p8"
+  },
+  {
+   "id": "s_ester",
+   "name": "Ester Kristine Jørgensen",
+   "sex": "F",
+   "ahnen": null,
+   "line": "jorgensen",
+   "rel": "Evalds søster",
+   "born": "1924",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "DFS:18978913"
    ],
    "res": [],
-   "father": "p24",
-   "mother": "p25",
+   "father": "p8",
+   "mother": "p9",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "p12",
+   "name": "Wilhelm Krogh",
+   "sex": "M",
+   "ahnen": 12,
+   "line": "maternal",
+   "rel": null,
+   "born": "1908-10-09",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [
+    "Landarbejder (karl), Snogbæk (1932)"
+   ],
+   "conf": "record",
+   "note": "Lorenz' biologiske far. Født 9. okt. 1908 i 'Tastrup' (eller 'Vastrup'; skriften er svær at læse), Landkreis Flensburg, dengang i Tyskland. Faderskabet står i randnoten i Egernsund-registret: han anerkendte faderskabet 5. april 1932, og retten afgjorde sagen 10. juni 1932. Hans forældre og hans videre liv er endnu ikke fundet. De står i tyske registre (Flensburg).",
+   "src": [
+    "AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4, randnote 11.7.1932 (bsid 37658, billede 125)"
+   ],
+   "res": [
+    [
+     1932,
+     "Snogbæk",
+     "landarbejder"
+    ]
+   ],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "p13",
    "name": "Else Gedde Jensen",
    "sex": "F",
    "ahnen": 13,
-   "line": "maternal",
+   "line": "gedde",
    "rel": null,
-   "born": null,
-   "bplace": null,
+   "born": "1912-08-31",
+   "bplace": "Lejrskov (Ferup)",
    "died": null,
    "dplace": null,
    "occ": [],
    "conf": "record",
-   "note": "Lorenz's mother, named in his baptism entry. 'Gedde' is part of her name, and is where your mother's surname Gedde comes from. Not in the Southern Jutland indexes, so probably born elsewhere in Denmark. Godmother 'farmer Jens Jensen's wife, Dalsgaard' may be her mother (unconfirmed). Family tradition: the Gedde name comes from a captain in Tranquebar, the Danish colony in India. Known leads, none yet linked to Else: Admiral Ove Gjedde founded Tranquebar in 1620 (his noble Giedde line died out in the male line in 1848); a later Giedde kammerherre married Louise Augusta Pingel, born in the East Indies (census 1845/1850); Captain Christian Wilhelm Truels Gedde (b. 1799 Copenhagen) appears in the 1850 and 1860 censuses.",
+   "note": "Født 31. aug. 1912 i Ferup, Lejrskov sogn, og døbt 20. okt. 1912 i Lejrskov Kirke. Faddere: frøken Mathilde Gedde, København (moster/grandtante på Gedde-siden), Kirstine Jensen og købmand Jørgen Jensen, Haderslev. Her kommer navnet Gedde fra: Else fik det som mellemnavn efter sin mor, Paula Gedde. I januar 1932 var hun gift med arbejdsmand Peter Frederiksen i Egernsund.",
    "src": [
-    "AO:Broager Vestre 1933 no. 1",
-    "Family tradition (Tranquebar captain)",
-    "LL:4-350567",
-    "LL:5-319787",
-    "LL:6-169250",
-    "lex.dk: Giedde (noble family)",
-    "Wikipedia: Ove Gjedde"
+    "AO:Lejrskov kirkebog, fødte piger 1912 nr. 17 (bsid 165996, billede 94)",
+    "LL:12-4852565",
+    "AO:Egernsund standsregister 1932 nr. 4",
+    "AO:Broager Vestre 1933 nr. 1"
+   ],
+   "res": [
+    [
+     1912,
+     "Lejrskov (Ferup)",
+     "født på forældrenes gård i Ferup"
+    ],
+    [
+     1932,
+     "Egernsund",
+     "gift med Peter Frederiksen"
+    ]
+   ],
+   "father": "p26",
+   "mother": "p27",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "pf12"
+  },
+  {
+   "id": "pf12",
+   "name": "Peter Frederiksen",
+   "sex": "M",
+   "ahnen": null,
+   "line": "frederiksen",
+   "rel": "Lorenz' stedfar (juridisk far)",
+   "born": "1902-02-15",
+   "bplace": "Egernsund",
+   "died": null,
+   "dplace": null,
+   "occ": [
+    "Tjenestekarl, Broager (1921)",
+    "Arbejdsmand, Egernsund (1932)"
+   ],
+   "conf": "record",
+   "note": "Gift med Else Gedde Jensen. Han står som far i Lorenz' dåbsindførsel, og Lorenz fik hans efternavn, men ifølge randnoten i det borgerlige register er han ikke den biologiske far.",
+   "src": [
+    "LL:12-15018348",
+    "LL:14-2208771",
+    "LL:25-5954688",
+    "AO:Egernsund standsregister 1932 nr. 4",
+    "AO:Broager Vestre 1933 nr. 1"
    ],
    "res": [],
-   "father": null,
+   "father": "p24",
+   "mother": "p25",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p13"
+  },
+  {
+   "id": "p16",
+   "name": "Jørgen Anton Jørgensen",
+   "sex": "M",
+   "ahnen": 16,
+   "line": "jorgensen",
+   "rel": null,
+   "born": "1857-10-06",
+   "bplace": "København",
+   "died": "1914-08-04",
+   "dplace": "Slagelse",
+   "occ": [
+    "Typograf, København",
+    "Typograf, Sorø Amts Bogtrykkeri, Slagelse"
+   ],
+   "conf": "record",
+   "note": "Gift med Lovisa Larsson 31. jan. 1886 i Sankt Johannes Kirke, København.",
+   "src": [
+    "LL:12-13117126",
+    "LL:14-7547225",
+    "LL:7-586580",
+    "LL:13-4147709",
+    "LL:9-1795568",
+    "LL:11-230038"
+   ],
+   "res": [
+    [
+     1857,
+     "København",
+     "født, Vor Frue sogn"
+    ],
+    [
+     1886,
+     "København",
+     "gift"
+    ],
+    [
+     1889,
+     "Slagelse",
+     "flyttede hertil"
+    ],
+    [
+     1914,
+     "Slagelse",
+     "død"
+    ]
+   ],
+   "father": "p32",
+   "mother": "p33",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p17"
+  },
+  {
+   "id": "p17",
+   "name": "Lovisa (Louise) Larsson",
+   "sex": "F",
+   "ahnen": 17,
+   "line": "jorgensen",
+   "rel": null,
+   "born": "1862-06-28",
+   "bplace": "Malmö",
+   "died": "1910-10-12",
+   "dplace": "Slagelse",
+   "occ": [
+    "Tjenestepige, København (1885)"
+   ],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:8-200847",
+    "LL:9-1795569",
+    "LL:11-231267"
+   ],
+   "res": [
+    [
+     1862,
+     "Malmö",
+     "født"
+    ],
+    [
+     1885,
+     "København",
+     "tjenestepige"
+    ],
+    [
+     1901,
+     "Slagelse",
+     ""
+    ]
+   ],
+   "father": "p34",
    "mother": null,
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": "p16"
+  },
+  {
+   "id": "p18",
+   "name": "Hans Peter Gaardsted",
+   "sex": "M",
+   "ahnen": 18,
+   "line": "gaardsted",
+   "rel": null,
+   "born": "1852-05-03",
+   "bplace": "Tirstrup",
+   "died": "1913-03-26",
+   "dplace": "Kolind",
+   "occ": [
+    "Tjenestekarl, Ebeltoft (1880)",
+    "Husmand/parcellist, Kolind"
+   ],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-3665481",
+    "LL:7-1041647",
+    "LL:9-1332308",
+    "LL:11-3881351"
+   ],
+   "res": [
+    [
+     1852,
+     "Tirstrup",
+     "født"
+    ],
+    [
+     1880,
+     "Ebeltoft",
+     "tjenestekarl"
+    ],
+    [
+     1883,
+     "Kolind",
+     "husmandsstedet 'Petersminde', Højsletvej"
+    ]
+   ],
+   "father": "p36",
+   "mother": "p37",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p19"
+  },
+  {
+   "id": "p19",
+   "name": "Rasmine Christine Andersen",
+   "sex": "F",
+   "ahnen": 19,
+   "line": "rousing",
+   "rel": null,
+   "born": "1855-09-16",
+   "bplace": "Fuglslev",
+   "died": "efter 1922",
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-9158976",
+    "LL:6-849934",
+    "LL:25-1032484",
+    "AO:27841253"
+   ],
+   "res": [
+    [
+     1855,
+     "Fuglslev",
+     "født"
+    ],
+    [
+     1880,
+     "Ebeltoft",
+     ""
+    ],
+    [
+     1890,
+     "Kolind",
+     ""
+    ],
+    [
+     1922,
+     "Kolind",
+     "enke, gudmor til Evald"
+    ]
+   ],
+   "father": "p38",
+   "mother": "p39",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p18"
+  },
+  {
+   "id": "p26",
+   "name": "Jens Jensen",
+   "sex": "M",
+   "ahnen": 26,
+   "line": "gedde",
+   "rel": null,
+   "born": "1866-12-31",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [
+    "Gårdejer, Ferup (Lejrskov)"
+   ],
+   "conf": "record",
+   "note": "Søn af Rasmus Jensen og Christine Hansen. Gift 29. okt. 1907 i Mariendal Kirke, København, med Paula Gedde. Muligvis den 'gårdejer Jens Jensen, Dalsgaard', hvis hustru var gudmor til Lorenz i 1933. Det er ikke bekræftet.",
+   "src": [
+    "LL:13-432734",
+    "LL:12-4852564",
+    "AO:Lejrskov kirkebog 1912 nr. 17"
+   ],
+   "res": [
+    [
+     1907,
+     "København",
+     "gift"
+    ],
+    [
+     1912,
+     "Lejrskov (Ferup)",
+     "gårdejer"
+    ]
+   ],
+   "father": "p52",
+   "mother": "p53",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p27"
+  },
+  {
+   "id": "p27",
+   "name": "Paula Mathilde Christle Gedde",
+   "sex": "F",
+   "ahnen": 27,
+   "line": "gedde",
+   "rel": null,
+   "born": "1880-12-30",
+   "bplace": "Tamdrup",
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Mor til mindst fem børn i Lejrskov 1908–13 (navnene på de yngste er skjult i indekset af hensyn til privatlivet).",
+   "src": [
+    "LL:13-432737",
+    "LL:12-4851845",
+    "LL:12-4852565",
+    "AO:Lejrskov kirkebog 1912 nr. 17"
+   ],
+   "res": [
+    [
+     1880,
+     "Tamdrup",
+     "født på faderens gård"
+    ],
+    [
+     1907,
+     "København",
+     "gift"
+    ],
+    [
+     1912,
+     "Lejrskov (Ferup)",
+     "gårdejerkone"
+    ]
+   ],
+   "father": "p54",
+   "mother": "p55",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p26"
   },
   {
    "id": "p24",
    "name": "Lorenz Heinrich Frederiksen",
    "sex": "M",
-   "ahnen": 24,
+   "ahnen": null,
    "line": "frederiksen",
-   "rel": null,
+   "rel": "stedfarens far",
    "born": "1870-01-23",
    "bplace": "Broager",
    "died": "1957-01-04",
    "dplace": "Egernsund",
    "occ": [
-    "Labourer (arbejder), Egernsund (1932)"
+    "Arbejdsmand, Egernsund (1932)"
    ],
    "conf": "record",
-   "note": "Married Cathrina Maria Magdalena Hansen 8 Oct 1895 in Broager. Godfather to his grandson and namesake in 1933. Member of the Danish association DSK in 1942 (membership card in Broagerlands Lokalarkiv).",
+   "note": "Gift med Cathrina Maria Magdalena Hansen 8. okt. 1895 i Broager. Gudfar og navnefar til Lorenz i 1933. Medlem af den danske forening DSK i 1942 (medlemskort i Broagerlands Lokalarkiv).",
    "src": [
     "LL:12-14989547",
     "LL:12-14313283",
     "LL:13-1051959",
     "LL:25-5953605",
     "ARK:1158725",
-    "AO:Broager Vestre 1933 no. 1"
+    "AO:Broager Vestre 1933 nr. 1"
    ],
    "res": [
     [
      1870,
      "Broager",
-     "born"
+     "født"
     ],
     [
      1921,
      "Broager",
-     "census"
+     "folketælling"
     ],
     [
      1932,
@@ -362,15 +866,17 @@
    "father": "p48",
    "mother": "p49",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": "p25"
   },
   {
    "id": "p25",
    "name": "Cathrina Maria Magdalena Hansen",
    "sex": "F",
-   "ahnen": 25,
+   "ahnen": null,
    "line": "frederiksen",
-   "rel": null,
+   "rel": "stedfarens mor",
    "born": "1872-12-28",
    "bplace": "Broager",
    "died": null,
@@ -387,538 +893,9 @@
    "father": "p50",
    "mother": "p51",
    "living": false,
-   "sibof": null
-  },
-  {
-   "id": "p48",
-   "name": "Peter Christian Frederiksen",
-   "sex": "M",
-   "ahnen": 48,
-   "line": "frederiksen",
-   "rel": null,
-   "born": "1839-05-04",
-   "bplace": "Broager",
-   "died": null,
-   "dplace": null,
-   "occ": [],
-   "conf": "record",
-   "note": "Married Anna Kirstine Marie Paulsen 9 Dec 1860 in Broager.",
-   "src": [
-    "LL:13-4957004",
-    "LL:12-14989548"
-   ],
-   "res": [],
-   "father": "p96",
-   "mother": "p97",
-   "living": false,
-   "sibof": null
-  },
-  {
-   "id": "p49",
-   "name": "Anna Kirstine Marie Paulsen",
-   "sex": "F",
-   "ahnen": 49,
-   "line": "frederiksen",
-   "rel": null,
-   "born": "1834-11-11",
-   "bplace": "Broager",
-   "died": "1893-05-22",
-   "dplace": "Broager",
-   "occ": [],
-   "conf": "record",
-   "note": null,
-   "src": [
-    "LL:13-4957007",
-    "LL:11-7302858"
-   ],
-   "res": [],
-   "father": "p98",
-   "mother": "p99",
-   "living": false,
-   "sibof": null
-  },
-  {
-   "id": "p50",
-   "name": "Carl Peter Hansen",
-   "sex": "M",
-   "ahnen": 50,
-   "line": "frederiksen",
-   "rel": null,
-   "born": null,
-   "bplace": "Broager",
-   "died": null,
-   "dplace": null,
-   "occ": [],
-   "conf": "record",
-   "note": null,
-   "src": [
-    "LL:12-14990796",
-    "LL:13-1051963"
-   ],
-   "res": [],
-   "father": null,
-   "mother": null,
-   "living": false,
-   "sibof": null
-  },
-  {
-   "id": "p51",
-   "name": "Eline Maria Magdalena Hansen",
-   "sex": "F",
-   "ahnen": 51,
-   "line": "frederiksen",
-   "rel": null,
-   "born": null,
-   "bplace": null,
-   "died": null,
-   "dplace": null,
-   "occ": [],
-   "conf": "record",
-   "note": null,
-   "src": [
-    "LL:12-14990797",
-    "LL:13-1051964"
-   ],
-   "res": [],
-   "father": null,
-   "mother": null,
-   "living": false,
-   "sibof": null
-  },
-  {
-   "id": "p96",
-   "name": "Frederik Frederiksen",
-   "sex": "M",
-   "ahnen": 96,
-   "line": "frederiksen",
-   "rel": null,
-   "born": null,
-   "bplace": null,
-   "died": null,
-   "dplace": null,
-   "occ": [],
-   "conf": "record",
-   "note": null,
-   "src": [
-    "LL:13-4957005"
-   ],
-   "res": [],
-   "father": null,
-   "mother": null,
-   "living": false,
-   "sibof": null
-  },
-  {
-   "id": "p97",
-   "name": "Anne Kirstine Peters",
-   "sex": "F",
-   "ahnen": 97,
-   "line": "frederiksen",
-   "rel": null,
-   "born": null,
-   "bplace": null,
-   "died": null,
-   "dplace": null,
-   "occ": [],
-   "conf": "record",
-   "note": null,
-   "src": [
-    "LL:13-4957006"
-   ],
-   "res": [],
-   "father": null,
-   "mother": null,
-   "living": false,
-   "sibof": null
-  },
-  {
-   "id": "p98",
-   "name": "Jens Paulsen",
-   "sex": "M",
-   "ahnen": 98,
-   "line": "frederiksen",
-   "rel": null,
-   "born": null,
-   "bplace": null,
-   "died": null,
-   "dplace": null,
-   "occ": [],
-   "conf": "record",
-   "note": null,
-   "src": [
-    "LL:13-4957008",
-    "LL:11-7302859"
-   ],
-   "res": [],
-   "father": null,
-   "mother": null,
-   "living": false,
-   "sibof": null
-  },
-  {
-   "id": "p99",
-   "name": "Kathrine Marie Lorensen",
-   "sex": "F",
-   "ahnen": 99,
-   "line": "frederiksen",
-   "rel": null,
-   "born": null,
-   "bplace": null,
-   "died": null,
-   "dplace": null,
-   "occ": [],
-   "conf": "record",
-   "note": null,
-   "src": [
-    "LL:13-4957009",
-    "LL:11-7302860"
-   ],
-   "res": [],
-   "father": null,
-   "mother": null,
-   "living": false,
-   "sibof": null
-  },
-  {
-   "id": "p7",
-   "name": "Gerda Frederiksen",
-   "sex": "F",
-   "ahnen": 7,
-   "line": "maternal",
-   "rel": null,
-   "born": "1935-08-17",
-   "bplace": null,
-   "died": "2019-07-18",
-   "dplace": "Svendborg",
-   "occ": [],
-   "conf": "record",
-   "note": "Buried at Sankt Jørgens Kirkegård, Svendborg, with her husband Lorenz. Maiden name not yet known.",
-   "src": [
-    "BillionGraves via MyHeritage (collection 10147): Gerda Frederiksen, Sankt Jørgens Kirkegård, Svendborg"
-   ],
-   "res": [],
-   "father": null,
-   "mother": null,
-   "living": false,
-   "sibof": null
-  },
-  {
-   "id": "p8",
-   "name": "Aage Evald Oskar Jørgensen",
-   "sex": "M",
-   "ahnen": 8,
-   "line": "jorgensen",
-   "rel": null,
-   "born": "1890-10-17",
-   "bplace": "Slagelse",
-   "died": null,
-   "dplace": null,
-   "occ": [
-    "Night watchman, Copenhagen (1918)",
-    "Farm manager (gårdbestyrer), Kolind (1921–22)",
-    "Poorhouse manager, Gjellerup (1925)"
-   ],
-   "conf": "record",
-   "note": "Married Jensine Gaardsted in Kolind Church on 29 Oct 1921.",
-   "src": [
-    "LL:12-16940206",
-    "LL:9-1795573",
-    "LL:17-1153878",
-    "LL:25-1032486",
-    "AO:27841253",
-    "DFS:18978910"
-   ],
-   "res": [
-    [
-     1890,
-     "Slagelse",
-     "born"
-    ],
-    [
-     1918,
-     "Copenhagen",
-     "night watchman"
-    ],
-    [
-     1921,
-     "Kolind",
-     "in the Gaardsted household"
-    ],
-    [
-     1925,
-     "Gjellerup / Hammerum",
-     "manager of Gjellerup fattiggård"
-    ],
-    [
-     1932,
-     "Hadsten",
-     "moved with family"
-    ]
-   ],
-   "father": "p16",
-   "mother": "p17",
-   "living": false,
-   "sibof": null
-  },
-  {
-   "id": "p9",
-   "name": "Jensine Mariane Magdalene Gaardsted",
-   "sex": "F",
-   "ahnen": 9,
-   "line": "gaardsted",
-   "rel": null,
-   "born": "1894-06-06",
-   "bplace": "Kolind",
-   "died": null,
-   "dplace": null,
-   "occ": [
-    "Housemaid, Copenhagen (1915)"
-   ],
-   "conf": "record",
-   "note": null,
-   "src": [
-    "LL:9-1332311",
-    "LL:14-3965870",
-    "LL:17-936099",
-    "AO:27841253",
-    "DFS:18978911"
-   ],
-   "res": [
-    [
-     1894,
-     "Kolind",
-     "born"
-    ],
-    [
-     1915,
-     "Copenhagen",
-     "housemaid"
-    ],
-    [
-     1925,
-     "Gjellerup / Hammerum",
-     "manager's wife"
-    ],
-    [
-     1932,
-     "Hadsten",
-     ""
-    ]
-   ],
-   "father": "p18",
-   "mother": "p19",
-   "living": false,
-   "sibof": null
-  },
-  {
-   "id": "s_ester",
-   "name": "Ester Kristine Jørgensen",
-   "sex": "F",
-   "ahnen": null,
-   "line": "jorgensen",
-   "rel": "Evald's sister",
-   "born": "1924",
-   "bplace": null,
-   "died": null,
-   "dplace": null,
-   "occ": [],
-   "conf": "record",
-   "note": null,
-   "src": [
-    "DFS:18978913"
-   ],
-   "res": [],
-   "father": "p8",
-   "mother": "p9",
-   "living": false,
-   "sibof": null
-  },
-  {
-   "id": "p16",
-   "name": "Jørgen Anton Jørgensen",
-   "sex": "M",
-   "ahnen": 16,
-   "line": "jorgensen",
-   "rel": null,
-   "born": "1857-10-06",
-   "bplace": "Copenhagen",
-   "died": "1914-08-04",
-   "dplace": "Slagelse",
-   "occ": [
-    "Typographer, Copenhagen",
-    "Typographer, Sorø Amts Bogtrykkeri, Slagelse"
-   ],
-   "conf": "record",
-   "note": "Married Lovisa Larsson 31 Jan 1886, Sankt Johannes, Copenhagen.",
-   "src": [
-    "LL:12-13117126",
-    "LL:14-7547225",
-    "LL:7-586580",
-    "LL:13-4147709",
-    "LL:9-1795568",
-    "LL:11-230038"
-   ],
-   "res": [
-    [
-     1857,
-     "Copenhagen",
-     "born, Vor Frue parish"
-    ],
-    [
-     1886,
-     "Copenhagen",
-     "married"
-    ],
-    [
-     1889,
-     "Slagelse",
-     "moved"
-    ],
-    [
-     1914,
-     "Slagelse",
-     "died"
-    ]
-   ],
-   "father": "p32",
-   "mother": "p33",
-   "living": false,
-   "sibof": null
-  },
-  {
-   "id": "p17",
-   "name": "Lovisa (Louise) Larsson",
-   "sex": "F",
-   "ahnen": 17,
-   "line": "jorgensen",
-   "rel": null,
-   "born": "1862-06-28",
-   "bplace": "Malmö",
-   "died": "1910-10-12",
-   "dplace": "Slagelse",
-   "occ": [
-    "Housemaid, Copenhagen (1885)"
-   ],
-   "conf": "record",
-   "note": null,
-   "src": [
-    "LL:8-200847",
-    "LL:9-1795569",
-    "LL:11-231267"
-   ],
-   "res": [
-    [
-     1862,
-     "Malmö",
-     "born"
-    ],
-    [
-     1885,
-     "Copenhagen",
-     "housemaid"
-    ],
-    [
-     1901,
-     "Slagelse",
-     ""
-    ]
-   ],
-   "father": "p34",
-   "mother": null,
-   "living": false,
-   "sibof": null
-  },
-  {
-   "id": "p18",
-   "name": "Hans Peter Gaardsted",
-   "sex": "M",
-   "ahnen": 18,
-   "line": "gaardsted",
-   "rel": null,
-   "born": "1852-05-03",
-   "bplace": "Tirstrup",
-   "died": "1913-03-26",
-   "dplace": "Kolind",
-   "occ": [
-    "Farmhand, Ebeltoft (1880)",
-    "Smallholder / house-owning farmer, Kolind"
-   ],
-   "conf": "record",
-   "note": null,
-   "src": [
-    "LL:12-3665481",
-    "LL:7-1041647",
-    "LL:9-1332308",
-    "LL:11-3881351"
-   ],
-   "res": [
-    [
-     1852,
-     "Tirstrup",
-     "born"
-    ],
-    [
-     1880,
-     "Ebeltoft",
-     "farmhand"
-    ],
-    [
-     1883,
-     "Kolind",
-     "smallholding 'Petersminde', Højsletvej"
-    ]
-   ],
-   "father": "p36",
-   "mother": "p37",
-   "living": false,
-   "sibof": null
-  },
-  {
-   "id": "p19",
-   "name": "Rasmine Christine Andersen",
-   "sex": "F",
-   "ahnen": 19,
-   "line": "rousing",
-   "rel": null,
-   "born": "1855-09-16",
-   "bplace": "Fuglslev",
-   "died": "after 1922",
-   "dplace": null,
-   "occ": [],
-   "conf": "record",
-   "note": null,
-   "src": [
-    "LL:12-9158976",
-    "LL:6-849934",
-    "LL:25-1032484",
-    "AO:27841253"
-   ],
-   "res": [
-    [
-     1855,
-     "Fuglslev",
-     "born"
-    ],
-    [
-     1880,
-     "Ebeltoft",
-     ""
-    ],
-    [
-     1890,
-     "Kolind",
-     ""
-    ],
-    [
-     1922,
-     "Kolind",
-     "widow, godmother to Evald"
-    ]
-   ],
-   "father": "p38",
-   "mother": "p39",
-   "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": "p24"
   },
   {
    "id": "p32",
@@ -927,16 +904,16 @@
    "ahnen": 32,
    "line": "jorgensen",
    "rel": null,
-   "born": "c.1826",
+   "born": "ca. 1826",
    "bplace": null,
    "died": "1885–1892",
-   "dplace": "Copenhagen",
+   "dplace": "København",
    "occ": [
-    "Grocer (høker), Copenhagen (1860)",
-    "Labourer (arbejdsmand), Copenhagen (1880–85)"
+    "Høker, København (1860)",
+    "Arbejdsmand, København (1880–85)"
    ],
    "conf": "record",
-   "note": "Birthplace written 'Hove/Høje sogn, Svendborg amt' — parish not identified.",
+   "note": "Fødestedet er skrevet 'Hove/Høje sogn, Svendborg amt'; sognet er ikke identificeret.",
    "src": [
     "LL:6-420495",
     "LL:7-586576",
@@ -945,19 +922,21 @@
    "res": [
     [
      1860,
-     "Copenhagen",
-     "grocer"
+     "København",
+     "høker"
     ],
     [
      1885,
-     "Copenhagen",
-     "labourer"
+     "København",
+     "arbejdsmand"
     ]
    ],
    "father": null,
    "mother": null,
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": "p33"
   },
   {
    "id": "p33",
@@ -966,12 +945,12 @@
    "ahnen": 33,
    "line": "jorgensen",
    "rel": null,
-   "born": "c.1825",
+   "born": "ca. 1825",
    "bplace": "Viby (Roskilde amt)",
-   "died": "c.1910",
-   "dplace": "Copenhagen",
+   "died": "ca. 1910",
+   "dplace": "København",
    "occ": [
-    "Widow on old-age support (1901)"
+    "Enke på alderdomsunderstøttelse (1901)"
    ],
    "conf": "record",
    "note": null,
@@ -984,7 +963,9 @@
    "father": null,
    "mother": null,
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": "p32"
   },
   {
    "id": "p34",
@@ -999,7 +980,7 @@
    "dplace": null,
    "occ": [],
    "conf": "record",
-   "note": "Swedish; named in daughter's death record.",
+   "note": "Svensk; nævnt i datterens dødsindførsel.",
    "src": [
     "LL:11-231268"
    ],
@@ -1007,7 +988,9 @@
    "father": null,
    "mother": null,
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "p36",
@@ -1021,12 +1004,12 @@
    "died": "1865-06-18",
    "dplace": "Tirstrup",
    "occ": [
-    "Farmer and parish bailiff (gårdmand og sognefoged), Tirstrup"
+    "Gårdmand og sognefoged, Tirstrup"
    ],
    "conf": "record",
-   "note": "Baptism confirmed 2 Oct 1792 in Skødstrup Church; godparents included the Majorinde Weinegel, Generalinde Trampe, Major Folsch of Aarhus and Sehested of Fredericia. 1st wife Marie Kjerstine Christensdatter; 2nd marriage 19 Oct 1833 in Rosmus to Ane Sophie Jensdatter.",
+   "note": "Døbt 2. okt. 1792 i Skødstrup Kirke. Fadderne var bl.a. majorinde Weinegel, generalinde Trampe, major Folsch i Aarhus og Sehested i Fredericia. Første hustru var Marie Kjerstine Christensdatter. Han giftede sig anden gang 19. okt. 1833 i Rosmus med Ane Sophie Jensdatter.",
    "src": [
-    "AO:Skødstrup FKVD 1780–1809, p.75 (bsid 736476, image 43)",
+    "AO:Skødstrup kirkebog 1780–1809, s. 75 (bsid 736476, billede 43)",
     "LL:1-475273",
     "LL:2-530881",
     "LL:5-717919",
@@ -1037,28 +1020,30 @@
     [
      1792,
      "Vosnæsgaard, Skødstrup",
-     "born on the manor his father leased"
+     "født på herregården, som faren forpagtede"
     ],
     [
      1801,
      "Bogensholm, Vistoft (Mols)",
-     "child on his father's estate"
+     "barn på farens gods"
     ],
     [
      1833,
      "Rosmus",
-     "2nd marriage"
+     "andet ægteskab"
     ],
     [
      1834,
      "Tirstrup",
-     "farmer & sognefoged until death"
+     "gårdmand og sognefoged til sin død"
     ]
    ],
    "father": "p72",
    "mother": "p73",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": "p37"
   },
   {
    "id": "p37",
@@ -1067,7 +1052,7 @@
    "ahnen": 37,
    "line": "gaardsted",
    "rel": null,
-   "born": "c.1812",
+   "born": "ca. 1812",
    "bplace": "Rosmus",
    "died": "1886-02-27",
    "dplace": "Tirstrup",
@@ -1083,7 +1068,9 @@
    "father": null,
    "mother": null,
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": "p36"
   },
   {
    "id": "p38",
@@ -1097,12 +1084,12 @@
    "died": "1886-12-20",
    "dplace": "Fuglslev",
    "occ": [
-    "Cottager (boelsmand), Fuglslev (1845)",
-    "Farmer (gårdmand), Fuglslev (1850–60)",
-    "Retired farmer (1880)"
+    "Boelsmand, Fuglslev (1845)",
+    "Gårdmand, Fuglslev (1850–60)",
+    "Aftægtsmand (1880)"
    ],
    "conf": "record",
-   "note": "Married Mariane Hansdatter 3 Sep 1841 in Fuglslev.",
+   "note": "Gift med Mariane Hansdatter 3. sep. 1841 i Fuglslev.",
    "src": [
     "LL:12-3667395",
     "LL:13-3522464",
@@ -1113,7 +1100,9 @@
    "father": "p76",
    "mother": "p77",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": "p39"
   },
   {
    "id": "p39",
@@ -1127,7 +1116,7 @@
    "died": "1885-07-26",
    "dplace": "Fuglslev",
    "occ": [
-    "Servant at Fuglslev mill (1834–40)"
+    "Tjenestepige på Fuglslev Mølle (1834–40)"
    ],
    "conf": "record",
    "note": null,
@@ -1140,7 +1129,246 @@
    "father": "p78",
    "mother": "p79",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": "p38"
+  },
+  {
+   "id": "p52",
+   "name": "Rasmus Jensen",
+   "sex": "M",
+   "ahnen": 52,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Nævnt som far i sønnen Jens Jensens vielse 1907.",
+   "src": [
+    "LL:13-432735"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p53"
+  },
+  {
+   "id": "p53",
+   "name": "Christine Hansen",
+   "sex": "F",
+   "ahnen": 53,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Nævnt som mor i sønnen Jens Jensens vielse 1907.",
+   "src": [
+    "LL:13-432736"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p52"
+  },
+  {
+   "id": "p54",
+   "name": "Edvard Hammer Gedde",
+   "sex": "M",
+   "ahnen": 54,
+   "line": "gedde",
+   "rel": null,
+   "born": "1845-07-08",
+   "bplace": "Herlufmagle",
+   "died": null,
+   "dplace": null,
+   "occ": [
+    "Proprietær, Tamdrup (1880)",
+    "Vognmand og foderstofhandler, København"
+   ],
+   "conf": "record",
+   "note": "Gift 8. juli 1870 i Sankt Peders Kirke, Næstved, med Vitta Ludvigsen. Mellemnavnet Hammer har han efter farens plejefar, dr.theol. Edvard Snedorph Hammer, sognepræst i Herlufmagle.",
+   "src": [
+    "LL:5-674514",
+    "LL:13-5702405",
+    "LL:7-1280754",
+    "LL:13-432738",
+    "LL:11-652493"
+   ],
+   "res": [
+    [
+     1845,
+     "Herlufmagle",
+     "født"
+    ],
+    [
+     1870,
+     "Næstved",
+     "gift"
+    ],
+    [
+     1880,
+     "Tamdrup",
+     "proprietær"
+    ],
+    [
+     1907,
+     "København",
+     "vognmand"
+    ]
+   ],
+   "father": "p108",
+   "mother": "p109",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p55"
+  },
+  {
+   "id": "p55",
+   "name": "Vitta Dorthea Henriette Mathilde Ludvigsen",
+   "sex": "F",
+   "ahnen": 55,
+   "line": "gedde",
+   "rel": null,
+   "born": "1848",
+   "bplace": "Næstved",
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:6-812043",
+    "LL:13-5702406",
+    "LL:7-1280755",
+    "LL:13-432739"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p54"
+  },
+  {
+   "id": "p48",
+   "name": "Peter Christian Frederiksen",
+   "sex": "M",
+   "ahnen": null,
+   "line": "frederiksen",
+   "rel": "stedfarens farfar",
+   "born": "1839-05-04",
+   "bplace": "Rinkenæs",
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Gift med Anna Kirstine Marie Paulsen 9. dec. 1860 i Broager.",
+   "src": [
+    "LL:12-14275364",
+    "LL:13-4957004",
+    "LL:12-14989548"
+   ],
+   "res": [],
+   "father": "p96",
+   "mother": "p97",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p49"
+  },
+  {
+   "id": "p49",
+   "name": "Anna Kirstine Marie Paulsen",
+   "sex": "F",
+   "ahnen": null,
+   "line": "frederiksen",
+   "rel": "stedfarens farmor",
+   "born": "1834-11-11",
+   "bplace": "Ulkebøl",
+   "died": "1893-05-22",
+   "dplace": "Broager",
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-15092343",
+    "LL:13-4957007",
+    "LL:11-7302858"
+   ],
+   "res": [],
+   "father": "p98",
+   "mother": "p99",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p48"
+  },
+  {
+   "id": "p50",
+   "name": "Carl Peter Hansen",
+   "sex": "M",
+   "ahnen": null,
+   "line": "frederiksen",
+   "rel": "stedfarens morfar",
+   "born": "1842-05-24",
+   "bplace": "Egernsund",
+   "died": "1909",
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-14990796",
+    "LL:13-1051963"
+   ],
+   "res": [],
+   "father": "p100",
+   "mother": "p101",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p51"
+  },
+  {
+   "id": "p51",
+   "name": "Eline Helene Marie Hansen",
+   "sex": "F",
+   "ahnen": null,
+   "line": "frederiksen",
+   "rel": "stedfarens mormor",
+   "born": "1850-03-24",
+   "bplace": null,
+   "died": "1894",
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-14990797",
+    "LL:13-1051964"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p50"
   },
   {
    "id": "p72",
@@ -1149,20 +1377,20 @@
    "ahnen": 72,
    "line": "gaardsted",
    "rel": null,
-   "born": "c.1750",
+   "born": "ca. 1750",
    "bplace": null,
    "died": "1811",
    "dplace": "Bogensholm, Vistoft (Mols)",
    "occ": [
-    "Tenant of the manor (forpagter), Vosnæsgaard (1787–c.1796)",
-    "Owner of Bogensholm estate (1796/97–1811)"
+    "Forpagter af Vosnæsgaard (1787–ca. 1796)",
+    "Ejer af herregården Bogensholm (1796/97–1811)"
    ],
    "conf": "record",
-   "note": "Married twice; Kirsten Marie Jørgensdatter was his 2nd wife. His widow sold Bogensholm at auction in 1811 for 31,000 rdl. Arrived at Vosnæsgaard after 1784; his own birthplace and parents are unknown.",
+   "note": "Gift to gange; Kirsten Marie Jørgensdatter var hans anden hustru. Enken solgte Bogensholm på auktion i 1811 for 31.000 rdl. Han kom til Vosnæsgaard efter 1784. Hvor han er født, og hvem hans forældre var, er ukendt.",
    "src": [
     "LL:0-414804",
     "LL:1-475533",
-    "AO:Skødstrup FKVD 1780–1809, p.75",
+    "AO:Skødstrup kirkebog 1780–1809, s. 75",
     "Trap Danmark / danskeherregaarde.dk (Bogensholm)"
    ],
    "res": [
@@ -1174,13 +1402,15 @@
     [
      1797,
      "Bogensholm, Vistoft (Mols)",
-     "bought the estate for 10,000 rdl"
+     "købte godset for 10.000 rdl."
     ]
    ],
    "father": null,
    "mother": null,
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": "p73"
   },
   {
    "id": "p73",
@@ -1189,9 +1419,9 @@
    "ahnen": 73,
    "line": "gaardsted",
    "rel": null,
-   "born": "c.1752",
+   "born": "ca. 1752",
    "bplace": null,
-   "died": "after 1811",
+   "died": "efter 1811",
    "dplace": null,
    "occ": [],
    "conf": "record",
@@ -1204,7 +1434,9 @@
    "father": null,
    "mother": null,
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": "p72"
   },
   {
    "id": "p76",
@@ -1213,12 +1445,12 @@
    "ahnen": 76,
    "line": "rousing",
    "rel": null,
-   "born": "c.1780",
+   "born": "ca. 1780",
    "bplace": "Fuglslev",
    "died": "1858-05-25",
    "dplace": "Fuglslev",
    "occ": [
-    "Freeholder farmer and parish bailiff (selvejer gårdmand og sognefoged), Fuglslev"
+    "Selvejergårdmand og sognefoged, Fuglslev"
    ],
    "conf": "record",
    "note": null,
@@ -1231,7 +1463,9 @@
    "father": "p152",
    "mother": "p153",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": "p77"
   },
   {
    "id": "p77",
@@ -1240,7 +1474,7 @@
    "ahnen": 77,
    "line": "rousing",
    "rel": null,
-   "born": "c.1780",
+   "born": "ca. 1780",
    "bplace": null,
    "died": "1855-04-25",
    "dplace": "Fuglslev",
@@ -1255,7 +1489,9 @@
    "father": null,
    "mother": null,
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": "p76"
   },
   {
    "id": "p78",
@@ -1264,13 +1500,13 @@
    "ahnen": 78,
    "line": "rousing",
    "rel": null,
-   "born": "c.1794",
+   "born": "ca. 1794",
    "bplace": null,
    "died": null,
    "dplace": null,
    "occ": [],
    "conf": "record",
-   "note": "Married Maren Rasmusdatter 6 Jul 1817 in Fuglslev.",
+   "note": "Gift med Maren Rasmusdatter 6. juli 1817 i Fuglslev.",
    "src": [
     "LL:13-1705838",
     "LL:12-3667696"
@@ -1279,7 +1515,9 @@
    "father": null,
    "mother": null,
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": "p79"
   },
   {
    "id": "p79",
@@ -1288,7 +1526,7 @@
    "ahnen": 79,
    "line": "rousing",
    "rel": null,
-   "born": "c.1798",
+   "born": "ca. 1798",
    "bplace": null,
    "died": null,
    "dplace": null,
@@ -1302,7 +1540,252 @@
    "father": null,
    "mother": null,
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": "p78"
+  },
+  {
+   "id": "p108",
+   "name": "Ove Frederik Christopher Gedde",
+   "sex": "M",
+   "ahnen": 108,
+   "line": "gedde",
+   "rel": null,
+   "born": "1808-07",
+   "bplace": "Fredensborg",
+   "died": null,
+   "dplace": null,
+   "occ": [
+    "Cand.jur.",
+    "Forvalter, Herlufmagle (1840–50)"
+   ],
+   "conf": "record",
+   "note": "Hjemmedøbt i Fredensborg, indført i kirkebogen 24. juli 1808 som søn af 'Hr. Capitaine ved Kronens Regiment Hr. Ove Samuel Giedde og Frue Frederikke Lovise Birthe født Kleist'. Faddere: oberstløjtnantinde Recke, jomfru Gradman fra Helsingør, kaptajn Giedde fra Helsingør og løjtnanterne Tønnesen og Bøgtrup. Han voksede op i Herlufmagle Præstegård hos sin moster Christine Sophie von Kleist og hendes mand, sognepræst dr.theol. Edvard Snedorph Hammer. Gift 16. okt. 1840 i Helligånds Kirke, København, med Charlotte Frederikke Christine Møller. I 1840–50 bestyrede han Viborggaard i Herlufmagle for mosteren, der var enke og ejede gården. Hendes bror, pensionist Ludvig Adam Kleist, boede der også. Begge var født i Assens.",
+   "src": [
+    "AO:Fredensborg Slotssogn kirkebog 1733–1814, s. 127 (bsid 594366, billede 65)",
+    "LL:2-251474",
+    "LL:14-7607995",
+    "LL:3-593931",
+    "LL:4-652578",
+    "LL:5-674512",
+    "PHT:1897"
+   ],
+   "res": [
+    [
+     1808,
+     "Fredensborg",
+     "født, hjemmedøbt"
+    ],
+    [
+     1823,
+     "Herlufmagle",
+     "konfirmeret"
+    ],
+    [
+     1834,
+     "København",
+     "cand.jur., plejesøn af dr. Hammer"
+    ],
+    [
+     1840,
+     "København",
+     "gift i Helligånds Kirke"
+    ],
+    [
+     1845,
+     "Herlufmagle",
+     "forvalter"
+    ]
+   ],
+   "father": "p216",
+   "mother": "p217",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p109"
+  },
+  {
+   "id": "p109",
+   "name": "Charlotte Frederikke Christine Møller",
+   "sex": "F",
+   "ahnen": 109,
+   "line": "gedde",
+   "rel": null,
+   "born": "1815",
+   "bplace": "København",
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:5-674513"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p108"
+  },
+  {
+   "id": "p96",
+   "name": "Friedrich Friedrichsen (Frederik Frederiksen)",
+   "sex": "M",
+   "ahnen": null,
+   "line": "frederiksen",
+   "rel": "stedfarens oldefar",
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:13-4957005"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p97"
+  },
+  {
+   "id": "p97",
+   "name": "Anna Christina Peters (Christensen)",
+   "sex": "F",
+   "ahnen": null,
+   "line": "frederiksen",
+   "rel": "stedfarens oldemor",
+   "born": "ca. 1815",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Født i Vester Hostrup ifølge folketællingen.",
+   "src": [
+    "LL:13-4957006"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p96"
+  },
+  {
+   "id": "p98",
+   "name": "Jens Paulsen",
+   "sex": "M",
+   "ahnen": null,
+   "line": "frederiksen",
+   "rel": "stedfarens oldefar",
+   "born": "ca. 1799",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [
+    "Daglejer, Sønderborg (1845)"
+   ],
+   "conf": "record",
+   "note": "Gift 24. feb. 1833 i Ulkebøl med Cathrine Marie Lausen.",
+   "src": [
+    "LL:13-4995190",
+    "LL:4-956554",
+    "LL:13-4957008",
+    "LL:11-7302859"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p99"
+  },
+  {
+   "id": "p99",
+   "name": "Cathrine Marie Lausen (Lorenzen)",
+   "sex": "F",
+   "ahnen": null,
+   "line": "frederiksen",
+   "rel": "stedfarens oldemor",
+   "born": "ca. 1805",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:13-4957009",
+    "LL:11-7302860"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p98"
+  },
+  {
+   "id": "p100",
+   "name": "Peter Hansen",
+   "sex": "M",
+   "ahnen": null,
+   "line": "frederiksen",
+   "rel": "stedfarens oldefar",
+   "born": "1803",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [
+    "Teglværksarbejder, Egernsund"
+   ],
+   "conf": "record",
+   "note": "Født i Brejning ifølge folketællingen.",
+   "src": [
+    "Link Lives: folketællinger for Broager sogn 1845–60"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p101"
+  },
+  {
+   "id": "p101",
+   "name": "Anna Christina Jensen",
+   "sex": "F",
+   "ahnen": null,
+   "line": "frederiksen",
+   "rel": "stedfarens oldemor",
+   "born": "1813",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Født i Gudum ifølge folketællingen.",
+   "src": [
+    "Link Lives: folketællinger for Broager sogn 1845–60"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p100"
   },
   {
    "id": "p152",
@@ -1311,15 +1794,15 @@
    "ahnen": 152,
    "line": "rousing",
    "rel": null,
-   "born": "c.1755",
+   "born": "ca. 1755",
    "bplace": "Fuglslev",
    "died": null,
    "dplace": null,
    "occ": [
-    "Farmer (bonde og gårdbeboer), Fuglslev"
+    "Bonde og gårdbeboer, Fuglslev"
    ],
    "conf": "probable",
-   "note": "Rasmus Jensen, aged 20, lives in his household in 1801.",
+   "note": "Rasmus Jensen, 20 år, bor i hans husstand i 1801.",
    "src": [
     "LL:1-473834",
     "LL:0-415717"
@@ -1328,7 +1811,9 @@
    "father": "p304",
    "mother": null,
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": "p153"
   },
   {
    "id": "p153",
@@ -1337,7 +1822,7 @@
    "ahnen": 153,
    "line": "rousing",
    "rel": null,
-   "born": "c.1758",
+   "born": "ca. 1758",
    "bplace": null,
    "died": null,
    "dplace": null,
@@ -1351,7 +1836,9 @@
    "father": null,
    "mother": null,
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": "p152"
   },
   {
    "id": "p304",
@@ -1360,15 +1847,15 @@
    "ahnen": 304,
    "line": "rousing",
    "rel": null,
-   "born": "c.1718",
+   "born": "ca. 1718",
    "bplace": "Fuglslev",
    "died": null,
    "dplace": null,
    "occ": [
-    "Farmer (bonde og gårdmand), Fuglslev (1787)"
+    "Bonde og gårdmand, Fuglslev (1787)"
    ],
    "conf": "possible",
-   "note": "Possible father of Jens Rasmussen (naming pattern only).",
+   "note": "Mulig far til Jens Rasmussen. Det bygger kun på navnemønsteret.",
    "src": [
     "LL:0-415357"
    ],
@@ -1376,7 +1863,658 @@
    "father": null,
    "mother": null,
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "p216",
+   "name": "Ove Samuel Gedde",
+   "sex": "M",
+   "ahnen": 216,
+   "line": "gedde",
+   "rel": null,
+   "born": "1778-02-28",
+   "bplace": null,
+   "died": "1843-03-10",
+   "dplace": "Helsingør",
+   "occ": [
+    "Officer: sekondløjtnant, kaptajn (1808), oberstløjtnant og bataljonschef ved Kronens Regiment",
+    "Karakteriseret oberst, ridder af Dannebrog",
+    "Borgerrepræsentant, Helsingør (1823–38)"
+   ],
+   "conf": "record",
+   "note": "Gift 24. juni 1806 med Frederikke Louise Dorthea von Kleist. Kaldes 'von Gedde' i folketællingen 1834, hvor familien bor i Helsingør med datteren Henriette (f. 1819). Han er familiens bedste bud på 'kaptajnen' i fortællingen om navnet Gedde: Else Gedde Jensens tipoldefar og kaptajn i 1808. Der er dog intet i kilderne om, at han var i Trankebar.",
+   "src": [
+    "AO:Fredensborg Slotssogn kirkebog 1808",
+    "LL:2-80373",
+    "LL:3-51002",
+    "LL:11-5877418",
+    "LL:14-7607995",
+    "PHT:1897",
+    "Geni: Ove Samuel Gedde (1778–1843)"
+   ],
+   "res": [
+    [
+     1808,
+     "Fredensborg",
+     "kaptajn; sønnen Ove Frederik født"
+    ],
+    [
+     1834,
+     "Helsingør",
+     "oberstløjtnant, Kronens Regiment"
+    ],
+    [
+     1843,
+     "Helsingør",
+     "død"
+    ]
+   ],
+   "father": "p432",
+   "mother": "p433",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p217"
+  },
+  {
+   "id": "p217",
+   "name": "Frederikke Louise Dorthea von Kleist",
+   "sex": "F",
+   "ahnen": 217,
+   "line": "gedde",
+   "rel": null,
+   "born": "1786-01-05",
+   "bplace": null,
+   "died": "1870-01-24",
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Kirkebogen 1808 kalder hende 'Frederikke Lovise Birthe født Kleist'. Datter af kammerherre Christian Frederik von Kleist. Hendes søster Christine Sophie var gift med pastor Hammer i Herlufmagle, og søsteren Juliane med den norske generalmajor Nicolai Wilhelm Gedde, sandsynligvis Ove Samuels bror.",
+   "src": [
+    "PHT:1897",
+    "LL:2-80374",
+    "LL:3-51003",
+    "AO:Fredensborg Slotssogn kirkebog 1808"
+   ],
+   "res": [
+    [
+     1834,
+     "Helsingør",
+     "officershustru"
+    ]
+   ],
+   "father": "p434",
+   "mother": "p435",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p216"
+  },
+  {
+   "id": "p432",
+   "name": "Hans Christopher Gedde",
+   "sex": "M",
+   "ahnen": 432,
+   "line": "gedde",
+   "rel": null,
+   "born": "1738",
+   "bplace": null,
+   "died": "1817",
+   "dplace": null,
+   "occ": [
+    "Generalmajor (dansk-norsk hær)"
+   ],
+   "conf": "probable",
+   "note": "Stamfar til den norske Gedde-slægt. Hans søn Nicolai Wilhelm Gedde (1779–1833) giftede sig med Frederikke Louises søster. Geni angiver ham som far til Ove Samuel, men det er ikke bekræftet i en primærkilde.",
+   "src": [
+    "Store norske leksikon: Gedde (slekt)",
+    "lokalhistoriewiki.no: Gedde (borgerlig slekt)",
+    "Geni: Ove Samuel Gedde"
+   ],
+   "res": [],
+   "father": "p864",
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p433"
+  },
+  {
+   "id": "p433",
+   "name": "Øllegaard Sophie Fischer",
+   "sex": "F",
+   "ahnen": 433,
+   "line": "gedde",
+   "rel": null,
+   "born": "ca. 1752",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "probable",
+   "note": "Kaldes andre steder 'Frederikke Christiane Fischer'.",
+   "src": [
+    "lokalhistoriewiki.no: Gedde (borgerlig slekt)",
+    "Geni: Ove Samuel Gedde"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p432"
+  },
+  {
+   "id": "p864",
+   "name": "Samuel Christoph Gedde",
+   "sex": "M",
+   "ahnen": 864,
+   "line": "gedde",
+   "rel": null,
+   "born": "1691-07-14",
+   "bplace": "København",
+   "died": "1766-02-02",
+   "dplace": "København",
+   "occ": [
+    "Officer: underkonduktør (1710) til generalmajor (1760)"
+   ],
+   "conf": "probable",
+   "note": "Far til ti børn, bl.a. Hans Christopher (f. 1738). Ifølge Store norske leksikon har den borgerlige Gedde-slægt sandsynligvis ingen forbindelse til den uddøde adelsslægt Gjedde, som Trankebars grundlægger, admiral Ove Gjedde, tilhørte.",
+   "src": [
+    "Store norske leksikon: Gedde (slekt)"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "p434",
+   "name": "Christian Frederik von Kleist",
+   "sex": "M",
+   "ahnen": 434,
+   "line": "gedde",
+   "rel": null,
+   "born": "1743-08-25",
+   "bplace": null,
+   "died": "1799-07-12",
+   "dplace": null,
+   "occ": [
+    "Kornet ved Holstenske Kyrassérregiment (1758)",
+    "Eskadronchef, karakteriseret major (1774)",
+    "Kammerherre (1779)",
+    "Godsejer ved Bredsted"
+   ],
+   "conf": "record",
+   "note": "Gift 3. dec. 1770 med Anna Margrethe Schubart. Fire sønner og fire døtre, bl.a. generalmajor Carl Gottlieb von Kleist.",
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": "p868",
+   "mother": "p869",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p435"
+  },
+  {
+   "id": "p435",
+   "name": "Anna Margrethe Schubart",
+   "sex": "F",
+   "ahnen": 435,
+   "line": "gedde",
+   "rel": null,
+   "born": "1753-04-03",
+   "bplace": null,
+   "died": "1842-08-24",
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": "p870",
+   "mother": "p871",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p434"
+  },
+  {
+   "id": "p868",
+   "name": "Christian Adam von Kleist",
+   "sex": "M",
+   "ahnen": 868,
+   "line": "gedde",
+   "rel": null,
+   "born": "1705-10-01",
+   "bplace": "København",
+   "died": "1778-10-31",
+   "dplace": null,
+   "occ": [
+    "Page og hofjunker (1731)",
+    "Amtmand i Rendsborg (1740) og landråd i Holsten",
+    "Kammerherre (1746), gehejmeråd (1766)",
+    "Landfoged i Bredsted (1768)"
+   ],
+   "conf": "record",
+   "note": "Døbt i Vor Frelsers Kirke på Christianshavn. Ridder af Dannebrog 1759. Død i Bredsted og begravet i Slesvig Domkirke.",
+   "src": [
+    "PHT:1897",
+    "Dansk biografisk Lexikon IX s. 219"
+   ],
+   "res": [],
+   "father": "p1736",
+   "mother": "p1737",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p869"
+  },
+  {
+   "id": "p869",
+   "name": "Sophie Rosenkrantz",
+   "sex": "F",
+   "ahnen": 869,
+   "line": "gedde",
+   "rel": null,
+   "born": "1714",
+   "bplace": null,
+   "died": "1770-06-04",
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Dame de l'Union parfaite 1752. Begravet i Slesvig Domkirke.",
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": "p1738",
+   "mother": "p1739",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p868"
+  },
+  {
+   "id": "p870",
+   "name": "Johan Valentin Schubart",
+   "sex": "M",
+   "ahnen": 870,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [
+    "Major i kavaleriet"
+   ],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p871"
+  },
+  {
+   "id": "p871",
+   "name": "Christiane Sophie Woldenberg",
+   "sex": "F",
+   "ahnen": 871,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p870"
+  },
+  {
+   "id": "p1736",
+   "name": "Cartz Ulrik von Kleist",
+   "sex": "M",
+   "ahnen": 1736,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": "1722-11",
+   "dplace": null,
+   "occ": [
+    "Premierløjtnant ved Fynske Infanteriregiment (1701)",
+    "Kaptajn i Grenaderkorpset (1707)",
+    "Oberstløjtnant (1712/1717)",
+    "Herre til Drenow (Pommern)"
+   ],
+   "conf": "record",
+   "note": "Fra Muttrin-linjen af den pommerske adelsslægt von Kleist. Han var i brandenborgsk tjeneste 1692–94 og i dansk tjeneste fra 1701. Han blev såret og taget til fange ved Helsingborg i 1710 og ved Gadebusch i 1712. Han døde i Rendsborg og blev begravet 17. nov. 1722. Parret fik 10 børn.",
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": "p3472",
+   "mother": "p3473",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p1737"
+  },
+  {
+   "id": "p1737",
+   "name": "Barbara Juliane von Kleist",
+   "sex": "F",
+   "ahnen": 1737,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": "efter 1730",
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Boede endnu i 1730 på godset Drenow i Pommern.",
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": "p3474",
+   "mother": "p3475",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p1736"
+  },
+  {
+   "id": "p1738",
+   "name": "Christian Rosenkrantz til Skovsbo",
+   "sex": "M",
+   "ahnen": 1738,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [
+    "Gehejmeråd",
+    "Godsejer, Skovsbo (Fyn)"
+   ],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p1739"
+  },
+  {
+   "id": "p1739",
+   "name": "Frederikke Louise Krag",
+   "sex": "F",
+   "ahnen": 1739,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p1738"
+  },
+  {
+   "id": "p3472",
+   "name": "Pribislaff von Kleist",
+   "sex": "M",
+   "ahnen": 3472,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [
+    "Godsejer: Muttrin, Borntin, Döbel og Drenow (Pommern)"
+   ],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p3473"
+  },
+  {
+   "id": "p3473",
+   "name": "Esther von Kameke",
+   "sex": "F",
+   "ahnen": 3473,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p3472"
+  },
+  {
+   "id": "p3474",
+   "name": "Christian Casimir von Kleist",
+   "sex": "M",
+   "ahnen": 3474,
+   "line": "gedde",
+   "rel": null,
+   "born": "1654",
+   "bplace": null,
+   "died": "1722-02-01",
+   "dplace": null,
+   "occ": [
+    "Premierløjtnant ved Prins Christians Regiment (1677)",
+    "Kaptajn og chef for grenaderkompagniet ved Fynske Infanteriregiment (1685)",
+    "Oberstløjtnant og kommandant i Oldenborg (1709)"
+   ],
+   "conf": "record",
+   "note": "Arvede en del af Gross Tychow i Pommern. Han deltog i felttoget i hertugdømmerne i 1700 og døde i Oldenborg.",
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": "p6948",
+   "mother": "p6949",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p3475"
+  },
+  {
+   "id": "p3475",
+   "name": "Anna von Fürst",
+   "sex": "F",
+   "ahnen": 3475,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": "1722",
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Fra Schlesien.",
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p3474"
+  },
+  {
+   "id": "p6948",
+   "name": "Christian von Kleist",
+   "sex": "M",
+   "ahnen": 6948,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": "1679",
+   "dplace": null,
+   "occ": [
+    "Brandenborgsk oberst",
+    "Godsejer, Gross Tychow (Pommern)"
+   ],
+   "conf": "record",
+   "note": "Stamfar til den gren af slægten, der 'i henimod halvandet hundrede år blomstrede i Danmark'.",
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p6949"
+  },
+  {
+   "id": "p6949",
+   "name": "Hedvig Maria von Kleist",
+   "sex": "F",
+   "ahnen": 6949,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Hans første hustru. Hun bragte en del af Gross Tychow med ind i ægteskabet.",
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": "p13898",
+   "mother": "p13899",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p6948"
+  },
+  {
+   "id": "p13898",
+   "name": "Georg von Kleist",
+   "sex": "M",
+   "ahnen": 13898,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [
+    "Godsejer, Gross Tychow (Pommern)"
+   ],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p13899"
+  },
+  {
+   "id": "p13899",
+   "name": "Christina von Woyten",
+   "sex": "F",
+   "ahnen": 13899,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p13898"
   },
   {
    "id": "s_p16_0",
@@ -1384,20 +2522,22 @@
    "sex": "F",
    "ahnen": null,
    "line": "jorgensen",
-   "rel": "Aage's sibling",
+   "rel": "Aages søskende",
    "born": "1886-10-21",
    "bplace": null,
    "died": null,
    "dplace": null,
    "occ": [],
    "conf": "record",
-   "note": "twin",
+   "note": "Tvilling.",
    "src": [],
    "res": [],
    "father": "p16",
    "mother": "p17",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p16_1",
@@ -1405,20 +2545,22 @@
    "sex": "M",
    "ahnen": null,
    "line": "jorgensen",
-   "rel": "Aage's sibling",
+   "rel": "Aages søskende",
    "born": "1886-10-21",
    "bplace": null,
    "died": null,
    "dplace": null,
    "occ": [],
    "conf": "record",
-   "note": "twin",
+   "note": "Tvilling.",
    "src": [],
    "res": [],
    "father": "p16",
    "mother": "p17",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p16_2",
@@ -1426,7 +2568,7 @@
    "sex": "F",
    "ahnen": null,
    "line": "jorgensen",
-   "rel": "Aage's sibling",
+   "rel": "Aages søskende",
    "born": "1888-07-30",
    "bplace": null,
    "died": null,
@@ -1439,7 +2581,9 @@
    "father": "p16",
    "mother": "p17",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p16_3",
@@ -1447,7 +2591,7 @@
    "sex": "M",
    "ahnen": null,
    "line": "jorgensen",
-   "rel": "Aage's sibling",
+   "rel": "Aages søskende",
    "born": "1892-10-24",
    "bplace": null,
    "died": null,
@@ -1460,7 +2604,9 @@
    "father": "p16",
    "mother": "p17",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p16_4",
@@ -1468,7 +2614,7 @@
    "sex": "F",
    "ahnen": null,
    "line": "jorgensen",
-   "rel": "Aage's sibling",
+   "rel": "Aages søskende",
    "born": "1895-01-07",
    "bplace": null,
    "died": null,
@@ -1481,7 +2627,9 @@
    "father": "p16",
    "mother": "p17",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p16_5",
@@ -1489,7 +2637,7 @@
    "sex": "F",
    "ahnen": null,
    "line": "jorgensen",
-   "rel": "Aage's sibling",
+   "rel": "Aages søskende",
    "born": "1899-12-26",
    "bplace": null,
    "died": null,
@@ -1502,7 +2650,9 @@
    "father": "p16",
    "mother": "p17",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p32_0",
@@ -1510,13 +2660,13 @@
    "sex": "M",
    "ahnen": null,
    "line": "jorgensen",
-   "rel": "Jørgen Anton's sibling",
+   "rel": "Jørgen Antons søskende",
    "born": "1855",
    "bplace": null,
    "died": null,
    "dplace": null,
    "occ": [
-    "Passementmaker"
+    "Possementmager"
    ],
    "conf": "record",
    "note": null,
@@ -1525,7 +2675,9 @@
    "father": "p32",
    "mother": "p33",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p32_1",
@@ -1533,13 +2685,13 @@
    "sex": "F",
    "ahnen": null,
    "line": "jorgensen",
-   "rel": "Jørgen Anton's sibling",
+   "rel": "Jørgen Antons søskende",
    "born": "1855-11-18",
    "bplace": null,
    "died": null,
    "dplace": null,
    "occ": [
-    "Dressmaker"
+    "Syerske"
    ],
    "conf": "record",
    "note": null,
@@ -1548,7 +2700,9 @@
    "father": "p32",
    "mother": "p33",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p32_2",
@@ -1556,13 +2710,13 @@
    "sex": "M",
    "ahnen": null,
    "line": "jorgensen",
-   "rel": "Jørgen Anton's sibling",
+   "rel": "Jørgen Antons søskende",
    "born": "1862-04-05",
    "bplace": null,
    "died": null,
    "dplace": null,
    "occ": [
-    "Shoemaker"
+    "Skomager"
    ],
    "conf": "record",
    "note": null,
@@ -1571,7 +2725,9 @@
    "father": "p32",
    "mother": "p33",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p32_3",
@@ -1579,13 +2735,13 @@
    "sex": "F",
    "ahnen": null,
    "line": "jorgensen",
-   "rel": "Jørgen Anton's sibling",
+   "rel": "Jørgen Antons søskende",
    "born": "1871-08-03",
    "bplace": null,
    "died": null,
    "dplace": null,
    "occ": [
-    "Dressmaker"
+    "Syerske"
    ],
    "conf": "record",
    "note": null,
@@ -1594,7 +2750,9 @@
    "father": "p32",
    "mother": "p33",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p18_0",
@@ -1602,22 +2760,24 @@
    "sex": "F",
    "ahnen": null,
    "line": "gaardsted",
-   "rel": "Jensine's sibling",
+   "rel": "Jensines søskende",
    "born": "1879-01-29",
    "bplace": null,
    "died": null,
    "dplace": null,
    "occ": [
-    "Servant"
+    "Tjenestepige"
    ],
    "conf": "record",
-   "note": "Lived with her widowed mother in Kolind 1921; with sister Sofie left memoirs of Petersminde (Midtdjurs Lokalhistoriske Arkiv A847).",
+   "note": "Boede hos sin mor, der var enke, i Kolind i 1921. Hun og søsteren Sofie skrev erindringer om Petersminde (Midtdjurs Lokalhistoriske Arkiv A847).",
    "src": [],
    "res": [],
    "father": "p18",
    "mother": "p19",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p18_1",
@@ -1625,13 +2785,13 @@
    "sex": "F",
    "ahnen": null,
    "line": "gaardsted",
-   "rel": "Jensine's sibling",
+   "rel": "Jensines søskende",
    "born": "1881",
    "bplace": null,
    "died": null,
    "dplace": null,
    "occ": [
-    "Servant"
+    "Tjenestepige"
    ],
    "conf": "record",
    "note": null,
@@ -1640,7 +2800,9 @@
    "father": "p18",
    "mother": "p19",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p18_2",
@@ -1648,13 +2810,13 @@
    "sex": "F",
    "ahnen": null,
    "line": "gaardsted",
-   "rel": "Jensine's sibling",
+   "rel": "Jensines søskende",
    "born": "1883",
    "bplace": null,
    "died": null,
    "dplace": null,
    "occ": [
-    "Servant"
+    "Tjenestepige"
    ],
    "conf": "record",
    "note": null,
@@ -1663,7 +2825,9 @@
    "father": "p18",
    "mother": "p19",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p18_3",
@@ -1671,7 +2835,7 @@
    "sex": "M",
    "ahnen": null,
    "line": "gaardsted",
-   "rel": "Jensine's sibling",
+   "rel": "Jensines søskende",
    "born": "1886",
    "bplace": null,
    "died": null,
@@ -1684,7 +2848,9 @@
    "father": "p18",
    "mother": "p19",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p18_4",
@@ -1692,13 +2858,13 @@
    "sex": "M",
    "ahnen": null,
    "line": "gaardsted",
-   "rel": "Jensine's sibling",
+   "rel": "Jensines søskende",
    "born": "1888-11-10",
    "bplace": null,
    "died": null,
    "dplace": null,
    "occ": [
-    "Poorhouse manager, Bregnet (1922)"
+    "Fattiggårdsbestyrer, Bregnet (1922)"
    ],
    "conf": "record",
    "note": null,
@@ -1707,7 +2873,9 @@
    "father": "p18",
    "mother": "p19",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p18_5",
@@ -1715,7 +2883,7 @@
    "sex": "M",
    "ahnen": null,
    "line": "gaardsted",
-   "rel": "Jensine's sibling",
+   "rel": "Jensines søskende",
    "born": "1891-08-20",
    "bplace": null,
    "died": "1894-03-07",
@@ -1728,7 +2896,9 @@
    "father": "p18",
    "mother": "p19",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p18_6",
@@ -1736,7 +2906,7 @@
    "sex": "F",
    "ahnen": null,
    "line": "gaardsted",
-   "rel": "Jensine's sibling",
+   "rel": "Jensines søskende",
    "born": "1897-02-25",
    "bplace": null,
    "died": null,
@@ -1749,7 +2919,9 @@
    "father": "p18",
    "mother": "p19",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p18_7",
@@ -1757,7 +2929,7 @@
    "sex": "M",
    "ahnen": null,
    "line": "gaardsted",
-   "rel": "Jensine's sibling",
+   "rel": "Jensines søskende",
    "born": "1900-12-05",
    "bplace": null,
    "died": null,
@@ -1770,7 +2942,9 @@
    "father": "p18",
    "mother": "p19",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p36_0",
@@ -1778,7 +2952,7 @@
    "sex": "F",
    "ahnen": null,
    "line": "gaardsted",
-   "rel": "Hans Peter's sibling",
+   "rel": "Hans Peters søskende",
    "born": "1839",
    "bplace": null,
    "died": null,
@@ -1791,7 +2965,9 @@
    "father": "p36",
    "mother": "p37",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p36_1",
@@ -1799,13 +2975,13 @@
    "sex": "M",
    "ahnen": null,
    "line": "gaardsted",
-   "rel": "Hans Peter's sibling",
+   "rel": "Hans Peters søskende",
    "born": "1841",
    "bplace": null,
    "died": "1914",
    "dplace": null,
    "occ": [
-    "Farm owner, Tirstrup"
+    "Gårdejer, Tirstrup"
    ],
    "conf": "record",
    "note": null,
@@ -1814,7 +2990,9 @@
    "father": "p36",
    "mother": "p37",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p36_2",
@@ -1822,7 +3000,7 @@
    "sex": "F",
    "ahnen": null,
    "line": "gaardsted",
-   "rel": "Hans Peter's sibling",
+   "rel": "Hans Peters søskende",
    "born": "1844",
    "bplace": null,
    "died": "1847",
@@ -1835,7 +3013,9 @@
    "father": "p36",
    "mother": "p37",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p36_3",
@@ -1843,7 +3023,7 @@
    "sex": "F",
    "ahnen": null,
    "line": "gaardsted",
-   "rel": "Hans Peter's sibling",
+   "rel": "Hans Peters søskende",
    "born": "1847",
    "bplace": null,
    "died": null,
@@ -1856,7 +3036,9 @@
    "father": "p36",
    "mother": "p37",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p36_4",
@@ -1864,7 +3046,7 @@
    "sex": "M",
    "ahnen": null,
    "line": "gaardsted",
-   "rel": "Hans Peter's sibling",
+   "rel": "Hans Peters søskende",
    "born": "1849",
    "bplace": null,
    "died": null,
@@ -1877,7 +3059,9 @@
    "father": "p36",
    "mother": "p37",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_claus_ch",
@@ -1885,20 +3069,22 @@
    "sex": "M",
    "ahnen": null,
    "line": "gaardsted",
-   "rel": "Hans Peter's half-brother",
+   "rel": "Hans Peters halvbror",
    "born": "1832-07-28",
    "bplace": null,
    "died": "1863",
    "dplace": null,
    "occ": [],
    "conf": "record",
-   "note": "Mother: Marie Kjerstine Christensdatter (Jochum's 1st wife).",
+   "note": "Mor: Marie Kjerstine Christensdatter (Jochums første hustru).",
    "src": [],
    "res": [],
    "father": "p36",
    "mother": null,
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p72_0",
@@ -1906,22 +3092,24 @@
    "sex": "M",
    "ahnen": null,
    "line": "gaardsted",
-   "rel": "Jochum's sibling",
+   "rel": "Jochums søskende",
    "born": "1784",
    "bplace": null,
    "died": "1832-06-13",
    "dplace": null,
    "occ": [
-    "Farmer, Hoed"
+    "Gårdmand, Hoed"
    ],
    "conf": "record",
-   "note": "Married Anne Andersdatter Kræmer; 5+ children in Hoed.",
+   "note": "Gift med Anne Andersdatter Kræmer; mindst 5 børn i Hoed.",
    "src": [],
    "res": [],
    "father": "p72",
    "mother": "p73",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p72_1",
@@ -1929,7 +3117,7 @@
    "sex": "M",
    "ahnen": null,
    "line": "gaardsted",
-   "rel": "Jochum's sibling",
+   "rel": "Jochums søskende",
    "born": "1790",
    "bplace": null,
    "died": null,
@@ -1942,7 +3130,9 @@
    "father": "p72",
    "mother": "p73",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p38_0",
@@ -1950,7 +3140,7 @@
    "sex": "M",
    "ahnen": null,
    "line": "rousing",
-   "rel": "Rasmine's sibling",
+   "rel": "Rasmines søskende",
    "born": "1845",
    "bplace": null,
    "died": null,
@@ -1963,7 +3153,9 @@
    "father": "p38",
    "mother": "p39",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p38_1",
@@ -1971,7 +3163,7 @@
    "sex": "M",
    "ahnen": null,
    "line": "rousing",
-   "rel": "Rasmine's sibling",
+   "rel": "Rasmines søskende",
    "born": "1847",
    "bplace": null,
    "died": null,
@@ -1984,7 +3176,9 @@
    "father": "p38",
    "mother": "p39",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p38_2",
@@ -1992,7 +3186,7 @@
    "sex": "M",
    "ahnen": null,
    "line": "rousing",
-   "rel": "Rasmine's sibling",
+   "rel": "Rasmines søskende",
    "born": "1850",
    "bplace": null,
    "died": null,
@@ -2005,7 +3199,9 @@
    "father": "p38",
    "mother": "p39",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p38_3",
@@ -2013,7 +3209,7 @@
    "sex": "F",
    "ahnen": null,
    "line": "rousing",
-   "rel": "Rasmine's sibling",
+   "rel": "Rasmines søskende",
    "born": "1852",
    "bplace": null,
    "died": null,
@@ -2026,7 +3222,9 @@
    "father": "p38",
    "mother": "p39",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p76_0",
@@ -2034,7 +3232,7 @@
    "sex": "M",
    "ahnen": null,
    "line": "rousing",
-   "rel": "Anders's sibling",
+   "rel": "Anders' søskende",
    "born": "1812",
    "bplace": null,
    "died": null,
@@ -2047,7 +3245,9 @@
    "father": "p76",
    "mother": "p77",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p76_1",
@@ -2055,7 +3255,7 @@
    "sex": "M",
    "ahnen": null,
    "line": "rousing",
-   "rel": "Anders's sibling",
+   "rel": "Anders' søskende",
    "born": "1816",
    "bplace": null,
    "died": null,
@@ -2068,15 +3268,17 @@
    "father": "p76",
    "mother": "p77",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_liss_1",
-   "name": "Karen Margrethe Enevoldsen (née Pedersen)",
+   "name": "Karen Margrethe Enevoldsen (f. Pedersen)",
    "sex": "F",
    "ahnen": null,
    "line": "jorgensen",
-   "rel": "Liss's sister",
+   "rel": "Liss' søster (din grandtante)",
    "born": null,
    "bplace": null,
    "died": null,
@@ -2091,7 +3293,9 @@
    "father": null,
    "mother": null,
    "living": false,
-   "sibof": "p5"
+   "sibof": "p5",
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_liss_2",
@@ -2099,7 +3303,7 @@
    "sex": "F",
    "ahnen": null,
    "line": "jorgensen",
-   "rel": "Liss's sister",
+   "rel": "Liss' søster (din grandtante)",
    "born": null,
    "bplace": null,
    "died": null,
@@ -2114,15 +3318,623 @@
    "father": null,
    "mother": null,
    "living": false,
-   "sibof": "p5"
+   "sibof": "p5",
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p26_0",
+   "name": "Aage Rasmus Gedde Jensen",
+   "sex": "M",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Elses søskende",
+   "born": "1908-07-24",
+   "bplace": null,
+   "died": "1908-07-29",
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:11-2421115"
+   ],
+   "res": [],
+   "father": "p26",
+   "mother": "p27",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p26_1",
+   "name": "Barn (navn skjult i indekset)",
+   "sex": "U",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Elses søskende",
+   "born": "1909-09-09",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-4851907"
+   ],
+   "res": [],
+   "father": "p26",
+   "mother": "p27",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p26_2",
+   "name": "Barn (navn skjult i indekset)",
+   "sex": "U",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Elses søskende",
+   "born": "1911-03-20",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-4852004"
+   ],
+   "res": [],
+   "father": "p26",
+   "mother": "p27",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p26_3",
+   "name": "Barn (navn skjult i indekset)",
+   "sex": "U",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Elses søskende",
+   "born": "1913-11-10",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-4852952"
+   ],
+   "res": [],
+   "father": "p26",
+   "mother": "p27",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p54_0",
+   "name": "Ove Frederik Alexander Gedde",
+   "sex": "M",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Paulas søskende",
+   "born": "1871-04-25",
+   "bplace": null,
+   "died": "1906-03-11",
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:11-4055588"
+   ],
+   "res": [],
+   "father": "p54",
+   "mother": "p55",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p54_1",
+   "name": "Elisabeth Charlotte Christle Doris Gedde",
+   "sex": "F",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Paulas søskende",
+   "born": "1874",
+   "bplace": null,
+   "died": "1909-07-13",
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:11-652492"
+   ],
+   "res": [],
+   "father": "p54",
+   "mother": "p55",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p54_2",
+   "name": "Stephan Peter Hammer Gedde",
+   "sex": "M",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Paulas søskende",
+   "born": "1874",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [],
+   "res": [],
+   "father": "p54",
+   "mother": "p55",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p54_3",
+   "name": "Emil Ludvig Edvard Gedde",
+   "sex": "M",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Paulas søskende",
+   "born": "1875-11-15",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Gift med Johanne Marie Olivia Eddelsen; boede i Roskilde (Sankt Jørgensbjerg) i 1911.",
+   "src": [
+    "LL:23-1448261",
+    "LL:12-2288945"
+   ],
+   "res": [],
+   "father": "p54",
+   "mother": "p55",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p54_4",
+   "name": "Ove Gedde",
+   "sex": "M",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Paulas søskende",
+   "born": "1878",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [],
+   "res": [],
+   "father": "p54",
+   "mother": "p55",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p54_5",
+   "name": "Vilhelm Gedde",
+   "sex": "M",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Paulas søskende",
+   "born": "1879",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [],
+   "res": [],
+   "father": "p54",
+   "mother": "p55",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p54_6",
+   "name": "Olaf Christian Kleist Gedde",
+   "sex": "M",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Paulas søskende",
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [],
+   "res": [],
+   "father": "p54",
+   "mother": "p55",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p108_0",
+   "name": "Emilie Sophie Frederikke Gedde",
+   "sex": "F",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Edvards søskende",
+   "born": "1842-07-07",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-17170629"
+   ],
+   "res": [],
+   "father": "p108",
+   "mother": "p109",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p108_1",
+   "name": "Margrethe Ida Marie Gedde",
+   "sex": "F",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Edvards søskende",
+   "born": "1849-04-11",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-17159973"
+   ],
+   "res": [],
+   "father": "p108",
+   "mother": "p109",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p108_2",
+   "name": "Ove Frederik Gedde",
+   "sex": "M",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Edvards søskende",
+   "born": "1850-12-11",
+   "bplace": null,
+   "died": "1907-10-24",
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-17159130",
+    "LL:11-561887"
+   ],
+   "res": [],
+   "father": "p108",
+   "mother": "p109",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p216_0",
+   "name": "Wilhelm Edvardt Sophus von Gedde",
+   "sex": "M",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Ove Frederiks søskende",
+   "born": "1809",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [
+    "Sekondløjtnant i Kronens Regiment (1834)"
+   ],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:2-25989"
+   ],
+   "res": [],
+   "father": "p216",
+   "mother": "p217",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p216_1",
+   "name": "Henriette von Gedde",
+   "sex": "F",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Ove Frederiks søskende",
+   "born": "1819",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:2-80375"
+   ],
+   "res": [],
+   "father": "p216",
+   "mother": "p217",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p434_0",
+   "name": "Christine Sophie von Kleist",
+   "sex": "F",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Frederikke Louises søskende",
+   "born": "1771-08-28",
+   "bplace": null,
+   "died": "1862-03-31",
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Født i Assens. Gift 1795 med sognepræst dr.theol. Edvard Snedorph Hammer (1767–1829), Herlufmagle, ejer af Viborggaard. De var plejeforældre for Ove Frederik Christopher Gedde. Hun var enke og ejede Viborggaard i 1850.",
+   "src": [
+    "PHT:1897",
+    "LL:5-673677"
+   ],
+   "res": [],
+   "father": "p434",
+   "mother": "p435",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p434_1",
+   "name": "Adam Ludvig Vilhelm von Kleist",
+   "sex": "M",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Frederikke Louises søskende",
+   "born": "1772-10-16",
+   "bplace": null,
+   "died": "1851-10-06",
+   "dplace": null,
+   "occ": [
+    "Kaptajn og kompagnichef"
+   ],
+   "conf": "record",
+   "note": "Født i Assens. Boede i 1850 på Viborggaard i Herlufmagle.",
+   "src": [
+    "PHT:1897",
+    "LL:5-674516"
+   ],
+   "res": [],
+   "father": "p434",
+   "mother": "p435",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p434_2",
+   "name": "Valentin Ulrik von Kleist",
+   "sex": "M",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Frederikke Louises søskende",
+   "born": "1773-12-31",
+   "bplace": null,
+   "died": "1827-07-23",
+   "dplace": null,
+   "occ": [
+    "Major, husarregimentet"
+   ],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": "p434",
+   "mother": "p435",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p434_3",
+   "name": "Frederik Christian von Kleist",
+   "sex": "M",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Frederikke Louises søskende",
+   "born": "1775-01-08",
+   "bplace": null,
+   "died": "1848-05-21",
+   "dplace": null,
+   "occ": [
+    "Major, Sjællandske Jægerkorps"
+   ],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": "p434",
+   "mother": "p435",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p434_4",
+   "name": "Carl Gottlieb von Kleist",
+   "sex": "M",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Frederikke Louises søskende",
+   "born": "1778-01-15",
+   "bplace": null,
+   "died": "1849-07-26",
+   "dplace": null,
+   "occ": [
+    "Generalmajor og kammerherre"
+   ],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": "p434",
+   "mother": "p435",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p434_5",
+   "name": "Juliane Frederikke Margrethe von Kleist",
+   "sex": "F",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Frederikke Louises søskende",
+   "born": "1781-12-02",
+   "bplace": null,
+   "died": "1861-05-22",
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Gift 1811 med Nicolai Wilhelm Gedde (1779–1833), norsk generalmajor og chef for Ingeniørkorpset.",
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": "p434",
+   "mother": "p435",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p434_6",
+   "name": "Henriette Louise von Kleist",
+   "sex": "F",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Frederikke Louises søskende",
+   "born": "1795-11-30",
+   "bplace": null,
+   "died": "1827-04-12",
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Gift 1813 med kaptajnløjtnant Johan Adolf von der Recke.",
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": "p434",
+   "mother": "p435",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p868_0",
+   "name": "Frederikke Louise von Kleist",
+   "sex": "F",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Christian Frederiks søskende",
+   "born": "1747-03-27",
+   "bplace": null,
+   "died": "1814-05-29",
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "PHT:1897"
+   ],
+   "res": [],
+   "father": "p868",
+   "mother": "p869",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p24_0",
-   "name": "Son (unnamed)",
+   "name": "Søn (unavngivet)",
    "sex": "M",
    "ahnen": null,
    "line": "frederiksen",
-   "rel": "Peter's sibling",
+   "rel": "stedfarens søskende",
    "born": "1896",
    "bplace": null,
    "died": "1896-05-19",
@@ -2135,7 +3947,9 @@
    "father": "p24",
    "mother": "p25",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p24_1",
@@ -2143,7 +3957,7 @@
    "sex": "F",
    "ahnen": null,
    "line": "frederiksen",
-   "rel": "Peter's sibling",
+   "rel": "stedfarens søskende",
    "born": "1897-04-28",
    "bplace": null,
    "died": null,
@@ -2156,15 +3970,17 @@
    "father": "p24",
    "mother": "p25",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p24_2",
-   "name": "Child of Lorenz & Cathrina",
+   "name": "Barn af Lorenz og Cathrina",
    "sex": "M",
    "ahnen": null,
    "line": "frederiksen",
-   "rel": "Peter's sibling",
+   "rel": "stedfarens søskende",
    "born": "1905-07-15",
    "bplace": null,
    "died": null,
@@ -2177,7 +3993,9 @@
    "father": "p24",
    "mother": "p25",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p48_0",
@@ -2185,7 +4003,7 @@
    "sex": "M",
    "ahnen": null,
    "line": "frederiksen",
-   "rel": "Lorenz Heinrich's sibling",
+   "rel": "Lorenz Heinrichs (f. 1870) søskende",
    "born": "1862-10-28",
    "bplace": null,
    "died": null,
@@ -2198,7 +4016,9 @@
    "father": "p48",
    "mother": "p49",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p48_1",
@@ -2206,7 +4026,7 @@
    "sex": "M",
    "ahnen": null,
    "line": "frederiksen",
-   "rel": "Lorenz Heinrich's sibling",
+   "rel": "Lorenz Heinrichs (f. 1870) søskende",
    "born": "1865-07-04",
    "bplace": null,
    "died": null,
@@ -2219,7 +4039,9 @@
    "father": "p48",
    "mother": "p49",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p48_2",
@@ -2227,20 +4049,22 @@
    "sex": "F",
    "ahnen": null,
    "line": "frederiksen",
-   "rel": "Lorenz Heinrich's sibling",
+   "rel": "Lorenz Heinrichs (f. 1870) søskende",
    "born": "1867-04-24",
    "bplace": null,
    "died": null,
    "dplace": null,
    "occ": [],
    "conf": "record",
-   "note": "Married Hans Hendrik Ohlsen 17 Jun 1888 in Broager.",
+   "note": "Gift med Hans Hendrik Ohlsen 17. juni 1888 i Broager.",
    "src": [],
    "res": [],
    "father": "p48",
    "mother": "p49",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   },
   {
    "id": "s_p48_3",
@@ -2248,7 +4072,7 @@
    "sex": "F",
    "ahnen": null,
    "line": "frederiksen",
-   "rel": "Lorenz Heinrich's sibling",
+   "rel": "Lorenz Heinrichs (f. 1870) søskende",
    "born": "1874-02-10",
    "bplace": null,
    "died": null,
@@ -2261,7 +4085,9 @@
    "father": "p48",
    "mother": "p49",
    "living": false,
-   "sibof": null
+   "sibof": null,
+   "step": null,
+   "spouse": null
   }
  ],
  "places": {
@@ -2313,7 +4139,7 @@
   "Vosnæsgaard, Skødstrup": [
    56.258,
    10.364,
-   "Aarhus area"
+   "Aarhus-egnen"
   ],
   "Bogensholm, Vistoft (Mols)": [
    56.205,
@@ -2323,204 +4149,321 @@
   "Slagelse": [
    55.402,
    11.354,
-   "Zealand"
+   "Sjælland"
   ],
-  "Copenhagen": [
+  "København": [
    55.676,
    12.568,
-   "Zealand"
+   "København"
   ],
   "Viby (Roskilde amt)": [
    55.548,
    12.022,
-   "Zealand"
+   "Sjælland"
+  ],
+  "Herlufmagle": [
+   55.322,
+   11.763,
+   "Sjælland"
+  ],
+  "Næstved": [
+   55.23,
+   11.76,
+   "Sjælland"
+  ],
+  "Fredensborg": [
+   55.975,
+   12.403,
+   "Nordsjælland"
+  ],
+  "Helsingør": [
+   56.036,
+   12.613,
+   "Nordsjælland"
   ],
   "Malmö": [
    55.605,
    13.003,
-   "Scania, Sweden"
+   "Skåne (Sverige)"
   ],
   "Gjellerup / Hammerum": [
    56.135,
    9.055,
-   "Central Jutland"
+   "Midtjylland"
   ],
   "Hadsten": [
    56.327,
    10.049,
-   "East Jutland"
+   "Østjylland"
+  ],
+  "Tamdrup": [
+   55.9,
+   9.92,
+   "Østjylland"
   ],
   "Silkeborg": [
    56.17,
    9.548,
-   "Central Jutland"
+   "Midtjylland"
+  ],
+  "Lejrskov (Ferup)": [
+   55.517,
+   9.297,
+   "Sydjylland"
   ],
   "Ollerup": [
    55.11,
    10.523,
-   "Funen"
+   "Fyn"
   ],
   "Svendborg": [
    55.061,
    10.607,
-   "Funen"
+   "Fyn"
   ],
   "Hune": [
    57.181,
    9.66,
-   "North Jutland"
+   "Nordjylland"
   ],
   "Egernsund": [
    54.906,
    9.603,
-   "Southern Jutland"
+   "Sønderjylland"
   ],
   "Broager": [
    54.889,
    9.674,
-   "Southern Jutland"
+   "Sønderjylland"
+  ],
+  "Rinkenæs": [
+   54.889,
+   9.553,
+   "Sønderjylland"
+  ],
+  "Ulkebøl": [
+   54.913,
+   9.82,
+   "Sønderjylland"
+  ],
+  "Snogbæk": [
+   54.937,
+   9.716,
+   "Sønderjylland"
   ]
+ },
+ "lines": {
+  "jorgensen": "Jørgensen-linjen",
+  "gaardsted": "Gaardsted-linjen",
+  "rousing": "Rousing-linjen (Fuglslev)",
+  "maternal": "Mors side: Frederiksen/Krogh",
+  "gedde": "Gedde- og von Kleist-linjen",
+  "frederiksen": "Stedfarens slægt (Frederiksen, Broager)"
  },
  "cats": [
   [
-   "Clergy & church",
+   "Kirke og præstegerning",
    [
-    "priest",
-    "clerk",
+    "præst",
     "kordegn"
    ]
   ],
   [
-   "Teaching & writing",
+   "Undervisning og forfatterskab",
    [
-    "teacher",
-    "author"
+    "lærer",
+    "forfatter",
+    "cand.jur"
    ]
   ],
   [
-   "Farming & estates",
+   "Officerer og hof",
    [
-    "farm",
-    "cottager",
-    "smallholder",
-    "estate",
+    "officer",
+    "løjtnant",
+    "kaptajn",
+    "major",
+    "oberst",
+    "kornet",
+    "kammerherre",
+    "hofjunker",
+    "amtmand",
+    "gehejmeråd",
+    "landfoged"
+   ]
+  ],
+  [
+   "Landbrug og godser",
+   [
+    "gård",
+    "boelsmand",
+    "husmand",
+    "godsejer",
     "forpagter",
-    "bonde"
+    "bonde",
+    "proprietær",
+    "forvalter",
+    "herregård",
+    "aftægt"
    ]
   ],
   [
-   "Parish office",
+   "Sognefoged og offentlige hverv",
    [
-    "bailiff",
-    "sognefoged"
+    "sognefoged",
+    "borgerrepræsentant"
    ]
   ],
   [
-   "Crafts & print",
+   "Håndværk og tryk",
    [
-    "typographer",
-    "passement",
-    "shoemaker",
-    "dressmaker"
+    "typograf",
+    "possement",
+    "skomager",
+    "syerske",
+    "teglværk"
    ]
   ],
   [
-   "Service & labour",
+   "Tjeneste og arbejde",
    [
-    "servant",
-    "housemaid",
-    "farmhand",
-    "labourer",
-    "watchman"
+    "tjeneste",
+    "karl",
+    "arbejdsmand",
+    "landarbejder",
+    "daglejer",
+    "natvægter"
    ]
   ],
   [
-   "Trade",
+   "Handel og vognmand",
    [
-    "grocer"
+    "høker",
+    "købmand",
+    "vognmand"
    ]
   ],
   [
-   "Poor relief",
+   "Fattigvæsen",
    [
-    "poorhouse"
+    "fattiggård"
    ]
   ]
  ],
  "photos": [
   {
    "file": "images/lorenz-baptism-broager-1933.jpg",
-   "title": "Lorenz's baptism, Broager 1933",
-   "caption": "Broager Vestre district church book, 1933 no. 1: Lorenz Heinrich, born 12 Jan 1932 in Egernsund. Parents Peter Frederiksen and Else Gedde Jensen.",
+   "title": "Lorenz' dåb, Broager 1933",
+   "caption": "Broager Vestre distrikts kirkebog, 1933 nr. 1: Lorenz Heinrich, født 12. jan. 1932 i Egernsund. Forældre: Peter Frederiksen og Else Gedde Jensen.",
    "credit": "Rigsarkivet, Arkivalieronline",
    "link": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=17216172"
   },
   {
    "file": "images/evald-baptism-kolind-1922.jpg",
-   "title": "Evald's birth entry, Kolind 1922",
-   "caption": "Kolind church book, boys born 1922, no. 6. Parents Aage Evald Oskar Jørgensen and Jensine Mariane Magdalene Gaardsted; margin note on the 1985 name change.",
+   "title": "Evalds fødsel, Kolind 1922",
+   "caption": "Kolind kirkebog, fødte drenge 1922 nr. 6. Forældre: Aage Evald Oskar Jørgensen og Jensine Mariane Magdalene Gaardsted. Randnoten om navneforandringen 1985.",
    "credit": "Rigsarkivet, Arkivalieronline",
    "link": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=17124596"
   },
   {
    "file": "images/jochum-baptism-skodstrup-1792.jpg",
-   "title": "Jochum's baptism, Skødstrup 1792",
+   "title": "Jochums dåb, Skødstrup 1792",
    "caption": "'Hr. Forpagter Gaardsted paa Vosnæsgaard og hans Kone Kirstine Marie Jørgensdatter … Barnet var fød d. 23de Sept. … kaldet Jochum.'",
    "credit": "Rigsarkivet, Arkivalieronline",
    "link": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=24257049"
   },
   {
    "file": "images/vosnaesgaard-1839-rawert.jpg",
-   "title": "Vosnæsgaard, 1839",
-   "caption": "Drawing by O.J. Rawert, 1839. Claus Gaardsted leased this manor in the 1780s–90s; Jochum was born here.",
+   "title": "Vosnæsgaard 1839",
+   "caption": "Tegning af O.J. Rawert, 1839. Claus Gaardsted forpagtede herregården i 1780'erne og 90'erne, og Jochum blev født her.",
    "credit": "Rawert / Det Kgl. Bibliotek via Skødstrup Sogns Egnsarkiv",
    "link": "https://arkiv.dk/vis/2780543"
   }
  ],
  "links": [
   [
-   "Gjellerup poorhouse, 1914 (where Aage was manager in 1925)",
+   "Gjellerup fattiggård 1914 (Aage var bestyrer i 1925)",
    "https://arkiv.dk/vis/2636314"
   ],
   [
-   "Group photo, Gjellerup poorhouse, 1914",
+   "Gruppebillede, Gjellerup fattiggård 1914",
    "https://arkiv.dk/vis/2636339"
   ],
   [
-   "Bogensholm manor (Claus Gaardsted's estate 1797–1811)",
+   "Herregården Bogensholm (Claus Gaardsteds gods 1797–1811)",
    "https://arkiv.dk/vis/4033299"
   ],
   [
-   "Confirmands at Rødhus Church 1988, with pastor Evald Gaardsted Jørgensen",
+   "Konfirmander i Rødhus Kirke 1988 med pastor Evald Gaardsted Jørgensen",
    "https://arkiv.dk/vis/5695529"
   ],
   [
-   "Hune Church",
+   "Hune Kirke",
    "https://arkiv.dk/vis/4306061"
   ],
   [
-   "Kolind station c.1920",
+   "Kolind station ca. 1920",
    "https://arkiv.dk/vis/4212435"
   ],
   [
-   "Tirstrup Church, 1920",
+   "Tirstrup Kirke 1920",
    "https://arkiv.dk/vis/2623461"
   ],
   [
-   "Fuglslev Church",
+   "Fuglslev Kirke",
    "https://arkiv.dk/vis/6189757"
   ],
   [
-   "Grave of Lorenz H. Frederiksen and Gerda Frederiksen, Sankt Jørgens Kirkegård, Svendborg (BillionGraves record on MyHeritage)",
+   "Lorenz H. og Gerda Frederiksens gravsted, Sankt Jørgens Kirkegård, Svendborg (BillionGraves på MyHeritage)",
    "https://www.myheritage.dk/research/collection-10147/billiongraves?itemId=1483464614&action=showRecord"
   ],
   [
-   "Petersminde memoirs of Johanne & Sofie Gaardsted (archive)",
+   "Johanne og Sofie Gaardsteds erindringer om Petersminde (arkiv)",
    "https://arkiv.dk/vis/4407757"
   ],
   [
-   "Evald Gaardsted-Jørgensen's personal archive, incl. his own family tree (Hadsten)",
+   "Evald Gaardsted-Jørgensens personarkiv med hans egen slægtstavle (Hadsten)",
    "https://arkiv.dk/vis/2162357"
+  ],
+  [
+   "Slægten von Kleist i Danmark (Personalhistorisk Tidsskrift 1897)",
+   "https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf"
+  ],
+  [
+   "Admiral Ove Gjedde og grundlæggelsen af Trankebar (danmarkshistorien.lex.dk)",
+   "https://danmarkshistorien.lex.dk/Grundl%C3%A6ggelsen_af_kolonien_Tranquebar,_1620-1630"
+  ]
+ ],
+ "sources": [
+  [
+   "LL:",
+   "Link Lives (Rigsarkivet)",
+   "Indekserede kirkebøger 1557–1917 og folketællinger 1787–1921",
+   "https://link-lives.dk/"
+  ],
+  [
+   "AO:",
+   "Arkivalieronline (Rigsarkivet)",
+   "Originale kirkebøger og standsregistre, læst direkte på billederne",
+   "https://arkivalieronline.rigsarkivet.dk/"
+  ],
+  [
+   "DFS:",
+   "Danish Family Search",
+   "Folketællinger 1925–1940",
+   "https://www.danishfamilysearch.dk/"
+  ],
+  [
+   "ARK:",
+   "arkiv.dk",
+   "Lokalarkiver: billeder, personarkiver, erindringer",
+   "https://arkiv.dk/"
+  ],
+  [
+   "PHT:",
+   "Personalhistorisk Tidsskrift 1897",
+   "H.W. Harbou: Slægten von Kleist i Danmark",
+   "https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf"
   ]
  ]
 }

@@ -7,86 +7,86 @@
 0 @p1@ INDI
 1 NAME Johannes Gårdsted /Valbjørn/
 1 SEX M
-1 NOTE Born Johannes Gårdsted Jørgensen.
-1 NOTE Confidence: told
+1 NOTE Født Johannes Gårdsted Jørgensen.
+1 NOTE Sikkerhed: oplyst af familien
 1 FAMC @F1@
 0 @p2@ INDI
 1 NAME Jørgen /Jørgensen/
 1 SEX M
-1 NOTE Confidence: told
+1 NOTE Sikkerhed: oplyst af familien
 1 FAMS @F1@
 1 FAMC @F2@
 0 @p3@ INDI
 1 NAME Vivi Frederiksen /Gedde/
 1 SEX F
-1 NOTE Confidence: told
+1 NOTE Sikkerhed: oplyst af familien
 1 FAMS @F1@
 1 FAMC @F3@
 0 @u1@ INDI
 1 NAME Arne Gaardsted /Jørgensen/
 1 SEX M
-1 NOTE Confidence: told
+1 NOTE Sikkerhed: oplyst af familien
 1 FAMC @F2@
 0 @u2@ INDI
 1 NAME Ole Gårdsted /Jørgensen/
 1 SEX M
-1 NOTE Confidence: told
+1 NOTE Sikkerhed: oplyst af familien
 1 FAMC @F2@
 0 @p4@ INDI
 1 NAME Evald Johannes /Gaardsted-Jørgensen/
 1 SEX M
 1 BIRT
 2 DATE 20 SEP 1922
-2 PLAC Kolind, Denmark
+2 PLAC Kolind, Danmark
 1 DEAT
 2 DATE NOV 2008
-2 PLAC Svendborg, Denmark
-1 OCCU Schoolteacher
-1 OCCU Folk high school teacher, Ollerup Gymnastikhøjskole
-1 OCCU Parish clerk (kordegn), Svendborg 1976–81
-1 OCCU Parish priest, Hune & Rødhus (Jetsmark) 1981–89
-1 OCCU Author
+2 PLAC Svendborg, Danmark
+1 OCCU Lærer
+1 OCCU Højskolelærer, Ollerup Gymnastikhøjskole
+1 OCCU Kordegn, Svendborg 1976–81
+1 OCCU Sognepræst, Hune og Rødhus (Jetsmark) 1981–89
+1 OCCU Forfatter
 1 RESI
 2 DATE 1922
 2 PLAC Kolind
-2 NOTE born at Kolind Mark
+2 NOTE født på Kolind Mark
 1 RESI
 2 DATE 1925
 2 PLAC Gjellerup / Hammerum
-2 NOTE child at the poorhouse his father managed
+2 NOTE barn på fattiggården, som faren bestyrede
 1 RESI
 2 DATE 1932
 2 PLAC Hadsten
-2 NOTE family moved here; Ågade, then Ballevej
+2 NOTE familien flyttede hertil; Ågade, senere Ballevej
 1 RESI
 2 DATE 1953
 2 PLAC Silkeborg
-2 NOTE teacher's exam, Silkeborg Seminarium
+2 NOTE lærereksamen, Silkeborg Seminarium
 1 RESI
 2 DATE 1965
 2 PLAC Ollerup
-2 NOTE teacher at Ollerup Gymnastikhøjskole
+2 NOTE lærer på Ollerup Gymnastikhøjskole
 1 RESI
 2 DATE 1976
 2 PLAC Svendborg
-2 NOTE parish clerk
+2 NOTE kordegn
 1 RESI
 2 DATE 1981
 2 PLAC Hune
-2 NOTE parish priest
+2 NOTE sognepræst
 1 RESI
 2 DATE 1990
 2 PLAC Ollerup
-2 NOTE retired, Toften 6
+2 NOTE pensioneret, Toften 6
 1 RESI
 2 DATE 2003
 2 PLAC Svendborg
-2 NOTE after Liss's death
-1 NOTE Baptised 8 Oct 1922 in Kolind Church by pastor J.P. Jensen. Godparents: widow Rasmine Kristine Gaardsted (grandmother), poorhouse manager Martin Marinus Gaardsted of Bregnet and bachelor Axel Vilhelm Alfred Gaardsted (uncles). Surname formally changed to Gaardsted-Jørgensen by name certificate 1983/1985 (margin note). Novels incl. 'De kom til en by' (1999, about the move to Hadsten in 1932), 'Skriv hjem, Niels', 'Jos og hans verden'; 'Leck Fischer. Signalement af en digter' (1973). His personal archive incl. a family tree is in Hadsten Lokalarkiv (A37).
+2 NOTE efter Liss' død
+1 NOTE Døbt 8. okt. 1922 i Kolind Kirke af pastor J.P. Jensen. Faddere: enken Rasmine Kristine Gaardsted (farmor), fattiggårdsbestyrer Martin Marinus Gaardsted, Bregnet, og ungkarl Axel Vilhelm Alfred Gaardsted (morbrødre). Navneforandring til Gaardsted-Jørgensen ved navnebevis 1983/1985 (randnote). Romaner bl.a. 'De kom til en by' (1999, om flytningen til Hadsten 1932), 'Skriv hjem, Niels' og 'Jos og hans verden'; 'Leck Fischer. Signalement af en digter' (1973). Hans personarkiv med en egen slægtstavle ligger i Hadsten Lokalarkiv (A37).
 1 SOUR
-2 PAGE AO:27841253 (Kolind church book 1920–36, Fødte Mandkøn 1922 no. 6)
+2 PAGE AO:27841253 (Kolind kirkebog 1920–36, fødte drenge 1922 nr. 6)
 1 SOUR
-2 PAGE DFS:18978912 (census 1925)
+2 PAGE DFS:18978912 (folketælling 1925)
 1 SOUR
 2 PAGE ARK:2162357
 1 SOUR
@@ -106,15 +106,15 @@
 2 DATE 18 APR 1931
 1 DEAT
 2 DATE 2002
-1 OCCU Parish clerk (kordegn), trained in Hune
+1 OCCU Kordegn, uddannet i Hune
 1 RESI
 2 DATE 1953
 2 PLAC Ollerup
-2 NOTE married life
+2 NOTE gift
 1 RESI
 2 DATE 1981
 2 PLAC Hune
-1 NOTE Married Evald 1953, aged 22; three sons (Jørgen, Arne, Ole). One of seven children; siblings include Karen Margrethe Enevoldsen (née Pedersen) and Ane Elvira Pedersen. Birth date from Evald's personal archive (Hadsten Lokalarkiv). Her parents are not yet identified.
+1 NOTE Gift med Evald 1953, 22 år gammel; tre sønner (Jørgen, Arne, Ole). Et af syv søskende, bl.a. Karen Margrethe Enevoldsen (f. Pedersen) og Ane Elvira Pedersen. Fødselsdatoen stammer fra Evalds personarkiv (Hadsten Lokalarkiv). Hendes forældre er endnu ikke fundet.
 1 SOUR
 2 PAGE ARK:2162357
 1 SOUR
@@ -127,189 +127,29 @@
 1 SEX M
 1 BIRT
 2 DATE 12 JAN 1932
-2 PLAC Egernsund, Denmark
+2 PLAC Egernsund, Danmark
 1 DEAT
 2 DATE 6 MAY 2009
-2 PLAC Svendborg, Denmark
+2 PLAC Svendborg, Danmark
 1 RESI
 2 DATE 1932
 2 PLAC Egernsund
-2 NOTE born; baptised at home 1 Jan 1933
+2 NOTE født; hjemmedøbt 1. jan. 1933
 1 RESI
 2 DATE 2009
 2 PLAC Svendborg
-2 NOTE died; buried Sankt Jørgens Kirkegård
-1 NOTE Baptism entry (Broager Vestre distrikt 1933 no. 1): born 12 Jan 1932 in Egernsund, baptised at home 1 Jan 1933; parents labourer Peter Frederiksen and wife Else Gedde Jensen, Egernsund (per letter from the civil registrar 11/7 1932). Godparents: the father; labourer Lorenz Frederiksen and wife Catharina, Egernsund (his grandparents); farmer Jens Jensen's wife, Dalsgaard. Family information: Lorenz grew up with Peter Frederiksen as his father and only learned as an adult that he was not his biological father. Buried with his wife Gerda at Sankt Jørgens Kirkegård, Svendborg.
+2 NOTE død; begravet på Sankt Jørgens Kirkegård
+1 NOTE Det borgerlige fødselsregister for Egernsund (1932 nr. 4, anmeldt 16. jan. 1932) siger, at Else Gedde Frederiksen, f. Jensen, fødte ham 12. jan. 1932 kl. 5.30. En randnote af 11. juli 1932 siger, at landarbejder Wilhelm Krogh fra Snogbæk er den biologiske far. Det bygger på hans faderskabserklæring af 5. april 1932 og en retsafgørelse af 10. juni 1932. Stedfaren Peter Frederiksen gav drengen sit efternavn. Det stemmer med familiens fortælling om, at Lorenz først som voksen fandt ud af, at Peter ikke var hans far. Ifølge dåbsindførslen i Broager Vestre distrikt (1933 nr. 1) var fadderne stedfaren selv, arbejdsmand Lorenz Frederiksen og hustru Catharina, Egernsund, samt gårdejer Jens Jensens hustru fra Dalsgaard. Lorenz er begravet sammen med hustruen Gerda på Sankt Jørgens Kirkegård i Svendborg.
 1 SOUR
-2 PAGE AO:Broager Vestre distrikt kontraministerialbog 1906–48, Fødte 1933 no. 1 (bsid 201141, image 112)
+2 PAGE AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4 (bsid 37658, billede 125)
 1 SOUR
-2 PAGE BillionGraves via MyHeritage (collection 10147): Lorenz H. [Lorenz Heinrich] Frederiksen, Sankt Jørgens Kirkegård, Svendborg
+2 PAGE AO:Broager Vestre distrikt kontraministerialbog 1906–48, fødte 1933 nr. 1 (bsid 201141, billede 112)
 1 SOUR
-2 PAGE MyHeritage: 1940 Denmark Census, 'Lorens Henrick Frederiksen'
+2 PAGE BillionGraves via MyHeritage (samling 10147): Lorenz H. Frederiksen, Sankt Jørgens Kirkegård, Svendborg
+1 SOUR
+2 PAGE MyHeritage: Folketælling 1940, 'Lorens Henrick Frederiksen'
 1 FAMS @F3@
 1 FAMC @F5@
-0 @p12@ INDI
-1 NAME Peter /Frederiksen/
-1 SEX M
-1 BIRT
-2 DATE 15 FEB 1902
-2 PLAC Broager, Denmark
-1 OCCU Farm servant, Broager (1921)
-1 OCCU Labourer (arbejder), Egernsund (1932)
-1 NOTE Lorenz's father in law (named in the baptism entry). Family information says he was not Lorenz's biological father.
-1 SOUR
-2 PAGE LL:12-15018348
-1 SOUR
-2 PAGE LL:14-2208771
-1 SOUR
-2 PAGE LL:25-5954688
-1 SOUR
-2 PAGE AO:Broager Vestre 1933 no. 1
-1 FAMS @F5@
-1 FAMC @F6@
-0 @p13@ INDI
-1 NAME Else Gedde /Jensen/
-1 SEX F
-1 NOTE Lorenz's mother, named in his baptism entry. 'Gedde' is part of her name, and is where your mother's surname Gedde comes from. Not in the Southern Jutland indexes, so probably born elsewhere in Denmark. Godmother 'farmer Jens Jensen's wife, Dalsgaard' may be her mother (unconfirmed). Family tradition: the Gedde name comes from a captain in Tranquebar, the Danish colony in India. Known leads, none yet linked to Else: Admiral Ove Gjedde founded Tranquebar in 1620 (his noble Giedde line died out in the male line in 1848); a later Giedde kammerherre married Louise Augusta Pingel, born in the East Indies (census 1845/1850); Captain Christian Wilhelm Truels Gedde (b. 1799 Copenhagen) appears in the 1850 and 1860 censuses.
-1 SOUR
-2 PAGE AO:Broager Vestre 1933 no. 1
-1 SOUR
-2 PAGE Family tradition (Tranquebar captain)
-1 SOUR
-2 PAGE LL:4-350567
-1 SOUR
-2 PAGE LL:5-319787
-1 SOUR
-2 PAGE LL:6-169250
-1 SOUR
-2 PAGE lex.dk: Giedde (noble family)
-1 SOUR
-2 PAGE Wikipedia: Ove Gjedde
-1 FAMS @F5@
-0 @p24@ INDI
-1 NAME Lorenz Heinrich /Frederiksen/
-1 SEX M
-1 BIRT
-2 DATE 23 JAN 1870
-2 PLAC Broager, Denmark
-1 DEAT
-2 DATE 4 JAN 1957
-2 PLAC Egernsund, Denmark
-1 OCCU Labourer (arbejder), Egernsund (1932)
-1 RESI
-2 DATE 1870
-2 PLAC Broager
-2 NOTE born
-1 RESI
-2 DATE 1921
-2 PLAC Broager
-2 NOTE census
-1 RESI
-2 DATE 1932
-2 PLAC Egernsund
-1 NOTE Married Cathrina Maria Magdalena Hansen 8 Oct 1895 in Broager. Godfather to his grandson and namesake in 1933. Member of the Danish association DSK in 1942 (membership card in Broagerlands Lokalarkiv).
-1 SOUR
-2 PAGE LL:12-14989547
-1 SOUR
-2 PAGE LL:12-14313283
-1 SOUR
-2 PAGE LL:13-1051959
-1 SOUR
-2 PAGE LL:25-5953605
-1 SOUR
-2 PAGE ARK:1158725
-1 SOUR
-2 PAGE AO:Broager Vestre 1933 no. 1
-1 FAMS @F6@
-1 FAMC @F7@
-0 @p25@ INDI
-1 NAME Cathrina Maria Magdalena /Hansen/
-1 SEX F
-1 BIRT
-2 DATE 28 DEC 1872
-2 PLAC Broager, Denmark
-1 SOUR
-2 PAGE LL:12-14990795
-1 SOUR
-2 PAGE LL:13-1051962
-1 SOUR
-2 PAGE LL:25-5953606
-1 FAMS @F6@
-1 FAMC @F8@
-0 @p48@ INDI
-1 NAME Peter Christian /Frederiksen/
-1 SEX M
-1 BIRT
-2 DATE 4 MAY 1839
-2 PLAC Broager, Denmark
-1 NOTE Married Anna Kirstine Marie Paulsen 9 Dec 1860 in Broager.
-1 SOUR
-2 PAGE LL:13-4957004
-1 SOUR
-2 PAGE LL:12-14989548
-1 FAMS @F7@
-1 FAMC @F9@
-0 @p49@ INDI
-1 NAME Anna Kirstine Marie /Paulsen/
-1 SEX F
-1 BIRT
-2 DATE 11 NOV 1834
-2 PLAC Broager, Denmark
-1 DEAT
-2 DATE 22 MAY 1893
-2 PLAC Broager, Denmark
-1 SOUR
-2 PAGE LL:13-4957007
-1 SOUR
-2 PAGE LL:11-7302858
-1 FAMS @F7@
-1 FAMC @F10@
-0 @p50@ INDI
-1 NAME Carl Peter /Hansen/
-1 SEX M
-1 BIRT
-2 PLAC Broager, Denmark
-1 SOUR
-2 PAGE LL:12-14990796
-1 SOUR
-2 PAGE LL:13-1051963
-1 FAMS @F8@
-0 @p51@ INDI
-1 NAME Eline Maria Magdalena /Hansen/
-1 SEX F
-1 SOUR
-2 PAGE LL:12-14990797
-1 SOUR
-2 PAGE LL:13-1051964
-1 FAMS @F8@
-0 @p96@ INDI
-1 NAME Frederik /Frederiksen/
-1 SEX M
-1 SOUR
-2 PAGE LL:13-4957005
-1 FAMS @F9@
-0 @p97@ INDI
-1 NAME Anne Kirstine /Peters/
-1 SEX F
-1 SOUR
-2 PAGE LL:13-4957006
-1 FAMS @F9@
-0 @p98@ INDI
-1 NAME Jens /Paulsen/
-1 SEX M
-1 SOUR
-2 PAGE LL:13-4957008
-1 SOUR
-2 PAGE LL:11-7302859
-1 FAMS @F10@
-0 @p99@ INDI
-1 NAME Kathrine Marie /Lorensen/
-1 SEX F
-1 SOUR
-2 PAGE LL:13-4957009
-1 SOUR
-2 PAGE LL:11-7302860
-1 FAMS @F10@
 0 @p7@ INDI
 1 NAME Gerda /Frederiksen/
 1 SEX F
@@ -317,41 +157,41 @@
 2 DATE 17 AUG 1935
 1 DEAT
 2 DATE 18 JUL 2019
-2 PLAC Svendborg, Denmark
-1 NOTE Buried at Sankt Jørgens Kirkegård, Svendborg, with her husband Lorenz. Maiden name not yet known.
+2 PLAC Svendborg, Danmark
+1 NOTE Begravet på Sankt Jørgens Kirkegård i Svendborg sammen med sin mand Lorenz. Pigenavnet er endnu ukendt.
 1 SOUR
-2 PAGE BillionGraves via MyHeritage (collection 10147): Gerda Frederiksen, Sankt Jørgens Kirkegård, Svendborg
+2 PAGE BillionGraves via MyHeritage (samling 10147): Gerda Frederiksen, Sankt Jørgens Kirkegård, Svendborg
 1 FAMS @F3@
 0 @p8@ INDI
 1 NAME Aage Evald Oskar /Jørgensen/
 1 SEX M
 1 BIRT
 2 DATE 17 OCT 1890
-2 PLAC Slagelse, Denmark
-1 OCCU Night watchman, Copenhagen (1918)
-1 OCCU Farm manager (gårdbestyrer), Kolind (1921–22)
-1 OCCU Poorhouse manager, Gjellerup (1925)
+2 PLAC Slagelse, Danmark
+1 OCCU Natvægter, København (1918)
+1 OCCU Gårdbestyrer, Kolind (1921–22)
+1 OCCU Bestyrer af Gjellerup fattiggård (1925)
 1 RESI
 2 DATE 1890
 2 PLAC Slagelse
-2 NOTE born
+2 NOTE født
 1 RESI
 2 DATE 1918
-2 PLAC Copenhagen
-2 NOTE night watchman
+2 PLAC København
+2 NOTE natvægter
 1 RESI
 2 DATE 1921
 2 PLAC Kolind
-2 NOTE in the Gaardsted household
+2 NOTE i familien Gaardsteds hus
 1 RESI
 2 DATE 1925
 2 PLAC Gjellerup / Hammerum
-2 NOTE manager of Gjellerup fattiggård
+2 NOTE bestyrer af Gjellerup fattiggård
 1 RESI
 2 DATE 1932
 2 PLAC Hadsten
-2 NOTE moved with family
-1 NOTE Married Jensine Gaardsted in Kolind Church on 29 Oct 1921.
+2 NOTE flyttede hertil med familien
+1 NOTE Gift med Jensine Gaardsted i Kolind Kirke 29. okt. 1921.
 1 SOUR
 2 PAGE LL:12-16940206
 1 SOUR
@@ -365,26 +205,26 @@
 1 SOUR
 2 PAGE DFS:18978910
 1 FAMS @F4@
-1 FAMC @F11@
+1 FAMC @F6@
 0 @p9@ INDI
 1 NAME Jensine Mariane Magdalene /Gaardsted/
 1 SEX F
 1 BIRT
 2 DATE 6 JUN 1894
-2 PLAC Kolind, Denmark
-1 OCCU Housemaid, Copenhagen (1915)
+2 PLAC Kolind, Danmark
+1 OCCU Tjenestepige, København (1915)
 1 RESI
 2 DATE 1894
 2 PLAC Kolind
-2 NOTE born
+2 NOTE født
 1 RESI
 2 DATE 1915
-2 PLAC Copenhagen
-2 NOTE housemaid
+2 PLAC København
+2 NOTE tjenestepige
 1 RESI
 2 DATE 1925
 2 PLAC Gjellerup / Hammerum
-2 NOTE manager's wife
+2 NOTE bestyrerens hustru
 1 RESI
 2 DATE 1932
 2 PLAC Hadsten
@@ -399,7 +239,7 @@
 1 SOUR
 2 PAGE DFS:18978911
 1 FAMS @F4@
-1 FAMC @F12@
+1 FAMC @F7@
 0 @s_ester@ INDI
 1 NAME Ester Kristine /Jørgensen/
 1 SEX F
@@ -408,34 +248,95 @@
 1 SOUR
 2 PAGE DFS:18978913
 1 FAMC @F4@
+0 @p12@ INDI
+1 NAME Wilhelm /Krogh/
+1 SEX M
+1 BIRT
+2 DATE 9 OCT 1908
+1 OCCU Landarbejder (karl), Snogbæk (1932)
+1 RESI
+2 DATE 1932
+2 PLAC Snogbæk
+2 NOTE landarbejder
+1 NOTE Lorenz' biologiske far. Født 9. okt. 1908 i 'Tastrup' (eller 'Vastrup'; skriften er svær at læse), Landkreis Flensburg, dengang i Tyskland. Faderskabet står i randnoten i Egernsund-registret: han anerkendte faderskabet 5. april 1932, og retten afgjorde sagen 10. juni 1932. Hans forældre og hans videre liv er endnu ikke fundet. De står i tyske registre (Flensburg).
+1 SOUR
+2 PAGE AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4, randnote 11.7.1932 (bsid 37658, billede 125)
+1 FAMS @F5@
+0 @p13@ INDI
+1 NAME Else Gedde /Jensen/
+1 SEX F
+1 BIRT
+2 DATE 31 AUG 1912
+2 PLAC Lejrskov (Ferup), Danmark
+1 RESI
+2 DATE 1912
+2 PLAC Lejrskov (Ferup)
+2 NOTE født på forældrenes gård i Ferup
+1 RESI
+2 DATE 1932
+2 PLAC Egernsund
+2 NOTE gift med Peter Frederiksen
+1 NOTE Født 31. aug. 1912 i Ferup, Lejrskov sogn, og døbt 20. okt. 1912 i Lejrskov Kirke. Faddere: frøken Mathilde Gedde, København (moster/grandtante på Gedde-siden), Kirstine Jensen og købmand Jørgen Jensen, Haderslev. Her kommer navnet Gedde fra: Else fik det som mellemnavn efter sin mor, Paula Gedde. I januar 1932 var hun gift med arbejdsmand Peter Frederiksen i Egernsund.
+1 SOUR
+2 PAGE AO:Lejrskov kirkebog, fødte piger 1912 nr. 17 (bsid 165996, billede 94)
+1 SOUR
+2 PAGE LL:12-4852565
+1 SOUR
+2 PAGE AO:Egernsund standsregister 1932 nr. 4
+1 SOUR
+2 PAGE AO:Broager Vestre 1933 nr. 1
+1 FAMS @F5@
+1 FAMC @F8@
+1 FAMS @F40@
+0 @pf12@ INDI
+1 NAME Peter /Frederiksen/
+1 SEX M
+1 BIRT
+2 DATE 15 FEB 1902
+2 PLAC Egernsund, Danmark
+1 OCCU Tjenestekarl, Broager (1921)
+1 OCCU Arbejdsmand, Egernsund (1932)
+1 NOTE Gift med Else Gedde Jensen. Han står som far i Lorenz' dåbsindførsel, og Lorenz fik hans efternavn, men ifølge randnoten i det borgerlige register er han ikke den biologiske far.
+1 SOUR
+2 PAGE LL:12-15018348
+1 SOUR
+2 PAGE LL:14-2208771
+1 SOUR
+2 PAGE LL:25-5954688
+1 SOUR
+2 PAGE AO:Egernsund standsregister 1932 nr. 4
+1 SOUR
+2 PAGE AO:Broager Vestre 1933 nr. 1
+1 FAMC @F9@
+1 FAMS @F40@
 0 @p16@ INDI
 1 NAME Jørgen Anton /Jørgensen/
 1 SEX M
 1 BIRT
 2 DATE 6 OCT 1857
-2 PLAC Copenhagen, Denmark
+2 PLAC København, Danmark
 1 DEAT
 2 DATE 4 AUG 1914
-2 PLAC Slagelse, Denmark
-1 OCCU Typographer, Copenhagen
-1 OCCU Typographer, Sorø Amts Bogtrykkeri, Slagelse
+2 PLAC Slagelse, Danmark
+1 OCCU Typograf, København
+1 OCCU Typograf, Sorø Amts Bogtrykkeri, Slagelse
 1 RESI
 2 DATE 1857
-2 PLAC Copenhagen
-2 NOTE born, Vor Frue parish
+2 PLAC København
+2 NOTE født, Vor Frue sogn
 1 RESI
 2 DATE 1886
-2 PLAC Copenhagen
-2 NOTE married
+2 PLAC København
+2 NOTE gift
 1 RESI
 2 DATE 1889
 2 PLAC Slagelse
-2 NOTE moved
+2 NOTE flyttede hertil
 1 RESI
 2 DATE 1914
 2 PLAC Slagelse
-2 NOTE died
-1 NOTE Married Lovisa Larsson 31 Jan 1886, Sankt Johannes, Copenhagen.
+2 NOTE død
+1 NOTE Gift med Lovisa Larsson 31. jan. 1886 i Sankt Johannes Kirke, København.
 1 SOUR
 2 PAGE LL:12-13117126
 1 SOUR
@@ -448,26 +349,26 @@
 2 PAGE LL:9-1795568
 1 SOUR
 2 PAGE LL:11-230038
-1 FAMS @F11@
-1 FAMC @F13@
+1 FAMS @F6@
+1 FAMC @F10@
 0 @p17@ INDI
 1 NAME Lovisa /Larsson/
 1 SEX F
 1 BIRT
 2 DATE 28 JUN 1862
-2 PLAC Malmö, Sweden
+2 PLAC Malmö, Sverige
 1 DEAT
 2 DATE 12 OCT 1910
-2 PLAC Slagelse, Denmark
-1 OCCU Housemaid, Copenhagen (1885)
+2 PLAC Slagelse, Danmark
+1 OCCU Tjenestepige, København (1885)
 1 RESI
 2 DATE 1862
 2 PLAC Malmö
-2 NOTE born
+2 NOTE født
 1 RESI
 2 DATE 1885
-2 PLAC Copenhagen
-2 NOTE housemaid
+2 PLAC København
+2 NOTE tjenestepige
 1 RESI
 2 DATE 1901
 2 PLAC Slagelse
@@ -477,31 +378,31 @@
 2 PAGE LL:9-1795569
 1 SOUR
 2 PAGE LL:11-231267
-1 FAMS @F11@
-1 FAMC @F14@
+1 FAMS @F6@
+1 FAMC @F11@
 0 @p18@ INDI
 1 NAME Hans Peter /Gaardsted/
 1 SEX M
 1 BIRT
 2 DATE 3 MAY 1852
-2 PLAC Tirstrup, Denmark
+2 PLAC Tirstrup, Danmark
 1 DEAT
 2 DATE 26 MAR 1913
-2 PLAC Kolind, Denmark
-1 OCCU Farmhand, Ebeltoft (1880)
-1 OCCU Smallholder / house-owning farmer, Kolind
+2 PLAC Kolind, Danmark
+1 OCCU Tjenestekarl, Ebeltoft (1880)
+1 OCCU Husmand/parcellist, Kolind
 1 RESI
 2 DATE 1852
 2 PLAC Tirstrup
-2 NOTE born
+2 NOTE født
 1 RESI
 2 DATE 1880
 2 PLAC Ebeltoft
-2 NOTE farmhand
+2 NOTE tjenestekarl
 1 RESI
 2 DATE 1883
 2 PLAC Kolind
-2 NOTE smallholding 'Petersminde', Højsletvej
+2 NOTE husmandsstedet 'Petersminde', Højsletvej
 1 SOUR
 2 PAGE LL:12-3665481
 1 SOUR
@@ -510,20 +411,20 @@
 2 PAGE LL:9-1332308
 1 SOUR
 2 PAGE LL:11-3881351
-1 FAMS @F12@
-1 FAMC @F15@
+1 FAMS @F7@
+1 FAMC @F12@
 0 @p19@ INDI
 1 NAME Rasmine Christine /Andersen/
 1 SEX F
 1 BIRT
 2 DATE 16 SEP 1855
-2 PLAC Fuglslev, Denmark
+2 PLAC Fuglslev, Danmark
 1 DEAT
 2 DATE AFT 1922
 1 RESI
 2 DATE 1855
 2 PLAC Fuglslev
-2 NOTE born
+2 NOTE født
 1 RESI
 2 DATE 1880
 2 PLAC Ebeltoft
@@ -533,7 +434,7 @@
 1 RESI
 2 DATE 1922
 2 PLAC Kolind
-2 NOTE widow, godmother to Evald
+2 NOTE enke, gudmor til Evald
 1 SOUR
 2 PAGE LL:12-9158976
 1 SOUR
@@ -542,8 +443,110 @@
 2 PAGE LL:25-1032484
 1 SOUR
 2 PAGE AO:27841253
-1 FAMS @F12@
+1 FAMS @F7@
+1 FAMC @F13@
+0 @p26@ INDI
+1 NAME Jens /Jensen/
+1 SEX M
+1 BIRT
+2 DATE 31 DEC 1866
+1 OCCU Gårdejer, Ferup (Lejrskov)
+1 RESI
+2 DATE 1907
+2 PLAC København
+2 NOTE gift
+1 RESI
+2 DATE 1912
+2 PLAC Lejrskov (Ferup)
+2 NOTE gårdejer
+1 NOTE Søn af Rasmus Jensen og Christine Hansen. Gift 29. okt. 1907 i Mariendal Kirke, København, med Paula Gedde. Muligvis den 'gårdejer Jens Jensen, Dalsgaard', hvis hustru var gudmor til Lorenz i 1933. Det er ikke bekræftet.
+1 SOUR
+2 PAGE LL:13-432734
+1 SOUR
+2 PAGE LL:12-4852564
+1 SOUR
+2 PAGE AO:Lejrskov kirkebog 1912 nr. 17
+1 FAMS @F8@
+1 FAMC @F14@
+0 @p27@ INDI
+1 NAME Paula Mathilde Christle /Gedde/
+1 SEX F
+1 BIRT
+2 DATE 30 DEC 1880
+2 PLAC Tamdrup, Danmark
+1 RESI
+2 DATE 1880
+2 PLAC Tamdrup
+2 NOTE født på faderens gård
+1 RESI
+2 DATE 1907
+2 PLAC København
+2 NOTE gift
+1 RESI
+2 DATE 1912
+2 PLAC Lejrskov (Ferup)
+2 NOTE gårdejerkone
+1 NOTE Mor til mindst fem børn i Lejrskov 1908–13 (navnene på de yngste er skjult i indekset af hensyn til privatlivet).
+1 SOUR
+2 PAGE LL:13-432737
+1 SOUR
+2 PAGE LL:12-4851845
+1 SOUR
+2 PAGE LL:12-4852565
+1 SOUR
+2 PAGE AO:Lejrskov kirkebog 1912 nr. 17
+1 FAMS @F8@
+1 FAMC @F15@
+0 @p24@ INDI
+1 NAME Lorenz Heinrich /Frederiksen/
+1 SEX M
+1 BIRT
+2 DATE 23 JAN 1870
+2 PLAC Broager, Danmark
+1 DEAT
+2 DATE 4 JAN 1957
+2 PLAC Egernsund, Danmark
+1 OCCU Arbejdsmand, Egernsund (1932)
+1 RESI
+2 DATE 1870
+2 PLAC Broager
+2 NOTE født
+1 RESI
+2 DATE 1921
+2 PLAC Broager
+2 NOTE folketælling
+1 RESI
+2 DATE 1932
+2 PLAC Egernsund
+1 NOTE Gift med Cathrina Maria Magdalena Hansen 8. okt. 1895 i Broager. Gudfar og navnefar til Lorenz i 1933. Medlem af den danske forening DSK i 1942 (medlemskort i Broagerlands Lokalarkiv).
+1 SOUR
+2 PAGE LL:12-14989547
+1 SOUR
+2 PAGE LL:12-14313283
+1 SOUR
+2 PAGE LL:13-1051959
+1 SOUR
+2 PAGE LL:25-5953605
+1 SOUR
+2 PAGE ARK:1158725
+1 SOUR
+2 PAGE AO:Broager Vestre 1933 nr. 1
+1 FAMS @F9@
 1 FAMC @F16@
+0 @p25@ INDI
+1 NAME Cathrina Maria Magdalena /Hansen/
+1 SEX F
+1 BIRT
+2 DATE 28 DEC 1872
+2 PLAC Broager, Danmark
+1 SOUR
+2 PAGE LL:12-14990795
+1 SOUR
+2 PAGE LL:13-1051962
+1 SOUR
+2 PAGE LL:25-5953606
+1 FAMS @F9@
+1 FAMC @F17@
 0 @p32@ INDI
 1 NAME Niels /Jørgensen/
 1 SEX M
@@ -551,80 +554,80 @@
 2 DATE ABT 1826
 1 DEAT
 2 DATE BET 1885 AND 1892
-2 PLAC Copenhagen, Denmark
-1 OCCU Grocer (høker), Copenhagen (1860)
-1 OCCU Labourer (arbejdsmand), Copenhagen (1880–85)
+2 PLAC København, Danmark
+1 OCCU Høker, København (1860)
+1 OCCU Arbejdsmand, København (1880–85)
 1 RESI
 2 DATE 1860
-2 PLAC Copenhagen
-2 NOTE grocer
+2 PLAC København
+2 NOTE høker
 1 RESI
 2 DATE 1885
-2 PLAC Copenhagen
-2 NOTE labourer
-1 NOTE Birthplace written 'Hove/Høje sogn, Svendborg amt' — parish not identified.
+2 PLAC København
+2 NOTE arbejdsmand
+1 NOTE Fødestedet er skrevet 'Hove/Høje sogn, Svendborg amt'; sognet er ikke identificeret.
 1 SOUR
 2 PAGE LL:6-420495
 1 SOUR
 2 PAGE LL:7-586576
 1 SOUR
 2 PAGE LL:8-31142
-1 FAMS @F13@
+1 FAMS @F10@
 0 @p33@ INDI
 1 NAME Johanne Sophie /Hansen/
 1 SEX F
 1 BIRT
 2 DATE ABT 1825
-2 PLAC Viby (Roskilde amt), Denmark
+2 PLAC Viby (Roskilde amt), Danmark
 1 DEAT
 2 DATE ABT 1910
-2 PLAC Copenhagen, Denmark
-1 OCCU Widow on old-age support (1901)
+2 PLAC København, Danmark
+1 OCCU Enke på alderdomsunderstøttelse (1901)
 1 SOUR
 2 PAGE LL:6-420496
 1 SOUR
 2 PAGE LL:9-407995
 1 SOUR
 2 PAGE LL:17-1567270
-1 FAMS @F13@
+1 FAMS @F10@
 0 @p34@ INDI
 1 NAME Niels /Larsen/
 1 SEX M
 1 BIRT
-2 PLAC Malmö, Sweden
-1 NOTE Swedish; named in daughter's death record.
+2 PLAC Malmö, Sverige
+1 NOTE Svensk; nævnt i datterens dødsindførsel.
 1 SOUR
 2 PAGE LL:11-231268
-1 FAMS @F14@
+1 FAMS @F11@
 0 @p36@ INDI
 1 NAME Jochum /Gaardsted/
 1 SEX M
 1 BIRT
 2 DATE 23 SEP 1792
-2 PLAC Vosnæsgaard, Skødstrup, Denmark
+2 PLAC Vosnæsgaard, Skødstrup, Danmark
 1 DEAT
 2 DATE 18 JUN 1865
-2 PLAC Tirstrup, Denmark
-1 OCCU Farmer and parish bailiff (gårdmand og sognefoged), Tirstrup
+2 PLAC Tirstrup, Danmark
+1 OCCU Gårdmand og sognefoged, Tirstrup
 1 RESI
 2 DATE 1792
 2 PLAC Vosnæsgaard, Skødstrup
-2 NOTE born on the manor his father leased
+2 NOTE født på herregården, som faren forpagtede
 1 RESI
 2 DATE 1801
 2 PLAC Bogensholm, Vistoft (Mols)
-2 NOTE child on his father's estate
+2 NOTE barn på farens gods
 1 RESI
 2 DATE 1833
 2 PLAC Rosmus
-2 NOTE 2nd marriage
+2 NOTE andet ægteskab
 1 RESI
 2 DATE 1834
 2 PLAC Tirstrup
-2 NOTE farmer & sognefoged until death
-1 NOTE Baptism confirmed 2 Oct 1792 in Skødstrup Church; godparents included the Majorinde Weinegel, Generalinde Trampe, Major Folsch of Aarhus and Sehested of Fredericia. 1st wife Marie Kjerstine Christensdatter; 2nd marriage 19 Oct 1833 in Rosmus to Ane Sophie Jensdatter.
+2 NOTE gårdmand og sognefoged til sin død
+1 NOTE Døbt 2. okt. 1792 i Skødstrup Kirke. Fadderne var bl.a. majorinde Weinegel, generalinde Trampe, major Folsch i Aarhus og Sehested i Fredericia. Første hustru var Marie Kjerstine Christensdatter. Han giftede sig anden gang 19. okt. 1833 i Rosmus med Ane Sophie Jensdatter.
 1 SOUR
-2 PAGE AO:Skødstrup FKVD 1780–1809, p.75 (bsid 736476, image 43)
+2 PAGE AO:Skødstrup kirkebog 1780–1809, s. 75 (bsid 736476, billede 43)
 1 SOUR
 2 PAGE LL:1-475273
 1 SOUR
@@ -635,38 +638,38 @@
 2 PAGE LL:13-1706737
 1 SOUR
 2 PAGE LL:11-1962320
-1 FAMS @F15@
-1 FAMC @F17@
-1 FAMS @F22@
+1 FAMS @F12@
+1 FAMC @F18@
+1 FAMS @F39@
 0 @p37@ INDI
 1 NAME Ane Sophie /Jensdatter/
 1 SEX F
 1 BIRT
 2 DATE ABT 1812
-2 PLAC Rosmus, Denmark
+2 PLAC Rosmus, Danmark
 1 DEAT
 2 DATE 27 FEB 1886
-2 PLAC Tirstrup, Denmark
+2 PLAC Tirstrup, Danmark
 1 SOUR
 2 PAGE LL:2-530882
 1 SOUR
 2 PAGE LL:13-1706738
 1 SOUR
 2 PAGE LL:11-1962058
-1 FAMS @F15@
+1 FAMS @F12@
 0 @p38@ INDI
 1 NAME Anders Rasmussen /Rousing/
 1 SEX M
 1 BIRT
 2 DATE 12 MAR 1818
-2 PLAC Fuglslev, Denmark
+2 PLAC Fuglslev, Danmark
 1 DEAT
 2 DATE 20 DEC 1886
-2 PLAC Fuglslev, Denmark
-1 OCCU Cottager (boelsmand), Fuglslev (1845)
-1 OCCU Farmer (gårdmand), Fuglslev (1850–60)
-1 OCCU Retired farmer (1880)
-1 NOTE Married Mariane Hansdatter 3 Sep 1841 in Fuglslev.
+2 PLAC Fuglslev, Danmark
+1 OCCU Boelsmand, Fuglslev (1845)
+1 OCCU Gårdmand, Fuglslev (1850–60)
+1 OCCU Aftægtsmand (1880)
+1 NOTE Gift med Mariane Hansdatter 3. sep. 1841 i Fuglslev.
 1 SOUR
 2 PAGE LL:12-3667395
 1 SOUR
@@ -675,26 +678,150 @@
 2 PAGE LL:6-849928
 1 SOUR
 2 PAGE LL:11-4601883
-1 FAMS @F16@
-1 FAMC @F18@
+1 FAMS @F13@
+1 FAMC @F19@
 0 @p39@ INDI
 1 NAME Mariane /Hansdatter/
 1 SEX F
 1 BIRT
 2 DATE 11 APR 1817
-2 PLAC Fuglslev, Denmark
+2 PLAC Fuglslev, Danmark
 1 DEAT
 2 DATE 26 JUL 1885
-2 PLAC Fuglslev, Denmark
-1 OCCU Servant at Fuglslev mill (1834–40)
+2 PLAC Fuglslev, Danmark
+1 OCCU Tjenestepige på Fuglslev Mølle (1834–40)
 1 SOUR
 2 PAGE LL:12-3667695
 1 SOUR
 2 PAGE LL:2-515660
 1 SOUR
 2 PAGE LL:11-4602105
+1 FAMS @F13@
+1 FAMC @F20@
+0 @p52@ INDI
+1 NAME Rasmus /Jensen/
+1 SEX M
+1 NOTE Nævnt som far i sønnen Jens Jensens vielse 1907.
+1 SOUR
+2 PAGE LL:13-432735
+1 FAMS @F14@
+0 @p53@ INDI
+1 NAME Christine /Hansen/
+1 SEX F
+1 NOTE Nævnt som mor i sønnen Jens Jensens vielse 1907.
+1 SOUR
+2 PAGE LL:13-432736
+1 FAMS @F14@
+0 @p54@ INDI
+1 NAME Edvard Hammer /Gedde/
+1 SEX M
+1 BIRT
+2 DATE 8 JUL 1845
+2 PLAC Herlufmagle, Danmark
+1 OCCU Proprietær, Tamdrup (1880)
+1 OCCU Vognmand og foderstofhandler, København
+1 RESI
+2 DATE 1845
+2 PLAC Herlufmagle
+2 NOTE født
+1 RESI
+2 DATE 1870
+2 PLAC Næstved
+2 NOTE gift
+1 RESI
+2 DATE 1880
+2 PLAC Tamdrup
+2 NOTE proprietær
+1 RESI
+2 DATE 1907
+2 PLAC København
+2 NOTE vognmand
+1 NOTE Gift 8. juli 1870 i Sankt Peders Kirke, Næstved, med Vitta Ludvigsen. Mellemnavnet Hammer har han efter farens plejefar, dr.theol. Edvard Snedorph Hammer, sognepræst i Herlufmagle.
+1 SOUR
+2 PAGE LL:5-674514
+1 SOUR
+2 PAGE LL:13-5702405
+1 SOUR
+2 PAGE LL:7-1280754
+1 SOUR
+2 PAGE LL:13-432738
+1 SOUR
+2 PAGE LL:11-652493
+1 FAMS @F15@
+1 FAMC @F21@
+0 @p55@ INDI
+1 NAME Vitta Dorthea Henriette Mathilde /Ludvigsen/
+1 SEX F
+1 BIRT
+2 DATE 1848
+2 PLAC Næstved, Danmark
+1 SOUR
+2 PAGE LL:6-812043
+1 SOUR
+2 PAGE LL:13-5702406
+1 SOUR
+2 PAGE LL:7-1280755
+1 SOUR
+2 PAGE LL:13-432739
+1 FAMS @F15@
+0 @p48@ INDI
+1 NAME Peter Christian /Frederiksen/
+1 SEX M
+1 BIRT
+2 DATE 4 MAY 1839
+2 PLAC Rinkenæs, Danmark
+1 NOTE Gift med Anna Kirstine Marie Paulsen 9. dec. 1860 i Broager.
+1 SOUR
+2 PAGE LL:12-14275364
+1 SOUR
+2 PAGE LL:13-4957004
+1 SOUR
+2 PAGE LL:12-14989548
 1 FAMS @F16@
-1 FAMC @F19@
+1 FAMC @F22@
+0 @p49@ INDI
+1 NAME Anna Kirstine Marie /Paulsen/
+1 SEX F
+1 BIRT
+2 DATE 11 NOV 1834
+2 PLAC Ulkebøl, Danmark
+1 DEAT
+2 DATE 22 MAY 1893
+2 PLAC Broager, Danmark
+1 SOUR
+2 PAGE LL:12-15092343
+1 SOUR
+2 PAGE LL:13-4957007
+1 SOUR
+2 PAGE LL:11-7302858
+1 FAMS @F16@
+1 FAMC @F23@
+0 @p50@ INDI
+1 NAME Carl Peter /Hansen/
+1 SEX M
+1 BIRT
+2 DATE 24 MAY 1842
+2 PLAC Egernsund, Danmark
+1 DEAT
+2 DATE 1909
+1 SOUR
+2 PAGE LL:12-14990796
+1 SOUR
+2 PAGE LL:13-1051963
+1 FAMS @F17@
+1 FAMC @F24@
+0 @p51@ INDI
+1 NAME Eline Helene Marie /Hansen/
+1 SEX F
+1 BIRT
+2 DATE 24 MAR 1850
+1 DEAT
+2 DATE 1894
+1 SOUR
+2 PAGE LL:12-14990797
+1 SOUR
+2 PAGE LL:13-1051964
+1 FAMS @F17@
 0 @p72@ INDI
 1 NAME Claus /Gaardsted/
 1 SEX M
@@ -702,9 +829,9 @@
 2 DATE ABT 1750
 1 DEAT
 2 DATE 1811
-2 PLAC Bogensholm, Vistoft (Mols), Denmark
-1 OCCU Tenant of the manor (forpagter), Vosnæsgaard (1787–c.1796)
-1 OCCU Owner of Bogensholm estate (1796/97–1811)
+2 PLAC Bogensholm, Vistoft (Mols), Danmark
+1 OCCU Forpagter af Vosnæsgaard (1787–ca. 1796)
+1 OCCU Ejer af herregården Bogensholm (1796/97–1811)
 1 RESI
 2 DATE 1787
 2 PLAC Vosnæsgaard, Skødstrup
@@ -712,17 +839,17 @@
 1 RESI
 2 DATE 1797
 2 PLAC Bogensholm, Vistoft (Mols)
-2 NOTE bought the estate for 10,000 rdl
-1 NOTE Married twice; Kirsten Marie Jørgensdatter was his 2nd wife. His widow sold Bogensholm at auction in 1811 for 31,000 rdl. Arrived at Vosnæsgaard after 1784; his own birthplace and parents are unknown.
+2 NOTE købte godset for 10.000 rdl.
+1 NOTE Gift to gange; Kirsten Marie Jørgensdatter var hans anden hustru. Enken solgte Bogensholm på auktion i 1811 for 31.000 rdl. Han kom til Vosnæsgaard efter 1784. Hvor han er født, og hvem hans forældre var, er ukendt.
 1 SOUR
 2 PAGE LL:0-414804
 1 SOUR
 2 PAGE LL:1-475533
 1 SOUR
-2 PAGE AO:Skødstrup FKVD 1780–1809, p.75
+2 PAGE AO:Skødstrup kirkebog 1780–1809, s. 75
 1 SOUR
 2 PAGE Trap Danmark / danskeherregaarde.dk (Bogensholm)
-1 FAMS @F17@
+1 FAMS @F18@
 0 @p73@ INDI
 1 NAME Kirsten Marie /Jørgensdatter/
 1 SEX F
@@ -734,25 +861,25 @@
 2 PAGE LL:0-414805
 1 SOUR
 2 PAGE LL:1-475272
-1 FAMS @F17@
+1 FAMS @F18@
 0 @p76@ INDI
 1 NAME Rasmus Jensen /Rousing/
 1 SEX M
 1 BIRT
 2 DATE ABT 1780
-2 PLAC Fuglslev, Denmark
+2 PLAC Fuglslev, Danmark
 1 DEAT
 2 DATE 25 MAY 1858
-2 PLAC Fuglslev, Denmark
-1 OCCU Freeholder farmer and parish bailiff (selvejer gårdmand og sognefoged), Fuglslev
+2 PLAC Fuglslev, Danmark
+1 OCCU Selvejergårdmand og sognefoged, Fuglslev
 1 SOUR
 2 PAGE LL:2-515582
 1 SOUR
 2 PAGE LL:11-4601884
 1 SOUR
 2 PAGE LL:11-4601476
-1 FAMS @F18@
-1 FAMC @F20@
+1 FAMS @F19@
+1 FAMC @F25@
 0 @p77@ INDI
 1 NAME Karen /Christensdatter/
 1 SEX F
@@ -760,23 +887,23 @@
 2 DATE ABT 1780
 1 DEAT
 2 DATE 25 APR 1855
-2 PLAC Fuglslev, Denmark
+2 PLAC Fuglslev, Danmark
 1 SOUR
 2 PAGE LL:2-515583
 1 SOUR
 2 PAGE LL:11-4601630
-1 FAMS @F18@
+1 FAMS @F19@
 0 @p78@ INDI
 1 NAME Hans /Jacobsen/
 1 SEX M
 1 BIRT
 2 DATE ABT 1794
-1 NOTE Married Maren Rasmusdatter 6 Jul 1817 in Fuglslev.
+1 NOTE Gift med Maren Rasmusdatter 6. juli 1817 i Fuglslev.
 1 SOUR
 2 PAGE LL:13-1705838
 1 SOUR
 2 PAGE LL:12-3667696
-1 FAMS @F19@
+1 FAMS @F20@
 0 @p79@ INDI
 1 NAME Maren /Rasmusdatter/
 1 SEX F
@@ -784,144 +911,543 @@
 2 DATE ABT 1798
 1 SOUR
 2 PAGE LL:13-1705839
-1 FAMS @F19@
+1 FAMS @F20@
+0 @p108@ INDI
+1 NAME Ove Frederik Christopher /Gedde/
+1 SEX M
+1 BIRT
+2 DATE JUL 1808
+2 PLAC Fredensborg, Danmark
+1 OCCU Cand.jur.
+1 OCCU Forvalter, Herlufmagle (1840–50)
+1 RESI
+2 DATE 1808
+2 PLAC Fredensborg
+2 NOTE født, hjemmedøbt
+1 RESI
+2 DATE 1823
+2 PLAC Herlufmagle
+2 NOTE konfirmeret
+1 RESI
+2 DATE 1834
+2 PLAC København
+2 NOTE cand.jur., plejesøn af dr. Hammer
+1 RESI
+2 DATE 1840
+2 PLAC København
+2 NOTE gift i Helligånds Kirke
+1 RESI
+2 DATE 1845
+2 PLAC Herlufmagle
+2 NOTE forvalter
+1 NOTE Hjemmedøbt i Fredensborg, indført i kirkebogen 24. juli 1808 som søn af 'Hr. Capitaine ved Kronens Regiment Hr. Ove Samuel Giedde og Frue Frederikke Lovise Birthe født Kleist'. Faddere: oberstløjtnantinde Recke, jomfru Gradman fra Helsingør, kaptajn Giedde fra Helsingør og løjtnanterne Tønnesen og Bøgtrup. Han voksede op i Herlufmagle Præstegård hos sin moster Christine Sophie von Kleist og hendes mand, sognepræst dr.theol. Edvard Snedorph Hammer. Gift 16. okt. 1840 i Helligånds Kirke, København, med Charlotte Frederikke Christine Møller. I 1840–50 bestyrede han Viborggaard i Herlufmagle for mosteren, der var enke og ejede gården. Hendes bror, pensionist Ludvig Adam Kleist, boede der også. Begge var født i Assens.
+1 SOUR
+2 PAGE AO:Fredensborg Slotssogn kirkebog 1733–1814, s. 127 (bsid 594366, billede 65)
+1 SOUR
+2 PAGE LL:2-251474
+1 SOUR
+2 PAGE LL:14-7607995
+1 SOUR
+2 PAGE LL:3-593931
+1 SOUR
+2 PAGE LL:4-652578
+1 SOUR
+2 PAGE LL:5-674512
+1 SOUR
+2 PAGE PHT:1897
+1 FAMS @F21@
+1 FAMC @F26@
+0 @p109@ INDI
+1 NAME Charlotte Frederikke Christine /Møller/
+1 SEX F
+1 BIRT
+2 DATE 1815
+2 PLAC København, Danmark
+1 SOUR
+2 PAGE LL:5-674513
+1 FAMS @F21@
+0 @p96@ INDI
+1 NAME Friedrich /Friedrichsen/
+1 SEX M
+1 SOUR
+2 PAGE LL:13-4957005
+1 FAMS @F22@
+0 @p97@ INDI
+1 NAME Anna Christina /Peters/
+1 SEX F
+1 BIRT
+2 DATE ABT 1815
+1 NOTE Født i Vester Hostrup ifølge folketællingen.
+1 SOUR
+2 PAGE LL:13-4957006
+1 FAMS @F22@
+0 @p98@ INDI
+1 NAME Jens /Paulsen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1799
+1 OCCU Daglejer, Sønderborg (1845)
+1 NOTE Gift 24. feb. 1833 i Ulkebøl med Cathrine Marie Lausen.
+1 SOUR
+2 PAGE LL:13-4995190
+1 SOUR
+2 PAGE LL:4-956554
+1 SOUR
+2 PAGE LL:13-4957008
+1 SOUR
+2 PAGE LL:11-7302859
+1 FAMS @F23@
+0 @p99@ INDI
+1 NAME Cathrine Marie /Lausen/
+1 SEX F
+1 BIRT
+2 DATE ABT 1805
+1 SOUR
+2 PAGE LL:13-4957009
+1 SOUR
+2 PAGE LL:11-7302860
+1 FAMS @F23@
+0 @p100@ INDI
+1 NAME Peter /Hansen/
+1 SEX M
+1 BIRT
+2 DATE 1803
+1 OCCU Teglværksarbejder, Egernsund
+1 NOTE Født i Brejning ifølge folketællingen.
+1 SOUR
+2 PAGE Link Lives: folketællinger for Broager sogn 1845–60
+1 FAMS @F24@
+0 @p101@ INDI
+1 NAME Anna Christina /Jensen/
+1 SEX F
+1 BIRT
+2 DATE 1813
+1 NOTE Født i Gudum ifølge folketællingen.
+1 SOUR
+2 PAGE Link Lives: folketællinger for Broager sogn 1845–60
+1 FAMS @F24@
 0 @p152@ INDI
 1 NAME Jens /Rasmussen/
 1 SEX M
 1 BIRT
 2 DATE ABT 1755
-2 PLAC Fuglslev, Denmark
-1 OCCU Farmer (bonde og gårdbeboer), Fuglslev
-1 NOTE Rasmus Jensen, aged 20, lives in his household in 1801.
-1 NOTE Confidence: probable
+2 PLAC Fuglslev, Danmark
+1 OCCU Bonde og gårdbeboer, Fuglslev
+1 NOTE Rasmus Jensen, 20 år, bor i hans husstand i 1801.
+1 NOTE Sikkerhed: sandsynlig
 1 SOUR
 2 PAGE LL:1-473834
 1 SOUR
 2 PAGE LL:0-415717
-1 FAMS @F20@
-1 FAMC @F21@
+1 FAMS @F25@
+1 FAMC @F27@
 0 @p153@ INDI
 1 NAME Margrethe /Christensdatter/
 1 SEX F
 1 BIRT
 2 DATE ABT 1758
-1 NOTE Confidence: probable
+1 NOTE Sikkerhed: sandsynlig
 1 SOUR
 2 PAGE LL:1-473835
-1 FAMS @F20@
+1 FAMS @F25@
 0 @p304@ INDI
 1 NAME Rasmus /Jensen/
 1 SEX M
 1 BIRT
 2 DATE ABT 1718
-2 PLAC Fuglslev, Denmark
-1 OCCU Farmer (bonde og gårdmand), Fuglslev (1787)
-1 NOTE Possible father of Jens Rasmussen (naming pattern only).
-1 NOTE Confidence: possible
+2 PLAC Fuglslev, Danmark
+1 OCCU Bonde og gårdmand, Fuglslev (1787)
+1 NOTE Mulig far til Jens Rasmussen. Det bygger kun på navnemønsteret.
+1 NOTE Sikkerhed: mulig
 1 SOUR
 2 PAGE LL:0-415357
-1 FAMS @F21@
+1 FAMS @F27@
+0 @p216@ INDI
+1 NAME Ove Samuel /Gedde/
+1 SEX M
+1 BIRT
+2 DATE 28 FEB 1778
+1 DEAT
+2 DATE 10 MAR 1843
+2 PLAC Helsingør, Danmark
+1 OCCU Officer: sekondløjtnant, kaptajn (1808), oberstløjtnant og bataljonschef ved Kronens Regiment
+1 OCCU Karakteriseret oberst, ridder af Dannebrog
+1 OCCU Borgerrepræsentant, Helsingør (1823–38)
+1 RESI
+2 DATE 1808
+2 PLAC Fredensborg
+2 NOTE kaptajn; sønnen Ove Frederik født
+1 RESI
+2 DATE 1834
+2 PLAC Helsingør
+2 NOTE oberstløjtnant, Kronens Regiment
+1 RESI
+2 DATE 1843
+2 PLAC Helsingør
+2 NOTE død
+1 NOTE Gift 24. juni 1806 med Frederikke Louise Dorthea von Kleist. Kaldes 'von Gedde' i folketællingen 1834, hvor familien bor i Helsingør med datteren Henriette (f. 1819). Han er familiens bedste bud på 'kaptajnen' i fortællingen om navnet Gedde: Else Gedde Jensens tipoldefar og kaptajn i 1808. Der er dog intet i kilderne om, at han var i Trankebar.
+1 SOUR
+2 PAGE AO:Fredensborg Slotssogn kirkebog 1808
+1 SOUR
+2 PAGE LL:2-80373
+1 SOUR
+2 PAGE LL:3-51002
+1 SOUR
+2 PAGE LL:11-5877418
+1 SOUR
+2 PAGE LL:14-7607995
+1 SOUR
+2 PAGE PHT:1897
+1 SOUR
+2 PAGE Geni: Ove Samuel Gedde (1778–1843)
+1 FAMS @F26@
+1 FAMC @F28@
+0 @p217@ INDI
+1 NAME Frederikke Louise Dorthea von /Kleist/
+1 SEX F
+1 BIRT
+2 DATE 5 JAN 1786
+1 DEAT
+2 DATE 24 JAN 1870
+1 RESI
+2 DATE 1834
+2 PLAC Helsingør
+2 NOTE officershustru
+1 NOTE Kirkebogen 1808 kalder hende 'Frederikke Lovise Birthe født Kleist'. Datter af kammerherre Christian Frederik von Kleist. Hendes søster Christine Sophie var gift med pastor Hammer i Herlufmagle, og søsteren Juliane med den norske generalmajor Nicolai Wilhelm Gedde, sandsynligvis Ove Samuels bror.
+1 SOUR
+2 PAGE PHT:1897
+1 SOUR
+2 PAGE LL:2-80374
+1 SOUR
+2 PAGE LL:3-51003
+1 SOUR
+2 PAGE AO:Fredensborg Slotssogn kirkebog 1808
+1 FAMS @F26@
+1 FAMC @F29@
+0 @p432@ INDI
+1 NAME Hans Christopher /Gedde/
+1 SEX M
+1 BIRT
+2 DATE 1738
+1 DEAT
+2 DATE 1817
+1 OCCU Generalmajor (dansk-norsk hær)
+1 NOTE Stamfar til den norske Gedde-slægt. Hans søn Nicolai Wilhelm Gedde (1779–1833) giftede sig med Frederikke Louises søster. Geni angiver ham som far til Ove Samuel, men det er ikke bekræftet i en primærkilde.
+1 NOTE Sikkerhed: sandsynlig
+1 SOUR
+2 PAGE Store norske leksikon: Gedde (slekt)
+1 SOUR
+2 PAGE lokalhistoriewiki.no: Gedde (borgerlig slekt)
+1 SOUR
+2 PAGE Geni: Ove Samuel Gedde
+1 FAMS @F28@
+1 FAMC @F30@
+0 @p433@ INDI
+1 NAME Øllegaard Sophie /Fischer/
+1 SEX F
+1 BIRT
+2 DATE ABT 1752
+1 NOTE Kaldes andre steder 'Frederikke Christiane Fischer'.
+1 NOTE Sikkerhed: sandsynlig
+1 SOUR
+2 PAGE lokalhistoriewiki.no: Gedde (borgerlig slekt)
+1 SOUR
+2 PAGE Geni: Ove Samuel Gedde
+1 FAMS @F28@
+0 @p864@ INDI
+1 NAME Samuel Christoph /Gedde/
+1 SEX M
+1 BIRT
+2 DATE 14 JUL 1691
+2 PLAC København, Danmark
+1 DEAT
+2 DATE 2 FEB 1766
+2 PLAC København, Danmark
+1 OCCU Officer: underkonduktør (1710) til generalmajor (1760)
+1 NOTE Far til ti børn, bl.a. Hans Christopher (f. 1738). Ifølge Store norske leksikon har den borgerlige Gedde-slægt sandsynligvis ingen forbindelse til den uddøde adelsslægt Gjedde, som Trankebars grundlægger, admiral Ove Gjedde, tilhørte.
+1 NOTE Sikkerhed: sandsynlig
+1 SOUR
+2 PAGE Store norske leksikon: Gedde (slekt)
+1 FAMS @F30@
+0 @p434@ INDI
+1 NAME Christian Frederik von /Kleist/
+1 SEX M
+1 BIRT
+2 DATE 25 AUG 1743
+1 DEAT
+2 DATE 12 JUL 1799
+1 OCCU Kornet ved Holstenske Kyrassérregiment (1758)
+1 OCCU Eskadronchef, karakteriseret major (1774)
+1 OCCU Kammerherre (1779)
+1 OCCU Godsejer ved Bredsted
+1 NOTE Gift 3. dec. 1770 med Anna Margrethe Schubart. Fire sønner og fire døtre, bl.a. generalmajor Carl Gottlieb von Kleist.
+1 SOUR
+2 PAGE PHT:1897
+1 FAMS @F29@
+1 FAMC @F31@
+0 @p435@ INDI
+1 NAME Anna Margrethe /Schubart/
+1 SEX F
+1 BIRT
+2 DATE 3 APR 1753
+1 DEAT
+2 DATE 24 AUG 1842
+1 SOUR
+2 PAGE PHT:1897
+1 FAMS @F29@
+1 FAMC @F32@
+0 @p868@ INDI
+1 NAME Christian Adam von /Kleist/
+1 SEX M
+1 BIRT
+2 DATE 1 OCT 1705
+2 PLAC København, Danmark
+1 DEAT
+2 DATE 31 OCT 1778
+1 OCCU Page og hofjunker (1731)
+1 OCCU Amtmand i Rendsborg (1740) og landråd i Holsten
+1 OCCU Kammerherre (1746), gehejmeråd (1766)
+1 OCCU Landfoged i Bredsted (1768)
+1 NOTE Døbt i Vor Frelsers Kirke på Christianshavn. Ridder af Dannebrog 1759. Død i Bredsted og begravet i Slesvig Domkirke.
+1 SOUR
+2 PAGE PHT:1897
+1 SOUR
+2 PAGE Dansk biografisk Lexikon IX s. 219
+1 FAMS @F31@
+1 FAMC @F33@
+0 @p869@ INDI
+1 NAME Sophie /Rosenkrantz/
+1 SEX F
+1 BIRT
+2 DATE 1714
+1 DEAT
+2 DATE 4 JUN 1770
+1 NOTE Dame de l'Union parfaite 1752. Begravet i Slesvig Domkirke.
+1 SOUR
+2 PAGE PHT:1897
+1 FAMS @F31@
+1 FAMC @F34@
+0 @p870@ INDI
+1 NAME Johan Valentin /Schubart/
+1 SEX M
+1 OCCU Major i kavaleriet
+1 SOUR
+2 PAGE PHT:1897
+1 FAMS @F32@
+0 @p871@ INDI
+1 NAME Christiane Sophie /Woldenberg/
+1 SEX F
+1 SOUR
+2 PAGE PHT:1897
+1 FAMS @F32@
+0 @p1736@ INDI
+1 NAME Cartz Ulrik von /Kleist/
+1 SEX M
+1 DEAT
+2 DATE NOV 1722
+1 OCCU Premierløjtnant ved Fynske Infanteriregiment (1701)
+1 OCCU Kaptajn i Grenaderkorpset (1707)
+1 OCCU Oberstløjtnant (1712/1717)
+1 OCCU Herre til Drenow (Pommern)
+1 NOTE Fra Muttrin-linjen af den pommerske adelsslægt von Kleist. Han var i brandenborgsk tjeneste 1692–94 og i dansk tjeneste fra 1701. Han blev såret og taget til fange ved Helsingborg i 1710 og ved Gadebusch i 1712. Han døde i Rendsborg og blev begravet 17. nov. 1722. Parret fik 10 børn.
+1 SOUR
+2 PAGE PHT:1897
+1 FAMS @F33@
+1 FAMC @F35@
+0 @p1737@ INDI
+1 NAME Barbara Juliane von /Kleist/
+1 SEX F
+1 DEAT
+2 DATE AFT 1730
+1 NOTE Boede endnu i 1730 på godset Drenow i Pommern.
+1 SOUR
+2 PAGE PHT:1897
+1 FAMS @F33@
+1 FAMC @F36@
+0 @p1738@ INDI
+1 NAME Christian Rosenkrantz til /Skovsbo/
+1 SEX M
+1 OCCU Gehejmeråd
+1 OCCU Godsejer, Skovsbo (Fyn)
+1 SOUR
+2 PAGE PHT:1897
+1 FAMS @F34@
+0 @p1739@ INDI
+1 NAME Frederikke Louise /Krag/
+1 SEX F
+1 SOUR
+2 PAGE PHT:1897
+1 FAMS @F34@
+0 @p3472@ INDI
+1 NAME Pribislaff von /Kleist/
+1 SEX M
+1 OCCU Godsejer: Muttrin, Borntin, Döbel og Drenow (Pommern)
+1 SOUR
+2 PAGE PHT:1897
+1 FAMS @F35@
+0 @p3473@ INDI
+1 NAME Esther von /Kameke/
+1 SEX F
+1 SOUR
+2 PAGE PHT:1897
+1 FAMS @F35@
+0 @p3474@ INDI
+1 NAME Christian Casimir von /Kleist/
+1 SEX M
+1 BIRT
+2 DATE 1654
+1 DEAT
+2 DATE 1 FEB 1722
+1 OCCU Premierløjtnant ved Prins Christians Regiment (1677)
+1 OCCU Kaptajn og chef for grenaderkompagniet ved Fynske Infanteriregiment (1685)
+1 OCCU Oberstløjtnant og kommandant i Oldenborg (1709)
+1 NOTE Arvede en del af Gross Tychow i Pommern. Han deltog i felttoget i hertugdømmerne i 1700 og døde i Oldenborg.
+1 SOUR
+2 PAGE PHT:1897
+1 FAMS @F36@
+1 FAMC @F37@
+0 @p3475@ INDI
+1 NAME Anna von /Fürst/
+1 SEX F
+1 DEAT
+2 DATE 1722
+1 NOTE Fra Schlesien.
+1 SOUR
+2 PAGE PHT:1897
+1 FAMS @F36@
+0 @p6948@ INDI
+1 NAME Christian von /Kleist/
+1 SEX M
+1 DEAT
+2 DATE 1679
+1 OCCU Brandenborgsk oberst
+1 OCCU Godsejer, Gross Tychow (Pommern)
+1 NOTE Stamfar til den gren af slægten, der 'i henimod halvandet hundrede år blomstrede i Danmark'.
+1 SOUR
+2 PAGE PHT:1897
+1 FAMS @F37@
+0 @p6949@ INDI
+1 NAME Hedvig Maria von /Kleist/
+1 SEX F
+1 NOTE Hans første hustru. Hun bragte en del af Gross Tychow med ind i ægteskabet.
+1 SOUR
+2 PAGE PHT:1897
+1 FAMS @F37@
+1 FAMC @F38@
+0 @p13898@ INDI
+1 NAME Georg von /Kleist/
+1 SEX M
+1 OCCU Godsejer, Gross Tychow (Pommern)
+1 SOUR
+2 PAGE PHT:1897
+1 FAMS @F38@
+0 @p13899@ INDI
+1 NAME Christina von /Woyten/
+1 SEX F
+1 SOUR
+2 PAGE PHT:1897
+1 FAMS @F38@
 0 @s_p16_0@ INDI
 1 NAME Johanne Marie Margrethe /Jørgensen/
 1 SEX F
 1 BIRT
 2 DATE 21 OCT 1886
-1 NOTE twin
-1 FAMC @F11@
+1 NOTE Tvilling.
+1 FAMC @F6@
 0 @s_p16_1@ INDI
 1 NAME Niels Sophus Holger /Jørgensen/
 1 SEX M
 1 BIRT
 2 DATE 21 OCT 1886
-1 NOTE twin
-1 FAMC @F11@
+1 NOTE Tvilling.
+1 FAMC @F6@
 0 @s_p16_2@ INDI
 1 NAME Agnes Ingeborg /Jørgensen/
 1 SEX F
 1 BIRT
 2 DATE 30 JUL 1888
-1 FAMC @F11@
+1 FAMC @F6@
 0 @s_p16_3@ INDI
 1 NAME Karl Alfred Peter /Jørgensen/
 1 SEX M
 1 BIRT
 2 DATE 24 OCT 1892
-1 FAMC @F11@
+1 FAMC @F6@
 0 @s_p16_4@ INDI
 1 NAME Ellen Sophie Elisabeth /Jørgensen/
 1 SEX F
 1 BIRT
 2 DATE 7 JAN 1895
-1 FAMC @F11@
+1 FAMC @F6@
 0 @s_p16_5@ INDI
 1 NAME Anna Louise Mathilde /Jørgensen/
 1 SEX F
 1 BIRT
 2 DATE 26 DEC 1899
-1 FAMC @F11@
+1 FAMC @F6@
 0 @s_p32_0@ INDI
 1 NAME Hans Sophus Frederik /Jørgensen/
 1 SEX M
 1 BIRT
 2 DATE 1855
-1 OCCU Passementmaker
-1 FAMC @F13@
+1 OCCU Possementmager
+1 FAMC @F10@
 0 @s_p32_1@ INDI
 1 NAME Anna Margrethe /Jørgensen/
 1 SEX F
 1 BIRT
 2 DATE 18 NOV 1855
-1 OCCU Dressmaker
-1 FAMC @F13@
+1 OCCU Syerske
+1 FAMC @F10@
 0 @s_p32_2@ INDI
 1 NAME Peter /Jørgensen/
 1 SEX M
 1 BIRT
 2 DATE 5 APR 1862
-1 OCCU Shoemaker
-1 FAMC @F13@
+1 OCCU Skomager
+1 FAMC @F10@
 0 @s_p32_3@ INDI
 1 NAME Agnes Mathilde /Jørgensen/
 1 SEX F
 1 BIRT
 2 DATE 3 AUG 1871
-1 OCCU Dressmaker
-1 FAMC @F13@
+1 OCCU Syerske
+1 FAMC @F10@
 0 @s_p18_0@ INDI
 1 NAME Johanne Marie /Gaardsted/
 1 SEX F
 1 BIRT
 2 DATE 29 JAN 1879
-1 OCCU Servant
-1 NOTE Lived with her widowed mother in Kolind 1921; with sister Sofie left memoirs of Petersminde (Midtdjurs Lokalhistoriske Arkiv A847).
-1 FAMC @F12@
+1 OCCU Tjenestepige
+1 NOTE Boede hos sin mor, der var enke, i Kolind i 1921. Hun og søsteren Sofie skrev erindringer om Petersminde (Midtdjurs Lokalhistoriske Arkiv A847).
+1 FAMC @F7@
 0 @s_p18_1@ INDI
 1 NAME Sofie /Gaardsted/
 1 SEX F
 1 BIRT
 2 DATE 1881
-1 OCCU Servant
-1 FAMC @F12@
+1 OCCU Tjenestepige
+1 FAMC @F7@
 0 @s_p18_2@ INDI
 1 NAME Agnes Kristiane /Gaardsted/
 1 SEX F
 1 BIRT
 2 DATE 1883
-1 OCCU Servant
-1 FAMC @F12@
+1 OCCU Tjenestepige
+1 FAMC @F7@
 0 @s_p18_3@ INDI
 1 NAME Jokum /Gaardsted/
 1 SEX M
 1 BIRT
 2 DATE 1886
-1 FAMC @F12@
+1 FAMC @F7@
 0 @s_p18_4@ INDI
 1 NAME Martin Marinus /Gaardsted/
 1 SEX M
 1 BIRT
 2 DATE 10 NOV 1888
-1 OCCU Poorhouse manager, Bregnet (1922)
-1 FAMC @F12@
+1 OCCU Fattiggårdsbestyrer, Bregnet (1922)
+1 FAMC @F7@
 0 @s_p18_5@ INDI
 1 NAME Axel Villiam /Gaardsted/
 1 SEX M
@@ -929,25 +1455,25 @@
 2 DATE 20 AUG 1891
 1 DEAT
 2 DATE 7 MAR 1894
-1 FAMC @F12@
+1 FAMC @F7@
 0 @s_p18_6@ INDI
 1 NAME Petra Ottine /Gaardsted/
 1 SEX F
 1 BIRT
 2 DATE 25 FEB 1897
-1 FAMC @F12@
+1 FAMC @F7@
 0 @s_p18_7@ INDI
 1 NAME Axel Vilhelm Alfred /Gaardsted/
 1 SEX M
 1 BIRT
 2 DATE 5 DEC 1900
-1 FAMC @F12@
+1 FAMC @F7@
 0 @s_p36_0@ INDI
 1 NAME Marie Kirstine /Gaardsted/
 1 SEX F
 1 BIRT
 2 DATE 1839
-1 FAMC @F15@
+1 FAMC @F12@
 0 @s_p36_1@ INDI
 1 NAME Jens /Gaardsted/
 1 SEX M
@@ -955,8 +1481,8 @@
 2 DATE 1841
 1 DEAT
 2 DATE 1914
-1 OCCU Farm owner, Tirstrup
-1 FAMC @F15@
+1 OCCU Gårdejer, Tirstrup
+1 FAMC @F12@
 0 @s_p36_2@ INDI
 1 NAME Mette Marie /Gaardsted/
 1 SEX F
@@ -964,19 +1490,19 @@
 2 DATE 1844
 1 DEAT
 2 DATE 1847
-1 FAMC @F15@
+1 FAMC @F12@
 0 @s_p36_3@ INDI
 1 NAME Johanne /Gaardsted/
 1 SEX F
 1 BIRT
 2 DATE 1847
-1 FAMC @F15@
+1 FAMC @F12@
 0 @s_p36_4@ INDI
 1 NAME Ernst Adolph /Gaardsted/
 1 SEX M
 1 BIRT
 2 DATE 1849
-1 FAMC @F15@
+1 FAMC @F12@
 0 @s_claus_ch@ INDI
 1 NAME Claus Christian /Gaardsted/
 1 SEX M
@@ -984,8 +1510,8 @@
 2 DATE 28 JUL 1832
 1 DEAT
 2 DATE 1863
-1 NOTE Mother: Marie Kjerstine Christensdatter (Jochum's 1st wife).
-1 FAMC @F22@
+1 NOTE Mor: Marie Kjerstine Christensdatter (Jochums første hustru).
+1 FAMC @F39@
 0 @s_p72_0@ INDI
 1 NAME Ernst Adolph /Gaardsted/
 1 SEX M
@@ -993,51 +1519,51 @@
 2 DATE 1784
 1 DEAT
 2 DATE 13 JUN 1832
-1 OCCU Farmer, Hoed
-1 NOTE Married Anne Andersdatter Kræmer; 5+ children in Hoed.
-1 FAMC @F17@
+1 OCCU Gårdmand, Hoed
+1 NOTE Gift med Anne Andersdatter Kræmer; mindst 5 børn i Hoed.
+1 FAMC @F18@
 0 @s_p72_1@ INDI
 1 NAME Poul Christian /Gaardsted/
 1 SEX M
 1 BIRT
 2 DATE 1790
-1 FAMC @F17@
+1 FAMC @F18@
 0 @s_p38_0@ INDI
 1 NAME Rasmus /Andersen/
 1 SEX M
 1 BIRT
 2 DATE 1845
-1 FAMC @F16@
+1 FAMC @F13@
 0 @s_p38_1@ INDI
 1 NAME Hans /Andersen/
 1 SEX M
 1 BIRT
 2 DATE 1847
-1 FAMC @F16@
+1 FAMC @F13@
 0 @s_p38_2@ INDI
 1 NAME Søren /Andersen/
 1 SEX M
 1 BIRT
 2 DATE 1850
-1 FAMC @F16@
+1 FAMC @F13@
 0 @s_p38_3@ INDI
 1 NAME Jensine Caroline /Andersen/
 1 SEX F
 1 BIRT
 2 DATE 1852
-1 FAMC @F16@
+1 FAMC @F13@
 0 @s_p76_0@ INDI
 1 NAME Christen /Rasmussen/
 1 SEX M
 1 BIRT
 2 DATE 1812
-1 FAMC @F18@
+1 FAMC @F19@
 0 @s_p76_1@ INDI
 1 NAME Jens Christian /Rasmussen/
 1 SEX M
 1 BIRT
 2 DATE 1816
-1 FAMC @F18@
+1 FAMC @F19@
 0 @s_liss_1@ INDI
 1 NAME Karen Margrethe /Enevoldsen/
 1 SEX F
@@ -1048,51 +1574,275 @@
 1 SEX F
 1 SOUR
 2 PAGE FamilySearch Family Tree
+0 @s_p26_0@ INDI
+1 NAME Aage Rasmus Gedde /Jensen/
+1 SEX M
+1 BIRT
+2 DATE 24 JUL 1908
+1 DEAT
+2 DATE 29 JUL 1908
+1 SOUR
+2 PAGE LL:11-2421115
+1 FAMC @F8@
+0 @s_p26_1@ INDI
+1 NAME Barn
+1 SEX U
+1 BIRT
+2 DATE 9 SEP 1909
+1 SOUR
+2 PAGE LL:12-4851907
+1 FAMC @F8@
+0 @s_p26_2@ INDI
+1 NAME Barn
+1 SEX U
+1 BIRT
+2 DATE 20 MAR 1911
+1 SOUR
+2 PAGE LL:12-4852004
+1 FAMC @F8@
+0 @s_p26_3@ INDI
+1 NAME Barn
+1 SEX U
+1 BIRT
+2 DATE 10 NOV 1913
+1 SOUR
+2 PAGE LL:12-4852952
+1 FAMC @F8@
+0 @s_p54_0@ INDI
+1 NAME Ove Frederik Alexander /Gedde/
+1 SEX M
+1 BIRT
+2 DATE 25 APR 1871
+1 DEAT
+2 DATE 11 MAR 1906
+1 SOUR
+2 PAGE LL:11-4055588
+1 FAMC @F15@
+0 @s_p54_1@ INDI
+1 NAME Elisabeth Charlotte Christle Doris /Gedde/
+1 SEX F
+1 BIRT
+2 DATE 1874
+1 DEAT
+2 DATE 13 JUL 1909
+1 SOUR
+2 PAGE LL:11-652492
+1 FAMC @F15@
+0 @s_p54_2@ INDI
+1 NAME Stephan Peter Hammer /Gedde/
+1 SEX M
+1 BIRT
+2 DATE 1874
+1 FAMC @F15@
+0 @s_p54_3@ INDI
+1 NAME Emil Ludvig Edvard /Gedde/
+1 SEX M
+1 BIRT
+2 DATE 15 NOV 1875
+1 NOTE Gift med Johanne Marie Olivia Eddelsen; boede i Roskilde (Sankt Jørgensbjerg) i 1911.
+1 SOUR
+2 PAGE LL:23-1448261
+1 SOUR
+2 PAGE LL:12-2288945
+1 FAMC @F15@
+0 @s_p54_4@ INDI
+1 NAME Ove /Gedde/
+1 SEX M
+1 BIRT
+2 DATE 1878
+1 FAMC @F15@
+0 @s_p54_5@ INDI
+1 NAME Vilhelm /Gedde/
+1 SEX M
+1 BIRT
+2 DATE 1879
+1 FAMC @F15@
+0 @s_p54_6@ INDI
+1 NAME Olaf Christian Kleist /Gedde/
+1 SEX M
+1 FAMC @F15@
+0 @s_p108_0@ INDI
+1 NAME Emilie Sophie Frederikke /Gedde/
+1 SEX F
+1 BIRT
+2 DATE 7 JUL 1842
+1 SOUR
+2 PAGE LL:12-17170629
+1 FAMC @F21@
+0 @s_p108_1@ INDI
+1 NAME Margrethe Ida Marie /Gedde/
+1 SEX F
+1 BIRT
+2 DATE 11 APR 1849
+1 SOUR
+2 PAGE LL:12-17159973
+1 FAMC @F21@
+0 @s_p108_2@ INDI
+1 NAME Ove Frederik /Gedde/
+1 SEX M
+1 BIRT
+2 DATE 11 DEC 1850
+1 DEAT
+2 DATE 24 OCT 1907
+1 SOUR
+2 PAGE LL:12-17159130
+1 SOUR
+2 PAGE LL:11-561887
+1 FAMC @F21@
+0 @s_p216_0@ INDI
+1 NAME Wilhelm Edvardt Sophus von /Gedde/
+1 SEX M
+1 BIRT
+2 DATE 1809
+1 OCCU Sekondløjtnant i Kronens Regiment (1834)
+1 SOUR
+2 PAGE LL:2-25989
+1 FAMC @F26@
+0 @s_p216_1@ INDI
+1 NAME Henriette von /Gedde/
+1 SEX F
+1 BIRT
+2 DATE 1819
+1 SOUR
+2 PAGE LL:2-80375
+1 FAMC @F26@
+0 @s_p434_0@ INDI
+1 NAME Christine Sophie von /Kleist/
+1 SEX F
+1 BIRT
+2 DATE 28 AUG 1771
+1 DEAT
+2 DATE 31 MAR 1862
+1 NOTE Født i Assens. Gift 1795 med sognepræst dr.theol. Edvard Snedorph Hammer (1767–1829), Herlufmagle, ejer af Viborggaard. De var plejeforældre for Ove Frederik Christopher Gedde. Hun var enke og ejede Viborggaard i 1850.
+1 SOUR
+2 PAGE PHT:1897
+1 SOUR
+2 PAGE LL:5-673677
+1 FAMC @F29@
+0 @s_p434_1@ INDI
+1 NAME Adam Ludvig Vilhelm von /Kleist/
+1 SEX M
+1 BIRT
+2 DATE 16 OCT 1772
+1 DEAT
+2 DATE 6 OCT 1851
+1 OCCU Kaptajn og kompagnichef
+1 NOTE Født i Assens. Boede i 1850 på Viborggaard i Herlufmagle.
+1 SOUR
+2 PAGE PHT:1897
+1 SOUR
+2 PAGE LL:5-674516
+1 FAMC @F29@
+0 @s_p434_2@ INDI
+1 NAME Valentin Ulrik von /Kleist/
+1 SEX M
+1 BIRT
+2 DATE 31 DEC 1773
+1 DEAT
+2 DATE 23 JUL 1827
+1 OCCU Major, husarregimentet
+1 SOUR
+2 PAGE PHT:1897
+1 FAMC @F29@
+0 @s_p434_3@ INDI
+1 NAME Frederik Christian von /Kleist/
+1 SEX M
+1 BIRT
+2 DATE 8 JAN 1775
+1 DEAT
+2 DATE 21 MAY 1848
+1 OCCU Major, Sjællandske Jægerkorps
+1 SOUR
+2 PAGE PHT:1897
+1 FAMC @F29@
+0 @s_p434_4@ INDI
+1 NAME Carl Gottlieb von /Kleist/
+1 SEX M
+1 BIRT
+2 DATE 15 JAN 1778
+1 DEAT
+2 DATE 26 JUL 1849
+1 OCCU Generalmajor og kammerherre
+1 SOUR
+2 PAGE PHT:1897
+1 FAMC @F29@
+0 @s_p434_5@ INDI
+1 NAME Juliane Frederikke Margrethe von /Kleist/
+1 SEX F
+1 BIRT
+2 DATE 2 DEC 1781
+1 DEAT
+2 DATE 22 MAY 1861
+1 NOTE Gift 1811 med Nicolai Wilhelm Gedde (1779–1833), norsk generalmajor og chef for Ingeniørkorpset.
+1 SOUR
+2 PAGE PHT:1897
+1 FAMC @F29@
+0 @s_p434_6@ INDI
+1 NAME Henriette Louise von /Kleist/
+1 SEX F
+1 BIRT
+2 DATE 30 NOV 1795
+1 DEAT
+2 DATE 12 APR 1827
+1 NOTE Gift 1813 med kaptajnløjtnant Johan Adolf von der Recke.
+1 SOUR
+2 PAGE PHT:1897
+1 FAMC @F29@
+0 @s_p868_0@ INDI
+1 NAME Frederikke Louise von /Kleist/
+1 SEX F
+1 BIRT
+2 DATE 27 MAR 1747
+1 DEAT
+2 DATE 29 MAY 1814
+1 SOUR
+2 PAGE PHT:1897
+1 FAMC @F31@
 0 @s_p24_0@ INDI
-1 NAME Son
+1 NAME Søn
 1 SEX M
 1 BIRT
 2 DATE 1896
 1 DEAT
 2 DATE 19 MAY 1896
-1 FAMC @F6@
+1 FAMC @F9@
 0 @s_p24_1@ INDI
 1 NAME Eline Christine /Frederiksen/
 1 SEX F
 1 BIRT
 2 DATE 28 APR 1897
-1 FAMC @F6@
+1 FAMC @F9@
 0 @s_p24_2@ INDI
-1 NAME Child of Lorenz & /Cathrina/
+1 NAME Barn af Lorenz og /Cathrina/
 1 SEX M
 1 BIRT
 2 DATE 15 JUL 1905
-1 FAMC @F6@
+1 FAMC @F9@
 0 @s_p48_0@ INDI
 1 NAME Hans Frederik /Frederiksen/
 1 SEX M
 1 BIRT
 2 DATE 28 OCT 1862
-1 FAMC @F7@
+1 FAMC @F16@
 0 @s_p48_1@ INDI
 1 NAME Jens /Frederiksen/
 1 SEX M
 1 BIRT
 2 DATE 4 JUL 1865
-1 FAMC @F7@
+1 FAMC @F16@
 0 @s_p48_2@ INDI
 1 NAME Catharina Maria /Frederiksen/
 1 SEX F
 1 BIRT
 2 DATE 24 APR 1867
-1 NOTE Married Hans Hendrik Ohlsen 17 Jun 1888 in Broager.
-1 FAMC @F7@
+1 NOTE Gift med Hans Hendrik Ohlsen 17. juni 1888 i Broager.
+1 FAMC @F16@
 0 @s_p48_3@ INDI
 1 NAME Anna Christine Maria /Frederiksen/
 1 SEX F
 1 BIRT
 2 DATE 10 FEB 1874
-1 FAMC @F7@
+1 FAMC @F16@
 0 @F1@ FAM
 1 HUSB @p2@
 1 WIFE @p3@
@@ -1117,33 +1867,6 @@
 1 WIFE @p13@
 1 CHIL @p6@
 0 @F6@ FAM
-1 HUSB @p24@
-1 WIFE @p25@
-1 CHIL @p12@
-1 CHIL @s_p24_0@
-1 CHIL @s_p24_1@
-1 CHIL @s_p24_2@
-0 @F7@ FAM
-1 HUSB @p48@
-1 WIFE @p49@
-1 CHIL @p24@
-1 CHIL @s_p48_0@
-1 CHIL @s_p48_1@
-1 CHIL @s_p48_2@
-1 CHIL @s_p48_3@
-0 @F8@ FAM
-1 HUSB @p50@
-1 WIFE @p51@
-1 CHIL @p25@
-0 @F9@ FAM
-1 HUSB @p96@
-1 WIFE @p97@
-1 CHIL @p48@
-0 @F10@ FAM
-1 HUSB @p98@
-1 WIFE @p99@
-1 CHIL @p49@
-0 @F11@ FAM
 1 HUSB @p16@
 1 WIFE @p17@
 1 CHIL @p8@
@@ -1153,7 +1876,7 @@
 1 CHIL @s_p16_3@
 1 CHIL @s_p16_4@
 1 CHIL @s_p16_5@
-0 @F12@ FAM
+0 @F7@ FAM
 1 HUSB @p18@
 1 WIFE @p19@
 1 CHIL @p9@
@@ -1165,7 +1888,22 @@
 1 CHIL @s_p18_5@
 1 CHIL @s_p18_6@
 1 CHIL @s_p18_7@
-0 @F13@ FAM
+0 @F8@ FAM
+1 HUSB @p26@
+1 WIFE @p27@
+1 CHIL @p13@
+1 CHIL @s_p26_0@
+1 CHIL @s_p26_1@
+1 CHIL @s_p26_2@
+1 CHIL @s_p26_3@
+0 @F9@ FAM
+1 HUSB @p24@
+1 WIFE @p25@
+1 CHIL @pf12@
+1 CHIL @s_p24_0@
+1 CHIL @s_p24_1@
+1 CHIL @s_p24_2@
+0 @F10@ FAM
 1 HUSB @p32@
 1 WIFE @p33@
 1 CHIL @p16@
@@ -1173,10 +1911,10 @@
 1 CHIL @s_p32_1@
 1 CHIL @s_p32_2@
 1 CHIL @s_p32_3@
-0 @F14@ FAM
+0 @F11@ FAM
 1 HUSB @p34@
 1 CHIL @p17@
-0 @F15@ FAM
+0 @F12@ FAM
 1 HUSB @p36@
 1 WIFE @p37@
 1 CHIL @p18@
@@ -1185,7 +1923,7 @@
 1 CHIL @s_p36_2@
 1 CHIL @s_p36_3@
 1 CHIL @s_p36_4@
-0 @F16@ FAM
+0 @F13@ FAM
 1 HUSB @p38@
 1 WIFE @p39@
 1 CHIL @p19@
@@ -1193,30 +1931,136 @@
 1 CHIL @s_p38_1@
 1 CHIL @s_p38_2@
 1 CHIL @s_p38_3@
+0 @F14@ FAM
+1 HUSB @p52@
+1 WIFE @p53@
+1 CHIL @p26@
+0 @F15@ FAM
+1 HUSB @p54@
+1 WIFE @p55@
+1 CHIL @p27@
+1 CHIL @s_p54_0@
+1 CHIL @s_p54_1@
+1 CHIL @s_p54_2@
+1 CHIL @s_p54_3@
+1 CHIL @s_p54_4@
+1 CHIL @s_p54_5@
+1 CHIL @s_p54_6@
+0 @F16@ FAM
+1 HUSB @p48@
+1 WIFE @p49@
+1 CHIL @p24@
+1 CHIL @s_p48_0@
+1 CHIL @s_p48_1@
+1 CHIL @s_p48_2@
+1 CHIL @s_p48_3@
 0 @F17@ FAM
+1 HUSB @p50@
+1 WIFE @p51@
+1 CHIL @p25@
+0 @F18@ FAM
 1 HUSB @p72@
 1 WIFE @p73@
 1 CHIL @p36@
 1 CHIL @s_p72_0@
 1 CHIL @s_p72_1@
-0 @F18@ FAM
+0 @F19@ FAM
 1 HUSB @p76@
 1 WIFE @p77@
 1 CHIL @p38@
 1 CHIL @s_p76_0@
 1 CHIL @s_p76_1@
-0 @F19@ FAM
+0 @F20@ FAM
 1 HUSB @p78@
 1 WIFE @p79@
 1 CHIL @p39@
-0 @F20@ FAM
+0 @F21@ FAM
+1 HUSB @p108@
+1 WIFE @p109@
+1 CHIL @p54@
+1 CHIL @s_p108_0@
+1 CHIL @s_p108_1@
+1 CHIL @s_p108_2@
+0 @F22@ FAM
+1 HUSB @p96@
+1 WIFE @p97@
+1 CHIL @p48@
+0 @F23@ FAM
+1 HUSB @p98@
+1 WIFE @p99@
+1 CHIL @p49@
+0 @F24@ FAM
+1 HUSB @p100@
+1 WIFE @p101@
+1 CHIL @p50@
+0 @F25@ FAM
 1 HUSB @p152@
 1 WIFE @p153@
 1 CHIL @p76@
-0 @F21@ FAM
+0 @F26@ FAM
+1 HUSB @p216@
+1 WIFE @p217@
+1 CHIL @p108@
+1 CHIL @s_p216_0@
+1 CHIL @s_p216_1@
+0 @F27@ FAM
 1 HUSB @p304@
 1 CHIL @p152@
-0 @F22@ FAM
+0 @F28@ FAM
+1 HUSB @p432@
+1 WIFE @p433@
+1 CHIL @p216@
+0 @F29@ FAM
+1 HUSB @p434@
+1 WIFE @p435@
+1 CHIL @p217@
+1 CHIL @s_p434_0@
+1 CHIL @s_p434_1@
+1 CHIL @s_p434_2@
+1 CHIL @s_p434_3@
+1 CHIL @s_p434_4@
+1 CHIL @s_p434_5@
+1 CHIL @s_p434_6@
+0 @F30@ FAM
+1 HUSB @p864@
+1 CHIL @p432@
+0 @F31@ FAM
+1 HUSB @p868@
+1 WIFE @p869@
+1 CHIL @p434@
+1 CHIL @s_p868_0@
+0 @F32@ FAM
+1 HUSB @p870@
+1 WIFE @p871@
+1 CHIL @p435@
+0 @F33@ FAM
+1 HUSB @p1736@
+1 WIFE @p1737@
+1 CHIL @p868@
+0 @F34@ FAM
+1 HUSB @p1738@
+1 WIFE @p1739@
+1 CHIL @p869@
+0 @F35@ FAM
+1 HUSB @p3472@
+1 WIFE @p3473@
+1 CHIL @p1736@
+0 @F36@ FAM
+1 HUSB @p3474@
+1 WIFE @p3475@
+1 CHIL @p1737@
+0 @F37@ FAM
+1 HUSB @p6948@
+1 WIFE @p6949@
+1 CHIL @p3474@
+0 @F38@ FAM
+1 HUSB @p13898@
+1 WIFE @p13899@
+1 CHIL @p6949@
+0 @F39@ FAM
 1 HUSB @p36@
 1 CHIL @s_claus_ch@
+0 @F40@ FAM
+1 HUSB @pf12@
+1 WIFE @p13@
 0 TRLR
