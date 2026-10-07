@@ -49,6 +49,15 @@ body{margin:0;background:var(--ui-bg);color:var(--ui-ink);font:14px/1.45 var(--f
   <label for="paper">Papir <select id="paper"><option>A3</option><option selected>A2</option><option>A1</option><option>A0</option></select></label>
   <span class="grp"><button class="btn" id="zin" type="button" aria-label="Zoom ind">+</button><button class="btn" id="zout" type="button" aria-label="Zoom ud">−</button><button class="btn" id="zfit" type="button">Tilpas</button></span>
   <button class="btn" id="print" type="button">Udskriv / gem som PDF</button>
+  <span class="lock" id="lockbox">
+    <button type="button" class="btn" id="lock-open">Vis private personer</button>
+    <form id="lock-form" hidden style="display:inline-flex;gap:6px;align-items:center">
+      <input id="lock-pw" type="password" placeholder="Kodeord" aria-label="Kodeord" style="font:inherit;font-size:.85rem;padding:5px 7px;border:1px solid var(--ui-rule);border-radius:5px;background:var(--ui-sheet);color:var(--ui-ink);width:150px">
+      <label style="font-size:.78rem"><input type="checkbox" id="lock-rem"> Husk</label>
+      <button type="submit" class="btn">Lås op</button><span id="lock-err" role="alert" style="font-size:.78rem;color:var(--ui-accent)"></span>
+    </form>
+    <span id="lock-on" hidden><button type="button" class="btn" id="lock-close">Lås igen</button></span>
+  </span>
   <span class="spacer"></span>
   <span class="links" id="pdfs"></span>
 </div>
@@ -59,7 +68,7 @@ const DATA = __DATA__;
 const PDFS = __PDFS__;
 </script>
 <script>
-(function(){
+function POSTER(){
 const P=DATA.people, byId=Object.fromEntries(P.map(p=>[p.id,p]));
 const ahn=Object.fromEntries(P.filter(p=>p.ahnen).map(p=>[p.ahnen,p]));
 const NS='http://www.w3.org/2000/svg';
@@ -174,7 +183,7 @@ function render(){
   el('path',{d:`M${bx-bw/2},${by-26} Q${bx},${by-44} ${bx+bw/2},${by-26} L${bx+bw/2},${by+56} Q${bx},${by+38} ${bx-bw/2},${by+56} Z`,fill:T.plate,stroke:T.plateEdge,'stroke-width':2.5},ban);
   const sideTxt={1:'',2:' · fars side',3:' · mors side'}[side];
   el('text',{x:bx,y:by+18,'text-anchor':'middle',style:'font-family:var(--f-sc)','font-size':44,fill:T.title,'letter-spacing':'.04em'},ban).textContent='Slægten Gårdsted · Gedde';
-  el('text',{x:bx,y:by+86,'text-anchor':'middle',style:'font-family:var(--f-display)','font-size':17,'font-style':'italic',fill:T.ink2},ban).textContent=`Johannes Gårdsted Valbjørns aner${sideTxt} · ${gmax+1} generationer · efter kirkebøger og folketællinger`;
+  el('text',{x:bx,y:by+86,'text-anchor':'middle',style:'font-family:var(--f-display)','font-size':17,'font-style':'italic',fill:T.ink2},ban).textContent=`${byId.p1&&!byId.p1.private?byId.p1.name+'s aner':'Anetavle'}${sideTxt} · ${gmax+1} generationer · efter kirkebøger og folketællinger`;
   applyVB();
 }
 function wrap(t,n){ const w=t.split(' '); const out=[]; let cur=''; for(const x of w){ if((cur+' '+x).trim().length>n && cur){ out.push(cur); cur=x; } else cur=(cur+' '+x).trim(); } if(cur) out.push(cur); return out.slice(0,3); }
@@ -205,5 +214,9 @@ const h=location.hash.slice(1); if(h){ const m=h.match(/g(\d+)/); if(m&&gs.query
   if(/far/.test(h)) $('side').value='2'; if(/mor/.test(h)) $('side').value='3'; if(/lys/.test(h)) $('style').value='light'; if(/sosk/.test(h)) $('sibs').checked=true; }
 render();
 window.__posterReady=true;
-})();
+}
+
+</script>
+<script>
+__UNLOCK_JS__
 </script>

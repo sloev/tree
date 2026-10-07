@@ -1,4 +1,4 @@
-# Slægten Gårdsted og Gedde – Johannes Gårdsted Valbjørn
+# Slægten Gårdsted og Gedde
 
 Den visuelle udgave med stamtræ, kort, levetider, statistik og billeder er hjemmesiden (`docs/index.html`). Alt genereres fra `data/build_data.py`, og `family-tree.ged` kan importeres i MyHeritage, Geni, Ancestry eller Gramps.
 
@@ -7,8 +7,8 @@ Sikkerhed: ✅ oplyst af dig · 📜 arkivkilde · ❓ sandsynlig/mulig
 ## Anetavle (biologisk)
 
 ```
-DIG  Johannes Gårdsted Valbjørn ✅
-├─ Jørgen Jørgensen ✅  (brødre Arne ✅ og Ole Gårdsted Jørgensen ✅)
+DIG ✅ (navne på nulevende står i den krypterede del af siden)
+├─ Far ✅  (og hans to brødre)
 │  ├─ Evald Johannes Gaardsted-Jørgensen 📜  1922 Kolind – 2008 Svendborg · lærer, kordegn, præst, forfatter
 │  │  ├─ Aage Evald Oskar Jørgensen 📜  f. 1890 Slagelse · gårdbestyrer, fattiggårdsbestyrer
 │  │  │  ├─ Jørgen Anton Jørgensen 📜  1857–1914 · typograf
@@ -25,7 +25,7 @@ DIG  Johannes Gårdsted Valbjørn ✅
 │  │        ├─ Anders Rasmussen Rousing 📜  1818–1886 ← Rasmus Jensen Rousing (sognefoged) ← Jens Rasmussen ❓ ← Rasmus Jensen ❓ ca. 1718
 │  │        └─ Mariane Hansdatter 📜  1817–1885 ← Hans Jacobsen og Maren Rasmusdatter
 │  └─ Liss Gaardsted-Jørgensen (f. Pedersen) 📜  1931–2002 · kordegn
-└─ Vivi Frederiksen Gedde ✅
+└─ Mor ✅
    ├─ Lorenz Heinrich Frederiksen 📜  1932 Egernsund – 2009 Svendborg
    │  ├─ Sophus Petersen ✅  1903 Påkjær, Nybøl – 1945 · gårdmandssøn (biologisk far ifølge familien)
    │  │  ├─ Peter Petersen 📜  f. 1866 Nybøl · gårdmand ← Mathias Petersen og Sophia Maria Nissen (gift Nybøl 1865)

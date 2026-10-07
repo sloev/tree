@@ -82,17 +82,6 @@ def person(id, name, sex, *, ahnen=None, line=None, rel=None, born=None, bplace=
                   father=father, mother=mother, living=living, sibof=sibof, step=step, spouse=spouse))
 
 # ================= Dig og dine forældre =================
-person("p1", "Johannes Gårdsted Valbjørn", "M", ahnen=1, line="self", living=True, conf="told",
-       father="p2", mother="p3", note="Født Johannes Gårdsted Jørgensen.")
-person("p2", "Jørgen Jørgensen", "M", ahnen=2, line="jorgensen", living=True, conf="told",
-       father="p4", mother="p5")
-person("p3", "Vivi Frederiksen Gedde", "F", ahnen=3, line="maternal", living=True, conf="told",
-       father="p6", mother="p7")
-person("u1", "Arne Gaardsted Jørgensen", "M", rel="farbror", line="jorgensen",
-       living=True, conf="told", father="p4", mother="p5")
-person("u2", "Ole Gårdsted Jørgensen", "M", rel="farbror", line="jorgensen",
-       living=True, conf="told", father="p4", mother="p5")
-
 # ================= Bedsteforældre =================
 person("p4", "Evald Johannes Gaardsted-Jørgensen", "M", ahnen=4, line="jorgensen",
        born="1922-09-20", bplace="Kolind", died="2008-11", dplace="Svendborg",
@@ -112,8 +101,7 @@ person("p4", "Evald Johannes Gaardsted-Jørgensen", "M", ahnen=4, line="jorgense
             "ARK:3079233", "ARK:7091946", "litteraturpriser.dk"])
 person("p5", "Liss Gaardsted-Jørgensen (f. Pedersen)", "F", ahnen=5, line="jorgensen",
        born="1931-04-18", died="2002", occ=["Kordegn, uddannet i Hune"], spouse="p4",
-       note="Gift med Evald 1953, 22 år gammel; tre sønner (Jørgen, Arne, Ole). Et af syv søskende, bl.a. "
-            "Karen Margrethe Enevoldsen (f. Pedersen) og Ane Elvira Pedersen. Fødselsdatoen stammer fra Evalds personarkiv "
+       note="Gift med Evald 1953, 22 år gammel; tre sønner. Et af syv søskende. Fødselsdatoen stammer fra Evalds personarkiv "
             "(Hadsten Lokalarkiv). Hendes forældre er endnu ikke fundet.",
        src=["ARK:2162357", "litteraturpriser.dk", "FamilySearch Family Tree: Liss Jørgensen (født Pedersen) 1931–2002"],
        res=[(1953, "Ollerup", "gift"), (1981, "Hune", "")])
@@ -558,11 +546,6 @@ sibs(("p38", "p39"), "rousing", "Rasmines søskende", [
 sibs(("p76", "p77"), "rousing", "Anders' søskende", [
     ("Christen Rasmussen", "M", "1812", {}), ("Jens Christian Rasmussen", "M", "1816", {}),
 ])
-person("s_liss_1", "Karen Margrethe Enevoldsen (f. Pedersen)", "F", rel="Liss' søster (din grandtante)", line="jorgensen", sibof="p5",
-       src=["FamilySearch Family Tree"])
-person("s_liss_2", "Ane Elvira Pedersen", "F", rel="Liss' søster (din grandtante)", line="jorgensen", sibof="p5",
-       src=["FamilySearch Family Tree"])
-
 # Elses søskende (Lejrskov). Navnene på børn født efter 1908 er skjult i Link Lives af hensyn til privatlivet.
 sibs(("p26", "p27"), "gedde", "Elses søskende", [
     ("Aage Rasmus Gedde Jensen", "M", "1908-07-24", {"died": "1908-07-29", "src": ["LL:11-2421115"]}),
@@ -643,16 +626,6 @@ sibs(("sofus_f", "sofus_m"), "maternal", "Sophus Petersens søskende", [
     ("Hans Petersen", "M", "1910", {"src": ["AO:Folketælling 1921, Nybøl (bsid 85824)"]}),
     ("Viggo Petersen", "M", "1913", {"src": ["AO:Folketælling 1921, Nybøl (bsid 85824)"]}),
 ])
-NYB = "AO:Nybøl kirkebog 1931–58, fødte piger (bsid 202180)"
-for i, (nm, yr, nr) in enumerate([("Rita Cathrine Petersen", "1938-03-31", "1938 nr. 6"),
-                                  ("Gerda Marie Petersen", "1940-04-18", "1940 nr. 4"),
-                                  ("Edel Sofie Christine Petersen", "1943-07-12", "1943 nr. 5")]):
-    person(f"sofus_d{i}", nm, "F", rel="Sophus Petersens datter (Lorenz' halvsøster)", line="maternal", born=yr, bplace="Sønderborg",
-           father="sofus", mother="sofus_w", conf="record",
-           note="Født på Statshospitalet i Sønderborg og døbt i Nybøl som datter af gårdejer Sophus Petersen og hustru Christine f. Jensen. "
-                "Ifølge familien flyttede en af de tre søstre til Norge.",
-           src=[f"{NYB}, {nr}", "Familiens oplysninger"])
-
 sibs(("p62", "p63"), "larsen", "Kristines søskende (Langø-familien)", [
     ("Christian Anton Christensen", "M", "1879-06-17", {"note": "Født i Skrøbelev før forældrenes vielse.", "src": ["LL:12-15557976"]}),
     ("Christian Jørgen Christensen", "M", "1887-12-01", {"note": "Født i København; konfirmeret i Humble 1902. Ikke fundet i de danske folketællinger efter 1901 og er måske en af udvandrerne.", "src": ["LL:12-7820110", "LL:14-3121379"]}),
@@ -757,13 +730,30 @@ SOURCES = [
     ("PHT:", "Personalhistorisk Tidsskrift 1897", "H.W. Harbou: Slægten von Kleist i Danmark", "https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf"),
 ]
 
+# ================= Private personer =================
+# Nulevende og personer født inden for de sidste 100 år uden dødsdato står ikke i denne fil.
+# De ligger krypteret i data/private.enc; her indlæses kun anonyme pladsholdere (data/private_stubs.json).
+# Se data/private_tool.py for at redigere dem.
+HERE = os.path.dirname(os.path.abspath(__file__))
+STUBS = json.load(open(os.path.join(HERE, "private_stubs.json"), encoding="utf-8"))
+P.extend(STUBS)
+PRIVATE_BLOB = json.load(open(os.path.join(HERE, "private.enc")))
+
+def must_be_private(p, this_year=2026):
+    import re
+    if p.get("private"): return False
+    y = re.search(r"\d{4}", str(p.get("born") or ""))
+    return bool(p.get("living") or (not p.get("died") and y and int(y.group()) >= this_year - 100))
+
 if __name__ == "__main__":
-    here = os.path.dirname(os.path.abspath(__file__))
+    here = HERE
+    leak = [p["id"] for p in P if must_be_private(p)]
+    assert not leak, f"Disse personer skal flyttes til den krypterede fil: {leak}"
     ids = {p["id"] for p in P}
     assert len(ids) == len(P), "dublet-id"
     for p in P:
         for k in ("father", "mother", "sibof", "step", "spouse"):
             assert p[k] is None or p[k] in ids, (p["id"], k, p[k])
-    json.dump(dict(people=P, places=PLACES, lines=LINES, cats=CATS, photos=PHOTOS, links=LINKS, sources=SOURCES),
+    json.dump(dict(people=P, places=PLACES, lines=LINES, cats=CATS, photos=PHOTOS, links=LINKS, sources=SOURCES, private_blob=PRIVATE_BLOB),
               open(os.path.join(here, "family.json"), "w"), ensure_ascii=False, indent=1)
     print(len(P), "personer")

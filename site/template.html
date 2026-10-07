@@ -60,6 +60,12 @@ button{font:inherit;color:inherit}
 .conf{font:500 .66rem/1 var(--f-data);letter-spacing:.06em;text-transform:uppercase;padding:3px 6px;border-radius:4px;border:1px solid var(--rule-2);color:var(--ink-2);white-space:nowrap}
 .conf.probable,.conf.possible{border-style:dashed}
 
+/* lås */
+.lock form{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.lock input[type=password]{font:inherit;font-size:.86rem;padding:6px 9px;border:1px solid var(--rule-2);border-radius:5px;background:var(--sheet);color:var(--ink);width:180px}
+.lock-rem{font-size:.8rem;color:var(--ink-2);display:inline-flex;gap:5px;align-items:center}
+.lock-err{font-size:.8rem;color:var(--accent)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 /* nærmeste familie */
 .fam{display:flex;flex-direction:column;gap:14px;background:var(--sheet);border:1px solid var(--rule);border-radius:8px;padding:18px}
 .fam-row{display:grid;grid-template-columns:150px minmax(0,1fr);gap:12px;align-items:start}
@@ -204,10 +210,23 @@ tbody tr:hover td{background:var(--hover)}
 <div class="wrap">
 <header class="mast">
   <div class="lead">
-    <span class="eyebrow">Slægtsbog for Johannes Gårdsted Valbjørn</span>
+    <span class="eyebrow" id="eyebrow">Slægtsbog</span>
     <h1>Slægten Gårdsted og Gedde</h1>
   </div>
-  <div class="legend" id="legend"></div>
+  <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-end">
+    <div class="lock" id="lockbox">
+      <button type="button" class="icon-btn" id="lock-open">Vis private personer</button>
+      <form id="lock-form" hidden>
+        <label for="lock-pw" class="sr">Kodeord</label>
+        <input id="lock-pw" type="password" autocomplete="current-password" placeholder="Kodeord">
+        <label class="lock-rem"><input type="checkbox" id="lock-rem"> Husk på denne enhed</label>
+        <button type="submit" class="icon-btn">Lås op</button>
+        <span class="lock-err" id="lock-err" role="alert"></span>
+      </form>
+      <span id="lock-on" hidden><span class="muted" style="font-size:.82rem">Private personer vises</span> <button type="button" class="icon-btn" id="lock-close">Lås igen</button></span>
+    </div>
+    <div class="legend" id="legend"></div>
+  </div>
 </header>
 <nav class="tabs" aria-label="Sektioner">
   <a href="#oversigt" data-view="oversigt">Oversigt</a>
@@ -336,8 +355,9 @@ const MAP = __MAP__;
 const IMGS = __IMGS__;
 </script>
 <script>
-(function(){
+function MAIN(){
 const P = DATA.people, byId = Object.fromEntries(P.map(p=>[p.id,p]));
+if(byId.p1 && !byId.p1.private) document.getElementById('eyebrow').textContent='Slægtsbog for '+byId.p1.name;
 const LINES = Object.assign({}, DATA.lines, {self:"Dig"});
 const lineVar = l => `var(--l-${l||'maternal'})`;
 const yr = s => { if(!s) return null; const m = String(s).match(/\d{4}/); return m? +m[0] : null; };
@@ -501,7 +521,7 @@ function renderOversigt(){
     ['Mors søster og dine halvsøskende','Nulevende personer er ikke i de offentlige registre. Send navne og fødselsår, så kommer de med i træet.'],
     ['Udvandrerne','Fundet indtil videre: Paulas bror Olaf Gedde til Shanghai (1904) og broren Emil Gedde til Eldorado i Argentina (1922), samt mormors grandonkel Iver Peder Holgersen til Fresno i Californien (1910). Flere af mormors slægtninge fra Sydlangeland udvandrede til Amerika. Udvandrerarkivets database (udvandrerarkivet.dk) kan ikke nås herfra, så de amerikanske grene mangler endnu. Christian Jørgen Christensen fra Langø (f. 1887) er en mulig udvandrer.'],
     ['Liss Pedersens forældre','Farmor Liss er født 18. april 1931 og var en af syv søskende. Hendes fødesogn vil åbne Pedersen-linjen.'],
-    ['Bekræft Lorenz\' far med DNA','Familien ved, at Sophus Petersen fra Påkjær var faren, og at Wilhelm Krogh tog skylden. En DNA-test (fx MyHeritage eller Ancestry) af Vivi eller dig kan vise et match med efterkommere af den ene eller den anden.'],
+    ['Bekræft Lorenz\' far med DNA','Familien ved, at Sophus Petersen fra Påkjær var faren, og at Wilhelm Krogh tog skylden. En DNA-test (fx MyHeritage eller Ancestry) af din mor eller dig kan vise et match med efterkommere af den ene eller den anden.'],
     ['Wilhelm Kroghs slægt','Lorenz\' biologiske far er født 9. okt. 1908 i Landkreis Flensburg. Hans forældre står i tyske standsregistre (Standesamt), der ikke er i de danske arkiver.'],
     ['Ove Samuel Geddes forældre','Han er sandsynligvis søn af generalmajor Hans Christopher Gedde, men det mangler en primærkilde, fx kirkebogen for hans dåb i 1778 eller hans officersbestalling.'],
     ['Claus Gaardsteds herkomst','Han kom til Vosnæsgaard efter 1784 fra et første ægteskab et andet sted. Findes det ægteskab, kan Gaardsted-linjen føres længere tilbage end 1750.'],
@@ -682,5 +702,8 @@ const RENDER={oversigt:renderOversigt, stamtrae:()=>renderPed(1), personer:rende
 let start=location.hash.slice(1);
 if(!VIEWS.includes(start)){ try{ start=localStorage.getItem('view')||'oversigt'; }catch(e){ start='oversigt'; } }
 go(start);
-})();
+}
+</script>
+<script>
+__UNLOCK_JS__
 </script>
