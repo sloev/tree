@@ -49,6 +49,14 @@ PLACES = {
     "Ulkebøl": (54.913, 9.820, "Sønderjylland"),
     "Snogbæk": (54.937, 9.716, "Sønderjylland"),
     "Nybøl (Paakjær)": (54.928, 9.647, "Sønderjylland"),
+    "Magleby (Nordenbro), Langeland": (54.815, 10.735, "Langeland"),
+    "Humble (Kædeby), Langeland": (54.858, 10.695, "Langeland"),
+    "Langø, Lindelse Nor": (54.876, 10.676, "Langeland"),
+    "Lindelse": (54.880, 10.718, "Langeland"),
+    "Rudkøbing": (54.937, 10.710, "Langeland"),
+    "Skrøbelev": (54.945, 10.745, "Langeland"),
+    "Tranekær": (55.000, 10.858, "Langeland"),
+    "Tved (Svendborg)": (55.075, 10.662, "Fyn"),
 }
 
 # Slægtslinjer (farve i grafikken)
@@ -56,9 +64,10 @@ LINES = {
     "jorgensen": "Jørgensen-linjen",
     "gaardsted": "Gaardsted-linjen",
     "rousing": "Rousing-linjen (Fuglslev)",
-    "maternal": "Mors side: Frederiksen/Krogh",
+    "maternal": "Morfars side: Krogh / Sophus Petersen",
     "gedde": "Gedde- og von Kleist-linjen",
     "frederiksen": "Stedfarens slægt (Frederiksen, Broager)",
+    "larsen": "Mormors slægt: Larsen, Holgersen og Langø",
 }
 
 P = []
@@ -123,13 +132,65 @@ person("p6", "Lorenz Heinrich Frederiksen", "M", ahnen=6, line="maternal", conf=
             "AO:Broager Vestre distrikt kontraministerialbog 1906–48, fødte 1933 nr. 1 (bsid 201141, billede 112)",
             "BillionGraves via MyHeritage (samling 10147): Lorenz H. Frederiksen, Sankt Jørgens Kirkegård, Svendborg",
             "MyHeritage: Folketælling 1940, 'Lorens Henrick Frederiksen'"])
-person("p7", "Gerda Frederiksen", "F", ahnen=7, line="maternal", conf="record",
-       born="1935-08-17", died="2019-07-18", dplace="Svendborg", spouse="p6",
-       note="Begravet på Sankt Jørgens Kirkegård i Svendborg sammen med sin mand Lorenz. Pigenavnet er endnu ukendt. "
-            "Familien fortæller, at hun er i familie med de Pedersen'er, der arvede Langø i Lindelse Nor på Langeland. "
-            "Langø blev købt i 1894 af husmand Marius Christensen og hustru Ane Marie, og i 1911 byggede han med sine sønner og svigersøn "
-            "den 334 m lange dæmning til Langeland. Han blev kaldt 'Kongen af Langø'. Pedersen'erne kan være efterkommere gennem en datter.",
-       src=["BillionGraves via MyHeritage (samling 10147): Gerda Frederiksen, Sankt Jørgens Kirkegård, Svendborg", "Familiens oplysninger (Langø)", "Fyens Stiftstidende: Historien om en dæmning"])
+person("p7", "Gerda Frederiksen (f. Larsen)", "F", ahnen=7, line="larsen", conf="record",
+       born="1935-08-17", bplace="Magleby (Nordenbro), Langeland", died="2019-07-18", dplace="Svendborg", spouse="p6",
+       father="p14", mother="p15",
+       res=[(1935, "Magleby (Nordenbro), Langeland", "født; hjemmedøbt 18. aug. 1935"), (1950, "Magleby (Nordenbro), Langeland", "konfirmeret i Magleby Kirke"),
+            (2019, "Svendborg", "død; begravet på Sankt Jørgens Kirkegård")],
+       note="Født 17. aug. 1935 i Nordenbro, Magleby sogn på Sydlangeland, og hjemmedøbt dagen efter. Fremstillet i Magleby Kirke 3. nov. 1935. "
+            "Forældre: tømrer Laurits Edvard Larsen og Karen Margrethe Holgersen. Faddere: gårdmand Johannes Nielsen og hustru, Haugbølle, "
+            "samt bødker Aksel Holgersen, Kædeby (hendes morfar). "
+            "Gennem sin mormor Kristine er hun oldebarn af Marius Christensen, 'Kongen af Langø', som købte øen Langø i Lindelse Nor i 1894 "
+            "og i 1911 byggede dæmningen til Langeland. Begravet på Sankt Jørgens Kirkegård i Svendborg sammen med sin mand Lorenz.",
+       src=["DFS:kbid157287 (Magleby kirkebog 1929–62, fødte piger 1935 nr. 13)", "DFS:kbid189407 (konfirmation 1950)",
+            "BillionGraves via MyHeritage (samling 10147): Gerda Frederiksen, Sankt Jørgens Kirkegård, Svendborg", "Familiens oplysninger (pigenavn Larsen, Langø)"])
+person("p14", "Laurits Edvard Larsen", "M", ahnen=14, line="larsen", born="1898-12-24", bplace="Magleby (Nordenbro), Langeland",
+       father="p28", mother="p29", spouse="p15", occ=["Tømrer, Nordenbro (1935)"],
+       res=[(1898, "Magleby (Nordenbro), Langeland", "født"), (1913, "Magleby (Nordenbro), Langeland", "konfirmeret"), (1935, "Magleby (Nordenbro), Langeland", "tømrer")],
+       src=["LL:12-6022525", "LL:14-3799804", "LL:23-1129717", "LL:25-1187745", "DFS:kbid157287"])
+person("p15", "Karen Margrethe Holgersen", "F", ahnen=15, line="larsen", born="1906-09-18", bplace="Humble (Kædeby), Langeland",
+       father="p30", mother="p31", spouse="p14", res=[(1911, "Humble (Kædeby), Langeland", "hos forældrene"), (1935, "Magleby (Nordenbro), Langeland", "")],
+       note="Datter af bødker Axel Erik Holgersen og Kristine Adamine Margrethe f. Christensen fra Langø.",
+       src=["DFS:kbid157287", "LL:23-771415"])
+person("p28", "Lars Thomsen Larsen", "M", ahnen=28, line="larsen", born="1859-11-01", bplace="Magleby (Nordenbro), Langeland",
+       died="1911–1921", father="p56", mother="p57", spouse="p29",
+       note="I folketællingen 1911 bor han i Magleby med hustruen Hansine og sønnerne Aksel Peder, Hans Sigurd og Laurits Edvard. Hansine er enke i 1921.",
+       src=["LL:12-16296348", "LL:23-1129713"])
+person("p29", "Hansine Petersen", "F", ahnen=29, line="larsen", born="1859-12-01", bplace="Magleby (Nordenbro), Langeland",
+       father="p58", mother="p59", spouse="p28", res=[(1921, "Magleby (Nordenbro), Langeland", "enke, hos sønnen Laurits")],
+       src=["LL:12-16299531", "LL:23-1129714", "LL:25-1187744"])
+person("p30", "Axel Erik Holgersen", "M", ahnen=30, line="larsen", born="1882-07-26", bplace="Tved (Svendborg)",
+       father="p60", mother="p61", spouse="p31", occ=["Bødkerlærling, Humble (1901)", "Bødker, Kædeby (1904–35)"],
+       res=[(1882, "Tved (Svendborg)", "født på Tved Mark"), (1901, "Humble (Kædeby), Langeland", "bødkerlærling"), (1904, "Humble (Kædeby), Langeland", "gift"),
+            (1935, "Humble (Kædeby), Langeland", "bødker, gudfar til barnebarnet Gerda")],
+       note="Gift 26. juli 1904 i Humble med Kristine Adamine Margrethe Christensen fra Langø.",
+       src=["LL:12-15691757", "LL:13-2027009", "LL:9-1908303", "LL:24-817272", "LL:25-805032", "DFS:kbid157287"])
+person("p31", "Kristine Adamine Margrethe Christensen", "F", ahnen=31, line="larsen", born="1884-10-06", bplace="Rudkøbing",
+       father="p62", mother="p63", spouse="p30", occ=["Tjenestepige, Humble (1901)"],
+       res=[(1884, "Rudkøbing", "født"), (1898, "Humble (Kædeby), Langeland", "konfirmeret"), (1904, "Humble (Kædeby), Langeland", "gift")],
+       note="Datter af 'Kongen af Langø', Marius Christensen. Hun er Gerdas mormor.",
+       src=["LL:12-15579549", "LL:14-3122525", "LL:9-1908174", "LL:13-2027012", "LL:24-817273", "LL:25-805033"])
+person("p56", "Lars Larsen", "M", ahnen=56, line="larsen", born="ca. 1833", spouse="p57",
+       note="Gift 27. aug. 1859 i Magleby (Langeland) med Maren Christiansen.", src=["LL:13-5236614", "LL:12-16296349"])
+person("p57", "Maren Christiansen", "F", ahnen=57, line="larsen", born="ca. 1837", spouse="p56", src=["LL:13-5236615", "LL:12-16296350"])
+person("p58", "Peder Hansen Berentzen", "M", ahnen=58, line="larsen", born="1818-02-22", bplace="Lindelse", spouse="p59",
+       note="Gift 11. juni 1852 i Rudkøbing med Marthe Madsen.", src=["LL:13-5084744", "LL:12-16299532"])
+person("p59", "Marthe Madsen", "F", ahnen=59, line="larsen", born="1823-09-07", bplace="Tranekær", spouse="p58", src=["LL:13-5084745", "LL:12-16299533"])
+person("p60", "Peder Iver Holgersen", "M", ahnen=60, line="larsen", born="ca. 1851", spouse="p61",
+       note="Gift 26. nov. 1878 i Vor Frue Kirke, Svendborg, med Karen Nielsen.", src=["LL:13-5270320", "LL:12-15691758"])
+person("p61", "Karen Nielsen", "F", ahnen=61, line="larsen", born="ca. 1855", spouse="p60", src=["LL:13-5270321", "LL:12-15691759"])
+person("p62", "Marius Michelsen Christensen", "M", ahnen=62, line="larsen", born="1858-04-14", bplace="Rudkøbing",
+       father="p124", mother="p125", spouse="p63",
+       occ=["Landbruger og ejer af øen Langø (1894–)", "Bygger af Langø-dæmningen (1911)"],
+       res=[(1858, "Rudkøbing", "født"), (1883, "Rudkøbing", "gift"), (1894, "Langø, Lindelse Nor", "købte Langø"), (1921, "Langø, Lindelse Nor", "")],
+       note="'Kongen af Langø'. Han købte øen Langø i Lindelse Nor i 1894 sammen med hustruen Ane Marie, og i 1911 byggede han med håndkraft "
+            "og hjælp fra sønner og svigersøn den 334 m lange dæmning, som gjorde øen landfast. Ifølge familien gik Langø senere i arv til "
+            "efterkommere med navnet Pedersen. Flere af familiens slægtninge fra Sydlangeland udvandrede til Amerika.",
+       src=["LL:12-15570702", "LL:13-5085956", "LL:9-1827830", "LL:24-817715", "LL:25-805444", "Fyens Stiftstidende: Historien om en dæmning"])
+person("p63", "Ane Marie Jørgensen", "F", ahnen=63, line="larsen", born="1859-09-07", bplace="Skrøbelev", spouse="p62",
+       res=[(1894, "Langø, Lindelse Nor", "")], src=["LL:13-5085957", "LL:9-1827831", "LL:25-805445"])
+person("p124", "Christen Michelsen", "M", ahnen=124, line="larsen", spouse="p125", src=["LL:12-15570703"])
+person("p125", "Rasmine Hansen", "F", ahnen=125, line="larsen", spouse="p124", src=["LL:12-15570704"])
 
 # ================= Oldeforældre =================
 person("p8", "Aage Evald Oskar Jørgensen", "M", ahnen=8, line="jorgensen", born="1890-10-17", bplace="Slagelse",
@@ -542,6 +603,19 @@ for i, (nm, nt) in enumerate([("Gerda Petersen", "Datter af Sophus og Christine.
                               ("Datter (navn mangler)", "Datter af Sophus og Christine; flyttede til Norge.")]):
     person(f"sofus_d{i}", nm, "F", rel="Sophus Petersens datter (Lorenz' halvsøster, hvis formodningen holder)", line="maternal",
            father="sofus", mother="sofus_w", conf="told", note=nt, src=["Familiens oplysninger"])
+
+sibs(("p62", "p63"), "larsen", "Kristines søskende (Langø-familien)", [
+    ("Christian Anton Christensen", "M", "1879-06-17", {"note": "Født i Skrøbelev før forældrenes vielse.", "src": ["LL:12-15557976"]}),
+    ("Christian Jørgen Christensen", "M", "1887-12-01", {"note": "Født i København; konfirmeret i Humble 1902. Ikke fundet i de danske folketællinger efter 1901 og er måske en af udvandrerne.", "src": ["LL:12-7820110", "LL:14-3121379"]}),
+    ("Martha Hansine Christensen", "F", "1890-05-25", {"occ": ["Tjenestepige (1911–16)"], "src": ["LL:12-15581805", "LL:23-2150898", "LL:24-1720949"]}),
+    ("Georg Johannes Christensen", "M", "1892-10-10", {"note": "Hjemme på Langø i 1921.", "src": ["LL:12-5963476", "LL:25-805446"]}),
+    ("Jens Peter Christensen", "M", "1895-01-24", {"note": "Født på Langø.", "src": ["LL:12-4983047", "LL:14-3121869"]}),
+    ("Valdemar Emil Christensen", "M", "1899-03-06", {"note": "Født på Langø; hjemme i 1921.", "src": ["LL:12-4983393", "LL:25-805447"]}),
+])
+sibs(("p28", "p29"), "larsen", "Laurits Edvards søskende", [
+    ("Aksel Peder Larsen", "M", "1888-02-13", {"src": ["LL:23-1129715"]}),
+    ("Hans Sigurd Larsen", "M", "1894-04-13", {"src": ["LL:23-1129716"]}),
+])
 
 sibs(("p24", "p25"), "frederiksen", "stedfarens søskende", [
     ("Søn (unavngivet)", "M", "1896", {"died": "1896-05-19"}),

@@ -6,7 +6,7 @@
 :root{
   --paper:#f3f5f2; --sheet:#fbfcfa; --ink:#1b2422; --ink-2:#4d5955; --muted:#6f7c77; --rule:#d9e0dc; --rule-2:#c3ccc7;
   --accent:#7a2e1f;
-  --l-jorgensen:#2a78d6; --l-gaardsted:#eb6834; --l-rousing:#1baf7a; --l-frederiksen:#eda100; --l-gedde:#e87ba4; --l-maternal:#8d8a80; --l-self:#1b2422;
+  --l-jorgensen:#2a78d6; --l-gaardsted:#eb6834; --l-rousing:#1baf7a; --l-frederiksen:#eda100; --l-gedde:#e87ba4; --l-larsen:#008300; --l-maternal:#8d8a80; --l-self:#1b2422;
   --hover:rgba(27,36,34,.06); --scrim:rgba(20,26,24,.32); --shadow:0 10px 40px rgba(27,36,34,.18);
   --f-display:"IM Fell DW Pica", "Iowan Old Style", Georgia, serif;
   --f-body:"Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -14,11 +14,11 @@
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --paper:#121614; --sheet:#1a1f1d; --ink:#eef2ef; --ink-2:#b9c3bf; --muted:#8d9994; --rule:#2b3330; --rule-2:#3a4440;
-  --accent:#e08a74; --l-jorgensen:#3987e5; --l-gaardsted:#d95926; --l-rousing:#199e70; --l-frederiksen:#c98500; --l-gedde:#d55181; --l-maternal:#9a978d; --l-self:#eef2ef;
+  --accent:#e08a74; --l-jorgensen:#3987e5; --l-gaardsted:#d95926; --l-rousing:#199e70; --l-frederiksen:#c98500; --l-gedde:#d55181; --l-larsen:#3a9a3a; --l-maternal:#9a978d; --l-self:#eef2ef;
   --hover:rgba(238,242,239,.07); --scrim:rgba(0,0,0,.5); --shadow:0 10px 40px rgba(0,0,0,.5); color-scheme:dark}}
 :root[data-theme="dark"]{
   --paper:#121614; --sheet:#1a1f1d; --ink:#eef2ef; --ink-2:#b9c3bf; --muted:#8d9994; --rule:#2b3330; --rule-2:#3a4440;
-  --accent:#e08a74; --l-jorgensen:#3987e5; --l-gaardsted:#d95926; --l-rousing:#199e70; --l-frederiksen:#c98500; --l-gedde:#d55181; --l-maternal:#9a978d; --l-self:#eef2ef;
+  --accent:#e08a74; --l-jorgensen:#3987e5; --l-gaardsted:#d95926; --l-rousing:#199e70; --l-frederiksen:#c98500; --l-gedde:#d55181; --l-larsen:#3a9a3a; --l-maternal:#9a978d; --l-self:#eef2ef;
   --hover:rgba(238,242,239,.07); --scrim:rgba(0,0,0,.5); --shadow:0 10px 40px rgba(0,0,0,.5); color-scheme:dark}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
@@ -378,7 +378,7 @@ const spousesOf = p => P.filter(q=>q.id!==p.id && (q.spouse===p.id || p.spouse==
 function srcLink(s){ const m=s.match(/^(LL|AO|DFS|ARK|PHT):(\S+)(.*)$/);
   if(!m) return esc(s);
   const [_,t,id,rest]=m;
-  const url = t==='LL'?'https://link-lives.dk/soeg/' : t==='DFS'?`https://www.danishfamilysearch.dk/cid${id}` : t==='ARK'?`https://arkiv.dk/vis/${id}` : t==='PHT'?'https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf' : (/^\d+$/.test(id)?`https://api.rigsarkivet.dk/ao/v1/images/${id}`:'https://arkivalieronline.rigsarkivet.dk/');
+  const url = t==='LL'?'https://link-lives.dk/soeg/' : t==='DFS'?(/^\d+$/.test(id)?`https://www.danishfamilysearch.dk/cid${id}`:`https://www.danishfamilysearch.dk/${id}`) : t==='ARK'?`https://arkiv.dk/vis/${id}` : t==='PHT'?'https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf' : (/^\d+$/.test(id)?`https://api.rigsarkivet.dk/ao/v1/images/${id}`:'https://arkivalieronline.rigsarkivet.dk/');
   const label = {LL:'Link Lives',DFS:'Danish Family Search',ARK:'arkiv.dk',AO:'Arkivalieronline',PHT:'Personalhistorisk Tidsskrift'}[t];
   return `<a href="${url}" target="_blank" rel="noopener">${label} ${esc(id)}</a>${esc(rest)}`; }
 const personLink = (p,extra='') => `<span><button class="linkish" data-pid="${p.id}">${esc(p.name)}</button><span class="yrs">${esc(life(p))}</span>${extra}</span>`;
@@ -439,7 +439,7 @@ document.querySelectorAll('.tabs a[data-view]').forEach(a=>a.addEventListener('c
 addEventListener('hashchange',()=>go(location.hash.slice(1)));
 
 // ---------- fælles ----------
-document.getElementById('legend').innerHTML = ['jorgensen','gaardsted','rousing','maternal','gedde','frederiksen'].map(l=>`<span><i class="sw" style="background:${lineVar(l)}"></i>${esc(LINES[l])}</span>`).join('');
+document.getElementById('legend').innerHTML = ['jorgensen','gaardsted','rousing','maternal','gedde','larsen','frederiksen'].map(l=>`<span><i class="sw" style="background:${lineVar(l)}"></i>${esc(LINES[l])}</span>`).join('');
 const anc = P.filter(p=>p.ahnen);
 const ahn = Object.fromEntries(anc.map(p=>[p.ahnen,p]));
 wire(document);
@@ -458,7 +458,7 @@ function renderOversigt(){
   const row = (k,html) => `<div class="fam-row"><div class="k">${k}</div><div class="cards">${html}</div></div>`;
   const b=byId;
   document.getElementById('fam').innerHTML = [
-    row('Oldeforældre', [8,9,12,13].map(n=>card(ahn[n], {8:'farfars far',9:'farfars mor',12:'morfars far (biologisk)',13:'morfars mor'}[n])).join('') + card(b.sofus,'mulig far til morfar')+card(b.pf12,'morfars stedfar') + gap('Mormors forældre','ukendt: Gerdas pigenavn mangler') + gap('Farmors forældre','ukendt: Liss Pedersens forældre')),
+    row('Oldeforældre', [8,9,12,13].map(n=>card(ahn[n], {8:'farfars far',9:'farfars mor',12:'morfars far (biologisk)',13:'morfars mor'}[n])).join('') + card(b.sofus,'mulig far til morfar')+card(b.pf12,'morfars stedfar') + card(b.p14,'mormors far') + card(b.p15,'mormors mor') + gap('Farmors forældre','ukendt: Liss Pedersens forældre')),
     `<div class="fam-sep"></div>`,
     row('Bedsteforældre', card(b.p4,'farfar')+card(b.p5,'farmor')+card(b.p6,'morfar')+card(b.p7,'mormor')),
     row('Grandonkler og -tanter', card(b.s_ester,'farfars søster')+card(b.s_liss_1,'farmors søster')+card(b.s_liss_2,'farmors søster')+gap('Farmors 4 andre søskende','Liss var en af syv')),
@@ -476,7 +476,7 @@ function renderOversigt(){
      `Lorenz Heinrich blev født i Egernsund 12. jan. 1932 og voksede op som søn af arbejdsmand Peter Frederiksen. Familien fortæller, at han først som voksen fandt ud af, at Peter ikke var hans far. Det borgerlige fødselsregister bekræfter det: en randnote fra juli 1932 siger, at landarbejder ${L('p12')} fra Snogbæk, født 1908 i Flensborg-egnen, havde anerkendt faderskabet, og at retten havde stadfæstet det. Familien har dog fået at vide, at den egentlige far hed Sophus og var fra Påkjær gård i Nybøl. Han findes: ${L('sofus')}, født 28. juni 1903 som søn af gårdmand Peter Petersen i Nybøl og død 1945. Ifølge familien kunne gårdmandssønnen ikke vedstå faderskabet, og karlen påtog sig det. Påkjær og Snogbæk ligger tæt ved hinanden. Kun en DNA-test kan afgøre det.`,
      ['p6','p12','sofus','pf12','p13']],
     ['gedde','Navnet Gedde og kaptajnen',
-     `Mors efternavn kommer fra morfars mor, ${L('p13')}, født 1912 i Lejrskov. Hendes mor var ${L('p27')}, og Gedde-linjen går derfra via proprietær Edvard Hammer Gedde og juristen Ove Frederik Christopher Gedde til ${L('p216','kaptajn Ove Samuel Gedde')} (1778–1843) ved Kronens Regiment i Helsingør. Han er den nærmeste "kaptajn" i slægten. Trankebar-historien handler sandsynligvis om admiral Ove Gjedde, som grundlagde kolonien i 1620 og bar et næsten enslydende navn. Store norske leksikon mener dog ikke, at de to slægter er beslægtede.`,
+     `Mors efternavn kommer fra morfars mor, ${L('p13')}, født 1912 i Lejrskov. Hendes mor var ${L('p27')}, og Gedde-linjen går derfra via proprietær Edvard Hammer Gedde og juristen Ove Frederik Christopher Gedde til ${L('p216','kaptajn Ove Samuel Gedde')} (1778–1843) ved Kronens Regiment i Helsingør. Han er den nærmeste "kaptajn" i slægten. Trankebar-historien handler om admiral Ove Gjedde, som grundlagde kolonien i 1620 og bar et næsten enslydende navn, men han er ikke vores slægt. Den borgerlige officersslægt Gedde er en anden familie end den uddøde adelsslægt Gjedde.`,
      ['p13','p27','p54','p108','p216']],
     ['gedde','Adelsslægten von Kleist',
      `Kaptajnens hustru ${L('p217')} var datter af kammerherre Christian Frederik von Kleist. Hendes slægt kan følges tilbage gennem officerer i dansk tjeneste til godserne Gross Tychow og Muttrin i Pommern i 1600-tallet. Det er træets dybeste gren. Hendes søster Christine Sophie og præsten dr. Hammer i Herlufmagle opfostrede Ove Frederik Christopher. Derfor fik hans søn navnet Edvard Hammer Gedde.`,
@@ -484,6 +484,9 @@ function renderOversigt(){
     ['gaardsted','Forpagteren på Vosnæsgaard',
      `Gaardsted-navnet, du selv bærer, går tilbage til ${L('p72')}, som forpagtede herregården Vosnæsgaard og i 1797 købte Bogensholm på Mols. Sønnen ${L('p36')} blev født på Vosnæsgaard i 1792 og var siden gårdmand og sognefoged i Tirstrup. Hans barnebarn Jensine giftede sig i 1921 med Aage Jørgensen, og deres søn Evald tog navnet Gaardsted-Jørgensen.`,
      ['p72','p36','p18','p9','p4']],
+    ['larsen','Kongen af Langø',
+     `Mormor ${L('p7','Gerda')} blev født Larsen i Nordenbro på Sydlangeland i 1935 som datter af tømrer ${L('p14')} og ${L('p15')}. Hendes mormor ${L('p31','Kristine')} var datter af ${L('p62','Marius Christensen')}, som i 1894 købte øen Langø i Lindelse Nor. I 1911 byggede han med håndkraft, sønner og svigersøn den 334 m lange dæmning, der gjorde øen landfast. Derfor blev han kaldt "Kongen af Langø". Fra Sydlangeland udvandrede mange til Amerika, også i denne slægt.`,
+     ['p7','p14','p15','p30','p31','p62','p63']],
     ['jorgensen','Typografen fra København',
      `Jørgensen-linjen er en bylinje. ${L('p16')} var typograf i København og Slagelse og giftede sig med den svenske tjenestepige ${L('p17')} fra Malmö. Deres søn Aage blev natvægter, gårdbestyrer og bestyrer af en fattiggård, før familien slog sig ned i Hadsten i 1932.`,
      ['p16','p17','p8','p32']],
@@ -496,7 +499,7 @@ function renderOversigt(){
 
   document.getElementById('open').innerHTML = [
     ['Mors søster og dine halvsøskende','Nulevende personer er ikke i de offentlige registre. Send navne og fødselsår, så kommer de med i træet.'],
-    ['Gerdas pigenavn','Mormor Gerda er født 17. aug. 1935 og er ifølge familien i familie med de Pedersen\'er, der arvede Langø i Lindelse Nor. Langø blev købt i 1894 af Marius Christensen, "Kongen af Langø". Hendes pigenavn eller forældres navne vil åbne en hel fjerdedel af træet.'],
+    ['Udvandrerne fra Sydlangeland','Flere af mormors slægtninge udvandrede til Amerika. Udvandrerarkivets database (udvandrerarkivet.dk) kan ikke nås herfra, så de amerikanske grene mangler endnu. Christian Jørgen Christensen fra Langø (f. 1887) er en mulig udvandrer.'],
     ['Liss Pedersens forældre','Farmor Liss er født 18. april 1931 og var en af syv søskende. Hendes fødesogn vil åbne Pedersen-linjen.'],
     ['Hvem var Lorenz\' far?','Retten udpegede Wilhelm Krogh i 1932, men familien har fået at vide, at det var Sophus Petersen fra Påkjær i Nybøl (1903–1945). En DNA-test (fx MyHeritage eller Ancestry) af Vivi eller dig kan vise et match med efterkommere af den ene eller den anden.'],
     ['Wilhelm Kroghs slægt','Lorenz\' biologiske far er født 9. okt. 1908 i Landkreis Flensburg. Hans forældre står i tyske standsregistre (Standesamt), der ikke er i de danske arkiver.'],

@@ -279,22 +279,310 @@
   },
   {
    "id": "p7",
-   "name": "Gerda Frederiksen",
+   "name": "Gerda Frederiksen (f. Larsen)",
    "sex": "F",
    "ahnen": 7,
-   "line": "maternal",
+   "line": "larsen",
    "rel": null,
    "born": "1935-08-17",
-   "bplace": null,
+   "bplace": "Magleby (Nordenbro), Langeland",
    "died": "2019-07-18",
    "dplace": "Svendborg",
    "occ": [],
    "conf": "record",
-   "note": "Begravet på Sankt Jørgens Kirkegård i Svendborg sammen med sin mand Lorenz. Pigenavnet er endnu ukendt. Familien fortæller, at hun er i familie med de Pedersen'er, der arvede Langø i Lindelse Nor på Langeland. Langø blev købt i 1894 af husmand Marius Christensen og hustru Ane Marie, og i 1911 byggede han med sine sønner og svigersøn den 334 m lange dæmning til Langeland. Han blev kaldt 'Kongen af Langø'. Pedersen'erne kan være efterkommere gennem en datter.",
+   "note": "Født 17. aug. 1935 i Nordenbro, Magleby sogn på Sydlangeland, og hjemmedøbt dagen efter. Fremstillet i Magleby Kirke 3. nov. 1935. Forældre: tømrer Laurits Edvard Larsen og Karen Margrethe Holgersen. Faddere: gårdmand Johannes Nielsen og hustru, Haugbølle, samt bødker Aksel Holgersen, Kædeby (hendes morfar). Gennem sin mormor Kristine er hun oldebarn af Marius Christensen, 'Kongen af Langø', som købte øen Langø i Lindelse Nor i 1894 og i 1911 byggede dæmningen til Langeland. Begravet på Sankt Jørgens Kirkegård i Svendborg sammen med sin mand Lorenz.",
    "src": [
+    "DFS:kbid157287 (Magleby kirkebog 1929–62, fødte piger 1935 nr. 13)",
+    "DFS:kbid189407 (konfirmation 1950)",
     "BillionGraves via MyHeritage (samling 10147): Gerda Frederiksen, Sankt Jørgens Kirkegård, Svendborg",
-    "Familiens oplysninger (Langø)",
-    "Fyens Stiftstidende: Historien om en dæmning"
+    "Familiens oplysninger (pigenavn Larsen, Langø)"
+   ],
+   "res": [
+    [
+     1935,
+     "Magleby (Nordenbro), Langeland",
+     "født; hjemmedøbt 18. aug. 1935"
+    ],
+    [
+     1950,
+     "Magleby (Nordenbro), Langeland",
+     "konfirmeret i Magleby Kirke"
+    ],
+    [
+     2019,
+     "Svendborg",
+     "død; begravet på Sankt Jørgens Kirkegård"
+    ]
+   ],
+   "father": "p14",
+   "mother": "p15",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p6"
+  },
+  {
+   "id": "p14",
+   "name": "Laurits Edvard Larsen",
+   "sex": "M",
+   "ahnen": 14,
+   "line": "larsen",
+   "rel": null,
+   "born": "1898-12-24",
+   "bplace": "Magleby (Nordenbro), Langeland",
+   "died": null,
+   "dplace": null,
+   "occ": [
+    "Tømrer, Nordenbro (1935)"
+   ],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-6022525",
+    "LL:14-3799804",
+    "LL:23-1129717",
+    "LL:25-1187745",
+    "DFS:kbid157287"
+   ],
+   "res": [
+    [
+     1898,
+     "Magleby (Nordenbro), Langeland",
+     "født"
+    ],
+    [
+     1913,
+     "Magleby (Nordenbro), Langeland",
+     "konfirmeret"
+    ],
+    [
+     1935,
+     "Magleby (Nordenbro), Langeland",
+     "tømrer"
+    ]
+   ],
+   "father": "p28",
+   "mother": "p29",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p15"
+  },
+  {
+   "id": "p15",
+   "name": "Karen Margrethe Holgersen",
+   "sex": "F",
+   "ahnen": 15,
+   "line": "larsen",
+   "rel": null,
+   "born": "1906-09-18",
+   "bplace": "Humble (Kædeby), Langeland",
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Datter af bødker Axel Erik Holgersen og Kristine Adamine Margrethe f. Christensen fra Langø.",
+   "src": [
+    "DFS:kbid157287",
+    "LL:23-771415"
+   ],
+   "res": [
+    [
+     1911,
+     "Humble (Kædeby), Langeland",
+     "hos forældrene"
+    ],
+    [
+     1935,
+     "Magleby (Nordenbro), Langeland",
+     ""
+    ]
+   ],
+   "father": "p30",
+   "mother": "p31",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p14"
+  },
+  {
+   "id": "p28",
+   "name": "Lars Thomsen Larsen",
+   "sex": "M",
+   "ahnen": 28,
+   "line": "larsen",
+   "rel": null,
+   "born": "1859-11-01",
+   "bplace": "Magleby (Nordenbro), Langeland",
+   "died": "1911–1921",
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "I folketællingen 1911 bor han i Magleby med hustruen Hansine og sønnerne Aksel Peder, Hans Sigurd og Laurits Edvard. Hansine er enke i 1921.",
+   "src": [
+    "LL:12-16296348",
+    "LL:23-1129713"
+   ],
+   "res": [],
+   "father": "p56",
+   "mother": "p57",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p29"
+  },
+  {
+   "id": "p29",
+   "name": "Hansine Petersen",
+   "sex": "F",
+   "ahnen": 29,
+   "line": "larsen",
+   "rel": null,
+   "born": "1859-12-01",
+   "bplace": "Magleby (Nordenbro), Langeland",
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-16299531",
+    "LL:23-1129714",
+    "LL:25-1187744"
+   ],
+   "res": [
+    [
+     1921,
+     "Magleby (Nordenbro), Langeland",
+     "enke, hos sønnen Laurits"
+    ]
+   ],
+   "father": "p58",
+   "mother": "p59",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p28"
+  },
+  {
+   "id": "p30",
+   "name": "Axel Erik Holgersen",
+   "sex": "M",
+   "ahnen": 30,
+   "line": "larsen",
+   "rel": null,
+   "born": "1882-07-26",
+   "bplace": "Tved (Svendborg)",
+   "died": null,
+   "dplace": null,
+   "occ": [
+    "Bødkerlærling, Humble (1901)",
+    "Bødker, Kædeby (1904–35)"
+   ],
+   "conf": "record",
+   "note": "Gift 26. juli 1904 i Humble med Kristine Adamine Margrethe Christensen fra Langø.",
+   "src": [
+    "LL:12-15691757",
+    "LL:13-2027009",
+    "LL:9-1908303",
+    "LL:24-817272",
+    "LL:25-805032",
+    "DFS:kbid157287"
+   ],
+   "res": [
+    [
+     1882,
+     "Tved (Svendborg)",
+     "født på Tved Mark"
+    ],
+    [
+     1901,
+     "Humble (Kædeby), Langeland",
+     "bødkerlærling"
+    ],
+    [
+     1904,
+     "Humble (Kædeby), Langeland",
+     "gift"
+    ],
+    [
+     1935,
+     "Humble (Kædeby), Langeland",
+     "bødker, gudfar til barnebarnet Gerda"
+    ]
+   ],
+   "father": "p60",
+   "mother": "p61",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p31"
+  },
+  {
+   "id": "p31",
+   "name": "Kristine Adamine Margrethe Christensen",
+   "sex": "F",
+   "ahnen": 31,
+   "line": "larsen",
+   "rel": null,
+   "born": "1884-10-06",
+   "bplace": "Rudkøbing",
+   "died": null,
+   "dplace": null,
+   "occ": [
+    "Tjenestepige, Humble (1901)"
+   ],
+   "conf": "record",
+   "note": "Datter af 'Kongen af Langø', Marius Christensen. Hun er Gerdas mormor.",
+   "src": [
+    "LL:12-15579549",
+    "LL:14-3122525",
+    "LL:9-1908174",
+    "LL:13-2027012",
+    "LL:24-817273",
+    "LL:25-805033"
+   ],
+   "res": [
+    [
+     1884,
+     "Rudkøbing",
+     "født"
+    ],
+    [
+     1898,
+     "Humble (Kædeby), Langeland",
+     "konfirmeret"
+    ],
+    [
+     1904,
+     "Humble (Kædeby), Langeland",
+     "gift"
+    ]
+   ],
+   "father": "p62",
+   "mother": "p63",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p30"
+  },
+  {
+   "id": "p56",
+   "name": "Lars Larsen",
+   "sex": "M",
+   "ahnen": 56,
+   "line": "larsen",
+   "rel": null,
+   "born": "ca. 1833",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Gift 27. aug. 1859 i Magleby (Langeland) med Maren Christiansen.",
+   "src": [
+    "LL:13-5236614",
+    "LL:12-16296349"
    ],
    "res": [],
    "father": null,
@@ -302,7 +590,274 @@
    "living": false,
    "sibof": null,
    "step": null,
-   "spouse": "p6"
+   "spouse": "p57"
+  },
+  {
+   "id": "p57",
+   "name": "Maren Christiansen",
+   "sex": "F",
+   "ahnen": 57,
+   "line": "larsen",
+   "rel": null,
+   "born": "ca. 1837",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:13-5236615",
+    "LL:12-16296350"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p56"
+  },
+  {
+   "id": "p58",
+   "name": "Peder Hansen Berentzen",
+   "sex": "M",
+   "ahnen": 58,
+   "line": "larsen",
+   "rel": null,
+   "born": "1818-02-22",
+   "bplace": "Lindelse",
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Gift 11. juni 1852 i Rudkøbing med Marthe Madsen.",
+   "src": [
+    "LL:13-5084744",
+    "LL:12-16299532"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p59"
+  },
+  {
+   "id": "p59",
+   "name": "Marthe Madsen",
+   "sex": "F",
+   "ahnen": 59,
+   "line": "larsen",
+   "rel": null,
+   "born": "1823-09-07",
+   "bplace": "Tranekær",
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:13-5084745",
+    "LL:12-16299533"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p58"
+  },
+  {
+   "id": "p60",
+   "name": "Peder Iver Holgersen",
+   "sex": "M",
+   "ahnen": 60,
+   "line": "larsen",
+   "rel": null,
+   "born": "ca. 1851",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Gift 26. nov. 1878 i Vor Frue Kirke, Svendborg, med Karen Nielsen.",
+   "src": [
+    "LL:13-5270320",
+    "LL:12-15691758"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p61"
+  },
+  {
+   "id": "p61",
+   "name": "Karen Nielsen",
+   "sex": "F",
+   "ahnen": 61,
+   "line": "larsen",
+   "rel": null,
+   "born": "ca. 1855",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:13-5270321",
+    "LL:12-15691759"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p60"
+  },
+  {
+   "id": "p62",
+   "name": "Marius Michelsen Christensen",
+   "sex": "M",
+   "ahnen": 62,
+   "line": "larsen",
+   "rel": null,
+   "born": "1858-04-14",
+   "bplace": "Rudkøbing",
+   "died": null,
+   "dplace": null,
+   "occ": [
+    "Landbruger og ejer af øen Langø (1894–)",
+    "Bygger af Langø-dæmningen (1911)"
+   ],
+   "conf": "record",
+   "note": "'Kongen af Langø'. Han købte øen Langø i Lindelse Nor i 1894 sammen med hustruen Ane Marie, og i 1911 byggede han med håndkraft og hjælp fra sønner og svigersøn den 334 m lange dæmning, som gjorde øen landfast. Ifølge familien gik Langø senere i arv til efterkommere med navnet Pedersen. Flere af familiens slægtninge fra Sydlangeland udvandrede til Amerika.",
+   "src": [
+    "LL:12-15570702",
+    "LL:13-5085956",
+    "LL:9-1827830",
+    "LL:24-817715",
+    "LL:25-805444",
+    "Fyens Stiftstidende: Historien om en dæmning"
+   ],
+   "res": [
+    [
+     1858,
+     "Rudkøbing",
+     "født"
+    ],
+    [
+     1883,
+     "Rudkøbing",
+     "gift"
+    ],
+    [
+     1894,
+     "Langø, Lindelse Nor",
+     "købte Langø"
+    ],
+    [
+     1921,
+     "Langø, Lindelse Nor",
+     ""
+    ]
+   ],
+   "father": "p124",
+   "mother": "p125",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p63"
+  },
+  {
+   "id": "p63",
+   "name": "Ane Marie Jørgensen",
+   "sex": "F",
+   "ahnen": 63,
+   "line": "larsen",
+   "rel": null,
+   "born": "1859-09-07",
+   "bplace": "Skrøbelev",
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:13-5085957",
+    "LL:9-1827831",
+    "LL:25-805445"
+   ],
+   "res": [
+    [
+     1894,
+     "Langø, Lindelse Nor",
+     ""
+    ]
+   ],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p62"
+  },
+  {
+   "id": "p124",
+   "name": "Christen Michelsen",
+   "sex": "M",
+   "ahnen": 124,
+   "line": "larsen",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-15570703"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p125"
+  },
+  {
+   "id": "p125",
+   "name": "Rasmine Hansen",
+   "sex": "F",
+   "ahnen": 125,
+   "line": "larsen",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-15570704"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p124"
   },
   {
    "id": "p8",
@@ -4306,6 +4861,214 @@
    "spouse": null
   },
   {
+   "id": "s_p62_0",
+   "name": "Christian Anton Christensen",
+   "sex": "M",
+   "ahnen": null,
+   "line": "larsen",
+   "rel": "Kristines søskende (Langø-familien)",
+   "born": "1879-06-17",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Født i Skrøbelev før forældrenes vielse.",
+   "src": [
+    "LL:12-15557976"
+   ],
+   "res": [],
+   "father": "p62",
+   "mother": "p63",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p62_1",
+   "name": "Christian Jørgen Christensen",
+   "sex": "M",
+   "ahnen": null,
+   "line": "larsen",
+   "rel": "Kristines søskende (Langø-familien)",
+   "born": "1887-12-01",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Født i København; konfirmeret i Humble 1902. Ikke fundet i de danske folketællinger efter 1901 og er måske en af udvandrerne.",
+   "src": [
+    "LL:12-7820110",
+    "LL:14-3121379"
+   ],
+   "res": [],
+   "father": "p62",
+   "mother": "p63",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p62_2",
+   "name": "Martha Hansine Christensen",
+   "sex": "F",
+   "ahnen": null,
+   "line": "larsen",
+   "rel": "Kristines søskende (Langø-familien)",
+   "born": "1890-05-25",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [
+    "Tjenestepige (1911–16)"
+   ],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-15581805",
+    "LL:23-2150898",
+    "LL:24-1720949"
+   ],
+   "res": [],
+   "father": "p62",
+   "mother": "p63",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p62_3",
+   "name": "Georg Johannes Christensen",
+   "sex": "M",
+   "ahnen": null,
+   "line": "larsen",
+   "rel": "Kristines søskende (Langø-familien)",
+   "born": "1892-10-10",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Hjemme på Langø i 1921.",
+   "src": [
+    "LL:12-5963476",
+    "LL:25-805446"
+   ],
+   "res": [],
+   "father": "p62",
+   "mother": "p63",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p62_4",
+   "name": "Jens Peter Christensen",
+   "sex": "M",
+   "ahnen": null,
+   "line": "larsen",
+   "rel": "Kristines søskende (Langø-familien)",
+   "born": "1895-01-24",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Født på Langø.",
+   "src": [
+    "LL:12-4983047",
+    "LL:14-3121869"
+   ],
+   "res": [],
+   "father": "p62",
+   "mother": "p63",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p62_5",
+   "name": "Valdemar Emil Christensen",
+   "sex": "M",
+   "ahnen": null,
+   "line": "larsen",
+   "rel": "Kristines søskende (Langø-familien)",
+   "born": "1899-03-06",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Født på Langø; hjemme i 1921.",
+   "src": [
+    "LL:12-4983393",
+    "LL:25-805447"
+   ],
+   "res": [],
+   "father": "p62",
+   "mother": "p63",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p28_0",
+   "name": "Aksel Peder Larsen",
+   "sex": "M",
+   "ahnen": null,
+   "line": "larsen",
+   "rel": "Laurits Edvards søskende",
+   "born": "1888-02-13",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:23-1129715"
+   ],
+   "res": [],
+   "father": "p28",
+   "mother": "p29",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p28_1",
+   "name": "Hans Sigurd Larsen",
+   "sex": "M",
+   "ahnen": null,
+   "line": "larsen",
+   "rel": "Laurits Edvards søskende",
+   "born": "1894-04-13",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:23-1129716"
+   ],
+   "res": [],
+   "father": "p28",
+   "mother": "p29",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
    "id": "s_p24_0",
    "name": "Søn (unavngivet)",
    "sex": "M",
@@ -4632,15 +5395,56 @@
    54.928,
    9.647,
    "Sønderjylland"
+  ],
+  "Magleby (Nordenbro), Langeland": [
+   54.815,
+   10.735,
+   "Langeland"
+  ],
+  "Humble (Kædeby), Langeland": [
+   54.858,
+   10.695,
+   "Langeland"
+  ],
+  "Langø, Lindelse Nor": [
+   54.876,
+   10.676,
+   "Langeland"
+  ],
+  "Lindelse": [
+   54.88,
+   10.718,
+   "Langeland"
+  ],
+  "Rudkøbing": [
+   54.937,
+   10.71,
+   "Langeland"
+  ],
+  "Skrøbelev": [
+   54.945,
+   10.745,
+   "Langeland"
+  ],
+  "Tranekær": [
+   55.0,
+   10.858,
+   "Langeland"
+  ],
+  "Tved (Svendborg)": [
+   55.075,
+   10.662,
+   "Fyn"
   ]
  },
  "lines": {
   "jorgensen": "Jørgensen-linjen",
   "gaardsted": "Gaardsted-linjen",
   "rousing": "Rousing-linjen (Fuglslev)",
-  "maternal": "Mors side: Frederiksen/Krogh",
+  "maternal": "Morfars side: Krogh / Sophus Petersen",
   "gedde": "Gedde- og von Kleist-linjen",
-  "frederiksen": "Stedfarens slægt (Frederiksen, Broager)"
+  "frederiksen": "Stedfarens slægt (Frederiksen, Broager)",
+  "larsen": "Mormors slægt: Larsen, Holgersen og Langø"
  },
  "cats": [
   [
