@@ -1,17 +1,19 @@
-# Gaardsted-Jørgensen family tree
+# Slægten Gårdsted og Gedde
 
-Ancestry of Johannes Gårdsted Valbjørn, researched from Danish church books, censuses and local archives.
+Johannes Gårdsted Valbjørns aner, fundet i danske kirkebøger, folketællinger og lokalarkiver.
 
-- **Website:** `docs/index.html`, published with GitHub Pages from the `master` branch, `/docs` folder.
-- **Summary with sources:** [`family-tree.md`](family-tree.md)
-- **GEDCOM for MyHeritage, Geni, Ancestry or Gramps:** [`family-tree.ged`](family-tree.ged)
+- **Hjemmeside:** `docs/index.html`, udgivet med GitHub Pages fra `master`-grenen, mappen `/docs`.
+- **Sammenfatning med kilder:** [`family-tree.md`](family-tree.md)
+- **GEDCOM til MyHeritage, Geni, Ancestry eller Gramps:** [`family-tree.ged`](family-tree.ged)
 
-## Rebuilding
+## Genopbygning
 
-All facts live in `data/build_data.py`. After editing it, run:
+Alle oplysninger står i `data/build_data.py`. Kør dette efter en ændring:
 
 ```sh
-python3 data/build_data.py   # writes data/family.json
-python3 data/export.py       # writes family-tree.ged
-python3 site/build.py        # writes site/index.html and docs/index.html
+python3 data/build_data.py   # skriver data/family.json
+python3 data/export.py       # skriver family-tree.ged
+python3 site/build.py        # skriver site/index.html og docs/index.html
 ```
+
+Personer tilføjes med `person(...)`. Søskende tilføjes med `sibs(...)`, og en person, hvis forældre ikke er i træet, kan knyttes til en søskende med `sibof=`.
