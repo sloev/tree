@@ -334,15 +334,15 @@ person("p52", "Rasmus Jensen", "M", ahnen=52, line="gedde", spouse="p53", note="
        src=["LL:13-432735"])
 person("p53", "Christine Hansen", "F", ahnen=53, line="gedde", spouse="p52", note="Nævnt som mor i sønnen Jens Jensens vielse 1907.",
        src=["LL:13-432736"])
-person("p54", "Edvard Hammer Gedde", "M", ahnen=54, line="gedde", born="1845-07-08", bplace="Herlufmagle",
+person("p54", "Edvard Hammer Gedde", "M", ahnen=54, line="gedde", born="1845-09-08", bplace="Herlufmagle", died="1925-12-27",
        father="p108", mother="p109", spouse="p55",
        occ=["Proprietær, Tamdrup (1880)", "Vognmand og foderstofhandler, København"],
        res=[(1845, "Herlufmagle", "født"), (1870, "Næstved", "gift"), (1880, "Tamdrup", "proprietær"), (1907, "København", "vognmand")],
        note="Gift 8. juli 1870 i Sankt Peders Kirke, Næstved, med Vitta Ludvigsen. Mellemnavnet Hammer har han efter "
             "farens plejefar, dr.theol. Edvard Snedorph Hammer, sognepræst i Herlufmagle.",
-       src=["LL:5-674514", "LL:13-5702405", "LL:7-1280754", "LL:13-432738", "LL:11-652493"])
-person("p55", "Vitta Dorthea Henriette Mathilde Ludvigsen", "F", ahnen=55, line="gedde", born="1848", bplace="Næstved",
-       spouse="p54", src=["LL:6-812043", "LL:13-5702406", "LL:7-1280755", "LL:13-432739"])
+       src=["Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)", "LL:5-674514", "LL:13-5702405", "LL:7-1280754", "LL:13-432738", "LL:11-652493"])
+person("p55", "Vitta Dorthea Henriette Mathilde Ludvigsen", "F", ahnen=55, line="gedde", born="1847-10-04", bplace="Næstved",
+       died="1927-01-17", spouse="p54", note="Kaldt Mathilde.", src=["Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)", "LL:6-812043", "LL:13-5702406", "LL:7-1280755", "LL:13-432739"])
 person("p48", "Peter Christian Frederiksen", "M", rel="stedfarens farfar", line="frederiksen", born="1839-05-04", bplace="Rinkenæs",
        father="p96", mother="p97", spouse="p49", note="Gift med Anna Kirstine Marie Paulsen 9. dec. 1860 i Broager.",
        src=["LL:12-14275364", "LL:13-4957004", "LL:12-14989548"])
@@ -561,15 +561,25 @@ sibs(("p26", "p27"), "gedde", "Elses søskende", [
     ("Barn (navn skjult i indekset)", "U", "1909-09-09", {"src": ["LL:12-4851907"]}),
     ("Barn (navn skjult i indekset)", "U", "1911-03-20", {"src": ["LL:12-4852004"]}),
     ("Barn (navn skjult i indekset)", "U", "1913-11-10", {"src": ["LL:12-4852952"]}),
+    ("Mathilde Gedde Jensen", "F", None, {"note": "Nævnt som nr. V blandt Jens og Paulas børn i familiens opgørelse; kan være et af de børn, hvis navn er skjult i indekset.", "src": ["Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)"]}),
+    ("Svend Gedde Jensen", "M", None, {"note": "Nr. VI i familiens opgørelse.", "src": ["Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)"]}),
+    ("Helga Gedde Jensen", "F", None, {"note": "Nr. VII i familiens opgørelse.", "src": ["Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)"]}),
 ])
 sibs(("p54", "p55"), "gedde", "Paulas søskende", [
-    ("Ove Frederik Alexander Gedde", "M", "1871-04-25", {"died": "1906-03-11", "src": ["LL:11-4055588"]}),
-    ("Elisabeth Charlotte Christle Doris Gedde", "F", "1874", {"died": "1909-07-13", "src": ["LL:11-652492"]}),
-    ("Stephan Peter Hammer Gedde", "M", "1874", {}),
-    ("Emil Ludvig Edvard Gedde", "M", "1875-11-15", {"note": "Gift med Johanne Marie Olivia Eddelsen; boede i Roskilde (Sankt Jørgensbjerg) i 1911.", "src": ["LL:23-1448261", "LL:12-2288945"]}),
-    ("Ove Gedde", "M", "1878", {}),
-    ("Vilhelm Gedde", "M", "1879", {}),
-    ("Olaf Christian Kleist Gedde", "M", None, {}),
+    ("Ove Frederik Alexander Gedde", "M", "1871-04-25", {"died": "1906-03-11", "occ": ["Premierløjtnant ved Dragonerne (til 1900)", "Næstkommanderende ved Grænsegendarmeriet"],
+        "note": "Sendt hjemmefra som 10-årig til sin faster Margrethe Ahlefeldt og hendes mand, fordi han var bestemt for en militær karriere. Gift 25. april 1900 med Charlotte Sophie Hedemann (1876–1955). Børn: Knud Gedde (1901–1954) og Anna Sophie Mathilde Gedde (1902–1985), gift van Jepmond.",
+        "src": ["Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)", "LL:11-4055588", "LL:7-1280756"]}),
+    ("Stephan Peder Hammer Gedde", "M", "1874-04-27", {"died": "1948-06-22", "occ": ["Landbrugsuddannet", "Forvalter ved De Forenede Papirfabrikker"],
+        "note": "Holdt sammen med søsteren 'Tulle' det gamle hjem ved lige efter forældrenes død.", "src": ["Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)", "LL:7-1280758"]}),
+    ("Elisabeth Charlotte Chrestle Doris Gedde", "F", "1875-02-25", {"died": "1909-07-13", "occ": ["Lærerinde"],
+        "note": "Kaldt 'Pelle'. Hjalp som storesøster med at opdrage de små. Døde efter en blindtarmsoperation.", "src": ["Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)", "LL:11-652492", "LL:7-1280757"]}),
+    ("Emil Ludvig Edvard Gedde", "M", "1876-11-15", {"died": "1951", "occ": ["Landbrugsuddannet", "Udvandrer til Argentina (1922)"],
+        "note": "Udvandrede i 1922 til Argentina med hustruen Olivia (Johanne Marie Olivia f. Eddelsen) og to børn, og døde der i 1951. Sønnen Ejler blev i Argentina og døde omkring 1990 uden kendte børn. Datteren Inge Regitze (f. 1911, død ca. 1950) vendte tilbage til Danmark i 1930'erne og blev gift med Arne Meyer; ingen børn.",
+        "src": ["Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)", "LL:23-1448261", "LL:12-2288945", "LL:7-1280759"]}),
+    ("Ove Gedde", "M", "1877-03-31", {"died": "1894", "note": "Skyllet over bord som jungmand på skoleskibet 'Georg Stage' i 1894.", "src": ["Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)", "LL:7-1280760"]}),
+    ("Vilhelm Gedde", "M", "1879", {"src": ["LL:7-1280761"]}),
+    ("Olaf Christian Kleist Gedde", "M", None, {"src": ["LL:7-1280762"]}),
+    ("Ellen Gedde", "F", "1889-05-15", {"died": "1977-07-21", "occ": ["Kontoruddannet"], "note": "Gift med Aage Laurentzen; ingen børn.", "src": ["Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)"]}),
 ])
 sibs(("p108", "p109"), "gedde", "Edvards søskende", [
     ("Emilie Sophie Frederikke Gedde", "F", "1842-07-07", {"src": ["LL:12-17170629"]}),

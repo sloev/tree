@@ -1095,8 +1095,10 @@
 1 NAME Edvard Hammer /Gedde/
 1 SEX M
 1 BIRT
-2 DATE 8 JUL 1845
+2 DATE 8 SEP 1845
 2 PLAC Herlufmagle, Danmark
+1 DEAT
+2 DATE 27 DEC 1925
 1 OCCU Proprietær, Tamdrup (1880)
 1 OCCU Vognmand og foderstofhandler, København
 1 RESI
@@ -1117,6 +1119,8 @@
 2 NOTE vognmand
 1 NOTE Gift 8. juli 1870 i Sankt Peders Kirke, Næstved, med Vitta Ludvigsen. Mellemnavnet Hammer har han efter farens plejefar, dr.theol. Edvard Snedorph Hammer, sognepræst i Herlufmagle.
 1 SOUR
+2 PAGE Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)
+1 SOUR
 2 PAGE LL:5-674514
 1 SOUR
 2 PAGE LL:13-5702405
@@ -1132,8 +1136,13 @@
 1 NAME Vitta Dorthea Henriette Mathilde /Ludvigsen/
 1 SEX F
 1 BIRT
-2 DATE 1848
+2 DATE 4 OCT 1847
 2 PLAC Næstved, Danmark
+1 DEAT
+2 DATE 17 JAN 1927
+1 NOTE Kaldt Mathilde.
+1 SOUR
+2 PAGE Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)
 1 SOUR
 2 PAGE LL:6-812043
 1 SOUR
@@ -1987,6 +1996,27 @@
 1 SOUR
 2 PAGE LL:12-4852952
 1 FAMC @F17@
+0 @s_p26_4@ INDI
+1 NAME Mathilde Gedde /Jensen/
+1 SEX F
+1 NOTE Nævnt som nr. V blandt Jens og Paulas børn i familiens opgørelse; kan være et af de børn, hvis navn er skjult i indekset.
+1 SOUR
+2 PAGE Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)
+1 FAMC @F17@
+0 @s_p26_5@ INDI
+1 NAME Svend Gedde /Jensen/
+1 SEX M
+1 NOTE Nr. VI i familiens opgørelse.
+1 SOUR
+2 PAGE Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)
+1 FAMC @F17@
+0 @s_p26_6@ INDI
+1 NAME Helga Gedde /Jensen/
+1 SEX F
+1 NOTE Nr. VII i familiens opgørelse.
+1 SOUR
+2 PAGE Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)
+1 FAMC @F17@
 0 @s_p54_0@ INDI
 1 NAME Ove Frederik Alexander /Gedde/
 1 SEX M
@@ -1994,51 +2024,104 @@
 2 DATE 25 APR 1871
 1 DEAT
 2 DATE 11 MAR 1906
+1 OCCU Premierløjtnant ved Dragonerne (til 1900)
+1 OCCU Næstkommanderende ved Grænsegendarmeriet
+1 NOTE Sendt hjemmefra som 10-årig til sin faster Margrethe Ahlefeldt og hendes mand, fordi han var bestemt for en militær karriere. Gift 25. april 1900 med Charlotte Sophie Hedemann (1876–1955). Børn: Knud Gedde (1901–1954) og Anna Sophie Mathilde Gedde (1902–1985), gift van Jepmond.
+1 SOUR
+2 PAGE Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)
 1 SOUR
 2 PAGE LL:11-4055588
+1 SOUR
+2 PAGE LL:7-1280756
 1 FAMC @F24@
 0 @s_p54_1@ INDI
-1 NAME Elisabeth Charlotte Christle Doris /Gedde/
-1 SEX F
-1 BIRT
-2 DATE 1874
-1 DEAT
-2 DATE 13 JUL 1909
-1 SOUR
-2 PAGE LL:11-652492
-1 FAMC @F24@
-0 @s_p54_2@ INDI
-1 NAME Stephan Peter Hammer /Gedde/
+1 NAME Stephan Peder Hammer /Gedde/
 1 SEX M
 1 BIRT
-2 DATE 1874
+2 DATE 27 APR 1874
+1 DEAT
+2 DATE 22 JUN 1948
+1 OCCU Landbrugsuddannet
+1 OCCU Forvalter ved De Forenede Papirfabrikker
+1 NOTE Holdt sammen med søsteren 'Tulle' det gamle hjem ved lige efter forældrenes død.
+1 SOUR
+2 PAGE Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)
+1 SOUR
+2 PAGE LL:7-1280758
+1 FAMC @F24@
+0 @s_p54_2@ INDI
+1 NAME Elisabeth Charlotte Chrestle Doris /Gedde/
+1 SEX F
+1 BIRT
+2 DATE 25 FEB 1875
+1 DEAT
+2 DATE 13 JUL 1909
+1 OCCU Lærerinde
+1 NOTE Kaldt 'Pelle'. Hjalp som storesøster med at opdrage de små. Døde efter en blindtarmsoperation.
+1 SOUR
+2 PAGE Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)
+1 SOUR
+2 PAGE LL:11-652492
+1 SOUR
+2 PAGE LL:7-1280757
 1 FAMC @F24@
 0 @s_p54_3@ INDI
 1 NAME Emil Ludvig Edvard /Gedde/
 1 SEX M
 1 BIRT
-2 DATE 15 NOV 1875
-1 NOTE Gift med Johanne Marie Olivia Eddelsen; boede i Roskilde (Sankt Jørgensbjerg) i 1911.
+2 DATE 15 NOV 1876
+1 DEAT
+2 DATE 1951
+1 OCCU Landbrugsuddannet
+1 OCCU Udvandrer til Argentina (1922)
+1 NOTE Udvandrede i 1922 til Argentina med hustruen Olivia (Johanne Marie Olivia f. Eddelsen) og to børn, og døde der i 1951. Sønnen Ejler blev i Argentina og døde omkring 1990 uden kendte børn. Datteren Inge Regitze (f. 1911, død ca. 1950) vendte tilbage til Danmark i 1930'erne og blev gift med Arne Meyer; ingen børn.
+1 SOUR
+2 PAGE Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)
 1 SOUR
 2 PAGE LL:23-1448261
 1 SOUR
 2 PAGE LL:12-2288945
+1 SOUR
+2 PAGE LL:7-1280759
 1 FAMC @F24@
 0 @s_p54_4@ INDI
 1 NAME Ove /Gedde/
 1 SEX M
 1 BIRT
-2 DATE 1878
+2 DATE 31 MAR 1877
+1 DEAT
+2 DATE 1894
+1 NOTE Skyllet over bord som jungmand på skoleskibet 'Georg Stage' i 1894.
+1 SOUR
+2 PAGE Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)
+1 SOUR
+2 PAGE LL:7-1280760
 1 FAMC @F24@
 0 @s_p54_5@ INDI
 1 NAME Vilhelm /Gedde/
 1 SEX M
 1 BIRT
 2 DATE 1879
+1 SOUR
+2 PAGE LL:7-1280761
 1 FAMC @F24@
 0 @s_p54_6@ INDI
 1 NAME Olaf Christian Kleist /Gedde/
 1 SEX M
+1 SOUR
+2 PAGE LL:7-1280762
+1 FAMC @F24@
+0 @s_p54_7@ INDI
+1 NAME Ellen /Gedde/
+1 SEX F
+1 BIRT
+2 DATE 15 MAY 1889
+1 DEAT
+2 DATE 21 JUL 1977
+1 OCCU Kontoruddannet
+1 NOTE Gift med Aage Laurentzen; ingen børn.
+1 SOUR
+2 PAGE Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)
 1 FAMC @F24@
 0 @s_p108_0@ INDI
 1 NAME Emilie Sophie Frederikke /Gedde/
@@ -2491,6 +2574,9 @@
 1 CHIL @s_p26_1@
 1 CHIL @s_p26_2@
 1 CHIL @s_p26_3@
+1 CHIL @s_p26_4@
+1 CHIL @s_p26_5@
+1 CHIL @s_p26_6@
 0 @F18@ FAM
 1 HUSB @p24@
 1 WIFE @p25@
@@ -2541,6 +2627,7 @@
 1 CHIL @s_p54_4@
 1 CHIL @s_p54_5@
 1 CHIL @s_p54_6@
+1 CHIL @s_p54_7@
 0 @F25@ FAM
 1 HUSB @p48@
 1 WIFE @p49@

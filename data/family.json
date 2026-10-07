@@ -1870,9 +1870,9 @@
    "ahnen": 54,
    "line": "gedde",
    "rel": null,
-   "born": "1845-07-08",
+   "born": "1845-09-08",
    "bplace": "Herlufmagle",
-   "died": null,
+   "died": "1925-12-27",
    "dplace": null,
    "occ": [
     "Proprietær, Tamdrup (1880)",
@@ -1881,6 +1881,7 @@
    "conf": "record",
    "note": "Gift 8. juli 1870 i Sankt Peders Kirke, Næstved, med Vitta Ludvigsen. Mellemnavnet Hammer har han efter farens plejefar, dr.theol. Edvard Snedorph Hammer, sognepræst i Herlufmagle.",
    "src": [
+    "Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)",
     "LL:5-674514",
     "LL:13-5702405",
     "LL:7-1280754",
@@ -1923,14 +1924,15 @@
    "ahnen": 55,
    "line": "gedde",
    "rel": null,
-   "born": "1848",
+   "born": "1847-10-04",
    "bplace": "Næstved",
-   "died": null,
+   "died": "1927-01-17",
    "dplace": null,
    "occ": [],
    "conf": "record",
-   "note": null,
+   "note": "Kaldt Mathilde.",
    "src": [
+    "Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)",
     "LL:6-812043",
     "LL:13-5702406",
     "LL:7-1280755",
@@ -4103,6 +4105,81 @@
    "spouse": null
   },
   {
+   "id": "s_p26_4",
+   "name": "Mathilde Gedde Jensen",
+   "sex": "F",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Elses søskende",
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Nævnt som nr. V blandt Jens og Paulas børn i familiens opgørelse; kan være et af de børn, hvis navn er skjult i indekset.",
+   "src": [
+    "Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)"
+   ],
+   "res": [],
+   "father": "p26",
+   "mother": "p27",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p26_5",
+   "name": "Svend Gedde Jensen",
+   "sex": "M",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Elses søskende",
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Nr. VI i familiens opgørelse.",
+   "src": [
+    "Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)"
+   ],
+   "res": [],
+   "father": "p26",
+   "mother": "p27",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p26_6",
+   "name": "Helga Gedde Jensen",
+   "sex": "F",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Elses søskende",
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Nr. VII i familiens opgørelse.",
+   "src": [
+    "Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)"
+   ],
+   "res": [],
+   "father": "p26",
+   "mother": "p27",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
    "id": "s_p54_0",
    "name": "Ove Frederik Alexander Gedde",
    "sex": "M",
@@ -4113,11 +4190,16 @@
    "bplace": null,
    "died": "1906-03-11",
    "dplace": null,
-   "occ": [],
+   "occ": [
+    "Premierløjtnant ved Dragonerne (til 1900)",
+    "Næstkommanderende ved Grænsegendarmeriet"
+   ],
    "conf": "record",
-   "note": null,
+   "note": "Sendt hjemmefra som 10-årig til sin faster Margrethe Ahlefeldt og hendes mand, fordi han var bestemt for en militær karriere. Gift 25. april 1900 med Charlotte Sophie Hedemann (1876–1955). Børn: Knud Gedde (1901–1954) og Anna Sophie Mathilde Gedde (1902–1985), gift van Jepmond.",
    "src": [
-    "LL:11-4055588"
+    "Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)",
+    "LL:11-4055588",
+    "LL:7-1280756"
    ],
    "res": [],
    "father": "p54",
@@ -4129,20 +4211,24 @@
   },
   {
    "id": "s_p54_1",
-   "name": "Elisabeth Charlotte Christle Doris Gedde",
-   "sex": "F",
+   "name": "Stephan Peder Hammer Gedde",
+   "sex": "M",
    "ahnen": null,
    "line": "gedde",
    "rel": "Paulas søskende",
-   "born": "1874",
+   "born": "1874-04-27",
    "bplace": null,
-   "died": "1909-07-13",
+   "died": "1948-06-22",
    "dplace": null,
-   "occ": [],
+   "occ": [
+    "Landbrugsuddannet",
+    "Forvalter ved De Forenede Papirfabrikker"
+   ],
    "conf": "record",
-   "note": null,
+   "note": "Holdt sammen med søsteren 'Tulle' det gamle hjem ved lige efter forældrenes død.",
    "src": [
-    "LL:11-652492"
+    "Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)",
+    "LL:7-1280758"
    ],
    "res": [],
    "father": "p54",
@@ -4154,19 +4240,25 @@
   },
   {
    "id": "s_p54_2",
-   "name": "Stephan Peter Hammer Gedde",
-   "sex": "M",
+   "name": "Elisabeth Charlotte Chrestle Doris Gedde",
+   "sex": "F",
    "ahnen": null,
    "line": "gedde",
    "rel": "Paulas søskende",
-   "born": "1874",
+   "born": "1875-02-25",
    "bplace": null,
-   "died": null,
+   "died": "1909-07-13",
    "dplace": null,
-   "occ": [],
+   "occ": [
+    "Lærerinde"
+   ],
    "conf": "record",
-   "note": null,
-   "src": [],
+   "note": "Kaldt 'Pelle'. Hjalp som storesøster med at opdrage de små. Døde efter en blindtarmsoperation.",
+   "src": [
+    "Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)",
+    "LL:11-652492",
+    "LL:7-1280757"
+   ],
    "res": [],
    "father": "p54",
    "mother": "p55",
@@ -4182,16 +4274,21 @@
    "ahnen": null,
    "line": "gedde",
    "rel": "Paulas søskende",
-   "born": "1875-11-15",
+   "born": "1876-11-15",
    "bplace": null,
-   "died": null,
+   "died": "1951",
    "dplace": null,
-   "occ": [],
+   "occ": [
+    "Landbrugsuddannet",
+    "Udvandrer til Argentina (1922)"
+   ],
    "conf": "record",
-   "note": "Gift med Johanne Marie Olivia Eddelsen; boede i Roskilde (Sankt Jørgensbjerg) i 1911.",
+   "note": "Udvandrede i 1922 til Argentina med hustruen Olivia (Johanne Marie Olivia f. Eddelsen) og to børn, og døde der i 1951. Sønnen Ejler blev i Argentina og døde omkring 1990 uden kendte børn. Datteren Inge Regitze (f. 1911, død ca. 1950) vendte tilbage til Danmark i 1930'erne og blev gift med Arne Meyer; ingen børn.",
    "src": [
+    "Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)",
     "LL:23-1448261",
-    "LL:12-2288945"
+    "LL:12-2288945",
+    "LL:7-1280759"
    ],
    "res": [],
    "father": "p54",
@@ -4208,14 +4305,17 @@
    "ahnen": null,
    "line": "gedde",
    "rel": "Paulas søskende",
-   "born": "1878",
+   "born": "1877-03-31",
    "bplace": null,
-   "died": null,
+   "died": "1894",
    "dplace": null,
    "occ": [],
    "conf": "record",
-   "note": null,
-   "src": [],
+   "note": "Skyllet over bord som jungmand på skoleskibet 'Georg Stage' i 1894.",
+   "src": [
+    "Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)",
+    "LL:7-1280760"
+   ],
    "res": [],
    "father": "p54",
    "mother": "p55",
@@ -4238,7 +4338,9 @@
    "occ": [],
    "conf": "record",
    "note": null,
-   "src": [],
+   "src": [
+    "LL:7-1280761"
+   ],
    "res": [],
    "father": "p54",
    "mother": "p55",
@@ -4261,7 +4363,36 @@
    "occ": [],
    "conf": "record",
    "note": null,
-   "src": [],
+   "src": [
+    "LL:7-1280762"
+   ],
+   "res": [],
+   "father": "p54",
+   "mother": "p55",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p54_7",
+   "name": "Ellen Gedde",
+   "sex": "F",
+   "ahnen": null,
+   "line": "gedde",
+   "rel": "Paulas søskende",
+   "born": "1889-05-15",
+   "bplace": null,
+   "died": "1977-07-21",
+   "dplace": null,
+   "occ": [
+    "Kontoruddannet"
+   ],
+   "conf": "record",
+   "note": "Gift med Aage Laurentzen; ingen børn.",
+   "src": [
+    "Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)"
+   ],
    "res": [],
    "father": "p54",
    "mother": "p55",
