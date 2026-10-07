@@ -139,7 +139,7 @@
 2 DATE 2009
 2 PLAC Svendborg
 2 NOTE død; begravet på Sankt Jørgens Kirkegård
-1 NOTE Det borgerlige fødselsregister for Egernsund (1932 nr. 4, anmeldt 16. jan. 1932) siger, at Else Gedde Frederiksen, f. Jensen, fødte ham 12. jan. 1932 kl. 5.30. En randnote af 11. juli 1932 siger, at landarbejder Wilhelm Krogh fra Snogbæk er den biologiske far. Det bygger på hans faderskabserklæring af 5. april 1932 og en retsafgørelse af 10. juni 1932. Stedfaren Peter Frederiksen gav drengen sit efternavn. Det stemmer med familiens fortælling om, at Lorenz først som voksen fandt ud af, at Peter ikke var hans far. Familien formoder desuden, at den egentlige far var gårdmandssønnen Sofus Petersen fra Paakjær i Nybøl, og at Krogh påtog sig faderskabet. Ifølge dåbsindførslen i Broager Vestre distrikt (1933 nr. 1) var fadderne stedfaren selv, arbejdsmand Lorenz Frederiksen og hustru Catharina, Egernsund, samt gårdejer Jens Jensens hustru fra Dalsgaard. Lorenz er begravet sammen med hustruen Gerda på Sankt Jørgens Kirkegård i Svendborg.
+1 NOTE Det borgerlige fødselsregister for Egernsund (1932 nr. 4, anmeldt 16. jan. 1932) siger, at Else Gedde Frederiksen, f. Jensen, fødte ham 12. jan. 1932 kl. 5.30. En randnote af 11. juli 1932 siger, at landarbejder Wilhelm Krogh fra Snogbæk er den biologiske far. Det bygger på hans faderskabserklæring af 5. april 1932 og en retsafgørelse af 10. juni 1932. Stedfaren Peter Frederiksen gav drengen sit efternavn. Det stemmer med familiens fortælling om, at Lorenz først som voksen fandt ud af, at Peter ikke var hans far. Familiens viden er, at den biologiske far var gårdmandssønnen Sophus Petersen fra Påkjær i Nybøl, at landarbejder Wilhelm Krogh tog skylden, og at Peter Frederiksen blev betalt for at gifte sig med Else. Stamtræet følger familiens viden. Ifølge dåbsindførslen i Broager Vestre distrikt (1933 nr. 1) var fadderne stedfaren selv, arbejdsmand Lorenz Frederiksen og hustru Catharina, Egernsund, samt gårdejer Jens Jensens hustru fra Dalsgaard. Lorenz er begravet sammen med hustruen Gerda på Sankt Jørgens Kirkegård i Svendborg.
 1 SOUR
 2 PAGE AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4 (bsid 37658, billede 125)
 1 SOUR
@@ -582,12 +582,11 @@
 2 DATE 1932
 2 PLAC Snogbæk
 2 NOTE landarbejder
-1 NOTE Lorenz' biologiske far. Født 9. okt. 1908 i 'Tastrup' (eller 'Vastrup'; skriften er svær at læse), Landkreis Flensburg, dengang i Tyskland. Faderskabet står i randnoten i Egernsund-registret: han anerkendte faderskabet 5. april 1932, og retten afgjorde sagen 10. juni 1932. Hans forældre og hans videre liv er endnu ikke fundet. De står i tyske registre (Flensburg).
+1 NOTE Ifølge familien tog han skylden for gårdmandssønnen Sophus Petersen fra Påkjær. I det borgerlige register står han som Lorenz' far. Født 9. okt. 1908 i 'Tastrup' (eller 'Vastrup'; skriften er svær at læse), Landkreis Flensburg, dengang i Tyskland. Faderskabet står i randnoten i Egernsund-registret: han anerkendte faderskabet 5. april 1932, og retten afgjorde sagen 10. juni 1932. Hans forældre og hans videre liv er endnu ikke fundet. De står i tyske registre (Flensburg).
 1 SOUR
 2 PAGE AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4, randnote 11.7.1932 (bsid 37658, billede 125)
 1 SOUR
 2 PAGE LL:25-6006023
-1 FAMS @F5@
 0 @sofus@ INDI
 1 NAME Sophus /Petersen/
 1 SEX M
@@ -606,8 +605,8 @@
 2 DATE 1945
 2 PLAC Nybøl (Paakjær)
 2 NOTE død; begravet på Nybøl Kirkegård
-1 NOTE Født 28. juni 1903 og døbt 24. juli 1903 i Nybøl Kirke (kirkebogen 1903 nr. 12) som søn af gårdmand ('Hufner') Peter Petersen og hustru Anna Cathrine Marie f. Petersen i Nybøl. Faddere: gæstgiver Johannes Hansen i Hostrup, tjenestekarl Jürgen Jacobsen i Nybøl og ugift Marie Iversen i Schottsbüllfeld. Fødselsdatoen passer præcist med gravstenen på Nybøl Kirkegård. Familien har fået at vide, at Lorenz' far hed Sophus og var fra Påkjær gård i Nybøl, og at han som gårdmandssøn ikke kunne vedstå faderskabet. Det står i modstrid med standsregistret: i 1932 anerkendte landarbejder Wilhelm Krogh faderskabet, og retten stadfæstede det. Formodningen er altså, at karlen påtog sig faderskabet. Påkjær ligger i Nybøl sogn tæt ved Snogbæk, hvor Krogh var karl i 1932. Sophus døde kun 42 år gammel. Han og hustruen Christine fik tre døtre: Gerda og to andre, hvoraf den ene flyttede til Norge. Er formodningen rigtig, er de Lorenz' halvsøstre. Kun en DNA-test kan afgøre spørgsmålet.
-1 NOTE Sikkerhed: mulig
+1 NOTE Født 28. juni 1903 og døbt 24. juli 1903 i Nybøl Kirke (kirkebogen 1903 nr. 12) som søn af gårdmand ('Hufner') Peter Petersen og hustru Anna Cathrine Marie f. Petersen i Nybøl. Faddere: gæstgiver Johannes Hansen i Hostrup, tjenestekarl Jürgen Jacobsen i Nybøl og ugift Marie Iversen i Schottsbüllfeld. Fødselsdatoen passer præcist med gravstenen på Nybøl Kirkegård. Familien har fået at vide, at Lorenz' far hed Sophus og var fra Påkjær gård i Nybøl, og at han som gårdmandssøn ikke kunne vedstå faderskabet. I stedet tog landarbejder Wilhelm Krogh skylden: han anerkendte faderskabet i 1932, og retten stadfæstede det, så det er Krogh, der står i standsregistret. Påkjær ligger i Nybøl sogn tæt ved Snogbæk, hvor Krogh var karl i 1932. Sophus døde kun 42 år gammel. Han og hustruen Christine fik tre døtre: Gerda og to andre, hvoraf den ene flyttede til Norge. De er Lorenz' halvsøstre. En DNA-test kan bekræfte slægtskabet.
+1 NOTE Sikkerhed: oplyst af familien
 1 SOUR
 2 PAGE AO:Nybøl kirkebog 1880–1931, dåb 1903 nr. 12 (bsid 202179, billede 88)
 1 SOUR
@@ -616,6 +615,7 @@
 2 PAGE Gravsten på Nybøl Kirkegård (foto fra familien): 'Minde over en elsket Mand og Fader Sofus Petersen, Paakjær, * 28. Juni 1903 † 24. Aug. 1945'
 1 SOUR
 2 PAGE Familiens oplysninger
+1 FAMS @F5@
 1 FAMC @F16@
 1 FAMS @F55@
 0 @sofus_w@ INDI
@@ -696,7 +696,7 @@
 2 PLAC Egernsund, Danmark
 1 OCCU Tjenestekarl, Broager (1921)
 1 OCCU Arbejdsmand, Egernsund (1932)
-1 NOTE Gift med Else Gedde Jensen. Han står som far i Lorenz' dåbsindførsel, og Lorenz fik hans efternavn, men ifølge randnoten i det borgerlige register er han ikke den biologiske far.
+1 NOTE Gift med Else Gedde Jensen. Han står som far i Lorenz' dåbsindførsel, og Lorenz fik hans efternavn, men ifølge randnoten i det borgerlige register er han ikke den biologiske far. Familien fortæller, at han blev betalt for at gifte sig med Else.
 1 SOUR
 2 PAGE LL:12-15018348
 1 SOUR
@@ -2688,7 +2688,7 @@
 1 CHIL @p4@
 1 CHIL @s_ester@
 0 @F5@ FAM
-1 HUSB @p12@
+1 HUSB @sofus@
 1 WIFE @p13@
 1 CHIL @p6@
 0 @F6@ FAM

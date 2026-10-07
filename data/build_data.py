@@ -64,7 +64,7 @@ LINES = {
     "jorgensen": "Jørgensen-linjen",
     "gaardsted": "Gaardsted-linjen",
     "rousing": "Rousing-linjen (Fuglslev)",
-    "maternal": "Morfars side: Krogh / Sophus Petersen",
+    "maternal": "Morfars fars slægt: Petersen, Nybøl og Dybbøl",
     "gedde": "Gedde- og von Kleist-linjen",
     "frederiksen": "Stedfarens slægt (Frederiksen, Broager)",
     "larsen": "Mormors slægt: Larsen, Holgersen og Langø",
@@ -116,7 +116,7 @@ person("p5", "Liss Gaardsted-Jørgensen (f. Pedersen)", "F", ahnen=5, line="jorg
        src=["ARK:2162357", "litteraturpriser.dk", "FamilySearch Family Tree: Liss Jørgensen (født Pedersen) 1931–2002"],
        res=[(1953, "Ollerup", "gift"), (1981, "Hune", "")])
 person("p6", "Lorenz Heinrich Frederiksen", "M", ahnen=6, line="maternal", conf="record",
-       born="1932-01-12", bplace="Egernsund", died="2009-05-06", dplace="Svendborg", father="p12", mother="p13",
+       born="1932-01-12", bplace="Egernsund", died="2009-05-06", dplace="Svendborg", father="sofus", mother="p13",
        step="pf12", spouse="p7",
        res=[(1932, "Egernsund", "født; hjemmedøbt 1. jan. 1933"), (2009, "Svendborg", "død; begravet på Sankt Jørgens Kirkegård")],
        note="Det borgerlige fødselsregister for Egernsund (1932 nr. 4, anmeldt 16. jan. 1932) siger, at Else Gedde Frederiksen, "
@@ -124,7 +124,8 @@ person("p6", "Lorenz Heinrich Frederiksen", "M", ahnen=6, line="maternal", conf=
             "fra Snogbæk er den biologiske far. Det bygger på hans faderskabserklæring af 5. april 1932 og en retsafgørelse "
             "af 10. juni 1932. Stedfaren Peter Frederiksen gav drengen sit efternavn. "
             "Det stemmer med familiens fortælling om, at Lorenz først som voksen fandt ud af, at Peter ikke var hans far. "
-            "Familien formoder desuden, at den egentlige far var gårdmandssønnen Sofus Petersen fra Paakjær i Nybøl, og at Krogh påtog sig faderskabet. "
+            "Familiens viden er, at den biologiske far var gårdmandssønnen Sophus Petersen fra Påkjær i Nybøl, at landarbejder Wilhelm Krogh tog skylden, "
+            "og at Peter Frederiksen blev betalt for at gifte sig med Else. Stamtræet følger familiens viden. "
             "Ifølge dåbsindførslen i Broager Vestre distrikt (1933 nr. 1) var fadderne stedfaren selv, "
             "arbejdsmand Lorenz Frederiksen og hustru Catharina, Egernsund, samt gårdejer Jens Jensens hustru fra Dalsgaard. "
             "Lorenz er begravet sammen med hustruen Gerda på Sankt Jørgens Kirkegård i Svendborg.",
@@ -212,14 +213,14 @@ person("p9", "Jensine Mariane Magdalene Gaardsted", "F", ahnen=9, line="gaardste
 person("s_ester", "Ester Kristine Jørgensen", "F", rel="Evalds søster", line="jorgensen", born="1924", father="p8", mother="p9",
        src=["DFS:18978913"])
 
-person("p12", "Wilhelm Krogh", "M", ahnen=12, line="maternal", born="1908-10-09",
+person("p12", "Wilhelm Krogh", "M", rel="tog skylden: anerkendte faderskabet til Lorenz i 1932", line="maternal", born="1908-10-09",
        occ=["Landarbejder (karl), Snogbæk (1932)"], res=[(1932, "Snogbæk", "landarbejder")],
-       note="Lorenz' biologiske far. Født 9. okt. 1908 i 'Tastrup' (eller 'Vastrup'; skriften er svær at læse), "
+       note="Ifølge familien tog han skylden for gårdmandssønnen Sophus Petersen fra Påkjær. I det borgerlige register står han som Lorenz' far. Født 9. okt. 1908 i 'Tastrup' (eller 'Vastrup'; skriften er svær at læse), "
             "Landkreis Flensburg, dengang i Tyskland. Faderskabet står i randnoten i Egernsund-registret: han anerkendte "
             "faderskabet 5. april 1932, og retten afgjorde sagen 10. juni 1932. Hans forældre og hans videre liv er endnu ikke fundet. "
             "De står i tyske registre (Flensburg).",
        src=["AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4, randnote 11.7.1932 (bsid 37658, billede 125)", "LL:25-6006023"])
-person("sofus", "Sophus (Sofus) Petersen", "M", rel="mulig biologisk far til Lorenz (familiens formodning)", line="maternal", conf="possible",
+person("sofus", "Sophus (Sofus) Petersen", "M", ahnen=12, line="maternal", conf="told",
        born="1903-06-28", bplace="Nybøl (Paakjær)", died="1945-08-24", dplace="Nybøl (Paakjær)", father="sofus_f", mother="sofus_m",
        res=[(1903, "Nybøl (Paakjær)", "født på forældrenes gård"), (1945, "Nybøl (Paakjær)", "død; begravet på Nybøl Kirkegård")],
        spouse="sofus_w", occ=["Gårdmandssøn, senere gårdmand, Påkjær gård i Nybøl"],
@@ -227,22 +228,22 @@ person("sofus", "Sophus (Sofus) Petersen", "M", rel="mulig biologisk far til Lor
             "og hustru Anna Cathrine Marie f. Petersen i Nybøl. Faddere: gæstgiver Johannes Hansen i Hostrup, tjenestekarl Jürgen Jacobsen "
             "i Nybøl og ugift Marie Iversen i Schottsbüllfeld. Fødselsdatoen passer præcist med gravstenen på Nybøl Kirkegård. "
             "Familien har fået at vide, at Lorenz' far hed Sophus og var fra Påkjær gård i Nybøl, og at han som gårdmandssøn ikke kunne vedstå "
-            "faderskabet. Det står i modstrid med standsregistret: i 1932 anerkendte landarbejder Wilhelm Krogh faderskabet, og retten "
-            "stadfæstede det. Formodningen er altså, at karlen påtog sig faderskabet. Påkjær ligger i Nybøl sogn tæt ved Snogbæk, hvor Krogh "
+            "faderskabet. I stedet tog landarbejder Wilhelm Krogh skylden: han anerkendte faderskabet i 1932, og retten stadfæstede det, så det er "
+            "Krogh, der står i standsregistret. Påkjær ligger i Nybøl sogn tæt ved Snogbæk, hvor Krogh "
             "var karl i 1932. Sophus døde kun 42 år gammel. Han og hustruen Christine fik tre døtre: Gerda og to andre, hvoraf "
-            "den ene flyttede til Norge. Er formodningen rigtig, er de Lorenz' halvsøstre. Kun en DNA-test kan afgøre spørgsmålet.",
+            "den ene flyttede til Norge. De er Lorenz' halvsøstre. En DNA-test kan bekræfte slægtskabet.",
        src=["AO:Nybøl kirkebog 1880–1931, dåb 1903 nr. 12 (bsid 202179, billede 88)", "LL:12-15057041 (indekseret med dåbsdatoen 24.7.1903)",
             "Gravsten på Nybøl Kirkegård (foto fra familien): 'Minde over en elsket Mand og Fader Sofus Petersen, Paakjær, * 28. Juni 1903 † 24. Aug. 1945'",
             "Familiens oplysninger"])
 person("sofus_w", "Christine Petersen (f. Jensen)", "F", rel="Sophus Petersens hustru", line="maternal", born="1907-02-21",
        died="1985-06-25", dplace="Nybøl (Paakjær)", spouse="sofus", conf="record",
        src=["Gravsten på Nybøl Kirkegård (foto fra familien): 'og vor kære Moder Christine Petersen f. Jensen * 21. Feb. 1907 † 25. Juni 1985'"])
-person("sofus_f", "Peter Petersen", "M", rel="Sophus Petersens far", line="maternal", born="1866-09-22", bplace="Nybøl (Paakjær)",
+person("sofus_f", "Peter Petersen", "M", ahnen=24, line="maternal", born="1866-09-22", bplace="Nybøl (Paakjær)",
        spouse="sofus_m", father="sofus_ff", mother="sofus_fm", occ=["Gårdmand (landmand), Nybøl"], conf="record",
        note="Søn af Mathias Petersen. Gift 6. juni 1895 i Nybøl med Anna Cathrine Marie Petersen. I folketællingen 1921 er han landmand i Nybøl "
             "med hustru, børnene Peter, Jørgen, Marie, Hans og Viggo, en tjenestekarl og to tjenestepiger.",
        src=["LL:13-4983073", "LL:12-15059287", "LL:25-6006023", "AO:Nybøl kirkebog 1903 nr. 12"])
-person("sofus_m", "Anna Cathrine Marie Petersen", "F", rel="Sophus Petersens mor", line="maternal", born="1869-08-12", bplace="Dybbøl", spouse="sofus_f",
+person("sofus_m", "Anna Cathrine Marie Petersen", "F", ahnen=25, line="maternal", born="1869-08-12", bplace="Dybbøl", spouse="sofus_f",
        father="sofus_mf", mother="sofus_mm",
        conf="record", note="Datter af Lorenz Petersen. Født i Rageböl ifølge folketællingen 1921.",
        src=["LL:13-4983076", "LL:12-14359019", "LL:25-6006024"])
@@ -255,11 +256,11 @@ person("p13", "Else Gedde Jensen", "F", ahnen=13, line="gedde", conf="record",
             "I januar 1932 var hun gift med arbejdsmand Peter Frederiksen i Egernsund.",
        src=["AO:Lejrskov kirkebog, fødte piger 1912 nr. 17 (bsid 165996, billede 94)", "LL:12-4852565",
             "AO:Egernsund standsregister 1932 nr. 4", "AO:Broager Vestre 1933 nr. 1"])
-person("pf12", "Peter Frederiksen", "M", rel="Lorenz' stedfar (juridisk far)", line="frederiksen", born="1902-02-15",
+person("pf12", "Peter Frederiksen", "M", rel="Lorenz' stedfar; ifølge familien betalt for at gifte sig med Else", line="frederiksen", born="1902-02-15",
        bplace="Egernsund", father="p24", mother="p25", spouse="p13",
        occ=["Tjenestekarl, Broager (1921)", "Arbejdsmand, Egernsund (1932)"],
        note="Gift med Else Gedde Jensen. Han står som far i Lorenz' dåbsindførsel, og Lorenz fik hans efternavn, "
-            "men ifølge randnoten i det borgerlige register er han ikke den biologiske far.",
+            "men ifølge randnoten i det borgerlige register er han ikke den biologiske far. Familien fortæller, at han blev betalt for at gifte sig med Else.",
        src=["LL:12-15018348", "LL:14-2208771", "LL:25-5954688", "AO:Egernsund standsregister 1932 nr. 4", "AO:Broager Vestre 1933 nr. 1"])
 
 # ================= Tipoldeforældre =================
@@ -610,13 +611,13 @@ sibs(("p868", "p869"), "gedde", "Christian Frederiks søskende", [
     ("Frederikke Louise von Kleist", "F", "1747-03-27", {"died": "1814-05-29", "src": ["PHT:1897"]}),
 ])
 
-person("sofus_ff", "Mathias Petersen", "M", rel="Sophus Petersens farfar", line="maternal", born="ca. 1832", spouse="sofus_fm",
+person("sofus_ff", "Mathias Petersen", "M", ahnen=48, line="maternal", born="ca. 1832", spouse="sofus_fm",
        father="sofus_fff", mother="sofus_ffm", note="Gift 13. okt. 1865 i Nybøl med Sophia Maria Nissen.", src=["LL:13-4984314", "LL:12-15059288"])
-person("sofus_fm", "Sophia Maria Nissen", "F", rel="Sophus Petersens farmor", line="maternal", born="ca. 1842", spouse="sofus_ff",
+person("sofus_fm", "Sophia Maria Nissen", "F", ahnen=49, line="maternal", born="ca. 1842", spouse="sofus_ff",
        father="sofus_fmf", mother="sofus_fmm", src=["LL:13-4984317", "LL:12-15059289"])
-person("sofus_mf", "Lorens Petersen", "M", rel="Sophus Petersens morfar", line="maternal", born="1831-02-26", spouse="sofus_mm",
+person("sofus_mf", "Lorens Petersen", "M", ahnen=50, line="maternal", born="1831-02-26", spouse="sofus_mm",
        father="sofus_mff", mother="sofus_mfm", note="Gift 12. april 1860 i Dybbøl med Marie Jørgensen.", src=["LL:13-4698057", "LL:12-14359020"])
-person("sofus_mm", "Marie Jørgensen", "F", rel="Sophus Petersens mormor", line="maternal", born="1834-05-22", spouse="sofus_mf",
+person("sofus_mm", "Marie Jørgensen", "F", ahnen=51, line="maternal", born="1834-05-22", spouse="sofus_mf",
        father="sofus_mmf", mother="sofus_mmm", note="Fødestedet er indekseret som 'Borup sogn'.", src=["LL:13-4698060", "LL:12-14359021"])
 for pid, nm, sx, rl, sp, k in [("sofus_fff", "Peter Petersen", "M", "Sophus' oldefar", "sofus_ffm", "LL:13-4984315"),
                                ("sofus_ffm", "Maria Cathrine Lorensen", "F", "Sophus' oldemor", "sofus_fff", "LL:13-4984316"),
@@ -626,7 +627,8 @@ for pid, nm, sx, rl, sp, k in [("sofus_fff", "Peter Petersen", "M", "Sophus' old
                                ("sofus_mfm", "Marie Petersen", "F", "Sophus' oldemor", "sofus_mff", "LL:13-4698059"),
                                ("sofus_mmf", "Lorens Peter Jørgensen", "M", "Sophus' oldefar", "sofus_mmm", "LL:13-4698061"),
                                ("sofus_mmm", "Anna Kathrine Mathiesen", "F", "Sophus' oldemor", "sofus_mmf", "LL:13-4698062")]:
-    person(pid, nm, sx, rel=rl + " (Nybøl/Dybbøl)", line="maternal", spouse=sp, src=[k])
+    person(pid, nm, sx, ahnen={"sofus_fff": 96, "sofus_ffm": 97, "sofus_fmf": 98, "sofus_fmm": 99, "sofus_mff": 100, "sofus_mfm": 101,
+                                "sofus_mmf": 102, "sofus_mmm": 103}[pid], line="maternal", spouse=sp, src=[k])
 sibs(("sofus_f", "sofus_m"), "maternal", "Sophus Petersens søskende", [
     ("Lorenz Peter Petersen", "M", "1897-09-04", {"src": ["LL:12-15056684"]}),
     ("Peter Petersen", "M", "1898-10-07", {"occ": ["Landbrug hos forældrene (1921)"], "src": ["LL:12-15056755", "LL:25-6006025"]}),
@@ -639,7 +641,7 @@ sibs(("sofus_f", "sofus_m"), "maternal", "Sophus Petersens søskende", [
 for i, (nm, nt) in enumerate([("Gerda Petersen", "Datter af Sophus og Christine."),
                               ("Datter (navn mangler)", "Datter af Sophus og Christine."),
                               ("Datter (navn mangler)", "Datter af Sophus og Christine; flyttede til Norge.")]):
-    person(f"sofus_d{i}", nm, "F", rel="Sophus Petersens datter (Lorenz' halvsøster, hvis formodningen holder)", line="maternal",
+    person(f"sofus_d{i}", nm, "F", rel="Sophus Petersens datter (Lorenz' halvsøster)", line="maternal",
            father="sofus", mother="sofus_w", conf="told", note=nt, src=["Familiens oplysninger"])
 
 sibs(("p62", "p63"), "larsen", "Kristines søskende (Langø-familien)", [
