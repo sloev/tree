@@ -139,7 +139,7 @@
 2 DATE 2009
 2 PLAC Svendborg
 2 NOTE død; begravet på Sankt Jørgens Kirkegård
-1 NOTE Det borgerlige fødselsregister for Egernsund (1932 nr. 4, anmeldt 16. jan. 1932) siger, at Else Gedde Frederiksen, f. Jensen, fødte ham 12. jan. 1932 kl. 5.30. En randnote af 11. juli 1932 siger, at landarbejder Wilhelm Krogh fra Snogbæk er den biologiske far. Det bygger på hans faderskabserklæring af 5. april 1932 og en retsafgørelse af 10. juni 1932. Stedfaren Peter Frederiksen gav drengen sit efternavn. Det stemmer med familiens fortælling om, at Lorenz først som voksen fandt ud af, at Peter ikke var hans far. Ifølge dåbsindførslen i Broager Vestre distrikt (1933 nr. 1) var fadderne stedfaren selv, arbejdsmand Lorenz Frederiksen og hustru Catharina, Egernsund, samt gårdejer Jens Jensens hustru fra Dalsgaard. Lorenz er begravet sammen med hustruen Gerda på Sankt Jørgens Kirkegård i Svendborg.
+1 NOTE Det borgerlige fødselsregister for Egernsund (1932 nr. 4, anmeldt 16. jan. 1932) siger, at Else Gedde Frederiksen, f. Jensen, fødte ham 12. jan. 1932 kl. 5.30. En randnote af 11. juli 1932 siger, at landarbejder Wilhelm Krogh fra Snogbæk er den biologiske far. Det bygger på hans faderskabserklæring af 5. april 1932 og en retsafgørelse af 10. juni 1932. Stedfaren Peter Frederiksen gav drengen sit efternavn. Det stemmer med familiens fortælling om, at Lorenz først som voksen fandt ud af, at Peter ikke var hans far. Familien formoder desuden, at den egentlige far var gårdmandssønnen Sofus Petersen fra Paakjær i Nybøl, og at Krogh påtog sig faderskabet. Ifølge dåbsindførslen i Broager Vestre distrikt (1933 nr. 1) var fadderne stedfaren selv, arbejdsmand Lorenz Frederiksen og hustru Catharina, Egernsund, samt gårdejer Jens Jensens hustru fra Dalsgaard. Lorenz er begravet sammen med hustruen Gerda på Sankt Jørgens Kirkegård i Svendborg.
 1 SOUR
 2 PAGE AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4 (bsid 37658, billede 125)
 1 SOUR
@@ -261,7 +261,42 @@
 1 NOTE Lorenz' biologiske far. Født 9. okt. 1908 i 'Tastrup' (eller 'Vastrup'; skriften er svær at læse), Landkreis Flensburg, dengang i Tyskland. Faderskabet står i randnoten i Egernsund-registret: han anerkendte faderskabet 5. april 1932, og retten afgjorde sagen 10. juni 1932. Hans forældre og hans videre liv er endnu ikke fundet. De står i tyske registre (Flensburg).
 1 SOUR
 2 PAGE AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4, randnote 11.7.1932 (bsid 37658, billede 125)
+1 SOUR
+2 PAGE LL:25-6006023
 1 FAMS @F5@
+0 @sofus@ INDI
+1 NAME Sofus /Petersen/
+1 SEX M
+1 BIRT
+2 DATE 28 JUN 1903
+1 DEAT
+2 DATE 24 AUG 1945
+1 OCCU Gårdmandssøn, senere gårdmand, Paakjær
+1 RESI
+2 DATE 1945
+2 PLAC Nybøl (Paakjær)
+2 NOTE gravstenen nævner Paakjær
+1 NOTE Familiens formodning er, at gårdmandssønnen Sofus Petersen fra Paakjær var Lorenz' egentlige far, og at han ikke kunne vedstå faderskabet. Det står i modstrid med standsregistret: i 1932 anerkendte landarbejder Wilhelm Krogh faderskabet, og retten stadfæstede det. Formodningen er altså, at karlen påtog sig faderskabet for gårdmandssønnen. Paakjær ligger i Nybøl sogn, tæt ved Snogbæk, hvor Wilhelm Krogh var karl i 1932. Der boede også en familie Krogh i Nybøl i 1921 (Detlef Krogh, f. 1849, og Botilde, f. 1850 i Broager). Sofus står endnu ikke i de indekserede kilder med sin fødselsdato. En Sophus, søn af gårdmand Peter Petersen i Nybøl, er født 24. juli 1903, altså en anden dato, og han er ikke hjemme ved folketællingen 1921. Kun en DNA-test kan afgøre spørgsmålet, fx et match mellem Vivis efterkommere og efterkommere af Sofus eller af Wilhelm Krogh.
+1 NOTE Sikkerhed: mulig
+1 SOUR
+2 PAGE Gravsten (foto fra familien): 'Minde over en elsket Mand og Fader Sofus Petersen, Paakjær, * 28. Juni 1903 † 24. Aug. 1945'
+1 SOUR
+2 PAGE Familiens formodning
+1 SOUR
+2 PAGE LL:12-15057041 (Sophus f. 24.7.1903 i Nybøl, mulig identitet)
+1 SOUR
+2 PAGE LL:25-6006023
+1 FAMS @F40@
+0 @sofus_w@ INDI
+1 NAME Christine /Petersen/
+1 SEX F
+1 BIRT
+2 DATE 21 FEB 1907
+1 DEAT
+2 DATE 25 JUN 1985
+1 SOUR
+2 PAGE Gravsten (foto fra familien): 'og vor kære Moder Christine Petersen f. Jensen * 21. Feb. 1907 † 25. Juni 1985'
+1 FAMS @F40@
 0 @p13@ INDI
 1 NAME Else Gedde /Jensen/
 1 SEX F
@@ -287,7 +322,7 @@
 2 PAGE AO:Broager Vestre 1933 nr. 1
 1 FAMS @F5@
 1 FAMC @F8@
-1 FAMS @F40@
+1 FAMS @F41@
 0 @pf12@ INDI
 1 NAME Peter /Frederiksen/
 1 SEX M
@@ -308,7 +343,7 @@
 1 SOUR
 2 PAGE AO:Broager Vestre 1933 nr. 1
 1 FAMC @F9@
-1 FAMS @F40@
+1 FAMS @F41@
 0 @p16@ INDI
 1 NAME Jørgen Anton /Jørgensen/
 1 SEX M
@@ -2061,6 +2096,9 @@
 1 HUSB @p36@
 1 CHIL @s_claus_ch@
 0 @F40@ FAM
+1 HUSB @sofus@
+1 WIFE @sofus_w@
+0 @F41@ FAM
 1 HUSB @pf12@
 1 WIFE @p13@
 0 TRLR

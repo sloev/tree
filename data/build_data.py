@@ -48,6 +48,7 @@ PLACES = {
     "Rinkenæs": (54.889, 9.553, "Sønderjylland"),
     "Ulkebøl": (54.913, 9.820, "Sønderjylland"),
     "Snogbæk": (54.937, 9.716, "Sønderjylland"),
+    "Nybøl (Paakjær)": (54.928, 9.647, "Sønderjylland"),
 }
 
 # Slægtslinjer (farve i grafikken)
@@ -114,6 +115,7 @@ person("p6", "Lorenz Heinrich Frederiksen", "M", ahnen=6, line="maternal", conf=
             "fra Snogbæk er den biologiske far. Det bygger på hans faderskabserklæring af 5. april 1932 og en retsafgørelse "
             "af 10. juni 1932. Stedfaren Peter Frederiksen gav drengen sit efternavn. "
             "Det stemmer med familiens fortælling om, at Lorenz først som voksen fandt ud af, at Peter ikke var hans far. "
+            "Familien formoder desuden, at den egentlige far var gårdmandssønnen Sofus Petersen fra Paakjær i Nybøl, og at Krogh påtog sig faderskabet. "
             "Ifølge dåbsindførslen i Broager Vestre distrikt (1933 nr. 1) var fadderne stedfaren selv, "
             "arbejdsmand Lorenz Frederiksen og hustru Catharina, Egernsund, samt gårdejer Jens Jensens hustru fra Dalsgaard. "
             "Lorenz er begravet sammen med hustruen Gerda på Sankt Jørgens Kirkegård i Svendborg.",
@@ -147,7 +149,23 @@ person("p12", "Wilhelm Krogh", "M", ahnen=12, line="maternal", born="1908-10-09"
             "Landkreis Flensburg, dengang i Tyskland. Faderskabet står i randnoten i Egernsund-registret: han anerkendte "
             "faderskabet 5. april 1932, og retten afgjorde sagen 10. juni 1932. Hans forældre og hans videre liv er endnu ikke fundet. "
             "De står i tyske registre (Flensburg).",
-       src=["AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4, randnote 11.7.1932 (bsid 37658, billede 125)"])
+       src=["AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4, randnote 11.7.1932 (bsid 37658, billede 125)", "LL:25-6006023"])
+person("sofus", "Sofus Petersen", "M", rel="mulig biologisk far til Lorenz (familiens formodning)", line="maternal", conf="possible",
+       born="1903-06-28", died="1945-08-24", res=[(1945, "Nybøl (Paakjær)", "gravstenen nævner Paakjær")], spouse="sofus_w",
+       occ=["Gårdmandssøn, senere gårdmand, Paakjær"],
+       note="Familiens formodning er, at gårdmandssønnen Sofus Petersen fra Paakjær var Lorenz' egentlige far, og at han ikke kunne "
+            "vedstå faderskabet. Det står i modstrid med standsregistret: i 1932 anerkendte landarbejder Wilhelm Krogh faderskabet, "
+            "og retten stadfæstede det. Formodningen er altså, at karlen påtog sig faderskabet for gårdmandssønnen. "
+            "Paakjær ligger i Nybøl sogn, tæt ved Snogbæk, hvor Wilhelm Krogh var karl i 1932. Der boede også en familie Krogh i Nybøl i 1921 "
+            "(Detlef Krogh, f. 1849, og Botilde, f. 1850 i Broager). "
+            "Sofus står endnu ikke i de indekserede kilder med sin fødselsdato. En Sophus, søn af gårdmand Peter Petersen i Nybøl, er født "
+            "24. juli 1903, altså en anden dato, og han er ikke hjemme ved folketællingen 1921. "
+            "Kun en DNA-test kan afgøre spørgsmålet, fx et match mellem Vivis efterkommere og efterkommere af Sofus eller af Wilhelm Krogh.",
+       src=["Gravsten (foto fra familien): 'Minde over en elsket Mand og Fader Sofus Petersen, Paakjær, * 28. Juni 1903 † 24. Aug. 1945'",
+            "Familiens formodning", "LL:12-15057041 (Sophus f. 24.7.1903 i Nybøl, mulig identitet)", "LL:25-6006023"])
+person("sofus_w", "Christine Petersen (f. Jensen)", "F", rel="Sofus Petersens hustru", line="maternal", born="1907-02-21",
+       died="1985-06-25", spouse="sofus", conf="record",
+       src=["Gravsten (foto fra familien): 'og vor kære Moder Christine Petersen f. Jensen * 21. Feb. 1907 † 25. Juni 1985'"])
 person("p13", "Else Gedde Jensen", "F", ahnen=13, line="gedde", conf="record",
        born="1912-08-31", bplace="Lejrskov (Ferup)", father="p26", mother="p27", spouse="pf12",
        res=[(1912, "Lejrskov (Ferup)", "født på forældrenes gård i Ferup"), (1932, "Egernsund", "gift med Peter Frederiksen")],
@@ -519,6 +537,12 @@ CATS = [("Kirke og præstegerning", ["præst", "kordegn"]), ("Undervisning og fo
         ("Handel og vognmand", ["høker", "købmand", "vognmand"]), ("Fattigvæsen", ["fattiggård"])]
 
 PHOTOS = [
+    dict(file="images/sofus-petersen-gravsten.jpg", title="Sofus Petersens gravsten",
+         caption="'Sofus Petersen, Paakjær, * 28. Juni 1903 † 24. Aug. 1945' og hustruen Christine Petersen f. Jensen (1907–1985). Familien formoder, at han var Lorenz' egentlige far.",
+         credit="Foto fra familien", link="https://link-lives.dk/soeg/"),
+    dict(file="images/nybol-folketaelling-1921.jpg", title="Nybøl, folketællingen 1921",
+         caption="Gårdmand Peter Petersen i Nybøl med familie og tjenestefolk, og øverst Detlef og Botilde Krogh. Paakjær og Snogbæk ligger begge i Nybøl-egnen.",
+         credit="Rigsarkivet, Arkivalieronline", link="https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=85824#85824,13856442"),
     dict(file="images/lorenz-baptism-broager-1933.jpg", title="Lorenz' dåb, Broager 1933",
          caption="Broager Vestre distrikts kirkebog, 1933 nr. 1: Lorenz Heinrich, født 12. jan. 1932 i Egernsund. Forældre: Peter Frederiksen og Else Gedde Jensen.",
          credit="Rigsarkivet, Arkivalieronline", link="https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=17216172"),

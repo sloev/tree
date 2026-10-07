@@ -27,7 +27,8 @@ DIG  Johannes Gårdsted Valbjørn ✅
 │  └─ Liss Gaardsted-Jørgensen (f. Pedersen) 📜  1931–2002 · kordegn
 └─ Vivi Frederiksen Gedde ✅
    ├─ Lorenz Heinrich Frederiksen 📜  1932 Egernsund – 2009 Svendborg
-   │  ├─ Wilhelm Krogh 📜  f. 9.10.1908, Landkreis Flensburg · landarbejder i Snogbæk (biologisk far)
+   │  ├─ Wilhelm Krogh 📜  f. 9.10.1908, Landkreis Flensburg · landarbejder i Snogbæk (far ifølge retten 1932)
+   │  │     (familiens formodning ❓: Sofus Petersen, Paakjær, Nybøl, 1903–1945)
    │  │     (stedfar: Peter Frederiksen, f. 1902 · arbejdsmand, Egernsund)
    │  └─ Else Gedde Jensen 📜  f. 31.8.1912 Ferup, Lejrskov
    │     ├─ Jens Jensen 📜  f. 1866 · gårdejer, Ferup ← Rasmus Jensen og Christine Hansen
@@ -51,6 +52,7 @@ DIG  Johannes Gårdsted Valbjørn ✅
 ## Nyt i denne runde
 
 - **Lorenz' biologiske far er fundet.** Egernsunds borgerlige fødselsregister (1932 nr. 4) har en randnote af 11. juli 1932. Den siger, at landarbejder **Wilhelm Krogh** fra Snogbæk, født 9. okt. 1908 i Landkreis Flensburg, anerkendte faderskabet 5. april 1932, og at retten stadfæstede det 10. juni 1932. Stedfaren Peter Frederiksen gav Lorenz sit efternavn. Det bekræfter familiens fortælling.
+- **Familiens formodning om Sofus Petersen.** Familien formoder, at Lorenz' egentlige far var gårdmandssønnen **Sofus Petersen fra Paakjær** i Nybøl (født 28. juni 1903, død 24. aug. 1945). Hans gravsten nævner også hustruen Christine Petersen f. Jensen (1907–1985). Ifølge formodningen kunne han ikke vedstå faderskabet, så karlen Wilhelm Krogh påtog sig det. Paakjær og Snogbæk ligger begge i Nybøl-egnen, og der boede en familie Krogh i Nybøl i 1921. Sofus står endnu ikke i de indekserede kilder med den fødselsdato. Kun en DNA-test kan afgøre spørgsmålet.
 - **Else Gedde Jensen er fundet.** Hun er født 31. aug. 1912 i Ferup, Lejrskov sogn (Lejrskov kirkebog 1912, piger nr. 17), og datter af gårdejer Jens Jensen og Paula Gedde. Hun fik mindst fire søskende, bl.a. Aage Rasmus Gedde Jensen, der døde som spæd i 1908.
 - **Gedde-linjen er ført fem generationer tilbage:**
   - Paula Gedde
