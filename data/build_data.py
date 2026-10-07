@@ -237,13 +237,14 @@ person("sofus_w", "Christine Petersen (f. Jensen)", "F", rel="Sophus Petersens h
        died="1985-06-25", dplace="Nybøl (Paakjær)", spouse="sofus", conf="record",
        src=["Gravsten på Nybøl Kirkegård (foto fra familien): 'og vor kære Moder Christine Petersen f. Jensen * 21. Feb. 1907 † 25. Juni 1985'"])
 person("sofus_f", "Peter Petersen", "M", rel="Sophus Petersens far", line="maternal", born="1866-09-22", bplace="Nybøl (Paakjær)",
-       spouse="sofus_m", occ=["Gårdmand (landmand), Nybøl"], conf="record",
+       spouse="sofus_m", father="sofus_ff", mother="sofus_fm", occ=["Gårdmand (landmand), Nybøl"], conf="record",
        note="Søn af Mathias Petersen. Gift 6. juni 1895 i Nybøl med Anna Cathrine Marie Petersen. I folketællingen 1921 er han landmand i Nybøl "
             "med hustru, børnene Peter, Jørgen, Marie, Hans og Viggo, en tjenestekarl og to tjenestepiger.",
-       src=["LL:13-4983073", "LL:25-6006023", "AO:Nybøl kirkebog 1903 nr. 12"])
-person("sofus_m", "Anna Cathrine Marie Petersen", "F", rel="Sophus Petersens mor", line="maternal", born="1869-08-12", spouse="sofus_f",
+       src=["LL:13-4983073", "LL:12-15059287", "LL:25-6006023", "AO:Nybøl kirkebog 1903 nr. 12"])
+person("sofus_m", "Anna Cathrine Marie Petersen", "F", rel="Sophus Petersens mor", line="maternal", born="1869-08-12", bplace="Dybbøl", spouse="sofus_f",
+       father="sofus_mf", mother="sofus_mm",
        conf="record", note="Datter af Lorenz Petersen. Født i Rageböl ifølge folketællingen 1921.",
-       src=["LL:13-4983076", "LL:25-6006024"])
+       src=["LL:13-4983076", "LL:12-14359019", "LL:25-6006024"])
 person("p13", "Else Gedde Jensen", "F", ahnen=13, line="gedde", conf="record",
        born="1912-08-31", bplace="Lejrskov (Ferup)", father="p26", mother="p27", spouse="pf12",
        res=[(1912, "Lejrskov (Ferup)", "født på forældrenes gård i Ferup"), (1932, "Egernsund", "gift med Peter Frederiksen")],
@@ -603,6 +604,23 @@ sibs(("p868", "p869"), "gedde", "Christian Frederiks søskende", [
     ("Frederikke Louise von Kleist", "F", "1747-03-27", {"died": "1814-05-29", "src": ["PHT:1897"]}),
 ])
 
+person("sofus_ff", "Mathias Petersen", "M", rel="Sophus Petersens farfar", line="maternal", born="ca. 1832", spouse="sofus_fm",
+       father="sofus_fff", mother="sofus_ffm", note="Gift 13. okt. 1865 i Nybøl med Sophia Maria Nissen.", src=["LL:13-4984314", "LL:12-15059288"])
+person("sofus_fm", "Sophia Maria Nissen", "F", rel="Sophus Petersens farmor", line="maternal", born="ca. 1842", spouse="sofus_ff",
+       father="sofus_fmf", mother="sofus_fmm", src=["LL:13-4984317", "LL:12-15059289"])
+person("sofus_mf", "Lorens Petersen", "M", rel="Sophus Petersens morfar", line="maternal", born="1831-02-26", spouse="sofus_mm",
+       father="sofus_mff", mother="sofus_mfm", note="Gift 12. april 1860 i Dybbøl med Marie Jørgensen.", src=["LL:13-4698057", "LL:12-14359020"])
+person("sofus_mm", "Marie Jørgensen", "F", rel="Sophus Petersens mormor", line="maternal", born="1834-05-22", spouse="sofus_mf",
+       father="sofus_mmf", mother="sofus_mmm", note="Fødestedet er indekseret som 'Borup sogn'.", src=["LL:13-4698060", "LL:12-14359021"])
+for pid, nm, sx, rl, sp, k in [("sofus_fff", "Peter Petersen", "M", "Sophus' oldefar", "sofus_ffm", "LL:13-4984315"),
+                               ("sofus_ffm", "Maria Cathrine Lorensen", "F", "Sophus' oldemor", "sofus_fff", "LL:13-4984316"),
+                               ("sofus_fmf", "Rasmus Nissen", "M", "Sophus' oldefar", "sofus_fmm", "LL:13-4984318"),
+                               ("sofus_fmm", "Maren Zachariasen", "F", "Sophus' oldemor", "sofus_fmf", "LL:13-4984319"),
+                               ("sofus_mff", "Lorens Petersen", "M", "Sophus' oldefar", "sofus_mfm", "LL:13-4698058"),
+                               ("sofus_mfm", "Marie Petersen", "F", "Sophus' oldemor", "sofus_mff", "LL:13-4698059"),
+                               ("sofus_mmf", "Lorens Peter Jørgensen", "M", "Sophus' oldefar", "sofus_mmm", "LL:13-4698061"),
+                               ("sofus_mmm", "Anna Kathrine Mathiesen", "F", "Sophus' oldemor", "sofus_mmf", "LL:13-4698062")]:
+    person(pid, nm, sx, rel=rl + " (Nybøl/Dybbøl)", line="maternal", spouse=sp, src=[k])
 sibs(("sofus_f", "sofus_m"), "maternal", "Sophus Petersens søskende", [
     ("Lorenz Peter Petersen", "M", "1897-09-04", {"src": ["LL:12-15056684"]}),
     ("Peter Petersen", "M", "1898-10-07", {"occ": ["Landbrug hos forældrene (1921)"], "src": ["LL:12-15056755", "LL:25-6006025"]}),
