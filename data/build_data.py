@@ -48,6 +48,7 @@ PLACES = {
     "Rinkenæs": (54.889, 9.553, "Sønderjylland"),
     "Ulkebøl": (54.913, 9.820, "Sønderjylland"),
     "Snogbæk": (54.937, 9.716, "Sønderjylland"),
+    "Notmark (Als)": (54.990, 9.940, "Sønderjylland"),
     "Nybøl (Paakjær)": (54.928, 9.647, "Sønderjylland"),
     "Magleby (Nordenbro), Langeland": (54.815, 10.735, "Langeland"),
     "Humble (Kædeby), Langeland": (54.858, 10.695, "Langeland"),
@@ -218,12 +219,14 @@ person("p12", "Wilhelm Krogh", "M", rel="tog skylden: anerkendte faderskabet til
        note="Ifølge familien tog han skylden for gårdmandssønnen Sophus Petersen fra Påkjær. I det borgerlige register står han som Lorenz' far. Født 9. okt. 1908 i 'Tastrup' (eller 'Vastrup'; skriften er svær at læse), "
             "Landkreis Flensburg, dengang i Tyskland. Faderskabet står i randnoten i Egernsund-registret: han anerkendte "
             "faderskabet 5. april 1932, og retten afgjorde sagen 10. juni 1932. Hans forældre og hans videre liv er endnu ikke fundet. "
-            "De står i tyske registre (Flensburg).",
-       src=["AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4, randnote 11.7.1932 (bsid 37658, billede 125)", "LL:25-6006023"])
+            "De står i tyske registre (Flensburg). Der boede en anden Krogh-familie i Nybøl: arbejder Detlef Krogh (f. 8. maj 1905), gift 1929 i Broager "
+            "med Cecilie Marie f. Hansen, fik døtre i Nybøl 1936 og 1940. I 1921 boede Detlef Krogh (f. 1849) og Botilde (f. 1850) i Nybøl. "
+            "De kan være Wilhelms bror og bedsteforældre, men det er ikke bekræftet.",
+       src=["AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4, randnote 11.7.1932 (bsid 37658, billede 125)", "AO:Nybøl kirkebog 1931–58, fødte piger 1936 og 1940 (Detlef Krogh)"])
 person("sofus", "Sophus (Sofus) Petersen", "M", ahnen=12, line="maternal", conf="told",
        born="1903-06-28", bplace="Nybøl (Paakjær)", died="1945-08-24", dplace="Nybøl (Paakjær)", father="sofus_f", mother="sofus_m",
        res=[(1903, "Nybøl (Paakjær)", "født på forældrenes gård"), (1945, "Nybøl (Paakjær)", "død; begravet på Nybøl Kirkegård")],
-       spouse="sofus_w", occ=["Gårdmandssøn, senere gårdmand, Påkjær gård i Nybøl"],
+       spouse="sofus_w", occ=["Gårdmandssøn, Påkjær gård i Nybøl", "Gårdejer, Nybøl (1938–43)"],
        note="Født 28. juni 1903 og døbt 24. juli 1903 i Nybøl Kirke (kirkebogen 1903 nr. 12) som søn af gårdmand ('Hufner') Peter Petersen "
             "og hustru Anna Cathrine Marie f. Petersen i Nybøl. Faddere: gæstgiver Johannes Hansen i Hostrup, tjenestekarl Jürgen Jacobsen "
             "i Nybøl og ugift Marie Iversen i Schottsbüllfeld. Fødselsdatoen passer præcist med gravstenen på Nybøl Kirkegård. "
@@ -234,8 +237,9 @@ person("sofus", "Sophus (Sofus) Petersen", "M", ahnen=12, line="maternal", conf=
             "den ene flyttede til Norge. De er Lorenz' halvsøstre. En DNA-test kan bekræfte slægtskabet.",
        src=["AO:Nybøl kirkebog 1880–1931, dåb 1903 nr. 12 (bsid 202179, billede 88)", "LL:12-15057041 (indekseret med dåbsdatoen 24.7.1903)",
             "Gravsten på Nybøl Kirkegård (foto fra familien): 'Minde over en elsket Mand og Fader Sofus Petersen, Paakjær, * 28. Juni 1903 † 24. Aug. 1945'",
-            "Familiens oplysninger"])
-person("sofus_w", "Christine Petersen (f. Jensen)", "F", rel="Sophus Petersens hustru", line="maternal", born="1907-02-21",
+            "Familiens oplysninger", "AO:Nybøl kirkebog 1931–58, fødte piger 1938 nr. 6, 1940 nr. 4, 1943 nr. 5"])
+person("sofus_w", "Christine Petersen (f. Jensen)", "F", rel="Sophus Petersens hustru", line="maternal", born="1907-02-21", bplace="Notmark (Als)",
+       note="Gift med Sophus i Nybøl Kirke i efteråret 1937 (kirkebogen angiver både 2. oktober og 2. november 1937). Født i Notmark; kirkebogen 1940–43 angiver fødselsåret 1908, gravstenen 1907.",
        died="1985-06-25", dplace="Nybøl (Paakjær)", spouse="sofus", conf="record",
        src=["Gravsten på Nybøl Kirkegård (foto fra familien): 'og vor kære Moder Christine Petersen f. Jensen * 21. Feb. 1907 † 25. Juni 1985'"])
 person("sofus_f", "Peter Petersen", "M", ahnen=24, line="maternal", born="1866-09-22", bplace="Nybøl (Paakjær)",
@@ -638,11 +642,15 @@ sibs(("sofus_f", "sofus_m"), "maternal", "Sophus Petersens søskende", [
     ("Hans Petersen", "M", "1910", {"src": ["AO:Folketælling 1921, Nybøl (bsid 85824)"]}),
     ("Viggo Petersen", "M", "1913", {"src": ["AO:Folketælling 1921, Nybøl (bsid 85824)"]}),
 ])
-for i, (nm, nt) in enumerate([("Gerda Petersen", "Datter af Sophus og Christine."),
-                              ("Datter (navn mangler)", "Datter af Sophus og Christine."),
-                              ("Datter (navn mangler)", "Datter af Sophus og Christine; flyttede til Norge.")]):
-    person(f"sofus_d{i}", nm, "F", rel="Sophus Petersens datter (Lorenz' halvsøster)", line="maternal",
-           father="sofus", mother="sofus_w", conf="told", note=nt, src=["Familiens oplysninger"])
+NYB = "AO:Nybøl kirkebog 1931–58, fødte piger (bsid 202180)"
+for i, (nm, yr, nr) in enumerate([("Rita Cathrine Petersen", "1938", "1938 nr. 6"),
+                                  ("Gerda Marie Petersen", "1940", "1940 nr. 4"),
+                                  ("Edel Sofie Christine Petersen", "1943", "1943 nr. 5")]):
+    person(f"sofus_d{i}", nm, "F", rel="Sophus Petersens datter (Lorenz' halvsøster)", line="maternal", born=yr,
+           father="sofus", mother="sofus_w", conf="record",
+           note="Født på Statshospitalet i Sønderborg og døbt i Nybøl som datter af gårdejer Sophus Petersen og hustru Christine f. Jensen. "
+                "Ifølge familien flyttede en af de tre søstre til Norge. Kan være i live, så kun fødselsåret vises.",
+           src=[f"{NYB}, {nr}", "Familiens oplysninger"])
 
 sibs(("p62", "p63"), "larsen", "Kristines søskende (Langø-familien)", [
     ("Christian Anton Christensen", "M", "1879-06-17", {"note": "Født i Skrøbelev før forældrenes vielse.", "src": ["LL:12-15557976"]}),

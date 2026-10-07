@@ -1024,10 +1024,10 @@
     "Landarbejder (karl), Snogbæk (1932)"
    ],
    "conf": "record",
-   "note": "Ifølge familien tog han skylden for gårdmandssønnen Sophus Petersen fra Påkjær. I det borgerlige register står han som Lorenz' far. Født 9. okt. 1908 i 'Tastrup' (eller 'Vastrup'; skriften er svær at læse), Landkreis Flensburg, dengang i Tyskland. Faderskabet står i randnoten i Egernsund-registret: han anerkendte faderskabet 5. april 1932, og retten afgjorde sagen 10. juni 1932. Hans forældre og hans videre liv er endnu ikke fundet. De står i tyske registre (Flensburg).",
+   "note": "Ifølge familien tog han skylden for gårdmandssønnen Sophus Petersen fra Påkjær. I det borgerlige register står han som Lorenz' far. Født 9. okt. 1908 i 'Tastrup' (eller 'Vastrup'; skriften er svær at læse), Landkreis Flensburg, dengang i Tyskland. Faderskabet står i randnoten i Egernsund-registret: han anerkendte faderskabet 5. april 1932, og retten afgjorde sagen 10. juni 1932. Hans forældre og hans videre liv er endnu ikke fundet. De står i tyske registre (Flensburg). Der boede en anden Krogh-familie i Nybøl: arbejder Detlef Krogh (f. 8. maj 1905), gift 1929 i Broager med Cecilie Marie f. Hansen, fik døtre i Nybøl 1936 og 1940. I 1921 boede Detlef Krogh (f. 1849) og Botilde (f. 1850) i Nybøl. De kan være Wilhelms bror og bedsteforældre, men det er ikke bekræftet.",
    "src": [
     "AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4, randnote 11.7.1932 (bsid 37658, billede 125)",
-    "LL:25-6006023"
+    "AO:Nybøl kirkebog 1931–58, fødte piger 1936 og 1940 (Detlef Krogh)"
    ],
    "res": [
     [
@@ -1055,7 +1055,8 @@
    "died": "1945-08-24",
    "dplace": "Nybøl (Paakjær)",
    "occ": [
-    "Gårdmandssøn, senere gårdmand, Påkjær gård i Nybøl"
+    "Gårdmandssøn, Påkjær gård i Nybøl",
+    "Gårdejer, Nybøl (1938–43)"
    ],
    "conf": "told",
    "note": "Født 28. juni 1903 og døbt 24. juli 1903 i Nybøl Kirke (kirkebogen 1903 nr. 12) som søn af gårdmand ('Hufner') Peter Petersen og hustru Anna Cathrine Marie f. Petersen i Nybøl. Faddere: gæstgiver Johannes Hansen i Hostrup, tjenestekarl Jürgen Jacobsen i Nybøl og ugift Marie Iversen i Schottsbüllfeld. Fødselsdatoen passer præcist med gravstenen på Nybøl Kirkegård. Familien har fået at vide, at Lorenz' far hed Sophus og var fra Påkjær gård i Nybøl, og at han som gårdmandssøn ikke kunne vedstå faderskabet. I stedet tog landarbejder Wilhelm Krogh skylden: han anerkendte faderskabet i 1932, og retten stadfæstede det, så det er Krogh, der står i standsregistret. Påkjær ligger i Nybøl sogn tæt ved Snogbæk, hvor Krogh var karl i 1932. Sophus døde kun 42 år gammel. Han og hustruen Christine fik tre døtre: Gerda og to andre, hvoraf den ene flyttede til Norge. De er Lorenz' halvsøstre. En DNA-test kan bekræfte slægtskabet.",
@@ -1063,7 +1064,8 @@
     "AO:Nybøl kirkebog 1880–1931, dåb 1903 nr. 12 (bsid 202179, billede 88)",
     "LL:12-15057041 (indekseret med dåbsdatoen 24.7.1903)",
     "Gravsten på Nybøl Kirkegård (foto fra familien): 'Minde over en elsket Mand og Fader Sofus Petersen, Paakjær, * 28. Juni 1903 † 24. Aug. 1945'",
-    "Familiens oplysninger"
+    "Familiens oplysninger",
+    "AO:Nybøl kirkebog 1931–58, fødte piger 1938 nr. 6, 1940 nr. 4, 1943 nr. 5"
    ],
    "res": [
     [
@@ -1092,12 +1094,12 @@
    "line": "maternal",
    "rel": "Sophus Petersens hustru",
    "born": "1907-02-21",
-   "bplace": null,
+   "bplace": "Notmark (Als)",
    "died": "1985-06-25",
    "dplace": "Nybøl (Paakjær)",
    "occ": [],
    "conf": "record",
-   "note": null,
+   "note": "Gift med Sophus i Nybøl Kirke i efteråret 1937 (kirkebogen angiver både 2. oktober og 2. november 1937). Født i Notmark; kirkebogen 1940–43 angiver fødselsåret 1908, gravstenen 1907.",
    "src": [
     "Gravsten på Nybøl Kirkegård (foto fra familien): 'og vor kære Moder Christine Petersen f. Jensen * 21. Feb. 1907 † 25. Juni 1985'"
    ],
@@ -5242,19 +5244,20 @@
   },
   {
    "id": "sofus_d0",
-   "name": "Gerda Petersen",
+   "name": "Rita Cathrine Petersen",
    "sex": "F",
    "ahnen": null,
    "line": "maternal",
    "rel": "Sophus Petersens datter (Lorenz' halvsøster)",
-   "born": null,
+   "born": "1938",
    "bplace": null,
    "died": null,
    "dplace": null,
    "occ": [],
-   "conf": "told",
-   "note": "Datter af Sophus og Christine.",
+   "conf": "record",
+   "note": "Født på Statshospitalet i Sønderborg og døbt i Nybøl som datter af gårdejer Sophus Petersen og hustru Christine f. Jensen. Ifølge familien flyttede en af de tre søstre til Norge. Kan være i live, så kun fødselsåret vises.",
    "src": [
+    "AO:Nybøl kirkebog 1931–58, fødte piger (bsid 202180), 1938 nr. 6",
     "Familiens oplysninger"
    ],
    "res": [],
@@ -5267,19 +5270,20 @@
   },
   {
    "id": "sofus_d1",
-   "name": "Datter (navn mangler)",
+   "name": "Gerda Marie Petersen",
    "sex": "F",
    "ahnen": null,
    "line": "maternal",
    "rel": "Sophus Petersens datter (Lorenz' halvsøster)",
-   "born": null,
+   "born": "1940",
    "bplace": null,
    "died": null,
    "dplace": null,
    "occ": [],
-   "conf": "told",
-   "note": "Datter af Sophus og Christine.",
+   "conf": "record",
+   "note": "Født på Statshospitalet i Sønderborg og døbt i Nybøl som datter af gårdejer Sophus Petersen og hustru Christine f. Jensen. Ifølge familien flyttede en af de tre søstre til Norge. Kan være i live, så kun fødselsåret vises.",
    "src": [
+    "AO:Nybøl kirkebog 1931–58, fødte piger (bsid 202180), 1940 nr. 4",
     "Familiens oplysninger"
    ],
    "res": [],
@@ -5292,19 +5296,20 @@
   },
   {
    "id": "sofus_d2",
-   "name": "Datter (navn mangler)",
+   "name": "Edel Sofie Christine Petersen",
    "sex": "F",
    "ahnen": null,
    "line": "maternal",
    "rel": "Sophus Petersens datter (Lorenz' halvsøster)",
-   "born": null,
+   "born": "1943",
    "bplace": null,
    "died": null,
    "dplace": null,
    "occ": [],
-   "conf": "told",
-   "note": "Datter af Sophus og Christine; flyttede til Norge.",
+   "conf": "record",
+   "note": "Født på Statshospitalet i Sønderborg og døbt i Nybøl som datter af gårdejer Sophus Petersen og hustru Christine f. Jensen. Ifølge familien flyttede en af de tre søstre til Norge. Kan være i live, så kun fødselsåret vises.",
    "src": [
+    "AO:Nybøl kirkebog 1931–58, fødte piger (bsid 202180), 1943 nr. 5",
     "Familiens oplysninger"
    ],
    "res": [],
@@ -6050,6 +6055,11 @@
   "Snogbæk": [
    54.937,
    9.716,
+   "Sønderjylland"
+  ],
+  "Notmark (Als)": [
+   54.99,
+   9.94,
    "Sønderjylland"
   ],
   "Nybøl (Paakjær)": [

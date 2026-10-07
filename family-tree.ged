@@ -582,11 +582,11 @@
 2 DATE 1932
 2 PLAC Snogbæk
 2 NOTE landarbejder
-1 NOTE Ifølge familien tog han skylden for gårdmandssønnen Sophus Petersen fra Påkjær. I det borgerlige register står han som Lorenz' far. Født 9. okt. 1908 i 'Tastrup' (eller 'Vastrup'; skriften er svær at læse), Landkreis Flensburg, dengang i Tyskland. Faderskabet står i randnoten i Egernsund-registret: han anerkendte faderskabet 5. april 1932, og retten afgjorde sagen 10. juni 1932. Hans forældre og hans videre liv er endnu ikke fundet. De står i tyske registre (Flensburg).
+1 NOTE Ifølge familien tog han skylden for gårdmandssønnen Sophus Petersen fra Påkjær. I det borgerlige register står han som Lorenz' far. Født 9. okt. 1908 i 'Tastrup' (eller 'Vastrup'; skriften er svær at læse), Landkreis Flensburg, dengang i Tyskland. Faderskabet står i randnoten i Egernsund-registret: han anerkendte faderskabet 5. april 1932, og retten afgjorde sagen 10. juni 1932. Hans forældre og hans videre liv er endnu ikke fundet. De står i tyske registre (Flensburg). Der boede en anden Krogh-familie i Nybøl: arbejder Detlef Krogh (f. 8. maj 1905), gift 1929 i Broager med Cecilie Marie f. Hansen, fik døtre i Nybøl 1936 og 1940. I 1921 boede Detlef Krogh (f. 1849) og Botilde (f. 1850) i Nybøl. De kan være Wilhelms bror og bedsteforældre, men det er ikke bekræftet.
 1 SOUR
 2 PAGE AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4, randnote 11.7.1932 (bsid 37658, billede 125)
 1 SOUR
-2 PAGE LL:25-6006023
+2 PAGE AO:Nybøl kirkebog 1931–58, fødte piger 1936 og 1940 (Detlef Krogh)
 0 @sofus@ INDI
 1 NAME Sophus /Petersen/
 1 SEX M
@@ -596,7 +596,8 @@
 1 DEAT
 2 DATE 24 AUG 1945
 2 PLAC Nybøl (Paakjær), Danmark
-1 OCCU Gårdmandssøn, senere gårdmand, Påkjær gård i Nybøl
+1 OCCU Gårdmandssøn, Påkjær gård i Nybøl
+1 OCCU Gårdejer, Nybøl (1938–43)
 1 RESI
 2 DATE 1903
 2 PLAC Nybøl (Paakjær)
@@ -615,6 +616,8 @@
 2 PAGE Gravsten på Nybøl Kirkegård (foto fra familien): 'Minde over en elsket Mand og Fader Sofus Petersen, Paakjær, * 28. Juni 1903 † 24. Aug. 1945'
 1 SOUR
 2 PAGE Familiens oplysninger
+1 SOUR
+2 PAGE AO:Nybøl kirkebog 1931–58, fødte piger 1938 nr. 6, 1940 nr. 4, 1943 nr. 5
 1 FAMS @F5@
 1 FAMC @F16@
 1 FAMS @F55@
@@ -623,9 +626,11 @@
 1 SEX F
 1 BIRT
 2 DATE 21 FEB 1907
+2 PLAC Notmark (Als), Danmark
 1 DEAT
 2 DATE 25 JUN 1985
 2 PLAC Nybøl (Paakjær), Danmark
+1 NOTE Gift med Sophus i Nybøl Kirke i efteråret 1937 (kirkebogen angiver både 2. oktober og 2. november 1937). Født i Notmark; kirkebogen 1940–43 angiver fødselsåret 1908, gravstenen 1907.
 1 SOUR
 2 PAGE Gravsten på Nybøl Kirkegård (foto fra familien): 'og vor kære Moder Christine Petersen f. Jensen * 21. Feb. 1907 † 25. Juni 1985'
 1 FAMS @F55@
@@ -2445,26 +2450,35 @@
 2 PAGE AO:Folketælling 1921, Nybøl (bsid 85824)
 1 FAMC @F16@
 0 @sofus_d0@ INDI
-1 NAME Gerda /Petersen/
+1 NAME Rita Cathrine /Petersen/
 1 SEX F
-1 NOTE Datter af Sophus og Christine.
-1 NOTE Sikkerhed: oplyst af familien
+1 BIRT
+2 DATE 1938
+1 NOTE Født på Statshospitalet i Sønderborg og døbt i Nybøl som datter af gårdejer Sophus Petersen og hustru Christine f. Jensen. Ifølge familien flyttede en af de tre søstre til Norge. Kan være i live, så kun fødselsåret vises.
+1 SOUR
+2 PAGE AO:Nybøl kirkebog 1931–58, fødte piger (bsid 202180), 1938 nr. 6
 1 SOUR
 2 PAGE Familiens oplysninger
 1 FAMC @F55@
 0 @sofus_d1@ INDI
-1 NAME Datter
+1 NAME Gerda Marie /Petersen/
 1 SEX F
-1 NOTE Datter af Sophus og Christine.
-1 NOTE Sikkerhed: oplyst af familien
+1 BIRT
+2 DATE 1940
+1 NOTE Født på Statshospitalet i Sønderborg og døbt i Nybøl som datter af gårdejer Sophus Petersen og hustru Christine f. Jensen. Ifølge familien flyttede en af de tre søstre til Norge. Kan være i live, så kun fødselsåret vises.
+1 SOUR
+2 PAGE AO:Nybøl kirkebog 1931–58, fødte piger (bsid 202180), 1940 nr. 4
 1 SOUR
 2 PAGE Familiens oplysninger
 1 FAMC @F55@
 0 @sofus_d2@ INDI
-1 NAME Datter
+1 NAME Edel Sofie Christine /Petersen/
 1 SEX F
-1 NOTE Datter af Sophus og Christine; flyttede til Norge.
-1 NOTE Sikkerhed: oplyst af familien
+1 BIRT
+2 DATE 1943
+1 NOTE Født på Statshospitalet i Sønderborg og døbt i Nybøl som datter af gårdejer Sophus Petersen og hustru Christine f. Jensen. Ifølge familien flyttede en af de tre søstre til Norge. Kan være i live, så kun fødselsåret vises.
+1 SOUR
+2 PAGE AO:Nybøl kirkebog 1931–58, fødte piger (bsid 202180), 1943 nr. 5
 1 SOUR
 2 PAGE Familiens oplysninger
 1 FAMC @F55@
