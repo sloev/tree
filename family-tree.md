@@ -33,8 +33,14 @@ YOU  Johannes Gårdsted Valbjørn ✅
 │  └─ Liss Gaardsted-Jørgensen (née Pedersen) 📜  b. 18 Apr 1931 – d. 2002 · parish clerk
 │        (one of 7 children; sisters incl. Karen Margrethe Enevoldsen and Ane Elvira Pedersen)
 └─ Vivi Frederiksen Gedde ✅
-   ├─ Lorenz Heinrich Frederiksen 📜  b. 12 Jan 1932 – d. 6 May 2009 · buried Sankt Jørgens Kirkegård, Svendborg
-   │     (born out of wedlock; biological father unknown)
+   ├─ Lorenz Heinrich Frederiksen 📜  b. 12 Jan 1932 Egernsund – d. 6 May 2009 Svendborg
+   │  ├─ Peter Frederiksen 📜  b. 15 Feb 1902 Broager · labourer, Egernsund  (father in the church book;
+   │  │  │                                     family says not the biological father)
+   │  │  ├─ Lorenz Heinrich Frederiksen 📜  1870 Broager – 1957 Egernsund · labourer
+   │  │  │  ├─ Peter Christian Frederiksen 📜  b. 1839 Broager  ← Frederik Frederiksen & Anne Kirstine Peters
+   │  │  │  └─ Anna Kirstine Marie Paulsen 📜  1834–1893      ← Jens Paulsen & Kathrine Marie Lorensen
+   │  │  └─ Cathrina Maria Magdalena Hansen 📜  b. 1872 Broager ← Carl Peter Hansen & Eline Maria Magdalena Hansen
+   │  └─ Else Gedde Jensen 📜  (origin of the Gedde name; birthplace and parents not yet found)
    └─ Gerda Frederiksen 📜  b. 17 Aug 1935 – d. 18 Jul 2019 · buried Sankt Jørgens Kirkegård, Svendborg
 ```
 
@@ -53,8 +59,13 @@ YOU  Johannes Gårdsted Valbjørn ✅
   - Hadsten Lokalarkiv A37: Evald's papers, including **his own "Slægtstavle"** (family tree).
   - Midtdjurs Lokalhistoriske Arkiv A847: Johanne and Sofie Gaardsted's memoirs of Petersminde, Kolind.
 
+## Lorenz's baptism (Broager Vestre district, 1933 no. 1)
+> Baptised at home 1 Jan 1933 · born 12 Jan 1932, Egernsund · **Lorenz Heinrich** · parents: labourer Peter Frederiksen and wife Else Gedde Jensen, Egernsund (per letter from the civil registrar 11/7 1932) · godparents: the father; labourer Lorenz Frederiksen and wife Catharina, Egernsund; farmer Jens Jensen's wife, Dalsgaard.
+
+Source: Rigsarkivet, Arkivalieronline, Broager Vestre distrikt kontraministerialbog 1906–48, births (image saved as `images/lorenz-baptism-broager-1933.jpg`).
+
 ## Still open
-- **Lorenz's birthplace.** He is not in the Svendborg Vor Frue or Sankt Nikolaj birth registers for January 1932, so he was born somewhere else. The name Lorenz Heinrich points to Southern Jutland. The MyHeritage 1940 census record ("Lorens Henrick Frederiksen") should name the place.
+- **Else Gedde Jensen.** Her marriage to Peter Frederiksen (c.1931) is not in the Broager Vestre marriage register for 1928–33. Her home parish's register will give her birth date, birthplace and parents. The godmother "farmer Jens Jensen's wife, Dalsgaard" may be her mother.
 - **Gerda's maiden name.**
 - **Liss's parents.** Her birth parish would unlock the Pedersen line.
 - **Claus Gaardsted's origins.** He came to Vosnæsgaard after 1784, and his first marriage was elsewhere.

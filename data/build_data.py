@@ -32,6 +32,8 @@ PLACES = {
     "Ollerup": (55.110, 10.523, "Funen"),
     "Svendborg": (55.061, 10.607, "Funen"),
     "Hune": (57.181, 9.660, "North Jutland"),
+    "Egernsund": (54.906, 9.603, "Southern Jutland"),
+    "Broager": (54.889, 9.674, "Southern Jutland"),
 }
 
 P = []
@@ -79,14 +81,44 @@ person("p5", "Liss Gaardsted-Jørgensen (née Pedersen)", "F", ahnen=5, line="jo
             "(Hadsten Lokalarkiv). Her parents are not yet identified.",
        src=["ARK:2162357", "litteraturpriser.dk", "FamilySearch Family Tree: Liss Jørgensen (født Pedersen) 1931–2002"], res=[(1953, "Ollerup", "married life"), (1981, "Hune", "")])
 person("p6", "Lorenz Heinrich Frederiksen", "M", ahnen=6, line="maternal", conf="record",
-       born="1932-01-12", died="2009-05-06", dplace="Svendborg",
-       note="Buried at Sankt Jørgens Kirkegård, Svendborg, with his wife Gerda. Born out of wedlock: the man he grew up with "
-            "as father was not his biological father (family information). A 1940 census record exists under the spelling "
-            "'Lorens Henrick Frederiksen' (MyHeritage). His birth is not in the Svendborg Vor Frue or Sankt Nikolaj registers "
-            "for January 1932, so he was born elsewhere; the name Lorenz Heinrich suggests Southern Jutland.",
-       src=["BillionGraves via MyHeritage (collection 10147): Lorenz H. [Lorenz Heinrich] Frederiksen, Sankt Jørgens Kirkegård, Svendborg",
-            "MyHeritage: 1940 Denmark Census, 'Lorens Henrick Frederiksen' (related record, not yet viewed)",
-            "AO: Svendborg Vor Frue & Sankt Nikolaj birth registers 1932 checked, no entry (negative search)"])
+       born="1932-01-12", bplace="Egernsund", died="2009-05-06", dplace="Svendborg", father="p12", mother="p13",
+       res=[(1932, "Egernsund", "born; baptised at home 1 Jan 1933"), (2009, "Svendborg", "died; buried Sankt Jørgens Kirkegård")],
+       note="Baptism entry (Broager Vestre distrikt 1933 no. 1): born 12 Jan 1932 in Egernsund, baptised at home 1 Jan 1933; "
+            "parents labourer Peter Frederiksen and wife Else Gedde Jensen, Egernsund (per letter from the civil registrar "
+            "11/7 1932). Godparents: the father; labourer Lorenz Frederiksen and wife Catharina, Egernsund (his grandparents); "
+            "farmer Jens Jensen's wife, Dalsgaard. Family information says Peter Frederiksen was not his biological father. "
+            "Buried with his wife Gerda at Sankt Jørgens Kirkegård, Svendborg.",
+       src=["AO:Broager Vestre distrikt kontraministerialbog 1906–48, Fødte 1933 no. 1 (bsid 201141, image 112)",
+            "BillionGraves via MyHeritage (collection 10147): Lorenz H. [Lorenz Heinrich] Frederiksen, Sankt Jørgens Kirkegård, Svendborg",
+            "MyHeritage: 1940 Denmark Census, 'Lorens Henrick Frederiksen'"])
+person("p12", "Peter Frederiksen", "M", ahnen=12, line="frederiksen", born="1902-02-15", bplace="Broager",
+       father="p24", mother="p25", occ=["Farm servant, Broager (1921)", "Labourer (arbejder), Egernsund (1932)"],
+       note="Lorenz's father in law (named in the baptism entry). Family information says he was not Lorenz's biological father.",
+       src=["LL:12-15018348", "LL:14-2208771", "LL:25-5954688", "AO:Broager Vestre 1933 no. 1"])
+person("p13", "Else Gedde Jensen", "F", ahnen=13, line="maternal", conf="record",
+       note="Lorenz's mother, named in his baptism entry. 'Gedde' is part of her name, and is where your mother's surname Gedde comes from. "
+            "Not in the Southern Jutland indexes, so probably born elsewhere in Denmark. Godmother 'farmer Jens Jensen's wife, "
+            "Dalsgaard' may be her mother (unconfirmed).",
+       src=["AO:Broager Vestre 1933 no. 1"])
+person("p24", "Lorenz Heinrich Frederiksen", "M", ahnen=24, line="frederiksen", born="1870-01-23", bplace="Broager",
+       died="1957-01-04", dplace="Egernsund", father="p48", mother="p49", occ=["Labourer (arbejder), Egernsund (1932)"],
+       note="Married Cathrina Maria Magdalena Hansen 8 Oct 1895 in Broager. Godfather to his grandson and namesake in 1933. "
+            "Member of the Danish association DSK in 1942 (membership card in Broagerlands Lokalarkiv).",
+       res=[(1870, "Broager", "born"), (1921, "Broager", "census"), (1932, "Egernsund", "")],
+       src=["LL:12-14989547", "LL:12-14313283", "LL:13-1051959", "LL:25-5953605", "ARK:1158725", "AO:Broager Vestre 1933 no. 1"])
+person("p25", "Cathrina Maria Magdalena Hansen", "F", ahnen=25, line="frederiksen", born="1872-12-28", bplace="Broager",
+       father="p50", mother="p51", src=["LL:12-14990795", "LL:13-1051962", "LL:25-5953606"])
+person("p48", "Peter Christian Frederiksen", "M", ahnen=48, line="frederiksen", born="1839-05-04", bplace="Broager",
+       father="p96", mother="p97", note="Married Anna Kirstine Marie Paulsen 9 Dec 1860 in Broager.", src=["LL:13-4957004", "LL:12-14989548"])
+person("p49", "Anna Kirstine Marie Paulsen", "F", ahnen=49, line="frederiksen", born="1834-11-11", bplace="Broager",
+       died="1893-05-22", dplace="Broager", father="p98", mother="p99", src=["LL:13-4957007", "LL:11-7302858"])
+person("p50", "Carl Peter Hansen", "M", ahnen=50, line="frederiksen", bplace="Broager", src=["LL:12-14990796", "LL:13-1051963"])
+person("p51", "Eline Maria Magdalena Hansen", "F", ahnen=51, line="frederiksen", src=["LL:12-14990797", "LL:13-1051964"])
+person("p96", "Frederik Frederiksen", "M", ahnen=96, line="frederiksen", src=["LL:13-4957005"])
+person("p97", "Anne Kirstine Peters", "F", ahnen=97, line="frederiksen", src=["LL:13-4957006"])
+person("p98", "Jens Paulsen", "M", ahnen=98, line="frederiksen", src=["LL:13-4957008", "LL:11-7302859"])
+person("p99", "Kathrine Marie Lorensen", "F", ahnen=99, line="frederiksen", src=["LL:13-4957009", "LL:11-7302860"])
+sibs_later = True
 person("p7", "Gerda Frederiksen", "F", ahnen=7, line="maternal", conf="record",
        born="1935-08-17", died="2019-07-18", dplace="Svendborg",
        note="Buried at Sankt Jørgens Kirkegård, Svendborg, with her husband Lorenz. Maiden name not yet known.",
@@ -245,6 +277,18 @@ person("s_liss_1", "Karen Margrethe Enevoldsen (née Pedersen)", "F", rel="Liss'
        src=["FamilySearch Family Tree"])
 person("s_liss_2", "Ane Elvira Pedersen", "F", rel="Liss's sister", line="jorgensen", sibof="p5", src=["FamilySearch Family Tree"])
 
+sibs(("p24", "p25"), "frederiksen", "Peter's sibling", [
+    ("Son (unnamed)", "M", "1896", {"died": "1896-05-19"}),
+    ("Eline Christine Frederiksen", "F", "1897-04-28", {}),
+    ("Child of Lorenz & Cathrina", "M", "1905-07-15", {}),
+])
+sibs(("p48", "p49"), "frederiksen", "Lorenz Heinrich's sibling", [
+    ("Hans Frederik Frederiksen", "M", "1862-10-28", {}),
+    ("Jens Frederiksen", "M", "1865-07-04", {}),
+    ("Catharina Maria Frederiksen", "F", "1867-04-24", {"note": "Married Hans Hendrik Ohlsen 17 Jun 1888 in Broager."}),
+    ("Anna Christine Maria Frederiksen", "F", "1874-02-10", {}),
+])
+
 # Occupation categories for statistics
 CATS = [("Clergy & church", ["priest", "clerk", "kordegn"]), ("Teaching & writing", ["teacher", "author"]),
         ("Farming & estates", ["farm", "cottager", "smallholder", "estate", "forpagter", "bonde"]),
@@ -253,6 +297,9 @@ CATS = [("Clergy & church", ["priest", "clerk", "kordegn"]), ("Teaching & writin
         ("Trade", ["grocer"]), ("Poor relief", ["poorhouse"])]
 
 PHOTOS = [
+    dict(file="images/lorenz-baptism-broager-1933.jpg", title="Lorenz's baptism, Broager 1933",
+         caption="Broager Vestre district church book, 1933 no. 1: Lorenz Heinrich, born 12 Jan 1932 in Egernsund. Parents Peter Frederiksen and Else Gedde Jensen.",
+         credit="Rigsarkivet, Arkivalieronline", link="https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=17216172"),
     dict(file="images/evald-baptism-kolind-1922.jpg", title="Evald's birth entry, Kolind 1922",
          caption="Kolind church book, boys born 1922, no. 6. Parents Aage Evald Oskar Jørgensen and Jensine Mariane Magdalene Gaardsted; margin note on the 1985 name change.",
          credit="Rigsarkivet, Arkivalieronline", link="https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=17124596"),

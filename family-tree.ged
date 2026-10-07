@@ -127,17 +127,177 @@
 1 SEX M
 1 BIRT
 2 DATE 12 JAN 1932
+2 PLAC Egernsund, Denmark
 1 DEAT
 2 DATE 6 MAY 2009
 2 PLAC Svendborg, Denmark
-1 NOTE Buried at Sankt Jørgens Kirkegård, Svendborg, with his wife Gerda. Born out of wedlock: the man he grew up with as father was not his biological father (family information). A 1940 census record exists under the spelling 'Lorens Henrick Frederiksen' (MyHeritage). His birth is not in the Svendborg Vor Frue or Sankt Nikolaj registers for January 1932, so he was born elsewhere; the name Lorenz Heinrich suggests Southern Jutland.
+1 RESI
+2 DATE 1932
+2 PLAC Egernsund
+2 NOTE born; baptised at home 1 Jan 1933
+1 RESI
+2 DATE 2009
+2 PLAC Svendborg
+2 NOTE died; buried Sankt Jørgens Kirkegård
+1 NOTE Baptism entry (Broager Vestre distrikt 1933 no. 1): born 12 Jan 1932 in Egernsund, baptised at home 1 Jan 1933; parents labourer Peter Frederiksen and wife Else Gedde Jensen, Egernsund (per letter from the civil registrar 11/7 1932). Godparents: the father; labourer Lorenz Frederiksen and wife Catharina, Egernsund (his grandparents); farmer Jens Jensen's wife, Dalsgaard. Family information says Peter Frederiksen was not his biological father. Buried with his wife Gerda at Sankt Jørgens Kirkegård, Svendborg.
+1 SOUR
+2 PAGE AO:Broager Vestre distrikt kontraministerialbog 1906–48, Fødte 1933 no. 1 (bsid 201141, image 112)
 1 SOUR
 2 PAGE BillionGraves via MyHeritage (collection 10147): Lorenz H. [Lorenz Heinrich] Frederiksen, Sankt Jørgens Kirkegård, Svendborg
 1 SOUR
-2 PAGE MyHeritage: 1940 Denmark Census, 'Lorens Henrick Frederiksen' (related record, not yet viewed)
-1 SOUR
-2 PAGE AO: Svendborg Vor Frue & Sankt Nikolaj birth registers 1932 checked, no entry (negative search)
+2 PAGE MyHeritage: 1940 Denmark Census, 'Lorens Henrick Frederiksen'
 1 FAMS @F3@
+1 FAMC @F5@
+0 @p12@ INDI
+1 NAME Peter /Frederiksen/
+1 SEX M
+1 BIRT
+2 DATE 15 FEB 1902
+2 PLAC Broager, Denmark
+1 OCCU Farm servant, Broager (1921)
+1 OCCU Labourer (arbejder), Egernsund (1932)
+1 NOTE Lorenz's father in law (named in the baptism entry). Family information says he was not Lorenz's biological father.
+1 SOUR
+2 PAGE LL:12-15018348
+1 SOUR
+2 PAGE LL:14-2208771
+1 SOUR
+2 PAGE LL:25-5954688
+1 SOUR
+2 PAGE AO:Broager Vestre 1933 no. 1
+1 FAMS @F5@
+1 FAMC @F6@
+0 @p13@ INDI
+1 NAME Else Gedde /Jensen/
+1 SEX F
+1 NOTE Lorenz's mother, named in his baptism entry. 'Gedde' is part of her name, and is where your mother's surname Gedde comes from. Not in the Southern Jutland indexes, so probably born elsewhere in Denmark. Godmother 'farmer Jens Jensen's wife, Dalsgaard' may be her mother (unconfirmed).
+1 SOUR
+2 PAGE AO:Broager Vestre 1933 no. 1
+1 FAMS @F5@
+0 @p24@ INDI
+1 NAME Lorenz Heinrich /Frederiksen/
+1 SEX M
+1 BIRT
+2 DATE 23 JAN 1870
+2 PLAC Broager, Denmark
+1 DEAT
+2 DATE 4 JAN 1957
+2 PLAC Egernsund, Denmark
+1 OCCU Labourer (arbejder), Egernsund (1932)
+1 RESI
+2 DATE 1870
+2 PLAC Broager
+2 NOTE born
+1 RESI
+2 DATE 1921
+2 PLAC Broager
+2 NOTE census
+1 RESI
+2 DATE 1932
+2 PLAC Egernsund
+1 NOTE Married Cathrina Maria Magdalena Hansen 8 Oct 1895 in Broager. Godfather to his grandson and namesake in 1933. Member of the Danish association DSK in 1942 (membership card in Broagerlands Lokalarkiv).
+1 SOUR
+2 PAGE LL:12-14989547
+1 SOUR
+2 PAGE LL:12-14313283
+1 SOUR
+2 PAGE LL:13-1051959
+1 SOUR
+2 PAGE LL:25-5953605
+1 SOUR
+2 PAGE ARK:1158725
+1 SOUR
+2 PAGE AO:Broager Vestre 1933 no. 1
+1 FAMS @F6@
+1 FAMC @F7@
+0 @p25@ INDI
+1 NAME Cathrina Maria Magdalena /Hansen/
+1 SEX F
+1 BIRT
+2 DATE 28 DEC 1872
+2 PLAC Broager, Denmark
+1 SOUR
+2 PAGE LL:12-14990795
+1 SOUR
+2 PAGE LL:13-1051962
+1 SOUR
+2 PAGE LL:25-5953606
+1 FAMS @F6@
+1 FAMC @F8@
+0 @p48@ INDI
+1 NAME Peter Christian /Frederiksen/
+1 SEX M
+1 BIRT
+2 DATE 4 MAY 1839
+2 PLAC Broager, Denmark
+1 NOTE Married Anna Kirstine Marie Paulsen 9 Dec 1860 in Broager.
+1 SOUR
+2 PAGE LL:13-4957004
+1 SOUR
+2 PAGE LL:12-14989548
+1 FAMS @F7@
+1 FAMC @F9@
+0 @p49@ INDI
+1 NAME Anna Kirstine Marie /Paulsen/
+1 SEX F
+1 BIRT
+2 DATE 11 NOV 1834
+2 PLAC Broager, Denmark
+1 DEAT
+2 DATE 22 MAY 1893
+2 PLAC Broager, Denmark
+1 SOUR
+2 PAGE LL:13-4957007
+1 SOUR
+2 PAGE LL:11-7302858
+1 FAMS @F7@
+1 FAMC @F10@
+0 @p50@ INDI
+1 NAME Carl Peter /Hansen/
+1 SEX M
+1 BIRT
+2 PLAC Broager, Denmark
+1 SOUR
+2 PAGE LL:12-14990796
+1 SOUR
+2 PAGE LL:13-1051963
+1 FAMS @F8@
+0 @p51@ INDI
+1 NAME Eline Maria Magdalena /Hansen/
+1 SEX F
+1 SOUR
+2 PAGE LL:12-14990797
+1 SOUR
+2 PAGE LL:13-1051964
+1 FAMS @F8@
+0 @p96@ INDI
+1 NAME Frederik /Frederiksen/
+1 SEX M
+1 SOUR
+2 PAGE LL:13-4957005
+1 FAMS @F9@
+0 @p97@ INDI
+1 NAME Anne Kirstine /Peters/
+1 SEX F
+1 SOUR
+2 PAGE LL:13-4957006
+1 FAMS @F9@
+0 @p98@ INDI
+1 NAME Jens /Paulsen/
+1 SEX M
+1 SOUR
+2 PAGE LL:13-4957008
+1 SOUR
+2 PAGE LL:11-7302859
+1 FAMS @F10@
+0 @p99@ INDI
+1 NAME Kathrine Marie /Lorensen/
+1 SEX F
+1 SOUR
+2 PAGE LL:13-4957009
+1 SOUR
+2 PAGE LL:11-7302860
+1 FAMS @F10@
 0 @p7@ INDI
 1 NAME Gerda /Frederiksen/
 1 SEX F
@@ -193,7 +353,7 @@
 1 SOUR
 2 PAGE DFS:18978910
 1 FAMS @F4@
-1 FAMC @F5@
+1 FAMC @F11@
 0 @p9@ INDI
 1 NAME Jensine Mariane Magdalene /Gaardsted/
 1 SEX F
@@ -227,7 +387,7 @@
 1 SOUR
 2 PAGE DFS:18978911
 1 FAMS @F4@
-1 FAMC @F6@
+1 FAMC @F12@
 0 @s_ester@ INDI
 1 NAME Ester Kristine /Jørgensen/
 1 SEX F
@@ -276,8 +436,8 @@
 2 PAGE LL:9-1795568
 1 SOUR
 2 PAGE LL:11-230038
-1 FAMS @F5@
-1 FAMC @F7@
+1 FAMS @F11@
+1 FAMC @F13@
 0 @p17@ INDI
 1 NAME Lovisa /Larsson/
 1 SEX F
@@ -305,8 +465,8 @@
 2 PAGE LL:9-1795569
 1 SOUR
 2 PAGE LL:11-231267
-1 FAMS @F5@
-1 FAMC @F8@
+1 FAMS @F11@
+1 FAMC @F14@
 0 @p18@ INDI
 1 NAME Hans Peter /Gaardsted/
 1 SEX M
@@ -338,8 +498,8 @@
 2 PAGE LL:9-1332308
 1 SOUR
 2 PAGE LL:11-3881351
-1 FAMS @F6@
-1 FAMC @F9@
+1 FAMS @F12@
+1 FAMC @F15@
 0 @p19@ INDI
 1 NAME Rasmine Christine /Andersen/
 1 SEX F
@@ -370,8 +530,8 @@
 2 PAGE LL:25-1032484
 1 SOUR
 2 PAGE AO:27841253
-1 FAMS @F6@
-1 FAMC @F10@
+1 FAMS @F12@
+1 FAMC @F16@
 0 @p32@ INDI
 1 NAME Niels /Jørgensen/
 1 SEX M
@@ -397,7 +557,7 @@
 2 PAGE LL:7-586576
 1 SOUR
 2 PAGE LL:8-31142
-1 FAMS @F7@
+1 FAMS @F13@
 0 @p33@ INDI
 1 NAME Johanne Sophie /Hansen/
 1 SEX F
@@ -414,7 +574,7 @@
 2 PAGE LL:9-407995
 1 SOUR
 2 PAGE LL:17-1567270
-1 FAMS @F7@
+1 FAMS @F13@
 0 @p34@ INDI
 1 NAME Niels /Larsen/
 1 SEX M
@@ -423,7 +583,7 @@
 1 NOTE Swedish; named in daughter's death record.
 1 SOUR
 2 PAGE LL:11-231268
-1 FAMS @F8@
+1 FAMS @F14@
 0 @p36@ INDI
 1 NAME Jochum /Gaardsted/
 1 SEX M
@@ -463,9 +623,9 @@
 2 PAGE LL:13-1706737
 1 SOUR
 2 PAGE LL:11-1962320
-1 FAMS @F9@
-1 FAMC @F11@
-1 FAMS @F16@
+1 FAMS @F15@
+1 FAMC @F17@
+1 FAMS @F22@
 0 @p37@ INDI
 1 NAME Ane Sophie /Jensdatter/
 1 SEX F
@@ -481,7 +641,7 @@
 2 PAGE LL:13-1706738
 1 SOUR
 2 PAGE LL:11-1962058
-1 FAMS @F9@
+1 FAMS @F15@
 0 @p38@ INDI
 1 NAME Anders Rasmussen /Rousing/
 1 SEX M
@@ -503,8 +663,8 @@
 2 PAGE LL:6-849928
 1 SOUR
 2 PAGE LL:11-4601883
-1 FAMS @F10@
-1 FAMC @F12@
+1 FAMS @F16@
+1 FAMC @F18@
 0 @p39@ INDI
 1 NAME Mariane /Hansdatter/
 1 SEX F
@@ -521,8 +681,8 @@
 2 PAGE LL:2-515660
 1 SOUR
 2 PAGE LL:11-4602105
-1 FAMS @F10@
-1 FAMC @F13@
+1 FAMS @F16@
+1 FAMC @F19@
 0 @p72@ INDI
 1 NAME Claus /Gaardsted/
 1 SEX M
@@ -550,7 +710,7 @@
 2 PAGE AO:Skødstrup FKVD 1780–1809, p.75
 1 SOUR
 2 PAGE Trap Danmark / danskeherregaarde.dk (Bogensholm)
-1 FAMS @F11@
+1 FAMS @F17@
 0 @p73@ INDI
 1 NAME Kirsten Marie /Jørgensdatter/
 1 SEX F
@@ -562,7 +722,7 @@
 2 PAGE LL:0-414805
 1 SOUR
 2 PAGE LL:1-475272
-1 FAMS @F11@
+1 FAMS @F17@
 0 @p76@ INDI
 1 NAME Rasmus Jensen /Rousing/
 1 SEX M
@@ -579,8 +739,8 @@
 2 PAGE LL:11-4601884
 1 SOUR
 2 PAGE LL:11-4601476
-1 FAMS @F12@
-1 FAMC @F14@
+1 FAMS @F18@
+1 FAMC @F20@
 0 @p77@ INDI
 1 NAME Karen /Christensdatter/
 1 SEX F
@@ -593,7 +753,7 @@
 2 PAGE LL:2-515583
 1 SOUR
 2 PAGE LL:11-4601630
-1 FAMS @F12@
+1 FAMS @F18@
 0 @p78@ INDI
 1 NAME Hans /Jacobsen/
 1 SEX M
@@ -604,7 +764,7 @@
 2 PAGE LL:13-1705838
 1 SOUR
 2 PAGE LL:12-3667696
-1 FAMS @F13@
+1 FAMS @F19@
 0 @p79@ INDI
 1 NAME Maren /Rasmusdatter/
 1 SEX F
@@ -612,7 +772,7 @@
 2 DATE ABT 1798
 1 SOUR
 2 PAGE LL:13-1705839
-1 FAMS @F13@
+1 FAMS @F19@
 0 @p152@ INDI
 1 NAME Jens /Rasmussen/
 1 SEX M
@@ -626,8 +786,8 @@
 2 PAGE LL:1-473834
 1 SOUR
 2 PAGE LL:0-415717
-1 FAMS @F14@
-1 FAMC @F15@
+1 FAMS @F20@
+1 FAMC @F21@
 0 @p153@ INDI
 1 NAME Margrethe /Christensdatter/
 1 SEX F
@@ -636,7 +796,7 @@
 1 NOTE Confidence: probable
 1 SOUR
 2 PAGE LL:1-473835
-1 FAMS @F14@
+1 FAMS @F20@
 0 @p304@ INDI
 1 NAME Rasmus /Jensen/
 1 SEX M
@@ -648,73 +808,73 @@
 1 NOTE Confidence: possible
 1 SOUR
 2 PAGE LL:0-415357
-1 FAMS @F15@
+1 FAMS @F21@
 0 @s_p16_0@ INDI
 1 NAME Johanne Marie Margrethe /Jørgensen/
 1 SEX F
 1 BIRT
 2 DATE 21 OCT 1886
 1 NOTE twin
-1 FAMC @F5@
+1 FAMC @F11@
 0 @s_p16_1@ INDI
 1 NAME Niels Sophus Holger /Jørgensen/
 1 SEX M
 1 BIRT
 2 DATE 21 OCT 1886
 1 NOTE twin
-1 FAMC @F5@
+1 FAMC @F11@
 0 @s_p16_2@ INDI
 1 NAME Agnes Ingeborg /Jørgensen/
 1 SEX F
 1 BIRT
 2 DATE 30 JUL 1888
-1 FAMC @F5@
+1 FAMC @F11@
 0 @s_p16_3@ INDI
 1 NAME Karl Alfred Peter /Jørgensen/
 1 SEX M
 1 BIRT
 2 DATE 24 OCT 1892
-1 FAMC @F5@
+1 FAMC @F11@
 0 @s_p16_4@ INDI
 1 NAME Ellen Sophie Elisabeth /Jørgensen/
 1 SEX F
 1 BIRT
 2 DATE 7 JAN 1895
-1 FAMC @F5@
+1 FAMC @F11@
 0 @s_p16_5@ INDI
 1 NAME Anna Louise Mathilde /Jørgensen/
 1 SEX F
 1 BIRT
 2 DATE 26 DEC 1899
-1 FAMC @F5@
+1 FAMC @F11@
 0 @s_p32_0@ INDI
 1 NAME Hans Sophus Frederik /Jørgensen/
 1 SEX M
 1 BIRT
 2 DATE 1855
 1 OCCU Passementmaker
-1 FAMC @F7@
+1 FAMC @F13@
 0 @s_p32_1@ INDI
 1 NAME Anna Margrethe /Jørgensen/
 1 SEX F
 1 BIRT
 2 DATE 18 NOV 1855
 1 OCCU Dressmaker
-1 FAMC @F7@
+1 FAMC @F13@
 0 @s_p32_2@ INDI
 1 NAME Peter /Jørgensen/
 1 SEX M
 1 BIRT
 2 DATE 5 APR 1862
 1 OCCU Shoemaker
-1 FAMC @F7@
+1 FAMC @F13@
 0 @s_p32_3@ INDI
 1 NAME Agnes Mathilde /Jørgensen/
 1 SEX F
 1 BIRT
 2 DATE 3 AUG 1871
 1 OCCU Dressmaker
-1 FAMC @F7@
+1 FAMC @F13@
 0 @s_p18_0@ INDI
 1 NAME Johanne Marie /Gaardsted/
 1 SEX F
@@ -722,34 +882,34 @@
 2 DATE 29 JAN 1879
 1 OCCU Servant
 1 NOTE Lived with her widowed mother in Kolind 1921; with sister Sofie left memoirs of Petersminde (Midtdjurs Lokalhistoriske Arkiv A847).
-1 FAMC @F6@
+1 FAMC @F12@
 0 @s_p18_1@ INDI
 1 NAME Sofie /Gaardsted/
 1 SEX F
 1 BIRT
 2 DATE 1881
 1 OCCU Servant
-1 FAMC @F6@
+1 FAMC @F12@
 0 @s_p18_2@ INDI
 1 NAME Agnes Kristiane /Gaardsted/
 1 SEX F
 1 BIRT
 2 DATE 1883
 1 OCCU Servant
-1 FAMC @F6@
+1 FAMC @F12@
 0 @s_p18_3@ INDI
 1 NAME Jokum /Gaardsted/
 1 SEX M
 1 BIRT
 2 DATE 1886
-1 FAMC @F6@
+1 FAMC @F12@
 0 @s_p18_4@ INDI
 1 NAME Martin Marinus /Gaardsted/
 1 SEX M
 1 BIRT
 2 DATE 10 NOV 1888
 1 OCCU Poorhouse manager, Bregnet (1922)
-1 FAMC @F6@
+1 FAMC @F12@
 0 @s_p18_5@ INDI
 1 NAME Axel Villiam /Gaardsted/
 1 SEX M
@@ -757,25 +917,25 @@
 2 DATE 20 AUG 1891
 1 DEAT
 2 DATE 7 MAR 1894
-1 FAMC @F6@
+1 FAMC @F12@
 0 @s_p18_6@ INDI
 1 NAME Petra Ottine /Gaardsted/
 1 SEX F
 1 BIRT
 2 DATE 25 FEB 1897
-1 FAMC @F6@
+1 FAMC @F12@
 0 @s_p18_7@ INDI
 1 NAME Axel Vilhelm Alfred /Gaardsted/
 1 SEX M
 1 BIRT
 2 DATE 5 DEC 1900
-1 FAMC @F6@
+1 FAMC @F12@
 0 @s_p36_0@ INDI
 1 NAME Marie Kirstine /Gaardsted/
 1 SEX F
 1 BIRT
 2 DATE 1839
-1 FAMC @F9@
+1 FAMC @F15@
 0 @s_p36_1@ INDI
 1 NAME Jens /Gaardsted/
 1 SEX M
@@ -784,7 +944,7 @@
 1 DEAT
 2 DATE 1914
 1 OCCU Farm owner, Tirstrup
-1 FAMC @F9@
+1 FAMC @F15@
 0 @s_p36_2@ INDI
 1 NAME Mette Marie /Gaardsted/
 1 SEX F
@@ -792,19 +952,19 @@
 2 DATE 1844
 1 DEAT
 2 DATE 1847
-1 FAMC @F9@
+1 FAMC @F15@
 0 @s_p36_3@ INDI
 1 NAME Johanne /Gaardsted/
 1 SEX F
 1 BIRT
 2 DATE 1847
-1 FAMC @F9@
+1 FAMC @F15@
 0 @s_p36_4@ INDI
 1 NAME Ernst Adolph /Gaardsted/
 1 SEX M
 1 BIRT
 2 DATE 1849
-1 FAMC @F9@
+1 FAMC @F15@
 0 @s_claus_ch@ INDI
 1 NAME Claus Christian /Gaardsted/
 1 SEX M
@@ -813,7 +973,7 @@
 1 DEAT
 2 DATE 1863
 1 NOTE Mother: Marie Kjerstine Christensdatter (Jochum's 1st wife).
-1 FAMC @F16@
+1 FAMC @F22@
 0 @s_p72_0@ INDI
 1 NAME Ernst Adolph /Gaardsted/
 1 SEX M
@@ -823,49 +983,49 @@
 2 DATE 13 JUN 1832
 1 OCCU Farmer, Hoed
 1 NOTE Married Anne Andersdatter Kræmer; 5+ children in Hoed.
-1 FAMC @F11@
+1 FAMC @F17@
 0 @s_p72_1@ INDI
 1 NAME Poul Christian /Gaardsted/
 1 SEX M
 1 BIRT
 2 DATE 1790
-1 FAMC @F11@
+1 FAMC @F17@
 0 @s_p38_0@ INDI
 1 NAME Rasmus /Andersen/
 1 SEX M
 1 BIRT
 2 DATE 1845
-1 FAMC @F10@
+1 FAMC @F16@
 0 @s_p38_1@ INDI
 1 NAME Hans /Andersen/
 1 SEX M
 1 BIRT
 2 DATE 1847
-1 FAMC @F10@
+1 FAMC @F16@
 0 @s_p38_2@ INDI
 1 NAME Søren /Andersen/
 1 SEX M
 1 BIRT
 2 DATE 1850
-1 FAMC @F10@
+1 FAMC @F16@
 0 @s_p38_3@ INDI
 1 NAME Jensine Caroline /Andersen/
 1 SEX F
 1 BIRT
 2 DATE 1852
-1 FAMC @F10@
+1 FAMC @F16@
 0 @s_p76_0@ INDI
 1 NAME Christen /Rasmussen/
 1 SEX M
 1 BIRT
 2 DATE 1812
-1 FAMC @F12@
+1 FAMC @F18@
 0 @s_p76_1@ INDI
 1 NAME Jens Christian /Rasmussen/
 1 SEX M
 1 BIRT
 2 DATE 1816
-1 FAMC @F12@
+1 FAMC @F18@
 0 @s_liss_1@ INDI
 1 NAME Karen Margrethe /Enevoldsen/
 1 SEX F
@@ -876,6 +1036,51 @@
 1 SEX F
 1 SOUR
 2 PAGE FamilySearch Family Tree
+0 @s_p24_0@ INDI
+1 NAME Son
+1 SEX M
+1 BIRT
+2 DATE 1896
+1 DEAT
+2 DATE 19 MAY 1896
+1 FAMC @F6@
+0 @s_p24_1@ INDI
+1 NAME Eline Christine /Frederiksen/
+1 SEX F
+1 BIRT
+2 DATE 28 APR 1897
+1 FAMC @F6@
+0 @s_p24_2@ INDI
+1 NAME Child of Lorenz & /Cathrina/
+1 SEX M
+1 BIRT
+2 DATE 15 JUL 1905
+1 FAMC @F6@
+0 @s_p48_0@ INDI
+1 NAME Hans Frederik /Frederiksen/
+1 SEX M
+1 BIRT
+2 DATE 28 OCT 1862
+1 FAMC @F7@
+0 @s_p48_1@ INDI
+1 NAME Jens /Frederiksen/
+1 SEX M
+1 BIRT
+2 DATE 4 JUL 1865
+1 FAMC @F7@
+0 @s_p48_2@ INDI
+1 NAME Catharina Maria /Frederiksen/
+1 SEX F
+1 BIRT
+2 DATE 24 APR 1867
+1 NOTE Married Hans Hendrik Ohlsen 17 Jun 1888 in Broager.
+1 FAMC @F7@
+0 @s_p48_3@ INDI
+1 NAME Anna Christine Maria /Frederiksen/
+1 SEX F
+1 BIRT
+2 DATE 10 FEB 1874
+1 FAMC @F7@
 0 @F1@ FAM
 1 HUSB @p2@
 1 WIFE @p3@
@@ -896,6 +1101,37 @@
 1 CHIL @p4@
 1 CHIL @s_ester@
 0 @F5@ FAM
+1 HUSB @p12@
+1 WIFE @p13@
+1 CHIL @p6@
+0 @F6@ FAM
+1 HUSB @p24@
+1 WIFE @p25@
+1 CHIL @p12@
+1 CHIL @s_p24_0@
+1 CHIL @s_p24_1@
+1 CHIL @s_p24_2@
+0 @F7@ FAM
+1 HUSB @p48@
+1 WIFE @p49@
+1 CHIL @p24@
+1 CHIL @s_p48_0@
+1 CHIL @s_p48_1@
+1 CHIL @s_p48_2@
+1 CHIL @s_p48_3@
+0 @F8@ FAM
+1 HUSB @p50@
+1 WIFE @p51@
+1 CHIL @p25@
+0 @F9@ FAM
+1 HUSB @p96@
+1 WIFE @p97@
+1 CHIL @p48@
+0 @F10@ FAM
+1 HUSB @p98@
+1 WIFE @p99@
+1 CHIL @p49@
+0 @F11@ FAM
 1 HUSB @p16@
 1 WIFE @p17@
 1 CHIL @p8@
@@ -905,7 +1141,7 @@
 1 CHIL @s_p16_3@
 1 CHIL @s_p16_4@
 1 CHIL @s_p16_5@
-0 @F6@ FAM
+0 @F12@ FAM
 1 HUSB @p18@
 1 WIFE @p19@
 1 CHIL @p9@
@@ -917,7 +1153,7 @@
 1 CHIL @s_p18_5@
 1 CHIL @s_p18_6@
 1 CHIL @s_p18_7@
-0 @F7@ FAM
+0 @F13@ FAM
 1 HUSB @p32@
 1 WIFE @p33@
 1 CHIL @p16@
@@ -925,10 +1161,10 @@
 1 CHIL @s_p32_1@
 1 CHIL @s_p32_2@
 1 CHIL @s_p32_3@
-0 @F8@ FAM
+0 @F14@ FAM
 1 HUSB @p34@
 1 CHIL @p17@
-0 @F9@ FAM
+0 @F15@ FAM
 1 HUSB @p36@
 1 WIFE @p37@
 1 CHIL @p18@
@@ -937,7 +1173,7 @@
 1 CHIL @s_p36_2@
 1 CHIL @s_p36_3@
 1 CHIL @s_p36_4@
-0 @F10@ FAM
+0 @F16@ FAM
 1 HUSB @p38@
 1 WIFE @p39@
 1 CHIL @p19@
@@ -945,30 +1181,30 @@
 1 CHIL @s_p38_1@
 1 CHIL @s_p38_2@
 1 CHIL @s_p38_3@
-0 @F11@ FAM
+0 @F17@ FAM
 1 HUSB @p72@
 1 WIFE @p73@
 1 CHIL @p36@
 1 CHIL @s_p72_0@
 1 CHIL @s_p72_1@
-0 @F12@ FAM
+0 @F18@ FAM
 1 HUSB @p76@
 1 WIFE @p77@
 1 CHIL @p38@
 1 CHIL @s_p76_0@
 1 CHIL @s_p76_1@
-0 @F13@ FAM
+0 @F19@ FAM
 1 HUSB @p78@
 1 WIFE @p79@
 1 CHIL @p39@
-0 @F14@ FAM
+0 @F20@ FAM
 1 HUSB @p152@
 1 WIFE @p153@
 1 CHIL @p76@
-0 @F15@ FAM
+0 @F21@ FAM
 1 HUSB @p304@
 1 CHIL @p152@
-0 @F16@ FAM
+0 @F22@ FAM
 1 HUSB @p36@
 1 CHIL @s_claus_ch@
 0 TRLR

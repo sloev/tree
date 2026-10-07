@@ -6,7 +6,7 @@
 :root{
   --paper:#f3f5f2; --sheet:#fbfcfa; --ink:#1b2422; --ink-2:#4d5955; --muted:#7d8a85; --rule:#d9e0dc; --rule-2:#c3ccc7;
   --accent:#7a2e1f; /* iron-gall ink red used for rubrics */
-  --l-jorgensen:#2a78d6; --l-gaardsted:#eb6834; --l-rousing:#1baf7a; --l-maternal:#8d8a80; --l-self:#1b2422;
+  --l-jorgensen:#2a78d6; --l-gaardsted:#eb6834; --l-rousing:#1baf7a; --l-frederiksen:#eda100; --l-maternal:#8d8a80; --l-self:#1b2422;
   --hover:rgba(27,36,34,.06); --shadow:0 1px 2px rgba(27,36,34,.08);
   --f-display:"IM Fell DW Pica", "Iowan Old Style", Georgia, serif;
   --f-body:"Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -14,11 +14,11 @@
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --paper:#121614; --sheet:#1a1f1d; --ink:#eef2ef; --ink-2:#b9c3bf; --muted:#86928d; --rule:#2b3330; --rule-2:#3a4440;
-  --accent:#e08a74; --l-jorgensen:#3987e5; --l-gaardsted:#d95926; --l-rousing:#199e70; --l-maternal:#9a978d; --l-self:#eef2ef;
+  --accent:#e08a74; --l-jorgensen:#3987e5; --l-gaardsted:#d95926; --l-rousing:#199e70; --l-frederiksen:#c98500; --l-maternal:#9a978d; --l-self:#eef2ef;
   --hover:rgba(238,242,239,.07); --shadow:none; color-scheme:dark}}
 :root[data-theme="dark"]{
   --paper:#121614; --sheet:#1a1f1d; --ink:#eef2ef; --ink-2:#b9c3bf; --muted:#86928d; --rule:#2b3330; --rule-2:#3a4440;
-  --accent:#e08a74; --l-jorgensen:#3987e5; --l-gaardsted:#d95926; --l-rousing:#199e70; --l-maternal:#9a978d; --l-self:#eef2ef;
+  --accent:#e08a74; --l-jorgensen:#3987e5; --l-gaardsted:#d95926; --l-rousing:#199e70; --l-frederiksen:#c98500; --l-maternal:#9a978d; --l-self:#eef2ef;
   --hover:rgba(238,242,239,.07); --shadow:none; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--paper);color:var(--ink);font:15px/1.55 var(--f-body);margin:0}
@@ -143,7 +143,7 @@ tr:hover td{background:var(--hover)}
   <div class="lead">
     <span class="eyebrow">Slægtsbog · nine generations · 1718–2026</span>
     <h1>Gaardsted-Jørgensen Slægt</h1>
-    <p class="ink2">The ancestry of Johannes Gårdsted Valbjørn, traced through Danish church books and censuses. Your father's line is documented back to the 1700s on Djursland, Mols and in Copenhagen. Your mother's parents are identified from their grave in Svendborg. Their parents are the next step.</p>
+    <p class="ink2">The ancestry of Johannes Gårdsted Valbjørn, traced through Danish church books and censuses. Your father's line is documented back to the 1700s on Djursland, Mols and in Copenhagen. Your mother's side leads to Egernsund and Broager in Southern Jutland, where Lorenz Heinrich Frederiksen was born in 1932.</p>
     <div class="legend" id="legend"></div>
   </div>
   <div class="tiles" id="tiles"></div>
@@ -165,7 +165,7 @@ tr:hover td{background:var(--hover)}
   <div class="sec-head">
     <span class="eyebrow">Steder</span>
     <h2>Where they lived</h2>
-    <p class="muted">Every birth, death and recorded residence, placed on the map. Lines follow each ancestor from birthplace to place of death. Most of the family stayed within 25 km of Kolind for two centuries.</p>
+    <p class="muted">Every birth, death and recorded residence, placed on the map. Lines follow each ancestor from birthplace to place of death. Your father's family stayed within 25 km of Kolind for two centuries. Your mother's side comes from Broager and Egernsund on the Flensburg Fjord.</p>
   </div>
   <div class="two">
     <div class="panel"><svg id="map" class="mapsvg" role="img" aria-label="Map of family places"></svg></div>
@@ -223,7 +223,8 @@ tr:hover td{background:var(--hover)}
 <section id="open">
   <div class="sec-head"><span class="eyebrow">Næste skridt</span><h2>Still open</h2></div>
   <div class="open">
-    <div><b>Where Lorenz was born</b>Born 12 Jan 1932, but not in Svendborg town. The 1940 census record on MyHeritage ("Lorens Henrick Frederiksen") or his death certificate names the place. His baptism entry will name his mother and, possibly, his biological father.</div>
+    <div><b>Else Gedde Jensen</b>Lorenz's mother, the source of the name Gedde. She is not in the Southern Jutland indexes, so she was probably born elsewhere. Her marriage to Peter Frederiksen (c.1931) was not in Broager Vestre; finding it gives her birth date, birthplace and parents.</div>
+    <div><b>Lorenz's biological father</b>The church book names Peter Frederiksen. If the family knows another name, an adoption or paternity file may exist in the Rigsarkivet.</div>
     <div><b>Gerda's maiden name</b>Born 17 Aug 1935. Her maiden name or birthplace opens that quarter of the tree.</div>
     <div><b>Liss's parents</b>Born 18 Apr 1931, one of seven children. The FamilySearch tree that lists her siblings probably also names her parents.</div>
     <div><b>Claus Gaardsted's origins</b>He came to Vosnæsgaard after 1784, from a first marriage elsewhere. Finding his first marriage would extend the Gaardsted line past 1750.</div>
@@ -242,7 +243,7 @@ const IMGS = __IMGS__;
 <script>
 (function(){
 const P = DATA.people, byId = Object.fromEntries(P.map(p=>[p.id,p]));
-const LINES = {jorgensen:"Jørgensen line", gaardsted:"Gaardsted line", rousing:"Rousing / Fuglslev line", maternal:"Mother's side", self:"You"};
+const LINES = {jorgensen:"Jørgensen line", gaardsted:"Gaardsted line", rousing:"Rousing / Fuglslev line", frederiksen:"Frederiksen line (Broager)", maternal:"Mother's side", self:"You"};
 const lineVar = l => `var(--l-${l||'maternal'})`;
 const yr = s => { if(!s) return null; const m = String(s).match(/\d{4}/); return m? +m[0] : null; };
 const esc = s => String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -256,7 +257,7 @@ const NS='http://www.w3.org/2000/svg';
 const el=(t,a={},parent)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(parent)parent.appendChild(e);return e;};
 
 // ---------- legend & tiles ----------
-document.getElementById('legend').innerHTML = ['jorgensen','gaardsted','rousing','maternal'].map(l=>`<span><i class="sw" style="background:${lineVar(l)}"></i>${LINES[l]}</span>`).join('');
+document.getElementById('legend').innerHTML = ['jorgensen','gaardsted','rousing','frederiksen','maternal'].map(l=>`<span><i class="sw" style="background:${lineVar(l)}"></i>${LINES[l]}</span>`).join('');
 const anc = P.filter(p=>p.ahnen);
 const named = anc.filter(p=>p.ahnen>1);
 const maxGen = Math.max(...anc.map(p=>Math.floor(Math.log2(p.ahnen))+1));
@@ -372,7 +373,7 @@ function drawMap(svg, vb, labelFor){
 const pl=DATA.places, L=(n,a,dy)=>[short(n),pl[n][0],pl[n][1],a,dy];
 drawMap(document.getElementById('map'),[0,0,MAP.W,MAP.H],[
   L('Hune'),L('Gjellerup / Hammerum','end'),L('Silkeborg'),L('Hadsten','end'),['Djursland',56.42,10.62,'start',-6],L('Copenhagen','end',-6),L('Malmö'),
-  L('Slagelse','end'),L('Viby (Roskilde amt)','end',12),L('Svendborg'),L('Ollerup','end')]);
+  L('Slagelse','end'),L('Viby (Roskilde amt)','end',12),L('Svendborg'),L('Ollerup','end'),L('Broager','start',8),L('Egernsund','end',-4)]);
 const [ix0,iy0]=prj(56.47,10.27), [ix1,iy1]=prj(56.15,10.86);
 document.getElementById('inset').setAttribute('style','width:100%;height:auto');
 drawMap(document.getElementById('inset'),[ix0,iy0,ix1-ix0,iy1-iy0],[
@@ -434,7 +435,7 @@ document.getElementById('links').innerHTML=DATA.links.map(([t,u])=>`<li><a href=
 // ---------- sources ----------
 const SRC=[
  ['LL','Rigsarkivet, Link Lives','https://link-lives.dk/soeg/','Indexed church books 1557–1917 and censuses 1787–1921: births, marriages, deaths, households'],
- ['AO','Rigsarkivet, Arkivalieronline','https://www.sa.dk/ao/','Original church-book images: Kolind 1922, Skødstrup 1792, Svendborg 1932'],
+ ['AO','Rigsarkivet, Arkivalieronline','https://www.sa.dk/ao/','Original church-book images: Kolind 1922, Skødstrup 1792, Broager 1933, Svendborg 1932 (negative search)'],
  ['DFS','Danish Family Search','https://www.danishfamilysearch.dk/','1925 census (Gjellerup) and 1940 census searches'],
  ['ARK','arkiv.dk, Danish local archives','https://arkiv.dk/','Evald and Liss biographies, obituary notices, photographs'],
  ['BillionGraves','BillionGraves via MyHeritage','https://www.myheritage.dk/research/collection-10147/billiongraves?itemId=1483464614&action=showRecord','Grave of Lorenz and Gerda Frederiksen, Svendborg: birth and death dates'],
