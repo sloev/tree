@@ -161,15 +161,15 @@ person("p31", "Kristine Adamine Margrethe Christensen", "F", ahnen=31, line="lar
        res=[(1884, "Rudkøbing", "født"), (1898, "Humble (Kædeby), Langeland", "konfirmeret"), (1904, "Humble (Kædeby), Langeland", "gift")],
        note="Datter af 'Kongen af Langø', Marius Christensen. Hun er Gerdas mormor.",
        src=["LL:12-15579549", "LL:14-3122525", "LL:9-1908174", "LL:13-2027012", "LL:24-817273", "LL:25-805033"])
-person("p56", "Lars Larsen", "M", ahnen=56, line="larsen", born="1832-08-30", bplace="Magleby (Nordenbro), Langeland", spouse="p57",
+person("p56", "Lars Larsen", "M", ahnen=56, line="larsen", born="1832-08-30", bplace="Magleby (Nordenbro), Langeland", spouse="p57", father="p112", mother="p113",
        occ=["Daglejer ved landbruget, Magleby (1901)"],
-       note="Gift 27. aug. 1859 i Magleby (Langeland) med Maren Christiansen.", src=["LL:13-5236614", "LL:12-16296349", "LL:7-1520193", "LL:22-1228475", "LL:9-1903457"])
-person("p57", "Maren Christiansen", "F", ahnen=57, line="larsen", born="1837-05-02", bplace="Magleby (Nordenbro), Langeland", spouse="p56", src=["LL:13-5236615", "LL:12-16296350", "LL:9-1903458"])
-person("p58", "Peder Hansen Berentzen", "M", ahnen=58, line="larsen", born="1818-02-22", bplace="Lindelse", spouse="p59",
-       note="Gift 11. juni 1852 i Rudkøbing med Marthe Madsen.", src=["LL:13-5084744", "LL:12-16299532"])
+       note="Gift 27. aug. 1859 i Magleby (Langeland) med Maren Christiansen.", src=["LL:12-16285744", "LL:13-5236614", "LL:12-16296349", "LL:7-1520193", "LL:22-1228475", "LL:9-1903457"])
+person("p57", "Maren Christiansen", "F", ahnen=57, line="larsen", born="1837-05-03", bplace="Magleby (Nordenbro), Langeland", spouse="p56", father="p114", mother="p115", src=["LL:12-16287085", "LL:13-5236615", "LL:12-16296350", "LL:9-1903458"])
+person("p58", "Peder Hansen Berentzen", "M", ahnen=58, line="larsen", born="1818-02-22", bplace="Lindelse", spouse="p59", father="p116", mother="p117",
+       note="Gift 11. juni 1852 i Rudkøbing med Marthe Madsen.", src=["LL:12-15525501", "LL:13-5084744", "LL:12-16299532"])
 person("p59", "Marthe Madsen", "F", ahnen=59, line="larsen", born="1823-09-07", bplace="Tranekær", spouse="p58", src=["LL:13-5084745", "LL:12-16299533"])
-person("p60", "Peder Iver Holgersen", "M", ahnen=60, line="larsen", born="ca. 1851", spouse="p61", res=[(1890, "Tved (Svendborg)", "")],
-       note="Gift 26. nov. 1878 i Vor Frue Kirke, Svendborg, med Karen Nielsen.", src=["LL:13-5270320", "LL:12-15691758"])
+person("p60", "Peder Iver Holgersen", "M", ahnen=60, line="larsen", born="1851-12-10", bplace="Tved (Svendborg)", father="p120", mother="p121", occ=["Indsidder"], spouse="p61", res=[(1890, "Tved (Svendborg)", "")],
+       note="Gift 26. nov. 1878 i Vor Frue Kirke, Svendborg, med Karen Nielsen.", src=["LL:12-15688495", "LL:13-5270320", "LL:12-15691758", "Familiens håndskrevne ark (Nordenbro)"])
 person("p61", "Karen Nielsen", "F", ahnen=61, line="larsen", born="ca. 1855", spouse="p60", src=["LL:13-5270321", "LL:12-15691759"])
 person("p62", "Marius Michelsen Christensen", "M", ahnen=62, line="larsen", born="1858-04-14", bplace="Rudkøbing",
        father="p124", mother="p125", spouse="p63",
@@ -183,8 +183,20 @@ person("p62", "Marius Michelsen Christensen", "M", ahnen=62, line="larsen", born
             "En skomager havde købt øen og bygget et simpelt hus, men den kom på tvangsauktion, hvorefter Marius og Ane Marie købte den.",
        src=["LL:12-15570702", "LL:13-5085956", "LL:9-1827830", "LL:24-817715", "LL:25-805444", "Fyens Stiftstidende: Historien om en dæmning",
             "Lisbeth Skov f. Christensen: En Langø-piges erindringer (privattryk, familiens eksemplar)"])
-person("p63", "Ane Marie Jørgensen", "F", ahnen=63, line="larsen", born="1859-09-07", bplace="Skrøbelev", spouse="p62",
-       res=[(1894, "Langø, Lindelse Nor", "")], src=["LL:13-5085957", "LL:9-1827831", "LL:25-805445"])
+person("p63", "Ane Marie Jørgensen", "F", ahnen=63, line="larsen", born="1859-09-07", bplace="Skrøbelev", spouse="p62", father="p126", mother="p127",
+       res=[(1894, "Langø, Lindelse Nor", "")], src=["LL:12-15556964", "LL:13-5085957", "LL:9-1827831", "LL:25-805445"])
+person("p112", "Lars Thomsen", "M", ahnen=112, line="larsen", spouse="p113", src=["LL:12-16285745"])
+person("p113", "Anne Katrine Jensdatter", "F", ahnen=113, line="larsen", spouse="p112", src=["LL:12-16285746"])
+person("p114", "Christian Hansen", "M", ahnen=114, line="larsen", born="ca. 1806", spouse="p115",
+       note="Gift 13. nov. 1829 i Magleby (Langeland) med Marie Madsdatter.", src=["LL:13-5235043", "LL:12-16287086"])
+person("p115", "Marie Madsdatter", "F", ahnen=115, line="larsen", born="ca. 1807", spouse="p114", src=["LL:13-5235044", "LL:12-16287087"])
+person("p116", "Hans Jørgensen", "M", ahnen=116, line="larsen", spouse="p117", src=["LL:12-15525502"])
+person("p117", "Kirsten", "F", ahnen=117, line="larsen", spouse="p116", note="Efternavnet er ikke indekseret.", src=["LL:12-15525503"])
+person("p120", "Holger Eriksen", "M", ahnen=120, line="larsen", born="ca. 1814", spouse="p121",
+       note="Gift 8. dec. 1838 i Tved (Svendborg) med Anne Cathrine Hansdatter.", src=["LL:13-5107079", "LL:12-15688496"])
+person("p121", "Anne Cathrine Hansdatter", "F", ahnen=121, line="larsen", born="ca. 1815", spouse="p120", src=["LL:13-5107080", "LL:12-15688497"])
+person("p126", "Jørgen Christensen", "M", ahnen=126, line="larsen", spouse="p127", src=["LL:12-15556965"])
+person("p127", "Bodil Margrethe Clausen", "F", ahnen=127, line="larsen", spouse="p126", src=["LL:12-15556966"])
 person("p124", "Christen Michelsen", "M", ahnen=124, line="larsen", spouse="p125", src=["LL:12-15570703"])
 person("p125", "Rasmine Hansen", "F", ahnen=125, line="larsen", spouse="p124", src=["LL:12-15570704"])
 
@@ -601,10 +613,10 @@ sibs(("p868", "p869"), "gedde", "Christian Frederiks søskende", [
 
 person("sofus_ff", "Mathias Petersen", "M", ahnen=48, line="maternal", born="ca. 1832", spouse="sofus_fm",
        father="sofus_fff", mother="sofus_ffm", note="Gift 13. okt. 1865 i Nybøl med Sophia Maria Nissen.", src=["LL:13-4984314", "LL:12-15059288"])
-person("sofus_fm", "Sophia Maria Nissen", "F", ahnen=49, line="maternal", born="ca. 1842", spouse="sofus_ff",
-       father="sofus_fmf", mother="sofus_fmm", src=["LL:13-4984317", "LL:12-15059289"])
-person("sofus_mf", "Lorens Petersen", "M", ahnen=50, line="maternal", born="1831-02-26", spouse="sofus_mm",
-       father="sofus_mff", mother="sofus_mfm", note="Gift 12. april 1860 i Dybbøl med Marie Jørgensen.", src=["LL:13-4698057", "LL:12-14359020"])
+person("sofus_fm", "Sophia Maria Nissen", "F", ahnen=49, line="maternal", born="1842-03-15", bplace="Nybøl (Paakjær)", spouse="sofus_ff",
+       father="sofus_fmf", mother="sofus_fmm", src=["LL:12-15058141", "LL:13-4984317", "LL:12-15059289"])
+person("sofus_mf", "Lorens Petersen", "M", ahnen=50, line="maternal", born="1831-02-26", bplace="Nybøl (Paakjær)", spouse="sofus_mm",
+       father="sofus_mff", mother="sofus_mfm", note="Gift 12. april 1860 i Dybbøl med Marie Jørgensen.", src=["LL:12-14384545", "LL:13-4698057", "LL:12-14359020"])
 person("sofus_mm", "Marie Jørgensen", "F", ahnen=51, line="maternal", born="1834-05-22", spouse="sofus_mf",
        father="sofus_mmf", mother="sofus_mmm", note="Fødestedet er indekseret som 'Borup sogn'.", src=["LL:13-4698060", "LL:12-14359021"])
 for pid, nm, sx, rl, sp, k in [("sofus_fff", "Peter Petersen", "M", "Sophus' oldefar", "sofus_ffm", "LL:13-4984315"),
