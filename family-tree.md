@@ -27,13 +27,15 @@ DIG  Johannes Gårdsted Valbjørn ✅
 │  └─ Liss Gaardsted-Jørgensen (f. Pedersen) 📜  1931–2002 · kordegn
 └─ Vivi Frederiksen Gedde ✅
    ├─ Lorenz Heinrich Frederiksen 📜  1932 Egernsund – 2009 Svendborg
-   │  ├─ Wilhelm Krogh 📜  f. 9.10.1908, Landkreis Flensburg · landarbejder i Snogbæk (far ifølge retten 1932)
-   │  │     (familiens formodning ❓: Sofus Petersen, Paakjær, Nybøl, 1903–1945)
-   │  │     (stedfar: Peter Frederiksen, f. 1902 · arbejdsmand, Egernsund)
+   │  ├─ Sophus Petersen ✅  1903 Påkjær, Nybøl – 1945 · gårdmandssøn (biologisk far ifølge familien)
+   │  │  ├─ Peter Petersen 📜  f. 1866 Nybøl · gårdmand ← Mathias Petersen og Sophia Maria Nissen (gift Nybøl 1865)
+   │  │  └─ Anna Cathrine Marie Petersen 📜  f. 1869 Dybbøl ← Lorens Petersen og Marie Jørgensen (gift Dybbøl 1860)
+   │  │     (Wilhelm Krogh 📜, f. 1908, tog skylden og står som far i standsregistret 1932)
+   │  │     (Peter Frederiksen 📜, f. 1902, stedfar, betalt for at gifte sig med Else)
    │  └─ Else Gedde Jensen 📜  f. 31.8.1912 Ferup, Lejrskov
    │     ├─ Jens Jensen 📜  f. 1866 · gårdejer, Ferup ← Rasmus Jensen og Christine Hansen
    │     └─ Paula Mathilde Christle Gedde 📜  f. 1880 Tamdrup
-   │        ├─ Edvard Hammer Gedde 📜  f. 1845 Herlufmagle · proprietær, vognmand
+   │        ├─ Edvard Hammer Gedde 📜  1845 Herlufmagle – 1925 · proprietær, vognmand
    │        │  ├─ Ove Frederik Christopher Gedde 📜  f. 1808 Fredensborg · cand.jur., forvalter
    │        │  │  ├─ Ove Samuel Gedde 📜  1778–1843 · kaptajn, siden oberst, Kronens Regiment, Helsingør
    │        │  │  │  └─ Hans Christopher Gedde ❓ 1738–1817 · generalmajor ← Samuel Christoph Gedde ❓ 1691–1766
@@ -45,9 +47,22 @@ DIG  Johannes Gårdsted Valbjørn ✅
    │        │  │     │  └─ Sophie Rosenkrantz 📜  1714–1770 ← Christian Rosenkrantz til Skovsbo og Frederikke Louise Krag
    │        │  │     └─ Anna Margrethe Schubart 📜  1753–1842 ← major Johan Valentin Schubart
    │        │  └─ Charlotte Frederikke Christine Møller 📜  f. 1815 København
-   │        └─ Vitta Dorthea Henriette Mathilde Ludvigsen 📜  f. 1848 Næstved
-   └─ Gerda Frederiksen 📜  1935–2019 · pigenavn ukendt
+   │        └─ Vitta (Mathilde) Ludvigsen 📜  1847 Næstved – 1927
+   └─ Gerda Frederiksen, f. Larsen 📜  1935 Nordenbro, Magleby (Langeland) – 2019 Svendborg
+      ├─ Laurits Edvard Larsen 📜  f. 1898 Nordenbro · tømrer
+      │  ├─ Lars Thomsen Larsen 📜  f. 1859 Magleby ← Lars Larsen (1832) og Maren Christiansen (1837)
+      │  └─ Hansine Petersen 📜  f. 1859 Magleby ← Peder Hansen Berentzen (1818 Lindelse) og Marthe Madsen (1823 Tranekær)
+      └─ Karen Margrethe Holgersen 📜  f. 1906 Humble
+         ├─ Axel Erik Holgersen 📜  f. 1882 Tved · bødker, Kædeby ← Peder Iver Holgersen og Karen Nielsen
+         └─ Kristine Adamine Margrethe Christensen 📜  f. 1884 Rudkøbing
+            ├─ Marius Michelsen Christensen 📜  f. 1858 Rudkøbing · "Kongen af Langø" ← Christen Michelsen og Rasmine Hansen
+            └─ Ane Marie Jørgensen 📜  f. 1859 Skrøbelev
 ```
+
+## Udvandrere
+- **Olaf Gedde** (Paulas bror), kommis, rejste 1904 til **Shanghai** (Udvandrerprotokollen).
+- **Emil Ludvig Edvard Gedde** (Paulas bror) rejste 1922 til **Eldorado, Argentina** med Olivia og to børn; død der 1951. Han ses på Udvandrerarkivets billeder fra den danske koloni.
+- **Iver Peder Holgersen** (bror til Gerdas morfar) rejste 1910 til **Fresno, Californien**.
 
 ## Nyt i denne runde
 
@@ -65,8 +80,9 @@ DIG  Johannes Gårdsted Valbjørn ✅
 Familien fortæller, at navnet kommer fra en kaptajn i Trankebar. Den nærmeste kaptajn i slægten er Ove Samuel Gedde (kaptajn 1808), men intet i kilderne nævner Indien. Han tilhører den borgerlige officersslægt Gedde, stammende fra generalmajor Samuel Christoph Gedde (1691–1766). Ifølge Store norske leksikon er den sandsynligvis ikke beslægtet med den uddøde adelsslægt Gjedde. Admiral **Ove Gjedde** fra den slægt grundlagde Trankebar i 1620. Fornavnet Ove og det næsten enslydende efternavn er nok årsagen til, at fortællingen er opstået.
 
 ## Stadig åbent
+- **Gerdas pigenavn er fundet:** Larsen, født i Nordenbro, Magleby sogn, Langeland (Magleby kirkebog 1935).
 - **Mors søster, dine halvsøskende, fætre og kusiner.** Nulevende personer står ikke i de offentlige registre. Send navne og fødselsår, så kommer de med.
-- **Gerdas pigenavn** og **Liss Pedersens forældre.**
+- **Liss Pedersens forældre.**
 - **Wilhelm Kroghs forældre.** De står i tyske standsregistre for Flensburg.
 - **Ove Samuel Geddes dåb (1778).** Den skal bekræfte forældrene Hans Christopher Gedde og Øllegaard Sophie Fischer.
 - **Claus Gaardsteds herkomst**, **Lovisa Larsson i Malmö** og **Niels Jørgensens fødesogn.**
