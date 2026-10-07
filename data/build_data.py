@@ -41,6 +41,9 @@ PLACES = {
     "Silkeborg": (56.170, 9.548, "Midtjylland"),
     "Lejrskov (Ferup)": (55.517, 9.297, "Sydjylland"),
     "Ollerup": (55.110, 10.523, "Fyn"),
+    "Vester Starup": (55.660, 8.540, "Sydvestjylland"),
+    "Ringkøbing": (56.090, 8.244, "Vestjylland"),
+    "Sønder Felding": (55.948, 8.786, "Vestjylland"),
     "Svendborg": (55.061, 10.607, "Fyn"),
     "Hune": (57.181, 9.660, "Nordjylland"),
     "Egernsund": (54.906, 9.603, "Sønderjylland"),
@@ -100,9 +103,10 @@ person("p4", "Evald Johannes Gaardsted-Jørgensen", "M", ahnen=4, line="jorgense
        src=["AO:27841253 (Kolind kirkebog 1920–36, fødte drenge 1922 nr. 6)", "DFS:18978912 (folketælling 1925)", "ARK:2162357", "ARK:906257",
             "ARK:3079233", "ARK:7091946", "litteraturpriser.dk"])
 person("p5", "Liss Gaardsted-Jørgensen (f. Pedersen)", "F", ahnen=5, line="jorgensen",
-       born="1931-04-18", died="2002", occ=["Kordegn, uddannet i Hune"], spouse="p4",
+       born="1931-04-18", died="2002", occ=["Kordegn, uddannet i Hune"], spouse="p4", father="p10", mother="p11",
        note="Gift med Evald 1953, 22 år gammel; tre sønner. Et af syv søskende. Fødselsdatoen stammer fra Evalds personarkiv "
-            "(Hadsten Lokalarkiv). Hendes forældre er endnu ikke fundet.",
+            "(Hadsten Lokalarkiv). Hendes forældre er sandsynligvis Jens Nielsen Pedersen og Hulda f. Christensen i Silkeborg; "
+            "deres døtre Karen Margrethe (f. 1917) og Anna Elvira (f. 1918) har samme navne som Liss' søstre.",
        src=["ARK:2162357", "litteraturpriser.dk", "FamilySearch Family Tree: Liss Jørgensen (født Pedersen) 1931–2002"],
        res=[(1953, "Ollerup", "gift"), (1981, "Hune", "")])
 person("p6", "Lorenz Heinrich Frederiksen", "M", ahnen=6, line="maternal", conf="record",
@@ -199,6 +203,20 @@ person("p126", "Jørgen Christensen", "M", ahnen=126, line="larsen", spouse="p12
 person("p127", "Bodil Margrethe Clausen", "F", ahnen=127, line="larsen", spouse="p126", src=["LL:12-15556966"])
 person("p124", "Christen Michelsen", "M", ahnen=124, line="larsen", spouse="p125", src=["LL:12-15570703"])
 person("p125", "Rasmine Hansen", "F", ahnen=125, line="larsen", spouse="p124", src=["LL:12-15570704"])
+
+person("p10", "Jens Nielsen Pedersen", "M", ahnen=10, line="jorgensen", conf="probable", born="1891-04-14", bplace="Vester Starup",
+       father="p20", mother="p21", spouse="p11", res=[(1891, "Vester Starup", "født"), (1916, "Ringkøbing", "gift"), (1921, "Vester Starup", ""), (1925, "Silkeborg", "")],
+       note="Gift 11. juni 1916 i Ringkøbing med Hulda Christensen. I 1925 bor familien i Silkeborg med døtrene Karen Margrethe (1917), Anna Elvira (1918) "
+            "og Nelly (1921). De to første har samme navne som Liss' søstre, så de er sandsynligvis Liss' forældre (Liss er født 1931).",
+       src=["LL:12-9781230", "LL:13-2793204", "LL:25-2149351", "DFS:21838177 (folketælling 1925, Silkeborg)"])
+person("p11", "Hulda Christensen", "F", ahnen=11, line="jorgensen", conf="probable", born="1895-09-25", bplace="Sønder Felding",
+       father="p22", mother="p23", spouse="p10", res=[(1895, "Sønder Felding", "født i Ilderhede"), (1925, "Silkeborg", "")],
+       src=["LL:12-5952889", "LL:13-2793207", "LL:25-2149352", "DFS:21838178"])
+person("p20", "Niels Pedersen", "M", ahnen=20, line="jorgensen", conf="probable", born="1861-10-25", spouse="p21",
+       note="Gift 29. nov. 1889 i Vester Starup med Ane Else Pedersen.", src=["LL:13-3654108", "LL:12-9781231"])
+person("p21", "Ane Else Pedersen", "F", ahnen=21, line="jorgensen", conf="probable", born="1859-04-14", spouse="p20", src=["LL:13-3654109", "LL:12-9781232"])
+person("p22", "Mads Christensen", "M", ahnen=22, line="jorgensen", conf="probable", spouse="p23", src=["LL:13-2793208", "LL:12-5952890"])
+person("p23", "Karen Jensen", "F", ahnen=23, line="jorgensen", conf="probable", spouse="p22", src=["LL:13-2793209", "LL:12-5952891"])
 
 # ================= Oldeforældre =================
 person("p8", "Aage Evald Oskar Jørgensen", "M", ahnen=8, line="jorgensen", born="1890-10-17", bplace="Slagelse",

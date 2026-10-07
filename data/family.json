@@ -98,7 +98,7 @@
     "Kordegn, uddannet i Hune"
    ],
    "conf": "record",
-   "note": "Gift med Evald 1953, 22 år gammel; tre sønner. Et af syv søskende. Fødselsdatoen stammer fra Evalds personarkiv (Hadsten Lokalarkiv). Hendes forældre er endnu ikke fundet.",
+   "note": "Gift med Evald 1953, 22 år gammel; tre sønner. Et af syv søskende. Fødselsdatoen stammer fra Evalds personarkiv (Hadsten Lokalarkiv). Hendes forældre er sandsynligvis Jens Nielsen Pedersen og Hulda f. Christensen i Silkeborg; deres døtre Karen Margrethe (f. 1917) og Anna Elvira (f. 1918) har samme navne som Liss' søstre.",
    "src": [
     "ARK:2162357",
     "litteraturpriser.dk",
@@ -116,8 +116,8 @@
      ""
     ]
    ],
-   "father": null,
-   "mother": null,
+   "father": "p10",
+   "mother": "p11",
    "living": false,
    "sibof": null,
    "step": null,
@@ -1018,6 +1018,198 @@
    "sibof": null,
    "step": null,
    "spouse": "p124"
+  },
+  {
+   "id": "p10",
+   "name": "Jens Nielsen Pedersen",
+   "sex": "M",
+   "ahnen": 10,
+   "line": "jorgensen",
+   "rel": null,
+   "born": "1891-04-14",
+   "bplace": "Vester Starup",
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "probable",
+   "note": "Gift 11. juni 1916 i Ringkøbing med Hulda Christensen. I 1925 bor familien i Silkeborg med døtrene Karen Margrethe (1917), Anna Elvira (1918) og Nelly (1921). De to første har samme navne som Liss' søstre, så de er sandsynligvis Liss' forældre (Liss er født 1931).",
+   "src": [
+    "LL:12-9781230",
+    "LL:13-2793204",
+    "LL:25-2149351",
+    "DFS:21838177 (folketælling 1925, Silkeborg)"
+   ],
+   "res": [
+    [
+     1891,
+     "Vester Starup",
+     "født"
+    ],
+    [
+     1916,
+     "Ringkøbing",
+     "gift"
+    ],
+    [
+     1921,
+     "Vester Starup",
+     ""
+    ],
+    [
+     1925,
+     "Silkeborg",
+     ""
+    ]
+   ],
+   "father": "p20",
+   "mother": "p21",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p11"
+  },
+  {
+   "id": "p11",
+   "name": "Hulda Christensen",
+   "sex": "F",
+   "ahnen": 11,
+   "line": "jorgensen",
+   "rel": null,
+   "born": "1895-09-25",
+   "bplace": "Sønder Felding",
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "probable",
+   "note": null,
+   "src": [
+    "LL:12-5952889",
+    "LL:13-2793207",
+    "LL:25-2149352",
+    "DFS:21838178"
+   ],
+   "res": [
+    [
+     1895,
+     "Sønder Felding",
+     "født i Ilderhede"
+    ],
+    [
+     1925,
+     "Silkeborg",
+     ""
+    ]
+   ],
+   "father": "p22",
+   "mother": "p23",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p10"
+  },
+  {
+   "id": "p20",
+   "name": "Niels Pedersen",
+   "sex": "M",
+   "ahnen": 20,
+   "line": "jorgensen",
+   "rel": null,
+   "born": "1861-10-25",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "probable",
+   "note": "Gift 29. nov. 1889 i Vester Starup med Ane Else Pedersen.",
+   "src": [
+    "LL:13-3654108",
+    "LL:12-9781231"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p21"
+  },
+  {
+   "id": "p21",
+   "name": "Ane Else Pedersen",
+   "sex": "F",
+   "ahnen": 21,
+   "line": "jorgensen",
+   "rel": null,
+   "born": "1859-04-14",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "probable",
+   "note": null,
+   "src": [
+    "LL:13-3654109",
+    "LL:12-9781232"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p20"
+  },
+  {
+   "id": "p22",
+   "name": "Mads Christensen",
+   "sex": "M",
+   "ahnen": 22,
+   "line": "jorgensen",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "probable",
+   "note": null,
+   "src": [
+    "LL:13-2793208",
+    "LL:12-5952890"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p23"
+  },
+  {
+   "id": "p23",
+   "name": "Karen Jensen",
+   "sex": "F",
+   "ahnen": 23,
+   "line": "jorgensen",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "probable",
+   "note": null,
+   "src": [
+    "LL:13-2793209",
+    "LL:12-5952891"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p22"
   },
   {
    "id": "p8",
@@ -6282,6 +6474,21 @@
    55.11,
    10.523,
    "Fyn"
+  ],
+  "Vester Starup": [
+   55.66,
+   8.54,
+   "Sydvestjylland"
+  ],
+  "Ringkøbing": [
+   56.09,
+   8.244,
+   "Vestjylland"
+  ],
+  "Sønder Felding": [
+   55.948,
+   8.786,
+   "Vestjylland"
   ],
   "Svendborg": [
    55.061,

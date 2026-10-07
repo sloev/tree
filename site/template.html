@@ -478,7 +478,7 @@ function renderOversigt(){
   const row = (k,html) => `<div class="fam-row"><div class="k">${k}</div><div class="cards">${html}</div></div>`;
   const b=byId;
   document.getElementById('fam').innerHTML = [
-    row('Oldeforældre', [8,9,12,13].map(n=>card(ahn[n], {8:'farfars far',9:'farfars mor',12:'morfars far (biologisk)',13:'morfars mor'}[n])).join('') + card(b.p12,'tog skylden (anerkendte faderskabet)')+card(b.pf12,'betalt for at gifte sig med Else') + card(b.p14,'mormors far') + card(b.p15,'mormors mor') + gap('Farmors forældre','ukendt: Liss Pedersens forældre')),
+    row('Oldeforældre', [8,9,12,13].map(n=>card(ahn[n], {8:'farfars far',9:'farfars mor',12:'morfars far (biologisk)',13:'morfars mor'}[n])).join('') + card(b.p12,'tog skylden (anerkendte faderskabet)')+card(b.pf12,'betalt for at gifte sig med Else') + card(b.p14,'mormors far') + card(b.p15,'mormors mor') + card(b.p10,'farmors far (sandsynlig)') + card(b.p11,'farmors mor (sandsynlig)')),
     `<div class="fam-sep"></div>`,
     row('Bedsteforældre', card(b.p4,'farfar')+card(b.p5,'farmor')+card(b.p6,'morfar')+card(b.p7,'mormor')),
     row('Grandonkler og -tanter', card(b.s_ester,'farfars søster')+card(b.s_liss_1,'farmors søster')+card(b.s_liss_2,'farmors søster')+gap('Farmors 4 andre søskende','Liss var en af syv')+card(b.sofus_d0,'morfars halvsøster')+card(b.sofus_d1,'morfars halvsøster')+card(b.sofus_d2,'morfars halvsøster')),
@@ -520,7 +520,7 @@ function renderOversigt(){
   document.getElementById('open').innerHTML = [
     ['Mors søster og dine halvsøskende','Nulevende personer er ikke i de offentlige registre. Send navne og fødselsår, så kommer de med i træet.'],
     ['Udvandrerne','Fundet indtil videre: Paulas bror Olaf Gedde til Shanghai (1904) og broren Emil Gedde til Eldorado i Argentina (1922), samt mormors grandonkel Iver Peder Holgersen til Fresno i Californien (1910). Flere af mormors slægtninge fra Sydlangeland udvandrede til Amerika. Udvandrerarkivets database (udvandrerarkivet.dk) kan ikke nås herfra, så de amerikanske grene mangler endnu. Christian Jørgen Christensen fra Langø (f. 1887) er en mulig udvandrer.'],
-    ['Liss Pedersens forældre','Farmor Liss er født 18. april 1931 og var en af syv søskende. Hendes fødesogn vil åbne Pedersen-linjen.'],
+    ['Bekræft Liss\' forældre','Jens Nielsen Pedersen og Hulda Christensen fra Silkeborg passer med søstrenes navne. Liss\' dåbsindførsel (1931, sandsynligvis Silkeborg) vil bekræfte det.'],
     ['Bekræft Lorenz\' far med DNA','Familien ved, at Sophus Petersen fra Påkjær var faren, og at Wilhelm Krogh tog skylden. En DNA-test (fx MyHeritage eller Ancestry) af din mor eller dig kan vise et match med efterkommere af den ene eller den anden.'],
     ['Wilhelm Kroghs slægt','Lorenz\' biologiske far er født 9. okt. 1908 i Landkreis Flensburg. Hans forældre står i tyske standsregistre (Standesamt), der ikke er i de danske arkiver.'],
     ['Ove Samuel Geddes forældre','Han er sandsynligvis søn af generalmajor Hans Christopher Gedde, men det mangler en primærkilde, fx kirkebogen for hans dåb i 1778 eller hans officersbestalling.'],
