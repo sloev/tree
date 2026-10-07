@@ -49,6 +49,7 @@ PLACES = {
     "Ulkebøl": (54.913, 9.820, "Sønderjylland"),
     "Snogbæk": (54.937, 9.716, "Sønderjylland"),
     "Notmark (Als)": (54.990, 9.940, "Sønderjylland"),
+    "Sønderborg": (54.909, 9.792, "Sønderjylland"),
     "Nybøl (Paakjær)": (54.928, 9.647, "Sønderjylland"),
     "Magleby (Nordenbro), Langeland": (54.815, 10.735, "Langeland"),
     "Humble (Kædeby), Langeland": (54.858, 10.695, "Langeland"),
@@ -643,13 +644,13 @@ sibs(("sofus_f", "sofus_m"), "maternal", "Sophus Petersens søskende", [
     ("Viggo Petersen", "M", "1913", {"src": ["AO:Folketælling 1921, Nybøl (bsid 85824)"]}),
 ])
 NYB = "AO:Nybøl kirkebog 1931–58, fødte piger (bsid 202180)"
-for i, (nm, yr, nr) in enumerate([("Rita Cathrine Petersen", "1938", "1938 nr. 6"),
-                                  ("Gerda Marie Petersen", "1940", "1940 nr. 4"),
-                                  ("Edel Sofie Christine Petersen", "1943", "1943 nr. 5")]):
-    person(f"sofus_d{i}", nm, "F", rel="Sophus Petersens datter (Lorenz' halvsøster)", line="maternal", born=yr,
+for i, (nm, yr, nr) in enumerate([("Rita Cathrine Petersen", "1938-03-31", "1938 nr. 6"),
+                                  ("Gerda Marie Petersen", "1940-04-18", "1940 nr. 4"),
+                                  ("Edel Sofie Christine Petersen", "1943-07-12", "1943 nr. 5")]):
+    person(f"sofus_d{i}", nm, "F", rel="Sophus Petersens datter (Lorenz' halvsøster)", line="maternal", born=yr, bplace="Sønderborg",
            father="sofus", mother="sofus_w", conf="record",
            note="Født på Statshospitalet i Sønderborg og døbt i Nybøl som datter af gårdejer Sophus Petersen og hustru Christine f. Jensen. "
-                "Ifølge familien flyttede en af de tre søstre til Norge. Kan være i live, så kun fødselsåret vises.",
+                "Ifølge familien flyttede en af de tre søstre til Norge.",
            src=[f"{NYB}, {nr}", "Familiens oplysninger"])
 
 sibs(("p62", "p63"), "larsen", "Kristines søskende (Langø-familien)", [

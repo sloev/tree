@@ -5249,13 +5249,13 @@
    "ahnen": null,
    "line": "maternal",
    "rel": "Sophus Petersens datter (Lorenz' halvsøster)",
-   "born": "1938",
-   "bplace": null,
+   "born": "1938-03-31",
+   "bplace": "Sønderborg",
    "died": null,
    "dplace": null,
    "occ": [],
    "conf": "record",
-   "note": "Født på Statshospitalet i Sønderborg og døbt i Nybøl som datter af gårdejer Sophus Petersen og hustru Christine f. Jensen. Ifølge familien flyttede en af de tre søstre til Norge. Kan være i live, så kun fødselsåret vises.",
+   "note": "Født på Statshospitalet i Sønderborg og døbt i Nybøl som datter af gårdejer Sophus Petersen og hustru Christine f. Jensen. Ifølge familien flyttede en af de tre søstre til Norge.",
    "src": [
     "AO:Nybøl kirkebog 1931–58, fødte piger (bsid 202180), 1938 nr. 6",
     "Familiens oplysninger"
@@ -5275,13 +5275,13 @@
    "ahnen": null,
    "line": "maternal",
    "rel": "Sophus Petersens datter (Lorenz' halvsøster)",
-   "born": "1940",
-   "bplace": null,
+   "born": "1940-04-18",
+   "bplace": "Sønderborg",
    "died": null,
    "dplace": null,
    "occ": [],
    "conf": "record",
-   "note": "Født på Statshospitalet i Sønderborg og døbt i Nybøl som datter af gårdejer Sophus Petersen og hustru Christine f. Jensen. Ifølge familien flyttede en af de tre søstre til Norge. Kan være i live, så kun fødselsåret vises.",
+   "note": "Født på Statshospitalet i Sønderborg og døbt i Nybøl som datter af gårdejer Sophus Petersen og hustru Christine f. Jensen. Ifølge familien flyttede en af de tre søstre til Norge.",
    "src": [
     "AO:Nybøl kirkebog 1931–58, fødte piger (bsid 202180), 1940 nr. 4",
     "Familiens oplysninger"
@@ -5301,13 +5301,13 @@
    "ahnen": null,
    "line": "maternal",
    "rel": "Sophus Petersens datter (Lorenz' halvsøster)",
-   "born": "1943",
-   "bplace": null,
+   "born": "1943-07-12",
+   "bplace": "Sønderborg",
    "died": null,
    "dplace": null,
    "occ": [],
    "conf": "record",
-   "note": "Født på Statshospitalet i Sønderborg og døbt i Nybøl som datter af gårdejer Sophus Petersen og hustru Christine f. Jensen. Ifølge familien flyttede en af de tre søstre til Norge. Kan være i live, så kun fødselsåret vises.",
+   "note": "Født på Statshospitalet i Sønderborg og døbt i Nybøl som datter af gårdejer Sophus Petersen og hustru Christine f. Jensen. Ifølge familien flyttede en af de tre søstre til Norge.",
    "src": [
     "AO:Nybøl kirkebog 1931–58, fødte piger (bsid 202180), 1943 nr. 5",
     "Familiens oplysninger"
@@ -6060,6 +6060,11 @@
   "Notmark (Als)": [
    54.99,
    9.94,
+   "Sønderjylland"
+  ],
+  "Sønderborg": [
+   54.909,
+   9.792,
    "Sønderjylland"
   ],
   "Nybøl (Paakjær)": [
