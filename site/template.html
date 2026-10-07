@@ -1,0 +1,438 @@
+<title>Gaardsted-Jørgensen Slægt</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a church-book ledger — ruled columns, ink on cool paper; generations read left to right like a register. */
+:root{
+  --paper:#f3f5f2; --sheet:#fbfcfa; --ink:#1b2422; --ink-2:#4d5955; --muted:#7d8a85; --rule:#d9e0dc; --rule-2:#c3ccc7;
+  --accent:#7a2e1f; /* iron-gall ink red used for rubrics */
+  --l-jorgensen:#2a78d6; --l-gaardsted:#eb6834; --l-rousing:#1baf7a; --l-maternal:#8d8a80; --l-self:#1b2422;
+  --hover:rgba(27,36,34,.06); --shadow:0 1px 2px rgba(27,36,34,.08);
+  --f-display:"IM Fell DW Pica", "Iowan Old Style", Georgia, serif;
+  --f-body:"Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-data:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#121614; --sheet:#1a1f1d; --ink:#eef2ef; --ink-2:#b9c3bf; --muted:#86928d; --rule:#2b3330; --rule-2:#3a4440;
+  --accent:#e08a74; --l-jorgensen:#3987e5; --l-gaardsted:#d95926; --l-rousing:#199e70; --l-maternal:#9a978d; --l-self:#eef2ef;
+  --hover:rgba(238,242,239,.07); --shadow:none; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#121614; --sheet:#1a1f1d; --ink:#eef2ef; --ink-2:#b9c3bf; --muted:#86928d; --rule:#2b3330; --rule-2:#3a4440;
+  --accent:#e08a74; --l-jorgensen:#3987e5; --l-gaardsted:#d95926; --l-rousing:#199e70; --l-maternal:#9a978d; --l-self:#eef2ef;
+  --hover:rgba(238,242,239,.07); --shadow:none; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font:15px/1.55 var(--f-body);margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px;padding-block:28px 64px;display:flex;flex-direction:column;gap:44px}
+h1,h2,h3{font-family:var(--f-display);font-weight:400;text-wrap:balance;margin:0}
+h1{font-size:clamp(2.1rem,5vw,3.4rem);line-height:1.05}
+h2{font-size:1.75rem;line-height:1.15}
+h3{font-size:1.2rem}
+.eyebrow{font:500 .72rem/1 var(--f-data);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+p{margin:0;max-width:68ch}
+.muted{color:var(--muted)} .ink2{color:var(--ink-2)}
+a{color:inherit;text-decoration-color:var(--rule-2);text-underline-offset:3px}
+a:hover{text-decoration-color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+section{display:flex;flex-direction:column;gap:16px}
+.sec-head{display:flex;flex-direction:column;gap:6px;border-bottom:1px solid var(--rule-2);padding-bottom:10px}
+
+/* header */
+header{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:28px;align-items:end}
+header .lead{display:flex;flex-direction:column;gap:12px}
+.tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:20px;border-top:2px solid var(--ink)}
+.tile{padding:12px 0;display:flex;flex-direction:column;gap:2px;border-bottom:1px solid var(--rule)}
+.tile .v{font:400 2rem/1 var(--f-display)}
+.tile .k{font:.78rem/1.3 var(--f-body);color:var(--ink-2)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.85rem;color:var(--ink-2)}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.sw{width:12px;height:12px;border-radius:3px;display:inline-block}
+.conf{font:500 .68rem/1 var(--f-data);letter-spacing:.06em;text-transform:uppercase;padding:3px 6px;border-radius:4px;border:1px solid var(--rule-2);color:var(--ink-2);white-space:nowrap}
+.conf.probable,.conf.possible{border-style:dashed}
+
+/* pedigree */
+.ped-layout{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:20px;align-items:start}
+.ped-scroll{overflow:auto;max-height:min(900px,78vh);background:var(--sheet);border:1px solid var(--rule);border-radius:6px}
+#ped text{fill:var(--ink)}
+#ped .gen-label{font:500 10px var(--f-data);letter-spacing:.1em;fill:var(--muted)}
+#ped .gen-rule{stroke:var(--rule);stroke-width:1}
+#ped .edge{fill:none;stroke:var(--rule-2);stroke-width:1.5}
+#ped .node{cursor:pointer}
+#ped .node rect.card{fill:var(--sheet);stroke:var(--rule-2);stroke-width:1}
+#ped .node:hover rect.card,#ped .node.sel rect.card{stroke:var(--ink);stroke-width:1.5}
+#ped .node .nm{font:600 11.5px var(--f-body)}
+#ped .node .yr{font:400 10.5px var(--f-data);fill:var(--ink-2)}
+#ped .node.unknown rect.card{stroke-dasharray:3 3}
+#ped .node.unknown .nm{fill:var(--muted)}
+.detail{background:var(--sheet);border:1px solid var(--rule);border-radius:6px;padding:18px;display:flex;flex-direction:column;gap:12px;position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px);max-height:calc(100vh - 24px);overflow:auto;min-width:0}
+.detail dl{display:grid;grid-template-columns:72px minmax(0,1fr);gap:4px 10px;margin:0;font-size:.88rem}
+.detail dt{color:var(--muted);font:500 .7rem/1.7 var(--f-data);text-transform:uppercase;letter-spacing:.06em}
+.detail dd{margin:0}
+.detail ul{margin:0;padding-left:18px;font-size:.88rem;display:flex;flex-direction:column;gap:3px}
+.detail .src{font:400 .74rem/1.5 var(--f-data);color:var(--ink-2);word-break:break-word}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;color:var(--ink-2)}
+button.linkish{all:unset;cursor:pointer;text-decoration:underline;text-decoration-color:var(--rule-2);text-underline-offset:3px}
+button.linkish:hover{text-decoration-color:var(--accent)}
+button.linkish:focus-visible{outline:2px solid var(--accent)}
+
+/* map + charts */
+.two{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:24px;align-items:start}
+.panel{background:var(--sheet);border:1px solid var(--rule);border-radius:6px;padding:14px;min-width:0;display:flex;flex-direction:column;gap:10px}
+.panel h3{font-size:1.05rem}
+.mapsvg .land{fill:var(--paper);stroke:var(--rule-2);stroke-width:.8}
+.mapsvg .land.dk{fill:var(--rule)}
+.mapsvg .route{fill:none;stroke-width:1.6;opacity:.75}
+.mapsvg .dot{stroke:var(--sheet);stroke-width:2;cursor:pointer}
+.mapsvg .lbl{font:500 10.5px var(--f-body);fill:var(--ink)}
+.mapsvg .lbl-halo{font:500 10.5px var(--f-body);stroke:var(--sheet);stroke-width:3.5;fill:none;stroke-linejoin:round}
+.mapsvg .sea{fill:var(--sheet)}
+.placelist{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:2px 16px;font-size:.84rem}
+.placelist div{display:flex;justify-content:space-between;gap:8px;border-bottom:1px solid var(--rule);padding:3px 0}
+.placelist .n{font:400 .78rem var(--f-data);color:var(--ink-2);font-variant-numeric:tabular-nums}
+svg text{font-family:var(--f-body)}
+.axis text{font:400 10px var(--f-data);fill:var(--muted)}
+.axis line,.grid line{stroke:var(--rule);stroke-width:1}
+.base{stroke:var(--rule-2);stroke-width:1}
+.bar-lbl{font:500 11px var(--f-body);fill:var(--ink)}
+.bar-val{font:400 10.5px var(--f-data);fill:var(--ink-2)}
+.life rect{cursor:pointer}
+.life text{font:400 10.5px var(--f-body);fill:var(--ink-2)}
+.statrow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.stat{border-top:1px solid var(--rule-2);padding-top:8px}
+.stat .v{font:400 1.6rem/1.1 var(--f-display)}
+.stat .k{font-size:.78rem;color:var(--ink-2)}
+#tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--paper);font:.8rem/1.4 var(--f-body);padding:7px 9px;border-radius:5px;max-width:280px;z-index:10;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+
+/* gallery */
+.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+figure{margin:0;display:flex;flex-direction:column;gap:8px}
+figure img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:center;border:1px solid var(--rule-2);border-radius:4px;background:var(--sheet)}
+figcaption{font-size:.84rem;color:var(--ink-2);display:flex;flex-direction:column;gap:4px}
+figcaption b{color:var(--ink);font-weight:600}
+.links{columns:2 300px;column-gap:28px;padding:0;margin:0;list-style:none;font-size:.9rem}
+.links li{break-inside:avoid;padding:6px 0;border-bottom:1px solid var(--rule)}
+
+/* table */
+.tbl-wrap{overflow-x:auto;border:1px solid var(--rule);border-radius:6px;background:var(--sheet)}
+table{border-collapse:collapse;width:100%;font-size:.85rem}
+td:first-child{min-width:200px}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font:500 .7rem/1.2 var(--f-data);letter-spacing:.07em;text-transform:uppercase;color:var(--muted);background:var(--sheet);position:sticky;top:0}
+td.num{font-family:var(--f-data);font-variant-numeric:tabular-nums;white-space:nowrap}
+tr:hover td{background:var(--hover)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.filters input,.filters select{font:inherit;font-size:.88rem;padding:6px 9px;border:1px solid var(--rule-2);border-radius:5px;background:var(--sheet);color:var(--ink)}
+.open{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.open div{border-left:2px solid var(--accent);padding:4px 0 4px 12px;font-size:.9rem}
+.open b{display:block;font-weight:600}
+
+@media (max-width:900px){
+  header,.ped-layout,.two{grid-template-columns:minmax(0,1fr)}
+  .detail{position:static;max-height:none}
+  .gallery{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:560px){
+  .gallery,.open{grid-template-columns:minmax(0,1fr)}
+  .statrow{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .wrap{padding-inline:16px}
+}
+@media (prefers-reduced-motion:no-preference){#ped .node rect.card{transition:stroke .15s}}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="lead">
+    <span class="eyebrow">Slægtsbog · nine generations · 1718–2026</span>
+    <h1>Gaardsted-Jørgensen Slægt</h1>
+    <p class="ink2">The ancestry of Johannes Gårdsted Valbjørn, traced through Danish church books and censuses. Your father's line is documented back to the 1700s on Djursland, Mols and in Copenhagen. Your mother's line is waiting for dates.</p>
+    <div class="legend" id="legend"></div>
+  </div>
+  <div class="tiles" id="tiles"></div>
+</header>
+
+<section id="tree">
+  <div class="sec-head">
+    <span class="eyebrow">Anetavle</span>
+    <h2>Pedigree</h2>
+    <p class="muted">Each column is a generation, read left to right. Select a person to see their life, occupations, siblings and the archive records behind them. Dashed cards are unknown people or uncertain links.</p>
+  </div>
+  <div class="ped-layout">
+    <div class="ped-scroll"><svg id="ped" role="img" aria-label="Pedigree chart"></svg></div>
+    <aside class="detail" id="detail" aria-live="polite"></aside>
+  </div>
+</section>
+
+<section id="geo">
+  <div class="sec-head">
+    <span class="eyebrow">Steder</span>
+    <h2>Where they lived</h2>
+    <p class="muted">Every birth, death and recorded residence, placed on the map. Lines follow each ancestor from birthplace to place of death. Most of the family stayed within 25 km of Kolind for two centuries.</p>
+  </div>
+  <div class="two">
+    <div class="panel"><svg id="map" class="mapsvg" role="img" aria-label="Map of family places"></svg></div>
+    <div style="display:flex;flex-direction:column;gap:24px;min-width:0">
+      <div class="panel"><h3>Djursland and Mols, enlarged</h3><svg id="inset" class="mapsvg" role="img" aria-label="Enlarged map of Djursland"></svg></div>
+      <div class="panel"><h3>Places, by number of recorded events</h3><div class="placelist" id="placelist"></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="lives">
+  <div class="sec-head">
+    <span class="eyebrow">Levetid</span>
+    <h2>Lifespans</h2>
+    <p class="muted">Ancestors and relatives with known birth and death years, colored by family line.</p>
+  </div>
+  <div class="panel"><div style="overflow-x:auto"><svg id="lifechart" role="img" aria-label="Lifespan timeline"></svg></div></div>
+  <div class="two">
+    <div class="panel"><h3>Occupations</h3><p class="muted" style="font-size:.84rem">People recorded with at least one occupation in each group. One person can be in several groups.</p><svg id="occchart" role="img" aria-label="Occupations chart"></svg></div>
+    <div class="panel"><h3>Life in numbers</h3><div class="statrow" id="lifestats"></div><h3 style="margin-top:8px">Births by region</h3><svg id="regionchart" role="img" aria-label="Births by region"></svg></div>
+  </div>
+</section>
+
+<section id="photos">
+  <div class="sec-head">
+    <span class="eyebrow">Billeder</span>
+    <h2>Documents and pictures</h2>
+    <p class="muted">The original church-book entries that anchor the tree, and photographs held by Danish local archives.</p>
+  </div>
+  <div class="gallery" id="gallery"></div>
+  <h3>Photographs in local archives</h3>
+  <ul class="links" id="links"></ul>
+</section>
+
+<section id="people">
+  <div class="sec-head">
+    <span class="eyebrow">Register</span>
+    <h2>Everyone in the tree</h2>
+  </div>
+  <div class="filters">
+    <label for="q" class="muted" style="font-size:.85rem">Search</label>
+    <input id="q" type="search" placeholder="Name, place or occupation">
+    <label for="fline" class="muted" style="font-size:.85rem">Line</label>
+    <select id="fline"><option value="">All lines</option></select>
+  </div>
+  <div class="tbl-wrap"><table><thead><tr><th>Name</th><th>Relation</th><th>Born</th><th>Died</th><th>Occupation</th><th>Record</th></tr></thead><tbody id="tbody"></tbody></table></div>
+</section>
+
+<section id="open">
+  <div class="sec-head"><span class="eyebrow">Næste skridt</span><h2>Still open</h2></div>
+  <div class="open">
+    <div><b>Your mother's side</b>Lorenz Frederiksen was born out of wedlock, so he may have been registered under his mother's surname. With his birth date and parish, his baptism entry will name his mother and possibly the father.</div>
+    <div><b>Gerda</b>Her maiden name, birth date or birthplace is the key to that whole quarter of the tree.</div>
+    <div><b>Liss's parents</b>Born 18 Apr 1931. Her birth parish would unlock the Pedersen line.</div>
+    <div><b>Claus Gaardsted's origins</b>He came to Vosnæsgaard after 1784, from a first marriage elsewhere. Finding his first marriage would extend the Gaardsted line past 1750.</div>
+    <div><b>Lovisa Larsson in Malmö</b>Born 28 Jun 1862, daughter of Niels Larsen. Swedish parish records (Riksarkivet) continue this branch.</div>
+    <div><b>Evald's own family tree</b>Hadsten Lokalarkiv (A37) holds "Slægtstavle for Evald Gaardsted-Jørgensen". Asking the archive for a copy could fill in many gaps.</div>
+  </div>
+</section>
+</div>
+<div id="tip" hidden></div>
+
+<script>
+const DATA = __DATA__;
+const MAP = __MAP__;
+const IMGS = __IMGS__;
+</script>
+<script>
+(function(){
+const P = DATA.people, byId = Object.fromEntries(P.map(p=>[p.id,p]));
+const LINES = {jorgensen:"Jørgensen line", gaardsted:"Gaardsted line", rousing:"Rousing / Fuglslev line", maternal:"Mother's side", self:"You"};
+const lineVar = l => `var(--l-${l||'maternal'})`;
+const yr = s => { if(!s) return null; const m = String(s).match(/\d{4}/); return m? +m[0] : null; };
+const esc = s => String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmtDate = s => { if(!s) return ''; const m=String(s).match(/^(\d{4})-(\d{2})(?:-(\d{2}))?$/); if(!m) return s;
+  const mo=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][+m[2]-1]; return m[3]? `${+m[3]} ${mo} ${m[1]}` : `${mo} ${m[1]}`; };
+const confLabel = {record:'Archive record', told:'From you', probable:'Probable', possible:'Possible'};
+const tip = document.getElementById('tip');
+function showTip(e,html){tip.innerHTML=html;tip.hidden=false;const r=tip.getBoundingClientRect();let x=e.clientX+14,y=e.clientY+14;if(x+r.width>innerWidth-8)x=e.clientX-r.width-14;if(y+r.height>innerHeight-8)y=e.clientY-r.height-14;tip.style.left=x+'px';tip.style.top=y+'px';}
+function hideTip(){tip.hidden=true}
+const NS='http://www.w3.org/2000/svg';
+const el=(t,a={},parent)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(parent)parent.appendChild(e);return e;};
+
+// ---------- legend & tiles ----------
+document.getElementById('legend').innerHTML = ['jorgensen','gaardsted','rousing','maternal'].map(l=>`<span><i class="sw" style="background:${lineVar(l)}"></i>${LINES[l]}</span>`).join('');
+const anc = P.filter(p=>p.ahnen);
+const named = anc.filter(p=>p.ahnen>1);
+const maxGen = Math.max(...anc.map(p=>Math.floor(Math.log2(p.ahnen))+1));
+const earliest = Math.min(...anc.map(p=>yr(p.born)).filter(Boolean));
+const srcCount = new Set(P.flatMap(p=>p.src)).size;
+document.getElementById('tiles').innerHTML = [
+  [named.length,'ancestors identified'],[maxGen,'generations, counting you'],['c.'+earliest,'earliest ancestor born'],[P.length,'people in the tree'],
+  [Object.keys(DATA.places).length,'places'],[srcCount,'archive records cited']
+].map(([v,k])=>`<div class="tile"><span class="v">${v}</span><span class="k">${k}</span></div>`).join('');
+
+// ---------- pedigree ----------
+const ped = document.getElementById('ped');
+const CW=170, CH=44, GX=34, GY=10, TOP=28;
+const ahn = Object.fromEntries(anc.map(p=>[p.ahnen,p]));
+// build visible slots: known ancestors plus an "unknown" placeholder for a missing parent of a known person (up to gen 4)
+const slots = {};
+function visit(n){ const p=ahn[n]; slots[n]=p||null; if(!p) return; const g=Math.floor(Math.log2(n));
+  for(const c of [2*n,2*n+1]){ if(ahn[c]) visit(c); else if(g<3 || (p && (p.father||p.mother))) {} } }
+visit(1);
+// add placeholders: for known person in gen<=3 lacking a parent
+for(const n of Object.keys(slots).map(Number)){ const g=Math.floor(Math.log2(n)); if(slots[n] && g<3){ for(const c of [2*n,2*n+1]) if(!(c in slots)) slots[c]=null; } }
+// leaves ordering via DFS
+let leafIdx=0; const ypos={};
+function lay(n){ const kids=[2*n,2*n+1].filter(c=>c in slots); if(!kids.length){ ypos[n]=leafIdx++; return ypos[n]; }
+  const ys=kids.map(lay); ypos[n]=(ys[0]+ys[ys.length-1])/2; return ypos[n]; }
+lay(1);
+const gens = Math.max(...Object.keys(slots).map(n=>Math.floor(Math.log2(+n))))+1;
+const W = gens*(CW+GX)+10, H = TOP+leafIdx*(CH+GY)+10;
+ped.setAttribute('viewBox',`0 0 ${W} ${H}`); ped.setAttribute('width',W); ped.setAttribute('height',H);
+const pos = n => { const g=Math.floor(Math.log2(n)); return {x:6+g*(CW+GX), y:TOP+ypos[n]*(CH+GY)}; };
+for(let g=0; g<gens; g++){ const x=6+g*(CW+GX); el('text',{x, y:14, class:'gen-label'},ped).textContent = g===0?'YOU':`GEN ${g+1}`; }
+for(const n of Object.keys(slots).map(Number)){ if(n===1) continue; const par=Math.floor(n/2); const a=pos(par), b=pos(n);
+  const x1=a.x+CW, y1=a.y+CH/2, x2=b.x, y2=b.y+CH/2, mx=x1+GX/2;
+  el('path',{d:`M${x1},${y1}H${mx}V${y2}H${x2}`, class:'edge'},ped); }
+const nodes={};
+for(const n of Object.keys(slots).map(Number)){
+  const p=slots[n], {x,y}=pos(n);
+  const g=el('g',{class:'node'+(p?'':' unknown')+(p&&p.conf!=='record'&&p.conf!=='told'?' unknown':''), transform:`translate(${x},${y})`, tabindex:p?0:-1, role:p?'button':'img','aria-label':p?p.name:'Unknown'},ped);
+  el('rect',{class:'card',width:CW,height:CH,rx:5},g);
+  el('rect',{x:0,y:0,width:4,height:CH,rx:2,fill:p?lineVar(p.line):'var(--rule-2)'},g);
+  const name = p? p.name.replace(/\s*\(.*?\)/,'') : (n%2?'Unknown mother':'Unknown father');
+  const t1=el('text',{x:11,y:18,class:'nm'},g); t1.textContent = name.length>26? name.slice(0,25)+'…' : name;
+  const t2=el('text',{x:11,y:34,class:'yr'},g);
+  t2.textContent = p? (p.living? 'living' : [p.born?(String(p.born).startsWith('c.')?p.born:yr(p.born)):'?', p.died?(yr(p.died)||p.died):''].join(' – ').replace(/ – $/,'')) : '—';
+  if(p){ nodes[p.id]=g; g.addEventListener('click',()=>select(p.id)); g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();select(p.id);}}); }
+}
+function rel(p){ if(p.rel) return p.rel; if(!p.ahnen) return ''; const g=Math.floor(Math.log2(p.ahnen));
+  if(g===0) return 'You'; const side = (p.ahnen.toString(2)[1]==='0')?"father's side":"mother's side";
+  const base = g===1?(p.sex==='M'?'Father':'Mother') : (g===2?(p.sex==='M'?'Grandfather':'Grandmother') : ('great-'.repeat(g-2)+(p.sex==='M'?'grandfather':'grandmother')));
+  return g===1? base : `${base[0].toUpperCase()+base.slice(1)}, ${side}`; }
+function srcLink(s){ const m=s.match(/^(LL|AO|DFS|ARK):(\S+)(.*)$/);
+  if(!m) return esc(s);
+  const [_,t,id,rest]=m;
+  const url = t==='LL'?'https://link-lives.dk/soeg/' : t==='DFS'?`https://www.danishfamilysearch.dk/cid${id}` : t==='ARK'?`https://arkiv.dk/vis/${id}` : (/^\d+$/.test(id)?`https://api.rigsarkivet.dk/ao/v1/images/${id}`:'https://www.sa.dk/ao/');
+  const label = {LL:'Link Lives',DFS:'Danish Family Search',ARK:'arkiv.dk',AO:'Arkivalieronline'}[t];
+  return `<a href="${url}" target="_blank" rel="noopener">${label} ${esc(id)}</a>${esc(rest)}`; }
+function personLink(p){ return `<button class="linkish" data-pid="${p.id}">${esc(p.name)}</button>`; }
+function select(id){
+  const p=byId[id]; if(!p) return;
+  Object.values(nodes).forEach(n=>n.classList.remove('sel')); if(nodes[id]) nodes[id].classList.add('sel');
+  const kids = P.filter(c=>c.father===id||c.mother===id);
+  const sibs = P.filter(c=>c.id!==id && ((p.father&&c.father===p.father)||(p.mother&&c.mother===p.mother)));
+  const par = [p.father,p.mother].filter(Boolean).map(i=>byId[i]).filter(Boolean);
+  const life = p.living? 'Living' : [p.born?`b. ${fmtDate(p.born)}${p.bplace?', '+p.bplace:''}`:'', p.died?`d. ${fmtDate(p.died)}${p.dplace?', '+p.dplace:''}`:''].filter(Boolean).join('<br>');
+  const d=document.getElementById('detail');
+  d.innerHTML = `<div style="display:flex;flex-direction:column;gap:6px">
+     <span class="chip"><i class="sw" style="background:${lineVar(p.line)}"></i>${esc(LINES[p.line]||'')}</span>
+     <h3 style="font-size:1.4rem">${esc(p.name)}</h3>
+     <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center"><span class="ink2" style="font-size:.88rem">${esc(rel(p))}</span><span class="conf ${p.conf}">${confLabel[p.conf]||p.conf}</span></div></div>
+   <dl>${life?`<dt>Life</dt><dd>${life}</dd>`:''}
+     ${p.occ.length?`<dt>Work</dt><dd><ul>${p.occ.map(o=>`<li>${esc(o)}</li>`).join('')}</ul></dd>`:''}
+     ${p.res.length?`<dt>Lived</dt><dd><ul>${p.res.map(r=>`<li><span style="font-family:var(--f-data);font-size:.8rem">${r[0]}</span> ${esc(r[1])}${r[2]?` <span class="muted">· ${esc(r[2])}</span>`:''}</li>`).join('')}</ul></dd>`:''}
+     ${par.length?`<dt>Parents</dt><dd>${par.map(personLink).join('<br>')}</dd>`:''}
+     ${sibs.length?`<dt>Siblings</dt><dd>${sibs.map(s=>personLink(s)+(s.born?` <span class="muted">${yr(s.born)||''}</span>`:'')).join('<br>')}</dd>`:''}
+     ${kids.length?`<dt>Children</dt><dd>${kids.map(personLink).join('<br>')}</dd>`:''}
+   </dl>
+   ${p.note?`<p style="font-size:.88rem">${esc(p.note)}</p>`:''}
+   ${p.src.length?`<div><div class="eyebrow" style="margin-bottom:6px">Sources</div><div class="src">${p.src.map(srcLink).join('<br>')}</div></div>`:''}`;
+  d.querySelectorAll('[data-pid]').forEach(b=>b.addEventListener('click',()=>select(b.dataset.pid)));
+  try{ localStorage.setItem('sel',id) }catch(e){}
+}
+{const ps=document.querySelector('.ped-scroll'); const q=pos(4); ps.scrollTop=Math.max(0,q.y-120);}
+let start='p4'; try{ start = localStorage.getItem('sel') || 'p4'; }catch(e){}
+select(byId[start]?start:'p4');
+
+// ---------- map ----------
+const [lon0,lat0,lon1,lat1]=MAP.bbox;
+const prj=(lat,lon)=>[(lon-lon0)/(lon1-lon0)*MAP.W, (lat1-lat)/(lat1-lat0)*MAP.H];
+const ev={};
+const add=(pl,p,what)=>{ if(!pl||!DATA.places[pl]) return; (ev[pl]=ev[pl]||[]).push({p,what}); };
+P.forEach(p=>{ add(p.bplace,p,'born'); add(p.dplace,p,'died'); p.res.forEach(r=>{ if(r[1]!==p.bplace||r[0]!==yr(p.born)) add(r[1],p,`${r[0]}${r[2]?' · '+r[2]:''}`); }); });
+const dom = pl => { const c={}; ev[pl].forEach(e=>{c[e.p.line]=(c[e.p.line]||0)+1}); return Object.entries(c).sort((a,b)=>b[1]-a[1])[0][0]; };
+const sorted=Object.keys(ev).sort((a,b)=>ev[a].length-ev[b].length);
+const short=pl=>pl.split(/[,(\/]/)[0].trim();
+function drawMap(svg, vb, labelFor){
+  const s = MAP.W / vb[2];   // zoom factor
+  svg.setAttribute('viewBox', vb.join(' '));
+  el('rect',{x:vb[0],y:vb[1],width:vb[2],height:vb[3],class:'sea'},svg);
+  [['de',''],['se',''],['dk',' dk']].forEach(([k,c])=>el('path',{d:MAP[k],class:'land'+c,style:`stroke-width:${.8/s}px`},svg));
+  const routes=el('g',{},svg);
+  anc.forEach(p=>{ const a=DATA.places[p.bplace], b=DATA.places[p.dplace]; if(!a||!b||p.bplace===p.dplace) return;
+    const [x1,y1]=prj(a[0],a[1]), [x2,y2]=prj(b[0],b[1]); const mx=(x1+x2)/2+(y2-y1)*.18, my=(y1+y2)/2-(x2-x1)*.18;
+    el('path',{d:`M${x1},${y1}Q${mx},${my} ${x2},${y2}`,class:'route',stroke:lineVar(p.line),style:`stroke-width:${1.6/s}px`},routes); });
+  sorted.forEach(pl=>{ const [lat,lon]=DATA.places[pl]; const [x,y]=prj(lat,lon); const n=ev[pl].length;
+    const c=el('circle',{cx:x,cy:y,r:(4+Math.sqrt(n)*2.2)/s,class:'dot',style:`stroke-width:${2/s}px`,fill:lineVar(dom(pl)),tabindex:0,'aria-label':`${pl}: ${n} events`},svg);
+    const html=`<b>${esc(pl)}</b> · ${esc(DATA.places[pl][2])}<br>`+ev[pl].slice(0,9).map(e=>`${esc(e.p.name)} <span style="opacity:.7">${esc(e.what)}</span>`).join('<br>')+(n>9?`<br>+${n-9} more`:'');
+    c.addEventListener('mousemove',e=>showTip(e,html)); c.addEventListener('mouseleave',hideTip);
+    c.addEventListener('focus',()=>{const r=c.getBoundingClientRect();showTip({clientX:r.right,clientY:r.top},html)}); c.addEventListener('blur',hideTip); });
+  labelFor.forEach(([text,lat,lon,anchor,dy])=>{ const [x,y]=prj(lat,lon); const r=(4+2.2)/s+5/s;
+    const o={x:anchor==='end'?x-r:x+r,y:y+(dy||4)/s,'text-anchor':anchor||'start',style:`font-size:${10.5/s}px`};
+    el('text',{...o,class:'lbl-halo',style:`font-size:${10.5/s}px;stroke-width:${3.5/s}px`},svg).textContent=text; el('text',{...o,class:'lbl'},svg).textContent=text; });
+}
+const pl=DATA.places, L=(n,a,dy)=>[short(n),pl[n][0],pl[n][1],a,dy];
+drawMap(document.getElementById('map'),[0,0,MAP.W,MAP.H],[
+  L('Hune'),L('Gjellerup / Hammerum','end'),L('Silkeborg'),L('Hadsten','end'),['Djursland',56.42,10.62,'start',-6],L('Copenhagen','end',-6),L('Malmö'),
+  L('Slagelse','end'),L('Viby (Roskilde amt)','end',12),L('Svendborg'),L('Ollerup','end')]);
+const [ix0,iy0]=prj(56.47,10.27), [ix1,iy1]=prj(56.15,10.86);
+document.getElementById('inset').setAttribute('style','width:100%;height:auto');
+drawMap(document.getElementById('inset'),[ix0,iy0,ix1-ix0,iy1-iy0],[
+  L('Kolind','start',-4),L('Tirstrup','start',-4),L('Fuglslev','start',14),L('Rosmus','end',12),L('Ebeltoft'),
+  L('Vosnæsgaard, Skødstrup','start',4),L('Bogensholm, Vistoft (Mols)','start',4)]);
+document.getElementById('placelist').innerHTML = Object.keys(ev).sort((a,b)=>ev[b].length-ev[a].length).map(pl=>`<div><span><i class="sw" style="background:${lineVar(dom(pl))};width:9px;height:9px;margin-right:6px"></i>${esc(pl)}</span><span class="n">${ev[pl].length}</span></div>`).join('');
+
+// ---------- lifespans ----------
+const lc=document.getElementById('lifechart');
+const lifers=P.filter(p=>yr(p.born)&&yr(p.died)&&!/after/.test(p.died)).sort((a,b)=>yr(a.born)-yr(b.born));
+const Y0=1740, Y1=2020, LW=Math.max(640, document.querySelector('#lives .panel').clientWidth-30), LM=190, RH=17;
+const LH=24+lifers.length*RH+20;
+lc.setAttribute('viewBox',`0 0 ${LW} ${LH}`); lc.setAttribute('width',LW); lc.setAttribute('height',LH);
+const xs=y=>LM+(y-Y0)/(Y1-Y0)*(LW-LM-12);
+const ax=el('g',{class:'axis'},lc);
+for(let y=1750;y<=2020;y+=25){ el('line',{x1:xs(y),x2:xs(y),y1:18,y2:LH-18},ax); const t=el('text',{x:xs(y),y:12,'text-anchor':'middle'},ax); t.textContent=y; }
+const lg=el('g',{class:'life'},lc);
+lifers.forEach((p,i)=>{ const b=yr(p.born), d=yr(p.died), y=24+i*RH;
+  const t=el('text',{x:LM-8,y:y+10,'text-anchor':'end'},lg); t.textContent=p.name.replace(/\s*\(.*?\)/,'').slice(0,28);
+  const r=el('rect',{x:xs(b),y:y+2,width:Math.max(3,xs(d)-xs(b)),height:RH-6,rx:3,fill:lineVar(p.line),tabindex:0,'aria-label':`${p.name}, ${b}–${d}`},lg);
+  const html=`<b>${esc(p.name)}</b><br>${b}–${d} · ${d-b} years<br><span style="opacity:.75">${esc(rel(p))}</span>`;
+  r.addEventListener('mousemove',e=>showTip(e,html)); r.addEventListener('mouseleave',hideTip); r.addEventListener('click',()=>{select(p.id);document.getElementById('tree').scrollIntoView({behavior:'smooth'})}); });
+el('line',{x1:LM,x2:LW-12,y1:LH-18,y2:LH-18,class:'base'},lc);
+
+// ---------- life stats ----------
+const ages=lifers.map(p=>yr(p.died)-yr(p.born)).filter(a=>a>=0);
+const adults=lifers.filter(p=>yr(p.died)-yr(p.born)>=15);
+const avgAd=Math.round(adults.reduce((s,p)=>s+yr(p.died)-yr(p.born),0)/adults.length);
+const oldest=lifers.reduce((a,p)=>(yr(p.died)-yr(p.born))>(yr(a.died)-yr(a.born))?p:a);
+const childDeaths=lifers.filter(p=>yr(p.died)-yr(p.born)<5).length;
+document.getElementById('lifestats').innerHTML=[[avgAd+' yrs','average age at death, adults'],[(yr(oldest.died)-yr(oldest.born))+' yrs',`longest life: ${oldest.name.split(' ')[0]}`],[childDeaths,'children who died before age 5'],
+  [anc.filter(p=>p.ahnen>1&&p.born&&p.bplace&&DATA.places[p.bplace]&&DATA.places[p.bplace][2]==='Djursland').length,'ancestors born on Djursland'],
+  [P.filter(p=>/sognefoged|bailiff/i.test(p.occ.join())).length,'parish bailiffs'],[P.filter(p=>/priest|clerk/i.test(p.occ.join())).length,'church officials']]
+  .map(([v,k])=>`<div class="stat"><div class="v">${v}</div><div class="k">${esc(k)}</div></div>`).join('');
+
+// ---------- horizontal bar helper ----------
+function hbars(svg, rows, color){
+  const w=Math.max(300, svg.parentElement.clientWidth-30), lm=150, rh=26, h=rows.length*rh+22;
+  svg.setAttribute('viewBox',`0 0 ${w} ${h}`); svg.setAttribute('width','100%'); svg.setAttribute('height',h);
+  const mx=Math.max(...rows.map(r=>r[1])); const x=v=>lm+v/mx*(w-lm-30);
+  for(let v=0;v<=mx;v+=Math.max(1,Math.ceil(mx/5))){ el('line',{x1:x(v),x2:x(v),y1:4,y2:h-16,stroke:'var(--rule)'},svg); const t=el('text',{x:x(v),y:h-4,'text-anchor':'middle',class:'axis'},svg); t.innerHTML=`<tspan style="font:400 10px var(--f-data);fill:var(--muted)">${v}</tspan>`; }
+  rows.forEach(([lab,v,who],i)=>{ const y=6+i*rh;
+    el('text',{x:lm-8,y:y+13,'text-anchor':'end',class:'bar-lbl'},svg).textContent=lab;
+    const r=el('rect',{x:lm,y:y+3,width:Math.max(2,x(v)-lm),height:rh-10,rx:3,fill:color,tabindex:0,'aria-label':`${lab}: ${v}`},svg);
+    el('text',{x:x(v)+5,y:y+13,class:'bar-val'},svg).textContent=v;
+    if(who){ const html=`<b>${esc(lab)}</b><br>`+who.map(esc).join('<br>'); r.addEventListener('mousemove',e=>showTip(e,html)); r.addEventListener('mouseleave',hideTip); }
+  });
+  el('line',{x1:lm,x2:lm,y1:4,y2:h-16,class:'base'},svg);
+}
+const occRows=DATA.cats.map(([cat,keys])=>{ const who=P.filter(p=>p.occ.some(o=>keys.some(k=>o.toLowerCase().includes(k)))).map(p=>p.name); return [cat,who.length,who]; }).filter(r=>r[1]>0).sort((a,b)=>b[1]-a[1]);
+hbars(document.getElementById('occchart'), occRows, 'var(--l-jorgensen)');
+const reg={}; P.forEach(p=>{ if(p.bplace&&DATA.places[p.bplace]){ const r=DATA.places[p.bplace][2]; (reg[r]=reg[r]||[]).push(p.name); }});
+hbars(document.getElementById('regionchart'), Object.entries(reg).map(([r,w])=>[r,w.length,w]).sort((a,b)=>b[1]-a[1]), 'var(--l-jorgensen)');
+
+// ---------- gallery ----------
+document.getElementById('gallery').innerHTML=DATA.photos.map((ph,i)=>`<figure><a href="${ph.link}" target="_blank" rel="noopener"><img src="${IMGS[i]}" alt="${esc(ph.title)}"></a><figcaption><b>${esc(ph.title)}</b>${esc(ph.caption)}<span class="muted">${esc(ph.credit)}</span></figcaption></figure>`).join('');
+document.getElementById('links').innerHTML=DATA.links.map(([t,u])=>`<li><a href="${u}" target="_blank" rel="noopener">${esc(t)}</a></li>`).join('');
+
+// ---------- table ----------
+const fl=document.getElementById('fline'); Object.entries(LINES).forEach(([k,v])=>{ if(k!=='self'){ const o=document.createElement('option'); o.value=k;o.textContent=v; fl.appendChild(o);} });
+const tb=document.getElementById('tbody');
+const order=[...P].sort((a,b)=>(a.ahnen||9999)-(b.ahnen||9999)||(yr(a.born)||0)-(yr(b.born)||0));
+function renderTable(){ const q=document.getElementById('q').value.toLowerCase(), l=fl.value;
+  tb.innerHTML=order.filter(p=>(!l||p.line===l)&&(!q||[p.name,p.bplace,p.dplace,p.occ.join(' '),p.rel].join(' ').toLowerCase().includes(q))).map(p=>
+   `<tr><td><span class="chip" style="color:var(--ink)"><i class="sw" style="background:${lineVar(p.line)};width:9px;height:9px"></i><button class="linkish" data-pid="${p.id}">${esc(p.name)}</button></span></td><td>${esc(rel(p))}</td><td class="num">${p.living?'living':esc(fmtDate(p.born))}${p.bplace?`<br><span class="muted" style="font-family:var(--f-body)">${esc(p.bplace)}</span>`:''}</td><td class="num">${esc(fmtDate(p.died))}${p.dplace?`<br><span class="muted" style="font-family:var(--f-body)">${esc(p.dplace)}</span>`:''}</td><td>${esc(p.occ.join('; '))}</td><td><span class="conf ${p.conf}">${confLabel[p.conf]||''}</span></td></tr>`).join('');
+  tb.querySelectorAll('[data-pid]').forEach(b=>b.addEventListener('click',()=>{select(b.dataset.pid);document.getElementById('tree').scrollIntoView({behavior:'smooth'})})); }
+document.getElementById('q').addEventListener('input',renderTable); fl.addEventListener('change',renderTable); renderTable();
+})();
+</script>
