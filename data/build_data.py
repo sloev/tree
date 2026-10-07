@@ -170,13 +170,14 @@ person("p31", "Kristine Adamine Margrethe Christensen", "F", ahnen=31, line="lar
        res=[(1884, "Rudkøbing", "født"), (1898, "Humble (Kædeby), Langeland", "konfirmeret"), (1904, "Humble (Kædeby), Langeland", "gift")],
        note="Datter af 'Kongen af Langø', Marius Christensen. Hun er Gerdas mormor.",
        src=["LL:12-15579549", "LL:14-3122525", "LL:9-1908174", "LL:13-2027012", "LL:24-817273", "LL:25-805033"])
-person("p56", "Lars Larsen", "M", ahnen=56, line="larsen", born="ca. 1833", spouse="p57",
-       note="Gift 27. aug. 1859 i Magleby (Langeland) med Maren Christiansen.", src=["LL:13-5236614", "LL:12-16296349"])
-person("p57", "Maren Christiansen", "F", ahnen=57, line="larsen", born="ca. 1837", spouse="p56", src=["LL:13-5236615", "LL:12-16296350"])
+person("p56", "Lars Larsen", "M", ahnen=56, line="larsen", born="1832-08-30", bplace="Magleby (Nordenbro), Langeland", spouse="p57",
+       occ=["Daglejer ved landbruget, Magleby (1901)"],
+       note="Gift 27. aug. 1859 i Magleby (Langeland) med Maren Christiansen.", src=["LL:13-5236614", "LL:12-16296349", "LL:7-1520193", "LL:22-1228475", "LL:9-1903457"])
+person("p57", "Maren Christiansen", "F", ahnen=57, line="larsen", born="1837-05-02", bplace="Magleby (Nordenbro), Langeland", spouse="p56", src=["LL:13-5236615", "LL:12-16296350", "LL:9-1903458"])
 person("p58", "Peder Hansen Berentzen", "M", ahnen=58, line="larsen", born="1818-02-22", bplace="Lindelse", spouse="p59",
        note="Gift 11. juni 1852 i Rudkøbing med Marthe Madsen.", src=["LL:13-5084744", "LL:12-16299532"])
 person("p59", "Marthe Madsen", "F", ahnen=59, line="larsen", born="1823-09-07", bplace="Tranekær", spouse="p58", src=["LL:13-5084745", "LL:12-16299533"])
-person("p60", "Peder Iver Holgersen", "M", ahnen=60, line="larsen", born="ca. 1851", spouse="p61",
+person("p60", "Peder Iver Holgersen", "M", ahnen=60, line="larsen", born="ca. 1851", spouse="p61", res=[(1890, "Tved (Svendborg)", "")],
        note="Gift 26. nov. 1878 i Vor Frue Kirke, Svendborg, med Karen Nielsen.", src=["LL:13-5270320", "LL:12-15691758"])
 person("p61", "Karen Nielsen", "F", ahnen=61, line="larsen", born="ca. 1855", spouse="p60", src=["LL:13-5270321", "LL:12-15691759"])
 person("p62", "Marius Michelsen Christensen", "M", ahnen=62, line="larsen", born="1858-04-14", bplace="Rudkøbing",
@@ -575,11 +576,16 @@ sibs(("p54", "p55"), "gedde", "Paulas søskende", [
     ("Elisabeth Charlotte Chrestle Doris Gedde", "F", "1875-02-25", {"died": "1909-07-13", "occ": ["Lærerinde"],
         "note": "Kaldt 'Pelle'. Hjalp som storesøster med at opdrage de små. Døde efter en blindtarmsoperation.", "src": ["Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)", "LL:11-652492", "LL:7-1280757"]}),
     ("Emil Ludvig Edvard Gedde", "M", "1876-11-15", {"died": "1951", "occ": ["Landbrugsuddannet", "Udvandrer til Argentina (1922)"],
-        "note": "Udvandrede i 1922 til Argentina med hustruen Olivia (Johanne Marie Olivia f. Eddelsen) og to børn, og døde der i 1951. Sønnen Ejler blev i Argentina og døde omkring 1990 uden kendte børn. Datteren Inge Regitze (f. 1911, død ca. 1950) vendte tilbage til Danmark i 1930'erne og blev gift med Arne Meyer; ingen børn.",
-        "src": ["Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)", "LL:23-1448261", "LL:12-2288945", "LL:7-1280759"]}),
+        "note": "Udvandrede i 1922 til Argentina med hustruen Olivia (Johanne Marie Olivia f. Eddelsen) og to børn, og døde der i 1951. Sønnen Ejler blev i Argentina og døde omkring 1990 uden kendte børn. Datteren Inge Regitze (f. 1911, død ca. 1950) vendte tilbage til Danmark i 1930'erne og blev gift med Arne Meyer; ingen børn. "
+                "Udvandrerarkivet har to billeder fra den danske koloni i Eldorado, Argentina: 'De ældste medlemmer af den danske koloni' (1920–30), hvor "
+                "'Gedde, landbrugskandidat, over 50 år' sidder forrest, og en konfirmationsfest 27. okt. 1935 med 'fru Gedde' og 'hr Gedde'.",
+        "src": ["Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)", "LL:23-1448261", "LL:12-2288945", "LL:7-1280759",
+                "Det Danske Udvandrerarkiv, billeder B9886 (PH-1983-1307) og B9790 (PH-1983-1334)"]}),
     ("Ove Gedde", "M", "1877-03-31", {"died": "1894", "note": "Skyllet over bord som jungmand på skoleskibet 'Georg Stage' i 1894.", "src": ["Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)", "LL:7-1280760"]}),
     ("Vilhelm Gedde", "M", "1879", {"src": ["LL:7-1280761"]}),
-    ("Olaf Christian Kleist Gedde", "M", None, {"src": ["LL:7-1280762"]}),
+    ("Olaf Christian Kleist Gedde", "M", "ca. 1880", {"occ": ["Kommis (handelsmedhjælper)", "Udvandrer til Shanghai, Kina (1904)"],
+        "note": "Udvandrerprotokollen: 'Gedde, Olaf, kommis, født Horsens, sidste bopæl København, 24 år, rejsemål Shanghai, Kina', kontrakt 3534 (Haugsted), 11. juli 1904. Født på Tamdrup-gården ved Horsens ca. 1880.",
+        "src": ["LL:7-1280762", "Det Danske Udvandrerarkiv, Udvandrerprotokollen (Københavns Politi), kontrakt 3534, 11/7 1904"]}),
     ("Ellen Gedde", "F", "1889-05-15", {"died": "1977-07-21", "occ": ["Kontoruddannet"], "note": "Gift med Aage Laurentzen; ingen børn.", "src": ["Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)"]}),
 ])
 sibs(("p108", "p109"), "gedde", "Edvards søskende", [
@@ -643,6 +649,20 @@ sibs(("p62", "p63"), "larsen", "Kristines søskende (Langø-familien)", [
     ("Georg Johannes Christensen", "M", "1892-10-10", {"note": "Hjemme på Langø i 1921.", "src": ["LL:12-5963476", "LL:25-805446"]}),
     ("Jens Peter Christensen", "M", "1895-01-24", {"note": "Født på Langø.", "src": ["LL:12-4983047", "LL:14-3121869"]}),
     ("Valdemar Emil Christensen", "M", "1899-03-06", {"note": "Født på Langø; hjemme i 1921.", "src": ["LL:12-4983393", "LL:25-805447"]}),
+])
+sibs(("p60", "p61"), "larsen", "Axel Eriks søskende", [
+    ("Holger Vilhelm Nielsen Holgersen", "M", "ca. 1881", {"src": ["LL:22-1332441"]}),
+    ("Kristian Holgersen", "M", "ca. 1886", {"src": ["LL:22-1332443"]}),
+    ("Iver Peder Holgersen", "M", "ca. 1889", {"occ": ["Arbejder", "Udvandrer til Fresno, Californien (1910)"],
+        "note": "Udvandrerprotokollen: 'Holgersen, Iver Peder, arbejder, født Tved, sidste bopæl Skalbjerg, 22 år, rejsemål Fresno, USA', 8. sep. 1910, med damperen United States. Efterkommere kan leve i Californien.",
+        "src": ["LL:22-1332444", "Det Danske Udvandrerarkiv, Udvandrerprotokollen (Københavns Politi), kontrakt 4443, 8/9 1910"]}),
+])
+sibs(("p56", "p57"), "larsen", "Lars Thomsens søskende", [
+    ("Karoline Larsen", "F", "ca. 1864", {"src": ["LL:22-1228477"]}),
+    ("Jensine Marentine Larsen", "F", "ca. 1870", {"src": ["LL:7-1520195"]}),
+    ("Laurentine Sophie Larsen", "F", "ca. 1874", {"src": ["LL:7-1520196", "LL:22-1228478"]}),
+    ("Peder Christian Larsen", "M", "ca. 1878", {"src": ["LL:7-1520197", "LL:22-1228479"]}),
+    ("Thomas Larsen", "M", "ca. 1881", {"src": ["LL:22-1228480"]}),
 ])
 sibs(("p28", "p29"), "larsen", "Laurits Edvards søskende", [
     ("Aksel Peder Larsen", "M", "1888-02-13", {"src": ["LL:23-1129715"]}),
@@ -709,6 +729,9 @@ LINKS = [
      "https://www.myheritage.dk/research/collection-10147/billiongraves?itemId=1483464614&action=showRecord"),
     ("Johanne og Sofie Gaardsteds erindringer om Petersminde (arkiv)", "https://arkiv.dk/vis/4407757"),
     ("Evald Gaardsted-Jørgensens personarkiv med hans egen slægtstavle (Hadsten)", "https://arkiv.dk/vis/2162357"),
+    ("Udvandrerarkivet: De ældste medlemmer af den danske koloni i Eldorado, Argentina, med 'Gedde, landbrugskandidat' (1920–30)", "https://www.AalborgStadsarkiv.dk/UA_SoegISamlingen.asp?he=10714761249208"),
+    ("Udvandrerarkivet: Konfirmation i Eldorado, Argentina, 27.10.1935, med hr. og fru Gedde", "https://www.AalborgStadsarkiv.dk/UA_SoegISamlingen.asp?he=2181393947310"),
+    ("Udvandrerarkivets udvandrerprotokol (søg selv videre)", "https://www.aalborgstadsarkiv.dk/UA.asp?UA=UAProtokol"),
     ("Slægten von Kleist i Danmark (Personalhistorisk Tidsskrift 1897)", "https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf"),
     ("Admiral Ove Gjedde og grundlæggelsen af Trankebar (danmarkshistorien.lex.dk)",
      "https://danmarkshistorien.lex.dk/Grundl%C3%A6ggelsen_af_kolonien_Tranquebar,_1620-1630"),

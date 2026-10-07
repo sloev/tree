@@ -343,22 +343,33 @@
 1 NAME Lars /Larsen/
 1 SEX M
 1 BIRT
-2 DATE ABT 1833
+2 DATE 30 AUG 1832
+2 PLAC Magleby (Nordenbro), Langeland, Danmark
+1 OCCU Daglejer ved landbruget, Magleby (1901)
 1 NOTE Gift 27. aug. 1859 i Magleby (Langeland) med Maren Christiansen.
 1 SOUR
 2 PAGE LL:13-5236614
 1 SOUR
 2 PAGE LL:12-16296349
+1 SOUR
+2 PAGE LL:7-1520193
+1 SOUR
+2 PAGE LL:22-1228475
+1 SOUR
+2 PAGE LL:9-1903457
 1 FAMS @F9@
 0 @p57@ INDI
 1 NAME Maren /Christiansen/
 1 SEX F
 1 BIRT
-2 DATE ABT 1837
+2 DATE 2 MAY 1837
+2 PLAC Magleby (Nordenbro), Langeland, Danmark
 1 SOUR
 2 PAGE LL:13-5236615
 1 SOUR
 2 PAGE LL:12-16296350
+1 SOUR
+2 PAGE LL:9-1903458
 1 FAMS @F9@
 0 @p58@ INDI
 1 NAME Peder Hansen /Berentzen/
@@ -388,6 +399,9 @@
 1 SEX M
 1 BIRT
 2 DATE ABT 1851
+1 RESI
+2 DATE 1890
+2 PLAC Tved (Svendborg)
 1 NOTE Gift 26. nov. 1878 i Vor Frue Kirke, Svendborg, med Karen Nielsen.
 1 SOUR
 2 PAGE LL:13-5270320
@@ -2081,7 +2095,7 @@
 2 DATE 1951
 1 OCCU Landbrugsuddannet
 1 OCCU Udvandrer til Argentina (1922)
-1 NOTE Udvandrede i 1922 til Argentina med hustruen Olivia (Johanne Marie Olivia f. Eddelsen) og to børn, og døde der i 1951. Sønnen Ejler blev i Argentina og døde omkring 1990 uden kendte børn. Datteren Inge Regitze (f. 1911, død ca. 1950) vendte tilbage til Danmark i 1930'erne og blev gift med Arne Meyer; ingen børn.
+1 NOTE Udvandrede i 1922 til Argentina med hustruen Olivia (Johanne Marie Olivia f. Eddelsen) og to børn, og døde der i 1951. Sønnen Ejler blev i Argentina og døde omkring 1990 uden kendte børn. Datteren Inge Regitze (f. 1911, død ca. 1950) vendte tilbage til Danmark i 1930'erne og blev gift med Arne Meyer; ingen børn. Udvandrerarkivet har to billeder fra den danske koloni i Eldorado, Argentina: 'De ældste medlemmer af den danske koloni' (1920–30), hvor 'Gedde, landbrugskandidat, over 50 år' sidder forrest, og en konfirmationsfest 27. okt. 1935 med 'fru Gedde' og 'hr Gedde'.
 1 SOUR
 2 PAGE Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)
 1 SOUR
@@ -2090,6 +2104,8 @@
 2 PAGE LL:12-2288945
 1 SOUR
 2 PAGE LL:7-1280759
+1 SOUR
+2 PAGE Det Danske Udvandrerarkiv, billeder B9886 (PH-1983-1307) og B9790 (PH-1983-1334)
 1 FAMC @F26@
 0 @s_p54_4@ INDI
 1 NAME Ove /Gedde/
@@ -2115,8 +2131,15 @@
 0 @s_p54_6@ INDI
 1 NAME Olaf Christian Kleist /Gedde/
 1 SEX M
+1 BIRT
+2 DATE ABT 1880
+1 OCCU Kommis (handelsmedhjælper)
+1 OCCU Udvandrer til Shanghai, Kina (1904)
+1 NOTE Udvandrerprotokollen: 'Gedde, Olaf, kommis, født Horsens, sidste bopæl København, 24 år, rejsemål Shanghai, Kina', kontrakt 3534 (Haugsted), 11. juli 1904. Født på Tamdrup-gården ved Horsens ca. 1880.
 1 SOUR
 2 PAGE LL:7-1280762
+1 SOUR
+2 PAGE Det Danske Udvandrerarkiv, Udvandrerprotokollen (Københavns Politi), kontrakt 3534, 11/7 1904
 1 FAMC @F26@
 0 @s_p54_7@ INDI
 1 NAME Ellen /Gedde/
@@ -2511,6 +2534,79 @@
 1 SOUR
 2 PAGE LL:25-805447
 1 FAMC @F12@
+0 @s_p60_0@ INDI
+1 NAME Holger Vilhelm Nielsen /Holgersen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1881
+1 SOUR
+2 PAGE LL:22-1332441
+1 FAMC @F11@
+0 @s_p60_1@ INDI
+1 NAME Kristian /Holgersen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1886
+1 SOUR
+2 PAGE LL:22-1332443
+1 FAMC @F11@
+0 @s_p60_2@ INDI
+1 NAME Iver Peder /Holgersen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1889
+1 OCCU Arbejder
+1 OCCU Udvandrer til Fresno, Californien (1910)
+1 NOTE Udvandrerprotokollen: 'Holgersen, Iver Peder, arbejder, født Tved, sidste bopæl Skalbjerg, 22 år, rejsemål Fresno, USA', 8. sep. 1910, med damperen United States. Efterkommere kan leve i Californien.
+1 SOUR
+2 PAGE LL:22-1332444
+1 SOUR
+2 PAGE Det Danske Udvandrerarkiv, Udvandrerprotokollen (Københavns Politi), kontrakt 4443, 8/9 1910
+1 FAMC @F11@
+0 @s_p56_0@ INDI
+1 NAME Karoline /Larsen/
+1 SEX F
+1 BIRT
+2 DATE ABT 1864
+1 SOUR
+2 PAGE LL:22-1228477
+1 FAMC @F9@
+0 @s_p56_1@ INDI
+1 NAME Jensine Marentine /Larsen/
+1 SEX F
+1 BIRT
+2 DATE ABT 1870
+1 SOUR
+2 PAGE LL:7-1520195
+1 FAMC @F9@
+0 @s_p56_2@ INDI
+1 NAME Laurentine Sophie /Larsen/
+1 SEX F
+1 BIRT
+2 DATE ABT 1874
+1 SOUR
+2 PAGE LL:7-1520196
+1 SOUR
+2 PAGE LL:22-1228478
+1 FAMC @F9@
+0 @s_p56_3@ INDI
+1 NAME Peder Christian /Larsen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1878
+1 SOUR
+2 PAGE LL:7-1520197
+1 SOUR
+2 PAGE LL:22-1228479
+1 FAMC @F9@
+0 @s_p56_4@ INDI
+1 NAME Thomas /Larsen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1881
+1 SOUR
+2 PAGE LL:22-1228480
+1 FAMC @F9@
 0 @s_p28_0@ INDI
 1 NAME Aksel Peder /Larsen/
 1 SEX M
@@ -2613,6 +2709,11 @@
 1 HUSB @p56@
 1 WIFE @p57@
 1 CHIL @p28@
+1 CHIL @s_p56_0@
+1 CHIL @s_p56_1@
+1 CHIL @s_p56_2@
+1 CHIL @s_p56_3@
+1 CHIL @s_p56_4@
 0 @F10@ FAM
 1 HUSB @p58@
 1 WIFE @p59@
@@ -2621,6 +2722,9 @@
 1 HUSB @p60@
 1 WIFE @p61@
 1 CHIL @p30@
+1 CHIL @s_p60_0@
+1 CHIL @s_p60_1@
+1 CHIL @s_p60_2@
 0 @F12@ FAM
 1 HUSB @p62@
 1 WIFE @p63@
