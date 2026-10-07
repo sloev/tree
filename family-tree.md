@@ -64,6 +64,14 @@ YOU  Johannes Gårdsted Valbjørn ✅
 
 Source: Rigsarkivet, Arkivalieronline, Broager Vestre distrikt kontraministerialbog 1906–48, births (image saved as `images/lorenz-baptism-broager-1933.jpg`).
 
+## Family tradition: the Gedde name and Tranquebar
+The family says the name Gedde comes from a captain in Tranquebar (Trankebar), the Danish colony in India from 1620 to 1845. These leads are documented, but none is linked to Else yet:
+- **Admiral Ove Gjedde** (1594–1660) founded the colony in 1620 and built the fort Dansborg ([Wikipedia](https://en.wikipedia.org/wiki/Ove_Gjedde), [danmarkshistorien.lex.dk](https://danmarkshistorien.lex.dk/Grundl%C3%A6ggelsen_af_kolonien_Tranquebar,_1620-1630)). His noble Giedde family died out in the male line in 1848 ([lex.dk](https://lex.dk/Giedde)).
+- A **Kammerherre Giedde** married **Louise Augusta Pingel**, who was born "in the East Indies" (Copenhagen censuses 1845 and 1850, Link Lives 4-350567 and 5-319787).
+- **Captain Christian Wilhelm Truels Gedde** (b. 1799 Copenhagen) appears in the 1850 and 1860 censuses (Link Lives 5-1265905 and 6-169250).
+
+"Gedde" is a middle name in "Else Gedde Jensen". That usually means it came down through a mother or grandmother, or from a godparent. Else's birth entry would show which.
+
 ## Still open
 - **Else Gedde Jensen.** Her marriage to Peter Frederiksen (c.1931) is not in the Broager Vestre marriage register for 1928–33. Her home parish's register will give her birth date, birthplace and parents. The godmother "farmer Jens Jensen's wife, Dalsgaard" may be her mother.
 - **Gerda's maiden name.**

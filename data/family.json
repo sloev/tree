@@ -237,7 +237,7 @@
    "dplace": "Svendborg",
    "occ": [],
    "conf": "record",
-   "note": "Baptism entry (Broager Vestre distrikt 1933 no. 1): born 12 Jan 1932 in Egernsund, baptised at home 1 Jan 1933; parents labourer Peter Frederiksen and wife Else Gedde Jensen, Egernsund (per letter from the civil registrar 11/7 1932). Godparents: the father; labourer Lorenz Frederiksen and wife Catharina, Egernsund (his grandparents); farmer Jens Jensen's wife, Dalsgaard. Family information says Peter Frederiksen was not his biological father. Buried with his wife Gerda at Sankt Jørgens Kirkegård, Svendborg.",
+   "note": "Baptism entry (Broager Vestre distrikt 1933 no. 1): born 12 Jan 1932 in Egernsund, baptised at home 1 Jan 1933; parents labourer Peter Frederiksen and wife Else Gedde Jensen, Egernsund (per letter from the civil registrar 11/7 1932). Godparents: the father; labourer Lorenz Frederiksen and wife Catharina, Egernsund (his grandparents); farmer Jens Jensen's wife, Dalsgaard. Family information: Lorenz grew up with Peter Frederiksen as his father and only learned as an adult that he was not his biological father. Buried with his wife Gerda at Sankt Jørgens Kirkegård, Svendborg.",
    "src": [
     "AO:Broager Vestre distrikt kontraministerialbog 1906–48, Fødte 1933 no. 1 (bsid 201141, image 112)",
     "BillionGraves via MyHeritage (collection 10147): Lorenz H. [Lorenz Heinrich] Frederiksen, Sankt Jørgens Kirkegård, Svendborg",
@@ -302,9 +302,15 @@
    "dplace": null,
    "occ": [],
    "conf": "record",
-   "note": "Lorenz's mother, named in his baptism entry. 'Gedde' is part of her name, and is where your mother's surname Gedde comes from. Not in the Southern Jutland indexes, so probably born elsewhere in Denmark. Godmother 'farmer Jens Jensen's wife, Dalsgaard' may be her mother (unconfirmed).",
+   "note": "Lorenz's mother, named in his baptism entry. 'Gedde' is part of her name, and is where your mother's surname Gedde comes from. Not in the Southern Jutland indexes, so probably born elsewhere in Denmark. Godmother 'farmer Jens Jensen's wife, Dalsgaard' may be her mother (unconfirmed). Family tradition: the Gedde name comes from a captain in Tranquebar, the Danish colony in India. Known leads, none yet linked to Else: Admiral Ove Gjedde founded Tranquebar in 1620 (his noble Giedde line died out in the male line in 1848); a later Giedde kammerherre married Louise Augusta Pingel, born in the East Indies (census 1845/1850); Captain Christian Wilhelm Truels Gedde (b. 1799 Copenhagen) appears in the 1850 and 1860 censuses.",
    "src": [
-    "AO:Broager Vestre 1933 no. 1"
+    "AO:Broager Vestre 1933 no. 1",
+    "Family tradition (Tranquebar captain)",
+    "LL:4-350567",
+    "LL:5-319787",
+    "LL:6-169250",
+    "lex.dk: Giedde (noble family)",
+    "Wikipedia: Ove Gjedde"
    ],
    "res": [],
    "father": null,

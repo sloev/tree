@@ -139,7 +139,7 @@
 2 DATE 2009
 2 PLAC Svendborg
 2 NOTE died; buried Sankt Jørgens Kirkegård
-1 NOTE Baptism entry (Broager Vestre distrikt 1933 no. 1): born 12 Jan 1932 in Egernsund, baptised at home 1 Jan 1933; parents labourer Peter Frederiksen and wife Else Gedde Jensen, Egernsund (per letter from the civil registrar 11/7 1932). Godparents: the father; labourer Lorenz Frederiksen and wife Catharina, Egernsund (his grandparents); farmer Jens Jensen's wife, Dalsgaard. Family information says Peter Frederiksen was not his biological father. Buried with his wife Gerda at Sankt Jørgens Kirkegård, Svendborg.
+1 NOTE Baptism entry (Broager Vestre distrikt 1933 no. 1): born 12 Jan 1932 in Egernsund, baptised at home 1 Jan 1933; parents labourer Peter Frederiksen and wife Else Gedde Jensen, Egernsund (per letter from the civil registrar 11/7 1932). Godparents: the father; labourer Lorenz Frederiksen and wife Catharina, Egernsund (his grandparents); farmer Jens Jensen's wife, Dalsgaard. Family information: Lorenz grew up with Peter Frederiksen as his father and only learned as an adult that he was not his biological father. Buried with his wife Gerda at Sankt Jørgens Kirkegård, Svendborg.
 1 SOUR
 2 PAGE AO:Broager Vestre distrikt kontraministerialbog 1906–48, Fødte 1933 no. 1 (bsid 201141, image 112)
 1 SOUR
@@ -170,9 +170,21 @@
 0 @p13@ INDI
 1 NAME Else Gedde /Jensen/
 1 SEX F
-1 NOTE Lorenz's mother, named in his baptism entry. 'Gedde' is part of her name, and is where your mother's surname Gedde comes from. Not in the Southern Jutland indexes, so probably born elsewhere in Denmark. Godmother 'farmer Jens Jensen's wife, Dalsgaard' may be her mother (unconfirmed).
+1 NOTE Lorenz's mother, named in his baptism entry. 'Gedde' is part of her name, and is where your mother's surname Gedde comes from. Not in the Southern Jutland indexes, so probably born elsewhere in Denmark. Godmother 'farmer Jens Jensen's wife, Dalsgaard' may be her mother (unconfirmed). Family tradition: the Gedde name comes from a captain in Tranquebar, the Danish colony in India. Known leads, none yet linked to Else: Admiral Ove Gjedde founded Tranquebar in 1620 (his noble Giedde line died out in the male line in 1848); a later Giedde kammerherre married Louise Augusta Pingel, born in the East Indies (census 1845/1850); Captain Christian Wilhelm Truels Gedde (b. 1799 Copenhagen) appears in the 1850 and 1860 censuses.
 1 SOUR
 2 PAGE AO:Broager Vestre 1933 no. 1
+1 SOUR
+2 PAGE Family tradition (Tranquebar captain)
+1 SOUR
+2 PAGE LL:4-350567
+1 SOUR
+2 PAGE LL:5-319787
+1 SOUR
+2 PAGE LL:6-169250
+1 SOUR
+2 PAGE lex.dk: Giedde (noble family)
+1 SOUR
+2 PAGE Wikipedia: Ove Gjedde
 1 FAMS @F5@
 0 @p24@ INDI
 1 NAME Lorenz Heinrich /Frederiksen/
