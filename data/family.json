@@ -1117,15 +1117,44 @@
    "line": "jorgensen",
    "rel": null,
    "born": "1861-10-25",
+   "bplace": "Vester Starup",
+   "died": null,
+   "dplace": null,
+   "occ": [
+    "Gårdejer (1931)"
+   ],
+   "conf": "record",
+   "note": "Gift 29. nov. 1889 i Vester Starup med Ane Else Pedersen. Gudfar til barnebarnet Liss i 1931.",
+   "src": [
+    "LL:12-9787230",
+    "LL:13-3654108",
+    "LL:12-9781231",
+    "AO:Silkeborg kirkebog 1931 nr. 25"
+   ],
+   "res": [],
+   "father": "p40",
+   "mother": "p41",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p21"
+  },
+  {
+   "id": "p40",
+   "name": "Jens Pedersen",
+   "sex": "M",
+   "ahnen": 40,
+   "line": "jorgensen",
+   "rel": null,
+   "born": null,
    "bplace": null,
    "died": null,
    "dplace": null,
    "occ": [],
    "conf": "record",
-   "note": "Gift 29. nov. 1889 i Vester Starup med Ane Else Pedersen.",
+   "note": null,
    "src": [
-    "LL:13-3654108",
-    "LL:12-9781231"
+    "LL:12-9787231"
    ],
    "res": [],
    "father": null,
@@ -1133,7 +1162,82 @@
    "living": false,
    "sibof": null,
    "step": null,
-   "spouse": "p21"
+   "spouse": "p41"
+  },
+  {
+   "id": "p41",
+   "name": "Kirsten Marie Nielsen",
+   "sex": "F",
+   "ahnen": 41,
+   "line": "jorgensen",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-9787232"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p40"
+  },
+  {
+   "id": "p42",
+   "name": "Peder Jensen",
+   "sex": "M",
+   "ahnen": 42,
+   "line": "jorgensen",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-11080622"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p43"
+  },
+  {
+   "id": "p43",
+   "name": "Karen Johnsen",
+   "sex": "F",
+   "ahnen": 43,
+   "line": "jorgensen",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-11080623"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p42"
   },
   {
    "id": "p21",
@@ -1143,19 +1247,20 @@
    "line": "jorgensen",
    "rel": null,
    "born": "1859-04-14",
-   "bplace": null,
+   "bplace": "Fåborg (Varde)",
    "died": null,
    "dplace": null,
    "occ": [],
    "conf": "record",
    "note": null,
    "src": [
+    "LL:12-11080621",
     "LL:13-3654109",
     "LL:12-9781232"
    ],
    "res": [],
-   "father": null,
-   "mother": null,
+   "father": "p42",
+   "mother": "p43",
    "living": false,
    "sibof": null,
    "step": null,
@@ -5700,6 +5805,83 @@
    "spouse": null
   },
   {
+   "id": "s_p10_0",
+   "name": "Karen Margrethe Pedersen",
+   "sex": "F",
+   "ahnen": null,
+   "line": "jorgensen",
+   "rel": "Liss' søskende",
+   "born": "1917",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Senere gift Enevoldsen.",
+   "src": [
+    "DFS:21838180 (folketælling 1925, Silkeborg)",
+    "FamilySearch Family Tree"
+   ],
+   "res": [],
+   "father": "p10",
+   "mother": "p11",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p10_1",
+   "name": "Anna Elvira Pedersen",
+   "sex": "F",
+   "ahnen": null,
+   "line": "jorgensen",
+   "rel": "Liss' søskende",
+   "born": "1918",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "DFS:21838181 (folketælling 1925, Silkeborg)",
+    "FamilySearch Family Tree"
+   ],
+   "res": [],
+   "father": "p10",
+   "mother": "p11",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
+   "id": "s_p10_2",
+   "name": "Nelly Pedersen",
+   "sex": "F",
+   "ahnen": null,
+   "line": "jorgensen",
+   "rel": "Liss' søskende",
+   "born": "1921",
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "DFS:21838182 (folketælling 1925, Silkeborg)"
+   ],
+   "res": [],
+   "father": "p10",
+   "mother": "p11",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": null
+  },
+  {
    "id": "s_p62_0",
    "name": "Christian Anton Christensen",
    "sex": "M",
@@ -6644,6 +6826,11 @@
   "Vester Starup": [
    55.66,
    8.54,
+   "Sydvestjylland"
+  ],
+  "Fåborg (Varde)": [
+   55.66,
+   8.69,
    "Sydvestjylland"
   ],
   "Ringkøbing": [

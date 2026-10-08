@@ -42,6 +42,7 @@ PLACES = {
     "Lejrskov (Ferup)": (55.517, 9.297, "Sydjylland"),
     "Ollerup": (55.110, 10.523, "Fyn"),
     "Vester Starup": (55.660, 8.540, "Sydvestjylland"),
+    "Fåborg (Varde)": (55.660, 8.690, "Sydvestjylland"),
     "Ringkøbing": (56.090, 8.244, "Vestjylland"),
     "Sønder Felding": (55.948, 8.786, "Vestjylland"),
     "Svendborg": (55.061, 10.607, "Fyn"),
@@ -212,9 +213,14 @@ person("p10", "Jens Nielsen Pedersen", "M", ahnen=10, line="jorgensen", born="18
 person("p11", "Hulda Christensen", "F", ahnen=11, line="jorgensen", born="1895-09-25", bplace="Sønder Felding",
        father="p22", mother="p23", spouse="p10", res=[(1895, "Sønder Felding", "født i Ilderhede"), (1925, "Silkeborg", "")],
        src=["LL:12-5952889", "LL:13-2793207", "LL:25-2149352", "DFS:21838178"])
-person("p20", "Niels Pedersen", "M", ahnen=20, line="jorgensen", born="1861-10-25", spouse="p21",
-       note="Gift 29. nov. 1889 i Vester Starup med Ane Else Pedersen.", src=["LL:13-3654108", "LL:12-9781231"])
-person("p21", "Ane Else Pedersen", "F", ahnen=21, line="jorgensen", born="1859-04-14", spouse="p20", src=["LL:13-3654109", "LL:12-9781232"])
+person("p20", "Niels Pedersen", "M", ahnen=20, line="jorgensen", born="1861-10-25", bplace="Vester Starup", spouse="p21", father="p40", mother="p41",
+       occ=["Gårdejer (1931)"],
+       note="Gift 29. nov. 1889 i Vester Starup med Ane Else Pedersen. Gudfar til barnebarnet Liss i 1931.", src=["LL:12-9787230", "LL:13-3654108", "LL:12-9781231", "AO:Silkeborg kirkebog 1931 nr. 25"])
+person("p40", "Jens Pedersen", "M", ahnen=40, line="jorgensen", spouse="p41", src=["LL:12-9787231"])
+person("p41", "Kirsten Marie Nielsen", "F", ahnen=41, line="jorgensen", spouse="p40", src=["LL:12-9787232"])
+person("p42", "Peder Jensen", "M", ahnen=42, line="jorgensen", spouse="p43", src=["LL:12-11080622"])
+person("p43", "Karen Johnsen", "F", ahnen=43, line="jorgensen", spouse="p42", src=["LL:12-11080623"])
+person("p21", "Ane Else Pedersen", "F", ahnen=21, line="jorgensen", born="1859-04-14", bplace="Fåborg (Varde)", spouse="p20", father="p42", mother="p43", src=["LL:12-11080621", "LL:13-3654109", "LL:12-9781232"])
 person("p22", "Mads Christensen", "M", ahnen=22, line="jorgensen", spouse="p23", src=["LL:13-2793208", "LL:12-5952890"])
 person("p23", "Karen Jensen", "F", ahnen=23, line="jorgensen", spouse="p22", src=["LL:13-2793209", "LL:12-5952891"])
 
@@ -662,6 +668,11 @@ sibs(("sofus_f", "sofus_m"), "maternal", "Sophus Petersens søskende", [
     ("Marie Petersen", "F", "1906", {"src": ["AO:Folketælling 1921, Nybøl (bsid 85824)"]}),
     ("Hans Petersen", "M", "1910", {"src": ["AO:Folketælling 1921, Nybøl (bsid 85824)"]}),
     ("Viggo Petersen", "M", "1913", {"src": ["AO:Folketælling 1921, Nybøl (bsid 85824)"]}),
+])
+sibs(("p10", "p11"), "jorgensen", "Liss' søskende", [
+    ("Karen Margrethe Pedersen", "F", "1917", {"note": "Senere gift Enevoldsen.", "src": ["DFS:21838180 (folketælling 1925, Silkeborg)", "FamilySearch Family Tree"]}),
+    ("Anna Elvira Pedersen", "F", "1918", {"src": ["DFS:21838181 (folketælling 1925, Silkeborg)", "FamilySearch Family Tree"]}),
+    ("Nelly Pedersen", "F", "1921", {"src": ["DFS:21838182 (folketælling 1925, Silkeborg)"]}),
 ])
 sibs(("p62", "p63"), "larsen", "Kristines søskende (Langø-familien)", [
     ("Christian Anton Christensen", "M", "1879-06-17", {"note": "Født i Skrøbelev før forældrenes vielse.", "src": ["LL:12-15557976"]}),
