@@ -787,6 +787,7 @@ PHOTOS = [
          credit="Rawert / Det Kgl. Bibliotek via Skødstrup Sogns Egnsarkiv", link="https://arkiv.dk/vis/2780543"),
 ]
 LINKS = [
+    ("Admiral Ove Gjedde (1594–1660), Trankebars grundlægger: levned og kilder (chr4.dk) – ikke påvist beslægtet med vores Gedde-linje", "https://chr4.dk/ove-gedde-levned-og-kilder"),
     ("Gjellerup fattiggård 1914 (Aage var bestyrer i 1925)", "https://arkiv.dk/vis/2636314"),
     ("Gruppebillede, Gjellerup fattiggård 1914", "https://arkiv.dk/vis/2636339"),
     ("Herregården Bogensholm (Claus Gaardsteds gods 1797–1811)", "https://arkiv.dk/vis/4033299"),
