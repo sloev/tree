@@ -356,9 +356,9 @@ person("p38", "Anders Rasmussen Rousing", "M", ahnen=38, line="rousing", born="1
 person("p39", "Mariane Hansdatter", "F", ahnen=39, line="rousing", born="1817-04-11", bplace="Fuglslev",
        died="1885-07-26", dplace="Fuglslev", father="p78", mother="p79", occ=["Tjenestepige på Fuglslev Mølle (1834–40)"], spouse="p38",
        src=["LL:12-3667695", "LL:2-515660", "LL:11-4602105"])
-person("p52", "Rasmus Jensen", "M", ahnen=52, line="gedde", born="1838-10-16", spouse="p53", father="p104", mother="p105",
+person("p52", "Rasmus Jensen", "M", ahnen=52, line="gedde", born="1838-10-16", bplace="Broager", spouse="p53", father="p104", mother="p105",
        note="Gift 18. sep. 1866 i Dybbøl med Anne Christine Hansen; sønnen Jens blev født i Dybbøl nytårsaften samme år.",
-       src=["LL:13-4977279", "LL:12-14358776", "LL:13-432735"])
+       src=["LL:12-15007344", "LL:13-4977279", "LL:12-14358776", "LL:13-432735"])
 person("p53", "Anne Christine Hansen", "F", ahnen=53, line="gedde", spouse="p52", father="p106", mother="p107",
        src=["LL:13-4977282", "LL:12-14358777", "LL:13-432736"])
 person("p104", "Jens Jensen", "M", ahnen=104, line="gedde", spouse="p105", src=["LL:13-4977280"])
