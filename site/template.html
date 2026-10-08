@@ -481,7 +481,7 @@ function renderOversigt(){
     row('Oldeforældre', [8,9,12,13].map(n=>card(ahn[n], {8:'farfars far',9:'farfars mor',12:'morfars far (biologisk)',13:'morfars mor'}[n])).join('') + card(b.p12,'tog skylden (anerkendte faderskabet)')+card(b.pf12,'betalt for at gifte sig med Else') + card(b.p14,'mormors far') + card(b.p15,'mormors mor') + card(b.p10,'farmors far') + card(b.p11,'farmors mor')),
     `<div class="fam-sep"></div>`,
     row('Bedsteforældre', card(b.p4,'farfar')+card(b.p5,'farmor')+card(b.p6,'morfar')+card(b.p7,'mormor')),
-    row('Grandonkler og -tanter', card(b.s_ester,'farfars søster')+card(b.s_liss_1,'farmors søster')+card(b.s_liss_2,'farmors søster')+gap('Farmors 4 andre søskende','Liss var en af syv')+card(b.sofus_d0,'morfars halvsøster')+card(b.sofus_d1,'morfars halvsøster')+card(b.sofus_d2,'morfars halvsøster')),
+    row('Grandonkler og -tanter', card(b.s_ester,'farfars søster')+card(b.s_p10_0,'farmors søster')+card(b.s_p10_1,'farmors søster')+card(b.s_p10_2,'farmors søster')+gap('Farmors 3 andre søskende','Liss var en af syv')+card(b.sofus_d0,'morfars halvsøster')+card(b.sofus_d1,'morfars halvsøster')+card(b.sofus_d2,'morfars halvsøster')),
     `<div class="fam-sep"></div>`,
     row('Forældre', card(b.p2,'far')+card(b.p3,'mor')),
     row('Onkler og tanter', card(b.u1,'farbror')+card(b.u2,'farbror')+gap('Mors søster','navn mangler')),
