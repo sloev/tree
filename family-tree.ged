@@ -70,7 +70,7 @@
 1 SOUR
 2 PAGE litteraturpriser.dk
 1 FAMC @F1@
-1 FAMS @F61@
+1 FAMS @F64@
 0 @p5@ INDI
 1 NAME Liss /Gaardsted-Jørgensen/
 1 SEX F
@@ -94,7 +94,7 @@
 1 SOUR
 2 PAGE FamilySearch Family Tree: Liss Jørgensen (født Pedersen) 1931–2002
 1 FAMC @F2@
-1 FAMS @F61@
+1 FAMS @F64@
 0 @p6@ INDI
 1 NAME Lorenz Heinrich /Frederiksen/
 1 SEX M
@@ -122,7 +122,7 @@
 1 SOUR
 2 PAGE MyHeritage: Folketælling 1940, 'Lorens Henrick Frederiksen'
 1 FAMC @F3@
-1 FAMS @F62@
+1 FAMS @F65@
 0 @p7@ INDI
 1 NAME Gerda /Frederiksen/
 1 SEX F
@@ -154,7 +154,7 @@
 1 SOUR
 2 PAGE Familiens oplysninger (pigenavn Larsen, Langø)
 1 FAMC @F4@
-1 FAMS @F62@
+1 FAMS @F65@
 0 @p14@ INDI
 1 NAME Laurits Edvard /Larsen/
 1 SEX M
@@ -788,7 +788,7 @@
 2 PAGE AO:Nybøl kirkebog 1931–58, fødte piger 1938 nr. 6, 1940 nr. 4, 1943 nr. 5
 1 FAMS @F3@
 1 FAMC @F21@
-1 FAMS @F63@
+1 FAMS @F66@
 0 @sofus_w@ INDI
 1 NAME Christine /Petersen/
 1 SEX F
@@ -801,7 +801,7 @@
 1 NOTE Gift med Sophus i Nybøl Kirke i efteråret 1937 (kirkebogen angiver både 2. oktober og 2. november 1937). Født i Notmark; kirkebogen 1940–43 angiver fødselsåret 1908, gravstenen 1907.
 1 SOUR
 2 PAGE Gravsten på Nybøl Kirkegård (foto fra familien): 'og vor kære Moder Christine Petersen f. Jensen * 21. Feb. 1907 † 25. Juni 1985'
-1 FAMS @F63@
+1 FAMS @F66@
 0 @sofus_f@ INDI
 1 NAME Peter /Petersen/
 1 SEX M
@@ -860,7 +860,7 @@
 2 PAGE AO:Broager Vestre 1933 nr. 1
 1 FAMS @F3@
 1 FAMC @F24@
-1 FAMS @F64@
+1 FAMS @F67@
 0 @pf12@ INDI
 1 NAME Peter /Frederiksen/
 1 SEX M
@@ -881,7 +881,7 @@
 1 SOUR
 2 PAGE AO:Broager Vestre 1933 nr. 1
 1 FAMC @F25@
-1 FAMS @F64@
+1 FAMS @F67@
 0 @p16@ INDI
 1 NAME Jørgen Anton /Jørgensen/
 1 SEX M
@@ -1023,6 +1023,7 @@
 1 SEX M
 1 BIRT
 2 DATE 31 DEC 1866
+2 PLAC Dybbøl, Danmark
 1 OCCU Gårdejer, Ferup (Lejrskov)
 1 RESI
 2 DATE 1907
@@ -1033,6 +1034,8 @@
 2 PLAC Lejrskov (Ferup)
 2 NOTE gårdejer
 1 NOTE Søn af Rasmus Jensen og Christine Hansen. Gift 29. okt. 1907 i Mariendal Kirke, København, med Paula Gedde. Muligvis den 'gårdejer Jens Jensen, Dalsgaard', hvis hustru var gudmor til Lorenz i 1933. Det er ikke bekræftet.
+1 SOUR
+2 PAGE LL:12-14358775
 1 SOUR
 2 PAGE LL:13-432734
 1 SOUR
@@ -1138,7 +1141,9 @@
 2 DATE 1885
 2 PLAC København
 2 NOTE arbejdsmand
-1 NOTE Fødestedet er skrevet 'Hove/Høje sogn, Svendborg amt'; sognet er ikke identificeret.
+1 NOTE Gift 7. juli 1854 i Vor Frue Kirke, København, med Johanne Sophie Hansdatter. Fødestedet er skrevet 'Hove/Høje sogn, Svendborg amt'; sognet er ikke identificeret.
+1 SOUR
+2 PAGE LL:13-4281756
 1 SOUR
 2 PAGE LL:6-420495
 1 SOUR
@@ -1213,7 +1218,7 @@
 2 PAGE LL:11-1962320
 1 FAMS @F28@
 1 FAMC @F34@
-1 FAMS @F55@
+1 FAMS @F58@
 0 @p37@ INDI
 1 NAME Ane Sophie /Jensdatter/
 1 SEX F
@@ -1274,17 +1279,67 @@
 0 @p52@ INDI
 1 NAME Rasmus /Jensen/
 1 SEX M
-1 NOTE Nævnt som far i sønnen Jens Jensens vielse 1907.
+1 BIRT
+2 DATE 16 OCT 1838
+1 NOTE Gift 18. sep. 1866 i Dybbøl med Anne Christine Hansen; sønnen Jens blev født i Dybbøl nytårsaften samme år.
+1 SOUR
+2 PAGE LL:13-4977279
+1 SOUR
+2 PAGE LL:12-14358776
 1 SOUR
 2 PAGE LL:13-432735
 1 FAMS @F30@
+1 FAMC @F37@
 0 @p53@ INDI
-1 NAME Christine /Hansen/
+1 NAME Anne Christine /Hansen/
 1 SEX F
-1 NOTE Nævnt som mor i sønnen Jens Jensens vielse 1907.
+1 SOUR
+2 PAGE LL:13-4977282
+1 SOUR
+2 PAGE LL:12-14358777
 1 SOUR
 2 PAGE LL:13-432736
 1 FAMS @F30@
+1 FAMC @F38@
+0 @p104@ INDI
+1 NAME Jens /Jensen/
+1 SEX M
+1 SOUR
+2 PAGE LL:13-4977280
+1 FAMS @F37@
+0 @p105@ INDI
+1 NAME Ane Cathrine /Christensen/
+1 SEX F
+1 SOUR
+2 PAGE LL:13-4977281
+1 FAMS @F37@
+0 @p106@ INDI
+1 NAME Hans /Hansen/
+1 SEX M
+1 SOUR
+2 PAGE LL:13-4977283
+1 FAMS @F38@
+0 @p107@ INDI
+1 NAME Ellen /Kock/
+1 SEX F
+1 SOUR
+2 PAGE LL:13-4977284
+1 FAMS @F38@
+0 @p110@ INDI
+1 NAME Johan Alexander /Ludvigsen/
+1 SEX M
+1 RESI
+2 DATE 1847
+2 PLAC Næstved
+1 SOUR
+2 PAGE LL:12-17734084
+1 FAMS @F40@
+0 @p111@ INDI
+1 NAME Margaretha Dorothea Elisabeth /Bølin/
+1 SEX F
+1 SOUR
+2 PAGE LL:12-17734085
+1 FAMS @F40@
 0 @p54@ INDI
 1 NAME Edvard Hammer /Gedde/
 1 SEX M
@@ -1325,7 +1380,7 @@
 1 SOUR
 2 PAGE LL:11-652493
 1 FAMS @F31@
-1 FAMC @F37@
+1 FAMC @F39@
 0 @p55@ INDI
 1 NAME Vitta Dorthea Henriette Mathilde /Ludvigsen/
 1 SEX F
@@ -1338,6 +1393,8 @@
 1 SOUR
 2 PAGE Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)
 1 SOUR
+2 PAGE LL:12-17734083
+1 SOUR
 2 PAGE LL:6-812043
 1 SOUR
 2 PAGE LL:13-5702406
@@ -1346,6 +1403,7 @@
 1 SOUR
 2 PAGE LL:13-432739
 1 FAMS @F31@
+1 FAMC @F40@
 0 @p48@ INDI
 1 NAME Peter Christian /Frederiksen/
 1 SEX M
@@ -1360,7 +1418,7 @@
 1 SOUR
 2 PAGE LL:12-14989548
 1 FAMS @F32@
-1 FAMC @F38@
+1 FAMC @F41@
 0 @p49@ INDI
 1 NAME Anna Kirstine Marie /Paulsen/
 1 SEX F
@@ -1377,7 +1435,7 @@
 1 SOUR
 2 PAGE LL:11-7302858
 1 FAMS @F32@
-1 FAMC @F39@
+1 FAMC @F42@
 0 @p50@ INDI
 1 NAME Carl Peter /Hansen/
 1 SEX M
@@ -1391,7 +1449,7 @@
 1 SOUR
 2 PAGE LL:13-1051963
 1 FAMS @F33@
-1 FAMC @F40@
+1 FAMC @F43@
 0 @p51@ INDI
 1 NAME Eline Helene Marie /Hansen/
 1 SEX F
@@ -1461,7 +1519,7 @@
 1 SOUR
 2 PAGE LL:11-4601476
 1 FAMS @F35@
-1 FAMC @F41@
+1 FAMC @F44@
 0 @p77@ INDI
 1 NAME Karen /Christensdatter/
 1 SEX F
@@ -1537,8 +1595,8 @@
 2 PAGE LL:5-674512
 1 SOUR
 2 PAGE PHT:1897
-1 FAMS @F37@
-1 FAMC @F42@
+1 FAMS @F39@
+1 FAMC @F45@
 0 @p109@ INDI
 1 NAME Charlotte Frederikke Christine /Møller/
 1 SEX F
@@ -1547,13 +1605,13 @@
 2 PLAC København, Danmark
 1 SOUR
 2 PAGE LL:5-674513
-1 FAMS @F37@
+1 FAMS @F39@
 0 @p96@ INDI
 1 NAME Friedrich /Friedrichsen/
 1 SEX M
 1 SOUR
 2 PAGE LL:13-4957005
-1 FAMS @F38@
+1 FAMS @F41@
 0 @p97@ INDI
 1 NAME Anna Christina /Peters/
 1 SEX F
@@ -1562,7 +1620,7 @@
 1 NOTE Født i Vester Hostrup ifølge folketællingen.
 1 SOUR
 2 PAGE LL:13-4957006
-1 FAMS @F38@
+1 FAMS @F41@
 0 @p98@ INDI
 1 NAME Jens /Paulsen/
 1 SEX M
@@ -1578,7 +1636,7 @@
 2 PAGE LL:13-4957008
 1 SOUR
 2 PAGE LL:11-7302859
-1 FAMS @F39@
+1 FAMS @F42@
 0 @p99@ INDI
 1 NAME Cathrine Marie /Lausen/
 1 SEX F
@@ -1588,7 +1646,7 @@
 2 PAGE LL:13-4957009
 1 SOUR
 2 PAGE LL:11-7302860
-1 FAMS @F39@
+1 FAMS @F42@
 0 @p100@ INDI
 1 NAME Peter /Hansen/
 1 SEX M
@@ -1598,7 +1656,7 @@
 1 NOTE Født i Brejning ifølge folketællingen.
 1 SOUR
 2 PAGE Link Lives: folketællinger for Broager sogn 1845–60
-1 FAMS @F40@
+1 FAMS @F43@
 0 @p101@ INDI
 1 NAME Anna Christina /Jensen/
 1 SEX F
@@ -1607,7 +1665,7 @@
 1 NOTE Født i Gudum ifølge folketællingen.
 1 SOUR
 2 PAGE Link Lives: folketællinger for Broager sogn 1845–60
-1 FAMS @F40@
+1 FAMS @F43@
 0 @p152@ INDI
 1 NAME Jens /Rasmussen/
 1 SEX M
@@ -1621,8 +1679,8 @@
 2 PAGE LL:1-473834
 1 SOUR
 2 PAGE LL:0-415717
-1 FAMS @F41@
-1 FAMC @F43@
+1 FAMS @F44@
+1 FAMC @F46@
 0 @p153@ INDI
 1 NAME Margrethe /Christensdatter/
 1 SEX F
@@ -1631,7 +1689,7 @@
 1 NOTE Sikkerhed: sandsynlig
 1 SOUR
 2 PAGE LL:1-473835
-1 FAMS @F41@
+1 FAMS @F44@
 0 @p304@ INDI
 1 NAME Rasmus /Jensen/
 1 SEX M
@@ -1643,7 +1701,7 @@
 1 NOTE Sikkerhed: mulig
 1 SOUR
 2 PAGE LL:0-415357
-1 FAMS @F43@
+1 FAMS @F46@
 0 @p216@ INDI
 1 NAME Ove Samuel /Gedde/
 1 SEX M
@@ -1682,8 +1740,8 @@
 2 PAGE PHT:1897
 1 SOUR
 2 PAGE Geni: Ove Samuel Gedde (1778–1843)
-1 FAMS @F42@
-1 FAMC @F44@
+1 FAMS @F45@
+1 FAMC @F47@
 0 @p217@ INDI
 1 NAME Frederikke Louise Dorthea von /Kleist/
 1 SEX F
@@ -1704,8 +1762,8 @@
 2 PAGE LL:3-51003
 1 SOUR
 2 PAGE AO:Fredensborg Slotssogn kirkebog 1808
-1 FAMS @F42@
-1 FAMC @F45@
+1 FAMS @F45@
+1 FAMC @F48@
 0 @p432@ INDI
 1 NAME Hans Christopher /Gedde/
 1 SEX M
@@ -1722,8 +1780,8 @@
 2 PAGE lokalhistoriewiki.no: Gedde (borgerlig slekt)
 1 SOUR
 2 PAGE Geni: Ove Samuel Gedde
-1 FAMS @F44@
-1 FAMC @F46@
+1 FAMS @F47@
+1 FAMC @F49@
 0 @p433@ INDI
 1 NAME Øllegaard Sophie /Fischer/
 1 SEX F
@@ -1735,7 +1793,7 @@
 2 PAGE lokalhistoriewiki.no: Gedde (borgerlig slekt)
 1 SOUR
 2 PAGE Geni: Ove Samuel Gedde
-1 FAMS @F44@
+1 FAMS @F47@
 0 @p864@ INDI
 1 NAME Samuel Christoph /Gedde/
 1 SEX M
@@ -1750,7 +1808,7 @@
 1 NOTE Sikkerhed: sandsynlig
 1 SOUR
 2 PAGE Store norske leksikon: Gedde (slekt)
-1 FAMS @F46@
+1 FAMS @F49@
 0 @p434@ INDI
 1 NAME Christian Frederik von /Kleist/
 1 SEX M
@@ -1765,8 +1823,8 @@
 1 NOTE Gift 3. dec. 1770 med Anna Margrethe Schubart. Fire sønner og fire døtre, bl.a. generalmajor Carl Gottlieb von Kleist.
 1 SOUR
 2 PAGE PHT:1897
-1 FAMS @F45@
-1 FAMC @F47@
+1 FAMS @F48@
+1 FAMC @F50@
 0 @p435@ INDI
 1 NAME Anna Margrethe /Schubart/
 1 SEX F
@@ -1776,8 +1834,8 @@
 2 DATE 24 AUG 1842
 1 SOUR
 2 PAGE PHT:1897
-1 FAMS @F45@
-1 FAMC @F48@
+1 FAMS @F48@
+1 FAMC @F51@
 0 @p868@ INDI
 1 NAME Christian Adam von /Kleist/
 1 SEX M
@@ -1795,8 +1853,8 @@
 2 PAGE PHT:1897
 1 SOUR
 2 PAGE Dansk biografisk Lexikon IX s. 219
-1 FAMS @F47@
-1 FAMC @F49@
+1 FAMS @F50@
+1 FAMC @F52@
 0 @p869@ INDI
 1 NAME Sophie /Rosenkrantz/
 1 SEX F
@@ -1807,21 +1865,21 @@
 1 NOTE Dame de l'Union parfaite 1752. Begravet i Slesvig Domkirke.
 1 SOUR
 2 PAGE PHT:1897
-1 FAMS @F47@
-1 FAMC @F50@
+1 FAMS @F50@
+1 FAMC @F53@
 0 @p870@ INDI
 1 NAME Johan Valentin /Schubart/
 1 SEX M
 1 OCCU Major i kavaleriet
 1 SOUR
 2 PAGE PHT:1897
-1 FAMS @F48@
+1 FAMS @F51@
 0 @p871@ INDI
 1 NAME Christiane Sophie /Woldenberg/
 1 SEX F
 1 SOUR
 2 PAGE PHT:1897
-1 FAMS @F48@
+1 FAMS @F51@
 0 @p1736@ INDI
 1 NAME Cartz Ulrik von /Kleist/
 1 SEX M
@@ -1834,8 +1892,8 @@
 1 NOTE Fra Muttrin-linjen af den pommerske adelsslægt von Kleist. Han var i brandenborgsk tjeneste 1692–94 og i dansk tjeneste fra 1701. Han blev såret og taget til fange ved Helsingborg i 1710 og ved Gadebusch i 1712. Han døde i Rendsborg og blev begravet 17. nov. 1722. Parret fik 10 børn.
 1 SOUR
 2 PAGE PHT:1897
-1 FAMS @F49@
-1 FAMC @F51@
+1 FAMS @F52@
+1 FAMC @F54@
 0 @p1737@ INDI
 1 NAME Barbara Juliane von /Kleist/
 1 SEX F
@@ -1844,8 +1902,8 @@
 1 NOTE Boede endnu i 1730 på godset Drenow i Pommern.
 1 SOUR
 2 PAGE PHT:1897
-1 FAMS @F49@
-1 FAMC @F52@
+1 FAMS @F52@
+1 FAMC @F55@
 0 @p1738@ INDI
 1 NAME Christian Rosenkrantz til /Skovsbo/
 1 SEX M
@@ -1853,26 +1911,26 @@
 1 OCCU Godsejer, Skovsbo (Fyn)
 1 SOUR
 2 PAGE PHT:1897
-1 FAMS @F50@
+1 FAMS @F53@
 0 @p1739@ INDI
 1 NAME Frederikke Louise /Krag/
 1 SEX F
 1 SOUR
 2 PAGE PHT:1897
-1 FAMS @F50@
+1 FAMS @F53@
 0 @p3472@ INDI
 1 NAME Pribislaff von /Kleist/
 1 SEX M
 1 OCCU Godsejer: Muttrin, Borntin, Döbel og Drenow (Pommern)
 1 SOUR
 2 PAGE PHT:1897
-1 FAMS @F51@
+1 FAMS @F54@
 0 @p3473@ INDI
 1 NAME Esther von /Kameke/
 1 SEX F
 1 SOUR
 2 PAGE PHT:1897
-1 FAMS @F51@
+1 FAMS @F54@
 0 @p3474@ INDI
 1 NAME Christian Casimir von /Kleist/
 1 SEX M
@@ -1886,8 +1944,8 @@
 1 NOTE Arvede en del af Gross Tychow i Pommern. Han deltog i felttoget i hertugdømmerne i 1700 og døde i Oldenborg.
 1 SOUR
 2 PAGE PHT:1897
-1 FAMS @F52@
-1 FAMC @F53@
+1 FAMS @F55@
+1 FAMC @F56@
 0 @p3475@ INDI
 1 NAME Anna von /Fürst/
 1 SEX F
@@ -1896,7 +1954,7 @@
 1 NOTE Fra Schlesien.
 1 SOUR
 2 PAGE PHT:1897
-1 FAMS @F52@
+1 FAMS @F55@
 0 @p6948@ INDI
 1 NAME Christian von /Kleist/
 1 SEX M
@@ -1907,28 +1965,28 @@
 1 NOTE Stamfar til den gren af slægten, der 'i henimod halvandet hundrede år blomstrede i Danmark'.
 1 SOUR
 2 PAGE PHT:1897
-1 FAMS @F53@
+1 FAMS @F56@
 0 @p6949@ INDI
 1 NAME Hedvig Maria von /Kleist/
 1 SEX F
 1 NOTE Hans første hustru. Hun bragte en del af Gross Tychow med ind i ægteskabet.
 1 SOUR
 2 PAGE PHT:1897
-1 FAMS @F53@
-1 FAMC @F54@
+1 FAMS @F56@
+1 FAMC @F57@
 0 @p13898@ INDI
 1 NAME Georg von /Kleist/
 1 SEX M
 1 OCCU Godsejer, Gross Tychow (Pommern)
 1 SOUR
 2 PAGE PHT:1897
-1 FAMS @F54@
+1 FAMS @F57@
 0 @p13899@ INDI
 1 NAME Christina von /Woyten/
 1 SEX F
 1 SOUR
 2 PAGE PHT:1897
-1 FAMS @F54@
+1 FAMS @F57@
 0 @s_p16_0@ INDI
 1 NAME Johanne Marie Margrethe /Jørgensen/
 1 SEX F
@@ -2093,7 +2151,7 @@
 1 DEAT
 2 DATE 1863
 1 NOTE Mor: Marie Kjerstine Christensdatter (Jochums første hustru).
-1 FAMC @F55@
+1 FAMC @F58@
 0 @s_p72_0@ INDI
 1 NAME Ernst Adolph /Gaardsted/
 1 SEX M
@@ -2323,7 +2381,7 @@
 2 DATE 7 JUL 1842
 1 SOUR
 2 PAGE LL:12-17170629
-1 FAMC @F37@
+1 FAMC @F39@
 0 @s_p108_1@ INDI
 1 NAME Margrethe Ida Marie /Gedde/
 1 SEX F
@@ -2331,7 +2389,7 @@
 2 DATE 11 APR 1849
 1 SOUR
 2 PAGE LL:12-17159973
-1 FAMC @F37@
+1 FAMC @F39@
 0 @s_p108_2@ INDI
 1 NAME Ove Frederik /Gedde/
 1 SEX M
@@ -2343,7 +2401,7 @@
 2 PAGE LL:12-17159130
 1 SOUR
 2 PAGE LL:11-561887
-1 FAMC @F37@
+1 FAMC @F39@
 0 @s_p216_0@ INDI
 1 NAME Wilhelm Edvardt Sophus von /Gedde/
 1 SEX M
@@ -2352,7 +2410,7 @@
 1 OCCU Sekondløjtnant i Kronens Regiment (1834)
 1 SOUR
 2 PAGE LL:2-25989
-1 FAMC @F42@
+1 FAMC @F45@
 0 @s_p216_1@ INDI
 1 NAME Henriette von /Gedde/
 1 SEX F
@@ -2360,7 +2418,7 @@
 2 DATE 1819
 1 SOUR
 2 PAGE LL:2-80375
-1 FAMC @F42@
+1 FAMC @F45@
 0 @s_p434_0@ INDI
 1 NAME Christine Sophie von /Kleist/
 1 SEX F
@@ -2373,7 +2431,7 @@
 2 PAGE PHT:1897
 1 SOUR
 2 PAGE LL:5-673677
-1 FAMC @F45@
+1 FAMC @F48@
 0 @s_p434_1@ INDI
 1 NAME Adam Ludvig Vilhelm von /Kleist/
 1 SEX M
@@ -2387,7 +2445,7 @@
 2 PAGE PHT:1897
 1 SOUR
 2 PAGE LL:5-674516
-1 FAMC @F45@
+1 FAMC @F48@
 0 @s_p434_2@ INDI
 1 NAME Valentin Ulrik von /Kleist/
 1 SEX M
@@ -2398,7 +2456,7 @@
 1 OCCU Major, husarregimentet
 1 SOUR
 2 PAGE PHT:1897
-1 FAMC @F45@
+1 FAMC @F48@
 0 @s_p434_3@ INDI
 1 NAME Frederik Christian von /Kleist/
 1 SEX M
@@ -2409,7 +2467,7 @@
 1 OCCU Major, Sjællandske Jægerkorps
 1 SOUR
 2 PAGE PHT:1897
-1 FAMC @F45@
+1 FAMC @F48@
 0 @s_p434_4@ INDI
 1 NAME Carl Gottlieb von /Kleist/
 1 SEX M
@@ -2420,7 +2478,7 @@
 1 OCCU Generalmajor og kammerherre
 1 SOUR
 2 PAGE PHT:1897
-1 FAMC @F45@
+1 FAMC @F48@
 0 @s_p434_5@ INDI
 1 NAME Juliane Frederikke Margrethe von /Kleist/
 1 SEX F
@@ -2431,7 +2489,7 @@
 1 NOTE Gift 1811 med Nicolai Wilhelm Gedde (1779–1833), norsk generalmajor og chef for Ingeniørkorpset.
 1 SOUR
 2 PAGE PHT:1897
-1 FAMC @F45@
+1 FAMC @F48@
 0 @s_p434_6@ INDI
 1 NAME Henriette Louise von /Kleist/
 1 SEX F
@@ -2442,7 +2500,7 @@
 1 NOTE Gift 1813 med kaptajnløjtnant Johan Adolf von der Recke.
 1 SOUR
 2 PAGE PHT:1897
-1 FAMC @F45@
+1 FAMC @F48@
 0 @s_p868_0@ INDI
 1 NAME Frederikke Louise von /Kleist/
 1 SEX F
@@ -2452,7 +2510,7 @@
 2 DATE 29 MAY 1814
 1 SOUR
 2 PAGE PHT:1897
-1 FAMC @F47@
+1 FAMC @F50@
 0 @sofus_ff@ INDI
 1 NAME Mathias /Petersen/
 1 SEX M
@@ -2464,7 +2522,7 @@
 1 SOUR
 2 PAGE LL:12-15059288
 1 FAMS @F22@
-1 FAMC @F56@
+1 FAMC @F59@
 0 @sofus_fm@ INDI
 1 NAME Sophia Maria /Nissen/
 1 SEX F
@@ -2478,7 +2536,7 @@
 1 SOUR
 2 PAGE LL:12-15059289
 1 FAMS @F22@
-1 FAMC @F57@
+1 FAMC @F60@
 0 @sofus_mf@ INDI
 1 NAME Lorens /Petersen/
 1 SEX M
@@ -2493,7 +2551,7 @@
 1 SOUR
 2 PAGE LL:12-14359020
 1 FAMS @F23@
-1 FAMC @F58@
+1 FAMC @F61@
 0 @sofus_mm@ INDI
 1 NAME Marie /Jørgensen/
 1 SEX F
@@ -2505,55 +2563,55 @@
 1 SOUR
 2 PAGE LL:12-14359021
 1 FAMS @F23@
-1 FAMC @F59@
+1 FAMC @F62@
 0 @sofus_fff@ INDI
 1 NAME Peter /Petersen/
 1 SEX M
 1 SOUR
 2 PAGE LL:13-4984315
-1 FAMS @F56@
+1 FAMS @F59@
 0 @sofus_ffm@ INDI
 1 NAME Maria Cathrine /Lorensen/
 1 SEX F
 1 SOUR
 2 PAGE LL:13-4984316
-1 FAMS @F56@
+1 FAMS @F59@
 0 @sofus_fmf@ INDI
 1 NAME Rasmus /Nissen/
 1 SEX M
 1 SOUR
 2 PAGE LL:13-4984318
-1 FAMS @F57@
+1 FAMS @F60@
 0 @sofus_fmm@ INDI
 1 NAME Maren /Zachariasen/
 1 SEX F
 1 SOUR
 2 PAGE LL:13-4984319
-1 FAMS @F57@
+1 FAMS @F60@
 0 @sofus_mff@ INDI
 1 NAME Lorens /Petersen/
 1 SEX M
 1 SOUR
 2 PAGE LL:13-4698058
-1 FAMS @F58@
+1 FAMS @F61@
 0 @sofus_mfm@ INDI
 1 NAME Marie /Petersen/
 1 SEX F
 1 SOUR
 2 PAGE LL:13-4698059
-1 FAMS @F58@
+1 FAMS @F61@
 0 @sofus_mmf@ INDI
 1 NAME Lorens Peter /Jørgensen/
 1 SEX M
 1 SOUR
 2 PAGE LL:13-4698061
-1 FAMS @F59@
+1 FAMS @F62@
 0 @sofus_mmm@ INDI
 1 NAME Anna Kathrine /Mathiesen/
 1 SEX F
 1 SOUR
 2 PAGE LL:13-4698062
-1 FAMS @F59@
+1 FAMS @F62@
 0 @s_sofus_f_0@ INDI
 1 NAME Lorenz Peter /Petersen/
 1 SEX M
@@ -2817,29 +2875,29 @@
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F60@
+1 FAMC @F63@
 0 @p2@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F60@
-1 FAMC @F61@
+1 FAMS @F63@
+1 FAMC @F64@
 0 @p3@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F60@
-1 FAMC @F62@
+1 FAMS @F63@
+1 FAMC @F65@
 0 @u1@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F61@
+1 FAMC @F64@
 0 @u2@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F61@
+1 FAMC @F64@
 0 @s_liss_1@ INDI
 1 NAME Privat /person/
 1 SEX F
@@ -2852,17 +2910,17 @@
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F63@
+1 FAMC @F66@
 0 @sofus_d1@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F63@
+1 FAMC @F66@
 0 @sofus_d2@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F63@
+1 FAMC @F66@
 0 @F1@ FAM
 1 HUSB @p8@
 1 WIFE @p9@
@@ -3084,42 +3142,54 @@
 1 WIFE @p79@
 1 CHIL @p39@
 0 @F37@ FAM
+1 HUSB @p104@
+1 WIFE @p105@
+1 CHIL @p52@
+0 @F38@ FAM
+1 HUSB @p106@
+1 WIFE @p107@
+1 CHIL @p53@
+0 @F39@ FAM
 1 HUSB @p108@
 1 WIFE @p109@
 1 CHIL @p54@
 1 CHIL @s_p108_0@
 1 CHIL @s_p108_1@
 1 CHIL @s_p108_2@
-0 @F38@ FAM
+0 @F40@ FAM
+1 HUSB @p110@
+1 WIFE @p111@
+1 CHIL @p55@
+0 @F41@ FAM
 1 HUSB @p96@
 1 WIFE @p97@
 1 CHIL @p48@
-0 @F39@ FAM
+0 @F42@ FAM
 1 HUSB @p98@
 1 WIFE @p99@
 1 CHIL @p49@
-0 @F40@ FAM
+0 @F43@ FAM
 1 HUSB @p100@
 1 WIFE @p101@
 1 CHIL @p50@
-0 @F41@ FAM
+0 @F44@ FAM
 1 HUSB @p152@
 1 WIFE @p153@
 1 CHIL @p76@
-0 @F42@ FAM
+0 @F45@ FAM
 1 HUSB @p216@
 1 WIFE @p217@
 1 CHIL @p108@
 1 CHIL @s_p216_0@
 1 CHIL @s_p216_1@
-0 @F43@ FAM
+0 @F46@ FAM
 1 HUSB @p304@
 1 CHIL @p152@
-0 @F44@ FAM
+0 @F47@ FAM
 1 HUSB @p432@
 1 WIFE @p433@
 1 CHIL @p216@
-0 @F45@ FAM
+0 @F48@ FAM
 1 HUSB @p434@
 1 WIFE @p435@
 1 CHIL @p217@
@@ -3130,82 +3200,82 @@
 1 CHIL @s_p434_4@
 1 CHIL @s_p434_5@
 1 CHIL @s_p434_6@
-0 @F46@ FAM
+0 @F49@ FAM
 1 HUSB @p864@
 1 CHIL @p432@
-0 @F47@ FAM
+0 @F50@ FAM
 1 HUSB @p868@
 1 WIFE @p869@
 1 CHIL @p434@
 1 CHIL @s_p868_0@
-0 @F48@ FAM
+0 @F51@ FAM
 1 HUSB @p870@
 1 WIFE @p871@
 1 CHIL @p435@
-0 @F49@ FAM
+0 @F52@ FAM
 1 HUSB @p1736@
 1 WIFE @p1737@
 1 CHIL @p868@
-0 @F50@ FAM
+0 @F53@ FAM
 1 HUSB @p1738@
 1 WIFE @p1739@
 1 CHIL @p869@
-0 @F51@ FAM
+0 @F54@ FAM
 1 HUSB @p3472@
 1 WIFE @p3473@
 1 CHIL @p1736@
-0 @F52@ FAM
+0 @F55@ FAM
 1 HUSB @p3474@
 1 WIFE @p3475@
 1 CHIL @p1737@
-0 @F53@ FAM
+0 @F56@ FAM
 1 HUSB @p6948@
 1 WIFE @p6949@
 1 CHIL @p3474@
-0 @F54@ FAM
+0 @F57@ FAM
 1 HUSB @p13898@
 1 WIFE @p13899@
 1 CHIL @p6949@
-0 @F55@ FAM
+0 @F58@ FAM
 1 HUSB @p36@
 1 CHIL @s_claus_ch@
-0 @F56@ FAM
+0 @F59@ FAM
 1 HUSB @sofus_fff@
 1 WIFE @sofus_ffm@
 1 CHIL @sofus_ff@
-0 @F57@ FAM
+0 @F60@ FAM
 1 HUSB @sofus_fmf@
 1 WIFE @sofus_fmm@
 1 CHIL @sofus_fm@
-0 @F58@ FAM
+0 @F61@ FAM
 1 HUSB @sofus_mff@
 1 WIFE @sofus_mfm@
 1 CHIL @sofus_mf@
-0 @F59@ FAM
+0 @F62@ FAM
 1 HUSB @sofus_mmf@
 1 WIFE @sofus_mmm@
 1 CHIL @sofus_mm@
-0 @F60@ FAM
+0 @F63@ FAM
 1 HUSB @p2@
 1 WIFE @p3@
 1 CHIL @p1@
-0 @F61@ FAM
+0 @F64@ FAM
 1 HUSB @p4@
 1 WIFE @p5@
 1 CHIL @p2@
 1 CHIL @u1@
 1 CHIL @u2@
-0 @F62@ FAM
+0 @F65@ FAM
 1 HUSB @p6@
 1 WIFE @p7@
 1 CHIL @p3@
-0 @F63@ FAM
+0 @F66@ FAM
 1 HUSB @sofus@
 1 WIFE @sofus_w@
 1 CHIL @sofus_d0@
 1 CHIL @sofus_d1@
 1 CHIL @sofus_d2@
-0 @F64@ FAM
+0 @F67@ FAM
 1 HUSB @pf12@
 1 WIFE @p13@
 0 TRLR

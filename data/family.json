@@ -1781,7 +1781,7 @@
    "line": "gedde",
    "rel": null,
    "born": "1866-12-31",
-   "bplace": null,
+   "bplace": "Dybbøl",
    "died": null,
    "dplace": null,
    "occ": [
@@ -1790,6 +1790,7 @@
    "conf": "record",
    "note": "Søn af Rasmus Jensen og Christine Hansen. Gift 29. okt. 1907 i Mariendal Kirke, København, med Paula Gedde. Muligvis den 'gårdejer Jens Jensen, Dalsgaard', hvis hustru var gudmor til Lorenz i 1933. Det er ikke bekræftet.",
    "src": [
+    "LL:12-14358775",
     "LL:13-432734",
     "LL:12-4852564",
     "AO:Lejrskov kirkebog 1912 nr. 17"
@@ -1948,8 +1949,9 @@
     "Arbejdsmand, København (1880–85)"
    ],
    "conf": "record",
-   "note": "Fødestedet er skrevet 'Hove/Høje sogn, Svendborg amt'; sognet er ikke identificeret.",
+   "note": "Gift 7. juli 1854 i Vor Frue Kirke, København, med Johanne Sophie Hansdatter. Fødestedet er skrevet 'Hove/Høje sogn, Svendborg amt'; sognet er ikke identificeret.",
    "src": [
+    "LL:13-4281756",
     "LL:6-420495",
     "LL:7-586576",
     "LL:8-31142"
@@ -2175,19 +2177,21 @@
    "ahnen": 52,
    "line": "gedde",
    "rel": null,
-   "born": null,
+   "born": "1838-10-16",
    "bplace": null,
    "died": null,
    "dplace": null,
    "occ": [],
    "conf": "record",
-   "note": "Nævnt som far i sønnen Jens Jensens vielse 1907.",
+   "note": "Gift 18. sep. 1866 i Dybbøl med Anne Christine Hansen; sønnen Jens blev født i Dybbøl nytårsaften samme år.",
    "src": [
+    "LL:13-4977279",
+    "LL:12-14358776",
     "LL:13-432735"
    ],
    "res": [],
-   "father": null,
-   "mother": null,
+   "father": "p104",
+   "mother": "p105",
    "living": false,
    "sibof": null,
    "step": null,
@@ -2195,7 +2199,7 @@
   },
   {
    "id": "p53",
-   "name": "Christine Hansen",
+   "name": "Anne Christine Hansen",
    "sex": "F",
    "ahnen": 53,
    "line": "gedde",
@@ -2206,9 +2210,36 @@
    "dplace": null,
    "occ": [],
    "conf": "record",
-   "note": "Nævnt som mor i sønnen Jens Jensens vielse 1907.",
+   "note": null,
    "src": [
+    "LL:13-4977282",
+    "LL:12-14358777",
     "LL:13-432736"
+   ],
+   "res": [],
+   "father": "p106",
+   "mother": "p107",
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p52"
+  },
+  {
+   "id": "p104",
+   "name": "Jens Jensen",
+   "sex": "M",
+   "ahnen": 104,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:13-4977280"
    ],
    "res": [],
    "father": null,
@@ -2216,7 +2247,138 @@
    "living": false,
    "sibof": null,
    "step": null,
-   "spouse": "p52"
+   "spouse": "p105"
+  },
+  {
+   "id": "p105",
+   "name": "Ane Cathrine Christensen",
+   "sex": "F",
+   "ahnen": 105,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:13-4977281"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p104"
+  },
+  {
+   "id": "p106",
+   "name": "Hans Hansen",
+   "sex": "M",
+   "ahnen": 106,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:13-4977283"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p107"
+  },
+  {
+   "id": "p107",
+   "name": "Ellen Kock",
+   "sex": "F",
+   "ahnen": 107,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:13-4977284"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p106"
+  },
+  {
+   "id": "p110",
+   "name": "Johan Alexander Ludvigsen",
+   "sex": "M",
+   "ahnen": 110,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-17734084"
+   ],
+   "res": [
+    [
+     1847,
+     "Næstved",
+     ""
+    ]
+   ],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p111"
+  },
+  {
+   "id": "p111",
+   "name": "Margaretha Dorothea Elisabeth Bølin",
+   "sex": "F",
+   "ahnen": 111,
+   "line": "gedde",
+   "rel": null,
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": null,
+   "src": [
+    "LL:12-17734085"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": null,
+   "step": null,
+   "spouse": "p110"
   },
   {
    "id": "p54",
@@ -2288,14 +2450,15 @@
    "note": "Kaldt Mathilde.",
    "src": [
     "Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)",
+    "LL:12-17734083",
     "LL:6-812043",
     "LL:13-5702406",
     "LL:7-1280755",
     "LL:13-432739"
    ],
    "res": [],
-   "father": null,
-   "mother": null,
+   "father": "p110",
+   "mother": "p111",
    "living": false,
    "sibof": null,
    "step": null,

@@ -306,11 +306,11 @@ person("p19", "Rasmine Christine Andersen", "F", ahnen=19, line="rousing", born=
        died="efter 1922", father="p38", mother="p39", spouse="p18",
        res=[(1855, "Fuglslev", "født"), (1880, "Ebeltoft", ""), (1890, "Kolind", ""), (1922, "Kolind", "enke, gudmor til Evald")],
        src=["LL:12-9158976", "LL:6-849934", "LL:25-1032484", "AO:27841253"])
-person("p26", "Jens Jensen", "M", ahnen=26, line="gedde", born="1866-12-31", father="p52", mother="p53", spouse="p27",
+person("p26", "Jens Jensen", "M", ahnen=26, line="gedde", born="1866-12-31", bplace="Dybbøl", father="p52", mother="p53", spouse="p27",
        occ=["Gårdejer, Ferup (Lejrskov)"], res=[(1907, "København", "gift"), (1912, "Lejrskov (Ferup)", "gårdejer")],
        note="Søn af Rasmus Jensen og Christine Hansen. Gift 29. okt. 1907 i Mariendal Kirke, København, med Paula Gedde. "
             "Muligvis den 'gårdejer Jens Jensen, Dalsgaard', hvis hustru var gudmor til Lorenz i 1933. Det er ikke bekræftet.",
-       src=["LL:13-432734", "LL:12-4852564", "AO:Lejrskov kirkebog 1912 nr. 17"])
+       src=["LL:12-14358775", "LL:13-432734", "LL:12-4852564", "AO:Lejrskov kirkebog 1912 nr. 17"])
 person("p27", "Paula Mathilde Christle Gedde", "F", ahnen=27, line="gedde", born="1880-12-30", bplace="Tamdrup",
        father="p54", mother="p55", spouse="p26", res=[(1880, "Tamdrup", "født på faderens gård"), (1907, "København", "gift"),
        (1912, "Lejrskov (Ferup)", "gårdejerkone")],
@@ -330,8 +330,8 @@ person("p25", "Cathrina Maria Magdalena Hansen", "F", rel="stedfarens mor", line
 person("p32", "Niels Jørgensen", "M", ahnen=32, line="jorgensen", born="ca. 1826", died="1885–1892", dplace="København",
        spouse="p33", occ=["Høker, København (1860)", "Arbejdsmand, København (1880–85)"],
        res=[(1860, "København", "høker"), (1885, "København", "arbejdsmand")],
-       note="Fødestedet er skrevet 'Hove/Høje sogn, Svendborg amt'; sognet er ikke identificeret.",
-       src=["LL:6-420495", "LL:7-586576", "LL:8-31142"])
+       note="Gift 7. juli 1854 i Vor Frue Kirke, København, med Johanne Sophie Hansdatter. Fødestedet er skrevet 'Hove/Høje sogn, Svendborg amt'; sognet er ikke identificeret.",
+       src=["LL:13-4281756", "LL:6-420495", "LL:7-586576", "LL:8-31142"])
 person("p33", "Johanne Sophie Hansen", "F", ahnen=33, line="jorgensen", born="ca. 1825", bplace="Viby (Roskilde amt)",
        died="ca. 1910", dplace="København", occ=["Enke på alderdomsunderstøttelse (1901)"], spouse="p32",
        src=["LL:6-420496", "LL:9-407995", "LL:17-1567270"])
@@ -356,10 +356,17 @@ person("p38", "Anders Rasmussen Rousing", "M", ahnen=38, line="rousing", born="1
 person("p39", "Mariane Hansdatter", "F", ahnen=39, line="rousing", born="1817-04-11", bplace="Fuglslev",
        died="1885-07-26", dplace="Fuglslev", father="p78", mother="p79", occ=["Tjenestepige på Fuglslev Mølle (1834–40)"], spouse="p38",
        src=["LL:12-3667695", "LL:2-515660", "LL:11-4602105"])
-person("p52", "Rasmus Jensen", "M", ahnen=52, line="gedde", spouse="p53", note="Nævnt som far i sønnen Jens Jensens vielse 1907.",
-       src=["LL:13-432735"])
-person("p53", "Christine Hansen", "F", ahnen=53, line="gedde", spouse="p52", note="Nævnt som mor i sønnen Jens Jensens vielse 1907.",
-       src=["LL:13-432736"])
+person("p52", "Rasmus Jensen", "M", ahnen=52, line="gedde", born="1838-10-16", spouse="p53", father="p104", mother="p105",
+       note="Gift 18. sep. 1866 i Dybbøl med Anne Christine Hansen; sønnen Jens blev født i Dybbøl nytårsaften samme år.",
+       src=["LL:13-4977279", "LL:12-14358776", "LL:13-432735"])
+person("p53", "Anne Christine Hansen", "F", ahnen=53, line="gedde", spouse="p52", father="p106", mother="p107",
+       src=["LL:13-4977282", "LL:12-14358777", "LL:13-432736"])
+person("p104", "Jens Jensen", "M", ahnen=104, line="gedde", spouse="p105", src=["LL:13-4977280"])
+person("p105", "Ane Cathrine Christensen", "F", ahnen=105, line="gedde", spouse="p104", src=["LL:13-4977281"])
+person("p106", "Hans Hansen", "M", ahnen=106, line="gedde", spouse="p107", src=["LL:13-4977283"])
+person("p107", "Ellen Kock", "F", ahnen=107, line="gedde", spouse="p106", src=["LL:13-4977284"])
+person("p110", "Johan Alexander Ludvigsen", "M", ahnen=110, line="gedde", spouse="p111", res=[(1847, "Næstved", "")], src=["LL:12-17734084"])
+person("p111", "Margaretha Dorothea Elisabeth Bølin", "F", ahnen=111, line="gedde", spouse="p110", src=["LL:12-17734085"])
 person("p54", "Edvard Hammer Gedde", "M", ahnen=54, line="gedde", born="1845-09-08", bplace="Herlufmagle", died="1925-12-27",
        father="p108", mother="p109", spouse="p55",
        occ=["Proprietær, Tamdrup (1880)", "Vognmand og foderstofhandler, København"],
@@ -367,8 +374,8 @@ person("p54", "Edvard Hammer Gedde", "M", ahnen=54, line="gedde", born="1845-09-
        note="Gift 8. juli 1870 i Sankt Peders Kirke, Næstved, med Vitta Ludvigsen. Mellemnavnet Hammer har han efter "
             "farens plejefar, dr.theol. Edvard Snedorph Hammer, sognepræst i Herlufmagle.",
        src=["Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)", "LL:5-674514", "LL:13-5702405", "LL:7-1280754", "LL:13-432738", "LL:11-652493"])
-person("p55", "Vitta Dorthea Henriette Mathilde Ludvigsen", "F", ahnen=55, line="gedde", born="1847-10-04", bplace="Næstved",
-       died="1927-01-17", spouse="p54", note="Kaldt Mathilde.", src=["Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)", "LL:6-812043", "LL:13-5702406", "LL:7-1280755", "LL:13-432739"])
+person("p55", "Vitta Dorthea Henriette Mathilde Ludvigsen", "F", ahnen=55, line="gedde", born="1847-10-04", bplace="Næstved", father="p110", mother="p111",
+       died="1927-01-17", spouse="p54", note="Kaldt Mathilde.", src=["Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)", "LL:12-17734083", "LL:6-812043", "LL:13-5702406", "LL:7-1280755", "LL:13-432739"])
 person("p48", "Peter Christian Frederiksen", "M", rel="stedfarens farfar", line="frederiksen", born="1839-05-04", bplace="Rinkenæs",
        father="p96", mother="p97", spouse="p49", note="Gift med Anna Kirstine Marie Paulsen 9. dec. 1860 i Broager.",
        src=["LL:12-14275364", "LL:13-4957004", "LL:12-14989548"])
