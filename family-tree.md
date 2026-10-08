@@ -66,6 +66,20 @@ DIG ✅ (navne på nulevende står i den krypterede del af siden)
 
 ## Nyt i denne runde
 
+Hvert nyt led har sin kilde: en Link Lives-post (LL:) eller et kirkebogsbillede på Arkivalieronline (AO:).
+
+- **Johanne Sophie Hansdatter (Viby/Syv).** Hun er født 1825 i Syv sogn ved Roskilde. Forældrene er gartner **Hans Jensen** (ca. 1752–1837), der havde været gartner på Vibygård, og **Margrethe Pedersdatter** (ca. 1797–1871). Vielsen var i Syv 1822. Kilder: LL:12-13566085, LL:13-4442506 og FT 1834 Syv (LL:2-680489).
+- **Ane Sophie Jensdatter (Rosmus).** Hun er født 16. feb. 1812 i Attrup, Rosmus sogn. Forældrene er gårdmand **Jens Hansen** og **Mette Pedersdatter**. Rosmus-fødslerne før 1814 er ikke indekseret, så posten er læst direkte i kirkebogen (AO billede 28238652).
+- **Hulda Christensens forældre.** Husmand **Mads Christensen** er født 18. jan. 1852 i Hoven, søn af Christen Andersen og Kirsten Christensdatter (gift Hoven 1839). **Karen Jensen** er født 29. aug. 1852 i Skarrild, datter af Jens Peder Larsen og Kjersten Frederiksdatter. Parret blev gift i Grindsted 1875.
+- **Liss' farfars forældre.** Jens Pedersen og Kirsten Marie Nielsen blev gift i Vester Starup 1860. Vielsen nævner deres fædre, **Peder Jensen** og **Niels Jepsen**.
+- **Ane Else Pedersens mor.** **Karen Johnsen** er født 20. juni 1830 i Fåborg (Ribe amt), datter af **John Eskesen** og **Ana Knudsdatter**.
+- **Marthe Madsen (Langø-slægten).** Hun er født 7. sept. 1823 i Tranekær, datter af **Mads Rasmussen** og **Christiane Andersdatter**.
+- **Broager.** Rasmus Jensens forældre, Jens Jensen og Anna Catharina Christensen, blev gift i Broager 1834. Vielsen nævner begge forældrepar: Rasmus Jensen og Anna Maria Margaretha Christiansen samt Andreas Christensen og Anna Maria Matzen.
+- **Afviste match.** Nogle automatiske fund er afvist, fordi vielsen eller dåben lå i et forkert sogn. Det gjaldt bl.a. Lars Thomsen (Egtved) og Hans Jørgensen (Hørup). De står som afvist i `data/auto_ancestors.json`.
+- **Værktøj.** `tools/expand.py` klatrer automatisk: dåb → forældrenes vielse → forældrenes dåb. Håndlæste led ligger i `data/manual_ancestors.json`.
+
+### Tidligere fund
+
 - **Lorenz' biologiske far er fundet.** Egernsunds borgerlige fødselsregister (1932 nr. 4) har en randnote af 11. juli 1932. Den siger, at landarbejder **Wilhelm Krogh** fra Snogbæk, født 9. okt. 1908 i Landkreis Flensburg, anerkendte faderskabet 5. april 1932, og at retten stadfæstede det 10. juni 1932. Stedfaren Peter Frederiksen gav Lorenz sit efternavn. Det bekræfter familiens fortælling.
 - **Familiens formodning om Sofus Petersen.** Familien formoder, at Lorenz' egentlige far var gårdmandssønnen **Sofus Petersen fra Paakjær** i Nybøl (født 28. juni 1903, død 24. aug. 1945). Hans gravsten nævner også hustruen Christine Petersen f. Jensen (1907–1985). Ifølge formodningen kunne han ikke vedstå faderskabet, så karlen Wilhelm Krogh påtog sig det. Paakjær og Snogbæk ligger begge i Nybøl-egnen, og der boede en familie Krogh i Nybøl i 1921. Sofus står endnu ikke i de indekserede kilder med den fødselsdato. Kun en DNA-test kan afgøre spørgsmålet.
 - **Else Gedde Jensen er fundet.** Hun er født 31. aug. 1912 i Ferup, Lejrskov sogn (Lejrskov kirkebog 1912, piger nr. 17), og datter af gårdejer Jens Jensen og Paula Gedde. Hun fik mindst fire søskende, bl.a. Aage Rasmus Gedde Jensen, der døde som spæd i 1908.
@@ -82,15 +96,17 @@ Familien fortæller, at navnet kommer fra en kaptajn i Trankebar. Den nærmeste 
 ## Stadig åbent
 - **Gerdas pigenavn er fundet:** Larsen, født i Nordenbro, Magleby sogn, Langeland (Magleby kirkebog 1935).
 - **Mors søster, dine halvsøskende, fætre og kusiner.** Nulevende personer står ikke i de offentlige registre. Send navne og fødselsår, så kommer de med.
-- **Liss Pedersens forældre.**
 - **Wilhelm Kroghs forældre.** De står i tyske standsregistre for Flensburg.
 - **Ove Samuel Geddes dåb (1778).** Den skal bekræfte forældrene Hans Christopher Gedde og Øllegaard Sophie Fischer.
-- **Claus Gaardsteds herkomst**, **Lovisa Larsson i Malmö** og **Niels Jørgensens fødesogn.**
+- **Claus Gaardsteds herkomst** (forpagter på Vosnæsgård 1787, ejer af Bogensholm 1801). Kræver skifter og kirkebøger før 1787.
+- **Lovisa Larsson i Malmö** (svenske kirkebøger).
+- **Niels Jørgensens fødesogn.** Folketællingerne skriver "Høje" og "Hove, Svendborg amt", og der er mange mulige Niels Jørgensen født 1824–28 i amtet.
+- **Fødsler i sogne, der ikke er indekseret,** fx Hoven ca. 1819, Skarrild før 1830 og Rosmus før 1814. De skal læses side for side på Arkivalieronline.
 - **Evalds egen slægtstavle** i Hadsten Lokalarkiv (A37).
 
 ## Kilder
 - Rigsarkivet: Link Lives (kirkebøger og folketællinger) og Arkivalieronline. Følgende er læst direkte på billederne:
-  - kirkebøgerne for Kolind 1922, Skødstrup 1792, Broager 1933, Lejrskov 1912 og Fredensborg 1808
+  - kirkebøgerne for Kolind 1922, Skødstrup 1792, Broager 1933, Lejrskov 1912, Fredensborg 1808, Rosmus 1812 og Silkeborg 1931
   - Egernsunds standsregister 1932
 - H.W. Harbou: "Slægten von Kleist i Danmark", Personalhistorisk Tidsskrift 1897.
 - Danish Family Search (folketællinger 1925 og 1940) og arkiv.dk (lokalarkiverne i Hadsten, Svendborg, Saltum, Aalborg, Egebjerg og Midtdjurs).
