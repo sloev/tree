@@ -1,3 +1,4 @@
 __pycache__/
 data/private_people.json
 node_modules
+data/*.private.md

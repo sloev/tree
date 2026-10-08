@@ -77,16 +77,6 @@
   "_parish": "sønder felding"
  },
  {
-  "ahnen": 59,
-  "id": "a59",
-  "patch": true,
-  "born": "1823-09-07",
-  "note": "Født 7. sept. 1823 i Tranekær sogn, datter af Mads Rasmussen og Christiane Andersdatter.",
-  "src": [
-   "LL:12-16332061 (fødsel Tranekær 1823)"
-  ]
- },
- {
   "ahnen": 74,
   "id": "a74",
   "patch": false,
@@ -241,30 +231,6 @@
   ]
  },
  {
-  "ahnen": 118,
-  "id": "a118",
-  "patch": false,
-  "name": "Mads Rasmussen",
-  "sex": "M",
-  "note": "Far til Marthe, født 1823 i Tranekær.",
-  "src": [
-   "LL:12-16332062 (datterens fødsel Tranekær 1823)"
-  ],
-  "_parish": "tranekær"
- },
- {
-  "ahnen": 119,
-  "id": "a119",
-  "patch": false,
-  "name": "Christiane Andersdatter",
-  "sex": "F",
-  "note": "Mor til Marthe, født 1823 i Tranekær.",
-  "src": [
-   "LL:12-16332063 (datterens fødsel Tranekær 1823)"
-  ],
-  "_parish": "tranekær"
- },
- {
   "ahnen": 150,
   "id": "a150",
   "patch": false,
@@ -307,5 +273,164 @@
    "LL:0-655527 (FT 1787 Magleby)"
   ],
   "_parish": "magleby"
+ },
+ {
+  "ahnen": 252,
+  "id": "a252",
+  "patch": false,
+  "name": "Christen Jørgensen",
+  "sex": "M",
+  "born": "1794",
+  "bplace_text": "Klæsø",
+  "note": "Født 1794 i Klæsø, død i Skrøbelev. Far til smeden Jørgen Christensen.",
+  "src": [
+   "Familiens håndskrevne anetavle"
+  ],
+  "_parish": "skrøbelev"
+ },
+ {
+  "ahnen": 253,
+  "id": "a253",
+  "patch": false,
+  "name": "Maren Hansdatter",
+  "sex": "F",
+  "born": "1795",
+  "died": "1849",
+  "note": "Hustru til Christen Jørgensen i Skrøbelev.",
+  "src": [
+   "Familiens håndskrevne anetavle"
+  ],
+  "_parish": "skrøbelev"
+ },
+ {
+  "ahnen": 254,
+  "id": "a254",
+  "patch": false,
+  "name": "Claus Madsen",
+  "sex": "M",
+  "born": "1793",
+  "died": "1837",
+  "occ": [
+   "Søndenbro, Magleby sogn"
+  ],
+  "note": "Fra Søndenbro, Magleby sogn. Far til Bodil Margrethe Clausdatter.",
+  "src": [
+   "Familiens håndskrevne anetavle"
+  ],
+  "_parish": "magleby"
+ },
+ {
+  "ahnen": 255,
+  "id": "a255",
+  "patch": false,
+  "name": "Ane Mortensdatter",
+  "sex": "F",
+  "born": "1798",
+  "note": "Hustru til Claus Madsen i Søndenbro.",
+  "src": [
+   "Familiens håndskrevne anetavle"
+  ],
+  "_parish": "magleby"
+ },
+ {
+  "ahnen": 504,
+  "id": "a504",
+  "patch": false,
+  "name": "Jørgen Christensen",
+  "sex": "M",
+  "died": "1800",
+  "note": "Født i Hennetved, død 1800 i Klæsø.",
+  "src": [
+   "Familiens håndskrevne anetavle"
+  ]
+ },
+ {
+  "ahnen": 505,
+  "id": "a505",
+  "patch": false,
+  "name": "Ane Cathrine Nielsdatter",
+  "sex": "F",
+  "born": "1768",
+  "died": "1827",
+  "src": [
+   "Familiens håndskrevne anetavle"
+  ]
+ },
+ {
+  "ahnen": 508,
+  "id": "a508",
+  "patch": false,
+  "name": "Mads Hansen",
+  "sex": "M",
+  "occ": [
+   "Kædeby"
+  ],
+  "note": "Fra Kædeby, Humble sogn.",
+  "src": [
+   "Familiens håndskrevne anetavle"
+  ]
+ },
+ {
+  "ahnen": 509,
+  "id": "a509",
+  "patch": false,
+  "name": "Karen Clausdatter",
+  "sex": "F",
+  "src": [
+   "Familiens håndskrevne anetavle"
+  ]
+ },
+ {
+  "ahnen": 1008,
+  "id": "a1008",
+  "patch": false,
+  "name": "Christen Nielsen",
+  "sex": "M",
+  "born": "1744",
+  "died": "1804",
+  "occ": [
+   "Hennetved"
+  ],
+  "note": "Fra Hennetved.",
+  "src": [
+   "Familiens håndskrevne anetavle"
+  ]
+ },
+ {
+  "ahnen": 1009,
+  "id": "a1009",
+  "patch": false,
+  "name": "Kirsten Andersdatter",
+  "sex": "F",
+  "born": "1728",
+  "died": "1802",
+  "src": [
+   "Familiens håndskrevne anetavle"
+  ]
+ },
+ {
+  "ahnen": 1010,
+  "id": "a1010",
+  "patch": false,
+  "name": "Niels Jeppesen",
+  "sex": "M",
+  "occ": [
+   "Hennetved"
+  ],
+  "note": "Fra Hennetved.",
+  "src": [
+   "Familiens håndskrevne anetavle"
+  ]
+ },
+ {
+  "ahnen": 1011,
+  "id": "a1011",
+  "patch": false,
+  "name": "Karen Madsdatter",
+  "sex": "F",
+  "died": "1790",
+  "src": [
+   "Familiens håndskrevne anetavle"
+  ]
  }
 ]

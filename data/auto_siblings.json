@@ -1293,12 +1293,6 @@
   "note": "Død som barn."
  },
  {
-  "_for": "p58",
-  "reject": true,
-  "why": "to familier med samme navne i sognet",
-  "n": 4
- },
- {
   "_for": "a47",
   "id": "as_a47_0",
   "name": "Jens Frederiksen",
@@ -1392,39 +1386,6 @@
    "LL:11-4530810 (begravet 1840)"
   ],
   "died": "1840",
-  "note": "Død som barn."
- },
- {
-  "_for": "p59",
-  "id": "as_p59_0",
-  "name": "Mette Kirstine",
-  "sex": "F",
-  "born": "1818-08-14",
-  "bplace_text": "Tranekær",
-  "father": "a118",
-  "mother": "a119",
-  "line": "larsen",
-  "rel": "Marthes søskende",
-  "src": [
-   "LL:12-16331253 (dåb Tranekær 1818)"
-  ]
- },
- {
-  "_for": "p59",
-  "id": "as_p59_2",
-  "name": "Anne Marie",
-  "sex": "F",
-  "born": "1825-12-10",
-  "bplace_text": "Tranekær",
-  "father": "a118",
-  "mother": "a119",
-  "line": "larsen",
-  "rel": "Marthes søskende",
-  "src": [
-   "LL:12-16332169 (dåb Tranekær 1825)",
-   "LL:11-7739051 (begravet 1835)"
-  ],
-  "died": "1835",
   "note": "Død som barn."
  },
  {

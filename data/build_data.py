@@ -32,6 +32,9 @@ PLACES = {
     "Viby (Roskilde amt)": (55.548, 12.022, "Sjælland"),
     "Syv (Roskilde amt)": (55.566, 12.058, "Sjælland"),
     "Hoven": (55.857, 8.733, "Vestjylland"),
+    "Rinkenæs (Dalsgård)": (54.888, 9.596, "Sønderjylland"),
+    "Langø": (54.873, 10.773, "Langeland"),
+    "Snøde (Lille Snøde)": (55.034, 10.806, "Langeland"),
     "Skarrild": (56.023, 8.857, "Vestjylland"),
     "Herlufmagle": (55.322, 11.763, "Sjælland"),
     "Næstved": (55.230, 11.760, "Sjælland"),
@@ -173,9 +176,16 @@ person("p56", "Lars Larsen", "M", ahnen=56, line="larsen", born="1832-08-30", bp
        occ=["Daglejer ved landbruget, Magleby (1901)"],
        note="Gift 27. aug. 1859 i Magleby (Langeland) med Maren Christiansen.", src=["LL:12-16285744", "LL:13-5236614", "LL:12-16296349", "LL:7-1520193", "LL:22-1228475", "LL:9-1903457"])
 person("p57", "Maren Christiansen", "F", ahnen=57, line="larsen", born="1837-05-03", bplace="Magleby (Nordenbro), Langeland", spouse="p56", father="p114", mother="p115", src=["LL:12-16287085", "LL:13-5236615", "LL:12-16296350", "LL:9-1903458"])
-person("p58", "Peder Hansen Berentzen", "M", ahnen=58, line="larsen", born="1818-02-22", bplace="Lindelse", spouse="p59", father="p116", mother="p117",
-       note="Gift 11. juni 1852 i Rudkøbing med Marthe Madsen.", src=["LL:12-15525501", "LL:13-5084744", "LL:12-16299532"])
-person("p59", "Marthe Madsen", "F", ahnen=59, line="larsen", born="1823-09-07", bplace="Tranekær", spouse="p58", src=["LL:13-5084745", "LL:12-16299533"])
+person("p58", "Peder Hansen Berendsen (Berentzen)", "M", ahnen=58, line="larsen", born="1830-03-07", bplace="Snøde (Lille Snøde)", spouse="p59", father="p116", mother="p117",
+       died="1911-04-24", dplace="Magleby (Nordenbro), Langeland", occ=["Karl i Magleby Præstegård (før 1857)"],
+       note="Født 7. marts 1830 i Snøde, søn af Hans Berendsen og Anne Marie Olsdatter i Lille Snøde. Karl i Magleby Præstegård; gift 25. april 1857 i Magleby med Marthe Madsdatter. "
+            "Død 24. april 1911, begravet 4. maj 1911 (familiens anetavle). Tidligere stod her fejlagtigt en navnebror, Peder Hansen f. 1818 i Humble, gift i Rudkøbing 1852.",
+       src=["LL:12-16312332 (dåb Snøde 1830)", "LL:13-5236501 (vielse Magleby 1857)", "LL:12-16299532 (datteren Hansines dåb 1859)", "Familiens håndskrevne anetavle (Gerdas side)"])
+person("p59", "Marthe Madsdatter (Madsen)", "F", ahnen=59, line="larsen", born="1832-05-09", bplace="Magleby (Nordenbro), Langeland", spouse="p58", father="p118", mother="p119",
+       note="Født 1832 i Nordenbro, Magleby sogn, datter af husmand Mads Stephensen Johansen og Maren Larsdatter. Familiens anetavle giver 28. sept. 1832; kirkebogsindekset 9. maj. Gift 1857 i Magleby med Peder Berendsen.",
+       src=["LL:12-16286609 (dåb Magleby 1832)", "LL:13-5236502 (vielse Magleby 1857)", "LL:12-16299533 (datteren Hansines dåb 1859)", "Familiens håndskrevne anetavle (Gerdas side)"])
+person("p118", "Mads Stephensen Johansen", "M", ahnen=118, line="larsen", spouse="p119", occ=["Husmand i Nordenbro, Magleby sogn"], src=["LL:12-16286610 (datterens dåb 1832)", "Familiens håndskrevne anetavle (Gerdas side)"])
+person("p119", "Maren Larsdatter", "F", ahnen=119, line="larsen", spouse="p118", note="Fra Nordenbro, Magleby sogn.", src=["LL:12-16286611 (datterens dåb 1832)", "Familiens håndskrevne anetavle (Gerdas side)"])
 person("p60", "Peder Iver Holgersen", "M", ahnen=60, line="larsen", born="1851-12-10", bplace="Tved (Svendborg)", father="p120", mother="p121", occ=["Indsidder"], spouse="p61", res=[(1890, "Tved (Svendborg)", "")],
        note="Gift 26. nov. 1878 i Vor Frue Kirke, Svendborg, med Karen Nielsen.", src=["LL:12-15688495", "LL:13-5270320", "LL:12-15691758", "Familiens håndskrevne ark (Nordenbro)"])
 person("p61", "Karen Nielsen", "F", ahnen=61, line="larsen", born="ca. 1855", spouse="p60", src=["LL:13-5270321", "LL:12-15691759"])
@@ -198,8 +208,8 @@ person("p113", "Anne Katrine Jensdatter", "F", ahnen=113, line="larsen", spouse=
 person("p114", "Christian Hansen", "M", ahnen=114, line="larsen", born="ca. 1806", spouse="p115",
        note="Gift 13. nov. 1829 i Magleby (Langeland) med Marie Madsdatter.", src=["LL:13-5235043", "LL:12-16287086"])
 person("p115", "Marie Madsdatter", "F", ahnen=115, line="larsen", born="ca. 1807", spouse="p114", src=["LL:13-5235044", "LL:12-16287087"])
-person("p116", "Hans Jørgensen", "M", ahnen=116, line="larsen", spouse="p117", src=["LL:12-15525502"])
-person("p117", "Kirsten", "F", ahnen=117, line="larsen", spouse="p116", note="Efternavnet er ikke indekseret.", src=["LL:12-15525503"])
+person("p116", "Hans Berendsen", "M", ahnen=116, line="larsen", spouse="p117", note="Fra Lille Snøde, Snøde sogn.", src=["LL:12-16312333 (sønnens dåb Snøde 1830)", "Familiens håndskrevne anetavle (Gerdas side)"])
+person("p117", "Anne Marie Olsdatter", "F", ahnen=117, line="larsen", spouse="p116", note="Fra Lille Snøde, Snøde sogn.", src=["LL:12-16312334 (sønnens dåb Snøde 1830)", "Familiens håndskrevne anetavle (Gerdas side)"])
 person("p120", "Holger Eriksen", "M", ahnen=120, line="larsen", born="ca. 1814", spouse="p121",
        note="Gift 8. dec. 1838 i Tved (Svendborg) med Anne Cathrine Hansdatter.", src=["LL:13-5107079", "LL:12-15688496"])
 person("p121", "Anne Cathrine Hansdatter", "F", ahnen=121, line="larsen", born="ca. 1815", spouse="p120", src=["LL:13-5107080", "LL:12-15688497"])
@@ -741,6 +751,12 @@ CATS = [("Kirke og præstegerning", ["præst", "kordegn"]), ("Undervisning og fo
         ("Handel og vognmand", ["høker", "købmand", "vognmand"]), ("Fattigvæsen", ["fattiggård"])]
 
 PHOTOS = [
+    dict(file="images/familien-gedde-1895.jpg", title="Familien Gedde 1895",
+         caption="Edvard Hammer Gedde og Mathilde Ludvigsens 12 børn, sikkert taget som gave til forældrenes sølvbryllup. Nr. 8 er oldemor Paula Mathilde Chrestle Gedde (kaldet Laue), gift Jensen.",
+         credit="Familiens eksemplar ('Familien Gedde')", link="images/familien-gedde-1895.jpg"),
+    dict(file="images/langoe-erindringer-s2.jpg", title="Fortælling fra min barndom på Langø",
+         caption="Lisbeth Skov om bedsteforældrene Marius og Ane Marie: arbejdet på Rudkøbing havn og i Frihavnen, købet af Langø i 1894 for 4.000 kr. og børnene Christian, Christine, Martha, Georg, Jens og Valdemar.",
+         credit="Familiens eksemplar ('En Langø-piges erindringer')", link="images/langoe-erindringer-s2.jpg"),
     dict(file="images/liss-daab-silkeborg-1931.jpg", title="Farmor Liss' fødsel, Silkeborg 1931",
          caption="Silkeborg kirkebog, fødte piger 1931 nr. 25: 'Lis Pedersen', født 18. april på Drewsensvej 14. Forældre: maskinarbejder Jens Nielsen Pedersen og Hulda Kristensen.",
          credit="Rigsarkivet, Arkivalieronline", link="https://api.rigsarkivet.dk/ao/v1/images/28329752"),
@@ -857,6 +873,24 @@ for s in _load(_msib_path) + _load(_sib_path):
     person(s["id"], s["name"], s["sex"], rel=s.get("rel"), line=s.get("line"), born=s.get("born"), bplace=bp, died=s.get("died"),
            father=s["father"], mother=s["mother"], note=note or None, src=s.get("src", []))
     _ids.add(s["id"])
+
+# ================= Familiens egne dokumenter (data/family_docs.json) =================
+# Rettelser og tilføjelser fra familiens papirer: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt',
+# 'Familien Gedde', den håndskrevne anetavle og 'En Langø-piges erindringer'.
+_docs = _load(os.path.join(os.path.dirname(_auto_path), "family_docs.json")) or {}
+_byid = {p["id"]: p for p in P}
+for _id, ch in (_docs.get("patch") or {}).items():
+    t = _byid.get(_id)
+    if not t: continue
+    for k, v in ch.items():
+        if k == "note": t["note"] = ((t.get("note") or "") + " " + v).strip()
+        elif k == "src": t["src"] = t["src"] + [s for s in v if s not in t["src"]]
+        elif k == "occ": t["occ"] = t["occ"] + [o for o in v if o not in t["occ"]]
+        elif k in ("bplace", "dplace") and v not in PLACES: t["note"] = ((t.get("note") or "") + f" {'Født' if k == 'bplace' else 'Død'} {v}.").strip()
+        else: t[k] = v
+for d in _docs.get("people") or []:
+    d = dict(d); bp = d.pop("bplace", None)
+    person(d.pop("id"), d.pop("name"), d.pop("sex"), bplace=bp if bp in PLACES else None, **d)
 
 # ================= Private personer =================
 # Nulevende og personer født inden for de sidste 100 år uden dødsdato står ikke i denne fil.

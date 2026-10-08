@@ -32,6 +32,9 @@ def decrypt(blob, pw):
 
 def stub(p):
     s = {k: p.get(k) for k in STUB_KEYS}
+    # relationsteksten kan indeholde navne ("gift med ..."); stubben får kun den generelle relation
+    r = p.get("rel") or ""
+    s["rel"] = r if not any(c.isupper() for c in r) else ("ingift" if r.startswith(("gift", "samlever")) or "hustru" in r else "slægtning")
     s.update(name="Privat person", private=True, living=True, conf="told", born=None, bplace=None, died=None, dplace=None,
              occ=[], note=None, src=[], res=[])
     return s

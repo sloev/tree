@@ -64,6 +64,25 @@ DIG ✅ (navne på nulevende står i den krypterede del af siden)
 - **Emil Ludvig Edvard Gedde** (Paulas bror) rejste 1922 til **Eldorado, Argentina** med Olivia og to børn; død der 1951. Han ses på Udvandrerarkivets billeder fra den danske koloni.
 - **Iver Peder Holgersen** (bror til Gerdas morfar) rejste 1910 til **Fresno, Californien**.
 
+## Fra familiens egne papirer (oktober 2026)
+
+Familien har sendt fire dokumenter: "Paula Mathilde Chrestle Gedde og Jens Jensens slægt", "Familien Gedde" med familiebilledet fra 1895, en håndskrevet anetavle og Lisbeth Skovs "En Langø-piges erindringer". De er gået ind som kilder:
+
+- **Rettelse på Gerdas side.** Hansine Petersens forældre er **Peder Berendsen**, født 7. marts 1830 i Snøde (søn af Hans Berendsen og Anne Marie Olsdatter i Lille Snøde), og **Marthe Madsdatter**, født 1832 i Nordenbro (datter af Mads Stephensen Johansen og Maren Larsdatter). De blev gift i Magleby 1857. Anetavlen og kirkebøgerne siger det samme (LL:12-16312332, LL:12-16286609, LL:13-5236501). Tidligere stod her en navnebror, Peder Hansen f. 1818, gift i Rudkøbing 1852.
+- **Langø-slægten længere tilbage.** Jørgen Christensen (f. 1829 i Skrøbelev, smed og husmand på Nordenbrogård) og Bodil Margrethe Clausdatter fik 9 børn; de fleste udvandrede til Amerika. Anetavlen fører linjen til Christen Nielsen i Hennetved (1744–1804) og Niels Jeppesen i Hennetved.
+- **Sophus' slægt.** Peter Petersen på Paakjær (1866–1939) og Cathrine (1869–1949) fik 8 sønner og 1 datter. Mathias Petersen (1832–1894) byggede Paakjær i 1879. Sophus døde af lungekræft 24. aug. 1945. Ifølge familien fik han 4 døtre; vi har fundet 3.
+- **Gedde.** Alle 12 børn af Edvard Hammer Gedde og Mathilde Ludvigsen har nu fødsels- og dødsdatoer, og efterkommerne af Ove Frederik Alexander Gedde er med.
+- **Elses søskende og deres efterkommere** er indført: Peter, Edvard ("Bror"), Kristine, Mathilde ("Tulle") samt tvillingerne Svend og Helga. Nulevende ligger i den krypterede del.
+- **Lorenz' børn og børnebørn** står i den krypterede del.
+
+## DNA (MyHeritage)
+
+En af Vivis døtre har taget en DNA-test hos MyHeritage. Hun har 12.093 matches; de 94 nærmeste er gennemgået.
+
+- Et barnebarn af Lis Frederiksen deler 66,5 cM med hende. Det passer med halvfætter/-kusine i 2. led gennem Else Gedde Jensen og bekræfter Else-siden.
+- Mange matches på Gerdas side (Langeland) passer med Cousin Finder: Maren Christiansen, Holger Eriksen og Anne Cathrine Hansdatter samt Marie Madsdatter.
+- **Sophus-spørgsmålet er endnu ikke afgjort.** Metoden er at se, hvilke sønderjyske matches der *ikke* deler DNA med Else-siden. De skal derefter sammenlignes med efterkommere af Peter Petersen på Paakjær. Kandidatlisten ligger i en privat arbejdsfil, der ikke er i repoet, fordi den indeholder nulevendes navne.
+
 ## Nyt i denne runde
 
 Hvert nyt led har sin kilde: en Link Lives-post (LL:) eller et kirkebogsbillede på Arkivalieronline (AO:).
@@ -95,7 +114,6 @@ Familien fortæller, at navnet kommer fra en kaptajn i Trankebar. Den nærmeste 
 
 ## Stadig åbent
 - **Gerdas pigenavn er fundet:** Larsen, født i Nordenbro, Magleby sogn, Langeland (Magleby kirkebog 1935).
-- **Mors søster, dine halvsøskende, fætre og kusiner.** Nulevende personer står ikke i de offentlige registre. Send navne og fødselsår, så kommer de med.
 - **Wilhelm Kroghs forældre.** De står i tyske standsregistre for Flensburg.
 - **Ove Samuel Geddes dåb (1778).** Den skal bekræfte forældrene Hans Christopher Gedde og Øllegaard Sophie Fischer.
 - **Claus Gaardsteds herkomst** (forpagter på Vosnæsgård 1787, ejer af Bogensholm 1801). Kræver skifter og kirkebøger før 1787.
