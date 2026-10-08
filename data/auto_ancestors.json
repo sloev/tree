@@ -1,0 +1,373 @@
+[
+ {
+  "ahnen": 66,
+  "id": "a66",
+  "name": "Hans Jensen",
+  "sex": "M",
+  "line": "jorgensen",
+  "src": [
+   "LL:13-4442506 (vielse Syv 1822)",
+   "LL:12-13566086 (datterens fødsel Syv 1825)",
+   "LL:2-680489 (FT 1834 Syv, husstand 124565)",
+   "LL:11-6305086 (død Syv 1837)"
+  ],
+  "_auto": true,
+  "_parish": "syv",
+  "note": "Gift 1822 i Syv sogn med Margrethe Pedersdatter, ca. 45 år yngre; han var omkring 70. Datteren Johanne Sophie blev født i Syv 1825. Ved folketællingen 1834 er han 'afgaaet gartner ved Wiibygaard' på aftægt i Syv med kone og børnene Maren (1822), Johanne (1824) og Jens (1830). Det forklarer, at Johanne Sophie senere angives som født i Viby. Død 1837 i Syv, 85 år.",
+  "born": "ca. 1752",
+  "bplace_text": null,
+  "married": "1822 i Syv",
+  "died": "1837",
+  "occ": [
+   "Gartner ved Vibygård (Viby, Roskilde amt)",
+   "Aftægtsmand 1834"
+  ],
+  "dplace": "Syv (Roskilde amt)"
+ },
+ {
+  "ahnen": 67,
+  "id": "a67",
+  "name": "Margaretha Pedersdatter",
+  "sex": "F",
+  "line": "jorgensen",
+  "src": [
+   "LL:13-4442507 (vielse Syv 1822)",
+   "LL:12-13566087 (datterens fødsel Syv 1825)",
+   "LL:2-680487 (FT 1834 Syv)",
+   "LL:3-794993 (FT 1840 Syv)",
+   "LL:4-871730 (FT 1845 Syv)",
+   "LL:11-5975079 (død Syv 1871)"
+  ],
+  "_auto": true,
+  "_parish": "syv",
+  "note": "Gift 1822 i Syv med gartner Hans Jensen. Som enke gift igen med skomager og husmand Lars Andersen i Syv (FT 1840 og 1845, med sønnen Jens Hansen). Død 1871 i Syv.",
+  "born": "ca. 1797",
+  "bplace_text": null,
+  "married": "1822 i Syv",
+  "died": "1871",
+  "occ": [
+   "Hustru; senere gift med skomager Lars Andersen"
+  ],
+  "dplace": "Syv (Roskilde amt)"
+ },
+ {
+  "ahnen": 40,
+  "id": "p40",
+  "patch": true,
+  "born": "ca. 1831",
+  "bplace_text": null,
+  "src": [
+   "LL:13-3655657 (vielse Vester Starup 1860)"
+  ],
+  "note": "Gift 1860 i Vester Starup med Kirsten Marie Nielsen; ifølge vielsen søn af Peder Jensen.",
+  "_parish": "vester starup",
+  "_parents": [
+   [
+    "Peder Jensen",
+    "13-3655658"
+   ]
+  ]
+ },
+ {
+  "ahnen": 41,
+  "id": "p41",
+  "patch": true,
+  "born": "ca. 1831",
+  "bplace_text": null,
+  "src": [
+   "LL:13-3655659 (vielse Vester Starup 1860)"
+  ],
+  "note": "Gift 1860 i Vester Starup; ifølge vielsen datter af Niels Jepsen.",
+  "_parish": "vester starup",
+  "_parents": [
+   [
+    "Niels Jepsen",
+    "13-3655660"
+   ]
+  ]
+ },
+ {
+  "ahnen": 42,
+  "id": "p42",
+  "patch": true,
+  "born": "ca. 1820",
+  "bplace_text": null,
+  "src": [
+   "LL:13-3914397 (vielse Fåborg 1852)"
+  ],
+  "note": "Gift 1852 i Fåborg (Ribe amt) med Karen Johnsen.",
+  "_parish": "fåborg",
+  "_parents": []
+ },
+ {
+  "ahnen": 43,
+  "id": "p43",
+  "patch": true,
+  "born": "1830-06-20",
+  "bplace_text": "Fåborg (Varde)",
+  "src": [
+   "LL:12-11082019 (fødsel Fåborg 1830)",
+   "LL:13-3914398 (vielse Fåborg 1852)"
+  ],
+  "note": "Født 20. juni 1830 i Fåborg sogn, Ribe amt, datter af John Eskesen og Ana Knudsdatter. Gift 1852 i Fåborg.",
+  "_parish": "fåborg",
+  "_parents": []
+ },
+ {
+  "ahnen": 104,
+  "id": "p104",
+  "patch": true,
+  "born": null,
+  "bplace_text": null,
+  "src": [
+   "LL:13-4942617 (vielse Broager 1834)"
+  ],
+  "note": "Gift 1834 i Broager; vielsen nævner begge forældrepar.",
+  "_parish": "broager",
+  "_parents": [
+   [
+    "Rasmus Jensen",
+    "13-4942618"
+   ],
+   [
+    "Anna Maria Margaretha Christiansen Født Christiansen",
+    "13-4942619"
+   ]
+  ]
+ },
+ {
+  "ahnen": 105,
+  "id": "p105",
+  "patch": true,
+  "born": null,
+  "bplace_text": null,
+  "src": [
+   "LL:13-4942620 (vielse Broager 1834)"
+  ],
+  "note": "Gift 1834 i Broager; vielsen nævner begge forældrepar.",
+  "_parish": "broager",
+  "_parents": [
+   [
+    "Andreas Christensen",
+    "13-4942621"
+   ],
+   [
+    "Anna Maria Matzen Født Matzen",
+    "13-4942622"
+   ]
+  ]
+ },
+ {
+  "ahnen": 112,
+  "patch": true,
+  "reject": true,
+  "why": "vielse i forkert sogn"
+ },
+ {
+  "ahnen": 113,
+  "patch": true,
+  "reject": true,
+  "why": "vielse i forkert sogn"
+ },
+ {
+  "ahnen": 116,
+  "patch": true,
+  "reject": true,
+  "why": "vielse i forkert sogn"
+ },
+ {
+  "ahnen": 117,
+  "patch": true,
+  "reject": true,
+  "why": "vielse i forkert sogn"
+ },
+ {
+  "ahnen": 44,
+  "id": "a44",
+  "name": "Christen Andersen",
+  "sex": "M",
+  "line": "jorgensen",
+  "src": [
+   "LL:12-8842499",
+   "LL:13-3463510"
+  ],
+  "_auto": true,
+  "_parish": "hoven",
+  "note": "Nævnt som far i fødselsposten for Mads Christensen (Kristensen) (Hoven, 1852). Gift 1839 i Hoven.",
+  "born": 1819,
+  "bplace_text": null,
+  "married": "1839 i Hoven",
+  "_parents": []
+ },
+ {
+  "ahnen": 45,
+  "id": "a45",
+  "name": "Kirsten Christensdatter",
+  "sex": "F",
+  "line": "jorgensen",
+  "src": [
+   "LL:12-8842500",
+   "LL:13-3463511"
+  ],
+  "_auto": true,
+  "_parish": "hoven",
+  "note": "Nævnt som mor i fødselsposten for Mads Christensen (Kristensen) (Hoven, 1852). Gift 1839 i Hoven.",
+  "born": 1821,
+  "bplace_text": null,
+  "married": "1839 i Hoven",
+  "_parents": []
+ },
+ {
+  "ahnen": 46,
+  "id": "a46",
+  "name": "Jens Peder Larsen",
+  "sex": "M",
+  "line": "jorgensen",
+  "src": [
+   "LL:12-8975344"
+  ],
+  "_auto": true,
+  "_parish": "skarrild",
+  "note": "Nævnt som far i fødselsposten for Karen Jensen (Skarrild, 1852)."
+ },
+ {
+  "ahnen": 47,
+  "id": "a47",
+  "name": "Kjersten Frederiksdttr",
+  "sex": "F",
+  "line": "jorgensen",
+  "src": [
+   "LL:12-8975345"
+  ],
+  "_auto": true,
+  "_parish": "skarrild",
+  "note": "Nævnt som mor i fødselsposten for Karen Jensen (Skarrild, 1852)."
+ },
+ {
+  "ahnen": 80,
+  "reject": true,
+  "why": "fødselspost i forkert sogn"
+ },
+ {
+  "ahnen": 81,
+  "reject": true,
+  "why": "fødselspost i forkert sogn"
+ },
+ {
+  "ahnen": 82,
+  "reject": true,
+  "why": "fødselspost i forkert sogn"
+ },
+ {
+  "ahnen": 83,
+  "reject": true,
+  "why": "fødselspost i forkert sogn"
+ },
+ {
+  "ahnen": 86,
+  "id": "a86",
+  "name": "John Eskesen",
+  "sex": "M",
+  "line": "jorgensen",
+  "src": [
+   "LL:12-11082020"
+  ],
+  "_auto": true,
+  "_parish": "fåborg",
+  "note": "Nævnt som far i fødselsposten for Karen Johnsen (Fåborg, 1830)."
+ },
+ {
+  "ahnen": 87,
+  "id": "a87",
+  "name": "Ana Knudsdatter",
+  "sex": "F",
+  "line": "jorgensen",
+  "src": [
+   "LL:12-11082021"
+  ],
+  "_auto": true,
+  "_parish": "fåborg",
+  "note": "Nævnt som mor i fødselsposten for Karen Johnsen (Fåborg, 1830)."
+ },
+ {
+  "ahnen": 208,
+  "id": "a208",
+  "name": "Rasmus Jensen",
+  "sex": "M",
+  "line": "gedde",
+  "src": [
+   "LL:13-4942618"
+  ],
+  "_auto": true,
+  "_parish": "broager",
+  "note": "Nævnt som far i Jens Jensens vielse."
+ },
+ {
+  "ahnen": 209,
+  "id": "a209",
+  "name": "Anna Maria Margaretha Christiansen f. Christiansen",
+  "sex": "F",
+  "line": "gedde",
+  "src": [
+   "LL:13-4942619"
+  ],
+  "_auto": true,
+  "_parish": "broager",
+  "note": "Nævnt som mor i Jens Jensens vielse."
+ },
+ {
+  "ahnen": 210,
+  "id": "a210",
+  "name": "Andreas Christensen",
+  "sex": "M",
+  "line": "gedde",
+  "src": [
+   "LL:13-4942621"
+  ],
+  "_auto": true,
+  "_parish": "broager",
+  "note": "Nævnt som far i Ane Cathrine Christensens vielse."
+ },
+ {
+  "ahnen": 211,
+  "id": "a211",
+  "name": "Anna Maria Matzen f. Matzen",
+  "sex": "F",
+  "line": "gedde",
+  "src": [
+   "LL:13-4942622"
+  ],
+  "_auto": true,
+  "_parish": "broager",
+  "note": "Nævnt som mor i Ane Cathrine Christensens vielse."
+ },
+ {
+  "ahnen": 234,
+  "reject": true,
+  "why": "fødselspost i forkert sogn"
+ },
+ {
+  "ahnen": 80,
+  "id": "a80",
+  "name": "Peder Jensen",
+  "sex": "M",
+  "src": [
+   "LL:13-3655658 (sønnens vielse Vester Starup 1860)"
+  ],
+  "note": "Nævnt som far ved sønnen Jens Pedersens vielse i Vester Starup 1860.",
+  "_auto": true,
+  "_parish": "vester starup"
+ },
+ {
+  "ahnen": 82,
+  "id": "a82",
+  "name": "Niels Jepsen",
+  "sex": "M",
+  "src": [
+   "LL:13-3655660 (datterens vielse Vester Starup 1860)"
+  ],
+  "note": "Nævnt som far ved datteren Kirsten Marie Nielsens vielse i Vester Starup 1860.",
+  "_auto": true,
+  "_parish": "vester starup"
+ }
+]

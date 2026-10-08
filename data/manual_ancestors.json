@@ -1,0 +1,116 @@
+[
+ {
+  "ahnen": 44,
+  "id": "a44",
+  "patch": false,
+  "name": "Christen Andersen",
+  "sex": "M",
+  "born": "ca. 1819",
+  "note": "Far til Mads Christensen, født 1852 i Hoven. Gift 1839 i Hoven med Kirsten Christensdatter.",
+  "src": [
+   "LL:12-8842499 (sønnens fødsel Hoven 1852)",
+   "LL:13-3463510 (vielse Hoven 1839)"
+  ],
+  "_parish": "hoven"
+ },
+ {
+  "ahnen": 45,
+  "id": "a45",
+  "patch": false,
+  "name": "Kirsten Christensdatter",
+  "sex": "F",
+  "born": "ca. 1821",
+  "note": "Mor til Mads Christensen, født 1852 i Hoven. Gift 1839 i Hoven.",
+  "src": [
+   "LL:12-8842500 (sønnens fødsel Hoven 1852)",
+   "LL:13-3463511 (vielse Hoven 1839)"
+  ],
+  "_parish": "hoven"
+ },
+ {
+  "ahnen": 46,
+  "id": "a46",
+  "patch": false,
+  "name": "Jens Peder Larsen",
+  "sex": "M",
+  "note": "Far til Karen Jensen, født 1852 i Skarrild; nævnt ved hendes vielse i Grindsted 1875.",
+  "src": [
+   "LL:12-8975344 (datterens fødsel Skarrild 1852)",
+   "LL:13-3794325 (datterens vielse 1875)"
+  ],
+  "_parish": "skarrild"
+ },
+ {
+  "ahnen": 47,
+  "id": "a47",
+  "patch": false,
+  "name": "Kjersten Frederiksdatter",
+  "sex": "F",
+  "note": "Mor til Karen Jensen, født 1852 i Skarrild.",
+  "src": [
+   "LL:12-8975345 (datterens fødsel Skarrild 1852)"
+  ],
+  "_parish": "skarrild"
+ },
+ {
+  "ahnen": 59,
+  "id": "a59",
+  "patch": true,
+  "born": "1823-09-07",
+  "note": "Født 7. sept. 1823 i Tranekær sogn, datter af Mads Rasmussen og Christiane Andersdatter.",
+  "src": [
+   "LL:12-16332061 (fødsel Tranekær 1823)"
+  ]
+ },
+ {
+  "ahnen": 74,
+  "id": "a74",
+  "patch": false,
+  "name": "Jens Hansen",
+  "sex": "M",
+  "occ": [
+   "Gårdmand i Attrup, Rosmus sogn (1812)"
+  ],
+  "note": "Far til Ane Sophie, født 1812 i Attrup.",
+  "src": [
+   "AO:Rosmus kirkebog 1789–1816, 1812 (billede 28238652)"
+  ],
+  "_parish": "rosmus"
+ },
+ {
+  "ahnen": 75,
+  "id": "a75",
+  "patch": false,
+  "name": "Mette Pedersdatter",
+  "sex": "F",
+  "note": "Mor til Ane Sophie, født 1812 i Attrup. Kirkebogen tilføjer et tilnavn, der kan læses som \"Stallis\".",
+  "src": [
+   "AO:Rosmus kirkebog 1789–1816, 1812 (billede 28238652)"
+  ],
+  "_parish": "rosmus"
+ },
+ {
+  "ahnen": 118,
+  "id": "a118",
+  "patch": false,
+  "name": "Mads Rasmussen",
+  "sex": "M",
+  "note": "Far til Marthe, født 1823 i Tranekær.",
+  "src": [
+   "LL:12-16332062 (datterens fødsel Tranekær 1823)"
+  ],
+  "_parish": "tranekær"
+ },
+ {
+  "ahnen": 119,
+  "id": "a119",
+  "patch": false,
+  "name": "Christiane Andersdatter",
+  "sex": "F",
+  "note": "Mor til Marthe, født 1823 i Tranekær.",
+  "src": [
+   "LL:12-16332063 (datterens fødsel Tranekær 1823)"
+  ],
+  "_parish": "tranekær"
+ }
+]

@@ -30,6 +30,9 @@ PLACES = {
     "Slagelse": (55.402, 11.354, "Sjælland"),
     "København": (55.676, 12.568, "København"),
     "Viby (Roskilde amt)": (55.548, 12.022, "Sjælland"),
+    "Syv (Roskilde amt)": (55.566, 12.058, "Sjælland"),
+    "Hoven": (55.857, 8.733, "Vestjylland"),
+    "Skarrild": (56.023, 8.857, "Vestjylland"),
     "Herlufmagle": (55.322, 11.763, "Sjælland"),
     "Næstved": (55.230, 11.760, "Sjælland"),
     "Fredensborg": (55.975, 12.403, "Nordsjælland"),
@@ -221,8 +224,17 @@ person("p41", "Kirsten Marie Nielsen", "F", ahnen=41, line="jorgensen", spouse="
 person("p42", "Peder Jensen", "M", ahnen=42, line="jorgensen", spouse="p43", src=["LL:12-11080622"])
 person("p43", "Karen Johnsen", "F", ahnen=43, line="jorgensen", spouse="p42", src=["LL:12-11080623"])
 person("p21", "Ane Else Pedersen", "F", ahnen=21, line="jorgensen", born="1859-04-14", bplace="Fåborg (Varde)", spouse="p20", father="p42", mother="p43", src=["LL:12-11080621", "LL:13-3654109", "LL:12-9781232"])
-person("p22", "Mads Christensen", "M", ahnen=22, line="jorgensen", spouse="p23", src=["LL:13-2793208", "LL:12-5952890"])
-person("p23", "Karen Jensen", "F", ahnen=23, line="jorgensen", spouse="p22", src=["LL:13-2793209", "LL:12-5952891"])
+person("p22", "Mads Christensen (Kristensen)", "M", ahnen=22, line="jorgensen", spouse="p23", born="1852-01-18", bplace="Hoven",
+       occ=["Husmand, Sønder Felding (1901)"],
+       note="Født 18. jan. 1852 i Hoven sogn, søn af Christen Andersen og Kirsten Christensdatter. Gift 1875 i Grindsted med Karen Jensen. "
+            "Husmand i Sønder Felding, hvor datteren Hulda blev født 1895.",
+       src=["LL:12-8842498 (fødsel Hoven 1852)", "LL:13-3794323 (vielse Grindsted 1875)", "LL:9-1496473 (FT 1901 Sønder Felding)",
+            "LL:23-1723336 (FT 1911, født i Hoven)", "LL:13-2793208", "LL:12-5952890"])
+person("p23", "Karen Jensen", "F", ahnen=23, line="jorgensen", spouse="p22", born="1852-08-29", bplace="Skarrild",
+       note="Født 29. aug. 1852 i Skarrild sogn, datter af Jens Peder Larsen og Kjersten Frederiksdatter. Vielsen i Grindsted 1875 "
+            "giver samme dato og nævner faren; folketællingen 1901 skriver 29. juli.",
+       src=["LL:12-8975343 (fødsel Skarrild 1852)", "LL:13-3794324 (vielse Grindsted 1875)", "LL:9-1496474 (FT 1901)", "LL:7-1186700 (FT 1880, født i Skarrild)",
+            "LL:13-2793209", "LL:12-5952891"])
 
 # ================= Oldeforældre =================
 person("p8", "Aage Evald Oskar Jørgensen", "M", ahnen=8, line="jorgensen", born="1890-10-17", bplace="Slagelse",
@@ -338,9 +350,12 @@ person("p32", "Niels Jørgensen", "M", ahnen=32, line="jorgensen", born="ca. 182
        res=[(1860, "København", "høker"), (1885, "København", "arbejdsmand")],
        note="Gift 7. juli 1854 i Vor Frue Kirke, København, med Johanne Sophie Hansdatter. Fødestedet er skrevet 'Hove/Høje sogn, Svendborg amt'; sognet er ikke identificeret.",
        src=["LL:13-4281756", "LL:6-420495", "LL:7-586576", "LL:8-31142"])
-person("p33", "Johanne Sophie Hansen", "F", ahnen=33, line="jorgensen", born="ca. 1825", bplace="Viby (Roskilde amt)",
-       died="ca. 1910", dplace="København", occ=["Enke på alderdomsunderstøttelse (1901)"], spouse="p32",
-       src=["LL:6-420496", "LL:9-407995", "LL:17-1567270"])
+person("p33", "Johanne Sophie Hansen (Hansdatter)", "F", ahnen=33, line="jorgensen", born="1825", bplace="Syv (Roskilde amt)",
+       died="ca. 1910", dplace="København", occ=["Tjenestepige i Syv (1840)", "Enke på alderdomsunderstøttelse (1901)"], spouse="p32",
+       note="Født 1825 i Syv sogn ved Roskilde, datter af gartner Hans Jensen og Margrethe Pedersdatter. Faren havde været gartner på Vibygård, "
+            "derfor står hun senere som født i Viby. Konfirmeret i Syv 1839, tjenestepige 1840, rejste fra sognet 1841–45.",
+       src=["LL:12-13566085 (fødsel Syv 1825)", "LL:2-680489 (FT 1834 Syv)", "LL:14-8189952 (konfirmation Syv 1839)", "LL:3-794367 (FT 1840 Syv, tjeneste)",
+            "LL:15-1948556 (afgang Syv 1845)", "LL:6-420496", "LL:9-407995", "LL:17-1567270"])
 person("p34", "Niels Larsen", "M", ahnen=34, line="jorgensen", bplace="Malmö", note="Svensk; nævnt i datterens dødsindførsel.",
        src=["LL:11-231268"])
 person("p36", "Jochum (Joachim) Gaardsted", "M", ahnen=36, line="gaardsted", born="1792-09-23", bplace="Vosnæsgaard, Skødstrup",
@@ -352,8 +367,11 @@ person("p36", "Jochum (Joachim) Gaardsted", "M", ahnen=36, line="gaardsted", bor
             "major Folsch i Aarhus og Sehested i Fredericia. Første hustru var Marie Kjerstine Christensdatter. "
             "Han giftede sig anden gang 19. okt. 1833 i Rosmus med Ane Sophie Jensdatter.",
        src=["AO:Skødstrup kirkebog 1780–1809, s. 75 (bsid 736476, billede 43)", "LL:1-475273", "LL:2-530881", "LL:5-717919", "LL:13-1706737", "LL:11-1962320"])
-person("p37", "Ane Sophie Jensdatter", "F", ahnen=37, line="gaardsted", born="ca. 1812", bplace="Rosmus",
-       died="1886-02-27", dplace="Tirstrup", spouse="p36", src=["LL:2-530882", "LL:13-1706738", "LL:11-1962058"])
+person("p37", "Ane Sophie Jensdatter", "F", ahnen=37, line="gaardsted", born="1812-02-16", bplace="Rosmus",
+       died="1886-02-27", dplace="Tirstrup", spouse="p36",
+       note="Født 16. feb. 1812 i Attrup, Rosmus sogn, datter af gårdmand Jens Hansen og Mette Pedersdatter; hjemmedøbt 17. feb. "
+            "Rosmus' fødsler før 1814 er ikke indekseret; posten er læst direkte i kirkebogen. Folketællingerne 1834–45 giver også 1812 og Rosmus.",
+       src=["AO:Rosmus kirkebog 1789–1816, 1812 fødte piger (billede 28238652)", "LL:4-726530 (FT 1845, født i Rosmus)", "LL:2-530882", "LL:13-1706738", "LL:11-1962058"])
 person("p38", "Anders Rasmussen Rousing", "M", ahnen=38, line="rousing", born="1818-03-12", bplace="Fuglslev",
        died="1886-12-20", dplace="Fuglslev", father="p76", mother="p77", spouse="p39",
        occ=["Boelsmand, Fuglslev (1845)", "Gårdmand, Fuglslev (1850–60)", "Aftægtsmand (1880)"],
@@ -780,6 +798,40 @@ SOURCES = [
     ("ARK:", "arkiv.dk", "Lokalarkiver: billeder, personarkiver, erindringer", "https://arkiv.dk/"),
     ("PHT:", "Personalhistorisk Tidsskrift 1897", "H.W. Harbou: Slægten von Kleist i Danmark", "https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf"),
 ]
+
+# ================= Automatisk fundne aner (tools/expand.py) =================
+# Hvert led er fundet i Link Lives: fødselsposten navngiver forældrene, vielsen giver deres alder og fødested,
+# og forældrenes egen fødselspost giver datoen. Kilderne er de præcise Link Lives-poster.
+_auto_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "auto_ancestors.json")
+AUTO = json.load(open(_auto_path, encoding="utf-8")) if os.path.exists(_auto_path) else []
+# Håndfundne led (læst i kirkebøger og folketællinger) ligger i manual_ancestors.json og går forud for de automatiske.
+_man_path = os.path.join(os.path.dirname(_auto_path), "manual_ancestors.json")
+MANUAL = json.load(open(_man_path, encoding="utf-8")) if os.path.exists(_man_path) else []
+AUTO = MANUAL + [a for a in AUTO if not any(m["ahnen"] == a["ahnen"] and m.get("patch") == a.get("patch") for m in MANUAL)]
+_by_ahnen = {p["ahnen"]: p for p in P if p.get("ahnen")}
+for a in sorted(AUTO, key=lambda a: a["ahnen"]):
+    k = a["ahnen"]
+    if a.get("patch") and k in _by_ahnen:
+        t = _by_ahnen[k]
+        if a.get("born") and not t.get("born"): t["born"] = a["born"]
+        if a.get("bplace_text") and not t.get("bplace"):
+            if a["bplace_text"] in PLACES: t["bplace"] = a["bplace_text"]
+            else: t["note"] = ((t.get("note") or "") + f" Født i {a['bplace_text']}.").strip()
+        if a.get("note"): t["note"] = ((t.get("note") or "") + " " + a["note"]).strip()
+        t["src"] = [s for s in a.get("src", []) if s not in t["src"]] + t["src"]
+        continue
+    if k in _by_ahnen or a.get("reject"): continue
+    child = _by_ahnen.get(k // 2)
+    if not child: continue
+    bp = a.get("bplace_text") or None
+    note = a.get("note") or ""
+    if bp and bp not in PLACES: note += f" Født i {bp}."; bp = None
+    person(a["id"], a["name"], a["sex"], ahnen=k, line=child.get("line"), born=a.get("born"), bplace=bp,
+           died=a.get("died"), dplace=a.get("dplace"),
+           occ=a.get("occ", ()), conf="record" if len(a.get("src", [])) > 1 else "told", note=note.strip(),
+           src=a.get("src", []), spouse=f"a{k ^ 1}" if any(b["ahnen"] == k ^ 1 and not b.get("reject") and not b.get("patch") for b in AUTO) else None)
+    _by_ahnen[k] = P[-1]
+    child["father" if k % 2 == 0 else "mother"] = a["id"]
 
 # ================= Private personer =================
 # Nulevende og personer født inden for de sidste 100 år uden dødsdato står ikke i denne fil.
