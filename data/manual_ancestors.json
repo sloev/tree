@@ -5,11 +5,19 @@
   "patch": false,
   "name": "Christen Andersen",
   "sex": "M",
-  "born": "ca. 1819",
-  "note": "Far til Mads Christensen, født 1852 i Hoven. Gift 1839 i Hoven med Kirsten Christensdatter.",
+  "born": "1819-01-19",
+  "bplace_text": "Hoven",
+  "occ": [
+   "Gårdmand i Hoven (1840–60)"
+  ],
+  "note": "Født 19. jan. 1819 i Hoven, søn af Anders Jensen og Ane Kirstine Eskesdatter, der i 1834 som enke ejede møllen i Hoven. Gift 1839 i Hoven med Kirsten Christensdatter. Gårdmand i Hoven; 1860 med børnene Christen, Ane Kirstine, Anders, Jens, Mads, Kirsten Marie og Jens Peder.",
   "src": [
-   "LL:12-8842499 (sønnens fødsel Hoven 1852)",
-   "LL:13-3463510 (vielse Hoven 1839)"
+   "LL:12-8850963 (dåb Hoven 1819)",
+   "LL:13-3463510 (vielse Hoven 1839)",
+   "LL:2-658252 (FT 1834 Hoven, hos moren)",
+   "LL:5-838316 (FT 1850 Hoven)",
+   "LL:6-988525 (FT 1860 Hoven)",
+   "LL:12-8842499 (sønnens dåb 1852)"
   ],
   "_parish": "hoven"
  },
@@ -19,11 +27,15 @@
   "patch": false,
   "name": "Kirsten Christensdatter",
   "sex": "F",
-  "born": "ca. 1821",
-  "note": "Mor til Mads Christensen, født 1852 i Hoven. Gift 1839 i Hoven.",
+  "born": "1821-02-12",
+  "bplace_text": "Hoven",
+  "note": "Født 12. feb. 1821 i Hoven, datter af gårdmand Christen Pallesen og Kirsten Marie Jensdatter. Gift 1839 i Hoven med Christen Andersen; moren boede hos dem som aftægtskone.",
   "src": [
-   "LL:12-8842500 (sønnens fødsel Hoven 1852)",
-   "LL:13-3463511 (vielse Hoven 1839)"
+   "LL:12-8851104 (dåb Hoven 1821)",
+   "LL:13-3463511 (vielse Hoven 1839)",
+   "LL:2-658290 (FT 1834 Hoven, hos moren)",
+   "LL:5-838317 (FT 1850 Hoven)",
+   "LL:12-8842500 (sønnens dåb 1852)"
   ],
   "_parish": "hoven"
  },
@@ -33,12 +45,19 @@
   "patch": false,
   "name": "Jens Peder Larsen",
   "sex": "M",
-  "note": "Far til Karen Jensen, født 1852 i Skarrild; nævnt ved hendes vielse i Grindsted 1875.",
+  "born": "ca. 1812",
+  "bplace_text": "Assing",
+  "occ": [
+   "Husmand i Skarrild (1845–50)"
+  ],
+  "note": "Født ca. 1812 i Assing sogn (folketællingerne 1845 og 1850). Husmand i Skarrild, gift med Kjersten Frederiksdatter; børn bl.a. Frederik (1844), Ane (1847), Lars (1849) og Karen (1852). Assings fødsler før 1814 er ikke indekseret.",
   "src": [
-   "LL:12-8975344 (datterens fødsel Skarrild 1852)",
+   "LL:12-8975344 (datterens dåb Skarrild 1852)",
+   "LL:4-831754 (FT 1845 Skarrild)",
+   "LL:5-850627 (FT 1850 Skarrild)",
    "LL:13-3794325 (datterens vielse 1875)"
   ],
-  "_parish": "skarrild"
+  "_parish": "assing"
  },
  {
   "ahnen": 47,
@@ -46,11 +65,16 @@
   "patch": false,
   "name": "Kjersten Frederiksdatter",
   "sex": "F",
-  "note": "Mor til Karen Jensen, født 1852 i Skarrild.",
+  "born": "1822-04-20",
+  "bplace_text": "Sønder Felding",
+  "note": "Født 20. april 1822 i Sønder Felding, datter af Frederik Jensen og Ane Thomasdatter. Gift med husmand Jens Peder Larsen i Skarrild; den ældste søn blev opkaldt Frederik efter hendes far.",
   "src": [
-   "LL:12-8975345 (datterens fødsel Skarrild 1852)"
+   "LL:12-8980109 (dåb Sønder Felding 1822)",
+   "LL:4-831755 (FT 1845 Skarrild)",
+   "LL:5-850628 (FT 1850 Skarrild)",
+   "LL:12-8975345 (datterens dåb 1852)"
   ],
-  "_parish": "skarrild"
+  "_parish": "sønder felding"
  },
  {
   "ahnen": 59,
@@ -69,11 +93,14 @@
   "name": "Jens Hansen",
   "sex": "M",
   "occ": [
-   "Gårdmand i Attrup, Rosmus sogn (1812)"
+   "Gårdmand i Attrup, Rosmus sogn (1812–20)"
   ],
-  "note": "Far til Ane Sophie, født 1812 i Attrup.",
+  "note": "Ungkarl af Attrup; gift 6. juli 1811 i Rosmus Kirke med Mette Pedersdatter. Børn: Ane Sophie (1812), Christen (1818) og Mette (1820).",
   "src": [
-   "AO:Rosmus kirkebog 1789–1816, 1812 (billede 28238652)"
+   "AO:Rosmus kirkebog 1789–1816, copulerede 6. juli 1811 (billede 28238649)",
+   "AO:Rosmus kirkebog 1789–1816, 1812 (billede 28238652)",
+   "LL:12-3672434",
+   "LL:12-3673083"
   ],
   "_parish": "rosmus"
  },
@@ -83,11 +110,135 @@
   "patch": false,
   "name": "Mette Pedersdatter",
   "sex": "F",
-  "note": "Mor til Ane Sophie, født 1812 i Attrup. Kirkebogen tilføjer et tilnavn, der kan læses som \"Stallis\".",
+  "occ": [
+   "Gårdmandsdatter fra Attrup"
+  ],
+  "note": "Datter af gårdmand Peder Hallis(en) i Attrup. Gift 6. juli 1811 i Rosmus Kirke med Jens Hansen. Ved datteren Ane Sophies dåb 1812 kaldes hun \"Mette Pedersdatter Hallis\".",
   "src": [
+   "AO:Rosmus kirkebog 1789–1816, copulerede 6. juli 1811 (billede 28238649)",
    "AO:Rosmus kirkebog 1789–1816, 1812 (billede 28238652)"
   ],
   "_parish": "rosmus"
+ },
+ {
+  "ahnen": 88,
+  "id": "a88",
+  "patch": false,
+  "name": "Anders Jensen",
+  "sex": "M",
+  "note": "Far til Christen Andersen, født 1819 i Hoven. Død før 1834; enken ejede møllen i Hoven.",
+  "occ": [
+   "Møller i Hoven (enken ejede møllen 1834)"
+  ],
+  "src": [
+   "LL:12-8850964 (sønnens dåb Hoven 1819)",
+   "LL:2-658252 (FT 1834, enken)"
+  ],
+  "_parish": "hoven"
+ },
+ {
+  "ahnen": 89,
+  "id": "a89",
+  "patch": false,
+  "name": "Ane Kirstine Eskesdatter",
+  "sex": "F",
+  "born": "ca. 1777",
+  "occ": [
+   "Ejer af møllen i Hoven (1834)"
+  ],
+  "note": "Mor til Christen Andersen. Enke og ejer af møllen i Hoven ved folketællingen 1834, med børnene Jens (1809), Eske (1816), Christen (1818), Knud (1821) og Hanne (1826).",
+  "src": [
+   "LL:12-8850965 (sønnens dåb Hoven 1819)",
+   "LL:2-658252 (FT 1834 Hoven)"
+  ],
+  "_parish": "hoven"
+ },
+ {
+  "ahnen": 90,
+  "id": "a90",
+  "patch": false,
+  "name": "Christen Pallesen",
+  "sex": "M",
+  "occ": [
+   "Gårdmand i Hoven"
+  ],
+  "note": "Far til Kirsten Christensdatter, født 1821 i Hoven. Død før 1834.",
+  "src": [
+   "LL:12-8851105 (datterens dåb Hoven 1821)"
+  ],
+  "_parish": "hoven"
+ },
+ {
+  "ahnen": 91,
+  "id": "a91",
+  "patch": false,
+  "name": "Kirsten Marie Jensdatter",
+  "sex": "F",
+  "born": "ca. 1784",
+  "occ": [
+   "Gårdmandsenke (1834)",
+   "Aftægtskone hos datteren (1840–60)"
+  ],
+  "note": "Mor til Kirsten Christensdatter. Gårdmandsenke i Hoven 1834; boede siden på aftægt hos datteren og svigersønnen Christen Andersen.",
+  "src": [
+   "LL:12-8851106 (datterens dåb Hoven 1821)",
+   "LL:2-658290 (FT 1834 Hoven)",
+   "LL:5-838317 (FT 1850 Hoven)"
+  ],
+  "_parish": "hoven"
+ },
+ {
+  "ahnen": 94,
+  "id": "a94",
+  "patch": false,
+  "name": "Frederik Jensen",
+  "sex": "M",
+  "note": "Far til Kjersten Frederiksdatter, født 1822 i Sønder Felding.",
+  "src": [
+   "LL:12-8980110 (datterens dåb Sønder Felding 1822)"
+  ],
+  "_parish": "sønder felding"
+ },
+ {
+  "ahnen": 95,
+  "id": "a95",
+  "patch": false,
+  "name": "Ane Thomasdatter",
+  "sex": "F",
+  "note": "Mor til Kjersten Frederiksdatter, født 1822 i Sønder Felding.",
+  "src": [
+   "LL:12-8980111 (datterens dåb Sønder Felding 1822)"
+  ],
+  "_parish": "sønder felding"
+ },
+ {
+  "ahnen": 112,
+  "id": "a112",
+  "patch": true,
+  "born": "ca. 1784",
+  "bplace_text": "Magleby",
+  "occ": [
+   "Gårdfæster i Magleby (1834–50)"
+  ],
+  "note": "Gårdfæster i Magleby, Langeland. Gift ca. 1816 med Anne Cathrine Jensdatter fra Fangel på Fyn; børn: Thomas (1817), Karen (1818), Jens (1820), Laurine (1823), Johanne Marie (1825), Peder Christian (1830) og Lars (1832). Sandsynligvis den Lars Thomasen, der 1801 tjente i Magleby, søn af husmand Thomas Jensen (FT 1787).",
+  "src": [
+   "LL:2-864880 (FT 1834 Magleby)",
+   "LL:3-988512 (FT 1840)",
+   "LL:4-1084759 (FT 1845)",
+   "LL:5-1077810 (FT 1850)",
+   "LL:1-723878 (FT 1801 Magleby, tjenestekarl)"
+  ]
+ },
+ {
+  "ahnen": 113,
+  "id": "a113",
+  "patch": true,
+  "born": "ca. 1789",
+  "note": "Født ca. 1789 i Fangel sogn, Odense amt (FT 1850). Gift med gårdfæster Lars Thomsen i Magleby.",
+  "src": [
+   "LL:5-1077811 (FT 1850, født i Fangel)",
+   "LL:2-864881 (FT 1834 Magleby)"
+  ]
  },
  {
   "ahnen": 118,
@@ -112,5 +263,49 @@
    "LL:12-16332063 (datterens fødsel Tranekær 1823)"
   ],
   "_parish": "tranekær"
+ },
+ {
+  "ahnen": 150,
+  "id": "a150",
+  "patch": false,
+  "name": "Peder Hallis",
+  "sex": "M",
+  "occ": [
+   "Gårdmand i Attrup, Rosmus sogn (1811)"
+  ],
+  "note": "Far til Mette Pedersdatter; nævnt ved hendes vielse 1811. Navnet læses \"Hallis\" (måske Hallisen).",
+  "src": [
+   "AO:Rosmus kirkebog 1789–1816, copulerede 6. juli 1811 (billede 28238649)"
+  ],
+  "_parish": "rosmus"
+ },
+ {
+  "ahnen": 224,
+  "id": "a224",
+  "patch": false,
+  "name": "Thomas Jensen",
+  "sex": "M",
+  "born": "ca. 1731",
+  "occ": [
+   "Bonde og husmand i Magleby (1787)"
+  ],
+  "note": "Sandsynligvis far til Lars Thomsen. Husmand i Magleby 1787 med hustruen Giertrud Christensdatter og sønnen Lars. Den førstefødte sønnesøn fik navnet Thomas.",
+  "src": [
+   "LL:0-655526 (FT 1787 Magleby)"
+  ],
+  "_parish": "magleby"
+ },
+ {
+  "ahnen": 225,
+  "id": "a225",
+  "patch": false,
+  "name": "Giertrud Christensdatter",
+  "sex": "F",
+  "born": "ca. 1753",
+  "note": "Sandsynligvis mor til Lars Thomsen; hustru til husmand Thomas Jensen i Magleby 1787.",
+  "src": [
+   "LL:0-655527 (FT 1787 Magleby)"
+  ],
+  "_parish": "magleby"
  }
 ]

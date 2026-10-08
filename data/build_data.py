@@ -833,6 +833,31 @@ for a in sorted(AUTO, key=lambda a: a["ahnen"]):
     _by_ahnen[k] = P[-1]
     child["father" if k % 2 == 0 else "mother"] = a["id"]
 
+# ================= Automatisk fundne søskende (tools/siblings.py) =================
+# Søskende fundet som dåb med samme forældre i samme sogn (eller begge forældres fulde navne i samme amt).
+_sib_path = os.path.join(os.path.dirname(_auto_path), "auto_siblings.json")
+_ids = {p["id"] for p in P}
+_msib_path = os.path.join(os.path.dirname(_auto_path), "manual_siblings.json")
+_load = lambda pth: json.load(open(pth, encoding="utf-8")) if os.path.exists(pth) else []
+def _fn(n): return (n or "").strip().lower().split(" ")[0].replace("ch", "k").replace("c", "k")
+def _yr(b):
+    import re as _re
+    m = _re.search(r"\d{4}", str(b or "")); return int(m.group()) if m else None
+_byid = {p["id"]: p for p in P}
+_sibkeys = {(p.get("father"), p.get("mother"), _fn(p["name"]), _yr(p.get("born"))) for p in P}
+for s in _load(_msib_path) + _load(_sib_path):
+    if s.get("none") or s.get("reject") or s["id"] in _ids or s["father"] not in _ids or s["mother"] not in _ids: continue
+    if len(s["name"].split()) == 1:  # dåbsindførslen mangler patronymikon: dan det af farens fornavn
+        s["name"] += " " + _byid[s["father"]]["name"].split()[0] + ("sen" if s["sex"] == "M" else "datter")
+    y = _yr(s.get("born"))
+    if any((s["father"], s["mother"], _fn(s["name"]), yy) in _sibkeys for yy in ((y, y - 1, y + 1) if y else (None,))): continue
+    _sibkeys.add((s["father"], s["mother"], _fn(s["name"]), y))
+    bp = s.get("bplace_text"); note = s.get("note") or ""
+    if bp and bp not in PLACES: note = (f"Født i {bp}. " + note).strip(); bp = None
+    person(s["id"], s["name"], s["sex"], rel=s.get("rel"), line=s.get("line"), born=s.get("born"), bplace=bp, died=s.get("died"),
+           father=s["father"], mother=s["mother"], note=note or None, src=s.get("src", []))
+    _ids.add(s["id"])
+
 # ================= Private personer =================
 # Nulevende og personer født inden for de sidste 100 år uden dødsdato står ikke i denne fil.
 # De ligger krypteret i data/private.enc; her indlæses kun anonyme pladsholdere (data/private_stubs.json).

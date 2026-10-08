@@ -1,0 +1,1589 @@
+[
+ {
+  "_for": "p8",
+  "none": true
+ },
+ {
+  "_for": "sofus_f",
+  "none": true
+ },
+ {
+  "_for": "p26",
+  "none": true
+ },
+ {
+  "_for": "p31",
+  "none": true
+ },
+ {
+  "_for": "p39",
+  "none": true
+ },
+ {
+  "_for": "sofus_fm",
+  "none": true
+ },
+ {
+  "_for": "p10",
+  "reject": true,
+  "why": "to familier med samme navne i sognet",
+  "n": 4
+ },
+ {
+  "_for": "p11",
+  "id": "as_p11_0",
+  "name": "Kirsten Christensen",
+  "sex": "F",
+  "born": "1875-12-29",
+  "bplace_text": "Sønder Felding",
+  "father": "p22",
+  "mother": "p23",
+  "line": "jorgensen",
+  "rel": "Huldas søskende",
+  "src": [
+   "LL:12-8978742 (dåb Sønder Felding 1875)"
+  ]
+ },
+ {
+  "_for": "p11",
+  "id": "as_p11_1",
+  "name": "Christian Møller Christensen",
+  "sex": "M",
+  "born": "1878-03-08",
+  "bplace_text": "Sønder Felding",
+  "father": "p22",
+  "mother": "p23",
+  "line": "jorgensen",
+  "rel": "Huldas søskende",
+  "src": [
+   "LL:12-8978220 (dåb Sønder Felding 1878)"
+  ]
+ },
+ {
+  "_for": "p11",
+  "id": "as_p11_3",
+  "name": "Kirsten Marie Kristensen",
+  "sex": "F",
+  "born": "1880-08-06",
+  "bplace_text": "Sønder Felding",
+  "father": "p22",
+  "mother": "p23",
+  "line": "jorgensen",
+  "rel": "Huldas søskende",
+  "src": [
+   "LL:12-8977411 (dåb Sønder Felding 1880)"
+  ]
+ },
+ {
+  "_for": "p11",
+  "id": "as_p11_4",
+  "name": "Kirten Marie Kristensen",
+  "sex": "F",
+  "born": "1882-09-19",
+  "bplace_text": "Sønder Felding",
+  "father": "p22",
+  "mother": "p23",
+  "line": "jorgensen",
+  "rel": "Huldas søskende",
+  "src": [
+   "LL:12-8977486 (dåb Sønder Felding 1882)"
+  ]
+ },
+ {
+  "_for": "p11",
+  "id": "as_p11_5",
+  "name": "Serine Lovise Kristensen",
+  "sex": "F",
+  "born": "1885-03-31",
+  "bplace_text": "Sønder Felding",
+  "father": "p22",
+  "mother": "p23",
+  "line": "jorgensen",
+  "rel": "Huldas søskende",
+  "src": [
+   "LL:12-8977566 (dåb Sønder Felding 1885)"
+  ]
+ },
+ {
+  "_for": "p11",
+  "id": "as_p11_6",
+  "name": "Jens Peder Kristensen",
+  "sex": "M",
+  "born": "1887-02-11",
+  "bplace_text": "Sønder Felding",
+  "father": "p22",
+  "mother": "p23",
+  "line": "jorgensen",
+  "rel": "Huldas søskende",
+  "src": [
+   "LL:12-8977223 (dåb Sønder Felding 1887)"
+  ]
+ },
+ {
+  "_for": "p11",
+  "id": "as_p11_7",
+  "name": "Mariane Emilie Kristensen",
+  "sex": "F",
+  "born": "1889-03-30",
+  "bplace_text": "Sønder Felding",
+  "father": "p22",
+  "mother": "p23",
+  "line": "jorgensen",
+  "rel": "Huldas søskende",
+  "src": [
+   "LL:12-8977683 (dåb Sønder Felding 1889)",
+   "LL:11-4530122 (begravet 1890)"
+  ],
+  "died": "1890",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p11",
+  "id": "as_p11_8",
+  "name": "Mariane Emilie Kristensen",
+  "sex": "F",
+  "born": "1890-04-26",
+  "bplace_text": "Sønder Felding",
+  "father": "p22",
+  "mother": "p23",
+  "line": "jorgensen",
+  "rel": "Huldas søskende",
+  "src": [
+   "LL:12-8977710 (dåb Sønder Felding 1890)",
+   "LL:11-4530122 (begravet 1890)"
+  ],
+  "died": "1890",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p11",
+  "id": "as_p11_9",
+  "name": "Juliane Amalie Kristensen",
+  "sex": "F",
+  "born": "1891-05-22",
+  "bplace_text": "Sønder Felding",
+  "father": "p22",
+  "mother": "p23",
+  "line": "jorgensen",
+  "rel": "Huldas søskende",
+  "src": [
+   "LL:12-8977746 (dåb Sønder Felding 1891)",
+   "LL:11-4530139 (begravet 1891)"
+  ],
+  "died": "1891",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p11",
+  "id": "as_p11_10",
+  "name": "Jens Thorvald Kristensen",
+  "sex": "M",
+  "born": "1892-06-27",
+  "bplace_text": "Sønder Felding",
+  "father": "p22",
+  "mother": "p23",
+  "line": "jorgensen",
+  "rel": "Huldas søskende",
+  "src": [
+   "LL:12-5952153 (dåb Sønder Felding 1892)"
+  ]
+ },
+ {
+  "_for": "p11",
+  "id": "as_p11_11",
+  "name": "Alfred Ferdinand Kristensen",
+  "sex": "M",
+  "born": "1893-08-14",
+  "bplace_text": "Sønder Felding",
+  "father": "p22",
+  "mother": "p23",
+  "line": "jorgensen",
+  "rel": "Huldas søskende",
+  "src": [
+   "LL:12-5952198 (dåb Sønder Felding 1893)"
+  ]
+ },
+ {
+  "_for": "p11",
+  "id": "as_p11_12",
+  "name": "Juliane Amalie Christensen",
+  "sex": "F",
+  "born": "1894-07-09",
+  "bplace_text": "Sønder Felding",
+  "father": "p22",
+  "mother": "p23",
+  "line": "jorgensen",
+  "rel": "Huldas søskende",
+  "src": [
+   "LL:12-5952844 (dåb Sønder Felding 1894)"
+  ]
+ },
+ {
+  "_for": "p11",
+  "id": "as_p11_13",
+  "name": "Axel Nygaard Christensen",
+  "sex": "M",
+  "born": "1896-10-18",
+  "bplace_text": "Sønder Felding",
+  "father": "p22",
+  "mother": "p23",
+  "line": "jorgensen",
+  "rel": "Huldas søskende",
+  "src": [
+   "LL:12-5952328 (dåb Sønder Felding 1896)"
+  ]
+ },
+ {
+  "_for": "p11",
+  "id": "as_p11_14",
+  "name": "Jens Paabøl Christensen",
+  "sex": "M",
+  "born": "1898-08-13",
+  "bplace_text": "Sønder Felding",
+  "father": "p22",
+  "mother": "p23",
+  "line": "jorgensen",
+  "rel": "Huldas søskende",
+  "src": [
+   "LL:12-5952415 (dåb Sønder Felding 1898)"
+  ]
+ },
+ {
+  "_for": "sofus",
+  "reject": true,
+  "why": "to familier med samme navne i sognet",
+  "n": 4
+ },
+ {
+  "_for": "p14",
+  "id": "as_p14_0",
+  "name": "Otto Kristian Larsen",
+  "sex": "M",
+  "born": "1883-07-05",
+  "bplace_text": "Magleby",
+  "father": "p28",
+  "mother": "p29",
+  "line": "larsen",
+  "rel": "Laurits' søskende",
+  "src": [
+   "LL:12-16292724 (dåb Magleby 1883)"
+  ]
+ },
+ {
+  "_for": "p14",
+  "id": "as_p14_1",
+  "name": "Olga Mathilde Larsen",
+  "sex": "F",
+  "born": "1885-09-26",
+  "bplace_text": "Magleby",
+  "father": "p28",
+  "mother": "p29",
+  "line": "larsen",
+  "rel": "Laurits' søskende",
+  "src": [
+   "LL:12-16294268 (dåb Magleby 1885)",
+   "LL:11-3133917 (begravet 1894)"
+  ],
+  "died": "1894",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p14",
+  "id": "as_p14_2",
+  "name": "Axel Peter Marcus Larsen",
+  "sex": "M",
+  "born": "1888-02-13",
+  "bplace_text": "Magleby",
+  "father": "p28",
+  "mother": "p29",
+  "line": "larsen",
+  "rel": "Laurits' søskende",
+  "src": [
+   "LL:12-16282532 (dåb Magleby 1888)"
+  ]
+ },
+ {
+  "_for": "p16",
+  "id": "as_p16_0",
+  "name": "Nicoline Mathilde Jørgensen",
+  "sex": "F",
+  "born": "1836-08-19",
+  "bplace_text": "København Vor Frue",
+  "father": "p32",
+  "mother": "p33",
+  "line": "jorgensen",
+  "rel": "Jørgens søskende",
+  "src": [
+   "LL:12-13719823 (dåb København Vor Frue 1836)",
+   "LL:11-6384157 (begravet 1837)"
+  ],
+  "died": "1837",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p16",
+  "id": "as_p16_1",
+  "name": "Hans Sophus Frederik Andreas Jørgensen",
+  "sex": "M",
+  "born": "1854-09-29",
+  "bplace_text": "København Vor Frue",
+  "father": "p32",
+  "mother": "p33",
+  "line": "jorgensen",
+  "rel": "Jørgens søskende",
+  "src": [
+   "LL:12-13107867 (dåb København Vor Frue 1854)",
+   "LL:11-5799787 (begravet 1854)"
+  ],
+  "died": "1854",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p16",
+  "id": "as_p16_2",
+  "name": "Anne Margrethe Jørgensen",
+  "sex": "F",
+  "born": "1855-11-17",
+  "bplace_text": "København Vor Frue",
+  "father": "p32",
+  "mother": "p33",
+  "line": "jorgensen",
+  "rel": "Jørgens søskende",
+  "src": [
+   "LL:12-13118889 (dåb København Vor Frue 1855)",
+   "LL:11-5804542 (begravet 1856)"
+  ],
+  "died": "1856",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p16",
+  "id": "as_p16_3",
+  "name": "Peter Jørgensen",
+  "sex": "M",
+  "born": "1860-04-05",
+  "bplace_text": "København Vor Frue",
+  "father": "p32",
+  "mother": "p33",
+  "line": "jorgensen",
+  "rel": "Jørgens søskende",
+  "src": [
+   "LL:12-12343823 (dåb København Vor Frue 1860)",
+   "LL:11-5802650 (begravet 1860)"
+  ],
+  "died": "1860",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p18",
+  "id": "as_p18_0",
+  "name": "Jens Gaardsted",
+  "sex": "M",
+  "born": "1834-04-04",
+  "bplace_text": "Tirstrup",
+  "father": "p36",
+  "mother": "p37",
+  "line": "gaardsted",
+  "rel": "Hans' søskende",
+  "src": [
+   "LL:12-3666724 (dåb Tirstrup 1834)",
+   "LL:11-1962807 (begravet 1837)"
+  ],
+  "died": "1837",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p18",
+  "id": "as_p18_1",
+  "name": "Joahnnes Gaardsted",
+  "sex": "M",
+  "born": "1835-07-13",
+  "bplace_text": "Tirstrup",
+  "father": "p36",
+  "mother": "p37",
+  "line": "gaardsted",
+  "rel": "Hans' søskende",
+  "src": [
+   "LL:12-3664932 (dåb Tirstrup 1835)"
+  ]
+ },
+ {
+  "_for": "p18",
+  "id": "as_p18_2",
+  "name": "Marie Kjerstine Gaardsted",
+  "sex": "F",
+  "born": "1838-04-03",
+  "bplace_text": "Tirstrup",
+  "father": "p36",
+  "mother": "p37",
+  "line": "gaardsted",
+  "rel": "Hans' søskende",
+  "src": [
+   "LL:12-3665680 (dåb Tirstrup 1838)",
+   "LL:11-1963075 (begravet 1839)"
+  ],
+  "died": "1839",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p18",
+  "id": "as_p18_3",
+  "name": "Ernst Adolph Gaardsted",
+  "sex": "M",
+  "born": "1850-01-31",
+  "bplace_text": "Tirstrup",
+  "father": "p36",
+  "mother": "p37",
+  "line": "gaardsted",
+  "rel": "Hans' søskende",
+  "src": [
+   "LL:12-3665402 (dåb Tirstrup 1850)"
+  ]
+ },
+ {
+  "_for": "p19",
+  "id": "as_p19_0",
+  "name": "Soren Andersen",
+  "sex": "M",
+  "born": "1850-08-18",
+  "bplace_text": "Fuglslev",
+  "father": "p38",
+  "mother": "p39",
+  "line": "rousing",
+  "rel": "Rasmines søskende",
+  "src": [
+   "LL:12-9158235 (dåb Fuglslev 1850)"
+  ]
+ },
+ {
+  "_for": "p20",
+  "id": "as_p20_0",
+  "name": "Mette Katrine Pedersen",
+  "sex": "F",
+  "born": "1868-08-05",
+  "bplace_text": "Vester Starup",
+  "father": "p40",
+  "mother": "p41",
+  "line": "jorgensen",
+  "rel": "Niels' søskende",
+  "src": [
+   "LL:12-9780936 (dåb Vester Starup 1868)"
+  ]
+ },
+ {
+  "_for": "p20",
+  "id": "as_p20_1",
+  "name": "Mads Pedersen",
+  "sex": "M",
+  "born": "1871-04-15",
+  "bplace_text": "Vester Starup",
+  "father": "p40",
+  "mother": "p41",
+  "line": "jorgensen",
+  "rel": "Niels' søskende",
+  "src": [
+   "LL:12-9780840 (dåb Vester Starup 1871)"
+  ]
+ },
+ {
+  "_for": "p21",
+  "id": "as_p21_0",
+  "name": "John Pedersen",
+  "sex": "M",
+  "born": "1854-05-07",
+  "bplace_text": "Fåborg",
+  "father": "p42",
+  "mother": "p43",
+  "line": "jorgensen",
+  "rel": "Anes søskende",
+  "src": [
+   "LL:12-11079312 (dåb Fåborg 1854)",
+   "LL:11-5334414 (begravet 1854)"
+  ],
+  "died": "1854",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p21",
+  "id": "as_p21_1",
+  "name": "John Christian Pedersen",
+  "sex": "M",
+  "born": "1855-09-11",
+  "bplace_text": "Fåborg",
+  "father": "p42",
+  "mother": "p43",
+  "line": "jorgensen",
+  "rel": "Anes søskende",
+  "src": [
+   "LL:12-11079372 (dåb Fåborg 1855)",
+   "LL:11-5334470 (begravet 1858)"
+  ],
+  "died": "1858",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p21",
+  "id": "as_p21_2",
+  "name": "Ane Pedersen",
+  "sex": "F",
+  "born": "1857-09-30",
+  "bplace_text": "Fåborg",
+  "father": "p42",
+  "mother": "p43",
+  "line": "jorgensen",
+  "rel": "Anes søskende",
+  "src": [
+   "LL:12-11080531 (dåb Fåborg 1857)",
+   "LL:11-5334911 (begravet 1858)"
+  ],
+  "died": "1858",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p21",
+  "id": "as_p21_3",
+  "name": "John Pedersen",
+  "sex": "M",
+  "born": "1863-08-09",
+  "bplace_text": "Fåborg",
+  "father": "p42",
+  "mother": "p43",
+  "line": "jorgensen",
+  "rel": "Anes søskende",
+  "src": [
+   "LL:12-11079762 (dåb Fåborg 1863)"
+  ]
+ },
+ {
+  "_for": "p21",
+  "id": "as_p21_4",
+  "name": "Johanne Marie Jensen",
+  "sex": "F",
+  "born": "1865-05-03",
+  "bplace_text": "Fåborg",
+  "father": "p42",
+  "mother": "p43",
+  "line": "jorgensen",
+  "rel": "Anes søskende",
+  "src": [
+   "LL:12-11080893 (dåb Fåborg 1865)",
+   "LL:11-5092757 (begravet 1877)"
+  ],
+  "died": "1877",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p21",
+  "id": "as_p21_5",
+  "name": "Hans Nielsen Jensen",
+  "sex": "M",
+  "born": "1869-03-28",
+  "bplace_text": "Fåborg",
+  "father": "p42",
+  "mother": "p43",
+  "line": "jorgensen",
+  "rel": "Anes søskende",
+  "src": [
+   "LL:12-11080035 (dåb Fåborg 1869)"
+  ]
+ },
+ {
+  "_for": "p21",
+  "id": "as_p21_6",
+  "name": "Niels Jørgen Jensen",
+  "sex": "M",
+  "born": "1871-12-07",
+  "bplace_text": "Fåborg",
+  "father": "p42",
+  "mother": "p43",
+  "line": "jorgensen",
+  "rel": "Anes søskende",
+  "src": [
+   "LL:12-11080175 (dåb Fåborg 1871)",
+   "LL:11-5092311 (begravet 1874)"
+  ],
+  "died": "1874",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p21",
+  "id": "as_p21_7",
+  "name": "Kirsten Marie Jensen",
+  "sex": "F",
+  "born": "1876-12-08",
+  "bplace_text": "Fåborg",
+  "father": "p42",
+  "mother": "p43",
+  "line": "jorgensen",
+  "rel": "Anes søskende",
+  "src": [
+   "LL:12-10457073 (dåb Fåborg 1876)",
+   "LL:11-5092757 (begravet 1877)"
+  ],
+  "died": "1877",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p22",
+  "reject": true,
+  "why": "to familier med samme navne i sognet",
+  "n": 8
+ },
+ {
+  "_for": "p23",
+  "id": "as_p23_0",
+  "name": "Frederik Jensen",
+  "sex": "M",
+  "born": "1845-12-23",
+  "bplace_text": "Skarrild",
+  "father": "a46",
+  "mother": "a47",
+  "line": "jorgensen",
+  "rel": "Karens søskende",
+  "src": [
+   "LL:12-8976391 (dåb Skarrild 1845)"
+  ]
+ },
+ {
+  "_for": "p23",
+  "id": "as_p23_1",
+  "name": "Lars Jensen",
+  "sex": "M",
+  "born": "1848-10-19",
+  "bplace_text": "Skarrild",
+  "father": "a46",
+  "mother": "a47",
+  "line": "jorgensen",
+  "rel": "Karens søskende",
+  "src": [
+   "LL:12-8974502 (dåb Skarrild 1848)"
+  ]
+ },
+ {
+  "_for": "sofus_m",
+  "id": "as_sofus_m_0",
+  "name": "Marie Petersen",
+  "sex": "F",
+  "born": "1862-04-17",
+  "bplace_text": "Dybbøl",
+  "father": "sofus_mf",
+  "mother": "sofus_mm",
+  "line": "maternal",
+  "rel": "Annas søskende",
+  "src": [
+   "LL:12-14358400 (dåb Dybbøl 1862)"
+  ]
+ },
+ {
+  "_for": "sofus_m",
+  "id": "as_sofus_m_1",
+  "name": "Anna Kathrine Petersen",
+  "sex": "F",
+  "born": "1864-01-27",
+  "bplace_text": "Dybbøl",
+  "father": "sofus_mf",
+  "mother": "sofus_mm",
+  "line": "maternal",
+  "rel": "Annas søskende",
+  "src": [
+   "LL:12-14358529 (dåb Dybbøl 1864)",
+   "LL:11-6791521 (begravet 1864)"
+  ],
+  "died": "1864",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "sofus_m",
+  "id": "as_sofus_m_2",
+  "name": "Lorens Peter Petersen",
+  "sex": "M",
+  "born": "1865-07-26",
+  "bplace_text": "Dybbøl",
+  "father": "sofus_mf",
+  "mother": "sofus_mm",
+  "line": "maternal",
+  "rel": "Annas søskende",
+  "src": [
+   "LL:12-14358621 (dåb Dybbøl 1865)"
+  ]
+ },
+ {
+  "_for": "p28",
+  "id": "as_p28_0",
+  "name": "Ane Marie Larsen",
+  "sex": "F",
+  "born": "1861-11-22",
+  "bplace_text": "Magleby",
+  "father": "p56",
+  "mother": "p57",
+  "line": "larsen",
+  "rel": "Lars' søskende",
+  "src": [
+   "LL:12-16299702 (dåb Magleby 1861)",
+   "LL:11-8594026 (begravet 1872)"
+  ],
+  "died": "1872",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p28",
+  "id": "as_p28_1",
+  "name": "Caroline Cathrine Larsen",
+  "sex": "F",
+  "born": "1863-10-24",
+  "bplace_text": "Magleby",
+  "father": "p56",
+  "mother": "p57",
+  "line": "larsen",
+  "rel": "Lars' søskende",
+  "src": [
+   "LL:12-16299891 (dåb Magleby 1863)",
+   "LL:11-7728551 (begravet 1865)"
+  ],
+  "died": "1865",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p28",
+  "id": "as_p28_2",
+  "name": "Ceçilie Christiane Larsen",
+  "sex": "F",
+  "born": "1865-10-17",
+  "bplace_text": "Magleby",
+  "father": "p56",
+  "mother": "p57",
+  "line": "larsen",
+  "rel": "Lars' søskende",
+  "src": [
+   "LL:12-16300126 (dåb Magleby 1865)"
+  ]
+ },
+ {
+  "_for": "p28",
+  "id": "as_p28_4",
+  "name": "Laurentine Sophie Larsen",
+  "sex": "F",
+  "born": "1867-12-25",
+  "bplace_text": "Magleby",
+  "father": "p56",
+  "mother": "p57",
+  "line": "larsen",
+  "rel": "Lars' søskende",
+  "src": [
+   "LL:12-16300426 (dåb Magleby 1867)",
+   "LL:11-7728767 (begravet 1872)"
+  ],
+  "died": "1872",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p28",
+  "id": "as_p28_5",
+  "name": "Sophus Christian Larsen",
+  "sex": "M",
+  "born": "1872-04-24",
+  "bplace_text": "Magleby",
+  "father": "p56",
+  "mother": "p57",
+  "line": "larsen",
+  "rel": "Lars' søskende",
+  "src": [
+   "LL:12-16297796 (dåb Magleby 1872)",
+   "LL:11-7727180 (begravet 1872)"
+  ],
+  "died": "1872",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p28",
+  "id": "as_p28_6",
+  "name": "Laurentine Sophie Larsen",
+  "sex": "F",
+  "born": "1873-07-08",
+  "bplace_text": "Magleby",
+  "father": "p56",
+  "mother": "p57",
+  "line": "larsen",
+  "rel": "Lars' søskende",
+  "src": [
+   "LL:12-16293111 (dåb Magleby 1873)"
+  ]
+ },
+ {
+  "_for": "p28",
+  "id": "as_p28_8",
+  "name": "Peder Christian Larsen",
+  "sex": "M",
+  "born": "1877-06-19",
+  "bplace_text": "Magleby",
+  "father": "p56",
+  "mother": "p57",
+  "line": "larsen",
+  "rel": "Lars' søskende",
+  "src": [
+   "LL:12-16292130 (dåb Magleby 1877)"
+  ]
+ },
+ {
+  "_for": "p28",
+  "id": "as_p28_9",
+  "name": "Thomas Larsen",
+  "sex": "M",
+  "born": "1880-04-10",
+  "bplace_text": "Magleby",
+  "father": "p56",
+  "mother": "p57",
+  "line": "larsen",
+  "rel": "Lars' søskende",
+  "src": [
+   "LL:12-16292417 (dåb Magleby 1880)"
+  ]
+ },
+ {
+  "_for": "p29",
+  "reject": true,
+  "why": "to familier med samme navne i sognet",
+  "n": 7
+ },
+ {
+  "_for": "p30",
+  "id": "as_p30_0",
+  "name": "Hans Peder Holgersen",
+  "sex": "M",
+  "born": "1869-04-15",
+  "bplace_text": "Tved",
+  "father": "p60",
+  "mother": "p61",
+  "line": "larsen",
+  "rel": "Axels søskende",
+  "src": [
+   "LL:12-15690927 (dåb Tved 1869)"
+  ]
+ },
+ {
+  "_for": "p30",
+  "id": "as_p30_1",
+  "name": "Holger Vilhelm Nielsen Holgersen",
+  "sex": "M",
+  "born": "1880-07-20",
+  "bplace_text": "Tved",
+  "father": "p60",
+  "mother": "p61",
+  "line": "larsen",
+  "rel": "Axels søskende",
+  "src": [
+   "LL:12-15691630 (dåb Tved 1880)"
+  ]
+ },
+ {
+  "_for": "p30",
+  "id": "as_p30_2",
+  "name": "Annert Kristian Holgersen",
+  "sex": "M",
+  "born": "1885-08-03",
+  "bplace_text": "Tved",
+  "father": "p60",
+  "mother": "p61",
+  "line": "larsen",
+  "rel": "Axels søskende",
+  "src": [
+   "LL:12-15691908 (dåb Tved 1885)"
+  ]
+ },
+ {
+  "_for": "p30",
+  "id": "as_p30_3",
+  "name": "Iver Peder Holgersen",
+  "sex": "M",
+  "born": "1888-05-12",
+  "bplace_text": "Tved",
+  "father": "p60",
+  "mother": "p61",
+  "line": "larsen",
+  "rel": "Axels søskende",
+  "src": [
+   "LL:12-15692076 (dåb Tved 1888)"
+  ]
+ },
+ {
+  "_for": "p30",
+  "id": "as_p30_4",
+  "name": "Anna Kristine Holgersen",
+  "sex": "F",
+  "born": "1891-12-08",
+  "bplace_text": "Tved",
+  "father": "p60",
+  "mother": "p61",
+  "line": "larsen",
+  "rel": "Axels søskende",
+  "src": [
+   "LL:12-15693963 (dåb Tved 1891)",
+   "LL:11-2920067 (begravet 1893)"
+  ],
+  "died": "1893",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p33",
+  "id": "as_p33_0",
+  "name": "Jens Hansen",
+  "sex": "M",
+  "born": "1830-03-03",
+  "bplace_text": "Syv",
+  "father": "a66",
+  "mother": "a67",
+  "line": "jorgensen",
+  "rel": "Johannes søskende",
+  "src": [
+   "LL:12-13565617 (dåb Syv 1830)"
+  ]
+ },
+ {
+  "_for": "p38",
+  "id": "as_p38_0",
+  "name": "Jens Rasmusen",
+  "sex": "M",
+  "born": "1814-12-15",
+  "bplace_text": "Fuglslev",
+  "father": "p76",
+  "mother": "p77",
+  "line": "rousing",
+  "rel": "Anders' søskende",
+  "src": [
+   "LL:12-3667320 (dåb Fuglslev 1814)",
+   "LL:11-1963505 (begravet 1814)"
+  ],
+  "died": "1814",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p38",
+  "id": "as_p38_1",
+  "name": "Søren Rasmusen",
+  "sex": "M",
+  "born": "1820-11-24",
+  "bplace_text": "Fuglslev",
+  "father": "p76",
+  "mother": "p77",
+  "line": "rousing",
+  "rel": "Anders' søskende",
+  "src": [
+   "LL:12-3667434 (dåb Fuglslev 1820)",
+   "LL:11-1963525 (begravet 1820)"
+  ],
+  "died": "1820",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p43",
+  "id": "as_p43_0",
+  "name": "Kjersten Johnsen",
+  "sex": "F",
+  "born": "1835-09-22",
+  "bplace_text": "Fåborg",
+  "father": "a86",
+  "mother": "a87",
+  "line": "jorgensen",
+  "rel": "Karens søskende",
+  "src": [
+   "LL:12-11082211 (dåb Fåborg 1835)"
+  ]
+ },
+ {
+  "_for": "a44",
+  "id": "as_a44_0",
+  "name": "Else",
+  "sex": "M",
+  "born": "1816-11-26",
+  "bplace_text": "Hoven",
+  "father": "a88",
+  "mother": "a89",
+  "line": "jorgensen",
+  "rel": "Christens søskende",
+  "src": [
+   "LL:12-8850945 (dåb Hoven 1816)",
+   "LL:11-4486322 (begravet 1821)"
+  ],
+  "died": "1821",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "a44",
+  "id": "as_a44_1",
+  "name": "Johanne Kirstine",
+  "sex": "F",
+  "born": "1826-05-08",
+  "bplace_text": "Hoven",
+  "father": "a88",
+  "mother": "a89",
+  "line": "jorgensen",
+  "rel": "Christens søskende",
+  "src": [
+   "LL:12-8851170 (dåb Hoven 1826)"
+  ]
+ },
+ {
+  "_for": "a45",
+  "id": "as_a45_0",
+  "name": "Jens Peder",
+  "sex": "M",
+  "born": "1816-06-08",
+  "bplace_text": "Hoven",
+  "father": "a90",
+  "mother": "a91",
+  "line": "jorgensen",
+  "rel": "Kirstens søskende",
+  "src": [
+   "LL:12-8850936 (dåb Hoven 1816)"
+  ]
+ },
+ {
+  "_for": "a45",
+  "id": "as_a45_1",
+  "name": "Jete Marie",
+  "sex": "F",
+  "born": "1823-12-24",
+  "bplace_text": "Hoven",
+  "father": "a90",
+  "mother": "a91",
+  "line": "jorgensen",
+  "rel": "Kirstens søskende",
+  "src": [
+   "LL:12-8851149 (dåb Hoven 1823)"
+  ]
+ },
+ {
+  "_for": "a45",
+  "id": "as_a45_2",
+  "name": "Learn",
+  "sex": "M",
+  "born": "1826-11-11",
+  "bplace_text": "Hoven",
+  "father": "a90",
+  "mother": "a91",
+  "line": "jorgensen",
+  "rel": "Kirstens søskende",
+  "src": [
+   "LL:12-8851032 (dåb Hoven 1826)"
+  ]
+ },
+ {
+  "_for": "a45",
+  "id": "as_a45_3",
+  "name": "Christen Christensen",
+  "sex": "M",
+  "born": "1831-02-09",
+  "bplace_text": "Hoven",
+  "father": "a90",
+  "mother": "a91",
+  "line": "jorgensen",
+  "rel": "Kirstens søskende",
+  "src": [
+   "LL:12-8843093 (dåb Hoven 1831)"
+  ]
+ },
+ {
+  "_for": "p52",
+  "reject": true,
+  "why": "to familier med samme navne i sognet",
+  "n": 9
+ },
+ {
+  "_for": "p56",
+  "id": "as_p56_0",
+  "name": "Johanne Marie Larsdatter",
+  "sex": "F",
+  "born": "1825-03-09",
+  "bplace_text": "Magleby",
+  "father": "p112",
+  "mother": "p113",
+  "line": "larsen",
+  "rel": "Lars' søskende",
+  "src": [
+   "LL:12-16285258 (dåb Magleby 1825)",
+   "LL:11-7726024 (begravet 1835)"
+  ],
+  "died": "1835",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p56",
+  "id": "as_p56_1",
+  "name": "Peder Christian Larsen",
+  "sex": "M",
+  "born": "1827-08-13",
+  "bplace_text": "Magleby",
+  "father": "p112",
+  "mother": "p113",
+  "line": "larsen",
+  "rel": "Lars' søskende",
+  "src": [
+   "LL:12-16284875 (dåb Magleby 1827)",
+   "LL:11-7725425 (begravet 1830)"
+  ],
+  "died": "1830",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p56",
+  "id": "as_p56_2",
+  "name": "Peder Christian Larsen",
+  "sex": "M",
+  "born": "1830-08-28",
+  "bplace_text": "Magleby",
+  "father": "p112",
+  "mother": "p113",
+  "line": "larsen",
+  "rel": "Lars' søskende",
+  "src": [
+   "LL:12-16285591 (dåb Magleby 1830)",
+   "LL:11-7725422 (begravet 1830)"
+  ],
+  "died": "1830",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p56",
+  "id": "as_p56_3",
+  "name": "Anders Larsen",
+  "sex": "M",
+  "born": "1832-08-30",
+  "bplace_text": "Magleby",
+  "father": "p112",
+  "mother": "p113",
+  "line": "larsen",
+  "rel": "Lars' søskende",
+  "src": [
+   "LL:12-16285747 (dåb Magleby 1832)",
+   "LL:11-7725501 (begravet 1832)"
+  ],
+  "died": "1832",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p57",
+  "id": "as_p57_0",
+  "name": "Mads Grogersen Christiansen",
+  "sex": "M",
+  "born": "1832-01-23",
+  "bplace_text": "Magleby",
+  "father": "p114",
+  "mother": "p115",
+  "line": "larsen",
+  "rel": "Marens søskende",
+  "src": [
+   "LL:12-16285708 (dåb Magleby 1832)"
+  ]
+ },
+ {
+  "_for": "p57",
+  "id": "as_p57_1",
+  "name": "Christen Christiansen",
+  "sex": "M",
+  "born": "1835-04-21",
+  "bplace_text": "Magleby",
+  "father": "p114",
+  "mother": "p115",
+  "line": "larsen",
+  "rel": "Marens søskende",
+  "src": [
+   "LL:12-16285990 (dåb Magleby 1835)"
+  ]
+ },
+ {
+  "_for": "p57",
+  "id": "as_p57_2",
+  "name": "Christian Christiansen",
+  "sex": "M",
+  "born": "1839-09-09",
+  "bplace_text": "Magleby",
+  "father": "p114",
+  "mother": "p115",
+  "line": "larsen",
+  "rel": "Marens søskende",
+  "src": [
+   "LL:12-16294510 (dåb Magleby 1839)"
+  ]
+ },
+ {
+  "_for": "p57",
+  "id": "as_p57_3",
+  "name": "Niels Christiansen",
+  "sex": "M",
+  "born": "1841-12-21",
+  "bplace_text": "Magleby",
+  "father": "p114",
+  "mother": "p115",
+  "line": "larsen",
+  "rel": "Marens søskende",
+  "src": [
+   "LL:12-16294687 (dåb Magleby 1841)",
+   "LL:11-7726372 (begravet 1847)"
+  ],
+  "died": "1847",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p57",
+  "id": "as_p57_4",
+  "name": "Jørgen Christiansen",
+  "sex": "M",
+  "born": "1844-03-08",
+  "bplace_text": "Magleby",
+  "father": "p114",
+  "mother": "p115",
+  "line": "larsen",
+  "rel": "Marens søskende",
+  "src": [
+   "LL:12-16294903 (dåb Magleby 1844)",
+   "LL:11-7726464 (begravet 1849)"
+  ],
+  "died": "1849",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p57",
+  "id": "as_p57_5",
+  "name": "Niels Christiansen",
+  "sex": "M",
+  "born": "1848-03-14",
+  "bplace_text": "Magleby",
+  "father": "p114",
+  "mother": "p115",
+  "line": "larsen",
+  "rel": "Marens søskende",
+  "src": [
+   "LL:12-16295241 (dåb Magleby 1848)",
+   "LL:11-8310030 (begravet 1855)"
+  ],
+  "died": "1855",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p57",
+  "id": "as_p57_6",
+  "name": "Inger Margrethe Christiansen",
+  "sex": "F",
+  "born": "1855-04-18",
+  "bplace_text": "Magleby",
+  "father": "p114",
+  "mother": "p115",
+  "line": "larsen",
+  "rel": "Marens søskende",
+  "src": [
+   "LL:12-16299162 (dåb Magleby 1855)"
+  ]
+ },
+ {
+  "_for": "p57",
+  "id": "as_p57_7",
+  "name": "Hans Jørgen Christiansen",
+  "sex": "M",
+  "born": "1857-05-17",
+  "bplace_text": "Magleby",
+  "father": "p114",
+  "mother": "p115",
+  "line": "larsen",
+  "rel": "Marens søskende",
+  "src": [
+   "LL:12-16296093 (dåb Magleby 1857)",
+   "LL:11-7726831 (begravet 1860)"
+  ],
+  "died": "1860",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p58",
+  "reject": true,
+  "why": "to familier med samme navne i sognet",
+  "n": 4
+ },
+ {
+  "_for": "a47",
+  "id": "as_a47_0",
+  "name": "Jens Frederiksen",
+  "sex": "M",
+  "born": "1823-11-22",
+  "bplace_text": "Sønder Felding",
+  "father": "a94",
+  "mother": "a95",
+  "line": "jorgensen",
+  "rel": "Kjerstens søskende",
+  "src": [
+   "LL:12-8979997 (dåb Sønder Felding 1823)"
+  ]
+ },
+ {
+  "_for": "a47",
+  "id": "as_a47_1",
+  "name": "Thomas Frederiksen",
+  "sex": "M",
+  "born": "1826-02-26",
+  "bplace_text": "Sønder Felding",
+  "father": "a94",
+  "mother": "a95",
+  "line": "jorgensen",
+  "rel": "Kjerstens søskende",
+  "src": [
+   "LL:12-8979617 (dåb Sønder Felding 1826)"
+  ]
+ },
+ {
+  "_for": "a47",
+  "id": "as_a47_2",
+  "name": "Anders Frederiksen",
+  "sex": "M",
+  "born": "1835-02-16",
+  "bplace_text": "Sønder Felding",
+  "father": "a94",
+  "mother": "a95",
+  "line": "jorgensen",
+  "rel": "Kjerstens søskende",
+  "src": [
+   "LL:12-8979754 (dåb Sønder Felding 1835)"
+  ]
+ },
+ {
+  "_for": "a47",
+  "id": "as_a47_3",
+  "name": "Ane Johanne Frederichsen",
+  "sex": "F",
+  "born": "1836-05-30",
+  "bplace_text": "Sønder Felding",
+  "father": "a94",
+  "mother": "a95",
+  "line": "jorgensen",
+  "rel": "Kjerstens søskende",
+  "src": [
+   "LL:12-8979257 (dåb Sønder Felding 1836)",
+   "LL:11-4530793 (begravet 1839)"
+  ],
+  "died": "1839",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "a47",
+  "id": "as_a47_4",
+  "name": "Jens Christian Frederigsen",
+  "sex": "M",
+  "born": "1837-08-20",
+  "bplace_text": "Sønder Felding",
+  "father": "a94",
+  "mother": "a95",
+  "line": "jorgensen",
+  "rel": "Kjerstens søskende",
+  "src": [
+   "LL:12-8979697 (dåb Sønder Felding 1837)"
+  ]
+ },
+ {
+  "_for": "a47",
+  "id": "as_a47_5",
+  "name": "Ane Kirstine Frederiksen",
+  "sex": "F",
+  "born": "1839-05-07",
+  "bplace_text": "Sønder Felding",
+  "father": "a94",
+  "mother": "a95",
+  "line": "jorgensen",
+  "rel": "Kjerstens søskende",
+  "src": [
+   "LL:12-8979299 (dåb Sønder Felding 1839)",
+   "LL:11-4530810 (begravet 1840)"
+  ],
+  "died": "1840",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p59",
+  "id": "as_p59_0",
+  "name": "Mette Kirstine",
+  "sex": "F",
+  "born": "1818-08-14",
+  "bplace_text": "Tranekær",
+  "father": "a118",
+  "mother": "a119",
+  "line": "larsen",
+  "rel": "Marthes søskende",
+  "src": [
+   "LL:12-16331253 (dåb Tranekær 1818)"
+  ]
+ },
+ {
+  "_for": "p59",
+  "id": "as_p59_2",
+  "name": "Anne Marie",
+  "sex": "F",
+  "born": "1825-12-10",
+  "bplace_text": "Tranekær",
+  "father": "a118",
+  "mother": "a119",
+  "line": "larsen",
+  "rel": "Marthes søskende",
+  "src": [
+   "LL:12-16332169 (dåb Tranekær 1825)",
+   "LL:11-7739051 (begravet 1835)"
+  ],
+  "died": "1835",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p60",
+  "id": "as_p60_0",
+  "name": "Niels Christen Holgersen",
+  "sex": "M",
+  "born": "1841-09-23",
+  "bplace_text": "Tved",
+  "father": "p120",
+  "mother": "p121",
+  "line": "larsen",
+  "rel": "Peders søskende",
+  "src": [
+   "LL:12-15688057 (dåb Tved 1841)",
+   "LL:11-7493069 (begravet 1846)"
+  ],
+  "died": "1846",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p60",
+  "id": "as_p60_1",
+  "name": "Hans Peder Holgersen",
+  "sex": "M",
+  "born": "1845-05-09",
+  "bplace_text": "Tved",
+  "father": "p120",
+  "mother": "p121",
+  "line": "larsen",
+  "rel": "Peders søskende",
+  "src": [
+   "LL:12-15688207 (dåb Tved 1845)"
+  ]
+ },
+ {
+  "_for": "p62",
+  "id": "as_p62_0",
+  "name": "Rasmus Andersen Christensen",
+  "sex": "M",
+  "born": "1855-04-30",
+  "bplace_text": "Rudkøbing",
+  "father": "p124",
+  "mother": "p125",
+  "line": "larsen",
+  "rel": "Marius' søskende",
+  "src": [
+   "LL:12-15570328 (dåb Rudkøbing 1855)",
+   "LL:11-7448486 (begravet 1864)"
+  ],
+  "died": "1864",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p63",
+  "id": "as_p63_0",
+  "name": "Peder Madsen Clausen Jørgensen",
+  "sex": "M",
+  "born": "1850-02-06",
+  "bplace_text": "Skrøbelev",
+  "father": "p126",
+  "mother": "p127",
+  "line": "larsen",
+  "rel": "Anes søskende",
+  "src": [
+   "LL:12-15555842 (dåb Skrøbelev 1850)"
+  ]
+ },
+ {
+  "_for": "p63",
+  "id": "as_p63_1",
+  "name": "Mads Andersen Jørgensen",
+  "sex": "M",
+  "born": "1852-09-17",
+  "bplace_text": "Skrøbelev",
+  "father": "p126",
+  "mother": "p127",
+  "line": "larsen",
+  "rel": "Anes søskende",
+  "src": [
+   "LL:12-15555956 (dåb Skrøbelev 1852)"
+  ]
+ },
+ {
+  "_for": "p63",
+  "id": "as_p63_2",
+  "name": "Claus Jørgensen",
+  "sex": "M",
+  "born": "1857-03-19",
+  "bplace_text": "Skrøbelev",
+  "father": "p126",
+  "mother": "p127",
+  "line": "larsen",
+  "rel": "Anes søskende",
+  "src": [
+   "LL:12-15556146 (dåb Skrøbelev 1857)"
+  ]
+ },
+ {
+  "_for": "p63",
+  "id": "as_p63_3",
+  "name": "Marius Christian Jørgensen",
+  "sex": "M",
+  "born": "1862-09-01",
+  "bplace_text": "Skrøbelev",
+  "father": "p126",
+  "mother": "p127",
+  "line": "larsen",
+  "rel": "Anes søskende",
+  "src": [
+   "LL:12-15556364 (dåb Skrøbelev 1862)"
+  ]
+ },
+ {
+  "_for": "p63",
+  "id": "as_p63_4",
+  "name": "Hans Jørgensen",
+  "sex": "M",
+  "born": "1870-05-09",
+  "bplace_text": "Skrøbelev",
+  "father": "p126",
+  "mother": "p127",
+  "line": "larsen",
+  "rel": "Anes søskende",
+  "src": [
+   "LL:12-15557487 (dåb Skrøbelev 1870)"
+  ]
+ },
+ {
+  "_for": "p63",
+  "id": "as_p63_5",
+  "name": "Niels Rasmussen Jørgensen",
+  "sex": "M",
+  "born": "1872-12-05",
+  "bplace_text": "Skrøbelev",
+  "father": "p126",
+  "mother": "p127",
+  "line": "larsen",
+  "rel": "Anes søskende",
+  "src": [
+   "LL:12-15557632 (dåb Skrøbelev 1872)",
+   "LL:11-7443684 (begravet 1873)"
+  ],
+  "died": "1873",
+  "note": "Død som barn."
+ },
+ {
+  "_for": "p63",
+  "id": "as_p63_6",
+  "name": "Jørgine Margrete Andersine Jørgensen",
+  "sex": "F",
+  "born": "1875-07-30",
+  "bplace_text": "Skrøbelev",
+  "father": "p126",
+  "mother": "p127",
+  "line": "larsen",
+  "rel": "Anes søskende",
+  "src": [
+   "LL:12-15558734 (dåb Skrøbelev 1875)"
+  ]
+ }
+]

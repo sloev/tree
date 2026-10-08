@@ -4,7 +4,12 @@ def search(index,query,size=200,sort=None):
     body={"size":size,"query":query}
     if sort: body["sort"]=sort
     req=urllib.request.Request(f"{ES}/{index}/_search",data=json.dumps(body).encode(),headers={"Content-Type":"application/json"})
-    return json.load(urllib.request.urlopen(req,timeout=120))
+    import time
+    for k in range(8):  # Link Lives svarer 503 under belastning: vent og prøv igen
+        try: return json.load(urllib.request.urlopen(req,timeout=120))
+        except Exception as e:
+            if k==7: raise
+            time.sleep(min(60, 3*2**k))
 def fmt(s):
     st=s.get("standard") or {}
     return f'{s.get("key"):>12} {s.get("event_type_display") or "":11} {(s.get("standard") or {}).get("event_date") or s.get("event_year_display") or "":10} | {s.get("name_display")} b.{(s.get("standard") or {}).get("birth_date") or s.get("birthyear_display")} age:{(s.get("standard") or {}).get("age","")} {s.get("birthplace_display") or ""} | {s.get("sourceplace_display")} | occ:{s.get("occupation_searchable") or ""} | role:{st.get("household_position") or s.get("role_display") or ""} hh:{st.get("household_id","")} ms:{st.get("marital_status","")}'

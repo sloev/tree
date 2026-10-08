@@ -30,7 +30,7 @@ def birth_group_from_src(p):
         m = re.match(r"LL:(12-\d+)", s)
         if not m: continue
         g = record(m.group(1)); c = role(g, "Barn")
-        if c and first(c.get("name_display")) == first(p["name"]) and ov(c.get("name_display"), p["name"]) >= min(2, len(toks(p["name"]))) and role(g, "Far"): return g
+        if c and first(c.get("name_display")) == first(p["name"]) and ov(c.get("name_display"), p["name"]) >= min(2, len(toks(p["name"])), len(toks(c.get("name_display")))) and role(g, "Far"): return g
     return None
 
 def first(n):
@@ -53,6 +53,13 @@ def main(rounds=3):
         mo = known[n + 1]; child = known.get(n // 2)
         if not child or mo.get("born"): continue
         g = birth_group_from_src(child)
+        if not g and yr(child.get("born")):
+            cb = str(child.get("born")); cb = cb if re.match(r"\d{4}", cb) else str(yr(cb))
+            for pl in parish_tokens(child.get("bplace"), child.get("bplace_text"), child.get("_parish")):
+                try: g = find_birth(re.sub(r"\(.*?\)", "", child["name"]).strip(), cb, pl)
+                except Exception: g = None
+                if g and role(g, "Far") and ov(role(g, "Far").get("name_display"), p["name"]) >= min(2, len(toks(p["name"]))): break
+                g = None
         if not g: continue
         F, M = role(g, "Far"), role(g, "Mor")
         if not (F and M): continue

@@ -37,7 +37,7 @@ def find_birth(name, bd, place=''):
     if place: tries.append({'bool': {'must': must, 'should': [{'match': {'name_searchable_fz': name}}]}})
     for qq in tries:
         for h in q(qq, 20):
-            if h.get('role_display') == 'Barn' and ov(h.get('name_display'), name) >= min(2, len(toks(name))):
+            if h.get('role_display') == 'Barn' and ov(h.get('name_display'), name) >= min(2, len(toks(name)), len(toks(h.get('name_display')))):
                 hb = str(bdate(h) or '')
                 if re.match(r'\d{4}-\d\d-\d\d', bd) and re.match(r'\d{4}-\d\d-\d\d', hb):
                     from datetime import date

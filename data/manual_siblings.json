@@ -1,0 +1,131 @@
+[
+ {
+  "_for": "a44",
+  "id": "ms_a44_0",
+  "name": "Jens Andersen",
+  "sex": "M",
+  "born": "ca. 1809",
+  "father": "a88",
+  "mother": "a89",
+  "rel": "Christen Andersens søskende",
+  "line": "jorgensen",
+  "src": [
+   "LL:2-658252 (FT 1834 Hoven)"
+  ]
+ },
+ {
+  "_for": "a44",
+  "id": "ms_a44_1",
+  "name": "Eske Andersen",
+  "sex": "M",
+  "born": "ca. 1816",
+  "father": "a88",
+  "mother": "a89",
+  "rel": "Christen Andersens søskende",
+  "line": "jorgensen",
+  "src": [
+   "LL:2-658252 (FT 1834 Hoven)"
+  ]
+ },
+ {
+  "_for": "a44",
+  "id": "ms_a44_2",
+  "name": "Knud Andersen",
+  "sex": "M",
+  "born": "ca. 1821",
+  "father": "a88",
+  "mother": "a89",
+  "rel": "Christen Andersens søskende",
+  "line": "jorgensen",
+  "src": [
+   "LL:2-658252 (FT 1834 Hoven)"
+  ]
+ },
+ {
+  "_for": "a44",
+  "id": "ms_a44_3",
+  "name": "Hanne Andersdatter",
+  "sex": "F",
+  "born": "ca. 1826",
+  "father": "a88",
+  "mother": "a89",
+  "rel": "Christen Andersens søskende",
+  "line": "jorgensen",
+  "src": [
+   "LL:2-658252 (FT 1834 Hoven)"
+  ]
+ },
+ {
+  "_for": "a45",
+  "id": "ms_a45_0",
+  "name": "Mads Christensen",
+  "sex": "M",
+  "born": "ca. 1813",
+  "father": "a90",
+  "mother": "a91",
+  "rel": "Kirsten Christensdatters søskende",
+  "line": "jorgensen",
+  "src": [
+   "LL:2-658290 (FT 1834 Hoven)"
+  ]
+ },
+ {
+  "_for": "a45",
+  "id": "ms_a45_1",
+  "name": "Mads Christian Christensen",
+  "sex": "M",
+  "born": "ca. 1827",
+  "father": "a90",
+  "mother": "a91",
+  "rel": "Kirsten Christensdatters søskende",
+  "line": "jorgensen",
+  "src": [
+   "LL:2-658290 (FT 1834 Hoven)"
+  ],
+  "occ": [
+   "Soldat (1850)"
+  ]
+ },
+ {
+  "_for": "a45",
+  "id": "ms_a45_2",
+  "name": "Christen Christensen",
+  "sex": "M",
+  "born": "ca. 1830",
+  "father": "a90",
+  "mother": "a91",
+  "rel": "Kirsten Christensdatters søskende",
+  "line": "jorgensen",
+  "src": [
+   "LL:2-658290 (FT 1834 Hoven)"
+  ]
+ },
+ {
+  "_for": "p37",
+  "id": "ms_p37_0",
+  "name": "Christen Jensen",
+  "sex": "M",
+  "born": "1818-05-25",
+  "father": "a74",
+  "mother": "a75",
+  "rel": "Ane Sophies søskende",
+  "line": "gaardsted",
+  "src": [
+   "LL:12-3672434 (dåb Rosmus 1818)"
+  ]
+ },
+ {
+  "_for": "p37",
+  "id": "ms_p37_1",
+  "name": "Mette Jensdatter",
+  "sex": "F",
+  "born": "1820-12-14",
+  "father": "a74",
+  "mother": "a75",
+  "rel": "Ane Sophies søskende",
+  "line": "gaardsted",
+  "src": [
+   "LL:12-3673083 (dåb Rosmus 1820)"
+  ]
+ }
+]
