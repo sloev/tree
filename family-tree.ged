@@ -76,6 +76,7 @@
 1 SEX F
 1 BIRT
 2 DATE 18 APR 1931
+2 PLAC Silkeborg, Danmark
 1 DEAT
 2 DATE 2002
 1 OCCU Kordegn, uddannet i Hune
@@ -86,7 +87,9 @@
 1 RESI
 2 DATE 1981
 2 PLAC Hune
-1 NOTE Gift med Evald 1953, 22 år gammel; tre sønner. Et af syv søskende. Fødselsdatoen stammer fra Evalds personarkiv (Hadsten Lokalarkiv). Hendes forældre er sandsynligvis Jens Nielsen Pedersen og Hulda f. Christensen i Silkeborg; deres døtre Karen Margrethe (f. 1917) og Anna Elvira (f. 1918) har samme navne som Liss' søstre.
+1 NOTE Gift med Evald 1953, 22 år gammel; tre sønner. Et af syv søskende. Fødselsdatoen stammer fra Evalds personarkiv (Hadsten Lokalarkiv). Født 18. april 1931 på Drewsensvej 14 i Silkeborg og døbt 24. maj 1931 i Silkeborg Kirke (skrevet 'Lis'). Forældre: maskinarbejder Jens Nielsen Pedersen og Hulda Kristensen. Gudfar bl.a. hendes farfar, gårdejer Niels Pedersen.
+1 SOUR
+2 PAGE AO:Silkeborg kirkebog 1930–33, fødte piger 1931 nr. 25 (billede 28329752)
 1 SOUR
 2 PAGE ARK:2162357
 1 SOUR
@@ -577,8 +580,9 @@
 1 RESI
 2 DATE 1925
 2 PLAC Silkeborg
-1 NOTE Gift 11. juni 1916 i Ringkøbing med Hulda Christensen. I 1925 bor familien i Silkeborg med døtrene Karen Margrethe (1917), Anna Elvira (1918) og Nelly (1921). De to første har samme navne som Liss' søstre, så de er sandsynligvis Liss' forældre (Liss er født 1931).
-1 NOTE Sikkerhed: sandsynlig
+1 NOTE Gift 11. juni 1916 i Ringkøbing med Hulda Christensen. I 1925 bor familien i Silkeborg med døtrene Karen Margrethe (1917), Anna Elvira (1918) og Nelly (1921). Maskinarbejder i Silkeborg ved Liss' fødsel i 1931.
+1 SOUR
+2 PAGE AO:Silkeborg kirkebog 1931 nr. 25
 1 SOUR
 2 PAGE LL:12-9781230
 1 SOUR
@@ -602,7 +606,6 @@
 1 RESI
 2 DATE 1925
 2 PLAC Silkeborg
-1 NOTE Sikkerhed: sandsynlig
 1 SOUR
 2 PAGE LL:12-5952889
 1 SOUR
@@ -619,7 +622,6 @@
 1 BIRT
 2 DATE 25 OCT 1861
 1 NOTE Gift 29. nov. 1889 i Vester Starup med Ane Else Pedersen.
-1 NOTE Sikkerhed: sandsynlig
 1 SOUR
 2 PAGE LL:13-3654108
 1 SOUR
@@ -630,7 +632,6 @@
 1 SEX F
 1 BIRT
 2 DATE 14 APR 1859
-1 NOTE Sikkerhed: sandsynlig
 1 SOUR
 2 PAGE LL:13-3654109
 1 SOUR
@@ -639,7 +640,6 @@
 0 @p22@ INDI
 1 NAME Mads /Christensen/
 1 SEX M
-1 NOTE Sikkerhed: sandsynlig
 1 SOUR
 2 PAGE LL:13-2793208
 1 SOUR
@@ -648,7 +648,6 @@
 0 @p23@ INDI
 1 NAME Karen /Jensen/
 1 SEX F
-1 NOTE Sikkerhed: sandsynlig
 1 SOUR
 2 PAGE LL:13-2793209
 1 SOUR

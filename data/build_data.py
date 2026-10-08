@@ -105,9 +105,9 @@ person("p4", "Evald Johannes Gaardsted-Jørgensen", "M", ahnen=4, line="jorgense
 person("p5", "Liss Gaardsted-Jørgensen (f. Pedersen)", "F", ahnen=5, line="jorgensen",
        born="1931-04-18", died="2002", occ=["Kordegn, uddannet i Hune"], spouse="p4", father="p10", mother="p11",
        note="Gift med Evald 1953, 22 år gammel; tre sønner. Et af syv søskende. Fødselsdatoen stammer fra Evalds personarkiv "
-            "(Hadsten Lokalarkiv). Hendes forældre er sandsynligvis Jens Nielsen Pedersen og Hulda f. Christensen i Silkeborg; "
-            "deres døtre Karen Margrethe (f. 1917) og Anna Elvira (f. 1918) har samme navne som Liss' søstre.",
-       src=["ARK:2162357", "litteraturpriser.dk", "FamilySearch Family Tree: Liss Jørgensen (født Pedersen) 1931–2002"],
+            "(Hadsten Lokalarkiv). Født 18. april 1931 på Drewsensvej 14 i Silkeborg og døbt 24. maj 1931 i Silkeborg Kirke (skrevet 'Lis'). "
+            "Forældre: maskinarbejder Jens Nielsen Pedersen og Hulda Kristensen. Gudfar bl.a. hendes farfar, gårdejer Niels Pedersen.",
+       src=["AO:Silkeborg kirkebog 1930–33, fødte piger 1931 nr. 25 (billede 28329752)", "ARK:2162357", "litteraturpriser.dk", "FamilySearch Family Tree: Liss Jørgensen (født Pedersen) 1931–2002"], bplace="Silkeborg",
        res=[(1953, "Ollerup", "gift"), (1981, "Hune", "")])
 person("p6", "Lorenz Heinrich Frederiksen", "M", ahnen=6, line="maternal", conf="record",
        born="1932-01-12", bplace="Egernsund", died="2009-05-06", dplace="Svendborg", father="sofus", mother="p13",
@@ -204,19 +204,19 @@ person("p127", "Bodil Margrethe Clausen", "F", ahnen=127, line="larsen", spouse=
 person("p124", "Christen Michelsen", "M", ahnen=124, line="larsen", spouse="p125", src=["LL:12-15570703"])
 person("p125", "Rasmine Hansen", "F", ahnen=125, line="larsen", spouse="p124", src=["LL:12-15570704"])
 
-person("p10", "Jens Nielsen Pedersen", "M", ahnen=10, line="jorgensen", conf="probable", born="1891-04-14", bplace="Vester Starup",
+person("p10", "Jens Nielsen Pedersen", "M", ahnen=10, line="jorgensen", born="1891-04-14", bplace="Vester Starup",
        father="p20", mother="p21", spouse="p11", res=[(1891, "Vester Starup", "født"), (1916, "Ringkøbing", "gift"), (1921, "Vester Starup", ""), (1925, "Silkeborg", "")],
        note="Gift 11. juni 1916 i Ringkøbing med Hulda Christensen. I 1925 bor familien i Silkeborg med døtrene Karen Margrethe (1917), Anna Elvira (1918) "
-            "og Nelly (1921). De to første har samme navne som Liss' søstre, så de er sandsynligvis Liss' forældre (Liss er født 1931).",
-       src=["LL:12-9781230", "LL:13-2793204", "LL:25-2149351", "DFS:21838177 (folketælling 1925, Silkeborg)"])
-person("p11", "Hulda Christensen", "F", ahnen=11, line="jorgensen", conf="probable", born="1895-09-25", bplace="Sønder Felding",
+            "og Nelly (1921). Maskinarbejder i Silkeborg ved Liss' fødsel i 1931.",
+       src=["AO:Silkeborg kirkebog 1931 nr. 25", "LL:12-9781230", "LL:13-2793204", "LL:25-2149351", "DFS:21838177 (folketælling 1925, Silkeborg)"])
+person("p11", "Hulda Christensen", "F", ahnen=11, line="jorgensen", born="1895-09-25", bplace="Sønder Felding",
        father="p22", mother="p23", spouse="p10", res=[(1895, "Sønder Felding", "født i Ilderhede"), (1925, "Silkeborg", "")],
        src=["LL:12-5952889", "LL:13-2793207", "LL:25-2149352", "DFS:21838178"])
-person("p20", "Niels Pedersen", "M", ahnen=20, line="jorgensen", conf="probable", born="1861-10-25", spouse="p21",
+person("p20", "Niels Pedersen", "M", ahnen=20, line="jorgensen", born="1861-10-25", spouse="p21",
        note="Gift 29. nov. 1889 i Vester Starup med Ane Else Pedersen.", src=["LL:13-3654108", "LL:12-9781231"])
-person("p21", "Ane Else Pedersen", "F", ahnen=21, line="jorgensen", conf="probable", born="1859-04-14", spouse="p20", src=["LL:13-3654109", "LL:12-9781232"])
-person("p22", "Mads Christensen", "M", ahnen=22, line="jorgensen", conf="probable", spouse="p23", src=["LL:13-2793208", "LL:12-5952890"])
-person("p23", "Karen Jensen", "F", ahnen=23, line="jorgensen", conf="probable", spouse="p22", src=["LL:13-2793209", "LL:12-5952891"])
+person("p21", "Ane Else Pedersen", "F", ahnen=21, line="jorgensen", born="1859-04-14", spouse="p20", src=["LL:13-3654109", "LL:12-9781232"])
+person("p22", "Mads Christensen", "M", ahnen=22, line="jorgensen", spouse="p23", src=["LL:13-2793208", "LL:12-5952890"])
+person("p23", "Karen Jensen", "F", ahnen=23, line="jorgensen", spouse="p22", src=["LL:13-2793209", "LL:12-5952891"])
 
 # ================= Oldeforældre =================
 person("p8", "Aage Evald Oskar Jørgensen", "M", ahnen=8, line="jorgensen", born="1890-10-17", bplace="Slagelse",
@@ -712,6 +712,9 @@ CATS = [("Kirke og præstegerning", ["præst", "kordegn"]), ("Undervisning og fo
         ("Handel og vognmand", ["høker", "købmand", "vognmand"]), ("Fattigvæsen", ["fattiggård"])]
 
 PHOTOS = [
+    dict(file="images/liss-daab-silkeborg-1931.jpg", title="Farmor Liss' fødsel, Silkeborg 1931",
+         caption="Silkeborg kirkebog, fødte piger 1931 nr. 25: 'Lis Pedersen', født 18. april på Drewsensvej 14. Forældre: maskinarbejder Jens Nielsen Pedersen og Hulda Kristensen.",
+         credit="Rigsarkivet, Arkivalieronline", link="https://api.rigsarkivet.dk/ao/v1/images/28329752"),
     dict(file="images/langoe-erindringer.jpg", title="En Langø-piges erindringer",
          caption="Lisbeth Skov, født Christensen, barnebarn af Marius og Ane Marie: 'Min farfar og farmor, Marius og Ane Marie Christensen købte Langø i 1894.' Med luftfoto af dæmningen og stuehuset på Langø.",
          credit="Familiens eksemplar", link="https://da.wikipedia.org/wiki/Lindelse_Nor"),

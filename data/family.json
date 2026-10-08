@@ -91,15 +91,16 @@
    "line": "jorgensen",
    "rel": null,
    "born": "1931-04-18",
-   "bplace": null,
+   "bplace": "Silkeborg",
    "died": "2002",
    "dplace": null,
    "occ": [
     "Kordegn, uddannet i Hune"
    ],
    "conf": "record",
-   "note": "Gift med Evald 1953, 22 år gammel; tre sønner. Et af syv søskende. Fødselsdatoen stammer fra Evalds personarkiv (Hadsten Lokalarkiv). Hendes forældre er sandsynligvis Jens Nielsen Pedersen og Hulda f. Christensen i Silkeborg; deres døtre Karen Margrethe (f. 1917) og Anna Elvira (f. 1918) har samme navne som Liss' søstre.",
+   "note": "Gift med Evald 1953, 22 år gammel; tre sønner. Et af syv søskende. Fødselsdatoen stammer fra Evalds personarkiv (Hadsten Lokalarkiv). Født 18. april 1931 på Drewsensvej 14 i Silkeborg og døbt 24. maj 1931 i Silkeborg Kirke (skrevet 'Lis'). Forældre: maskinarbejder Jens Nielsen Pedersen og Hulda Kristensen. Gudfar bl.a. hendes farfar, gårdejer Niels Pedersen.",
    "src": [
+    "AO:Silkeborg kirkebog 1930–33, fødte piger 1931 nr. 25 (billede 28329752)",
     "ARK:2162357",
     "litteraturpriser.dk",
     "FamilySearch Family Tree: Liss Jørgensen (født Pedersen) 1931–2002"
@@ -1031,9 +1032,10 @@
    "died": null,
    "dplace": null,
    "occ": [],
-   "conf": "probable",
-   "note": "Gift 11. juni 1916 i Ringkøbing med Hulda Christensen. I 1925 bor familien i Silkeborg med døtrene Karen Margrethe (1917), Anna Elvira (1918) og Nelly (1921). De to første har samme navne som Liss' søstre, så de er sandsynligvis Liss' forældre (Liss er født 1931).",
+   "conf": "record",
+   "note": "Gift 11. juni 1916 i Ringkøbing med Hulda Christensen. I 1925 bor familien i Silkeborg med døtrene Karen Margrethe (1917), Anna Elvira (1918) og Nelly (1921). Maskinarbejder i Silkeborg ved Liss' fødsel i 1931.",
    "src": [
+    "AO:Silkeborg kirkebog 1931 nr. 25",
     "LL:12-9781230",
     "LL:13-2793204",
     "LL:25-2149351",
@@ -1080,7 +1082,7 @@
    "died": null,
    "dplace": null,
    "occ": [],
-   "conf": "probable",
+   "conf": "record",
    "note": null,
    "src": [
     "LL:12-5952889",
@@ -1119,7 +1121,7 @@
    "died": null,
    "dplace": null,
    "occ": [],
-   "conf": "probable",
+   "conf": "record",
    "note": "Gift 29. nov. 1889 i Vester Starup med Ane Else Pedersen.",
    "src": [
     "LL:13-3654108",
@@ -1145,7 +1147,7 @@
    "died": null,
    "dplace": null,
    "occ": [],
-   "conf": "probable",
+   "conf": "record",
    "note": null,
    "src": [
     "LL:13-3654109",
@@ -1171,7 +1173,7 @@
    "died": null,
    "dplace": null,
    "occ": [],
-   "conf": "probable",
+   "conf": "record",
    "note": null,
    "src": [
     "LL:13-2793208",
@@ -1197,7 +1199,7 @@
    "died": null,
    "dplace": null,
    "occ": [],
-   "conf": "probable",
+   "conf": "record",
    "note": null,
    "src": [
     "LL:13-2793209",
@@ -6845,6 +6847,13 @@
   ]
  ],
  "photos": [
+  {
+   "file": "images/liss-daab-silkeborg-1931.jpg",
+   "title": "Farmor Liss' fødsel, Silkeborg 1931",
+   "caption": "Silkeborg kirkebog, fødte piger 1931 nr. 25: 'Lis Pedersen', født 18. april på Drewsensvej 14. Forældre: maskinarbejder Jens Nielsen Pedersen og Hulda Kristensen.",
+   "credit": "Rigsarkivet, Arkivalieronline",
+   "link": "https://api.rigsarkivet.dk/ao/v1/images/28329752"
+  },
   {
    "file": "images/langoe-erindringer.jpg",
    "title": "En Langø-piges erindringer",
