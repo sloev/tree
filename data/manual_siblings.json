@@ -127,5 +127,84 @@
   "src": [
    "LL:12-3673083 (dåb Rosmus 1820)"
   ]
+ },
+ {
+  "_for": "p56",
+  "id": "ms_p56_0",
+  "name": "Thomas Larsen",
+  "sex": "M",
+  "born": "ca. 1817",
+  "father": "p112",
+  "mother": "p113",
+  "rel": "Lars Larsens søskende",
+  "line": "larsen",
+  "src": [
+   "LL:2-864880 (FT 1834 Magleby)",
+   "LL:3-988512 (FT 1840)",
+   "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026)"
+  ]
+ },
+ {
+  "_for": "p56",
+  "id": "ms_p56_1",
+  "name": "Karen Larsdatter",
+  "sex": "F",
+  "born": "1818",
+  "father": "p112",
+  "mother": "p113",
+  "rel": "Lars Larsens søskende",
+  "line": "larsen",
+  "src": [
+   "LL:2-864880 (FT 1834 Magleby)",
+   "LL:3-988512 (FT 1840)",
+   "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026)"
+  ]
+ },
+ {
+  "_for": "p56",
+  "id": "ms_p56_2",
+  "name": "Jens Larsen",
+  "sex": "M",
+  "born": "ca. 1820",
+  "father": "p112",
+  "mother": "p113",
+  "rel": "Lars Larsens søskende",
+  "line": "larsen",
+  "src": [
+   "LL:2-864880 (FT 1834 Magleby)",
+   "LL:3-988512 (FT 1840)",
+   "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026)"
+  ]
+ },
+ {
+  "_for": "p56",
+  "id": "ms_p56_3",
+  "name": "Laurine Larsdatter",
+  "sex": "F",
+  "born": "ca. 1822",
+  "father": "p112",
+  "mother": "p113",
+  "rel": "Lars Larsens søskende",
+  "line": "larsen",
+  "src": [
+   "LL:2-864880 (FT 1834 Magleby)",
+   "LL:3-988512 (FT 1840)",
+   "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026)"
+  ]
+ },
+ {
+  "_for": "p57",
+  "id": "ms_p57_0",
+  "name": "Hans Christiansen",
+  "sex": "M",
+  "born": "1829-09-17",
+  "father": "p114",
+  "mother": "p115",
+  "rel": "Marens søskende",
+  "line": "larsen",
+  "src": [
+   "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026)"
+  ],
+  "note": "Døbt 27. sept. 1829 i Magleby Kirke."
  }
 ]

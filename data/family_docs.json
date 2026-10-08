@@ -173,22 +173,18 @@
    "note": "Kom som 10-årig til Langø i 1894, da forældrene købte øen. Død 19. april 1975 i Nordenbro."
   },
   "p56": {
-   "occ": [
-    "Husfæster, Framose, Nordenbro"
-   ],
+   "died": "1904-04-24",
    "src": [
-    "Familiens håndskrevne anetavle"
+    "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ"
    ],
-   "note": "Familiens anetavle: født 30. sept. 1832 (kirkebogsindekset: 30. aug.), husfæster i Framose, Nordenbro."
+   "note": "Død 24. april 1904 i Bøsselykke, 71 år; ifølge MyHeritage-træet selvmord. Tvillingebroderen Anders blev hjemmedøbt og døde straks efter fødslen."
   },
   "p57": {
-   "occ": [
-    "Stuepige"
-   ],
+   "died": "1923-12-28",
    "src": [
-    "Familiens håndskrevne anetavle"
+    "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ"
    ],
-   "note": "Familiens anetavle: født 19. okt. 1837, døbt 20. okt., stuepige, gift 27. aug. 1859; den nævner forældrene som Jacob Christiansen og Sidsel Pedersdatter. Dåben i Magleby 1837 (LL:12-16287085) har dog Christian Hansen og Marie Madsdatter, og det har familiens MyHeritage-træ også."
+   "note": "Død 28. dec. 1923 i Bøsselykke, 86 år."
   },
   "p60": {
    "occ": [
@@ -332,6 +328,45 @@
     "Lisbeth Skov f. Christensen: 'En Langø-piges erindringer'"
    ],
    "note": "Den yngste søn. Gik i Humble Friskole og sejlede selv til Bogø. Hjalp forældrene på deres gamle dage, overtog Langø og fiskede ål, torsk og rejer i Lindelse Nor. Far til Lisbeth Skov, der har skrevet 'En Langø-piges erindringer'."
+  },
+  "p112": {
+   "src": [
+    "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ"
+   ],
+   "note": "MyHeritage-træet gør Lars Larsens far til en Lars Larsen f. 1771 i Rutsker, død 1854 i Allinge, og fører derfra slægten 8 led tilbage på Bornholm. Det er en fejlagtig automatisk kobling: folketællingerne 1834–50 viser Lars Larsen hjemme hos sin far, gårdmand Lars Thomsen i Magleby, og sønnesønnen hedder Lars Thomsen Larsen. Bornholm-grenen er derfor ikke taget med."
+  },
+  "as_p56_2": {
+   "died": null,
+   "src": [
+    "LL: folketællingerne 1834–50, Magleby"
+   ],
+   "note": "Den automatiske begravelsespost passede ikke: han er hjemme i folketællingerne 1834, 1840, 1845 og 1850."
+  },
+  "as_p57_0": {
+   "name": "Mads Gregers Christiansen",
+   "died": "1900-03-31",
+   "occ": [
+    "Husmand og træskomand"
+   ],
+   "src": [
+    "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ"
+   ],
+   "note": "Død 31. marts 1900 i Hoby, Gloslunde sogn (Lolland), begravet 6. april 1900."
+  },
+  "s_p56_1": {
+   "name": "Jensine Marentha Larsen",
+   "src": [
+    "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ"
+   ]
+  },
+  "s_p56_2": {
+   "born": "1873-07-08",
+   "died": "1953-12-17",
+   "spouse": "g_jnc",
+   "src": [
+    "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ"
+   ],
+   "note": "Født i Bøsselykke. Gift med Jørgen Nielsen Christiansen. Død 17. dec. 1953 på Nordenbro Hede, 80 år."
   }
  },
  "people": [
@@ -539,6 +574,125 @@
    "src": [
     "Familiedokument: 'Familien Gedde' med familiebilledet fra 1895"
    ]
+  },
+  {
+   "id": "g_jnc",
+   "name": "Jørgen Nielsen Christiansen",
+   "sex": "M",
+   "born": "1864-06-10",
+   "died": "1919-06-04",
+   "rel": "gift med Laurentine Sophie Larsen",
+   "line": "larsen",
+   "father": "g_nchr",
+   "mother": "g_imr",
+   "spouse": "s_p56_2",
+   "src": [
+    "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ"
+   ],
+   "note": "Født i Nordenbro, død på Nordenbro Hede."
+  },
+  {
+   "id": "g_nchr",
+   "name": "Niels Christiansen",
+   "sex": "M",
+   "born": "1829-03-24",
+   "died": "1912-04-27",
+   "rel": "Jørgen Nielsen Christiansens far",
+   "line": "larsen",
+   "spouse": "g_imr",
+   "src": [
+    "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ"
+   ],
+   "note": "Født i Magleby, død i Nordenbro."
+  },
+  {
+   "id": "g_imr",
+   "name": "Inge Marie Rasmussen",
+   "sex": "F",
+   "born": "1830-09-24",
+   "died": "1913-06-23",
+   "rel": "Jørgen Nielsen Christiansens mor",
+   "line": "larsen",
+   "spouse": "g_nchr",
+   "src": [
+    "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ"
+   ],
+   "note": "Født i Magleby, død på Nordenbro Hede."
+  },
+  {
+   "id": "g_lsc0",
+   "name": "Katrine Christiansen",
+   "sex": "F",
+   "born": "1901-10-06",
+   "died": null,
+   "rel": "Laurentine Sophies barn",
+   "line": "larsen",
+   "father": "g_jnc",
+   "mother": "s_p56_2",
+   "src": [
+    "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ"
+   ],
+   "note": "Født i Nordenbro, Magleby sogn."
+  },
+  {
+   "id": "g_lsc1",
+   "name": "Inga Marie Christiansen",
+   "sex": "F",
+   "born": "1903-01-08",
+   "died": null,
+   "rel": "Laurentine Sophies barn",
+   "line": "larsen",
+   "father": "g_jnc",
+   "mother": "s_p56_2",
+   "src": [
+    "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ"
+   ],
+   "note": "Født i Nordenbro, Magleby sogn."
+  },
+  {
+   "id": "g_lsc2",
+   "name": "Oskar Christiansen",
+   "sex": "M",
+   "born": "1904-05-23",
+   "died": "1993",
+   "rel": "Laurentine Sophies barn",
+   "line": "larsen",
+   "father": "g_jnc",
+   "mother": "s_p56_2",
+   "src": [
+    "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ"
+   ],
+   "note": null
+  },
+  {
+   "id": "g_lsc3",
+   "name": "Otto Christiansen",
+   "sex": "M",
+   "born": "1906-06-22",
+   "died": null,
+   "rel": "Laurentine Sophies barn",
+   "line": "larsen",
+   "father": "g_jnc",
+   "mother": "s_p56_2",
+   "src": [
+    "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ"
+   ],
+   "note": null
+  },
+  {
+   "id": "g_lsc4",
+   "name": "Vita Christiansen",
+   "sex": "F",
+   "born": "1908-07-15",
+   "died": null,
+   "rel": "Laurentine Sophies barn",
+   "line": "larsen",
+   "father": "g_jnc",
+   "mother": "s_p56_2",
+   "src": [
+    "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ"
+   ],
+   "note": null
   }
  ]
 }

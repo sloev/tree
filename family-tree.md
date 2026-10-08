@@ -75,6 +75,14 @@ Familien har sendt fire dokumenter: "Paula Mathilde Chrestle Gedde og Jens Jense
 - **Elses søskende og deres efterkommere** er indført: Peter, Edvard ("Bror"), Kristine, Mathilde ("Tulle") samt tvillingerne Svend og Helga. Nulevende ligger i den krypterede del.
 - **Lorenz' børn og børnebørn** står i den krypterede del.
 
+## MyHeritage-træet (GEDCOM)
+
+Familiens MyHeritage-træ er hentet som GEDCOM. Det tilføjer:
+- Lars Larsens død (Bøsselykke 1904) og Maren Christiansens død (1923).
+- Laurentine Sophie Larsens familie og Maren Christiansens bror Mads Gregers (død 1900 i Gloslunde).
+
+Træets Bornholm-gren holder ikke. Den bygger på en automatisk kobling, der gør Lars Larsens far til en Lars Larsen fra Rutsker (1771–1854). Folketællingerne 1834–50 viser, at faren er gårdmand Lars Thomsen i Magleby. Derfor er de "8 generationer" tilbage til Lars Espersen (ca. 1683) og Kirstine Hansdatter (1697) ikke vores aner.
+
 ## DNA (MyHeritage)
 
 En af Vivis døtre har taget en DNA-test hos MyHeritage. Hun har 12.093 matches; de 94 nærmeste er gennemgået.

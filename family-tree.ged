@@ -70,7 +70,7 @@
 1 SOUR
 2 PAGE litteraturpriser.dk
 1 FAMC @F1@
-1 FAMS @F89@
+1 FAMS @F91@
 0 @p5@ INDI
 1 NAME Liss /Gaardsted-Jørgensen/
 1 SEX F
@@ -97,7 +97,7 @@
 1 SOUR
 2 PAGE FamilySearch Family Tree: Liss Jørgensen (født Pedersen) 1931–2002
 1 FAMC @F2@
-1 FAMS @F89@
+1 FAMS @F91@
 0 @p6@ INDI
 1 NAME Lorenz Heinrich /Frederiksen/
 1 SEX M
@@ -130,7 +130,7 @@
 1 SOUR
 2 PAGE Familiens håndskrevne anetavle
 1 FAMC @F3@
-1 FAMS @F90@
+1 FAMS @F92@
 0 @p7@ INDI
 1 NAME Gerda /Frederiksen/
 1 SEX F
@@ -166,7 +166,7 @@
 1 SOUR
 2 PAGE MyHeritage, Gedde Web Site: Cousin Finder og DNA-matches (2026)
 1 FAMC @F4@
-1 FAMS @F90@
+1 FAMS @F92@
 0 @p14@ INDI
 1 NAME Laurits Edvard /Larsen/
 1 SEX M
@@ -358,9 +358,10 @@
 1 BIRT
 2 DATE 30 AUG 1832
 2 PLAC Magleby (Nordenbro), Langeland, Danmark
+1 DEAT
+2 DATE 24 APR 1904
 1 OCCU Daglejer ved landbruget, Magleby (1901)
-1 OCCU Husfæster, Framose, Nordenbro
-1 NOTE Gift 27. aug. 1859 i Magleby (Langeland) med Maren Christiansen. Familiens anetavle: født 30. sept. 1832 (kirkebogsindekset: 30. aug.), husfæster i Framose, Nordenbro.
+1 NOTE Gift 27. aug. 1859 i Magleby (Langeland) med Maren Christiansen. Død 24. april 1904 i Bøsselykke, 71 år; ifølge MyHeritage-træet selvmord. Tvillingebroderen Anders blev hjemmedøbt og døde straks efter fødslen.
 1 SOUR
 2 PAGE LL:12-16285744
 1 SOUR
@@ -374,7 +375,7 @@
 1 SOUR
 2 PAGE LL:9-1903457
 1 SOUR
-2 PAGE Familiens håndskrevne anetavle
+2 PAGE MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
 1 FAMS @F7@
 1 FAMC @F11@
 0 @p57@ INDI
@@ -383,8 +384,9 @@
 1 BIRT
 2 DATE 3 MAY 1837
 2 PLAC Magleby (Nordenbro), Langeland, Danmark
-1 OCCU Stuepige
-1 NOTE Familiens anetavle: født 19. okt. 1837, døbt 20. okt., stuepige, gift 27. aug. 1859; den nævner forældrene som Jacob Christiansen og Sidsel Pedersdatter. Dåben i Magleby 1837 (LL:12-16287085) har dog Christian Hansen og Marie Madsdatter, og det har familiens MyHeritage-træ også.
+1 DEAT
+2 DATE 28 DEC 1923
+1 NOTE Død 28. dec. 1923 i Bøsselykke, 86 år.
 1 SOUR
 2 PAGE LL:12-16287085
 1 SOUR
@@ -394,7 +396,7 @@
 1 SOUR
 2 PAGE LL:9-1903458
 1 SOUR
-2 PAGE Familiens håndskrevne anetavle
+2 PAGE MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
 1 FAMS @F7@
 1 FAMC @F12@
 0 @p58@ INDI
@@ -566,7 +568,7 @@
 1 SEX M
 1 BIRT
 2 DATE ABT 1784
-1 NOTE Født i Magleby. Gårdfæster i Magleby, Langeland. Gift ca. 1816 med Anne Cathrine Jensdatter fra Fangel på Fyn; børn: Thomas (1817), Karen (1818), Jens (1820), Laurine (1823), Johanne Marie (1825), Peder Christian (1830) og Lars (1832). Sandsynligvis den Lars Thomasen, der 1801 tjente i Magleby, søn af husmand Thomas Jensen (FT 1787).
+1 NOTE Født i Magleby. Gårdfæster i Magleby, Langeland. Gift ca. 1816 med Anne Cathrine Jensdatter fra Fangel på Fyn; børn: Thomas (1817), Karen (1818), Jens (1820), Laurine (1823), Johanne Marie (1825), Peder Christian (1830) og Lars (1832). Sandsynligvis den Lars Thomasen, der 1801 tjente i Magleby, søn af husmand Thomas Jensen (FT 1787). MyHeritage-træet gør Lars Larsens far til en Lars Larsen f. 1771 i Rutsker, død 1854 i Allinge, og fører derfra slægten 8 led tilbage på Bornholm. Det er en fejlagtig automatisk kobling: folketællingerne 1834–50 viser Lars Larsen hjemme hos sin far, gårdmand Lars Thomsen i Magleby, og sønnesønnen hedder Lars Thomsen Larsen. Bornholm-grenen er derfor ikke taget med.
 1 SOUR
 2 PAGE LL:2-864880 (FT 1834 Magleby)
 1 SOUR
@@ -579,6 +581,8 @@
 2 PAGE LL:1-723878 (FT 1801 Magleby, tjenestekarl)
 1 SOUR
 2 PAGE LL:12-16285745
+1 SOUR
+2 PAGE MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
 1 FAMS @F11@
 1 FAMC @F18@
 0 @p113@ INDI
@@ -1020,7 +1024,7 @@
 2 PAGE Familiens håndskrevne anetavle
 1 FAMS @F3@
 1 FAMC @F32@
-1 FAMS @F91@
+1 FAMS @F93@
 0 @sofus_w@ INDI
 1 NAME Christine /Petersen/
 1 SEX F
@@ -1033,7 +1037,7 @@
 1 NOTE Gift med Sophus i Nybøl Kirke i efteråret 1937 (kirkebogen angiver både 2. oktober og 2. november 1937). Født i Notmark; kirkebogen 1940–43 angiver fødselsåret 1908, gravstenen 1907.
 1 SOUR
 2 PAGE Gravsten på Nybøl Kirkegård (foto fra familien): 'og vor kære Moder Christine Petersen f. Jensen * 21. Feb. 1907 † 25. Juni 1985'
-1 FAMS @F91@
+1 FAMS @F93@
 0 @sofus_f@ INDI
 1 NAME Peter /Petersen/
 1 SEX M
@@ -1114,7 +1118,7 @@
 2 PAGE Familiens håndskrevne anetavle
 1 FAMS @F3@
 1 FAMC @F35@
-1 FAMS @F94@
+1 FAMS @F96@
 0 @pf12@ INDI
 1 NAME Peter /Frederiksen/
 1 SEX M
@@ -1141,7 +1145,7 @@
 1 SOUR
 2 PAGE MyHeritage, Gedde Web Site: Cousin Finder og DNA-matches (2026)
 1 FAMC @F36@
-1 FAMS @F94@
+1 FAMS @F96@
 0 @p16@ INDI
 1 NAME Jørgen Anton /Jørgensen/
 1 SEX M
@@ -2537,7 +2541,7 @@
 1 SOUR
 2 PAGE Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)
 1 FAMC @F35@
-1 FAMS @F97@
+1 FAMS @F99@
 0 @s_p26_2@ INDI
 1 NAME Edvard /Jensen/
 1 SEX M
@@ -2551,7 +2555,7 @@
 1 SOUR
 2 PAGE Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)
 1 FAMC @F35@
-1 FAMS @F100@
+1 FAMS @F102@
 0 @s_p26_3@ INDI
 1 NAME Kristine Gedde /Jensen/
 1 SEX F
@@ -2565,7 +2569,7 @@
 1 SOUR
 2 PAGE Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)
 1 FAMC @F35@
-1 FAMS @F109@
+1 FAMS @F111@
 0 @s_p26_4@ INDI
 1 NAME Mathilde Gedde /Jensen/
 1 SEX F
@@ -2592,7 +2596,7 @@
 1 SOUR
 2 PAGE Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)
 1 FAMC @F35@
-1 FAMS @F118@
+1 FAMS @F120@
 0 @s_p26_6@ INDI
 1 NAME Helga Gedde /Jensen/
 1 SEX F
@@ -2604,7 +2608,7 @@
 1 SOUR
 2 PAGE Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)
 1 FAMC @F35@
-1 FAMS @F121@
+1 FAMS @F123@
 0 @s_p54_0@ INDI
 1 NAME Ove Frederik Alexander /Gedde/
 1 SEX M
@@ -3142,7 +3146,7 @@
 1 SOUR
 2 PAGE Lisbeth Skov f. Christensen: 'En Langø-piges erindringer'
 1 FAMC @F10@
-1 FAMS @F126@
+1 FAMS @F128@
 0 @s_p60_0@ INDI
 1 NAME Holger Vilhelm Nielsen /Holgersen/
 1 SEX M
@@ -3181,23 +3185,31 @@
 2 PAGE LL:22-1228477
 1 FAMC @F7@
 0 @s_p56_1@ INDI
-1 NAME Jensine Marentine /Larsen/
+1 NAME Jensine Marentha /Larsen/
 1 SEX F
 1 BIRT
 2 DATE ABT 1870
 1 SOUR
 2 PAGE LL:7-1520195
+1 SOUR
+2 PAGE MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
 1 FAMC @F7@
 0 @s_p56_2@ INDI
 1 NAME Laurentine Sophie /Larsen/
 1 SEX F
 1 BIRT
-2 DATE ABT 1874
+2 DATE 8 JUL 1873
+1 DEAT
+2 DATE 17 DEC 1953
+1 NOTE Født i Bøsselykke. Gift med Jørgen Nielsen Christiansen. Død 17. dec. 1953 på Nordenbro Hede, 80 år.
 1 SOUR
 2 PAGE LL:7-1520196
 1 SOUR
 2 PAGE LL:22-1228478
+1 SOUR
+2 PAGE MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
 1 FAMC @F7@
+1 FAMS @F89@
 0 @s_p56_3@ INDI
 1 NAME Peder Christian /Larsen/
 1 SEX M
@@ -3775,6 +3787,63 @@
 1 SOUR
 2 PAGE LL:12-3673083 (dåb Rosmus 1820)
 1 FAMC @F47@
+0 @ms_p56_0@ INDI
+1 NAME Thomas /Larsen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1817
+1 SOUR
+2 PAGE LL:2-864880 (FT 1834 Magleby)
+1 SOUR
+2 PAGE LL:3-988512 (FT 1840)
+1 SOUR
+2 PAGE MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026)
+1 FAMC @F11@
+0 @ms_p56_1@ INDI
+1 NAME Karen /Larsdatter/
+1 SEX F
+1 BIRT
+2 DATE 1818
+1 SOUR
+2 PAGE LL:2-864880 (FT 1834 Magleby)
+1 SOUR
+2 PAGE LL:3-988512 (FT 1840)
+1 SOUR
+2 PAGE MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026)
+1 FAMC @F11@
+0 @ms_p56_2@ INDI
+1 NAME Jens /Larsen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1820
+1 SOUR
+2 PAGE LL:2-864880 (FT 1834 Magleby)
+1 SOUR
+2 PAGE LL:3-988512 (FT 1840)
+1 SOUR
+2 PAGE MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026)
+1 FAMC @F11@
+0 @ms_p56_3@ INDI
+1 NAME Laurine /Larsdatter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1822
+1 SOUR
+2 PAGE LL:2-864880 (FT 1834 Magleby)
+1 SOUR
+2 PAGE LL:3-988512 (FT 1840)
+1 SOUR
+2 PAGE MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026)
+1 FAMC @F11@
+0 @ms_p57_0@ INDI
+1 NAME Hans /Christiansen/
+1 SEX M
+1 BIRT
+2 DATE 17 SEP 1829
+1 NOTE Døbt 27. sept. 1829 i Magleby Kirke.
+1 SOUR
+2 PAGE MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026)
+1 FAMC @F12@
 0 @as_p11_0@ INDI
 1 NAME Kirsten /Christensen/
 1 SEX F
@@ -4360,13 +4429,13 @@
 1 SEX M
 1 BIRT
 2 DATE 28 AUG 1830
-1 DEAT
-2 DATE 1830
-1 NOTE Født i Magleby. Død som barn.
+1 NOTE Født i Magleby. Død som barn. Den automatiske begravelsespost passede ikke: han er hjemme i folketællingerne 1834, 1840, 1845 og 1850.
 1 SOUR
 2 PAGE LL:12-16285591 (dåb Magleby 1830)
 1 SOUR
 2 PAGE LL:11-7725422 (begravet 1830)
+1 SOUR
+2 PAGE LL: folketællingerne 1834–50, Magleby
 1 FAMC @F11@
 0 @as_p56_3@ INDI
 1 NAME Anders /Larsen/
@@ -4382,13 +4451,18 @@
 2 PAGE LL:11-7725501 (begravet 1832)
 1 FAMC @F11@
 0 @as_p57_0@ INDI
-1 NAME Mads Grogersen /Christiansen/
+1 NAME Mads Gregers /Christiansen/
 1 SEX M
 1 BIRT
 2 DATE 23 JAN 1832
-1 NOTE Født i Magleby.
+1 DEAT
+2 DATE 31 MAR 1900
+1 OCCU Husmand og træskomand
+1 NOTE Født i Magleby. Død 31. marts 1900 i Hoby, Gloslunde sogn (Lolland), begravet 6. april 1900.
 1 SOUR
 2 PAGE LL:12-16285708 (dåb Magleby 1832)
+1 SOUR
+2 PAGE MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
 1 FAMC @F12@
 0 @as_p57_1@ INDI
 1 NAME Christen /Christiansen/
@@ -4646,7 +4720,7 @@
 2 DATE 11 JAN 1990
 1 SOUR
 2 PAGE Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)
-1 FAMS @F97@
+1 FAMS @F99@
 0 @g_luise@ INDI
 1 NAME Luise /Petersen/
 1 SEX F
@@ -4654,7 +4728,7 @@
 2 DATE 17 FEB 1917
 1 SOUR
 2 PAGE Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)
-1 FAMS @F100@
+1 FAMS @F102@
 0 @g_knudp@ INDI
 1 NAME Knud /Poulsen/
 1 SEX M
@@ -4664,7 +4738,7 @@
 2 DATE 12 MAY 2003
 1 SOUR
 2 PAGE Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)
-1 FAMS @F109@
+1 FAMS @F111@
 0 @g_thorkild@ INDI
 1 NAME Thorkild Sylvest /Hansen/
 1 SEX M
@@ -4672,7 +4746,7 @@
 2 DATE 20 MAY 1917
 1 SOUR
 2 PAGE Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)
-1 FAMS @F121@
+1 FAMS @F123@
 0 @g_ida@ INDI
 1 NAME Ida Henriette Marie Mathilde /Gedde/
 1 SEX F
@@ -4728,7 +4802,7 @@
 2 PAGE Familiedokument: 'Familien Gedde' med familiebilledet fra 1895
 1 FAMC @F86@
 1 FAMS @F87@
-1 FAMS @F123@
+1 FAMS @F125@
 0 @g_mlh@ INDI
 1 NAME Marie Louise /Hansen/
 1 SEX F
@@ -4748,7 +4822,7 @@
 1 SOUR
 2 PAGE Familiedokument: 'Familien Gedde' med familiebilledet fra 1895
 1 FAMC @F87@
-1 FAMS @F127@
+1 FAMS @F129@
 0 @g_jlk@ INDI
 1 NAME Jørgen Lindegaard /Knudsen/
 1 SEX M
@@ -4757,7 +4831,7 @@
 1 NOTE Sandsynligvis søn af Paulas søster Ingeborg, gift Lindegaard Knudsen.
 1 SOUR
 2 PAGE Familiedokument: 'Familien Gedde' med familiebilledet fra 1895
-1 FAMS @F127@
+1 FAMS @F129@
 0 @g_olga@ INDI
 1 NAME Olga Frederikke /Olsen/
 1 SEX F
@@ -4767,7 +4841,7 @@
 2 DATE 7 FEB 1991
 1 SOUR
 2 PAGE Familiedokument: 'Familien Gedde' med familiebilledet fra 1895
-1 FAMS @F123@
+1 FAMS @F125@
 0 @g_annasm@ INDI
 1 NAME Anna Sophie Mathilde /Gedde/
 1 SEX F
@@ -4779,7 +4853,7 @@
 1 SOUR
 2 PAGE Familiedokument: 'Familien Gedde' med familiebilledet fra 1895
 1 FAMC @F86@
-1 FAMS @F125@
+1 FAMS @F127@
 0 @g_jepmond@ INDI
 1 NAME Svend-Aage van /Jepmond/
 1 SEX M
@@ -4787,527 +4861,605 @@
 2 DATE 10 APR 1891
 1 SOUR
 2 PAGE Familiedokument: 'Familien Gedde' med familiebilledet fra 1895
-1 FAMS @F125@
+1 FAMS @F127@
+0 @g_jnc@ INDI
+1 NAME Jørgen Nielsen /Christiansen/
+1 SEX M
+1 BIRT
+2 DATE 10 JUN 1864
+1 DEAT
+2 DATE 4 JUN 1919
+1 NOTE Født i Nordenbro, død på Nordenbro Hede.
+1 SOUR
+2 PAGE MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
+1 FAMC @F88@
+1 FAMS @F89@
+0 @g_nchr@ INDI
+1 NAME Niels /Christiansen/
+1 SEX M
+1 BIRT
+2 DATE 24 MAR 1829
+1 DEAT
+2 DATE 27 APR 1912
+1 NOTE Født i Magleby, død i Nordenbro.
+1 SOUR
+2 PAGE MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
+1 FAMS @F88@
+0 @g_imr@ INDI
+1 NAME Inge Marie /Rasmussen/
+1 SEX F
+1 BIRT
+2 DATE 24 SEP 1830
+1 DEAT
+2 DATE 23 JUN 1913
+1 NOTE Født i Magleby, død på Nordenbro Hede.
+1 SOUR
+2 PAGE MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
+1 FAMS @F88@
+0 @g_lsc0@ INDI
+1 NAME Katrine /Christiansen/
+1 SEX F
+1 BIRT
+2 DATE 6 OCT 1901
+1 NOTE Født i Nordenbro, Magleby sogn.
+1 SOUR
+2 PAGE MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
+1 FAMC @F89@
+0 @g_lsc1@ INDI
+1 NAME Inga Marie /Christiansen/
+1 SEX F
+1 BIRT
+2 DATE 8 JAN 1903
+1 NOTE Født i Nordenbro, Magleby sogn.
+1 SOUR
+2 PAGE MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
+1 FAMC @F89@
+0 @g_lsc2@ INDI
+1 NAME Oskar /Christiansen/
+1 SEX M
+1 BIRT
+2 DATE 23 MAY 1904
+1 DEAT
+2 DATE 1993
+1 SOUR
+2 PAGE MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
+1 FAMC @F89@
+0 @g_lsc3@ INDI
+1 NAME Otto /Christiansen/
+1 SEX M
+1 BIRT
+2 DATE 22 JUN 1906
+1 SOUR
+2 PAGE MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
+1 FAMC @F89@
+0 @g_lsc4@ INDI
+1 NAME Vita /Christiansen/
+1 SEX F
+1 BIRT
+2 DATE 15 JUL 1908
+1 SOUR
+2 PAGE MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
+1 FAMC @F89@
 0 @p1@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F88@
+1 FAMC @F90@
 0 @p2@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F88@
-1 FAMC @F89@
+1 FAMS @F90@
+1 FAMC @F91@
 0 @p3@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F88@
-1 FAMC @F90@
-1 FAMS @F93@
+1 FAMS @F90@
+1 FAMC @F92@
+1 FAMS @F95@
 0 @u1@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F89@
+1 FAMC @F91@
 0 @u2@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F89@
+1 FAMC @F91@
 0 @sofus_d0@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F91@
+1 FAMC @F93@
 0 @sofus_d1@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F91@
+1 FAMC @F93@
 0 @sofus_d2@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F91@
+1 FAMC @F93@
 0 @x_gitte@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F90@
-1 FAMS @F92@
+1 FAMC @F92@
+1 FAMS @F94@
 0 @x_laith@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F92@
+1 FAMS @F94@
 0 @x_rami@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F92@
+1 FAMC @F94@
 0 @x_zaki@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F92@
+1 FAMC @F94@
 0 @x_petra@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F92@
+1 FAMC @F94@
 0 @x_kirill@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F93@
+1 FAMS @F95@
 0 @x_benjamin@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F93@
+1 FAMC @F95@
 0 @x_sonja@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F93@
+1 FAMC @F95@
 0 @x_sofie@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F93@
+1 FAMC @F95@
 0 @x_lis@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F94@
-1 FAMS @F95@
+1 FAMC @F96@
+1 FAMS @F97@
 0 @x_kaj@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F95@
+1 FAMS @F97@
 0 @x_leif@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F95@
-1 FAMS @F96@
+1 FAMC @F97@
+1 FAMS @F98@
 0 @x_lone@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F96@
+1 FAMS @F98@
 0 @x_kira@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F96@
+1 FAMC @F98@
 0 @x_lucas@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F96@
+1 FAMC @F98@
 0 @x_marianne@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F95@
+1 FAMC @F97@
 0 @x_birgit@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F97@
-1 FAMS @F98@
+1 FAMC @F99@
+1 FAMS @F100@
 0 @x_jmoos@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F98@
+1 FAMS @F100@
 0 @x_idab@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F98@
-1 FAMS @F99@
+1 FAMC @F100@
+1 FAMS @F101@
 0 @x_ian@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F99@
+1 FAMS @F101@
 0 @x_dana@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F99@
+1 FAMC @F101@
 0 @x_henrikm@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F98@
-1 FAMS @F128@
+1 FAMC @F100@
+1 FAMS @F130@
 0 @x_karinvj@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F128@
+1 FAMS @F130@
 0 @x_lorenzj@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F100@
-1 FAMS @F101@
-1 FAMS @F104@
+1 FAMC @F102@
+1 FAMS @F103@
+1 FAMS @F106@
 0 @x_sonjal@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F101@
+1 FAMS @F103@
 0 @x_larsj@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F101@
-1 FAMS @F102@
+1 FAMC @F103@
+1 FAMS @F104@
 0 @x_yvonne@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F102@
+1 FAMS @F104@
 0 @x_jacobj@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F102@
+1 FAMC @F104@
 0 @x_stinne@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F102@
+1 FAMC @F104@
 0 @x_sorenj@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F101@
-1 FAMS @F103@
+1 FAMC @F103@
+1 FAMS @F105@
 0 @x_kirstenj@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F103@
+1 FAMS @F105@
 0 @x_mettej@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F103@
+1 FAMC @F105@
 0 @x_hannej@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F104@
+1 FAMS @F106@
 0 @x_michaelj@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F104@
+1 FAMC @F106@
 0 @x_knudj@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F100@
-1 FAMS @F105@
+1 FAMC @F102@
+1 FAMS @F107@
 0 @x_elsek@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F105@
+1 FAMS @F107@
 0 @x_helle@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F105@
-1 FAMS @F106@
+1 FAMC @F107@
+1 FAMS @F108@
 0 @x_torben@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F106@
+1 FAMS @F108@
 0 @x_emil@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F106@
+1 FAMC @F108@
 0 @x_mikkel@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F106@
+1 FAMC @F108@
 0 @x_mads@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F106@
+1 FAMC @F108@
 0 @x_jensk@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F105@
+1 FAMC @F107@
 0 @x_bent@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F100@
-1 FAMS @F107@
+1 FAMC @F102@
+1 FAMS @F109@
 0 @x_birthe@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F107@
+1 FAMS @F109@
 0 @x_mlj@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F107@
+1 FAMC @F109@
 0 @x_karenj@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F100@
-1 FAMS @F108@
+1 FAMC @F102@
+1 FAMS @F110@
 0 @x_ejnar@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F108@
+1 FAMS @F110@
 0 @x_jesperm@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F108@
+1 FAMC @F110@
 0 @x_inge@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F109@
-1 FAMS @F110@
+1 FAMC @F111@
+1 FAMS @F112@
 0 @x_mettev@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F110@
-1 FAMS @F129@
+1 FAMC @F112@
+1 FAMS @F131@
 0 @x_martinv@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F129@
+1 FAMS @F131@
 0 @x_egon@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F109@
-1 FAMS @F111@
+1 FAMC @F111@
+1 FAMS @F113@
 0 @x_jette@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F111@
+1 FAMS @F113@
 0 @x_jesperp@ INDI
-1 NAME Privat /person/
-1 SEX M
-1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F111@
-1 FAMS @F112@
-0 @x_mathildep@ INDI
-1 NAME Privat /person/
-1 SEX F
-1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F112@
-0 @x_esther@ INDI
-1 NAME Privat /person/
-1 SEX F
-1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F109@
-1 FAMS @F113@
-0 @x_oleh@ INDI
-1 NAME Privat /person/
-1 SEX M
-1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F113@
-0 @x_hasse@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
 1 FAMC @F113@
 1 FAMS @F114@
+0 @x_mathildep@ INDI
+1 NAME Privat /person/
+1 SEX F
+1 NOTE Sikkerhed: oplyst af familien
+1 FAMC @F114@
+0 @x_esther@ INDI
+1 NAME Privat /person/
+1 SEX F
+1 NOTE Sikkerhed: oplyst af familien
+1 FAMC @F111@
+1 FAMS @F115@
+0 @x_oleh@ INDI
+1 NAME Privat /person/
+1 SEX M
+1 NOTE Sikkerhed: oplyst af familien
+1 FAMS @F115@
+0 @x_hasse@ INDI
+1 NAME Privat /person/
+1 SEX M
+1 NOTE Sikkerhed: oplyst af familien
+1 FAMC @F115@
+1 FAMS @F116@
 0 @x_sophieh@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F114@
+1 FAMC @F116@
 0 @x_carlh@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F114@
+1 FAMC @F116@
 0 @x_thomash@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F113@
-1 FAMS @F115@
+1 FAMC @F115@
+1 FAMS @F117@
 0 @x_selma@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F115@
+1 FAMC @F117@
 0 @x_annakh@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F113@
-1 FAMS @F116@
+1 FAMC @F115@
+1 FAMS @F118@
 0 @x_frederikr@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F116@
+1 FAMC @F118@
 0 @x_augustr@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F116@
+1 FAMC @F118@
 0 @x_tobiasr@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F116@
+1 FAMC @F118@
 0 @x_gunhild@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F109@
-1 FAMS @F117@
+1 FAMC @F111@
+1 FAMS @F119@
 0 @x_robertw@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F117@
+1 FAMS @F119@
 0 @x_sune@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F117@
+1 FAMC @F119@
 0 @x_simonw@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F117@
+1 FAMC @F119@
 0 @x_agathe@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F118@
+1 FAMS @F120@
 0 @x_sten@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F118@
-1 FAMS @F119@
+1 FAMC @F120@
+1 FAMS @F121@
 0 @x_pia@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F119@
+1 FAMS @F121@
 0 @x_pernillet@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F119@
+1 FAMC @F121@
 0 @x_marlenet@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F119@
+1 FAMC @F121@
 0 @x_martint@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F119@
+1 FAMC @F121@
 0 @x_janove@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F118@
-1 FAMS @F120@
+1 FAMC @F120@
+1 FAMS @F122@
 0 @x_ingerm@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F120@
+1 FAMS @F122@
 0 @x_svendejnar@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F120@
+1 FAMC @F122@
 0 @x_jensh@ INDI
-1 NAME Privat /person/
-1 SEX M
-1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F121@
-1 FAMS @F122@
-0 @x_bodilf@ INDI
-1 NAME Privat /person/
-1 SEX F
-1 NOTE Sikkerhed: oplyst af familien
-1 FAMS @F122@
-0 @x_anderssh@ INDI
-1 NAME Privat /person/
-1 SEX M
-1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F122@
-0 @x_pernilleh@ INDI
-1 NAME Privat /person/
-1 SEX F
-1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F122@
-0 @x_poulotto@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
 1 FAMC @F123@
 1 FAMS @F124@
-0 @x_lenej@ INDI
+0 @x_bodilf@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
 1 FAMS @F124@
-0 @x_dorte@ INDI
+0 @x_anderssh@ INDI
+1 NAME Privat /person/
+1 SEX M
+1 NOTE Sikkerhed: oplyst af familien
+1 FAMC @F124@
+0 @x_pernilleh@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
 1 FAMC @F124@
-0 @x_hanneg@ INDI
-1 NAME Privat /person/
-1 SEX F
-1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F124@
-0 @x_ovevj@ INDI
+0 @x_poulotto@ INDI
 1 NAME Privat /person/
 1 SEX M
 1 NOTE Sikkerhed: oplyst af familien
 1 FAMC @F125@
-0 @x_sophiecr@ INDI
+1 FAMS @F126@
+0 @x_lenej@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
-1 FAMC @F125@
-0 @x_lisbeth@ INDI
+1 FAMS @F126@
+0 @x_dorte@ INDI
 1 NAME Privat /person/
 1 SEX F
 1 NOTE Sikkerhed: oplyst af familien
 1 FAMC @F126@
+0 @x_hanneg@ INDI
+1 NAME Privat /person/
+1 SEX F
+1 NOTE Sikkerhed: oplyst af familien
+1 FAMC @F126@
+0 @x_ovevj@ INDI
+1 NAME Privat /person/
+1 SEX M
+1 NOTE Sikkerhed: oplyst af familien
+1 FAMC @F127@
+0 @x_sophiecr@ INDI
+1 NAME Privat /person/
+1 SEX F
+1 NOTE Sikkerhed: oplyst af familien
+1 FAMC @F127@
+0 @x_lisbeth@ INDI
+1 NAME Privat /person/
+1 SEX F
+1 NOTE Sikkerhed: oplyst af familien
+1 FAMC @F128@
 0 @F1@ FAM
 1 HUSB @p8@
 1 WIFE @p9@
@@ -5382,6 +5534,10 @@
 1 HUSB @p112@
 1 WIFE @p113@
 1 CHIL @p56@
+1 CHIL @ms_p56_0@
+1 CHIL @ms_p56_1@
+1 CHIL @ms_p56_2@
+1 CHIL @ms_p56_3@
 1 CHIL @as_p56_0@
 1 CHIL @as_p56_1@
 1 CHIL @as_p56_2@
@@ -5390,6 +5546,7 @@
 1 HUSB @p114@
 1 WIFE @p115@
 1 CHIL @p57@
+1 CHIL @ms_p57_0@
 1 CHIL @as_p57_0@
 1 CHIL @as_p57_1@
 1 CHIL @as_p57_2@
@@ -5836,197 +5993,209 @@
 1 WIFE @g_mlh@
 1 CHIL @g_aase@
 0 @F88@ FAM
+1 HUSB @g_nchr@
+1 WIFE @g_imr@
+1 CHIL @g_jnc@
+0 @F89@ FAM
+1 HUSB @g_jnc@
+1 WIFE @s_p56_2@
+1 CHIL @g_lsc0@
+1 CHIL @g_lsc1@
+1 CHIL @g_lsc2@
+1 CHIL @g_lsc3@
+1 CHIL @g_lsc4@
+0 @F90@ FAM
 1 HUSB @p2@
 1 WIFE @p3@
 1 CHIL @p1@
-0 @F89@ FAM
+0 @F91@ FAM
 1 HUSB @p4@
 1 WIFE @p5@
 1 CHIL @p2@
 1 CHIL @u1@
 1 CHIL @u2@
-0 @F90@ FAM
+0 @F92@ FAM
 1 HUSB @p6@
 1 WIFE @p7@
 1 CHIL @p3@
 1 CHIL @x_gitte@
-0 @F91@ FAM
+0 @F93@ FAM
 1 HUSB @sofus@
 1 WIFE @sofus_w@
 1 CHIL @sofus_d0@
 1 CHIL @sofus_d1@
 1 CHIL @sofus_d2@
-0 @F92@ FAM
+0 @F94@ FAM
 1 HUSB @x_laith@
 1 WIFE @x_gitte@
 1 CHIL @x_rami@
 1 CHIL @x_zaki@
 1 CHIL @x_petra@
-0 @F93@ FAM
+0 @F95@ FAM
 1 HUSB @x_kirill@
 1 WIFE @p3@
 1 CHIL @x_benjamin@
 1 CHIL @x_sonja@
 1 CHIL @x_sofie@
-0 @F94@ FAM
+0 @F96@ FAM
 1 HUSB @pf12@
 1 WIFE @p13@
 1 CHIL @x_lis@
-0 @F95@ FAM
+0 @F97@ FAM
 1 HUSB @x_kaj@
 1 WIFE @x_lis@
 1 CHIL @x_leif@
 1 CHIL @x_marianne@
-0 @F96@ FAM
+0 @F98@ FAM
 1 HUSB @x_leif@
 1 WIFE @x_lone@
 1 CHIL @x_kira@
 1 CHIL @x_lucas@
-0 @F97@ FAM
+0 @F99@ FAM
 1 HUSB @s_p26_1@
 1 WIFE @g_elvine@
 1 CHIL @x_birgit@
-0 @F98@ FAM
+0 @F100@ FAM
 1 HUSB @x_jmoos@
 1 WIFE @x_birgit@
 1 CHIL @x_idab@
 1 CHIL @x_henrikm@
-0 @F99@ FAM
+0 @F101@ FAM
 1 HUSB @x_ian@
 1 WIFE @x_idab@
 1 CHIL @x_dana@
-0 @F100@ FAM
+0 @F102@ FAM
 1 HUSB @s_p26_2@
 1 WIFE @g_luise@
 1 CHIL @x_lorenzj@
 1 CHIL @x_knudj@
 1 CHIL @x_bent@
 1 CHIL @x_karenj@
-0 @F101@ FAM
+0 @F103@ FAM
 1 HUSB @x_lorenzj@
 1 WIFE @x_sonjal@
 1 CHIL @x_larsj@
 1 CHIL @x_sorenj@
-0 @F102@ FAM
+0 @F104@ FAM
 1 HUSB @x_larsj@
 1 WIFE @x_yvonne@
 1 CHIL @x_jacobj@
 1 CHIL @x_stinne@
-0 @F103@ FAM
+0 @F105@ FAM
 1 HUSB @x_sorenj@
 1 WIFE @x_kirstenj@
 1 CHIL @x_mettej@
-0 @F104@ FAM
+0 @F106@ FAM
 1 HUSB @x_lorenzj@
 1 WIFE @x_hannej@
 1 CHIL @x_michaelj@
-0 @F105@ FAM
+0 @F107@ FAM
 1 HUSB @x_knudj@
 1 WIFE @x_elsek@
 1 CHIL @x_helle@
 1 CHIL @x_jensk@
-0 @F106@ FAM
+0 @F108@ FAM
 1 HUSB @x_torben@
 1 WIFE @x_helle@
 1 CHIL @x_emil@
 1 CHIL @x_mikkel@
 1 CHIL @x_mads@
-0 @F107@ FAM
+0 @F109@ FAM
 1 HUSB @x_bent@
 1 WIFE @x_birthe@
 1 CHIL @x_mlj@
-0 @F108@ FAM
+0 @F110@ FAM
 1 HUSB @x_ejnar@
 1 WIFE @x_karenj@
 1 CHIL @x_jesperm@
-0 @F109@ FAM
+0 @F111@ FAM
 1 HUSB @g_knudp@
 1 WIFE @s_p26_3@
 1 CHIL @x_inge@
 1 CHIL @x_egon@
 1 CHIL @x_esther@
 1 CHIL @x_gunhild@
-0 @F110@ FAM
+0 @F112@ FAM
 1 WIFE @x_inge@
 1 CHIL @x_mettev@
-0 @F111@ FAM
+0 @F113@ FAM
 1 HUSB @x_egon@
 1 WIFE @x_jette@
 1 CHIL @x_jesperp@
-0 @F112@ FAM
+0 @F114@ FAM
 1 HUSB @x_jesperp@
 1 CHIL @x_mathildep@
-0 @F113@ FAM
+0 @F115@ FAM
 1 HUSB @x_oleh@
 1 WIFE @x_esther@
 1 CHIL @x_hasse@
 1 CHIL @x_thomash@
 1 CHIL @x_annakh@
-0 @F114@ FAM
+0 @F116@ FAM
 1 HUSB @x_hasse@
 1 CHIL @x_sophieh@
 1 CHIL @x_carlh@
-0 @F115@ FAM
+0 @F117@ FAM
 1 HUSB @x_thomash@
 1 CHIL @x_selma@
-0 @F116@ FAM
+0 @F118@ FAM
 1 WIFE @x_annakh@
 1 CHIL @x_frederikr@
 1 CHIL @x_augustr@
 1 CHIL @x_tobiasr@
-0 @F117@ FAM
+0 @F119@ FAM
 1 HUSB @x_robertw@
 1 WIFE @x_gunhild@
 1 CHIL @x_sune@
 1 CHIL @x_simonw@
-0 @F118@ FAM
+0 @F120@ FAM
 1 HUSB @s_p26_5@
 1 WIFE @x_agathe@
 1 CHIL @x_sten@
 1 CHIL @x_janove@
-0 @F119@ FAM
+0 @F121@ FAM
 1 HUSB @x_sten@
 1 WIFE @x_pia@
 1 CHIL @x_pernillet@
 1 CHIL @x_marlenet@
 1 CHIL @x_martint@
-0 @F120@ FAM
+0 @F122@ FAM
 1 HUSB @x_janove@
 1 WIFE @x_ingerm@
 1 CHIL @x_svendejnar@
-0 @F121@ FAM
+0 @F123@ FAM
 1 HUSB @g_thorkild@
 1 WIFE @s_p26_6@
 1 CHIL @x_jensh@
-0 @F122@ FAM
+0 @F124@ FAM
 1 HUSB @x_jensh@
 1 WIFE @x_bodilf@
 1 CHIL @x_anderssh@
 1 CHIL @x_pernilleh@
-0 @F123@ FAM
+0 @F125@ FAM
 1 HUSB @g_knudg@
 1 WIFE @g_olga@
 1 CHIL @x_poulotto@
-0 @F124@ FAM
+0 @F126@ FAM
 1 HUSB @x_poulotto@
 1 WIFE @x_lenej@
 1 CHIL @x_dorte@
 1 CHIL @x_hanneg@
-0 @F125@ FAM
+0 @F127@ FAM
 1 HUSB @g_jepmond@
 1 WIFE @g_annasm@
 1 CHIL @x_ovevj@
 1 CHIL @x_sophiecr@
-0 @F126@ FAM
+0 @F128@ FAM
 1 HUSB @s_p62_5@
 1 CHIL @x_lisbeth@
-0 @F127@ FAM
+0 @F129@ FAM
 1 HUSB @g_jlk@
 1 WIFE @g_aase@
-0 @F128@ FAM
+0 @F130@ FAM
 1 HUSB @x_henrikm@
 1 WIFE @x_karinvj@
-0 @F129@ FAM
+0 @F131@ FAM
 1 HUSB @x_martinv@
 1 WIFE @x_mettev@
 0 TRLR
