@@ -241,7 +241,7 @@ tbody tr:hover td{background:var(--hover)}
 <!-- ============ OVERSIGT ============ -->
 <section class="view" id="v-oversigt">
   <div class="block">
-    <p class="ink2" style="font-size:1.02rem">Din slægt fundet i kirkebøger, folketællinger og lokalarkiver. På fars side går slægten tilbage til 1700-tallets Djursland, Mols og København. På mors side går den via Egernsund og Lejrskov til officersslægten Gedde og den pommerske adelsslægt von Kleist, som var i dansk tjeneste fra 1600-tallet.</p>
+    <p class="ink2" style="font-size:1.02rem">Din slægt fundet i kirkebøger, folketællinger, lokalarkiver og familiens egne papirer. Farfars side går tilbage til 1700-tallets Djursland, Mols og København. Farmor Liss' side kommer fra hedesognene i Vestjylland. Morfars side fører via Nybøl, Egernsund og Lejrskov til officersslægten Gedde og den pommerske adelsslægt von Kleist. Mormor Gerdas side er Sydlangeland og Langø-familien.</p>
     <div class="tiles" id="tiles"></div>
   </div>
 
@@ -296,7 +296,7 @@ tbody tr:hover td{background:var(--hover)}
 <!-- ============ KORT ============ -->
 <section class="view" id="v-kort" hidden>
   <div class="sec-head"><span class="eyebrow">Steder</span><h2>Hvor de levede</h2>
-    <p class="muted">Alle fødsler, dødsfald og kendte bopæle sat på kortet. Linjerne går fra hver anes fødested til dødssted. Fars slægt blev i to hundrede år inden for 25 km fra Kolind, mens mors side spreder sig fra Flensborg Fjord til Nordsjælland. Klik på et sted for at se, hvem der hørte til der.</p></div>
+    <p class="muted">Alle fødsler, dødsfald og kendte bopæle sat på kortet. Linjerne går fra hver anes fødested til dødssted. Farfars slægt blev i to hundrede år inden for 25 km fra Kolind, og farmors kom fra hedesognene ved Herning og Varde. Morfars side spreder sig fra Flensborg Fjord til Nordsjælland, og mormors side er Sydlangeland. Klik på et sted for at se, hvem der hørte til der.</p></div>
   <div class="two">
     <div class="panel"><svg id="map" class="mapsvg" role="img" aria-label="Kort over slægtens steder"></svg></div>
     <div style="display:flex;flex-direction:column;gap:24px;min-width:0">
@@ -313,6 +313,7 @@ tbody tr:hover td{background:var(--hover)}
   <div class="panel"><div style="overflow-x:auto" id="lifewrap"><svg id="lifechart" role="img" aria-label="Levetider"></svg></div></div>
   <div class="two">
     <div class="panel"><h3>Erhverv</h3><p class="muted" style="font-size:.84rem">Antal personer med mindst ét erhverv i gruppen. Én person kan tælle i flere grupper.</p><svg id="occchart" role="img" aria-label="Erhverv"></svg></div>
+    <div class="panel"><h3>Aner fundet pr. generation</h3><p class="muted" style="font-size:.84rem">Antal kendte aner i hver generation. Tallet i parentes er, hvor mange der findes i alt.</p><svg id="genchart" role="img" aria-label="Aner pr. generation"></svg></div>
     <div class="panel"><h3>Livet i tal</h3><div class="statrow" id="lifestats"></div><h3 style="margin-top:8px">Fødsler efter landsdel</h3><svg id="regionchart" role="img" aria-label="Fødsler efter landsdel"></svg></div>
   </div>
 </section>
@@ -469,31 +470,44 @@ function renderOversigt(){
   const named = anc.filter(p=>p.ahnen>1);
   const maxGen = Math.max(...anc.map(p=>Math.floor(Math.log2(p.ahnen))+1));
   const earliest = Math.min(...anc.map(p=>yr(p.born)).filter(Boolean));
+  const srcCount = new Set(P.flatMap(p=>p.src)).size;
   document.getElementById('tiles').innerHTML = [
-    [named.length,'aner fundet'],[maxGen,'generationer, med dig'],[earliest,'tidligste kendte fødselsår'],[P.length,'personer i alt']
+    [named.length,'aner fundet'],[maxGen,'generationer, med dig'],[earliest,'tidligste kendte fødselsår'],[P.length,'personer i alt'],
+    [P.filter(p=>!p.ahnen).length,'søskende, efterkommere og ingifte'],[srcCount,'forskellige kildehenvisninger']
   ].map(([v,k])=>`<div class="tile"><span class="v">${v}</span><span class="k">${k}</span></div>`).join('');
 
   const card = (p,sub) => `<button type="button" class="pcard" data-pid="${p.id}" style="--c:${lineVar(p.line)}"><b>${esc(clean(p.name))}</b><span>${esc(sub||rel(p))} · ${esc(life(p))}</span></button>`;
   const gap = (t,sub) => `<div class="pcard gap"><b>${esc(t)}</b><span>${esc(sub)}</span></div>`;
   const row = (k,html) => `<div class="fam-row"><div class="k">${k}</div><div class="cards">${html}</div></div>`;
   const b=byId;
+  const kidsOf = (...ids) => P.filter(c=>ids.includes(c.father)||ids.includes(c.mother));
+  const others = (arr, not) => arr.filter(c=>!not.includes(c.id));
+  const uniq = arr => [...new Map(arr.map(p=>[p.id,p])).values()].sort((x,y)=>(yr(x.born)||0)-(yr(y.born)||0));
+  const cards = (arr, sub) => arr.map(p=>card(p, typeof sub==='function'?sub(p):sub)).join('');
+  const sibsOf = id => byId[id]? siblingsOf(byId[id]).map(s=>s.p) : [];
+  const farAU = others(kidsOf('p4','p5'),['p2']), morAU = others(kidsOf('p6','p7'),['p3']);
+  const mySibs = uniq(others(kidsOf('p2','p3'),['p1']));
+  const cousins = uniq(kidsOf(...farAU.map(p=>p.id), ...morAU.map(p=>p.id)));
+  const greatAU = [['p4','farfars'],['p5','farmors'],['p6','morfars'],['p7','mormors']].flatMap(([id,w])=>byId[id]? siblingsOf(byId[id]).map(s=>[s.p, w+' '+(s.half?'halv':'')+(s.p.sex==='F'?'søster':s.p.sex==='M'?'bror':'søskende')]) : []);
+  const half = p => p.father&&p.mother&&!(p.father==='p2'&&p.mother==='p3');
   document.getElementById('fam').innerHTML = [
     row('Oldeforældre', [8,9,12,13].map(n=>card(ahn[n], {8:'farfars far',9:'farfars mor',12:'morfars far (biologisk)',13:'morfars mor'}[n])).join('') + card(b.p12,'tog skylden (anerkendte faderskabet)')+card(b.pf12,'betalt for at gifte sig med Else') + card(b.p14,'mormors far') + card(b.p15,'mormors mor') + card(b.p10,'farmors far') + card(b.p11,'farmors mor')),
     `<div class="fam-sep"></div>`,
     row('Bedsteforældre', card(b.p4,'farfar')+card(b.p5,'farmor')+card(b.p6,'morfar')+card(b.p7,'mormor')),
-    row('Grandonkler og -tanter', card(b.s_ester,'farfars søster')+card(b.s_p10_0,'farmors søster')+card(b.s_p10_1,'farmors søster')+card(b.s_p10_2,'farmors søster')+gap('Farmors 3 andre søskende','Liss var en af syv')+card(b.sofus_d0,'morfars halvsøster')+card(b.sofus_d1,'morfars halvsøster')+card(b.sofus_d2,'morfars halvsøster')),
+    row(`Grandonkler og -tanter (${greatAU.length})`, greatAU.map(([p,w])=>card(p,w)).join('')),
     `<div class="fam-sep"></div>`,
     row('Forældre', card(b.p2,'far')+card(b.p3,'mor')),
-    row('Onkler og tanter', card(b.u1,'farbror')+card(b.u2,'farbror')+gap('Mors søster','navn mangler')),
+    row(`Onkler og tanter (${farAU.length+morAU.length})`, cards(farAU, p=>p.sex==='F'?'faster':'farbror')+cards(morAU, p=>p.sex==='F'?'moster':'morbror')),
     `<div class="fam-sep"></div>`,
-    row('Dig og søskende', card(b.p1,'dig')+gap('Halvsøskende','navne mangler')+gap('Fætre og kusiner','navne mangler')),
+    row(`Dig og søskende (${mySibs.length+1})`, card(b.p1,'dig')+cards(mySibs, p=>half(p)?(p.sex==='F'?'halvsøster':'halvbror'):(p.sex==='F'?'søster':'bror'))),
+    row(`Fætre og kusiner (${cousins.length})`, cousins.length? cards(cousins, p=>p.sex==='F'?'kusine':'fætter') : gap('Fætre og kusiner','ingen fundet endnu')),
   ].join('');
   wire(document.getElementById('fam'));
 
   const L = (id,txt)=>`<button class="linkish" data-pid="${id}">${esc(txt||clean(byId[id].name))}</button>`;
   const STORIES=[
     ['maternal','Morfars hemmelige far',
-     `Lorenz Heinrich blev født i Egernsund 12. jan. 1932 og voksede op som søn af arbejdsmand ${L('pf12')}. Først som voksen fandt han ud af, at Peter ikke var hans far. Ifølge familien var den biologiske far gårdmandssønnen ${L('sofus','Sophus Petersen')} fra Påkjær gård i Nybøl (1903–1945), søn af gårdmand Peter Petersen. Sophus kunne ikke vedstå faderskabet. Landarbejder ${L('p12')} fra Snogbæk tog skylden og anerkendte i 1932 faderskabet, som retten stadfæstede. Peter Frederiksen blev betalt for at gifte sig med Else. Påkjær og Snogbæk ligger tæt ved hinanden i Sundeved. Stamtræet følger familiens viden, og en DNA-test kan bekræfte den.`,
+     `Lorenz Heinrich blev født i Egernsund 12. jan. 1932 og voksede op som søn af arbejdsmand ${L('pf12')}. Ifølge familiens opgørelse vidste han det ikke, før han var 40: Peter havde giftet sig med Else et par måneder før fødslen, og det blev der ikke talt om. Ifølge familien var den biologiske far gårdmandssønnen ${L('sofus','Sophus Petersen')} fra Påkjær gård i Nybøl (1903–1945), søn af gårdmand Peter Petersen. Sophus kunne ikke vedstå faderskabet. Landarbejder ${L('p12')} fra Snogbæk tog skylden og anerkendte i 1932 faderskabet, som retten stadfæstede. Peter Frederiksen blev betalt for at gifte sig med Else. Påkjær og Snogbæk ligger tæt ved hinanden i Sundeved. Stamtræet følger familiens viden. En DNA-test af et barnebarn bekræfter Else-siden. Om Sophus er faren, kan afgøres ved at sammenligne de sønderjyske DNA-matches med efterkommere af Peter Petersen på Paakjær.`,
      ['p6','sofus','p12','pf12','p13']],
     ['gedde','Navnet Gedde og kaptajnen',
      `Mors efternavn kommer fra morfars mor, ${L('p13')}, født 1912 i Lejrskov. Hendes mor var ${L('p27')}, og Gedde-linjen går derfra via proprietær Edvard Hammer Gedde og juristen Ove Frederik Christopher Gedde til ${L('p216','kaptajn Ove Samuel Gedde')} (1778–1843) ved Kronens Regiment i Helsingør. Han er den nærmeste "kaptajn" i slægten. Trankebar-historien handler om admiral Ove Gjedde, som grundlagde kolonien i 1620 og bar et næsten enslydende navn, men ingen kilde viser, at han er vores slægt. Den borgerlige officersslægt Gedde regnes for en anden familie end den uddøde adelsslægt Gjedde. Indtil der dukker et bevis op, behandler vi Trankebar-forbindelsen som en familiefortælling.`,
@@ -505,8 +519,17 @@ function renderOversigt(){
      `Gaardsted-navnet, du selv bærer, går tilbage til ${L('p72')}, som forpagtede herregården Vosnæsgaard og i 1797 købte Bogensholm på Mols. Sønnen ${L('p36')} blev født på Vosnæsgaard i 1792 og var siden gårdmand og sognefoged i Tirstrup. Hans barnebarn Jensine giftede sig i 1921 med Aage Jørgensen, og deres søn Evald tog navnet Gaardsted-Jørgensen.`,
      ['p72','p36','p18','p9','p4']],
     ['larsen','Kongen af Langø',
-     `Mormor ${L('p7','Gerda')} blev født Larsen i Nordenbro på Sydlangeland i 1935 som datter af tømrer ${L('p14')} og ${L('p15')}. Hendes mormor ${L('p31','Kristine')} var datter af ${L('p62','Marius Christensen')}, som i 1894 købte øen Langø i Lindelse Nor. I 1911 byggede han med håndkraft, sønner og svigersøn den 334 m lange dæmning, der gjorde øen landfast. Derfor blev han kaldt "Kongen af Langø". Fra Sydlangeland udvandrede mange til Amerika, også i denne slægt.`,
-     ['p7','p14','p15','p30','p31','p62','p63']],
+     `Mormor ${L('p7','Gerda')} blev født Larsen i Nordenbro på Sydlangeland i 1935 som datter af tømrer ${L('p14')} og ${L('p15')}. Hendes mormor ${L('p31','Kristine')} var datter af ${L('p62','Marius Christensen')}, som i 1894 købte øen Langø i Lindelse Nor. I 1911 byggede han med håndkraft, sønner og svigersøn den 334 m lange dæmning, der gjorde øen landfast. Derfor blev han kaldt "Kongen af Langø". Ifølge barnebarnet Lisbeth Skovs erindringer købte Marius og Ane Marie øen for 4.000 kr. Før det havde han gravet Frihavnen ud i København, og hun var mejerske på Baygården. Ane Maries forældre, smeden Jørgen Christensen og Bodil Margrethe Clausdatter, udvandrede selv til Amerika med de fleste af deres 9 børn, men kom hjem igen.`,
+     ['p7','p14','p15','p30','p31','p62','p63','p126']],
+    ['gedde','Familien Gedde 1895',
+     `Oldemor ${L('p27','Paula')}, kaldet Laue, var nr. 8 af 12 børn af proprietær ${L('p54')} og ${L('p55')}. Familiebilledet fra 1895 viser dem alle, sikkert taget til forældrenes sølvbryllup. Ove Frederik blev premierløjtnant, Emil udvandrede til Argentina og Olaf til Shanghai, og Ove blev skyllet over bord fra skoleskibet "Georg Stage" i 1894. Paula blev gift med gårdejer ${L('p26')} på Dalsgård i Rinkenæs, og de fik syv børn, bl.a. morfars mor ${L('p13','Else')}.`,
+     ['p27','p54','p55','p26','p13','g_ida']],
+    ['jorgensen','Farmors hedeslægt',
+     `Farmor ${L('p5','Liss')} var født i Silkeborg 1931 af maskinarbejder ${L('p10')} og ${L('p11')}. Hulda kom fra Sønder Felding. Hendes far var husmand ${L('p22','Mads Christensen')}, søn af mølleejerske Ane Kirstine Eskesdatter i Hoven, og hendes mor ${L('p23','Karen Jensen')} var fra Skarrild. Jens Nielsen Pedersens slægt kom fra Vester Starup og Fåborg ved Varde.`,
+     ['p5','p10','p11','p22','p23','p20','p21']],
+    ['larsen','Husmændene i Nordenbro',
+     `Mormors farfars far ${L('p56')} var husfæster i Framose i Nordenbro og døde i 1904. Hans far var gårdfæster Lars Thomsen i Magleby. Familiens MyHeritage-træ fører fejlagtigt slægten til Bornholm, men folketællingerne viser, at den blev på Sydlangeland. Hansine Petersens far ${L('p58','Peder Berendsen')} kom fra Lille Snøde og var karl i Magleby Præstegård, før han blev gift i 1857.`,
+     ['p56','p57','p58','p59','p28','p29','p112']],
     ['jorgensen','Typografen fra København',
      `Jørgensen-linjen er en bylinje. ${L('p16')} var typograf i København og Slagelse og giftede sig med den svenske tjenestepige ${L('p17')} fra Malmö. Deres søn Aage blev natvægter, gårdbestyrer og bestyrer af en fattiggård, før familien slog sig ned i Hadsten i 1932.`,
      ['p16','p17','p8','p32']],
@@ -518,15 +541,15 @@ function renderOversigt(){
   wire(document.getElementById('stories'));
 
   document.getElementById('open').innerHTML = [
-    ['Mors søster og dine halvsøskende','Nulevende personer er ikke i de offentlige registre. Send navne og fødselsår, så kommer de med i træet.'],
-    ['Udvandrerne','Fundet indtil videre: Paulas bror Olaf Gedde til Shanghai (1904) og broren Emil Gedde til Eldorado i Argentina (1922), samt mormors grandonkel Iver Peder Holgersen til Fresno i Californien (1910). Flere af mormors slægtninge fra Sydlangeland udvandrede til Amerika. Udvandrerarkivets database (udvandrerarkivet.dk) kan ikke nås herfra, så de amerikanske grene mangler endnu. Christian Jørgen Christensen fra Langø (f. 1887) er en mulig udvandrer.'],
-    ['Bekræft Lorenz\' far med DNA','Familien ved, at Sophus Petersen fra Påkjær var faren, og at Wilhelm Krogh tog skylden. En DNA-test (fx MyHeritage eller Ancestry) af din mor eller dig kan vise et match med efterkommere af den ene eller den anden.'],
-    ['Wilhelm Kroghs slægt','Lorenz\' biologiske far er født 9. okt. 1908 i Landkreis Flensburg. Hans forældre står i tyske standsregistre (Standesamt), der ikke er i de danske arkiver.'],
-    ['Ove Samuel Geddes forældre','Han er sandsynligvis søn af generalmajor Hans Christopher Gedde, men det mangler en primærkilde, fx kirkebogen for hans dåb i 1778 eller hans officersbestalling.'],
-    ['Claus Gaardsteds herkomst','Han kom til Vosnæsgaard efter 1784 fra et første ægteskab et andet sted. Findes det ægteskab, kan Gaardsted-linjen føres længere tilbage end 1750.'],
-    ['Lovisa Larsson i Malmö','Født 28. juni 1862, datter af Niels Larsen. Svenske kirkebøger (Riksarkivet) kan føre grenen videre.'],
-    ['Evalds egen slægtstavle','Hadsten Lokalarkiv (A37) har "Slægtstavle for Evald Gaardsted-Jørgensen". En kopi derfra kan sikkert udfylde flere huller.'],
-  ].map(([t,d])=>`<div><b>${esc(t)}</b>${esc(d)}</div>`).join('');
+    ['Lorenz\' far: DNA','Sofie (Vivis datter) er DNA-testet hos MyHeritage, og et match med Lis Frederiksens barnebarn bekræfter Else-siden. Næste skridt: Åbn det match, vælg "Fælles DNA-matches", og se, hvilke sønderjyske matches der ikke går igen. De er kandidater på Lorenz\' fars side og skal sammenlignes med efterkommere af Peter Petersen på Paakjær (Sophus) eller Krogh-slægten fra Snogbæk (Wilhelm).'],
+    ['Sophus\' fjerde datter','Familien siger, at Sophus fik 4 døtre, og at en af dem flyttede til Norge. Tre er fundet i Nybøl kirkebog (1938, 1940, 1943).'],
+    ['Udvandrerne','Fundet: Paulas brødre Olaf (Shanghai 1904) og Emil Gedde (Argentina 1922), mormors grandonkel Iver Peder Holgersen (Fresno 1910) og de fleste af Jørgen Christensen og Bodil Margrethe Clausdatters 9 børn (Amerika). Deres navne og bopæle i USA mangler endnu.'],
+    ['Wilhelm Kroghs slægt','Født 9. okt. 1908 i Landkreis Flensburg. Forældrene står i tyske standsregistre, der ikke er i de danske arkiver.'],
+    ['Ove Samuel Geddes forældre','Sandsynligvis søn af generalmajor Hans Christopher Gedde, men en primærkilde mangler, fx dåben 1778.'],
+    ['Claus Gaardsteds herkomst','Forpagter på Vosnæsgaard 1787 og ejer af Bogensholm 1801. Hans herkomst kræver kilder fra før 1787.'],
+    ['Lovisa Larsson i Malmö','Født 28. juni 1862, datter af Niels Larsen. Svenske kirkebøger kan føre grenen videre.'],
+    ['Sogne uden indeks','Flere aner er født i sogne, hvis kirkebøger ikke er indekseret for de år, fx Assing før 1814 og Klæsø og Hennetved i 1700-tallet. De skal læses side for side på Arkivalieronline.'],
+].map(([t,d])=>`<div><b>${esc(t)}</b>${esc(d)}</div>`).join('');
 }
 
 // ================= STAMTRÆ =================
@@ -616,17 +639,19 @@ function renderKort(){
       const o={x:anchor==='end'?x-r:x+r,y:y+(dy||4)/s,'text-anchor':anchor||'start'};
       el('text',{...o,class:'lbl-halo',style:`font-size:${10.5/s}px;stroke-width:${3.5/s}px`},svg).textContent=text; el('text',{...o,class:'lbl',style:`font-size:${10.5/s}px`},svg).textContent=text; });
   }
-  const pl=DATA.places, L=(n,a,dy)=>[short(n),pl[n][0],pl[n][1],a,dy];
+  const pl=DATA.places, L=(n,a,dy)=>pl[n]?[short(n),pl[n][0],pl[n][1],a,dy]:null;
   drawMap(document.getElementById('map'),[0,0,MAP.W,MAP.H],[
     L('Hune'),L('Gjellerup / Hammerum','end'),L('Silkeborg','end',10),L('Hadsten','end'),['Djursland',56.42,10.62,'start',-6],L('Tamdrup','end'),
     L('København','start',8),L('Helsingør'),L('Fredensborg','end',-4),L('Malmö'),L('Herlufmagle','end'),L('Næstved','start',8),
     L('Slagelse','end'),L('Viby (Roskilde amt)','end',12),L('Svendborg'),L('Ollerup','end'),L('Lejrskov (Ferup)','end'),
-    L('Broager','start',10),L('Egernsund','end',8),L('Snogbæk','start',-6),L('Ulkebøl'),L('Rinkenæs','end',-6)]);
+    L('Broager','start',10),L('Egernsund','end',8),L('Snogbæk','start',-6),L('Ulkebøl'),L('Rinkenæs','end',-6),
+    L('Nybøl (Paakjær)','start',-8),L('Magleby (Nordenbro), Langeland','start',8),L('Rudkøbing','end'),L('Humble (Kædeby), Langeland','end',10),
+    L('Sønder Felding'),L('Hoven','end'),L('Skarrild','start',-6),L('Vester Starup','end'),L('Syv (Roskilde amt)','start',-6)].filter(Boolean));
   const [ix0,iy0]=prj(56.47,10.27), [ix1,iy1]=prj(56.15,10.86);
   document.getElementById('inset').setAttribute('style','width:100%;height:auto');
   drawMap(document.getElementById('inset'),[ix0,iy0,ix1-ix0,iy1-iy0],[
     L('Kolind','start',-4),L('Tirstrup','start',-4),L('Fuglslev','start',14),L('Rosmus','end',12),L('Ebeltoft'),
-    L('Vosnæsgaard, Skødstrup','start',4),L('Bogensholm, Vistoft (Mols)','start',4)]);
+    L('Vosnæsgaard, Skødstrup','start',4),L('Bogensholm, Vistoft (Mols)','start',4)].filter(Boolean));
   const listEl=document.getElementById('placelist');
   listEl.innerHTML = Object.keys(ev).sort((a,b)=>ev[b].length-ev[a].length).map(pl=>`<button type="button" data-pl="${esc(pl)}"><span><i class="sw" style="background:${lineVar(dom(pl))};width:9px;height:9px;margin-right:6px"></i>${esc(pl)}</span><span class="n">${ev[pl].length}</span></button>`).join('');
   listEl.querySelectorAll('[data-pl]').forEach(b=>b.addEventListener('click',()=>showPlace(b.dataset.pl)));
@@ -650,7 +675,7 @@ function hbars(svg, rows, color){
 function renderTal(){
   const lc=document.getElementById('lifechart');
   const lifers=P.filter(p=>yr(p.born)&&yr(p.died)&&!/efter|–/.test(p.died)&&!/–/.test(p.born)).sort((a,b)=>yr(a.born)-yr(b.born));
-  const Y0=Math.floor(yr(lifers[0].born)/25)*25, Y1=2025, LW=Math.max(680, document.getElementById('lifewrap').clientWidth), LM=210, RH=17;
+  const Y0=Math.floor(yr(lifers[0].born)/25)*25, Y1=new Date().getFullYear(), LW=Math.max(680, document.getElementById('lifewrap').clientWidth), LM=210, RH=17;
   const LH=24+lifers.length*RH+20;
   lc.setAttribute('viewBox',`0 0 ${LW} ${LH}`); lc.setAttribute('width',LW); lc.setAttribute('height',LH);
   const xs=y=>LM+(y-Y0)/(Y1-Y0)*(LW-LM-14);
@@ -671,12 +696,17 @@ function renderTal(){
   const has = re => P.filter(p=>re.test(p.occ.join(' ').toLowerCase())).length;
   document.getElementById('lifestats').innerHTML=[[avgAd+' år','gennemsnitlig levealder, voksne'],[(yr(oldest.died)-yr(oldest.born))+' år',`længste liv: ${clean(oldest.name)}`],[childDeaths,'børn døde før 5-årsalderen'],
     [anc.filter(p=>p.ahnen>1&&p.bplace&&DATA.places[p.bplace]&&DATA.places[p.bplace][2]==='Djursland').length,'aner født på Djursland'],
+    [anc.filter(p=>p.ahnen>1&&p.bplace&&DATA.places[p.bplace]&&DATA.places[p.bplace][2]==='Langeland').length,'aner født på Langeland'],
+    [P.filter(p=>/udvandre/i.test(p.occ.join(' ')+' '+(p.note||''))).length,'udvandrere og rejsende'],
     [has(/sognefoged/),'sognefogeder'],[has(/løjtnant|kaptajn|major|oberst|kornet|officer/),'officerer']]
     .map(([v,k])=>`<div class="stat"><div class="v">${v}</div><div class="k">${esc(k)}</div></div>`).join('');
   const occRows=DATA.cats.map(([cat,keys])=>{ const who=P.filter(p=>p.occ.some(o=>keys.some(k=>o.toLowerCase().includes(k)))).map(p=>clean(p.name)); return [cat,who.length,who]; }).filter(r=>r[1]>0).sort((a,b)=>b[1]-a[1]);
   hbars(document.getElementById('occchart'), occRows, 'var(--l-jorgensen)');
   const reg={}; P.forEach(p=>{ if(p.bplace&&DATA.places[p.bplace]){ const r=DATA.places[p.bplace][2]; (reg[r]=reg[r]||[]).push(clean(p.name)); }});
   hbars(document.getElementById('regionchart'), Object.entries(reg).map(([r,w])=>[r,w.length,w]).sort((a,b)=>b[1]-a[1]), 'var(--l-jorgensen)');
+  const gens={}; anc.forEach(p=>{ const g=Math.floor(Math.log2(p.ahnen)); (gens[g]=gens[g]||[]).push(clean(p.name)); });
+  const grows=Object.keys(gens).map(Number).filter(g=>g>0).sort((a,b)=>a-b).map(g=>[`${GEN[g]?GEN[g][0].toUpperCase()+GEN[g].slice(1):g+' led tilbage'} (af ${2**g})`, gens[g].length, gens[g]]);
+  hbars(document.getElementById('genchart'), grows, 'var(--l-gedde)');
 }
 
 // ================= KILDER =================
@@ -689,6 +719,10 @@ function renderKilder(){
     ['Trap','Trap Danmark / danskeherregaarde.dk','https://www.danskeherregaarde.dk/nutid/vosnaesgaard','Ejerhistorie for Bogensholm og Vosnæsgaard'],
     ['Store norske','Store norske leksikon og lokalhistoriewiki.no','https://snl.no/Gedde','Den borgerlige Gedde-slægt i Danmark og Norge'],
     ['Geni','Geni','https://www.geni.com/people/Ove-Samuel-Gedde-I/6000000019093514261','Ove Samuel Geddes forældre (ikke primærkilde)'],
+    ['Familiedokument','Familiens opgørelser: "Paula Mathilde Chrestle Gedde og Jens Jensens slægt" og "Familien Gedde"','#kilder','Elses søskende og deres efterkommere, Gedde-børnene og familiebilledet 1895, historien om Lorenz\' far'],
+    ['anetavle','Familiens håndskrevne anetavle','#kilder','Datoer for bedste- og oldeforældre, Langø-linjen tilbage til 1744, rettelsen af Hansine Petersens forældre'],
+    ['Langø-piges','Lisbeth Skov: "En Langø-piges erindringer"','#kilder','Marius og Ane Marie Christensen, købet af Langø og dæmningen'],
+    ['MyHeritage','MyHeritage (familiens træ, Cousin Finder og DNA)','https://www.myheritage.dk/','Lars Larsens og Maren Christiansens familie samt DNA-matches'],
   ];
   const rows=DATA.sources.map(([k,n,w,u])=>[k,n,u,w]).concat(EXTRA);
   document.getElementById('srcbody').innerHTML=rows.map(([k,n,u,w])=>{const c=allSrc.filter(s=>s.startsWith(k)||s.includes(k)).length;

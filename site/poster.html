@@ -183,7 +183,7 @@ function render(){
   el('path',{d:`M${bx-bw/2},${by-26} Q${bx},${by-44} ${bx+bw/2},${by-26} L${bx+bw/2},${by+56} Q${bx},${by+38} ${bx-bw/2},${by+56} Z`,fill:T.plate,stroke:T.plateEdge,'stroke-width':2.5},ban);
   const sideTxt={1:'',2:' · fars side',3:' · mors side'}[side];
   el('text',{x:bx,y:by+18,'text-anchor':'middle',style:'font-family:var(--f-sc)','font-size':44,fill:T.title,'letter-spacing':'.04em'},ban).textContent='Slægten Gårdsted · Gedde';
-  el('text',{x:bx,y:by+86,'text-anchor':'middle',style:'font-family:var(--f-display)','font-size':17,'font-style':'italic',fill:T.ink2},ban).textContent=`${byId.p1&&!byId.p1.private?byId.p1.name+'s aner':'Anetavle'}${sideTxt} · ${gmax+1} generationer · efter kirkebøger og folketællinger`;
+  el('text',{x:bx,y:by+86,'text-anchor':'middle',style:'font-family:var(--f-display)','font-size':17,'font-style':'italic',fill:T.ink2},ban).textContent=`${byId.p1&&!byId.p1.private?byId.p1.name+'s aner':'Anetavle'}${sideTxt} · ${gmax+1} generationer · ${Object.keys(ahn).length-1} kendte aner · efter kirkebøger, folketællinger og familiens papirer`;
   applyVB();
 }
 function wrap(t,n){ const w=t.split(' '); const out=[]; let cur=''; for(const x of w){ if((cur+' '+x).trim().length>n && cur){ out.push(cur); cur=x; } else cur=(cur+' '+x).trim(); } if(cur) out.push(cur); return out.slice(0,3); }

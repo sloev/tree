@@ -32,8 +32,9 @@ PLACES = {
     "Viby (Roskilde amt)": (55.548, 12.022, "Sjælland"),
     "Syv (Roskilde amt)": (55.566, 12.058, "Sjælland"),
     "Hoven": (55.857, 8.733, "Vestjylland"),
+    "Dybbøl": (54.911, 9.748, "Sønderjylland"),
+    "Assing": (56.050, 8.880, "Vestjylland"),
     "Rinkenæs (Dalsgård)": (54.888, 9.596, "Sønderjylland"),
-    "Langø": (54.873, 10.773, "Langeland"),
     "Snøde (Lille Snøde)": (55.034, 10.806, "Langeland"),
     "Skarrild": (56.023, 8.857, "Vestjylland"),
     "Herlufmagle": (55.322, 11.763, "Sjælland"),
@@ -891,6 +892,27 @@ for _id, ch in (_docs.get("patch") or {}).items():
 for d in _docs.get("people") or []:
     d = dict(d); bp = d.pop("bplace", None)
     person(d.pop("id"), d.pop("name"), d.pop("sex"), bplace=bp if bp in PLACES else None, **d)
+
+# ================= Fødesteder, der kun står i noten =================
+# Mange automatisk fundne personer har fødestedet som tekst ("Født i Magleby."). Knyt dem til et kendt sted, så de kommer med på kort og i statistik.
+_ALIAS = {"fåborg": "Fåborg (Varde)", "tved": "Tved (Svendborg)", "københavn vor frue": "København", "nordenbro": "Magleby (Nordenbro), Langeland",
+          "bøsselykke": "Magleby (Nordenbro), Langeland", "magleby": "Magleby (Nordenbro), Langeland", "syv": "Syv (Roskilde amt)"}
+_first = {}
+for _k in PLACES:
+    _first.setdefault(_k.split(" (")[0].split(",")[0].strip().lower(), _k)
+def place_key(txt):
+    t = (txt or "").split(";")[0].split(",")[0].split(" ifølge")[0].split(" før ")[0].strip().lower()
+    return _ALIAS.get(t) or _first.get(t)
+import re as _re
+for p in P:
+    for fld, word in (("bplace", "Født"), ("dplace", "Død")):
+        if p.get(fld) and p[fld] not in PLACES:
+            k = place_key(p[fld])
+            if k: p[fld] = k
+        if not p.get(fld):
+            m = _re.search(word + r" i ([A-ZÆØÅ][^.]+)\.", p.get("note") or "")
+            k = m and place_key(m.group(1))
+            if k: p[fld] = k
 
 # ================= Private personer =================
 # Nulevende og personer født inden for de sidste 100 år uden dødsdato står ikke i denne fil.
