@@ -99,7 +99,7 @@ Registrets titel kendes ikke. Kilden står som "Dødsliste for Sydlangeland 1900
 
 **Christen (Kresten) Henriksen Jørgensen** blev født 3. nov. 1877 i Søndenbro, Magleby, da Lars Thomsen Larsen var 18 år. Dåben nævner Lars som far og Marthe Jørgensen som mor (LL:12-16292169). Konfirmationen 1893 og vielsen 1907 nævner også Lars som far.
 
-- **Moren** er sandsynligvis Marthe Jørgensen, født 9. okt. 1852, datter af Jørgen Christensen (Stougaard) og Karen Andersen. Hun døde 27. aug. 1878. I folketællingerne 1880 og 1890 boede Kresten hos Jørgen Christensen og Karen Andersen.
+- **Moren** hed Marthe Jørgensen, men hvilken Marthe er uafklaret. Kandidat A er Marthe Christine Jørgensen (f. 25. jan. 1837 i Tryggelev), gift 1861 med Thomas Rasmussen Jespersen og mor til syv børn 1860–1876; hun lever endnu i 1921. Kandidat B er Marthe Jørgensen (f. 9. okt. 1852), datter af Jørgen Christensen og Karen Andersen; hun døde 27. aug. 1878. I 1880 og 1890 boede Kresten som plejebarn hos netop Jørgen og Karen, hvilket peger på B. Kirkebogen har ingen af de tre andre børn, som en Google/MyHeritage-søgning nævner (Margrethe, Nielsine Marie og Otto August Jørgensen).
 - **Han blev gift 26. juli 1907** i Magleby med Marie Laurentine Christiansen (f. 1888), datter af Hans Jørgen Christiansen og Ane Kirstine Nielsen. Et barn blev født 15. jan. 1916 (navnet er skjult i indekset).
 - I 1921 står han i folketællingen som "Henrik Jørgensen", husfader i Magleby. Dødsår og sted er ikke fundet.
 - Kresten er Laurits Edvards halvbror. Hans efterkommere vil derfor dele DNA med Gerdas side.

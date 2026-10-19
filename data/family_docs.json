@@ -781,7 +781,7 @@
      "husfader (skrevet Henrik Jørgensen)"
     ]
    ],
-   "note": "Født 3. nov. 1877 i Søndenbro, Magleby sogn, med Lars Thomsen Larsen som far og Marthe Jørgensen som mor. Lars var 18 år. Kresten voksede op hos moderens forældre, Jørgen Christensen og Karen Andersen (folketællingerne 1880 og 1890), efter at moren døde i 1878. Konfirmationen 1893 og vielsen 1907 nævner begge Lars Thomsen Larsen som far. Konfirmationsindekset har fejlagtigt fødselsdatoen 23. feb. 1879. Dødsår og sted er ikke fundet.",
+   "note": "Født 3. nov. 1877 i Søndenbro, Magleby sogn, med Lars Thomsen Larsen som far og Marthe Jørgensen som mor. Lars var 18 år. Kresten boede i 1880 og 1890 hos Jørgen Christensen og Karen Andersen i Magleby, som 'andet' (plejebarn). Konfirmationen 1893 og vielsen 1907 nævner begge Lars Thomsen Larsen som far. Konfirmationsindekset har fejlagtigt fødselsdatoen 23. feb. 1879. Dødsår og sted er ikke fundet. To mulige mødre: (A) Marthe Christine Jørgensen, født 25. jan. 1837 (Tryggelev), gift 1861 i Magleby med Thomas Rasmussen Jespersen (1841–1891) og mor til syv Jespersen-børn 1860–1876; hun lever endnu i 1921 hos datteren Ane. (B) Marthe Jørgensen, født 9. okt. 1852, datter af Jørgen Christensen (Stougaard) og Karen Andersen, død 27. aug. 1878. Dåben 1877 nævner kun 'Marthe Jørgensen' og ingen ægtemand. Krestens plejefamilie i 1880 og 1890 var netop Jørgen Christensen og Karen Andersen, hvilket peger på B. Men hans folketællingsfamilie havde også andre plejebørn, så det er ikke afgørende. En Google-søgning (MyHeritage) giver Marthe Jørgensen fra Søndenbro tre andre børn, Margrethe, Nielsine Marie og Otto August Jørgensen. De findes ikke i Magleby kirkebog under hendes navn, så det er uverificeret.",
    "src": [
     "LL:12-16292169 (dåb Magleby 1877)",
     "LL:7-1520329 (FT 1880)",
@@ -794,23 +794,18 @@
   },
   {
    "id": "g_marthe",
-   "name": "Marthe (Christine) Jørgensen",
+   "name": "Marthe Jørgensen (Søndenbro, Magleby)",
    "sex": "F",
-   "born": "1852-10-09",
-   "bplace": "Magleby (Nordenbro), Langeland",
-   "died": "1878-08-27",
-   "dplace": "Magleby (Nordenbro), Langeland",
-   "rel": "Krestens mor (Lars Thomsen Larsens barn med hende)",
+   "rel": "Krestens mor",
    "line": "larsen",
-   "father": "g_jchr",
-   "mother": "g_kand",
-   "conf": "probable",
-   "note": "Sandsynlig mor til Kresten: datter af Jørgen Christensen (Stougaard) og Karen Andersdatter, født 9. okt. 1852 i Magleby, død 27. aug. 1878, ni måneder efter Krestens fødsel. Kresten boede senere hos hendes forældre. Der findes også et barn, Carl Jespersen (f. 16. maj 1874), hvor moren hedder Marthe Christine Jørgensen. Om det er hende, er uafklaret.",
+   "conf": "possible",
+   "note": "To mulige mødre: (A) Marthe Christine Jørgensen, født 25. jan. 1837 (Tryggelev), gift 1861 i Magleby med Thomas Rasmussen Jespersen (1841–1891) og mor til syv Jespersen-børn 1860–1876; hun lever endnu i 1921 hos datteren Ane. (B) Marthe Jørgensen, født 9. okt. 1852, datter af Jørgen Christensen (Stougaard) og Karen Andersen, død 27. aug. 1878. Dåben 1877 nævner kun 'Marthe Jørgensen' og ingen ægtemand. Krestens plejefamilie i 1880 og 1890 var netop Jørgen Christensen og Karen Andersen, hvilket peger på B. Men hans folketællingsfamilie havde også andre plejebørn, så det er ikke afgørende. En Google-søgning (MyHeritage) giver Marthe Jørgensen fra Søndenbro tre andre børn, Margrethe, Nielsine Marie og Otto August Jørgensen. De findes ikke i Magleby kirkebog under hendes navn, så det er uverificeret.",
    "src": [
-    "LL:12-16298961 (dåb Magleby 1852)",
-    "LL:11-7728955 (død Magleby 1878)",
     "LL:12-16292171 (moder ved Krestens dåb 1877)",
-    "LL:13-2517745 (moder ved Krestens vielse 1907)"
+    "LL:13-2517745 (moder ved Krestens vielse 1907)",
+    "LL:13-5236674 (vielse 1861, kandidat A)",
+    "LL:12-16298961 (dåb 1852, kandidat B)",
+    "LL:11-7728955 (død 1878, kandidat B)"
    ]
   },
   {
@@ -819,11 +814,11 @@
    "sex": "M",
    "born": "ca. 1822",
    "bplace": "Magleby (Nordenbro), Langeland",
-   "rel": "Krestens morfar",
+   "rel": "Krestens plejefar (muligvis morfar)",
    "line": "larsen",
    "spouse": "g_kand",
-   "conf": "probable",
-   "note": "Folketællingerne 1880 og 1890 i Magleby: Jørgen Christensen og Karen Andersen, begge født 1822, med børnebarnet Kresten og børnene Anne Margrethe, Pedersine Christine og Adolf.",
+   "conf": "possible",
+   "note": "Folketællingerne 1880 og 1890 i Magleby: Jørgen Christensen og Karen Andersen, begge født 1822, med plejebarnet Kresten og børnene Anne Margrethe, Pedersine Christine og Adolf. Datteren Marthe (f. 1852) kan være Krestens mor.",
    "src": [
     "LL:12-16298962 (datteren Marthes dåb 1852)",
     "LL:7-1522020 (FT 1880)",
@@ -836,10 +831,10 @@
    "sex": "F",
    "born": "ca. 1822",
    "bplace": "Magleby (Nordenbro), Langeland",
-   "rel": "Krestens mormor",
+   "rel": "Krestens plejemor (muligvis mormor)",
    "line": "larsen",
    "spouse": "g_jchr",
-   "conf": "probable",
+   "conf": "possible",
    "src": [
     "LL:12-16298963 (datteren Marthes dåb 1852)",
     "LL:7-1429871 (FT 1880)",
