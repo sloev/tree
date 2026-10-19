@@ -83,6 +83,18 @@ Familiens MyHeritage-træ er hentet som GEDCOM. Det tilføjer:
 
 Træets Bornholm-gren holder ikke. Den bygger på en automatisk kobling, der gør Lars Larsens far til en Lars Larsen fra Rutsker (1771–1854). Folketællingerne 1834–50 viser, at faren er gårdmand Lars Thomsen i Magleby. Derfor er de "8 generationer" tilbage til Lars Espersen (ca. 1683) og Kirstine Hansdatter (1697) ikke vores aner.
 
+## Dødsliste for Sydlangeland (oktober 2026)
+
+Familien har fotograferet sider af et trykt register over dødsfald på Sydlangeland 1900–1970 (efternavnene Larsen og Jørgensen). Registret giver navn, stilling, bopæl, alder og dødsdato. Det er sammenholdt med træet og Link Lives' dødsregister:
+
+- **Lars Larsen døde 24. april 1907**, 74 år, i Bøsseløkke, Nordenbro. MyHeritage har fejlagtigt 1904.
+- **Lars Thomsen Larsen døde 22. december 1915**, 56 år, husmand i Fredmose, Nordenbro.
+- **Tre af hans sønner døde i 1910–11:** Otto Peter Christian (27 år, forvalter), Axel Peter Marius (23, tjenestekarl) og Hans Sigurd (17, tjenestekarl). Link Lives' dødsregister nævner forældrene Lars Thomsen Larsen og Hansine Petersen.
+- **Peder Christian Larsen**, husmand i Bøsseløkke, døde 27. sept. 1944 (sandsynligt; kilden nævner ikke forældrene).
+- Der er ingen match på Jørgensen-siden. Siderne dækker kun fornavne fra Carl til Christian Ludvig, og Ane Maries søskende hedder Peder, Mads, Claus, Marius, Hans og Jørgine.
+
+Registrets titel kendes ikke. Kilden står som "Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar)".
+
 ## DNA (MyHeritage)
 
 En af Vivis døtre har taget en DNA-test hos MyHeritage. Hun har 12.093 matches; de 94 nærmeste er gennemgået.

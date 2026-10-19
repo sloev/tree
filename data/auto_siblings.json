@@ -300,7 +300,9 @@
   "rel": "Laurits' søskende",
   "src": [
    "LL:12-16282532 (dåb Magleby 1888)"
-  ]
+  ],
+  "reject": true,
+  "why": "dublet af s_p28_0 (Aksel/Axel)"
  },
  {
   "_for": "p16",

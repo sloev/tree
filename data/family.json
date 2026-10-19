@@ -309,17 +309,18 @@
    "rel": null,
    "born": "1859-11-01",
    "bplace": "Magleby (Nordenbro), Langeland",
-   "died": "1911–1921",
-   "dplace": null,
+   "died": "1915-12-22",
+   "dplace": "Magleby (Nordenbro), Langeland",
    "occ": [
-    "Daglejer, Nordenbro"
+    "Husmand, Fredmose, Nordenbro"
    ],
    "conf": "record",
-   "note": "I folketællingen 1911 bor han i Magleby med hustruen Hansine og sønnerne Aksel Peder, Hans Sigurd og Laurits Edvard. Hansine er enke i 1921. Gift 24. nov. 1881 med Hansine Petersen; de boede i Nordenbro og mistede 5 børn (familiens anetavle).",
+   "note": "I folketællingen 1911 bor han i Magleby med hustruen Hansine og sønnerne Aksel Peder, Hans Sigurd og Laurits Edvard. Hansine er enke i 1921. Død 22. dec. 1915, 56 år, husmand i Fredmose, Nordenbro. Tre af hans sønner døde i 1910–11: Otto (27 år), Axel (23) og Hans Sigurd (17).",
    "src": [
     "LL:12-16296348",
     "LL:23-1129713",
-    "Familiens håndskrevne anetavle"
+    "LL:11-3884819 (død Magleby 1915)",
+    "Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)"
    ],
    "res": [],
    "father": "p56",
@@ -477,13 +478,13 @@
    "rel": null,
    "born": "1832-08-30",
    "bplace": "Magleby (Nordenbro), Langeland",
-   "died": "1904-04-24",
-   "dplace": null,
+   "died": "1907-04-24",
+   "dplace": "Magleby (Nordenbro), Langeland",
    "occ": [
     "Daglejer ved landbruget, Magleby (1901)"
    ],
    "conf": "record",
-   "note": "Gift 27. aug. 1859 i Magleby (Langeland) med Maren Christiansen. Død 24. april 1904 i Bøsselykke, 71 år; ifølge MyHeritage-træet selvmord. Tvillingebroderen Anders blev hjemmedøbt og døde straks efter fødslen.",
+   "note": "Gift 27. aug. 1859 i Magleby (Langeland) med Maren Christiansen. Død 24. april 1907 i Bøsseløkke, Nordenbro, 74 år (dødsregistret i Magleby og dødslisten for Sydlangeland: 'fhv. husmand, Bøsseløkke, Nordenbro, 74'). MyHeritage-træet har fejlagtigt 1904 og angiver selvmord; det sidste kan ikke bekræftes. Tvillingebroderen Anders blev hjemmedøbt og døde straks efter fødslen.",
    "src": [
     "LL:12-16285744",
     "LL:13-5236614",
@@ -491,7 +492,8 @@
     "LL:7-1520193",
     "LL:22-1228475",
     "LL:9-1903457",
-    "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ"
+    "LL:11-3133471 (død Magleby 1907)",
+    "Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)"
    ],
    "res": [],
    "father": "p112",
@@ -6366,16 +6368,20 @@
    "ahnen": null,
    "line": "larsen",
    "rel": "Lars Thomsens søskende",
-   "born": "ca. 1878",
+   "born": "1877-06-19",
    "bplace": null,
-   "died": null,
-   "dplace": null,
-   "occ": [],
+   "died": "1944-09-27",
+   "dplace": "Magleby (Nordenbro), Langeland",
+   "occ": [
+    "Husmand, Bøsseløkke, Nordenbro"
+   ],
    "conf": "record",
-   "note": null,
+   "note": "Dødsdatoen er fra dødslisten ('husmand, Bøsseløkke, Nordenbro, 67'). Navnet, alderen og faderens gård passer, men kilden nævner ikke forældrene.",
    "src": [
     "LL:7-1520197",
-    "LL:22-1228479"
+    "LL:22-1228479",
+    "LL:12-16292130 (dåb Magleby 1877)",
+    "Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)"
    ],
    "res": [],
    "father": "p56",
@@ -6412,20 +6418,24 @@
   },
   {
    "id": "s_p28_0",
-   "name": "Aksel Peder Larsen",
+   "name": "Axel Peter Marius Larsen (Aksel Peder)",
    "sex": "M",
    "ahnen": null,
    "line": "larsen",
    "rel": "Laurits Edvards søskende",
    "born": "1888-02-13",
    "bplace": null,
-   "died": null,
-   "dplace": null,
-   "occ": [],
+   "died": "1911-03-05",
+   "dplace": "Magleby (Nordenbro), Langeland",
+   "occ": [
+    "Tjenestekarl, Fredmose, Nordenbro"
+   ],
    "conf": "record",
-   "note": null,
+   "note": "Døde 5. marts 1911, 23 år. Folketællingen 1911 skriver Aksel Peder.",
    "src": [
-    "LL:23-1129715"
+    "LL:23-1129715",
+    "LL:11-3133726 (død Magleby 1911)",
+    "Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)"
    ],
    "res": [],
    "father": "p28",
@@ -6444,13 +6454,17 @@
    "rel": "Laurits Edvards søskende",
    "born": "1894-04-13",
    "bplace": null,
-   "died": null,
-   "dplace": null,
-   "occ": [],
+   "died": "1911-11-24",
+   "dplace": "Magleby (Nordenbro), Langeland",
+   "occ": [
+    "Tjenestekarl, Fredmose, Nordenbro"
+   ],
    "conf": "record",
-   "note": null,
+   "note": "Døde 24. nov. 1911, 17 år.",
    "src": [
-    "LL:23-1129716"
+    "LL:23-1129716",
+    "LL:11-3133783 (død Magleby 1911)",
+    "Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)"
    ],
    "res": [],
    "father": "p28",
@@ -8298,20 +8312,24 @@
   },
   {
    "id": "as_p14_0",
-   "name": "Otto Kristian Larsen",
+   "name": "Otto Peter Christian Larsen (Otto Kristian)",
    "sex": "M",
    "ahnen": null,
    "line": "larsen",
    "rel": "Laurits' søskende",
    "born": "1883-07-05",
    "bplace": "Magleby (Nordenbro), Langeland",
-   "died": null,
+   "died": "1910-10-25",
    "dplace": null,
-   "occ": [],
+   "occ": [
+    "Forvalter, Kærbygård, Jylland (tidl. Fredmose)"
+   ],
    "conf": "record",
-   "note": "Født i Magleby.",
+   "note": "Født i Magleby. Døde 25. okt. 1910, 27 år, og blev begravet i Magleby.",
    "src": [
-    "LL:12-16292724 (dåb Magleby 1883)"
+    "LL:12-16292724 (dåb Magleby 1883)",
+    "LL:11-3133695 (død Magleby 1910)",
+    "Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)"
    ],
    "res": [],
    "father": "p28",
@@ -8338,31 +8356,6 @@
    "src": [
     "LL:12-16294268 (dåb Magleby 1885)",
     "LL:11-3133917 (begravet 1894)"
-   ],
-   "res": [],
-   "father": "p28",
-   "mother": "p29",
-   "living": false,
-   "sibof": null,
-   "step": null,
-   "spouse": null
-  },
-  {
-   "id": "as_p14_2",
-   "name": "Axel Peter Marcus Larsen",
-   "sex": "M",
-   "ahnen": null,
-   "line": "larsen",
-   "rel": "Laurits' søskende",
-   "born": "1888-02-13",
-   "bplace": "Magleby (Nordenbro), Langeland",
-   "died": null,
-   "dplace": null,
-   "occ": [],
-   "conf": "record",
-   "note": "Født i Magleby.",
-   "src": [
-    "LL:12-16282532 (dåb Magleby 1888)"
    ],
    "res": [],
    "father": "p28",

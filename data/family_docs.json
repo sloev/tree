@@ -144,13 +144,16 @@
    "note": "Konfirmeret 3. okt. 1920 i Humble. Død 18. april 1992 i Svendborg."
   },
   "p28": {
+   "died": "1915-12-22",
+   "dplace": "Magleby (Nordenbro), Langeland",
    "occ": [
-    "Daglejer, Nordenbro"
+    "Husmand, Fredmose, Nordenbro"
    ],
    "src": [
-    "Familiens håndskrevne anetavle"
+    "LL:11-3884819 (død Magleby 1915)",
+    "Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)"
    ],
-   "note": "Gift 24. nov. 1881 med Hansine Petersen; de boede i Nordenbro og mistede 5 børn (familiens anetavle)."
+   "note": "Død 22. dec. 1915, 56 år, husmand i Fredmose, Nordenbro. Tre af hans sønner døde i 1910–11: Otto (27 år), Axel (23) og Hans Sigurd (17)."
   },
   "p30": {
    "occ": [
@@ -173,11 +176,13 @@
    "note": "Kom som 10-årig til Langø i 1894, da forældrene købte øen. Død 19. april 1975 i Nordenbro."
   },
   "p56": {
-   "died": "1904-04-24",
+   "died": "1907-04-24",
    "src": [
-    "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ"
+    "LL:11-3133471 (død Magleby 1907)",
+    "Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)"
    ],
-   "note": "Død 24. april 1904 i Bøsselykke, 71 år; ifølge MyHeritage-træet selvmord. Tvillingebroderen Anders blev hjemmedøbt og døde straks efter fødslen."
+   "note": "Død 24. april 1907 i Bøsseløkke, Nordenbro, 74 år (dødsregistret i Magleby og dødslisten for Sydlangeland: 'fhv. husmand, Bøsseløkke, Nordenbro, 74'). MyHeritage-træet har fejlagtigt 1904 og angiver selvmord; det sidste kan ikke bekræftes. Tvillingebroderen Anders blev hjemmedøbt og døde straks efter fødslen.",
+   "dplace": "Magleby (Nordenbro), Langeland"
   },
   "p57": {
    "died": "1923-12-28",
@@ -367,6 +372,56 @@
     "MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ"
    ],
    "note": "Født i Bøsselykke. Gift med Jørgen Nielsen Christiansen. Død 17. dec. 1953 på Nordenbro Hede, 80 år."
+  },
+  "s_p28_0": {
+   "name": "Axel Peter Marius Larsen (Aksel Peder)",
+   "died": "1911-03-05",
+   "occ": [
+    "Tjenestekarl, Fredmose, Nordenbro"
+   ],
+   "src": [
+    "LL:11-3133726 (død Magleby 1911)",
+    "Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)"
+   ],
+   "note": "Døde 5. marts 1911, 23 år. Folketællingen 1911 skriver Aksel Peder.",
+   "dplace": "Magleby (Nordenbro), Langeland"
+  },
+  "s_p28_1": {
+   "died": "1911-11-24",
+   "occ": [
+    "Tjenestekarl, Fredmose, Nordenbro"
+   ],
+   "src": [
+    "LL:11-3133783 (død Magleby 1911)",
+    "Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)"
+   ],
+   "note": "Døde 24. nov. 1911, 17 år.",
+   "dplace": "Magleby (Nordenbro), Langeland"
+  },
+  "as_p14_0": {
+   "name": "Otto Peter Christian Larsen (Otto Kristian)",
+   "died": "1910-10-25",
+   "occ": [
+    "Forvalter, Kærbygård, Jylland (tidl. Fredmose)"
+   ],
+   "src": [
+    "LL:11-3133695 (død Magleby 1910)",
+    "Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)"
+   ],
+   "note": "Døde 25. okt. 1910, 27 år, og blev begravet i Magleby."
+  },
+  "s_p56_3": {
+   "born": "1877-06-19",
+   "died": "1944-09-27",
+   "occ": [
+    "Husmand, Bøsseløkke, Nordenbro"
+   ],
+   "src": [
+    "LL:12-16292130 (dåb Magleby 1877)",
+    "Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)"
+   ],
+   "note": "Dødsdatoen er fra dødslisten ('husmand, Bøsseløkke, Nordenbro, 67'). Navnet, alderen og faderens gård passer, men kilden nævner ikke forældrene.",
+   "dplace": "Magleby (Nordenbro), Langeland"
   }
  },
  "people": [

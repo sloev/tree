@@ -237,15 +237,18 @@
 2 DATE 1 NOV 1859
 2 PLAC Magleby (Nordenbro), Langeland, Danmark
 1 DEAT
-2 DATE BET 1911 AND 1921
-1 OCCU Daglejer, Nordenbro
-1 NOTE I folketællingen 1911 bor han i Magleby med hustruen Hansine og sønnerne Aksel Peder, Hans Sigurd og Laurits Edvard. Hansine er enke i 1921. Gift 24. nov. 1881 med Hansine Petersen; de boede i Nordenbro og mistede 5 børn (familiens anetavle).
+2 DATE 22 DEC 1915
+2 PLAC Magleby (Nordenbro), Langeland, Danmark
+1 OCCU Husmand, Fredmose, Nordenbro
+1 NOTE I folketællingen 1911 bor han i Magleby med hustruen Hansine og sønnerne Aksel Peder, Hans Sigurd og Laurits Edvard. Hansine er enke i 1921. Død 22. dec. 1915, 56 år, husmand i Fredmose, Nordenbro. Tre af hans sønner døde i 1910–11: Otto (27 år), Axel (23) og Hans Sigurd (17).
 1 SOUR
 2 PAGE LL:12-16296348
 1 SOUR
 2 PAGE LL:23-1129713
 1 SOUR
-2 PAGE Familiens håndskrevne anetavle
+2 PAGE LL:11-3884819 (død Magleby 1915)
+1 SOUR
+2 PAGE Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)
 1 FAMS @F5@
 1 FAMC @F7@
 0 @p29@ INDI
@@ -359,9 +362,10 @@
 2 DATE 30 AUG 1832
 2 PLAC Magleby (Nordenbro), Langeland, Danmark
 1 DEAT
-2 DATE 24 APR 1904
+2 DATE 24 APR 1907
+2 PLAC Magleby (Nordenbro), Langeland, Danmark
 1 OCCU Daglejer ved landbruget, Magleby (1901)
-1 NOTE Gift 27. aug. 1859 i Magleby (Langeland) med Maren Christiansen. Død 24. april 1904 i Bøsselykke, 71 år; ifølge MyHeritage-træet selvmord. Tvillingebroderen Anders blev hjemmedøbt og døde straks efter fødslen.
+1 NOTE Gift 27. aug. 1859 i Magleby (Langeland) med Maren Christiansen. Død 24. april 1907 i Bøsseløkke, Nordenbro, 74 år (dødsregistret i Magleby og dødslisten for Sydlangeland: 'fhv. husmand, Bøsseløkke, Nordenbro, 74'). MyHeritage-træet har fejlagtigt 1904 og angiver selvmord; det sidste kan ikke bekræftes. Tvillingebroderen Anders blev hjemmedøbt og døde straks efter fødslen.
 1 SOUR
 2 PAGE LL:12-16285744
 1 SOUR
@@ -375,7 +379,9 @@
 1 SOUR
 2 PAGE LL:9-1903457
 1 SOUR
-2 PAGE MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
+2 PAGE LL:11-3133471 (død Magleby 1907)
+1 SOUR
+2 PAGE Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)
 1 FAMS @F7@
 1 FAMC @F11@
 0 @p57@ INDI
@@ -3218,11 +3224,20 @@
 1 NAME Peder Christian /Larsen/
 1 SEX M
 1 BIRT
-2 DATE ABT 1878
+2 DATE 19 JUN 1877
+1 DEAT
+2 DATE 27 SEP 1944
+2 PLAC Magleby (Nordenbro), Langeland, Danmark
+1 OCCU Husmand, Bøsseløkke, Nordenbro
+1 NOTE Dødsdatoen er fra dødslisten ('husmand, Bøsseløkke, Nordenbro, 67'). Navnet, alderen og faderens gård passer, men kilden nævner ikke forældrene.
 1 SOUR
 2 PAGE LL:7-1520197
 1 SOUR
 2 PAGE LL:22-1228479
+1 SOUR
+2 PAGE LL:12-16292130 (dåb Magleby 1877)
+1 SOUR
+2 PAGE Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)
 1 FAMC @F7@
 0 @s_p56_4@ INDI
 1 NAME Thomas /Larsen/
@@ -3233,20 +3248,38 @@
 2 PAGE LL:22-1228480
 1 FAMC @F7@
 0 @s_p28_0@ INDI
-1 NAME Aksel Peder /Larsen/
+1 NAME Axel Peter Marius /Larsen/
 1 SEX M
 1 BIRT
 2 DATE 13 FEB 1888
+1 DEAT
+2 DATE 5 MAR 1911
+2 PLAC Magleby (Nordenbro), Langeland, Danmark
+1 OCCU Tjenestekarl, Fredmose, Nordenbro
+1 NOTE Døde 5. marts 1911, 23 år. Folketællingen 1911 skriver Aksel Peder.
 1 SOUR
 2 PAGE LL:23-1129715
+1 SOUR
+2 PAGE LL:11-3133726 (død Magleby 1911)
+1 SOUR
+2 PAGE Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)
 1 FAMC @F5@
 0 @s_p28_1@ INDI
 1 NAME Hans Sigurd /Larsen/
 1 SEX M
 1 BIRT
 2 DATE 13 APR 1894
+1 DEAT
+2 DATE 24 NOV 1911
+2 PLAC Magleby (Nordenbro), Langeland, Danmark
+1 OCCU Tjenestekarl, Fredmose, Nordenbro
+1 NOTE Døde 24. nov. 1911, 17 år.
 1 SOUR
 2 PAGE LL:23-1129716
+1 SOUR
+2 PAGE LL:11-3133783 (død Magleby 1911)
+1 SOUR
+2 PAGE Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)
 1 FAMC @F5@
 0 @s_p24_0@ INDI
 1 NAME Søn
@@ -3977,14 +4010,21 @@
 2 PAGE LL:12-5952415 (dåb Sønder Felding 1898)
 1 FAMC @F22@
 0 @as_p14_0@ INDI
-1 NAME Otto Kristian /Larsen/
+1 NAME Otto Peter Christian /Larsen/
 1 SEX M
 1 BIRT
 2 DATE 5 JUL 1883
 2 PLAC Magleby (Nordenbro), Langeland, Danmark
-1 NOTE Født i Magleby.
+1 DEAT
+2 DATE 25 OCT 1910
+1 OCCU Forvalter, Kærbygård, Jylland (tidl. Fredmose)
+1 NOTE Født i Magleby. Døde 25. okt. 1910, 27 år, og blev begravet i Magleby.
 1 SOUR
 2 PAGE LL:12-16292724 (dåb Magleby 1883)
+1 SOUR
+2 PAGE LL:11-3133695 (død Magleby 1910)
+1 SOUR
+2 PAGE Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)
 1 FAMC @F5@
 0 @as_p14_1@ INDI
 1 NAME Olga Mathilde /Larsen/
@@ -3999,16 +4039,6 @@
 2 PAGE LL:12-16294268 (dåb Magleby 1885)
 1 SOUR
 2 PAGE LL:11-3133917 (begravet 1894)
-1 FAMC @F5@
-0 @as_p14_2@ INDI
-1 NAME Axel Peter Marcus /Larsen/
-1 SEX M
-1 BIRT
-2 DATE 13 FEB 1888
-2 PLAC Magleby (Nordenbro), Langeland, Danmark
-1 NOTE Født i Magleby.
-1 SOUR
-2 PAGE LL:12-16282532 (dåb Magleby 1888)
 1 FAMC @F5@
 0 @as_p16_0@ INDI
 1 NAME Nicoline Mathilde /Jørgensen/
@@ -5535,7 +5565,6 @@
 1 CHIL @s_p28_1@
 1 CHIL @as_p14_0@
 1 CHIL @as_p14_1@
-1 CHIL @as_p14_2@
 0 @F6@ FAM
 1 HUSB @p30@
 1 WIFE @p31@
