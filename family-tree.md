@@ -95,6 +95,15 @@ Familien har fotograferet sider af et trykt register over dødsfald på Sydlange
 
 Registrets titel kendes ikke. Kilden står som "Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar)".
 
+## Kresten, Lars Thomsen Larsens uægte søn
+
+**Christen (Kresten) Henriksen Jørgensen** blev født 3. nov. 1877 i Søndenbro, Magleby, da Lars Thomsen Larsen var 18 år. Dåben nævner Lars som far og Marthe Jørgensen som mor (LL:12-16292169). Konfirmationen 1893 og vielsen 1907 nævner også Lars som far.
+
+- **Moren** er sandsynligvis Marthe Jørgensen, født 9. okt. 1852, datter af Jørgen Christensen (Stougaard) og Karen Andersen. Hun døde 27. aug. 1878. I folketællingerne 1880 og 1890 boede Kresten hos Jørgen Christensen og Karen Andersen.
+- **Han blev gift 26. juli 1907** i Magleby med Marie Laurentine Christiansen (f. 1888), datter af Hans Jørgen Christiansen og Ane Kirstine Nielsen. Et barn blev født 15. jan. 1916 (navnet er skjult i indekset).
+- I 1921 står han i folketællingen som "Henrik Jørgensen", husfader i Magleby. Dødsår og sted er ikke fundet.
+- Kresten er Laurits Edvards halvbror. Hans efterkommere vil derfor dele DNA med Gerdas side.
+
 ## DNA (MyHeritage)
 
 En af Vivis døtre har taget en DNA-test hos MyHeritage. Hun har 12.093 matches; de 94 nærmeste er gennemgået.
