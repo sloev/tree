@@ -404,3 +404,19 @@ Phase 5 continues: prioritize original probate records for the Gaardsted branch,
 - Re-read this method file first; continued on branch ccr-6abdfb67-cbzklo.
 - Inspected public data/family.json entries for Ahnentafel 66–67 and the public data/auto_ancestors.json frontier only. No private/encrypted data was accessed.
 - Checked public archive metadata and a secondary extraction of the Vibygård probate protocol. No original register image read, no parentage established, no genealogy source data changed, no local build/tests run.
+
+
+## Milestone 17 — Recheck Vibygård probate transcription and correct archive endpoints
+- Reopened the actual Aurelia Clemons probate extraction rather than relying on the prior summary. It explicitly labels the material as Book 1 (1743–1818) and Book 2 (1819–1850), both on film 41401.
+- Confirmed the 25 February 1799 entry for Niels Jensen at page 452 (with later references pages 464): witness is transcribed as “Hans Jensen gartner i Wiibyegrd”. This is a concrete occupation/location match to the later Syv ancestor p66, but remains a candidate identity only.
+- Confirmed the 31 December 1820 probate for Maren Poulsdatter in Viby, pages 21–22 and later references 32–34: the transcription calls her husband “Hans Jensen gartner” and lists children Poul Hansen (cottager in Assingløse), Jens Hansen (gardener), Peder Hansen (cottager in Viby), and Ane Hansdatter (married to Willum Hansen in Valsø). This supports a plausible prior marriage/widower scenario before p66's Syv marriage in 1822, but does not prove identity. The 1822 marriage entry remains the key comparison.
+- **Correction to Milestone 16's AO endpoint mapping:** DS-Wiki's table at https://wiki.slaegt.dk/index.php/Vibyg%C3%A5rd identifies the Skifteprotokol 1743–1850 AO endpoint as `epid=17021260` (link 8), and its register as `epid=17021266` (link 10). The Fæsteprotokol 1719–1827 is link 12; its register is link 14 (`epid=21026101`). Milestone 16 incorrectly labelled `epid=21026101` as the probate protocol. The direct AO redirects currently fail in the text browser with HTTP 500, so no original image has been read.
+- Rigsarkivet's probate guide confirms that before 1851 an individual's occupation/status determined the jurisdiction; estate servants and employees are one distinct category of probate. This makes the estate archive relevant, but does not by itself establish that every gardener's probate must be in the estate protocol. Source: https://www.rigsarkivet.dk/vejledning/skifter-og-testamenter/skiftearkivalier-kom-godt-i-gang/.
+- The extraction is a secondary transcription/finding aid, not the original probate protocol. It records the 1799 and 1820 entries but gives no parents for Hans Jensen. No relationship or family structure added.
+### Next steps
+1. Check the original Syv marriage entry from 1822 for p66 Hans Jensen and Margaretha Pedersdatter: especially widower status, age, occupation, and residence. If recorded as widower/gartner from Viby, it would materially strengthen the candidate chain from 1820 and 1799.
+2. Search the Syv enesteministerialbog for Hans's baptism around 1750–1755 and check the completeness of births for that interval; do not infer parents from probate witnesses alone.
+3. Then rotate to an unrelated open branch (priority: Langeland Ahnentafel 114–115 or Broager/Nybøl collateral p53) rather than continuing to mine Vibygård indefinitely.
+### Validation
+- Re-read this method file first; continued on branch `ccr-6abdfb67-cbzklo`.
+- Inspected only public family.json and public archival catalogues/transcriptions; no private/encrypted data accessed. No original image read, no genealogy source data changed, no local build/tests run.
