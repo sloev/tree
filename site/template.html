@@ -241,6 +241,17 @@ th,td{padding:10px 12px}
   .toolbar{top:44px}
   .ped-scroll{max-height:70vh}
 }
+
+/* Accessibility and motion preferences across all sections. */
+:where(a,button,input,select,textarea,[tabindex]):focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+button,a{touch-action:manipulation}
+.drawer{width:min(480px,100vw)}
+.drawer-head{min-height:58px;flex-shrink:0}
+.drawer-body{overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+.ped-scroll{touch-action:pan-x pan-y;overscroll-behavior:contain}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
 </style>
 <div class="wrap">
 <header class="mast">
@@ -378,7 +389,7 @@ th,td{padding:10px 12px}
 </div>
 
 <div class="scrim" id="scrim" hidden></div>
-<aside class="drawer" id="drawer" hidden aria-labelledby="d-name" role="dialog">
+<aside class="drawer" id="drawer" hidden aria-labelledby="d-name" role="dialog" aria-modal="true">
   <div class="drawer-head">
     <button type="button" class="icon-btn" id="d-back" hidden>← Tilbage</button>
     <span style="flex:1"></span>
@@ -482,7 +493,17 @@ function closeDrawer(){ drawer.hidden=true; scrim.hidden=true; hideTip(); if(las
 dBack.addEventListener('click',()=>{ hist.pop(); openPerson(hist[hist.length-1], false); });
 document.getElementById('d-close').addEventListener('click',closeDrawer);
 scrim.addEventListener('click',closeDrawer);
-addEventListener('keydown',e=>{ if(e.key==='Escape'&&!drawer.hidden) closeDrawer(); });
+addEventListener('keydown',e=>{
+  if(drawer.hidden) return;
+  if(e.key==='Escape'){ closeDrawer(); return; }
+  if(e.key==='Tab'){
+    const focusable=[...drawer.querySelectorAll('button:not([disabled]):not([hidden]),a[href],input:not([disabled]),select:not([disabled]),textarea:not([disabled]),[tabindex]:not([tabindex="-1"])')].filter(x=>x.getClientRects().length);
+    if(!focusable.length){ e.preventDefault(); return; }
+    const first=focusable[0], last=focusable[focusable.length-1];
+    if(e.shiftKey&&(document.activeElement===first||!drawer.contains(document.activeElement))){ e.preventDefault(); last.focus(); }
+    else if(!e.shiftKey&&(document.activeElement===last||!drawer.contains(document.activeElement))){ e.preventDefault(); first.focus(); }
+  }
+});
 function wire(root){ root.querySelectorAll('[data-pid]').forEach(b=>b.addEventListener('click',()=>openPerson(b.dataset.pid))); }
 
 // ---------- faner ----------
