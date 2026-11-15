@@ -152,6 +152,7 @@ Familien fortæller, at navnet kommer fra en kaptajn i Trankebar. Den nærmeste 
 ## Stadig åbent
 - **Gerdas pigenavn er fundet:** Larsen, født i Nordenbro, Magleby sogn, Langeland (Magleby kirkebog 1935).
 - **Wilhelm Kroghs forældre.** De står i tyske standsregistre for Flensburg.
+- **Mulig Krogh-kandidat (ikke identificeret):** En afskrift af FT 1925 for Tandslet/Neder Tandslet på Alsnissen nævner Carl Vilhelm Krogh, født 9.11.1908 i Tastrup/Flensborg, som tjenestekarl i Smøl. Det ligner Wilhelms geografiske spor (Tastrup/Flensborg og senere landarbejde i Sønderjylland), men træets Wilhelm er registreret født 9.10.1908. Den forskellige dato og det ekstra fornavn betyder, at de ikke må slås sammen uden fødsels-/dåbsindførsel eller andet direkte bevis. Næste skridt: find Carl Vilhelms fødselsregistrering i Tastrup/Flensborg og sammenhold forældre og fødselsdato med Egernsund-standsregistrets randnote for Wilhelm. Kilde: [Alsnissen, FT 1925 Tandslet/Neder Tandslet](https://www.alsnissen.dk/default.asp?side=2321) (husstand 25, nr. 8).
 - **Ove Samuel Geddes dåb (1778).** Den skal bekræfte forældrene Hans Christopher Gedde og Øllegaard Sophie Fischer.
 - **Claus Gaardsteds herkomst** (forpagter på Vosnæsgård 1787, ejer af Bogensholm 1801). Kræver skifter og kirkebøger før 1787.
 - **Lovisa Larsson i Malmö** (svenske kirkebøger).
