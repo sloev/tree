@@ -159,3 +159,9 @@ The compacting defect in `tools/expand.py` is confirmed by direct source tracing
 3. Review `site/build.py` inline JSON serialization and implement script-context escaping with a minimal fixture.
 4. Reconcile the four supported non-ISO dates and GEDCOM export behavior; add validation for impossible month/day values.
 5. Update this checkpoint before any code edits and explicitly state that runtime validation is unavailable unless an execution route becomes available.
+
+
+### Remaining utility review
+- `tools/addman.py` was inspected. `add()` replaces an entry by Ahnentafel number and patch flag, then appends a normalized record; `sib()` replaces all sibling rows for a given `_for` person and expands the supplied rows with shared parent/source metadata.
+- Minor API footgun: `sib()` calls `extra.pop("src", [])`, mutating each caller-supplied `extra` dictionary. This is surprising for a helper API and can affect a caller that reuses those dictionaries. A safer implementation would copy the dictionary or use `extra.get("src", [])`; low priority unless callers reuse row metadata.
+- The script-context concern is supported by OWASP's current XSS prevention guidance: JSON.stringify output is not itself an HTML/script-context encoder, and a literal `</script>` can terminate an inline script before the JavaScript parser processes the quoted JSON. The current data scan was clean, but the generator should encode for the actual HTML script context or move JSON into a non-executable data block / external JSON resource. Reference: https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
