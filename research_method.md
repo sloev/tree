@@ -10,7 +10,7 @@
 - At each major milestone, update this file with findings, files inspected, changes, validation, and the next concrete step.
 
 ## Active phase
-Phase 4 — complete public-data integrity audit and regression-test design; implementation is deferred until a safe execution/test route is available.
+Phase 5 — systematic ancestral expansion and gap closure, beginning with the existing Ahnentafel frontier and source coverage mapping.
 
 ## Progress
 - Confirmed README documents a Python generation pipeline:
@@ -165,3 +165,44 @@ The compacting defect in `tools/expand.py` is confirmed by direct source tracing
 - `tools/addman.py` was inspected. `add()` replaces an entry by Ahnentafel number and patch flag, then appends a normalized record; `sib()` replaces all sibling rows for a given `_for` person and expands the supplied rows with shared parent/source metadata.
 - Minor API footgun: `sib()` calls `extra.pop("src", [])`, mutating each caller-supplied `extra` dictionary. This is surprising for a helper API and can affect a caller that reuses those dictionaries. A safer implementation would copy the dictionary or use `extra.get("src", [])`; low priority unless callers reuse row metadata.
 - The script-context concern is supported by OWASP's current XSS prevention guidance: JSON.stringify output is not itself an HTML/script-context encoder, and a literal `</script>` can terminate an inline script before the JavaScript parser processes the quoted JSON. The current data scan was clean, but the generator should encode for the actual HTML script context or move JSON into a non-executable data block / external JSON resource. Reference: https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
+
+
+## Milestone 5 — genealogical expansion strategy and Ahnentafel gap map
+### Scope and safeguards
+- Re-read this method file before continuing. Continued on branch `ccr-6abdfb67-cbzklo`.
+- Shifted the immediate research objective from technical review to systematic ancestral expansion, per the user's stated goal of maximum depth and full coverage.
+- Only the public portion of `data/family.json` was parsed. The `private_blob` field was not read or emitted; no private records were enumerated or decrypted.
+- No source-data or application code was changed in this milestone.
+
+### Current public Ahnentafel coverage
+- The public snapshot contains 387 non-private people with Ahnentafel numbers.
+- Ahnentafel slots 2–16 are fully occupied; generation 5 (32–63) has 31 of 32 slots, with slot 35 absent.
+- Generation 6 (64–127) has 50 of 64 slots; 14 slots are absent: 64, 65, 68, 69, 70, 71, 81, 83, 84, 85, 92, 93, 122, 123.
+- Generation 7 (128–255) currently has 15 people; generation 8 (256–511) has 9; generation 9 (512–1023) has 9; generation 10 (1024–2047) has 4; generations 11–13 have respectively 4, 2, and 2 people.
+- Many people in generations 6–9 are already named but lack one or both parent links. This is an opportunity to recover parents from baptism, marriage, census, probate, and land records before searching blindly for additional names.
+- Highest-priority named frontier candidates include:
+  - Ahnentafel 32 Niels Jørgensen and 34 Niels Larsen (generation 5; both parents unknown).
+  - 40 Jens Pedersen and 41 Kirsten Marie Nielsen (one parent each still unknown).
+  - 42 Peder Jensen and 46 Jens Peder Larsen (both parents unknown).
+  - 61 Karen Nielsen (both parents unknown).
+  - 66 Hans Jensen (c.1752) and 67 Margaretha Pedersdatter (c.1797), parents unknown.
+  - 72 Claus Gaardsted (c.1750) and 73 Kirsten Marie Jørgensdatter, parents unknown.
+  - 74 Jens Hansen and 75 Mette Pedersdatter (one parent of 75 is already known as Peder Hallis; remaining parent unresolved).
+  - Additional branches in the Langeland, Vester Starup, Fåborg, Hoven, Sønder Felding, Broager/Nybøl, Gedde/von Kleist, and Langø families.
+- Existing reject markers in `data/auto_ancestors.json` are deliberate safeguards against wrong-parish/false matches. Do not reactivate them without new primary-source evidence.
+
+### Source-coverage research
+- Rigsarkivet states that Link-Lives exposes transcribed Danish parish records roughly 1814–1917 and census datasets for 1787, 1801, 1834, 1840, 1845, 1850, 1860, 1880, 1885 (Copenhagen only), and 1901; Link-Lives also provides proposed cross-record life-course links. Cite: https://link-lives.dk/data-og-kilder-i-link-lives/ and https://link-lives.dk/soegevejledning/
+- Link-Lives search visibility is restricted for people born after 1904, and the source descriptions warn that the transcribed record is not a substitute for the original archival image. Cite: https://link-lives.dk/data-og-kilder-i-link-lives/
+- Rigsarkivet's 2026 migration guidance says the Danish Demographic Database is moving to “Søg i Samlingerne”; datasets remain preserved but are being migrated, so availability and search behavior may change. Cite: https://www.rigsarkivet.dk/vejledning/fra-dansk-demografisk-database-til-soeg-i-samlingerne/
+- A specialist regional index, Djurslandsdatabasen, independently lists Claus Gaardsted as born 1751 and deceased 1811 at Bogensholm, and lists Joachim/Jochum Gaardsted as born 1792 at Vosnæsgård. This is a promising regional lead for the Gaardsted line, not proof of Claus's parents or of every identity link. Cite: https://djursslaegt.djursdatabasen.dk/efternavne/EFTERNAVNG.htm
+- Trap Danmark corroborates that Claus Gaardsted bought Bogensholm in 1796 and died in 1811. The 1803 royal memorandum confirms him as owner of Bogensholm. These establish context, not parentage. Cite: https://netstol.dk/slaegtsForskning/trap_danmark_4/Trap_Danmark_4_udgave_%281925%29_Bind_6_Randers_Amt_Mols_og_OEster-Lisbjaerg_Herreder.pdf and https://da.wikisource.org/wiki/Side:Kongelige_Rescripter,_Resolutioner_og_Collegialbreve_for_Danmark_og_Norge_udtogsvis_udgivne_i_chronologisk_Orden._VI._Deel._12._Bind_(1803%E2%80%931804).pdf/258
+
+### Research discipline and next actions
+1. Build a prioritized worklist from the current public Ahnentafel frontier. Track each open father/mother slot separately; distinguish “named but parents unknown” from “slot entirely empty.”
+2. For each person, extract the existing source IDs and search the original birth/baptism, marriage, confirmation, death/burial, census, probate, and land records. Use Link-Lives life-course suggestions only as candidate navigation; verify relationships against original images.
+3. For people born before the indexed parish-register coverage (especially pre-1814), identify the relevant parish, neighboring parishes, estate, and archive series. Do not assume Link-Lives has those baptisms.
+4. Start with high-yield branches where there are already exact source keys or precise parish/year anchors: the Gaardsted/Vosnæsgård line; Jens Peder Larsen/Assing; Hans Jensen/Margaretha Pedersdatter/Syv; and the generation-5 Langeland branches.
+5. Record every search, including negative searches, to avoid repeated work. Add a new person only when identity is supported; retain uncertainty and rejected alternatives in notes.
+6. Continue the technical parent-role regression finding separately; do not let automated expansion write unreviewed relationships into the canonical tree.
+7. The GitHub connector can inspect and update repository files but cannot execute the Python Link-Lives client or local build pipeline in this session. Web searches have been used for contextual leads only; no live Link-Lives API query was performed in this milestone.
