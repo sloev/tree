@@ -59,6 +59,14 @@ DIG ✅ (navne på nulevende står i den krypterede del af siden)
             └─ Ane Marie Jørgensen 📜  f. 1859 Skrøbelev
 ```
 
+## Nyt fund: Claus Gaardsteds søster
+
+Et skifteuddrag fra Rolsøgård gods (skifte nr. 11, 14. maj 1787, fol. 39) nævner **Karen Christensdatter** som søster til **Claus Gaardsted** og oplyser, at Claus var hendes lavværge. Karen optræder i forbindelse med arv efter hendes stedfar Christen Christensen Tohde? i Dejret. Det giver Claus en dokumenteret søskenderelation, men skifteuddraget fastslår ikke deres forældre eller Claus' fødested.
+
+En kongelig promemoria af 6. august 1803 omtaler Claus som ejer af Bogensholm og regulerer hans pligt til at yde offer til præst og degn. Trap Danmark oplyser, at han købte Bogensholm i 1796 for 10.000 rigsdaler og døde i 1811. Det understøtter den eksisterende biografi, men løser endnu ikke hans herkomst.
+
+Kilder: [Skifteuddraget fra Rolsøgård gods](https://slaegt.dk/media/jnnnvuml/alfabetisk-navneliste-og-skifteuddrag-til-rols%C3%B8g%C3%A5rd-gods-g302-mols-herred-1778-1816-1818.pdf) · [Kongelig promemoria, 6. august 1803](https://da.wikisource.org/wiki/Side:Kongelige_Rescripter,_Resolutioner_og_Collegialbreve_for_Danmark_og_Norge_udtogsvis_udgivne_i_chronologisk_Orden._VI._Deel._12._Bind_(1803–1804).pdf/258) · [Trap Danmark, Bogensholm](https://netstol.dk/slaegtsForskning/trap_danmark_4/Trap_Danmark_4_udgave_%281925%29_Bind_6_Randers_Amt_Mols_og_OEster-Lisbjaerg_Herreder.pdf)
+
 ## Udvandrere
 - **Olaf Gedde** (Paulas bror), kommis, rejste 1904 til **Shanghai** (Udvandrerprotokollen).
 - **Emil Ludvig Edvard Gedde** (Paulas bror) rejste 1922 til **Eldorado, Argentina** med Olivia og to børn; død der 1951. Han ses på Udvandrerarkivets billeder fra den danske koloni.
