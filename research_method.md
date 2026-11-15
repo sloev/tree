@@ -379,3 +379,28 @@ Phase 5 continues: prioritize original probate records for the Gaardsted branch,
 ### Validation
 - Re-read `research_method.md` first; continued on branch `ccr-6abdfb67-cbzklo`.
 - Inspected only public `family.json` for p46's public facts/source keys and public archive/parish guidance. No private/encrypted data accessed. No original baptism image read, no genealogical data changed, no build/tests run.
+
+
+## Milestone 16 — Vibygård probate and employment trail for Hans Jensen (Ahnentafel 66)
+- Rotated to the Syv branch (p66 Hans Jensen, ca.1752–1837; p67 Margaretha Pedersdatter, ca.1797–1871), rather than continuing the Assing, Broager, Langeland, or Gaardsted branches.
+- Reconfirmed the public tree anchors: Hans Jensen married Margaretha in Syv in 1822, was described in the 1834 census as a retired gardener at Wiibygaard and on aftægt, and died in Syv in 1837 aged 85. The existing approximate birth year ca.1752 is derived from the reported age at death, not a baptism.
+- Located the estate archive of Vibygård, which is directly relevant because the estate lay in Syv parish and had a long-running local archive. DS-Wiki's Vibygård page lists:
+  - Skifteprotokol 1743–1850 and its register, with AO viewer endpoints https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=21026101 and https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=17021266.
+  - Fæsteprotokol 1719–1827 and its register, linked from the same page.
+  - Source: https://wiki.slaegt.dk/index.php/Vibyg%C3%A5rd.
+- A publicly available secondary extraction of the Vibygård probate protocol (Aurelia Clemons, Book 1 1743–1818; Book 2 1819–1850) gives two important leads:
+  1. In a probate dated 25 February 1799 for Niels Jensen, a witness is named Hans Jensen, gartner i Wiibyegrd. This independently anchors a Hans Jensen with the exact occupation and estate location at Vibygård in 1799, when a man born around 1752 would have been about 47. It is a strong candidate match, not yet a proven identity.
+  2. In a probate dated 31 December 1820 for Maren Poulsdatter in Viby, the extraction identifies her husband as Hans Jensen, gartner, and lists adult children Poul Hansen (cottager in Assingløse), Jens Hansen (also a gardener), Peder Hansen (cottager in Viby), and Ane Hansdatter (married to Willum Hansen in Valsø). This may be the same Hans Jensen who married Margaretha Pedersdatter in 1822, potentially as a widower; alternatively it may be a different gardener of the same name. The 1822 marriage record must be checked for marital status, age, occupation, and residence before identifying the men.
+  - Extraction: https://aurelia-clemons.dk/vibygdx.htm (1799 entry around lines 988–995; 1820 entry around lines 1519–1525).
+- The probate transcription is a finding aid, not the original record. Arkivalieronline's scanned viewer endpoints were recovered from DS-Wiki, but the image viewer returned an inaccessible/500 response through the text browser. No original probate image has been read.
+- The estate also has a Fæsteprotokol 1719–1827 and a name register, but Hans was a salaried gardener rather than necessarily a tenant farmer. These may still reveal his appointment/residence or related household, while the probate protocol is the more promising immediate source.
+### Next research actions
+1. Inspect the original 1820 Vibygård probate for Maren Poulsdatter and verify the exact wording, marital status, and heirs; then compare with the original 1822 Syv marriage entry for Hans Jensen and Margaretha Pedersdatter.
+2. If the 1822 groom is recorded as a widower and his age/occupation/residence align, treat the 1799 witness and 1820 probate as a coherent candidate chain, but do not merge until primary entries agree.
+3. Search the Syv enesteministerialbog for a Hans Jensen baptism around 1750–1755; if not found, expand to neighboring parishes and use the 1799 estate employment clue to assess migration.
+4. Search the Vibygård register/protocol for earlier employment, household, or probate entries that could identify Hans's parents or siblings. Distinguish the gardener from other local Hans Jensens.
+5. Continue the whole-tree rotation after this bounded test; do not let the Syv/Vibygård line monopolize the next milestones.
+### Validation
+- Re-read this method file first; continued on branch ccr-6abdfb67-cbzklo.
+- Inspected public data/family.json entries for Ahnentafel 66–67 and the public data/auto_ancestors.json frontier only. No private/encrypted data was accessed.
+- Checked public archive metadata and a secondary extraction of the Vibygård probate protocol. No original register image read, no parentage established, no genealogy source data changed, no local build/tests run.
