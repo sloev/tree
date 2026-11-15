@@ -254,3 +254,21 @@ Phase 5 continues: prioritize original probate records for the Gaardsted branch,
 - Read only public source material and public repository files. No private or encrypted data was accessed.
 - The Arkivalieronline page metadata and archive-series links were identified, but the image viewer was not readable through the current web text interface. No claim is made that the original folios were examined.
 - No local code execution, Link-Lives API query, build, or tests were run. No genealogy source data was changed.
+
+
+## Milestone 8 — exact Mols probate series located
+### Stronger archival route identified
+- Continued the Gaardsted probate search using Rigsarkivet's Daisy catalogue for the archive creator Djurs Sønder og Mols Herred (official name Djurs Sønder-Mols Herredsfoged, 1687–1919).
+- The catalogue explicitly lists the combined **Skifteprotokol, Sønder Djurs og Mols Herred, 1794–1824**. This is the correct core protocol series for Claus's 1811 death under the post-1793 jurisdictional rules. The same catalogue lists **Skiftedesignationer og dødsanmeldelser, 1795–1851**, **Sager til skifteprotokol I, 1794–1887**, and **Korrespondance m.m. vedr. skifte og overformynderi, 1795–1871**. These are now prioritized in that order as the register/designation and supporting-document routes. Daisy archive-series catalogue: https://daisy.rigsarkivet.dk/arkivskabers_arkivserier?a=&b=&c=Djurs+S%C3%B8nde+herred&d=1&dir=&e=2022&ed=&ep=&epid=&es=&f=&faid=&g=&gsc=&h=&heid=&henid=&int=&m2rid=&meid=&ngid=522700&ngnid=2969153&side=&sort=
+- The same catalogue also lists **Overformynderiprotokol, 1796–1868**, **Dokumenter vedrørende værgemål, 1806–1845**, and **Indberetninger om godsernes skifte og overformynderi, 1799–1850**. These could preserve the administration of minor heirs or guardians after Claus's death; they are secondary follow-up series if the main probate identifies underage children. The catalogue also contains **Arveafkald, 1787–1867**, potentially useful for heirs renouncing claims.
+- The broad Daisy list separately identifies the 1795–1851 series “Skiftedesignationer og dødsanmeldelser” for Djurs Sønder-Mols Herredsfoged. It is not a name-index book by title, but is the best first scan to check around 1811 for the death/probate designation. Source: https://daisy.rigsarkivet.dk/arkivserie_liste?a=&b=d%C3%B8dsan&c=&d=1&dir=a&e=2016&ed=&ep=&epid=&es=&f=&faid=&g=&gsc=&h=&heid=&henid=&int=&m2rid=&meid=&ngid=&ngnid=&side=1&sort=1
+- Arkivalieronline's published collection for guardianship lists Djurs Sønder-Mols Herredsfoged series including “Korrespondance m.m. vedr. skifte og overformynderi” 1795–1871 and “Overformynderiprotokol” 1796–1868. Source: https://arkivalieronline.rigsarkivet.dk/da/other/other-collection/69
+### Revised action sequence
+1. Locate and inspect the 1795–1851 Skiftedesignationer og dødsanmeldelser around 1811 for Claus Gaardsted/Bogensholm; extract the reference into the 1794–1824 joint Mols/Djurs probate protocol.
+2. Inspect the original joint probate protocol entry and the corresponding case documents in Sager til skifteprotokol I (1794–1887).
+3. If the probate reveals minor heirs or guardians, inspect the Overformynderiprotokol and guardianship documents/correspondence for the names of children, widow, and maternal/paternal relatives.
+4. Independently inspect Rolsøgård G302 folio 39 (14 May 1787) to settle the exact Karen Christensdatter/Claus sibling wording.
+5. Do not add any parents or children to the tree until original record wording supports the relationship.
+### Validation
+- Daisy catalogue descriptions and Rigsarkivet collection listings were read; no original image folios from these Mols probate series have yet been inspected.
+- No private or encrypted data was accessed; no genealogical source data or application code was modified; no local build/tests were run.
