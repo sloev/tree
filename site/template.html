@@ -571,10 +571,10 @@ function renderPed(root){
     const ys=kids.map(lay); ypos[n]=(ys[0]+ys[1])/2; return ypos[n]; })(root);
   const gmax=Math.max(...Object.keys(slots).map(n=>Math.floor(Math.log2(+n))));
   const depth=gmax-g0+1;
-  const W=pedDirection==='vertical'?TOP+depth*(CW+GX)+10:depth*(CW+GX)+10, H=TOP+leaf*(CH+GY)+10;
+  const W=pedDirection==='vertical'?90+leaf*(CW+GX)+10:depth*(CW+GX)+10, H=pedDirection==='vertical'?TOP+depth*(CH+GY)+10:TOP+leaf*(CH+GY)+10;
   ped.setAttribute('viewBox',`0 0 ${W} ${H}`); ped.setAttribute('width',W); ped.setAttribute('height',H);
   pos = n => { const g=Math.floor(Math.log2(n))-g0; return pedDirection==='vertical'
-    ? {x:6+ypos[n]*(CW+GX), y:TOP+g*(CH+GY)}
+    ? {x:90+ypos[n]*(CW+GX), y:TOP+g*(CH+GY)}
     : {x:6+g*(CW+GX), y:TOP+ypos[n]*(CH+GY)}; };
   for(let g=g0; g<=gmax; g++){
     const label=el('text',{x:pedDirection==='vertical'?6:6+(g-g0)*(CW+GX),y:pedDirection==='vertical'?TOP+(g-g0)*(CH+GY)-8:14,class:'gen-label'},ped);
