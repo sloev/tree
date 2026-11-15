@@ -234,3 +234,23 @@ The previous milestone's generation labels were offset by one, because the scrip
 - No original archival image has yet been read; no family relationships or tree data were changed. No Link-Lives API query, local build, or tests were run.
 ### Next phase
 Phase 5 continues: prioritize original probate records for the Gaardsted branch, beginning with Rolsøgård folio 39 (1787) and Bogensholm 1800–1811 register/probate. Then trace named heirs/siblings into Skødstrup/Vistoft parish registers.
+
+## Milestone 7 — archival jurisdiction refined for the Gaardsted probate search
+### New archival findings
+- Re-read this method file first and continued on branch `ccr-6abdfb67-cbzklo`.
+- Located the Rigsarkivet Arkivalieronline scans for Bogensholm Gods' 1800–1811 probate book and its register through the Danish Genealogical Society's DS-Wiki page. The viewer is linked from that page; the web text viewer itself returned an access error, so no original folio has yet been inspected. Direct entry points: https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=17175801 (book) and https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=17175795 (register).
+- Read Hanne Vinter Henriksen's published Bogensholm probate extracts (G298, 1800–1811). It explicitly describes the list as eight estate cases (Dorthe Pedersdatter 1800 through Peder Andersen Tuesen 1811), with deceased, heirs, guardians and family relationships. Claus Gaardsted is not among these eight. This is a negative result for this particular published extract, not proof that no probate was held for him. Source: https://www.milloup.dk/hvh/download/skifter/bogensholm_gods_skifter.htm
+- Rigsarkivet's current guide explains the jurisdictional distinction: before 1793, non-tenant rural landowners' estates were handled by the county; 1793–1851, by the herredsfoged or birk. Since Claus was the owner of Bogensholm and died in 1811, the next target is therefore the relevant Mols Herredsfoged probate series/register, not just the Bogensholm Gods tenant-probate book. Confirm whether any special private/estate-owner arrangement applies. Source: https://www.rigsarkivet.dk/vejledning/skifter-og-testamenter/skiftearkivalier-kom-godt-i-gang/
+- The DS-Wiki Bogensholm entry links both the 1800–1811 probate book and its name register. The Rolsøgård entry similarly links its 1778–1816 book and register. Sources: https://wiki.slaegt.dk/index.php/Bogensholm and https://wiki.slaegt.dk/index.php/Rols%C3%B8g%C3%A5rd
+- Re-read the published Rolsøgård extract at entry 11: 14 May 1787, folio 39. It describes inheritance to a daughter Karen Christensdatter in connection with the estate of Christen Christensen Tohde? (probate 1764), then names “broder Claus Gaardsted forpagter på Vosnæsgård” as her guardian. This supports the existing provisional sibling record p74 in `data/build_data.py`, but the original folio remains necessary to verify the exact grammatical relationships and identity. The transcription itself warns it is not proof-text and is not proofread. Source: https://www.milloup.dk/hvh/download/skifter/rolsoegaard_gods_skifter.htm
+- Rigsarkivet's guidance says probate records can identify heirs and family relationships, and that the correct jurisdiction depends on residence and legal status/occupation before 1851. Source: https://www.rigsarkivet.dk/vejledning/skifter-og-testamenter/skiftearkivalier-kom-godt-i-gang/
+### Revised next actions
+1. Search the Mols Herredsfoged skifteprotokol and name register covering 1811 for Claus Gaardsted, Bogensholm; inspect the original entry and all related probate documents.
+2. Use the Bogensholm register/book as a collateral source for people who were tenants or employees, not as the presumed location of Claus's own landowner probate.
+3. Inspect original Rolsøgård G302 folio 39 (14 May 1787) to verify Karen Christensdatter's precise relationship to Claus and the stepchild/inheritance context.
+4. Trace Karen in parish registers and any later probate only after the original 1787 wording is settled.
+5. Do not change the tree: no original probate images have yet been read, and no new parentage has been established.
+### Validation
+- Read only public source material and public repository files. No private or encrypted data was accessed.
+- The Arkivalieronline page metadata and archive-series links were identified, but the image viewer was not readable through the current web text interface. No claim is made that the original folios were examined.
+- No local code execution, Link-Lives API query, build, or tests were run. No genealogy source data was changed.
