@@ -291,3 +291,24 @@ Phase 5 continues: prioritize original probate records for the Gaardsted branch,
 - The earlier Milestone 8 phrase “the best first scan” for Skiftedesignationer is superseded: the newly verified 1794–1917 name register is the first-choice index.
 - No original image from the name register, probate protocol, or Rolsøgård folio has yet been read. No relationships or source data were changed.
 - Only public repository metadata and public archival guidance were accessed. No private/encrypted data was accessed. No local code, build, or tests were run.
+
+
+## Milestone 10 — direct Arkivalieronline entry points recovered
+### Rolsøgård originals
+- The DS-Wiki Rolsøgård page exposes the original Rigsarkivet Arkivalieronline endpoints directly:
+  - Probate protocol 1778–1816: https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=17177605
+  - Name register 1778–1816: https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=17177607
+  - DS-Wiki source: https://wiki.slaegt.dk/index.php/Rols%C3%B8g%C3%A5rd (links labelled AO 1778–1816 and Register 1778–1816).
+- The web text browser cannot render the Arkivalieronline viewer (redirect returns HTTP 500), so no image pages have been read. These URLs are nonetheless exact, verified entry points for opening the source manually or in a compatible image viewer. The published transcription remains a finding aid only.
+### Mols index accessibility
+- Daisy confirms a Mols/Sønder Djurs name register to probate protocol for 1794–1917, but the Arkivalieronline collection “Skiftevæsen - Registre og hjælpemidler” does not list this register in its current online collection. Treat the register as an archival series described in Daisy, not yet confirmed as digitized. It may require retrieval through “Søg i samlingerne” or a reading-room request.
+- The Daisy catalogue also confirms the main Mols/Sønder Djurs probate protocol 1794–1824 and the case papers 1794–1887.
+### Next actions
+1. Open the exact Rolsøgård protocol and register URLs above in a browser capable of Arkivalieronline image rendering; locate 14 May 1787 folio 39 in the protocol and read the full entry.
+2. In Daisy/Søg i samlingerne, determine whether the Mols name register (1794–1917) is digitized or must be ordered to the reading room. If available, search Claus Gaardsted in the 1811 section; if not, request the register and the 1794–1824 protocol/case papers.
+3. Continue the Mols probate search with the exact archive series and jurisdictional classification from Milestone 9.
+4. No tree data or source records changed; no family relationships were newly established.
+### Validation
+- DS-Wiki page and its exact AO links were inspected; AO redirects were attempted but image rendering failed in the web text interface.
+- Daisy series list and Arkivalieronline's digitized-register collection were compared. No original archival images have been inspected.
+- Only public sources and public repository files were accessed. No private or encrypted data, local build, or tests were used.
