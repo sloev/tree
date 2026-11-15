@@ -206,6 +206,41 @@ tbody tr:hover td{background:var(--hover)}
   .pcard{min-width:0;flex:1 1 150px}
 }
 @media (prefers-reduced-motion:no-preference){#ped .node rect.card{transition:stroke .15s}}
+
+/* UX refinement: clearer rhythm, touch targets and consistent surfaces across every view. */
+.wrap{padding-inline:clamp(16px,3vw,36px);max-width:1440px}
+.mast{padding-block:clamp(22px,4vw,38px) 18px;gap:14px 28px}
+.tabs{margin-inline:calc(-1 * clamp(16px,3vw,36px));padding-inline:clamp(16px,3vw,36px);gap:4px;background:color-mix(in srgb,var(--paper) 94%,transparent);backdrop-filter:blur(14px)}
+.tabs a{padding:14px 14px 13px;border-radius:7px 7px 0 0;font-weight:600;transition:background .15s,color .15s}
+.tabs a:hover{background:var(--hover)}
+.tabs a[aria-current="page"]{background:var(--sheet)}
+.view{gap:clamp(24px,3vw,40px);padding-top:clamp(22px,3vw,34px)}
+.fam,.panel,.tbl-wrap{border-radius:11px;box-shadow:0 2px 10px rgba(27,36,34,.035)}
+.fam{padding:clamp(14px,2vw,22px);gap:16px}
+.panel{padding:clamp(14px,2vw,20px);gap:12px}
+.pcard{max-width:280px;padding:10px 13px 10px 15px;border-radius:9px;gap:3px;transition:border-color .15s,transform .15s,box-shadow .15s}
+.pcard:hover{transform:translateY(-1px);box-shadow:0 3px 10px rgba(27,36,34,.07)}
+.story{border:1px solid var(--rule);border-top:3px solid var(--c,var(--ink));border-radius:10px;padding:16px;background:var(--sheet)}
+.open div{border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:8px;padding:12px 14px;background:var(--sheet)}
+.seg{border-radius:9px;background:var(--sheet)}
+.seg button{padding:9px 14px}
+.toolbar{position:sticky;top:48px;z-index:3;padding:10px 0;background:var(--paper)}
+.ped-scroll{max-height:min(1000px,78vh);min-height:320px;border-radius:12px;box-shadow:0 2px 12px rgba(27,36,34,.04);overscroll-behavior:contain;scrollbar-gutter:stable;outline-offset:4px}
+.ped-scroll:focus-visible{outline:2px solid var(--accent)}
+#ped .node:focus{outline:none}
+#ped .node:focus rect.card{stroke:var(--accent);stroke-width:2.5}
+.drawer{width:min(480px,100vw)}
+th,td{padding:10px 12px}
+.tbl-wrap{border-radius:10px}
+.filters{padding:12px 14px;border:1px solid var(--rule);border-radius:10px;background:var(--sheet);gap:9px 14px}
+.filters input,.filters select{padding:9px 11px;border-radius:7px;min-height:40px;background:var(--paper)}
+@media(max-width:560px){
+  .wrap{padding-inline:16px}
+  .tabs{margin-inline:-16px;padding-inline:16px}
+  .tabs a{padding-inline:12px}
+  .toolbar{top:44px}
+  .ped-scroll{max-height:70vh}
+}
 </style>
 <div class="wrap">
 <header class="mast">
@@ -605,7 +640,7 @@ function renderPed(root){
   }
   const shown=Object.values(slots).filter(Boolean).length;
   document.getElementById('pedcount').textContent = `${shown} personer · ${gmax-g0+1} generationer`;
-  document.querySelectorAll('.seg button').forEach(b=>b.setAttribute('aria-pressed', String(+b.dataset.root===root)));
+  document.querySelectorAll('[data-root]').forEach(b=>b.setAttribute('aria-pressed', String(+b.dataset.root===root)));
 }
 function setRoot(r){ if(pedRoot!==r || !Object.keys(nodes).length) renderPed(r); }
 function highlight(id){ Object.values(nodes).forEach(n=>n.classList.remove('sel')); const n=nodes[id]; if(!n) return; n.classList.add('sel');
