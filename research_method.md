@@ -461,3 +461,38 @@ Phase 5 continues: prioritize original probate records for the Gaardsted branch,
 3. After the marriage check, rotate to another independent branch (e.g. p40–43 or p74–75) rather than extending only the Langeland line.
 ### Validation
 - Re-read `research_method.md`; consulted public Daisy catalogue and public church-register guidance; inspected only public family tree data from the preceding milestone. No private/encrypted data accessed. No original church-book image read, no genealogy source data changed, no local build/tests run.
+
+
+## Milestone 21 — vertical-first tree and site-wide UX pass; new Ribe branch evidence
+### Product/UI changes
+- Changed the primary navigation order so **Stamtræ** is the first destination. With no explicit URL hash, the page now opens directly on the tree rather than restoring an older overview preference from local storage. Explicit view hashes still work.
+- Reworked the pedigree coordinates so the default layout is **top-to-bottom**: the proband starts at the top and ancestor generations descend below; paternal branches are laid out to the left of maternal branches. Added a visible direction switch so users can still choose the previous left-to-right landscape layout.
+- Added a labelled, keyboard-focusable tree scroll region; improved focus indication for person nodes; adjusted node sizing and whitespace for easier reading.
+- Applied a consistent site-wide visual refinement in site/template.html: more responsive page width and spacing, clearer sticky navigation, stronger active/hover states, more consistent card and panel surfaces, more generous table/filter controls, and refined mobile spacing.
+- Kept the existing data model, person drawer, privacy unlock flow, and family facts unchanged. No genealogy records or parent links were edited.
+- The coordinate code was re-read after the edit and an obsolete duplicate connector loop was removed. The generated site/index.html and docs/index.html are build outputs and have **not** been regenerated; site/build.py must be run in a local build environment before these source-template changes are reflected in generated pages/deployment.
+
+### Genealogy — Vester Starup / Fåborg branch (Ahnentafel 40–43)
+- Reopened public data/family.json entries for p40–p43 and the next generation:
+  - p40 Jens Pedersen, ca.1831, married in Vester Starup in 1860; his father slot is a80, Peder Jensen, named in the marriage source. Mother is not linked.
+  - p41 Kirsten Marie Nielsen, ca.1831, married p40 in 1860; her father slot is a82, Niels Jepsen. Mother is not linked.
+  - p42 Peder Jensen, ca.1820, married p43 Karen Johnsen in Fåborg in 1852; both parents are unknown.
+  - p43 Karen Johnsen was born 20 June 1830 in Fåborg and is already linked to John Eskesen and Ana Knudsdatter (a86/a87).
+- Found a detailed secondary family history by Hans Grue, *Efterslægten til Christen Clausen fra Puggaard i Jernved sogn* (genEbooks, 2020), which appears to identify p40/p41:
+  - It gives Jens Pedersen as born **2 September 1831 in Faaborg** and died **18 May 1905 in Vester Starup**.
+  - It gives his wife Kirsten Marie Nielsen as born **24 October 1831 in Vester Starup** and died **26 September 1895 there**.
+  - Its 1845 census transcription places a 14-year-old Jens Pedersen in the household of Peder Jensen and Zennet Marie Sørensdatter in Agerbæk, Faaborg parish. Its 1880 census transcription places Jens Pedersen and Kirsten Marie Nielsen together in Vester Starup, with children and Kirsten's brother in the household.
+  - The book identifies Jens's father Peder Jensen as born **5 September 1802 in Vejrup**, married to Sinnet Marie Sørensdatter on 7 November 1830 in Faaborg. This is a strong candidate for p40's existing father stub a80 and suggests a possible mother for p40, but the book is a secondary compilation and no original register image has been read. Source: https://slaegtsbibliotek.dk/2024/946520.pdf (notably the entry for no. 184 and child no. 403 around printed pages 71–72, plus the repeated no. 403 entry and 1880 census around printed pages 131–132).
+- Separately, the Danske Slægtsforskere GEDCOM-project has a **Peder Jensen** born 4 April 1820 in Vorbasse, son of Jens Christian Hansen and Else Sørensdatter, baptized 9 July 1820, married to Karen Johnsen on 7 October 1852 in Fåborg, and father of Jensine (1861) and John (1863). Its Karen Johnsen page gives her birth as 20 June 1830 in Agerbæk and names John Eskesen and Anne Knudsdatter as her parents. These details align closely with p42/p43's approximate birth, marriage, spouse, and p43's existing birth/parent anchors. This is a promising independent identity lead, **not primary-source proof**; the site explicitly says its data was submitted by a genealogist. Sources: https://gedcom.slaegt.dk/?fil=60&person=9317 and https://gedcom.slaegt.dk/?fil=60&person=9318.
+- Keep the two families distinct: p40's father candidate Peder Jensen was born in 1802 in Vejrup and married Sinnet Marie Sørensdatter in 1830; p42's candidate Peder Jensen was born in 1820 in Vorbasse and married Karen Johnsen in 1852. They are different generations and different Ahnentafel branches, despite the shared name and Fåborg parish anchor.
+- Do not add the suggested mother to p40 or parents to p42 yet. The original sources to inspect are the Fåborg (Skast Herred, Ribe Amt) birth entry for Jens Pedersen in 1831, the Vester Starup marriage entry in 1860, the Vejrup/Fåborg records for Peder Jensen and Sinnet Marie Sørensdatter, and the Fåborg marriage and Vorbasse baptism entries for p42. Avoid confusing this Fåborg parish in Ribe Amt with Faaborg town/parish in Svendborg Amt.
+- Rigsarkivet's guide confirms that 1814–1960 main/duplicate parish registers are arranged chronologically by event category (births, confirmations, marriages, arrivals, departures, deaths); this gives the correct search structure for the 1831 baptism and 1852/1860 marriages. Source: https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/.
+
+### Validation and next steps
+- Re-read research_method.md before work; stayed on branch ccr-6abdfb67-cbzklo.
+- Inspected only public data/family.json, site/template.html, and public archival/genealogy sources. No private/encrypted data accessed. No original parish image read; no parentage changed.
+- No local build, browser test, or automated test was run. The generated HTML copies remain stale until the documented build is executed.
+1. Validate the vertical SVG coordinates and connectors in a browser at desktop and mobile widths; check that the whole-tree canvas remains navigable with keyboard and touch.
+2. Inspect the original Fåborg 1831 baptism and Vester Starup 1860 marriage for p40/p41; compare the parents/residences with the secondary book before linking Sinnet Marie Sørensdatter.
+3. Inspect the Vorbasse 1820 baptism and Fåborg 1852 marriage for p42/p43; only add Peder Jensen's parents if both primary records support the identity.
+4. Continue whole-tree rotation after this bounded Ribe-branch check; do not return to Langeland or Gaardsted by default.
