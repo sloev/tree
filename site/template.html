@@ -624,9 +624,6 @@ function renderPed(root){
       el('path',{d:`M${x1},${y1}H${mx}V${y2}H${x2}`,class:'edge'},ped);
     }
   }
-  for(const n of Object.keys(slots).map(Number)){ if(n===root) continue; const a=pos(Math.floor(n/2)), b=pos(n);
-    const x1=a.x+CW, y1=a.y+CH/2, x2=b.x, y2=b.y+CH/2, mx=x1+GX/2;
-    el('path',{d:`M${x1},${y1}H${mx}V${y2}H${x2}`, class:'edge'},ped); }
   for(const n of Object.keys(slots).map(Number)){
     const p=slots[n], {x,y}=pos(n);
     const unk = !p || (p.conf!=='record'&&p.conf!=='told');
