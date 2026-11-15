@@ -229,8 +229,8 @@ tbody tr:hover td{background:var(--hover)}
   </div>
 </header>
 <nav class="tabs" aria-label="Sektioner">
-  <a href="#oversigt" data-view="oversigt">Oversigt</a>
   <a href="#stamtrae" data-view="stamtrae">Stamtræ</a>
+  <a href="#oversigt" data-view="oversigt">Oversigt</a>
   <a href="#personer" data-view="personer">Personer</a>
   <a href="#kort" data-view="kort">Kort</a>
   <a href="#tal" data-view="tal">Tal og levetider</a>
@@ -265,16 +265,20 @@ tbody tr:hover td{background:var(--hover)}
 <!-- ============ STAMTRÆ ============ -->
 <section class="view" id="v-stamtrae" hidden>
   <div class="sec-head"><span class="eyebrow">Anetavle</span><h2>Stamtræet</h2>
-    <p class="muted">Hver kolonne er en generation, læst fra venstre mod højre. Træet viser den biologiske slægt. Stiplede kort er ukendte eller usikre personer. Klik på et kort for at åbne personen.</p></div>
+    <p class="muted">Generationerne læses oppefra og ned. Far er til venstre, mor til højre. Træet viser den biologiske slægt; stiplede kort er ukendte eller usikre personer. Vælg en person for at åbne livshistorie og kilder.</p></div>
   <div class="toolbar">
     <div class="seg" role="group" aria-label="Vis del af træet">
       <button type="button" data-root="1" aria-pressed="true">Hele træet</button>
       <button type="button" data-root="2" aria-pressed="false">Fars side</button>
       <button type="button" data-root="3" aria-pressed="false">Mors side</button>
     </div>
+    <div class="seg" role="group" aria-label="Træets retning">
+      <button type="button" data-direction="vertical" aria-pressed="true">Lodret</button>
+      <button type="button" data-direction="horizontal" aria-pressed="false">Vandret</button>
+    </div>
     <span class="count" id="pedcount"></span>
   </div>
-  <div class="ped-scroll" id="pedscroll"><svg id="ped" role="img" aria-label="Anetavle"></svg></div>
+  <div class="ped-scroll" id="pedscroll" tabindex="0" role="region" aria-label="Interaktiv anetavle. Brug rullebjælkerne til at udforske generationerne."><svg id="ped" role="img" aria-label="Anetavle"></svg></div>
   <p class="note-box">Træet viser Lorenz' biologiske far, <button class="linkish" data-pid="sofus">Sophus Petersen</button>, ifølge familiens viden. <button class="linkish" data-pid="p12">Wilhelm Krogh</button> tog skylden og står som far i standsregistret. Lorenz voksede op hos stedfaren <button class="linkish" data-pid="pf12">Peter Frederiksen</button>, der blev betalt for at gifte sig med Else, og fik hans efternavn. Peters slægt fra Broager, Rinkenæs og Ulkebøl står under Personer som "Stedfarens slægt".</p>
 </section>
 
@@ -449,7 +453,7 @@ function wire(root){ root.querySelectorAll('[data-pid]').forEach(b=>b.addEventLi
 // ---------- faner ----------
 const VIEWS=['oversigt','stamtrae','personer','kort','tal','kilder'];
 const drawn={};
-function go(v){ if(!VIEWS.includes(v)) v='oversigt';
+function go(v){ if(!VIEWS.includes(v)) v='stamtrae';
   VIEWS.forEach(k=>document.getElementById('v-'+k).hidden = k!==v);
   document.querySelectorAll('.tabs a').forEach(a=>{ if(a.dataset.view===v) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current'); });
   if(!drawn[v]){ drawn[v]=true; (RENDER[v]||(()=>{}))(); }
@@ -554,8 +558,8 @@ function renderOversigt(){
 
 // ================= STAMTRÆ =================
 const ped=document.getElementById('ped'), pedScroll=document.getElementById('pedscroll');
-const CW=172, CH=44, GX=30, GY=10, TOP=28;
-let nodes={}, pedRoot=1, pos=null;
+const CW=184, CH=52, GX=34, GY=24, TOP=44;
+let nodes={}, pedRoot=1, pedDirection='vertical', pos=null;
 function renderPed(root){
   pedRoot=root; ped.innerHTML=''; nodes={};
   const g0=Math.floor(Math.log2(root));
@@ -564,12 +568,27 @@ function renderPed(root){
   for(const n of Object.keys(slots).map(Number)){ const g=Math.floor(Math.log2(n)); if(slots[n]&&g<3) for(const c of [2*n,2*n+1]) if(!(c in slots)) slots[c]=null; }
   let leaf=0; const ypos={};
   (function lay(n){ const kids=[2*n,2*n+1].filter(c=>c in slots); if(!kids.length){ ypos[n]=leaf++; return ypos[n]; }
-    const ys=kids.map(lay); ypos[n]=(ys[0]+ys[ys.length-1])/2; return ypos[n]; })(root);
+    const ys=kids.map(lay); ypos[n]=(ys[0]+ys[1])/2; return ypos[n]; })(root);
   const gmax=Math.max(...Object.keys(slots).map(n=>Math.floor(Math.log2(+n))));
-  const W=(gmax-g0+1)*(CW+GX)+10, H=TOP+leaf*(CH+GY)+10;
+  const depth=gmax-g0+1;
+  const W=pedDirection==='vertical'?TOP+depth*(CW+GX)+10:depth*(CW+GX)+10, H=TOP+leaf*(CH+GY)+10;
   ped.setAttribute('viewBox',`0 0 ${W} ${H}`); ped.setAttribute('width',W); ped.setAttribute('height',H);
-  pos = n => { const g=Math.floor(Math.log2(n))-g0; return {x:6+g*(CW+GX), y:TOP+ypos[n]*(CH+GY)}; };
-  for(let g=g0; g<=gmax; g++){ el('text',{x:6+(g-g0)*(CW+GX), y:14, class:'gen-label'},ped).textContent = genLabel(g); }
+  pos = n => { const g=Math.floor(Math.log2(n))-g0; return pedDirection==='vertical'
+    ? {x:6+ypos[n]*(CW+GX), y:TOP+g*(CH+GY)}
+    : {x:6+g*(CW+GX), y:TOP+ypos[n]*(CH+GY)}; };
+  for(let g=g0; g<=gmax; g++){
+    const label=el('text',{x:pedDirection==='vertical'?6:6+(g-g0)*(CW+GX),y:pedDirection==='vertical'?TOP+(g-g0)*(CH+GY)-8:14,class:'gen-label'},ped);
+    label.textContent=genLabel(g);
+  }
+  for(const n of Object.keys(slots).map(Number)){ if(n===root) continue; const a=pos(Math.floor(n/2)), b=pos(n);
+    if(pedDirection==='vertical'){
+      const x1=a.x+CW/2,y1=a.y+CH,x2=b.x+CW/2,y2=b.y,mid=(y1+y2)/2;
+      el('path',{d:`M${x1},${y1}V${mid}H${x2}V${y2}`,class:'edge'},ped);
+    }else{
+      const x1=a.x+CW,y1=a.y+CH/2,x2=b.x,y2=b.y+CH/2,mx=(x1+x2)/2;
+      el('path',{d:`M${x1},${y1}H${mx}V${y2}H${x2}`,class:'edge'},ped);
+    }
+  }
   for(const n of Object.keys(slots).map(Number)){ if(n===root) continue; const a=pos(Math.floor(n/2)), b=pos(n);
     const x1=a.x+CW, y1=a.y+CH/2, x2=b.x, y2=b.y+CH/2, mx=x1+GX/2;
     el('path',{d:`M${x1},${y1}H${mx}V${y2}H${x2}`, class:'edge'},ped); }
@@ -577,11 +596,11 @@ function renderPed(root){
     const p=slots[n], {x,y}=pos(n);
     const unk = !p || (p.conf!=='record'&&p.conf!=='told');
     const g=el('g',{class:'node'+(unk?' unknown':''), transform:`translate(${x},${y})`, tabindex:p?0:-1, role:p?'button':'img','aria-label':p?`${p.name}, ${rel(p)}`:'Ukendt'},ped);
-    el('rect',{class:'card',width:CW,height:CH,rx:5},g);
+    el('rect',{class:'card',width:CW,height:CH,rx:7},g);
     el('rect',{x:0,y:0,width:4,height:CH,rx:2,fill:p?lineVar(p.line):'var(--rule-2)'},g);
     const name = p? clean(p.name) : (n%2?'Ukendt mor':'Ukendt far');
-    el('text',{x:11,y:18,class:'nm'},g).textContent = name.length>26? name.slice(0,25)+'…' : name;
-    el('text',{x:11,y:34,class:'yr'},g).textContent = p? life(p) : '—';
+    el('text',{x:12,y:21,class:'nm'},g).textContent = name.length>28? name.slice(0,27)+'…' : name;
+    el('text',{x:12,y:39,class:'yr'},g).textContent = p? life(p) : 'Forældre ikke identificeret';
     if(p){ nodes[p.id]=g; g.addEventListener('click',()=>openPerson(p.id)); g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openPerson(p.id);}}); }
   }
   const shown=Object.values(slots).filter(Boolean).length;
@@ -590,8 +609,9 @@ function renderPed(root){
 }
 function setRoot(r){ if(pedRoot!==r || !Object.keys(nodes).length) renderPed(r); }
 function highlight(id){ Object.values(nodes).forEach(n=>n.classList.remove('sel')); const n=nodes[id]; if(!n) return; n.classList.add('sel');
-  const p=byId[id]; if(!document.getElementById('v-stamtrae').hidden && p.ahnen && pos){ try{ const q=pos(p.ahnen); pedScroll.scrollTo({left:Math.max(0,q.x-80),top:Math.max(0,q.y-160),behavior:'smooth'}); }catch(e){} } }
-document.querySelectorAll('.seg button').forEach(b=>b.addEventListener('click',()=>{ renderPed(+b.dataset.root); pedScroll.scrollTo({left:0,top:0}); }));
+  const p=byId[id]; if(!document.getElementById('v-stamtrae').hidden && p.ahnen && pos){ try{ const q=pos(p.ahnen); pedScroll.scrollTo({left:Math.max(0,q.x-80),top:Math.max(0,q.y-100),behavior:'smooth'}); }catch(e){} } }
+document.querySelectorAll('[data-root]').forEach(b=>b.addEventListener('click',()=>{ renderPed(+b.dataset.root); pedScroll.scrollTo({left:0,top:0}); }));
+document.querySelectorAll('[data-direction]').forEach(b=>b.addEventListener('click',()=>{ pedDirection=b.dataset.direction; document.querySelectorAll('[data-direction]').forEach(x=>x.setAttribute('aria-pressed',String(x===b))); renderPed(pedRoot); pedScroll.scrollTo({left:0,top:0}); }));
 
 // ================= PERSONER =================
 function renderPersoner(){
@@ -734,7 +754,7 @@ function renderKilder(){
 
 const RENDER={oversigt:renderOversigt, stamtrae:()=>renderPed(1), personer:renderPersoner, kort:renderKort, tal:renderTal, kilder:renderKilder};
 let start=location.hash.slice(1);
-if(!VIEWS.includes(start)){ try{ start=localStorage.getItem('view')||'oversigt'; }catch(e){ start='oversigt'; } }
+if(!VIEWS.includes(start)) start='stamtrae';
 go(start);
 }
 </script>
