@@ -312,3 +312,11 @@ Phase 5 continues: prioritize original probate records for the Gaardsted branch,
 - DS-Wiki page and its exact AO links were inspected; AO redirects were attempted but image rendering failed in the web text interface.
 - Daisy series list and Arkivalieronline's digitized-register collection were compared. No original archival images have been inspected.
 - Only public sources and public repository files were accessed. No private or encrypted data, local build, or tests were used.
+
+
+## Milestone 11 — partial register digitization and jurisdiction-transfer lead
+- Arkivalieronline has a live viewer for Djurs Sønder-Mols Herredsfoged, Navneregister til skifteprotokol, 1841–1855: https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=122086. This confirms partial digitization of the 1794–1917 Daisy register series, but does not prove the earlier 1811 section is online.
+- Daisy also lists Dokumenter vedrørende Roelsøgårds afgivelse af skiftejurisdiktion, 1803–1820, under Djurs Sønder-Mols Herredsfoged. This is a new priority: inspect the original papers to determine the date and scope of Rolsøgård's transfer/surrender of probate jurisdiction. The catalogue title alone does not establish its legal effect.
+- Daisy continues to list the joint Sønder Djurs and Mols probate protocol 1794–1824, case papers 1794–1887, and designations/death notifications 1795–1851. These remain the likely route for Claus's 1811 probate if he fell under herredsfoged jurisdiction.
+- Next: inspect the 1803–1820 jurisdiction-transfer papers; seek the earlier Mols name-register volume; then follow the appropriate register reference into the main probate protocol. Keep the 1787 Rolsøgård folio 39 separate until its original wording is read.
+- Validation: re-read this file first; continued on ccr-6abdfb67-cbzklo. Read public catalogue metadata only; no original image text, private data, or encrypted data accessed. No tree/source data changed; no local build or tests run.
