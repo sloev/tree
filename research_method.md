@@ -361,3 +361,21 @@ Phase 5 continues: prioritize original probate records for the Gaardsted branch,
 - Searches for “Hove/Høje sogn, Svendborg amt” and Niels Jørgensen ca. 1826 did not produce a reliable identification of the parish or parents. Do not silently normalize “Hove/Høje” to Hov.
 - Additional branch queue remains: Langeland Ahnentafel 114–115 (Christian Hansen and Marie Madsdatter), 118–119 (Mads Stephensen Johansen and Maren Larsdatter), and 120–121 (Holger Eriksen and Anne Cathrine Hansdatter), as well as Syv/Starup/Fåborg/Hoven and other lines. Current web name searches did not yield a sufficiently reliable parentage result for these Langeland couples; parish and marriage records remain the next evidence route.
 - Validation: public `family.json` only; no private/encrypted records accessed. Public historical parish guide and Rigsarkivet guide checked. No original church-book images inspected, no data edits, no build/tests.
+
+
+## Milestone 15 — Assing baptism source recovered for a separate frontier ancestor
+- Shifted from the Langeland and Broager leads to Ahnentafel 46, Jens Peder Larsen (born about 1812, Assing), father of a later generation in the Skarrild line. Existing public-tree sources anchor him in Assing through the 1845/1850 censuses and a daughter's 1852 baptism, but his parents remain unknown.
+- DS-Wiki's Assing parish page confirms historical parish-book coverage **1723–1815** and identifies the parish as Assing, Hammerum Herred, Ringkøbing Amt. Source: https://wiki.slaegt.dk/index.php/Assing_Sogn.
+- Arkivalieronline's ENB collection separately lists **Enesteministerialbog for Assing Sogn (1723–1815)**. The exact AO index landing page is https://arkivalieronline.rigsarkivet.dk/da/other/index-creator/202/11592820/24284385 and the viewer endpoint is https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=24284385. The text interface exposes only a category link labelled F 1723–1745, so this ENB endpoint alone does not prove that the 1812 baptism pages are accessible there; Daisy/ordinary scanned parish-register holdings should be checked for the complete 1723–1815 volume.
+- Rigsarkivet's general guide confirms that pre-1814 parish books are searched in the Enesteministerialbog and are chronological rather than using the later standardized forms; it also confirms that the records are scanned on Arkivalieronline. Source: https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/.
+- Rigsarkivet's digitized collection catalogue marks the Assing volume as an ENB item. This is a notable archival-quality signal, but no original page has been read and no parent names have been discovered. Source: https://arkivalieronline.rigsarkivet.dk/da/other/other-collection/202.
+### Next steps for this line
+1. Locate the complete Assing 1723–1815 book or its 1812 segment in the ordinary Arkivalieronline parish-register catalogue (the ENB viewer's F 1723–1745 link is not enough).
+2. Search the 1810–1814 baptism chronology for Jens Peder/Jens Peter/Jens Larsen, allowing that the recorded baptism year may differ from the approximate birth year and that the later patronymic/surname form may vary.
+3. Verify candidate against the 1845 and 1850 census household, spouse Kjersten Frederiksdatter, and known children's baptisms in Skarrild; only use a baptism with matching identity/context to attach parents.
+4. If no baptism is found in Assing, check the original source behind the census birthplace transcription and neighboring parishes before rejecting Assing.
+### Whole-tree rotation maintained
+- This milestone is intentionally independent of Gaardsted, Broager/Nybøl, and Langeland. Other still-open lines remain p32/p34, p40/p41, p42/p43, p61, p66/p67, p74/p75, p114/p115, p118/p119, and p120/p121, plus the wider named branch groups recorded in Milestone 12.
+### Validation
+- Re-read `research_method.md` first; continued on branch `ccr-6abdfb67-cbzklo`.
+- Inspected only public `family.json` for p46's public facts/source keys and public archive/parish guidance. No private/encrypted data accessed. No original baptism image read, no genealogical data changed, no build/tests run.
