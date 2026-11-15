@@ -19,7 +19,7 @@ print("wrote site/index.html", len(out) // 1024, "KB")
 docs = os.path.join(root, "docs")
 os.makedirs(docs, exist_ok=True)
 split = out.index('<div class="wrap">')
-page = ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
+page = ('<!doctype html>\n<html lang="da">\n<head>\n<meta charset="utf-8">\n'
         '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
         + out[:split] + '</head>\n<body>\n' + out[split:] + '\n</body>\n</html>\n')
 open(os.path.join(docs, "index.html"), "w", encoding="utf-8").write(page)
