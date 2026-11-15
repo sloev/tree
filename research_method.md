@@ -90,3 +90,29 @@ Phase 2 — inspect the complete `data/build_data.py` validation and privacy gat
 - No local build, test, browser, PDF, or external Link Lives query was run. No app files were changed.
 ### Next phase
 Phase 3 — review all builder merge rules and the rest of the UI rendering logic; identify concrete data-integrity defects in automated ancestor/sibling integration; inventory the complete repository (including generated artifacts and hidden workflow/config files); then run a reproducible build in a safe environment if available.
+
+
+## Milestone 3 — builder merge rules and UI rendering review
+### Files inspected in detail
+- `data/build_data.py` lines 829–949: automatic/manual ancestor merge, sibling merge, family-document patches, place aliasing, private stubs, and final assertions.
+- `tools/expand.py` lines 42–155: marriage patches, ancestor frontier expansion, and generation of grandparents from marriage records.
+- `tools/siblings.py` lines 48–144: same-parish candidate search, burial lookup, duplicate filtering, patronymic heuristic, age checks, and family-clash rejection.
+- `site/template.html` lines 359–744: relationship derivation, person drawer, six lazy views, pedigree layout, people table, map, statistics, source list, and image gallery.
+- `site/build.py` lines 1–43: JSON/map/photo embedding and generation of tree/poster pages for `site/` and `docs/`.
+- `site/unlock.js` lines 1–60: password storage, PBKDF2/AES-GCM decrypt, placeholder merge, unlock and lock lifecycle.
+- `data/export.py` lines 1–80: GEDCOM 5.5.1 individual and family serialization.
+### Concrete data-integrity finding
+- **Potential father/mother slot inversion in ancestor expansion:** `tools/expand.py` line 78 stores marriage-record parents as a compact list after filtering missing roles: `[(x, key) for x in (pf, pm) if x]`. Lines 143–146 later assign these list entries by enumeration to Ahnentafel slots `2*n + i`, where slot `2*n` always means father and `2*n+1` always means mother. If a marriage record has no father but does have a mother, the mother is shifted into the father slot and is labeled male; all subsequent ancestor relationships can then branch on the wrong biological side. Recommended correction: preserve positional nulls, e.g. `[father_or_none, mother_or_none]`, and map fixed indexes explicitly; add a fixture for mother-only and father-only marriage records before changing this code.
+### Additional review findings
+- **The 100-year privacy cutoff is frozen:** `data/build_data.py:933–937` and `tools/siblings.py:14, 90` hard-code 2026. This becomes stale after the year changes. Centralize a dynamic current-year policy and test boundary years; do not alter privacy behavior without validating the encrypted/private-stub contract.
+- **Missing family-document patch targets are silently ignored:** `data/build_data.py:890–892` skips a patch when its person ID is absent. This can make a carefully sourced correction disappear without a build failure. Prefer reporting unknown patch IDs and failing validation (or an explicit allowlist).
+- **Sibling clash rejection is intentionally coarse:** `tools/siblings.py:129–132` rejects the entire sibling family if any adjacent birth dates are less than 270 days apart. This avoids conflating same-name families in a parish, but can also discard a legitimate family with closely spaced births; preserve the rejection reason and require manual review rather than treating it as definitive disproof.
+- **Private records are structurally isolated:** the public builder appends anonymized stubs and only stores the encrypted blob; the UI merges decrypted records by ID. The code inspection did not open or decrypt `data/private.enc` or inspect decrypted private records.
+- **UI relationship logic:** siblings are inferred from shared father/mother, explicit `sibof`, or a shared `sibof` group; half-sibling status is based on differing known parent IDs. Spouses are found symmetrically even if only one side has a spouse pointer. The person drawer renders parent/step-parent/spouse/sibling/child relationships and source links.
+- **UI rendering:** views are lazy-rendered once; map events are grouped by place, routes are drawn for ancestors with both birth and death places, stats aggregate lifespan/occupation/region/generation counts, and source rows count matching source-prefix strings. The code uses text escaping for most person-supplied content, but embeds JSON directly into script tags in `site/build.py`; this still warrants a dedicated script-context escaping review because HTML text escaping is not sufficient inside JavaScript.
+- **GEDCOM robustness remains limited:** invalid month numbers can index outside `MON`; unsupported date strings are silently omitted; spouse-only family creation uses `next` and assumes every spouse ID resolves; the exporter has no independent validation/report of dropped dates.
+### Validation status
+- Findings are based on source inspection only. No data files were regenerated; no Link Lives queries, decryption, build, export, browser, or PDF tests were run.
+- No application source files changed.
+### Next phase
+Phase 4 — inspect the full repository inventory and static generated-artifact consistency; review all source-data shapes for invalid/ambiguous dates and relationship anomalies using only public `family.json` and non-sensitive source files; then implement a minimal regression fixture for the parent-slot inversion only if a safe local execution/test route can be established.
