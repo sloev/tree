@@ -428,10 +428,16 @@ person("p72", "Claus Gaardsted", "M", ahnen=72, line="gaardsted", born="ca. 1750
        occ=["Forpagter af Vosnæsgaard (1787–ca. 1796)", "Ejer af herregården Bogensholm (1796/97–1811)"],
        res=[(1787, "Vosnæsgaard, Skødstrup", "forpagter"), (1797, "Bogensholm, Vistoft (Mols)", "købte godset for 10.000 rdl.")],
        note="Gift to gange; Kirsten Marie Jørgensdatter var hans anden hustru. Enken solgte Bogensholm på auktion i 1811 for 31.000 rdl. "
-            "Han kom til Vosnæsgaard efter 1784. Hvor han er født, og hvem hans forældre var, er ukendt.",
-       src=["LL:0-414804", "LL:1-475533", "AO:Skødstrup kirkebog 1780–1809, s. 75", "Trap Danmark / danskeherregaarde.dk (Bogensholm)"])
+            "Han kom til Vosnæsgaard efter 1784. Et skifteuddrag fra 1787 nævner hans søster Karen Christensdatter, "
+            "som han var lavværge for. Hans fødested og forældre er stadig ukendte.",
+       src=["LL:0-414804", "LL:1-475533", "AO:Skødstrup kirkebog 1780–1809, s. 75", "Trap Danmark / danskeherregaarde.dk (Bogensholm)",
+            "Dansk Slægtsforskning: Rolsøgård gods (G302), skifte nr. 11, 14.5.1787, fol. 39 (https://slaegt.dk/media/jnnnvuml/alfabetisk-navneliste-og-skifteuddrag-til-rols%C3%B8g%C3%A5rd-gods-g302-mols-herred-1778-1816-1818.pdf)",
+            "Kongelige Rescripter 1803–1804, 6.8.1803, s. 252 (https://da.wikisource.org/wiki/Side:Kongelige_Rescripter,_Resolutioner_og_Collegialbreve_for_Danmark_og_Norge_udtogsvis_udgivne_i_chronologisk_Orden._VI._Deel._12._Bind_(1803–1804).pdf/258)"])
 person("p73", "Kirsten Marie Jørgensdatter", "F", ahnen=73, line="gaardsted", born="ca. 1752", died="efter 1811", spouse="p72",
        src=["LL:0-414805", "LL:1-475272"])
+person("p74", "Karen Christensdatter", "F", line="gaardsted", rel="Claus Gaardsteds søster", sibof="p72",
+       note="Nævnt som Claus Gaardsteds søster i et skifteuddrag fra 1787. Claus var hendes lavværge. Uddraget knytter hende til afdøde Christen Christensen Tohde? i Dejret, men angiver ikke forældrene med sikkerhed.",
+       src=["Dansk Slægtsforskning: Rolsøgård gods (G302), skifte nr. 11, 14.5.1787, fol. 39 (https://slaegt.dk/media/jnnnvuml/alfabetisk-navneliste-og-skifteuddrag-til-rols%C3%B8g%C3%A5rd-gods-g302-mols-herred-1778-1816-1818.pdf)"])
 person("p76", "Rasmus Jensen Rousing", "M", ahnen=76, line="rousing", born="ca. 1780", bplace="Fuglslev",
        died="1858-05-25", dplace="Fuglslev", father="p152", mother="p153", spouse="p77",
        occ=["Selvejergårdmand og sognefoged, Fuglslev"], src=["LL:2-515582", "LL:11-4601884", "LL:11-4601476"])
