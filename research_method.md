@@ -272,3 +272,22 @@ Phase 5 continues: prioritize original probate records for the Gaardsted branch,
 ### Validation
 - Daisy catalogue descriptions and Rigsarkivet collection listings were read; no original image folios from these Mols probate series have yet been inspected.
 - No private or encrypted data was accessed; no genealogical source data or application code was modified; no local build/tests were run.
+
+
+## Milestone 9 — probate name register and jurisdiction correction
+### New decisive catalogue detail
+- Rechecked the full Daisy series list rather than relying on search snippets. It explicitly lists a **Navneregister til skifteprotokol, 1794–1917** for Djurs Sønder-Mols Herredsfoged. This is the first archive item to inspect for Claus Gaardsted's 1811 probate, ahead of manually scanning the chronological protocol. Daisy series list: https://daisy.rigsarkivet.dk/arkivskabers_arkivserier?a=&b=&c=Djurs+S%C3%B8nde+herred&d=1&dir=&e=2022&ed=&ep=&epid=&es=&f=&faid=&g=&gsc=&h=&heid=&henid=&int=&m2rid=&meid=&ngid=522700&ngnid=2969153&side=&sort= (lines 180–181).
+- The same catalogue confirms the 1794–1824 **Skifteprotokol, Sønder Djurs og Mols Herred**, the 1794–1887 **Sager til skifteprotokol I**, the 1795–1851 **Skiftedesignationer og dødsanmeldelser**, and the 1795–1871 **Korrespondance m.m. vedr. skifte og overformynderi**.
+- Rigsarkivet's current guide gives the exact legal rule: from 1793–1851, probate for rural non-tenants (godsejere, selvejere and other landboere uden fæstestatus) was handled by the herredsfoged or birk. It separately says estate owners handled the probate of their own tenants/employees. Therefore Claus's own probate as Bogensholm owner belongs in the herredsfoged/birk route if he was not himself a tenant; the Bogensholm estate probate register is not the presumed place for his own probate. The guide also notes private probate as a distinct route and directs researchers to county archives for executor/commission/private cases. Source: https://www.rigsarkivet.dk/vejledning/skifter-og-testamenter/skiftearkivalier-kom-godt-i-gang/ (sections on godsejere/selvejere, godsets fæstere/ansatte, and private skifter).
+- This clarifies and sharpens Milestone 8: the 1794–1917 name register is the best first step, while the 1795–1851 designations/death notifications are a parallel cross-check. The register's existence is now confirmed from Daisy, but its original image sequence and exact Arkivalieronline viewer URL have not yet been resolved.
+### Research order now
+1. Open the 1794–1917 Navneregister til skifteprotokol in Arkivalieronline (via Søg i samlingerne/Daisy) and search the 1811 register section under Gaardsted/Claus; check spelling variants and the index's alphabetic structure.
+2. Follow the referenced page into the 1794–1824 Skifteprotokol, Sønder Djurs og Mols Herred, and inspect the original probate.
+3. Check Sager til skifteprotokol I (1794–1887) for supporting documents; use the 1795–1851 Skiftedesignationer og dødsanmeldelser as parallel corroboration.
+4. If no entry is found, assess private probate/eksekutorbo possibilities in Randers Amt and estate-specific papers, rather than interpreting a negative index result as proof no probate exists.
+5. If minor heirs appear, inspect Overformynderiprotokol (1796–1868), Dokumenter vedrørende værgemål (1806–1845), and Korrespondance m.m. vedr. skifte og overformynderi (1795–1871).
+6. Continue to inspect Rolsøgård G302 original folio 39 (14 May 1787) for the exact wording of Claus's reported sister Karen Christensdatter.
+### Validation and correction
+- The earlier Milestone 8 phrase “the best first scan” for Skiftedesignationer is superseded: the newly verified 1794–1917 name register is the first-choice index.
+- No original image from the name register, probate protocol, or Rolsøgård folio has yet been read. No relationships or source data were changed.
+- Only public repository metadata and public archival guidance were accessed. No private/encrypted data was accessed. No local code, build, or tests were run.
