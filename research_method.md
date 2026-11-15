@@ -23,11 +23,12 @@ Phase 5 — systematic ancestral expansion and gap closure, beginning with the e
 - Branch: `ccr-6abdfb67-cbzklo`.
 
 ## Next steps
-1. Inventory root, `data/`, `site/`, `docs/`, tests, workflows, and dependency/config files.
-2. Trace data model and validation/privacy logic in `data/build_data.py`, `data/private_tool.py`, `data/export.py`, and `site/build.py`.
-3. Inspect generated artifacts and deployment workflows for consistency.
-4. Identify tests and run safe, non-secret-dependent checks where possible.
-5. Resume genealogical source research only after the technical architecture is mapped; preserve uncertainty around all candidate identities.
+1. Create and maintain a prioritized Ahnentafel worklist, tracking father and mother gaps separately.
+2. Start with branches that have exact source keys and specific parish/year anchors; verify each relationship against original records.
+3. Use Link-Lives life-course links and indexed records as discovery aids, then corroborate with original parish/census/probate/land sources.
+4. For pre-1814 ancestors, move to parish registers, estate archives, probate, land records, and regional transcriptions rather than assuming Link-Lives coverage.
+5. Record negative searches and rejected candidates so the same false matches are not repeated; update this file after each research milestone.
+6. Keep the automated parent-role bug and technical regression work separate from genealogical data edits until a safe test/build environment is available.
 
 
 ## Milestone 1 — pipeline and privacy architecture mapped
