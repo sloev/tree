@@ -420,3 +420,17 @@ Phase 5 continues: prioritize original probate records for the Gaardsted branch,
 ### Validation
 - Re-read this method file first; continued on branch `ccr-6abdfb67-cbzklo`.
 - Inspected only public family.json and public archival catalogues/transcriptions; no private/encrypted data accessed. No original image read, no genealogy source data changed, no local build/tests run.
+
+
+## Milestone 18 — bounded Syv marriage check and Langeland branch rotation
+- Re-read the full research method before continuing on `ccr-6abdfb67-cbzklo`. Reconfirmed p66 Hans Jensen's exact public source key in `data/family.json`: `LL:13-4442506` is the Syv 1822 marriage; p67's corresponding key is `LL:13-4442507`. The public person note says Hans was about 70, married Margaretha (about 45 years younger), and was later described as a former gardener at Wiibygaard. No extra details of the marriage entry are transcribed in the public tree.
+- Searched the exact Link-Lives source key and the names/date/parish for an independently indexed transcription or image of the 1822 marriage. The web index did not surface the record itself. Therefore the critical fields (widower/bachelor status, age, occupation, residence, witnesses) remain unverified; do not use the 1799 or 1820 probate leads to infer that the two Hans Jensen references are the same man.
+- Rechecked Rigsarkivet's current parish-register guidance: for 1814–1960 use the main or duplicate parish register and search by parish, event date and name; the register is chronological by event type. The national Arkivalieronline collection still describes the new pre-1814 colour scanning as due to complete in 2026; this is a collection-level statement, not confirmation that Syv's specific volume has been updated. Sources: https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/ and https://arkivalieronline.rigsarkivet.dk/en/geo/geo-collection/5.
+- Rotated the public-name search to Langeland Ahnentafel 114–121: Christian Hansen/Marie Madsdatter (Magleby 1829), Mads Stephensen Johansen/Maren Larsdatter (Magleby 1832 family event), and Holger Eriksen/Anne Cathrine Hansdatter (Tved 1838). Exact-name/date searches did not return a reliable matching family transcription. Search noise included unrelated people with common patronymics; no candidates accepted and no parent links added.
+- A useful archival catalogue lead for Langeland remains the Magleby Pastorat archive registration (1738–1882) in Arkivalieronline's archive-created finding aids, but the catalogue entry alone is not a parish-register or probate image. Further work should open that exact entry and map it to the correct church-book and probate series, then inspect the original 1829/1838 marriage records and adjacent baptisms. The source catalogue is https://arkivalieronline.rigsarkivet.dk/da/other/other-collection/200.
+### Validation
+- Re-read `research_method.md`; inspected public `data/family.json` only for p66/p67 source keys. No private or encrypted data accessed. No original parish/probate image read; no genealogy source data changed; no local build or tests run.
+### Next steps
+1. Resolve the Magleby Pastorat archive catalogue entry into exact Langeland parish register and probate references, then work the 1829 marriage of p114/p115.
+2. Preserve the p66 Hans Jensen probate/marriage identity as unresolved until the original 1822 Syv entry is read.
+3. Continue rotating across unrelated open branches; avoid treating common-name search hits as evidence.
