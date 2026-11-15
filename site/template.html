@@ -243,6 +243,7 @@ th,td{padding:10px 12px}
 }
 
 /* Accessibility and motion preferences across all sections. */
+body.drawer-open{overflow:hidden}
 :where(a,button,input,select,textarea,[tabindex]):focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 button,a{touch-action:manipulation}
 .drawer{width:min(480px,100vw)}
@@ -485,11 +486,11 @@ function openPerson(id, push=true){
    ${p.note?`<p class="note">${esc(p.note)}</p>`:''}
    ${p.src.length?`<div><div class="eyebrow" style="margin-bottom:6px">Kilder</div><div class="src">${p.src.map(srcLink).join('<br>')}</div></div>`:''}`;
   wire(dBody);
-  drawer.hidden=false; scrim.hidden=false; dBody.scrollTop=0;
+  drawer.hidden=false; scrim.hidden=false; document.body.classList.add('drawer-open'); dBody.scrollTop=0;
   document.getElementById('d-close').focus({preventScroll:true});
   highlight(id);
 }
-function closeDrawer(){ drawer.hidden=true; scrim.hidden=true; hideTip(); if(lastFocus&&lastFocus.focus) lastFocus.focus({preventScroll:true}); }
+function closeDrawer(){ drawer.hidden=true; scrim.hidden=true; document.body.classList.remove('drawer-open'); hideTip(); if(lastFocus&&lastFocus.focus) lastFocus.focus({preventScroll:true}); }
 dBack.addEventListener('click',()=>{ hist.pop(); openPerson(hist[hist.length-1], false); });
 document.getElementById('d-close').addEventListener('click',closeDrawer);
 scrim.addEventListener('click',closeDrawer);
