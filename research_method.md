@@ -331,3 +331,24 @@ Phase 5 continues: prioritize original probate records for the Gaardsted branch,
 - The Danish Genealogical Society's online probate-links collection lists multiple Langeland probate registers/series (including Langeland 1683–1850 name register, Langeland Herred 1802–1865 name register, and Langeland county/estate-related probate material). This is a strong route for the Langeland branch, but exact jurisdiction must be matched to each ancestor's parish and legal status. Source: https://slaegt.dk/kilder/hvor-finder-du/online-kilder-sub/linksamling-skifter/.
 - Next run should leave Gaardsted temporarily and select one or more of the Broager/Nybøl and Langeland frontier slots; inspect their exact public source keys and parish/date anchors in `data/build_data.py`, `data/family_docs.json`, and public `data/family.json` only. Do not access private ciphertext or decrypted private data.
 - Validation: re-read this method file first; continued on `ccr-6abdfb67-cbzklo`. Public web catalogues only. No original records read and no genealogy data changed.
+
+
+## Milestone 13 — Broager/Nybøl collateral lead (non-Gaardsted branch)
+### Exact parish-register indexes located
+- Arkivalieronline lists a **Register til Broager kirkebog (1695–1895)**. Its index categories include births/deaths/marriages for women through 1874 and marriages for men through 1895. Exact index landing page: https://arkivalieronline.rigsarkivet.dk/da/other/index-creator/29/16417788/18484676; image viewer endpoint exposed by the category links: https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=18484676.
+- Arkivalieronline also lists a **Register til Nybøl kirkebog (1642–1829)** with deaths, births and marriages. Exact landing page: https://arkivalieronline.rigsarkivet.dk/da/other/index-creator/29/16417788/18484666; viewer endpoint: https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=18484666.
+- The text browser can read the index landing-page metadata but not the scanned image viewer. These are verified archival entry points, not evidence that any particular index entry has been read.
+### Candidate collateral relationship to test
+- Public tree person p53 is Anne Christine Hansen (Ahnentafel 53), wife of Rasmus Jensen (p52), married 18 Sep 1866 in Dybbøl. Her stated parents are Hans Hansen (p106) and Ellen Kock (p107), supported in the existing data by the marriage-index source `LL:13-4977282` and associated LL keys for the parents. Her own birth date/place are currently unknown.
+- An independently published online genealogy page for **Jørgen Hansen**, born 26 Apr 1827 in Dybbøl, names parents Hans Hansen (born 1798) and Ellen Kock (born 1799), and cites Dybbøl parish register 1810–1853, p.95, no.10, image 50. It gives no documentary source for the parents' birth years and is a secondary online tree, so it is only a collateral lead. Source: https://www.stroemming.dk/genealogy/gedweb/Public/da/Details/Details-I6346.html.
+- A separate local-history PDF also names a Marie Magdalene Hansen as daughter of the Dybbøl cottager Hans Hansen and Ellen Kock, but does not establish that she or Jørgen is a sibling of Ahnentafel 53. Source: https://slaegtsbibliotek.dk/2023/929725.pdf.
+- Hypothesis to test, **not established**: p106/p107 might be the same Hans Hansen and Ellen Kock who were parents of Jørgen Hansen (1827) and possibly other Dybbøl children. Do not merge people or add sibling links without Anne Christine's baptism/marriage entry or another primary record confirming the same couple.
+### Next research actions
+1. Use the Broager index and Nybøl index to identify relevant birth/marriage entries for Hans Hansen and Ellen Kock and any children; verify the relevant parish is Dybbøl, Broager, or Nybøl rather than assuming the index coverage follows modern place labels.
+2. Inspect the original Dybbøl 1827 baptism (p.95, no.10) to verify Jørgen's parents and residence, then search the same couple's children in Dybbøl/Broager/Nybøl registers.
+3. Locate Anne Christine Hansen's own baptism, then compare the parents' names, residence, occupation and witnesses against the 1827 Jørgen record. Only then decide whether this is a sibling/collateral link.
+4. After this bounded test, rotate to another independent frontier (e.g. Langeland p114/p115, p118/p119, or the Syv/Starup/Fåborg/Hoven lines) rather than allowing the Sønderjylland line to monopolize the queue.
+### Validation
+- Re-read this method file first; continued on branch `ccr-6abdfb67-cbzklo`.
+- Inspected only public family.json people with Ahnentafel 32–127, plus public `data/build_data.py` and `data/family_docs.json`; no private or encrypted data was accessed. No genealogy records changed.
+- Arkivalieronline index metadata and secondary collateral pages were searched. No original register image has been read; the possible Hans Hansen/Ellen Kock identity remains a hypothesis. No local build or tests were run.
