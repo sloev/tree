@@ -10,7 +10,7 @@
 - At each major milestone, update this file with findings, files inspected, changes, validation, and the next concrete step.
 
 ## Active phase
-Phase 0 — establish repository state and map the architecture.
+Phase 4 — complete public-data integrity audit and regression-test design; implementation is deferred until a safe execution/test route is available.
 
 ## Progress
 - Confirmed README documents a Python generation pipeline:
@@ -116,3 +116,46 @@ Phase 3 — review all builder merge rules and the rest of the UI rendering logi
 - No application source files changed.
 ### Next phase
 Phase 4 — inspect the full repository inventory and static generated-artifact consistency; review all source-data shapes for invalid/ambiguous dates and relationship anomalies using only public `family.json` and non-sensitive source files; then implement a minimal regression fixture for the parent-slot inversion only if a safe local execution/test route can be established.
+
+
+## Milestone 4 — complete repository inventory and public-data audit
+### Repository inventory
+The recursive Git tree for branch `ccr-6abdfb67-cbzklo` was inspected in full (not truncated). Tracked paths comprise:
+- Root: `.gitignore`, `README.md`, `family-tree.md`, `family-tree.ged`, `research_method.md`.
+- `data/`: source builder, GEDCOM exporter, private-data utility, public family snapshot, encrypted private blob, anonymized stubs, map geometry, and manual/automatic ancestor, sibling, and family-document sidecars.
+- `tools/`: Link Lives client, query/matching helpers, ancestor expansion, sibling discovery, and manual-add helper.
+- `site/`: source template, site builder, unlock script, poster template, generated poster page, and PDF driver.
+- `docs/`: GitHub Pages output, poster output, four PDF posters, and `.nojekyll`.
+- `images/`: ten source images.
+No test directory, dependency manifest, or GitHub Actions workflow appears anywhere in this complete tracked tree. This is a statement about tracked files on this branch, not about external CI configuration.
+### Public snapshot integrity checks
+Checks were performed on the public `data/family.json` snapshot only. The encrypted `private_blob` was excluded from content scans; private records were not enumerated or decrypted.
+- 387 non-private people in the current snapshot.
+- No duplicate public person IDs or duplicate public Ahnentafel numbers.
+- No dangling `father`, `mother`, or `spouse` references among public people.
+- 286 public people have at least one explicit father/mother link.
+- 327 public birth values and 149 public death values are populated.
+- Four non-ISO death strings were found: `efter 1922`, `1885–1892`, `efter 1811`, and `efter 1730`. All four are intentionally supported by `data/export.py:gdate()` as AFT or BET expressions; they are not malformed dates.
+- No impossible calendar dates or invalid numeric months were found in ISO day/month values.
+- No public string containing a literal closing `</script>` tag was found in the data fields embedded by `site/build.py`.
+### Confirmed code-path defect sharpened
+The compacting defect in `tools/expand.py` is confirmed by direct source tracing:
+- Both the marriage-patch path and the ancestor-creation path store `_parents` as a list comprehension over `(father, mother)` with missing entries filtered out.
+- The later expansion loop interprets list index 0 as father/Ahnentafel even slot and index 1 as mother/odd slot.
+- Therefore, whenever the father is absent and the mother is present, the remaining mother record is deterministically misassigned to the father slot. This is not merely a theoretical indexing concern; the data model has no way to retain the omitted role once the list is compacted.
+- Current `auto_ancestors.json` has eight entries with `_parents`: four empty, two one-element, and two two-element arrays. The two one-element entries require checking against their original Link Lives marriage records before concluding whether either is a shifted mother; the stored sidecar alone does not preserve that role information.
+### Export and website generation observations
+- `data/export.py:gdate()` supports exact dates, month precision, year precision, approximate years, after-dates, and year ranges. Numeric month/day validation is absent in code, although no invalid calendar dates were detected in the current public snapshot.
+- `site/build.py` injects JSON strings directly into inline script content via `str.replace`. The current public data scan found no literal closing script tag, but the generator has no explicit script-context escaping. A future hardening change should serialize inline data safely (at minimum escape `<` as a Unicode escape in JSON payloads) and add a regression fixture containing `</script>` in a public text field.
+- The tracked generated site and docs HTML differ slightly in size because docs output is wrapped as a standalone document; this is expected from the builder's separate wrapper logic. No build was run to verify byte-for-byte regeneration.
+### Validation status
+- Complete tracked-tree inventory and aggregate/public-data structural checks completed via GitHub source reads.
+- No code or data files changed in this milestone; only this research checkpoint is updated.
+- No local shell/runtime is available through the current repository connection, so Python build, GEDCOM export, browser tests, PDF generation, and regression tests remain unrun.
+- No external Link Lives query was made; no encrypted or decrypted private data was accessed.
+### Next steps
+1. Inspect `tools/addman.py` and all remaining small utility code; finish call-graph and sidecar schema review.
+2. Design an isolated, non-secret regression fixture for father-only, mother-only, and both-parent marriage cases; extract a pure role-preserving helper if the tests can be added without changing generated genealogy output.
+3. Review `site/build.py` inline JSON serialization and implement script-context escaping with a minimal fixture.
+4. Reconcile the four supported non-ISO dates and GEDCOM export behavior; add validation for impossible month/day values.
+5. Update this checkpoint before any code edits and explicitly state that runtime validation is unavailable unless an execution route becomes available.
