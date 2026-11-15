@@ -62,3 +62,31 @@ Phase 0 — establish repository state and map the architecture.
 - No application code was modified in this milestone.
 ### Next phase
 Phase 2 — inspect the complete `data/build_data.py` validation and privacy gates; trace the full client-side rendering logic in `site/template.html`; inspect generated artifacts and repository workflows; then design/run safe validation without decrypting private data.
+
+
+## Milestone 2 — automated genealogy tooling and data integration
+### Additional files inspected
+- `tools/ll.py`: direct Elasticsearch-style client for Link Lives at `data.link-lives.rigsarkivet.dk`; retries failures up to 8 times with exponential backoff (capped at 60 seconds); exposes search, record grouping, and life-course lookup.
+- `tools/climb.py`: reusable genealogy query/matching helpers; resolves indexed baptism groups, marriage groups, and census household parents; attempts ancestor traversal.
+- `tools/expand.py`: creates/updates `data/auto_ancestors.json` from birth, marriage, and census records; iterates generations and stores explicit Link Lives keys.
+- `tools/siblings.py`: discovers sibling baptisms from same-parish records, checks burial records for child deaths, and provides a separate `--clean` pass for duplicates, unnamed stillbirths, patronymic mismatch, age bounds, and implausibly close births.
+- `data/auto_ancestors.json`, `data/auto_siblings.json`, `data/manual_siblings.json`, `data/family_docs.json`: persisted machine-generated, manually curated, and family-document-derived inputs.
+- `data/family.json`: generated snapshot, inspected only for aggregate metadata (485 people, 54 places, 11 photos, 5 source definitions, 98 anonymous private placeholders, encrypted blob present); no private ciphertext/plaintext content inspected.
+### Expanded data flow
+1. `tools/ll.py` queries the public Link Lives search endpoint; no API key is hard-coded. Network failure handling is implemented in the shared client.
+2. `tools/expand.py` and `tools/siblings.py` consume the generated `data/family.json`, query Link Lives, and persist their results into separate JSON sidecars. The source builder later merges auto-ancestor, manual sibling, and auto-sibling sidecars into the canonical person list.
+3. `data/family_docs.json` applies keyed patches to known people and appends manually supplied people. Place aliases then map textual birth/death locations into the coordinate-backed `PLACES` dictionary.
+4. The final build step appends anonymous private stubs, embeds the encrypted blob, and enforces unique IDs, valid relationship references, and the private-person assertion before writing `data/family.json`.
+### New review findings
+- **Search errors are swallowed in genealogy helpers:** `tools/climb.py:q()` catches every exception and returns an empty result list. A Link Lives outage, malformed query, or schema change is therefore indistinguishable from a genuine no-match; this can silently suppress research results. A future improvement should log/propagate errors while allowing retry handling in `tools/ll.py`.
+- **Sibling matching is heuristic:** `tools/siblings.py` uses normalized first names and parent-name overlap, and limits the main search to the same parish because county-wide searches produced too many false matches. Its clean pass is valuable but still heuristic; all accepted siblings need source review before being treated as established family links.
+- **Sibling sidecar cleanup is stateful:** `--clean` rewrites `data/auto_siblings.json` with reject markers and retained entries. Running the finder and cleaner should be treated as distinct phases; preserve the raw output or commit/checkpoint before cleanup if reproducibility is required.
+- **Ancestor expansion sidecar contains patches and rejects as well as new people:** consumers must honor `patch`, `reject`, and `_auto` markers; do not treat every row as a person. The builder's merge logic explicitly skips rejected records and handles patches against existing IDs.
+- **Fixed privacy year:** `must_be_private` defaults to `this_year=2026` and the build invokes it without a dynamic year. This freezes the 100-year cutoff. It errs conservatively for older people (may keep some deceased people private), but should be made date-aware with a test to avoid a stale policy boundary.
+- **No dependency manifest found under root or `tools/`;** Python runtime requirements are not formally declared in the inspected files. `tools/ll.py` uses only the standard library; `data/private_tool.py` requires `cryptography`; PDF generation requires Node + Playwright + Chromium as documented in `site/make_pdfs.js`.
+- **Front-end rendering:** the main template has six lazy-rendered views (overview, tree, people, map, statistics, sources), a person drawer, relationship navigation, and escaped dynamic text in person cards/details. Poster rendering is a separate SVG layout engine with generation/side/style/sibling controls and pan/zoom.
+### Validation status
+- The generated JSON aggregate counts were inspected; private-person records were not enumerated.
+- No local build, test, browser, PDF, or external Link Lives query was run. No app files were changed.
+### Next phase
+Phase 3 — review all builder merge rules and the rest of the UI rendering logic; identify concrete data-integrity defects in automated ancestor/sibling integration; inventory the complete repository (including generated artifacts and hidden workflow/config files); then run a reproducible build in a safe environment if available.
