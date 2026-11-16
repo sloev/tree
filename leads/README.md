@@ -46,3 +46,8 @@ That archive preserves the former notes for provenance, but they are **not activ
 ## Source assets retained here
 
 The JPG scans and current GEDCOM/JSON/text exports remain here as source/reference artifacts, not additional research dossiers. Original uploaded extension segments, the superseded 531-person export and the image catalog are preserved in the historical archive.
+
+
+## Ingested personal-information supplement
+
+The supplied personal-information export was reviewed against all four dossiers on 16 November 2026. Most biographical notes duplicate information already consolidated in the active dossiers; the Hoven mill household details are already recorded in the Liss dossier. The new Wilhelm Krogh family and Vester Snogbæk/Sottrup leads, including the correction to his likely police and court district, have been added to the Lorenz dossier. The original export is preserved at [research-archive/family-tree-personal-info-2026-11-16.txt](../research-archive/family-tree-personal-info-2026-11-16.txt) for provenance, not as a second active worklist.
