@@ -9,3 +9,24 @@ See /tmp/tree_coop.md for full content -- tool will use the prepared file conten
 - Updated `leads/grandparent-lorenz-frederiksen.md` only; no canonical people, dates, relationships or edges changed. Commit: `9958e29140fc6d63b496a7022c1420500a0415f5` (https://github.com/sloev/tree/commit/9958e29140fc6d63b496a7022c1420500a0415f5).
 - Validation: fetched the current source files and online source/catalogue pages; no local build, GEDCOM export, site build or browser test was run.
 - Next action: inspect Selmer vol. II at Harbou's cited reference to establish locality/details, then inspect the appropriate 1848 burial index/register. If Selmer does not give a locality, test the Schleswig and Bredstedt indexes as bounded alternatives and corroborate identity by rank, family and residence. Keep the 1774–1848 supplied-person match speculative until independently corroborated.
+
+## 2026-11-16 — Open research publication standard
+
+The project owner clarified that research should remain visible on the public website while unresolved, so visitors can recognise details and contribute missing information. Agreed: the site is to function as an open research tree, not only a proven-facts tree. Unverified and competing claims should be visible with clear status and click-through explanations of provenance, evidence, limitations, missing records and concrete requests for help.
+
+Updated:
+- `research_method.md`: added the open-public-research standard, independent relationship-level statuses, public searchable research register requirements, contribution guidance, and a privacy/publication gate.
+- `README.md`: added a public-facing explanation that credible unresolved leads should be published with explicit qualification and that visitors can contribute through Issues/PRs.
+
+Important design requirements for the website implementation:
+1. Visually distinguish established facts, claims needing evidence, hypotheses, family accounts, disputes and rejected leads. Do not rely on colour alone.
+2. Clicking a person or relationship must explain the specific claim, source provenance, what it proves/does not prove, competing evidence, missing evidence and next check.
+3. Represent relationships independently from person confidence; distinguish biological, legal/registered, step, adoptive, foster, guardian, household and marital ties. Never make a speculative biological link look settled.
+4. Add a public research register with filters for person, place, family line, record type and status, plus actionable contribution requests and links to sources/history.
+5. Publish reviewed public summaries from structured source data; do not expose unreviewed private dossier material or sensitive details about living people/informants.
+
+This commit changes the publication policy and README only. The existing site already displays some person-level confidence and Lorenz's competing paternity claims in the person drawer, but it does not yet provide a complete structured public register of all four active dossiers, nor consistent click-through explanations for every uncertain relationship. Website implementation and audit remain outstanding. No canonical genealogy data changed. No local site build, GEDCOM export, browser test or deployment was run.
+
+Commits: research method `dfbfb31136cf8406059d6a0e711357c192ee8ecc`; README `2340b5eb208addef9c0fb37a6065bc65094577d6`.
+
+Next: design a structured, privacy-reviewed public research-claim dataset from the four active dossiers; wire it into a dedicated website research view and person/relationship drawers; then build and inspect the generated public output for privacy leaks and misleading edge styling.
