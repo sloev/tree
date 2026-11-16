@@ -1194,3 +1194,21 @@ Accordingly, keep the date and parentage at **“Kræver mere belæg”**. Treat
 Sources:
 - [Harbou 1897, Christian Adam and footnote 28](https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf).
 - [Familienverband derer v. Kleist, Ergänzungen zu III.466](https://v-kleist.com/FG/Muttrin/fg0283a.htm) — reports a Danish archive search but supplies no exact shelfmark or transcription.
+
+
+### Update — the bell-ringer's 1704–1822 name index was released online (16 November 2026)
+
+**Correction to the access caveat above:** the earlier inventory says the original name registers are available as reading-room copies, but Rigsarkivet's later Arkivalieronline release notices show that the relevant index was subsequently digitised/released online.
+
+- October 2025 release notice: Vor Frelsers Sogn, *Navneregister til enesteministerialbog ført af klokkeren*, 1640–1822, content “FØDTE 1704–1749 m.m.”
+- November 2025 release notice: same series, content “FØDTE 1704–1822” and a second index “FØDTE 1750–1842”.
+- The parish inventory identifies the 1704–1822 index as volume 20 and says it refers to the bell-ringer's baptism books 15–19 and 36.
+
+This supersedes the previous assumption that volume 20 was not confirmed online. The online release is now documented, but **the index's individual images have not yet been opened and Christian Adam has not yet been located in it**. The next step is to open the Vor Frelsers name-index series in Arkivalieronline, inspect the index under Christian/Christiern/Christian Adam (and possible Adrian spelling), note the exact page/image and book reference, then follow that reference to the baptism entry. Compare the minister's FVD 1686–1722 book separately.
+
+Status remains **“Kræver mere belæg”** until the index and original entry are actually read. No canonical family relationship changes.
+
+Sources:
+- [Rigsarkivet, “Nyt på Arkivalieronline oktober 2025”, p. 1](https://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-oktober-2025.pdf) — first listed release of the Vor Frelsers bell-ringer name index, 1704–1749.
+- [Rigsarkivet, “Nyt på Arkivalieronline november 2025”, p. 10](https://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-november-2025.pdf) — lists the expanded 1704–1822 index.
+- [Vor Frelsers parish archival inventory](https://slaegtsbibliotek.dk/900379.pdf) — identifies this as volume 20 and maps it to baptism books 15–19 and 36.
