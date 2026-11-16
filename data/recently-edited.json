@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "72eb677172bcd440307fda761a4f14ebf7a418ba",
+    "commit": "4d2b8d803475decdbcb07529122fde8db383025d",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "data/tree.json"
     ],
     "people": [],
-    "title": "Remove retired dossier pointers and normalize migrated research provenance"
+    "title": "Expose source URLs cited in the migrated Lorenz paternity dossier"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
