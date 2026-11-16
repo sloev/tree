@@ -122,3 +122,19 @@ Validation: the main JavaScript function extracted from `site/template.html` pas
 **Validation:** Fetched current file SHA before edit; JSON parsed before update. No local Python build, GEDCOM export, visual review or Pages deployment verification performed in this research loop.
 
 **Next actions:** (1) identify which authority/estate held the 1764 Dejret probate of Christen Christensen Tohde?; (2) inspect original G299 records 1772 fol. 58 and 1774 fol. 90 if scans can be resolved; (3) request item-level detail from Sønder Felding Lokalhistoriske Arkiv for A410 nr. 15 and 22 before assuming they contain Liss's marriage.
+
+## 2026-11-16 — research loop: Kolding baptism search aid
+
+**Track updated:** `lorenz-danish-kleist-1775`.
+
+**New lead:** Rigsarkivet's Arkivalieronline catalog exposes a Kolding Sankt Nikolaj name-register (1635–1891), with a scanned register unit. Added its official link and a note to the existing track. The title says “kirkebøger, viede og døde”; it is not yet established that it indexes baptisms in 1775. The AO web view exposed only the image-viewer shell in this environment, so no name lookup or negative result is claimed.
+
+**Research implication:** the primary next step remains comparison of Kolding Sankt Nikolaj C 469-3 and C 469-7 for January 1775, checking both books and recording parents, residence, witnesses and exact event dates against Selmer (3 January) and Harbou (8 January).
+
+**Sources:** Rigsarkivet Arkivalieronline Kolding Sankt Nikolaj name-register; Selmer's 1848–49 necrology; Harbou's Danish von Kleist history.
+
+**Files changed:** `data/tree.json` and this `coop.log.md` entry. No person or family edge changed.
+
+**Validation:** current SHA fetched before update; canonical JSON parsed before write. No local build/export, visual inspection or deployment check performed.
+
+**Next:** inspect the register images and original C 469-3/C 469-7 pages; if inaccessible, use the Kolding Stadsarkiv transcription portal or request exact scans from Kolding Stadsarkiv.
