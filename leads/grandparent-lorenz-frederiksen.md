@@ -1212,3 +1212,68 @@ Sources:
 - [Rigsarkivet, “Nyt på Arkivalieronline oktober 2025”, p. 1](https://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-oktober-2025.pdf) — first listed release of the Vor Frelsers bell-ringer name index, 1704–1749.
 - [Rigsarkivet, “Nyt på Arkivalieronline november 2025”, p. 10](https://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-november-2025.pdf) — lists the expanded 1704–1822 index.
 - [Vor Frelsers parish archival inventory](https://slaegtsbibliotek.dk/900379.pdf) — identifies this as volume 20 and maps it to baptism books 15–19 and 36.
+
+
+## Von Woyten–Kleist descent: supplied pedigree and source audit (16 November 2026)
+
+**Relevant existing tree IDs**
+- Christina von Woyten — `p13899`
+- Georg von Kleist, Groß-Tychow, II.55 — `p13898`
+- Hedwig Maria von Kleist — `p6949`
+- Colonel Christian/Carsten von Kleist, II.60 — `p6948`
+- Their son Christian Casimir, II.82 — `p3474`
+- Anna (Hedwig) von Fürst — `p3475`
+- Barbara Juliane von Kleist — `p1737`
+- Cartz Ulrik von Kleist — `p1736`
+- Christian Adam von Kleist, III.466 — `p868`
+- Otto von Below of Pustamin — `below_otto_pustamin`
+- Christina's recorded parents — `woyten_benedictus` and `stojentin_elisabeth`
+
+The supplied pedigree is now a research lead attached to this dossier. The names, dates and relationships below are not all equally supported. The canonical tree has **not** been expanded or changed on the strength of the supplied compilation alone.
+
+### What the 2025 von Kleist family history confirms
+
+The 2025 revised *Tychow-Dubberow* history (English machine translation; German edition 2024) gives a strong published-genealogy framework:
+
+1. **Georg II.55 and Christina:** Georg is recorded as still a minor in 1609, taxed at Groß-Tychow in 1629, and holding shares in Mandelatz and Groß-Tychow in 1645. The compiler infers that he died after 1645 and certainly before 1665. His wife is named Christina von Woyten, widow of Otto von Below of Pustamin, daughter of Benedictus von Woyten of Versin and Elisabeth von Stojentin of Giesebitz. Their only daughter is Hedwig Maria. No birth or death date is supplied for Christina or Hedwig Maria. The book does not support estimating Christina's dates from her father's lifespan.
+2. **Hedwig Maria and Christian/Carsten II.60:** the colonel died in 1679. His first marriage to Hedwig Maria produced four sons — Bernd Erdmann II.81, Christian Casimir II.82, Adam Wilhelm II.83 and Sebastian Heinrich II.84 — and daughter Herath Juliana. His second marriage, to Barbara Eleonora von Kalkstein, produced a separate son and daughter. Keep the two marriages' children distinct.
+3. **Bernd Erdmann II.81:** died 26 December 1701 at Helsingør and was buried at St. Mary's Church. His wife was Elisabeth Hedwig von Schack. They had son Christian Wilhelm II.116 and four daughters: Juliana Loysa, Maria Elisabeth, Amalia and Charlotta.
+4. **Christian Wilhelm II.116:** born circa 1684 and died 1763. He married Anna Elisabeth von Kleist and Agnes Maria von Kleist. The book lists five sons — Bernd Dubslaff II.153, Ernst Ewald II.154, Rüdiger Christian II.155, Hans Sigismund II.156 and Joachim (Rüdiger) Wilhelm II.157 — and daughter Hedwig Elisabeth from the second marriage. The five sons' branch is described as ending with their childless deaths. Some individual dates in the supplied compilation need correction: for example, II.153 is given as born circa 1718 and died 1769 in the biography, but the same entry's narrative says he died 22 November 1756; this internal inconsistency needs checking against the cited source/records before reusing either death year.
+5. **Christian Casimir II.82:** born 1654, died 19 February 1722. His wife is named Anna Hedwig von Fürst, who died in 1722. The couple had one son, Andreas Wilhelm II.117, and four daughters, including Barbara Juliane, who married Lieutenant Colonel Cartz Ulrik von Kleist III.369. This is the crucial bridge to Christian Adam: he is not a son of Christian Casimir. The descent runs through **Christian Casimir → Barbara Juliane → her marriage to Cartz Ulrik → Christian Adam III.466**. The supplied list incorrectly places Barbara Juliane and Andreas Wilhelm as children of Christian Adam in its Danish-branch section; they are siblings/children of Christian Casimir in the earlier generation. The book says the male branch through Andreas Wilhelm later died out with his grandchildren; that does not erase the separate descent through Barbara Juliane.
+
+### The Christina Woyten identity question: two Georgs
+
+The same 2025 book preserves the unresolved point already noted in the canonical record:
+- Georg II.55 of Groß-Tychow (died after 1645) had a wife Christina von Woyten, widow of Otto von Below, and daughter Hedwig Maria.
+- Georg II.44 of Wendisch-Tychow/Crolow died in 1629. The book reports, following von der Osten, a first wife Christina Woyten of Versin, said to have borne him no children, and a second wife Dorothea von Below, who bore two sons. The compiler says other family records do not mention II.44's first wife. A note attached to the II.55 account says von der Osten mistakenly assigns II.55's Christina to Georg II.44.
+
+This is **not** proof that one woman married both Georgs, nor proof that there were two women. The second account is explicitly dependent on von der Osten and is absent from other family records. A possible sequence involving II.44, Otto von Below and II.55 remains a hypothesis only. Do not merge identities, change Christina's spouse links, or create a second Christina node until the original cited source behind von der Osten and the relevant estate/marriage records are inspected.
+
+### Earlier Woyten ancestry and collateral siblings
+
+The supplied compilation adds Martin von Woyten, Anna von Puttkamer, Regina and Catharina von Woyten, and a proposed marriage of Regina to Gerson/Jerson von Kleist. The current 2025 Tychow-Dubberow entry for Christina does **not** establish these grandparents or siblings. A separate compiled *Ahnentafel Peters* and Geneanet profiles show a proposed Regina von Woyten–Gerson von Kleist pairing and descendants, but these are derivative genealogical compilations, not contemporary proof. Treat the proposed collateral line and the Puttkamer ancestry as **unverified leads**. In particular, the claim that Anna von Puttkamer was daughter of Lorentz/Peter/Martin von Puttkamer needs a precise source; the alternatives are not interchangeable identities.
+
+### Danish line and date checks
+
+- The family history identifies Barbara Juliane as daughter of Christian Casimir II.82 and wife of Cartz Ulrik III.369. The existing tree's `p1737` and `p1736` links therefore provide the correct route to Christian Adam `p868`.
+- The 2025 history dates Christian Casimir's death to **19 February 1722**, whereas the current structured data `p3474` says **1 February 1722**. This is a source conflict to resolve, not a date to overwrite without checking the underlying citation.
+- The family history names the wife **Anna Hedwig von Fürst** and gives her death as 1722; the current tree calls her Anna von Fürst. Retain the name variant pending primary-source comparison.
+- The supplied Christian Adam birth date of **3 October 1705** conflicts with the currently used published account and family-association report of **1 October 1705**. The original Vor Frelsers baptism entry has not yet been read; keep 1 October as the current published claim, not as a verified register transcription.
+- The supplied downstream names and dates — Frederik/Friedrich Carl Emil, Christian Frederik Vilhelm, Sophie Frederikke, Julie von Kleist and Eide/Moltke/Rosenkrantz descendants — need their own source chain. They are not established by the Tychow-Dubberow pages audited here. The family history also describes II.82's son Andreas Wilhelm II.117 and his descendants separately; do not conflate that line with Christian Adam's descent through Barbara Juliane.
+
+### Next research actions
+
+1. Obtain and inspect the full German 2025 edition at the exact references for II.55 (German edition p. 143; English translation p. 123), II.44 (German p. 36; English translation p. 29), II.60–84 and II.116–117. The English file states that it is machine-translated and still requires proofreading.
+2. Follow the footnote for the II.44 Christina claim to the cited von der Osten work; determine exactly what it says and whether it gives any source for the marriage.
+3. Search the original Pomeranian feudal, estate and church records cited in the family history (especially documents 571, 623 and 640 for II.55; and the records cited in the II.44 account). Seek evidence of Christina's widowhood, marriage sequence and the parentage of Hedwig Maria.
+4. Verify the II.82 family and Barbara Juliane–Cartz Ulrik marriage against the original marriage/estate documents and Danish church records; separately pursue Christian Adam's Vor Frelsers baptism image.
+5. Trace the later Danish line from Harbou (1897) and the relevant Danish church, probate and civil records before adding any further people or dates.
+
+**Assessment:** the Christina → Hedwig Maria → Christian/Carsten II.60 descent is supported as published genealogy. The identity of Christina with the Christina attributed to Georg II.44 remains unresolved. The Christian Casimir → Barbara Juliane → Cartz Ulrik → Christian Adam connection is supported by the 2025 family history and Harbou, but the primary records and later descendants still need independent verification. No new canonical people, dates or parent-child edges are added in this update.
+
+Sources:
+- [2025 revised von Kleist family history, German edition](https://www.v-kleist.com/FG/Dubberow.pdf) — especially II.44 and II.55 (German pp. 36 and 143), II.60–84 and II.116–117.
+- [2025 English machine translation](https://v-kleist.com/FG/english/Dubberow_translation.pdf) — II.44 (English pp. 28–29), II.55 (p. 123), II.60–84 (pp. 139–143), II.81 and II.116–117 (pp. 141–149).
+- [Harbou, *Slægten von Kleist i Danmark* (1897)](https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf).
+- [Ahnentafel Peters, vol. 1](https://dirkpeters.info/wp-content/uploads/2018/10/ahnentafel_peters_bd_1.pdf) — a compiled secondary pedigree; useful as a lead for Regina von Woyten and Gerson von Kleist, not as proof of the parentage.
+- [Geneanet compilation for Christian Adam von Kleist](https://de.geneanet.org/fonds/individus/?go=1&nom=VON+KLEIST&prenom=Christian+Adam) — derivative tree data; use only as a clue.
