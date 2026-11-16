@@ -1,1 +1,11 @@
 See /tmp/tree_coop.md for full content -- tool will use the prepared file content of 37294 bytes including the new null-result section.
+
+## 2026-11-16 — Frederik Christian III.727 death-record route
+
+- Read current `research_method.md`, `leads/README.md`, `coop.log.md` and the Lorenz/Frederiksen dossier before research. Confirmed the project method: `main`, four active grandparent dossiers, evidence-status labels, no unsupported parentage edges.
+- Followed the dossier's unresolved candidate match between Harbou's Frederik Christian III.727 (8 Jan 1775–21 May 1848) and the supplied “Christian Frederik Vilhelm” (1774–1848).
+- Re-read Harbou's full entry and footnote 36. Harbou gives III.727's military career and death date, but no death locality in that entry; footnote 36 cites H. P. Selmer, `Nekrologiske Samlinger`, vol. II. Corrected the prior unsupported assumption that III.727 died at Bredsted: Harbou assigns Bredsted to his elder brother III.601, who died there in 1799.
+- Identified relevant catalogue holdings at the Landeskirchliches Archiv Nordkirche / Archion: Bredstedt `Bestattungen 1831–1879` and index `Bredstedt_13`; Schleswig-Domgemeinde `Bestattungen 1823–1856` and burial-name index 1770–1874. Both cover 1848, but neither has yet been searched for III.727; catalogue entries are not proof of a burial. Archion images require access, and no original register image was inspected.
+- Updated `leads/grandparent-lorenz-frederiksen.md` only; no canonical people, dates, relationships or edges changed. Commit: `9958e29140fc6d63b496a7022c1420500a0415f5` (https://github.com/sloev/tree/commit/9958e29140fc6d63b496a7022c1420500a0415f5).
+- Validation: fetched the current source files and online source/catalogue pages; no local build, GEDCOM export, site build or browser test was run.
+- Next action: inspect Selmer vol. II at Harbou's cited reference to establish locality/details, then inspect the appropriate 1848 burial index/register. If Selmer does not give a locality, test the Schleswig and Bredstedt indexes as bounded alternatives and corroborate identity by rank, family and residence. Keep the 1774–1848 supplied-person match speculative until independently corroborated.
