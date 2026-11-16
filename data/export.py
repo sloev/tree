@@ -1,4 +1,4 @@
-"""Exports data/family.json to family-tree.ged (GEDCOM 5.5.1)."""
+"""Exports the family data in data/tree.json to family-tree.ged (GEDCOM 5.5.1)."""
 import json, os, re
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = json.load(open(os.path.join(root, "data", "tree.json"), encoding="utf-8"))["family"]
