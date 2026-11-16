@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "2e9db96c7b57413e0bc1a1227758e3e3319b4d17",
+    "commit": "378afbd35c9159f7ec71ad42908a86ff10915b45",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "data/tree.json"
     ],
     "people": [],
-    "title": "Research: add 1762 Skærsø kinship lead for Rasmus Jensen"
+    "title": "Research: connect Rousing family evidence across 1735 and 1762"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
