@@ -77,3 +77,10 @@ Hjemmesiden skal være et **åbent forskningstræ**. Relevante, privatlivsmæssi
 Vi vil gerne have hjælp fra besøgende. Forskningssiden skal derfor gøre det let at finde åbne spørgsmål efter navn, sted, slægtslinje og status og give en konkret anvisning på, hvilken kirkebog, folio, folketælling, skifteprotokol eller anden kilde der kan afklare spørgsmålet. Bidrag kan sendes via [GitHub Issues](https://github.com/sloev/tree/issues) eller Pull Requests. Se [den fulde publicerings- og privatlivsmetode](research_method.md#9-open-public-research-and-community-contributions).
 
 Åbenhed gælder historisk forskning, ikke private oplysninger: levende personer, private dokumenter, følsomme detaljer og ikke-offentliggjorte oplysninger om informanter skal fortsat beskyttes. En familieoplysning kan godt offentliggøres som familieoplysning, når det er forsvarligt; den må aldrig præsenteres som et dokumenteret faktum alene af den grund.
+
+
+### Forskningsregister på hjemmesiden
+
+Den første offentlige version af fanen **Forskningsspor** er nu lagt i koden. Den indeholder otte åbne spor på tværs af de fire aktive bedsteforældregrene. Hvert spor viser status, det foreliggende belæg, hvad der mangler, næste kontrol og et link til arbejdsdossieret. Registerets redigerbare kildedata ligger i `data/research.json`; visningen bygges via `site/build.py`.
+
+Dette er en første, kurateret start — ikke en fuldstændig offentliggørelse af alle dossier-noter. Den lokale bygge- og browserkontrol samt bekræftelse af GitHub Pages-deploy mangler fortsat.
