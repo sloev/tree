@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "d59c1803a9709e9d21d97e7da61d80002be13eae",
+    "commit": "774955fe975fc3cb39319e427d0912557eedd196",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "data/tree.json"
     ],
     "people": [],
-    "title": "Refine dossier-note placement and consolidate open research tasks"
+    "title": "Re-ingest all dossier and cross-branch ledger research into canonical tracks"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
