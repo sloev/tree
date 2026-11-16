@@ -84,6 +84,13 @@ LINES = {
 }
 
 P = []
+
+# Historical union status, separate from current spouse/partner fields.
+# Jørgen and Vivi are divorced; no exact date has been supplied.
+UNION_STATUSES = [
+    {"partners": ["p3", "x_kirill"], "status": "divorced",
+     "note": "Family-reported divorce more than 30 years ago; exact date not supplied."}
+]
 def person(id, name, sex, *, ahnen=None, line=None, rel=None, born=None, bplace=None,
            died=None, dplace=None, occ=(), conf="record", note=None, src=(), res=(),
            father=None, mother=None, living=False, sibof=None, step=None, spouse=None):
@@ -983,6 +990,6 @@ if __name__ == "__main__":
     for p in P:
         for k in ("father", "mother", "sibof", "step", "spouse"):
             assert p[k] is None or p[k] in ids, (p["id"], k, p[k])
-    json.dump(dict(people=P, places=PLACES, lines=LINES, cats=CATS, photos=PHOTOS, links=LINKS, sources=SOURCES, private_blob=PRIVATE_BLOB),
+    json.dump(dict(people=P, places=PLACES, lines=LINES, cats=CATS, photos=PHOTOS, links=LINKS, sources=SOURCES, union_statuses=UNION_STATUSES, private_blob=PRIVATE_BLOB),
               open(os.path.join(here, "family.json"), "w"), ensure_ascii=False, indent=1)
     print(len(P), "personer")
