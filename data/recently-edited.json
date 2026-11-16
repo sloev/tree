@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "4d2b8d803475decdbcb07529122fde8db383025d",
+    "commit": "aa5a0e1ffd9e5fe4f3f2457d576c8d5e570390dd",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "data/tree.json"
     ],
     "people": [],
-    "title": "Expose source URLs cited in the migrated Lorenz paternity dossier"
+    "title": "Add new Isgaard-Rolsogaard probate cross-check and Sønder Felding archive lead to research tracks"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",

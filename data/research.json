@@ -61,8 +61,25 @@
     "a47",
     "p23"
    ],
-   "sources": [],
-   "research_notes": []
+   "sources": [
+    {
+     "label": "Arkiv.dk A410: Jens og Eli Kjær, Sønder Felding Lokalhistoriske Arkiv",
+     "url": "https://arkiv.dk/vis/4192887"
+    },
+    {
+     "label": "Horsbøl: Genealogiske data, Kjersten Frederiksdatter",
+     "url": "https://www.horsboel.dk/familie/grind/dat16.htm"
+    }
+   ],
+   "research_notes": [
+    {
+     "title": "Nyt arkivspor: Sønder Felding Lokalhistoriske Arkivs Jens og Eli Kjær-personarkiv",
+     "context": "Arkiv.dk A410, Sønder Felding Sogn, 1698–1900",
+     "text": "Arkiv.dk's katalogpost A410 beskriver personarkivet efter Jens og Eli Kjær ved Sønder Felding Lokalhistoriske Arkiv. Arkivskabermaterialet omfatter bl.a. “Optegnelser af slægtshistorisk og lokalhistorisk art” 1786–1844 (nr. 22) og en afskrift af Sønder Felding kirkebog 1826–1860 for nogle familier (nr. 15). Det er et nyt konkret lokalt arkivspor til vielsen i 1843 og den modstridende ægtefælleidentifikation Kjersten Frederiksdatter/Mette Pedersdatter. Kataloget beviser ikke, at netop Liss-familiens vielse er afskrevet i materialet; indholdet skal bestilles/undersøges hos arkivet. Registrér om muligt hvilke familier og vielser der indgår, og sammenhold med original kirkebog.\n\nSamtidig bekræfter Horsbøls sekundære slægtsside en arbejdshypotese om Kjersten Frederiksdatter, født/døbt 20. april 1822 i Sønder Felding, gift med Jens Peder Larsen 8. oktober 1843. Det er ikke en erstatning for vielsesindførslen og løser ikke alene navnekonflikten.",
+     "provenance": "Nye webkildekontroller 16.11.2026; Arkiv.dk A410 og Horsbøl-slægtsside",
+     "imported_on": "2026-11-16"
+    }
+   ]
   },
   {
    "id": "liss-baptism",
@@ -177,13 +194,37 @@
    "person_ids": [
     "p36"
    ],
-   "sources": [],
+   "sources": [
+    {
+     "label": "Isgård-Kvelstrup G299, alfabetisk navneliste og skifteuddrag 1762–1812",
+     "url": "https://slaegt.dk/media/jggabgk1/alfabetisk-navneliste-og-skifteuddrag-til-isgaard-kvelstrup-gods-g299-mols-herred-1762-1812.pdf"
+    },
+    {
+     "label": "Rolsøgård G302, alfabetisk navneliste og skifteuddrag 1778–1816",
+     "url": "https://slaegt.dk/media/jnnnvuml/alfabetisk-navneliste-og-skifteuddrag-til-rols%C3%B8g%C3%A5rd-gods-g302-mols-herred-1778-1816-1818.pdf"
+    },
+    {
+     "label": "Landsarkivet for Nørrejylland, Oversigt over de private godsers fæste- og skiftearkivalier (1970)",
+     "url": "https://slaegtsbibliotek.dk/910557.pdf"
+    },
+    {
+     "label": "Rigsarkivet: Skiftearkivalier – kom godt i gang",
+     "url": "https://www.rigsarkivet.dk/vejledning/skifter-og-testamenter/skiftearkivalier-kom-godt-i-gang/"
+    }
+   ],
    "research_notes": [
     {
      "title": "13. Clarification: Tohde was a stepfather, not an established biological father",
      "context": "13. Clarification: Tohde was a stepfather, not an established biological father",
      "text": "The evidence-audit compilation parses the G302 clause as describing Karen Christensdatter and Claus Gaardsted as **stepchildren** of Christen Christensen “Tohde?” (foged in Dejret; probate 1764). This is consistent with the word `stedbørn`. The 1787 index therefore does **not** identify the biological father of Claus or Karen. It supports the sibling relationship and points to Tohde's earlier probate, which may name the biological parent(s). The exact wording must still be checked on the original folio 39.\n\nThe old extension's proposed patch that creates Christen Christensen Tohde as biological father of Claus and Karen, renames Claus “Claus Christensen”, and adds a FAMC is not approved. Keep the current blank parent fields until the original 1764 probate and the original 1787 folio are read.",
      "provenance": "Tidligere Evald-dossier, fuldt indarbejdet 16.11.2026",
+     "imported_on": "2026-11-16"
+    },
+    {
+     "title": "Ny sammenstilling: Karen Christensdatter, Erik Hvol og Claus Gaardsted i tre skifteuddrag",
+     "context": "Dejret, Isgård-Kvelstrup G299 1772/1774 og Rolsøgård G302 1787",
+     "text": "Tre publicerede skifteuddrag giver nu en sammenhængende, men endnu ikke endeligt bevist identifikationshypotese:\n\n1. Isgård-Kvelstrup Gods G299, skifte nr. 32, 19. februar 1772, fol. 58: Rasmus Christensen, død hos Terkel Jacobsen Juel i Dejret. Uddraget opregner hans søskende, herunder “søster Karen Christensdatter enke [efter Erik Sørensen Hvol] LV: Jens Pedersen”. Samme indførsel nævner også søskende Dorthe, Anne og Sidsel Christensdatter. Den kantede parentes er redaktørens supplerende identifikation, ikke ordlyd fra protokollen.\n2. G299, skifte nr. 50, 2. juni 1774, fol. 90: “Karen Christensdatter i Dejret”, enke efter Erik [Sørensen] Hvol, med datteren Karen; datterens formynder angives som farbroderen Søren Sørensen Danmand. Det stemmer med enken nævnt i 1772-uddraget.\n3. Rolsøgård G302, skifte nr. 11, 14. maj 1787, fol. 39: I Niels Jensen Degns bo omtales arv til afdødes stedbørn efter “Christen Christensen Tohde? foged i Dejret (skifte 1764)”, herunder datteren Karen Christensdatter; hendes lavværge angives som “broder Claus Gaardsted forpagter på Vosnæsgård”.\n\nSammenstillingen gør det sandsynligt, at Karen Christensdatter i 1772/1774 er den Karen, der i 1787 modtager arv efter Christen Christensen Tohde, og at Claus Gaardsted var hendes bror. Det er fortsat en identifikationshypotese: kilderne er sekundære uddrag, stavningen “Tohde?” er usikker, og den originale 1764-skiftesag er ikke lokaliseret eller læst. Ingen ny forældre- eller søskenderelation er derfor tilføjet til stamtræet.\n\nVigtig arkivafgrænsning: Rolsøgård G302-protokollen er registreret som 1778–1816; den kan derfor ikke være den originale 1764-protokol. 1970-oversigten over private godsers skiftearkivalier bekræfter denne datering. G299 er Isgård-Kvelstrup Gods og dækker 1762–1812; det er her de to 1772/1774-uddrag findes, men ikke det nævnte 1764-skifte efter Christen Christensen Tohde. Vosnæsgårds registratur i samme 1970-oversigt viser G311.1 1736–1743 og G311.2 1839–1850, altså heller ikke en åbenbar 1764-protokol. Den præcise skiftejurisdiktion for 1764-sagen står derfor stadig åben.",
+     "provenance": "Nye webkildekontroller 16.11.2026; publicerede skifteuddrag og arkivregistraturer",
      "imported_on": "2026-11-16"
     }
    ]
