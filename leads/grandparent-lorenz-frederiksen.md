@@ -517,3 +517,26 @@ Sources:
 - [Rigsarkivet census guide](https://www.rigsarkivet.dk/vejledning/folketaellinger-kom-godt-i-gang/)
 
 No 1930 census identification, county journal number or original paternity case file has yet been obtained. These remain research targets, not findings.
+
+
+### Review of the supplied cross-branch research ledger (16 November 2026)
+
+The newly supplied `lead/tree-research.md` has been compared with the active dossiers. Most of its West Jutland, Djursland, South Langeland and Lorenz paternity material was already represented in the relevant active dossier and does not provide new primary evidence. The following additional detail is retained here because it sharpens the von Woyten / von Stojentin / von Kleist research plan.
+
+**Christina von Woyten's unions and daughter:** the English translation of the von Kleist Family Archive, *Tychow-Dubberow*, p. 123, identifies Christina as widow of Otto von Below of Pustamin before her marriage to Georg von Kleist of Groß-Tychow; it identifies Hedwig Maria as the daughter of Georg and Christina and describes her as their only legitimate child. Keep Otto as Christina's earlier spouse, not as Hedwig Maria's father. The wording “only legitimate child” does not establish that other biological children existed; it leaves that as an open question, not a positive claim. Recheck the German original and its footnotes before extending the sibling group.
+
+**Earlier von Woyten ancestry — unverified Zedler lead:** the supplied ledger proposes Michael von Woyten (ensign in Charles V's service) → Conrad von Woyten → Conrad Pantaleon von Woyten → Vandemar von Woyten → Carl Woiten (flourished c. 1400), and names Martin von Woyten as Benedictus's great-uncle. The supplied material gives no precise Zedler page/column or underlying source. Treat every generation as a separate research lead, not as an established chain. Next inspect *Grosses vollständiges Universal-Lexicon*, vol. 59, article “Woyden, Woyten”, capture exact page/column and wording, then follow its citations.
+
+**Further Stojentin hypothesis:** the ledger suggests Hans (Johann) von Stojentin (1446–1517), lord of Gohren and Landvogt of Stolp, as a possible father of Elisabeth von Stojentin of Giesebitz; it further proposes Peter von Stojentin (c. 1400–1470) and Elisabeth von Lettow as Hans's parents. This remains unproven. An estate association or shared family name is not parentage evidence.
+
+**Early Muttrin / medieval von Kleist names:** the ledger also lists Klest de Densin (mentioned 1289), Prissebur (1364), Jarßlaff and sons (reportedly mentioned 1407), Henning (alive after 1435), and Bisprow (enfeoffed 1477, died c. 1493). These are navigation clues into the Muttrin-Damen material, not a demonstrated continuous line to the canonical people. The existing exp020–exp042 cautions remain controlling: distinguish contemporary charter statements from later family-genealogy reconstructions, keep numbering systems separate, and do not bridge generations without the cited document.
+
+**Gjedde versus Gedde:** the supplied ledger names admiral Ove Gjedde (1594–1660), son of Brostrup Gjedde and Dorthe Ulfeldt, and Brostrup Gjedde (c. 1560–1614). This is a separate historical line unless evidence establishes a connection to the later officer-family Gedde. The next secondary-source cross-check is C. E. Schøller, *Stamtavle over Officersfamilien Gedde (Gjedde)*, followed by military rolls and contemporary parish/probate evidence. Do not attach Ove or Brostrup Gjedde to the current Gedde branch on surname resemblance.
+
+The ledger's remaining material was checked against the active dossiers:
+- The Pårup Melgaard / Assing spouse conflict (Mette Pedersdatter versus Kjersten Frederiksdatter) is already recorded in the Liss dossier; Kjersten remains the working identification pending the original 1843 marriage.
+- Niels Jensen “Degnen” and Karoline Dam Jensen remain explicitly collateral/unlinked in the Evald dossier.
+- Christian Hansen and Marie Madsdatter, and the unlinked 1787 Nordenbro probate, are already recorded in the Gerda dossier.
+- The Lorenz parentage distinctions between Sophus Petersen (family-claimed biological father), Wilhelm Krogh (declaration/civil registration) and Peter Frederiksen (step/social father) are already recorded here. The new ledger does not supply new evidence resolving the dispute.
+
+The original supplied ledger has been preserved as `research-archive/tree-research-ledger-2026-11-16.md` for provenance. It is an archived source of research leads, not a second active dossier.
