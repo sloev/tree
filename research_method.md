@@ -888,3 +888,30 @@ Only this research checkpoint was updated. No genealogical data, family-tree nar
 2. Search for Karen Johnsen, born 20 June 1830, Fåborg; capture and inspect the original entry.
 3. Compare the names, residence and witnesses with the proposed couples in Milestone 35; then inspect the parents' marriage and baptisms before adding links.
 4. Rotate to a different open branch after this bounded source pass.
+
+
+## Milestone 37 — Ahnentafel 42–43: expanded collateral profiles reveal the next two generations of candidates (16 November 2026)
+
+### New findings
+- A targeted search surfaced the actual GEDCOM-projektet profile for **Karen Johnsen** (record 9318). It gives her birth as 20 June 1830 in Agerbæk, Fåborg, baptism 25 July 1830, death 9 July 1869 in Vrenderup, and parents **John Eskesen** and **Anne Knudsdatter**. It gives their marriage as 4 December 1828 in Fåborg.
+- The profile for **John Eskesen** (record 9319) gives birth about 1799 in Benborg, Læborg, death 30 January 1883 in Agerbæk, and parents **Eske Johnsen** (about 1765) and **Kirsten Hansdatter** (about 1768). It independently lists the 1828 marriage to Anne and the children Karen (1830), Eske (1832), Kirsten (1835), and Mette Marie (1839).
+- The profile for **Anne Knudsdatter** (record 9320) gives birth 3 December 1801 in Hostrup, Øse, baptism confirmed 31 January 1802, death 14 June 1871 in Agerbæk, and parents **Knud Nielsen** (about 1765, Vesterbæk) and **Karen Madsdatter** (about 1764, Toftløs). Its displayed transcription of the 1801 birth says she was the daughter of Knud Nielsen and Karen Madsdatter of Hostrup and names five baptism witnesses.
+- These linked profiles add a valuable next-generation research map for both sides of Karen's ancestry. They remain a single submitted GEDCOM compilation and must not be counted as independent primary-source corroboration.
+- A separate searchable genealogy PDF gives Jens Christian Hansen (the proposed father of p42 Peder) as born 1783 in Vorbasse, baptized 16 November 1783, died 4 August 1852 in Spjarup, Egtved, and married Else Sørensdatter. It gives Else as born 16 April 1797 and died 18 July 1841 in Venborg, Egtved. This corroborates the couple and gives specific events to verify, but is also a secondary compilation.
+
+### Sources
+- Karen Johnsen, GEDCOM-projektet: https://gedcom.slaegt.dk/?fil=60&person=9318
+- John Eskesen, GEDCOM-projektet: https://gedcom.slaegt.dk/?fil=60&person=9319
+- Anne Knudsdatter, GEDCOM-projektet: https://gedcom.slaegt.dk/?fil=60&person=9320
+- Jens Christian Hansen / Else Sørensdatter family compilation: https://slaegtsbibliotek.dk/927489.pdf (PDF pp. 32–33 in the indexed text)
+
+### Confidence and limits
+- The Karen → John/Anne link and the John/Anne → Eske/Kirsten and Knud/Karen links are specific and internally coherent in the compilation, but no original 1828 marriage, 1830 baptism, 1801 baptism, or 18th-century parent event has yet been read in this milestone.
+- The transcription for Anne's 1801 baptism is useful as a locator and witness list; it is not a substitute for the original Øse parish register image.
+- No parent links or new people were added to canonical genealogical data. These are research candidates only.
+
+### Next steps
+1. Inspect original Fåborg marriage 4 December 1828 (John Eskesen and Anne Knudsdatter) and Fåborg baptism 20 June 1830 (Karen Johnsen), then trace John to Læborg and Anne to Øse.
+2. Inspect Øse's 1801/1802 baptism for Anne and identify the original record for Knud Nielsen and Karen Madsdatter's marriage; inspect Læborg's circa-1799 baptism for John and identify Eske/Kirsten's marriage.
+3. Inspect Vorbasse's 1783 baptism for Jens Christian Hansen and Egtved's 1797 baptism for Else Sørensdatter, then the couple's marriage.
+4. After this source plan is recorded, rotate to another open Ahnentafel branch; preserve the whole-tree balance.
