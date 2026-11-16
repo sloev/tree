@@ -1,6 +1,14 @@
-# Leads — four grandparent dossiers
+# Leads — research intake
 
-**These four files are the authoritative, active research workspace.** All ongoing genealogy investigation belongs in the relevant grandparent dossier, not in separate overlapping branch notes.
+**This folder is an intake and evidence workspace, not a second database.** Keep source scans, transcripts, research notes and candidate leads here while they are being assessed. Do not treat a dossier or file in this folder as canonical family data or as a direct website input.
+
+The canonical, public-facing data lives in [\`data/tree.json\`](../data/tree.json). When a lead is sufficiently described for publication, ingest it there as:
+- a person or relationship only when the evidence and confidence level justify it;
+- a research claim when the question, evidence, uncertainty and next archival action should be visible on the website;
+- source metadata or a note attached to the relevant person when it adds durable, traceable information.
+
+The website build reads only \`data/tree.json\` plus its presentation templates and assets. Changes in this folder do not publish themselves and do not trigger a site rebuild. This separation prevents unfinished notes, duplicated claims and conflicting versions from silently becoming public data.
+
 
 ## The four dossiers
 
@@ -20,10 +28,11 @@
 - Do not add or change canonical relationships solely because a claim appears in a dossier.
 - When new evidence changes a conclusion, edit the existing claim in its one dossier and add a dated change note there. Do not leave a second competing version in another active note.
 
-## Canonical source and generated exports
+## Canonical data and derived exports
 
-- Canonical source: [`data/build_data.py`](../data/build_data.py) and [`data/family.json`](../data/family.json).
-- The expanded research JSON/GEDCOM and text exports in this directory are **working/generated reference exports**, not separate authorities. They may contain proposals or inconsistencies; use the dossier's conflict notes before relying on them.
+- Canonical source: [`data/tree.json`](../data/tree.json).
+- `data/family.json`, `data/research.json`, `data/map.json` and GEDCOM are generated projections. Do not edit them by hand.
+- The legacy Python builder and intermediate input files are archived/retained for provenance only; they are not part of the active build.
 - The source scans and family photographs remain here as evidence assets. The uploaded `file-*.file` extension segments, superseded 531-person text export, legacy audits and image catalog have been preserved in the historical archive outside `leads/`.
 
 ## Cross-branch relationships
