@@ -174,3 +174,12 @@ No canonical data or GEDCOM edges were changed. No local tests/build were run.
 - The public Pages HTML now contains Vivi's consented name, Jørgen's anonymised stub, the corrected divorced union status, and the updated unlock logic.
 - Confirmed the tree template already renders the gender symbols ♀/♂ with the requested pink/blue styling.
 - No private encrypted records were decrypted. No tests or full build were run locally; generated GEDCOM and public Pages content were inspected after the repository updates.
+
+
+### 1407 and 1435 documentary cross-check
+
+- Read Urk. 100 (2 February 1407) in the Urkundenbuch. It is printed from the original in Pommersches Provinzialarchiv, Schr. XIX, Chat. 4, Nr. 65. It names the old Bispraw, Henning of Bruskow, Henning of Raddatz, Henning of Muttrin, Kurt of Damen, Pribbeslaff of Kresyn and a Pribbeslaff who is explicitly Henning of Raddatz's son. It does not state the parentage of Henning of Muttrin.
+- Read Urk. 103 (c.1435), which names Pribbeslaff Clest in a Teutonic Order damage record with Claws Kameke; it is a dated appearance, not parentage evidence.
+- Read Urk. 104 (c.1435), a ducal letter preserved in the Königsberg State Archive. It refers to “our man Henningh Klystes sone van mütteryn” (the son of Henning Kleist of Muttrin). The 2025 Muttrin genealogy identifies this as M.8 and gives his father as Henning M.3, but the original wording does not name the father beyond the Kleist of Muttrin; exact identification relies on combined chronology and family genealogy.
+- Read Urk. 104a (11 October 1436), which explicitly calls Hermann Kleist the son of Curt Kleist of Damen; useful collateral evidence, not part of the direct Muttrin chain.
+- Updated dossier with source-by-source distinction between person appearances and explicit parentage. No canonical data changed.
