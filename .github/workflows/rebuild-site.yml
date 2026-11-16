@@ -6,6 +6,7 @@ on:
     paths:
       - '.github/workflows/rebuild-site.yml'
       - 'data/**'
+      - '!data/family.json'
       - 'site/template.html'
       - 'site/build.py'
       - 'site/poster.html'
