@@ -71,7 +71,7 @@ def main():
         else:
             title = subject or "Nyt forskningsnotat"
             body = "Forskningsmateriale eller kildegrundlag er opdateret. Se ændringsloggen og de relevante forskningsnoter for detaljer."
-        bulletin = {"date": now.date().isoformat(), "date_label": now.strftime("%-d. %B %Y"),
+        bulletin = {"date": now.date().isoformat(), "date_label": now.strftime("%d.%m.%Y"),
                     "title": title, "body": body, "people": changed_ids,
                     "commit": head, "paths": relevant}
     json.dump({"people": people, "latest_bulletin": bulletin}, open(OUTPUT, "w", encoding="utf-8"),
