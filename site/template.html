@@ -702,7 +702,7 @@ function renderPed(root){
 }
 function setRoot(r){ if(pedRoot!==r || !Object.keys(nodes).length) renderPed(r); }
 function highlight(id){ Object.values(nodes).forEach(n=>n.classList.remove('sel')); const n=nodes[id]; if(!n) return; n.classList.add('sel');
-  const p=byId[id]; if(!document.getElementById('v-stamtrae').hidden && p.ahnen && pos){ try{ const q=pos(p.ahnen); pedScroll.scrollTo({left:Math.max(0,q.x-80),top:Math.max(0,q.y-100),behavior:'smooth'}); }catch(e){} } }
+  const p=byId[id]; if(!document.getElementById('v-oversigt').hidden && p.ahnen && pos){ try{ const q=pos(p.ahnen); pedScroll.scrollTo({left:Math.max(0,q.x-80),top:Math.max(0,q.y-100),behavior:'smooth'}); }catch(e){} } }
 document.querySelectorAll('[data-root]').forEach(b=>b.addEventListener('click',()=>{ renderPed(+b.dataset.root); pedScroll.scrollTo({left:0,top:0}); }));
 
 // ================= PERSONER =================
