@@ -220,3 +220,19 @@ Added these exact series, signatures/volumes and caveats to the Lorenz dossier. 
 After the template commit, the configured `.github/workflows/rebuild-site.yml` push trigger produced commit `583023779f254de508e0e83b87bd8d6a547bd776` (“Rebuild family tree website”). Its changed-file list includes both `site/index.html` and `docs/index.html`; the `site/index.html` diff explicitly contains the new Kleist–Gedde bulletin entry at the top. The generated `docs/index.html` blob changed as part of the same commit, but the GitHub file-fetch wrapper returns empty content for that large file, so its full content was not round-tripped here. The public Pages URL could not be independently fetched by the available browser. Therefore the source and generated outputs are updated in Git, but live browser rendering/deployment remains to be confirmed by the owner.
 
 The combined commit-status endpoint returned no status records for the log commit; this is not evidence of a passing workflow. No local build, browser test or live Pages smoke test was run in this session.
+
+
+## 2026-11-16 — Public, open research tracker and evidence maturity
+
+Owner request: make additions visible as research progresses, with evidence maturity indicators, and treat the project as open source in every sense.
+
+**Implemented on main:**
+- Added a public “Nye spor på vej ind i stamtræet” section to `site/template.html`, ahead of the news bulletin. It presents the active Kleist–Gedde candidates and events separately from canonical tree edges, each with its own maturity label and an explanation of what is and is not established.
+- The visible cards cover Christian Adam (needs more evidence), Christian Frederik (needs more evidence), Frederikke's Birthe/Dorthea name variant (identity supported, parentage open), and the 1770 marriage (preliminary search plan). None of these cards creates a canonical relationship.
+- Added an open-contribution policy to `README.md`: issues and pull requests welcome; requests precise citations/transcriptions; explains maturity levels; protects living people's private information; links commits, dossiers, collaboration log and public site.
+
+**Why separate from the tree:** the existing canonical data model is deliberately conservative and the active dossier says not to turn plausible claims into settled parent-child edges. The public tracker makes progress visible without misleading visitors. When a claim matures, update the claim status and only then promote the relationship into `data/build_data.py`.
+
+**Build:** the template push should trigger `.github/workflows/rebuild-site.yml`, which generates the public `docs/index.html`. The workflow's generated-output commit and the live GitHub Pages rendering still need independent verification. Do not report deployment success until checked.
+
+**Next contribution loop:** for every research session, update (1) the relevant grandparent dossier, (2) the public research card/status, (3) a dated newsbulletin entry when the finding materially changes, and (4) this log. Preserve the prior status in the commit history so visitors can follow upgrades, downgrades and rejected hypotheses. Invite external corrections through Issues/PRs and review them against the same source hierarchy.
