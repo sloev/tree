@@ -32,6 +32,10 @@
 - Lorenz (`p6`) and Gerda (`p7`) are a couple; Lorenz's paternity question belongs only in Lorenz's dossier.
 - A shared person or collateral line should be identified by the existing person ID and linked to the dossier that owns the source analysis.
 
+## Consolidated cross-branch ledger
+
+The supplied cross-branch ledger formerly at `lead/tree-research.md` was reviewed against all four active dossiers on 16 November 2026. Its useful leads have been consolidated into the appropriate dossier; the original is preserved for provenance at [`research-archive/tree-research-ledger-2026-11-16.md`](../research-archive/tree-research-ledger-2026-11-16.md). It is archived, not a parallel active worklist.
+
 ## Archived legacy notes
 
 Earlier agent-generated branch dossiers, worklists, reviews, research logs and image catalog have been consolidated into a single historical archive outside this folder:
