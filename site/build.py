@@ -2,6 +2,7 @@
 import base64, json, os
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 data = json.load(open(os.path.join(root, "data", "family.json"), encoding="utf-8"))
+research = json.load(open(os.path.join(root, "data", "research.json"), encoding="utf-8"))
 geo = json.load(open(os.path.join(root, "data", "map.json")))
 recent_path = os.path.join(root, "data", "recently-edited.json")
 recent = json.load(open(recent_path, encoding="utf-8")) if os.path.exists(recent_path) else {"people": {}, "latest_bulletin": None}
@@ -24,7 +25,8 @@ out = (tpl.replace("__UNLOCK_JS__", UNLOCK).replace("__DATA__", json.dumps(data,
           .replace("__MAP__", json.dumps(geo))
           .replace("__RECENT__", json.dumps(recent.get("people", {}), ensure_ascii=False))
           .replace("__AUTO_BULLETIN__", bulletin_html)
-          .replace("__IMGS__", json.dumps(imgs)))
+          .replace("__IMGS__", json.dumps(imgs))
+          .replace("__RESEARCH__", json.dumps(research, ensure_ascii=False)))
 open(os.path.join(root, "site", "index.html"), "w", encoding="utf-8").write(out)
 print("wrote site/index.html", len(out) // 1024, "KB")
 
