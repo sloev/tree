@@ -10,23 +10,24 @@ The canonical, public-facing data lives in [\`data/tree.json\`](../data/tree.jso
 The website build reads only \`data/tree.json\` plus its presentation templates and assets. Changes in this folder do not publish themselves and do not trigger a site rebuild. This separation prevents unfinished notes, duplicated claims and conflicting versions from silently becoming public data.
 
 
-## The four dossiers
+## Historiske dossierer
 
-1. [Evald Johannes Gaardsted-Jørgensen](grandparent-evald-gaardsted-jorgensen.md) — Ahnentafel 4; Gaardsted, Jørgensen, Vosnæsgaard/Rolsøgård, Syv/Vibygård, Rosmus, Rousing and Malmö.
-2. [Liss Gaardsted-Jørgensen (née Pedersen)](grandparent-liss-pedersen.md) — Ahnentafel 5; Pedersen, Christensen/Kristensen, Vester Starup, Hoven, Sønder Felding, Assing and Pårup Melgaard.
-3. [Lorenz Heinrich Frederiksen](grandparent-lorenz-frederiksen.md) — Ahnentafel 6; disputed paternity, Else Gedde Jensen, Sophus Petersen, Gedde, von Kleist, von Woyten and von Stojentin.
-4. [Gerda Frederiksen (née Larsen)](grandparent-gerda-larsen.md) — Ahnentafel 7; Larsen, Holgersen, Christensen, Langø, South Langeland, Kresten and emigration leads.
+De fire filer nedenfor er bevaret som baggrund og kildeproveniens. De er ikke længere de aktive steder for åbne spørgsmål eller næste handlinger. Se forskningssporene i `data/tree.json` for den aktuelle, komplette registrering.
 
-## Rules that prevent contradictions
+1. [Evald Johannes Gaardsted-Jørgensen](grandparent-evald-gaardsted-jorgensen.md)
+2. [Liss Gaardsted-Jørgensen (født Pedersen)](grandparent-liss-pedersen.md)
+3. [Lorenz Heinrich Frederiksen](grandparent-lorenz-frederiksen.md)
+4. [Gerda Frederiksen (født Larsen)](grandparent-gerda-larsen.md)
 
-- Each investigation has one owning dossier. A public-facing claim is stored once in `data/tree.json` and points back to its dossier.
-- Shared events (Evald/Liss marriage; Lorenz/Gerda marriage) are cross-referenced by tree ID, not copied as independent claims.
-- A lead that may belong to a branch but is not yet linked is kept in the most plausible dossier with an explicit **unlinked / identity unresolved** label.
-- Each dossier distinguishes original record evidence, published genealogy, family account, inference, conflict and negative search.
-- Record the source's exact wording and what it proves; never let a secondary index or family tree silently become a primary source.
-- Legal/registered, biological, marital, step, foster, guardian and household relationships remain separate.
-- Do not add or change canonical relationships solely because a claim appears in a dossier.
-- When new evidence changes a conclusion, update the existing claim in `data/tree.json` and add a dated research note in the owning dossier. Do not create a second public claim for the same question.
+## Regler for én sandhedskilde
+
+- Hvert selvstændigt forskningsspørgsmål har ét forskningsspor i `data/tree.json`.
+- Nye fund og opfølgninger føjes til det eksisterende spor, hvis spørgsmålet allerede findes; ellers oprettes et nyt spor.
+- Registrér kildens ordlyd, kildeart, hvad den faktisk beviser, hvad den ikke beviser, kildekonflikter og negative søgninger direkte i sporet.
+- Delte begivenheder krydsrefereres med eksisterende person-ID'er; undgå dublerede spor for samme spørgsmål.
+- Juridiske/registrerede, biologiske, ægteskabelige, sted-, pleje-, værge- og husstandsrelationer holdes adskilt.
+- En forskningspåstand opretter ikke automatisk en forældre-/barn-relation i stamtræet.
+- Dossierer opdateres ikke parallelt. De bevares som historiske kilder og tidligere analyser.
 
 ## Canonical data and derived exports
 
@@ -75,16 +76,18 @@ Assess people and relationships separately. A person's existence may be well est
 
 The public tree is a living, qualified account. Do not delay publication indefinitely while waiting for perfect evidence; update the status and explanation when new evidence appears. Do not create a parent-child edge from a speculative claim just to make a line visually continuous.
 
-## Public website research register
+## Forskningsspor — eneste aktive registrering
 
-The public website's **Forskning** section is generated from `data/research.json`. The four dossiers remain the detailed working records; the JSON register is the concise, publishable index that makes selected leads visible on the website.
+Forskningsfanen genereres fra `data/tree.json` (via `data/research.json`, som er en afledt fil). Det er her hele forskningsforløbet skal være forståeligt uden at åbne et separat dossier.
 
-When adding or materially revising a research lead:
-- Update the existing claim rather than creating a duplicate for the same question.
-- Add a concise entry to `data/research.json` with a unique `id`, the owning `branch`, `title`, one of the supported statuses (`needs`, `hypothesis`, `family`, `conflict`), and the fields `claim`, `evidence`, `missing`, `next`, `dossier`, `sources`, and `person_ids`.
-- Link to the dossier and to stable source URLs where available. Label secondary databases and family accounts honestly.
-- Keep the public claim understandable without the dossier, and distinguish what is documented from what remains a lead.
-- Do not add speculative parent-child links to `data/family.json` merely to make a public lead appear in the tree.
+Når et spor oprettes eller opdateres, redigér `data/tree.json` og medtag så vidt muligt:
+- unik `id`, `branch`, `title` og status (`needs`, `hypothesis`, `family` eller `conflict`);
+- konkret påstand/spørgsmål, foreliggende belæg og kildeart;
+- præcist hvad der mangler, og næste konkrete kontrol;
+- stabile kildehenvisninger med forklarende etiketter;
+- relevante `person_ids` og eventuelle relationer til andre spor.
+
+Tilføj ny dokumentation til det eksisterende spor i stedet for at oprette en parallel note. Hold teksten tilstrækkelig fyldestgørende til, at offentligheden kan følge både fund og usikkerhed direkte på hjemmesiden. Opfind ikke forældre-/barn-relationer i stamtræet for at få et hypotetisk spor til at passe visuelt.
 
 The site rebuild workflow regenerates the public research section after changes to the research register. Check the workflow and Pages deployment before describing a new lead as live.
 
