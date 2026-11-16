@@ -12,7 +12,7 @@ from climb import q, record, role, ov, toks, bdate, find_marriage, find_birth
 from ll import get
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(ROOT, "data", "auto_ancestors.json")
+
 STOP = {"vester", "øster", "nørre", "sønder", "store", "lille", "kirke", "sankt", "vor", "frue", "sogn", "amt", "by", "mark", "langeland", "danmark", "herred", "købstad", "i", "ved", "pr", "og", "s", "a"}
 
 def parish_tokens(*strs):
@@ -40,8 +40,10 @@ def place_of(rec):
     return (rec.get("sourceplace_display") or "").split(",")[0].replace(" sogn", "").strip()
 
 def main(rounds=3):
-    fam = json.load(open(os.path.join(ROOT, "data", "family.json"), encoding="utf-8"))
-    auto = json.load(open(OUT, encoding="utf-8")) if os.path.exists(OUT) else []
+    tree_path = os.path.join(ROOT, "data", "tree.json")
+    tree = json.load(open(tree_path, encoding="utf-8"))
+    fam = tree["family"]
+    auto = tree.setdefault("ingestion", {}).setdefault("auto_ancestors", [])
     people = [p for p in fam["people"] if p.get("ahnen") and not p.get("private")]
     known = {p["ahnen"]: p for p in people}
     for a in auto: known.setdefault(a["ahnen"], a)
@@ -79,7 +81,7 @@ def main(rounds=3):
             auto[:] = [a for a in auto if not (a.get("patch") and a["ahnen"] == pt["ahnen"])] + [pt]
             who.update(born=pt["born"], bplace=None, _parish=pt["_parish"], bplace_text=pt["bplace_text"])
             print(f"  ~ {who['ahnen']}: {who['name']} f. {pt['born']} {pt['bplace_text'] or ''} (vielse)", flush=True)
-        json.dump(auto, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        json.dump(tree, open(tree_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     for rnd in range(rounds):
         frontier = [p for n, p in sorted(known.items()) if n > 1 and (2*n not in known or 2*n+1 not in known) and n not in tried]
         print(f"runde {rnd+1}: {len(frontier)} aner uden forældre", flush=True)
