@@ -338,6 +338,23 @@ button,a{touch-action:manipulation}
   #nyheder .bulletin-item{padding:14px 15px 16px;gap:8px}
   #nyheder .bulletin-item p{line-height:1.55}
 }
+
+/* åbent forskningsregister */
+.research-intro{max-width:82ch}
+.research-toolbar{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;padding:12px 14px;border:1px solid var(--rule);border-radius:10px;background:var(--sheet)}
+.research-toolbar input,.research-toolbar select{font:inherit;font-size:.88rem;padding:7px 9px;border:1px solid var(--rule-2);border-radius:6px;background:var(--sheet);color:var(--ink)}
+.claim-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.claim{background:var(--sheet);border:1px solid var(--rule);border-radius:10px;padding:15px;display:flex;flex-direction:column;gap:9px;min-width:0}
+.claim h3{font-size:1.08rem}
+.claim p{font-size:.88rem;color:var(--ink-2)}
+.claim summary{cursor:pointer;font-size:.86rem;color:var(--accent);font-weight:600}
+.claim details{border-top:1px solid var(--rule);padding-top:9px}
+.claim details>div{display:flex;flex-direction:column;gap:5px;margin:9px 0}
+.claim .claim-label{font:500 .66rem var(--f-data);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.claim .claim-foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;align-items:center}
+.claim .dossier-link{font-size:.82rem}
+@media(max-width:700px){.claim-list{grid-template-columns:minmax(0,1fr)}}
+
 </style>
 <div class="wrap">
 <header class="mast">
@@ -364,6 +381,7 @@ button,a{touch-action:manipulation}
   <a href="#stamtrae" data-anchor="stamtrae">Stamtræ</a>
   <a href="#nyheder" data-anchor="nyheder">Nyheder</a>
   <a href="#fortaellinger" data-anchor="fortaellinger">Tema-fortællinger</a>
+  <a href="#forskning" data-view="forskning">Forskningsspor</a>
   <a href="#tal" data-view="tal">Tal</a>
   <a href="#personer" data-view="personer">Personer</a>
   <a href="https://sloev.github.io/tree/plakat.html" target="_blank" rel="noopener" class="ext">Plakat ↗</a>
@@ -402,6 +420,22 @@ button,a{touch-action:manipulation}
 </section>
 
 <!-- ============ PERSONER ============ -->
+<section class="view" id="v-forskning" hidden>
+  <div class="sec-head">
+    <span class="eyebrow">Åben forskning · foreløbige spor er også synlige</span>
+    <h2>Forskningsspor</h2>
+    <p class="muted research-intro">Her offentliggør vi også spørgsmål, uafklarede identifikationer og familieoplysninger — ikke kun det, der allerede er bevist. En oplysning på siden er ikke automatisk en konklusion. Åbn et spor for at se, hvad der faktisk er belæg for, hvad der mangler, og hvad næste kontrol bør være. Del gerne rettelser eller nye spor via projektets GitHub.</p>
+  </div>
+  <div class="research-toolbar">
+    <label for="research-q">Søg</label><input id="research-q" type="search" placeholder="Person, sted eller emne">
+    <label for="research-status">Status</label><select id="research-status"><option value="">Alle statusser</option><option value="needs">Kræver mere belæg</option><option value="hypothesis">Foreløbig hypotese</option><option value="family">Familieoplysning</option></select>
+    <label for="research-branch">Gren</label><select id="research-branch"><option value="">Alle grene</option></select>
+    <span class="count" id="research-count"></span>
+  </div>
+  <div class="claim-list" id="claim-list" aria-live="polite"></div>
+  <p class="muted" style="font-size:.82rem">Bidrag: <a href="https://github.com/sloev/tree/issues" target="_blank" rel="noopener">opret et spørgsmål eller tip</a> eller <a href="https://github.com/sloev/tree/pulls" target="_blank" rel="noopener">foreslå en ændring</a>. Undlad at offentliggøre følsomme oplysninger om nulevende personer eller private dokumenter.</p>
+</section>
+
 <section class="view" id="v-personer" hidden>
   <div class="sec-head"><span class="eyebrow">Register</span><h2>Alle personer</h2></div>
   <p class="muted" style="max-width:78ch">Kildeindikatoren vurderer den enkelte persons dokumentation: <b>Godt belagt</b> = samtidige eller stærke dokumenter; <b>Kræver mere belæg</b> = sandsynlig, men ikke fuldt dokumenteret; <b>Foreløbig hypotese</b> = mulig rekonstruktion. <b>Familieoplysning</b> viser, at oplysningen kommer fra familien. En persons kildegrad gør ikke automatisk alle viste forældre- og slægtskabsforbindelser lige sikre; læs personkortets noter og kilder.</p>
@@ -479,6 +513,7 @@ const DATA = __DATA__;
 const MAP = __MAP__;
 const RECENT = __RECENT__;
 const IMGS = __IMGS__;
+const RESEARCH = __RESEARCH__;
 </script>
 <script>
 function MAIN(){
@@ -583,7 +618,7 @@ addEventListener('keydown',e=>{
 function wire(root){ root.querySelectorAll('[data-pid]').forEach(b=>b.addEventListener('click',()=>openPerson(b.dataset.pid))); }
 
 // ---------- faner ----------
-const VIEWS=['oversigt','personer','kort','tal','kilder'];
+const VIEWS=['oversigt','forskning','personer','kort','tal','kilder'];
 const drawn={};
 function go(v){ if(!VIEWS.includes(v)) v='oversigt';
   VIEWS.forEach(k=>document.getElementById('v-'+k).hidden = k!==v);
@@ -760,6 +795,29 @@ function highlight(id){
   n.classList.add('sel');n.scrollIntoView({block:'nearest',behavior:'smooth'});
 }
 document.querySelectorAll('[data-root]').forEach(b=>b.addEventListener('click',()=>{renderPed(+b.dataset.root);pedScroll.scrollTo({top:0,behavior:'smooth'});}));
+
+function renderForskning(){
+  const list=document.getElementById('claim-list'), q=document.getElementById('research-q'), st=document.getElementById('research-status'), br=document.getElementById('research-branch');
+  [...new Set(RESEARCH.claims.map(c=>c.branch))].sort().forEach(v=>{const o=document.createElement('option');o.value=v;o.textContent=v;br.appendChild(o);});
+  const labels={needs:'Kræver mere belæg',hypothesis:'Foreløbig hypotese',family:'Familieoplysning'};
+  function draw(){
+    const term=q.value.trim().toLocaleLowerCase('da');
+    const rows=RESEARCH.claims.filter(c=>(!st.value||c.status===st.value)&&(!br.value||c.branch===br.value)&&(!term||[c.branch,c.title,c.claim,c.evidence,c.missing,c.next].join(' ').toLocaleLowerCase('da').includes(term)));
+    document.getElementById('research-count').textContent=rows.length+' af '+RESEARCH.claims.length+' spor';
+    list.innerHTML=rows.map(c=>`<article class="claim" id="claim-${c.id}">
+      <div class="claim-foot"><span class="eyebrow">${esc(c.branch)}</span><span class="conf ${c.status==='needs'?'probable':'possible'}">${labels[c.status]||c.status}</span></div>
+      <h3>${esc(c.title)}</h3><p>${esc(c.claim)}</p>
+      <details><summary>Hvorfor er det ikke valideret — og hvad mangler?</summary>
+        <div><span class="claim-label">Hvad vi har</span><p>${esc(c.evidence)}</p></div>
+        <div><span class="claim-label">Hvad der mangler</span><p>${esc(c.missing)}</p></div>
+        <div><span class="claim-label">Næste kontrol</span><p>${esc(c.next)}</p></div>
+      </details>
+      <div class="claim-foot"><span class="count">Spor-ID: ${esc(c.id)}</span><a class="dossier-link" href="https://github.com/sloev/tree/blob/main/${encodeURI(c.dossier)}" target="_blank" rel="noopener">Åbn arbejdsdossier ↗</a></div>
+    </article>`).join('')||'<p class="muted">Ingen spor matcher søgningen.</p>';
+  }
+  [q,st,br].forEach(el=>el.addEventListener(el===q?'input':'change',draw));draw();
+}
+
 // ================= PERSONER =================
 function renderPersoner(){
   const fl=document.getElementById('fline'); Object.entries(DATA.lines).forEach(([k,v])=>{ const o=document.createElement('option'); o.value=k;o.textContent=v; fl.appendChild(o); });
@@ -899,7 +957,7 @@ function renderKilder(){
   document.getElementById('links').innerHTML=DATA.links.map(([t,u])=>`<li><a href="${u}" target="_blank" rel="noopener">${esc(t)}</a></li>`).join('');
 }
 
-const RENDER={oversigt:()=>{renderOversigt();renderPed(1);}, personer:renderPersoner, kort:renderKort, tal:renderTal, kilder:renderKilder};
+const RENDER={oversigt:()=>{renderOversigt();renderPed(1);}, forskning:renderForskning, personer:renderPersoner, kort:renderKort, tal:renderTal, kilder:renderKilder};
 let start=location.hash.slice(1), showTree=start==='stamtrae';
 if(!VIEWS.includes(start)) start='oversigt';
 go(start);
