@@ -1161,3 +1161,19 @@ Harbou gives Christian Frederik III.601's birth as 25 August 1743, his marriage 
 **Current assessment:** the published descent Cartz Ulrik → Christian Adam → Christian Frederik → Frederikke → Ove Samuel Gedde is a credible, well-defined line for public display with an explicit “needs more evidence” status at the primary-register level. The 1808 baptism provides independent evidence for Ove Samuel's wife being née Kleist, but not for her parentage. No canonical relationship or confidence field is changed by this note.
 
 Sources: [Harbou, *Slægten von Kleist i Danmark* (1897), pp. 100–102](https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf); [2025 Tychow-Dubberow family history, pp. 165–166](https://www.v-kleist.com/FG/Dubberow.pdf); [Vor Frelsers church-book inventory](https://slaegtsbibliotek.dk/900379.pdf); [von Kleist family archive correction on Christian Adam](https://v-kleist.com/FG/Muttrin/fg0283a.htm); [Rigsarkivet's church-book release notes (2025)](https://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-januar-2025.pdf).
+
+
+## 2026-11-16 — Vor Frelsers 1705 baptism: archive route confirmed, entry not yet read
+
+A new source check clarifies the Vor Frelsers, Christianshavn, church-book structure. Rigsarkivet's 2025 Arkivalieronline release notes list the parish's *Enesteministerialbog*, content FVD 1686–1722. A separate published parish inventory explains that the minister and bell-ringer kept parallel registers before 1814. It identifies the minister's baptism books as F 1686–1813, volumes 1–5, and the bell-ringer's baptism books as F 1640–1813, volumes 12–19. The original baptism name index F 1704–1822 is volume 20 and points to the bell-ringer's baptism books 15–19 and 36.
+
+**Lookup sequence:** (1) search the bell-ringer's name index, volume 20, for Christian Adam around 1 October 1705; (2) follow its reference into the indicated bell-ringer's baptism book; (3) independently inspect the minister's FVD 1686–1722 register; (4) compare dates, names, parents and contextual details, preserving any disagreement between the parallel entries.
+
+This confirms the *catalogue route and parallel-register structure*, not the baptism entry itself. No image, page number or Christian Adam entry has yet been inspected. Harbou's date and parentage remain published-genealogy claims requiring more evidence. No canonical relationship or tree data is changed.
+
+Sources:
+- [Rigsarkivet, “Nyt på Arkivalieronline februar 2025”, p. 1](https://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-januar-2025.pdf) — lists Vor Frelsers Enesteministerialbog FVD 1686–1722.
+- [Sogn nr. 47, Vor Frelsers Sogn, archival inventory](https://slaegtsbibliotek.dk/900379.pdf) — describes the parallel registers and volume 20 index route; this is an inventory aid, not the baptism record.
+- [Rigsarkivet, guide to church books](https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/).
+
+**Next:** inspect index volume 20 and follow its reference, then compare the minister's register. If the viewer does not expose the images, request the specific volumes from Rigsarkivet.
