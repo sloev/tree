@@ -27,11 +27,11 @@ DIG ✅ (navne på nulevende står i den krypterede del af siden)
 │  └─ Liss Gaardsted-Jørgensen (f. Pedersen) 📜  1931–2002 · kordegn
 └─ Mor ✅
    ├─ Lorenz Heinrich Frederiksen 📜  1932 Egernsund – 2009 Svendborg
-   │  ├─ Sophus Petersen ✅  1903 Påkjær, Nybøl – 1945 · gårdmandssøn (biologisk far ifølge familien)
+   │  ├─ Mulig biologisk far ifølge familien: Sophus Petersen 📜  1903 Påkjær – 1945 (omstridt; ikke fastslået)
    │  │  ├─ Peter Petersen 📜  f. 1866 Nybøl · gårdmand ← Mathias Petersen og Sophia Maria Nissen (gift Nybøl 1865)
    │  │  └─ Anna Cathrine Marie Petersen 📜  f. 1869 Dybbøl ← Lorens Petersen og Marie Jørgensen (gift Dybbøl 1860)
-   │  │     (Wilhelm Krogh 📜, f. 1908, tog skylden og står som far i standsregistret 1932)
-   │  │     (Peter Frederiksen 📜, f. 1902, stedfar, betalt for at gifte sig med Else)
+   │  ├─ Registreret biologisk far ifølge Egernsund-standsregistret: Wilhelm Krogh 📜  f. 1908 (omstridt; original 1932-sag ikke fundet)
+   │  ├─ Stedfar/social far: Peter Frederiksen 📜  f. 1902
    │  └─ Else Gedde Jensen 📜  f. 31.8.1912 Ferup, Lejrskov
    │     ├─ Jens Jensen 📜  f. 1866 · gårdejer, Ferup ← Rasmus Jensen og Christine Hansen
    │     └─ Paula Mathilde Christle Gedde 📜  f. 1880 Tamdrup
