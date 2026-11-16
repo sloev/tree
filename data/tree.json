@@ -14228,8 +14228,8 @@
     "status": "needs",
     "claim": "Et skifte fra 1764 efter Christen Christensen med tilnavnet muligvis “Tohde” kan belyse Claus Gaardsteds og Karen Christensdatters familieforhold. Dossierets læsning af en senere skiftehenvisning beskriver dem som stedbørn — ikke som hans biologiske børn.",
     "evidence": "Evald-dossieret peger på Rolsøgård Gods, skifteprotokol G302, og skiftet i Dejret fra 1764. En senere 1787-henvisning bruger ifølge dossierets foreløbige læsning ordet “stedbørn”.",
-    "missing": "Originalen fra 1764 og den præcise ordlyd i Rolsøgård G302 nr. 11, 14. maj 1787, folio 39. Den biologiske forælder til Claus og Karen er ikke identificeret.",
-    "next": "Undersøg Isgård Gods G299's originale skifteprotokol og register 1762–1812 omkring 1764 for fogeden Christen Christensen Tohde? i Dejret; hvis han ikke findes, fastslå hans arbejdsgiver og skiftejurisdiktion.",
+    "missing": "Originalt skifte fra 1764 efter Christen Christensen, herunder den præcise identitet/stavning (muligvis Gårdsted snarere end “Tohde?”), og originalen af Rolsøgård G302 nr. 11, 14. maj 1787, folio 39. Den biologiske forælder til Claus og Karen er ikke identificeret.",
+    "next": "Læs original Isgård G299 skifteregister (AO epid 17176629) og skifteprotokol (epid 17176611) omkring 1764; læs original fæstebrev i Isgård G299 fæsteprotokol (epid 21027118), side 123, og fæsteregisteret (epid 21027120). Sammenhold stavemåden Christen Christensen Gårdsted med G302 nr. 11, fol. 39's usikre “Tohde?”, og kontroller om han var ladefoged/foged i Dejret ved sin død. Bevar “stedbørn” som stedbørn; tilføj ingen biologisk forældrelinje før originalerne er læst.",
     "person_ids": [
      "p36"
     ],
@@ -14261,6 +14261,26 @@
      {
       "label": "Isgård G299: fæsteoversigt for Tved/Dejret, 1762–1778",
       "url": "https://www.slaegt.dk/media/x4ier31m/g299-isgaard-gods-faester.pdf"
+     },
+     {
+      "label": "Isgård G299, fæsteregister 1719–1823, Tved/Dejret, Christen Christensen Gårdsted 1750, side 123",
+      "url": "https://slaegt.dk/media/x4ier31m/g299-isgaard-gods-faester.pdf"
+     },
+     {
+      "label": "Arkivalieronline: Isgård G299 skifteprotokol 1762–1812 (originalscanning)",
+      "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=17176611"
+     },
+     {
+      "label": "Arkivalieronline: Isgård G299 skifteregister 1762–1812 (originalscanning)",
+      "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=17176629"
+     },
+     {
+      "label": "Arkivalieronline: Isgård G299 fæsteprotokol 1719–1829 (originalscanning)",
+      "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=21027118"
+     },
+     {
+      "label": "Arkivalieronline: Isgård G299 fæsteregister 1719–1829 (originalscanning)",
+      "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=21027120"
      }
     ],
     "research_notes": [
@@ -14289,6 +14309,13 @@
       "title": "Ny afgrænsning af 1764-skiftets sandsynlige jurisdiktion: Isgård G299 og Dejret",
       "text": "Et nyt sammenhold af gods- og stedregistraturer gør Isgård Gods (G299) til den første originale skifteprotokol, der bør kontrolleres for Christen Christensen Tohdes skifte fra 1764.\n\nStedregisteret til Nørrejyske Godsarkiver placerer Dejret i Tved Sogn under Isgård G299. DS-Wikis arkivoversigt angiver, at Isgård Gods har en skifteprotokol med tilhørende register for 1762–1812. En særskilt fæsteoversigt for Isgård viser konkrete fæsteændringer i Dejret i 1762–1778, herunder en post fra 1764. Den senere G302-afskrift beskriver Christen Christensen Tohde? som foged i Dejret. Sammenholdt med Rigsarkivets vejledning om, at godsejeren normalt behandlede skifter efter egne fæstere og ansatte, gør dette G299 til et stærkt, men endnu ikke bevist, arkivspor.\n\nDen tidligere afgrænsede søgning i G299's publicerede skifteuddrag fandt ikke en særskilt navnepost for Christen Christensen Tohde. Det er fortsat et begrænset negativt resultat i en sekundær afskrift. Den originale G299-protokol og dens register er ikke gennemgået, og det er endnu ikke dokumenteret, at Tohde var ansat under Isgård på dødstidspunktet. Hvis han var foged for en anden godsejer eller boede på andet grundlag, kan jurisdiktionen være en anden.\n\nKonkret næste trin: gennemgå Isgård G299's originale register 1762–1812 og protokollen omkring 1764, med særlig opmærksomhed på navnevarianter Christen/Christian Christensen, Tohde/Tode/Tode, foged, Dejret og eventuelle ansatte. Hvis sagen ikke findes, undersøg hvem der var godsejer/arbejdsgiver for fogeden og vend tilbage til amts-/herredsmaterialet efter Rigsarkivets jurisdiktionsregler. Ingen familieforbindelser ændres.",
       "provenance": "Nye webkildekontroller 17.11.2026; DS-Wiki Isgård, Stedregister til Nørrejyske Godsarkiver, Isgård fæsteoversigt og Rigsarkivets skiftevejledning",
+      "imported_on": "2026-11-17"
+     },
+     {
+      "title": "Ny konkret identifikation i Isgård G299: Christen Christensen Gårdsted i Dejret 1750",
+      "context": "Isgård G299 fæsteregister, Tved/Dejret, post 1750 side 123",
+      "text": "Isgård G299's maskinskrevne fæsteregister anfører under Tved, Dejret: “Christen Christensen Gårdsted”, år 1750, side 123; bemærkningen lyder “Forhen ladefoged ved Rolsgård. Det hus som Søren Pedersen Danmand fraflyttede”. Det er en stærk mulig identifikation af manden kaldet “Christen Christensen Tohde?” i Rolsøgård G302 nr. 11 (14.5.1787, fol. 39): samme fulde navn, samme by Dejret og en eksplicit tidligere funktion som ladefoged ved Rolsgård. “Tohde?” kan derfor være en fejllæsning eller et andet tilnavn, mens G299-registreret giver den alternative læsning Gårdsted. Det kan dog ikke fastslås ud fra sekundære afskrifter alene; original fæstebrev side 123 og originalt skifte skal kontrolleres.\n\nArkivsporet er nu konkret: Isgård G299 har skifteprotokol 1762–1812 og register 1762–1812. Direkte AO-links: original skifteprotokol https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=17176611; originalt skifteregister https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=17176629; fæsteprotokol 1719–1829 https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=21027118; fæsteregister https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=21027120. Webværktøjet kan åbne AO-siderne, men ikke læse de scannede opslag.\n\nG299's publicerede alfabetiske skifteuddrag viste ikke en særskilt Christen Christensen-post; det negative resultat gælder kun afskriften. Den nye 1750-fæstepost gør det særlig vigtigt at læse original G299-skifteprotokol og register omkring 1764 samt original fæsteprotokol side 123. Hvis 1764-skiftet findes dér, kan det afklare om Christen Christensen Gårdsted er samme mand og om Claus/Karen var hans stedbørn. G302 omtaler dem fortsat som stedbørn, ikke biologiske børn; ingen familiekanter ændres.",
+      "provenance": "Webkontrol 17.11.2026: Hanne Vinter Henriksen, Isgård G299 fæsteregister; DS-Wiki Isgård med AO-links; Landsarkivet for Nørrejylland, 1970-registratur; Rolsøgård G302 skifteuddrag",
       "imported_on": "2026-11-17"
      }
     ]
