@@ -1,14 +1,38 @@
 {
+  "bulletins": [
+    {
+      "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
+      "commit": "8042a92f5e231d387c81f4872230ac436199931f",
+      "date": "2026-11-16",
+      "date_label": "16.11.2026",
+      "paths": [
+        "data/tree.json"
+      ],
+      "people": [],
+      "title": "Research: clarify stepchild wording in Rolsøgård probate extract"
+    },
+    {
+      "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
+      "commit": "820386ada834c44a18a6c3be8d6a285490fb42fa",
+      "date": "2026-11-16",
+      "date_label": "16.11.2026",
+      "paths": [
+        "coop.log.md"
+      ],
+      "people": [],
+      "title": "Make news bulletin append-only with progressive display"
+    }
+  ],
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "8042a92f5e231d387c81f4872230ac436199931f",
+    "commit": "820386ada834c44a18a6c3be8d6a285490fb42fa",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
-      "data/tree.json"
+      "coop.log.md"
     ],
     "people": [],
-    "title": "Research: clarify stepchild wording in Rolsøgård probate extract"
+    "title": "Make news bulletin append-only with progressive display"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
