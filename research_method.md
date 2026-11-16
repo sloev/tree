@@ -683,3 +683,28 @@ Phase 5 continues: prioritize original probate records for the Gaardsted branch,
 - Attempted to open the previously identified Arkivalieronline viewer endpoint for the Assing ENB (epid 24284385), but the web retrieval interface could not access it. No page image or baptism entry was inspected in this run. The catalogue confirms a relevant archival series, not the specific baptism, identity, or parentage.
 - **Conclusion:** no parent names or new relationships are established; no genealogy data, family-tree.md, or homepage content was changed. The 1812 baptism remains an outstanding primary-source check. Next step: open the Assing ENB directly in a normal browser/Arkivalieronline viewer, navigate chronologically to 29 February 1812 (also check the adjacent date because the old calendar/recording may differ), transcribe the full entry and witnesses, then test the identity against the 1843 Sønder Felding marriage and the 1870 Sønder Omme census.
 - Validation: source catalogue and guide inspected through indexed web text; original scan inaccessible in this session. No build or tests run.
+
+
+## Milestone 30 — Ahnentafel 32: Svendborg Niels Jørgensen lead screened (16 November 2026)
+
+### Research target
+Public source data identifies p32, **Niels Jørgensen**, born about 1826, married 7 July 1854 in Vor Frue, Copenhagen, and recorded with a birthplace transcribed as “Hove/Høje sogn, Svendborg amt”. The parish is unresolved. The source keys currently attached to p32 are LL:13-4281756, LL:6-420495, LL:7-586576, and LL:8-31142.
+
+### Search and result
+- Searched the exact Link Lives source-key strings and the marriage couple/date in indexed public web sources; no indexed transcription or independent record for this exact p32 was returned.
+- Rigsarkivet's Crowdsourcing catalogue surfaced a superficially similar **Niels Jørgensen, Svinehøihuus**, born 4 April 1826, in a series of applications for the 1848–1850 commemorative medal. The series is explicitly catalogued under **Svendborg Amt, Gudme Herred**. The transcription detail endpoint timed out, and no evidence links this man to p32, the 1854 Copenhagen marriage, or the recorded “Hove/Høje” birthplace.
+- This is therefore **not a genealogical match**. Do not add it to p32 or use its exact birth date. It is retained only as a screened false-positive/possible future comparison if a source later connects the household or service record.
+- The Rigsarkivet medal index is a useful name/date discovery source, but an application index is not a substitute for the original parish baptism or marriage record.
+
+### Sources checked
+- Rigsarkivet Crowdsourcing, Svendborg Amt, Gudme Herred, *Ansøgninger om erindringsmedalje 1848–1850 (1876–1943)*, index row 68653: https://cs.rigsarkivet.dk/picture_series/517?page=8
+- Rigsarkivet guide to census research and archival navigation: https://www.rigsarkivet.dk/vejledning/folketaellinger-kom-godt-i-gang/
+- Historical parish/administrative context for Gudme Herred: https://trap5.lex.dk/herred/gudme-herred-svendborg-amt/
+
+### Changes and validation
+- No changes to data/build_data.py, family.json, or family-tree.md; no parentage or birthplace claim was added.
+- Updated only this research checkpoint.
+- Web index results were reviewed; the original medal application detail endpoint could not be fetched. No Link Lives query, parish-register image inspection, build, or test was run.
+
+### Next concrete step
+Resolve the historical place-name “Hove/Høje” from p32's underlying Link Lives baptism/marriage/census entries before selecting a parish. Then inspect the correct parish's 1824–1828 baptism register and compare the entry's parents, residence, and witnesses with p32's 1854 marriage and later Copenhagen records. Avoid broad searches for Niels Jørgensen across all Svendborg parishes until the locality is narrowed.
