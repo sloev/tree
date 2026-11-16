@@ -457,6 +457,7 @@ button,a{touch-action:manipulation}
 <!-- ============ PERSONER ============ -->
 <section class="view" id="v-personer" hidden>
   <div class="sec-head"><span class="eyebrow">Register</span><h2>Alle personer</h2></div>
+  <p class="muted" style="max-width:78ch">Kildeindikatoren vurderer den enkelte persons dokumentation: <b>Godt belagt</b> = samtidige eller stærke dokumenter; <b>Kræver mere belæg</b> = sandsynlig, men ikke fuldt dokumenteret; <b>Foreløbig hypotese</b> = mulig rekonstruktion. <b>Familieoplysning</b> viser, at oplysningen kommer fra familien. En persons kildegrad gør ikke automatisk alle viste forældre- og slægtskabsforbindelser lige sikre; læs personkortets noter og kilder.</p>
   <div class="filters">
     <label for="q">Søg</label>
     <input id="q" type="search" placeholder="Navn, sted eller erhverv">
@@ -542,7 +543,7 @@ const esc = s => String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>'
 const MON=['jan.','feb.','marts','april','maj','juni','juli','aug.','sep.','okt.','nov.','dec.'];
 const fmtDate = s => { if(!s) return ''; const m=String(s).match(/^(\d{4})-(\d{2})(?:-(\d{2}))?$/); if(!m) return s;
   return m[3]? `${+m[3]}. ${MON[+m[2]-1]} ${m[1]}` : `${MON[+m[2]-1]} ${m[1]}`; };
-const confLabel = {record:'Arkivkilde', told:'Oplyst af dig', probable:'Sandsynlig', possible:'Mulig'};
+const confLabel = {record:'Godt belagt', told:'Familieoplysning', probable:'Kræver mere belæg', possible:'Foreløbig hypotese'};
 const clean = n => n.replace(/\s*\(.*?\)/,'');
 const life = p => p.living? 'lever' : [p.born?(yr(p.born)?(/^(ca\.|efter)/.test(p.born)?p.born:yr(p.born)):p.born):'?', p.died?(yr(p.died)||p.died):''].join('–').replace(/–$/,'');
 const tip = document.getElementById('tip');
@@ -572,11 +573,11 @@ function siblingsOf(p){
 const spousesOf = p => P.filter(q=>q.id!==p.id && (q.spouse===p.id || p.spouse===q.id));
 
 // ---------- kildelinks ----------
-function srcLink(s){ const m=s.match(/^(LL|AO|DFS|ARK|PHT):(\S+)(.*)$/);
+function srcLink(s){ const m=s.match(/^(LL|AO|DFS|ARK|PHT|VKA|UKB):(\S+)(.*)$/);
   if(!m) return esc(s);
   const [_,t,id,rest]=m;
-  const url = t==='LL'?'https://link-lives.dk/soeg/' : t==='DFS'?(/^\d+$/.test(id)?`https://www.danishfamilysearch.dk/cid${id}`:`https://www.danishfamilysearch.dk/${id}`) : t==='ARK'?`https://arkiv.dk/vis/${id}` : t==='PHT'?'https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf' : (/^\d+$/.test(id)?`https://api.rigsarkivet.dk/ao/v1/images/${id}`:'https://arkivalieronline.rigsarkivet.dk/');
-  const label = {LL:'Link Lives',DFS:'Danish Family Search',ARK:'arkiv.dk',AO:'Arkivalieronline',PHT:'Personalhistorisk Tidsskrift'}[t];
+  const url = t==='UKB'?'https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf' : t==='VKA'?'https://www.v-kleist.com/FG/english/Dubberow_translation.pdf' : t==='LL'?'https://link-lives.dk/soeg/' : t==='DFS'?(/^\d+$/.test(id)?`https://www.danishfamilysearch.dk/cid${id}`:`https://www.danishfamilysearch.dk/${id}`) : t==='ARK'?`https://arkiv.dk/vis/${id}` : t==='PHT'?'https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf' : (/^\d+$/.test(id)?`https://api.rigsarkivet.dk/ao/v1/images/${id}`:'https://arkivalieronline.rigsarkivet.dk/');
+  const label = {LL:'Link Lives',DFS:'Danish Family Search',ARK:'arkiv.dk',AO:'Arkivalieronline',PHT:'Personalhistorisk Tidsskrift',VKA:'von Kleist Familienarchiv',UKB:'Kleist-Urkundenbuch'}[t];
   return `<a href="${url}" target="_blank" rel="noopener">${label} ${esc(id)}</a>${esc(rest)}`; }
 const personLink = (p,extra='') => `<span><button class="linkish" data-pid="${p.id}">${esc(p.name)}</button><span class="yrs">${esc(life(p))}</span>${extra}</span>`;
 
@@ -705,6 +706,7 @@ function renderOversigt(){
     ['rousing','Sognefogederne i Fuglslev',
      `Farfars mormor Rasmine Christine Andersen kom fra en selvejerslægt i Fuglslev på Djursland. Hendes farfar ${L('p76')} var selvejergårdmand og sognefoged, og slægten kan sandsynligvis følges i landsbyen tilbage til ca. 1718.`,
      ['p19','p38','p76','p152']],
+    ['gedde','Kleist-slægten i Pommern: dokumenter og tradition',"De middelalderlige Kleist-navne er værd at vise, men ikke alle kan forbindes til én ubrudt slægtslinje. Conradus og Bertoldus Clest nævnes som brødre i 1249, og igen i 1254 og 1269; deres forbindelse til den senere Muttrin-linje er ikke påvist. I 1289 nævnes Prissebur og Clest i en omstridt formulering, hvor det er uklart, hvem ordet 'brødre' omfatter. Prissebur Klest af Muttrin optræder i 1364, men den bevarede tekst bygger på senere afskrifter. En familieoptegnelse fra ca. 1555–1560, senere udvidet i 1576, førte Muttrin-linjen tilbage til Prissebur; de mellemliggende led er ikke alle uafhængigt dokumenteret. I 1477 navngiver fiefbrevet Pribbeslaw af Muttrin som far til Reimer og Bartes, mens senere familiegenealogi siger Hans af Tychow. Begge traditioner skal kunne ses; den samtidige 1477-tekst vejer tungest, men den senere variant er en reel del af slægtens genealogi.",['p3472','p1736']],
   ];
   document.getElementById('stories').innerHTML = STORIES.map(([l,t,txt,who])=>`<article class="story" style="--c:${lineVar(l)}"><h3>${esc(t)}</h3><p>${txt}</p><div class="who">${who.map(id=>L(id)).join('')}</div></article>`).join('');
   wire(document.getElementById('stories'));
