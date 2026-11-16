@@ -865,6 +865,7 @@ SOURCES = [
     ("ARK:", "arkiv.dk", "Lokalarkiver: billeder, personarkiver, erindringer", "https://arkiv.dk/"),
     ("PHT:", "Personalhistorisk Tidsskrift 1897", "H.W. Harbou: Slægten von Kleist i Danmark", "https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf"),
     ("VKA:", "von Kleist Familienarchiv", "History of the Family von Kleist – Tychow-Dubberow line, English translation, p. 123", "https://www.v-kleist.com/FG/english/Dubberow_translation.pdf"),
+    ("UKB:", "Kleist-Urkundenbuch", "Middelalderlige og tidligmoderne dokumenter, bl.a. Urk. 26, 27, 32a, 48, 75, 83, 100, 103–104a og 125", "https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf"),
 ]
 
 # ================= Automatisk fundne aner (tools/expand.py) =================
