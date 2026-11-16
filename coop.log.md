@@ -30,3 +30,18 @@ This commit changes the publication policy and README only. The existing site al
 Commits: research method `dfbfb31136cf8406059d6a0e711357c192ee8ecc`; README `2340b5eb208addef9c0fb37a6065bc65094577d6`.
 
 Next: design a structured, privacy-reviewed public research-claim dataset from the four active dossiers; wire it into a dedicated website research view and person/relationship drawers; then build and inspect the generated public output for privacy leaks and misleading edge styling.
+
+
+## 16 November 2026 — first public research-register implementation
+
+Implemented the first website-facing slice of the open-research policy:
+
+- Added `data/research.json` as a separate structured, version-controlled register (eight initial claims across the four active grandparent dossiers).
+- Added a `Forskningsspor` tab and public register view in `site/template.html`, with free-text search and status/branch filters.
+- Each item visibly carries its uncertainty status and expands to show the claim, the evidence currently identified, what remains missing, the next research action, and a link to its active dossier.
+- Added `site/build.py` injection for the structured research data.
+- Added public contribution links to GitHub Issues and Pull Requests and a reminder not to publish sensitive information about living people.
+
+The eight initial entries are a curated starting register, not a complete transcription of every note in all four dossiers. Some entries intentionally say that a source is identified but not yet inspected; do not upgrade them merely because they appear in the public register. Continue expanding the register from each active dossier, one claim at a time, with provenance and privacy review.
+
+Validation performed: fetched the three changed files from `main`, parsed `data/research.json` as JSON, and checked that the tab, view, renderer, build placeholder and all four dossier links are present. A local Python site build, browser interaction test, deployment check and live-site inspection have **not** been run in this environment. Do not claim the public GitHub Pages site has changed until deployment is confirmed.
