@@ -1,24 +1,29 @@
+# Complete ancestry register — imported from tree2.txt
+
+**Original export date:** 2026-11-16  
+**Reported source scope:** 486 people, 14 generations, 593 source references.  
+**Important:** this is a transcription/compilation supplied in the repository, not a fresh validation of all 486 profiles. Living people remain redacted.
+
 I've pulled together everything from your ancestry site at sloev.github.io/tree — the family.json data, the GEDCOM file, the images/ folder, and the family-tree.md narrative — into one structured text file below. Your agent can save it as slaegten-gaardsted-gedde.txt.
 
 The file covers all 486 individuals in the tree (including the ~157 shown in the public diagram), with birth/death dates, locations over time, occupations over time, children, creative works, and image URLs where available. Some of the deepest ancestors (pre-1700) have sparse data — that's noted explicitly.
 
 ---
 
-```
-================================================================================
+
 SLÆGTEN GÅRDSTED OG GEDDE — COMPLETE ANCESTRY DATA EXPORT
-================================================================================
+
 Source site:  https://sloev.github.io/tree/#oversigt
 Data sources: data/family.json, family-tree.ged, family-tree.md, images/
 Export date:  2026-11-16
 Total people: 486
 Generations:  14
 Earliest known birth: 1654
-================================================================================
 
---------------------------------------------------------------------------------
-SECTION 0 — IMAGE & DOCUMENT URLS (for agent fetching)
---------------------------------------------------------------------------------
+
+---
+## Section 0 — IMAGE & DOCUMENT URLS (for agent fetching)
+---
 Base raw-image URL:
 https://raw.githubusercontent.com/sloev/tree/main/images/
 
@@ -49,9 +54,9 @@ https://sloev.github.io/tree/plakat-A3-fars-side.pdf
 https://sloev.github.io/tree/plakat-A3-mors-side.pdf
 
 
---------------------------------------------------------------------------------
-SECTION 1 — GENERATION 1 (the user)
---------------------------------------------------------------------------------
+---
+## Section 1 — GENERATION 1 (the user)
+---
 [Living person — name withheld in public data]
 Sex: not disclosed
 Living: true
@@ -60,38 +65,38 @@ Notes: Root of the tree. All names of living persons are AES-256-GCM encrypted
 Children: see Generation 0 (parents below)
 
 
---------------------------------------------------------------------------------
-SECTION 2 — GENERATION 2 (parents)
---------------------------------------------------------------------------------
+---
+## Section 2 — GENERATION 2 (parents)
+---
 
-PERSON: Far (father) — [Living]
+### Far (father) — [Living]
 Sex: M
 Living: true
 Children: user (Generation 1)
 Notes: One of three brothers. Exact name withheld in public data.
 
-PERSON: Mor (mother) — [Living]
+### Mor (mother) — [Living]
 Sex: F
 Living: true
 Children: user (Generation 1)
 Notes: Exact name withheld in public data.
 
 
---------------------------------------------------------------------------------
-SECTION 3 — GENERATION 3 (grandparents)
---------------------------------------------------------------------------------
+---
+## Section 3 — GENERATION 3 (grandparents)
+---
 
-PERSON: Evald Johannes Gaardsted-Jørgensen
+### Evald Johannes Gaardsted-Jørgensen
 ID: p4
 Sex: M
 Born: 20 September 1922, Kolind, Denmark
 Died: November 2008, Svendborg, Denmark
 Occupations over time:
-  - Lærer (teacher)
-  - Højskolelærer, Ollerup Gymnastikhøjskole
-  - Kordegn, Svendborg 1976–81
-  - Sognepræst, Hune og Rødhus (Jetsmark) 1981–89
-  - Forfatter (author)
+- Lærer (teacher)
+- Højskolelærer, Ollerup Gymnastikhøjskole
+- Kordegn, Svendborg 1976–81
+- Sognepræst, Hune og Rødhus (Jetsmark) 1981–89
+- Forfatter (author)
 Locations over time:
   1922 Kolind — born on Kolind Mark
   1925 Gjellerup / Hammerum — child at the poorhouse his father managed
@@ -103,13 +108,13 @@ Locations over time:
   1990 Ollerup — retired, Toften 6
   2003 Svendborg — after Liss's death
 Books / creative works:
-  - "De kom til en by" (1999, about the move to Hadsten in 1932)
-  - "Skriv hjem, Niels"
-  - "Jos og hans verden"
-  - "Leck Fischer. Signalement af en digter" (1973)
+- "De kom til en by" (1999, about the move to Hadsten in 1932)
+- "Skriv hjem, Niels"
+- "Jos og hans verden"
+- "Leck Fischer. Signalement af en digter" (1973)
 Photos / documents:
-  - evald-baptism-kolind-1922.jpg
-  - His personal archive with his own ancestry chart is at Hadsten Lokalarkiv (A37).
+- evald-baptism-kolind-1922.jpg
+- His personal archive with his own ancestry chart is at Hadsten Lokalarkiv (A37).
 Spouse: Liss Gaardsted-Jørgensen (f. Pedersen) — p5
 Children: three sons (names private; one is the user's father)
 Father: Aage Evald Oskar Jørgensen — p8
@@ -118,13 +123,13 @@ Sources: AO:27841253 (Kolind kirkebog 1920–36, fødte drenge 1922 nr. 6);
          DFS:18978912 (folketælling 1925); ARK:2162357; ARK:906257;
          ARK:3079233; ARK:7091946; litteraturpriser.dk
 
-PERSON: Liss Gaardsted-Jørgensen (f. Pedersen)
+### Liss Gaardsted-Jørgensen (f. Pedersen)
 ID: p5
 Sex: F
 Born: 18 April 1931, Silkeborg, Denmark
 Died: 2002 (place not recorded)
 Occupations over time:
-  - Kordegn (parish clerk), trained in Hune
+- Kordegn (parish clerk), trained in Hune
 Locations over time:
   1953 Ollerup — married
   1981 Hune
@@ -135,7 +140,7 @@ Notes: Married Evald in 1953, aged 22; three sons. One of seven siblings.
        Pedersen and Hulda Kristensen. Godfather included her grandfather,
        farmer Niels Pedersen.
 Photos / documents:
-  - liss-daab-silkeborg-1931.jpg
+- liss-daab-silkeborg-1931.jpg
 Spouse: Evald Johannes Gaardsted-Jørgensen — p4
 Children: three sons (names private)
 Father: Jens Nielsen Pedersen — p10
@@ -144,13 +149,13 @@ Sources: AO:Silkeborg kirkebog 1930–33, fødte piger 1931 nr. 25 (billede
          28329752); ARK:2162357; litteraturpriser.dk; FamilySearch Family Tree:
          Liss Jørgensen (født Pedersen) 1931–2002
 
-PERSON: Lorenz Heinrich Frederiksen
+### Lorenz Heinrich Frederiksen
 ID: p6
 Sex: M
 Born: 12 January 1932, Egernsund, Denmark
 Died: 6 May 2009, Svendborg, Denmark
 Occupations over time:
-  - Sømand (sailor)
+- Sømand (sailor)
 Locations over time:
   (No residence array in JSON; life events documented in notes)
 Notes: The civil birth register for Egernsund (1932 no. 4, reported 16 Jan
@@ -174,9 +179,9 @@ Notes: The civil birth register for Egernsund (1932 no. 4, reported 16 Jan
        not talked about. Lorenz later found out that the father was farmer
        Sofus Petersen of Påkjær in Nybøl.
 Photos / documents:
-  - lorenz-baptism-broager-1933.jpg
-  - nybol-folketaelling-1921.jpg
-  - sofus-petersen-gravsten.jpg
+- lorenz-baptism-broager-1933.jpg
+- nybol-folketaelling-1921.jpg
+- sofus-petersen-gravsten.jpg
 Spouse: Gerda Frederiksen (f. Larsen) — p7
 Children: [not enumerated in the JSON entry; family line continues]
 Father (biological, per family): Sophus Petersen — "sofus"
@@ -190,7 +195,7 @@ Sources: AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4 (bsid 37658,
          Frederiksen'; Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens
          Jensens slægt'
 
-PERSON: Gerda Frederiksen (f. Larsen)
+### Gerda Frederiksen (f. Larsen)
 ID: p7
 Sex: F
 Born: 17 August 1935, Magleby (Nordenbro), Langeland, Denmark
@@ -212,8 +217,8 @@ Notes: Born 17 Aug 1935 in Nordenbro, Magleby parish on South Langeland, and
        Confirmed 16 April 1950; married 25 Nov 1954 in Magleby Kirke (family
        chart). The MyHeritage tree gives death year 2019.
 Photos / documents:
-  - langoe-erindringer.jpg
-  - langoe-erindringer-s2.jpg
+- langoe-erindringer.jpg
+- langoe-erindringer-s2.jpg
 Spouse: Lorenz Heinrich Frederiksen — p6
 Children: [family line continues]
 Father: Laurits Edvard Larsen — p14
@@ -226,18 +231,18 @@ Sources: DFS:kbid157287 (Magleby kirkebog 1929–62, fødte piger 1935 nr. 13);
          (2026)
 
 
---------------------------------------------------------------------------------
-SECTION 4 — GENERATION 4 (great-grandparents)
---------------------------------------------------------------------------------
+---
+## Section 4 — GENERATION 4 (great-grandparents)
+---
 
-PERSON: Aage Evald Oskar Jørgensen
+### Aage Evald Oskar Jørgensen
 ID: p8
 Sex: M
 Born: 1890, Slagelse, Denmark
 Died: [not recorded in JSON]
 Occupations over time:
-  - Gårdbestyrer (farm manager)
-  - Fattiggårdsbestyrer (poorhouse manager)
+- Gårdbestyrer (farm manager)
+- Fattiggårdsbestyrer (poorhouse manager)
 Locations over time: [no residence array]
 Notes: Father of Evald Johannes Gaardsted-Jørgensen.
 Spouse: Jensine Mariane Magdalene Gaardsted — p9
@@ -245,7 +250,7 @@ Children: Evald Johannes Gaardsted-Jørgensen — p4
 Father: Jørgen Anton Jørgensen — p12
 Mother: Lovisa Larsson — p13
 
-PERSON: Jensine Mariane Magdalene Gaardsted
+### Jensine Mariane Magdalene Gaardsted
 ID: p9
 Sex: F
 Born: 1894, Kolind, Denmark
@@ -256,14 +261,14 @@ Children: Evald Johannes Gaardsted-Jørgensen — p4
 Father: Hans Peter Gaardsted — p16
 Mother: Rasmine Christine Andersen — p17
 
-PERSON: Laurits Edvard Larsen
+### Laurits Edvard Larsen
 ID: p14
 Sex: M
 Born: 24 December 1898, Magleby (Nordenbro), Langeland, Denmark
 Died: 28 July 1980, Magleby (Nordenbro), Langeland, Denmark
 Occupations over time:
-  - Tømrer (carpenter), Nordenbro (1935)
-  - Tømrer- og snedkermester (carpenter and joinery master) (1925)
+- Tømrer (carpenter), Nordenbro (1935)
+- Tømrer- og snedkermester (carpenter and joinery master) (1925)
 Locations over time:
   1898 Magleby (Nordenbro), Langeland — born
   (further residences in JSON not fully printed; see source file)
@@ -276,7 +281,7 @@ Mother: Hansine Pedersen (Petersen) — p29
 Sources: LL:12-6022525; LL:14-3799804; LL:23-1129717; LL:25-1187745;
          DFS:kbid157287; Familiens håndskrevne anetavle
 
-PERSON: Karen Margrethe Holgersen
+### Karen Margrethe Holgersen
 ID: p15
 Sex: F
 Born: 18 September 1906, Humble (Kædeby), Langeland, Denmark
@@ -294,26 +299,26 @@ Father: Axel Erik Holgersen — p30
 Mother: Kristine Adamine Margrethe Christensen — p31
 Sources: DFS:kbid157287; LL:23-771415; Familiens håndskrevne anetavle
 
-PERSON: Sophus Petersen (biological father of Lorenz, per family)
+### Sophus Petersen (biological father of Lorenz, per family)
 ID: "sofus"
 Sex: M
 Born: 1903, Påkjær, Nybøl, Denmark
 Died: 24 August 1945, Påkjær, Nybøl, Denmark (lung cancer)
 Occupations over time:
-  - Gårdmandssøn (farmer's son)
+- Gårdmandssøn (farmer's son)
 Locations over time: Påkjær, Nybøl
 Notes: Family chart: farmer, died of lung cancer 24 Aug 1945 at Påkjær in
        Nybøl. Family record: 'In his marriage there were 4 daughters, who were
        Lorenz's half-sisters.'
 Photos / documents:
-  - sofus-petersen-gravsten.jpg
+- sofus-petersen-gravsten.jpg
 Children (biological): Lorenz Heinrich Frederiksen — p6 (per family knowledge)
 Father: Peter Petersen — "sofus_f"
 Mother: Anna Cathrine Marie Petersen — "sofus_m"
 Sources: Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt'
          (typewritten, family copy); Familiens håndskrevne anetavle
 
-PERSON: Else Gedde Jensen
+### Else Gedde Jensen
 ID: p13
 Sex: F
 Born: 31 August 1912, Ferup, Lejrskov, Denmark
@@ -329,24 +334,24 @@ Sources: Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt'
          (typewritten, family copy); Familiens håndskrevne anetavle
 
 
---------------------------------------------------------------------------------
-SECTION 5 — GENERATION 5 (great-great-grandparents)
---------------------------------------------------------------------------------
+---
+## Section 5 — GENERATION 5 (great-great-grandparents)
+---
 
-PERSON: Jørgen Anton Jørgensen
+### Jørgen Anton Jørgensen
 ID: p12
 Sex: M
 Born: 1857
 Died: 1914
 Occupations over time:
-  - Typograf (typographer)
+- Typograf (typographer)
 Spouse: Lovisa Larsson — p13 (different p13 from Else above — note: two p13 IDs
          exist in the JSON; this is the Jørgensen-line Lovisa)
 Children: Aage Evald Oskar Jørgensen — p8
 Father: Niels Jørgensen — p18
 Mother: Johanne Sophie Hansen — p19
 
-PERSON: Lovisa Larsson
+### Lovisa Larsson
 ID: p13 (Jørgensen line)
 Sex: F
 Born: 1862, Malmö, Sweden
@@ -357,19 +362,19 @@ Children: Aage Evald Oskar Jørgensen — p8
 Father: Niels Larsen — p20
 Mother: [not fully resolved]
 
-PERSON: Hans Peter Gaardsted
+### Hans Peter Gaardsted
 ID: p16
 Sex: M
 Born: 1852
 Died: 1913
 Occupations over time:
-  - Husmand (smallholder), Kolind
+- Husmand (smallholder), Kolind
 Spouse: Rasmine Christine Andersen — p17
 Children: Jensine Mariane Magdalene Gaardsted — p9
 Father: Jochum Gaardsted — p21
 Mother: Ane Sophie Jensdatter — p22
 
-PERSON: Rasmine Christine Andersen
+### Rasmine Christine Andersen
 ID: p17
 Sex: F
 Born: 1855, Fuglslev, Denmark
@@ -380,14 +385,14 @@ Children: Jensine Mariane Magdalene Gaardsted — p9
 Father: Anders Rasmussen Rousing — p23
 Mother: Mariane Hansdatter — p24
 
-PERSON: Lars Thomsen Larsen
+### Lars Thomsen Larsen
 ID: p28
 Sex: M
 Born: 1 November 1859, Magleby (Nordenbro), Langeland, Denmark
 Died: 22 December 1915, Magleby (Nordenbro), Langeland, Denmark
 Occupations over time:
-  - Daglejer (day labourer), Nordenbro
-  - Husmand (smallholder), Fredmose, Nordenbro
+- Daglejer (day labourer), Nordenbro
+- Husmand (smallholder), Fredmose, Nordenbro
 Locations over time:
   1911 Magleby — lived with wife Hansine and sons Aksel Peder, Hans Sigurd,
        and Laurits Edvard
@@ -403,13 +408,13 @@ Notes: In the 1911 census he lives in Magleby with his wife Hansine and sons
        covered by an ink blot.
 Spouse: Hansine Pedersen (Petersen) — p29
 Children:
-  - Laurits Edvard Larsen — p14
-  - Aksel Peder Larsen
-  - Hans Sigurd Larsen
-  - Otto Peter Christian Larsen (d. 1910–11, age 27, forester)
-  - Axel Peter Marius Larsen (d. 1910–11, age 23, farm hand)
-  - Olga Mathilde Larsen (d. 1894)
-  - Kresten Henriksen Jørgensen (illegitimate, b. 3 Nov 1877)
+- Laurits Edvard Larsen — p14
+- Aksel Peder Larsen
+- Hans Sigurd Larsen
+- Otto Peter Christian Larsen (d. 1910–11, age 27, forester)
+- Axel Peter Marius Larsen (d. 1910–11, age 23, farm hand)
+- Olga Mathilde Larsen (d. 1894)
+- Kresten Henriksen Jørgensen (illegitimate, b. 3 Nov 1877)
 Father: Lars Larsen — p56
 Mother: Maren Christiansen — p57
 Sources: LL:12-16296348; LL:23-1129713; LL:11-3884819 (død Magleby 1915);
@@ -417,7 +422,7 @@ Sources: LL:12-16296348; LL:23-1129713; LL:11-3884819 (død Magleby 1915);
          name, position, residence, age, date of death); Familiens håndskrevne
          anetavle; LL:13-5237434 (vielse Magleby 26/11 1881)
 
-PERSON: Hansine Pedersen (Petersen)
+### Hansine Pedersen (Petersen)
 ID: p29
 Sex: F
 Born: 1859
@@ -429,14 +434,14 @@ Children: as above (Laurits Edvard, Aksel Peder, Hans Sigurd, Otto, Axel, Olga,
 Father: Peder Bertelsen — p58
 Mother: [not fully resolved]
 
-PERSON: Axel Erik Holgersen
+### Axel Erik Holgersen
 ID: p30
 Sex: M
 Born: 1882, Tved (Svendborg), Denmark
 Died: 1962, Nordenbro, Denmark
 Occupations over time:
-  - Bødker (cooper)
-  - Husmand (smallholder)
+- Bødker (cooper)
+- Husmand (smallholder)
 Locations over time:
   1882 Tved (Svendborg) — born on Tved Mark
   1901 Humble (Kædeby), Langeland — cooper's apprentice
@@ -451,13 +456,13 @@ Mother: Karen Nielsen — p61
 Sources: LL:12-15691757; LL:13-2027009; LL:9-1908303; LL:24-817272;
          LL:25-805032; DFS:kbid157287; Familiens håndskrevne anetavle
 
-PERSON: Kristine Adamine Margrethe Christensen
+### Kristine Adamine Margrethe Christensen
 ID: p31
 Sex: F
 Born: 6 October 1884, Rudkøbing, Denmark
 Died: 19 April 1975, Magleby (Nordenbro), Langeland, Denmark
 Occupations over time:
-  - Tjenestepige (maid), Humble (1901)
+- Tjenestepige (maid), Humble (1901)
 Locations over time:
   1884 Rudkøbing — born
   1898 Humble (Kædeby), Langeland — confirmed
@@ -473,18 +478,18 @@ Sources: LL:12-15579549; LL:14-3122525; LL:9-1908174; LL:13-2027012;
          LL:24-817273; LL:25-805033; Familiens håndskrevne anetavle;
          Lisbeth Skov f. Christensen: 'En Langø-piges erindringer'
 
-PERSON: Marius Michelsen Christensen ("Kongen af Langø")
+### Marius Michelsen Christensen ("Kongen af Langø")
 ID: p62
 Sex: M
 Born: 14 April 1858, Rudkøbing, Denmark
 Died: [not recorded]
 Occupations over time:
-  - Landbruger og ejer af øen Langø (1894–) (farmer and owner of Langø)
-  - Bygger af Langø-dæmningen (1911) (builder of the Langø causeway)
-  - Arbejdsmand ved Rudkøbing havn og Frihavnen i København (labourer at
+- Landbruger og ejer af øen Langø (1894–) (farmer and owner of Langø)
+- Bygger af Langø-dæmningen (1911) (builder of the Langø causeway)
+- Arbejdsmand ved Rudkøbing havn og Frihavnen i København (labourer at
     Rudkøbing harbour and Copenhagen Free Port)
-  - Arbejder på Langelands Korn (worker at Langelands Korn)
-  - Ejer af Langø fra 1894 (owner of Langø from 1894)
+- Arbejder på Langelands Korn (worker at Langelands Korn)
+- Ejer af Langø fra 1894 (owner of Langø from 1894)
 Locations over time:
   1858 Rudkøbing — born
   1883 Rudkøbing — married
@@ -520,18 +525,18 @@ Mother: [not in JSON]
 Sources: LL:12-15570702; LL:13-5085956; LL:9-1827830; Lisbeth Skov f.
          Christensen: 'En Langø-piges erindringer'
 
-PERSON: Peter Petersen
+### Peter Petersen
 ID: "sofus_f"
 Sex: M
 Born: 22 September 1866, Nybøl (Paakjær), Denmark
 Died: 28 November 1939, Nybøl (Paakjær), Denmark
 Occupations over time:
-  - Gårdejer på Paakjær, Nybøl (farmer at Paakjær, Nybøl)
+- Gårdejer på Paakjær, Nybøl (farmer at Paakjær, Nybøl)
 Spouse: Anna Cathrine Marie Petersen — "sofus_m"
 Children: Sophus Petersen — "sofus" (father of Lorenz per family)
 Sources: Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt'
 
-PERSON: Anna Cathrine Marie Petersen
+### Anna Cathrine Marie Petersen
 ID: "sofus_m"
 Sex: F
 Born: 1869, Dybbøl, Denmark
@@ -545,22 +550,22 @@ Notes: Lorens Petersen and Marie Jørgensen married in Dybbøl in 1860.
 Sources: Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt'
 
 
---------------------------------------------------------------------------------
-SECTION 6 — GENERATION 6 (great-great-great-grandparents)
---------------------------------------------------------------------------------
+---
+## Section 6 — GENERATION 6 (great-great-great-grandparents)
+---
 
-PERSON: Niels Jørgensen
+### Niels Jørgensen
 ID: p18
 Sex: M
 Born: ca. 1826
 Died: [not recorded]
 Occupations over time:
-  - Høker (grocer)
-  - Arbejdsmand (labourer), København
+- Høker (grocer)
+- Arbejdsmand (labourer), København
 Spouse: Johanne Sophie Hansen — p19
 Children: Jørgen Anton Jørgensen — p12
 
-PERSON: Johanne Sophie Hansen
+### Johanne Sophie Hansen
 ID: p19
 Sex: F
 Born: ca. 1825, Viby, Denmark
@@ -569,7 +574,7 @@ Occupations: [not recorded]
 Spouse: Niels Jørgensen — p18
 Children: Jørgen Anton Jørgensen — p12
 
-PERSON: Niels Larsen (father of Lovisa Larsson)
+### Niels Larsen (father of Lovisa Larsson)
 ID: p20
 Sex: M
 Born: [not recorded]
@@ -577,26 +582,26 @@ Died: [not recorded]
 Occupations: [not recorded]
 Children: Lovisa Larsson — p13 (Jørgensen line)
 
-PERSON: Jochum Gaardsted
+### Jochum Gaardsted
 ID: p21
 Sex: M
 Born: 1792, Vosnæsgaard, Skødstrup, Denmark
 Died: 1865
 Occupations over time:
-  - Gårdmand (farmer)
-  - Sognefoged (parish bailiff)
+- Gårdmand (farmer)
+- Sognefoged (parish bailiff)
 Locations over time:
   1792 Vosnæsgaard, Skødstrup — born
   1865 — died
 Notes: Baptism record image available: jochum-baptism-skodstrup-1792.jpg
 Photos / documents:
-  - jochum-baptism-skodstrup-1792.jpg
+- jochum-baptism-skodstrup-1792.jpg
 Spouse: Ane Sophie Jensdatter — p22
 Children: Hans Peter Gaardsted — p16
 Father: Claus Gaardsted — p25
 Mother: Kirsten Marie Jørgensdatter — p26
 
-PERSON: Ane Sophie Jensdatter
+### Ane Sophie Jensdatter
 ID: p22
 Sex: F
 Born: ca. 1812, Rosmus, Denmark
@@ -605,13 +610,13 @@ Occupations: [not recorded]
 Spouse: Jochum Gaardsted — p21
 Children: Hans Peter Gaardsted — p16
 
-PERSON: Anders Rasmussen Rousing
+### Anders Rasmussen Rousing
 ID: p23
 Sex: M
 Born: 1818
 Died: 1886
 Occupations over time:
-  - [not explicitly recorded; family line includes sognefoged]
+- [not explicitly recorded; family line includes sognefoged]
 Locations over time: Fuglslev, Denmark
 Spouse: Mariane Hansdatter — p24
 Children: Rasmine Christine Andersen — p17
@@ -620,7 +625,7 @@ Mother: [not recorded]
 Notes: ← Rasmus Jensen Rousing (sognefoged) ← Jens Rasmussen ❓ ← Rasmus Jensen
        ❓ ca. 1718
 
-PERSON: Mariane Hansdatter
+### Mariane Hansdatter
 ID: p24
 Sex: F
 Born: 1817
@@ -631,13 +636,13 @@ Children: Rasmine Christine Andersen — p17
 Father: Hans Jacobsen
 Mother: Maren Rasmusdatter
 
-PERSON: Lars Larsen
+### Lars Larsen
 ID: p56
 Sex: M
 Born: 30 August 1832, Magleby (Nordenbro), Langeland, Denmark
 Died: 24 April 1907, Magleby (Nordenbro), Langeland, Denmark
 Occupations over time:
-  - Daglejer ved landbruget, Magleby (1901) (day labourer in farming)
+- Daglejer ved landbruget, Magleby (1901) (day labourer in farming)
 Locations over time:
   1832 Magleby (Nordenbro), Langeland — born
   1907 Bøsseløkke, Nordenbro — died, aged 74
@@ -655,7 +660,7 @@ Sources: LL:12-16285745; LL:2-864880 (FT 1834 Magleby); LL:3-988512 (FT 1840);
          Magleby, tjenestekarl); MyHeritage tree 'Gedde Web Site' (GEDCOM export
          8 Oct 2026), based on Vivi Fogde Clausen's tree
 
-PERSON: Maren Christiansen
+### Maren Christiansen
 ID: p57
 Sex: F
 Born: [not recorded]
@@ -666,7 +671,7 @@ Children: Lars Thomsen Larsen — p28
 Father: [not recorded]
 Mother: [not recorded]
 
-PERSON: Peder Bertelsen
+### Peder Bertelsen
 ID: p58
 Sex: M
 Born: [not recorded]
@@ -676,14 +681,14 @@ Spouse: [not recorded]
 Children: Hansine Pedersen (Petersen) — p29
 Notes: Father of Hansine Pedersen (Petersen).
 
-PERSON: Peder Iver Holgersen
+### Peder Iver Holgersen
 ID: p60
 Sex: M
 Born: 10 December 1851, Tved (Svendborg), Denmark
 Died: [not recorded]
 Occupations over time:
-  - Indsidder (lodger)
-  - Indsidder, Tved
+- Indsidder (lodger)
+- Indsidder, Tved
 Locations over time:
   1890 Tved (Svendborg)
 Notes: Married 26 Nov 1878 in Vor Frue Kirke, Svendborg, to Karen Nielsen.
@@ -695,7 +700,7 @@ Mother: Anne Cathrine Hansdatter — p121
 Sources: LL:12-15688495; LL:13-5270320; LL:12-15691758; Familiens håndskrevne
          ark (Nordenbro); Familiens håndskrevne anetavle
 
-PERSON: Karen Nielsen
+### Karen Nielsen
 ID: p61
 Sex: F
 Born: ca. 1855
@@ -705,7 +710,7 @@ Spouse: Peder Iver Holgersen — p60
 Children: Axel Erik Holgersen — p30
 Sources: LL:13-5270321; LL:12-15691759
 
-PERSON: Ane Marie (wife of Marius Christensen)
+### Ane Marie (wife of Marius Christensen)
 ID: p63
 Sex: F
 Born: [not recorded]
@@ -717,22 +722,22 @@ Notes: Co-owner of Langø from 1894. Her siblings were named Peder, Mads, Claus,
        Marius, Hans and Jørgine (from the death list context).
 
 
---------------------------------------------------------------------------------
-SECTION 7 — GENERATION 7
---------------------------------------------------------------------------------
+---
+## Section 7 — GENERATION 7
+---
 
-PERSON: Claus Gaardsted
+### Claus Gaardsted
 ID: p25
 Sex: M
 Born: ca. 1750
 Died: 1811
 Occupations over time:
-  - Forpagter af Vosnæsgaard (tenant farmer of Vosnæsgaard)
-  - Ejer af Bogensholm (owner of Bogensholm)
+- Forpagter af Vosnæsgaard (tenant farmer of Vosnæsgaard)
+- Ejer af Bogensholm (owner of Bogensholm)
 Spouse: Kirsten Marie Jørgensdatter — p26
 Children: Jochum Gaardsted — p21
 
-PERSON: Kirsten Marie Jørgensdatter
+### Kirsten Marie Jørgensdatter
 ID: p26
 Sex: F
 Born: [not recorded]
@@ -741,13 +746,13 @@ Occupations: [not recorded]
 Spouse: Claus Gaardsted — p25
 Children: Jochum Gaardsted — p21
 
-PERSON: Lars Thomsen (father of Lars Larsen)
+### Lars Thomsen (father of Lars Larsen)
 ID: p112
 Sex: M
 Born: [not recorded]
 Died: [not recorded]
 Occupations over time:
-  - Gårdfæster (farm tenant), Magleby
+- Gårdfæster (farm tenant), Magleby
 Locations over time: Magleby, Langeland
 Spouse: Anne Katrine Jensdatter — p113
 Children: Lars Larsen — p56
@@ -758,7 +763,7 @@ Notes: The MyHeritage tree wrongly links Lars Larsen back to a Lars Larsen born
        farmer Lars Thomsen in Magleby, and the grandson is named Lars Thomsen
        Larsen. The Bornholm branch is therefore not included.
 
-PERSON: Anne Katrine Jensdatter
+### Anne Katrine Jensdatter
 ID: p113
 Sex: F
 Born: ca. 1789, Fangel sogn, Odense amt, Denmark
@@ -771,7 +776,7 @@ Notes: Born ca. 1789 in Fangel parish, Odense county (1850 census). Married to
 Sources: LL:5-1077811 (FT 1850, born in Fangel); LL:2-864881 (FT 1834 Magleby);
          LL:12-16285746
 
-PERSON: Holger Eriksen
+### Holger Eriksen
 ID: p120
 Sex: M
 Born: ca. 1814
@@ -782,7 +787,7 @@ Children: Peder Iver Holgersen — p60
 Notes: Married 8 Dec 1838 in Tved (Svendborg) to Anne Cathrine Hansdatter.
 Sources: LL:13-5107079; LL:12-15688496
 
-PERSON: Anne Cathrine Hansdatter
+### Anne Cathrine Hansdatter
 ID: p121
 Sex: F
 Born: ca. 1815
@@ -793,41 +798,41 @@ Children: Peder Iver Holgersen — p60
 Sources: LL:13-5107080; LL:12-15688497
 
 
---------------------------------------------------------------------------------
-SECTION 8 — GENERATION 8
---------------------------------------------------------------------------------
+---
+## Section 8 — GENERATION 8
+---
 
-PERSON: Rasmus Jensen Rousing
+### Rasmus Jensen Rousing
 ID: [not individually shown in the excerpt]
 Sex: M
 Occupations over time:
-  - Sognefoged (parish bailiff)
+- Sognefoged (parish bailiff)
 Children: Anders Rasmussen Rousing — p23
 Notes: ← Jens Rasmussen ❓ ← Rasmus Jensen ❓ ca. 1718
 
-PERSON: Jens Rasmussen
+### Jens Rasmussen
 ID: [not individually shown]
 Notes: Father of Rasmus Jensen Rousing; marked ❓ in the source (uncertain).
 
-PERSON: Rasmus Jensen
+### Rasmus Jensen
 ID: [not individually shown]
 Born: ca. 1718
 Notes: Earliest known ancestor on the Rousing line; marked ❓ in the source.
 
-PERSON: Hans Jacobsen
+### Hans Jacobsen
 ID: [not individually shown]
 Children: Mariane Hansdatter — p24
 Spouse: Maren Rasmusdatter
 
-PERSON: Maren Rasmusdatter
+### Maren Rasmusdatter
 ID: [not individually shown]
 Children: Mariane Hansdatter — p24
 Spouse: Hans Jacobsen
 
 
---------------------------------------------------------------------------------
-SECTION 9 — EARLIER GENERATIONS (9–14) — GEDDE & VON KLEIST LINE
---------------------------------------------------------------------------------
+---
+## Section 9 — EARLIER GENERATIONS (9–14) — GEDDE & VON KLEIST LINE
+---
 
 The tree's deepest documented line runs through the Gedde and von Kleist
 families. The source material here is the family-tree.md narrative and the
@@ -835,17 +840,16 @@ GEDCOM; individual JSON entries for these generations are sparse and largely
 without dates.
 
 Key named ancestors on the Gedde / von Kleist line include:
-
-  - Cartz Ulrik von Gedde (III.369) — Danish officer, went into Danish service
+- Cartz Ulrik von Gedde (III.369) — Danish officer, went into Danish service
     in 1701, became lieutenant-colonel, died in Rendsborg in 1722.
-  - Pribislaff von Kleist (III.281) of Muttrin, Borntin, Döbel and Drenow —
+- Pribislaff von Kleist (III.281) of Muttrin, Borntin, Döbel and Drenow —
     died 1698; married A. E. von Kameke. Identified by Harbou (1897) and the
     newer von Kleist register as the father of Cartz Ulrik.
-  - Pribislaff (d. 1640) — earlier Borntin line.
-  - Prebislaw til Borntin — mentioned 1621.
-  - Hans Jürgen — landråd (councillor), son of Prebislaw.
-  - Prebislaw til Muttrin, Borntin og Drenow — son of Hans Jürgen.
-  - Prissebur / Klest de Densin — medieval mentions: 1248 Conradus and
+- Pribislaff (d. 1640) — earlier Borntin line.
+- Prebislaw til Borntin — mentioned 1621.
+- Hans Jürgen — landråd (councillor), son of Prebislaw.
+- Prebislaw til Muttrin, Borntin og Drenow — son of Hans Jürgen.
+- Prissebur / Klest de Densin — medieval mentions: 1248 Conradus and
     Bertoldus Clest in a Pomeranian document; 1289 Klest (Klest de Densin)
     in a fief/witness document; 1364 mentioned as co-owner of land in Glineke
     and called Klest from Muttrin; 1477 Duke Bogislaw X's fief letter lists
@@ -859,41 +863,40 @@ Important caveat from the source:
    entered as direct ancestors in the tree."
 
 Sources for the von Kleist line:
-  - H. W. Harbou, "Slægten von Kleist i Danmark" (1897):
+- H. W. Harbou, "Slægten von Kleist i Danmark" (1897):
     https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf
-  - "Muttrin-Damensche historie" (2025):
+- "Muttrin-Damensche historie" (2025):
     https://www.v-kleist.com/FG/Muttrin/Muttrin.pdf
-  - "Familien von Kleists dokumentbog":
+- "Familien von Kleists dokumentbog":
     https://www.v-kleist.com/FG/Gesamt.pdf
-  - Overview of the early documents:
+- Overview of the early documents:
     https://www.v-kleist.com/FG/urkunden/urkunden.htm
 
 
---------------------------------------------------------------------------------
-SECTION 10 — PERSONS WITH UNCERTAIN OR PARTIAL DATA
---------------------------------------------------------------------------------
+---
+## Section 10 — PERSONS WITH UNCERTAIN OR PARTIAL DATA
+---
 
 Several deep ancestors have only partial records. The JSON marks them with
 "born": null, "died": null, and/or empty "occ" and "res" arrays. These include
 (but are not limited to):
-
-  - Mads Stephensen Johansen (p118) — husmand i Nordenbro, Magleby sogn;
+- Mads Stephensen Johansen (p118) — husmand i Nordenbro, Magleby sogn;
     no dates.
-  - Maren Larsdatter (p119) — from Nordenbro, Magleby sogn; no dates.
-  - Karen Nielsen (p61) — born ca. 1855; no death place.
-  - Christian Hansen (p114) — born ca. 1806; married 13 Nov 1829 in Magleby
+- Maren Larsdatter (p119) — from Nordenbro, Magleby sogn; no dates.
+- Karen Nielsen (p61) — born ca. 1855; no death place.
+- Christian Hansen (p114) — born ca. 1806; married 13 Nov 1829 in Magleby
     to Marie Madsdatter.
-  - Marie Madsdatter (p115) — born ca. 1807.
-  - Hans Berendsen (p116) — from Lille Snøde, Snøde sogn; no dates.
-  - Anne Marie Olsdatter (p117) — from Lille Snøde, Snøde sogn; no dates.
+- Marie Madsdatter (p115) — born ca. 1807.
+- Hans Berendsen (p116) — from Lille Snøde, Snøde sogn; no dates.
+- Anne Marie Olsdatter (p117) — from Lille Snøde, Snøde sogn; no dates.
 
 These are marked "conf": "record" in the JSON, meaning the information is
 recorded but the dates are not known.
 
 
---------------------------------------------------------------------------------
-SECTION 11 — SUMMARY STATISTICS (from the site)
---------------------------------------------------------------------------------
+---
+## Section 11 — SUMMARY STATISTICS (from the site)
+---
 
   156 aner fundet (ancestors found)
   14 generationer (generations)
@@ -905,9 +908,9 @@ SECTION 11 — SUMMARY STATISTICS (from the site)
   593 source references
 
 
---------------------------------------------------------------------------------
-SECTION 12 — NOTES FOR THE AGENT
---------------------------------------------------------------------------------
+---
+## Section 12 — NOTES FOR THE AGENT
+---
 
 1. Living persons are intentionally redacted. Names of anyone living, or born
    within the last 100 years without a death date, are AES-256-GCM encrypted in
@@ -934,10 +937,9 @@ SECTION 12 — NOTES FOR THE AGENT
    fetchable. The GitHub blob URLs (github.com/sloev/tree/blob/main/images/...)
    also work but return HTML; the raw URLs are better for agent ingestion.
 
-================================================================================
+
 END OF EXPORT
-================================================================================
-```
+
 
 ---
 
