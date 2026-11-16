@@ -81,6 +81,6 @@ Vi vil gerne have hjælp fra besøgende. Forskningssiden skal derfor gøre det l
 
 ### Forskningsregister på hjemmesiden
 
-Den første offentlige version af fanen **Forskningsspor** er nu lagt i koden. Den indeholder otte åbne spor på tværs af de fire aktive bedsteforældregrene. Hvert spor viser status, det foreliggende belæg, hvad der mangler, næste kontrol og et link til arbejdsdossieret. Registerets redigerbare kildedata ligger i `data/research.json`; visningen bygges via `site/build.py`.
+Den første offentlige version af fanen **Forskningsspor** er nu lagt i koden. Den indeholder nu 27 åbne spor på tværs af de fire aktive bedsteforældregrene. Hvert spor viser status, det foreliggende belæg, hvad der mangler, næste kontrol og et link til arbejdsdossieret. Registerets redigerbare kildedata ligger i `data/research.json`; visningen bygges via `site/build.py`.
 
-Dette er en første, kurateret start — ikke en fuldstændig offentliggørelse af alle dossier-noter. Den lokale bygge- og browserkontrol samt bekræftelse af GitHub Pages-deploy mangler fortsat.
+Registeret er fortsat en kurateret oversigt — ikke en fuldstændig offentliggørelse af alle dossier-noter. Den lokale bygge- og browserkontrol samt bekræftelse af GitHub Pages-deploy mangler fortsat.
