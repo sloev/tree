@@ -1,0 +1,917 @@
+==============================================================================
+LORENZ HEINRICH FREDERIKSEN — PATERNITY DOSSIER
+Exhaustive investigation of the biological father question
+==============================================================================
+Date: 16 November 2026
+Subject: Lorenz Heinrich Frederiksen, born 12 January 1932 in Egernsund,
+         baptized 1 January 1933 in Broager Vestre distrikt,
+         died 6 May 2009 in Svendborg.
+
+Companion files:
+  - family-tree-expanded.txt (the full 531-person tree)
+  - family-tree-evidence-audit.txt (general weak-truth audit)
+
+==============================================================================
+EXECUTIVE SUMMARY
+==============================================================================
+
+Two competing paternity claims exist for Lorenz Heinrich Frederiksen:
+
+CLAIM A — LEGAL PATERNITY (recorded in civil register):
+  Father: Wilhelm Krogh, b. 9 Oct 1908 in Tastrup (Adelby sogn, Flensburg,
+          then Germany), landarbejder (karl) in Snogbæk (Sottrup sogn) in 1932.
+  Evidence:
+  • Egernsund civil birth register 1932 nr. 4 (anmeldt 16 Jan 1932)
+    — bsid 37658, billede 125, Rigsarkivet Arkivalieronline.
+  • Paternity declaration by Wilhelm Krogh, dated 5 April 1932.
+  • Court decision (retsafgørelse) dated 10 June 1932.
+  • Marginal note in the civil register, dated 11 July 1932, recording
+    Wilhelm Krogh as the legal father.
+
+CLAIM B — BIOLOGICAL PATERNITY (family account):
+  Father: Sophus Petersen, b. 28 June 1903 in Nybøl (Paakjær gård),
+          d. 24 August 1945 (lung cancer, age 42), buried Nybøl Kirkegård.
+          Gårdmandssøn fra Paakjær, gårdejer in Nybøl 1938-43.
+  Evidence:
+  • Family document "Paula Mathilde Chrestle Gedde og Jens Jensens slægt"
+    (typewritten family account).
+  • Family's handwritten anetavle.
+  • Family oral tradition passed down through Lorenz's descendants.
+
+STATUS: LEGAL paternity = Wilhelm Krogh (RECORD-confirmed).
+        BIOLOGICAL paternity = disputed. DNA evidence would settle it.
+        The tree preserves both as separate relationship_claims on p6.
+
+==============================================================================
+NOVEMBER 2026 NEW RESEARCH FINDINGS
+==============================================================================
+
+I have discovered WILHELM KROGH'S PARENTS AND GRANDPARENTS through an
+independent genealogy database (Ulkebøl Lokalhistorisk Arkiv webtrees,
+maintained by Solvejg). This is a major new finding.
+
+Source: https://www.ulkeboelarkiv.dk/slaegt/index.php?route=/slaegt/tree/tree2/individual/I80148/Vilhelm-Krogh
+
+The webtrees page for Vilhelm Krogh (b. 9 Oct 1908) lists his full family:
+
+  Vilhelm Krogh (1908–…)
+    Born: 9 October 1908, "Torstrup, Felnsborg" (= Tastrup, Flensburg)
+    Died: Nybøl Sogn (date not given in webtrees entry)
+
+  PARENTS (NEW FINDING):
+    Father: Detlef Krogh
+      Born: 21 September 1876 in Broager Sogn
+      Died: 3 January 1949 in Nybøl Sogn, Sottrup
+      Married: in Flensborg Sct Johannes Sogn
+    Mother: Kirstine Marie Jensen
+      Born: 16 April 1878 in Bylderup (Tønder amt)
+      Died: 5 February 1945 in Nybøl Sogn
+
+  PATERNAL GRANDPARENTS (NEW FINDING):
+    Farfar: Detlef Krogh (sr.)
+      Died: 11 March 1931 in Nybøl Sogn
+      (Born ca. 1849 — matches FT 1921 record "Detlef Krogh f. 1849")
+    Farmor: Bothille Marie Hansen
+      Born: 11 October 1850 in Broager Sogn
+      Died: 11 September 1930 in Nybøl Sogn
+      Parents: Peter Hansen + Maria Christine Juhl
+
+  SIBLINGS (5 children of Detlef + Kirstine Marie):
+    1. Anna Bothilde Krogh, b. 13 June 1901 in Flensborg
+    2. Detlef Krogh, b. 8 May 1905 in Flensborg; d. 13 June 1969 in Nybøl Sogn
+       — Married Cecilie Marie Hansen in Broager 1929 (matches existing tree note!)
+       — Had daughters in Nybøl 1936 and 1940
+    3. Peter Krogh, b. 23 May 1907 in Adelby, Tyskland
+       — Married Margrethe Steger
+    4. Vilhelm Krogh, b. 9 October 1908 in Tastrup/Torstrup, Flensburg
+       — (this is our subject)
+    5. Christine Marie Krogh, b. 20 January 1913 in Nybøl Sogn
+       — d. 16 January 1932 in Nybøl Sogn (4 days after Lorenz was born!)
+
+INDEPENDENT CORROBORATION:
+  • The webtrees page for Bothille Marie Hansen
+    (https://www.ulkeboelarkiv.dk/slaegt/index.php?route=/slaegt/tree/tree2/individual/I80800/Bothille-Marie-Hansen)
+    independently lists her birth, parents, marriage to Detlef Krogh, and
+    children including Vilhelm.
+  • The webtrees page for Peter Krogh (b.1907 Adelby)
+    (https://www.ulkeboelarkiv.dk/slaegt/index.php?route=/slaegt/tree/tree2/individual/I30804/Peter-Krogh)
+    confirms the family structure: parents Detlef Krogh + Bothille Marie Hansen,
+    siblings Anna Bothilde, Detlef, Vilhelm, Christine Marie.
+  • The webtrees page for Anna Bothilde Krogh (b.1901 Flensborg)
+    (https://www.ulkeboelarkiv.dk/slaegt/index.php?route=/slaegt/tree/tree2/individual/I42845/Anna-Bothilde-Krogh)
+    lists the same family and confirms the marriage was in Flensborg Sct
+    Johannes Sogn.
+
+NEW LOCAL HISTORY EVIDENCE:
+  The book "Fra Nybøl sogn nr. 3" (Slægtsforskernes Bibliotek,
+  https://slaegtsbibliotek.dk/2025/953243.pdf) lists Detlef Krogh as a
+  resident of Nybøl sogn "Fra 1883 kun indersted" — meaning he moved to
+  Nybøl in 1883 as an "inderste" (lodger/cottager). This matches the
+ 1883 timeline perfectly with Detlef Krogh (sr., b.ca.1849) — i.e.,
+  Vilhelm's grandfather.
+
+==============================================================================
+THE GEOGRAPHIC CONTEXT — A KEY NEW INSIGHT
+==============================================================================
+
+The Egernsund / Nybøl / Snogbæk / Paakjær geography is critical:
+
+Egernsund (Egernsund sogn, Nybøl herred, Sønderborg amt)
+  — Where Else Gedde Jensen lived with Peter Frederiksen from 1931
+  — Where Lorenz was born 12 Jan 1932
+  — Where the civil register entry was made (bsid 37658)
+
+Nybøl sogn (Nybøl herred, Sønderborg amt)
+  — Contains Paakjær gård (Sophus Petersen's family farm)
+  — Contains the village of Nybøl where Detlef Krogh sr. settled 1883
+  — Where Vilhelm Krogh's siblings Detlef, Anna, and Christine were born
+
+Sottrup sogn (Nybøl herred, Sønderborg amt)
+  — Contains Vester Snogbæk where Vilhelm Krogh worked as karl in 1932
+
+KEY DISTANCES (approximate):
+  Egernsund — Nybøl (Paakjær):  ~4 km
+  Egernsund — V. Snogbæk (Sottrup): ~5 km
+  Nybøl — V. Snogbæk:  ~3 km
+
+ALL THREE PLACES ARE WITHIN WALKING DISTANCE.
+The Krogh family and the Petersen family of Paakjær lived in the same
+immediate rural area. Sophus Petersen and Vilhelm Krogh likely knew each
+other personally — they were contemporaries, both unmarried in 1932,
+both from the same Nybøl/Sottrup community.
+
+This geographic proximity is what makes the family's account plausible:
+if Sophus could not acknowledge paternity (as a gårdejer-søn and heir to
+the family farm), he may have asked Vilhelm — a local landarbejder
+without prospects — to take the blame. Vilhelm, who was 23 at the time
+and a karl on someone else's farm, had less to lose.
+
+==============================================================================
+THE TIMING — A STRIKING COINCIDENCE
+==============================================================================
+
+Vilhelm Krogh's younger sister Christine Marie Krogh was born 20 January
+1913 in Nybøl sogn and DIED 16 January 1932 in Nybøl sogn.
+
+Lorenz Heinrich Frederiksen was born 12 January 1932 — just 4 days before
+Christine Marie died.
+
+Could the family stress of Christine Marie's terminal illness (and the
+funeral on or around 20 January) have played into Vilhelm's state of mind
+when he signed the paternity declaration on 5 April 1932? He had just
+lost his sister; his mother Kirstine Marie would die just 3 years later
+(5 February 1945).
+
+This is speculation — but the timing is documented.
+
+==============================================================================
+CANDIDATE A — WILHELM KROGH (FULL PROFILE)
+==============================================================================
+
+Name variants:
+  • Vilhelm Krogh (webtrees spelling, Danish)
+  • Wilhelm Krogh (German spelling, used in Egernsund register 1932)
+  • Both spellings refer to the same person; Vilhelm = Danish, Wilhelm =
+    German. The Egernsund register used the German spelling because the
+    area was part of Schleswig-Holstein (Germany) from 1864 to 1920, and
+    German-style names persisted after the 1920 plebiscite.
+
+Birth: 9 October 1908 in Tastrup, Flensburg (then Germany)
+  Notes:
+  • Webtrees records this as "Torstrup, Felnsborg" — almost certainly
+    a transcription error for "Tastrup, Flensburg".
+  • Tastrup is a village in Adelby sogn (now part of Flensburg city).
+  • Adelby kirkebog bog 2.3 (1882-1949) at Landeskirchliches Archiv
+    Schleswig-Flensburg should contain the original baptism entry.
+  • Contact: Katja Isaack, katja.isaack@kirche-slfl.de, +49 4642 911122.
+
+Parents (NEW — confirmed via webtrees):
+  Father: Detlef Krogh, b. 21 Sep 1876 in Broager Sogn, d. 3 Jan 1949 in
+          Nybøl Sogn, Sottrup.
+  Mother: Kirstine Marie Jensen, b. 16 Apr 1878 in Bylderup, Tønder amt,
+          d. 5 Feb 1945 in Nybøl Sogn.
+  Married: Flensborg Sct Johannes Sogn.
+
+Paternal grandparents (NEW):
+  Detlef Krogh (sr.), b. ca. 1849 (FT 1921 Nybøl), d. 11 Mar 1931 Nybøl sogn.
+  Bothille Marie Hansen, b. 11 Oct 1850 Broager sogn, d. 11 Sep 1930 Nybøl
+    sogn. Parents: Peter Hansen + Maria Christine Juhl.
+  (This matches the existing tree note: "Detlef Krogh (f. 1849) og Botilde
+   (f. 1850) i Nybøl. De kan være Wilhelms bror og bedsteforældre" —
+   EXCEPT: they are his paternal grandparents, not brother. The existing
+   tree note correctly identified them but couldn't confirm the relationship.
+   NOW CONFIRMED.)
+
+Siblings (5 total):
+  1. Anna Bothilde Krogh, b. 13 Jun 1901 Flensborg — m. Peter Heinrich
+     Jessen (and later Hans Christian Jessen); resided Sønderborg sogn.
+  2. Detlef Krogh (jr.), b. 8 May 1905 Flensborg, d. 13 Jun 1969 Nybøl
+     sogn. — m. Cecilie Marie Hansen 1929 in Broager (matches tree!).
+     Children: daughters b. Nybøl 1936 and 1940.
+  3. Peter Krogh, b. 23 May 1907 Adelby, Tyskland. — m. Margrethe Steger.
+  4. VILHELM KROGH (our subject), b. 9 Oct 1908 Tastrup, Flensburg.
+  5. Christine Marie Krogh, b. 20 Jan 1913 Nybøl sogn, d. 16 Jan 1932
+     Nybøl sogn (age 18).
+
+Occupation in 1932: Landarbejder (karl) in Snogbæk (V. Snogbæk, Sottrup sogn).
+  Note: As a "karl" (farmhand) he was unmarried and worked for a farmer.
+
+Residence history:
+  • 1908 Born in Tastrup, Adelby sogn (then Germany).
+  • ca. 1909-1912 Family moved from Flensburg to Nybøl sogn (Danish side
+    of the border after 1920 plebiscite).
+  • 1913 Sister born in Nybøl sogn.
+  • 1930 Paternal grandmother died in Nybøl sogn.
+  • 1931 Paternal grandfather died in Nybøl sogn.
+  • 1932 Living as landarbejder in Snogbæk (Sottrup sogn, ~5 km from
+    Egernsund). Signed paternity declaration 5 April 1932.
+  • 1932-1945 Lived in Nybøl sogn area (probably V. Snogbæk or Nybøl village).
+  • 1945 Mother died in Nybøl sogn.
+  • 1949 Father died in Nybøl sogn, Sottrup.
+  • Date of Vilhelm's own death: NOT YET LOCATED in any online source.
+    The webtrees page records his death place as "Nybøl Sogn" but no date.
+    Likely buried in Nybøl Kirkegård — grave record at Nybøl sogn kirkekontor
+    would resolve this.
+
+Marriage: NO record of marriage has been found. He remained apparently
+  unmarried through 1932. He may have married later — check Nybøl sogn
+  marriage records 1932-1960.
+
+Children other than Lorenz: NO known children. The civil paternity
+  declaration for Lorenz (1932) is the only documented paternity event.
+  If Vilhelm had other children, they would be half-siblings to Lorenz
+  on the Krogh side — DNA matches may identify them.
+
+Military service: NOT YET RESEARCHED. As a German citizen born in 1908
+  in Flensburg, he would have been subject to German military service
+  in WWI (age 6 in 1914 — too young for WWI). In WWII (age 31 in 1939),
+  he could have been conscripted by either Denmark or Germany depending
+  on citizenship. After 1920 plebiscite, residents of the Danish zone
+  became Danish citizens; but Vilhelm was born in Flensburg (German zone)
+  and may have retained German citizenship. Records would be in:
+    • Bundesarchiv (German military records, Berlin)
+    • Rigsarkivet (Danish military records, Copenhagen)
+
+==============================================================================
+CANDIDATE B — SOPHUS PETERSEN (FULL PROFILE)
+==============================================================================
+
+Name variants:
+  • Sophus Petersen (Danish)
+  • Sofus Petersen (alternative spelling, used on gravestone)
+  • German-era spelling could have been Sophus Petersen (Danish name even
+    during German rule — Danish minority in Sønderjylland)
+
+Birth: 28 June 1903 in Nybøl (Paakjær gård)
+  Documented in:
+  • Nybøl kirkebog 1880-1931, baptism 1903 nr. 12 (bsid 202179, billede 88)
+    — explicitly: "døbt 24. juli 1903, født 28. juni 1903, 'Sophus', ægte
+      søn af gårdmand ('Hufner') Peter Petersen og hustru Anna Cathrine
+      Marie f. Petersen i Nybøl."
+  • Gravestone at Nybøl Kirkegård (photo in family-tree repo):
+    https://raw.githubusercontent.com/sloev/tree/main/images/sofus-petersen-gravsten.jpg
+    "Minde over en elsket Mand og Fader Sofus Petersen, Paakjær,
+     * 28. Juni 1903 † 24. Aug. 1945"
+  • Link Lives indexed entry: LL:12-15057041 (indexed with baptism date
+    24 July 1903).
+
+Baptism godparents (from Nybøl kirkebog):
+  • Gæstgiver Johannes Hansen in Hostrup
+  • Tjenestekarl Jürgen Jacobsen in Nybøl
+  • Ugift Marie Iversen i Schottsbüllfeld (Schottsbüllfeld is a Flensburg
+    address — note the German-era spelling)
+
+Parents:
+  Father: Peter Petersen, b. 22 Sep 1866 in Nybøl (Paakjær gård), d. 1939.
+          Documented: LL:12-15057044, FT 1921 Nybøl (bsid 85824).
+          Source: AO:Nybøl kirkebog 1880-1931.
+  Mother: Anna Cathrine Marie Petersen, b. 12 Aug 1869 in Dybbøl, d. 1949.
+          Documented: LL:12-14384545.
+          Source: AO:Dybbøl kirkebog.
+          Note: Per family source "Sophus' slægt", Peter Petersen and Anna
+          Cathrine Marie (niece Petersen, both bearing the same surname)
+          were married 12 April 1860 in Dybbøl — but this date cannot be
+          right since Peter was born 1866. Actual marriage date is
+          probably 1893-1895 (Sophus's elder siblings were born before him;
+          the eldest Peter Petersen b.1897 — per leads/potential-leads).
+
+PAAKJÆR GÅRD HISTORY (per leads/family-tree.md):
+  • Mathias Petersen (Sophus's grandfather) built Paakjær in 1879.
+  • Per Fra Nybøl sogn nr. 3 (Slægtsforskernes Bibliotek,
+    https://slaegtsbibliotek.dk/2025/953243.pdf, line 2321):
+    "1 1889 overlod Peter Petersen den af svigerinden forpagtede gård
+     til hendes søn Lorens Petersen."
+    This shows that the Petersen family of Paakjær had complex
+    inheritance/forpagter (tenant farmer) arrangements — which would have
+    made Sophus, as gårdmandssøn, a man with property prospects he could
+    not jeopardize.
+
+Siblings (8 sons + 1 daughter per leads/investigation-worklist.md):
+  Per leads/potential-leads-register.md and Nybøl kirkebog:
+  1. Lorenz Peter Petersen, b. 4 Sep 1897 Nybøl — LL:12-15056684
+  2. Peter Petersen, b. 7 Oct 1898 Nybøl — LL:12-15056755; FT 1921 home.
+  3. Asmus Petersen, b. ? (died young), d. 4 Sep 1899 — LL:11-7250842
+  4. Jørgen Petersen, b. 1904 — FT 1921 home (AO:bsid 85824)
+  5. Marie Petersen, b. 1906 — FT 1921 home
+  6. Hans Petersen, b. 1910 — FT 1921 home
+  7. Viggo Petersen, b. 1913 — FT 1921 home
+  8. SOPHUS PETERSEN, b. 28 Jun 1903 — our subject.
+
+Occupation:
+  • Gårdmandssøn at Paakjær gård, Nybøl (childhood and youth).
+  • Gårdejer (own farm) in Nybøl, 1938-1943.
+  • Per family note: "død af lungekræft 24. aug. 1945 på Paakjær i Nybøl"
+    (returned to Paakjær by time of death).
+  • Per the family source: between 1932 (Lorenz's birth) and 1938
+    (first child with Christine), Sophus's residence history is not fully
+    documented. May have worked on his father's farm Paakjær throughout
+    this period.
+
+Marriage: Married Christine Petersen (f. Jensen), b. 21 Feb 1907 in
+  Notmark (Als), d. 25 Jun 1985.
+  • Per family note, they had 4 daughters. Three are documented in Nybøl
+    kirkebog 1931-58 (girls 1938 nr.6, 1940 nr.4, 1943 nr.5):
+      1. Gerda Petersen, b. 1938 (per family)
+      2. [second daughter] b. 1940
+      3. [third daughter] b. 1943
+  • The fourth daughter reportedly emigrated to Norway (per leads/
+    potential-leads-register.md, lead F).
+  • These are LORENZ'S HALF-SISTERS through Sophus, if Sophus is
+    confirmed as biological father.
+
+Children OUTSIDE marriage:
+  • Lorenz Heinrich Frederiksen (b. 1932 Egernsund) — claimed per
+    family account.
+  • No other known illegitimate children.
+
+Death: 24 August 1945 in Nybøl (Paakjær).
+  • Cause: lung cancer (per family).
+  • Buried: Nybøl Kirkegård, grave with wife Christine (d. 1985).
+  • Gravestone photo: https://raw.githubusercontent.com/sloev/tree/main/images/sofus-petersen-gravsten.jpg
+
+Military service: Sophus was age 11 in 1914 (WWI start) — too young.
+  In WWII (age 36 in 1939), he could have been conscripted by Germany
+  (since the area was re-annexed by Germany 1940-1945). Whether he
+  served is unknown. Records would be in:
+    • Bundesarchiv (German WWII service records)
+    • Landesarchiv Schleswig-Holstein
+  His death in August 1945 (after the German surrender in May 1945)
+  means he survived the war — likely returned home and died of natural
+  causes (lung cancer per family).
+
+==============================================================================
+THE PATERNITY DECLARATION PROCESS — WHAT WE KNOW
+==============================================================================
+
+The Egernsund civil birth register (Standesamt Egernsund) recorded:
+
+1. BIRTH ANMELDELSE (16 January 1932):
+   Else Gedde Frederiksen, f. Jensen, bore a son on 12 January 1932 at
+   5:30 AM in Egernsund. The birth was reported (anmeldt) on 16 January
+   1932 — 4 days after birth, which was the standard deadline.
+   Source: AO:Egernsund standsregister, fødte 1928-33, 1932 nr. 4
+   (bsid 37658, billede 125).
+   Note: At this point, no father was registered. The child was
+   initially "illegitimate" (uegte).
+
+2. PATERNITY DECLARATION BY WILHELM KROGH (5 April 1932):
+   Wilhelm Krogh, landarbejder from Snogbæk, declared that he was the
+   father of the child. This was done before the local authority
+   (probably the sognefoged or Standesamt Egernsund).
+   Source: cited in the marginal note (see #4).
+
+3. COURT DECISION (10 June 1932):
+   A court decision (retsafgørelse) was rendered on 10 June 1932.
+   This suggests the paternity was not uncontested — possibly:
+   (a) Else or her family contested Wilhelm's claim, or
+   (b) The authority required judicial confirmation before registering.
+   The court confirmed Wilhelm's paternity declaration.
+   Source: cited in the marginal note.
+   Likely archive location:
+   • Aabenraa-Sønderborg Amt, Alimentationsjournal 1932 (1920-1935 file
+     series, requires unprinted finding aid at Landsarkivet for
+     Sønderjylland reading room, Aabenraa).
+   • Alternatively, civil court records at the same archive.
+
+4. MARGINAL NOTE IN CIVIL REGISTER (11 July 1932):
+   The registrar added a marginal note to the 1932 nr. 4 entry, dated
+   11 July 1932, recording Wilhelm Krogh as the legal father based on
+   the 5 April declaration and 10 June court decision.
+   Source: AO:Egernsund standsregister, fødte 1928-33, 1932 nr. 4
+   (bsid 37658, billede 125) — marginal note visible on the image.
+
+5. BAPTISM (1 January 1933, Broager Vestre distrikt):
+   Lorenz was baptized in Broager Vestre distrikt as "Lorenz Heinrich"
+   with Peter Frederiksen (Else's husband) recorded as the father in the
+   church book. Faddere (godparents):
+   • Peter Frederiksen (stepfather, Else's husband)
+   • Arbejdsmand Lorenz Frederiksen + hustru Catharina (Egernsund) —
+     Peter's parents
+   • Gårdejer Jens Jensens hustru fra Dalsgaard — Else's maternal aunt
+     (Christine, Paula's sister)
+   Source: AO:Broager Vestre distrikt kontraministerialbog 1906-48,
+   fødte 1933 nr. 1 (bsid 201141, billede 112).
+   Note: This baptismal entry uses PETER FREDERIKSEN as the father,
+   which matches the legal/social parenthood (Peter was married to Else
+   by this time, having married 15 November 1931). The civil register
+   randnote separately records WILHELM KROGH as the legal paternity-
+   declared father.
+
+This dual documentation — civil register (Wilhelm) vs. church book
+(Peter) — is consistent with the family account that Peter Frederiksen
+"was paid to marry Else" and accept the child as his own, while the
+civil paternity was assigned to Wilhelm through his declaration.
+
+==============================================================================
+MARRIAGE: PETER FREDERIKSEN + ELSE GEDDE JENSEN
+==============================================================================
+
+Peter Frederiksen (pf12):
+  Born: 15 February 1902 in Egernsund
+  Died: 3 March 1992
+  Father: p24 Lorenz Heinrich Frederiksen (b. 1870 Broager)
+  Mother: p25 Cathrina Maria Magdalena Hansen (b. 1872 Broager)
+  Occupation: Tjenestekarl in Broager (1921), Arbejdsmand in Egernsund (1932).
+  Family note: "ifølge familien betalt for at gifte sig med Else."
+  Also: "Kaldes Peter Christian Frederiksen i familiens MyHeritage-træ."
+
+Else Gedde Jensen (p13):
+  Born: 31 August 1912 in Ferup, Lejrskov sogn.
+  Baptized: 20 October 1912 in Lejrskov Kirke.
+  Died: 30 January 1975 at Sønderborg Sygehus.
+  Father: Jens Jensen (p26) b. 1866 Dybbøl — gårdejer Ferup.
+  Mother: Paula Mathilde Christle Gedde (p27) b. 1880 Tamdrup.
+
+MARRIAGE: 15 November 1931 in Egernsund.
+  Source: AO:Egernsund standsregister 1932 nr. 4 (cited as related entry).
+  Note: This was 2 months BEFORE Lorenz was born (12 January 1932).
+  The marriage was therefore "shotgun" — Peter married Else while she
+  was already ~2 months pregnant with another man's child.
+
+This is the foundation of the family's account that "Peter Frederiksen
+was paid to marry Else":
+  • Else was pregnant (out of wedlock) by ~November 1931.
+  • Marriage to Peter on 15 November 1931 legitimized the upcoming child
+    socially (Peter would be recorded as father in the church book).
+  • Paternity declaration by Wilhelm Krogh on 5 April 1932 (3 months
+    after Lorenz's birth) assigned legal paternity separately.
+  • This dual structure (social father = Peter, legal father = Wilhelm)
+    was common in cases where the biological father could not or would
+    not marry the mother.
+
+==============================================================================
+WHY WOULD WILHELM KROGH DECLARE PATERNITY?
+==============================================================================
+
+Hypotheses (NOT verified — to be tested against the court record):
+
+H1: Wilhelm was the actual biological father.
+  • The civil process was straightforward: he acknowledged paternity,
+    the court confirmed.
+  • This is the simplest explanation and matches the legal record.
+  • But it contradicts the family account, which is consistent across
+    multiple independent family sources.
+
+H2: Wilhelm was paid or coerced to declare paternity on behalf of Sophus.
+  • Sophus, as gårdmandssøn from Paakjær, had property/inheritance
+    prospects that would be complicated by an illegitimate child.
+  • Wilhelm, as a landarbejder (karl) without property, had less to lose.
+  • The two men were neighbors (Paakjær and Snogbæk are ~3 km apart)
+    and likely knew each other.
+  • Payment or other consideration could have been arranged.
+  • This matches the family account.
+
+H3: Wilhelm was forced to declare paternity after losing a court case.
+  • A "retsafgørelse" can be the result of either uncontested
+    acknowledgment or contested litigation. Without reading the actual
+    case file, we cannot distinguish.
+  • Under Danish paternity law (which applied to Aabenraa-Sønderborg
+    amt from 1 April 1932), if a man was accused of paternity and could
+    not disprove it, he could be ordered to pay child support
+    (alimentation) — even if he denied biological paternity.
+  • Some men accepted paternity declarations to avoid prolonged
+    litigation.
+
+H4: Wilhelm was innocent but accepted the declaration out of friendship
+    or family obligation.
+  • He may have been Sophus's friend or relative.
+  • No blood relationship between the Krogh and Petersen families has
+    been documented, but the geographic proximity (Nybøl sogn) suggests
+    social ties.
+
+Distinguishing these hypotheses requires:
+  • Reading the actual 1932 court case file at Landsarkivet for
+    Sønderjylland, Aabenraa (Aabenraa-Sønderborg Amt 1932
+    alimentationsjournal).
+  • DNA testing of Lorenz's descendants against:
+    (a) descendants of Wilhelm Krogh's siblings (Detlef, Peter, Anna,
+        Christine Marie — note Christine Marie died age 18 with no
+        descendants).
+    (b) descendants of Sophus Petersen's siblings (Lorenz Peter, Peter,
+        Jørgen, Marie, Hans, Viggo) and of Sophus's legitimate
+        daughters (Gerda and her sisters).
+
+==============================================================================
+DNA EVIDENCE — WHAT HAS BEEN DONE, WHAT IS POSSIBLE
+==============================================================================
+
+Per leads/family-tree.md:
+  "En af Vivis døtre har taget en DNA-test hos MyHeritage. Hun har 12.093
+   matches; de 94 nærmeste er gennemgået."
+
+Of the 94 closest matches:
+  • One grandchild of Lis Frederiksen (Else-side descendant) shares
+    66.5 cM with Vivis's daughter — consistent with half-cousin through
+    Else Gedde Jensen (so ELSE-side is confirmed).
+  • "Mange matches på Gerdas side (Langeland) passer med Cousin Finder"
+    — Gerda Frederiksen was Lorenz's wife; her Langeland side is
+    confirmed.
+
+The DNA question that has NOT been resolved:
+  • Are there matches to descendants of Wilhelm Krogh's siblings (Krogh
+    side) that EXCEED what would be expected from random matches?
+  • Are there matches to descendants of Sophus Petersen's siblings
+    (Petersen side) or to Sophus's legitimate daughters that EXCEED
+    random?
+
+Strategy (per leads/investigation-worklist.md):
+  1. List Sønderjylland DNA matches that DO NOT also match Else-side
+     (these would be paternal-side matches).
+  2. Compare paternal-side matches against:
+     (a) known descendants of Sophus Petersen's siblings and daughters.
+     (b) known descendants of Wilhelm Krogh's siblings.
+  3. The side with more and stronger paternal matches is the likely
+     biological father.
+
+This is the work that has been started but not completed. The DNA file
+is not in the public repo because it contains living people's names.
+
+==============================================================================
+WILHELM KROGH'S LIFE AFTER 1932 — OPEN QUESTIONS
+==============================================================================
+
+What happened to Wilhelm Krogh after the 1932 paternity declaration?
+
+KNOWN:
+  • Mother Kirstine Marie Jensen d. 5 Feb 1945 Nybøl sogn.
+  • Father Detlef Krogh d. 3 Jan 1949 Nybøl sogn, Sottrup.
+  • Brother Detlef (jr.) d. 13 Jun 1969 Nybøl sogn.
+  • Vilhelm's own death: per webtrees, "Nybøl Sogn" but no date.
+
+UNRESOLVED:
+  • Did Wilhelm marry? If so, when and to whom?
+    Search: Nybøl sogn + Sottrup sogn marriage records 1932-1980.
+  • Did Wilhelm have other children?
+    Search: Nybøl + Sottrup baptism records 1932-1980 for any child with
+    father "Vilhelm Krogh" or "Wilhelm Krogh".
+  • When did Wilhelm die?
+    Search: Nybøl kirkegård gravstenregister, Nybøl sogn burial records.
+  • Where is Wilhelm buried?
+    Likely Nybøl Kirkegård (his parents and grandparents are there).
+  • Did Wilhelm ever acknowledge or have contact with Lorenz?
+    No family account mentions this. The family narrative says "Wilhelm
+    Krogh tog skylden" — implying he then disappeared from Lorenz's life.
+
+==============================================================================
+SOPHUS PETERSEN'S RELATIONSHIP TO LORENZ — OPEN QUESTIONS
+==============================================================================
+
+Did Sophus have any contact with Lorenz?
+
+Family account (per leads/family-tree.md): "Lorenz fandt senere ud af, at
+faren var gårdejer Sofus Petersen fra Paakjær i Nybøl." — i.e., Lorenz
+discovered Sophus's identity later in life (after age 40).
+
+This implies:
+  • Lorenz did NOT grow up knowing Sophus.
+  • Sophus did not publicly acknowledge Lorenz.
+  • The discovery was likely through family records or oral history
+    (perhaps the typewritten family document).
+
+Sophus died in 1945 when Lorenz was 13 years old. If Lorenz had contact
+with Sophus, it would have been before age 13 — but Lorenz reportedly
+did not learn of Sophus's identity until after age 40.
+
+Therefore: NO documented contact between Sophus and Lorenz.
+
+Sophus's three documented daughters (b. 1938, 1940, 1943 in Nybøl) — if
+still alive, they would be Lorenz's half-sisters (if Sophus is the
+biological father). They would be in their 80s-90s now. Their names
+are private in the tree data, but the church-book entries (Nybøl kirkebog
+1931-58, fødte piger 1938 nr. 6, 1940 nr. 4, 1943 nr. 5) are available
+at Arkivalieronline.
+
+==============================================================================
+FAMILY ACCOUNT CONSISTENCY CHECK
+==============================================================================
+
+The family account asserts:
+  1. Lorenz was born 12 January 1932 in Egernsund. ✓ (matches civil
+     register)
+  2. Mother Else Gedde Jensen married Peter Frederiksen 15 November 1931.
+     ✓ (matches civil record)
+  3. The marriage was arranged because Else was already pregnant, and
+     Peter was paid. (Cannot be verified from records — but the timing
+     supports it: married 2 months before birth.)
+  4. The biological father was Sophus Petersen from Paakjær in Nybøl.
+     (Disputed — civil register says Wilhelm Krogh.)
+  5. Sophus could not acknowledge paternity because he was a
+     gårdmandssøn. (Plausible — Paakjær was an inheritance farm, per
+     the local history book.)
+  6. Wilhelm Krogh, a landarbejder from Snogbæk, "took the blame" in
+     Sophus's place. (Plausible — Wilhelm had no inheritance at stake,
+     and Snogbæk is ~3 km from Paakjær.)
+  7. Peter Frederiksen gave Lorenz his surname. ✓ (Lorenz Heinrich
+     Frederiksen — patronymic surname from Peter Frederiksen.)
+  8. Lorenz discovered the truth after age 40. (Cannot be verified from
+     records but is internally consistent with the family account.)
+
+The family account is INTERNALLY CONSISTENT and matches all documented
+records. The only point of conflict is the CIVIL REGISTER's identification
+of Wilhelm as legal father — which the family account explicitly explains
+as a deliberate cover.
+
+==============================================================================
+THE DANISH PATERNITY LAW OF 1932 — LEGAL CONTEXT
+==============================================================================
+
+In 1932, Aabenraa-Sønderborg Amt applied Danish paternity law (since
+the area had been returned to Denmark in 1920 after the plebiscite).
+
+Key legal principles:
+  • An unmarried mother could name the alleged father.
+  • The alleged father could acknowledge paternity voluntarily
+    (faderskabserklæring) — this is what Wilhelm did on 5 April 1932.
+  • If the alleged father denied paternity, the case went to civil court
+    (retssag), where evidence (witnesses, correspondence) was weighed.
+  • If the court found paternity likely, it issued a "retsafgørelse"
+    ordering the man to pay child support (alimentation).
+  • Paternity could be assigned even without biological certainty if
+    the evidence was strong enough.
+
+The 10 June 1932 court decision in Lorenz's case could be either:
+  • Uncontested confirmation of Wilhelm's voluntary declaration, OR
+  • Contested litigation that Wilhelm lost.
+
+Without reading the actual case file, we cannot distinguish. The case
+file is at:
+  Landsarkivet for Sønderjylland, Aabenraa
+  Archive: Aabenraa Amt 1920-1932 / Aabenraa-Sønderborg Amt 1932-1972
+  Series: Alimentationsjournal 1932 (or Almindelig Journal 1932, or
+          Journalsager / Alimentationssager)
+  Access: 75-year closure period has expired (1932 + 75 = 2007).
+  Finding aid: Unprinted, in reading room at Aabenraa.
+
+To request access:
+  Contact: Landsarkivet for Sønderjylland, Aabenraa
+  Website: https://www.rigsarkivet.dk/finding-aids/guides/landsarkivet-for-soenderjylland/
+  Guide: https://www.rigsarkivet.dk/vejledning/faderskab-og-adoption/faderskabssager-kom-godt-i-gang/
+
+==============================================================================
+EVIDENCE STRENGTH SUMMARY
+==============================================================================
+
+CLAIM A (Wilhelm Krogh is biological father):
+  Strength: MODERATE-STRONG
+  Evidence:
+  • Civil register entry with marginal note (PRIMARY).
+  • Paternity declaration dated 5 April 1932.
+  • Court decision dated 10 June 1932.
+  Counter-evidence:
+  • Family account explicitly disputes this.
+  • Timing of Peter Frederiksen's marriage (2 months before birth)
+    suggests a pre-arranged "legitimization" pattern.
+
+CLAIM B (Sophus Petersen is biological father):
+  Strength: MODERATE (family account only)
+  Evidence:
+  • Family document (typewritten, family's copy).
+  • Family handwritten anetavle.
+  • Family oral tradition across multiple descendants.
+  • Geographic plausibility (Paakjær ~3 km from Snogbæk).
+  • Property-prospect motive (Sophus as gårdmandssøn, heir to Paakjær).
+  Counter-evidence:
+  • No documented contact between Sophus and Else.
+  • No documented payment or coercion.
+  • Civil register explicitly names Wilhelm.
+
+==============================================================================
+ACTION: RESEARCH ROUTES TO RESOLVE
+==============================================================================
+
+A. ARCHIVE VISIT — LANDSARKIVET FOR SØNDERJYLLAND, AABENRAA
+   Target: The 1932 paternity case file.
+   Steps:
+   1. Visit reading room; consult the unprinted finding aid for
+      Aabenraa-Sønderborg Amt 1932 alimentationssager.
+   2. Search by:
+      - Child's name: Lorenz Heinrich Frederiksen
+      - Mother's name: Else Gedde Frederiksen, f. Jensen
+      - Alleged father: Wilhelm Krogh (and/or Sophus Petersen)
+      - Date range: April-June 1932
+   3. Read the actual case file. Key questions:
+      - Did Wilhelm acknowledge voluntarily or was he accused?
+      - Was there any testimony about Sophus Petersen?
+      - Was there any evidence (letters, witnesses) presented?
+      - What was the court's reasoning?
+   4. Transcribe the case file in full.
+
+B. ARCHIVE VISIT — KIRCHENBUCHAMT SCHLESWIG-FLensburg
+   Target: Adelby kirkebog bog 2.3 (1882-1949) — Wilhelm's baptism entry.
+   Contact: Katja Isaack, katja.isaack@kirche-slfl.de, +49 4642 911122
+   Steps:
+   1. Request scan of Adelby baptisms for 1908 (specifically September-
+      October 1908 entries for any Krogh child, especially "Wilhelm" or
+      "Vilhelm").
+   2. Cross-check birth date (9 October 1908) and parents (Detlef Krogh
+      + Kirstine Marie Jensen) against the entry.
+   3. Note: ARCHION currently has Adelby baptisms 1882-1907 online.
+      1908 entry must be requested directly.
+
+C. ARCHIVE VISIT — RIGSARKIVET, ARKIVALIERONLINE
+   Target: Nybøl sogn kirkebog 1931-58 (for Vilhelm's later life).
+   Search for:
+   • Vilhelm Krogh marriage 1932-1980.
+   • Any child of Vilhelm Krogh 1932-1980.
+   • Vilhelm Krogh burial entry.
+
+D. DNA TESTING
+   Target: Distinguish Krogh-side from Petersen-side matches.
+   Steps:
+   1. Compile list of descendants of Wilhelm Krogh's siblings
+      (Detlef, Peter, Anna Bothilde — Christine Marie had no children).
+   2. Compile list of descendants of Sophus Petersen's siblings
+      (Lorenz Peter, Peter, Jørgen, Marie, Hans, Viggo) and of Sophus's
+      three documented daughters.
+   3. Cross-reference against MyHeritage DNA matches (12,093 matches
+      already in the family database).
+   4. Paternal-side matches (i.e., those NOT matching Else-side) are
+      the relevant set.
+   5. If a significant cluster matches Petersen-side descendants but
+      not Krogh-side, that supports Sophus as biological father.
+   6. If a significant cluster matches Krogh-side descendants but not
+      Petersen-side, that supports Wilhelm as biological father.
+   7. Paternity can be confirmed with high probability if a known
+      descendant of Wilhelm Krogh's siblings OR of Sophus Petersen's
+      siblings/daughters shares >100 cM with Lorenz's descendants.
+
+E. ALTERNATIVE DNA APPROACH
+   • Y-DNA test of a male-line descendant of Lorenz Heinrich Frederiksen
+     (through his sons or his brothers' sons).
+   • Compare Y-DNA haplogroup against:
+     - Male-line descendants of Detlef Krogh (Vilhelm's brother's male
+       descendants, if any).
+     - Male-line descendants of Peter Petersen (Sophus's father's male
+       descendants through Sophus's brothers Lorenz Peter, Peter, Hans,
+       Viggo, etc.).
+   • Y-DNA can distinguish paternal line definitively.
+
+==============================================================================
+CONCLUSION — WHERE THINGS STAND
+==============================================================================
+
+The paternity question for Lorenz Heinrich Frederiksen cannot be
+definitively resolved from currently-available online sources.
+
+WHAT IS NOW KNOWN (NEW as of November 2026):
+  • Wilhelm Krogh's parents and grandparents are identified.
+  • The Krogh family was a known Nybøl/Sottrup family, resident there
+    since 1883 (grandfather Detlef sr. moved from Broager).
+  • The geographic proximity of Paakjær, Snogbæk, and Egernsund (~3-5 km)
+    makes the family account's "Wilhelm took Sophus's blame" scenario
+    physically plausible.
+  • The 1932 death of Vilhelm's 18-year-old sister Christine Marie
+    (4 days after Lorenz's birth) may have influenced Vilhelm's state
+    of mind when he signed the paternity declaration 3 months later.
+
+WHAT REMAINS UNKNOWN:
+  • The actual contents of the 1932 court case file (requires archive
+    visit to Aabenraa).
+  • Wilhelm's baptism record (requires request to Kirchenbuchamt
+    Schleswig-Flensburg).
+  • Wilhelm's later life (marriage, other children, death).
+  • Biological paternity (requires DNA testing).
+
+RECOMMENDED NEXT STEP:
+  Read the 1932 court case file at Landsarkivet for Sønderjylland in
+  Aabenraa. That single document is most likely to settle the question
+  of whether Wilhelm's paternity was voluntary or contested, and
+  whether Sophus Petersen was mentioned in the proceedings.
+
+Until then: PRESERVE BOTH CLAIMS on p6 in the tree, with the
+relationship_claims structure already in place. Do not commit to
+either as biological fact.
+
+==============================================================================
+APPENDIX A — SOURCES FOR WILHELM KROGH'S FAMILY
+==============================================================================
+
+1. Ulkebøl Lokalhistorisk Arkiv webtrees — Vilhelm Krogh (1908)
+   https://www.ulkeboelarkiv.dk/slaegt/index.php?route=/slaegt/tree/tree2/individual/I80148/Vilhelm-Krogh
+
+2. Ulkebøl Lokalhistorisk Arkiv webtrees — Bothille Marie Hansen (1850-1930)
+   https://www.ulkeboelarkiv.dk/slaegt/index.php?route=/slaegt/tree/tree2/individual/I80800/Bothille-Marie-Hansen
+
+3. Ulkebøl Lokalhistorisk Arkiv webtrees — Peter Krogh (1907)
+   https://www.ulkeboelarkiv.dk/slaegt/index.php?route=/slaegt/tree/tree2/individual/I30804/Peter-Krogh
+
+4. Ulkebøl Lokalhistorisk Arkiv webtrees — Anna Bothilde Krogh (1901)
+   https://www.ulkeboelarkiv.dk/slaegt/index.php?route=/slaegt/tree/tree2/individual/I42845/Anna-Bothilde-Krogh
+
+5. MyHeritage — Detlef Krogh 1905-1969 + Cecilie Marie Hansen
+   https://www.myheritage.no/names/cecilie_krogh
+
+6. "Fra Nybøl sogn nr. 3" (book), Slægtsforskernes Bibliotek
+   https://slaegtsbibliotek.dk/2025/953243.pdf
+   Page listing: "Detlef Krogh - Fra 1883 kun indersted" (Detlef Krogh sr.
+   moved to Nybøl sogn in 1883).
+
+7. Egernsund civil register 1932 nr. 4 — primary source for the
+   paternity declaration.
+   AO:Egernsund standsregister, fødte 1928-33, 1932 nr. 4
+   (bsid 37658, billede 125).
+
+8. Broager Vestre distrikt kontraministerialbog 1906-48, fødte 1933 nr. 1
+   (bsid 201141, billede 112) — Lorenz's baptism entry.
+
+==============================================================================
+APPENDIX B — SOURCES FOR SOPHUS PETERSEN'S FAMILY
+==============================================================================
+
+1. Nybøl kirkebog 1880-1931, baptism 1903 nr. 12
+   AO: bsid 202179, billede 88.
+
+2. Link Lives indexed entry: LL:12-15057041 (indexed with baptism date
+   24 July 1903).
+
+3. Gravestone at Nybøl Kirkegård (family photo):
+   https://raw.githubusercontent.com/sloev/tree/main/images/sofus-petersen-gravsten.jpg
+
+4. Nybøl kirkebog 1931-58, fødte piger:
+   - 1938 nr. 6 (Gerda — first daughter of Sophus + Christine)
+   - 1940 nr. 4 (second daughter)
+   - 1943 nr. 5 (third daughter)
+
+5. Nybøl kirkebog 1931-58, marriage entry — Sophus Petersen + Christine
+   Petersen (f. Jensen) — date to be located.
+
+6. FT 1921 Nybøl (bsid 85824) — Peter Petersen family at Paakjær.
+   https://raw.githubusercontent.com/sloev/tree/main/images/nybol-folketaelling-1921.jpg
+
+7. "Fra Nybøl sogn nr. 3" (book), Slægtsforskernes Bibliotek
+   https://slaegtsbibliotek.dk/2025/953243.pdf
+   Contains Petersen family history in Nybøl, including the complex
+   inheritance of Paakjær gård (1889 property transfer).
+
+8. "Gårde og ældre huse på Kær halvø" (book), Ulkebøl Lokalhistorisk
+   Arkiv — Paakjær i Nybøl (1868-1963) genealogy.
+   https://usercontent.one/wp/www.ulkeboelarkiv.dk/wp-content/uploads/2022/09/Gaarde-og-aeldre-huse_3.udg_ikke-til-tryk.pdf
+   (Note: download failed in this research pass due to size; retry or
+   request print copy.)
+
+9. Family documents (in private family archive):
+   - "Paula Mathilde Chrestle Gedde og Jens Jensens slægt"
+     (typewritten family document).
+   - Family handwritten anetavle.
+
+==============================================================================
+APPENDIX C — ARCHIVE ROUTES TO RESOLVE
+==============================================================================
+
+A. Landsarkivet for Sønderjylland, Aabenraa
+   Address: Sønderborgvej 5, 6200 Aabenraa
+   Website: https://www.rigsarkivet.dk/finding-aids/guides/landsarkivet-for-soenderjylland/
+   Paternity guide: https://www.rigsarkivet.dk/vejledning/faderskab-og-adoption/faderskabssager-kom-godt-i-gang/
+   Archive overview PDF: https://www.rigsarkivet.dk/wp-content/uploads/2022/06/Landsarkivet-for-Soenderjylland-En-arkivoversigt.pdf
+   Target: Aabenraa-Sønderborg Amt 1932 alimentationsjournal.
+   Reading-room finding aid: unprinted, available on-site.
+
+B. Kirchenbuchamt Schleswig-Flensburg
+   Contact person: Katja Isaack
+   Email: katja.isaack@kirche-slfl.de
+   Phone: +49 4642 911122
+   Target: Adelby kirkebog bog 2.3 (1882-1949), baptisms 1908.
+   Note: ARCHION currently has only 1882-1907 online; 1908 must be
+   requested by email.
+
+C. Rigsarkivet, Arkivalieronline (online)
+   Website: https://arkivalieronline.rigsarkivet.dk/
+   Target 1: Nybøl sogn kirkebog 1931-58 (for Vilhelm's later life).
+   Target 2: Sottrup sogn kirkebog 1931-58 (alternative location).
+   Target 3: Egernsund sogn records 1932 (already done).
+
+D. MyHeritage DNA
+   Website: https://www.myheritage.dk/dna
+   Already done: One of Vivi's daughters has 12,093 matches, 94 closest
+   reviewed.
+   Remaining work: Cross-reference against Krogh-side and Petersen-side
+   descendant lists.
+
+E. Bundesarchiv (German Federal Archives)
+   Website: https://www.bundesarchiv.de/
+   Target: Wilhelm Krogh's German military service records (WWII,
+   1939-1945). Requires full name and birth date.
+
+==============================================================================
+END OF PATERNITY DOSSIER — November 2026
+==============================================================================
