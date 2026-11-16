@@ -306,9 +306,9 @@
    "title": "Langø-dæmningen: anlægget i 1911",
    "status": "needs",
    "claim": "Familieerindringen daterer byggestarten til 11. januar 1911 og beskriver en dæmning på 334 meter. Den overordnede historie er omtalt af lokalarkivet, men myndighedsforløb, ansvar og præcis anlægsdato bør dokumenteres.",
-   "evidence": "Familieerindringen og Langeland Byarkivs katalogartikel om Langø og dæmningen er de foreliggende spor.",
-   "missing": "Kommunale, amtslige eller vejmyndighedsakter, samtidige aviser og eventuelle byggeregnskaber.",
-   "next": "Find journal- og vejmyndighedssager fra 1910–1912 og sammenhold med samtidige avisnotitser.",
+   "evidence": "Familieerindringen daterer byggestarten til 11. januar 1911 og angiver 334 meter. Erling Mortensen, De viste vejen (1969), s. 91, giver uafhængig historisk corroboration: Marius Christensen og familie udførte hovedparten af dæmningsarbejdet i 1911; han overtog Langø i 1894 for 4.000 kr.; dæmningen gik over 530 alen vand og blev anslået til 5.000–10.000 m³ jord. Bogen omtaler desuden en ministeriel resolution efter konflikt med fiskerne. Langeland Byarkivs register til Øboer 2011 bekræfter købet i 1894, 334 m dæmning og landfast forbindelse i 1911.",
+   "missing": "Den ministerielle resolutions dato, myndighed, journalnummer og fulde ordlyd; samtidige aviser; byggeregnskaber eller vej-/landvæsensakter. Den sekundære 1969-bog gengiver ikke selve resolutionen.",
+   "next": "Find den ministerielle resolution omtalt i De viste vejen s. 91. Søg i Ministeriet for Landvæsenets/Indenrigsministeriets journalsager samt Svendborg Amts og Humble Sogneråds arkiver 1910–1912; brug Marius Christensen, Langø, Humble, fiskernes indsigelse og dæmningsarbejdet som søgeord. Find også Lisbeth Skovs artikel “Langø og dæmningen” i Øboer 2011.",
    "dossier": "leads/grandparent-gerda-larsen.md",
    "sources": [
     {
@@ -318,6 +318,14 @@
     {
      "label": "Familieerindring, side 2",
      "url": "https://raw.githubusercontent.com/sloev/tree/main/images/02-langoe-erindringer-s2.jpg"
+    },
+    {
+     "label": "Erling Mortensen, De viste vejen: Modtagere af Det kgl. danske Landhusholdningsselskabs sølvbægere 1804–1969 (1969), s. 91",
+     "url": "https://slaegtsbibliotek.dk/2023/935679.pdf"
+    },
+    {
+     "label": "Langeland Byarkiv, register over artikler i Øboer 2011: Lisbeth Skov, “Langø og dæmningen”",
+     "url": "https://byarkivet.langelandkommune.dk/boeger-brochurer/register-over-artikler-i-oeboer"
     }
    ],
    "person_ids": [
