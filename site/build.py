@@ -2,7 +2,7 @@
 import base64, json, os
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 data = json.load(open(os.path.join(root, "data", "family.json"), encoding="utf-8"))
-geo = json.load(open(os.path.join(root, "data", "map.json")))
+geo = json.load(open(os.path.join(root, "data", "map.json")))\nrecent_path = os.path.join(root, "data", "recently-edited.json")\nrecent = json.load(open(recent_path, encoding="utf-8")) if os.path.exists(recent_path) else {}
 imgs = []
 for ph in data["photos"]:
     b = open(os.path.join(root, ph["file"]), "rb").read()
@@ -10,7 +10,7 @@ for ph in data["photos"]:
 tpl = open(os.path.join(root, "site", "template.html"), encoding="utf-8").read()
 UNLOCK = open(os.path.join(root, "site", "unlock.js"), encoding="utf-8").read()
 out = (tpl.replace("__UNLOCK_JS__", UNLOCK).replace("__DATA__", json.dumps(data, ensure_ascii=False))
-          .replace("__MAP__", json.dumps(geo))
+          .replace("__MAP__", json.dumps(geo))\n          .replace("__RECENT__", json.dumps(recent, ensure_ascii=False))
           .replace("__IMGS__", json.dumps(imgs)))
 open(os.path.join(root, "site", "index.html"), "w", encoding="utf-8").write(out)
 print("wrote site/index.html", len(out) // 1024, "KB")
@@ -32,7 +32,7 @@ pdfs = [[f, f"https://sloev.github.io/tree/{f}"] for f in sorted(os.listdir(docs
 pdf_labels = {"plakat-A2-5-generationer.pdf": "A2, 5 generationer", "plakat-A1-alle-aner.pdf": "A1, alle aner",
               "plakat-A3-mors-side.pdf": "A3, mors side", "plakat-A3-fars-side.pdf": "A3, fars side"}
 pdfs = [[pdf_labels.get(f, f), u] for f, u in pdfs]
-pout = ptpl.replace("__UNLOCK_JS__", UNLOCK).replace("__DATA__", json.dumps(data, ensure_ascii=False)).replace("__PDFS__", json.dumps(pdfs, ensure_ascii=False))
+pout = ptpl.replace("__UNLOCK_JS__", UNLOCK).replace("__DATA__", json.dumps(data, ensure_ascii=False)).replace("__RECENT__", json.dumps(recent, ensure_ascii=False)).replace("__PDFS__", json.dumps(pdfs, ensure_ascii=False))
 open(os.path.join(root, "site", "plakat.html"), "w", encoding="utf-8").write(pout)
 split = pout.index('<div class="bar">')
 open(os.path.join(docs, "plakat.html"), "w", encoding="utf-8").write(
