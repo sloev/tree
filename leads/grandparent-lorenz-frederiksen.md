@@ -684,3 +684,26 @@ Sources:
 - [Strømming all-names index](https://www.stroemming.dk/genealogy/gedweb/Public/da/Lists/allnames-A.html) — historical Sottrup/Snogbæk locality reference.
 
 No Krogh household, 1930 address, 1908 baptism or 1932 court case number has been confirmed in this pass. The family-tree supplement's proposed parents and siblings remain secondary leads only.
+
+
+## Adelby baptism route and Nybøl holding no. 32: new source checks (16 November 2026)
+
+### Detlef Krogh in the 1851 Nybøl property list
+
+The local-history booklet *Fra Nybøl sogn*, no. 3 (1981), contains a list titled “Fortegnelse over bol, kådnere og inderste i Nybøl 1851” (contents page 71; printed list on p. 71). Under “Kådnere - Husmandssteder” it lists “32. Detlef Krogh - Fra 1883 kun indersted.” The same list separately labels the next category “Inderste - Husejere.” The booklet explains that the list is keyed to a town map and that some numbered sites had been moved or had earlier uses. This is a specific place/holding lead for a Detlef Krogh in Nybøl, not a birth, family, or identity record. The phrase “Fra 1883 kun indersted” appears to describe a change in the status/use of the site from 1883; it must not be read as proof that Detlef himself lived there continuously from 1851 to 1883, nor as a date of birth or death. No link has yet been demonstrated between this Detlef and the proposed Wilhelm father Detlef Krogh (b. 1876), the proposed brother Detlef (b. 1905), or the older Detlef Krogh senior (c. 1849–1931). The property number and map are useful targets for land, census, and local address cross-checking.
+
+Source: Peter Petersen, “Fortegnelse over bol, kådnere og inderste i Nybøl 1851,” in *Fra Nybøl sogn*, no. 3 (Hjemstavnsforeningen for Nybøl Sogn, 1981), p. 71; digitised copy at https://slaegtsbibliotek.dk/2025/953243.pdf (PDF printed page 71; extracted text lines 2142–2193). The publication's contents and introductory note identify this as a 1981 local-history volume and describe the register as map-based.
+
+### Adelby 1908 baptism: catalogue discrepancy and access route
+
+The Landeskirchliches Archiv's Adelby church-book overview describes a baptism register “Taufen 1882–1949,” book no. 2.3, and specifically notes entries concerning the naming of illegitimate children. This is the right register series to ask about for a claimed Wilhelm Krogh birth on 9 October 1908. However, the currently visible Archion catalogue entry for Adelby “Taufen 1882–1907” (local signature Adelby_2.3) only advertises digitised coverage through 1907; it does not expose a 1908 volume/entry in the public catalogue. The register overview and online catalogue therefore do not align on the displayed end date. I have not inspected the original 1908 entry and cannot yet confirm whether 9 October is a birth date or baptism date, or whether the parents are recorded as Detlef Krogh and Kirstine Marie Jensen.
+
+Sources:
+- Landeskirchliches Archiv, *Kirchenbuchübersicht 1 Schleswig-Flensburg*, Adelby entry: https://www.archiv-nordkirche.de/files/landeskirchliches_archiv/Kirchenbuchuebersichten/Kirchenbuch%C3%BCbersichten/Kirchenbuchuebersicht_1_Schleswig-Flensburg.pdf
+- Archion, Adelby, “Taufen 1882–1907,” local signature Adelby_2.3: https://www.archion.de/de/alle-archive/schleswig-holstein/landeskirchliches-archiv-der-evangelisch-lutherischen-kirche-in-norddeutschland/kirchenkreis-schleswig-flensburg/adelby/273637
+
+Next record action: ask the Landeskirchliches Archiv whether the 1908–1949 continuation of Adelby baptism book 2.3 survives and whether it can be consulted or supplied as a copy; if accessible, inspect the full entry and any marginal notes, then search the Adelby marriage register 1884–1937 for Detlef Krogh and Kirstine Marie Jensen. Archion's public catalogue lists the marriage register for 1884–1937 (local signature Adelby_5.3), but the entry has not been searched. Do not treat the proposed parent couple or Wilhelm's 1908 date as verified until those records are read.
+
+### Status
+
+The Nybøl property list is a useful new independent local-history lead but does not resolve the Detlef identities. The Adelby baptism series is located, but the relevant 1908 portion is not currently exposed in the online catalogue. The next priority remains obtaining the 1908 baptism entry, followed by a marriage/household check for the proposed parents and a map/property-number identification for Nybøl holding 32.
