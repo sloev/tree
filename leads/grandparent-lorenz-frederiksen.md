@@ -218,6 +218,30 @@ A separate audit covers the 22 proposed people exp020–exp041 and the repaired 
 
 This is a source-by-source evaluation of the medieval and early-modern leads preserved in the archived branch dossier, cross-branch ledger, expanded export audit and the current family-history publications. It does **not** establish a continuous descent from the medieval Klest to canonical Pribislaff III.281 (p3472). The following evidence grades describe what each item supports, not the prestige of the family or the authority of a later pedigree.
 
+#### A0. Critical source criticism: the 1289–1364 bridge is contested
+
+A targeted re-check of the printed primary-source editions and Eberhard Sauer's 1939 critique materially changes the confidence assessment in the first section.
+
+**Urk. 75 (27 January 1289):**
+- The document is a grant by Pribislaus, lord of Daber and Belgard, to Bukow Abbey of 200 hides near Persanzig. The witness list calls the witnesses the duke's *ministeriales*. The 1862 Kleist Urkundenbuch prints: “Nicolaus Hakenbeke, Johannes frater suus, Cristoforus cnuth, prissebur, clest fratres ... ministeriales nostri.” It says the original was in the Stettin State Archive, Kloster Bukow Nr. 6; the seal had fallen from its grey linen cords and the parchment was damaged in places. [Urkundenbuch, Urk. 75](https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf).
+- The 1888 Pommersches Urkundenbuch edition prints the witness phrase with a comma after Clest as well: “Prissebur, Clest, fratres”. It identifies the source as the original in the Stettin State Archive, Kloster Bukow Nr. 6, and likewise notes substantial moisture damage and reconstructed text. [PUB III, Urk. 1489](https://kpbc.umk.pl/Content/23561/PDF/Pomorze_062_05.pdf).
+- The Kleist Urkundenbuch editor says the original has a comma between Prissebur and Clest, but not after Clest, and argues that *fratres* therefore refers to both men. Quandt develops this into the hypothesis that Prissebur and Clest were brothers, with Clest the progenitor.
+- Von Ledebur's alternative, preserved in Quandt's footnote, reads “Prissebur, [the] Clest brothers”: Prissebur is one witness, and *Clest fratres* a plural group/family. This would not identify the 1289 Clest as a brother of Prissebur.
+- Eberhard Sauer (1937 dissertation, published 1939) independently argues that the alternative is possible and that Kratz/Quandt's reading is not proven. Sauer notes that the 1248/49–1284 Conrad/Bertold Clest family appears in the Oder region, while the 1289 entry is in Belgard; the relationship of the 1289 Kleist(s) to Conrad/Bertold cannot be determined. Sauer also stresses the documentary gap between 1289, the 1325 Nycolaus, and 1364 Prissebur. [Sauer extracts, pp. 56 ff.](https://v-kleist.com/FG/Adel_Ostpommern.htm).
+- **Assessment:** the 1289 charter proves a witness entry containing Prissebur and Clest and establishes their status as ministeriales of Pribislaus. It does not securely prove that they were two brothers, that the second man's personal name was Klest, or that he was the same man as the seal-owner “Klest de Densin”. The family association's seal argument is corroborative but does not fill the parentage gap. Keep “Klest de Densin as progenitor” as a significant family-history hypothesis, not a demonstrated identity/parent-child link.
+
+**The 1325 Nycolaus Klest lead:**
+- A separate charter dated 13 November 1325 names “Nycolao Klest” among witnesses to a boundary settlement involving the Dargun monastery. The printed Mecklenburg/Pomeranian record says the text is from the original in the Hauptarchiv at Schwerin, Dargun collection, with the issuer's seal detached but preserved loose. The charter text itself does not state his residence, status, parents or relationship to the later Muttrin family. [Pommersches Urkundenbuch VI, Urk. 3888](https://kpbc.umk.pl/Content/23455/PDF/Pomorze_062_12.pdf).
+- Sauer suggests he may have been a citizen of Kolberg, but that is an interpretation, not wording in the witness list. Sauer treats him as an intervening name-bearing witness and explicitly notes the gap until Prissebur in 1364.
+- The Kleist association's Urkundenbuch notes this 1325 man as previously unknown to its older family history. **Assessment: independently documented Kleist-name bearer; no proven connection to the 1289 or 1364 people.** He is a genuine new research lead, not a link to insert into the pedigree.
+
+**Urk. 83 (22 June 1364):**
+- The Urkundenbuch prints the grant as dated 22 June 1364 and calls the man “Prissebur Klest ... von Muttrin”, holding the other half of 25 hides at Glyne/Glienke. Its source note is important: the editor used a 1589 transsumpt and several sixteenth-century copies, not the original 1364 parchment. [Urkundenbuch, Urk. 83](https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf).
+- The current online “Wichtige Urkunden” summary mistakenly labels Urk. 83 as 1368, whereas the Urkundenbuch text, the document-to-person index and the 2025 Muttrin volume all give 1364. Urk. 84 is the 1368 Dubbeslaff Cleest item. [Online summary](https://v-kleist.com/FG/urkunden/urkunden.htm); [corrected index](https://v-kleist.com/FG/urkundenzuordnung.htm).
+- **Assessment:** the 1364 date and the wording identifying Prissebur with the name Klest and Muttrin are consistently supported by the documentary tradition, but the extant printed evidence for Urk. 83 is through a 1589 transsumpt and later copies. It documents a landholder and place association, not his father.
+
+**Updated confidence for the opening bridge:** Urk. 75 → Urk. 83 remains unproven. The 1325 Nycolaus Klest is a separate possible clue, but it does not bridge the gap. The 2025 Muttrin volume itself accurately characterizes the early-person arrangement as a “wahrscheinliche Anordnung” based on contemporary documents and later family records; this qualification must govern how the whole chain is displayed.
+
 #### A. Earliest documentary horizon: 1248–1289
 
 | Lead | What the source actually supports | Assessment |
