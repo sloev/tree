@@ -166,3 +166,20 @@ Validation: the main JavaScript function extracted from `site/template.html` pas
 **Validation:** fetched current source files and SHA values; parsed canonical `data/tree.json` as JSON before editing. No local Python build/export, visual review, original archive-image inspection or Pages deployment check was performed. The Arkivalieronline G298 series was identified, but its original images were not read.
 
 **Next actions:** (1) inspect Bogensholm G298 register and original 1811 protocol; (2) locate the 1811 auction record for Bogensholm; (3) inspect Skærsø G304 no. 206, fols. 331/336; (4) continue the existing priority order for the 1764 Dejret probate, Liss's 1843 marriage and Kolding's January 1775 baptism.
+
+
+## 2026-11-17 — research loop: narrow the 1764 Dejret probate to Isgård G299
+
+**Track updated:** `evald-tohde-probate`.
+
+**New archival route:** a cross-check of the Nørrejyske estate-place register and the Isgård estate inventory shows that Dejret in Tved parish was within Isgård Gods (G299), which has an original probate protocol and register for 1762–1812. The later G302 abstract describes Christen Christensen Tohde? as bailiff/foged in Dejret. Rigsarkivet's guidance says estate owners normally handled probate for their tenants and employees. This makes Isgård G299 the first original protocol to inspect for the 1764 case, although Tohde's employment by Isgård is not yet independently established.
+
+**Negative-result qualification:** the previously checked published G299 extract has no separate named entry for Christen Christensen Tohde. That is not a search of the original G299 protocol/register and does not exclude an unindexed or differently named case.
+
+**Sources reviewed:** DS-Wiki Isgård archive page; Nørrejyske estate-place register; Isgård G299 leasehold register for Dejret; Rigsarkivet probate guidance; earlier G299 published extract.
+
+**Files changed:** `data/tree.json` and this `coop.log.md` entry. No new track or sidecar file; no family-tree people or relationships changed.
+
+**Validation:** fetched current file contents and SHA values; parsed canonical JSON before editing. No original G299 images were inspected; no local build/export or Pages deployment check was performed.
+
+**Next:** inspect Isgård G299's original register and protocol around 1764; if no case appears, identify the bailiff's employer and follow the correct jurisdiction under the pre-1793 rules.
