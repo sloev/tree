@@ -1488,3 +1488,28 @@ Sources:
 - Arkivalieronline, “Kirkebøger fra hele landet”: https://arkivalieronline.rigsarkivet.dk/da/geo/geo-collection/5
 
 **Assessment:** The direct 1775 target is now narrowed to Kolding parish register C 469-3 (1751–1775), subject to confirmation of the exact parish/archival unit. This is a better-defined search instruction, not a new person-level finding. The 3/8 January discrepancy remains open.
+
+
+## Correction and refinement: the actual Kolding baptism books (16 November 2026)
+
+The archival signature in the previous follow-up needs correction. Paul G. Ørberg's article “Koldings gamle kirkebøger” in *Vejle Amts Årbog* 1982, pp. 89–101, gives a more detailed inventory than the shorthand used earlier:
+
+- **C 469-3**, the parish priest's church book, covers 1751–1815 and includes baptisms 1751–1815. This is the principal chronological register for the January 1775 baptism.
+- **C 469-7**, the parish clerk's church book, covers 1723–1779 and includes baptisms 1723–1776. This is a second contemporary register that also covers January 1775.
+- **C 469-8**, the parish clerk's church book, covers 1774–1815, but its listed legitimate-baptism section begins in 1780 and illegitimate baptisms in 1777. It is therefore not the direct baptism volume for a legitimate child in January 1775.
+- **C 469-74** is a supplementary list of births and baptisms 1764–1800, begun in 1776. It is not a safe primary target for January 1775.
+
+Ørberg explicitly cautions that both church books should be used in historical investigations, since entries, dates, name forms and marginal notes may differ. This makes the comparison of C 469-3 and C 469-7 the correct next step. Rigsarkivet's March 2026 Arkivalieronline update independently lists Kolding Sankt Nikolaj's scanned *enesteministerialbog* content as FVD 1723–1779 and FVD 1774–1815. The latter catalogue grouping should not be confused with Ørberg's older volume-level description of C 469-8's baptism sub-series.
+
+### Revised research instruction
+
+Inspect the January 1775 entries in both the priest's book C 469-3 and clerk's book C 469-7. Search under Frederik/Frederich Christian, but also inspect the entire January sequence because the name may be Latinised, abbreviated or indexed differently. Record exact event/baptism date, parents, residence, witnesses and any marginal annotation. Compare the two entries and then compare their dates with Selmer's 3 January and Harbou's 8 January. Do not infer that the birth date and baptism date are identical.
+
+This corrects the earlier statement that C 469-3 was limited to 1751–1775: Ørberg lists it as 1751–1815. The 3/8 January discrepancy remains unresolved; no person-level claim or canonical relationship is changed.
+
+Sources:
+- Paul G. Ørberg, “Koldings gamle kirkebøger. Et udblik over dansk kirkebogshistorie,” *Vejle Amts Årbog* 1982, pp. 89–101, especially pp. 98–100: https://slaegtsbibliotek.dk/807141.pdf
+- Rigsarkivet, “Nyt på Arkivalieronline marts 2026,” pp. 10–11: https://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-marts-2026.pdf
+- Rigsarkivet, “Kirkebøger – kom godt i gang”: https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/
+
+**Assessment:** The strongest research route is now a two-book comparison of the priest's C 469-3 and clerk's C 469-7. No baptism entry has yet been read, so both dates remain open.
