@@ -1,18 +1,14 @@
 {
   "latest_bulletin": {
-    "body": "Personoplysninger er ændret i kildedataene. Åbn personkortene for at se de aktuelle datoer, noter og kilder.",
-    "commit": "720397a36d7413d4f9b977006d0271b6a4eeea8b",
+    "body": "Forskningsmateriale eller kildegrundlag er opdateret. Se ændringsloggen og de relevante forskningsnoter for detaljer.",
+    "commit": "5ba3a155de2c6e781d6211c977a5210c9736c6d5",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
-      "leads/grandparent-lorenz-frederiksen.md"
+      "coop.log.md"
     ],
-    "people": [
-      "p216",
-      "p435",
-      "p869"
-    ],
-    "title": "Stamtræ opdateret: Ove Samuel Gedde, Anna Margrethe Schubart, Sophie Rosenkrantz"
+    "people": [],
+    "title": "Log null-result confirmation on open public genealogical leads"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
