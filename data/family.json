@@ -10999,8 +10999,8 @@
    "sibof": null,
    "step": null,
    "spouse": null,
-   "name": "Privat person",
-   "private": true,
+   "name": "Vivi Frederiksen Gedde",
+   "private": false,
    "living": true,
    "conf": "told",
    "born": null,
@@ -11010,7 +11010,8 @@
    "occ": [],
    "note": null,
    "src": [],
-   "res": []
+   "res": [],
+   "public_consent": true
   },
   {
    "id": "u1",
@@ -13555,7 +13556,7 @@
    "Langeland"
   ],
   "Tranekær": [
-   55.0,
+   55,
    10.858,
    "Langeland"
   ],
