@@ -1459,3 +1459,32 @@ Kilder:
 - [Rigsarkivet: Kirkebøger – kom godt i gang](https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/).
 
 **Vurdering:** Der er nu en konkret og relevant søgeportal for Kolding 1775, men fødselsdatoen er fortsat uafklaret, indtil afskrift og originalindførsel er fundet og sammenholdt.
+
+
+## Follow-up: independent catalogue evidence for Kolding's 1775 baptism search (16 November 2026)
+
+A further check of Kolding's historical church-book holdings identifies a more specific archival route, but still does not reveal the baptism entry itself.
+
+A published archival overview of Kolding's older church books lists the parish priest's register C 469-3 for 1751–1775 and C 469-4 for 1776–1814. The same overview notes a supplementary register of births and baptisms for 1764–1800, held in the parish archive under C 469-74, begun in 1776 under an order of 29 April 1776 (Royal Rentekammer letter of 22 June). This supplementary register may therefore be especially relevant for checking a child born in January 1775 only if its coverage or retrospective entries extend earlier than its stated start; it must not be assumed to include him. The main 1751–1775 register C 469-3 is the direct chronological target for January 1775.
+
+Kolding Stadsarkiv confirms that Ingrid Bruun's transcriptions cover Kolding-area church books from 1635 to 1881 and are searchable online. Its broader source-collections page also describes the transcription collection. The transcriptions are a finding aid, not a substitute for checking the original register image. Rigsarkivet's guidance says that pre-1814 parish books are generally chronological *enesteministerialbøger*, so the original search should follow the chronological register for the relevant parish rather than presume a modern tabular birth register.
+
+### What is and is not established
+
+- The obituary in Selmer still gives 3 January 1775 in Kolding; Harbou gives 8 January 1775. Neither date has yet been independently checked against the baptism register.
+- The catalogue/overview reference C 469-3 (1751–1775) is a targeted archival pointer, not evidence of the baptism or of either date.
+- C 469-74 is a supplementary 1764–1800 births-and-baptisms list whose described commencement in 1776 means its usefulness for a January 1775 event is uncertain.
+- No new parentage, identity merge, death place or burial claim follows from this catalogue work.
+
+### Next action
+
+Search Ingrid Bruun's transcription portal for Frederik/Frederich Christian von Kleist and for the parents Christian Frederik af Kleist and Anne Margrethe Schubarth. Then inspect the original Kolding parish register C 469-3 for January 1775 on Arkivalieronline and transcribe the entry exactly, including event date, baptism date, parents, residence and witnesses. If C 469-3 is not the correct parish series, confirm the parish and archival signature with Kolding Stadsarkiv before changing the search target.
+
+Sources:
+- Kolding archival overview, “Fortegnelse over Koldings ældre kirkebøger” (downloaded extract): https://slaegtsbibliotek.dk/807141.pdf
+- Kolding Stadsarkiv, “Slægtsforskning”: https://koldingstadsarkiv.dk/brug-arkivet/slaegtsforskning
+- Kolding Stadsarkiv, “Kildesamlinger”: https://koldingstadsarkiv.dk/kildesamlinger-2
+- Rigsarkivet, “Kirkebøger – kom godt i gang”: https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/
+- Arkivalieronline, “Kirkebøger fra hele landet”: https://arkivalieronline.rigsarkivet.dk/da/geo/geo-collection/5
+
+**Assessment:** The direct 1775 target is now narrowed to Kolding parish register C 469-3 (1751–1775), subject to confirmation of the exact parish/archival unit. This is a better-defined search instruction, not a new person-level finding. The 3/8 January discrepancy remains open.
