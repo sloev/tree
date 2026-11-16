@@ -1080,3 +1080,34 @@ This is an archival access and search-route milestone only. No original baptism,
 2. Search the Caroli household-roll name index for Larsson/Larsen and use the listed AI volumes to trace the household across 1860–1865; capture any move-in/move-out references and parental birthplaces.
 3. Inspect the Slagelse 1910 death entry directly and compare the deceased's age, birthplace, marital status and informant with the Malmö records.
 4. Only if a household and migration path align should Niels Larsen be tested as the tree's p34 ancestor.
+
+
+
+## Milestone 42 — Langeland: exact Magleby parish-register volume identified (16 November 2026)
+
+### Research target
+Return briefly to p114–p121 after the prior archival-routing checkpoint. The concrete goal was to resolve the exact register volume covering the 13 November 1829 Magleby marriage and the 1832 baptisms, without confusing the Langeland parish with the several other Danish Magleby parishes.
+
+### Findings
+- The Stømming genealogy database's place index explicitly distinguishes **Magleby Sogn, Langelands Sønder Herred, Svendborg Amt** from Magleby on Møn and Magleby Stevns. Its linked source catalogue identifies the Langeland parish's **Kontraministerialbog 1828–1839, FKVDJTA**. This is the exact register series to inspect for the target 1829 marriage and 1832 baptisms; the prior checkpoint had only established the broader parish and approximate period.
+- The same catalogue shows the adjacent Magleby books as KMB 1813–1826 FKVDJTA and KMB 1839–1886 FD, independently confirming the register sequence and narrowing the target events to the 1828–1839 volume.
+- A Stømming index example from that exact KMB 1828–1839 volume cites a Magleby marriage on 23 November 1833, entry no. 11, newly numbered image 9. This corroborates that the volume contains marriage entries and that its event references use annual entry numbers and image references. It is an example for another couple, not evidence about Christian Hansen, Marie Madsdatter, Mads Stephensen Johansen, or Maren Larsdatter.
+- The web search did not locate an exact transcribed entry for the target ancestors, nor a direct Arkivalieronline image URL. The original 1829/1832 entries remain unread; the newly identified volume is a finding aid, not proof of any parentage or household.
+- The parish-register guide from Rigsarkivet confirms that 1814–1960 records are arranged by event and that researchers should select the relevant Hovedministerialbog or Kontraministerialbog in Arkivalieronline. This validates the next step of opening the named KMB volume and inspecting the V and F sections.
+
+### Sources
+- Stømming, registered place-name index, with separate Langeland/Møn/Stevns Magleby entries and the Langeland 1828–1839 KMB citation: https://www.stroemming.dk/genealogy/gedweb/Public/da/Lists/placename-M.html
+- Stømming, source catalogue, showing Magleby Sogn (Langelands Sønder Herred, Svendborg Amt), KMB 1828–1839 FKVDJTA and example entry references: https://www.stroemming.dk/genealogy/gedweb/Public/da/Lists/sources-K.html
+- Stømming, Jørgen Rasmussen profile, illustrating a marriage citation in the target KMB volume (23 November 1833, no. 11, image 9): https://www.stroemming.dk/genealogy/gedweb/Public/da/Details/Details-I5581.html
+- Rigsarkivet, church-book search and register-selection guidance: https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/
+- Arkivalieronline, national parish-register collection and event abbreviations: https://arkivalieronline.rigsarkivet.dk/da/geo/geo-collection/5
+
+### Assessment and limits
+- This closes the volume-identification gap for the Langeland Magleby target period, but not the genealogical question. No original record image was inspected and no target ancestor is identified in the cited example.
+- No people, parent links, spouses, dates, or places were added or changed in canonical data. No changes to data/build_data.py, data/family.json, or generated site files.
+- No build or tests were run; private data was not accessed.
+
+### Next concrete steps
+1. Open Magleby Sogn (Langelands Sønder Herred, Svendborg Amt), KMB 1828–1839 FKVDJTA, in Arkivalieronline; inspect the 1829 V section and 1832 F sections.
+2. Transcribe each target entry with its page/image, residence, fathers, witnesses/godparents, and legitimacy wording; compare with the existing source-key transcriptions.
+3. Resume branch rotation after this focused source lookup; the next independent target should be the Syv p66–p67 couple or Broager/Nybøl p53, not another speculative surname search.
