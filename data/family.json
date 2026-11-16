@@ -160,7 +160,7 @@
      "død; begravet på Sankt Jørgens Kirkegård"
     ]
    ],
-   "father": "sofus",
+   "father": null,
    "mother": "p13",
    "living": false,
    "sibof": null,
@@ -170,7 +170,8 @@
     {
      "person": "sofus",
      "relationship": "claimed_biological_parent",
-     "status": "disputed",
+     "status": "family_claim",
+     "biological_status": "disputed",
      "asserted_by": "family account",
      "sources": [
       "Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)",
@@ -181,13 +182,14 @@
     },
     {
      "person": "p12",
-     "relationship": "paternity_declaration_and_civil_registration",
-     "status": "disputed_as_biological_parentage",
+     "relationship": "recorded_biological_parentage",
+     "status": "recorded",
+     "biological_status": "disputed",
      "asserted_by": "Egernsund civil birth register marginal note and court decision",
      "sources": [
       "AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4 (bsid 37658, billede 125)"
      ],
-     "note": "Wilhelm Krogh erklærede faderskab 5. april 1932; en retsafgørelse 10. juni 1932 og randnote 11. juli 1932 registrerer ham som far. Dette dokumenterer erklæringen og den juridiske registrering, ikke nødvendigvis biologisk faderskab."
+     "note": "Egernsund-registerets randnote betegner Wilhelm Krogh som biologisk far og henviser til hans faderskabserklæring 5. april 1932 og retsafgørelsen 10. juni 1932. Familien identificerer i stedet Sophus Petersen. Den oprindelige sag er endnu ikke fundet; derfor bevares den officielle registrering og familiens modstridende biologiske påstand som særskilte, omstridte udsagn."
     }
    ]
   },
