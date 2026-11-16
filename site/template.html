@@ -577,6 +577,7 @@ function openPerson(id, push=true){
   dTree.hidden = !p.ahnen;
   dTree.onclick = ()=>{ closeDrawer(); go('oversigt'); setRoot(1); highlight(id); };
   const par=parentsOf(p), step=p.step&&byId[p.step], kids=childrenOf(p.id), stepkids=P.filter(c=>c.step===p.id), sibs=siblingsOf(p), sp=spousesOf(p), claims=p.relationship_claims||[];
+  const researchClaims=RESEARCH.claims.filter(c=>(c.person_ids||[]).includes(p.id));
   const lifeTxt = p.living? 'Lever' : [p.born?`Født ${fmtDate(p.born)}${p.bplace?' i '+p.bplace:''}`:'', p.died?`Død ${fmtDate(p.died)}${p.dplace?' i '+p.dplace:''}`:''].filter(Boolean).join('<br>');
   const list = arr => `<div class="plist">${arr.join('')}</div>`;
   dBody.innerHTML = `<div style="display:flex;flex-direction:column;gap:6px">
@@ -589,6 +590,7 @@ function openPerson(id, push=true){
      ${par.length?`<dt>Forældre</dt><dd>${list(par.map(q=>personLink(q,claims.some(c=>c.person===q.id)?' <span class="conf possible">omstridt</span>':'')))}</dd>`:''}
      ${step?`<dt>Stedfar</dt><dd>${list([personLink(step)])}</dd>`:''}
      ${claims.length?`<dt>Andre forældreskabsoplysninger</dt><dd>${list(claims.map(c=>`<div>${byId[c.person]?personLink(byId[c.person]):esc(c.person)} <span class="conf possible">${esc(c.status==='family_claim'?'familieoplysning':c.status==='recorded'?'registreret':c.status||'påstand')}</span>${c.biological_status==='disputed'?' <span class="conf possible">biologisk status omstridt</span>':''}<p class="muted" style="margin:4px 0">${esc(c.note||'')}</p>${c.sources?.length?`<div class="src">${c.sources.map(srcLink).join('<br>')}</div>`:''}</div>`))}</dd>`:''}
+     ${researchClaims.length?`<dt>Forskningsspor</dt><dd>${list(researchClaims.map(c=>`<div><span class="conf ${c.status==='needs'?'probable':'possible'}">${esc(({needs:'Kræver mere belæg',hypothesis:'Foreløbig hypotese',family:'Familieoplysning'})[c.status]||c.status)}</span><p style="margin:4px 0">${esc(c.title)}</p><button type="button" class="linkish" data-claim-id="${esc(c.id)}">Se belæg og hvad der mangler ↗</button></div>`))}</dd>`:''}
      ${sp.length?`<dt>Gift med</dt><dd>${list(sp.map(q=>personLink(q)))}</dd>`:''}
      ${sibs.length?`<dt>Søskende</dt><dd>${list(sibs.map(s=>personLink(s.p, s.half?' <span class="muted" style="font-size:.78rem">halvsøskende</span>':'')))}</dd>`:''}
      ${kids.length?`<dt>Børn</dt><dd>${list(kids.map(q=>personLink(q)))}</dd>`:''}
@@ -616,7 +618,13 @@ addEventListener('keydown',e=>{
     else if(!e.shiftKey&&(document.activeElement===last||!drawer.contains(document.activeElement))){ e.preventDefault(); first.focus(); }
   }
 });
-function wire(root){ root.querySelectorAll('[data-pid]').forEach(b=>b.addEventListener('click',()=>openPerson(b.dataset.pid))); }
+function wire(root){
+  root.querySelectorAll('[data-pid]').forEach(b=>b.addEventListener('click',()=>openPerson(b.dataset.pid)));
+  root.querySelectorAll('[data-claim-id]').forEach(b=>b.addEventListener('click',()=>{
+    const id=b.dataset.claimId; closeDrawer(); go('forskning');
+    requestAnimationFrame(()=>{const card=document.getElementById('claim-'+id);if(card){const details=card.querySelector('details');if(details)details.open=true;card.scrollIntoView({behavior:'smooth',block:'start'});}});
+  }));
+}
 
 // ---------- faner ----------
 const VIEWS=['oversigt','forskning','personer','kort','tal','kilder'];
