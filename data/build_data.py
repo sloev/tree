@@ -940,6 +940,7 @@ PRIVATE_BLOB = json.load(open(os.path.join(HERE, "private.enc")))
 
 def must_be_private(p, this_year=2026):
     import re
+    if p.get("public_consent") is True: return False
     if p.get("private"): return False
     y = re.search(r"\d{4}", str(p.get("born") or ""))
     return bool(p.get("living") or (not p.get("died") and y and int(y.group()) >= this_year - 100))
