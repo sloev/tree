@@ -1,0 +1,1390 @@
+==============================================================================
+SLÆGTEN GÅRDSTED OG GEDDE — EXPANDED FAMILY TREE
+Expanded research edition — November 2026 (REVISED 16 Nov 2026)
+==============================================================================
+
+STATUS: This file is a PROPOSED COMPILATION, not yet imported into the
+canonical tree (data/build_data.py) or GEDCOM. Each new ★NY entry must be
+audited one-by-one against primary sources before being committed.
+See bottom of file (section 'NEW RESEARCH FINDINGS') for the audit list.
+
+Source site:  https://sloev.github.io/tree/
+Based on:    data/family.json (486 people, 14 generations, 593 source references)
+             + NEW RESEARCH (this file, marked ★NY)
+
+Verifiability key:
+  ✅  told          = family knowledge
+  📜  record        = archival source (kirkebog, folketælling, skifte)
+  ❓  probable/possible = strong or plausible lead, not yet primary-verified
+  ★NY             = new entry added in this November 2026 research pass
+
+New research sources used in this expansion:
+  VKA  = von Kleist Familienarchiv, Tychow-Dubberow Linie (English translation)
+         https://www.v-kleist.com/FG/english/Dubberow_translation.pdf
+  PHT  = H. W. Harbou, 'Slægten von Kleist i Danmark' (Personalhistorisk Tidsskrift 1897)
+         https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf
+  WT   = WikiTree (wikitree.com) — user-sourced genealogy
+  FH   = Finn Holbek genealogy database (finnholbek.dk)
+  W    = Wikipedia (da.wikipedia.org)
+  BR   = Erik Brindt's genealogy (brindt.dk/erik_brindt)
+
+Total entries in this file:
+  Existing people (preserved): 489
+  New verified entries added:  42
+  TOTAL:                       531
+
+
+==============================================================================
+BIOLOGISK ANETAVLE FRA DIG (ahnen=1) — alle aner med kilde
+==============================================================================
+[Privat person p1]  [LIVING/PRIVATE — redacted]
+
+==============================================================================
+BI-SLÆGTER: linje 'jorgensen' — ikke-tilknyttede ankre og sidegrene
+==============================================================================
+
+♂ Hans Jensen (b.ca. 1752 d.1837) — død i Syv (Roskilde amt) — Gartner ved Vibygård (Viby, Roskilde amt); Aftægtsmand 1834 📜
+  📎 kilder: LL:13-4442506 (vielse Syv 1822); LL:12-13566086 (datterens fødsel Syv 1825); LL:2-680489 (FT 1834 Syv, husstand 124565); LL:11-6305086 (død Syv 1837)
+  📝 Gift 1822 i Syv sogn med Margrethe Pedersdatter, ca. 45 år yngre; han var omkring 70. Datteren Johanne Sophie blev født i Syv 1825. Ved folketællingen 1834 er han 'afgaaet gartner ved Wiibygaard' på aftægt i Syv med kone og børnene Maren (1822), Johanne (1824) og Jens (1830). Det forklarer, at Johanne Sophie senere angives som født i Viby. Død 1837 i Syv, 85 år.
+  ∞ ♀ Margaretha Pedersdatter (b.ca. 1797 d.1871) — død i Syv (Roskilde amt) — Hustru; senere gift med skomager Lars Andersen 📜
+    📎 kilder: LL:13-4442507 (vielse Syv 1822); LL:12-13566087 (datterens fødsel Syv 1825)
+  ♀ Johanne Sophie Hansen (Hansdatter) (b.1825 d.ca. 1910) — i Syv (Roskilde amt), død i København — Tjenestepige i Syv (1840); Enke på alderdomsunderstøttelse (1901) 📜
+    📎 kilder: LL:12-13566085 (fødsel Syv 1825); LL:2-680489 (FT 1834 Syv); LL:14-8189952 (konfirmation Syv 1839); LL:3-794367 (FT 1840 Syv, tjeneste)
+    📝 Født 1825 i Syv sogn ved Roskilde, datter af gartner Hans Jensen og Margrethe Pedersdatter. Faren havde været gartner på Vibygård, derfor står hun senere som født i Viby. Konfirmeret i Syv 1839, tjenestepige 1840, rejste fra sognet 1841–45.
+    ∞ ♂ Niels Jørgensen (b.ca. 1826 d.1885–1892) — død i København — Høker, København (1860); Arbejdsmand, København (1880–85) 📜
+      📎 kilder: LL:13-4281756; LL:6-420495
+    ♂ Jørgen Anton Jørgensen (b.1857-10-06 d.1914-08-04) — i København, død i Slagelse — Typograf, København; Typograf, Sorø Amts Bogtrykkeri, Slagelse 📜
+      📎 kilder: LL:12-13117126; LL:14-7547225; LL:7-586580; LL:13-4147709
+      📝 Gift med Lovisa Larsson 31. jan. 1886 i Sankt Johannes Kirke, København.
+      ∞ ♀ Lovisa (Louise) Larsson (b.1862-06-28 d.1910-10-12) — i Malmö, død i Slagelse — Tjenestepige, København (1885) 📜
+        📎 kilder: LL:8-200847; LL:9-1795569
+      ♂ Aage Evald Oskar Jørgensen (b.1890-10-17) — i Slagelse — Natvægter, København (1918); Gårdbestyrer, Kolind (1921–22); Bestyrer af Gjellerup fattiggård (1925) 📜
+        📎 kilder: LL:12-16940206; LL:9-1795573; LL:17-1153878; LL:25-1032486
+        📝 Gift med Jensine Gaardsted i Kolind Kirke 29. okt. 1921.
+        ∞ ♀ Jensine Mariane Magdalene Gaardsted (b.1894-06-06) — i Kolind — Tjenestepige, København (1915) 📜
+          📎 kilder: LL:9-1332311; LL:14-3965870
+        ♂ Evald Johannes Gaardsted-Jørgensen (b.1922-09-20 d.2008-11) — i Kolind, død i Svendborg — Lærer; Højskolelærer, Ollerup Gymnastikhøjskole; Kordegn, Svendborg 1976–81 📜
+          📎 kilder: AO:27841253 (Kolind kirkebog 1920–36, fødte drenge 1922 nr. 6); DFS:18978912 (folketælling 1925); ARK:2162357; ARK:906257
+          📝 Døbt 8. okt. 1922 i Kolind Kirke af pastor J.P. Jensen. Faddere: enken Rasmine Kristine Gaardsted (farmor), fattiggårdsbestyrer Martin Marinus Gaardsted, Bregnet, og ungkarl Axel Vilhelm Alfred Gaardsted (morbrødre). Navneforandring til Gaardsted-Jørgensen ved navnebevis 1983/1985 (randnote). Romaner bl.a. 'De kom til en by' (1999, om flytningen til Hadsten 1932), 'Skriv hjem, Niels' og 'Jos og ha…
+          ∞ ♀ Liss Gaardsted-Jørgensen (f. Pedersen) (b.1931-04-18 d.2002) — i Silkeborg — Kordegn, uddannet i Hune 📜
+            📎 kilder: AO:Silkeborg kirkebog 1930–33, fødte piger 1931 nr. 25 (billede 28329752); ARK:2162357
+        ♀ Ester Kristine Jørgensen (b.1924) 📜
+          📎 kilder: DFS:18978913
+      ♀ Johanne Marie Margrethe Jørgensen (b.1886-10-21) 📜
+        📝 Tvilling.
+      ♂ Niels Sophus Holger Jørgensen (b.1886-10-21) 📜
+        📝 Tvilling.
+      ♀ Agnes Ingeborg Jørgensen (b.1888-07-30) 📜
+      ♂ Karl Alfred Peter Jørgensen (b.1892-10-24) 📜
+      ♀ Ellen Sophie Elisabeth Jørgensen (b.1895-01-07) 📜
+      ♀ Anna Louise Mathilde Jørgensen (b.1899-12-26) 📜
+    ♂ Hans Sophus Frederik Jørgensen (b.1855) — Possementmager 📜
+    ♀ Anna Margrethe Jørgensen (b.1855-11-18) — Syerske 📜
+    ♂ Peter Jørgensen (b.1862-04-05) — Skomager 📜
+    ♀ Agnes Mathilde Jørgensen (b.1871-08-03) — Syerske 📜
+    ♀ Nicoline Mathilde Jørgensen (b.1836-08-19 d.1837) — i København 📜
+      📎 kilder: LL:12-13719823 (dåb København Vor Frue 1836); LL:11-6384157 (begravet 1837)
+      📝 Født i København Vor Frue. Død som barn.
+    ♀ Anne Margrethe Jørgensen (b.1855-11-17 d.1856) — i København 📜
+      📎 kilder: LL:12-13118889 (dåb København Vor Frue 1855); LL:11-5804542 (begravet 1856)
+      📝 Født i København Vor Frue. Død som barn.
+    ♂ Peter Jørgensen (b.1860-04-05 d.1860) — i København 📜
+      📎 kilder: LL:12-12343823 (dåb København Vor Frue 1860); LL:11-5802650 (begravet 1860)
+      📝 Født i København Vor Frue. Død som barn.
+  ♂ Jens Hansen (b.1830-03-03) — i Syv (Roskilde amt) 📜
+    📎 kilder: LL:12-13565617 (dåb Syv 1830)
+    📝 Født i Syv.
+
+♀ Ane Kirstine Eskesdatter (b.ca. 1777) — Ejer af møllen i Hoven (1834) 📜
+  📎 kilder: LL:12-8850965 (sønnens dåb Hoven 1819); LL:2-658252 (FT 1834 Hoven)
+  📝 Mor til Christen Andersen. Enke og ejer af møllen i Hoven ved folketællingen 1834, med børnene Jens (1809), Eske (1816), Christen (1818), Knud (1821) og Hanne (1826).
+  ∞ ♂ Anders Jensen — Møller i Hoven (enken ejede møllen 1834) 📜
+    📎 kilder: LL:12-8850964 (sønnens dåb Hoven 1819); LL:2-658252 (FT 1834, enken)
+  ♂ Christen Andersen (b.1819-01-19) — i Hoven — Gårdmand i Hoven (1840–60) 📜
+    📎 kilder: LL:12-8850963 (dåb Hoven 1819); LL:13-3463510 (vielse Hoven 1839); LL:2-658252 (FT 1834 Hoven, hos moren); LL:5-838316 (FT 1850 Hoven)
+    📝 Født 19. jan. 1819 i Hoven, søn af Anders Jensen og Ane Kirstine Eskesdatter, der i 1834 som enke ejede møllen i Hoven. Gift 1839 i Hoven med Kirsten Christensdatter. Gårdmand i Hoven; 1860 med børnene Christen, Ane Kirstine, Anders, Jens, Mads, Kirsten Marie og Jens Peder.
+    ∞ ♀ Kirsten Christensdatter (b.1821-02-12) — i Hoven 📜
+      📎 kilder: LL:12-8851104 (dåb Hoven 1821); LL:13-3463511 (vielse Hoven 1839)
+    ♂ Mads Christensen (Kristensen) (b.1852-01-18) — i Hoven — Husmand, Sønder Felding (1901) 📜
+      📎 kilder: LL:12-8842498 (fødsel Hoven 1852); LL:13-3794323 (vielse Grindsted 1875); LL:9-1496473 (FT 1901 Sønder Felding); LL:23-1723336 (FT 1911, født i Hoven)
+      📝 Født 18. jan. 1852 i Hoven sogn, søn af Christen Andersen og Kirsten Christensdatter. Gift 1875 i Grindsted med Karen Jensen. Husmand i Sønder Felding, hvor datteren Hulda blev født 1895.
+      ∞ ♀ Karen Jensen (b.1852-08-29) — i Skarrild 📜
+        📎 kilder: LL:12-8975343 (fødsel Skarrild 1852); LL:13-3794324 (vielse Grindsted 1875)
+      ♀ Hulda Christensen (b.1895-09-25) — i Sønder Felding 📜
+        📎 kilder: LL:12-5952889; LL:13-2793207; LL:25-2149352; DFS:21838178
+        ∞ ♂ Jens Nielsen Pedersen (b.1891-04-14) — i Vester Starup 📜
+          📎 kilder: AO:Silkeborg kirkebog 1931 nr. 25; LL:12-9781230
+        ♀ Karen Margrethe Pedersen (b.1917) 📜
+          📎 kilder: DFS:21838180 (folketælling 1925, Silkeborg); FamilySearch Family Tree
+          📝 Senere gift Enevoldsen.
+        ♀ Anna Elvira Pedersen (b.1918) 📜
+          📎 kilder: DFS:21838181 (folketælling 1925, Silkeborg); FamilySearch Family Tree
+        ♀ Nelly Pedersen (b.1921) 📜
+          📎 kilder: DFS:21838182 (folketælling 1925, Silkeborg)
+      ♀ Kirsten Christensen (b.1875-12-29) — i Sønder Felding 📜
+        📎 kilder: LL:12-8978742 (dåb Sønder Felding 1875)
+      ♂ Christian Møller Christensen (b.1878-03-08) — i Sønder Felding 📜
+        📎 kilder: LL:12-8978220 (dåb Sønder Felding 1878)
+      ♀ Kirsten Marie Kristensen (b.1880-08-06) — i Sønder Felding 📜
+        📎 kilder: LL:12-8977411 (dåb Sønder Felding 1880)
+      ♀ Kirten Marie Kristensen (b.1882-09-19) — i Sønder Felding 📜
+        📎 kilder: LL:12-8977486 (dåb Sønder Felding 1882)
+      ♀ Serine Lovise Kristensen (b.1885-03-31) — i Sønder Felding 📜
+        📎 kilder: LL:12-8977566 (dåb Sønder Felding 1885)
+      ♂ Jens Peder Kristensen (b.1887-02-11) — i Sønder Felding 📜
+        📎 kilder: LL:12-8977223 (dåb Sønder Felding 1887)
+      ♀ Mariane Emilie Kristensen (b.1889-03-30 d.1890) — i Sønder Felding 📜
+        📎 kilder: LL:12-8977683 (dåb Sønder Felding 1889); LL:11-4530122 (begravet 1890)
+        📝 Død som barn.
+      ♀ Juliane Amalie Kristensen (b.1891-05-22 d.1891) — i Sønder Felding 📜
+        📎 kilder: LL:12-8977746 (dåb Sønder Felding 1891); LL:11-4530139 (begravet 1891)
+        📝 Død som barn.
+      ♂ Jens Thorvald Kristensen (b.1892-06-27) — i Sønder Felding 📜
+        📎 kilder: LL:12-5952153 (dåb Sønder Felding 1892)
+      ♂ Alfred Ferdinand Kristensen (b.1893-08-14) — i Sønder Felding 📜
+        📎 kilder: LL:12-5952198 (dåb Sønder Felding 1893)
+      ♀ Juliane Amalie Christensen (b.1894-07-09) — i Sønder Felding 📜
+        📎 kilder: LL:12-5952844 (dåb Sønder Felding 1894)
+      ♂ Axel Nygaard Christensen (b.1896-10-18) — i Sønder Felding 📜
+        📎 kilder: LL:12-5952328 (dåb Sønder Felding 1896)
+      ♂ Jens Paabøl Christensen (b.1898-08-13) — i Sønder Felding 📜
+        📎 kilder: LL:12-5952415 (dåb Sønder Felding 1898)
+  ♂ Jens Andersen (b.ca. 1809) 📜
+    📎 kilder: LL:2-658252 (FT 1834 Hoven)
+  ♂ Eske Andersen (b.ca. 1816) 📜
+    📎 kilder: LL:2-658252 (FT 1834 Hoven)
+  ♂ Knud Andersen (b.ca. 1821) 📜
+    📎 kilder: LL:2-658252 (FT 1834 Hoven)
+  ♀ Hanne Andersdatter (b.ca. 1826) 📜
+    📎 kilder: LL:2-658252 (FT 1834 Hoven)
+  ♂ Else Anderssen (b.1816-11-26 d.1821) — i Hoven 📜
+    📎 kilder: LL:12-8850945 (dåb Hoven 1816); LL:11-4486322 (begravet 1821)
+    📝 Død som barn.
+  ♀ Johanne Kirstine (b.1826-05-08) — i Hoven 📜
+    📎 kilder: LL:12-8851170 (dåb Hoven 1826)
+
+♀ Kirsten Marie Jensdatter (b.ca. 1784) — Gårdmandsenke (1834); Aftægtskone hos datteren (1840–60) 📜
+  📎 kilder: LL:12-8851106 (datterens dåb Hoven 1821); LL:2-658290 (FT 1834 Hoven); LL:5-838317 (FT 1850 Hoven)
+  📝 Mor til Kirsten Christensdatter. Gårdmandsenke i Hoven 1834; boede siden på aftægt hos datteren og svigersønnen Christen Andersen.
+  ∞ ♂ Christen Pallesen — Gårdmand i Hoven ✅
+    📎 kilder: LL:12-8851105 (datterens dåb Hoven 1821)
+  ♂ Mads Christensen (b.ca. 1813) 📜
+    📎 kilder: LL:2-658290 (FT 1834 Hoven)
+  ♂ Mads Christian Christensen (b.ca. 1827) 📜
+    📎 kilder: LL:2-658290 (FT 1834 Hoven)
+  ♂ Christen Christensen (b.ca. 1830) 📜
+    📎 kilder: LL:2-658290 (FT 1834 Hoven)
+  ♂ Jens Peder (b.1816-06-08) — i Hoven 📜
+    📎 kilder: LL:12-8850936 (dåb Hoven 1816)
+  ♀ Jete Marie (b.1823-12-24) — i Hoven 📜
+    📎 kilder: LL:12-8851149 (dåb Hoven 1823)
+  ♂ Learn Christensen (b.1826-11-11) — i Hoven 📜
+    📎 kilder: LL:12-8851032 (dåb Hoven 1826)
+
+♂ Jens Peder Larsen (b.ca. 1812) — i Assing — Husmand i Skarrild (1845–50) 📜
+  📎 kilder: LL:12-8975344 (datterens dåb Skarrild 1852); LL:4-831754 (FT 1845 Skarrild); LL:5-850627 (FT 1850 Skarrild); LL:13-3794325 (datterens vielse 1875)
+  📝 Født ca. 1812 i Assing sogn (folketællingerne 1845 og 1850). Husmand i Skarrild, gift med Kjersten Frederiksdatter; børn bl.a. Frederik (1844), Ane (1847), Lars (1849) og Karen (1852). Assings fødsler før 1814 er ikke indekseret.
+  ∞ ♀ Kjersten Frederiksdatter (b.1822-04-20) — i Sønder Felding 📜
+    📎 kilder: LL:12-8980109 (dåb Sønder Felding 1822); LL:4-831755 (FT 1845 Skarrild)
+  ♂ Frederik Jensen (b.1845-12-23) — i Skarrild 📜
+    📎 kilder: LL:12-8976391 (dåb Skarrild 1845)
+  ♂ Lars Jensen (b.1848-10-19) — i Skarrild 📜
+    📎 kilder: LL:12-8974502 (dåb Skarrild 1848)
+
+♂ Peder Jensen (b.ca. 1820) 📜
+  📎 kilder: LL:13-3914397 (vielse Fåborg 1852); LL:12-11080622
+  📝 Gift 1852 i Fåborg (Ribe amt) med Karen Johnsen.
+  ∞ ♀ Karen Johnsen (b.1830-06-20) — i Fåborg (Varde) 📜
+    📎 kilder: LL:12-11082019 (fødsel Fåborg 1830); LL:13-3914398 (vielse Fåborg 1852)
+  ♀ Ane Else Pedersen (b.1859-04-14) — i Fåborg (Varde) 📜
+    📎 kilder: LL:12-11080621; LL:13-3654109; LL:12-9781232
+    ∞ ♂ Niels Pedersen (b.1861-10-25) — i Vester Starup — Gårdejer (1931) 📜
+      📎 kilder: LL:12-9787230; LL:13-3654108
+  ♂ John Pedersen (b.1854-05-07 d.1854) — i Fåborg (Varde) 📜
+    📎 kilder: LL:12-11079312 (dåb Fåborg 1854); LL:11-5334414 (begravet 1854)
+    📝 Født i Fåborg. Død som barn.
+  ♀ Ane Pedersen (b.1857-09-30 d.1858) — i Fåborg (Varde) 📜
+    📎 kilder: LL:12-11080531 (dåb Fåborg 1857); LL:11-5334911 (begravet 1858)
+    📝 Født i Fåborg. Død som barn.
+  ♂ John Pedersen (b.1863-08-09) — i Fåborg (Varde) 📜
+    📎 kilder: LL:12-11079762 (dåb Fåborg 1863)
+    📝 Født i Fåborg.
+  ♀ Johanne Marie Jensen (b.1865-05-03 d.1877) — i Fåborg (Varde) 📜
+    📎 kilder: LL:12-11080893 (dåb Fåborg 1865); LL:11-5092757 (begravet 1877)
+    📝 Født i Fåborg. Død som barn.
+  ♂ Hans Nielsen Jensen (b.1869-03-28) — i Fåborg (Varde) 📜
+    📎 kilder: LL:12-11080035 (dåb Fåborg 1869)
+    📝 Født i Fåborg.
+  ♂ Niels Jørgen Jensen (b.1871-12-07 d.1874) — i Fåborg (Varde) 📜
+    📎 kilder: LL:12-11080175 (dåb Fåborg 1871); LL:11-5092311 (begravet 1874)
+    📝 Født i Fåborg. Død som barn.
+  ♀ Kirsten Marie Jensen (b.1876-12-08 d.1877) — i Fåborg (Varde) 📜
+    📎 kilder: LL:12-10457073 (dåb Fåborg 1876); LL:11-5092757 (begravet 1877)
+    📝 Født i Fåborg. Død som barn.
+
+♂ Niels Larsen — i Malmö 📜
+  📎 kilder: LL:11-231268
+  📝 Svensk; nævnt i datterens dødsindførsel.
+
+♂ Peder Jensen ✅
+  📎 kilder: LL:13-3655658 (sønnens vielse Vester Starup 1860)
+  📝 Nævnt som far ved sønnen Jens Pedersens vielse i Vester Starup 1860.
+  ♂ Jens Pedersen (b.ca. 1831) 📜
+    📎 kilder: LL:13-3655657 (vielse Vester Starup 1860); LL:12-9787231
+    📝 Gift 1860 i Vester Starup med Kirsten Marie Nielsen; ifølge vielsen søn af Peder Jensen.
+    ∞ ♀ Kirsten Marie Nielsen (b.ca. 1831) 📜
+      📎 kilder: LL:13-3655659 (vielse Vester Starup 1860); LL:12-9787232
+    ♀ Mette Katrine Pedersen (b.1868-08-05) — i Vester Starup 📜
+      📎 kilder: LL:12-9780936 (dåb Vester Starup 1868)
+    ♂ Mads Pedersen (b.1871-04-15) — i Vester Starup 📜
+      📎 kilder: LL:12-9780840 (dåb Vester Starup 1871)
+
+♂ Niels Jepsen ✅
+  📎 kilder: LL:13-3655660 (datterens vielse Vester Starup 1860)
+  📝 Nævnt som far ved datteren Kirsten Marie Nielsens vielse i Vester Starup 1860.
+
+♂ John Eskesen ✅
+  📎 kilder: LL:12-11082020
+  📝 Nævnt som far i fødselsposten for Karen Johnsen (Fåborg, 1830).
+  ∞ ♀ Ana Knudsdatter ✅
+    📎 kilder: LL:12-11082021
+  ♀ Kjersten Johnsen (b.1835-09-22) — i Fåborg (Varde) 📜
+    📎 kilder: LL:12-11082211 (dåb Fåborg 1835)
+    📝 Født i Fåborg.
+
+♂ Frederik Jensen ✅
+  📎 kilder: LL:12-8980110 (datterens dåb Sønder Felding 1822)
+  📝 Far til Kjersten Frederiksdatter, født 1822 i Sønder Felding.
+  ∞ ♀ Ane Thomasdatter ✅
+    📎 kilder: LL:12-8980111 (datterens dåb Sønder Felding 1822)
+  ♂ Jens Frederiksen (b.1823-11-22) — i Sønder Felding 📜
+    📎 kilder: LL:12-8979997 (dåb Sønder Felding 1823)
+  ♂ Thomas Frederiksen (b.1826-02-26) — i Sønder Felding 📜
+    📎 kilder: LL:12-8979617 (dåb Sønder Felding 1826)
+  ♂ Anders Frederiksen (b.1835-02-16) — i Sønder Felding 📜
+    📎 kilder: LL:12-8979754 (dåb Sønder Felding 1835)
+  ♀ Ane Johanne Frederichsen (b.1836-05-30 d.1839) — i Sønder Felding 📜
+    📎 kilder: LL:12-8979257 (dåb Sønder Felding 1836); LL:11-4530793 (begravet 1839)
+    📝 Død som barn.
+  ♂ Jens Christian Frederigsen (b.1837-08-20) — i Sønder Felding 📜
+    📎 kilder: LL:12-8979697 (dåb Sønder Felding 1837)
+  ♀ Ane Kirstine Frederiksen (b.1839-05-07 d.1840) — i Sønder Felding 📜
+    📎 kilder: LL:12-8979299 (dåb Sønder Felding 1839); LL:11-4530810 (begravet 1840)
+    📝 Død som barn.
+
+==============================================================================
+BI-SLÆGTER: linje 'gaardsted' — ikke-tilknyttede ankre og sidegrene
+==============================================================================
+
+♂ Claus Gaardsted (b.ca. 1750 d.1811) — død i Bogensholm, Vistoft (Mols) — Forpagter af Vosnæsgaard (1787–ca. 1796); Ejer af herregården Bogensholm (1796/97–1811) 📜
+  📎 kilder: LL:0-414804; LL:1-475533; AO:Skødstrup kirkebog 1780–1809, s. 75; Trap Danmark / danskeherregaarde.dk (Bogensholm)
+  📝 Gift to gange; Kirsten Marie Jørgensdatter var hans anden hustru. Enken solgte Bogensholm på auktion i 1811 for 31.000 rdl. Han kom til Vosnæsgaard efter 1784. Et skifteuddrag fra 1787 nævner hans søster Karen Christensdatter, som han var lavværge for. Hans fødested og forældre er stadig ukendte.
+  ∞ ♀ Kirsten Marie Jørgensdatter (b.ca. 1752 d.efter 1811) 📜
+    📎 kilder: LL:0-414805; LL:1-475272
+  ♂ Jochum (Joachim) Gaardsted (b.1792-09-23 d.1865-06-18) — i Vosnæsgaard, Skødstrup, død i Tirstrup — Gårdmand og sognefoged, Tirstrup 📜
+    📎 kilder: AO:Skødstrup kirkebog 1780–1809, s. 75 (bsid 736476, billede 43); LL:1-475273; LL:2-530881; LL:5-717919
+    📝 Døbt 2. okt. 1792 i Skødstrup Kirke. Fadderne var bl.a. majorinde Weinegel, generalinde Trampe, major Folsch i Aarhus og Sehested i Fredericia. Første hustru var Marie Kjerstine Christensdatter. Han giftede sig anden gang 19. okt. 1833 i Rosmus med Ane Sophie Jensdatter.
+    ∞ ♀ Ane Sophie Jensdatter (b.1812-02-16 d.1886-02-27) — i Rosmus, død i Tirstrup 📜
+      📎 kilder: AO:Rosmus kirkebog 1789–1816, 1812 fødte piger (billede 28238652); LL:4-726530 (FT 1845, født i Rosmus)
+    ♂ Hans Peter Gaardsted (b.1852-05-03 d.1913-03-26) — i Tirstrup, død i Kolind — Tjenestekarl, Ebeltoft (1880); Husmand/parcellist, Kolind 📜
+      📎 kilder: LL:12-3665481; LL:7-1041647; LL:9-1332308; LL:11-3881351
+      ∞ ♀ Rasmine Christine Andersen (b.1855-09-16 d.efter 1922) — i Fuglslev 📜
+        📎 kilder: LL:12-9158976; LL:6-849934
+      ♀ Johanne Marie Gaardsted (b.1879-01-29) — Tjenestepige 📜
+        📝 Boede hos sin mor, der var enke, i Kolind i 1921. Hun og søsteren Sofie skrev erindringer om Petersminde (Midtdjurs Lokalhistoriske Arkiv A847).
+      ♀ Sofie Gaardsted (b.1881) — Tjenestepige 📜
+      ♀ Agnes Kristiane Gaardsted (b.1883) — Tjenestepige 📜
+      ♂ Jokum Gaardsted (b.1886) 📜
+      ♂ Martin Marinus Gaardsted (b.1888-11-10) — Fattiggårdsbestyrer, Bregnet (1922) 📜
+      ♂ Axel Villiam Gaardsted (b.1891-08-20 d.1894-03-07) 📜
+      ♀ Petra Ottine Gaardsted (b.1897-02-25) 📜
+      ♂ Axel Vilhelm Alfred Gaardsted (b.1900-12-05) 📜
+    ♀ Marie Kirstine Gaardsted (b.1839) 📜
+    ♂ Jens Gaardsted (b.1841 d.1914) — Gårdejer, Tirstrup 📜
+    ♀ Mette Marie Gaardsted (b.1844 d.1847) 📜
+    ♀ Johanne Gaardsted (b.1847) 📜
+    ♂ Ernst Adolph Gaardsted (b.1849) 📜
+    ♂ Claus Christian Gaardsted (b.1832-07-28 d.1863) 📜
+      📝 Mor: Marie Kjerstine Christensdatter (Jochums første hustru).
+    ♂ Jens Gaardsted (b.1834-04-04 d.1837) — i Tirstrup 📜
+      📎 kilder: LL:12-3666724 (dåb Tirstrup 1834); LL:11-1962807 (begravet 1837)
+      📝 Død som barn.
+    ♂ Joahnnes Gaardsted (b.1835-07-13) — i Tirstrup 📜
+      📎 kilder: LL:12-3664932 (dåb Tirstrup 1835)
+  ♂ Ernst Adolph Gaardsted (b.1784 d.1832-06-13) — Gårdmand, Hoed 📜
+    📝 Gift med Anne Andersdatter Kræmer; mindst 5 børn i Hoed.
+  ♂ Poul Christian Gaardsted (b.1790) 📜
+
+♀ Karen Christensdatter 📜
+  📎 kilder: Dansk Slægtsforskning: Rolsøgård gods (G302), skifte nr. 11, 14.5.1787, fol. 39 (https://slaegt.dk/media/jnnnvuml/alfabetisk-navneliste-og-skifteuddrag-til-rols%C3%B8g%C3%A5rd-gods-g302-mols-herred-1778-1816-1818.pdf)
+  📝 Nævnt som Claus Gaardsteds søster i et skifteuddrag fra 1787. Claus var hendes lavværge. Uddraget knytter hende til afdøde Christen Christensen Tohde? i Dejret, men angiver ikke forældrene med sikkerhed.
+
+♂ Jens Hansen — Gårdmand i Attrup, Rosmus sogn (1812–20) 📜
+  📎 kilder: AO:Rosmus kirkebog 1789–1816, copulerede 6. juli 1811 (billede 28238649); AO:Rosmus kirkebog 1789–1816, 1812 (billede 28238652); LL:12-3672434; LL:12-3673083
+  📝 Ungkarl af Attrup; gift 6. juli 1811 i Rosmus Kirke med Mette Pedersdatter. Børn: Ane Sophie (1812), Christen (1818) og Mette (1820).
+  ∞ ♀ Mette Pedersdatter — Gårdmandsdatter fra Attrup 📜
+    📎 kilder: AO:Rosmus kirkebog 1789–1816, copulerede 6. juli 1811 (billede 28238649); AO:Rosmus kirkebog 1789–1816, 1812 (billede 28238652)
+  ♂ Christen Jensen (b.1818-05-25) 📜
+    📎 kilder: LL:12-3672434 (dåb Rosmus 1818)
+  ♀ Mette Jensdatter (b.1820-12-14) 📜
+    📎 kilder: LL:12-3673083 (dåb Rosmus 1820)
+
+♂ Peder Hallis — Gårdmand i Attrup, Rosmus sogn (1811) ✅
+  📎 kilder: AO:Rosmus kirkebog 1789–1816, copulerede 6. juli 1811 (billede 28238649)
+  📝 Far til Mette Pedersdatter; nævnt ved hendes vielse 1811. Navnet læses "Hallis" (måske Hallisen).
+
+==============================================================================
+BI-SLÆGTER: linje 'rousing' — ikke-tilknyttede ankre og sidegrene
+==============================================================================
+
+♂ Rasmus Jensen (b.ca. 1718) — i Fuglslev — Bonde og gårdmand, Fuglslev (1787) ❓
+  📎 kilder: LL:0-415357
+  📝 Mulig far til Jens Rasmussen. Det bygger kun på navnemønsteret.
+  ♂ Jens Rasmussen (b.ca. 1755) — i Fuglslev — Bonde og gårdbeboer, Fuglslev ❓
+    📎 kilder: LL:1-473834; LL:0-415717
+    📝 Rasmus Jensen, 20 år, bor i hans husstand i 1801.
+    ∞ ♀ Margrethe Christensdatter (b.ca. 1758) ❓
+      📎 kilder: LL:1-473835
+    ♂ Rasmus Jensen Rousing (b.ca. 1780 d.1858-05-25) — i Fuglslev, død i Fuglslev — Selvejergårdmand og sognefoged, Fuglslev 📜
+      📎 kilder: LL:2-515582; LL:11-4601884; LL:11-4601476
+      ∞ ♀ Karen Christensdatter (b.ca. 1780 d.1855-04-25) — død i Fuglslev 📜
+        📎 kilder: LL:2-515583; LL:11-4601630
+      ♂ Anders Rasmussen Rousing (b.1818-03-12 d.1886-12-20) — i Fuglslev, død i Fuglslev — Boelsmand, Fuglslev (1845); Gårdmand, Fuglslev (1850–60); Aftægtsmand (1880) 📜
+        📎 kilder: LL:12-3667395; LL:13-3522464; LL:6-849928; LL:11-4601883
+        📝 Gift med Mariane Hansdatter 3. sep. 1841 i Fuglslev.
+        ∞ ♀ Mariane Hansdatter (b.1817-04-11 d.1885-07-26) — i Fuglslev, død i Fuglslev — Tjenestepige på Fuglslev Mølle (1834–40) 📜
+          📎 kilder: LL:12-3667695; LL:2-515660
+        ♂ Rasmus Andersen (b.1845) 📜
+        ♂ Hans Andersen (b.1847) 📜
+        ♂ Søren Andersen (b.1850) 📜
+        ♀ Jensine Caroline Andersen (b.1852) 📜
+        ♂ Soren Andersen (b.1850-08-18) — i Fuglslev 📜
+          📎 kilder: LL:12-9158235 (dåb Fuglslev 1850)
+      ♂ Christen Rasmussen (b.1812) 📜
+      ♂ Jens Christian Rasmussen (b.1816) 📜
+      ♂ Jens Rasmusen (b.1814-12-15 d.1814) — i Fuglslev 📜
+        📎 kilder: LL:12-3667320 (dåb Fuglslev 1814); LL:11-1963505 (begravet 1814)
+        📝 Død som barn.
+      ♂ Søren Rasmusen (b.1820-11-24 d.1820) — i Fuglslev 📜
+        📎 kilder: LL:12-3667434 (dåb Fuglslev 1820); LL:11-1963525 (begravet 1820)
+        📝 Død som barn.
+
+♂ Hans Jacobsen (b.ca. 1794) 📜
+  📎 kilder: LL:13-1705838; LL:12-3667696
+  📝 Gift med Maren Rasmusdatter 6. juli 1817 i Fuglslev.
+  ∞ ♀ Maren Rasmusdatter (b.ca. 1798) 📜
+    📎 kilder: LL:13-1705839
+
+==============================================================================
+BI-SLÆGTER: linje 'maternal' — ikke-tilknyttede ankre og sidegrene
+==============================================================================
+
+♀ Christine Petersen (f. Jensen) (b.1907-02-21 d.1985-06-25) — i Notmark (Als), død i Nybøl (Paakjær) 📜
+  📎 kilder: Gravsten på Nybøl Kirkegård (foto fra familien): 'og vor kære Moder Christine Petersen f. Jensen * 21. Feb. 1907 † 25. Juni 1985'
+  📝 Gift med Sophus i Nybøl Kirke i efteråret 1937 (kirkebogen angiver både 2. oktober og 2. november 1937). Født i Notmark; kirkebogen 1940–43 angiver fødselsåret 1908, gravstenen 1907.
+  ∞ ♂ Sophus (Sofus) Petersen (b.1903-06-28 d.1945-08-24) — i Nybøl (Paakjær), død i Nybøl (Paakjær) — Gårdmandssøn, Påkjær gård i Nybøl; Gårdejer, Nybøl (1938–43) ✅
+    📎 kilder: AO:Nybøl kirkebog 1880–1931, dåb 1903 nr. 12 (bsid 202179, billede 88); LL:12-15057041 (indekseret med dåbsdatoen 24.7.1903)
+
+♂ Wilhelm Krogh (b.1908-10-09) — Landarbejder (karl), Snogbæk (1932) 📜
+  📎 kilder: AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4, randnote 11.7.1932 (bsid 37658, billede 125); AO:Nybøl kirkebog 1931–58, fødte piger 1936 og 1940 (Detlef Krogh)
+  📝 Ifølge familien tog han skylden for gårdmandssønnen Sophus Petersen fra Påkjær. I det borgerlige register står han som Lorenz' far. Født 9. okt. 1908 i 'Tastrup' (eller 'Vastrup'; skriften er svær at læse), Landkreis Flensburg, dengang i Tyskland. Faderskabet står i randnoten i Egernsund-registret: han anerkendte faderskabet 5. april 1932, og retten afgjorde sagen 10. juni 1932. Hans forældre og h…
+
+♂ Peter Petersen 📜
+  📎 kilder: LL:13-4984315
+  ∞ ♀ Maria Cathrine Lorensen 📜
+    📎 kilder: LL:13-4984316
+  ♂ Mathias Petersen (b.1832-04-24 d.1894-08-08) — i Nybøl (Paakjær), død i Nybøl (Paakjær) 📜
+    📎 kilder: LL:13-4984314; LL:12-15059288; Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar); Familiens håndskrevne anetavle
+    📝 Gift 13. okt. 1865 i Nybøl med Sophia Maria Nissen. Byggede gården 'Paakjær' i Nybøl i 1879. Gården kom senere til at hedde 'Sofus minde'.
+    ∞ ♀ Sophia Maria Nissen (b.1842-03-15 d.1871-06-30) — i Nybøl (Paakjær), død i Nybøl (Paakjær) 📜
+      📎 kilder: LL:12-15058141; LL:13-4984317
+    ♂ Peter Petersen (b.1866-09-22 d.1939-11-28) — i Nybøl (Paakjær), død i Nybøl (Paakjær) — Gårdmand (landmand), Nybøl; Gårdejer på Paakjær, Nybøl 📜
+      📎 kilder: LL:13-4983073; LL:12-15059287; LL:25-6006023; AO:Nybøl kirkebog 1903 nr. 12
+      📝 Søn af Mathias Petersen. Gift 6. juni 1895 i Nybøl med Anna Cathrine Marie Petersen. I folketællingen 1921 er han landmand i Nybøl med hustru, børnene Peter, Jørgen, Marie, Hans og Viggo, en tjenestekarl og to tjenestepiger. Gårdejer på 'Paakjær' i Nybøl. Han og Cathrine fik 8 sønner og 1 datter.
+      ∞ ♀ Anna Cathrine Marie Petersen (b.1869-08-12 d.1949-09-04) — i Dybbøl, død i Nybøl (Paakjær) 📜
+        📎 kilder: LL:13-4983076; LL:12-14359019
+      ♂ Lorenz Peter Petersen (b.1897-09-04) 📜
+        📎 kilder: LL:12-15056684
+      ♂ Peter Petersen (b.1898-10-07) — Landbrug hos forældrene (1921) 📜
+        📎 kilder: LL:12-15056755; LL:25-6006025
+      ♂ Asmus Petersen (b.? d.1899-09-04) 📜
+        📎 kilder: LL:11-7250842
+      ♂ Jørgen Petersen (b.1904) 📜
+        📎 kilder: AO:Folketælling 1921, Nybøl (bsid 85824)
+      ♀ Marie Petersen (b.1906) 📜
+        📎 kilder: AO:Folketælling 1921, Nybøl (bsid 85824)
+      ♂ Hans Petersen (b.1910) 📜
+        📎 kilder: AO:Folketælling 1921, Nybøl (bsid 85824)
+      ♂ Viggo Petersen (b.1913) 📜
+        📎 kilder: AO:Folketælling 1921, Nybøl (bsid 85824)
+
+♂ Rasmus Nissen 📜
+  📎 kilder: LL:13-4984318
+  ∞ ♀ Maren Zachariasen 📜
+    📎 kilder: LL:13-4984319
+
+♂ Lorens Petersen 📜
+  📎 kilder: LL:13-4698058
+  ∞ ♀ Marie Petersen 📜
+    📎 kilder: LL:13-4698059
+  ♂ Lorens Petersen (b.1831-02-26) — i Nybøl (Paakjær) 📜
+    📎 kilder: LL:12-14384545; LL:13-4698057; LL:12-14359020
+    📝 Gift 12. april 1860 i Dybbøl med Marie Jørgensen.
+    ∞ ♀ Marie Jørgensen (b.1834-05-22) 📜
+      📎 kilder: LL:13-4698060; LL:12-14359021
+    ♀ Marie Petersen (b.1862-04-17) — i Dybbøl 📜
+      📎 kilder: LL:12-14358400 (dåb Dybbøl 1862)
+    ♀ Anna Kathrine Petersen (b.1864-01-27 d.1864) — i Dybbøl 📜
+      📎 kilder: LL:12-14358529 (dåb Dybbøl 1864); LL:11-6791521 (begravet 1864)
+      📝 Død som barn.
+    ♂ Lorens Peter Petersen (b.1865-07-26) — i Dybbøl 📜
+      📎 kilder: LL:12-14358621 (dåb Dybbøl 1865)
+
+♂ Lorens Peter Jørgensen 📜
+  📎 kilder: LL:13-4698061
+  ∞ ♀ Anna Kathrine Mathiesen 📜
+    📎 kilder: LL:13-4698062
+
+==============================================================================
+BI-SLÆGTER: linje 'gedde' — ikke-tilknyttede ankre og sidegrene
+==============================================================================
+
+♂ Hans Clest (von Kleist) of Tychow (b.ca. 1400 d.før 1477) — i Groß Tychow, Bagpommern — Godsejer på Groß-Tychow 📜  ★NY
+  📎 kilder: VKA:Dubberow p.117 (omkring 1425, Tychow var sæde for Hans Clest I.24); Lenbrev 13/4 1477 (VKA urk. 125)
+  📝 Den ældst kendte aner på von Kleist Tychow-linjen. Nævnes i 1425 som ejer af Tychow (VKA Dubberow p.117). Hans to sønner Reimer (II.2) og Bartes (II.3) nævnes i det fælles lenbrev af 13/4 1477 (urk. 125) som 'Brødre på Tychow'. Tessen (I.28) af Dubberow var hans nevø.
+  ♂ Bartes von Kleist (b.ca. 1425 d.1523) — i Groß Tychow, Bagpommern — Godsejer på Groß-Tychow 📜  ★NY
+    📎 kilder: VKA:Dubberow p.122 (II.3 Bartes); Homage i Belgard 19/4 1477 (urk. 125); VKA Dubberow lineage table: 'Descendants of Bartes II.3' → 'Descendants of Bernd II.39' → 'Descendants of II.82'
+    📝 Reimers bror (VKA Dubberow p.122). Deltog i homaget i Belgard 19/4 1477 (urk. 125). Siges at have levet til 1523 og være død af et fald fra hesten. Hans søn Andreas (II.11) er vor direkte aner — mens Reimers linje uddøde før 1672.
+    ♂ Andreas (Drews) von Kleist (b.ca. 1500 d.efter 1546) — i Groß Tychow, Bagpommern — Godsejer på Groß-Tychow 📜  ★NY
+      📎 kilder: VKA:Dubberow p.122-123 (II.11 Andreas, son af II.3 Bartes); Lenbrev 23/8 1540 (urk. 459k); Lenbrev 1/6 1546 (urk. 469)
+      📝 Bartes II.3's yngste søn (ikke Bartez II.6's søn — det var en tidligere fejli i denne fil). Nævnes som 'Drewes på Groten Tichow' og fik lenbrev 23/8 1540 (urk. 459k) og igen 1/6 1546 (urk. 469). I genealogien kaldes han oldefar til staldmester Joachim Henning (II.59, levede 1700). Hans hustrus navn er ikke nedskrevet. To brønde kendes: Martin II.9 og Jacob II.10.
+      ♂ Carsten (den Ældre) von Kleist (b.ca. 1535 d.før 1618) — i Groß Tychow, Bagpommern — Officer i Wobser-korpset i Preussen 1556; Godsejer på Groß-Tychow og Mandelatz 📜  ★NY
+        📎 kilder: VKA:Dubberow p.122 (II.21 Carsten den Ældre, søn af II.11 Andreas); Lenbrev 22/2 1575 (urk. 502)
+        📝 Kaldet 'den Ældre' for at skelne fra sin fætter Carsten den Yngre (II.19, søn af Joachim II.8 — altså fra Reimers linje, der uddøde). Tjente som officer i Preussen fra 1556, overtog senere de pommerske len på Tychow. Sammen med fætrene anlagde han i 1566 sag mod naboen Joachim Versen af Burzlaff. Fik fælles lenbrev 22/2 1575 (urk. 502). 8 sønner: Andreas, Joachim, Jacob, Henning, Ernst, Bernhard, …
+        ♂ Bernd (Bernhard) von Kleist (b.ca. 1565 d.efter 1665) — i Groß Tychow, Bagpommern — Landkommissær og direktør for Belgard-kvartaler 1634-36; Godsejer på Groß-Tychow og Mandelatz 📜  ★NY
+          📎 kilder: VKA:Dubberow p.123-124 (II.39 Bernd, søn af II.21 Carsten); Lenbrev 26/9 1618 (urk. 585)
+          📝 Carstens sjette søn. Efter farens død skulle han betale brødrene Henning og Tessen 1000 florin hver. Fik lenbrev 26/9 1618 (med broderen Jacob), igen 28/9 1621 og 5/9 1622. I 1629 blev han takseret for 5½ hide på Groß-Tychow. Tjenestegjorde som landkommissær 1634-36. Ved dokumentet af 1665 levede han endnu, men døde kort efter.
+          ♂ Christian von Kleist (b.? d.1679) — Brandenborgsk oberst; Godsejer, Gross Tychow (Pommern) 📜
+            📎 kilder: PHT:1897; VKA:Dubberow p.123-124 (II.39 Bernd)
+            📝 Stamfar til den gren af slægten, der 'i henimod halvandet hundrede år blomstrede i Danmark'. Forældre tilføjet nov 2026 (rettet 16/11) baseret på VKA Dubberow p.123-124 (II.39 Bernd, søn af II.21 Carsten den Ældre, søn af II.11 Andreas, søn af II.3 Bartes, søn af I.24 Hans Clest af Tychow). Tidligere version af filen havde forkert parentage gennem Reimer II.2's linje (extinct før 1672) — rettet nu…
+            ∞ ♀ Hedvig Maria von Kleist 📜
+              📎 kilder: PHT:1897
+            ♂ Christian Casimir von Kleist (b.1654 d.1722-02-01) — Premierløjtnant ved Prins Christians Regiment (1677); Kaptajn og chef for grenaderkompagniet ved Fynske Infanteriregiment (1685); Oberstløjtnant og kommandant i Oldenborg (1709) 📜
+              📎 kilder: PHT:1897
+              📝 Arvede en del af Gross Tychow i Pommern. Han deltog i felttoget i hertugdømmerne i 1700 og døde i Oldenborg.
+              ∞ ♀ Anna von Fürst (b.? d.1722) 📜
+                📎 kilder: PHT:1897
+              ♀ Barbara Juliane von Kleist (b.? d.efter 1730) 📜
+                📎 kilder: PHT:1897
+                📝 Boede endnu i 1730 på godset Drenow i Pommern.
+                ∞ ♂ Cartz Ulrik von Kleist (b.? d.1722-11) — Premierløjtnant ved Fynske Infanteriregiment (1701); Kaptajn i Grenaderkorpset (1707); Oberstløjtnant (1712/1717) 📜
+                  📎 kilder: PHT:1897
+                ♂ Christian Adam von Kleist (b.1705-10-01 d.1778-10-31) — i København — Page og hofjunker (1731); Amtmand i Rendsborg (1740) og landråd i Holsten; Kammerherre (1746), gehejmeråd (1766) 📜
+                  📎 kilder: PHT:1897; Dansk biografisk Lexikon IX s. 219
+                  📝 Døbt i Vor Frelsers Kirke på Christianshavn. Ridder af Dannebrog 1759. Død i Bredsted og begravet i Slesvig Domkirke.
+                  ∞ ♀ Sophie Rosenkrantz (b.1714 d.1770-06-04) 📜
+                    📎 kilder: PHT:1897
+                  ♂ Christian Frederik von Kleist (b.1743-08-25 d.1799-07-12) — Kornet ved Holstenske Kyrassérregiment (1758); Eskadronchef, karakteriseret major (1774); Kammerherre (1779) 📜
+                    📎 kilder: PHT:1897
+                    📝 Gift 3. dec. 1770 med Anna Margrethe Schubart. Fire sønner og fire døtre, bl.a. generalmajor Carl Gottlieb von Kleist.
+                    ∞ ♀ Anna Margrethe Schubart (b.1753-04-03 d.1842-08-24) 📜
+                      📎 kilder: PHT:1897
+                    ♀ Frederikke Louise Dorthea von Kleist (b.1786-01-05 d.1870-01-24) 📜
+                      📎 kilder: PHT:1897; LL:2-80374; LL:3-51003; AO:Fredensborg Slotssogn kirkebog 1808
+                      📝 Kirkebogen 1808 kalder hende 'Frederikke Lovise Birthe født Kleist'. Datter af kammerherre Christian Frederik von Kleist. Hendes søster Christine Sophie var gift med pastor Hammer i Herlufmagle, og søsteren Juliane med den norske generalmajor Nicolai Wilhelm Gedde, sandsynligvis Ove Samuels bror.
+                      ∞ ♂ Ove Samuel Gedde (b.1778-02-28 d.1843-03-10) — død i Helsingør — Officer: sekondløjtnant, kaptajn (1808), oberstløjtnant og bataljonschef ved Kronens Regiment; Karakteriseret oberst, ridder af Dannebrog; Borgerrepræsentant, Helsingør (1823–38) 📜
+                        📎 kilder: AO:Fredensborg Slotssogn kirkebog 1808; LL:2-80373
+                      ♂ Ove Frederik Christopher Gedde (b.1808-07) — i Fredensborg — Cand.jur.; Forvalter, Herlufmagle (1840–50) 📜
+                        📎 kilder: AO:Fredensborg Slotssogn kirkebog 1733–1814, s. 127 (bsid 594366, billede 65); LL:2-251474; LL:14-7607995; LL:3-593931
+                        📝 Hjemmedøbt i Fredensborg, indført i kirkebogen 24. juli 1808 som søn af 'Hr. Capitaine ved Kronens Regiment Hr. Ove Samuel Giedde og Frue Frederikke Lovise Birthe født Kleist'. Faddere: oberstløjtnantinde Recke, jomfru Gradman fra Helsingør, kaptajn Giedde fra Helsingør og løjtnanterne Tønnesen og Bøgtrup. Han voksede op i Herlufmagle Præstegård hos sin moster Christine Sophie von Kleist og hendes…
+                        ∞ ♀ Charlotte Frederikke Christine Møller (b.1815) — i København 📜
+                          📎 kilder: LL:5-674513
+                        ♂ Edvard Hammer Gedde (b.1845-09-08 d.1925-12-27) — i Herlufmagle — Proprietær, Tamdrup (1880); Vognmand og foderstofhandler, København 📜
+                          📎 kilder: Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar); LL:5-674514; LL:13-5702405; LL:7-1280754
+                          📝 Gift 8. juli 1870 i Sankt Peders Kirke, Næstved, med Vitta Ludvigsen. Mellemnavnet Hammer har han efter farens plejefar, dr.theol. Edvard Snedorph Hammer, sognepræst i Herlufmagle. Gift 8. juli 1870 med Mathilde Ludvigsen. Familiebilledet fra 1895, med alle 12 børn, var sikkert en gave til forældrenes sølvbryllup.
+                          ∞ ♀ Vitta Dorthea Henriette Mathilde Ludvigsen (b.1847-10-04 d.1927-01-17) — i Næstved 📜
+                            📎 kilder: Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar); LL:12-17734083
+                          ♀ Paula Mathilde Christle Gedde (b.1880-12-30 d.1952-02-29) — i Tamdrup, død i Rinkenæs (Dalsgård) 📜
+                            📎 kilder: LL:13-432737; LL:12-4851845; LL:12-4852565; AO:Lejrskov kirkebog 1912 nr. 17
+                            📝 Mor til mindst fem børn i Lejrskov 1908–13 (navnene på de yngste er skjult i indekset af hensyn til privatlivet). Kaldt 'Laue' i familien. Død 29. feb. 1952 på Dalsgård.
+                            ∞ ♂ Jens Jensen (b.1866-12-31 d.1951-03-26) — i Dybbøl, død i Rinkenæs (Dalsgård) — Gårdejer, Ferup (Lejrskov); Gårdejer på Dalsgård, Rinkenæs 📜
+                              📎 kilder: LL:12-14358775; LL:13-432734
+                            ♀ Else Gedde Jensen (b.1912-08-31 d.1975-01-30) — i Lejrskov (Ferup), død i Sønderborg 📜
+                              📎 kilder: AO:Lejrskov kirkebog, fødte piger 1912 nr. 17 (bsid 165996, billede 94); LL:12-4852565; AO:Egernsund standsregister 1932 nr. 4; AO:Broager Vestre 1933 nr. 1
+                              📝 Født 31. aug. 1912 i Ferup, Lejrskov sogn, og døbt 20. okt. 1912 i Lejrskov Kirke. Faddere: frøken Mathilde Gedde, København (moster/grandtante på Gedde-siden), Kirstine Jensen og købmand Jørgen Jensen, Haderslev. Her kommer navnet Gedde fra: Else fik det som mellemnavn efter sin mor, Paula Gedde. I januar 1932 var hun gift med arbejdsmand Peter Frederiksen i Egernsund. Gift 15. nov. 1931 i Egerns…
+                              ∞ ♂ Peter Frederiksen (b.1902-02-15 d.1992-03-03) — i Egernsund — Tjenestekarl, Broager (1921); Arbejdsmand, Egernsund (1932) 📜
+                                📎 kilder: LL:12-15018348; LL:14-2208771
+                              ♂ Lorenz Heinrich Frederiksen (b.1932-01-12 d.2009-05-06) — i Egernsund, død i Svendborg — Sømand 📜
+                                📎 kilder: AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4 (bsid 37658, billede 125); AO:Broager Vestre distrikt kontraministerialbog 1906–48, fødte 1933 nr. 1 (bsid 201141, billede 112); BillionGraves via MyHeritage (samling 10147): Lorenz H. …
+                                📝 Det borgerlige fødselsregister for Egernsund (1932 nr. 4, anmeldt 16. jan. 1932) siger, at Else Gedde Frederiksen, f. Jensen, fødte ham 12. jan. 1932 kl. 5.30. En randnote af 11. juli 1932 siger, at landarbejder Wilhelm Krogh fra Snogbæk er den biologiske far. Det bygger på hans faderskabserklæring af 5. april 1932 og en retsafgørelse af 10. juni 1932. Stedfaren Peter Frederiksen gav drengen sit e…
+                                ∞ ♀ Gerda Frederiksen (f. Larsen) (b.1935-08-17 d.2019-07-18) — i Magleby (Nordenbro), Langeland, død i Svendborg 📜
+                                  📎 kilder: DFS:kbid157287 (Magleby kirkebog 1929–62, fødte piger 1935 nr. 13); DFS:kbid189407 (konfirmation 1950)
+                            ♂ Aage Rasmus Gedde Jensen (b.1908-07-24 d.1908-07-29) 📜
+                              📎 kilder: LL:11-2421115
+                            ♂ Peter Gedde Jensen (b.1909-09-09 d.1980-07-10) 📜
+                              📎 kilder: LL:12-4851907; Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)
+                              📝 Gift med Elvine Jørgensen.
+                            ♂ Edvard Jensen (kaldet Bror) (b.1911-03-20 d.1995-08-27) 📜
+                              📎 kilder: LL:12-4852004; Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)
+                              📝 Gift med Luise Petersen.
+                            ♀ Kristine Gedde Jensen (b.1913-11-11 d.1987-03-05) 📜
+                              📎 kilder: LL:12-4852952; Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)
+                              📝 Gift med Knud Poulsen. Kirkebogsindekset har 10. nov. 1913.
+                            ♀ Mathilde Gedde Jensen (kaldet Tulle) (b.1915-11-13 d.2001-08-12) 📜
+                              📎 kilder: Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar); Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)
+                              📝 Nævnt som nr. V blandt Jens og Paulas børn i familiens opgørelse; kan være et af de børn, hvis navn er skjult i indekset. Ugift.
+                            ♂ Svend Gedde Jensen (b.1922-03-11 d.1996-08-10) 📜
+                              📎 kilder: Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar); Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)
+                              📝 Nr. VI i familiens opgørelse. Tvilling med Helga. Gift med Agathe Smith.
+                            ♀ Helga Gedde Jensen (b.1922-03-11) 📜
+                              📎 kilder: Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar); Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)
+                              📝 Nr. VII i familiens opgørelse. Tvilling med Svend. Gift med Thorkild Sylvest Hansen.
+                          ♂ Ove Frederik Alexander Gedde (b.1871-04-25 d.1906-03-11) — Premierløjtnant ved Dragonerne (til 1900); Næstkommanderende ved Grænsegendarmeriet 📜
+                            📎 kilder: Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar); LL:11-4055588; LL:7-1280756
+                            📝 Sendt hjemmefra som 10-årig til sin faster Margrethe Ahlefeldt og hendes mand, fordi han var bestemt for en militær karriere. Gift 25. april 1900 med Charlotte Sophie Hedemann (1876–1955). Børn: Knud Gedde (1901–1954) og Anna Sophie Mathilde Gedde (1902–1985), gift van Jepmond.
+                            ♂ Knud Gedde (b.1901-01-19 d.1954-03-22) 📜
+                              📎 kilder: Familiedokument: 'Familien Gedde' med familiebilledet fra 1895
+                              📝 Gift 1. gang med Marie Louise Hansen (1898–1989), skilt; 2. gang 23. dec. 1934 med Olga Frederikke Olsen.
+                              ∞ ♀ Olga Frederikke Olsen (b.1901-06-30 d.1991-02-07) 📜
+                                📎 kilder: Familiedokument: 'Familien Gedde' med familiebilledet fra 1895
+                              ♀ Aase Gedde (b.1925-04-25) 📜
+                                📎 kilder: Familiedokument: 'Familien Gedde' med familiebilledet fra 1895
+                                📝 Gift 6. juli 1990 med Jørgen Lindegaard Knudsen.
+                                ∞ ♂ Jørgen Lindegaard Knudsen (b.1916-05-03) 📜
+                                  📎 kilder: Familiedokument: 'Familien Gedde' med familiebilledet fra 1895
+                            ♀ Anna Sophie Mathilde Gedde (b.1902-08-22 d.1985-03-31) 📜
+                              📎 kilder: Familiedokument: 'Familien Gedde' med familiebilledet fra 1895
+                              📝 Gift 25. juni 1934 med Svend-Aage van Jepmond.
+                              ∞ ♂ Svend-Aage van Jepmond (b.1891-04-10) 📜
+                                📎 kilder: Familiedokument: 'Familien Gedde' med familiebilledet fra 1895
+                          ♂ Stephan Peder Hammer Gedde (b.1874-04-27 d.1948-06-22) — Landbrugsuddannet; Forvalter ved De Forenede Papirfabrikker 📜
+                            📎 kilder: Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar); LL:7-1280758
+                            📝 Holdt sammen med søsteren 'Tulle' det gamle hjem ved lige efter forældrenes død.
+                          ♀ Elisabeth Charlotte Chrestle Doris Gedde (b.1875-02-25 d.1909-07-13) — Lærerinde 📜
+                            📎 kilder: Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar); LL:11-652492; LL:7-1280757
+                            📝 Kaldt 'Pelle'. Hjalp som storesøster med at opdrage de små. Døde efter en blindtarmsoperation.
+                          ♂ Emil Ludvig Edvard Gedde (b.1876-11-15 d.1951) — Landbrugsuddannet; Udvandrer til Argentina (1922) 📜
+                            📎 kilder: Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar); LL:23-1448261; LL:12-2288945; LL:7-1280759
+                            📝 Udvandrede i 1922 til Argentina med hustruen Olivia (Johanne Marie Olivia f. Eddelsen) og to børn, og døde der i 1951. Sønnen Ejler blev i Argentina og døde omkring 1990 uden kendte børn. Datteren Inge Regitze (f. 1911, død ca. 1950) vendte tilbage til Danmark i 1930'erne og blev gift med Arne Meyer; ingen børn. Udvandrerarkivet har to billeder fra den danske koloni i Eldorado, Argentina: 'De ælds…
+                          ♂ Ove Gedde (b.1877-03-31 d.1894) 📜
+                            📎 kilder: Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar); LL:7-1280760
+                            📝 Skyllet over bord som jungmand på skoleskibet 'Georg Stage' i 1894.
+                          ♂ Vilhelm Gedde (b.1878-11-28 d.1931-11-22) 📜
+                            📎 kilder: LL:7-1280761; Familiedokument: 'Familien Gedde' med familiebilledet fra 1895
+                          ♂ Oluf (Olaf) Christian Kleist Gedde (b.1879-12-20 d.1961-07-04) — Kommis (handelsmedhjælper); Udvandrer til Shanghai, Kina (1904) 📜
+                            📎 kilder: LL:7-1280762; Det Danske Udvandrerarkiv, Udvandrerprotokollen (Københavns Politi), kontrakt 3534, 11/7 1904; Familiedokument: 'Familien Gedde' med familiebilledet fra 1895
+                            📝 Udvandrerprotokollen: 'Gedde, Olaf, kommis, født Horsens, sidste bopæl København, 24 år, rejsemål Shanghai, Kina', kontrakt 3534 (Haugsted), 11. juli 1904. Født på Tamdrup-gården ved Horsens ca. 1880.
+                          ♀ Ellen Gedde (b.1889-05-15 d.1977-07-21) — Kontoruddannet 📜
+                            📎 kilder: Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar); Familiedokument: 'Familien Gedde' med familiebilledet fra 1895
+                            📝 Gift med Aage Laurentzen; ingen børn. Familiebilledet fra 1895 skriver 'gift Lauritzsen'.
+                          ♀ Ida Henriette Marie Mathilde Gedde (kaldet Tulle) (b.1882-05-24 d.1961-05-04) 📜
+                            📎 kilder: Familiedokument: 'Familien Gedde' med familiebilledet fra 1895
+                            📝 Holdt sammen med broderen Stephan det gamle hjem ved lige efter forældrenes død.
+                          ♂ Poul Alexander Johan Julius Kleist Gedde (kaldet Manse) (b.1884-04-16 d.1958) 📜
+                            📎 kilder: Familiedokument: 'Familien Gedde' med familiebilledet fra 1895
+                            📝 Familiebilledet skriver dødsåret '1858', en fejl for 1958.
+                          ♀ Ingeborg Gedde (b.1887-11-25 d.1970-05-03) 📜
+                            📎 kilder: Familiedokument: 'Familien Gedde' med familiebilledet fra 1895
+                            📝 Gift Lindegaard Knudsen.
+                        ♀ Emilie Sophie Frederikke Gedde (b.1842-07-07) 📜
+                          📎 kilder: LL:12-17170629
+                        ♀ Margrethe Ida Marie Gedde (b.1849-04-11) 📜
+                          📎 kilder: LL:12-17159973
+                        ♂ Ove Frederik Gedde (b.1850-12-11 d.1907-10-24) 📜
+                          📎 kilder: LL:12-17159130; LL:11-561887
+                      ♂ Wilhelm Edvardt Sophus von Gedde (b.1809) — Sekondløjtnant i Kronens Regiment (1834) 📜
+                        📎 kilder: LL:2-25989
+                      ♀ Henriette von Gedde (b.1819) 📜
+                        📎 kilder: LL:2-80375
+                    ♀ Christine Sophie von Kleist (b.1771-08-28 d.1862-03-31) 📜
+                      📎 kilder: PHT:1897; LL:5-673677
+                      📝 Født i Assens. Gift 1795 med sognepræst dr.theol. Edvard Snedorph Hammer (1767–1829), Herlufmagle, ejer af Viborggaard. De var plejeforældre for Ove Frederik Christopher Gedde. Hun var enke og ejede Viborggaard i 1850.
+                    ♂ Adam Ludvig Vilhelm von Kleist (b.1772-10-16 d.1851-10-06) — Kaptajn og kompagnichef 📜
+                      📎 kilder: PHT:1897; LL:5-674516
+                      📝 Født i Assens. Boede i 1850 på Viborggaard i Herlufmagle.
+                    ♂ Valentin Ulrik von Kleist (b.1773-12-31 d.1827-07-23) — Major, husarregimentet 📜
+                      📎 kilder: PHT:1897
+                    ♂ Frederik Christian von Kleist (b.1775-01-08 d.1848-05-21) — Major, Sjællandske Jægerkorps 📜
+                      📎 kilder: PHT:1897
+                    ♂ Carl Gottlieb von Kleist (b.1778-01-15 d.1849-07-26) — Generalmajor og kammerherre 📜
+                      📎 kilder: PHT:1897
+                    ♀ Juliane Frederikke Margrethe von Kleist (b.1781-12-02 d.1861-05-22) 📜
+                      📎 kilder: PHT:1897
+                      📝 Gift 1811 med Nicolai Wilhelm Gedde (1779–1833), norsk generalmajor og chef for Ingeniørkorpset.
+                    ♀ Henriette Louise von Kleist (b.1795-11-30 d.1827-04-12) 📜
+                      📎 kilder: PHT:1897
+                      📝 Gift 1813 med kaptajnløjtnant Johan Adolf von der Recke.
+                  ♀ Frederikke Louise von Kleist (b.1747-03-27 d.1814-05-29) 📜
+                    📎 kilder: PHT:1897
+            ♂ Bernd Erdmann von Kleist (b.1651-11-25 d.1701-12-26) — død i Helsingør — Dansk kaptajn ved Schønfeldts Regiment 1676; Dansk major og oberstløjtnant ved Schacks Regiment 📜  ★NY
+              📎 kilder: PHT:1897 s.96; VKA:Dubberow p.144 (II.81)
+              📝 Født på Groß-Tychow.blev som ung fængslet i Kolberg 1670 for 'ungdomsårsager'. Dansk kaptajn fra 1676, fangen ved Lund 1676, afskediget 1677. I dansk tjeneste igen fra 1684 ved Løwenschilds Regiment, fra nov 1684 ved Prinds Frederiks Regiment. Major 21/1 1688, oberstløjtnant 4/11 1688. Døde i Helsingør 26/12 1701, begravet i St. Mariæ Kirke.
+            ♂ Adam Vilhelm von Kleist (b.ca. 1656 d.ca. 1690) — Kejserlig kaptajn ved Løwenschilds Dragonregiment 📜  ★NY
+              📎 kilder: PHT:1897 s.99; VKA:Dubberow p.144 (II.83)
+              📝 Arvede Kiekow efter faderen og solgte det. I sin ungdom blev han lam i fødderne ved et ulykkestilfælde, men var 'så hurtig i ånden og så habil i forstanden', at han alligevel blev kejserlig kaptajn 1689. Gift med Cathrine Elisabeth von Kleist af Muttrin (datter af Pribislaff til Muttrin). Ingen sønner, men flere døtre.
+            ♂ Sebastian (Bastian) Henrik von Kleist (b.ca. 1658 d.1714) — død i Mandalatz, Pommern — Kaptajnløjtnant ved Løwenschilds Regiment 1684; Premierløjtnant ved Fodgarden 1685; Kaptajn ved Schacks Regiment 📜  ★NY
+              📎 kilder: PHT:1897 s.99; VKA:Dubberow p.144-145 (II.84)
+              📝 Fik ved arveskiftet halvparten af Groß-Tychow, som han byttede 1681 med Mandalatz, men købte den 1711 tilbage. Døde 1714 på Mandalatz. Gift med Lucie Juliane von Kleist (datter af Joachim Henning von Kleist af Groß-Tychow II.59 og Ilse Juliane von Creutz). Børn: Joachim Erdmann (c.1690-1745), Casimir Henning (1706-1755), Casimir (1709-ung), Carl Heinrich (1712), Sebastian Heinrich (1714-1774).
+            ♀ Herath Juliane von Kleist (b.ca. 1660) — i Groß-Tychow, Pommern 📜  ★NY
+              📎 kilder: PHT:1897 s.99-100; VKA:Dubberow p.144 (II.85)
+              📝 Ved faderens død enke efter Joachim Heinrich von Heydebreck af Schübben og Zuchen. 1682 forlovet med en 'Baron v. Borch', kurfyrstelig kammerretsråd i Berlin, senere gift med en Hr. v. Manteuffel. Begravet i Rendsborg 31/10 1802 (høj alder — muligvis en fejlskrivning for 1702).
+            ♂ Bernd Christian von Kleist (b.ca. 1675) 📜  ★NY
+              📎 kilder: PHT:1897 s.100; VKA:Dubberow p.144 (II.85)
+              📝 Søn af Christian von Kleists 2. ægteskab med Barbara Eleonora von Kalckstein. Arvede Oegeln og Kummeltitz efter moderen, men solgte Oegeln til stedfaderen Løwenschilds 2. hustru Marianne v. Plessen. Gift med ... v. Ritter fra Lausitz.
+            ♀ [Datter von Kleist, gift i Schlesien] (b.ca. 1677) 📜  ★NY
+              📎 kilder: PHT:1897 s.100; VKA:Dubberow p.144 (II.85)
+              📝 Datter af Christian von Kleist og Barbara Eleonora von Kalckstein. Navn ikke nedskrevet i Harbou eller Dubberow. Gift i Schlesien.
+  ♂ Reimer von Kleist [COLLATERAL — line extinct before 1672] (b.ca. 1425 d.efter 1477 (sandsynligvis til 1525)) — i Groß Tychow, Bagpommern — Rådsherre; hertugelig rådgiver for Bogislaw X af Pommern 📜  ★NY
+    📎 kilder: VKA:Dubberow p.117 (lineage table: 'Descendants of Reimar II.2, extinct before 1672'); VKA:Dubberow p.122 (II.2 Reimer)
+    📝 BROR af Bartes II.3, ikke vores direkte aner. Nævnt i det fælles lenbrev af 13. april 1477 som 'Reymer' — bror til Bartes på Tychow. Optaget som nær rådgiver hos Hertug Bogislaw X sammen med kansler Nicolaus Damitz m.fl. Familien von Kleists overlevering siger, at han nåede en alder af omkring 100 år. Hans linje uddøde før 1672 ifølge VKA Dubberows lineage table (s.117) — derfor kan han IKKE være …
+    ♂ Bartez (den Yngre) von Kleist [COLLATERAL — cousin of Andreas II.11] (b.ca. 1465 d.ca. 1527) — i Groß Tychow, Bagpommern — Godsejer på Groß-Tychow 📜  ★NY
+      📎 kilder: VKA:Dubberow p.122-123 (II.6 Bartez den Yngre, søn af II.2 Reimer); VKA Dubberow lineage table: 'Descendants of Reimar II.2, extinct before 1672'
+      📝 Søn af Reimer II.2. Kaldet 'den Yngre' for at skelne fra sin onkel Bartes II.3 (vor direkte aner). Tidligere version af denne fil fejlagtigt anset ham for at være Andreas II.11's far — det er han IKKE. Hans linje uddøde før 1672.
+
+♀ Hustru til Bartes von Kleist, f. von Briesen (b.ca. 1430) — i Pommern 📜  ★NY
+  📎 kilder: VKA:Dubberow p.122 (II.3 Bartes — hustru f. von Briesen)
+  📝 Bartes II.3's hustru ifølge von der Osten. Hendes slægt var von Briesen. Tre sønner: Martin II.9, Jacob II.10, Andreas II.11, samt en datter gift med Volze 'auf Raddatz' (IV.11).
+
+♀ Hustru til Reimer von Kleist, f. von Born af huset Grassee [COLLATERAL] (b.ca. 1430) — i Pommern 📜  ★NY
+  📎 kilder: VKA:Dubberow p.122 (II.2 Reimer — hustru f. von Born)
+  📝 Reimer II.2's hustru ifølge von der Osten. Hendes slægt var von Born af Grassee-huset. Tre sønner: Bartez II.6 (den Yngre), Tessen II.7, Joachim II.8 — alle denne collateral linje uddøde før 1672.
+
+♀ Hustru til Bartez von Kleist, f. von Zozenow [COLLATERAL] (b.ca. 1470) — i Pommern 📜  ★NY
+  📎 kilder: VKA:Dubberow p.122-123 (II.6 Bartez den Yngre — hustru f. von Zozenow)
+  📝 Bartez II.6 the Younger's hustru. Hendes slægt var von Zozenow (ikke von Briesen — det var Bartes II.3's hustru). Seks sønner: Michael, Joachim, Hans, Tessen, Christian, Georg (II.15-20).
+
+♀ Hedwig von Heydebreck (b.ca. 1558) — i Schubben, Pommern ❓  ★NY
+  📎 kilder: VKA:Dubberow p.122 (II.21 Carsten)
+  📝 Carstens 2. hustru (gift ca. 1575). Ifølge von der Osten var hun hans niece: datter af Jacob von Heydebreck af Schubben og Sophia von Kleist (Carstens fætters søster). At gifte sig med en afdød broders datter var en almindelig praksis i den pommerske adel for at holde gods i familien.
+
+♂ Niels Mogensen Krag (b.1574-05-14 d.1650-05-14) — i Trudsholm, Kirke Sonnerup, Roskilde — Adelsmand, historiker 📜  ★NY
+  📎 kilder: WikiTree Krag-235
+  📝 Forfatter til 'Historia Danica' m.v. Far til Otte Krag.
+  ♂ Otte Nielsen Krag (b.1611-08-29 d.1666-02-04) — i Agerkrog, Syddanmark — Adelsmand 📜  ★NY
+    📎 kilder: WikiTree Krag-235
+    📝 Niels Krags far. Søn af Niels Mogensen Krag (1574-1650) og Jytte Styggesdatter Høeg (1589-1659).
+    ♂ Niels Krag (b.1653-08-22 d.1713-02-22) — i Danmark — Gehejmeråd; Dansk diplomat 📜  ★NY
+      📎 kilder: WikiTree Krag-235; Danmarks Adels Aarbog
+      📝 Frederikke Louise Krags far. Søn af Otte Nielsen Krag (1611-1666) og Anne Holgersdatter Rosenkrantz (1619-1688).
+      ♀ Frederikke Louise Krag 📜
+        📎 kilder: PHT:1897; WikiTree Krag-235; brindt.dk/erik_brindt/10350.htm
+        📝 Forældre verificeret nov 2026: Niels Krag (1653-1713) og Sophie Nielsdatter Juel (1664-1722). Født i København 1696, død 20/7 1766 på Skovsbo Gods.
+        ∞ ♂ Christian Rosenkrantz til Skovsbo — Gehejmeråd; Godsejer, Skovsbo (Fyn) 📜
+          📎 kilder: PHT:1897; Wikipedia: Christian Rosenkrantz
+
+♀ Elisabeth von Manteuffel af Pribbernow og Broitz (b.ca. 1575) — i Pribbernow, Pommern 📜  ★NY
+  📎 kilder: VKA:Dubberow p.123 (II.39 Bernd — hustru Elisabeth von Manteuffel)
+  📝 Hustru til Bernd. Datter af Christoph von Manteuffel på Pribbernow og Broitz. Tre børn kendes: Christian (II.60, d.1679), Andreas Joachim (II.61) og Dorothea Hedwig (gift Asmus von Kleist på Kowalk og Dimkuhlen).
+
+♂ Holger Rosenkrantz 'den Lærde' til Rosenholm (b.1577-06-02 d.1642-10-04) — i Danmark, død i Rosenholm — Adelsmand, forfatter, teolog; Lensbaron til Rosenholm 📜  ★NY
+  📎 kilder: Dansk Biografisk Leksikon; Finn Holbek
+  📝 En af Danmarks lærde adelige. Søn af Jørgen Rosenkrantz til Rouenberg og Mette Hallandsdatter Munk. Hans omfattende skrifter og teologiske arbejde gjorde ham kendt som 'den Lærde'.
+
+♀ Sophie Axelsdatter Brahe (b.1578-05-11 d.1646) — i Elvedgaard gods, Veflinge sogn, Odense 📜  ★NY
+  📎 kilder: geni.com/people/Sophie-Brahe/6000000006910675540
+  📝 Hustru til Holger den Lærde. Søster til astronomen Tycho Brahe. Datter af Axel Brahe til Elvedgaard.
+
+♂ Holger Axelsen Rosenkrantz (b.1586-05-09 d.1647-07-31) — i Glimminge, Skåne (dengang Danmark) 📜  ★NY
+  📎 kilder: WikiTree Krag-235
+  📝 Anne Rosenkrantz' far. Til Glimminge.
+  ♀ Anne Holgersdatter Rosenkrantz (b.1619 d.1688) — i Danmark 📜  ★NY
+    📎 kilder: WikiTree Krag-235
+    📝 Niels Krags mor. Datter af Holger Axelsen Rosenkrantz (1586-1647) og Lene Mogensdatter Gyldenstierne (1588-1639).
+
+♀ Lene Mogensdatter Gyldenstierne (b.1588-05-17 d.1639-01-30) 📜  ★NY
+  📎 kilder: WikiTree Krag-235
+  📝 Hustru til Holger Axelsen Rosenkrantz.
+
+♀ Jytte Styggesdatter Høeg (b.1589-11-19 d.1659-07-11) — i Vang, Sulsted, Ålborg 📜  ★NY
+  📎 kilder: WikiTree Krag-235
+  📝 Hustru til Niels Mogensen Krag.
+
+♂ Erik Pedersen Juel til Alsted (b.1591 d.1657-02-13) — i Alsted Øster Nykirke, Nørvang Herred, Vejle 📜  ★NY
+  📎 kilder: WikiTree Krag-235
+  📝 Admiral Niels Juels far.
+  ♂ Niels Juel (b.1629-05-08 d.1697-04-08) — i Christiania (Oslo), Norge — Admiral; Sejrherre ved Køge Bugt 1677 📜  ★NY
+    📎 kilder: WikiTree Krag-235; Dansk Biografisk Leksikon
+    📝 Sophie Juels far. En af Danmarks største admiraler; sejren ved Køge Bugt 1. juli 1677 er blandt de mest berømte i dansk søkrigshistorie. Søn af Erik Juel til Alsted (1591-1657) og Sophie Clausdatter Sehested (1594-1658).
+    ♀ Sophie Nielsdatter Juel (b.1664-08-28 d.1722-10-05) — i Danmark — Adelsdame 📜  ★NY
+      📎 kilder: WikiTree Krag-235
+      📝 Hustru til Niels Krag. Datter af Admiral Niels Juel (1629-1697) og Margrethe Ulfeldt (1641-1703).
+
+♀ Sophie Clausdatter Sehested (b.1594-07-14 d.1658-10) — i Højris Slot, Ljørslev, Morsø Sønder Herred 📜  ★NY
+  📎 kilder: WikiTree Krag-235
+  📝 Admiral Niels Juels mor.
+
+♂ Jørgen Holgersen Rosenkrantz til Kjeldgård (b.1607-07-11 d.1675-01-08) — i Rosenholm Slot, Hornslet, Øster Lisbjerg, død i Kjeldgård — Lensbaron; Søn af Holger 'den Lærde' Rosenkrantz 📜  ★NY
+  📎 kilder: Dansk Biografisk Leksikon; finnholbek.dk parental_line personID=I6154; geni.com/people/Jørgen-Rosenkrantz-til-Kjeldgaard/6000000004380261996
+  📝 Søn af Holger Rosenkrantz 'den Lærde' (1577-1642) og Sophie Axelsdatter Brahe (1578-1646). Farbror til Christian Rosenkrantz til Skovsbo.
+  ♂ Jens Jørgensen Rosenkrantz (b.1640-11-28 d.1695-01-13) — i Danmark, død i Danmark — Etatsråd; Landsdommer 📜  ★NY
+    📎 kilder: Wikipedia: Christian Rosenkrantz; brindt.dk/erik_brindt/10359.htm; finnholbek.dk
+    📝 Far til Christian Rosenkrantz til Skovsbo. Søn af Jørgen Holgersen Rosenkrantz til Kjeldgård (1607-1675) og Christence Jensdatter Juel (1612-1680).
+
+♀ Vibeke Podebusk (b.1608-05-02 d.1645-03-01) — i Krapperup Gods, Luggunde, Skåne 📜  ★NY
+  📎 kilder: WikiTree Krag-235
+  📝 Margrethe Ulfeldts mor.
+  ♀ Margrethe Knudsdatter Ulfeldt (b.1641-06-17 d.1703-05-01) — i Salling Østergaard, Åsted, Viborg 📜  ★NY
+    📎 kilder: WikiTree Krag-235
+    📝 Hustru til Admiral Niels Juel. Datter af Knud Ulfeldt (1609-1657) og Vibeke Podebusk (1608-1645).
+
+♂ Knud Ulfeldt (b.1609 d.1657-09-28) 📜  ★NY
+  📎 kilder: WikiTree Krag-235
+  📝 Margrethe Ulfeldts far.
+
+♀ Christence Jensdatter Juel til Kjeldgård (b.1612 d.1680-11-11) — i Danmark 📜  ★NY
+  📎 kilder: finnholbek.dk; geni.com
+  📝 Hustru til Jørgen Holgersen Rosenkrantz. Datter af Jens Juel (adelsfamilien Juel).
+
+♂ Mogens greve Friis til Frijsenborg (b.1623-04-16 d.1675-02-10) — i Danmark — Lensgreve til Frijsenborg 📜  ★NY
+  📎 kilder: Danmarks Adels Aarbog; brindt.dk/erik_brindt
+  📝 Stiftede Grevskabet Frijsenborg. Dorte komtesse Friis-Frijsenborg var hans datter.
+  ♀ Dorte komtesse Friis-Frijsenborg (b.efter 1652 d.1681) — i Frijsenborg 📜  ★NY
+    📎 kilder: Wikipedia: Christian Rosenkrantz; brindt.dk/erik_brindt/10359.htm
+    📝 Mor til Christian Rosenkrantz til Skovsbo. Datter af Mogens greve Friis (1623-1675) og Anne Christensdatter Sehested (1631-1661).
+
+♀ Anne Christensdatter Sehested (b.1631 d.1661) — i Danmark 📜  ★NY
+  📎 kilder: brindt.dk/erik_brindt
+  📝 Hustru til Mogens Friis. Datter af Christen Sehested.
+
+♀ Barbara Eleonora von Kalckstein (b.ca. 1655 d.1687) — i Knauten, Nedre Lausitz 📜  ★NY
+  📎 kilder: PHT:1897 s.97 ff; VKA:Dubberow p.143 (II.60)
+  📝 Christian von Kleists 2. hustru (gift ca. 1670). Datter af General von Kalkstein af Knauten. Efter Christians død 1679 giftede hun sig 1688 med Hannibal Poulsen, der blev rigsgreve von Løwenschild. Hun døde 1687.
+
+♀ Elisabeth Hedvig von Schack (b.ca. 1655) — i Stolzenburg, Pommern 📜  ★NY
+  📎 kilder: PHT:1897 s.96; VKA:Dubberow p.144 (II.81)
+  📝 Bernd Erdmanns hustru. Datter af Christian Siegismund von Schack til Stolzenburg m.fl. og Anna von Ramin. Søster til den danske generalmajor Hans Christian Schack (†1706). Hun fik en søn og 4 døtre.
+
+♂ Samuel Christoph Gedde (b.1691-07-14 d.1766-02-02) — i København, død i København — Officer: underkonduktør (1710) til generalmajor (1760) ❓
+  📎 kilder: Store norske leksikon: Gedde (slekt)
+  📝 Far til ti børn, bl.a. Hans Christopher (f. 1738). Ifølge Store norske leksikon har den borgerlige Gedde-slægt sandsynligvis ingen forbindelse til den uddøde adelsslægt Gjedde, som Trankebars grundlægger, admiral Ove Gjedde, tilhørte.
+  ♂ Hans Christopher Gedde (b.1738 d.1817) — Generalmajor (dansk-norsk hær) ❓
+    📎 kilder: Store norske leksikon: Gedde (slekt); lokalhistoriewiki.no: Gedde (borgerlig slekt); Geni: Ove Samuel Gedde
+    📝 Stamfar til den norske Gedde-slægt. Hans søn Nicolai Wilhelm Gedde (1779–1833) giftede sig med Frederikke Louises søster. Geni angiver ham som far til Ove Samuel, men det er ikke bekræftet i en primærkilde.
+    ∞ ♀ Øllegaard Sophie Fischer (b.ca. 1752) ❓
+      📎 kilder: lokalhistoriewiki.no: Gedde (borgerlig slekt); Geni: Ove Samuel Gedde
+
+♀ Charlotte Sophie Hedemann (b.1876-01-22 d.1955-10-06) 📜
+  📎 kilder: Familiedokument: 'Familien Gedde' med familiebilledet fra 1895
+
+♀ Marie Louise Hansen (b.1898-09-05 d.1989-01-27) 📜
+  📎 kilder: Familiedokument: 'Familien Gedde' med familiebilledet fra 1895
+
+♀ Elvine Jørgensen (b.1909-05-12 d.1990-01-11) 📜
+  📎 kilder: Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)
+
+♂ Knud Poulsen (b.1912-03-20 d.2003-05-12) 📜
+  📎 kilder: Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)
+
+♀ Luise Petersen (b.1917-02-17) 📜
+  📎 kilder: Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)
+
+♂ Thorkild Sylvest Hansen (b.1917-05-20) 📜
+  📎 kilder: Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)
+
+♂ Hans Hansen 📜
+  📎 kilder: LL:13-4977283
+  ∞ ♀ Ellen Kock 📜
+    📎 kilder: LL:13-4977284
+  ♀ Anne Christine Hansen 📜
+    📎 kilder: LL:13-4977282; LL:12-14358777; LL:13-432736; Familiens håndskrevne anetavle
+    📝 Familien fortæller, at hun en juleaften faldt ned i kælderen og brækkede halsen.
+    ∞ ♂ Rasmus Jensen (b.1838-10-16) — i Broager 📜
+      📎 kilder: LL:12-15007344; LL:13-4977279
+
+♂ Johan Alexander Ludvigsen 📜
+  📎 kilder: LL:12-17734084
+  ∞ ♀ Margaretha Dorothea Elisabeth Bølin 📜
+    📎 kilder: LL:12-17734085
+
+♂ Johan Valentin Schubart — Major i kavaleriet 📜
+  📎 kilder: PHT:1897
+  ∞ ♀ Christiane Sophie Woldenberg 📜
+    📎 kilder: PHT:1897
+
+♂ Pribislaff von Kleist — Godsejer: Muttrin, Borntin, Döbel og Drenow (Pommern) 📜
+  📎 kilder: PHT:1897
+  ∞ ♀ Esther von Kameke 📜
+    📎 kilder: PHT:1897
+
+♂ Georg von Kleist — Godsejer, Gross Tychow (Pommern) 📜
+  📎 kilder: PHT:1897
+  ∞ ♀ Christina von Woyten 📜
+    📎 kilder: PHT:1897; VKA:Dubberow p.123
+
+♂ Benedictus (Benedict) von Woyten — Princely Pomeranian captain of Bütow; Lord of Versin 📜
+  📎 kilder: VKA:Dubberow p.123
+  📝 Died after 6 December 1584. Father of Christina von Woyten.
+
+♀ Elisabeth von Stojentin 📜
+  📎 kilder: VKA:Dubberow p.123
+  📝 Of Giesebitz; mother of Christina von Woyten.
+
+♂ Otto von Below of Pustamin 📜
+  📎 kilder: VKA:Dubberow p.123
+  📝 Christina von Woyten’s first husband; she was his widow when she married Georg von Kleist.
+
+♂ Rasmus Jensen ✅
+  📎 kilder: LL:13-4942618
+  📝 Nævnt som far i Jens Jensens vielse.
+  ∞ ♀ Anna Maria Margaretha Christiansen f. Christiansen ✅
+    📎 kilder: LL:13-4942619
+  ♂ Jens Jensen 📜
+    📎 kilder: LL:13-4942617 (vielse Broager 1834); LL:13-4977280
+    📝 Gift 1834 i Broager; vielsen nævner begge forældrepar.
+    ∞ ♀ Ane Cathrine Christensen 📜
+      📎 kilder: LL:13-4942620 (vielse Broager 1834); LL:13-4977281
+
+♂ Andreas Christensen ✅
+  📎 kilder: LL:13-4942621
+  📝 Nævnt som far i Ane Cathrine Christensens vielse.
+  ∞ ♀ Anna Maria Matzen f. Matzen ✅
+    📎 kilder: LL:13-4942622
+
+==============================================================================
+BI-SLÆGTER: linje 'frederiksen' — ikke-tilknyttede ankre og sidegrene
+==============================================================================
+
+♂ Jens Paulsen (b.ca. 1799) — Daglejer, Sønderborg (1845) 📜
+  📎 kilder: LL:13-4995190; LL:4-956554; LL:13-4957008; LL:11-7302859
+  📝 Gift 24. feb. 1833 i Ulkebøl med Cathrine Marie Lausen.
+  ∞ ♀ Cathrine Marie Lausen (Lorenzen) (b.ca. 1805) 📜
+    📎 kilder: LL:13-4957009; LL:11-7302860
+  ♀ Anna Kirstine Marie Paulsen (b.1834-11-11 d.1893-05-22) — i Ulkebøl, død i Broager 📜
+    📎 kilder: LL:12-15092343; LL:13-4957007; LL:11-7302858
+    ∞ ♂ Peter Christian Frederiksen (b.1839-05-04) — i Rinkenæs 📜
+      📎 kilder: LL:12-14275364; LL:13-4957004
+    ♂ Lorenz Heinrich Frederiksen (b.1870-01-23 d.1957-01-04) — i Broager, død i Egernsund — Arbejdsmand, Egernsund (1932) 📜
+      📎 kilder: LL:12-14989547; LL:12-14313283; LL:13-1051959; LL:25-5953605
+      📝 Gift med Cathrina Maria Magdalena Hansen 8. okt. 1895 i Broager. Gudfar og navnefar til Lorenz i 1933. Medlem af den danske forening DSK i 1942 (medlemskort i Broagerlands Lokalarkiv).
+      ∞ ♀ Cathrina Maria Magdalena Hansen (b.1872-12-28) — i Broager 📜
+        📎 kilder: LL:12-14990795; LL:13-1051962
+      ♂ Søn (unavngivet) (b.1896 d.1896-05-19) 📜
+      ♀ Eline Christine Frederiksen (b.1897-04-28) 📜
+      ♂ Barn af Lorenz og Cathrina (b.1905-07-15) 📜
+    ♂ Hans Frederik Frederiksen (b.1862-10-28) 📜
+    ♂ Jens Frederiksen (b.1865-07-04) 📜
+    ♀ Catharina Maria Frederiksen (b.1867-04-24) 📜
+      📝 Gift med Hans Hendrik Ohlsen 17. juni 1888 i Broager.
+    ♀ Anna Christine Maria Frederiksen (b.1874-02-10) 📜
+
+♂ Peter Hansen (b.1803) — Teglværksarbejder, Egernsund 📜
+  📎 kilder: Link Lives: folketællinger for Broager sogn 1845–60
+  📝 Født i Brejning ifølge folketællingen.
+  ∞ ♀ Anna Christina Jensen (b.1813) 📜
+    📎 kilder: Link Lives: folketællinger for Broager sogn 1845–60
+  ♂ Carl Peter Hansen (b.1842-05-24 d.1909) — i Egernsund 📜
+    📎 kilder: LL:12-14990796; LL:13-1051963
+    ∞ ♀ Eline Helene Marie Hansen (b.1850-03-24 d.1894) 📜
+      📎 kilder: LL:12-14990797; LL:13-1051964
+
+♀ Anna Christina Peters (Christensen) (b.ca. 1815) 📜
+  📎 kilder: LL:13-4957006
+  📝 Født i Vester Hostrup ifølge folketællingen.
+  ∞ ♂ Friedrich Friedrichsen (Frederik Frederiksen) 📜
+    📎 kilder: LL:13-4957005
+
+==============================================================================
+BI-SLÆGTER: linje 'larsen' — ikke-tilknyttede ankre og sidegrene
+==============================================================================
+
+♀ Kirsten Andersdatter (b.1728 d.1802) ✅
+  📎 kilder: Familiens håndskrevne anetavle
+  ∞ ♂ Christen Nielsen (b.1744 d.1804) — Hennetved ✅
+    📎 kilder: Familiens håndskrevne anetavle
+  ♂ Jørgen Christensen (b.? d.1800) ✅
+    📎 kilder: Familiens håndskrevne anetavle
+    📝 Født i Hennetved, død 1800 i Klæsø.
+    ∞ ♀ Ane Cathrine Nielsdatter (b.1768 d.1827) ✅
+      📎 kilder: Familiens håndskrevne anetavle
+    ♂ Christen Jørgensen (b.1794) ✅
+      📎 kilder: Familiens håndskrevne anetavle
+      📝 Født 1794 i Klæsø, død i Skrøbelev. Far til smeden Jørgen Christensen. Født i Klæsø.
+      ∞ ♀ Maren Hansdatter (b.1795 d.1849) ✅
+        📎 kilder: Familiens håndskrevne anetavle
+      ♂ Jørgen Christensen (b.1829-03-09 d.1895) — i Skrøbelev — Smed og husmand på Nordenbrogård; Boede i Kurvemose 📜
+        📎 kilder: LL:12-15556965; Familiens håndskrevne anetavle
+        📝 Gift i Magleby ca. 1850 med Bodil Margrethe Clausdatter. De fik 9 børn; den ældste søn og den yngste datter blev i Danmark, resten udvandrede til Amerika. Jørgen og Bodil rejste også derover, men kom hjem igen efter nogle år.
+        ∞ ♀ Bodil Margrethe Clausdatter (Clausen) (b.1829-03-28 d.1890) — i Magleby (Nordenbro), Langeland 📜
+          📎 kilder: LL:12-15556966; Familiens håndskrevne anetavle
+        ♀ Ane Marie Jørgensen (b.1859-09-07 d.1930) — i Skrøbelev, død i Langø, Lindelse Nor 📜
+          📎 kilder: LL:12-15556964; LL:13-5085957; LL:9-1827831; LL:25-805445
+          📝 Født i Kurvemose. Tjente på Baygården i Rudkøbing, der som den første på Langeland havde eget mejeri, og blev uddannet mejerske. Stod for økonomien på Langø. Den 7. sept., på hendes fødselsdag, gik hun som den første i land på Langeland ad den nye dæmning. Død på Langø 1930.
+          ∞ ♂ Marius Michelsen Christensen (b.1858-04-14) — i Rudkøbing — Landbruger og ejer af øen Langø (1894–); Bygger af Langø-dæmningen (1911); Arbejdsmand ved Rudkøbing havn og Frihavnen i København 📜
+            📎 kilder: LL:12-15570702; LL:13-5085956
+          ♀ Kristine Adamine Margrethe Christensen (b.1884-10-06 d.1975-04-19) — i Rudkøbing, død i Magleby (Nordenbro), Langeland — Tjenestepige, Humble (1901) 📜
+            📎 kilder: LL:12-15579549; LL:14-3122525; LL:9-1908174; LL:13-2027012
+            📝 Datter af 'Kongen af Langø', Marius Christensen. Hun er Gerdas mormor. Kom som 10-årig til Langø i 1894, da forældrene købte øen. Død 19. april 1975 i Nordenbro.
+            ∞ ♂ Axel Erik Holgersen (b.1882-07-26 d.1962) — i Tved (Svendborg), død i Magleby (Nordenbro), Langeland — Bødkerlærling, Humble (1901); Bødker, Kædeby (1904–35); Bødker og husmand 📜
+              📎 kilder: LL:12-15691757; LL:13-2027009
+            ♀ Karen Margrethe Holgersen (b.1906-09-18 d.1992-04-18) — i Humble (Kædeby), Langeland, død i Svendborg 📜
+              📎 kilder: DFS:kbid157287; LL:23-771415; Familiens håndskrevne anetavle
+              📝 Datter af bødker Axel Erik Holgersen og Kristine Adamine Margrethe f. Christensen fra Langø. Konfirmeret 3. okt. 1920 i Humble. Død 18. april 1992 i Svendborg.
+              ∞ ♂ Laurits Edvard Larsen (b.1898-12-24 d.1980-07-28) — i Magleby (Nordenbro), Langeland, død i Magleby (Nordenbro), Langeland — Tømrer, Nordenbro (1935); Tømrer- og snedkermester (1925) 📜
+                📎 kilder: LL:12-6022525; LL:14-3799804
+          ♂ Christian Anton Christensen (b.1879-06-17) — i Skrøbelev 📜
+            📎 kilder: LL:12-15557976
+            📝 Født i Skrøbelev før forældrenes vielse.
+          ♂ Christian Jørgen Christensen (b.1887-12-01) — i København 📜
+            📎 kilder: LL:12-7820110; LL:14-3121379
+            📝 Født i København; konfirmeret i Humble 1902. Ikke fundet i de danske folketællinger efter 1901 og er måske en af udvandrerne.
+          ♀ Martha Hansine Christensen (b.1890-05-25) — Tjenestepige (1911–16) 📜
+            📎 kilder: LL:12-15581805; LL:23-2150898; LL:24-1720949
+          ♂ Georg Johannes Christensen (b.1892-10-10) 📜
+            📎 kilder: LL:12-5963476; LL:25-805446
+            📝 Hjemme på Langø i 1921.
+          ♂ Jens Peter Christensen (b.1895-01-24) 📜
+            📎 kilder: LL:12-4983047; LL:14-3121869
+            📝 Født på Langø.
+          ♂ Valdemar Emil Christensen (b.1899-03-06) — Overtog Langø efter forældrene 📜
+            📎 kilder: LL:12-4983393; LL:25-805447; Lisbeth Skov f. Christensen: 'En Langø-piges erindringer'
+            📝 Født på Langø; hjemme i 1921. Den yngste søn. Gik i Humble Friskole og sejlede selv til Bogø. Hjalp forældrene på deres gamle dage, overtog Langø og fiskede ål, torsk og rejer i Lindelse Nor. Far til Lisbeth Skov, der har skrevet 'En Langø-piges erindringer'.
+        ♂ Peder Madsen Clausen Jørgensen (b.1850-02-06) — i Skrøbelev 📜
+          📎 kilder: LL:12-15555842 (dåb Skrøbelev 1850)
+        ♂ Mads Andersen Jørgensen (b.1852-09-17) — i Skrøbelev 📜
+          📎 kilder: LL:12-15555956 (dåb Skrøbelev 1852)
+        ♂ Claus Jørgensen (b.1857-03-19) — i Skrøbelev 📜
+          📎 kilder: LL:12-15556146 (dåb Skrøbelev 1857)
+        ♂ Marius Christian Jørgensen (b.1862-09-01) — i Skrøbelev 📜
+          📎 kilder: LL:12-15556364 (dåb Skrøbelev 1862)
+        ♂ Hans Jørgensen (b.1870-05-09) — i Skrøbelev 📜
+          📎 kilder: LL:12-15557487 (dåb Skrøbelev 1870)
+        ♂ Niels Rasmussen Jørgensen (b.1872-12-05 d.1873) — i Skrøbelev 📜
+          📎 kilder: LL:12-15557632 (dåb Skrøbelev 1872); LL:11-7443684 (begravet 1873)
+          📝 Død som barn.
+        ♀ Jørgine Margrete Andersine Jørgensen (b.1875-07-30) — i Skrøbelev 📜
+          📎 kilder: LL:12-15558734 (dåb Skrøbelev 1875)
+
+♂ Thomas Jensen (b.ca. 1731) — Bonde og husmand i Magleby (1787) ✅
+  📎 kilder: LL:0-655526 (FT 1787 Magleby)
+  📝 Sandsynligvis far til Lars Thomsen. Husmand i Magleby 1787 med hustruen Giertrud Christensdatter og sønnen Lars. Den førstefødte sønnesøn fik navnet Thomas.
+  ∞ ♀ Giertrud Christensdatter (b.ca. 1753) ✅
+    📎 kilder: LL:0-655527 (FT 1787 Magleby)
+  ♂ Lars Thomsen (b.ca. 1784) — i Magleby (Nordenbro), Langeland 📜
+    📎 kilder: LL:2-864880 (FT 1834 Magleby); LL:3-988512 (FT 1840); LL:4-1084759 (FT 1845); LL:5-1077810 (FT 1850)
+    📝 Født i Magleby. Gårdfæster i Magleby, Langeland. Gift ca. 1816 med Anne Cathrine Jensdatter fra Fangel på Fyn; børn: Thomas (1817), Karen (1818), Jens (1820), Laurine (1823), Johanne Marie (1825), Peder Christian (1830) og Lars (1832). Sandsynligvis den Lars Thomasen, der 1801 tjente i Magleby, søn af husmand Thomas Jensen (FT 1787). MyHeritage-træet gør Lars Larsens far til en Lars Larsen f. 1771…
+    ∞ ♀ Anne Katrine Jensdatter (b.ca. 1789) 📜
+      📎 kilder: LL:5-1077811 (FT 1850, født i Fangel); LL:2-864881 (FT 1834 Magleby)
+    ♂ Lars Larsen (b.1832-08-30 d.1907-04-24) — i Magleby (Nordenbro), Langeland, død i Magleby (Nordenbro), Langeland — Daglejer ved landbruget, Magleby (1901) 📜
+      📎 kilder: LL:12-16285744; LL:13-5236614; LL:12-16296349; LL:7-1520193
+      📝 Gift 27. aug. 1859 i Magleby (Langeland) med Maren Christiansen. Død 24. april 1907 i Bøsseløkke, Nordenbro, 74 år (dødsregistret i Magleby og dødslisten for Sydlangeland: 'fhv. husmand, Bøsseløkke, Nordenbro, 74'). MyHeritage-træet har fejlagtigt 1904 og angiver selvmord; det sidste kan ikke bekræftes. Tvillingebroderen Anders blev hjemmedøbt og døde straks efter fødslen.
+      ∞ ♀ Maren Christiansen (b.1837-05-03 d.1923-12-28) — i Magleby (Nordenbro), Langeland 📜
+        📎 kilder: LL:12-16287085; LL:13-5236615
+      ♂ Lars Thomsen Larsen (b.1859-11-01 d.1915-12-22) — i Magleby (Nordenbro), Langeland, død i Magleby (Nordenbro), Langeland — Daglejer, Nordenbro; Husmand, Fredmose, Nordenbro 📜
+        📎 kilder: LL:12-16296348; LL:23-1129713; LL:11-3884819 (død Magleby 1915); Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)
+        📝 I folketællingen 1911 bor han i Magleby med hustruen Hansine og sønnerne Aksel Peder, Hans Sigurd og Laurits Edvard. Hansine er enke i 1921. Gift 26. nov. 1881 i Magleby med Hansine Pedersen (Petersen), datter af Peder Bertelsen. Døde 22. dec. 1915, 56 år, husmand i Fredmose, Nordenbro. Familiens anetavle: 'Daglejer … Fredmose, Nordenbro. De mistede 5 børn.' Vi kender fire, der døde: Olga Mathilde…
+        ∞ ♀ Hansine Petersen (b.1859-12-01) — i Magleby (Nordenbro), Langeland 📜
+          📎 kilder: LL:12-16299531; LL:23-1129714
+        ♂ Axel Peter Marius Larsen (Aksel Peder) (b.1888-02-13 d.1911-03-05) — død i Magleby (Nordenbro), Langeland — Tjenestekarl, Fredmose, Nordenbro 📜
+          📎 kilder: LL:23-1129715; LL:11-3133726 (død Magleby 1911); Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)
+          📝 Døde 5. marts 1911, 23 år. Folketællingen 1911 skriver Aksel Peder.
+        ♂ Hans Sigurd Larsen (b.1894-04-13 d.1911-11-24) — død i Magleby (Nordenbro), Langeland — Tjenestekarl, Fredmose, Nordenbro 📜
+          📎 kilder: LL:23-1129716; LL:11-3133783 (død Magleby 1911); Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)
+          📝 Døde 24. nov. 1911, 17 år.
+        ♂ Otto Peter Christian Larsen (Otto Kristian) (b.1883-07-05 d.1910-10-25) — i Magleby (Nordenbro), Langeland — Forvalter, Kærbygård, Jylland (tidl. Fredmose) 📜
+          📎 kilder: LL:12-16292724 (dåb Magleby 1883); LL:11-3133695 (død Magleby 1910); Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)
+          📝 Født i Magleby. Døde 25. okt. 1910, 27 år, og blev begravet i Magleby.
+        ♀ Olga Mathilde Larsen (b.1885-09-26 d.1894) — i Magleby (Nordenbro), Langeland 📜
+          📎 kilder: LL:12-16294268 (dåb Magleby 1885); LL:11-3133917 (begravet 1894)
+          📝 Født i Magleby. Død som barn.
+        ♂ Christen (Kresten) Henriksen Jørgensen (b.1877-11-03) — i Magleby (Nordenbro), Langeland 📜
+          📎 kilder: LL:12-16292169 (dåb Magleby 1877); LL:7-1520329 (FT 1880); LL:22-1229414 (FT 1890); LL:14-3797502 (konfirmation 1893)
+          📝 Født 3. nov. 1877 i Søndenbro, Magleby sogn, med Lars Thomsen Larsen som far og Marthe Jørgensen som mor. Lars var 18 år. Kresten boede i 1880 og 1890 hos Jørgen Christensen og Karen Andersen i Magleby, som 'andet' (plejebarn). Konfirmationen 1893 og vielsen 1907 nævner begge Lars Thomsen Larsen som far. Konfirmationsindekset har fejlagtigt fødselsdatoen 23. feb. 1879. Dødsår og sted er ikke funde…
+          ∞ ♀ Marie Laurentine Christiansen (b.1888-06-26) — i Magleby (Nordenbro), Langeland 📜
+            📎 kilder: LL:13-2517746 (vielse Magleby 1907); LL:23-1130322 (FT 1911)
+          · Barn af Kresten og Marie Laurentine (navn skjult i indekset) (b.1916-01-15) 📜
+            📎 kilder: LL:12-6025700 (dåb Magleby 1916)
+      ♀ Karoline Larsen (b.ca. 1864) 📜
+        📎 kilder: LL:22-1228477
+      ♀ Jensine Marentha Larsen (b.ca. 1870) 📜
+        📎 kilder: LL:7-1520195; MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
+      ♀ Laurentine Sophie Larsen (b.1873-07-08 d.1953-12-17) — i Magleby (Nordenbro), Langeland 📜
+        📎 kilder: LL:7-1520196; LL:22-1228478; MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
+        📝 Født i Bøsselykke. Gift med Jørgen Nielsen Christiansen. Død 17. dec. 1953 på Nordenbro Hede, 80 år.
+        ∞ ♂ Jørgen Nielsen Christiansen (b.1864-06-10 d.1919-06-04) — i Magleby (Nordenbro), Langeland 📜
+          📎 kilder: MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
+        ♀ Katrine Christiansen (b.1901-10-06) — i Magleby (Nordenbro), Langeland 📜
+          📎 kilder: MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
+          📝 Født i Nordenbro, Magleby sogn.
+        ♀ Inga Marie Christiansen (b.1903-01-08) — i Magleby (Nordenbro), Langeland 📜
+          📎 kilder: MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
+          📝 Født i Nordenbro, Magleby sogn.
+        ♂ Oskar Christiansen (b.1904-05-23 d.1993) 📜
+          📎 kilder: MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
+        ♂ Otto Christiansen (b.1906-06-22) 📜
+          📎 kilder: MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
+        ♀ Vita Christiansen (b.1908-07-15) 📜
+          📎 kilder: MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
+      ♂ Peder Christian Larsen (b.1877-06-19 d.1944-09-27) — død i Magleby (Nordenbro), Langeland — Husmand, Bøsseløkke, Nordenbro 📜
+        📎 kilder: LL:7-1520197; LL:22-1228479; LL:12-16292130 (dåb Magleby 1877); Dødsliste for Sydlangeland 1900–1970 (trykt register, familiens eksemplar; navn, stilling, bopæl, alder, dødsdato)
+        📝 Dødsdatoen er fra dødslisten ('husmand, Bøsseløkke, Nordenbro, 67'). Navnet, alderen og faderens gård passer, men kilden nævner ikke forældrene.
+      ♂ Thomas Larsen (b.ca. 1881) 📜
+        📎 kilder: LL:22-1228480
+      ♀ Ane Marie Larsen (b.1861-11-22 d.1872) — i Magleby (Nordenbro), Langeland 📜
+        📎 kilder: LL:12-16299702 (dåb Magleby 1861); LL:11-8594026 (begravet 1872)
+        📝 Født i Magleby. Død som barn.
+      ♀ Ceçilie Christiane Larsen (b.1865-10-17) — i Magleby (Nordenbro), Langeland 📜
+        📎 kilder: LL:12-16300126 (dåb Magleby 1865)
+        📝 Født i Magleby.
+      ♀ Laurentine Sophie Larsen (b.1867-12-25 d.1872) — i Magleby (Nordenbro), Langeland 📜
+        📎 kilder: LL:12-16300426 (dåb Magleby 1867); LL:11-7728767 (begravet 1872)
+        📝 Født i Magleby. Død som barn.
+      ♂ Sophus Christian Larsen (b.1872-04-24 d.1872) — i Magleby (Nordenbro), Langeland 📜
+        📎 kilder: LL:12-16297796 (dåb Magleby 1872); LL:11-7727180 (begravet 1872)
+        📝 Født i Magleby. Død som barn.
+    ♂ Thomas Larsen (b.ca. 1817) 📜
+      📎 kilder: LL:2-864880 (FT 1834 Magleby); LL:3-988512 (FT 1840); MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026)
+    ♀ Karen Larsdatter (b.1818) 📜
+      📎 kilder: LL:2-864880 (FT 1834 Magleby); LL:3-988512 (FT 1840); MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026)
+    ♂ Jens Larsen (b.ca. 1820) 📜
+      📎 kilder: LL:2-864880 (FT 1834 Magleby); LL:3-988512 (FT 1840); MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026)
+    ♀ Laurine Larsdatter (b.ca. 1822) 📜
+      📎 kilder: LL:2-864880 (FT 1834 Magleby); LL:3-988512 (FT 1840); MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026)
+    ♀ Johanne Marie Larsdatter (b.1825-03-09 d.1835) — i Magleby (Nordenbro), Langeland 📜
+      📎 kilder: LL:12-16285258 (dåb Magleby 1825); LL:11-7726024 (begravet 1835)
+      📝 Født i Magleby. Død som barn.
+    ♂ Peder Christian Larsen (b.1827-08-13 d.1830) — i Magleby (Nordenbro), Langeland 📜
+      📎 kilder: LL:12-16284875 (dåb Magleby 1827); LL:11-7725425 (begravet 1830)
+      📝 Født i Magleby. Død som barn.
+    ♂ Peder Christian Larsen (b.1830-08-28) — i Magleby (Nordenbro), Langeland 📜
+      📎 kilder: LL:12-16285591 (dåb Magleby 1830); LL:11-7725422 (begravet 1830); LL: folketællingerne 1834–50, Magleby
+      📝 Født i Magleby. Død som barn. Den automatiske begravelsespost passede ikke: han er hjemme i folketællingerne 1834, 1840, 1845 og 1850.
+    ♂ Anders Larsen (b.1832-08-30 d.1832) — i Magleby (Nordenbro), Langeland 📜
+      📎 kilder: LL:12-16285747 (dåb Magleby 1832); LL:11-7725501 (begravet 1832)
+      📝 Født i Magleby. Død som barn.
+
+♀ Ane Mortensdatter (b.1798) ✅
+  📎 kilder: Familiens håndskrevne anetavle
+  📝 Hustru til Claus Madsen i Søndenbro.
+  ∞ ♂ Claus Madsen (b.1793 d.1837) — Søndenbro, Magleby sogn ✅
+    📎 kilder: Familiens håndskrevne anetavle
+
+♂ Christian Hansen (b.ca. 1806) 📜
+  📎 kilder: LL:13-5235043; LL:12-16287086
+  📝 Gift 13. nov. 1829 i Magleby (Langeland) med Marie Madsdatter.
+  ∞ ♀ Marie Madsdatter (b.ca. 1807) 📜
+    📎 kilder: LL:13-5235044; LL:12-16287087
+  ♂ Hans Christiansen (b.1829-09-17) 📜
+    📎 kilder: MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026)
+    📝 Døbt 27. sept. 1829 i Magleby Kirke.
+  ♂ Mads Gregers Christiansen (b.1832-01-23 d.1900-03-31) — i Magleby (Nordenbro), Langeland — Husmand og træskomand 📜
+    📎 kilder: LL:12-16285708 (dåb Magleby 1832); MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
+    📝 Født i Magleby. Død 31. marts 1900 i Hoby, Gloslunde sogn (Lolland), begravet 6. april 1900.
+  ♂ Christen Christiansen (b.1835-04-21) — i Magleby (Nordenbro), Langeland 📜
+    📎 kilder: LL:12-16285990 (dåb Magleby 1835)
+    📝 Født i Magleby.
+  ♂ Christian Christiansen (b.1839-09-09) — i Magleby (Nordenbro), Langeland 📜
+    📎 kilder: LL:12-16294510 (dåb Magleby 1839)
+    📝 Født i Magleby.
+  ♂ Niels Christiansen (b.1841-12-21 d.1847) — i Magleby (Nordenbro), Langeland 📜
+    📎 kilder: LL:12-16294687 (dåb Magleby 1841); LL:11-7726372 (begravet 1847)
+    📝 Født i Magleby. Død som barn.
+  ♂ Jørgen Christiansen (b.1844-03-08 d.1849) — i Magleby (Nordenbro), Langeland 📜
+    📎 kilder: LL:12-16294903 (dåb Magleby 1844); LL:11-7726464 (begravet 1849)
+    📝 Født i Magleby. Død som barn.
+  ♂ Niels Christiansen (b.1848-03-14 d.1855) — i Magleby (Nordenbro), Langeland 📜
+    📎 kilder: LL:12-16295241 (dåb Magleby 1848); LL:11-8310030 (begravet 1855)
+    📝 Født i Magleby. Død som barn.
+  ♀ Inger Margrethe Christiansen (b.1855-04-18) — i Magleby (Nordenbro), Langeland 📜
+    📎 kilder: LL:12-16299162 (dåb Magleby 1855)
+    📝 Født i Magleby.
+  ♂ Hans Jørgen Christiansen (b.1857-05-17 d.1860) — i Magleby (Nordenbro), Langeland 📜
+    📎 kilder: LL:12-16296093 (dåb Magleby 1857); LL:11-7726831 (begravet 1860)
+    📝 Født i Magleby. Død som barn.
+
+♂ Holger Eriksen (b.ca. 1814) 📜
+  📎 kilder: LL:13-5107079; LL:12-15688496
+  📝 Gift 8. dec. 1838 i Tved (Svendborg) med Anne Cathrine Hansdatter.
+  ∞ ♀ Anne Cathrine Hansdatter (b.ca. 1815) 📜
+    📎 kilder: LL:13-5107080; LL:12-15688497
+  ♂ Peder Iver Holgersen (b.1851-12-10) — i Tved (Svendborg) — Indsidder; Indsidder, Tved 📜
+    📎 kilder: LL:12-15688495; LL:13-5270320; LL:12-15691758; Familiens håndskrevne ark (Nordenbro)
+    📝 Gift 26. nov. 1878 i Vor Frue Kirke, Svendborg, med Karen Nielsen. Født 10. dec. 1851, døbt 11. jan. 1852 (familiens anetavle).
+    ∞ ♀ Karen Nielsen (b.ca. 1855) 📜
+      📎 kilder: LL:13-5270321; LL:12-15691759
+    ♂ Holger Vilhelm Nielsen Holgersen (b.ca. 1881) 📜
+      📎 kilder: LL:22-1332441
+    ♂ Kristian Holgersen (b.ca. 1886) 📜
+      📎 kilder: LL:22-1332443
+    ♂ Iver Peder Holgersen (b.ca. 1889) — Arbejder; Udvandrer til Fresno, Californien (1910) 📜
+      📎 kilder: LL:22-1332444; Det Danske Udvandrerarkiv, Udvandrerprotokollen (Københavns Politi), kontrakt 4443, 8/9 1910
+      📝 Udvandrerprotokollen: 'Holgersen, Iver Peder, arbejder, født Tved, sidste bopæl Skalbjerg, 22 år, rejsemål Fresno, USA', 8. sep. 1910, med damperen United States. Efterkommere kan leve i Californien.
+    ♂ Hans Peder Holgersen (b.1869-04-15) — i Tved (Svendborg) 📜
+      📎 kilder: LL:12-15690927 (dåb Tved 1869)
+      📝 Født i Tved.
+    ♂ Annert Kristian Holgersen (b.1885-08-03) — i Tved (Svendborg) 📜
+      📎 kilder: LL:12-15691908 (dåb Tved 1885)
+      📝 Født i Tved.
+    ♀ Anna Kristine Holgersen (b.1891-12-08 d.1893) — i Tved (Svendborg) 📜
+      📎 kilder: LL:12-15693963 (dåb Tved 1891); LL:11-2920067 (begravet 1893)
+      📝 Født i Tved. Død som barn.
+  ♂ Niels Christen Holgersen (b.1841-09-23 d.1846) — i Tved (Svendborg) 📜
+    📎 kilder: LL:12-15688057 (dåb Tved 1841); LL:11-7493069 (begravet 1846)
+    📝 Født i Tved. Død som barn.
+  ♂ Hans Peder Holgersen (b.1845-05-09) — i Tved (Svendborg) 📜
+    📎 kilder: LL:12-15688207 (dåb Tved 1845)
+    📝 Født i Tved.
+
+♂ Jørgen Christensen (Stougaard) (b.ca. 1822) — i Magleby (Nordenbro), Langeland ❓
+  📎 kilder: LL:12-16298962 (datteren Marthes dåb 1852); LL:7-1522020 (FT 1880); LL:22-1229410 (FT 1890)
+  📝 Folketællingerne 1880 og 1890 i Magleby: Jørgen Christensen og Karen Andersen, begge født 1822, med plejebarnet Kresten og børnene Anne Margrethe, Pedersine Christine og Adolf. Datteren Marthe (f. 1852) kan være Krestens mor.
+  ∞ ♀ Karen Andersdatter (Andersen) (b.ca. 1822) — i Magleby (Nordenbro), Langeland ❓
+    📎 kilder: LL:12-16298963 (datteren Marthes dåb 1852); LL:7-1429871 (FT 1880)
+
+♂ Niels Christiansen (b.1829-03-24 d.1912-04-27) — i Magleby (Nordenbro), Langeland 📜
+  📎 kilder: MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
+  📝 Født i Magleby, død i Nordenbro.
+  ∞ ♀ Inge Marie Rasmussen (b.1830-09-24 d.1913-06-23) — i Magleby (Nordenbro), Langeland 📜
+    📎 kilder: MyHeritage-træet 'Gedde Web Site' (GEDCOM-eksport 8. okt. 2026), der bygger på Vivi Fogde Clausens træ
+
+♂ Mads Stephensen Johansen — Husmand i Nordenbro, Magleby sogn 📜
+  📎 kilder: LL:12-16286610 (datterens dåb 1832); Familiens håndskrevne anetavle (Gerdas side)
+  ∞ ♀ Maren Larsdatter 📜
+    📎 kilder: LL:12-16286611 (datterens dåb 1832); Familiens håndskrevne anetavle (Gerdas side)
+  ♀ Marthe Madsdatter (Madsen) (b.1832-05-09) — i Magleby (Nordenbro), Langeland 📜
+    📎 kilder: LL:12-16286609 (dåb Magleby 1832); LL:13-5236502 (vielse Magleby 1857); LL:12-16299533 (datteren Hansines dåb 1859); Familiens håndskrevne anetavle (Gerdas side)
+    📝 Født 1832 i Nordenbro, Magleby sogn, datter af husmand Mads Stephensen Johansen og Maren Larsdatter. Familiens anetavle giver 28. sept. 1832; kirkebogsindekset 9. maj. Gift 1857 i Magleby med Peder Berendsen.
+    ∞ ♂ Peder Hansen Berendsen (Berentzen) (b.1830-03-07 d.1911-04-24) — i Snøde (Lille Snøde), død i Magleby (Nordenbro), Langeland — Karl i Magleby Præstegård (før 1857) 📜
+      📎 kilder: LL:12-16312332 (dåb Snøde 1830); LL:13-5236501 (vielse Magleby 1857)
+
+♂ Hans Berendsen 📜
+  📎 kilder: LL:12-16312333 (sønnens dåb Snøde 1830); Familiens håndskrevne anetavle (Gerdas side)
+  📝 Fra Lille Snøde, Snøde sogn.
+  ∞ ♀ Anne Marie Olsdatter 📜
+    📎 kilder: LL:12-16312334 (sønnens dåb Snøde 1830); Familiens håndskrevne anetavle (Gerdas side)
+
+♂ Christen Michelsen — Møllersvend, Rudkøbing 📜
+  📎 kilder: LL:12-15570703; Familiens håndskrevne anetavle
+  ∞ ♀ Rasmine Hansen 📜
+    📎 kilder: LL:12-15570704
+  ♂ Rasmus Andersen Christensen (b.1855-04-30 d.1864) — i Rudkøbing 📜
+    📎 kilder: LL:12-15570328 (dåb Rudkøbing 1855); LL:11-7448486 (begravet 1864)
+    📝 Død som barn.
+
+♂ Mads Hansen — Kædeby ✅
+  📎 kilder: Familiens håndskrevne anetavle
+  📝 Fra Kædeby, Humble sogn.
+  ∞ ♀ Karen Clausdatter ✅
+    📎 kilder: Familiens håndskrevne anetavle
+
+♂ Niels Jeppesen — Hennetved ✅
+  📎 kilder: Familiens håndskrevne anetavle
+  📝 Fra Hennetved.
+  ∞ ♀ Karen Madsdatter (b.? d.1790) ✅
+    📎 kilder: Familiens håndskrevne anetavle
+
+♀ Marthe Jørgensen (Søndenbro, Magleby) ❓
+  📎 kilder: LL:12-16292171 (moder ved Krestens dåb 1877); LL:13-2517745 (moder ved Krestens vielse 1907); LL:13-5236674 (vielse 1861, kandidat A); LL:12-16298961 (dåb 1852, kandidat B)
+  📝 To mulige mødre: (A) Marthe Christine Jørgensen, født 25. jan. 1837 (Tryggelev), gift 1861 i Magleby med Thomas Rasmussen Jespersen (1841–1891) og mor til syv Jespersen-børn 1860–1876; hun lever endnu i 1921 hos datteren Ane. (B) Marthe Jørgensen, født 9. okt. 1852, datter af Jørgen Christensen (Stougaard) og Karen Andersen, død 27. aug. 1878. Dåben 1877 nævner kun 'Marthe Jørgensen' og ingen ægte…
+
+♂ Hans Jørgen Christiansen 📜
+  📎 kilder: LL:13-2517747 (datterens vielse 1907)
+  ∞ ♀ Ane Kirstine Nielsen 📜
+    📎 kilder: LL:13-2517748 (datterens vielse 1907)
+
+
+==============================================================================
+NEW RESEARCH FINDINGS — November 2026 (REVISED 16 Nov 2026)
+==============================================================================
+
+STATUS: This file is a PROPOSED COMPILATION. It is NOT yet imported into
+the canonical tree (data/build_data.py → data/family.json) or the GEDCOM.
+Each new ★NY entry below must be audited one-by-one against primary sources
+before being committed to the canonical tree.
+
+Below is a structured summary of every new ★NY entry added in this pass,
+with sources cited inline. Each entry is also woven into the tree above at
+the correct position.
+
+---
+
+A. GEDDE / VON KLEIST NOBLE LINE (Pommern → Denmark)
+====================================================
+
+Verified chain from Christian Casimir von Kleist (1654) back to Hans Clest (~1400):
+
+  Hans Clest (von Kleist) of Tychow (ca.1400 — før 1477)   [VKA Dubberow p.117, I.24]
+    ├─ Reimer II.2 (ca.1425 — efter 1477)  [COLLATERAL — line EXTINCT before 1672]
+    │    ∞ f. von Born af Grassee                         [VKA Dubberow II.2]
+    │    └─ Bartez (den Yngre) II.6 (ca.1465 — ca.1527)   [COLLATERAL]
+    │         ∞ f. von Zozenow                            [VKA Dubberow II.6]
+    │         (3 sønner II.7-8; line extinct before 1672)
+    └─ Bartes II.3 (ca.1425 — 1523)  ← VOR DIREKTE ANER
+         ∞ f. von Briesen                                  [VKA Dubberow p.122, II.3]
+         └─ Andreas (Drews) von Kleist (ca.1500 — efter 1546)  [II.11]
+              ∞ [hustru ukendt]
+              └─ Carsten (den Ældre) von Kleist (ca.1535 — før 1618)  [II.21]
+                   ∞ (1) [hustru] f. von Hechthausen
+                   ∞ (2) Hedwig von Heydebreck (ca.1558)              [VKA II.21]
+                   └─ Bernd (Bernhard) von Kleist (ca.1565 — efter 1665)  [II.39]
+                        ∞ Elisabeth von Manteuffel af Pribbernow & Broitz [VKA II.39]
+                        └─ Christian von Kleist (d.1679)  ← ALLEREDE p6948 i træet
+                             ∞ (1) Hedvig Maria von Kleist  ← ALLEREDE p6949 i træet
+                                  ∞ (2) Barbara Eleonora von Kalckstein  ★NY
+
+CORRECTION (16 Nov 2026): En tidligere version af denne fil (15 Nov 2026)
+fejlagtigt placerede Reimer II.2 og hans søn Bartez II.6 den Yngre i den
+direkte linje, med Bartez II.6 som Andreas II.11's far. VKA Dubberow p.122
+slår fast, at Reimer II.2 og Bartes II.3 var BRØDRE (begge sønner af Hans
+I.24), og at Bartes II.3 (hvis hustru var f. von Briesen) — ikke Reimer —
+er Andreas II.11's far. Reimers linje uddøde før 1672 (VKA Dubberow
+lineage table p.117) og kan derfor IKKE være vor anelinje. Rettet nu.
+
+Tidligere var Christian von Kleist (d.1679) træets dybeste kendte aner på
+denne gren. Nu er 6 generationer tilføjet, så linjen nu når tilbage til
+Hans Clest omkring 1400 (nævnt 1425) — en gevinst på ca. 280 år tilbage i tiden.
+
+5 nye aner tilføjet (vk_h1 Hans, vk_b3 Bartes, vk_b11 Andreas, vk_b21 Carsten,
+vk_b39 Bernd) + deres hustruer. Desuden er Reimer II.2 og Bartez II.6 den
+Yngre medtaget som [COLLATERAL] for kontekst — de er vor anelinjes uddøde
+sidegren. Desuden er Christians 5 børn fra 1. ægteskab + 2 børn fra 2.
+Bernd Erdmann (1651-1701) dansk oberstløjtnant d. Helsingør, Adam Vilhelm,
+Sebastian Henrik (d.1714), Herath Juliane, samt halvsøskende Bernd Christian og
+en datter gift i Schlesien.
+
+---
+
+B. ROSENKRANTZ TIL SKOVSBO LINE (Denmark, Fyn)
+====================================================
+
+SOURCE CONFIDENCE: entries in this section rely primarily on WikiTree,
+Geni, Finn Holbek and Wikipedia (da.wikipedia.org/wiki/Christian_Rosenkrantz).
+These are user-sourced/compiled genealogies and should be independently
+verified against primary sources (Danmarks Adels Aarbog, Rigsarkivet probates,
+parish books) before being committed to the canonical tree. Treat the links
+as PROBABLE rather than fully verified.
+
+Christian Rosenkrantz til Skovsbo (1672-1736) — already p1738 in tree.
+Forældre nu verificeret og struktureret:
+
+  Jens Jørgensen Rosenkrantz (1640-1695) — etatsråd, landsdommer  ★NY rk_f_christian
+    ∞ Dorte komtesse Friis-Frijsenborg (efter 1652 — 1681)        ★NY rk_m_christian
+
+Jens' forældre (Christians farforældre) — alle ★NY:
+  Jørgen Holgersen Rosenkrantz til Kjeldgård (1607-1675)        [rk_g_ff]
+    ∞ Christence Jensdatter Juel til Kjeldgård (1612-1680)     [rk_g_fm]
+
+Dorte Friis' forældre (Christians morforældre) — alle ★NY:
+  Mogens greve Friis til Frijsenborg (1623-1675)                [rk_g_mf]
+    ∞ Anne Christensdatter Sehested (1631-1661)                [rk_g_mm]
+
+Yderligere aner identificeret (Holger den Lærde 1577-1642 og Sophie Brahe
+1578-1646, Mogens Friis' aner osv.) — alle ★NY med WikiTree / Finn Holbek /
+Dansk Biografisk Leksikon som kilder.
+
+---
+
+C. KRAG / JUEL / ULFELDT NOBLE LINE (Denmark)
+====================================================
+
+SOURCE CONFIDENCE: Same caveat as section B. Parent links primarily from
+WikiTree Krag-235; must be independently verified against Danmarks Adels
+Aarbog and primary records before canonical import.
+
+Frederikke Louise Krag (1696-1766) — already p1739 in tree.
+Forældre verificeret:
+
+  Niels Krag (1653-1713) — gehejmeråd                   ★NY kr_f
+    ∞ Sophie Nielsdatter Juel (1664-1722)               ★NY kr_m
+
+Niels Krags forældre (Frederikkes farforældre):
+  Otte Nielsen Krag (1611-1666)                          ★NY kr_ff
+    ∞ Anne Holgersdatter Rosenkrantz (1619-1688)         ★NY kr_fm
+
+Sophie Juels forældre (Frederikkes morforældre):
+  Niels Juel (1629-1697) — Admiral                       ★NY kr_mf
+    ∞ Margrethe Knudsdatter Ulfeldt (1641-1703)          ★NY kr_mm
+
+Hver af disse har yderligere aner identificeret (Niels Mogensen Krag 1574-1650,
+Holger Axelsen Rosenkrantz 1586-1647, Erik Juel til Alsted 1591-1657,
+Knud Ulfeldt 1609-1657 m.fl.) — alle ★NY med WikiTree som primær kilde,
+suppleret med Danmarks Adels Aarbog.
+
+---
+
+D. OPEN CONFLICTS — explicitly preserved (not silently resolved)
+====================================================
+
+• Ove Samuel Gedde birth date: 28 Feb 1778 (Harbou 1897, current tree)
+  vs 28 May 1788 (Carl Johan Anker 1885, OCR unproofread). Original
+  Fredensborg Slotssogn baptism register has NOT been inspected. The
+  existing p216 entry retains 28 Feb 1778 with this conflict flagged.
+
+• Hans Christopher Gedde's two wives: Frederikke Christiane Fischer
+  (m.1, d.1787) and Øllegaard Sophie Fischer (m.2, 15 Feb 1789).
+  Anker 1885 gives Ødegaard spelling; original marriage register
+  should be checked before normalising.
+
+• Lorenz Heinrich Frederiksen paternity: civil register names Wilhelm
+  Krogh (legal paternity, 5 Apr 1932 declaration + 10 Jun 1932 court
+  decision). Family knowledge says biological father was Sophus Petersen.
+  DNA needed to decide. Tree preserves both as separate relationship
+  claims on p6; no change in this expansion.
+
+• Two people share id p13 in some exports (Else Gedde Jensen and Lovisa
+  Larsson). Do not merge by ID alone.
+
+• Bornholm Lars Larsen (b.1771 Rutsker, d.1854 Allinge) was wrongly
+  auto-linked to our Lars Larsen line. Explicitly REJECTED in
+  data/auto_ancestors.json — must not be reintroduced.
+
+---
+
+E. NOTES ON OTHER LINES — work still open
+====================================================
+
+Several branches have anchor ancestors whose parents remain unidentified
+in online sources. These were NOT filled with speculative entries; instead
+they remain at their current depth with explicit gap markers. To extend
+these lines, the following primary-source work is required (per
+leads/investigation-worklist.md and leads/potential-leads-register.md):
+
+  • Claus Gaardsted (ca.1750-1811, forpagter Vosnæsgaard, ejer Bogensholm)
+    — Rolsøgård probate 1764 (Christen Christensen Tohde?) may identify his parents;
+      original archive visit required. Mols herred skifteprotokoller.
+  • Rasmus Jensen (ca.1718 Fuglslev) — Mols herred kirkebøger før 1814 læses
+    direkte på Arkivalieronline (ikke indekseret).
+  • Hans Jensen (ca.1752-1837 gartner Vibygård) — Viby kirkebog før 1814.
+  • Kirsten Andersdatter (1728-1802 Langeland) — Magleby kirkebog før ~1750.
+  • Christen Nielsen (1744-1804 Hennetved) — Magleby/Hennetved kirkebøger.
+  • Jens Paulsen (ca.1799 Broager/Sønderborg) — tysk sognebog før 1864.
+  • Peter Hansen (1803 Egernsund teglværksarbejder) — Broager kirkebog.
+  • Sophus Petersens slægt (Paakjær, Nybøl, Dybbøl) — Nybøl/Dybbøl kirkebøger
+    før 1864 ligger hos Landeskirchliches Archiv Schleswig.
+  • Wilhelm Krogh (1908 Tastrup, Kreis Flensburg) — Adelby kirkebog bog 2.3
+    hos Kirchenbuchamt Schleswig-Flensburg (katja.isaack@kirche-slfl.de).
+
+Alle disse kræver manuel gennemlæsning af originale kirkebøger eller skifter —
+de kan ikke løses alene via allerede tilgængelige online-kilder.
+
+---
+
+F. METHODOLOGICAL NOTE
+====================================================
+
+This expansion follows the editorial policy in leads/tree-research.md:
+  • Only verified facts (with cited source) are entered as relationships.
+  • Hypotheses, estimates, and unverified claims are NOT inserted as parent
+    links. They remain research leads.
+  • Medieval von Kleist material (Prissebur 1364, Klest de Densin 1289,
+    Conradus/Bertoldus Clest 1248) is context-only and NOT added as direct
+    ancestors — the generation-by-generation chain is not yet proven.
+  • The von Kleist Tychow chain Hans I.24 → Bartes II.3 → Andreas II.11 →
+    Carsten II.21 → Bernd II.39 → Christian II.60 IS proven by VKA Dubberow
+    p.117, 122-145, which cites the feudal letters of 1477 (urk. 125),
+    1503, 1540, 1546, 1575, 1585, 1594, 1601, 1605, 1608, 1618, 1621,
+    1622, 1665. VKA Dubberow lineage table (p.117) explicitly labels
+    'Descendants of Bartes II.3' as the line leading to Bernd II.39 → II.82
+    (Christian Casimir), while Reimer II.2's line 'extinct before 1672'.
+
+REVIEW HISTORY:
+  • 15 Nov 2026 — first version of this file submitted; contained a real
+    genealogy error: Reimer II.2 and Bartez II.6 the Younger were placed
+    in the direct ancestor chain (with Bartez II.6 wrongly shown as
+    Andreas II.11's father).
+  • 16 Nov 2026 — error caught by external review (ChatGPT cross-check
+    against the 2025 Tychow-Dubberow biographies). Confirmed against
+    VKA Dubberow p.117, 122-123. Bartes II.3 (Reimer's brother) is the
+    correct direct ancestor; Bartes II.3's wife was f. von Briesen, not
+    f. von Zozenow. Reimer II.2's line is collateral (extinct before 1672).
+    Hans Clest (I.24, mentioned c.1425) added as the earliest verified
+    ancestor of the Tychow line. All corrections reflected in this revision.
