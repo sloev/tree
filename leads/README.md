@@ -15,6 +15,7 @@ This directory consolidates the readable uploads, the prior research file, and t
 - [Review of first research-extension batch](review-new-extension-files-2026-11.md) — review of the first seven line files, source conflicts, confidence cautions and a prioritized verification/import plan.
 - [Review of second research-extension batch](review-second-extension-batch-2026-11.md) — review of Segments 7–12, the GEDCOM patch, open-question index, and cautions on Gaardsted, Gedde, Fischer, Lorenz paternity and Vibygård.
 - [Review of final research-extension batch](review-final-extension-batch-2026-11.md) — review of Segments 13–15, Harbou audit worksheet, negatives log, closing assessment and remaining import cautions.
+- [Research progress — 16 November 2026](research-progress-2026-11-16.md) — first-pass Harbou reconciliation, source-checked person numbers, the Rolsøgård 1764/1787 series distinction and next archival steps.
 - [Original ZIP export](family-tree-export.zip) — retained byte-for-byte as supplied. Its contents have been unpacked and reviewed; the original archive remains the untouched source package.
 
 ## Source and evidence policy
