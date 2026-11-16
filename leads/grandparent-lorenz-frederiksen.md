@@ -428,3 +428,24 @@ Useful source routes:
 - [Mogens Friis portrait, 1670](https://commons.wikimedia.org/wiki/File:Mogens_Frijs.jpg)
 
 No date or parentage changes from this section have been applied to canonical data.
+
+
+## 16. Broager / Nybøl / Rinkenæs collateral records and name traps
+
+The broader extension contains a set of unlinked or collateral Sønderjylland families. Keep them separate from Lorenz's paternity question unless a record explicitly joins them:
+
+- **Peter Christian Frederiksen** (`p48`) is described as son of Friedrich Friedrichsen (`p96`) and Anna Christina Peters (`p97`), married in Broager on 9 December 1860. His son Lorenz Heinrich Frederiksen (`p24`) is an **older namesake**, not this grandparent (`p6`).
+- **Anna Kirstine Marie Paulsen** (`p49`) is described as daughter of Jens Paulsen (`p98`) and Cathrine Marie Lausen/Lorenzen (`p99`), married in Ulkebøl on 24 February 1833.
+- **Carl Peter Hansen** (`p50`) and Eline Helene Marie Hansen (`p51`) are parents of Cathrina Maria Magdalena Hansen (`p25`); Peter Hansen (`p100`) is described as a teglværksarbejder in Egernsund and Anna Christina Jensen (`p101`) as born in Gudum.
+- The four relevant marriage entries are cited as `LL:13-4957004`, `LL:13-4957007` and `LL:13-4995190`; read them in full because they reportedly name parents' parishes. Then inspect Broager, Ulkebøl, Egernsund and Nybøl baptisms around 1799–1850. Confirm the places “Vester Hostrup”, “Brejning” and “Gudum” against the original entries; they currently derive partly from census/transcription.
+- Egernsund teglværk personnel protocols at Broagerlands Lokalarkiv may identify teglværksarbejdere. For events after 1867, use German Standesamt registers at Kreisarchiv Schleswig-Flensburg, not Danish church books alone.
+
+**Rinkenæs / Dalsgård:** Jens Jensen (`p26`) died 26 March 1951 at Dalsgård; Paula Gedde (`p27`) died 29 February 1952 there. Their burials in Rinkenæs and the Dalsgård deed are open checks. The seven children are listed in the tree; the extension notes Mathilde (`s_p26_4`) was unmarried and one child (`s_p26_0`) died in infancy. The farm deed may clarify the household and property history, not Lorenz's biological father.
+
+### Wilhelm Krogh: separate 1908 namesake candidate
+
+The evidence audit notes a possible **Carl Vilhelm Krogh**, reportedly born 9 November 1908 in Tastrup/Flensburg and recorded in a 1925 Tandslet census, while this project's Wilhelm Krogh (`p12`) is recorded as born 9 October 1908 in Tastrup or Vastrup. Different given names and a one-month date difference mean they must not be merged. Request the 1908 Adelby church-book volume (book 2.3) from the Kirchenbuchamt Schleswig-Flensburg and compare exact parents and date with the Egernsund marginal note. The earlier candidate Detlef Krogh (born 1905) and the reported 1929 Broager marriage remain another route to the family.
+
+### Næstved / Ludvigsen collateral
+
+Vitta Dorthea Henriette Mathilde Ludvigsen (`p55`) is in the Gedde family. Her parents Johan Alexander Ludvigsen (`p110`) and Margaretha Dorothea Elisabeth Bølin (`p111`) are named but have little ancestry. Search Næstved Sankt Peders baptisms in 1847 and the parents' marriage; Bølin is a rare surname and should be searched under spelling variants. Keep this as a collateral branch until the marriage and parentage are confirmed.
