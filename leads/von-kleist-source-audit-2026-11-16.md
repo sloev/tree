@@ -2,7 +2,7 @@
 
 ## Scope
 
-This audit covers the 22 proposed people exp020–exp041 in the expanded research JSON and their proposed connection to existing people p3472 (Pribislaff von Kleist) and p3473 (Esther von Kameke). It also checks a related Tychow-Dubberow branch because the two reconstructions may be connected through the 1477 fief letter.
+This audit covers the 23 proposed people exp020–exp042 in the expanded research JSON and their proposed connection to existing people p3472 (Pribislaff von Kleist) and p3473 (Esther von Kameke). It also checks a related Tychow-Dubberow branch because the two reconstructions may be connected through the 1477 fief letter.
 
 This is a source audit, not an import decision. The original uploaded exports are preserved unchanged. No canonical tree relationship is changed by this note.
 
@@ -41,8 +41,9 @@ The table below reports what the supplied notes claim and what the source check 
 | exp020 | Klest de Densin | The 2025 Muttrin volume places him at the head of Quandt's early Stammtafel and explicitly qualifies the arrangement as probable. The proposed 1289 identification and fatherhood of Prissebur need to be checked against Quandt's full argument and the cited charter. Keep as a reconstructed early ancestor, not a fully proven parent. |
 | exp021 | Prissebur | The 1364 Urkunde 83 reference is specifically reported by the 2025 volume. The parent link to exp020 and sons Jarsslaff/Henning derive from the later pedigree/older letter as reported by that volume. Do not give all three claims the same evidentiary grade. |
 | exp022 | Henning M.3 | The proposed son of Prissebur and father of Henning M.8 are reported through the 1576 genealogy and later reconstruction. The 1407 record is a separate dated reference to Henning M.8; it does not by itself prove all upstream parentage. |
-| exp038 | Unnamed von Wedelstett | The Muttrin volume says Henning M.8 was married to a von Wedelstett “according to the old family genealogy” and attributes seven sons to that union. Her identity and maternity remain dependent on that later genealogy. |
-| exp024 | Bisprow III.1 of Muttrin | The 2025 Muttrin text explicitly calls him son of Henning M.8 and refers to the 13 April 1477 fief letter; it also reports his three sons and his death by c.1493 from the 1493 church-patronage event. Strong source-reported genealogy, but check the charter and 1493 record before calling the parent link primary-verified. |
+| exp042 | Henning von Mutteryn (M.8) | The Muttrin volume identifies him as the younger son of Henning M.3, alive in 1435 (Urk.104), and says that according to the old family genealogy he married a von Wedelstett and had seven sons including Bisprow III.1. The structured record was missing from the agent export; it has now been added to the expanded JSON/GEDCOM as the intervening generation. Marriage and seven-son list remain attributed to old family genealogy. |
+| exp038 | Unnamed von Wedelstett | The Muttrin volume says Henning M.8 was married to a von Wedelstett “according to the old family genealogy” and attributes seven sons to that union. Her identity and maternity remain dependent on that later genealogy. The structured spouse link has now been corrected to the missing Henning M.8 record exp042. |
+| exp024 | Bisprow III.1 of Muttrin | The 2025 Muttrin text explicitly calls him son of Henning M.8 and refers to the 13 April 1477 fief letter; it also reports his three sons and his death by c.1493 from the 1493 church-patronage event. The expanded JSON/GEDCOM now link him to exp042 (Henning M.8), not directly to exp022 (Henning M.3). Strong source-reported genealogy, but check the charter and 1493 record before calling the parent link primary-verified. |
 | exp025 | Unnamed von Natzmer | The Muttrin biography says Bisprow's wife was a born von Natzmer. The supplied data treats her as mother of his children; the source's family account supports the union, but her personal identity and exact maternity are not independently established here. |
 | exp026 | Hans III.6 of Muttrin | The supplied note identifies him as Bisprow's youngest son and cites 1477, 1493 and 1498 records; it infers death in 1515/early 1516 from the sons' 1516 enfeoffment. This is a useful dated-record sequence. Exact wife/mother details still need the relevant biography and records. |
 | exp027 | Unnamed von Bornentin | The proposed wife of Hans III.6 and daughter of Paul at Borntin is attributed to the family genealogy. Treat the marriage and parentage as source-reported, not independently proved. |
@@ -70,7 +71,9 @@ The expanded JSON updates the existing person p3472 with a note identifying him 
 
 These indexes support identity reconciliation between existing p3472 and the proposed III.281 person, and between existing p3473 (previously “Esther von Kameke”) and Anna Esther. They are derivative indexes to the family history, not independent proof. The expanded JSON gives p3473 parents exp036 and exp037, but the canonical data still has no parents for p3472 or p3473.
 
-**Important structural inconsistency:** exp033's note says his son Pribislaff III.281 is existing p3472, but the expanded JSON leaves p3472.father null and does not set a father field on exp033 linking him to p3472. This must be reconciled from the actual numbered biography before the proposed father-child link is encoded in either JSON or GEDCOM.
+**Important remaining structural inconsistency:** exp033's note says his son Pribislaff III.281 is existing p3472, but the expanded JSON still leaves p3472.father null and does not set a father field on exp033 linking him to p3472. This must be reconciled from the actual numbered biography before the proposed father-child link is encoded in either JSON or GEDCOM.
+
+**Corrected skipped generation:** The original agent export linked exp024 (Bisprow III.1) directly to exp022 (Henning M.3), and linked exp038 (the von Wedelstett wife) to exp022. That contradicted the source notes, which identify an intervening Henning M.8. The expanded research package now contains exp042 (Henning M.8), with exp022 → exp042 → exp024 and exp038 married to exp042. This correction was applied to the expanded JSON, expanded GEDCOM, full text export, and the concise expanded text summary. The expanded package now contains 524 people (489 site records plus 35 research additions) and 160 families. The canonical site data/GEDCOM was not changed.
 
 ## 3. A material conflict in the early Tychow ancestry
 
@@ -110,7 +113,7 @@ This matters to the broader project because the Muttrin and Tychow lines may be 
 
 ## 4. Current decision and work plan
 
-- Keep exp020–exp041 as research additions, not a batch import.
+- Keep exp020–exp042 as research additions, not a batch import.
 - Preserve the 1364 Prissebur reference separately from the reconstructed parentage around him.
 - Preserve the 1477 Reimer/Bartes father conflict; do not encode Hans I.24 or Pribbeslaw as their canonical father yet.
 - Correct the Tychow tree diagram so Bartez II.6 is a collateral branch, not the father of Andreas II.11.
