@@ -183,3 +183,13 @@ No canonical data or GEDCOM edges were changed. No local tests/build were run.
 - Read Urk. 104 (c.1435), a ducal letter preserved in the Königsberg State Archive. It refers to “our man Henningh Klystes sone van mütteryn” (the son of Henning Kleist of Muttrin). The 2025 Muttrin genealogy identifies this as M.8 and gives his father as Henning M.3, but the original wording does not name the father beyond the Kleist of Muttrin; exact identification relies on combined chronology and family genealogy.
 - Read Urk. 104a (11 October 1436), which explicitly calls Hermann Kleist the son of Curt Kleist of Damen; useful collateral evidence, not part of the direct Muttrin chain.
 - Updated dossier with source-by-source distinction between person appearances and explicit parentage. No canonical data changed.
+
+
+### 1248–1269 Conradus/Bertoldus Clest sibling line
+
+- Re-read Urk. 26 (1248): Conradus Clest is named in a charter from the original then in Pommersches Provinzialarchiv, Schr. I, Chat. 1, Nr. 6.
+- Urk. 27 (17 June 1249), from the Colbatz monastery matricula, explicitly names “Bertoldus et Conradus Clest fratres”.
+- Urk. 32a (1254), from an original then in the Geheimes Archiv at Königsberg, independently calls “Conradus marscalcus et Bartoldus Clest fratres”.
+- Urk. 48 (7 April 1269), from the Colbatz monastery matricula, says Conradus miles dictus Clest made a provision for the monastery concerning holdings he and his already deceased brother Bertoldus had held for life.
+- This makes Conradus/Bertoldus a well-attested sibling pair. No source found so far links them to the 1289 Belgard witness group or to Prissebur of Muttrin; Sauer and von Ledebur's alternate interpretation of “Prissebur, Clest fratres” remains plausible but unproven.
+- Updated the Lorenz dossier to keep this earlier sibling pair distinct and open the question of any relationship to the 1289 group. No canonical data changed.
