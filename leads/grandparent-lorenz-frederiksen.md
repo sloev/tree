@@ -1177,3 +1177,7 @@ Sources:
 - [Rigsarkivet, guide to church books](https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/).
 
 **Next:** inspect index volume 20 and follow its reference, then compare the minister's register. If the viewer does not expose the images, request the specific volumes from Rigsarkivet.
+
+### Correction to the Vor Frelsers index access route (16 November 2026)
+
+Closer reading of the parish inventory's wording adds an important access caveat: it says the original name registers are all available **as copies in the reading room**. Thus volume 20 is a precisely identified index, but I have not established that the index itself is digitized on Arkivalieronline. The inventory identifies the bell-ringer's baptism registers as volumes 15–19; the minister's FVD 1686–1722 series is separately listed by Rigsarkivet's release notes. The practical next step is to ask Rigsarkivet whether they can consult or provide a lookup from name-index volume 20, and whether the relevant bell-ringer register volume is digitized or must be ordered. The previous lookup description should not be read as claiming that volume 20 is online. No baptism entry has been seen.
