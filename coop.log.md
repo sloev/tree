@@ -218,3 +218,12 @@ No canonical data or GEDCOM edges were changed. No local tests/build were run.
 - Updated the active Lorenz dossier and this log only. No parentage or canonical family-tree edge was changed: the manuscript chain is derivative and conflicting, and the early Muttrin sequence still lacks independently verified intermediate links. Existing p3472 → p1736 retained on Harbou's explicit statement.
 - Sources: https://v-kleist.com/FG/Genealogie/AllgemeineGeschichte.pdf ; https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf ; https://www.szukajwarchiwach.gov.pl/en/web/guest/jednostka/-/jednostka/7907475?refererPlid=2144199 ; https://www.szukajwarchiwach.gov.pl/en/web/guest/jednostka/-/jednostka/7906489
 - No original 1576/1477 manuscript inspected; no local tests/build/deployment run; no private records opened.
+
+
+### Tychow branch re-check in the 2025 family-association volume
+
+- Read the 2025 second edition of the Tychow-Dubberow line around pp. 134–136. It explicitly titles Reimer and Bartes as sons of Hans of Tichow (I.24), calls them first cousins of Jürgen and Peter of Dubberow because their fathers were brothers, and details Reimer's and Bartes's spouses and children.
+- The volume's introduction says the Hans name in the generation after the earliest period rests on later genealogical material. The 1477 Urk.125 transcription in Quandt instead reads “Pribbeslaw of Muttrin with his sons, Reymer and Bartes”. The 2025 volume cites 1477 for the brothers' joint appearance but does not independently prove the Hans paternity.
+- The volume also says Tessen of Dubberow was a nephew of Hans of Tichow; his father was reportedly Peter of Dubberow, while family records only state the nephew relationship. This supports a collateral cousin structure, not the disputed father identity.
+- Added this clarification to the Lorenz dossier. No canonical data changed; no parent link is sufficiently resolved by the derivative genealogical evidence.
+- Source: https://www.v-kleist.com/FG/Dubberow.pdf (2025 edition, pp. 134–136 and introduction).
