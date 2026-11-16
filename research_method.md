@@ -1,7 +1,7 @@
 # Repository research method
 
 ## Operating protocol
-- Work on branch `ccr-6abdfb67-cbzklo`; do not silently switch branches or merge changes.
+- Work directly on `main` only. Do not create or use feature, agent, task, or temporary branches; do not open pull requests. The complete former working-branch history was carried onto `main` at commit `fe2f6cf9d516bd6d8ba7206403bcef783d967deb` on 2026-11-16. The old `ccr-6abdfb67-cbzklo` and `master` refs remain in GitHub because the available GitHub connection does not expose branch deletion or default-branch settings; do not write to them. Treat `main` as the sole collaboration branch.
 - Treat `data/build_data.py` as the genealogical source of truth. Preserve source citations and confidence labels; never convert a hypothesis into a fact.
 - Trace each module through its callers, generated outputs, tests, and deployment path before editing.
 - Make small, reviewable commits. Never overwrite unrelated user changes.
@@ -20,7 +20,7 @@ Phase 5 — systematic ancestral expansion and gap closure, beginning with the e
 - README identifies `data/build_data.py` as the source of truth and describes `data/private.enc` as AES-256-GCM encrypted private-person data. Decrypted `data/private_people.json` is git-ignored; do not access it.
 - Existing research on Wilhelm Krogh is documented in `family-tree.md`; candidate Carl Vilhelm Krogh (9 Nov 1908) remains explicitly unconfirmed against Wilhelm (9 Oct 1908).
 - The prior run's research notes file did not exist on this branch. This file establishes the persistent checkpoint.
-- Branch: `ccr-6abdfb67-cbzklo`.
+- Branch: `main` (sole collaboration branch).
 
 ## Next steps
 1. Create and maintain a prioritized Ahnentafel worklist, tracking father and mother gaps separately.
@@ -1163,3 +1163,24 @@ Rotate to the Broager/Dybbøl open ancestor p53 Anne Christine Hansen and parent
 2. Inspect Dybbøl KMB 1810–1853 FVD, p.95, 1827 no.10 (new image 50), for Jørgen Hansen's parents, residence and witnesses.
 3. Search the same couple's earlier/later children and compare residence and family witnesses with p53's 1866 marriage. Only a direct record or a convincing multi-record household chain can support the p53 parent link.
 4. Continue rotation to Syv p66–p67 or another unworked branch after the Dybbøl register-index lookup.
+
+
+## Milestone 44 — move genealogy collaboration to main (16 November 2026)
+
+### Branch and commit audit
+- GitHub reported the genealogy repository had two existing refs: `ccr-6abdfb67-cbzklo` and `master`; there was no existing `main` ref and no open pull request.
+- Comparing `master` with the working branch showed the working branch was **81 commits ahead and 0 behind**. The latest working-branch commit at audit time was `fe2f6cf9d516bd6d8ba7206403bcef783d967deb`.
+- Created `main` at that exact commit. This makes all 81 existing commits and their tracked file changes reachable from `main`; no commit was cherry-picked or discarded.
+- Updated this protocol to require direct work on `main` only. The former `ccr-6abdfb67-cbzklo` and `master` refs remain visible remotely because the available GitHub connector exposes branch creation/ref updates but not branch deletion or repository default-branch settings. No further writes should target either legacy ref.
+- EarlySmolWeb was separately audited: its only reported branch is already `main`, with no open pull requests.
+
+### Validation and limits
+- The new genealogy `main` ref was created successfully at the latest working-branch commit. GitHub contents API commits made to `main` are remote commits (pushed); there is no separate local push queue exposed by this connector.
+- No local workspace or another agent's uncommitted files can be inspected through GitHub. Remote commit history confirms committed work only.
+- No genealogy data, relationships, private files, or generated artifacts were changed in this migration.
+- Repository default-branch configuration and deletion of the two legacy refs remain administrator-side actions outside the available connector capabilities.
+
+### Next work
+1. Continue the Broager/Dybbøl p53 collateral-family test using the parish index and original 1866 marriage register; do not infer p53's parents from the Jørgen Hansen secondary profile.
+2. Continue rotating across the remaining open Ahnentafel branches, prioritising original register images over additional compiled trees.
+3. Commit all further changes directly to `main` and verify each changed file from `main`.
