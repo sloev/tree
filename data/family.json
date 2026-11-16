@@ -10974,7 +10974,7 @@
    "mother": "p5",
    "sibof": null,
    "step": null,
-   "spouse": "p3",
+   "spouse": null,
    "name": "Privat person",
    "private": true,
    "living": true,
@@ -10998,7 +10998,7 @@
    "mother": "p7",
    "sibof": null,
    "step": null,
-   "spouse": null,
+   "spouse": "x_kirill",
    "name": "Vivi Frederiksen Gedde",
    "private": false,
    "living": true,
@@ -11263,7 +11263,7 @@
    "mother": null,
    "sibof": null,
    "step": null,
-   "spouse": null,
+   "spouse": "p3",
    "name": "Privat person",
    "private": true,
    "living": true,
@@ -13855,8 +13855,8 @@
  "union_statuses": [
   {
    "partners": [
-    "p3",
-    "x_kirill"
+    "p2",
+    "p3"
    ],
    "status": "divorced",
    "note": "Family-reported divorce more than 30 years ago; exact date not supplied."
