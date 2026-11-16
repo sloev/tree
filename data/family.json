@@ -2846,12 +2846,14 @@
     "Ejer af herregården Bogensholm (1796/97–1811)"
    ],
    "conf": "record",
-   "note": "Gift to gange; Kirsten Marie Jørgensdatter var hans anden hustru. Enken solgte Bogensholm på auktion i 1811 for 31.000 rdl. Han kom til Vosnæsgaard efter 1784. Hvor han er født, og hvem hans forældre var, er ukendt.",
+   "note": "Gift to gange; Kirsten Marie Jørgensdatter var hans anden hustru. Enken solgte Bogensholm på auktion i 1811 for 31.000 rdl. Han kom til Vosnæsgaard efter 1784. Et skifteuddrag fra 1787 nævner hans søster Karen Christensdatter, som han var lavværge for. Hans fødested og forældre er stadig ukendte.",
    "src": [
     "LL:0-414804",
     "LL:1-475533",
     "AO:Skødstrup kirkebog 1780–1809, s. 75",
-    "Trap Danmark / danskeherregaarde.dk (Bogensholm)"
+    "Trap Danmark / danskeherregaarde.dk (Bogensholm)",
+    "Dansk Slægtsforskning: Rolsøgård gods (G302), skifte nr. 11, 14.5.1787, fol. 39 (https://slaegt.dk/media/jnnnvuml/alfabetisk-navneliste-og-skifteuddrag-til-rols%C3%B8g%C3%A5rd-gods-g302-mols-herred-1778-1816-1818.pdf)",
+    "Kongelige Rescripter 1803–1804, 6.8.1803, s. 252 (https://da.wikisource.org/wiki/Side:Kongelige_Rescripter,_Resolutioner_og_Collegialbreve_for_Danmark_og_Norge_udtogsvis_udgivne_i_chronologisk_Orden._VI._Deel._12._Bind_(1803–1804).pdf/258)"
    ],
    "res": [
     [
@@ -2897,6 +2899,31 @@
    "sibof": null,
    "step": null,
    "spouse": "p72"
+  },
+  {
+   "id": "p74",
+   "name": "Karen Christensdatter",
+   "sex": "F",
+   "ahnen": null,
+   "line": "gaardsted",
+   "rel": "Claus Gaardsteds søster",
+   "born": null,
+   "bplace": null,
+   "died": null,
+   "dplace": null,
+   "occ": [],
+   "conf": "record",
+   "note": "Nævnt som Claus Gaardsteds søster i et skifteuddrag fra 1787. Claus var hendes lavværge. Uddraget knytter hende til afdøde Christen Christensen Tohde? i Dejret, men angiver ikke forældrene med sikkerhed.",
+   "src": [
+    "Dansk Slægtsforskning: Rolsøgård gods (G302), skifte nr. 11, 14.5.1787, fol. 39 (https://slaegt.dk/media/jnnnvuml/alfabetisk-navneliste-og-skifteuddrag-til-rols%C3%B8g%C3%A5rd-gods-g302-mols-herred-1778-1816-1818.pdf)"
+   ],
+   "res": [],
+   "father": null,
+   "mother": null,
+   "living": false,
+   "sibof": "p72",
+   "step": null,
+   "spouse": null
   },
   {
    "id": "p76",
