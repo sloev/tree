@@ -15,7 +15,7 @@ out = (tpl.replace("__UNLOCK_JS__", UNLOCK).replace("__DATA__", json.dumps(data,
 open(os.path.join(root, "site", "index.html"), "w", encoding="utf-8").write(out)
 print("wrote site/index.html", len(out) // 1024, "KB")
 
-# Standalone copy for GitHub Pages (served from /docs on master).
+# Standalone copy for GitHub Pages (served from /docs on main).
 docs = os.path.join(root, "docs")
 os.makedirs(docs, exist_ok=True)
 split = out.index('<div class="wrap">')
