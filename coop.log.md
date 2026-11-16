@@ -193,3 +193,15 @@ No canonical data or GEDCOM edges were changed. No local tests/build were run.
 - Urk. 48 (7 April 1269), from the Colbatz monastery matricula, says Conradus miles dictus Clest made a provision for the monastery concerning holdings he and his already deceased brother Bertoldus had held for life.
 - This makes Conradus/Bertoldus a well-attested sibling pair. No source found so far links them to the 1289 Belgard witness group or to Prissebur of Muttrin; Sauer and von Ledebur's alternate interpretation of “Prissebur, Clest fratres” remains plausible but unproven.
 - Updated the Lorenz dossier to keep this earlier sibling pair distinct and open the question of any relationship to the 1289 group. No canonical data changed.
+
+
+### 1575–1618 fief-genealogy follow-up
+
+- Re-read Quandt's genealogy-method chapter, pp. 45–47, and extracted his quotations/analysis of Urk. 502 (1575), 547 (1601), 563a, 564–565 (1608), 585 (1618), 594 (1621), and 662 (1706).
+- The 1575 and 1601 whole-family fief letters explicitly classify the Muttrin-stem members as descendants of the late Prissebur of Muttrin, according to a submitted “Nachrichtung” (descent account). Quandt says that account survives neither in original nor copy. This is strong evidence that a pedigree was submitted and accepted for fief purposes, but the lost account cannot be checked generation by generation.
+- Urk. 564 (1608) groups Muttrin and its Vietzow, Damen and Dargen offshoots under Prissebur; the Dubberow/Tychow stem under Jacob of Dubberow/Tychow; and Vilnow/Raddatz under the elder Voltz of Vilnow. Urk. 565 separately traces the Damen branch through named intermediate generations to the 1477 brothers Peter, Bisprow and Churdt, sons of Dubschlaff.
+- Identified a material conflict: 1477 wording (as transcribed by Quandt) makes Reimer and Bartes sons of Pribbeslaw of Muttrin; the 1618 genealogy instead places Great Tychow under Reimer and Bartes as sons of Hans. The 1618 claim is repeated in 1621 and 1706. Do not resolve by choosing the later tidy pedigree.
+- Quandt says the genealogization in fief letters from 1618 onward was apparently taken from Paul Bolduan, not independently researched by the ducal chancery. He notes that Bolduan's work did not exist in 1608, and the extant Damen submission for the 1608 enfeoffment (Urk. 563a) does not provide the data needed for the 1608 genealogization; the source of that earlier information remains unknown.
+- Updated only the Lorenz dossier with the exact claims, source-dependence warning, conflict table and evidentiary status. No canonical family data changed.
+- Sources: https://v-kleist.com/FG/Genealogie/AllgemeineGeschichte.pdf ; https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf
+- Limitation: this is analysis of the printed charter edition and Quandt's source criticism, not a new palaeographic reading of the originals or the lost 1575 pedigree. No local tests/build/deployment run; no private records opened.
