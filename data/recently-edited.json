@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "ee4c597aed3893ce5e607f25cdc8d7b533ec0545",
+    "commit": "6cfd167e4641d234e8f8c59814763ce0e58255a7",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "data/tree.json"
     ],
     "people": [],
-    "title": "Record bounded negative G299 search and refine the 1764 probate search route"
+    "title": "Research: add Bogensholm G298 and Rousing probate leads"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
