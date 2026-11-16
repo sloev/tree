@@ -233,3 +233,20 @@ A further route was found in the Skærsø leasehold register 1781–1820: entry 
 **Validation:** parsed canonical JSON before update; confirmed current branch is `main`; fetched current blob SHA before each write. No original probate/lease images, original census image, local build/export or Pages deployment were checked.
 
 **Next:** inspect original G304 fol. 135; inspect the original 1784 lease entry and identify the farm/household; then test the 1735/1762 family cluster against parish baptisms, marriage and the 1801 household. Keep p304 parentage and p152's parentage unchanged until those checks are complete.
+
+
+## 2026-11-17 — research loop: Rasmus Jensen Smed matched across 1744, 1787 and lease records
+
+**Track updated:** `evald-rousing-parentage`.
+
+Further corroboration was found for the candidate Rasmus Jensen in Fuglslev. Karin Jørgensen's Tirstrup register (1704–1799) lists Rasmus Jensen Smed, unmarried, of Fuglslev, betrothed 8 March 1744 and married 8 July 1744 to Anne Cathrine Sørensdatter of Tirstrup. The register's author warns that it is unproofread and must be checked against the original churchbook. Aksel Rousing's *Fuglslev – en by og dens historie* (2006) transcribes the 1787 census for Møllegården: Rasmus Jensen Smed, 66, farmer; wife Ane Cathrine Sørensdatter, 65; daughter Mette Rasmusdatter, 36; granddaughter Ane Poulsdatter, 7. This is a strong name/place/occupation/spouse/age match to the candidate Rasmus named in G304 no. 52 and to p304 (born ca. 1718). A local churchbook index also reports the death in 1758 of Rasmus Jensen Smed's daughter Anne Cathrine, about six months old, and the 1744 marriage register supplies a matching wife. The original churchbook and census images remain uninspected.
+
+**Chronology/property issue retained:** Skærsø lease register no. 9 is dated 31 October 1784 and says Rasmus Jensen Smed in Fuglslev relinquished a holding due to old age with aftægt for himself and wife. Aksel Rousing's later farm history lists Rasmus Jensen Smed as tenant of Møllegården in 1788 and his son-in-law Poul Hansen as successor in 1799. These may concern different properties or a multi-stage transition; do not silently reconcile them without the original lease deeds. The 1787 census age (66) is consistent with birth c.1720/21, close to p304's approximate c.1718.
+
+**Sources reviewed:** Tirstrup churchbook name register (1744 marriage); Aksel Rousing, *Fuglslev – en by og dens historie* (1787 census transcription and farm chronology); Tirstrup-Fuglslev death index (1758 child); Skærsø lease register (1784 entry); earlier 1735 and 1762 probate extracts.
+
+**Files changed:** `data/tree.json` and `coop.log.md`; added a dated evidence note and source links to the existing Rousing track. No new claim or sidecar file; no person facts or parentage edges changed.
+
+**Validation:** canonical JSON parsed before update; current blob SHA fetched before writes. No original kirkebog, census, probate or lease images were read; no local build/export or deployment check performed.
+
+**Next:** inspect the original 1744 marriage entry and the 1787 census image; search baptism/death entries for the children of Rasmus and Anne Cathrine; inspect the underlying 1784 and 1788/1799 lease documents to establish whether they refer to the same holding; then assess whether p304's parentage can be upgraded.
