@@ -967,3 +967,33 @@ These details provide better search keys than the birth dates alone: Peder's Jul
 
 ### Validation and next steps
 No build or tests were run; private data was not accessed. Next inspect the exact Vorbasse 1820 “Fødte mænd” and Fåborg 1830 “Fødte kvinder” images, then the 1828 John Eskesen–Anne Knudsdatter and 1852 Peder Jensen–Karen Johnsen marriage entries. If image access remains blocked, rotate to another whole-tree branch rather than extending this lead through secondary trees alone.
+
+
+## Milestone 39 — Ahnentafel 74–75: Rosmus marriage conflict and archival series confirmed (16 November 2026)
+
+### Research target
+Rotate from the Fåborg branch to p74 Jens Hansen and p75 Mette Pedersdatter. Existing tree notes report a Rosmus marriage on 6 July 1811 and identify the mother of daughter Ane Sophie (baptised 1812) as Mette Pedersdatter Hallis. The father stub p150 is Peder Hallis. A secondary GEDCOM profile had already surfaced a potentially conflicting couple.
+
+### New findings
+- Rigsarkivet's March 2026 volunteer bulletin includes a collection-level inventory row for Rosmus Sogn — Enesteministerialbog — 1789–1816 — FVD 1789–1816. This confirms that the relevant single parish register series spans the target 1811 marriage and 1812 baptism. The inventory does not itself identify the entries or establish the couple.
+- A searchable GEDCOM extract for Nanna Vester gives Jens Hansen Broge, born 1781 in Attrup and baptised 10 June 1781 in Rosmus, married on 6 July 1811 in Rosmus to Mette Sørensdatter Helles (born 1788). This is a specific competing identification for the exact date and parish already attributed in the tree to Jens Hansen and Mette Pedersdatter.
+- The conflict is material: the shared date/place could indicate that the tree's p74/p75 identification is wrong, that the GEDCOM couple is a different pair recorded on the same date, or that one compilation has conflated names. The GEDCOM extract is secondary and cannot resolve this. The 1812 baptism naming Mette Pedersdatter Hallis may be the stronger discriminator, but the original wording and whether the entry explicitly names the father still need inspection.
+- Rigsarkivet's current guide explains that pre-1814 entries are in the parish's Enesteministerialbog and are organised chronologically; the official AO collection provides the scanned church books. This establishes the correct source class and retrieval route, not the content of the target entry.
+
+### Sources
+- Rigsarkivet, Nyt fra de frivillige, marts 2026, p.4 (Rosmus series inventory): https://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-marts-2026.pdf
+- Nanna Vester GEDCOM extract (Jens Hansen Broge and Mette Sørensdatter Helles): https://tom.brondsted.dk/genextracts/?chpt=21&colbranch=&ged=2&sid=I29
+- Rigsarkivet, church-book guide: https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/
+- Arkivalieronline, national church-book collection: https://arkivalieronline.rigsarkivet.dk/da/geo/geo-collection/5
+
+### Assessment and limits
+- The 1811 date/parish collision is now documented against a named alternative couple. Treat p74/p75 and the Broge/Helles couple as unresolved alternatives until the original 1811 marriage entry is read.
+- The 1789–1816 Rosmus register is positively identified at series level, but the exact image/page and entry have not yet been located or transcribed in this run.
+- No new ancestor, parent link, marriage, or date was added to canonical genealogical data. No changes were made to data/build_data.py, data/family.json, or generated site files.
+- No build or tests were run; private data was not accessed.
+
+### Next concrete steps
+1. Open the Rosmus Enesteministerialbog 1789–1816 on Arkivalieronline and inspect the 6 July 1811 marriage entry; transcribe both parties' full names, status, residence, fathers/guardians and witnesses.
+2. Inspect the 1812 Ane Sophie baptism in the same register and compare the mother's full name, legitimacy wording, residence and named father with p74/p75/p150.
+3. If the entries support the existing tree, identify the parents of Mette Pedersdatter Hallis and Jens Hansen separately; if they support Broge/Helles, record the mismatch for correction review rather than silently changing IDs.
+4. Rotate to the Syv (p66–67) or Langeland (p114–121) branch after this bounded Rosmus check; keep research balanced across Vivi's whole tree.
