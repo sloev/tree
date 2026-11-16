@@ -256,3 +256,8 @@ Owner request: make additions visible as research progresses, with evidence matu
 - https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/
 
 **Next:** inspect volume 20 and both registers; do not promote the baptism or parentage until the entries are read and transcribed.
+
+
+### Access caveat — Vor Frelsers name index (16 November 2026)
+
+A closer reading of the church-book inventory clarifies that the original name registers are available as copies in the reading room. Volume 20 is therefore a precisely identified index, but it is **not confirmed to be digitized online**. The earlier lookup sequence is corrected accordingly: ask Rigsarkivet to consult/provide the volume 20 index lookup and confirm whether the referenced bell-ringer register is online or must be ordered. The minister's FVD 1686–1722 series is listed in the 2025 Arkivalieronline release notes. No baptism entry has been seen, and no family relationship is promoted.
