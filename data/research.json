@@ -422,9 +422,9 @@
       "title": "Frederik Christian III.727: identitet, fødselsdato og begravelse",
       "status": "hypothesis",
       "claim": "Selmer identificerer en oberstløjtnant Frederik Christian af Kleist, født 3. januar 1775 i Kolding, søn af kammerherre Christian Frederik af Kleist og Anne Margrethe Schubarth, død 21. maj 1848. Harbou angiver samme militære karriere og dødsdato, men fødselsdato 8. januar. Identiteten med Harbous III.727 er meget stærk; identiteten med den fremlagte “Christian Frederik Vilhelm” (1774–1848) er fortsat uafklaret.",
-      "evidence": "Selmer, Nekrologiske Samlinger 1848–49, s. 68, giver fødested, fødselsdato, forældre og militær karriere; s. 114 gentager dødsdatoen 21. maj og alder 73. Brejls oversigt over et 100-årigt gravbrev registrerer begravelse på Garnisons Kirkegård 26. maj 1848. Harbou III.727 angiver 8. januar 1775 og samme dødsdato. Gravbrevets originale ordlyd og kirkegårdsprotokol er endnu ikke gennemgået.",
+      "evidence": "Selmer, Nekrologiske Samlinger 1848–49, s. 68, giver fødested, fødselsdato, forældre og militær karriere; s. 114 gentager dødsdatoen 21. maj og alder 73. Brejls oversigt over et 100-årigt gravbrev registrerer begravelse på Garnisons Kirkegård 26. maj 1848. Harbou III.727 angiver 8. januar 1775 og samme dødsdato. Gravbrevets originale ordlyd og kirkegårdsprotokol er endnu ikke gennemgået. Kolding Stadsarkiv har digitaliserede Ingrid Bruun-afskrifter af kirkebøger 1635–1881; portalen er relevant for Kolding 1775, men gav timeout, og ingen konkret dåbsindførsel er endnu læst.",
       "missing": "Koldings originale dåbsindførsel for at afgøre 3. eller 8. januar; selve gravbrevet og Garnisons Kirkegårds begravelsesprotokol; dokumentation for dødsstedet; sammenligningskilder til at afgøre om “Christian Frederik Vilhelm” er samme mand.",
-      "next": "Kontrollér Koldings dåb omkring 3–8. januar 1775; find originalt gravbrev/begravelsesprotokol for 26. maj 1848; undersøg derefter den alternative navneform mod forældre, ægtefælle og militær karriere.",
+      "next": "Søg i Ingrid Bruuns Kolding-afskrifter efter Frederik/Frederich Christian von Kleist og forældrenes navne i januar 1775; kontrollér fundet mod original kirkebog på Arkivalieronline. Undersøg derefter originalt gravbrev og Garnisons Kirkegårds protokol.",
       "dossier": "leads/grandparent-lorenz-frederiksen.md",
       "sources": [
         {
@@ -438,6 +438,14 @@
         {
           "label": "Brejl: private personarkiver, gravbrev for Frederik Christian von Kleist",
           "url": "https://brejl.dk/privatB.html"
+        },
+        {
+          "label": "Kolding Stadsarkiv: Ingrid Bruuns kirkebogsafskrifter",
+          "url": "https://koldingstadsarkiv.dk/brug-arkivet/slaegtsforskning"
+        },
+        {
+          "label": "Rigsarkivet: vejledning til kirkebøger",
+          "url": "https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/"
         }
       ],
       "person_ids": [
