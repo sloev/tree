@@ -1,127 +1,69 @@
-# Repository research method
+# Forskningsmetode — én offentlig sandhedskilde
 
-This file defines the working method for genealogical research in `sloev/tree`. The repository-specific instructions in [AGENTS.md](AGENTS.md) and the four active grandparent dossiers in [leads/README.md](leads/README.md) take precedence if a procedural detail conflicts.
+Dette dokument beskriver arbejdsgangen for slægtsforskningen i `sloev/tree`.
 
-## 1. Scope and repository discipline
+## 1. Sandhedskilde og registrering
 
-- Work only on the Gårdsted and Gedde family-history project.
-- Work directly on `main`; do not create feature branches or pull requests unless the owner changes this instruction.
-- Read `AGENTS.md`, `leads/README.md`, the latest `coop.log.md` entries and the relevant grandparent dossier before research or edits.
-- The four grandparent dossiers are the sole active research workspaces. Put each claim in the dossier for the relevant grandparent line. Cross-reference shared events by person ID rather than copying the same claim into several active files.
-- Never access, decrypt, quote or publish private records without explicit, scoped authorization. Never put passwords or decrypted files in Git.
-- Keep generated files in step with their sources. The canonical genealogy source is `data/build_data.py`; `data/family.json`, `family-tree.ged`, summaries and website output are generated/reference products.
+- `data/tree.json` er den eneste redigerbare sandhedskilde for personer, relationer, kilder, kort og forskning.
+- Alle nye leads, kildefund, transskriptioner, rettelser, kildekonflikter, negative søgninger og næste handlinger registreres direkte i et eksisterende eller nyt forskningsspor under `tree.json` → `research.claims`.
+- Findes spørgsmålet allerede, udvides samme spor. Opret ikke parallelle noter eller dubletter.
+- Detaljeret historisk materiale fra tidligere dossierer ligger som `research_notes` på det relevante spor og vises i forskningsfanen.
+- `data/family.json`, `data/research.json` og `data/map.json` er genererede kompatibilitetsfiler. Redigér dem aldrig manuelt.
+- `family-tree.ged`, `family-tree.md`, `site/index.html` og `docs/` er afledte output.
 
-## 2. Evidence hierarchy and source handling
+## 2. Forskningssporets felter
 
-Prefer sources closest to the event, while recording the nature and limitations of every source:
+Et spor skal som minimum have:
+- stabilt unikt `id`, `branch`, `title` og status;
+- konkret spørgsmål/påstand;
+- hvad kilderne faktisk viser;
+- hvad der mangler eller er modstridende;
+- næste konkrete arkivkontrol;
+- kilder med forklarende etiketter og stabile URL'er;
+- relevante person-ID'er;
+- `research_notes` med daterede, kildebevarende noter, når der er detaljeret historik.
 
-1. Original civil, church, census, probate, court, military, land and other contemporary records.
-2. Contemporary copies, certified extracts, official registers and archival finding aids.
-3. Published scholarly or local-history works with traceable citations.
-4. Compiled genealogies, indexes, online family trees and databases.
-5. Family documents, oral history, photographs and correspondence.
+Gyldige statusser: `needs`, `hypothesis`, `family`, `conflict`. Status gælder den enkelte påstand, ikke alle oplysninger om personen.
 
-This is not a mechanical ranking. A source may be authoritative for one fact and silent about another. For every item record:
+## 3. Kildekritik
 
-- Creator/title, archive or collection, record type, date and locality.
-- Volume, page, entry, image, folio, case or journal number where available.
-- Exact wording or a faithful transcription for decisive statements.
-- What the source directly establishes, what it merely reports, and what it cannot establish.
-- Stable URL and access date for online material.
+Prioritér original kirkebog, folketælling, skifte, retssag, militærrulle, ejendomsakt eller civilregister. Skeln mellem originalkilde, arkivregistratur, indeks, publiceret slægtshistorie, online database og familieoplysning.
 
-A catalogue entry proves that a record series is described or held; it does not prove the contents of an individual record. An index is a finding aid, not a substitute for the original entry. A search with no result is a bounded negative search, not proof that a person or record did not exist.
+Registrér:
+- arkivskaber, serie, sogn/sted, år, opslag/side/folio/sagsnummer;
+- ordret tekst eller trofast transskription, når den er afgørende;
+- hvad kilden direkte beviser, og hvad den ikke beviser;
+- navnevarianter, modstridende datoer og negative søgninger;
+- stabil URL og adgangsdato.
 
-## 3. Separate identity, events and relationships
+Et arkivkatalog viser, at en serie findes; det beviser ikke indholdet af en bestemt sag. Et indeks er et søgemiddel, ikke en erstatning for originalen.
 
-Do not merge people because they share a name, occupation, farm, parish or approximate date. Resolve identities using several independent attributes such as age, birthplace, spouse, parents, occupation, residence and witnesses. Keep similarly named people separate until the evidence supports a match.
+## 4. Identitet og relationer
 
-Treat each relationship as its own sourced assertion. Distinguish:
+Sammenlæg ikke personer alene på grund af navn, erhverv, sogn eller omtrentligt årstal. Brug flere uafhængige identifikatorer.
 
-- Biological parentage and descent, including children born outside marriage.
-- Marriage, remarriage, partnership and other documented unions.
-- Legal or recorded parenthood and acknowledged paternity.
-- Adoptive parenthood.
-- Step-parenthood.
-- Foster, guardian, household and other social relationships.
+Hold biologisk, juridisk/registreret, ægteskabelig, sted-, adoptiv-, pleje-, værge- og husstandsrelation adskilt. En paternitetserklæring eller dom viser, hvad der blev erklæret eller juridisk afgjort; den er ikke automatisk genetisk bevis. Et forskningsspor opretter ikke automatisk en relation i stamtræet.
 
-Marriage does not prove biological parentage. A paternity declaration or court decision proves what was declared or legally decided to the extent shown by the record; it is not automatically independent genetic proof. A baptismal entry naming a father is evidence of what the register records, but conflicting evidence must remain visible. Do not infer illegitimacy from silence, stigma, a surname or a missing father field.
+## 5. Offentlighed og privatliv
 
-Use explicit calibrated states such as established by record, probable, family-claimed, possible, disputed, rejected and not yet checked. Keep evidence status separate from biological status. Preserve conflicting assertions with their own source, author/ informant, date and explanation; do not force a single answer when the evidence does not support one.
+Forskningsspor er offentlige som udgangspunkt, også når konklusionen er usikker. Vis usikkerhed tydeligt. Offentliggør ikke adgangskoder, private nulevende personers følsomme oplysninger eller oplysninger uden ret til offentliggørelse. Følg `data/PUBLIC_CONSENT.md` og de eksisterende anonymiseringsregler for nulevende og nyligt fødte personer.
 
-## 4. Research workflow
+Det private supplement og krypterede persondata må ikke kopieres ind i offentlige forskningsnoter. Hvis en kilde indeholder blandede oplysninger om afdøde og nulevende, registrér kun den historiske del, der forsvarligt kan offentliggøres.
 
-For each question:
+## 6. Arbejdsgang
 
-1. **Frame the question.** State the exact identity or relationship to be tested, the competing hypotheses and the time/place range.
-2. **Read the active dossier.** Check earlier searches, conflicts and handoffs so work is not repeated or contradictory.
-3. **Find the record series.** Use official archive catalogues and finding aids. Confirm the correct parish, civil jurisdiction, archive creator, date range and administrative boundary.
-4. **Inspect the record.** Prefer the original image or file. Transcribe names, dates, places, occupations, household roles, witnesses, marginal notes and references exactly enough for another researcher to repeat the check.
-5. **Corroborate identity.** Follow the person through independent records before attaching parents, spouses, children or a similarly named individual.
-6. **Assess each relationship.** Explain what each source proves and does not prove. Preserve disagreements and source limitations.
-7. **Record the result.** Update the one relevant dossier, including the source citation, conclusion, confidence, rejected alternatives and next concrete action.
-8. **Update canonical data only when justified.** Add or alter a person or relationship only when the evidence rule in the dossier is met. Keep uncertain claims in the dossier rather than presenting them as settled tree links.
-9. **Regenerate and validate.** Run the documented data, GEDCOM and site build commands after source changes. Review generated diffs and check that privacy protections and unrelated branches remain intact.
-10. **Hand off.** Append a concise dated entry to `coop.log.md` describing files read and changed, evidence found, tests/builds actually run, unresolved issues and the next actionable step.
+1. Læs `AGENTS.md`, denne metode og de relevante forskningsspor i `data/tree.json`.
+2. Søg efter eksisterende spor, før et nyt oprettes.
+3. Registrér fund og kildehenvisning direkte i sporet.
+4. Opdatér status, mangler og næste handling.
+5. Kør `python3 data/build.py`, `python3 data/export.py` og `python3 site/build.py` lokalt, når miljøet er til rådighed.
+6. Kontrollér GitHub Actions build og Pages-udrulning. Påstå ikke, at siden er live, før det er bekræftet.
 
-## 5. Archive and online research
+## 7. Repoets struktur
 
-Search using spelling and language variants, historic place names, parish boundaries and administrative changes. Record which variants, catalogues, date ranges and collections were searched. For Danish and Schleswig-Holstein research, distinguish parish, herred, amt, judicial district, police district and later archive creator; their boundaries and names may change over time.
-
-When a record is unavailable online, do not repeatedly issue broad searches after the catalogue and indexed sources have been exhausted. Write a precise archive enquiry naming the person(s), event, locality, date window, record series and known reference numbers. State which documents are still needed and what each would resolve.
-
-## 6. Canonical data and website changes
-
-- Keep genealogical facts in `data/build_data.py`; regenerate `data/family.json` with `python3 data/build_data.py`.
-- Regenerate GEDCOM with `python3 data/export.py`.
-- Regenerate the site with `python3 site/build.py`.
-- Do not hand-edit generated output as a substitute for editing its source.
-- Relationship evidence belongs to a relationship, not to a person's overall confidence field. Where the data model cannot represent competing parentage, do not leave one disputed candidate in a field rendered as settled parentage.
-- Preserve multiple unions and distinct parent roles where the source data supports them; never infer a biological link from spouse or household membership.
-- Follow `AGENTS.md` for responsive design, accessibility, generation colours, navigation and privacy.
-
-## 7. Completion standard
-
-A research task is complete when another researcher can repeat the source search, understand the conclusion and its limits, distinguish facts from hypotheses, and see exactly what remains unresolved. A null result is useful when its search scope is documented. Do not claim that a build, test, deployment, archive inspection or source verification occurred unless it was actually performed.
-
-## 8. Current handoff
-
-The active branch dossiers and the latest entries in `coop.log.md` are the live status. In particular, the Lorenz paternity question remains unresolved: the Egernsund register records Wilhelm Krogh as biological father following a declaration and court decision; the family account identifies Sophus Petersen; Peter Frederiksen was the social/stepfather. The original 1932 case file has not yet been inspected. Keep these three roles distinct and do not mark biological paternity as settled.
-
-
-## 8. Publication threshold: publish with an explicit status
-
-Do not hold a credible historical claim back from the public family tree merely because it is not proven beyond doubt. Publish it with a plain-language confidence label and a short explanation of what the source does and does not establish. The aim is a living, qualified family history, not an indefinitely unfinished research project.
-
-Use these public labels:
-
-- **Well established / Godt belagt:** contemporary records or strong, genuinely independent corroboration support the stated fact.
-- **Needs more evidence / Kræver mere belæg:** the claim is credible, but an identity, parent-child link, reading or intermediate generation remains unresolved.
-- **Speculative / Foreløbig hypotese:** a plausible reconstruction, family tradition or possible identification; never render it as a proven parent-child edge.
-- **Family account / Familieoplysning:** a provenance label, not a confidence rating. Preserve the account as a claim and seek corroboration without erasing it.
-
-Assess the existence/identity of a person separately from every relationship attributed to that person. A well-documented individual may have speculative parentage. A source may establish a person's title, landholding or presence as a witness without proving descent. Distinguish biological, legal/registered, marital, step, foster, guardian and household ties. If the website's current data model cannot label a particular relationship independently, explain that limitation in the person's note and do not imply that person-level confidence automatically validates the edge.
-
-Publication is not permission to flatten contradictions: show competing readings and identify which source is contemporary, derivative, or family tradition. Change the canonical parent edge only when the evidence supports that relationship at the chosen level; otherwise publish the person and claim without connecting the line.
-
-## 9. Open public research and community contributions
-
-The public website is an **open research tree**, not merely a display of conclusions that have passed a proof threshold. Publish useful, privacy-safe research leads and competing interpretations while the work is in progress. Do not hide a credible lead solely because it is unverified. The purpose is to let visitors recognise names, places, dates, occupations, photographs, family stories and archival references and contribute corrections or missing evidence.
-
-### Public presentation rules
-
-- Show uncertain people, dates, events and relationships with a visible status directly where they appear. Use distinct visual treatments for established, needs-more-evidence, speculative, family-account, disputed and rejected claims; never rely on colour alone.
-- A click/tap on a person or relationship must explain the claim's status, the evidence for it, the source and its provenance, what the source establishes and does not establish, competing accounts, and the exact missing evidence or next check.
-- Model and display **relationships independently** from person identity. A well-documented person can have disputed parentage. A record can establish legal/registered parenthood without proving biological parentage. Show biological, legal/registered, step, adoptive, foster, guardian, household and marital relationships as distinct kinds, with their own evidence and status.
-- Show credible alternatives side by side rather than choosing one silently. Keep a possible person identification separate from the relationship inference that depends on it. Do not draw a speculative biological line as if it were established; if shown in the visual tree, use an unmistakably provisional/dashed edge and an explanatory click target.
-- Provide a public research register, filterable/searchable by person, place, family line, record type and status. Each item should have a concise question, current assessment, date/place bounds, source links, what has been checked, what remains missing, and a practical request for help. Link register items to affected people and dossier/revision history.
-- Publish source references and faithful transcriptions where lawful and appropriate. Clearly label archival catalogues, indexes, derivative databases, published genealogies and family testimony; do not present a catalogue entry or index as inspection of the original record.
-- Invite visitors to contribute through public GitHub Issues or Pull Requests. Give them a compact checklist: exact person/claim, archive and collection, parish/locality, record series and date, page/image/folio/case, exact wording, stable URL, access date, and what the source does not prove. Preserve provenance and credit contributions where requested.
-- Make the status vocabulary and visual key permanently discoverable. Include a “last reviewed” date and a change history so visitors can tell whether a lead is current.
-
-### Privacy and publication gate
-
-Open research does not mean indiscriminate publication. Before anything is copied from private research into public website data, check the existing privacy rules and living-person protections. Never publish private-encrypted material, decrypted private files, credentials, sensitive personal details, contact details, precise current locations, or unconsented material about living people. Use public stubs or omit a lead when even naming a living person would expose them. Apply a cautious review to people born within the repository's privacy window and to allegations, parentage disputes or other potentially harmful claims. Where a public historical claim involves deceased people but names a living informant, attribute it generically (for example, “family account”) unless explicit permission exists.
-
-### Source of truth and implementation
-
-Keep public research claims in structured, version-controlled source data, not as hand-maintained fragments of generated HTML. Each claim needs a stable ID, affected person IDs where available, relationship/event type, exact assertion, status, informant/source provenance, citations, counter-evidence, explanation, missing evidence, next action, privacy review and last-reviewed date. Generate the public research register and person/relationship detail panels from this data. Keep full internal working notes in the active dossiers, but publish a reviewed public summary for every useful lead. After changes, regenerate the website and inspect the output and privacy boundaries before claiming publication.
+- `data/tree.json`: eneste redigerbare data- og forskningskilde.
+- `data/build.py`, `data/export.py`: validering og eksport.
+- `site/template.html`, `site/build.py`: præsentation og website-build.
+- `images/`: kildebilleder og dokumentationsbilleder, der anvendes af træet.
+- `tools/`: vedligeholdelses- og eksportværktøjer.
+- `docs/`: genererede GitHub Pages-filer og plakater.
