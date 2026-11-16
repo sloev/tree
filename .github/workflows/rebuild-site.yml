@@ -6,12 +6,12 @@ on:
     paths:
       - '.github/workflows/rebuild-site.yml'
       - 'data/**'
-      - '!data/family.json'
+      - '!data/family.json'\n      - '!data/recently-edited.json'
       - 'site/template.html'
       - 'site/build.py'
       - 'site/poster.html'
       - 'site/unlock.js'
-      - 'tools/mark_recent_people.py'
+      - 'tools/mark_recent_people.py'\n      - 'leads/**'\n      - 'research-archive/**'\n      - 'coop.log.md'\n      - 'README.md'
       - 'images/**'
   workflow_dispatch:
 
