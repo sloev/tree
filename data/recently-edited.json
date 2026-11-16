@@ -59,19 +59,31 @@
       ],
       "people": [],
       "title": "Revise Dejret stepchild hypothesis with 1775 probate"
+    },
+    {
+      "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
+      "commit": "4654129b7370d2505a97ec1d3ddf7be7722d3030",
+      "created_at": "2026-11-16T23:32:48Z",
+      "date": "2026-11-16",
+      "date_label": "16.11.2026",
+      "paths": [
+        "coop.log.md"
+      ],
+      "people": [],
+      "title": "Sort bulletin entries by absolute timestamp"
     }
   ],
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "169b56f47fa698d6354db60a01f3a609ebfd7b12",
-    "created_at": "2026-11-16T23:32:05Z",
+    "commit": "4654129b7370d2505a97ec1d3ddf7be7722d3030",
+    "created_at": "2026-11-16T23:32:48Z",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
-      "data/tree.json"
+      "coop.log.md"
     ],
     "people": [],
-    "title": "Revise Dejret stepchild hypothesis with 1775 probate"
+    "title": "Sort bulletin entries by absolute timestamp"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
