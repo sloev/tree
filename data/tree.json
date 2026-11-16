@@ -15002,6 +15002,70 @@
      "p115",
      "p57"
     ]
+   },
+   {
+    "id": "evald-djursland-collateral",
+    "branch": "Evald Gårdsted Jørgensen",
+    "title": "Djursland: Niels Jensen, Karoline Dam og Valbjørn-grenen",
+    "status": "hypothesis",
+    "claim": "En collateral-gren med Niels Jensen (“Degnen”), Karoline Dam Jensen, William Valbjørn og Sigrid Valbjørn optræder i det ældre materiale. Den er endnu ikke forbundet med sikker dokumentation til Evalds direkte Gaardsted/Jørgensen-ane.",
+    "evidence": "Evald-dossieret angiver de foreslåede personer og årstal, men markerer selv grenen som collateral/uafklaret. Den konkrete sogne- og familieforbindelse er ikke fastslået.",
+    "missing": "Originale dåb, vielser og folketællinger, der både bekræfter de foreslåede forældre og eventuelt forbinder grenen til en allerede identificeret person i træet.",
+    "next": "Rekonstruér Niels Jensen og Karoline Dam Jensens familie i relevante Djursland-sogne; hold grenen ulinket indtil et dokumenteret fælles led findes.",
+    "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+    "sources": [],
+    "person_ids": []
+   },
+   {
+    "id": "liss-mads-karen-marriage",
+    "branch": "Liss Pedersen",
+    "title": "Mads Christensen og Karen Jensen: vielsen i Grindsted 1875",
+    "status": "needs",
+    "claim": "Vielsen i Grindsted 1875 er en vigtig kontrolkilde for Mads Christensen/Kristensen og Karen Jensen og kan give fædrenes navne, alder og bopæl. Oplysningerne skal sammenholdes med Mads' dåb i Hoven og Karen Jensens familie i Skarrild.",
+    "evidence": "Liss-dossieret prioriterer vielsen som et konkret kildepunkt i arbejdet med Hoven-husstanden og Karen Jensens slægt.",
+    "missing": "Original vielsesindførsel med parternes fædre, alder, bopæl, forlovere og præcis navneform; sammenligning med dåb og folketællinger.",
+    "next": "Læs Grindsted kirkebog for vielsen i 1875 og registrér alle oplysninger ordret; brug derefter fædrenes navne til at kontrollere de respektive dåb og skifter.",
+    "dossier": "leads/grandparent-liss-pedersen.md",
+    "sources": [],
+    "person_ids": [
+     "p22",
+     "p23"
+    ]
+   },
+   {
+    "id": "lorenz-gedde-officer-audit",
+    "branch": "Lorenz Frederiksen",
+    "title": "Gedde-officerslægten: navnebrødre, dødsdatoer og Fischer-søstrene",
+    "status": "needs",
+    "claim": "Den publicerede Gedde-officerslægts litteratur rummer flere forhold, der kræver kontrol: Christian Gedde-navnebrødre, Samuel Christophs børnegruppe, Fischer-søstrenes adskilte identiteter og Nicolai Wilhelm Geddes modstridende dødsdatoer i 1833. De er kilde- og identitetsspørgsmål, ikke nye dokumenterede slægtsled.",
+    "evidence": "Lorenz-dossierets gennemgang exp001–exp013 sammenholder Dansk Biografisk Leksikon, Weilbach, Harbou og andre sekundære genealogier og identificerer konkrete uoverensstemmelser.",
+    "missing": "Præcise sidehenvisninger og originale dåb, vielser, døds-/begravelsesindførsler samt dokumentation for hver af de foreslåede børn og ægtefæller.",
+    "next": "Lav en person-for-person kildeoversigt for Gedde-officererne; begynd med Nicolai Wilhelm Geddes norske døds-/begravelsesoptegnelse og de to Fischer-søstres dåb/vielser. Hold enslydende Christian Gedde-personer adskilt.",
+    "dossier": "leads/grandparent-lorenz-frederiksen.md",
+    "sources": [],
+    "person_ids": [
+     "p108",
+     "p216",
+     "p217"
+    ]
+   },
+   {
+    "id": "lorenz-eide-identity",
+    "branch": "Lorenz Frederiksen",
+    "title": "Frederik Carl Eide: identitet og faderskabspåstand",
+    "status": "hypothesis",
+    "claim": "Frederik Carl Eide optræder i et udvidet pedigree med en omstridt faderskabspåstand. Hans dokumenterede fødsel, navne- og ægteskabshistorie skal holdes adskilt fra den udokumenterede biologiske påstand og fra von Kleist-linjen.",
+    "evidence": "Lorenz-dossieret har identificeret en norsk afhandling og samtidige/biografiske kildespor om fødslen og moderens ægteskab i 1815, men vurderer ikke faderskabspåstanden som bevist.",
+    "missing": "Original fødsels-/dåbsindførsel, moderens vielse i 1815, eventuelle faderskabs-/skiftesager og en pålidelig kilde, der forbinder Eide med den påståede far.",
+    "next": "Læs den norske afhandlings præcise kildehenvisninger og gå videre til original kirkebog og vielses-/skiftemateriale; offentliggør kun dokumenterede identitetsfakta som fakta.",
+    "dossier": "leads/grandparent-lorenz-frederiksen.md",
+    "sources": [
+     {
+      "label": "NMBU-afhandling om Frederik Carl Eide",
+      "url": "https://nmbu.brage.unit.no/nmbu-xmlui/bitstream/handle/11250/2648017/mif35.pdf?isAllowed=y&sequence=1"
+     }
+    ],
+    "person_ids": []
    }
   ]
  },
