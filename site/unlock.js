@@ -15,12 +15,10 @@
   function merge(recs){
     const byId = Object.fromEntries(DATA.people.map(p=>[p.id,p]));
     recs.forEach(r=>{ const t = byId[r.id]; if(!t) return; const {patch, ...rest} = r; Object.assign(t, rest, {private:false}); });
-    // Vivi and Jørgen are divorced; keep the historical family union in GEDCOM,
-    // but never present either person as the other's current partner.
-    for(const id of ['p3','x_kirill']){
-      const person = byId[id];
-      if(person){ person.spouse = null; person.rel = ''; }
-    }
+    // Jørgen (p2) and Vivi (p3) are divorced. Preserve their historical
+    // family union, but do not present Jørgen as Vivi's current partner.
+    const jorgen = byId['p2'];
+    if(jorgen){ jorgen.spouse = null; jorgen.rel = ''; }
   }
   const $ = id => document.getElementById(id);
   function ui(unlocked){ const f=$('lock-form'), o=$('lock-open'), on=$('lock-on'); if(!o) return;
