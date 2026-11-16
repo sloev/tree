@@ -690,7 +690,7 @@ function renderPed(root){
     if(p && RECENT[p.id] && Date.now()-Date.parse(RECENT[p.id]) < 30*86400000){
       const dot=document.createElement('span');dot.className='ft-recent-dot';
       dot.setAttribute('aria-label','Redigeret for nylig');
-      dot.title='Personoplysninger redigeret inden for de seneste 30 dage';
+      dot.title='Redigeret inden for de seneste 30 dage';
       line.append(dot);
     }
     const years=document.createElement('span');years.className='ft-years';years.textContent=p?life(p):'';
