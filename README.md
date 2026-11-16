@@ -6,17 +6,24 @@ En slægtsbog bygget på danske kirkebøger, folketællinger og lokalarkiver.
 - **Sammenfatning med kilder:** [`family-tree.md`](family-tree.md)
 - **GEDCOM til MyHeritage, Geni, Ancestry eller Gramps:** [`family-tree.ged`](family-tree.ged)
 
-## Genopbygning
+## Én datakilde og automatisk build
 
-Alle oplysninger står i `data/build_data.py`. Kør dette efter en ændring:
+Alle kanoniske slægtsdata og offentlige forskningsspor ligger i **[data/tree.json](data/tree.json)**. Det er den eneste datafil, der skal redigeres til almindelige opdateringer. Den indeholder personer, relationer, steder, kilder, billeder, kortdata og forskningspåstande.
 
-```sh
-python3 data/build_data.py   # skriver data/family.json
-python3 data/export.py       # skriver family-tree.ged
-python3 site/build.py        # skriver site/index.html og docs/index.html
-```
+- \`data/build.py\` validerer datakilden og skriver de afledte kompatibilitetsfiler.
+- \`site/template.html\`, \`site/poster.html\` og øvrige layout-/assetfiler bestemmer præsentationen.
+- \`site/build.py\` bygger hjemmesiden og plakatvisningen.
+- \`data/export.py\` bygger GEDCOM fra samme datakilde.
 
-Personer tilføjes med `person(...)`. Søskende tilføjes med `sibs(...)`, og en person, hvis forældre ikke er i træet, kan knyttes til en søskende med `sibof=`.
+Kør hele buildet lokalt:
+
+\`\`\`sh
+python3 data/build.py
+python3 data/export.py
+python3 site/build.py
+\`\`\`
+
+GitHub Actions kører automatisk samme kæde, når \`data/tree.json\` ændres. \`data/family.json\`, \`data/research.json\`, \`data/map.json\`, \`family-tree.ged\`, \`site/index.html\` og \`docs/\` er afledte output — redigér dem aldrig manuelt. \`data/build_data.py\` og de tidligere JSON-inputfiler er bevaret som historisk/legacy materiale, ikke som aktive datakilder.
 
 ## Private personer
 
@@ -66,9 +73,9 @@ Status gælder den enkelte påstand — især hver enkelt relation — ikke auto
 
 ### Automatisk udrulning af ændringer
 
-Når persondata i `data/build_data.py` ændres, eller en person nævnes i de ændrede linjer i et forskningsdossier, registrerer GitHub Actions den relevante person. Personen får en lille gul prik i stamtræet i 30 dage, og en dateret opdatering indsættes øverst i nyhedsbulletinen. Ændringer i forskningsdossierer, forskningsarkivet, samarbejdsloggen eller README udløser også et genbyg og en ny bulletinpost. Bygget regenererer familiedata, GEDCOM og hjemmesidens HTML; de genererede filer skal ikke redigeres manuelt.
+Når `data/tree.json` ændres, sammenligner GitHub Actions persondata med forrige version. Ændrede personer får en gul prik i stamtræet i 30 dage, og en dateret opdatering indsættes i nyhedsbulletinen. Ændringer i dossierer under `leads/` udløser ikke et build: dossiererne er kun indgående forskningsmateriale, som først bliver offentligt, når et vurderet spor er indarbejdet i `data/tree.json`. Bygget regenererer alle afledte data, GEDCOM og hjemmesidens HTML.
 
-Markeringen er en visuel ændringsindikator, ikke en kilde- eller sikkerhedsgrad. En ændring i et dossier, der ikke nævner en bestemt person på de ændrede linjer, giver en bulletinpost, men ingen vilkårlig personmarkør. Markørerne udløber efter 30 dage. Se `.github/workflows/rebuild-site.yml` og `tools/mark_recent_people.py` for implementeringen.
+Markeringen er en visuel ændringsindikator, ikke en kilde- eller sikkerhedsgrad. En ændring i et dossier, der ikke nævner en bestemt person på de ændrede linjer, giver en bulletinpost, men ingen vilkårlig personmarkør. Markørerne udløber efter 30 dage. Se `.github/workflows/rebuild-site.yml`, `data/build.py` og `tools/mark_recent_people.py` for implementeringen.
 
 ### Åben forskningsside — også det, der endnu ikke er bevist
 
