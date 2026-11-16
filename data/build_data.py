@@ -127,7 +127,7 @@ person("p6", "Lorenz Heinrich Frederiksen", "M", ahnen=6, line="maternal", conf=
             "af 10. juni 1932. Stedfaren Peter Frederiksen gav drengen sit efternavn. "
             "Det stemmer med familiens fortælling om, at Lorenz først som voksen fandt ud af, at Peter ikke var hans far. "
             "Familiens viden er, at den biologiske far var gårdmandssønnen Sophus Petersen fra Påkjær i Nybøl, at landarbejder Wilhelm Krogh tog skylden, "
-            "og at Peter Frederiksen blev betalt for at gifte sig med Else. Stamtræet følger familiens viden. "
+            "og at Peter Frederiksen blev betalt for at gifte sig med Else. Faderskabet vises derfor som to særskilte, omstridte oplysninger og ikke som en fastslået biologisk forælder. "
             "Ifølge dåbsindførslen i Broager Vestre distrikt (1933 nr. 1) var fadderne stedfaren selv, "
             "arbejdsmand Lorenz Frederiksen og hustru Catharina, Egernsund, samt gårdejer Jens Jensens hustru fra Dalsgaard. "
             "Lorenz er begravet sammen med hustruen Gerda på Sankt Jørgens Kirkegård i Svendborg.",
