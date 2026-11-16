@@ -51,3 +51,17 @@ The JPG scans and current GEDCOM/JSON/text exports remain here as source/referen
 ## Ingested personal-information supplement
 
 The supplied personal-information export was reviewed against all four dossiers on 16 November 2026. Most biographical notes duplicate information already consolidated in the active dossiers; the Hoven mill household details are already recorded in the Liss dossier. The new Wilhelm Krogh family and Vester Snogbæk/Sottrup leads, including the correction to his likely police and court district, have been added to the Lorenz dossier. The original export is preserved at [research-archive/family-tree-personal-info-2026-11-16.txt](../research-archive/family-tree-personal-info-2026-11-16.txt) for provenance, not as a second active worklist.
+
+
+## Publication policy — visible evidence, not research limbo
+
+A credible historical claim should not be kept off the public website merely because it is not proven beyond doubt. Publish it with a clear status and a concise explanation of what the source actually establishes.
+
+- **Well established / Godt belagt:** contemporary records or strong, independently corroborated evidence support the stated fact.
+- **Needs more evidence / Kræver mere belæg:** a credible claim exists, but an identity, parent-child link, interpretation or intermediate generation remains unresolved.
+- **Speculative / Foreløbig hypotese:** a plausible reconstruction, family tradition or possible identification that must not be presented as fact.
+- **Family account / Familieoplysning:** identifies provenance, not truth-value; corroborate where possible and preserve it as a separate claim.
+
+Assess people and relationships separately. A person's existence may be well established while their proposed parentage is speculative. Never infer that a displayed parent-child edge is as strong as the person's own documentary status. Keep biological, legal/registered, step, foster, guardian and household relationships distinct.
+
+The public tree is a living, qualified account. Do not delay publication indefinitely while waiting for perfect evidence; update the status and explanation when new evidence appears. Do not create a parent-child edge from a speculative claim just to make a line visually continuous.
