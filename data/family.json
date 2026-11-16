@@ -178,7 +178,7 @@
       "Familiens håndskrevne anetavle",
       "Familiens oplysninger"
      ],
-     "note": "Familien identificerer gårdmandssønnen Sophus Petersen fra Påkjær som biologisk far; dette står i konflikt med Egernsund-registerets officielle registrering af Wilhelm Krogh."
+     "note": "Familien identificerer gårdmandssønnen Sophus Petersen fra Påkjær som biologisk far; dette står i konflikt med den officielle registrering af Wilhelm Krogh."
     },
     {
      "person": "p12",
@@ -13555,7 +13555,7 @@
    "Langeland"
   ],
   "Tranekær": [
-   55,
+   55.0,
    10.858,
    "Langeland"
   ],
