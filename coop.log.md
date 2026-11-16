@@ -305,3 +305,20 @@ Commit IDs for the substantive research updates in this session:
 **Validering:** Kildeændringerne er kontrolleret for entydige patch-markører. Build, browsertest og Pages-udrulning skal verificeres via den automatiske workflow efter commit; ingen af disse resultater foregribes her.
 
 **Næste:** Kontroller G299-skifte 1764, fæsteprotokol s. 123 og G302 fol. 39 i originalbilleder; opdatér det eksisterende `evald-tohde-probate`-spor med nye, kildebevarede noter, når originalerne kan læses.
+
+
+## 2026-11-17 — research loop: G304 full transcription and G299 stepchild cross-check
+
+**Tracks updated:** `evald-rousing-parentage` and `evald-tohde-probate`.
+
+**Rousing / G304:** Reviewed the separate Gravlev Mølle source compilation, which transcribes the 7 June 1762 Skærsø G304 no. 6 probate, fol. 135.A. It confirms the deceased Thygesdatter's three children: Rasmus Jensen and Thyge Jensen in Fuglslev, and Anne Jensdatter married to Rasmus Rasmussen in Gravlev. Crucial wording distinction: this transcription does **not** give the deceased sister's forename; “Karen” appears in the separate alphabetical G304 no. 52 abstract. The transcription separately names another sister, Kirsten Thygesdatter, married to Jens Nielsen in Gravlev. This makes the child group more concrete but leaves the Karen identification dependent on the abstract and comparison with the 1735 Skanderborg probate. No family edges changed.
+
+**Dejret / 1764 probate:** A new G299 no. 56 abstract (Maren Jensdatter in Bjødstrup, 27 January 1775, fol. 106) names her sister Kirsten Jensdatter, married to bailiff Christen Christensen, and their six children, including Claus (23, saddler's apprentice in Randers) and Karen, who was living with her stepfather Niels Jensen in Vrinners on Rolsøgård estate. This is a strong independent cross-check for the G302 no. 11 (1787, fol. 39) wording: Karen and Claus may be children of Christen Christensen and stepchildren of Niels Jensen Degn. It supports reading “afdødes stedbørn efter Christen Christensen” as the deceased Niels Jensen Degn's stepchildren after/from Christen, rather than stepchildren of Christen. It also makes the G299 1750 lease-register entry for Christen Christensen Gårdsted, former bailiff at Rolsgård, a plausible match for the bailiff in the 1775 abstract and the foged in Dejret in 1787.
+
+**Important distinction:** G299 no. 50 (1774), Karen Christensdatter, widow after Erik Sørensen Hvol, is a separate person group and must not be merged with the daughter Karen in G299 no. 56 without evidence. G299 no. 56, G302 no. 11 and the 1750 lease-register entry are published/typed extracts, not inspected originals. The original G299 fol. 106, G302 fol. 39 and the 1764 probate remain to be read. The original 1764 jurisdiction is not yet proven.
+
+**Files changed:** `data/tree.json` (two existing tracks; dated research notes and updated source/evidence/missing/next fields) and `coop.log.md`. No new people, no new track, no parentage or other family edges.
+
+**Validation:** Parsed the canonical JSON before writing; confirmed 494 people and 63 research claims; fetched the committed source blob after writing. The GitHub Actions rebuild for tree commit `f776d46f39343c97c1e4554a685bf68a8d24b701` completed its generated-output commit `f7fbd0319d18697e1f74792f16fd633a249cd19e`. This confirms the canonical data build/export/site generation workflow reached its generated-output commit; Pages deployment still needs checking. The original AO images were not read.
+
+**Next:** Inspect original G299 no. 56 fol. 106 and G302 no. 11 fol. 39 side by side; locate and inspect the 1764 probate; verify whether Niels Jensen in Vrinners is Niels Jensen Degn and whether Claus in the 1775 record is Claus Gaardsted in 1787. For Rousing, inspect original G304 fol. 135 and the 1744 marriage / children’s baptism records before any parentage edge is added.
