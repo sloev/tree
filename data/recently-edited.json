@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "10b2f9a1f46300e8dca17b1b10e5c4795a9550bf",
+    "commit": "8042a92f5e231d387c81f4872230ac436199931f",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "data/tree.json"
     ],
     "people": [],
-    "title": "Research: identify possible Christen Gårdsted in Isgård G299"
+    "title": "Research: clarify stepchild wording in Rolsøgård probate extract"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
