@@ -31,6 +31,13 @@ def decrypt(blob, pw):
     return json.loads(AESGCM(key(pw, d("salt"))).decrypt(d("iv"), d("ct"), None))
 
 def stub(p):
+    # Explicit opt-in: this person and their relevant family have consented to
+    # public naming. Keep the full record in the generated public tree.
+    if p.get("public_consent") is True:
+        s = dict(p)
+        s["private"] = False
+        s["public_consent"] = True
+        return s
     s = {k: p.get(k) for k in STUB_KEYS}
     # relationsteksten kan indeholde navne ("gift med ..."); stubben får kun den generelle relation
     r = p.get("rel") or ""
