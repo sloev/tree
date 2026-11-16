@@ -1053,3 +1053,30 @@ Rotate from the Rosmus conflict to the Langeland open ancestors p114–p121. Exi
 2. Inspect the original 1829 marriage and 1832 baptisms, capturing residences, fathers, witnesses and legitimacy details before attempting any parent links.
 3. Search Rudkøbing Byhistoriske Arkiv's Nordenbro/Bagenkop/Søndenbro fæstebreve and the Grevskabet Langelands Gods fæsteprotokol only after the parish records establish a named farm or tenant clue.
 4. Continue branch rotation across the remaining frontier; do not extend any of these Langeland candidates from surname similarity alone.
+
+
+## Milestone 41 — Malmö archival access route for Lovisa Larsson (16 November 2026)
+
+### Research target
+Rotate to the open Malmö branch (Ahnentafel 34): Lovisa/Louise Larsson, reportedly born 28 June 1862 in Malmö and died in Slagelse in 1910. The unresolved question is whether the Slagelse death entry's reported father, Niels Larsen, can be tied to a Malmö household. No relationship is to be inferred from the name alone.
+
+### Findings
+- Malmö City Archives' official Caroli parish guide confirms that alphabetical name indexes exist for Caroli household examination rolls (husförhörslängder) for 1813–1901, and explains that these rolls can provide family members, parents' birth data and parishes, marriage dates, and migration years. It also confirms indexes for Caroli birth/baptism and death/burial books, but states that the original books are held at Malmö City Archives and can be read digitally on-site. The indexes are finding aids only; the archive explicitly requires checking the original book.
+- For the target birth year, the guide lists multiple Caroli household-roll volumes covering 1860–1865 (with some extending to 1867): AI:8, 9, 12, 13, 18–21, 24, 25, 30–32, 34–36. This is a concrete list for household reconstruction, but the guide does not identify which volume or household contains Lovisa.
+- Malmö City Archives' wider search-register page points researchers to the Swedish National Archives' birth register and to DDSS (Demografisk Databas Södra Sverige), which contains searchable transcriptions from selected Skåne parish birth books. A broad indexed web search did not produce a reliable exact match for Lovisa/Louise Larsson on 28 June 1862, so no birth entry or parent is confirmed.
+- The archives' church-book overview confirms that Malmö Caroli and S:t Petri parish books are held at Malmö City Archives and that access to most church-book material requires an on-site visit. This matters because the likely next step may require a targeted archive request or reading-room consultation rather than more broad web searches.
+
+### Sources
+- Malmö City Archives, Caroli parish indexes and volume guide: https://malmo.se/Uppleva-och-gora/Arkitektur-och-kulturarv/Malmo-stadsarkiv/Arkiv-och-samlingar/Sokregister/Caroli-forsamling.html
+- Malmö City Archives, searchable registers and DDSS/Riksarkivet routes: https://malmo.se/Uppleva-och-gora/Arkitektur-och-kulturarv/Malmo-Stadsarkiv/Arkiv-och-samlingar/Sokregister.html
+- Malmö City Archives, church-book access and holdings: https://malmo.se/Uppleva-och-gora/Arkitektur-och-kulturarv/Malmo-stadsarkiv/Sok-och-forska/Slaktforska/Kyrkoarkiv.html
+- Swedish National Archives, birth-register search description: https://sok.riksarkivet.se/fodelseregister
+
+### Assessment and limits
+This is an archival access and search-route milestone only. No original baptism, household-roll, Slagelse death or marriage entry was inspected. Niels Larsen remains unconnected to Lovisa's Malmö household; no parent links, dates, or places were changed in canonical data. No build or tests were run; private data was not accessed.
+
+### Next concrete steps
+1. Query the Caroli birth index for Lovisa/Louise Larsson, 28 June 1862; record the annual volume and running number, then obtain the exact original birth-book image or a scan from Malmö City Archives.
+2. Search the Caroli household-roll name index for Larsson/Larsen and use the listed AI volumes to trace the household across 1860–1865; capture any move-in/move-out references and parental birthplaces.
+3. Inspect the Slagelse 1910 death entry directly and compare the deceased's age, birthplace, marital status and informant with the Malmö records.
+4. Only if a household and migration path align should Niels Larsen be tested as the tree's p34 ancestor.
