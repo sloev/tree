@@ -183,3 +183,12 @@ The old extension's proposed patch that creates Christen Christensen Tohde as bi
 - The surname Rousing may be a soldier-name or German/Low German form; this is only a search hypothesis. The extension recommends checking Danish military rolls (Militære Etater, 1790–1810) for Rousing and the Djurs Nørre herred appointment of `p76` as sognefoged.
 - Hans Jensen (`a66`) and Margaretha Pedersdatter (`a67`) have no recorded parents. Search Viby pre-1814 baptisms for Hans around 1752 and Syv baptisms for Margaretha around 1797. The Vibygaard estate accounts may list Hans as a gardener.
 - The 1820 Vibygaard probate and the 1822 Syv marriage are still the key identity pair. A probate transcription is a strong clue but not a substitute for the original 1822 marriage entry.
+
+
+## 15. Jørgensen siblings and descendants — collateral to the direct line
+
+The older Jørgensen frontier notes identify two children of Niels Jørgensen (`p32`) and Johanne Sophie Hansen (`p33`) who survived infancy:
+- **Hans Sophus Frederik Jørgensen** (`s_p32_0`), possementmager;
+- **Peter Jørgensen** (`s_p32_2`), shoemaker.
+
+Their marriages and descendants remain open. The four other children who died in infancy are already dated and cited in the source tree. For the two surviving sons, inspect Copenhagen marriage records, artisan guild/trade registers (håndværkerprotokoller), address registers and civil property records. This is collateral research, not a missing direct-ancestor link.
