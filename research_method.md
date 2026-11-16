@@ -1023,3 +1023,33 @@ The medal application gives a useful new research path into the 1848–50 milita
 
 ### Validation
 Only this research checkpoint was updated. No canonical person, parent link, family-tree narrative or generated site file changed. No build or tests were run; private data was not accessed.
+
+
+## Milestone 40 — Langeland branch: parish disambiguation and estate-record leads (16 November 2026)
+
+### Research target
+Rotate from the Rosmus conflict to the Langeland open ancestors p114–p121. Existing notes identify Magleby Sogn on Langeland as the parish for the 1829 marriage of Christian Hansen and Marie Madsdatter, and as the parish context for Maren Larsdatter of Nordenbro. The immediate task is to avoid false matches from other Danish parishes also named Magleby and identify useful parallel records.
+
+### Findings
+- Rigsarkivet's DAISY search index explicitly lists **Magleby Sogn (Svendborg Amt)** in its 1810–1870 vaccination-protocol results. This is the correct historical county-level parish identity to use when searching for Magleby on Langeland; search results for Magleby Sogn in Stevns, Møn, Dragør/Store-Magleby, or other counties must not be conflated with it.
+- The same index query confirms that Rigsarkivet's catalogue is searchable by archival creator and series, but this run did not retrieve a definitive Arkivalieronline church-book image-viewer URL or exact volume segmentation for Magleby Sogn (Svendborg Amt) covering 1829–1832. This remains the next archival lookup, not a verified entry.
+- A local archival catalogue for **Magleby Sogn, Grevskabet Langelands fæstebreve** describes records for Bagenkop, Gulstav and Nordenbro from 1703–1850 (and Søndenbro 1718–1825), held by Rudkøbing Byhistoriske Arkiv. This is a promising independent land-tenure source for households/residences in the precise villages associated with p114–p121. It is not itself evidence that any named ancestor held a tenancy.
+- Rigsarkivet's DAISY inventory for Grevskabet Langelands Gods includes a **Fæsteprotokol, 1699–1917**, and a series of **reversalfæstesedler, fæstesedler and lejekontrakter, 1816–1914**. These are additional estate-level routes to identify tenants and household locations, especially if a parish entry supplies a farm or village address. They do not yet identify the ancestors in question.
+- A broad web search for the exact names Christian Hansen + Marie Madsdatter (married 1829), Mads Stephensen Johansen + Maren Larsdatter, and Holger Eriksen + Anne Cathrine Hansdatter did not surface a reliable matching family compilation. Similar-name hits were rejected rather than attached to the tree.
+
+### Sources
+- Rigsarkivet DAISY search result, Magleby Sogn (Svendborg Amt) vaccination protocol (1810–1870): https://daisy.rigsarkivet.dk/arkivskaber_eller_arkivserie_liste?c=vaccination&d=1810&e=1830
+- Rudkøbing Byhistoriske Arkiv, Magleby Sogn / Grevskabet Langelands fæstebreve (Bagenkop, Gulstav, Nordenbro 1703–1850; Søndenbro 1718–1825): https://arkiv.dk/vis/3839420
+- Rigsarkivet DAISY, Grevskabet Langelands Gods archive series inventory (includes Fæsteprotokol 1699–1917 and lease/tenure records): https://daisy.rigsarkivet.dk/arkivskabers_arkivserier?a=grevskabet+langelands+gods&b=&c=&d=1&dir=&e=2016
+- Rigsarkivet, church-book search guidance: https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/
+
+### Assessment and limits
+- This is an archival route improvement and parish-disambiguation milestone, not a genealogical proof milestone. No original Magleby baptism or marriage entry was inspected; no tenant record was linked to a named ancestor.
+- No new people, parent links, spouses, dates or places were added to canonical data. No changes to data/build_data.py, data/family.json, or generated site files.
+- No build or tests were run; private data was not accessed.
+
+### Next concrete steps
+1. In DAISY/AO, select Magleby Sogn (Svendborg Amt), then identify the Kontraministerialbog and Hovedministerialbog sections covering the 13 November 1829 marriage and the 1832 baptisms; record exact volume and image links.
+2. Inspect the original 1829 marriage and 1832 baptisms, capturing residences, fathers, witnesses and legitimacy details before attempting any parent links.
+3. Search Rudkøbing Byhistoriske Arkiv's Nordenbro/Bagenkop/Søndenbro fæstebreve and the Grevskabet Langelands Gods fæsteprotokol only after the parish records establish a named farm or tenant clue.
+4. Continue branch rotation across the remaining frontier; do not extend any of these Langeland candidates from surname similarity alone.
