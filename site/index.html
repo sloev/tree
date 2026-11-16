@@ -671,7 +671,7 @@ function renderPed(root){
     if(!items?.length)return;
     const index=items.findIndex(x=>x.button===button);
     const next=items[(index+delta+items.length)%items.length];
-    next.item.focus();highlight(next.person.id);
+    highlight(next.person.id);next.item.focus();
   };
   function branch(n,depth){
     const p=ahn[n],pair=[2*n,2*n+1],hasChildren=pair.some(k=>ahn[k]);
@@ -711,7 +711,7 @@ function renderPed(root){
         collapsed[n]=!collapsed[n];children.hidden=!!collapsed[n];item.setAttribute('aria-expanded',String(!collapsed[n]));
         toggle.textContent=collapsed[n]?'▸':'▾';toggle.setAttribute('aria-label',collapsed[n]?'Fold forældre ud':'Fold forældre sammen');persistCollapsed();
       });
-    }else{item.setAttribute('aria-expanded','false');}
+    }
     return item;
   }
   ped.append(branch(root,0));
