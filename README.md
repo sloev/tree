@@ -42,6 +42,10 @@ FAMILY_PASSWORD=... python3 data/private_tool.py encrypt   # krypterer igen og o
 
 ## Åben forskning og bidrag
 
+**Forskningssporene i `data/tree.json` er den eneste aktive registrering af al genealogisk forskning.** Alle nye leads, kildefund, transskriptioner, rettelser, kildekonflikter, negative søgninger og opfølgninger skal indarbejdes direkte i det relevante forskningsspor. Hvis spørgsmålet ikke allerede findes, oprettes et nyt spor. Hvis det findes, udvides det eksisterende spor — opret ikke parallelle noter eller dubletter. Hjemmesidens forskningsfane er den offentlige visning af denne registrering. `data/research.json` er kun en automatisk genereret projektion; `data/tree.json` er den eneste redigerbare sandhedskilde.
+
+Dossierer i `leads/` og historiske noter er fremover arkiv-/proveniensmateriale, ikke aktive arbejdsregistre. De må gerne indeholde historiske kildescanninger og tidligere analyser, men nye forskningsresultater og næste skridt skal altid registreres i `data/tree.json`. Hvis et dossier indeholder et unikt fund, der stadig er relevant, skal fundet først indarbejdes i det relevante forskningsspor. Dossieret skal ikke vedligeholdes parallelt.
+
 Dette projekt er åbent i både kode, kilder, metode og revisioner. Den offentlige hjemmeside viser både det etablerede stamtræ og et særskilt forskningsspor med synlige modenhedsgrader. Et forslag i forskningssporet er ikke automatisk en accepteret forældre-/barn-relation.
 
 Alle må gerne:
@@ -66,7 +70,7 @@ Status gælder den enkelte påstand — især hver enkelt relation — ikke auto
 ### Sådan følger du ændringer
 
 - [Seneste commits](https://github.com/sloev/tree/commits/main/) viser alle kilde-, data- og kodeændringer.
-- [Forskningsdossierer](leads/README.md) forklarer aktive spørgsmål og næste arkivskridt.
+- [Forskningssporene](https://github.com/sloev/tree/blob/main/data/tree.json) er den fulde aktive forskningslog med fund, kilder, konflikter og næste arkivskridt. Dossierer er historisk baggrund/proveniens.
 - [Samarbejdsloggen](coop.log.md) dokumenterer forskningshandoffs, beslutninger, ændringer og hvad der endnu ikke er kontrolleret.
 - [Nyhedsbulletinen og forskningssporet](https://sloev.github.io/tree/) viser de læsbare opdateringer på hjemmesiden.
 
@@ -88,6 +92,6 @@ Vi vil gerne have hjælp fra besøgende. Forskningssiden skal derfor gøre det l
 
 ### Forskningsregister på hjemmesiden
 
-Den første offentlige version af fanen **Forskningsspor** er nu lagt i koden. Den indeholder nu 27 åbne spor på tværs af de fire aktive bedsteforældregrene. Hvert spor viser status, det foreliggende belæg, hvad der mangler, næste kontrol og et link til arbejdsdossieret. Registerets redigerbare kildedata ligger i `data/research.json`; visningen bygges via `site/build.py`.
+Fanen **Forskningsspor** viser alle aktive forskningsspor fra `data/tree.json`, på tværs af de fire bedsteforældregrene. Hvert spor viser status, foreliggende belæg, hvad der mangler, næste kontrol og relevante kilder. Registeret redigeres kun i `data/tree.json`; `data/research.json` genereres automatisk som en kompatibilitetsprojektion. Der findes ikke en separat aktiv forskningslog eller et parallelt dossier-workflow.
 
 Registeret er fortsat en kurateret oversigt — ikke en fuldstændig offentliggørelse af alle dossier-noter. Den lokale bygge- og browserkontrol samt bekræftelse af GitHub Pages-deploy mangler fortsat.
