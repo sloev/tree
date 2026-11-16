@@ -1,17 +1,16 @@
 {
   "latest_bulletin": {
     "body": "Personoplysninger er ændret i kildedataene. Åbn personkortene for at se de aktuelle datoer, noter og kilder.",
-    "commit": "c7555f6443008672983806ccff6098e086963a41",
+    "commit": "10d26ca73417ca821de357678d7824a88568252a",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "leads/grandparent-lorenz-frederiksen.md"
     ],
     "people": [
-      "p435",
       "p6948"
     ],
-    "title": "Stamtræ opdateret: Anna Margrethe Schubart, Christian von Kleist"
+    "title": "Stamtræ opdateret: Christian von Kleist"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
@@ -23,7 +22,7 @@
     "p3475": "2026-11-16T20:53:37Z",
     "p435": "2026-11-16T22:19:19Z",
     "p56": "2026-11-16T20:54:45Z",
-    "p6948": "2026-11-16T22:19:19Z",
+    "p6948": "2026-11-16T22:20:46Z",
     "p868": "2026-11-16T20:53:37Z",
     "p869": "2026-11-16T20:56:57Z",
     "stojentin_elisabeth": "2026-11-16T20:54:45Z"
