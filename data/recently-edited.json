@@ -21,18 +21,29 @@
       ],
       "people": [],
       "title": "Make news bulletin append-only with progressive display"
+    },
+    {
+      "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
+      "commit": "f776d46f39343c97c1e4554a685bf68a8d24b701",
+      "date": "2026-11-16",
+      "date_label": "16.11.2026",
+      "paths": [
+        "data/tree.json"
+      ],
+      "people": [],
+      "title": "Add probate cross-checks to Rousing and Tohde research"
     }
   ],
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "820386ada834c44a18a6c3be8d6a285490fb42fa",
+    "commit": "f776d46f39343c97c1e4554a685bf68a8d24b701",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
-      "coop.log.md"
+      "data/tree.json"
     ],
     "people": [],
-    "title": "Make news bulletin append-only with progressive display"
+    "title": "Add probate cross-checks to Rousing and Tohde research"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
