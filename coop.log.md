@@ -260,7 +260,7 @@ Hanne Vinter Henriksen's Isgård G299 lease-register transcription (1719–1823)
 
 The original archival route is now precisely identified via DS-Wiki Isgård: AO scan for G299 probate protocol 1762–1812 (epid 17176611), register (17176629), lease protocol 1719–1829 (21027118), and lease register (21027120). The web viewer cannot read the scanned images, so these are concrete manual inspection targets. The G299 public index extract did not list a separate 1764 probate under this name; that remains only a negative result in a secondary extract. The 1750 lease entry makes it particularly important to check the original G299 probate register/protocol around 1764 and lease page 123.
 
-**Interpretive guardrail:** G302 describes Karen Christensdatter and Claus Gaardsted as “stedbørn” of the deceased Christen Christensen, not established biological children. No parentage or sibling edges were changed. The new entry may clarify the man's identity and jurisdiction, not the biological parentage of Claus/Karen by itself.
+**Interpretive caveat:** G302's phrase “afdødes stedbørn efter Christen Christensen ...” is grammatically ambiguous. It may mean the deceased Niels Jensen Degn's stepchildren after/from Christen Christensen, not stepchildren of Christen. The prior interpretation as stepchildren of Christen is not secure; original fol. 39 is required. No parentage edges were changed.
 
 **Sources reviewed:** Isgård G299 lease register (1750, p.123); Rolsøgård G302 published extract (1787, fol.39); DS-Wiki Isgård; 1970 Landsarkiv inventory of private estate probate/lease records; Rigsarkivet AO catalogue links.
 
@@ -269,3 +269,12 @@ The original archival route is now precisely identified via DS-Wiki Isgård: AO 
 **Validation:** canonical JSON parsed before write; fetched current SHA before write. AO pages resolve to official scan viewer URLs, but original images were not read; no local build or deployment status checked in this cycle.
 
 **Next:** inspect original G299 register/protocol around 1764 and original lease page 123; compare the handwritten name with “Tohde?” in original G302 fol.39. Confirm whether the 1764 deceased was a G299 tenant/employee and preserve the distinction between stepchildren and biological parentage.
+
+
+## 2026-11-17 — correction note: G302 “stedbørn efter Christen Christensen” is ambiguous
+
+A closer grammatical reading of the published G302 no. 11 extract (14 May 1787, fol. 39) shows that the previous interpretation may have reversed the relationship. The wording is “Arv i boet til afdødes stedbørn efter Christen Christensen Tohde? foged i Dejret (skifte 1764) til datter Karen Christensdatter ...”. “Afdødes” naturally refers to the current deceased Niels Jensen Degn; “stedbørn efter Christen Christensen” may therefore mean Niels's stepchildren, i.e. children after/from Christen, who died in 1764. In that reading Karen Christensdatter could be Christen's biological daughter, and Karen/Claus were stepchildren of Niels, not of Christen. “Til datter Karen Christensdatter” and “broder Claus Gaardsted” are consistent with that reading, but the secondary abstract is not enough to settle it. The earlier note treating Karen and Claus as stepchildren of Christen must not be treated as established.
+
+This makes the 1750 G299 entry for Christen Christensen Gårdsted in Dejret (former bailiff at Rolsgård) especially important as a possible match for the Christen in the 1787 reference. Still, name identity, precise relationship and sibling structure all remain unproven until original G302 fol. 39 and the original 1764 G299 probate are read.
+
+**Files changed:** `data/tree.json` and `coop.log.md`. Added an explicit interpretive correction to the existing claim and log; no family edges or person facts changed.
