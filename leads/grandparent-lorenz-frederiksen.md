@@ -1337,3 +1337,39 @@ Sources:
 - [Deutsche Biographie: Valentin von Stojentin](https://www.deutsche-biographie.de/sfz81519.html).
 - [NMBU thesis discussing Frederik Carl Eide's birth and his mother's 1815 marriage](https://nmbu.brage.unit.no/nmbu-xmlui/bitstream/handle/11250/2648017/mif35.pdf?isAllowed=y&sequence=1).
 - [Pommerscher Greif: digitised heraldic literature, including Bagmihl's *Pommersches Wappenbuch*](https://www.pommerscher-greif.de/forschung/literatur/heraldik/).
+
+
+## Follow-up: resolving the 1743–1848 Danish branch (16 November 2026)
+
+A closer reading of Harbou's complete entry (not just the Christian Adam paragraph) sharpens the earlier correction and identifies one likely source of the supplied 1774–1848 name/date combination.
+
+### Christian Adam III.466's actual descendants in Harbou
+
+Harbou gives Christian Adam III.466 and Sophie Rosenkrantz five children. Their eldest surviving son was **Christian Frederik III.601**, born 25 August 1743, died at Bredsted 12 July 1799; he married Anna Margrethe Schubart on 3 December 1770. Harbou lists four sons and four daughters from that marriage:
+
+- Christine Sophie, born 28 August 1771, died 31 March 1862; married Edvard Snedorph Hammer in 1795.
+- Adam Ludvig Vilhelm (III.725), born 16 October 1772, died 6 October 1851 at Viborggaard.
+- Valentin Ulrik (III.726), born 31 December 1773, died 23 July 1827; married Anna Matthea Bierg on 30 November 1811. Their children include Margrethe Christine Elisabeth (1813), a daughter who died in infancy (1814), Frederik Christian III.853 (1815–1892), Holgerine Henriette Caroline (1817–1845), Christian Conrad Sophus (1820–1880), Aadamine Frederikke Christiane (1822–1874), Riise Sophie Emilie (1824–1864), and Johan Eduard Valentin (1825).
+- **Frederik Christian (III.727), born 8 January 1775, died 21 May 1848.** This is a plausible identification behind the supplied “Christian Frederik Vilhelm” (1774–1848), but Harbou's name and birth date differ. It is a candidate identity, not a proven match; compare the supplied source and primary records before merging.
+- Carl Gottlieb (III.728), born 15 January 1778, died 26 July 1849.
+- Juliane Frederikke Margrethe, born 2 December 1781, died 22 May 1861; married Norwegian major-general Nicolai Wilhelm Gedde in 1811.
+- Frederikke Louise Dorthea, born 5 January 1786, died 24 January 1870; married Ove Samuel Gedde in 1806.
+- Henriette Louise, born 30 November 1795, died 12 April 1827; married Johan Adolf von der Recke in 1813.
+
+Harbou also lists Emil Christian (III.601a), baptized 25 June 1745 and died 13 September 1745; Carl Christian (III.601b), baptized 9 June 1749 and died 15 August 1750; and an unnamed daughter who died young in 1753. The 1743–1799 Christian Frederik is therefore not to be confused with his younger brother(s) or with later descendants.
+
+### What this changes about the supplied pedigree
+
+The 1774–1848 entry may be a distorted rendering of Harbou's **Frederik Christian III.727 (1775–1848)**, a son of Christian Frederik III.601, rather than a distinct “Christian Frederik Vilhelm.” If the supplied source's individual has the same spouse, children, military/civil career or place of death, that would help establish the match. At present, the identity remains a hypothesis because the forename and birth year do not agree.
+
+The claimed **Sophie Frederikke (1776–1851)** is not identified in Harbou's list of Christian Frederik III.601's children. It could be a different individual, a spouse, or a conflation; no relationship is added. Likewise, the 1742/43–1815 “Frederik Carl Emil” is not one of the children Harbou lists for Christian Adam III.466. It remains unplaced.
+
+The earlier Copenhagen branch correction stands: the 1813–1825 people named above are children of Valentin Ulrik III.726 and Anna Matthea Bierg, not of the supplied 1770s couple. Harbou's source gives Margrethe's birth as 25 August 1813, Frederik Christian III.853's birth as 8 October 1815, and Holgerine's marriage to Hans Lindholm as 13 October 1838.
+
+### Research priority
+
+Compare the original pedigree's entry for “Christian Frederik Vilhelm” against Harbou's III.727 and the 1775 baptism, military records and 1848 death/burial record. Then trace III.727's marriage and descendants from Danish parish registers and probate. Separately identify the source and parents for “Frederik Carl Emil” and “Sophie Frederikke”; do not force either into the Christian Adam line.
+
+**Assessment:** Harbou now provides a detailed, internally coherent branch from Christian Adam III.466 through Christian Frederik III.601 and his eight children. One supplied 1774–1848 figure may correspond to Frederik Christian III.727, but the name/date discrepancy must be resolved. No canonical tree records or links are changed.
+
+Source: [H. W. Harbou, “Slægten von Kleist i Danmark” (1897), especially the full entry for Christian Adam III.466 and children of Christian Frederik III.601](https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf), searchable text at pp. 196–242 of the transcription.
