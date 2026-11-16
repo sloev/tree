@@ -194,6 +194,27 @@ The earlier general leads can now be made more actionable:
 
 The Copenhagen police protocols cover people who bought a contract ticket through an emigration agent; independent travellers may be missing. A null protocol search is not proof that someone stayed in Denmark.
 
+
+
+### New independent corroboration — Langø's causeway (16 November 2026)
+
+A strong independent printed source has now been located: Erling Mortensen, *De viste vejen: Modtagere af Det kgl. danske Landhusholdningsselskabs sølvbægere 1804–1969* (Landhusholdningsselskabets Forlag, 1969), p. 91. The entry for Marius Christensen, Langø, Humble sogn, says:
+
+- Marius Christensen and his family completed the main part of the causeway work in **1911**; three sons and a son-in-law helped.
+- He had taken over Langø in **1894** for **4,000 kroner** (1,600 kroner down payment).
+- The causeway crossed about **530 alen of water**, including about 300 alen of soft bottom; the estimated earth volume was **5,000–10,000 m³**.
+- The work was described as a long-held dream; the book says a ministerial resolution went against the fishermen after a dispute when Christensen began building.
+
+This is a substantial independent corroboration of the family account's central chronology and identity. It also yields a new archival lead: the **ministerial resolution** is a traceable government decision and may identify the responsible ministry, date, legal basis and any objections from local fishermen. The book is a retrospective secondary source, not the resolution itself; keep the claim open until the original administrative record is found.
+
+A second corroborating route is Langeland Byarkiv's catalogue for Lisbeth Skov's article “Langø og dæmningen” in *Øboer* 2011. Its summary independently states that Marius and Ane Marie Christensen bought Langø in 1894 and that the island was connected to Langeland in 1911 by a 334 m causeway built with help from sons and son-in-law. The full article should be consulted for references and any oral-history details.
+
+Sources:
+- Erling Mortensen, *De viste vejen* (1969), p. 91: https://slaegtsbibliotek.dk/2023/935679.pdf
+- Langeland Byarkiv, *Øboer* 2011 article register: https://byarkivet.langelandkommune.dk/boeger-brochurer/register-over-artikler-i-oeboer
+
+**Assessment:** 1894 acquisition and 1911 causeway are now strongly supported by independent secondary/local-archive sources. The family recollection's precise start date of 11 January 1911, exact 334 m length and legal/administrative circumstances still need primary-source verification.
+
 ## 15. South Langeland source preservation and the 1787 probate
 
 ### Family-held Sydlangeland death list
