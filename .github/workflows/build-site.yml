@@ -1,43 +1,14 @@
-name: Build and publish family tree
+name: Legacy manual family tree build
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "data/**"
-      - "site/**"
-      - "family-tree.md"
-      - ".github/workflows/build-site.yml"
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  build:
+  notice:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out main
-        uses: actions/checkout@v4
-        with:
-          ref: main
-          persist-credentials: true
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
-      - name: Rebuild family data
-        run: python3 data/build_data.py
-      - name: Rebuild website
-        run: python3 site/build.py
-      - name: Commit generated website
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/family.json site/index.html site/plakat.html docs/index.html docs/plakat.html docs/.nojekyll
-          if git diff --cached --quiet; then
-            echo "Generated website is already up to date."
-          else
-            git commit -m "Build and publish updated family website"
-            git push origin main
-          fi
+      - name: Use the unified automatic rebuild workflow
+        run: echo "Automatic rebuilds are handled by rebuild-site.yml. This legacy workflow is retained for history only."
