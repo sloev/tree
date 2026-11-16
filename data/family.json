@@ -13556,7 +13556,7 @@
    "Langeland"
   ],
   "Tranekær": [
-   55,
+   55.0,
    10.858,
    "Langeland"
   ],
@@ -13850,6 +13850,12 @@
    "von Kleist Familienarchiv",
    "History of the Family von Kleist – Tychow-Dubberow line, English translation, p. 123",
    "https://www.v-kleist.com/FG/english/Dubberow_translation.pdf"
+  ],
+  [
+   "UKB:",
+   "Kleist-Urkundenbuch",
+   "Middelalderlige og tidligmoderne dokumenter, bl.a. Urk. 26, 27, 32a, 48, 75, 83, 100, 103–104a og 125",
+   "https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf"
   ]
  ],
  "union_statuses": [
