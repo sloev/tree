@@ -561,3 +561,23 @@ Sources:
 - [Local genealogy index citing the 1930 Broager census, skema 82](https://www.stroemming.dk/genealogy/gedweb/Public/da/Lists/placename-I.html)
 
 No Krogh household has yet been identified in the 1930 census, and no exact address or employer has been established. The local genealogy index is a navigation aid, not evidence for Wilhelm's identity.
+
+
+### Correct Arkivalieronline route for the 1930 Broager census (16 November 2026)
+
+The previous census note pointed to the Sønderjylland special collection and the Landsarkivet's *Originale folketællinger* index. Rigsarkivet's own census guide gives a more precise route for this period: **after 1920, Sønderjylland's censuses are filed in the national census series under rural districts (*landdistrikter*) and market towns (*købstæder*)**, not in the special pre-1920 Sønderjylland census collection. The 1930 national series includes a dedicated *Folketælling 1930, Sognelister* selection page with fields for Amt, Kommune/Herred and Sogn.
+
+Use this route:
+1. Open [Arkivalieronline — Folketælling 1930, Sognelister](https://arkivalieronline.rigsarkivet.dk/da/rif/select/7/16972563).
+2. Select **Sønderborg Amt** → **Nybøl Herred** (or the corresponding kommune/herred option offered by the selector) → **Broager Sogn**.
+3. Inspect the schedule images locality by locality, beginning with Snogbæk; search handwritten spellings and the variants Wilhelm/Vilhelm, Carl Vilhelm, Krogh/Krog.
+4. If Broager is negative, repeat for the nearby parishes indicated by the place-name evidence rather than assuming Snogbæk belongs to Broager parish.
+
+The selector page is a navigation form, not a searchable name index; no Wilhelm Krogh household has been read or identified yet. This corrects the earlier implication that the 1930 Broager material might need to be located through the Landsarkivet's special original-census index. The special collection remains relevant for older Sønderjylland censuses, but is not the preferred route for this 1930 search.
+
+Sources:
+- [Rigsarkivet census guide — after 1920, Sønderjylland is under the national rural/town census series](https://www.rigsarkivet.dk/vejledning/folketaellinger-kom-godt-i-gang/) (section “Særlige forhold i Sønderjylland”).
+- [Arkivalieronline — 1930 parish lists selector](https://arkivalieronline.rigsarkivet.dk/da/rif/select/7/16972563).
+- [Arkivalieronline — 1930 census series listing](https://arkivalieronline.rigsarkivet.dk/da/rif/rif-collection/7).
+
+No census household, exact address or employer has yet been verified; this update records the corrected archive route only.
