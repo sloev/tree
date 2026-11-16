@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "0e32f84b292e11ad796b5d5cd3eb14e24b6e85ad",
+    "commit": "75b3a43dc8ad2259e1b7d2d2607961739e2f4dbb",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "data/tree.json"
     ],
     "people": [],
-    "title": "Add source links to newly exposed research tracks"
+    "title": "Consolidate duplicate research leads and normalize register fields"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
