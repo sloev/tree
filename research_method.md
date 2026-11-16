@@ -947,3 +947,23 @@ Only this checkpoint was appended to research_method.md. No changes to data/buil
 2. In DAISY/AO, open the Fåborg Sogn (Ribe Amt) Kontraministerialbog and select “Fødte kvinder 1830”; inspect the entry for 20 June and transcribe parents and witnesses.
 3. Compare both original entries with the proposed couples; then inspect the 7 October 1852 Fåborg marriage before adding any relationship.
 4. Rotate to another open branch after this bounded record pass.
+
+
+## Milestone 38 — Ahnentafel 42–43: exact baptism sequence extracted from linked genealogy profiles (16 November 2026)
+
+### New discovery details
+A targeted search of the Danske Slægtsforskere GEDCOM project located fuller profiles for p42 Peder Jensen and p43 Karen Johnsen. These profiles are submitted genealogist data, not original parish-register evidence, but they sharpen the image-search targets:
+
+- **Peder Jensen (p42):** reported birth 4 April 1820 at Vorbasse; home baptism 6 April; church baptism 9 July 1820 at Vorbasse. The profile names proposed parents Jens Christian Hansen (born 1783, Egtved parish) and Else Sørensdatter (born 1797, Egtved parish). It also reports Peder's confirmation at Egtved on 9 April 1834.
+- **Karen Johnsen (p43):** reported birth and home baptism 20 June 1830 at Agerbæk, Fåborg parish; church baptism 25 July 1830 at Fåborg. The profile names proposed parents John Eskesen and Anne Knudsdatter, and reports their marriage at Fåborg on 4 December 1828.
+- The couple's marriage to one another is reported as 7 October 1852 at Fåborg. This is a useful independent target event for testing their stated origins and fathers.
+
+### Sources
+- Peder Jensen profile, GEDCOM project: https://gedcom.slaegt.dk/?fil=60&person=9317
+- Karen Johnsen profile, GEDCOM project: https://gedcom.slaegt.dk/?fil=60&person=9318
+
+### Assessment
+These details provide better search keys than the birth dates alone: Peder's July church baptism and Karen's July church baptism should be checked alongside the home-baptism dates, and the 1828 and 1852 marriages provide additional cross-checks. The proposed parent couples remain **unverified candidates**. The two profiles belong to the same submitted GEDCOM compilation and are not independent corroboration. No original image has been read, no relationship/date has been promoted, and no canonical genealogical data has been changed.
+
+### Validation and next steps
+No build or tests were run; private data was not accessed. Next inspect the exact Vorbasse 1820 “Fødte mænd” and Fåborg 1830 “Fødte kvinder” images, then the 1828 John Eskesen–Anne Knudsdatter and 1852 Peder Jensen–Karen Johnsen marriage entries. If image access remains blocked, rotate to another whole-tree branch rather than extending this lead through secondary trees alone.
