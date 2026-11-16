@@ -151,6 +151,22 @@ def build_export(family, docs, gedcom_path):
                 "context": "The source schema calls this spouse; dates and legal status are not inferred."
             })
 
+    # Explicitly curated claims are edge-level evidence, not inferred from note keywords.
+    for p in people:
+        for claim in p.get("relationship_claims") or []:
+            target = claim.get("person")
+            if target not in by_id:
+                raise ValueError(f"{p['id']} has missing relationship_claim target {target}")
+            add({
+                "from": p["id"], "to": target,
+                "relationship": claim.get("relationship", "unspecified_claim"),
+                "assertion_source": claim.get("asserted_by", "curated relationship claim"),
+                "evidence_status": claim.get("status", "unspecified"),
+                "biological_status": "disputed" if "disputed" in (claim.get("status") or "") else "not_assessed",
+                "sources": claim.get("sources") or [],
+                "context": claim.get("note") or ""
+            })
+
     # GEDCOM is a separate assertion layer. PEDI is preserved verbatim and never
     # silently converted into biological parentage.
     ged_people, ged_families = parse_gedcom(gedcom_path)
@@ -213,6 +229,7 @@ def build_export(family, docs, gedcom_path):
             "note": p.get("note"), "sources": p.get("src") or [],
             "occupations": p.get("occ") or [], "residences": p.get("res") or [],
             "confidence_person_record": p.get("conf"),
+            "relationship_claims": p.get("relationship_claims") or [],
             "gedcom_present": p.get("id") in gedcom_person_ids
         })
     return {
