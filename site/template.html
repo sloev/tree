@@ -432,7 +432,7 @@ body:not(.show-uncertain) .ft-item.uncertain>.ft-line{display:none}
   </div>
   <div class="research-toolbar">
     <label for="research-q">Søg</label><input id="research-q" type="search" placeholder="Person, sted eller emne">
-    <label for="research-status">Status</label><select id="research-status"><option value="">Alle statusser</option><option value="needs">Kræver mere belæg</option><option value="hypothesis">Foreløbig hypotese</option><option value="family">Familieoplysning</option></select>
+    <label for="research-status">Status</label><select id="research-status"><option value="">Alle statusser</option><option value="needs">Kræver mere belæg</option><option value="hypothesis">Foreløbig hypotese</option><option value="family">Familieoplysning</option><option value="conflict">Kildekonflikt</option></select>
     <label for="research-branch">Gren</label><select id="research-branch"><option value="">Alle grene</option></select>
     <span class="count" id="research-count"></span>
   </div>
@@ -819,7 +819,7 @@ document.querySelectorAll('[data-root]').forEach(b=>b.addEventListener('click',(
 function renderForskning(){
   const list=document.getElementById('claim-list'), q=document.getElementById('research-q'), st=document.getElementById('research-status'), br=document.getElementById('research-branch');
   [...new Set(RESEARCH.claims.map(c=>c.branch))].sort().forEach(v=>{const o=document.createElement('option');o.value=v;o.textContent=v;br.appendChild(o);});
-  const labels={needs:'Kræver mere belæg',hypothesis:'Foreløbig hypotese',family:'Familieoplysning'};
+  const labels={needs:'Kræver mere belæg',hypothesis:'Foreløbig hypotese',family:'Familieoplysning',conflict:'Kildekonflikt'};
   function draw(){
     const term=q.value.trim().toLocaleLowerCase('da');
     const rows=RESEARCH.claims.filter(c=>(!st.value||c.status===st.value)&&(!br.value||c.branch===br.value)&&(!term||[c.branch,c.title,c.claim,c.evidence,c.missing,c.next].join(' ').toLocaleLowerCase('da').includes(term)));
