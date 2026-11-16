@@ -118,7 +118,7 @@ person("p5", "Liss Gaardsted-Jørgensen (f. Pedersen)", "F", ahnen=5, line="jorg
        src=["AO:Silkeborg kirkebog 1930–33, fødte piger 1931 nr. 25 (billede 28329752)", "ARK:2162357", "litteraturpriser.dk", "FamilySearch Family Tree: Liss Jørgensen (født Pedersen) 1931–2002"], bplace="Silkeborg",
        res=[(1953, "Ollerup", "gift"), (1981, "Hune", "")])
 person("p6", "Lorenz Heinrich Frederiksen", "M", ahnen=6, line="maternal", conf="record",
-       born="1932-01-12", bplace="Egernsund", died="2009-05-06", dplace="Svendborg", father="sofus", mother="p13",
+       born="1932-01-12", bplace="Egernsund", died="2009-05-06", dplace="Svendborg", father=None, mother="p13",
        step="pf12", spouse="p7",
        res=[(1932, "Egernsund", "født; hjemmedøbt 1. jan. 1933"), (2009, "Svendborg", "død; begravet på Sankt Jørgens Kirkegård")],
        note="Det borgerlige fødselsregister for Egernsund (1932 nr. 4, anmeldt 16. jan. 1932) siger, at Else Gedde Frederiksen, "
@@ -142,7 +142,8 @@ P[-1]["relationship_claims"] = [
     {
         "person": "sofus",
         "relationship": "claimed_biological_parent",
-        "status": "disputed",
+        "status": "family_claim",
+        "biological_status": "disputed",
         "asserted_by": "family account",
         "sources": [
             "Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)",
@@ -153,13 +154,14 @@ P[-1]["relationship_claims"] = [
     },
     {
         "person": "p12",
-        "relationship": "paternity_declaration_and_civil_registration",
-        "status": "disputed_as_biological_parentage",
+        "relationship": "recorded_biological_parentage",
+        "status": "recorded",
+        "biological_status": "disputed",
         "asserted_by": "Egernsund civil birth register marginal note and court decision",
         "sources": [
             "AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4 (bsid 37658, billede 125)"
         ],
-        "note": "Wilhelm Krogh erklærede faderskab 5. april 1932; en retsafgørelse 10. juni 1932 og randnote 11. juli 1932 registrerer ham som far. Dette dokumenterer erklæringen og den juridiske registrering, ikke nødvendigvis biologisk faderskab."
+        "note": "Egernsund-registerets randnote betegner Wilhelm Krogh som biologisk far og henviser til hans faderskabserklæring 5. april 1932 og retsafgørelsen 10. juni 1932. Familien identificerer i stedet Sophus Petersen. Den oprindelige sag er endnu ikke fundet; derfor bevares den officielle registrering og familiens modstridende biologiske påstand som særskilte, omstridte udsagn."
     }
 ]
 person("p7", "Gerda Frederiksen (f. Larsen)", "F", ahnen=7, line="larsen", conf="record",
