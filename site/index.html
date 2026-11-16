@@ -566,11 +566,11 @@ function siblingsOf(p){
 const spousesOf = p => P.filter(q=>q.id!==p.id && (q.spouse===p.id || p.spouse===q.id));
 
 // ---------- kildelinks ----------
-function srcLink(s){ const m=s.match(/^(LL|AO|DFS|ARK|PHT|VKA|UKB):(\S+)(.*)$/);
+function srcLink(s){ const m=s.match(/^(LL|AO|DFS|ARK|PHT|VKA|UKB|PUB):(\S+)(.*)$/);
   if(!m) return esc(s);
   const [_,t,id,rest]=m;
-  const url = t==='UKB'?'https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf' : t==='VKA'?'https://www.v-kleist.com/FG/english/Dubberow_translation.pdf' : t==='LL'?'https://link-lives.dk/soeg/' : t==='DFS'?(/^\d+$/.test(id)?`https://www.danishfamilysearch.dk/cid${id}`:`https://www.danishfamilysearch.dk/${id}`) : t==='ARK'?`https://arkiv.dk/vis/${id}` : t==='PHT'?'https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf' : (/^\d+$/.test(id)?`https://api.rigsarkivet.dk/ao/v1/images/${id}`:'https://arkivalieronline.rigsarkivet.dk/');
-  const label = {LL:'Link Lives',DFS:'Danish Family Search',ARK:'arkiv.dk',AO:'Arkivalieronline',PHT:'Personalhistorisk Tidsskrift',VKA:'von Kleist Familienarchiv',UKB:'Kleist-Urkundenbuch'}[t];
+  const url = t==='PUB'?'https://kpbc.umk.pl/Content/23455/PDF/Pomorze_062_12.pdf' : t==='UKB'?'https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf' : t==='VKA'?'https://www.v-kleist.com/FG/english/Dubberow_translation.pdf' : t==='LL'?'https://link-lives.dk/soeg/' : t==='DFS'?(/^\d+$/.test(id)?`https://www.danishfamilysearch.dk/cid${id}`:`https://www.danishfamilysearch.dk/${id}`) : t==='ARK'?`https://arkiv.dk/vis/${id}` : t==='PHT'?'https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf' : (/^\d+$/.test(id)?`https://api.rigsarkivet.dk/ao/v1/images/${id}`:'https://arkivalieronline.rigsarkivet.dk/');
+  const label = {LL:'Link Lives',DFS:'Danish Family Search',ARK:'arkiv.dk',AO:'Arkivalieronline',PHT:'Personalhistorisk Tidsskrift',VKA:'von Kleist Familienarchiv',UKB:'Kleist-Urkundenbuch',PUB:'Pommersches Urkundenbuch'}[t];
   return `<a href="${url}" target="_blank" rel="noopener">${label} ${esc(id)}</a>${esc(rest)}`; }
 const personLink = (p,extra='') => `<span><button class="linkish" data-pid="${p.id}">${esc(p.name)}</button><span class="yrs">${esc(life(p))}</span>${extra}</span>`;
 
