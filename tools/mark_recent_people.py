@@ -39,9 +39,17 @@ def main():
         old = ""
     new = git("show", f"{head}:{SOURCE}")
     before, after = person_records(old), person_records(new)
-    changed_ids = sorted(pid for pid in set(before) | set(after)
-                         if before.get(pid) != after.get(pid))
+    changed_ids = {pid for pid in set(before) | set(after)
+                    if before.get(pid) != after.get(pid)}
     changed_paths = git("diff", "--name-only", base, head).splitlines() if base and base != "0" * 40 else [SOURCE]
+    # Also highlight people named on changed lines in dossiers / research notes.
+    research_paths = [p for p in changed_paths if p.startswith(("leads/", "research-archive/"))]
+    if research_paths and base and base != "0" * 40:
+        diff_text = git("diff", "--unified=0", base, head, "--", *research_paths).casefold()
+        for pid, (name, _record) in after.items():
+            if name.casefold() in diff_text:
+                changed_ids.add(pid)
+    changed_ids = sorted(changed_ids)
     try:
         state = json.load(open(OUTPUT, encoding="utf-8"))
     except (OSError, ValueError):
