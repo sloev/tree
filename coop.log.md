@@ -298,3 +298,18 @@ Sources:
 - https://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-oktober-2025.pdf
 - https://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-november-2025.pdf
 - https://slaegtsbibliotek.dk/900379.pdf
+
+
+### Follow-up — digitisation correction and deployment confirmation (16 November 2026)
+
+Rigsarkivet's October and November 2025 release notices establish that the Vor Frelsers bell-ringer's *Navneregister til enesteministerialbog ført af klokkeren* was released on Arkivalieronline, with the November notice explicitly listing “FØDTE 1704–1822”. This supersedes the earlier reading-room-only access assumption. The series is online in principle; the individual index images have not yet been opened and Christian Adam has not yet been located. The remaining hurdle is locating the series in the online catalogue/image viewer. Rigsarkivet's guide says “Søg i Samlingerne” searches Arkivalieronline and the archive catalogue together, with an “Tilgængeligt online” filter.
+
+The latest generated-site commit is `8e68943c0f31eb4dd5e49b53644c90bc6904e23b`. GitHub Actions run `43948865321` for that commit, “pages build and deployment”, completed with conclusion **success** on 16 November 2026. The immediately preceding Pages run for source commit `378158158e95d075414be5c31a650d07051d6315` was cancelled as superseded. Thus the latest Pages deployment workflow succeeded; the browser tool could not independently fetch the public Pages URL for a visual smoke test.
+
+No canonical data or family relationships changed. Christian Adam remains “Kræver mere belæg”.
+
+Sources:
+- https://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-oktober-2025.pdf
+- https://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-november-2025.pdf
+- https://www.rigsarkivet.dk/vejledning/rigsarkivets-soegetjenester/soeg-i-samlingerne-kom-godt-i-gang/
+- https://github.com/sloev/tree/actions/runs/43948865321
