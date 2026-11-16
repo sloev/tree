@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "024e946e924dcfd488c487b729af41a4e4c79e70",
+    "commit": "612dfc0072a11a9162dd856836c5fd66f7d5a26c",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "data/tree.json"
     ],
     "people": [],
-    "title": "Add independent Langø causeway corroboration to canonical research"
+    "title": "Expose 11 additional dossier leads in public research register"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
