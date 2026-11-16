@@ -186,3 +186,6 @@ Added these exact series, signatures/volumes and caveats to the Lorenz dossier. 
 **Scope:** no genealogy data, tree relationships, generated data or other story content changed. The fix is in the source template, not generated HTML. Automatic deployment status not yet verified.
 
 **Next:** confirm the Pages build/deployment from GitHub Actions or ask the owner to reload after the workflow completes; then continue the Kleist primary-record work.
+
+
+**Generated-site rebuild:** after the source-template fix, regenerated the two tree outputs using the exact substitutions and wrapper logic in site/build.py, with current main data/family.json, data/map.json, site/unlock.js and all 11 referenced image assets. Updated site/index.html and docs/index.html (the GitHub Pages publication directory). Commits: 27b47c729366519ae8d9661379f47d90c93bb103 and 49657430ce934823ee13db8b026dcc27a6268f6a. The generated files were written successfully and their repository blob refs were re-fetched; the GitHub file-fetch wrapper returned empty content for these multi-megabyte files, so a full content round-trip was not available. The generation inputs and replacement logic match site/build.py. Live Pages rendering/deployment still needs external confirmation.
