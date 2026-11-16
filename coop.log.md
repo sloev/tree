@@ -183,3 +183,19 @@ Validation: the main JavaScript function extracted from `site/template.html` pas
 **Validation:** fetched current file contents and SHA values; parsed canonical JSON before editing. No original G299 images were inspected; no local build/export or Pages deployment check was performed.
 
 **Next:** inspect Isgård G299's original register and protocol around 1764; if no case appears, identify the bailiff's employer and follow the correct jurisdiction under the pre-1793 rules.
+
+
+## 2026-11-17 — research loop: correct Bogensholm chronology and deepen Skærsø Rousing lead
+
+**Tracks updated:**
+- `evald-bogensholm`: corrected a prior research-note error. Trap 4 (1925), pp. 666 ff., says Rosenkrantz sold Bogensholm to Claus Gaardsted in **1796**, not 1797; Trap 5 also says 1796. The previously reported 1796/1797 disagreement was caused by our transcription error and is withdrawn. The original deed remains uninspected.
+- `evald-claus-probate-1811`: added Djurslandsdatabasen's secondary entry for Claus Gaardsted, born 1751 and died 1811 at Bogensholm. This agrees with the tree's approximate birth and the known death year, but provides no parents or spouse in the index. No precise birth date was added.
+- `evald-rousing-parentage`: inspected the published Skærsø G304 extract, no. 206, 7 October 1813, fols. 331 and 336. It names Rasmus Jensen Rousing, smith at Visbeholm, wife Kirsten Thygesdatter, daughters Marie Cathrine (19) and Anne Elisabeth, and maternal uncle Peder Thygesen / paternal uncle Hans Jensen as guardians. This is a specific family group and makes identification with p76 (Fuglslev, ca. 1780) unlikely; original folios must confirm the deceased and relationships. No tree edges changed.
+
+**Sources reviewed:** Trap 4 PDF, lines 1882–1897; Skærsø G304 published extract, lines 937–938; DS-Wiki Skærsø archive inventory; Djurslandsdatabasen Gaardsted index.
+
+**Files changed:** `data/tree.json` and `coop.log.md`. No separate lead files and no family relationships created.
+
+**Validation:** fetched current files and SHAs; parsed JSON before edit. Original G304 folios, Bogensholm deed and original Claus baptism not inspected. No local build/export or deployment check performed.
+
+**Next:** inspect Skærsø G304 original fols. 331/336; locate original Bogensholm deed/realregister entry in Djurs Sønder-Mols Herred records; continue original-source checks on the remaining open claims.
