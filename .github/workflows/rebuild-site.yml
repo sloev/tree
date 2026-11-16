@@ -5,15 +5,14 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/rebuild-site.yml'
-      - 'data/**'
-      - '!data/family.json'
-      - '!data/recently-edited.json'
+      - 'data/tree.json'
+      - 'data/build.py'
+      - 'data/export.py'
       - 'site/template.html'
       - 'site/build.py'
       - 'site/poster.html'
       - 'site/unlock.js'
       - 'tools/mark_recent_people.py'
-      - 'leads/**'
       - 'research-archive/**'
       - 'coop.log.md'
       - 'README.md'
@@ -46,14 +45,14 @@ jobs:
         run: python3 tools/mark_recent_people.py "$BASE_SHA" "$GITHUB_SHA"
       - name: Rebuild canonical data, GEDCOM and website
         run: |
-          python3 data/build_data.py
+          python3 data/build.py
           python3 data/export.py
           python3 site/build.py
       - name: Commit generated outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/family.json data/recently-edited.json family-tree.ged site/index.html site/plakat.html docs/index.html docs/plakat.html docs/.nojekyll
+          git add data/family.json data/research.json data/map.json data/recently-edited.json family-tree.ged site/index.html site/plakat.html docs/index.html docs/plakat.html docs/.nojekyll
           if git diff --cached --quiet; then
             echo "Generated outputs are already up to date."
             exit 0
