@@ -1,4 +1,4 @@
-"""Udvider anetavlen automatisk ud fra Link Lives (Rigsarkivet) og skriver resultatet til data/auto_ancestors.json.
+"""Udvider anetavlen automatisk ud fra Link Lives (Rigsarkivet) og skriver resultatet til tree.json → ingestion.auto_ancestors.
 
 For hver ane uden kendte forældre:
   1. fødselsposten (fra anens LL:12-kilde eller søgt på navn + dato + sogn) giver forældrenes navne,
