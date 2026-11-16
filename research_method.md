@@ -708,3 +708,30 @@ Public source data identifies p32, **Niels Jørgensen**, born about 1826, marrie
 
 ### Next concrete step
 Resolve the historical place-name “Hove/Høje” from p32's underlying Link Lives baptism/marriage/census entries before selecting a parish. Then inspect the correct parish's 1824–1828 baptism register and compare the entry's parents, residence, and witnesses with p32's 1854 marriage and later Copenhagen records. Avoid broad searches for Niels Jørgensen across all Svendborg parishes until the locality is narrowed.
+
+
+## Milestone 31 — Ahnentafel 32: Høje-sporet peger mod Lunde Sogn (16. november 2026)
+
+### Forskningsmål
+p32, **Niels Jørgensen**, er født ca. 1826 og gift 7. juli 1854 i Vor Frue Kirke, København, med Johanne Sophie Hansdatter. I træets kildeafskrift er fødestedet gengivet som “Hove/Høje sogn, Svendborg amt”. Han døde mellem 1885 og 1892 i København. Forældre og sikkert fødesogn mangler. Kilderne på personen er LL:13-4281756, LL:6-420495, LL:7-586576 og LL:8-31142.
+
+### Nyt stednavnefund
+- Trap Danmark 5. udgave, opslaget **Lunde Sogn (Sunds Herred)**, opregner Høje som en bebyggelse/by i Lunde Sogn, ikke som et selvstændigt sogn. Trap anfører de historiske former **“Høyæ szogn” (1531)** og **“Høye” (1542)** og nævner også Høje Mark. Kilde: https://trap5.lex.dk/sogn/lunde-sogn-sunds-herred/
+- Det gør **Lunde Sogn i Sunds Herred, Svendborg Amt** til en konkret og geografisk velbegrundet kandidat til p32's uklare “Hove/Høje”-angivelse. Men den gamle ordlyd “Høyæ szogn” kan være en lokal navneform og er ikke i sig selv bevis for, at Niels blev døbt i Lunde. Kandidaten skal kontrolleres mod original vielse, dåb og eventuelle flyttelister.
+- DS-Wiki's sogneoversigt for Lunde (Sunds Herred) angiver kirkebøger **1678–1814** og **1814–1990**, samt et register over viede og døde 1678–1891. Kilde: https://wiki.slaegt.dk/index.php/Lunde_Sogn_%28Sunds_Herred%29. Det viser, at der findes et oplagt primærkildespor for fødsel omkring 1826, men jeg har ikke i denne runde åbnet selve kirkebogsbilledet.
+- Rigsarkivets vejledning fastslår, at kirkebøger fra ca. 1814 og frem skal søges i hoved- eller kontraministerialbog; fødte står normalt kronologisk og mandkøn før kvindekøn. Kilde: https://www.rigsarkivet.dk/vejledning/kirkeboeger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/.
+
+### Afgrænsning og kildekritik
+- Søgninger på de fire LL-kildenøgler og på Niels Jørgensen/Johanne Sophie Hansdatter gav ingen uafhængig, indekseret transskription af netop p32.
+- En tidligere fundet Niels Jørgensen, født 4. april 1826 i Gudme Herred, er fortsat en afvist/ubekræftet navnelighed; intet forbinder ham med p32.
+- “Høje” er derfor nu en **sogn-/lokalitetskandidat**, ikke en ny fødselsoplysning. Ingen fødselsdato, forældre eller relationer er ændret i genealogidata.
+
+### Ændringer og validering
+- Opdaterede kun denne forskningscheckpoint med Trap-stednavnet og Lunde kirkebog som næste primærkildespor.
+- Ingen ændringer i data/build_data.py, data/family.json eller family-tree.md.
+- Trap og DS-Wiki blev læst som stednavne-/arkivfinding aids; Rigsarkivets vejledning blev kontrolleret. Selve 1854-vielsen og 1826-dåben er ikke genlæst på originalbilleder i denne session. Ingen build eller tests er kørt.
+
+### Næste konkrete skridt
+1. Åbn originalindførslen for vielsen 7. juli 1854 i Vor Frue, København, og transskriber brudgommens præcise fødested, alder, ophold og forlovere.
+2. Gennemgå Lunde Sogns fødte mandkøn 1824–1828, begynd med Niels Jørgensen omkring 1826; noter forældre, bopæl og faddere, og sammenhold dem med vielsen og Københavns folketællinger.
+3. Hvis Lunde ikke giver en entydig dåb, brug vielsens ordlyd og til-/afgangslister til at afgøre, om “Hove” peger på en anden lokalitet. Ingen brede navnematches må tilføjes uden identitetskontrol.
