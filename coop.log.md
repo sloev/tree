@@ -58,3 +58,10 @@ Expanded the structured public research register from 8 to **27 open claims**:
 Added curated source links to selected claims and a visible “Kilder og videre læsning” section in each expanded research card. Claims remain explicitly unresolved where the dossier says the original record has not been inspected; no canonical parent-child links or GEDCOM facts were changed.
 
 Validation: JSON parses; 27 unique claim IDs; all entries point to one of the four active dossiers; all four branches and all three statuses are represented; the research tab/view/renderer, source-link UI and build injection are present. The automatic GitHub Actions rebuild for commit `a75e103` completed successfully and generated `docs/index.html`; the generated page was fetched from GitHub and checked for the tab, renderer, source section and newly added claim IDs. GitHub Pages deployment was still in progress at the time of this log entry.
+
+
+## 16 November 2026 — person drawers linked to the public research register
+
+Added claim-to-person references to 25 of the 27 public research entries (all referenced IDs checked against the 494 people in canonical `data/family.json`; no missing person IDs). Person drawers now show the relevant open research claims and a “Se belæg og hvad der mangler” control. Activating it closes the drawer, opens the research tab, expands that claim's evidence panel and scrolls it into view. Two broader branch-level claims remain available only in the register.
+
+Validation: the main JavaScript function extracted from `site/template.html` passes JavaScript syntax compilation; the 27-record JSON parses; all claim IDs are unique; all dossier paths and person references resolve; the generated `docs/index.html` contains the tab, research renderer, source links, drawer claim controls and both later-added claim IDs. GitHub Actions rebuild completed successfully and the subsequent Pages build/deployment job completed successfully. The generated website output is committed by the workflow. This validates the build pipeline and Pages workflow; it is not a manual visual/browser usability review.
