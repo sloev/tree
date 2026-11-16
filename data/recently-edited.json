@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Forskningsmateriale eller kildegrundlag er opdateret. Se ændringsloggen og de relevante forskningsnoter for detaljer.",
-    "commit": "bfaba069a062151903df7ceced99ed69c3118554",
+    "commit": "6dfbe984409cfcea59087bf8cccc1aad50ed31d9",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
-      "leads/grandparent-lorenz-frederiksen.md"
+      "leads/README.md"
     ],
     "people": [],
-    "title": "Correct Kolding church-book signatures for Kleist baptism"
+    "title": "Document public research register workflow"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
