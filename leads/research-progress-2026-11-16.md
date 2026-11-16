@@ -79,3 +79,83 @@ The final extension's claims about the 1820 probate remain a promising source le
 - Rigsarkivet probate guide: https://www.rigsarkivet.dk/vejledning/skifter-og-testamenter/skiftearkivalier-kom-godt-i-gang/
 
 No canonical family-tree or GEDCOM records were changed.
+
+
+## Von Kleist / Muttrin — additional source comparison
+
+A second, more important source pass checked the 2025 Muttrin volume against the family association's 2021/2022 *Urkundenbuch* edition.
+
+### 1364: Prissebur of Muttrin is a real documentary reference
+
+The 2025 Muttrin volume, printed pages 5–6, explicitly says that the second son of Klest (M.1) is mentioned in Urkunde 83 of 1364 as a co-owner of land at Glineke: “Prißebur, der Klest heißt von Muttrin.” It then says the names Jarßlaff and Henning as Prissebur's sons come from an early family genealogy of 1576 and an older letter in which Prissebur acted for himself and his two sons concerning Glineke.
+
+This is not the same as the acquisition of Damen around 1365. The earlier correction in Segment 1 of the extension that said there was no 1364 reference was wrong as a blanket statement. The 1364 reference is present in the Muttrin volume; the c.1365 date concerns Damen.
+
+The 2025 authors expressly qualify the early pedigree: Quandt's arrangement uses individual contemporary documents together with family records made considerably later, and is a *wahrscheinliche Anordnung* (probable arrangement). Accordingly:
+- Prissebur's appearance in 1364 is a documented clue reported by the modern family-history edition, with the original Urkunde 83 still to be inspected.
+- The parent link from Klest to Prissebur and the sons Jarßlaff/Henning have a different evidentiary basis (later family genealogy / older letter as reported by the edition).
+- Later generations should be checked against each cited document rather than assigned the same confidence as the 1364 name occurrence.
+
+Source: https://www.v-kleist.com/FG/Muttrin/Muttrin.pdf, printed pp. 5–6, lines 293–320 in the accessible text.
+
+### 1477: the collective enfeoffment gives an independent structural anchor
+
+The 2021/2022 *Urkundenbuch*, Urkunde 125, dated Belgard 13 April 1477, reproduces the text of Duke Bugislaw X's collective fief and common-hand letter. The edition says it is based on a 16th-century authenticated copy in the Landesarchiv (Tit. IX. Sect. 88. Nr. I. fol. 1), with further transsumpts/retranssumpts listed in note 128.
+
+The charter names:
+- Bisprowe at Muttrin with sons Hennige, Petern and Hanse;
+- Dubbeszlaff at Damen with sons Drewese, Curde, Bisprowe, Petern and Pribbetzlaue;
+- Pribbeslaff at Muttrin with sons Reymer and Bartes;
+- brothers at Tychow and Dubberow, and the Vilnow and Raddatz representatives.
+
+The charter itself says the Kleists present testified that they descended from one “Older Vader” who had three sons, from whom came the Muttrin-Damen, Tychow-Dubberow, and Vilnow-Raddatz branches. The edition's explanatory footnotes assign genealogical numbers to some people, but those are editorial identifications and must be kept distinct from the medieval wording itself.
+
+This is valuable evidence for the existence and structure of the three named branches by 1477. It does not independently prove every earlier generation back to 1364, and it does not by itself connect the 1477 men to Cartz Ulrik or the Danish Gedde branch.
+
+Source: https://www.v-kleist.com/FG/Gesamt.pdf, Urkunde 125, printed pp. 73–74 / accessible lines 2760–2782.
+
+### 1402–1439 bridge records reported by the 2025 Muttrin volume
+
+The same 2025 introduction identifies further cited records:
+- Urkunde 100, 2 February 1407: Kleists act as guarantors for a cousin; named men include Kurt Klest von Damen, Hennyngh Clest von Bruskow and Hennyngh Clest von Mutteryn.
+- Urkunde 92, 1389: Pritzbor appears as a cleric at Zatkow.
+- Urkunden 93–95, 1402: young Bispraw Klest appears among the regional vassals/arbitrators and as a witness.
+- Urkunde 105, 18 August 1439: Hermen and Jurjen Klest, sons of Curt (M.4), are listed in an agreement.
+- Urkunde 104, 1435: Henning (M.8) was still living.
+
+These references are a practical generation-by-generation audit path. They are still secondary descriptions until the underlying charter texts and identities are checked.
+
+### Numbering warning
+
+The 1477 Urkundenbuch notes explain that genealogical numbering begins around this charter and that the people named there form the heads of the respective branches. The 2025 Muttrin volume also uses its own M. numbering in its early Stammtafel, while the extension worksheet uses III. numbers and Harbou's Danish article uses family-history numbers. Do not assume M.1, III.281, and a similarly named person in a user-supplied Geneanet reconstruction are interchangeable. The five-number sequence III.22 → III.54 → III.114 → III.186 → III.281 remains an audit target, not an accepted chain, until every numbered biography is located and matched.
+
+### What is now usable in the tree's research narrative
+
+The public site may accurately state:
+1. Prißebur/Prissebur is reported in the 2025 Muttrin volume as named in a 1364 document as a Muttrin land co-owner.
+2. The 1477 collective fief letter records three main Kleist branches and names their representatives and sons.
+3. The early generations between those anchors are partly reconstructed from later family records and selected contemporary documents.
+4. The Danish descent from Cartz Ulrik / Pribislaff is a separate later chain requiring its own source reconciliation.
+
+It should not state that the entire medieval-to-Danish pedigree is proven, or that Prissebur acquired Damen in 1364.
+
+## Wider leads — current evidence triage
+
+This is a triage of the leads supplied in the extension and earlier repository files, not a declaration that every record has been newly rechecked.
+
+| Lead | What can be used now | What remains open |
+|---|---|---|
+| von Kleist / Muttrin / Damen | 1364 Prissebur reference as reported by 2025 volume; 1477 collective enfeoffment text; 1389, 1402, 1407, 1435 and 1439 charter references; Harbou's Danish genealogy. | Original charter inspection; M-number/III-number reconciliation; bridge to Pribislaff III.281 and Cartz Ulrik; generation-by-generation link to Gedde. |
+| Danish von Kleist / Gedde | Harbou directly states the 1806 Ove Samuel–Frederikke Louise marriage, Ove's 1778–1843 dates, Christian Frederik III.601, Christian Adam III.466 and their immediate family details. Anker gives a conflicting Ove birth year (1788). | Primary baptisms, marriages, burials; full 29-row Harbou audit; resolve Ove identity/date and Fischer sisters' marriage order. |
+| Georg von Kleist / Christina von Woyten | Family archive translation p.123 is a named secondary source for the early modern family cluster and Hedwig Maria. | Original Pomeranian records and independent check of Christina's parents, marriage and widowhood; do not add the proposed upstream Woyten/Stojentin generations yet. |
+| Gaardsted / Karen / Claus | 1787 G302 index gives a specific probate pointer and calls Claus Karen's brother/legal guardian. | Original fol.39, exact syntax, uncertain “Tohde?” reading, and separate 1764 probate creator/series. |
+| Vibygård / Syv | 1820 probate extract is a promising named family group (Hans Jensen, Maren Poulsdatter, four adult children). | Original probate and 1822 Syv marriage; identity match to `a66` remains separate. |
+| Jens Peder Larsen / Kjersten | Horsbøl compiled genealogy supplies a specific 1843 Sønder Felding marriage lead and helps explain the conflicting Mette name. | Original marriage and birth/death records; don't substitute spouse on the basis of the derivative genealogy alone. |
+| Langø | Langeland archive catalogue identifies Lisbeth Skov's 2011 article and archival real-register/land-book series; 1894 purchase and 1911 causeway are concrete local-history leads. | Deed/real-register entries, municipal road records, memoir and one-copy dødsliste scans. |
+| Kresten Henriksen Jørgensen | Reported 1877 illegitimate birth is retained; negative public-name-index search has been scoped. | Mother, parish, original baptism, alimentary case and confirmation/census trail. |
+| Lorenz Heinrich Frederiksen | Official civil-register claim names Wilhelm Krogh as registered/legal father; family tradition names Sophus Petersen as biological father; Peter Frederiksen is social/stepfather. | Actual paternity declaration/court case and DNA triangulation; keep the three father roles distinct. |
+| Dybbøl / Anne Christine Hansen | Ab 4 is the relevant marriage volume for 1861–1906; 1866 target remains defined. | Actual 18 September 1866 entry, witnesses, ages, residences and fathers. |
+| Emigrants (Emil Gedde, Iver Peder Holgersen, Olaf Gedde, Jørgen Christensen/Bodil Margrethe) | Specific destinations/years and Iver's reported contract number are useful search keys. | Protocol/passenger/census/naturalization/local records; broad web search failures are not proof of absence. |
+| Magleby, Rosmus, Djursland, Rousing, Vestjylland/Pårup | Locality, date and named-person clues in the dossiers give targeted parish/probate searches. | Most remain source-poor; inspect original marriage/baptism/probate/census entries before making connections. |
+
+No canonical people, relationships, or GEDCOM records were changed by this research pass.
