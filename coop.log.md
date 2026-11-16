@@ -199,3 +199,20 @@ Validation: the main JavaScript function extracted from `site/template.html` pas
 **Validation:** fetched current files and SHAs; parsed JSON before edit. Original G304 folios, Bogensholm deed and original Claus baptism not inspected. No local build/export or deployment check performed.
 
 **Next:** inspect Skærsø G304 original fols. 331/336; locate original Bogensholm deed/realregister entry in Djurs Sønder-Mols Herred records; continue original-source checks on the remaining open claims.
+
+
+## 2026-11-17 — research loop: Skærsø G304 no. 52 and Fuglslev Rasmus Jensen
+
+**Track updated:** `evald-rousing-parentage`.
+
+A second entry in the published Skærsø G304 abstract has been identified: no. 52, Esben Thygesen of Gravlev Mølle, 7 June 1762, fol. 135. The abstract names Esben's deceased sister Karen Thygesdatter and lists Rasmus Jensen in Fuglslev, Thyge Jensen in Fuglslev and Anne Jensdatter married to Rasmus Rasmussen in Gravlev among her children. This is a promising candidate family for p304 (Rasmus Jensen, ca. 1718, Fuglslev), potentially identifying his mother as Karen Thygesdatter and Esben as maternal uncle. It is not a proven match: the original folio and independent identity details are required.
+
+The same G304 source also has no. 206 (1813), the Visbeholm smith Rasmus Jensen Rousing, wife Kirsten Thygesdatter and daughters. This remains a separate likely same-name individual, not merged with p76 or p304.
+
+**Sources:** Skærsø G304 published extract, no. 52, fol. 135 and no. 206, fols. 331/336; DS-Wiki Skærsø archive inventory.
+
+**Files changed:** `data/tree.json` and `coop.log.md`. No family edges or person facts changed.
+
+**Validation:** current SHA fetched; JSON parsed before write. Original G304 folios not inspected; no local build/export or deployment check performed.
+
+**Next:** inspect original G304 fol. 135; then search Skærsø leasehold register 1781–1820 and Fuglslev parish records for Rasmus Jensen's identity and children.
