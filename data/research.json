@@ -419,17 +419,25 @@
     {
       "id": "lorenz-kleist-1848",
       "branch": "Lorenz Frederiksen",
-      "title": "Frederik Christian III.727: dødsstedet i 1848",
+      "title": "Frederik Christian III.727: identitet, fødselsdato og begravelse",
       "status": "hypothesis",
-      "claim": "Harbou angiver, at Frederik Christian III.727 blev født 8. januar 1775 og døde 21. maj 1848. En anden fremlagt slægtsoplysning om “Christian Frederik Vilhelm” (1774–1848) kan muligvis vedrøre samme mand, men navn og fødselsår afviger.",
-      "evidence": "Harbous slægtsartikel og note 36 peger videre til H.P. Selmers Nekrologiske Samlinger, bind II. Katalogerne viser begravelsesregistre i Bredstedt og Schleswig, som dækker 1848, men ingen indførsel er læst.",
-      "missing": "Selmers nekrolog, dokumenteret sidste opholdssted og en original begravelsesindførsel, der matcher alder, rang, familie og dato.",
-      "next": "Find Selmers nekrolog først; brug derefter det oplyste dødssted til at vælge kirkebog, eller afgræns søgningen med navneregistre i de to mulige sogne.",
+      "claim": "Selmer identificerer en oberstløjtnant Frederik Christian af Kleist, født 3. januar 1775 i Kolding, søn af kammerherre Christian Frederik af Kleist og Anne Margrethe Schubarth, død 21. maj 1848. Harbou angiver samme militære karriere og dødsdato, men fødselsdato 8. januar. Identiteten med Harbous III.727 er meget stærk; identiteten med den fremlagte “Christian Frederik Vilhelm” (1774–1848) er fortsat uafklaret.",
+      "evidence": "Selmer, Nekrologiske Samlinger 1848–49, s. 68, giver fødested, fødselsdato, forældre og militær karriere; s. 114 gentager dødsdatoen 21. maj og alder 73. Brejls oversigt over et 100-årigt gravbrev registrerer begravelse på Garnisons Kirkegård 26. maj 1848. Harbou III.727 angiver 8. januar 1775 og samme dødsdato. Gravbrevets originale ordlyd og kirkegårdsprotokol er endnu ikke gennemgået.",
+      "missing": "Koldings originale dåbsindførsel for at afgøre 3. eller 8. januar; selve gravbrevet og Garnisons Kirkegårds begravelsesprotokol; dokumentation for dødsstedet; sammenligningskilder til at afgøre om “Christian Frederik Vilhelm” er samme mand.",
+      "next": "Kontrollér Koldings dåb omkring 3–8. januar 1775; find originalt gravbrev/begravelsesprotokol for 26. maj 1848; undersøg derefter den alternative navneform mod forældre, ægtefælle og militær karriere.",
       "dossier": "leads/grandparent-lorenz-frederiksen.md",
       "sources": [
         {
+          "label": "Selmer: Nekrologiske Samlinger 1848–49, s. 68 og 114",
+          "url": "https://slaegtsbibliotek.dk/2023/938488.pdf"
+        },
+        {
           "label": "Harbou: Slægten von Kleist i Danmark",
           "url": "https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf"
+        },
+        {
+          "label": "Brejl: private personarkiver, gravbrev for Frederik Christian von Kleist",
+          "url": "https://brejl.dk/privatB.html"
         }
       ],
       "person_ids": [
