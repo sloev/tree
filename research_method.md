@@ -859,3 +859,32 @@ Rotate to the Fåborg/Vorbasse branch: p42 Peder Jensen (born 4 April 1820, Vorb
 2. Locate Fåborg's 1830 birth/baptism entry for Karen Johnsen; check the original wording for John Eskesen and Anne Knudsen and the residence Agerbæk.
 3. Inspect the 7 October 1852 Fåborg marriage for Peder and Karen to verify ages, origins, fathers and witnesses; use those details to test the two proposed parent couples.
 4. If the original entries agree, add sourced parent links to p42 and p43 in the canonical data; otherwise retain the discrepancy explicitly.
+
+
+## Milestone 36 — Ahnentafel 42–43: original-register access route checked (16 November 2026)
+
+### Research target
+Continue the whole-tree Fåborg/Vorbasse branch from Milestone 35. p42 Peder Jensen is reported born in Vorbasse on 4 April 1820; p43 Karen Johnsen is reported born in Fåborg parish on 20 June 1830. The proposed grandparent couples remain secondary-source candidates only.
+
+### Archival access findings
+- Rigsarkivet's current church-book guide states that records from about 1814–1960 are arranged by parish and event in the main or duplicate ministerial book, with births, confirmations, marriages, arrivals, departures and deaths. The scanned books are available through Arkivalieronline.
+- Arkivalieronline's national church-book collection confirms that the 1814–1892 duplicate registers are digitised and separated by sex and event. It also warns that only about 2% of Rigsarkivet's total collections are digitised; absence from the online interface must not be mistaken for absence from the archive.
+- Rigsarkivet's name-search guide says Danish church-book transcriptions for 1812–1918 are searchable free through Ancestry after account registration, and that a search result can link to the source page image. This gives a second discovery route for both 1820 and 1830 events, while the original Arkivalieronline image remains the evidence to transcribe.
+- The 1820 and 1830 target events fall squarely within the scanned 1814–1892 duplicate-book period. The guide confirms the general access route but this check did not yet identify the exact Vorbasse/Fåborg volume, page or image number.
+
+### Sources
+- Rigsarkivet, “Kirkebøger – Kom godt i gang”: https://www.rigsarkivet.dk/vejledning/kirkeboeger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/
+- Arkivalieronline, national church-book collection: https://arkivalieronline.rigsarkivet.dk/da/geo/geo-collection/5
+- Rigsarkivet, name search 1787–1918: https://www.rigsarkivet.dk/vejledning/soeg-din-slaegt-ved-navnesoegning-1787-1918/
+
+### Result and confidence
+This confirms the practical route to original evidence and a supplementary name-index route. It does not corroborate the GEDCOM project's proposed parent couples or add any new parentage, date, birthplace, or relationship to the tree. No original 1820/1830 baptism image was inspected and no record transcription was made.
+
+### Changes and validation
+Only this research checkpoint was updated. No genealogical data, family-tree narrative, or generated site output changed. No build or tests were run; private data was not accessed.
+
+### Next concrete steps
+1. Search the 1812–1918 name index for Peder Jensen, born 4 April 1820, Vorbasse; capture the exact source volume/page and inspect the original entry.
+2. Search for Karen Johnsen, born 20 June 1830, Fåborg; capture and inspect the original entry.
+3. Compare the names, residence and witnesses with the proposed couples in Milestone 35; then inspect the parents' marriage and baptisms before adding links.
+4. Rotate to a different open branch after this bounded source pass.
