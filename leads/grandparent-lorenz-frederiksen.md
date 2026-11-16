@@ -707,3 +707,30 @@ Next record action: ask the Landeskirchliches Archiv whether the 1908–1949 con
 ### Status
 
 The Nybøl property list is a useful new independent local-history lead but does not resolve the Detlef identities. The Adelby baptism series is located, but the relevant 1908 portion is not currently exposed in the online catalogue. The next priority remains obtaining the 1908 baptism entry, followed by a marriage/household check for the proposed parents and a map/property-number identification for Nybøl holding 32.
+
+
+## Revised first route for the 1932 paternity case: county archive before court (16 November 2026)
+
+Rigsarkivet's current guidance for 1919–1970 explicitly recommends starting with the county archive: the alimentation/maintenance file often also contains the civil court's paternity case. If no county file is found, search the civil court; if that fails, search the police. This supersedes the earlier court-first ordering in this dossier. The case's recorded dates (declaration 5 April 1932, decision 10 June 1932, marginal note 11 July 1932) provide a narrow search window.
+
+For the father's proposed 1932 residence at Vester Snogbæk, Sottrup Sogn, the first county target remains Sønderborg Amt. For the mother's Egernsund residence, keep the Gråsten-side locality and any cross-referenced police/court records in view. Rigsarkivet says that when parents lived in different judicial districts, interviews would typically occur in each district with cross-references. The 1932 administrative transition is a complication: the official archive overview lists separate Sønderborg Amt holdings for 1920–1932 and Aabenraa-Sønderborg Amt holdings for 1920–1971; the overview states the 1920–1935 finding aid for registers, journals and case files is unprinted and available in the reading room. The Daisy description for Aabenraa-Sønderborg Amt notes that the two counties came under the same amtmand in 1932 but retained separate county council districts, and that the amtmand's administration increasingly handled social and family-law matters including paternity. Do not assume that the new joint administration means the case must be filed under the later joint archive title: ask staff to check both the Sønderborg Amt and transition-era Aabenraa-Sønderborg holdings, with the 1 April 1932 boundary in mind.
+
+### Reading-room request, prioritised
+
+Ask Rigsarkivet Aabenraa to search the Sønderborg Amt and transition-era Aabenraa-Sønderborg county archive registers/journals for an alimentation or paternity matter concerning:
+- Child: Lorenz Heinrich Frederiksen, born 12 January 1932 in Egernsund.
+- Mother: Else Gedde Jensen, resident Egernsund (Gråsten judicial/police district).
+- Named/acknowledging father: Wilhelm/Vilhelm Krogh, landworker, resident Vester Snogbæk, Sottrup (Sønderborg judicial/police district).
+- Declaration: 5 April 1932; reported civil court decision: 10 June 1932; civil-register marginal note: 11 July 1932.
+- Search variants: Krogh/Krog; Wilhelm/Vilhelm; Else Gedde Jensen; Lorenz Frederiksen.
+Request the journal number, the relevant Alimentationssag/Journalsag, and any enclosed copy or reference to the civil court decision. If the county register does not identify the matter, proceed to the Sønderborg Købstads Civilret general *Retsliste for borgerlige retssager* (1920–1957) for 1932, then the corresponding general civil judgment book and case file. The Daisy catalogue confirms that this general retsliste series exists for the relevant period; the dedicated Sønderborg court paternity journal and judgment-book series begin later and therefore are not the right 1932 starting point. Only after these should we request Gråsten/Sønderborg police registers and protocols.
+
+Sources:
+- Rigsarkivet, “Faderskabssager – Kom godt i gang,” 1919–1970 route and cross-district procedure: https://www.rigsarkivet.dk/vejledning/faderskab-og-adoption/faderskabssager-kom-godt-i-gang/
+- Rigsarkivet, *Landsarkivet for Sønderjylland – En arkivoversigt*, county holdings and unprinted 1920–1935 finding aid: https://www.rigsarkivet.dk/wp-content/uploads/2022/06/Landsarkivet-for-Soenderjylland-En-arkivoversigt.pdf
+- Daisy, Aabenraa-Sønderborg Amt archive creator description: https://daisy.rigsarkivet.dk/arkivskaber_detaljer?a=&b=&c=b%C3%B8rnehjem&d=1&dir=a&e=2016&ed=&ep=&es=&f=&faid=&g=&gsc=he&h=&heid=14334077&henid=14334077&int=&m2rid=&meid=&ngid=709207&ngnid=&side=1&sort=3
+- Daisy, Sønderborg Købstads Civilret, *Retsliste for borgerlige retssager* (1920–1957): https://daisy.rigsarkivet.dk/arkivskaber_eller_arkivserie_liste?c=retsliste&d=1&e=2019
+
+### Important distinction
+
+The county archive search is a route to the administrative record and possible copy of the court ruling; it does not itself prove the biological father. The registered/legal paternity currently attributed to Wilhelm Krogh remains based on the civil-register marginal note and its references, while the family claim that Sophus Petersen was the biological father remains unproven until the original case and independent evidence are examined.
