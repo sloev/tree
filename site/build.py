@@ -25,7 +25,8 @@ for bulletin in sorted((x for x in bulletins if isinstance(x, dict)), key=lambda
     label = html.escape(bulletin.get("date_label", date))
     title = html.escape(bulletin.get("title", "Research update"))
     body = html.escape(bulletin.get("body", ""))
-    bulletin_html += f'<article class="bulletin-item auto-bulletin"><time datetime="{date}">{label}</time><span class="conf probable">Automatisk opdatering</span><h3>{title}</h3><p>{body}</p></article>'
+    created_at = html.escape(bulletin.get("created_at", date))
+    bulletin_html += f'<article class="bulletin-item auto-bulletin" data-created-at="{created_at}"><time datetime="{date}">{label}</time><span class="conf probable">Automatisk opdatering</span><h3>{title}</h3><p>{body}</p></article>'
 imgs = []
 for ph in data["photos"]:
     b = open(os.path.join(root, ph["file"]), "rb").read()

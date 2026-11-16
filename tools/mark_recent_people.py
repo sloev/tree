@@ -52,6 +52,18 @@ def main():
     ):
         bulletins.append(legacy)
 
+    # Backfill timestamps for older entries from their immutable commit metadata.
+    for item in bulletins:
+        if isinstance(item, dict) and not item.get("created_at"):
+            commit_id = item.get("commit")
+            if commit_id:
+                try:
+                    item["created_at"] = git("show", "-s", "--format=%cI", commit_id)
+                except subprocess.CalledProcessError:
+                    item["created_at"] = str(item.get("date", "")) + "T00:00:00+00:00"
+            else:
+                item["created_at"] = str(item.get("date", "")) + "T00:00:00+00:00"
+
     appended = False
     if relevant:
         names = [after.get(pid, before.get(pid, {})).get("name", pid) for pid in sorted(changed_ids)]
@@ -63,7 +75,7 @@ def main():
             title = subject or "Forskningsregister opdateret"
             body = "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor."
         bulletin = {"date": now.date().isoformat(), "date_label": now.strftime("%d.%m.%Y"),
-                    "title": title, "body": body, "people": sorted(changed_ids),
+                    "created_at": stamp, "title": title, "body": body, "people": sorted(changed_ids),
                     "commit": head, "paths": relevant}
         if not any(isinstance(item, dict) and item.get("commit") == head for item in bulletins):
             bulletins.append(bulletin)

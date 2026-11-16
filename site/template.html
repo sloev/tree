@@ -536,8 +536,8 @@ function initBulletin(){
   if(!list||!more) return;
   const items=[...list.querySelectorAll(':scope > .bulletin-item')];
   items.sort((a,b)=>{
-    const da=a.querySelector('time')?.dateTime||'';
-    const db=b.querySelector('time')?.dateTime||'';
+    const da=a.dataset.createdAt||a.querySelector('time')?.dateTime||'';
+    const db=b.dataset.createdAt||b.querySelector('time')?.dateTime||'';
     return db.localeCompare(da);
   });
   items.forEach(item=>list.appendChild(item));

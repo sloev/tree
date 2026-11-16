@@ -322,3 +322,10 @@ Commit IDs for the substantive research updates in this session:
 **Validation:** Parsed the canonical JSON before writing; confirmed 494 people and 63 research claims; fetched the committed source blob after writing. The GitHub Actions rebuild for tree commit `f776d46f39343c97c1e4554a685bf68a8d24b701` completed its generated-output commit `f7fbd0319d18697e1f74792f16fd633a249cd19e`. This confirms the canonical data build/export/site generation workflow reached its generated-output commit; Pages deployment still needs checking. The original AO images were not read.
 
 **Next:** Inspect original G299 no. 56 fol. 106 and G302 no. 11 fol. 39 side by side; locate and inspect the 1764 probate; verify whether Niels Jensen in Vrinners is Niels Jensen Degn and whether Claus in the 1775 record is Claus Gaardsted in 1787. For Rousing, inspect original G304 fol. 135 and the 1744 marriage / children’s baptism records before any parentage edge is added.
+
+
+## 2026-11-17 — Nyhedsbulletin: præcis rækkefølge ved flere indlæg samme dag
+
+Tilføjet et tidsstempel til automatiske nyhedsindlæg, baseret på commit-/oprettelsestid, og bagudfyldning af tidsstempler for ældre poster fra deres Git-commitmetadata. Websitebygget skriver tidsstemplet som `data-created-at`, og klientens sortering bruger det før dato-fallback. Det sikrer, at “10 nyeste” også er korrekt, når flere forskningsopdateringer har samme kalenderdato. Historikken er fortsat append-only; ingen tidligere indlæg fjernes eller erstattes.
+
+**Validering:** Kontrolleret patch-markører mod de aktuelle filer. GitHub Actions skal genbygge efter commit; visuel browserkontrol og Pages-udrulning af denne præcisionsændring afventes.
