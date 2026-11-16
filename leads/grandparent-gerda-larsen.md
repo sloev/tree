@@ -213,3 +213,8 @@ An open lead says a 1787 Nordenbro probate after **Christian Hansen** describes 
 - Hennetved parish registers 1720–1800 are unindexed and are the route to the older Jørgensen branch (`a504`, `a505`, `a1008`–`a1011`).
 
 
+
+
+## 16. Additional identity caution for the 1787 Nordenbro probate
+
+The 1787 probate lead is explicitly described in the original extension as **not yet connected to the tree**. It concerns a deceased Christian Hansen in Nordenbro with two marriages and several children; one possible son of the right generation could be the Christian Hansen (`p114`) who married Marie Madsdatter in 1829. The 42-year gap is too long for the deceased Christian to be p114's father; the probate's children might be p114's generation or siblings. Read the probate for a son Christian born around 1806, the two wives' names and the guardian list. If no matching Christian appears, record the negative and close the lead. Source cited in the old extension: Magleby-Nordenbro gods probate series; a web lead was elgezira.dk/historie.html.
