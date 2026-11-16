@@ -19,14 +19,14 @@ The website build reads only \`data/tree.json\` plus its presentation templates 
 
 ## Rules that prevent contradictions
 
-- A research claim has one home: the dossier of the grandparent whose ancestral line it concerns.
+- Each investigation has one owning dossier. A public-facing claim is stored once in `data/tree.json` and points back to its dossier.
 - Shared events (Evald/Liss marriage; Lorenz/Gerda marriage) are cross-referenced by tree ID, not copied as independent claims.
 - A lead that may belong to a branch but is not yet linked is kept in the most plausible dossier with an explicit **unlinked / identity unresolved** label.
 - Each dossier distinguishes original record evidence, published genealogy, family account, inference, conflict and negative search.
 - Record the source's exact wording and what it proves; never let a secondary index or family tree silently become a primary source.
 - Legal/registered, biological, marital, step, foster, guardian and household relationships remain separate.
 - Do not add or change canonical relationships solely because a claim appears in a dossier.
-- When new evidence changes a conclusion, edit the existing claim in its one dossier and add a dated change note there. Do not leave a second competing version in another active note.
+- When new evidence changes a conclusion, update the existing claim in `data/tree.json` and add a dated research note in the owning dossier. Do not create a second public claim for the same question.
 
 ## Canonical data and derived exports
 
