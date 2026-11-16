@@ -751,6 +751,32 @@
       "person_ids": [
         "p6"
       ]
+    },
+    {
+      "id": "lorenz-hammer-fosterage",
+      "branch": "Lorenz Frederiksen",
+      "title": "Paula Geddes opvækst i Herlufmagle: plejeforholdet til Hammer",
+      "status": "family",
+      "claim": "Familieoplysninger beskriver, at Paula Mathilde Christle Gedde (p27) voksede op i Herlufmagle præstegård hos sin moster Christine Sophie von Kleist og præsten dr.theol. Edvard Snedorph Hammer. Hammer var en social/familiemæssig plejefarfigur, ikke hendes biologiske far. Mellemnavnet Hammer hos hendes søn Edvard Hammer Gedde (p54) skal forstås i denne sammenhæng.",
+      "evidence": "Dossieret henviser til familiens maskinskrevne slægtsopgørelse og familiefotografiet fra 1895, hvor Paula indgår i familien omkring Edvard Hammer Gedde og Vitta Ludvigsen. Det kan forklare navnebrugen og en social relation, men ikke biologisk slægtskab.",
+      "missing": "Samtidige folketællinger, skole-/konfirmationsoplysninger og eventuelle præstegårds-/personarkivoplysninger, der dokumenterer Paula som barn i husstanden. Fotografiets originale billedtekst og datering bør kontrolleres mod familiens dokument.",
+      "next": "Sammenhold folketællinger og kirkebøger for Herlufmagle omkring 1880–1901 med Christine Sophie von Kleists husstand; registrér relationen som plejeforhold/husstand, ikke som biologisk forældreskab.",
+      "dossier": "leads/grandparent-lorenz-frederiksen.md",
+      "sources": [
+        {
+          "label": "Familiefotografi fra 1895 – bevaret i projektets kildemateriale",
+          "url": "https://raw.githubusercontent.com/sloev/tree/main/leads/01-familien-gedde-1895.jpg"
+        },
+        {
+          "label": "Rigsarkivet – vejledning og arkivmateriale",
+          "url": "https://www.rigsarkivet.dk/"
+        }
+      ],
+      "person_ids": [
+        "p27",
+        "p54",
+        "p108"
+      ]
     }
   ]
 }
