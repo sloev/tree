@@ -293,3 +293,74 @@ Harbou is valuable for the Danish generations and military service, but it is a 
 A separate extension proposes Hans Jürgen von Kleist as father of Pribislaff III.281 (`p3472`) and an unnamed von Kameke as mother, via Geneanet reconstructions. This conflicts with the later exp020–exp042 Muttrin audit's source numbering and is not yet reconciled. Do not encode either parent in canonical data until the precise III.22 / III.54 / III.114 / III.186 → III.281 sequence is checked in the German Muttrin volume and source references.
 
 The uploaded Tychow chain and Muttrin chain are not to be spliced. The 1477 Reimer/Bartes father conflict and the distinction between Pribislaff III.281 (d.1698) and Pribislaff III.22 (different person/branch) remain central safeguards.
+
+
+## 14. Detailed Muttrin extension register — exp020–exp042
+
+This is the compact working crosswalk for the expanded research export. These IDs are not canonical people and the relationships remain research proposals unless the note below says otherwise. The 2025 Muttrin volume calls the early Stammtafel a *wahrscheinliche Anordnung* (probable reconstruction) based on contemporary documents plus later family records.
+
+| Research ID | Person / claim | Present evidence status |
+|---|---|---|
+| exp020 | Klest de Densin | Probable early ancestor in Quandt's reconstructed table; proposed 1289 reference and parentage of Prissebur require original citation check |
+| exp021 | Prissebur | 1364 Urkunde 83 appearance is reported by Muttrin 2025; parentage and sons are from later family genealogy/older letter |
+| exp022 | Henning M.3 | Relationship to Prissebur and son Henning M.8 relies on the 1576 family genealogy and later reconstruction |
+| exp042 | Henning M.8 | Added to the expanded JSON/GEDCOM after detecting that the previous export skipped this generation; said to be alive 1435 (Urk.104), husband of a von Wedelstett, father of Bisprow III.1 according to the old family genealogy |
+| exp038 | Unnamed von Wedelstett | Wife of Henning M.8 and mother of seven sons per old family genealogy; personal identity and maternity not independently proved |
+| exp024 | Bisprow III.1 | Muttrin 2025 explicitly says son of Henning M.8; cites 1477 enfeoffment and 1493 church-patronage evidence |
+| exp025 | Unnamed von Natzmer | Wife of Bisprow; maternity of his children is genealogy-reported |
+| exp026 | Hans III.6 | Reported youngest son of Bisprow; dated records 1477, 1493, 1498; death inferred from sons' 1516 enfeoffment |
+| exp027 | Unnamed von Bornentin | Wife of Hans III.6, daughter of Paul at Borntin per old family genealogy |
+| exp028 | Pribislaff III.22 | Borntin/Muttrin person; marriage to Dorothea Elisabeth von Below reported by Muttrin genealogy; don't confuse with Pribislaff III.281 / canonical p3472 |
+| exp029 | Dorothea Elisabeth von Below | Parents named as Gerhard Henning von Below and Catharina von Glasenapp in the family genealogy |
+| exp039 | Gerhard Henning von Below | Proposed father of exp029; no independent record checked |
+| exp040 | Catharina von Glasenapp | Proposed mother of exp029; no independent record checked |
+| exp030 | Hans III.54 | Son of Pribislaff III.22 per supplied notes; husband of Elisabeth von Kleist of Ruschitz |
+| exp031 | Elisabeth von Kleist of Ruschitz | Proposed daughter of Andreas of Ruschitz per family genealogy |
+| exp041 | Andreas von Kleist of Ruschitz | Proposed father of exp031; no independent record checked |
+| exp032 | Pribislaff III.114 | Son of Hans III.54 and father of Hans Jürgen III.186 per family genealogy; dated fief/church/patronage records cited |
+| exp033 | Hans Jürgen III.186 | Son of exp032; note says his son was canonical p3472 / Pribislaff III.281, but the structured parent fields do not encode this link |
+| exp034 | Unnamed daughter of Achatz | Wife of exp033; alleged daughter of Landrat Achatz III.110; no given name supplied |
+| exp035 | Achatz von Kleist III.110 | Proposed father of exp034; exact numbered biography/page crosswalk open |
+| exp036 | Jacob von Kameke of Körlin | Proposed father of Anna Esther von Kameke / p3473 in expanded research data |
+| exp037 | Catharina von Koller | Proposed mother of Anna Esther von Kameke / p3473 in expanded research data |
+
+### Existing IDs and unresolved structural mismatch
+
+- Canonical `p3472` is Pribislaff von Kleist, husband of `p3473` Esther von Kameke; canonical parents are blank.
+- Expanded research export identifies `p3473` as Anna Esther von Kameke and proposes parents exp036/exp037.
+- The expanded note says exp033 (Hans Jürgen III.186) was father of Pribislaff III.281 / p3472, but the expanded JSON and GEDCOM structured father link were not populated.
+- A separate Geneanet-based extension proposes Hans Jürgen von Kleist as p3472's father and an unnamed von Kameke as mother. This is not reconciled with the Muttrin numbering. The Harbou worksheet flags p3473's “Esther” name as requiring verification because it may conflate two von Kameke women from different generations.
+- Do not add a parent link to p3472 or p3473 until the exact German Muttrin biography, the older III. numbering and the cited documents have been compared.
+
+### Harbou's Christian II.60 (d.1679) and the Tychow sequence
+
+Harbou's 1897 passage (printed p.97 / PDF p.2) says Brandenburg colonel Christian von Kleist II.60 of Groß-Tychow inherited one part of the estate from his father and another part with his first wife Hedwig Maria von Kleist, daughter of Georg of Groß-Tychow and Christina von Woyten. His second wife was Barbara Eleonore von Kalckstein; he died in 1679. Harbou does not name Christian II.60's father in that paragraph. He calls Swedish cavalry captain Joachim Henning von Kleist II.59 his *Farbrodersøn* (paternal cousin), not half-brother.
+
+The 2025 Tychow-Dubberow biographies instead explicitly give the chain:
+**Bartes II.3 → Andreas (Drews) II.11 → Carsten II.21 → Bernd/Bernhard II.39 → Christian II.60 → Christian Casimir II.82 → Barbara Juliane → marriage to Cartz Ulrik III.369.**
+
+The same 2025 Tychow volume says Reimer II.2's son was Bartez II.6, while Bartes II.3's son was Andreas II.11. Bartez II.6 is collateral, not Andreas's father.
+
+However, the father of Reimer II.2 and Bartes II.3 remains disputed:
+- 2025 Tychow-Dubberow genealogy: Hans I.24.
+- L. Quandt's transcription of the 13 April 1477 collective fief letter: “Pribbeslaw zu Muttrin mit seinen Söhnen, die Brüder Reymer und Bartes zu [Groß-]Tichow”.
+- The same general-history discussion says the earlier Tychow/Dubberow branch ancestor is not known from older family records.
+
+Do not state Hans I.24 or Pribbeslaw as settled father until the charter/authenticated copy and the later reconstruction are reconciled. Also do not conflate Christian II.60 (Tychow numbering) with other von Kleist people bearing similar names or numbers in the Muttrin/Harbou numbering systems.
+
+### Harbou worksheet and source-quality rule
+
+The uploaded 29-row Harbou reconciliation worksheet remains incomplete. It is an audit instrument, not proof. It must be filled against both the German original and Danish translation, with page images and exact names/dates. Harbou is a strong guide to Danish military generations and family relationships; for Pomeranian ancestry before 1700 it is a secondary reconstruction. Follow its citations to the German family history and Greifswald charters.
+
+Special checks:
+- p3473 “Esther von Kameke”: distinguish her from the unnamed N.N. von Kameke in the Geneanet-based parent proposal.
+- p3475 “Anna von Fürst”: confirm “Fürst” versus “Fürsten”.
+- p6949 Hedwig Maria von Kleist: verify the reported cousin-marriage context and estate brought into marriage.
+- p1736 Cartz Ulrik: independently check Harbou's reported capture/wounding at Helsingborg (1710) and Gadebusch (1712).
+
+Source anchors:
+- [Muttrin 2025](https://www.v-kleist.com/FG/Muttrin/Muttrin.pdf)
+- [Tychow-Dubberow 2025](https://www.v-kleist.com/FG/Dubberow.pdf)
+- [Allgemeine Geschichte](https://www.v-kleist.com/FG/Genealogie/AllgemeineGeschichte.pdf)
+- [Harbou 1897](https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf)
+- [English Tychow-Dubberow translation, p.123](https://www.v-kleist.com/FG/english/Dubberow_translation.pdf)
