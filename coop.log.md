@@ -138,3 +138,15 @@ Validation: the main JavaScript function extracted from `site/template.html` pas
 **Validation:** current SHA fetched before update; canonical JSON parsed before write. No local build/export, visual inspection or deployment check performed.
 
 **Next:** inspect the register images and original C 469-3/C 469-7 pages; if inaccessible, use the Kolding Stadsarkiv transcription portal or request exact scans from Kolding Stadsarkiv.
+
+## 2026-11-16 — research loop: bounded negative search in G299
+
+**Track updated:** `evald-tohde-probate`.
+
+**Finding:** searched the full text of the published Isgård-Kvelstrup G299 index/extract (1762–1812) for the exact form “Christen Christensen Tohde”. The PDF search did not return a separate entry for him. The index does contain Rasmus Christensen at Dejret (19 Feb 1772, no. 32, fol. 58) and Karen Christensdatter (2 Jun 1774, no. 50, fol. 90), which remain useful identity anchors. This is a bounded negative result in a standardized secondary extract only; it does not establish that the 1764 probate is absent.
+
+**Refined next route:** do not continue looking for a 1764 original in Rolsøgård G302 (1778–1816) or assume it is in G299. Use the named family cluster and Dejret location to identify another estate/jurisdiction or surviving loose probate documents. Keep the father identity and sibling edges unaltered until an original source is found.
+
+**Files changed:** `data/tree.json` and `coop.log.md`. Commit for the new track note: `ee4c597aed3893ce5e607f25cdc8d7b533ec0545`. No people, dates or family edges changed.
+
+**Validation:** current file SHA fetched before update; canonical JSON parsed before write. No local build/export or Pages check performed.
