@@ -1,7 +1,7 @@
 """Exports data/family.json to family-tree.ged (GEDCOM 5.5.1)."""
 import json, os, re
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-D = json.load(open(os.path.join(root, "data", "family.json"), encoding="utf-8"))
+D = json.load(open(os.path.join(root, "data", "tree.json"), encoding="utf-8"))["family"]
 P = D["people"]
 MON = "JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC".split()
 
