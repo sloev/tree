@@ -14896,8 +14896,14 @@
     "next": "Åbn den konkrete Dybbøl-side via Arkivalieronline eller bestil billedet; transskriber hele indførslen og sammenhold med dåb og folketællinger.",
     "dossier": "leads/grandparent-lorenz-frederiksen.md",
     "sources": [
-     "https://arkivalieronline.rigsarkivet.dk/da/other/index-creator/29/725983/18484622",
-     "https://slaegtsbibliotek.dk/2024/941454.pdf"
+     {
+      "label": "Rigsarkivet: Dybbøl vielsesregister 1723–1900",
+      "url": "https://arkivalieronline.rigsarkivet.dk/da/other/index-creator/29/725983/18484622"
+     },
+     {
+      "label": "Arkivoversigt: Dybbøl Ab 4, vielser 1861–1906",
+      "url": "https://slaegtsbibliotek.dk/2024/941454.pdf"
+     }
     ],
     "person_ids": [
      "p52",
@@ -14916,8 +14922,14 @@
     "next": "Arbejd led for led fra den dokumenterede danske von Kleist-forbindelse baglæns; prioriter 1477-charteret, 1407/1435-dokumenterne og 1555–1618-manuskripternes proveniens. Ingen middelalderlige forældrekanter uden særskilt bevis.",
     "dossier": "leads/grandparent-lorenz-frederiksen.md",
     "sources": [
-     "https://www.v-kleist.com/FG/Dubberow.pdf",
-     "https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf"
+     {
+      "label": "Von Kleist Familienverband: 2025 slægtshistorie",
+      "url": "https://www.v-kleist.com/FG/Dubberow.pdf"
+     },
+     {
+      "label": "H. W. Harbou: Slægten von Kleist i Danmark (1897)",
+      "url": "https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf"
+     }
     ],
     "person_ids": [
      "p868",
@@ -14935,9 +14947,18 @@
     "next": "Kontrollér Christina Woytens to mulige Georg-fædre i samtidige kirkebøger og skifter; efterprøv derefter hver ældre Woyten/Stojentin-generation mod originaldokumenter og moderne forskning.",
     "dossier": "leads/grandparent-lorenz-frederiksen.md",
     "sources": [
-     "https://www.deutsche-biographie.de/gnd189411813.html",
-     "https://www.deutsche-biographie.de/sfz81519.html",
-     "https://dlibra.bibliotekaelblaska.pl/Content/69900/PDF%20czarno-bia%C5%82y/CZ.R.6.19czb.pdf"
+     {
+      "label": "Deutsche Biographie: Puttkamer",
+      "url": "https://www.deutsche-biographie.de/gnd189411813.html"
+     },
+     {
+      "label": "Deutsche Biographie: Valentin von Stojentin",
+      "url": "https://www.deutsche-biographie.de/sfz81519.html"
+     },
+     {
+      "label": "Fritz Mörre: Die Swenzonen in Ostpommern (1939)",
+      "url": "https://dlibra.bibliotekaelblaska.pl/Content/69900/PDF%20czarno-bia%C5%82y/CZ.R.6.19czb.pdf"
+     }
     ],
     "person_ids": [
      "p217"
@@ -14954,9 +14975,18 @@
     "next": "Søg i Kolding Sankt Nikolaj C 469-3 og C 469-7 for januar 1775; sammenhold afskrifter med originalbilledet før dato eller personidentitet ændres.",
     "dossier": "leads/grandparent-lorenz-frederiksen.md",
     "sources": [
-     "https://slaegtsbibliotek.dk/2023/938488.pdf",
-     "https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf",
-     "https://slaegtsbibliotek.dk/807141.pdf"
+     {
+      "label": "Selmer: Nekrologiske Samlinger 1848–49",
+      "url": "https://slaegtsbibliotek.dk/2023/938488.pdf"
+     },
+     {
+      "label": "H. W. Harbou: Slægten von Kleist i Danmark (1897)",
+      "url": "https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf"
+     },
+     {
+      "label": "Kolding kirkebøger: ældre arkivoversigt",
+      "url": "https://slaegtsbibliotek.dk/807141.pdf"
+     }
     ],
     "person_ids": [
      "p868"
