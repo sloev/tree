@@ -615,6 +615,30 @@ person("stojentin_elisabeth", "Elisabeth von Stojentin", "F", line="gedde",
 person("below_otto_pustamin", "Otto von Below of Pustamin", "M", line="gedde", spouse="p13899",
        note="Christina von Woyten’s first husband; she was his widow when she married Georg von Kleist.", src=["VKA:Dubberow p.123"])
 
+# ================= Historiske Kleist-navne uden dokumenteret slægtskabsbro =================
+# These people are intentionally visible in the public register, but are not connected
+# to the canonical ancestry: the documents establish name-bearing appearances, not descent.
+person("hist_conradus_clest", "Conradus Clest", "M", line="gedde", conf="record",
+       rel="historisk person, 13. århundrede",
+       note="Nævnt i 1248 (Urk. 26). Urk. 27 (17. juni 1249) kalder Bertoldus og Conradus Clest brødre; Urk. 32a (1254) og Urk. 48 (7. april 1269) støtter samme søskendepar. Der er ikke påvist forbindelse til vidnegruppen fra 1289 eller til den senere Muttrin-linje.",
+       src=["UKB:Urk. 26 (1248)", "UKB:Urk. 27 (1249)", "UKB:Urk. 32a (1254)", "UKB:Urk. 48 (1269)"])
+person("hist_bertoldus_clest", "Bertoldus (Bartoldus) Clest", "M", line="gedde", conf="record",
+       rel="historisk person, 13. århundrede",
+       note="Urk. 27 (17. juni 1249) kalder Bertoldus og Conradus Clest brødre. Urk. 32a (1254) og Urk. 48 (7. april 1269) omtaler samme Bertoldus som Conradus' bror. Ingen dokumenteret forbindelse til den senere Muttrin-linje.",
+       src=["UKB:Urk. 27 (1249)", "UKB:Urk. 32a (1254)", "UKB:Urk. 48 (1269)"])
+person("hist_prissebur_1289", "Prissebur (vidne 1289)", "M", line="gedde", conf="record",
+       rel="historisk vidne; identitet uafklaret",
+       note="Urk. 75 (1289) nævner Prissebur og Clest blandt Pribislaus af Daber/Belgard's ministeriales. Den omstridte formulering 'prissebur, clest fratres' gør det usikkert, om Prissebur og Clest var brødre, eller om 'fratres' sigter til Clest-brødrene. Identiteten er ikke koblet til Prissebur Klest af Muttrin i 1364.",
+       src=["UKB:Urk. 75 (1289)"])
+person("hist_nycolaus_klest_1325", "Nycolaus Klest", "M", line="gedde", conf="record",
+       rel="historisk vidne; slægtskab uafklaret",
+       note="Navngivet som vidne i Urk. 3888, 13. november 1325, ved en grænsesag med Dargun kloster. Dokumentet angiver ikke bopæl, status, forældre eller forbindelse til andre Clest/Klest-navne.",
+       src=["PUB:Urk. 3888 (13.11.1325)"])
+person("hist_prissebur_muttrin_1364", "Prissebur Klest af Muttrin", "M", line="gedde", conf="record",
+       rel="historisk person, 14. århundrede",
+       note="Urk. 83, 22. juni 1364, betegner ham som 'Prissebur Klest von Muttrin' og omtaler hans andel af 25 huder ved Glyne/Glienke. Udgaven bygger på et transsumpt fra 1589 og senere kopier, ikke på det originale 1364-pergament. Dokumentet fastslår ikke hans forældre eller de mellemliggende led frem til den senere Muttrin-slægt.",
+       src=["UKB:Urk. 83 (22.06.1364)"])
+ 
 # ================= Søskende og andre slægtninge (bredde) =================
 def sibs(parents, line, rel, rows):
     f, m = parents
@@ -866,6 +890,7 @@ SOURCES = [
     ("PHT:", "Personalhistorisk Tidsskrift 1897", "H.W. Harbou: Slægten von Kleist i Danmark", "https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf"),
     ("VKA:", "von Kleist Familienarchiv", "History of the Family von Kleist – Tychow-Dubberow line, English translation, p. 123", "https://www.v-kleist.com/FG/english/Dubberow_translation.pdf"),
     ("UKB:", "Kleist-Urkundenbuch", "Middelalderlige og tidligmoderne dokumenter, bl.a. Urk. 26, 27, 32a, 48, 75, 83, 100, 103–104a og 125", "https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf"),
+    ("PUB:", "Pommersches Urkundenbuch", "Urk. 3888 (13. november 1325), Nycolaus Klest som vidne", "https://kpbc.umk.pl/Content/23455/PDF/Pomorze_062_12.pdf"),
 ]
 
 # ================= Automatisk fundne aner (tools/expand.py) =================
