@@ -236,3 +236,23 @@ Owner request: make additions visible as research progresses, with evidence matu
 **Build:** the template push should trigger `.github/workflows/rebuild-site.yml`, which generates the public `docs/index.html`. The workflow's generated-output commit and the live GitHub Pages rendering still need independent verification. Do not report deployment success until checked.
 
 **Next contribution loop:** for every research session, update (1) the relevant grandparent dossier, (2) the public research card/status, (3) a dated newsbulletin entry when the finding materially changes, and (4) this log. Preserve the prior status in the commit history so visitors can follow upgrades, downgrades and rejected hypotheses. Invite external corrections through Issues/PRs and review them against the same source hierarchy.
+
+
+## 2026-11-16 — ChatGPT: Vor Frelsers primary-record route refined
+
+**Research question:** Can Christian Adam III.466's reported baptism on 1 October 1705 be checked against the original parish books?
+
+**New source result:** Rigsarkivet's 2025 Arkivalieronline release notes list Vor Frelsers Sogn's *Enesteministerialbog*, FVD 1686–1722. A separate parish archival inventory explains that Vor Frelsers had parallel minister and bell-ringer registers before 1814. It identifies the bell-ringer's original baptism name index F 1704–1822 as volume 20, referring to baptism books 15–19 and 36; the minister's baptism series is F 1686–1813, volumes 1–5.
+
+**Concrete lookup sequence:** use bell-ringer's index volume 20 → follow its reference to the relevant bell-ringer baptism volume → independently compare the minister's FVD 1686–1722 register around 1 October 1705. Preserve any differences between parallel entries.
+
+**Limits:** this confirms the archive series and index structure only. No image, page or Christian Adam entry has yet been inspected. Harbou's baptism date and parentage remain published-genealogy claims requiring primary evidence. No canonical relationships or family data changed.
+
+**Files:** the Lorenz dossier records the source-critical finding. The public research card is being updated to expose the more precise route; the status remains “Kræver mere belæg”. The bulletin reports the archive-route discovery, not a verified baptism.
+
+**Sources:**
+- https://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-januar-2025.pdf
+- https://slaegtsbibliotek.dk/900379.pdf
+- https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/
+
+**Next:** inspect volume 20 and both registers; do not promote the baptism or parentage until the entries are read and transcribed.
