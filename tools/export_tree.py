@@ -162,7 +162,7 @@ def build_export(family, docs, gedcom_path):
                 "relationship": claim.get("relationship", "unspecified_claim"),
                 "assertion_source": claim.get("asserted_by", "curated relationship claim"),
                 "evidence_status": claim.get("status", "unspecified"),
-                "biological_status": "disputed" if "disputed" in (claim.get("status") or "") else "not_assessed",
+                "biological_status": claim.get("biological_status", "disputed" if "disputed" in (claim.get("status") or "") else "not_assessed"),
                 "sources": claim.get("sources") or [],
                 "context": claim.get("note") or ""
             })
