@@ -658,3 +658,16 @@ Phase 5 continues: prioritize original probate records for the Gaardsted branch,
 2. Locate the contemporary feudal/estate records that identify Hans Jürgen's father and distinguish Pribislaff III.114 (d.1640) from other same-name Kleists.
 3. Inspect the actual Borntin-Danish section (the 2025 volume contents place it at p.420 in that edition) and trace its source notes, not just its contents heading.
 4. After this bounded source pass, rotate to another open branch of Vivis tree; keep the whole-tree scope.
+
+
+### Milestone 28 follow-up — exact Muttrin inheritance chain and archive targets
+- Located and inspected the family-history compilation *Materialzusammenstellung zu den früheren Gütern der Familie v. Kleist*. Its Muttrin section states that the estate passed from Hans v. Kleist at Borntin to his son Pribislaw III.281; the footnote identifies Hans as III.186 and gives his inheritance chain: **III.186 inherited from III.114, III.114 from III.54, and III.54 from III.22**. This is a much more specific chain than the previously isolated Hans-Jürgen lead. It is still a later family-history synthesis, not an original deed transcription. Source: https://www.v-kleist.com/FG_allg/G_Zusammenstellung.pdf, pp.118–119, footnotes 353–354.
+- The same source exposes a date discrepancy that must be resolved: it dates the Muttrin inheritance/partition after Pribislaff's death to **12 June 1698**, while its Drenow section dates the transfer of Drenow to his second son Cartz Ulrik to **12 July 1698**. Dirk Peters' 2017 compilation gives 12 July for a partition agreement. Do not merge these into one event; locate the underlying original agreements and determine whether there were two separate transactions or a secondary transcription/date error.
+- Identified primary-source repositories and finding aids from the family association's Landesarchiv Greifswald inventory:
+  - **Rep. 40 Nr. 35 gg, fols. 2–13**: 99 feudal-letter extracts compiled by Lehnsarchivar Thilo. The archive note says the original extracts were sold to Peter Christian von Kleist in 1766 and that it is currently unclear whether the Greifswald text is the original.
+  - **Rep. 41 Nr. 28 Plathe**: von der Osten's Adelsspiegel manuscripts, including an older family genealogy with later marginal additions.
+  - **Rep. 40 Nr. 35 gg** also contains pastor Steinbrück's genealogical work c.1780 and the son's 1820–1830 work/materials.
+  - Elzow's Adelsspiegel is held in Stettin under **65/16/0/60/498**, genealogical material from folio 180 onward. The family archive guide quotes Elzow's own warning that his material was incomplete and may contain errors.
+  Source: https://www.v-kleist.com/bestand_greifswald.htm, especially lines 7–37.
+- This is an actionable archival plan, not proof that the 13th-century chain is continuous. Updated `family-tree.md` with the III.22 → III.54 → III.114 → III.186 → III.281 chain, the June/July 1698 date conflict, and the exact archive references. No genealogical data or relationships changed.
+- Validation remains GitHub file update only; no original archival document has been inspected and no build/browser test run.
