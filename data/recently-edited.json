@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "ad9f304a7193d67b5296d4094c44b4805f3851d8",
+    "commit": "10b2f9a1f46300e8dca17b1b10e5c4795a9550bf",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "data/tree.json"
     ],
     "people": [],
-    "title": "Research: corroborate Rasmus Jensen Smed in Fuglslev"
+    "title": "Research: identify possible Christen Gårdsted in Isgård G299"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
