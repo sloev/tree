@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "378afbd35c9159f7ec71ad42908a86ff10915b45",
+    "commit": "ad9f304a7193d67b5296d4094c44b4805f3851d8",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "data/tree.json"
     ],
     "people": [],
-    "title": "Research: connect Rousing family evidence across 1735 and 1762"
+    "title": "Research: corroborate Rasmus Jensen Smed in Fuglslev"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
