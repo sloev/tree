@@ -252,6 +252,26 @@ A targeted re-check of the printed primary-source editions and Eberhard Sauer's 
 
 Quandt's own text is particularly important because it shows the reasoning rather than merely repeating a pedigree: [English translation, section IV](https://v-kleist.com/FG/english/Kleist%20history%201289%20to%201477.pdf), especially the discussion of Urk. 75 and the alternative reading (PDF text around pp. 170–171); compare the [German original](https://www.v-kleist.com/FG/Genealogie/genealogie.pdf). The family association's [important-charters index](https://v-kleist.com/FG/urkunden/urkunden.htm) labels Klest de Densin the ancestor, but that is the association's synthesis, not a new independent witness.
 
+#### A1. Quandt's own three-period framework and the 1477 charter
+
+Quandt's methodological introduction (General History, pp. 45–46) should be treated as the controlling source hierarchy for this early pedigree. He divides the genealogy into three periods:
+1. **From 1477 onward:** the oldest surviving fief charter gives a “secure family tree”, although he immediately cautions that individual documentary differences and the insertion of several persons still require investigation.
+2. **From 1316 to 1477:** several persons bearing the family name appear, but genealogical links exist only for some; the combinations needed to form a pedigree have varying degrees of certainty.
+3. **Before 1316:** three men bearing the family name occur, but whether and how they belong to the family, and which other men are ancestors or collateral relatives, is the question to be investigated. The origin is not already established.
+
+This is unusually explicit caution from the principal genealogist himself. It means the full 1289-to-1698 chain must not be presented as having the same status as the documented 1477-and-later tree.
+
+**What Urk. 125 (13 April 1477) actually says:**
+- The surviving edition was prepared from a sixteenth-century authenticated copy (auscultated copy) in the Landesarchiv, not from the original 1477 parchment. The edition also notes further transsumpts in the 1546, 1568 and 1621 fief letters.
+- The copy lists Bisprow of Muttrin with sons Hennig, Peter and Hans; Dubbeslaff of Damen with five sons; **Pribbeslaff of Muttrin with his sons, the brothers Reymer and Bartes at Tychow**; brothers Jurgen and Peter at Dubberow; Voltze at Vilnow; and Curt with his brothers at Raddatz.
+- It records that the Kleists testified before the duke that they descended from an “Oldervader” who had three sons, from whom respectively came the Muttrin/Damen, Tychow/Dubberow and Vilnow/Raddatz lines. This is a valuable contemporary family claim preserved in the 1477 legal instrument. It does not name the Oldervader or independently establish his parentage.
+- The wording of the 1477 copy is significant for the Reimer/Bartes dispute: it expressly places them as sons of Pribbeslaff of Muttrin. Quandt later notes that the 1618 genealogy instead places the Tychow line under Hans, and that this later reconstruction is repeated in 1621 and the 1706 compilation. This is a genuine source conflict, not a trivial spelling variant. The original 1477 instrument/copy chain and the later fief genealogies must be compared before choosing a father.
+- The 1575 and 1601 general fief letters describe the Muttrin line as descendants of the deceased Prissebur of Muttrin. Quandt says the underlying family “Nachrichtung” (genealogical statement) has survived neither in original nor copy, although its main content can be reconstructed from the later fief documents. This is an important missing source behind the Muttrin ascent.
+
+Sources: [Urk. 125, 1477, in the Urkundenbuch](https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf); [Quandt, genealogy method and three periods](https://v-kleist.com/FG/Genealogie/AllgemeineGeschichte.pdf).
+
+**Assessment:** 1477 is the strongest early family-level evidence for the three branches and their then-current membership. It is a documented legal assertion of descent from an unnamed common ancestor, not proof that the unnamed ancestor is the same person as Klest de Densin in 1289. The exact fatherhood of Reymer and Bartes is disputed between the 1477 copy and later family genealogies.
+
 #### B. The Muttrin bridge: 1364 through the fifteenth century
 
 1. **Prissebur of Muttrin, Urk. 83 (1364).** The family association's current charter cross-reference assigns Urk. 83 to Prissebur of Muttrin in 1364 ([document-to-person index](https://v-kleist.com/FG/urkundenzuordnung.htm)). The 2025 Muttrin volume quotes him as “Prißebur, der Klest heißt von Muttrin” and says he was the second son of Klest (M.1). The 1364 document is the dated anchor; the claim that he was Klest's son is a reconstruction from the early family genealogy of 1576 and an older letter, not something the 1364 wording alone proves. **Grade: strong dated person/estate evidence; parentage probable, not primary-record proven.**
