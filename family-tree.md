@@ -146,6 +146,19 @@ Hvert nyt led har sin kilde: en Link Lives-post (LL:) eller et kirkebogsbillede 
   - **kaptajn Ove Samuel Gedde** (1778–1843) ved Kronens Regiment. Fredensborg Slotssogns kirkebog, 24. juli 1808: *"Hr. Capitaine ved Kronens Regiment Hr. Ove Samuel Giedde og Frue Frederikke Lovise Birthe født Kleist"*.
 - **Slægten von Kleist.** Ove Samuels hustru tilhørte den pommerske adelsslægt von Kleist, der var i dansk tjeneste. Ifølge Personalhistorisk Tidsskrift 1897 kan hendes aner følges til 1600-tallets Pommern. Hendes søster og præsten dr. Hammer i Herlufmagle opfostrede Ove Frederik, og derfor hedder hans søn Edvard **Hammer** Gedde.
 
+## Von Kleist-linjen: nyt middelalderspor (november 2026)
+
+H. W. Harbou dokumenterer i *Slægten von Kleist i Danmark* (Personalhistorisk Tidsskrift, 1897) den danske forbindelse gennem Ove Samuel Geddes hustru Frederikke Louise Dorthea von Kleist (født 5. januar 1786). Hun var datter af Christian Frederik (født 1743), søn af Christian Adam (født 1705). Harbou anfører Christian Adam blandt børnene af Cartz Ulrik von Kleist, søn af Pribislaff von Kleist på Muttrin og Esther von Kameke. Det giver en sammenhængende sekundær kilde til den pommerske adelsslægt i 1600-tallet og binder den til Gedde-linjen.
+
+Familien von Kleists dokumentudgave rummer:
+- **1248:** Conradus og Bertoldus Clest nævnes i et pommersk dokument.
+- **1289:** Klest (Klest de Densin) nævnes i et lens-/vidnedokument.
+- **1477:** Hertug Bogislaw X's lensbrev opregner flere Kleist-grene og gengiver familiens erklæring om fælles stamfader og tre sønner.
+
+Det er et reelt middelalderspor, men endnu ikke bevis for, at Vivis konkrete Muttrin-linje kan føres ubrudt tilbage til Conradus Clest eller Klest de Densin. De ældste slægtsoversigter indeholder huller og sandsynliggjorte forbindelser; den præcise kæde fra Pribislaff von Kleist (død 1698) gennem Muttrin-grenen til 1477-personerne skal efterprøves i familiehistorien og de underliggende lensbreve. De middelalderlige personer skal derfor ikke indsættes som direkte aner i stamtræet endnu.
+
+Kilder: [H. W. Harbou, *Slægten von Kleist i Danmark* (1897)](https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf) · [Familien von Kleists dokumentbog](https://www.v-kleist.com/FG/Gesamt.pdf) · [Muttrin-linjens personregister](https://www.v-kleist.com/FG/Muttrin/register5.html) · [Oversigt over de tidlige dokumenter](https://www.v-kleist.com/FG/urkunden/urkunden.htm).
+
 ## Navnet Gedde og Trankebar
 Familien fortæller, at navnet kommer fra en kaptajn i Trankebar. Den nærmeste kaptajn i slægten er Ove Samuel Gedde (kaptajn 1808), men intet i kilderne nævner Indien. Han tilhører den borgerlige officersslægt Gedde, stammende fra generalmajor Samuel Christoph Gedde (1691–1766). Ifølge Store norske leksikon er den sandsynligvis ikke beslægtet med den uddøde adelsslægt Gjedde. Admiral **Ove Gjedde** fra den slægt grundlagde Trankebar i 1620. Fornavnet Ove og det næsten enslydende efternavn er nok årsagen til, at fortællingen er opstået.
 
