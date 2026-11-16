@@ -591,3 +591,21 @@ Phase 5 continues: prioritize original probate records for the Gaardsted branch,
 1. Inspect the Rosmus Enesteministerialbog 1789–1816 at the 6 July 1811 marriage entry and compare the bride's full name with p37's 1812 baptism; use the original record to decide whether the GEDCOM's Mette Sørensdatter Helles is an error or a separate couple.
 2. For p46, inspect the Assing 1812 baptism (29 February) and transcribe parents, residence, and witnesses; then compare the Sønder Felding 1843 marriage and Sønder Omme 1870 burial against the Horsboel secondary profile.
 3. Continue rotating to other open branches after these bounded source checks; no speculative parent links.
+
+
+## Milestone 26 — homepage redesign, latest research and vertical tree
+- Re-read the complete research method before editing; stayed on `ccr-6abdfb67-cbzklo`. No private or encrypted data was accessed.
+- Updated `site/template.html` so the default landing view is the former overview, renamed in the navigation to **Forside**. The overview now includes a dedicated **Seneste fund** section and the interactive family tree directly on the same page. The navigation's **Stamtræ** item now jumps to that homepage section rather than switching to a separate view.
+- Added four research cards, each with links to the relevant external source material and an explicit evidence status:
+  - **Assing / Jens Peder Larsen:** secondary family compilation gives the 29 February 1812 Assing baptism, 1843 marriage and 1870 death; the independent 1870 census transcription supports the household identity. His parents remain unverified, so no parent link was added.
+  - **Rosmus / 1811 marriage:** the tree's existing 1812 baptism note identifies Mette Pedersdatter, while a compiled GEDCOM gives a conflicting bride, Mette Sørensdatter Helles. The original marriage entry is still needed.
+  - **Syv / Hans Jensen:** the 1820 Vibygård probate extract is a plausible but unproved match for the tree's Hans Jensen; no spouse or children were added.
+  - **Magleby / Christian Hansen:** the 1787 Nordenbro probate is useful local context but is not connected to the Christian Hansen who married in 1829.
+- Moved the existing interactive ancestor-tree controls and SVG into the homepage. The tree now has a single, fixed top-to-bottom generation layout; removed the horizontal direction toggle and its rendering branch. Father/mother ordering and person-card interactions remain unchanged.
+- Added responsive research-card styling and retained the existing accessible focus, scrolling and reduced-motion rules. A static structural check passed: all five remaining view IDs exist, the homepage renders the tree, the tree is nested within the overview, no duplicate HTML IDs were found, and no stale horizontal-layout identifiers or old tree-view references remain.
+- **Validation limitation:** no browser, JavaScript runtime, local build, or visual regression test was available. `site/build.py` was not run; generated `site/index.html` and `docs/index.html` have therefore not been regenerated in this commit. The live Pages output will require the normal public-data build pipeline before deployment. No genealogical source data or relationships were changed.
+### Next steps
+1. Run `python3 site/build.py` in the repository's normal safe build environment, then inspect the generated homepage at desktop and mobile widths.
+2. Check the vertical tree's scroll/zoom behavior with the full ancestor set and confirm that the homepage anchor and person drawer's “Vis i stamtræ” action land correctly.
+3. If the generated pages pass review, commit the build artifacts through the normal publishing workflow; do not copy or expose decrypted private data.
+4. Continue whole-tree genealogy research separately; the four homepage cards are leads and evidence summaries, not new parentage claims.
