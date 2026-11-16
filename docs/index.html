@@ -267,7 +267,7 @@ button,a{touch-action:manipulation}
 .ft-chevron:hover,.ft-chevron:focus-visible{color:var(--ink);background:var(--hover)}
 .ft-chevron.spacer{visibility:hidden;pointer-events:none}
 .ft-guides{position:relative;align-self:stretch;flex:0 0 calc(var(--ft-depth)*var(--ft-indent-step));width:calc(var(--ft-depth)*var(--ft-indent-step));min-width:0}
-.ft-guide{position:absolute;top:-4px;bottom:-4px;border-left:1px solid var(--guide-color);opacity:.48}
+.ft-guide{position:absolute;left:calc(var(--ft-guide-level)*var(--ft-indent-step) + var(--ft-indent-step)/2);top:-4px;bottom:-4px;border-left:1px solid var(--guide-color);opacity:.48}
 .ft-name{all:unset;display:block;flex:0 1 auto;min-width:70px;max-width:min(36vw,360px);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ink);font:600 .85rem/1.35 var(--f-body);cursor:pointer}
 .ft-name:hover{text-decoration:underline;text-underline-offset:2px}
 .ft-item.uncertain .ft-name{font-style:italic;color:var(--muted);font-weight:500}
@@ -282,7 +282,7 @@ button,a{touch-action:manipulation}
 .ft-children[hidden]{display:none!important}
 @media(max-width:640px){
  .homepage-tree .ped-scroll{max-height:74vh;min-height:240px;padding:5px 3px;overflow-x:hidden;overflow-y:auto}
- .ped-tree{--ft-indent-step:14px;--ft-row-height:36px;font-size:.82rem}
+ .ped-tree{--ft-indent-step:8px;--ft-row-height:36px;font-size:.82rem}
  .ft-line{gap:4px;padding:3px 2px;min-height:36px}
  .ft-chevron{flex-basis:22px;width:22px;height:30px;margin-left:1px}
  .ft-name{min-width:40px;max-width:46%;font-size:.82rem}
@@ -694,11 +694,11 @@ function renderPed(root){
     toggle.disabled=!hasChildren;
     const guides=document.createElement('span');guides.className='ft-guides';
     for(let level=0;level<depth;level++){
-      const guide=document.createElement('i');guide.className='ft-guide';guide.style.left=(level*20+9)+'px';guide.style.setProperty('--guide-color',generationPalette[level%generationPalette.length]);guides.append(guide);
+      const guide=document.createElement('i');guide.className='ft-guide';guide.style.setProperty('--ft-guide-level',String(level));guide.style.setProperty('--guide-color',generationPalette[level%generationPalette.length]);guides.append(guide);
     }
     const stripe=document.createElement('span');stripe.className='sr';stripe.textContent='Generation '+(depth+1);
     const name=document.createElement('button');name.type='button';name.className='ft-name';name.textContent=p?clean(p.name):(n%2?'Ukendt mor':'Ukendt far');
-    if(p){name.setAttribute('aria-label',clean(p.name)+', åbn personkort');name.addEventListener('click',()=>openPerson(p.id));}
+    if(p){item.dataset.personId=p.id;name.setAttribute('aria-label',clean(p.name)+', åbn personkort');name.addEventListener('click',()=>openPerson(p.id));}
     const years=document.createElement('span');years.className='ft-years';years.textContent=p?life(p):'';
     const sex=document.createElement('i');sex.className='ft-sex'+(p?.sex==='F'?' sex-f':p?.sex==='M'?' sex-m':'');if(p)sex.setAttribute('aria-label',p.sex==='F'?'Kvinde':p.sex==='M'?'Mand':'Køn ikke angivet');
     const place=document.createElement('span');place.className='ft-place';place.textContent=p?.bplace||'';
@@ -731,7 +731,7 @@ function visibleTreeItems(){
   return [...ped.querySelectorAll('[role="treeitem"]')].filter(item=>!item.closest('.ft-children[hidden]'));
 }
 ped.addEventListener('focusin',e=>{
-  const item=e.target.closest('[role="treeitem']');if(!item)return;
+  const item=e.target.closest('[role="treeitem"]');if(!item)return;
   ped.querySelectorAll('[role="treeitem"]').forEach(node=>node.tabIndex=node===item?0:-1);
 });
 ped.addEventListener('keydown',e=>{
@@ -745,13 +745,13 @@ ped.addEventListener('keydown',e=>{
   else if(e.key==='PageUp'){focus(visible[Math.max(0,index-10)]);}
   else if(e.key==='PageDown'){focus(visible[Math.min(visible.length-1,index+10)]);}
   else if(e.key==='ArrowLeft'){
-    if(expanded){e.preventDefault();const n=Number(item.querySelector(':scope > .ft-line > .ft-chevron')?.dataset.ahnen);item.querySelector(':scope > .ft-line > .ft-chevron')?.click();}
+    if(expanded){e.preventDefault();item.querySelector(':scope > .ft-line > .ft-chevron')?.click();}
     else focus(item.parentElement.closest('[role="treeitem"]'));
   }else if(e.key==='ArrowRight'){
     if(children&&!expanded){e.preventDefault();item.querySelector(':scope > .ft-line > .ft-chevron')?.click();}
     else if(expanded)focus(children.querySelector(':scope > [role="treeitem"]'));
   }else if(e.key==='Enter'){
-    const name=item.querySelector(':scope > .ft-line > .ft-name');if(name&&!name.disabled&&nodes[Object.keys(nodes).find(id=>nodes[id]===item)]){e.preventDefault();name.click();}
+    if(item.dataset.personId){e.preventDefault();openPerson(item.dataset.personId);}
   }
 });
 function fitPedTree(){if(!ped||!pedScroll)return;ped.style.removeProperty('transform');}
