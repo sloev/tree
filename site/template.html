@@ -822,7 +822,7 @@ function renderForskning(){
   const labels={needs:'Kræver mere belæg',hypothesis:'Foreløbig hypotese',family:'Familieoplysning',conflict:'Kildekonflikt'};
   function draw(){
     const term=q.value.trim().toLocaleLowerCase('da');
-    const rows=RESEARCH.claims.filter(c=>(!st.value||c.status===st.value)&&(!br.value||c.branch===br.value)&&(!term||[c.branch,c.title,c.claim,c.evidence,c.missing,c.next].join(' ').toLocaleLowerCase('da').includes(term)));
+    const rows=RESEARCH.claims.filter(c=>(!st.value||c.status===st.value)&&(!br.value||c.branch===br.value)&&(!term||[c.branch,c.title,c.claim,c.evidence,c.missing,c.next,...(c.research_notes||[]).flatMap(n=>[n.title,n.context,n.text])].join(' ').toLocaleLowerCase('da').includes(term)));
     document.getElementById('research-count').textContent=rows.length+' af '+RESEARCH.claims.length+' spor';
     list.innerHTML=rows.map(c=>`<article class="claim" id="claim-${c.id}">
       <div class="claim-foot"><span class="eyebrow">${esc(c.branch)}</span><span class="conf ${c.status==='needs'?'probable':'possible'}">${labels[c.status]||c.status}</span></div>
@@ -831,9 +831,10 @@ function renderForskning(){
         <div><span class="claim-label">Hvad vi har</span><p>${esc(c.evidence)}</p></div>
         <div><span class="claim-label">Hvad der mangler</span><p>${esc(c.missing)}</p></div>
         <div><span class="claim-label">Næste kontrol</span><p>${esc(c.next)}</p></div>
+        ${(c.research_notes||[]).length?'<div><span class="claim-label">Samlet forskningsmateriale ('+c.research_notes.length+' noter)</span>'+c.research_notes.map(n=>'<details class="research-note"><summary>'+esc(n.title)+(n.context&&n.context!==n.title?' · '+esc(n.context):'')+'</summary><div style="white-space:pre-wrap;overflow-wrap:anywhere">'+esc(n.text)+'</div><p class="muted" style="font-size:12px">Overført fra '+esc(n.provenance||'ældre forskningsmateriale')+'</p></details>').join('')+'</div>':''}
         ${(c.sources||[]).length?'<div><span class="claim-label">Kilder og videre læsning</span><ul class="claim-sources">'+c.sources.filter(x=>/^https:\/\//.test(x.url||'')).map(x=>'<li><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.label)+'</a></li>').join('')+'</ul></div>':''}
       </details>
-      <div class="claim-foot"><span class="count">Spor-ID: ${esc(c.id)}</span><a class="dossier-link" href="https://github.com/sloev/tree/blob/main/${encodeURI(c.dossier)}" target="_blank" rel="noopener">Åbn arbejdsdossier ↗</a></div>
+      <div class="claim-foot"><span class="count">Spor-ID: ${esc(c.id)}</span><span class="count">${(c.research_notes||[]).length} overførte noter</span></div>
     </article>`).join('')||'<p class="muted">Ingen spor matcher søgningen.</p>';
   }
   [q,st,br].forEach(el=>el.addEventListener(el===q?'input':'change',draw));draw();
