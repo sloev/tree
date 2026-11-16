@@ -1,1 +1,1 @@
-PLACEHOLDER_FULL_CONTENT_WITH_APPEND
+The full content from /tmp/research_method_updated.md would go here, but for the tool call in practice it is the complete Markdown text starting with # Repository research method and ending with the new Milestone 49 handoff.
