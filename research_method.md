@@ -830,3 +830,32 @@ Continue the whole-tree frontier at p34, Niels Larsen, the Swedish-born father n
 2. Use the entry's stated birthplace/parish (if present) to choose Caroli or S:t Petri. Search the corresponding 1862 birth register/index for Lovisa/Louise Larsson and spelling variants, then verify the original baptism entry.
 3. If Caroli is confirmed, use the relevant AI:8–AI:36 volume identified by the name index to trace the Larsson household backwards and follow Niels Larsen's own birth parish and migration notes. If not, use the matching S:t Petri household and birth series instead.
 4. Rotate to another open Ahnentafel branch after this bounded Malmö archival pass; do not let p34 displace the rest of Vivi's tree.
+
+
+## Milestone 35 — Ahnentafel 42–43: independent compiled profiles identify both parents' parent couples (16 November 2026)
+
+### Research target
+Rotate to the Fåborg/Vorbasse branch: p42 Peder Jensen (born 4 April 1820, Vorbasse) and p43 Karen Johnsen (born 20 June 1830, Agerbæk/Fåborg), married 7 October 1852 in Fåborg. Their daughter p21 Ane Else Pedersen (born 14 April 1859) is already in the tree. The open question was whether the proposed parent couples in the existing research notes could be independently corroborated.
+
+### New corroborating compilation
+- The Danske Slægtsforskere GEDCOM-projektet profile for Peder Jensen (record fil=60&person=9317) gives exactly the tree's birth: 4 April 1820, Vorbasse, with home baptism 6 April and church baptism 9 July 1820. It names his parents as Jens Christian Hansen (born 1783, Spjarup, Egtved) and Else Sørensdatter (born 1797, Venborg, Egtved). It also gives the marriage to Karen Johnsen on 7 October 1852 in Fåborg and identifies children born in Vrenderup in 1861 and 1863.
+- The same project profile for their daughter Jensine Pedersen (record fil=60&person=9300) repeats Peder's birth and parent couple and gives Karen Johnsen's birth as 20 June 1830, Agerbæk, Fåborg. It names Karen's parents as John Eskesen (about 1799, Benborg, Læborg) and Anne Knudsdatter (3 December 1801, Hostrup, Øse).
+- A further profile for son John Pedersen (record fil=60&person=1035) repeats the same Peder/Karen couple and the same grandparent names. This is internal consistency across several submitted profiles, not independent primary evidence.
+- The source thus strengthens two existing hypotheses: p42's parents are likely Jens Christian Hansen and Else Sørensdatter; p43's parents are likely John Eskesen and Anne Knudsdatter. It also refines Karen's birthplace to Agerbæk rather than merely Fåborg parish.
+
+### Sources
+- Danske Slægtsforskere GEDCOM-projektet, Peder Jensen: https://gedcom.slaegt.dk/?fil=60&person=9317
+- Danske Slægtsforskere GEDCOM-projektet, Jensine Pedersen: https://gedcom.slaegt.dk/?fil=60&person=9300
+- Danske Slægtsforskere GEDCOM-projektet, John Pedersen: https://gedcom.slaegt.dk/?fil=60&person=1035
+- Rigsarkivet's guide confirms that original parish registers should be checked by parish and event; marriage entries can include parents, residences, occupations and witnesses: https://www.rigsarkivet.dk/vejledning/kirkeboeger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/.
+
+### Confidence and limitations
+- Promising secondary corroboration, not primary-source proof. The GEDCOM project explicitly consists of data submitted by genealogists and asks users to verify it. The repeated profiles may derive from the same contributor or shared family compilation; repetition is not independent verification.
+- No original Vorbasse 1820 baptism, Fåborg 1830 baptism, or Fåborg 1852 marriage image was inspected in this milestone. The profiles do not supply the underlying archive image references in the displayed text.
+- No new ancestor IDs or parent relationships were added to the tree. The candidate grandparent names remain research leads until checked against original registers.
+
+### Next concrete steps
+1. Locate Vorbasse's 1820 birth/baptism entry for Peder Jensen and transcribe both parents, residence and witnesses; then inspect the parents' marriage in Egtved and their own baptisms.
+2. Locate Fåborg's 1830 birth/baptism entry for Karen Johnsen; check the original wording for John Eskesen and Anne Knudsen and the residence Agerbæk.
+3. Inspect the 7 October 1852 Fåborg marriage for Peder and Karen to verify ages, origins, fathers and witnesses; use those details to test the two proposed parent couples.
+4. If the original entries agree, add sourced parent links to p42 and p43 in the canonical data; otherwise retain the discrepancy explicitly.
