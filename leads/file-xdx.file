@@ -1,0 +1,175 @@
+================================================================
+LINE 4 — SYV / VIBYGÅRD
+Hans Jensen @a66@ is generation 7. The new material is a first
+marriage and four children, generation 7 same as him.
+================================================================
+
+This closes the site's own O-3: "Et skifteuddrag fra 1820 nævner
+en Hans Jensen, gartner, med hustruen Maren Poulsdatter og fire
+voksne børn. Det kan være anen Hans Jensen i Syv-grenen, men
+identiteten er ikke bevist, og familien er derfor ikke føjet til
+træet." It is him. The extract was already in hand and the
+conclusion was not drawn.
+
+----------------------------------------------------------------
+THE DOCUMENT
+----------------------------------------------------------------
+Vibygaard gods skifteprotokol, book 2, 1819-1850, FHL film
+41401, fol. 21, 22, 32, 33, 34. Verbatim:
+
+  "Maren Poulsdtr i Wibye 31 Dec 1820 — HUSB: Hans Jensen
+   gartner — CH: Poul Hansen hmd i Assinglose, Jens Hansen
+   gartner, Peder Hansen hmd i Wiibye, Ane Hansdtr = Willum
+   Hansen gmd i Walsoe"
+
+Conf: A. Source: VIB.
+  https://aurelia-clemons.dk/vibygdx.htm
+
+----------------------------------------------------------------
+WHY THIS IS @a66@ AND NOT A NAMESAKE
+----------------------------------------------------------------
+Four independent anchors, and they converge:
+
+1. Occupation. "Gartner" is unusual, and @a66@'s own entry already
+   records "Gartner ved Vibygård" and that Johanne Sophie "senere
+   står som født i Viby" for exactly that reason.
+2. Place. The probate is at Vibygaard gods, in Viby sogn.
+3. The 1834 census. @a66@ is then "afgaaet gartner ved
+   Wiibygaard," i.e. retired from the same post, on aftægt in Syv.
+4. Continuity of parish. Poul Hansen is in Assingløse, which lies
+   in Syv sogn. The family is already in Syv parish in 1820, and
+   @a66@ marries there in 1822.
+
+Timing seals it: his wife's probate is 31 Dec 1820, his second
+marriage 1822. A 70-year-old widower with four grown children
+remarries within eighteen months, to a woman 45 years younger,
+and has three more children by her.
+
+Conf: C, strong, four-way convergence, no contradicting datum.
+Grade it A only once the 1822 Syv marriage entry names him as
+enkemands and names Maren Poulsdatter.
+
+----------------------------------------------------------------
+GEN 7 — four new people, all half-siblings of @p33@
+----------------------------------------------------------------
+Children of @a66@ and Maren Poulsdatter, all adults in 1820:
+
+  Poul /Hansen/ — husmand, Assingløse (Syv sogn)
+  Jens /Hansen/ — gartner
+  Peder /Hansen/ — husmand, Viby
+  Ane /Hansdatter/ — m. Willum /Hansen/, gårdmand, Valsø
+  Conf: A for existence, name, occupation, spouse and place.
+  Source: VIB.
+
+  GEDCOM, as children of a new family @F137@:
+  0 @ms_a66_0@ INDI
+  1 NAME Poul /Hansen/
+  1 SEX M
+  1 OCCU Husmand, Assingløse
+  1 FAMC @F137@
+  0 @ms_a66_1@ INDI
+  1 NAME Jens /Hansen/
+  1 SEX M
+  1 OCCU Gartner
+  1 FAMC @F137@
+  0 @ms_a66_2@ INDI
+  1 NAME Peder /Hansen/
+  1 SEX M
+  1 OCCU Husmand, Viby
+  1 FAMC @F137@
+  0 @ms_a66_3@ INDI
+  1 NAME Ane /Hansdatter/
+  1 SEX F
+  1 FAMS @F138@
+  1 FAMC @F137@
+  0 @ms_a66_4@ INDI
+  1 NAME Willum /Hansen/
+  1 SEX M
+  1 OCCU Gårdmand, Valsø
+  1 FAMS @F138@
+  0 @F137@ FAM
+  1 HUSB @a66@
+  1 WIFE @a_maren_poulsdatter@
+  1 CHIL @ms_a66_0@
+  1 CHIL @ms_a66_1@
+  1 CHIL @ms_a66_2@
+  1 CHIL @ms_a66_3@
+  0 @F138@ FAM
+  1 HUSB @ms_a66_4@
+  1 WIFE @ms_a66_3@
+
+  And the wife:
+  0 @a_maren_poulsdatter@ INDI
+  1 NAME Maren /Poulsdatter/
+  1 SEX F
+  1 BIRT
+  2 PLAC Viby, Roskilde amt
+  1 DEAT
+  2 DATE 1820
+  2 PLAC Viby
+  2 NOTE Skifte 31.12.1820, Vibygaard gods skpr. II fol. 21.
+  1 SOUR
+  2 PAGE VIB book 2, fol. 21
+  1 FAMS @F137@
+
+  On @a66@ add:
+  1 FAMS @F137@
+  and in the note, replace "Gift 1822 i Syv sogn med Margrethe
+  Pedersdatter, ca. 45 år yngre; han var omkring 70" with the
+  same plus "Enkemand efter Maren Poulsdatter, skifte 31.12.1820;
+  fire voksne børn af første ægteskab."
+
+----------------------------------------------------------------
+CONSEQUENCE FOR THE EXISTING ENTRY
+----------------------------------------------------------------
+@p33@ Johanne Sophie is currently the only child of @a66@. She
+now has four half-siblings, all older, all adults when she was
+born. Her own note says her father had been gartner at Vibygård —
+that is the same post, and it was his, not a family tradition.
+
+Also note: @a66@'s entry calls Margrethe "ca. 45 år yngre." She
+is b. c. 1797 against his c. 1752. On the 1820 evidence the gap
+is a remarriage pattern, not an oddity, and can be stated plainly.
+
+----------------------------------------------------------------
+THE ROSMUS PROBLEM — @a75@ Mette Pedersdatter
+----------------------------------------------------------------
+Separate line, but the same kind of question, and it is the
+site's own "Uafklaret" item.
+
+Two incompatible mothers for @p37@ Ane Sophie:
+
+  A  Mette /Pedersdatter/ @a75@, daughter of gårdmand Peder
+     /Hallis/ @a150@ in Attrup. Called "Mette Pedersdatter
+     Hallis" at the 1812 baptism. Source: @a75@ entry, AO
+     Rosmus kirkebog 1789-1816, copulerede 6 Jul 1811.
+  B  Mette /Sørensdatter/ /Helles/, at a marriage of the same
+     date. Source: tom.brondsted.dk genextracts, ged 2, sid I29.
+
+Neither reading is impossible. The baptism entry is the stronger
+witness for the name actually used, and it is a primary source;
+the GEDCOM extract is a tertiary compilation and is known to
+conflate.
+
+Do not change @a75@ on present evidence. Add to her note: "En
+uafhængig GEDCOM-sammenstilling (Brondsted) nævner i stedet Mette
+Sørensdatter Helles ved vielse samme dato; den originale
+vielsesindførsel 6.7.1811 må afgøre, om der er tale om fejl eller
+to forskellige par." Conf: A for the conflict, C for reading B.
+
+----------------------------------------------------------------
+OPEN on this line
+----------------------------------------------------------------
+O-11 The 1822 Syv marriage entry, @a66@ + Margrethe
+     Pedersdatter. Syv kirkebog, viede 1822. Should read
+     "enkemand efter Maren Poulsdatter" and give ages. This
+     upgrades the whole segment from C to A.
+O-12 @a66@'s baptism, c. 1752, and his 1837 burial entry, Syv.
+     His parents are not known at all; the 1837 entry may name
+     them.
+O-13 The four new children downward: Poul Hansen in Assingløse,
+     Jens Hansen gartner, Peder Hansen in Viby, Ane and Willum
+     Hansen in Valsø. Viby, Syv and Valsølille kirkebøger.
+O-14 The 6 Jul 1811 Rosmus marriage entry itself, to settle A/B.
+
+== END SEGMENT 4 of 8 — reply "next" for LINE 5, LANGELAND ==

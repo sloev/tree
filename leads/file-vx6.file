@@ -1,0 +1,239 @@
+================================================================
+SLAEGTEN GAARDSTED OG GEDDE — RESEARCH EXTENSION FILE
+Compiled 16 Nov 2026. Companion to family-tree.ged (489 persons,
+14 generations, @p1@-@p13899@).
+================================================================
+
+HOW TO USE
+----------
+Work top-down. Every entry carries the GEDCOM id it attaches to,
+a confidence flag, and a source code. Only entries flagged A or B
+should go straight into the GEDCOM; C needs a second source
+first; D is a lead, not a person yet.
+
+Line sections are ordered by depth, not by importance. Nothing
+here overrides an existing entry in family-tree.ged without an
+explicit CORRECTION line.
+
+CONFIDENCE KEY
+--------------
+A  Primary source read, or verbatim extract of one
+B  Printed secondary source, named author, page/number given
+C  Online database or reconstruction; internally consistent,
+   unverified
+D  Lead only. No person added yet.
+
+SOURCE KEY
+----------
+GK   Geschlechts v. Kleist, Muttrin-Damensche Linie
+     (Familienverband derer v. Kleist), III. numbering
+GN1  Geneanet, tree gbrouge, surname list "VON KLEIST"
+GN2  Geneanet, tree cvpolier, Barbara von Kameke
+GN3  Geneanet, tree cvpolier, Pribislaff von Kleist (3)
+G302 Rolsøgård gods skifteprotokol, Mols herred, G302
+     (slaegt.dk / milloup.dk extract, fol. 39)
+G305 Gods i Vistoft og Agri sogne, G305, 1739-1797
+VIB  Vibygaard gods skifteprotokol, book 2 1819-1850,
+     film 41401 (aurelia-clemons.dk extract)
+DAW  da.wikipedia.org
+SNL  Store norske leksikon, "Gedde (slekt)"
+LHW  lokalhistoriewiki.no, "Gedde (borgerlig slekt)"
+HAR  H. W. Harbou, "von Kleist i Danmark" (1897)
+     v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf
+MUT  Muttrin-Damensche Familiengeschichte (2025)
+     v-kleist.com/FG/Muttrin/Muttrin.pdf
+PHT  PHT:1897, cited throughout family-tree.ged
+MC   mortenclausen.dk/GEDHT
+
+CHANGE SUMMARY
+--------------
+NEW      41 persons, 4 generations added above the current top of
+         the von Kleist line; 1 generation above Claus Gaardsted;
+         4 half-siblings of Johanne Sophie Hansen; 1 generation
+         above Hans Christopher Gedde.
+CORRECTED  2 (see below).
+CONFIRMED  3 open items in the site's own gap list now closed.
+OPEN     9, listed in the final segment.
+
+CORRECTIONS — apply these to the live tree
+------------------------------------------
+C-1  Site note says the Muttrin line reaches "Prissebur, der
+     nævnes i et dokument fra 1364." GK gives no 1364 date. The
+     earliest documented person in the Damen line is Henning
+     (I.M.8), and "Prisse" occurs only as an illegitimate woman,
+     "Prisse Kleistes genannt," in a 1577 settlement by III.38
+     Jacob auf Kowalk. "Um 1365" is the acquisition of Damen,
+     not a person. Reword to "um 1365" and drop the 1364.
+     Conf: A. Source: GK.
+
+C-2  Øllegaard Sophie Fischer @p433@ is entered as Ove Samuel
+     Geddes wife. She is his second wife and the mother of Ove
+     Samuel the younger; his first wife was her sister Frederikke
+     Christiane Fischer (d. 1787). Both sisters, one after the
+     other. Conf: B. Source: DAW, SNL.
+
+CONFIRMED — the site's gap list, closed
+---------------------------------------
+K-1  "Claus Gaardsteds herkomst." Father identified: Christen
+     Christensen Tohde, foged i Dejret, probate 1764. See
+     LINE 3.
+K-2  "Ove Samuel Geddes forældre." Father confirmed as Hans
+     Christopher Gedde @p432@. See LINE 2.
+K-3  "Hans Jensen, gartner ved Vibygård" — the 1820 probate is
+     him, and it yields a whole earlier marriage. See LINE 4.
+
+================================================================
+LINE 1 — VON KLEIST / MUTTRIN
+Deepest line. Cartz Ulrik von Kleist @p1736@ is generation 11.
+Everything below sits ABOVE him, generations 12-16.
+================================================================
+
+NOTE ON TWO CHAINS
+------------------
+Two reconstructions exist for the stretch between Dubislaff
+(d. c. 1482) and Pribislaff (d. 1698). They do not agree, and
+GK's own numbering is the arbiter. Do not splice them blindly.
+
+  Chain A — site's note, Harbou numbering, persons unnamed:
+  III.22 > III.54 > III.114 > III.186 (Hans) > III.281
+  (Pribislaff, Cartz Ulrik's father).
+
+  Chain B — GN1, Prissebur line. Same family, different
+  sub-branch, and its Pribislaff (d. 1570) is NOT the
+  Pribislaff (d. 1698) who fathered Cartz Ulrik.
+
+Resolve A against GK III.22 / III.54 / III.114 / III.186 before
+importing anything from B. Conf: A for the method, C for B.
+
+----------------------------------------------------------------
+GEN 12 — parents of Pribislaff von Kleist @p3472@
+----------------------------------------------------------------
+@p3472@ Pribislaff von /Kleist/ — godsejer Muttrin, Borntin,
+  Döbel, Drenow. d. 1698.
+  FATHER  Hans Jürgen von /Kleist/, Herr auf Muttrin und Drenow.
+          d. before 1665.
+  MOTHER  N.N. von /Kameke/, daughter of Barbara von Kameke
+          (GN2) and Wilhelm von Kleist auf Vietzow (d. c. 1606).
+  Conf: C. Source: GN2, GN3.
+
+----------------------------------------------------------------
+GEN 13-16 — the Kameke / Borcke matrix behind N.N. von Kameke
+----------------------------------------------------------------
+Only the direct mother's line. Conf: C throughout. Source: GN2.
+
+  Barbara von /Kameke/
+    f. Wilhelm von /Kleist/, Herr auf Vietzow, d. c. 1606
+    f. Achatius von /Kameke/, Herr auf Lassehne, c. 1490-1550
+    m. Christine von /Borcke/, d. c. 1563
+    ff. Georg von /Kameke/, d. 1511 or later
+    fm. Barbara von /Münchow/
+    mf. Hans von /Borcke/, Herr auf Regenwalde, Stramehl,
+        Döberitz, Labes, Kankelfitz, 1471-1542
+    mm. N.N. von /Böse/
+    mff. Anton II. von /Borcke/, Herr auf Satzig, 1508-1575
+         m. 1554
+    mfm. Dorothea von /Glasenapp/
+
+Note: Barbara von Kameke's Kleist marriage produced Achatz Philipp
+von Kleist auf Vietzow (d. c. 1637) and Peter von Kleist auf
+Pumlow (d. 1638), so the Kameke-Kleist link is doubly attested in
+the same generation. Conf: C.
+
+----------------------------------------------------------------
+GEN 12-14 — Prissebur line, IF chain B holds
+----------------------------------------------------------------
+  Prissebur von /Kleist/
+    f. Henning von /Kleist/
+    ff. Henning von /Kleist/
+        m. Margarethe von /Wedelstädt/ aus Gülzow
+        (Wedelstädt c. 1376-1440 per Geni)
+  Children of Henning + Wedelstädt, per GN1:
+    - Hans von /Kleist/, d. 1515/16, m. N.N. von /Borntin/,
+      s. Pribislaff von Kleist d. 1570, m. Dorothee Elisabeth
+      von /Below/, s. Hedwig von Kleist m. Wulf von /Wedel/
+      d. 1573
+    - Bisprow von /Kleist/, d. c. 1493, m. N.N. von /Natzmer/
+    - Peter von /Kleist/, d. 1501, m. Barbara von /Tessen/
+    - Dubislaff von /Kleist/, d. c. 1482, m. a) Catharina von
+      /Podewils/, b) N.N. von /Glasenapp/ aus Gramenz
+  Conf: C. Source: GN1.
+
+----------------------------------------------------------------
+GEN 13-14 — Dubislaff's career, from the family history
+----------------------------------------------------------------
+This is the one stretch that is A-grade and it is worth having
+verbatim, because it dates the whole line:
+
+  "III.2 Dubislaff, also called Bratta, auf Damen, 1477,
+   d. c. 1482," son of Henning (I.M.8) and Margarethe von
+   Wedelstädt aus Gülzow. First mentioned, with his five sons
+   Drews, Curt, Bisprow, Peter and Pribislaff (III.7-11), in the
+   joint enfeoffment letter of 13 April 1477. Held half of
+   castle and town Bublitz; his Bublitz share was bought in 1479
+   by Ludwig Graf zu Eberstein, Bishop of Cammin. Married a)
+   Catharina von Podewils, b) ... von Glasenapp aus Gramenz. His
+   sons were enfeoffed 28 Dec 1486, father dead by then.
+   Source: GK, verbatim. Conf: A.
+
+Fate notes, same source, same grade — this family dies hard:
+  III.7 Andreas (Drews) auf Voldekow, princely councillor, 1477,
+  d. 1488, said to have been beaten to death by peasants in
+  Drenow. III.24 Matthias auf Damen, d. before 1540, beaten to
+  death in a dispute with peasants of Drenow. III.57 Anton
+  (Tonnies), d. before 1538, drowned, probably in the Persante —
+  with him the Andreas sub-branch died out.
+
+----------------------------------------------------------------
+THE DAMEN SUB-BRANCH — full GK chain, for reference
+----------------------------------------------------------------
+Use only to place persons once chain A is resolved.
+
+  III.8 Curt auf Damen und Kowalk, 1477, d. before 1501;
+    m. a) N.N. von Manteuffel (childless), b) N.N. von
+    Wopersnow aus Standemin; s. Lorenz, Andreas, Paul, Georg
+  III.27 Andreas (Drews) auf Voldekow, d. before 1546;
+    m. Elisabeth von Podewils
+    s. III.58 Georg, d. c. 1560, killed by a peasant's spear in
+       the 1559 feud with Venz and Tönnies
+    s. III.59 Curt auf Kl.-Voldekow und Schwellin, d. c. 1582;
+       m. Emerentia von Zastrow; s. Michael, Jürgen, Joachim,
+       Reimar
+  III.118 Jürgen auf Dargen und Kl.-Voldekow, d. before 1618;
+    m. a) N.N. (s. Curt, Joachim, Michael; d. Elisabeth),
+       b) Barbara von Massow (childless)
+  III.190 Curt, d. after 1650, unmarried
+  III.191 Joachim auf Dargen, d. after 1665, c. 1670;
+    m. Agnes von Versen
+    s. III.285 Jürgen Heinrich auf Dimkuhlen, d. before 1690,
+       shot by his brother-in-law Reimer auf Schmenzin c. 1690 —
+       with him the Damen-Voldekower side branch died out
+  III.194 Jürgen auf Kowalk und Schmenzin, b. before 1614,
+    d. 1657; m. Ilsa Maria von Stojentin, d. 1694
+    s. III.286 Joachim Heinrich d. 1699, III.287 Reimar d. 1685,
+       III.288 Alexander Lorenz d. 1695, III.289 Jürgen d. 1718,
+       III.290 Jacob d. 1686
+  III.286 Joachim Heinrich auf Voldekow, d. 1699;
+    m. Esther Margaretha von Briesen
+    s. III.377 Hans Erdmann, III.378 Jürgen Ulrich d. 1703
+  III.377 Hans Erdmann auf Gr. Voldekow, 1714;
+    m. Maria Ludovica von Kleist
+    s. III.477 Georg Wedig 1707-1759, III.478 Jürgen Lorenz
+       b. 1720, d. young, no heirs
+  III.477 Georg Wedig, captain, 1707-1759;
+    m. Charlotte Luise von Flemming
+    s. III.603 Hans Georg Wedig 1750-1816, major and postmaster
+       in Schlawe
+  Conf: A. Source: GK.
+
+----------------------------------------------------------------
+OPEN on this line
+----------------------------------------------------------------
+O-1  Identify GK III.22, III.54, III.114, III.186 by name and
+     confirm III.281 = Pribislaff d. 1698. Needs GK itself, not
+     the extracts.
+O-2  Landesarchiv Greifswald: lensbreve and skifter for Muttrin,
+     Drenow, Borntin, Gross Tychow. GK cites these directly.
+O-3  The 1364 question: MUT (2025) is the cited authority. Read
+     MUT itself before any medieval claim goes on the site.
+
+== END SEGMENT 1 of 8 — reply "next" for LINE 2, GEDDE / GJEDDE ==

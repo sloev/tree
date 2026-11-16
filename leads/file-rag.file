@@ -1,0 +1,126 @@
+================================================================
+LINE 3 — GAARDSTED / GÅRDSTED
+Claus Gaardsted @p72@ is generation 7. The new generation sits
+ABOVE him, generation 8.
+================================================================
+
+This is the site's own open question O-1 in the "Det, vi endnu
+ikke ved" list: "Et skifteuddrag fra 1787 dokumenterer søsteren
+Karen Christensdatter; hans egne forældre og fødested kræver
+stadig kilder før 1787." The 1787 extract was read too narrowly.
+It does not just name the sister. It names the father.
+
+----------------------------------------------------------------
+THE DOCUMENT
+----------------------------------------------------------------
+Rolsøgård gods skifteprotokol, Mols herred, series G302,
+1778-1816 (with Mols and Djurs Sønder herred 1818). Fol. 39,
+skifte nr. 11, 14 May 1787. Deceased: Niels Jensen Degn i
+Vrinners. Verbatim, the operative clause:
+
+  "Arv i boet til afdødes stedbørn efter Christen Christensen
+   Tohde foged i Dejret (skifte 1764) til datter Karen
+   Christensdatter; LV: broder Claus Gaardsted forpagter på
+   Vosnæsgård."
+
+Read: the estate owes a legacy to the deceased's stepchildren by
+Christen Christensen Tohde, foged in Dejret, probate 1764, and it
+is paid to the daughter Karen Christensdatter, with her brother
+Claus Gaardsted, tenant at Vosnæsgaard, as guardian.
+
+Conf: A. Sources: G302; the same entry also in milloup.dk's
+extract of the same series.
+  https://slaegt.dk/media/jnnnvuml/alfabetisk-navneliste-og-skifteuddrag-til-rols%C3%B8g%C3%A5rd-gods-g302-mols-herred-1778-1816-1818.pdf
+  https://www.milloup.dk/hvh/download/skifter/rolsoegaard_gods_skifter.htm
+
+----------------------------------------------------------------
+WHAT IT ESTABLISHES
+----------------------------------------------------------------
+1. Claus Gaardsted had a sister, Karen Christensdatter. The tree
+   already knew the sister but not that she was a sister — it had
+   her as a bare probate reference.
+2. Their father is Christen Christensen Tohde, foged in Dejret.
+   Claus is therefore Claus Christensen, "Gaardsted" being a
+   byname taken from a place, not a patronymic.
+3. The father was dead by 1787 — his probate is 1764.
+4. Dejret lies in Vistoft sogn, immediately under Vosnæsgaard,
+   the estate Claus leased from 1787. Father foged there, son
+   forpagter there. The career is explained by the birth.
+
+Dejret is also the parish of the 1794 and 1796 entries in G305,
+so the place is populated in the right period.
+
+----------------------------------------------------------------
+GEN 8 — NEW
+----------------------------------------------------------------
+  Christen Christensen /Tohde/
+    occ Foged i Dejret, Vistoft sogn, Mols herred
+    d. before 1787; probate 1764, Rolsøgård gods
+    children:
+      Karen /Christensdatter/ — living 1787
+      Claus /Christensen/ /Gaardsted/ @p72@ — living 1787
+  Conf: A for the man, the office, the probate year, and both
+  children. Source: G302.
+
+  Add as GEDCOM:
+  0 @a_gaardsted_f@ INDI
+  1 NAME Christen Christensen /Tohde/
+  1 SEX M
+  1 OCCU Foged, Dejret, Vistoft sogn
+  1 DEAT
+  2 DATE BEF 1787
+  2 NOTE Skifte 1764, Rolsøgård gods. Far til Karen
+    Christensdatter og Claus Gaardsted (G302 fol. 39).
+  1 SOUR
+  2 PAGE G302 fol. 39, skifte nr. 11, 14.5.1787
+  0 @F136@ FAM
+  1 HUSB @a_gaardsted_f@
+  1 CHIL @p72@
+
+  Then on @p72@ add:
+  1 FAMC @F136@
+  1 NAME Claus /Christensen/
+
+----------------------------------------------------------------
+CAUTION — the name "Tohde"
+----------------------------------------------------------------
+"Tohde" occurs once in the extract and is flagged there with a
+question mark by the transcriber. Read the original before
+committing the spelling. Conf: A for the caution.
+
+Do not confuse with the Tønde/Tohde family in the same herred
+series, nor with Christen Christensen Mogensen in Vistoft
+(probate 26 Oct 1761, widow Kirsten Jensdatter) — a different man
+with a different family. Conf: A. Source: G305.
+
+----------------------------------------------------------------
+DOWNWARD — what the new generation implies
+----------------------------------------------------------------
+Claus Gaardsted's own probate is not in G302, which stops at
+1816, and his widow sold Bogensholm at auction in 1811 for
+31,000 rd. That auction and his probate are the two documents
+most likely to name his siblings and half-siblings outright.
+Conf: B. Source: @p72@ entry, Trap/danskeherregaarde.dk.
+
+Also: @p72@ married twice, and Kirsten Marie Jørgensdatter
+@p73@ was the second wife. His first wife is unnamed in the
+tree and the children of that marriage are missing except
+@s_p72_0@ and @s_p72_1@. The 1787 probate names him at
+Vosnæsgaard; the first marriage belongs before that. Conf: A
+for the two marriages (@p72@ entry), D for the missing first
+wife.
+
+----------------------------------------------------------------
+OPEN on this line
+----------------------------------------------------------------
+O-8  The 1764 probate of Christen Christensen Tohde. Rolsøgård
+     gods earlier series, before the 1778 start of G302.
+     Landsarkivet for Nørrejylland, Rolsøgård gods, 1764.
+     This is the single document that turns GEN 8 from a name
+     into a family.
+O-9  Claus Gaardsted's own probate, 1811, and the Bogensholm
+     auction same year. Both should name siblings.
+O-10 Claus's first wife and her children. Between c. 1775 and
+     1790; Vosnæsgaard and Skødstrup kirkebog.
+
+== END SEGMENT 3 of 8 — reply "next" for LINE 4, SYV / VIBYGÅRD ==
