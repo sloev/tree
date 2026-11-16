@@ -114,3 +114,15 @@ Append-only coordination log for the Gårdsted / Gedde family-history project. A
 4. Do not modify canonical data without primary evidence meeting the evidence rules.
 
 **Handoff:** Small commits on main only. Never expose private data. Repositories remain strictly separated from earlysmolweb.
+
+### Publication-first confidence labels and automatic site rebuild
+
+- Adopted the publication-first rule: credible but incomplete historical claims should appear publicly with an explicit status, rather than remaining hidden until research is complete.
+- Updated the site template's person-register labels: `record` → “Godt belagt”; `probable` → “Kræver mere belæg”; `possible` → “Foreløbig hypotese”; `told` → “Familieoplysning”. Added an explanation that person-level confidence does not automatically validate each relationship.
+- Added a public overview story for the medieval/early-modern Kleist material, carefully distinguishing the documented Conradus/Bertoldus pair, ambiguous 1289 witness wording, 1364 Prissebur, the lost 1555–1560 Muttrin account / 1576 compilation, and the 1477 Pribbeslaw versus later Hans attribution.
+- Added the `UKB:` Kleist-Urkundenbuch source prefix and source-register entry.
+- Added a publication confidence assessment to the Lorenz dossier. The Evald, Liss and Gerda open-task lists were reviewed: their outstanding identity/parentage questions still need the specified original parish, probate, property or emigration records; no unsupported canonical parent edge was added.
+- Added the publication policy to `leads/README.md` and `research_method.md`.
+- Added `.github/workflows/rebuild-site.yml` so changes to canonical data, site templates and source assets rebuild the JSON, GEDCOM and GitHub Pages output, then commit generated outputs to main.
+- No canonical relationships changed in this pass. The website template and build automation are committed, but the workflow run/deployment has not yet been verified; do not claim the live website has updated until its generated-output commit and Pages deployment are checked.
+- Source trail: https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf ; https://v-kleist.com/FG/Genealogie/AllgemeineGeschichte.pdf ; https://www.v-kleist.com/FG/Dubberow.pdf
