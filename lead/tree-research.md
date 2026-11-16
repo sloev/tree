@@ -154,3 +154,42 @@ In particular:
 5. Only after verification, update the source-of-truth script and regenerate the structured JSON. Keep this research log separate from importable genealogical data.
 
 **Editorial conclusion:** these uploads improve navigation and expose useful source leads, but they do not independently justify additional structured ancestry links. The previously verified Christina von Woyten relationships remain the only new Pomeranian parentage/partnership additions supported by the cited family-archive passage.
+
+
+## 8. Genealogical scope: all well-founded family connections
+
+**Research scope is not limited to legitimate descent or conventional pedigree lines.** The objective is to document real, well-founded connections among people and families, including connections that historical records may have marginalised, obscured or described inconsistently.
+
+Include, where supported:
+- Biological parentage and descent, whether the child was born within or outside marriage.
+- Acknowledged, recorded or otherwise well-supported illegitimate children and non-marital paternity/maternity.
+- Marriage, remarriage, partnerships and other documented unions, including relationships that overlap in time.
+- Adoption and legally or socially recognised parent-child relationships.
+- Step-parent, foster, guardian and household relationships where they are historically meaningful.
+- Other documented connections (for example, a recognised fatherhood, maintenance, probate, inheritance or guardianship relationship) that help explain the family network.
+
+### Relationship labels and evidence
+
+Never collapse different kinds of connection into a single generic parent/spouse link. Distinguish at least:
+- **Biological** — asserted or supported biological parentage.
+- **Marital/partner** — marriage or documented partnership; does not itself prove biological parentage.
+- **Adoptive** — adoption or legally recognised adoptive parentage.
+- **Step** — relationship through a parent's marriage/partnership, without implying biological descent.
+- **Foster/guardian/household** — care or household connection, not biological descent unless separately evidenced.
+- **Acknowledged/social/legal parent** — a person recognised as a parent in a source, with biological status separately stated if unknown or disputed.
+
+For every proposed relationship, record what the source actually establishes. A baptism entry naming a father, a probate statement, a court case, a family chronicle, a marriage record and a later family tree do not all prove the same thing. Note whether a source establishes biological parentage, legal recognition, social parenthood, marriage, or merely a claim.
+
+Use calibrated confidence and preserve disagreements:
+- **Established**: direct, credible evidence for the specific relationship.
+- **Probable**: strong converging evidence, but not conclusive.
+- **Possible/claimed**: a plausible lead or a claim that needs corroboration.
+- **Disputed/rejected**: conflicting evidence or a link shown to be erroneous.
+
+Do not treat illegitimacy as a reason to exclude a person or connection. Do not infer illegitimacy from silence, stigma, a gap in records, or a later surname. Equally, do not turn a historical allegation or rumour about fatherhood into a fact without evidence. Use sensitive and respectful wording, quote historical terminology only when necessary to explain a source, and distinguish a contemporary allegation from a proven biological relationship.
+
+### Data-model implications
+
+Before adding complex or overlapping relationships, inspect the data model and rendering. The current `person()` helper in `data/build_data.py` has a single `spouse` parameter; this may be insufficient for multiple marriages or concurrent partnerships. Do not overwrite one union with another or rely on one-sided spouse fields. Extend the model deliberately if needed, with relationship type, dates, source and confidence, while keeping biological parentage separate from union records. Ensure GEDCOM/export and visualisations preserve these distinctions.
+
+**Research principle:** completeness means investigating all credible lines and connections, not lowering the evidentiary standard. A well-documented illegitimate line belongs in the history just as much as a legitimate one.
