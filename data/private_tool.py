@@ -1,11 +1,10 @@
 """Krypterede private personer (nulevende / født inden for 100 år uden dødsdato).
 
-De fulde oplysninger ligger AES-256-GCM-krypteret i data/private.enc (nøgle: PBKDF2-SHA256 af kodeordet,
-200.000 iterationer). Siden dekrypterer i browseren med samme parametre. Kodeordet gemmes ikke i repoet.
+De fulde oplysninger ligger AES-256-GCM-krypteret i data/tree.json["family"]["private_blob"].
+Nøglen er PBKDF2-SHA256 af kodeordet med 200.000 iterationer. Kodeordet gemmes ikke i repoet.
 
   FAMILY_PASSWORD=... python3 data/private_tool.py decrypt   # skriver data/private_people.json (gitignored)
-  FAMILY_PASSWORD=... python3 data/private_tool.py encrypt   # krypterer data/private_people.json -> data/private.enc
-                                                             # og skriver data/private_stubs.json (uden navne)
+  FAMILY_PASSWORD=... python3 data/private_tool.py encrypt   # opdaterer den krypterede blob og offentlige pladsholdere i data/tree.json
 """
 import base64, json, os, sys
 from cryptography.hazmat.primitives import hashes
