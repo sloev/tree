@@ -7,6 +7,7 @@ This directory consolidates the three readable uploads and relocates the ZIP exp
 - [Complete ancestry register](ancestry-register.md) — all readable material transcribed from `tree2.txt`, including profiles, relationships, notes, citations, image names, archival identifiers, caveats and statistics.
 - [Consolidated branch dossiers](branch-dossiers.md) — both dossier files, combined and reformatted.
 - [Investigation worklist](investigation-worklist.md) — actionable leads and conflicts extracted from the source material.
+- [Research notes](research-notes.md) — first source checks, corrections, archival search routes and findings.
 - [Original ZIP export](family-tree-export.zip) — moved byte-for-byte from the repository root. It could not be decoded by the available GitHub file interface (which rejects binary responses), so its internal files have not yet been inventoried. It is preserved here, not discarded.
 
 ## Source and evidence policy

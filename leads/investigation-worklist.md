@@ -49,7 +49,7 @@
 
 ## Priority 7 — Vestjylland / Pårup Melgaard
 
-- Jens Peder Larsen, born 29 February 1812 in Assing, died 1870 in Sønder Omme; married Mette Pedersdatter in Sønder Felding in 1843.
+- Jens Peder Larsen, born 29 February 1812 in Assing, died 25 May 1870 in Sønder Omme; married Kjersten Frederiksdatter on 8 October 1843 in Sønder Felding. The uploaded dossier's Mette Pedersdatter spouse claim conflicts with the tree and Horsbøl index; see research notes.
 - Dossier mentions foster children (plejebørn) and collateral illegitimate connections in heath parishes, but supplies no names or exact entries.
 - **Research tasks:** inspect 1843 marriage; identify all children in parish registers and census; compare 1870 Sønder Omme census with Horsbøl collection; record foster children as social relationships, not biological children.
 
@@ -76,3 +76,12 @@
 - The export claims 486 total people, 156 ancestors, 14 generations, earliest birth 1654, 329 siblings/descendants/in-laws, 593 source references and 157 people shown publicly. Treat as snapshot metadata, not current database counts.
 - Living people are redacted; no decryption or private data access is authorized by these files.
 - Some names/dates are derivative, broad or uncertain. Every lead needs its own source-level verification.
+
+
+## Corrections from first-source audit (16 November 2026)
+
+- **Jens Peder Larsen's spouse:** the uploaded Expanded Master Dossier says Mette Pedersdatter. The current tree's ancestry narrative and Horsbøl's genealogy instead identify Kjersten Frederiksdatter, born 20 April 1822, married 8 October 1843 in Sønder Felding. Horsbøl lists their daughter Mette Marie; this may explain the dossier's confusion. Verify the original marriage entry before changing any record.
+- **Ove Samuel Gedde:** P.I. Liebe and E. Borgstrøm's officer biography (based on Rigsarkiv military notes) gives 28 May 1778–10 March 1843. Carl Johan Anker's 1885 work gives 28 May 1788, but Project Runeberg marks that OCR page as unproofread. The project data says 28 February 1778. The year 1778 has stronger support; exact day/month remains unresolved pending the original baptism.
+- **Lorenz paternity:** the repository's own narrative says the Egernsund civil register names Wilhelm Krogh as father through a declaration and court decision, while the family hypothesis names Sophus Petersen. The tree currently encodes Sophus as biological father but explicitly admits this is family knowledge and that DNA is needed to decide. Do not call the case legally or biologically settled until the actual paternity file and evidence are reviewed.
+- **Langø:** Langeland Byarkiv's catalogue confirms the 2011 article “Langø og dæmningen” by Lisbeth Skov: Marius Christensen and Ane Marie bought Langø in 1894; the 334 m causeway was built in 1911; Ane died in 1930 and Marius in 1934. The same archive catalogue identifies real-register and land-book material for Lindelse and Magleby (1790–2013), a promising route to verify title.
+- **Kresten Henriksen Jørgensen:** an exact-name web search and a check of the Strømming public K-name index found no match. This is only a negative index result, not evidence that the person or baptism does not exist. Original Magleby and neighbouring parish registers remain the required next step.
