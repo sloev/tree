@@ -263,6 +263,9 @@ button,a{touch-action:manipulation}
 @media(prefers-reduced-motion:reduce){
   *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
+
+/* Vertical, expandable tree: mobile-first and no horizontal canvas. */
+.homepage-tree{scroll-margin-top:86px}.homepage-tree .ped-scroll{overflow-x:hidden;overflow-y:visible;max-height:none;min-height:0;padding:clamp(10px,2vw,22px);touch-action:pan-y}.ped-tree{width:100%;max-width:780px;margin:0 auto}.ped-branch{margin:0 0 10px}.ped-branch>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;min-width:0}.ped-branch>summary::-webkit-details-marker{display:none}.ped-branch>summary::before{content:'＋';display:grid;place-items:center;flex:none;width:24px;height:24px;border:1px solid var(--rule-2);border-radius:6px;color:var(--ink-2);font:500 13px var(--f-data)}.ped-branch[open]>summary::before{content:'−'}.ped-branch:not(:has(.ped-parents))>summary::before{content:'·';border-color:transparent}.ped-card{display:flex;flex:1;min-width:0;flex-direction:column;gap:2px;padding:10px 13px;border:1px solid var(--rule-2);border-left:4px solid var(--l-self);border-radius:9px;background:var(--sheet)}.ped-card strong{font-size:.94rem;line-height:1.3;overflow-wrap:anywhere}.ped-card>span{font:400 .76rem var(--f-data);color:var(--ink-2)}.ped-card.uncertain{border-style:dashed}.ped-card.sel{outline:2px solid var(--accent);outline-offset:1px}.ped-parents{margin:8px 0 14px clamp(12px,4vw,34px);padding-left:clamp(10px,3vw,22px);border-left:2px solid var(--rule-2)}.ped-parents>.ped-branch{margin-top:8px}.bulletin-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.bulletin-item{display:flex;flex-direction:column;align-items:flex-start;gap:8px;padding:16px;background:var(--sheet);border:1px solid var(--rule);border-radius:10px;min-width:0}.bulletin-item time{font:500 .72rem var(--f-data);color:var(--muted)}.bulletin-item h3{font-size:1.12rem}.bulletin-item p{font-size:.9rem;color:var(--ink-2)}@media(max-width:700px){.bulletin-list{grid-template-columns:minmax(0,1fr)}.homepage-tree .ped-scroll{padding:10px}.ped-card{padding:9px 10px}}
 </style>
 <div class="wrap">
 <header class="mast">
@@ -303,7 +306,16 @@ button,a{touch-action:manipulation}
   </div>
 
   <div class="block">
-    <div class="sec-head"><span class="eyebrow">Nyt fra slægtsforskningen</span><h2>Seneste fund</h2>
+    <div class="block bulletin" id="nyheder">
+    <div class="sec-head"><span class="eyebrow">Slægtsforskning · ændringer og nye fund</span><h2>Nyhedsbulletin</h2><p class="muted">Daterede opdateringer til stamtræet og kildearbejdet.</p></div>
+    <div class="bulletin-list">
+      <article class="bulletin-item"><time datetime="2026-11-16">16. november 2026</time><span class="conf">Kildeidentifikation</span><h3>Dybbøl kirkebog: vielsesbogen er identificeret</h3><p>Arkivets registratur fastslår, at Dybbøl Ab 4 dækker vielser 1861–1906. Det indsnævrer søgningen efter Rasmus Jensen og Anne Christine Hansens vielse 18. september 1866. Selve indførslen er endnu ikke fundet og afskrevet, så ingen forældre er ændret på dette grundlag.</p></article>
+      <article class="bulletin-item"><time datetime="2026-11-16">16. november 2026</time><span class="conf probable">Rettelse</span><h3>Dybbøl side 169: tidligere tolkning korrigeret</h3><p>Henvisningen KMB 1861–1927, side 169, billede 85, nr. 1, hører til ægteskabsdelen i Ab 4 og må ikke omtales som en dåbsindførsel. Den er ikke det samme som den endnu uidentificerede vielse i 1866.</p></article>
+      <article class="bulletin-item"><time datetime="2026-11-16">16. november 2026</time><span class="conf">Nye kilder</span><h3>Island: UUCP-forbindelser dokumenteret uafhængigt</h3><p>Islands IT-historiske selskab bekræfter UUCP-forbindelserne mellem Hafró og universitetets beregningscenter i 1986. En samtidig EUnet-oversigt fra april 1987 opfører hafro som Islands ene direkte EUnet-vært.</p></article>
+    </div>
+  </div>
+
+  <div class="sec-head"><span class="eyebrow">Nyt fra slægtsforskningen</span><h2>Seneste fund</h2>
       <p class="muted">Nye spor fra kirkebøger, folketællinger og skifteuddrag. Mulige forbindelser er markeret som ubekræftede, indtil originalkilderne er kontrolleret.</p></div>
     <div class="research-grid">
       <article class="research-card">
@@ -340,19 +352,11 @@ button,a{touch-action:manipulation}
   </div>
 
   <div class="block homepage-tree" id="stamtrae">
-<div class="sec-head"><span class="eyebrow">Anetavle</span><h2>Stamtræet</h2>
-    <p class="muted">Generationerne læses oppefra og ned. Far er til venstre, mor til højre. Træet viser den biologiske slægt; stiplede kort er ukendte eller usikre personer. Vælg en person for at åbne livshistorie og kilder.</p></div>
-  <div class="toolbar">
-    <div class="seg" role="group" aria-label="Vis del af træet">
-      <button type="button" data-root="1" aria-pressed="true">Hele træet</button>
-      <button type="button" data-root="2" aria-pressed="false">Fars side</button>
-      <button type="button" data-root="3" aria-pressed="false">Mors side</button>
-    </div>
-        <span class="count" id="pedcount"></span>
+    <div class="sec-head"><span class="eyebrow">Anetavle</span><h2>Stamtræet</h2><p class="muted">Følg slægten lodret fra dig og bagud gennem generationerne. Fold en person ud for at se forældrene; vælg navnet for livshistorie og kilder.</p></div>
+    <div class="toolbar"><div class="seg" role="group" aria-label="Vis del af træet"><button type="button" data-root="1" aria-pressed="true">Hele træet</button><button type="button" data-root="2" aria-pressed="false">Fars side</button><button type="button" data-root="3" aria-pressed="false">Mors side</button></div><span class="count" id="pedcount"></span></div>
+    <div class="ped-scroll" id="pedscroll" tabindex="0" role="region" aria-label="Lodret, udvideligt stamtræ"><div id="ped" class="ped-tree" role="tree" aria-label="Slægtens anetræ"></div></div>
+    <p class="note-box">Træet viser Lorenz' biologiske far, <button class="linkish" data-pid="sofus">Sophus Petersen</button>, ifølge familiens viden. <button class="linkish" data-pid="p12">Wilhelm Krogh</button> tog skylden og står som far i standsregistret. Lorenz voksede op hos stedfaren <button class="linkish" data-pid="pf12">Peter Frederiksen</button>.</p>
   </div>
-  <div class="ped-scroll" id="pedscroll" tabindex="0" role="region" aria-label="Interaktiv anetavle. Brug rullebjælkerne til at udforske generationerne."><svg id="ped" role="img" aria-label="Anetavle"></svg></div>
-  <p class="note-box">Træet viser Lorenz' biologiske far, <button class="linkish" data-pid="sofus">Sophus Petersen</button>, ifølge familiens viden. <button class="linkish" data-pid="p12">Wilhelm Krogh</button> tog skylden og står som far i standsregistret. Lorenz voksede op hos stedfaren <button class="linkish" data-pid="pf12">Peter Frederiksen</button>, der blev betalt for at gifte sig med Else, og fik hans efternavn. Peters slægt fra Broager, Rinkenæs og Ulkebøl står under Personer som "Stedfarens slægt".</p>
-</div>
 
   <div class="block">
     <div class="sec-head"><span class="eyebrow">Nærmeste familie</span><h2>Dig, dine forældre og deres familier</h2>
@@ -670,46 +674,23 @@ const ped=document.getElementById('ped'), pedScroll=document.getElementById('ped
 const CW=184, CH=52, GX=34, GY=24, TOP=44;
 let nodes={}, pedRoot=1, pos=null;
 function renderPed(root){
-  pedRoot=root; ped.innerHTML=''; nodes={};
-  const g0=Math.floor(Math.log2(root));
-  const slots={};
-  (function visit(n){ slots[n]=ahn[n]||null; if(!ahn[n]) return; for(const c of [2*n,2*n+1]) if(ahn[c]) visit(c); })(root);
-  for(const n of Object.keys(slots).map(Number)){ const g=Math.floor(Math.log2(n)); if(slots[n]&&g<3) for(const c of [2*n,2*n+1]) if(!(c in slots)) slots[c]=null; }
-  let leaf=0; const ypos={};
-  (function lay(n){ const kids=[2*n,2*n+1].filter(c=>c in slots); if(!kids.length){ ypos[n]=leaf++; return ypos[n]; }
-    const ys=kids.map(lay); ypos[n]=(ys[0]+ys[1])/2; return ypos[n]; })(root);
-  const gmax=Math.max(...Object.keys(slots).map(n=>Math.floor(Math.log2(+n))));
-  const depth=gmax-g0+1;
-  const W=90+leaf*(CW+GX)+10, H=TOP+depth*(CH+GY)+10;
-  ped.setAttribute('viewBox',`0 0 ${W} ${H}`); ped.setAttribute('width',W); ped.setAttribute('height',H);
-  pos = n => { const g=Math.floor(Math.log2(n))-g0; return {x:90+ypos[n]*(CW+GX), y:TOP+g*(CH+GY)}; };
-  for(let g=g0; g<=gmax; g++){
-    const label=el('text',{x:6,y:TOP+(g-g0)*(CH+GY)-8,class:'gen-label'},ped);
-    label.textContent=genLabel(g);
+  pedRoot=root;ped.innerHTML='';nodes={};pos=null;let shown=0,maxDepth=0;
+  function branch(n,depth){
+    const p=ahn[n],d=document.createElement('details');d.className='ped-branch';d.open=depth<2;maxDepth=Math.max(maxDepth,depth+1);
+    const summary=document.createElement('summary');summary.className='ped-summary';
+    const card=document.createElement('span');card.className='ped-card'+(!p||!['record','told'].includes(p.conf)?' uncertain':'');
+    const name=document.createElement('strong');name.textContent=p?clean(p.name):(n%2?'Ukendt mor':'Ukendt far');
+    const meta=document.createElement('span');meta.textContent=p?life(p):'Forældre ikke identificeret';card.append(name,meta);summary.append(card);d.append(summary);
+    if(p){nodes[p.id]=card;shown++;summary.addEventListener('click',e=>{e.preventDefault();openPerson(p.id);});summary.setAttribute('aria-label',clean(p.name)+', vis personoplysninger');}
+    const pair=[2*n,2*n+1];if(pair.some(k=>ahn[k])){const parents=document.createElement('div');parents.className='ped-parents';parents.setAttribute('role','group');pair.forEach(k=>parents.append(branch(k,depth+1)));d.append(parents);}
+    return d;
   }
-  for(const n of Object.keys(slots).map(Number)){ if(n===root) continue; const a=pos(Math.floor(n/2)), b=pos(n);
-    const x1=a.x+CW/2,y1=a.y+CH,x2=b.x+CW/2,y2=b.y,mid=(y1+y2)/2;
-    el('path',{d:`M${x1},${y1}V${mid}H${x2}V${y2}`,class:'edge'},ped);
-  }
-  for(const n of Object.keys(slots).map(Number)){
-    const p=slots[n], {x,y}=pos(n);
-    const unk = !p || (p.conf!=='record'&&p.conf!=='told');
-    const g=el('g',{class:'node'+(unk?' unknown':''), transform:`translate(${x},${y})`, tabindex:p?0:-1, role:p?'button':'img','aria-label':p?`${p.name}, ${rel(p)}`:'Ukendt'},ped);
-    el('rect',{class:'card',width:CW,height:CH,rx:7},g);
-    el('rect',{x:0,y:0,width:4,height:CH,rx:2,fill:p?lineVar(p.line):'var(--rule-2)'},g);
-    const name = p? clean(p.name) : (n%2?'Ukendt mor':'Ukendt far');
-    el('text',{x:12,y:21,class:'nm'},g).textContent = name.length>28? name.slice(0,27)+'…' : name;
-    el('text',{x:12,y:39,class:'yr'},g).textContent = p? life(p) : 'Forældre ikke identificeret';
-    if(p){ nodes[p.id]=g; g.addEventListener('click',()=>openPerson(p.id)); g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openPerson(p.id);}}); }
-  }
-  const shown=Object.values(slots).filter(Boolean).length;
-  document.getElementById('pedcount').textContent = `${shown} personer · ${gmax-g0+1} generationer`;
-  document.querySelectorAll('[data-root]').forEach(b=>b.setAttribute('aria-pressed', String(+b.dataset.root===root)));
+  ped.append(branch(root,0));document.getElementById('pedcount').textContent=`${shown} personer · op til ${maxDepth} generationer · fold ud med pilene`;
+  document.querySelectorAll('[data-root]').forEach(b=>b.setAttribute('aria-pressed',String(+b.dataset.root===root)));
 }
-function setRoot(r){ if(pedRoot!==r || !Object.keys(nodes).length) renderPed(r); }
-function highlight(id){ Object.values(nodes).forEach(n=>n.classList.remove('sel')); const n=nodes[id]; if(!n) return; n.classList.add('sel');
-  const p=byId[id]; if(!document.getElementById('v-oversigt').hidden && p.ahnen && pos){ try{ const q=pos(p.ahnen); pedScroll.scrollTo({left:Math.max(0,q.x-80),top:Math.max(0,q.y-100),behavior:'smooth'}); }catch(e){} } }
-document.querySelectorAll('[data-root]').forEach(b=>b.addEventListener('click',()=>{ renderPed(+b.dataset.root); pedScroll.scrollTo({left:0,top:0}); }));
+function setRoot(r){if(pedRoot!==r||!Object.keys(nodes).length)renderPed(r);}
+function highlight(id){Object.values(nodes).forEach(n=>n.classList.remove('sel'));const n=nodes[id];if(!n)return;n.classList.add('sel');let d=n.closest('details');while(d){d.open=true;d=d.parentElement?.closest('details');}n.scrollIntoView({block:'nearest',behavior:'smooth'});}
+document.querySelectorAll('[data-root]').forEach(b=>b.addEventListener('click',()=>{renderPed(+b.dataset.root);pedScroll.scrollTo({top:0,behavior:'smooth'});}));
 
 // ================= PERSONER =================
 function renderPersoner(){
