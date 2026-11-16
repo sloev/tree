@@ -1,19 +1,32 @@
 {
   "latest_bulletin": {
-    "body": "Christinas personnotat og forskningsdossier er præciseret efter kontrol af den reviderede Tychow-Dubberow-linje (2025), s. 36 og 143. To forskellige Georg von Kleist optræder med en Christina Woyten; det er endnu uafklaret, om der er tale om én kvinde i flere ægteskaber eller to navnesøstre. De anvendte kilder oplyser hverken fødsels- eller dødsdato, så felterne står fortsat åbne. Ingen relationer er ændret uden belæg.",
-    "commit": "af512cdb08e118cd499139e73c2212227fa8ba26",
+    "body": "Personoplysninger er ændret i kildedataene. Åbn personkortene for at se de aktuelle datoer, noter og kilder.",
+    "commit": "510f60906168822b1ee764b4c7fe6cecc925098b",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
-      "data/build_data.py",
       "leads/grandparent-lorenz-frederiksen.md"
     ],
     "people": [
-      "p13899"
+      "below_otto_pustamin",
+      "p13898",
+      "p13899",
+      "p1736",
+      "p1737",
+      "p3475",
+      "p868",
+      "stojentin_elisabeth"
     ],
-    "title": "Christina von Woyten: datoer og identitet undersøgt"
+    "title": "Stamtræ opdateret: Otto von Below of Pustamin, Georg von Kleist, Christina von Woyten, Cartz Ulrik von Kleist, Barbara Juliane von Kleist (+3)"
   },
   "people": {
-    "p13899": "2026-11-16T20:30:54Z"
+    "below_otto_pustamin": "2026-11-16T20:53:37Z",
+    "p13898": "2026-11-16T20:53:37Z",
+    "p13899": "2026-11-16T20:53:37Z",
+    "p1736": "2026-11-16T20:53:37Z",
+    "p1737": "2026-11-16T20:53:37Z",
+    "p3475": "2026-11-16T20:53:37Z",
+    "p868": "2026-11-16T20:53:37Z",
+    "stojentin_elisabeth": "2026-11-16T20:53:37Z"
   }
 }
