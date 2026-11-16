@@ -8,7 +8,7 @@
 
 The current canonical narrative (`family-tree.md`) gives two incompatible accounts:
 
-- The Egernsund civil birth register (1932 no. 4) reportedly has a marginal note dated 11 July 1932 naming land worker Wilhelm Krogh of Snogbæk, based on a paternity declaration of 5 April 1932 and a court decision of 10 June 1932.
+- The Egernsund civil birth register (1932 no. 4) reportedly has a marginal note dated 11 July 1932 recording land worker Wilhelm Krogh of Snogbæk as the legally acknowledged/registered father, based on a paternity declaration of 5 April 1932 and a court decision of 10 June 1932.
 - Family knowledge instead identifies farmer's son Sophus Petersen of Påkjær, Nybøl, as Lorenz's biological father and says Wilhelm accepted paternity. The narrative explicitly says the tree follows family knowledge and that only DNA can decide the biological question.
 
 The current data model has Lorenz (p6) linked to Sophus as father and Peter Frederiksen as stepfather. That is a recorded project hypothesis, not a conclusion demonstrated by the civil-register marginal note.
