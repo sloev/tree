@@ -142,3 +142,30 @@ Niels Jørgensen (`p32`) married Johanne Sophie Hansdatter (`p33`) in Vor Frue, 
 - Do not connect the Bornholm Lars Larsen (1771 Rutsker) line to the Magleby/Langeland Lars Larsen family; the existing research identifies it as a rejected automatic match.
 - Do not merge the 1820 Vibygård probate's Maren Poulsdatter household with Hans Jensen `a66`.
 - Do not make Christen Christensen Tohde the biological father of Claus Gaardsted or Karen Christensdatter solely from the 1787 index.
+
+
+## 10. Additional Vibygaard probate detail — separate household pending identity
+
+The 1820 Vibygaard Gods probate is cited as book 2, folio 21 (with related folios 22 and 32–34), dated 31 December 1820. The extension transcription identifies the deceased as **Maren Poulsdatter**, wife of a gardener Hans Jensen, and names four adult children:
+
+- Poul Hansen — smallholder in Assingløse;
+- Jens Hansen — gardener;
+- Peder Hansen — smallholder in Viby;
+- Ane Hansdatter — married to Willum Hansen, farmer in Valsø.
+
+The same extension proposes that the husband was existing ancestor `a66`, Hans Jensen, former gardener at Vibygård, but the review correctly held that identity unresolved pending the original 1822 Syv marriage. The family structure within the 1820 probate may be sound while the identification with `a66` is not. Keep these four people and the 1820 widow in this dossier as an **unlinked Vibygaard household** until the 1820 original and 1822 Syv marriage have been compared by age, occupation, spouse, children and residence.
+
+Archive pointer: Vibygaard Gods skifteprotokol, book 2, film 41401, fol. 21, 22, 32–34. The prior online search did not locate the 1822 marriage; retry page-by-page in Arkivalieronline (Syv kirkebog, marriages 1822), then inspect the Vibygaard probate original and Hans Jensen's own probate if available.
+
+## 11. Additional Djursland collateral and source routes
+
+- The wider Djursland dossier proposes Niels Jensen (“Degnen”, 1857–1932) and Karoline Dam Jensen (1863–1947), parents of William Valbjørn (1896–1965) and grandparents of Sigrid Valbjørn (1926). This is a **collateral/unlinked branch** until exact parish entries connect it to a person already in the `p4` ancestry.
+- The Rousing line's strongest record target is the Djurs Nørre herred appointment of Rasmus Jensen Rousing (`p76`) as sognefoged. It may identify residence and patronymic more securely than a name-pattern inference.
+- For the Viby/Syv and Dejret/Rolsøgård leads, negative online searches are already recorded in the legacy archive. The original probate and parish pages are the decisive route; do not repeat broad web searches as though they were new evidence.
+
+## 12. Additional open items
+
+- Inspect the full 1854 Vor Frue marriage for Niels Jørgensen (`p32`); candidate birth parishes in the older notes include Hove (Ringkøbing), Høje (Holbæk) and Høve (Sorø). The written “Hove/Høje, Svendborg Amt” cannot be accepted literally because those parish/amt combinations do not fit.
+- Inspect the original 1811 Rosmus marriage, not only the 1812 baptism, to resolve Mette Pedersdatter Hallis versus Mette Sørensdatter Helles.
+- For Claus Gaardsted, also search his 1811 probate and the 1811 Bogensholm auction; the first wife and her children are not identified in the current notes.
+- The G305 Vistoft/Agri probate index (1739–1797) was searched and did not contain the Dejret/Tohde/Karen/Gaardsted entries. This negative result supports using the Rolsøgård G302 series rather than G305 for the 1764 probate.
