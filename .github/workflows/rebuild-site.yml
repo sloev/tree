@@ -8,14 +8,12 @@ on:
       - 'data/tree.json'
       - 'data/build.py'
       - 'data/export.py'
+      - 'data/private_tool.py'
       - 'site/template.html'
       - 'site/build.py'
       - 'site/poster.html'
       - 'site/unlock.js'
       - 'tools/mark_recent_people.py'
-      - 'research-archive/**'
-      - 'coop.log.md'
-      - 'README.md'
       - 'images/**'
   workflow_dispatch:
 
