@@ -49,6 +49,10 @@ def validate(tree):
         if dossier:
             assert os.path.isfile(os.path.join(ROOT, dossier)), f"Mangler dossier: {dossier}"
     assert isinstance(tree.get("map"), dict), "tree.map mangler"
+    ingestion = tree.get("ingestion", {})
+    for key in ("auto_ancestors", "auto_siblings", "manual_ancestors", "manual_siblings"):
+        assert isinstance(ingestion.get(key, []), list), f"tree.ingestion.{key} skal være en liste"
+    assert isinstance(ingestion.get("family_docs", {}), dict), "tree.ingestion.family_docs skal være et objekt"
 
 if __name__ == "__main__":
     tree = load_json(SOURCE)
