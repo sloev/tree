@@ -43,7 +43,16 @@ def main():
     for pid in changed_ids:
         markers[pid] = stamp
 
-    bulletin = state.get("latest_bulletin") if isinstance(state, dict) else None
+    # Append-only history: migrate the former single bulletin once, then only append.
+    bulletins = list(state.get("bulletins", [])) if isinstance(state, dict) else []
+    legacy = state.get("latest_bulletin") if isinstance(state, dict) else None
+    if isinstance(legacy, dict) and not any(
+        isinstance(item, dict) and item.get("commit") == legacy.get("commit")
+        for item in bulletins
+    ):
+        bulletins.append(legacy)
+
+    appended = False
     if relevant:
         names = [after.get(pid, before.get(pid, {})).get("name", pid) for pid in sorted(changed_ids)]
         subject = git("log", "-1", "--format=%s", head)
@@ -56,10 +65,15 @@ def main():
         bulletin = {"date": now.date().isoformat(), "date_label": now.strftime("%d.%m.%Y"),
                     "title": title, "body": body, "people": sorted(changed_ids),
                     "commit": head, "paths": relevant}
+        if not any(isinstance(item, dict) and item.get("commit") == head for item in bulletins):
+            bulletins.append(bulletin)
+            appended = True
+    latest = bulletins[-1] if bulletins else None
     with open(OUTPUT, "w", encoding="utf-8") as f:
-        json.dump({"people": markers, "latest_bulletin": bulletin}, f, ensure_ascii=False, indent=2, sort_keys=True)
+        json.dump({"people": markers, "bulletins": bulletins, "latest_bulletin": latest},
+                  f, ensure_ascii=False, indent=2, sort_keys=True)
         f.write("\n")
-    print(f"Updated {len(changed_ids)} person marker(s); bulletin {'refreshed' if relevant else 'retained'}.")
+    print(f"Updated {len(changed_ids)} person marker(s); bulletin {'appended' if appended else 'retained'}.")
 
 if __name__ == "__main__":
     main()

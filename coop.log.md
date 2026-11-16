@@ -289,3 +289,19 @@ Commit IDs for the substantive research updates in this session:
 - G302 “stedbørn efter” interpretive correction: tree `8042a92f5e231d387c81f4872230ac436199931f`; log `40b2deb86017b6203a42f8016ab33d3ee2f34a9b`.
 
 **Validation:** fetched and parsed canonical `data/tree.json` (494 people, 63 claims). GitHub Actions workflow “Rebuild family tree website” for tree commit `8042a92f5e231d387c81f4872230ac436199931f` completed successfully (run 43978900444). Read-only check of generated `data/research.json` and `docs/index.html` confirms both contain the new Gårdsted lead and the grammatical correction. A Pages deployment run was still in progress at handoff; no claim that the public site is live is made.
+
+
+## 2026-11-17 — Nyhedsbulletin: append-only historik og vis flere
+
+**Opgave:** Gør Nyhedsbulletin historikbevarende og lettere at læse uden at fjerne eksisterende indlæg.
+
+**Ændringer:**
+- `tools/mark_recent_people.py` migrerer den tidligere `latest_bulletin` til en `bulletins[]`-historik og tilføjer kun nye poster. Eksisterende poster slettes eller erstattes ikke; commit-SHA bruges til at undgå dubletter ved genkørsel.
+- `site/build.py` bygger alle historikposter ind i siden, sorteret nyeste dato først, og understøtter fortsat den ældre enkeltpost som kompatibilitetsfallback.
+- `site/template.html` sorterer alle nyheder nyeste først, viser 10 som standard og viser en knap til at folde de næste 10 ud ad gangen.
+
+**Forskningsstatus:** Ingen genealogiske relationer eller personoplysninger ændret i denne opgave. Rousing G304 og G299/G302-sporet forbliver uafklaret indtil originalopslagene er læst.
+
+**Validering:** Kildeændringerne er kontrolleret for entydige patch-markører. Build, browsertest og Pages-udrulning skal verificeres via den automatiske workflow efter commit; ingen af disse resultater foregribes her.
+
+**Næste:** Kontroller G299-skifte 1764, fæsteprotokol s. 123 og G302 fol. 39 i originalbilleder; opdatér det eksisterende `evald-tohde-probate`-spor med nye, kildebevarede noter, når originalerne kan læses.

@@ -7,15 +7,25 @@ research = canonical["research"]
 geo = canonical["map"]
 recent_path = os.path.join(root, "data", "recently-edited.json")
 recent = json.load(open(recent_path, encoding="utf-8")) if os.path.exists(recent_path) else {"people": {}, "latest_bulletin": None}
-bulletin = recent.get("latest_bulletin")
+# Keep the complete bulletin history. The legacy single-item field is migrated
+# by mark_recent_people.py; this fallback keeps older checkouts readable.
+bulletins = recent.get("bulletins")
+if not isinstance(bulletins, list):
+    legacy = recent.get("latest_bulletin")
+    bulletins = [legacy] if isinstance(legacy, dict) else []
+else:
+    bulletins = list(bulletins)
+legacy = recent.get("latest_bulletin")
+if isinstance(legacy, dict) and not any(x.get("commit") == legacy.get("commit") for x in bulletins if isinstance(x, dict)):
+    bulletins.append(legacy)
+import html
 bulletin_html = ""
-if bulletin:
-    import html
+for bulletin in sorted((x for x in bulletins if isinstance(x, dict)), key=lambda x: x.get("date", ""), reverse=True):
     date = html.escape(bulletin.get("date", ""))
     label = html.escape(bulletin.get("date_label", date))
     title = html.escape(bulletin.get("title", "Research update"))
     body = html.escape(bulletin.get("body", ""))
-    bulletin_html = f'<article class="bulletin-item auto-bulletin"><time datetime="{date}">{label}</time><span class="conf probable">Automatisk opdatering</span><h3>{title}</h3><p>{body}</p></article>'
+    bulletin_html += f'<article class="bulletin-item auto-bulletin"><time datetime="{date}">{label}</time><span class="conf probable">Automatisk opdatering</span><h3>{title}</h3><p>{body}</p></article>'
 imgs = []
 for ph in data["photos"]:
     b = open(os.path.join(root, ph["file"]), "rb").read()
