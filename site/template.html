@@ -609,15 +609,6 @@ wire(document);
 
 // ================= OVERSIGT =================
 function renderOversigt(){
-  const named = anc.filter(p=>p.ahnen>1);
-  const maxGen = Math.max(...anc.map(p=>Math.floor(Math.log2(p.ahnen))+1));
-  const earliest = Math.min(...anc.map(p=>yr(p.born)).filter(Boolean));
-  const srcCount = new Set(P.flatMap(p=>p.src)).size;
-  document.getElementById('tiles').innerHTML = [
-    [named.length,'aner fundet'],[maxGen,'generationer, med dig'],[earliest,'tidligste kendte fødselsår'],[P.length,'personer i alt'],
-    [P.filter(p=>!p.ahnen).length,'søskende, efterkommere og ingifte'],[srcCount,'forskellige kildehenvisninger']
-  ].map(([v,k])=>`<div class="tile"><span class="v">${v}</span><span class="k">${k}</span></div>`).join('');
-
   const L = (id,txt)=>`<button class="linkish" data-pid="${id}">${esc(txt||clean(byId[id].name))}</button>`;
   const STORIES=[
     ['maternal','Morfars hemmelige far',
@@ -655,16 +646,7 @@ function renderOversigt(){
   document.getElementById('stories').innerHTML = STORIES.map(([l,t,txt,who])=>`<article class="story" style="--c:${lineVar(l)}"><h3>${esc(t)}</h3><p>${txt}</p><div class="who">${who.map(id=>L(id)).join('')}</div></article>`).join('');
   wire(document.getElementById('stories'));
 
-  document.getElementById('open').innerHTML = [
-    ['Lorenz\' far: DNA','Sofie (Vivis datter) er DNA-testet hos MyHeritage, og et match med Lis Frederiksens barnebarn bekræfter Else-siden. Næste skridt: Åbn det match, vælg "Fælles DNA-matches", og se, hvilke sønderjyske matches der ikke går igen. De er kandidater på Lorenz\' fars side og skal sammenlignes med efterkommere af Peter Petersen på Paakjær (Sophus) eller Krogh-slægten fra Snogbæk (Wilhelm).'],
-    ['Sophus\' fjerde datter','Familien siger, at Sophus fik 4 døtre, og at en af dem flyttede til Norge. Tre er fundet i Nybøl kirkebog (1938, 1940, 1943).'],
-    ['Udvandrerne','Fundet: Paulas brødre Olaf (Shanghai 1904) og Emil Gedde (Argentina 1922), mormors grandonkel Iver Peder Holgersen (Fresno 1910) og de fleste af Jørgen Christensen og Bodil Margrethe Clausdatters 9 børn (Amerika). Deres navne og bopæle i USA mangler endnu.'],
-    ['Wilhelm Kroghs slægt','Født 9. okt. 1908 i Landkreis Flensburg. Forældrene står i tyske standsregistre, der ikke er i de danske arkiver.'],
-    ['Ove Samuel Geddes forældre','Sandsynligvis søn af generalmajor Hans Christopher Gedde, men en primærkilde mangler, fx dåben 1778.'],
-    ['Claus Gaardsteds herkomst','Et skifteuddrag fra 1787 dokumenterer søsteren Karen Christensdatter; hans egne forældre og fødested kræver stadig kilder før 1787.'],
-    ['Lovisa Larsson i Malmö','Født 28. juni 1862, datter af Niels Larsen. Svenske kirkebøger kan føre grenen videre.'],
-    ['Sogne uden indeks','Flere aner er født i sogne, hvis kirkebøger ikke er indekseret for de år, fx Assing før 1814 og Klæsø og Hennetved i 1700-tallet. De skal læses side for side på Arkivalieronline.'],
-].map(([t,d])=>`<div><b>${esc(t)}</b>${esc(d)}</div>`).join('');
+
 }
 
 // ================= STAMTRÆ =================
