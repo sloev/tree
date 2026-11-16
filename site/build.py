@@ -1,9 +1,10 @@
-"""Builds site/index.html (the visual family tree) from data/family.json."""
+"""Builds the site from data/tree.json using the site templates and assets."""
 import base64, json, os
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-data = json.load(open(os.path.join(root, "data", "family.json"), encoding="utf-8"))
-research = json.load(open(os.path.join(root, "data", "research.json"), encoding="utf-8"))
-geo = json.load(open(os.path.join(root, "data", "map.json")))
+canonical = json.load(open(os.path.join(root, "data", "tree.json"), encoding="utf-8"))
+data = canonical["family"]
+research = canonical["research"]
+geo = canonical["map"]
 recent_path = os.path.join(root, "data", "recently-edited.json")
 recent = json.load(open(recent_path, encoding="utf-8")) if os.path.exists(recent_path) else {"people": {}, "latest_bulletin": None}
 bulletin = recent.get("latest_bulletin")
