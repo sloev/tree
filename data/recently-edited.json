@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "f5a3d28152de57954e3d9a5fe3ffd3139b98898f",
+    "commit": "ac15b03be526b753edcd59afb3ddb7bc032301ce",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "data/tree.json"
     ],
     "people": [],
-    "title": "Import full Lorenz paternity dossier and correct Kleist/Woyten note placement"
+    "title": "Correct placement of imported Kleist, Woyten and Danish branch research notes"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
