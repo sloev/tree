@@ -469,3 +469,25 @@ The evidence audit notes a possible **Carl Vilhelm Krogh**, reportedly born 9 No
 ### Næstved / Ludvigsen collateral
 
 Vitta Dorthea Henriette Mathilde Ludvigsen (`p55`) is in the Gedde family. Her parents Johan Alexander Ludvigsen (`p110`) and Margaretha Dorothea Elisabeth Bølin (`p111`) are named but have little ancestry. Search Næstved Sankt Peders baptisms in 1847 and the parents' marriage; Bølin is a rare surname and should be searched under spelling variants. Keep this as a collateral branch until the marriage and parentage are confirmed.
+
+
+### Further catalogue tracing: 1932 Gråsten police paternity records
+
+A second DAISY pass materially improves the police-archive route. The catalogue lists **Politiprotokol for faderskabsager, 1920–1976** under both:
+- **Aabenraa Politikreds / Åbenrå Politi** (creator's official period 1920–1973; catalogue series 1920–1976): [DAISY creator and series overview](https://daisy.rigsarkivet.dk/arkivskabers_arkivserier?a=&b=&c=politi&d=1&dir=a&e=2016&ed=&ep=&epid=&es=&f=&faid=&g=&gsc=he&h=&heid=&henid=&int=&m2rid=&meid=&ngid=723322&ngnid=723324&side=1&sort=3).
+- **Gråsten Politikreds** (the successor creator, officially 1973–2006; its catalogue nevertheless lists the same 1920–1976 paternity-protocol series, plus a separate *Faderskabsprotokol* for 1963–1976): [DAISY Gråsten creator and series overview](https://daisy.rigsarkivet.dk/arkivskabers_arkivserier?a=&b=&c=&d=&dir=a&e=&ed=&ep=&epid=&es=&f=&faid=&g=&gsc=&h=&heid=&henid=&int=&m2rid=&meid=&ngid=723236&ngnid=&side=1&sort=2).
+
+This is stronger than the earlier generic Gråsten *Politiprotokol* / *Register til politiprotokol* route. The duplicated 1920–1976 series under both creators may reflect archival transfer or catalogue arrangement; it does **not** yet prove that a 1932 Gråsten case survives or identify its box/volume. Ask Rigsarkivet to check the 1932 section and determine whether Gråsten/Egernsund cases are indexed by mother's name, alleged father's name, or case number. The Gråsten creator overview also shows a separate *Faderskabsprotokol* only from 1963, so that later series is not the target.
+
+Aabenraa's catalogue separately lists *Alimentationsjournal* (1920–1950), *Navneregister til alimentationsjournal* (1920–1950), and *Politiprotokol for faderskabsager* (1920–1976). These are additional leads, but Aabenraa's county/city jurisdiction should not be presumed to cover Egernsund. Ask whether the Aabenraa name register or journal cross-refers cases handled by Gråsten police, and whether the shared catalogue series is a merged or duplicated archival description.
+
+Sources:
+- [Aabenraa Politics archive overview, DAISY](https://daisy.rigsarkivet.dk/arkivskabers_arkivserier?a=&b=&c=politi&d=1&dir=a&e=2016&ed=&ep=&es=&f=&faid=&g=&gsc=he&h=&heid=&henid=&int=&m2rid=&meid=&ngid=723322&ngnid=723324&side=1&sort=3)
+- [Gråsten Politics archive overview, DAISY](https://daisy.rigsarkivet.dk/arkivskabers_arkivserier?a=&b=&c=&d=&dir=a&e=&ed=&ep=&epid=&es=&f=&faid=&g=&gsc=&h=&heid=&henid=&int=&m2rid=&meid=&ngid=723236&ngnid=&side=1&sort=2)
+- [Gråsten Politics register and police-protocol catalogue listing](https://daisy.rigsarkivet.dk/arkivskaber_eller_arkivserie_liste?a=&b=&c=politi&d=1&dir=a&e=2016&ed=&ep=&epid=&es=&f=&faid=&g=&gsc=he&h=&heid=3914051&henid=3914051&int=&m2rid=&meid=&ngid=5195068&ngnid=5195086&side=1&sort=2)
+
+### Wilhelm Krogh's 1932 residence: unresolved
+
+This research pass did not locate an independently verifiable census or directory entry for Wilhelm/Vilhelm Krogh at Snogbæk in 1932. The birth-register marginal note's description “landarbejder Wilhelm Krogh, Snogbæk” remains the only presently documented residence clue in this dossier. Do not treat Snogbæk as proof that he was resident in Broager parish on the precise date of the declaration, nor merge him with the separate Carl Vilhelm Krogh 1908 candidate or Detlef Krogh 1905 candidate.
+
+The exact address and employer remain important because Rigsarkivet's guidance warns that when the parents lived in different judicial districts, interviews and file references can be split across districts. The next useful work is to identify the relevant Krogh household in the 1930 census and contemporary parish/address records, then use that residence to test whether any second police/court district must be searched. No original paternity file has yet been located or inspected.
