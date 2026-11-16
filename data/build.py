@@ -22,7 +22,7 @@ def write_json(path, value):
 def must_be_private(person, this_year=2026):
     if person.get("public_consent") is True or person.get("private"):
         return False
-    year = re.search(r"\\d{4}", str(person.get("born") or ""))
+    year = re.search(r"\d{4}", str(person.get("born") or ""))
     return bool(person.get("living") or (
         not person.get("died") and year and int(year.group()) >= this_year - 100
     ))
