@@ -214,6 +214,107 @@ A separate audit covers the 22 proposed people exp020–exp041 and the repaired 
 - The expanded JSON note says Hans Jürgen III.186's son was Pribislaff III.281, existing canonical `p3472`, but the structured parent fields do not encode `p3472.father = exp033`. This narrative/structure mismatch remains open.
 - Existing `p3473` Esther von Kameke is identified in the expanded export as Anna Esther von Kameke, wife of Pribislaff III.281; the proposed parents are Jacob von Kameke of Körlin and Catharina von Koller. These are family-genealogy claims needing exact page/primary-record confirmation.
 
+### Medieval-to-early-modern von Kleist evidence audit (16 November 2026)
+
+This is a source-by-source evaluation of the medieval and early-modern leads preserved in the archived branch dossier, cross-branch ledger, expanded export audit and the current family-history publications. It does **not** establish a continuous descent from the medieval Klest to canonical Pribislaff III.281 (p3472). The following evidence grades describe what each item supports, not the prestige of the family or the authority of a later pedigree.
+
+#### A. Earliest documentary horizon: 1248–1289
+
+| Lead | What the source actually supports | Assessment |
+|---|---|---|
+| Bertoldus and Conradus Clest, 1248 | The family association's Urkunden index lists Urk. 26 ff. as documentary mentions of these name-bearers. | **Documented namesake(s), not yet linked.** No evidence found in this pass that identifies either as ancestor of the later Muttrin, Tychow or Danish branch. |
+| Prissebur and Clest, 1289 (Urk. 75) | Quandt's transcription of the 1289 Bukow Abbey land grant names the witnesses “prissebur, clest fratres” among Pribislaw's ministeriales. The family-history argument reads these as brothers Prissebur and Clest. | **Strong medieval clue, disputed interpretation.** The charter transcription is evidence that both names occur in the witness list. The kinship reading depends on punctuation/Latin usage and is expressly challenged by von Ledebur; Quandt argues against that alternative. It is not safe to present the brother relationship as an uncontested literal statement. |
+| Klest de Densin seal | The family history reports a seal matrix found in 1834, bearing “S(igillum) Klest de Densin” and the Kleist arms, dated stylistically around 1300. The original matrix's post-1945 whereabouts are reported unknown; casts survive in the family archive. | **Corroborating heraldic/topographical argument, not a surviving contemporary parentage record.** It strengthens the association of a Klest at Densin with the later family, but does not name his children. |
+
+Quandt's own text is particularly important because it shows the reasoning rather than merely repeating a pedigree: [English translation, section IV](https://v-kleist.com/FG/english/Kleist%20history%201289%20to%201477.pdf), especially the discussion of Urk. 75 and the alternative reading (PDF text around pp. 170–171); compare the [German original](https://www.v-kleist.com/FG/Genealogie/genealogie.pdf). The family association's [important-charters index](https://v-kleist.com/FG/urkunden/urkunden.htm) labels Klest de Densin the ancestor, but that is the association's synthesis, not a new independent witness.
+
+#### B. The Muttrin bridge: 1364 through the fifteenth century
+
+1. **Prissebur of Muttrin, Urk. 83 (1364).** The family association's current charter cross-reference assigns Urk. 83 to Prissebur of Muttrin in 1364 ([document-to-person index](https://v-kleist.com/FG/urkundenzuordnung.htm)). The 2025 Muttrin volume quotes him as “Prißebur, der Klest heißt von Muttrin” and says he was the second son of Klest (M.1). The 1364 document is the dated anchor; the claim that he was Klest's son is a reconstruction from the early family genealogy of 1576 and an older letter, not something the 1364 wording alone proves. **Grade: strong dated person/estate evidence; parentage probable, not primary-record proven.**
+2. **Jarßlaff and Henning as sons of Prissebur.** The 2025 Muttrin introduction explicitly attributes these sons to the 1576 family genealogy and an older letter concerning Glineke. The older letter reportedly says Prissebur obtained the property for himself and in the name of his two sons. This is meaningful family-record evidence, but the original letter and the 1576 genealogy need inspection and provenance assessment. **Grade: plausible and specifically sourced to later family records; not yet independently verified.**
+3. **The 1389 and 1407 names.** The current document cross-reference assigns a 1389 entry to Pritzbor at Zatkow and identifies Henning of Muttrin in Urk. 100 (2 February 1407). The 2025 Muttrin introduction says the 1407 record names Henning M.8 as the son of Henning M.3; it also discusses Jarßlaff's sons Kurt of Damen and Henning of Bruskow. **Grade: dated documentary appearances are strong; the family relationships must be kept attached to the exact named person and charter, not inferred from similar names.**
+4. **Henning M.8 and the seven sons.** The 2025 Muttrin introduction says Henning M.8 was alive in 1435 (Urk. 104), married a von Wedelstett according to the old family genealogy, and had seven sons: Bisprow, Pribslaff, Dubbeschlaff, Jacob, Schir, David and Voltzen. The seven-child list comes from the old genealogy; it is not stated as a full seven-son list in the cited 1435 record. **Grade: mixed evidence; dated life evidence plus later pedigree for wife/children.**
+5. **Bisprow and the 1477 enfeoffment.** The 2025 Muttrin volume identifies Bisprow (III.1) as son of Henning M.8, alive in the 1477 record and deceased about 1493. The 1477 collective fief letter is a strong documentary anchor for named landholders and some stated son-groups. It does not by itself prove every earlier link back to Prissebur.
+
+The 2025 Muttrin volume itself says the early arrangement of persons is probable and based on contemporary documents together with later family records. This is a critical qualification, not a minor disclaimer. See [Muttrin, 2025](https://www.v-kleist.com/FG/Muttrin/Muttrin.pdf), introduction (PDF text around pp. 3–7), and the [charter cross-reference](https://v-kleist.com/FG/urkundenzuordnung.htm). Note a date correction for our working notes: **Urk. 83 is indexed as 1364 for Prissebur of Muttrin; 1368 is Urk. 84 for Dubbeslaff Cleest.** Do not carry forward a 1368 date for Prissebur.
+
+#### C. The 1477 charter and the three main lines
+
+Quandt's transcription of the 13 April 1477 collective fief letter (Urk. 125) says the enfeoffed Kleists testified that they descended from an “Oldervater” who had three sons. It then groups named people at Muttrin, Damen, Tychow/Dubberow and Vilnow/Raddatz. The [family association's charter summary](https://v-kleist.com/FG/urkunden/urkunden.htm) likewise says the letter confirms three lines from a common ancestor and his three sons.
+
+This is important evidence for a **late-medieval family structure and shared agnatic tradition**, but it does not name the Oldervater or prove the exact parent-child links proposed by later genealogists. Quandt's transcription also contains a crucial ambiguity for the Tychow line: it reads “Pribbeslaff zu Muttrin mit seinen Söhnen, die Brüder Reymer und Bartes zu Tichow”; the 2025 Tychow-Dubberow genealogy instead places Reimer and Bartes as sons of Hans I.24. Keep that conflict open until the original charter or an authenticated copy is inspected.
+
+#### D. The Damen branch: Dubislaff “Bratta”
+
+The 2025 Damen volume says Dubislaff/Bratta (III.2), on Damen, was the son of Henning M.8 and Margarethe von Wedelstädt; it dates him to 1477 and death about 1482. It says the 13 April 1477 letter names him and five sons (Drews, Curt, Bisprow, Peter and Pribislaff), and that the sons were enfeoffed again in 1486 (Urk. 192). It also recounts his two marriages and assigns three sons to Catharina von Podewils and two to an unnamed von Glasenapp.
+
+Assessment:
+- The **five sons** have a particularly useful documentary route through the 1477 and 1486 enfeoffments.
+- Dubislaff's **parentage and wives** are presented in the 2025 family genealogy; inspect the cited old genealogy and original fief records before treating all details as independently established.
+- The account of his disputed acquisition of portions of Damen is a historical narrative about inheritance, pledges and family settlement, not proof of a direct line to p3472.
+- The Damen branch must not be assumed to be the same as the later Borntin line merely because both sit within the wider Muttrin-Damensche lineage.
+
+Source: [Damen volume, 2025](https://www.v-kleist.com/FG/Muttrin/Damen.pdf), especially the Dubislaff/Bratta biography (PDF text around pp. 2–4).
+
+#### E. The Borntin line and canonical Pribislaff III.281 (p3472)
+
+This is the critical bridge to the Danish officer Cartz Ulrik:
+
+- Harbou (1897) explicitly identifies **Cartz Ulrik (III.369)** as son of **Pribislaff (III.281)** of Muttrin, Borntin, Döbel and Drenow, and **Esther von Kameke**. Harbou says Cartz inherited Drenow from his father. This is direct secondary-genealogy evidence for the p3472 → Cartz Ulrik relationship and for the maternal name Esther von Kameke. Source: [Harbou, “Slægten von Kleist i Danmark,” pp. 95 ff.](https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf), section II.a (PDF text around p. 101).
+- The family association's male-name register identifies Pribislaff III.281 as “auf Muttrin”, died 1698, with wife abbreviated “A. E. v. Kamcke” and a biography reference at FG III,3 p. 277 ([register search result](https://v-kleist.com/FG/Muttrin/register5.html); the broader name register also lists him among the Muttrin Pribislaffs). This supports the identity/date/estate and a wife whose initials are A.E.; it does not itself state his parents.
+- The current canonical tree has p3472 with no father or mother recorded, and p3473 named Esther von Kameke with no parents. Cartz Ulrik (p1736) is linked to p3472 and p3473. Do not add a parent to p3472 merely from a third-party online tree.
+- The archive's earlier audit records a proposed link **Hans Jürgen III.186 → Pribislaff III.281 / p3472**, but notes that the expanded export did not encode it and that the exact Muttrin biography/number crosswalk remains to be checked. A Geneanet tree independently proposes Hans Jürgen (d. before 1665) and an unnamed N.N. von Kleist as p3472's parents; treat that as a search lead only, not corroboration.
+- A separate proposal identifies p3473 as **Anna Esther von Kameke**, daughter of Jacob von Kameke of Körlin and Catharina von Koller. This is not yet established by the sources inspected. Do not conflate p3473 with the separate unnamed von Kameke woman proposed as wife of Hans Jürgen.
+
+**Current assessment:** p3472 → Cartz Ulrik is a strong published-genealogy relationship; p3472's own parentage is unresolved. The 1698 death and A.E. von Kamcke identity are supported by the family association's register, but the original biography and cited source notes should be read before upgrading the parents or expanding the maternal line.
+
+#### F. The separate Tychow-Dubberow → Danish Christian line
+
+Do not splice this line into the Borntin/Muttrin sequence:
+
+- The 2025 Tychow-Dubberow volume states that Georg II.55 of Groß-Tychow had one daughter, Hedwig Maria, who married Colonel Christian II.60; Georg died after 1645 and before 1665 and left no legitimate heirs. The same biography identifies Christina von Woyten as Georg's wife and her parents as Benedictus von Woyten and Elisabeth von Stojentin. Source: [Tychow-Dubberow English translation](https://v-kleist.com/FG/english/Dubberow_translation.pdf), PDF text around lines 3074–3075.
+- Harbou says Christian II.60 inherited an estate share from his father and another share through Hedwig Maria, but does not name the father in that paragraph. The 2025 Tychow-Dubberow genealogy gives the line **Bartes II.3 → Andreas/Drews II.11 → Carsten II.21 → Bernd II.39 → Christian II.60**.
+- The father of Reimer and Bartes remains disputed as set out above. That conflict affects the earliest Tychow bridge, not the later Bartes → Andreas → Carsten → Bernd → Christian sequence.
+- The 2025 Tychow-Dubberow volume is a revised family genealogy, but its translation states that the English text is machine-translated and not yet fully proofread. Check the German edition and the underlying Greifswald/Stettin records for critical details.
+
+The Georg–Christina–Hedwig–Christian connection is well supported by the family-history source. It is a **different route** into the family from the Borntin/Muttrin route leading to Cartz Ulrik.
+
+#### G. Collateral Woyten and Stojentin leads
+
+These names are relevant to the wider family network but do not extend the medieval von Kleist male line:
+
+- **Christina von Woyten:** the 2025 Tychow-Dubberow volume says she was the widow of Otto von Below of Pustamin, daughter of Benedictus von Woyten of Versin and Elisabeth von Stojentin of Giesebitz, and wife of Georg von Kleist. It identifies Hedwig Maria as Georg and Christina's only daughter/only legitimate heir in the passage. This supports the named marriage/parentage claims as a published family-history account; recheck the German text and cited records before adding collateral children.
+- **Earlier von Woyten sequence:** the archived ledger proposes Michael → Conrad → Conrad Pantaleon → Vandemar → Carl Woiten (flourishing c. 1400), with Martin von Woyten as a great-uncle of Benedictus. No precise page/column references or transcriptions were supplied. **Unverified lead only.** The Zedler vol. 59 “Woyden/Woyten” article must be located and transcribed before any links are accepted.
+- **Earlier von Stojentin sequence:** Hans/Johann von Stojentin (1446–1517) is proposed as father of Elisabeth of Giesebitz, with Peter von Stojentin and Elisabeth von Lettow as his parents. The dossier itself calls this probable, and the estate association with Giesebitz is not parentage evidence. **Hypothesis only.**
+- Otto von Below is Christina's earlier spouse; do not make him Hedwig Maria's father.
+
+#### H. Overall verdict and research order
+
+**What can presently be retained**
+- Medieval Klest/Clest persons are documented in the Pomeranian record tradition; the 1289 witness list and seal argument are a credible origin lead, but the interpretation of the witness relationship is contested.
+- Prissebur of Muttrin is documented in the 1364 charter tradition. His parentage and the Jarßlaff/Henning family sequence depend partly on later family records and reconstruction.
+- The 1477 fief letter is the key medieval bridge showing the late-medieval family structure and the three-line tradition.
+- The 2025 family histories and Harbou give useful, detailed Muttrin/Damen and Tychow-Dubberow branch structures, but the early generations are not uniformly proven by contemporary records.
+- Harbou strongly supports Cartz Ulrik as son of Pribislaff III.281 and Esther von Kameke. The identity of p3472 is clear enough to preserve; his parents are not.
+
+**What remains unproven**
+- A fully demonstrated biological chain from Klest de Densin (1289) to Pribislaff III.281 (d.1698).
+- The exact parentage of Pribislaff III.281, including the proposed Hans Jürgen III.186 link.
+- The exact identity and parents of Esther/A. E. von Kameke.
+- The Reimer/Bartes father in the Tychow branch.
+- The proposed pre-1600 von Woyten and von Stojentin lines.
+
+**Next work, in order**
+1. Inspect Urk. 75 (1289), Urk. 83 (1364), Urk. 100 (1407), Urk. 104 (1435), Urk. 125 (13 April 1477) and Urk. 192 (28 December 1486) in the document book, recording exact wording, witness lists, seals, date and archival provenance. The family-history transcriptions are finding aids, not substitutes for the charters.
+2. Read the 2025 Muttrin biography around III.281 / printed p.277 in the German PDF, and crosswalk its current numbering against Harbou's III.281 and the old expanded-export IDs exp032–exp033. Resolve whether Hans Jürgen III.186 is truly p3472's father and identify the cited document(s).
+3. Inspect the 1576 genealogy and the older Glineke letter cited for Prissebur's sons. Establish where the originals are held and whether the quoted text survives.
+4. Compare the German 2025 Tychow-Dubberow volume with the English translation and inspect the original 1477 charter to resolve Reimer/Bartes.
+5. Locate and transcribe Zedler vol. 59's “Woyden/Woyten” article; trace every named person to its cited source rather than accepting the sequence as a pedigree.
+6. Search for primary records for the proposed Stojentin relationship at Giesebitz; do not use the estate as a substitute for a parentage record.
+
+**No canonical relationships were changed in this audit.** All medieval and early-modern proposals remain research assertions until the source work above is complete.
+
+
 ### Tychow / Reimer and Bartes: unresolved father conflict
 
 Two sources conflict:
