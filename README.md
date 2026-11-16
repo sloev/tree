@@ -69,3 +69,11 @@ Status gælder den enkelte påstand — især hver enkelt relation — ikke auto
 Når persondata i `data/build_data.py` ændres, eller en person nævnes i de ændrede linjer i et forskningsdossier, registrerer GitHub Actions den relevante person. Personen får en lille gul prik i stamtræet i 30 dage, og en dateret opdatering indsættes øverst i nyhedsbulletinen. Ændringer i forskningsdossierer, forskningsarkivet, samarbejdsloggen eller README udløser også et genbyg og en ny bulletinpost. Bygget regenererer familiedata, GEDCOM og hjemmesidens HTML; de genererede filer skal ikke redigeres manuelt.
 
 Markeringen er en visuel ændringsindikator, ikke en kilde- eller sikkerhedsgrad. En ændring i et dossier, der ikke nævner en bestemt person på de ændrede linjer, giver en bulletinpost, men ingen vilkårlig personmarkør. Markørerne udløber efter 30 dage. Se `.github/workflows/rebuild-site.yml` og `tools/mark_recent_people.py` for implementeringen.
+
+### Åben forskningsside — også det, der endnu ikke er bevist
+
+Hjemmesiden skal være et **åbent forskningstræ**. Relevante, privatlivsmæssigt forsvarlige spor skal vises, mens de undersøges — ikke først når de er bevist. Et klik på en person eller forbindelse skal forklare status, kildernes oprindelse, hvad de faktisk viser, eventuelle modstridende oplysninger og præcis hvad der mangler. Mulige biologiske forbindelser må ikke ligne fastslåede slægtskabsforhold; vis dem særskilt og tydeligt foreløbigt.
+
+Vi vil gerne have hjælp fra besøgende. Forskningssiden skal derfor gøre det let at finde åbne spørgsmål efter navn, sted, slægtslinje og status og give en konkret anvisning på, hvilken kirkebog, folio, folketælling, skifteprotokol eller anden kilde der kan afklare spørgsmålet. Bidrag kan sendes via [GitHub Issues](https://github.com/sloev/tree/issues) eller Pull Requests. Se [den fulde publicerings- og privatlivsmetode](research_method.md#9-open-public-research-and-community-contributions).
+
+Åbenhed gælder historisk forskning, ikke private oplysninger: levende personer, private dokumenter, følsomme detaljer og ikke-offentliggjorte oplysninger om informanter skal fortsat beskyttes. En familieoplysning kan godt offentliggøres som familieoplysning, når det er forsvarligt; den må aldrig præsenteres som et dokumenteret faktum alene af den grund.
