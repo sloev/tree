@@ -3,7 +3,7 @@ FULL FAMILY TREE EXPORT - "Slægten Gårdsted og Gedde" (Gaardsted/Gedde family)
 ====================================================================================================
 Source website      : https://sloev.github.io/tree/ (single-page app; data embedded in index.html)
 Extracted           : 2026-11-16
-Person records      : 523 total = 489 original + 34 NEW persons added by backward research 2026-11-16 (see Section I)
+Person records      : 524 total = 489 original + 35 NEW persons added by backward research 2026-11-16 (see Section I)
 Family lines        : 7
 Place gazetteer     : 54 places with coordinates
 Site photo gallery  : 11 images
@@ -13,8 +13,8 @@ HOW TO FETCH / CROSS-REFERENCE
 ----------------------------------------------------------------------------------------------------
 - GEDCOM file (same person ids): https://raw.githubusercontent.com/sloev/tree/master/family-tree.ged
 - GEDCOM on GitHub             : https://github.com/sloev/tree/blob/master/family-tree.ged
-- EXPANDED GEDCOM in this package: family-tree-expanded.ged - 523 INDI (489 site persons + the 34 new
-  ancestors of Section I) + 159 FAM; family links rebuilt with the Section-I corrections
+- EXPANDED GEDCOM in this package: family-tree-expanded.ged - 524 INDI (489 site persons + the 35 new
+  ancestors of Section I) + 160 FAM; family links rebuilt with the Section-I corrections
   (e.g. mother of Ove Samuel Gedde [p216] = Frederikke Christiane Fischer [exp009]).
 - Family posters (PDF):
     A1 all ancestors : https://sloev.github.io/tree/plakat-A1-alle-aner.pdf
@@ -370,6 +370,7 @@ exp030     * Hans von Kleist (III. 54) auf Borntin            ? - 1585          
 exp026     * Hans von Kleist (III. 6) zu Muttrin              ? - 1515/1516          Gedde- og von Kleist-linjen 
 p6949        Hedvig Maria von Kleist                          ? - ?                  Gedde- og von Kleist-linjen Formoder 12 generationer tilbage, mors side
 exp022     * Henning von Kleist (M. 3)                        ? - ?                  Gedde- og von Kleist-linjen 
+exp042     * Henning von Mutteryn (M. 8)                       ? - ?                  Gedde- og von Kleist-linjen 
 exp008     * Inger Ivers                                      ? - ?                  Gedde- og von Kleist-linjen 
 exp036     * Jacob von Kameke zu Körlin                       ? - ?                  Gedde- og von Kleist-linjen 
 p104         Jens Jensen                                      ? - ?                  Gedde- og von Kleist-linjen Forfader 6 generationer tilbage, mors side
@@ -8151,7 +8152,7 @@ Occupations   :
 Locations over time: (no residence list on site)
    ? Muttrin, Pommern (derived from birth/death record)
    1493 Muttrin, Pommern (derived from birth/death record)
-Parents       : [exp022] Henning von Kleist (M. 3) (?); [exp038] … von Wedelstedt (?)
+Parents       : [exp042] Henning von Mutteryn (M. 8) (?); [exp038] … von Wedelstedt (?)
 Spouse(s)     : [exp025] … von Natzmer (?)
 Children (1)  :
    - [exp026] Hans von Kleist (III. 6) zu Muttrin (b. ?, d. 1515/1516)
@@ -8725,9 +8726,9 @@ Died          : ?
 Occupations   : (none recorded)
 Locations over time: (no residence list on site)
 Parents       : [exp021] Prissebur (?)
-Spouse(s)     : [exp038] … von Wedelstedt (?)
+Spouse(s)     : (not recorded)
 Children (1)  :
-   - [exp024] Bisprow von Kleist (III. 1) til Muttrin (b. ?, d. ca. 1493)
+   - [exp042] Henning von Mutteryn (M. 8) (b. ?, d. ?)
 Sources (with resolved URLs where possible):
    - MUT:Muttrin (Familiengeschichte v. Kleist, Muttrin-Damensche Linie, revideret udgave 2025, v-kleist.com/FG/Muttrin/Muttrin.pdf)
        -> https://www.v-kleist.com/FG/Muttrin/Muttrin.pdf
@@ -8735,6 +8736,32 @@ Notes (full text from the site):
    Søn af Prissebur (ifl. 1576-genealogien), broder til Jarsslaff (M. 2). Fader til Bispraw den yngre (M. 7) og Henning von Mutteryn (M. 8, i live 1435, Urk. 104). Hennings (M.8) syv sønner Bisperow, Pribslaff, Dubbeschlaff, Jacob, Schir, David og Voltzen grundlagde Grenene af Muttrin-Damen-linjen.
 Site record   : (not yet on the public site - person added by backward research 2026-11-16, see Section I)
 GEDCOM id     : (not yet in the GEDCOM - proposed id @exp022@ for when you add it to the site)
+
+====================================================================================================
+[exp042] Henning von Mutteryn (M. 8) [NEW - ADDED BY BACKWARD RESEARCH 2026-11-16, see Section I]
+====================================================================================================
+Sex           : M
+Family line   : Gedde- og von Kleist-linjen
+Ahnen number  : -
+Relation      : -
+Confidence    : Sandsynlig (probable)
+Status        : Deceased
+Born          : ?
+Died          : ?
+Occupations   : (none recorded)
+Locations over time: (no residence list on site)
+Parents       : [exp022] Henning von Kleist (M. 3) (?)
+Spouse(s)     : [exp038] … von Wedelstedt (?)
+Children (1)  :
+   - [exp024] Bisprow von Kleist (III. 1) til Muttrin (b. ?, d. ca. 1493)
+Sources (with resolved URLs where possible):
+   - MUT:Muttrin (Familiengeschichte v. Kleist, Muttrin-Damensche Linie, revideret udgave 2025, v-kleist.com/FG/Muttrin/Muttrin.pdf)
+       -> https://www.v-kleist.com/FG/Muttrin/Muttrin.pdf
+Notes (full text from the site):
+   Søn af Henning (M. 3); i live 1435 (Urk. 104). Muttrin 2025 omtaler ham som Henning (M. 8), den yngre søn af Henning (M. 3), og siger at han ifølge den gamle familiegenealogi var gift med en von Wedelstett og havde syv sønner, herunder Bisperow (III. 1). Ægteskabet og sønnerækken er udtrykkeligt henført til den ældre familiegenealogi; de skal ikke behandles som samtidige dåbs-/vielsesbeviser.
+Site record   : (not yet on the public site - person added by backward research 2026-11-16, see Section I)
+GEDCOM id     : (not yet in the GEDCOM - proposed id @exp042@ for when you add it to the site)
+
 
 ====================================================================================================
 [exp008] Inger Ivers [NEW - ADDED BY BACKWARD RESEARCH 2026-11-16, see Section I]
@@ -10675,7 +10702,7 @@ Died          : ?
 Occupations   : (none recorded)
 Locations over time: (no residence list on site)
 Parents       : (not recorded)
-Spouse(s)     : [exp022] Henning von Kleist (M. 3) (?)
+Spouse(s)     : [exp042] Henning von Mutteryn (M. 8) (?)
 Children (1)  :
    - [exp024] Bisprow von Kleist (III. 1) til Muttrin (b. ?, d. ca. 1493)
 Sources (with resolved URLs where possible):
@@ -14942,8 +14969,8 @@ GEDDE LINE (bourgeois family) - one generation further back + the missing wife:
            article, brother of Ove Samuel; + wife [exp013] Juliane Frederikke Margrethe Kleist (b. 2.12.1781,
            d. 22.5.1861).
 
-VON KLEIST MEDIEVAL CHAIN - the paternal line behind Frederikke Louise von Kleist (p217), extended by
-9 generations, from Pribislaff III.281 (p3472, previously the frontier) back to the 13th century:
+VON KLEIST MEDIEVAL CHAIN - the proposed paternal line behind Frederikke Louise von Kleist (p217), extended by
+10 proposed ancestor steps from Pribislaff III.281 (p3472) toward the 13th century; early links remain provisional and p3472→exp033 is not yet encoded in the structured parent fields:
   [exp020] Klest de Densin - stamvater of the von Kleist family, first named 1289.
   [exp021] Prissebur - son of Klest; resident at Muttrin ca. 1320; NAMED IN DEED No. 83 OF 1364 as co-owner
            of land in Glineke ("PriSSebur, der Klest heisSt von Muttrin").
@@ -15143,4 +15170,4 @@ a person in Arkivalieronline/Link Lives, change conf to "record".
 IMAGES & MEDIA: local file paths under /home/z/my-project/download/family-tree-images are already-extracted JPGs from the site.
 Other URLs are external archive links; arkiv.dk returns 403 to bots but works in a browser.
 END OF EXPORT
-Generated 2026-11-16 from the public data of https://sloev.github.io/tree/ (embedded DATA JSON, 523 person records).
+Generated 2026-11-16 from the public data of https://sloev.github.io/tree/ (expanded research JSON, 524 person records).
