@@ -1,0 +1,202 @@
+================================================================
+SEGMENT 13 — HARBOU RECONCILIATION WORKSHEET
+Every PHT:1897 citation in family-tree.ged, 29 of them, with
+what it currently asserts and what to check. Work down the
+columns. Do not delete a citation before its row is closed.
+================================================================
+
+PROCEDURE
+---------
+1. Read the row's person in Harbou (both PDFs; the German one is
+   the typescript original and the Danish one is the translation
+   — where they differ, note both).
+2. Fill the HARBOU NR column with Harbou's own number. This is
+   the column O-1 needs: III.22, III.54, III.114, III.186 and
+   III.281 are somewhere in this list or adjacent to it, and
+   finding them by name is the whole job.
+3. Fill CHECK with what Harbou actually says.
+4. Set STATUS: CONFIRM / CORRECT / HARBOU ONLY / SILENT.
+   - HARBOU ONLY means the file's claim rests on Harbou alone and
+     no register has been read. Those rows are the exposure.
+   - SILENT means Harbou does not have the person; the citation
+     is then wrong and should be replaced or removed.
+5. Only CONFIRM rows keep a PHT:1897 citation. CORRECT rows get
+   the corrected text plus the citation. HARBOU ONLY rows get a
+   "sekundær, ikke efterprøvet" note.
+
+----------------------------------------------------------------
+A — THE DANISH BRANCH, generation 7-11
+----------------------------------------------------------------
+ID          PERSON                        ASSERTION            HARBOU NR  CHECK  STATUS
+@p108@      Ove Frederik Christopher       b. Jul 1808          ____       ____   ____
+            /Gedde/                        Fredensborg; plejesøn
+                                           hos Hammer
+@p216@      Ove Samuel /Gedde/             b. 28 Feb 1778;      ____       ____   ____
+                                           d. 10 Mar 1843
+                                           Helsingør; oberst
+@p217@      Frederikke Louise Dorthea      b. 5 Jan 1786;       ____       ____   ____
+            von /Kleist/                   d. 24 Jan 1870;
+                                           datter af Christian
+                                           Frederik
+@s_p216_0@  Wilhelm Edvardt Sophus von     b. 1809; sekond-     ____       ____   ____
+            /Gedde/                        løjtnant 1834
+@s_p216_1@  Henriette /von Gedde/          b. 1819              ____       ____   ____
+@s_p108_0@  Emilie Sophie Frederikke       b. 7 Jul 1842        ____       ____   ____
+            /Gedde/
+@s_p108_1@  Margrethe Ida Marie /Gedde/    b. 11 Apr 1849       ____       ____   ____
+@s_p108_2@  Ove Frederik /Gedde/           b. 11 Dec 1850;      ____       ____   ____
+                                           d. 24 Oct 1907
+@s_p434_0@  Christine Sophie von /Kleist/  b. 28 Aug 1771;      ____       ____   ____
+                                           d. 31 Mar 1862;
+                                           m. Hammer 1795
+@s_p434_1@  Adam Ludvig Vilhelm von        b. 16 Oct 1772;      ____       ____   ____
+            /Kleist/                       d. 6 Oct 1851
+@s_p434_2@  Valentin Ulrik von /Kleist/    b. 31 Dec 1773;      ____       ____   ____
+                                           d. 23 Jul 1827
+@s_p434_3@  Frederik Christian von         b. 8 Jan 1775;       ____       ____   ____
+            /Kleist/                       d. 21 May 1848
+@s_p434_4@  Carl Gottlieb von /Kleist/     b. 15 Jan 1778;      ____       ____   ____
+                                           d. 26 Jul 1849
+@s_p434_5@  Juliane Frederikke Margrethe   b. 2 Dec 1781;       ____       ____   ____
+            von /Kleist/                   d. 22 May 1861;
+                                           m. N. W. Gedde 1811
+@s_p434_6@  Henriette Louise von /Kleist/  b. 30 Nov 1795;      ____       ____   ____
+                                           d. 12 Apr 1827;
+                                           m. von der Recke 1813
+@s_p868_0@  Frederikke Louise von          b. 27 Mar 1747;      ____       ____   ____
+            /Kleist/                       d. 29 May 1814
+
+Note on @s_p434_5@: this is the marriage that confirms Ove
+Samuel's brother Nicolai Wilhelm, and it is the row where Harbou
+matters most. If Harbou has it, the Kleist-Gedde double marriage
+is documented from a contemporary and segment 2's "sandsynligvis"
+note is fully closed.
+
+Note on @s_p434_0@: Christine Sophie is the foster mother. Harbou
+is the only source for the fostering arrangement in the file,
+and @p108@'s whole entry hangs on it.
+
+----------------------------------------------------------------
+B — generation 12-13
+----------------------------------------------------------------
+@p434@      Christian Frederik von /Kleist/ b. 25 Aug 1743;     ____       ____   ____
+                                           d. 12 Jul 1799;
+                                           kammerherre 1779
+@p435@      Anna Margrethe /Schubart/      b. 3 Apr 1753;       ____       ____   ____
+                                           d. 24 Aug 1842;
+                                           m. 3 Dec 1770
+@p868@      Christian Adam von /Kleist/    b. 1 Oct 1705       ____       ____   ____
+                                           København; d. 31
+                                           Oct 1778 Bredsted
+@p869@      Sophie /Rosenkrantz/           b. 1714; d. 4 Jun    ____       ____   ____
+                                           1770; dame de
+                                           l'Union parfaite
+@p870@      Johan Valentin /Schubart/      major i kavaleriet   ____       ____   ____
+@p871@      Christiane Sophie /Woldenberg/ —                    ____       ____   ____
+@p1738@     Christian Rosenkrantz til       gehejmeråd;         ____       ____   ____
+            /Skovsbo/                      godsejer Skovsbo
+@p1739@     Frederikke Louise /Krag/       —                    ____       ____   ____
+
+Cross-check @p869@: "Dame de l'Union parfaite 1752" and a 1714
+birth with a 1770 death. The l'Union parfaite order was founded
+1732 and its membership rolls survive in the Rigsarkiv; if she is
+in them, that is a primary confirmation of a person who
+otherwise exists only in Harbou.
+
+Cross-check @p868@: Dansk biografisk Lexikon IX p. 219 is cited
+alongside Harbou. Read DBL too — where two printed sources agree
+independently the row can be closed at B without a register.
+
+----------------------------------------------------------------
+C — generation 14-17, the Pomeranian end
+----------------------------------------------------------------
+@p1736@     Cartz Ulrik von /Kleist/       d. Nov 1722;         ____       ____   ____
+                                           premierløjtnant
+                                           1701; herre til
+                                           Drenow; såret ved
+                                           Helsingborg 1710 og
+                                           Gadebusch 1712
+@p1737@     Barbara Juliane von /Kleist/   d. after 1730;       ____       ____   ____
+                                           boede på Drenow
+@p3472@     Pribislaff von /Kleist/       godsejer Muttrin,     ____       ____   ____
+                                           Borntin, Döbel,
+                                           Drenow
+@p3473@     Esther von /Kameke/            —                    ____       ____   ____
+@p3474@     Christian Casimir von /Kleist/ b. 1654; d. 1 Feb    ____       ____   ____
+                                           1722 Oldenborg
+@p3475@     Anna von /Fürst/               d. 1722; fra         ____       ____   ____
+                                           Schlesien
+@p6948@     Christian von /Kleist/         d. 1679; branden-    ____       ____   ____
+                                           borgsk oberst;
+                                           godsejer Gross
+                                           Tychow
+@p6949@     Hedvig Maria von /Kleist/      første hustru;       ____       ____   ____
+                                           bragte Gross
+                                           Tychow ind
+@p13898@    Georg von /Kleist/             godsejer Gross        ____       ____   ____
+                                           Tychow
+@p13899@    Christina von /Woyten/         —                    ____       ____   ____
+
+FOUR ROWS THAT NEED SPECIAL CARE
+--------------------------------
+1. @p3473@ "Esther von /Kameke/". GN2 has Hans Jürgen von Kleist
+   married to an unnamed N.N. von Kameke, and Barbara von Kameke
+   married to Wilhelm von Kleist. Two Kameke women, one
+   generation apart, and the file's "Esther" is not in GN2. Either
+   Harbou names her and the forename stands, or the file has
+   imported a forename from somewhere else. Check before anything
+   else in section C.
+
+2. @p3475@ "Anna von /Fürst/". Fürst is not a Pomeranian name in
+   the same way as the rest of this set; "von Fürst" and "von
+   Fürsten" are different families. Confirm the form.
+
+3. @p6949@ Hedvig Maria "von /Kleist/". A Kleist marrying a
+   Kleist, and she is the one who brings Gross Tychow in. If
+   Harbou shows her as a von Kleist of a different branch, the
+   line has a cousin marriage in it and the note should say so.
+
+4. @p1736@ Cartz Ulrik's wounding and capture. Harbou is the only
+   source for Helsingborg 1710 and Gadebusch 1712 in the file.
+   Those are checkable against the Danish military histories of
+   both actions, independently of Harbou.
+
+----------------------------------------------------------------
+D — THE NUMBERS O-1 NEEDS
+----------------------------------------------------------------
+When you have filled HARBOU NR for section A-C, sort the sheet by
+that column. The five numbers the site's note already quotes —
+III.22, III.54, III.114, III.186, III.281 — will either land on
+rows in this sheet or fall in the gaps between them. Either
+answer is a result:
+
+- If they land on rows: the chain is confirmed by name and the
+  von Kleist extension in segment 1 goes into the GEDCOM.
+- If they fall in the gaps: the chain runs through persons the
+  file does not have, and the gaps between the nearest numbers
+  are exactly the persons to add, in order, from Harbou.
+
+Fill the gaps from Harbou before touching segment 1. That is the
+sequence: worksheet, then gaps, then import.
+
+----------------------------------------------------------------
+E — WHAT HARBOU IS AND IS NOT
+----------------------------------------------------------------
+Is: a contemporary, related by marriage, working from family
+papers, the Danish military rolls and the church books, in 1897.
+Detailed, dated, and the origin of most of the Pomeranian detail
+in the file.
+
+Is not: a primary source. He is reconstructing a German line he
+had no registers for, from a family history (GK) that is itself
+partisan and, per its own 2025 revision, wrong in the earliest
+generations. Everything he says about Pomerania before 1700 is
+third-hand at best.
+
+So: use Harbou to identify and date the Danish generations, which
+he knew. Use him only to locate the Pomeranian ones, and let GK
+and the Greifswald charters carry those.
+
+Conf: A for the distinction.
+
+== END SEGMENT 13 — reply "next" for the negatives log ==
