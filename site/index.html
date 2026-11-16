@@ -264,11 +264,11 @@ button,a{touch-action:manipulation}
   *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
 
-/* Vertical, expandable tree: mobile-first and no horizontal canvas. */
+/* Non-collapsible, mobile-first ancestor folder hierarchy. All known branches stay visible. */
 .homepage-tree{scroll-margin-top:86px}
 .homepage-tree .ped-scroll{overflow-x:hidden;overflow-y:visible;max-height:none;min-height:0;padding:clamp(10px,2vw,22px);touch-action:pan-y;background:#fff;border-color:#e2e8f0}
-.ped-tree{width:100%;max-width:900px;margin:0 auto;color:#17212b}
-.ped-branch{min-width:0;margin:0 0 9px}
+.ped-tree{width:100%;max-width:920px;margin:0 auto;color:#17212b}
+.ped-branch{position:relative;min-width:0;margin:0 0 9px}
 .ped-card{position:relative;display:flex;flex-direction:column;gap:5px;min-width:0;padding:11px 12px 10px 14px;border:1px solid #e2e8f0;border-left:4px solid var(--line,var(--rule-2));border-radius:10px;background:#f8f9fa;box-shadow:0 1px 2px rgba(15,23,42,.035)}
 .ped-card-top{display:flex;align-items:center;justify-content:space-between;gap:8px;min-width:0}
 .ped-name{all:unset;cursor:pointer;min-width:0;font-weight:700;font-size:.95rem;line-height:1.3;overflow-wrap:anywhere;color:#17212b}
@@ -281,18 +281,19 @@ button,a{touch-action:manipulation}
 .ped-dot.sex-f{background:#d96b9a}.ped-dot.sex-m{background:#4388d6}
 .ped-card.uncertain{border-style:dashed}
 .ped-card.sel{outline:2px solid #2563eb;outline-offset:1px}
-.ped-children{position:relative;margin:8px 0 15px clamp(8px,1.5vw,14px);padding:0 0 0 clamp(12px,2vw,18px);border-left:2px solid #cbd5e1}
+.ped-children{position:relative;margin:8px 0 15px clamp(8px,2vw,18px);padding:0 0 0 clamp(13px,2vw,20px);border-left:2px solid #94a3b8}
 .ped-children>.ped-branch{margin-top:8px}
-.ped-children>.ped-branch:before{content:"";position:absolute;display:block;width:12px;border-top:2px solid #cbd5e1;transform:translate(-14px,24px)}
-.ped-branch[aria-level]{margin-left:min(calc((var(--depth,1) - 1)*2px),12px)}
+.ped-children>.ped-branch:before{content:"";position:absolute;left:0;top:22px;width:13px;border-top:2px solid #94a3b8}
+.ped-branch[aria-level]{margin-left:min(calc((var(--depth,1) - 1)*3px),18px)}
 @media(max-width:600px){
  .homepage-tree .ped-scroll{padding:8px 6px}
- .ped-card{padding:10px 9px 9px 11px;border-radius:9px}
+ .ped-tree{max-width:100%}
+ .ped-card{padding:9px 9px 9px 11px;border-radius:9px;gap:4px}
  .ped-name{font-size:.9rem}
  .ped-gen{font-size:.6rem;padding:3px 6px}
- .ped-children{margin-left:6px;padding-left:10px}
- .ped-children>.ped-branch:before{width:10px;transform:translate(-12px,23px)}
-}.bulletin-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.bulletin-item{display:flex;flex-direction:column;align-items:flex-start;gap:8px;padding:16px;background:var(--sheet);border:1px solid var(--rule);border-radius:10px;min-width:0}.bulletin-item time{font:500 .72rem var(--f-data);color:var(--muted)}.bulletin-item h3{font-size:1.12rem}.bulletin-item p{font-size:.9rem;color:var(--ink-2)}@media(max-width:700px){.bulletin-list{grid-template-columns:minmax(0,1fr)}.homepage-tree .ped-scroll{padding:10px}.ped-card{padding:9px 10px}}
+ .ped-children{margin-left:5px;padding-left:10px}
+ .ped-children>.ped-branch:before{width:10px}
+}
 </style>
 <div class="wrap">
 <header class="mast">
@@ -346,7 +347,6 @@ button,a{touch-action:manipulation}
     <div class="bulletin-list">
       <article class="bulletin-item"><time datetime="2026-11-16">16. november 2026</time><span class="conf">Kildeidentifikation</span><h3>Dybbøl kirkebog: vielsesbogen er identificeret</h3><p>Arkivets registratur fastslår, at Dybbøl Ab 4 dækker vielser 1861–1906. Det indsnævrer søgningen efter Rasmus Jensen og Anne Christine Hansens vielse 18. september 1866. Selve indførslen er endnu ikke fundet og afskrevet, så ingen forældre er ændret på dette grundlag.</p></article>
       <article class="bulletin-item"><time datetime="2026-11-16">16. november 2026</time><span class="conf probable">Rettelse</span><h3>Dybbøl side 169: tidligere tolkning korrigeret</h3><p>Henvisningen KMB 1861–1927, side 169, billede 85, nr. 1, hører til ægteskabsdelen i Ab 4 og må ikke omtales som en dåbsindførsel. Den er ikke det samme som den endnu uidentificerede vielse i 1866.</p></article>
-      <article class="bulletin-item"><time datetime="2026-11-16">16. november 2026</time><span class="conf">Nye kilder</span><h3>Island: UUCP-forbindelser dokumenteret uafhængigt</h3><p>Islands IT-historiske selskab bekræfter UUCP-forbindelserne mellem Hafró og universitetets beregningscenter i 1986. En samtidig EUnet-oversigt fra april 1987 opfører hafro som Islands ene direkte EUnet-vært.</p></article>
     </div>
   </div>
 
