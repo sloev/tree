@@ -161,3 +161,13 @@ Append-only coordination log for the Gårdsted / Gedde family-history project. A
 **Next action:** request/copy Rep. 40 Nr. 35 gg, Bl. 2–13 from Landesarchiv Greifswald, identifying records for III.22, III.54, III.114, III.186, III.281 and III.369; in parallel inspect Harbou's cited Danish church, probate and military sources for the Cartz Ulrik → Christian Adam → Christian Frederik → Frederikke Louise line. Keep the other three grandparent dossiers queued after this high-value Kleist audit.
 
 **Handoff:** main only; maintain one active dossier per grandparent line; preserve privacy and source distinctions.
+
+
+### Follow-up: exact parish-record routes for the Danish Kleist descendants
+
+A further source search identified specific church-book series for the Harbou line:
+- Vor Frelsers, Christianshavn: a name index for baptisms 1704–1822, pointing into the bell-ringer's baptism books, is described in Rigsarkivet's November 2025 release notes and the church-book inventory. This is the route for Christian Adam III.466's reported 1 October 1705 baptism.
+- Rendsburg: both Christkirche and St. Marien have baptism registers covering 1743 and name indexes spanning the period. Harbou gives the town but not the church for Christian Frederik III.601, so both indexes must be checked.
+- Bredstedt: the church-book overview lists baptisms 1764–1830 and marriages 1764–1826. Bredstedt is a reasonable first check for the 1770 marriage and Frederikke Louise Dorthea's 1786 birth because Harbou places Christian Frederik's estate and death near Bredstedt, but the event localities are not explicitly stated. Treat it as a first search, not a confirmed parish.
+
+Added these exact series, signatures/volumes and caveats to the Lorenz dossier. No individual entry has yet been inspected, and no canonical data was changed.
