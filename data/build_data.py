@@ -135,6 +135,33 @@ person("p6", "Lorenz Heinrich Frederiksen", "M", ahnen=6, line="maternal", conf=
             "AO:Broager Vestre distrikt kontraministerialbog 1906–48, fødte 1933 nr. 1 (bsid 201141, billede 112)",
             "BillionGraves via MyHeritage (samling 10147): Lorenz H. Frederiksen, Sankt Jørgens Kirkegård, Svendborg",
             "MyHeritage: Folketælling 1940, 'Lorens Henrick Frederiksen'"])
+# Keep the two incompatible paternity accounts as separate, explicitly disputed claims.
+# The civil register/court entry proves that Wilhelm declared paternity and was recorded;
+# it does not, by itself, settle biological paternity.
+P[-1]["relationship_claims"] = [
+    {
+        "person": "sofus",
+        "relationship": "claimed_biological_parent",
+        "status": "disputed",
+        "asserted_by": "family account",
+        "sources": [
+            "Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)",
+            "Familiens håndskrevne anetavle",
+            "Familiens oplysninger"
+        ],
+        "note": "Familien identificerer gårdmandssønnen Sophus Petersen fra Påkjær som biologisk far; dette står i konflikt med den officielle registrering af Wilhelm Krogh."
+    },
+    {
+        "person": "p12",
+        "relationship": "paternity_declaration_and_civil_registration",
+        "status": "disputed_as_biological_parentage",
+        "asserted_by": "Egernsund civil birth register marginal note and court decision",
+        "sources": [
+            "AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4 (bsid 37658, billede 125)"
+        ],
+        "note": "Wilhelm Krogh erklærede faderskab 5. april 1932; en retsafgørelse 10. juni 1932 og randnote 11. juli 1932 registrerer ham som far. Dette dokumenterer erklæringen og den juridiske registrering, ikke nødvendigvis biologisk faderskab."
+    }
+]
 person("p7", "Gerda Frederiksen (f. Larsen)", "F", ahnen=7, line="larsen", conf="record",
        born="1935-08-17", bplace="Magleby (Nordenbro), Langeland", died="2019-07-18", dplace="Svendborg", spouse="p6",
        father="p14", mother="p15",
