@@ -10,7 +10,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from climb import q, record, role, ov, toks
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(ROOT, "data", "auto_siblings.json")
+
 THIS_YEAR = 2026
 
 def gen(n): return n + ("'" if n[-1:].lower() in "sxz" else "s")
@@ -46,9 +46,10 @@ def died_young(name, by, parish):
     return None
 
 def main():
-    fam = json.load(open(os.path.join(ROOT, "data", "family.json"), encoding="utf-8"))
-    P = fam["people"]
-    out = json.load(open(OUT, encoding="utf-8")) if os.path.exists(OUT) else []
+    tree_path = os.path.join(ROOT, "data", "tree.json")
+    tree = json.load(open(tree_path, encoding="utf-8"))
+    P = tree["family"]["people"]
+    out = tree.setdefault("ingestion", {}).setdefault("auto_siblings", [])
     done = {o["_for"] for o in out}
     for p in sorted([p for p in P if p.get("ahnen") and p["ahnen"] >= 4 and not p.get("private") and p.get("father") and p.get("mother")], key=lambda p: p["ahnen"]):
         if p["id"] in done: continue
@@ -95,7 +96,7 @@ def main():
             out.append(e); n += 1
         if not n: out.append({"_for": p["id"], "none": True})
         print(f"{p['ahnen']:>5} {p['name'][:40]:40} {parish}: {n} nye søskende", flush=True)
-        json.dump(out, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        json.dump(tree, open(tree_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 JUNK = re.compile(r"d[øo]df[øo]dt|udøbt|uægte|twilling|tvilling|tidlig|drengebarn|pigebarn|^n\.?n\.?$", re.I)
 
@@ -135,9 +136,11 @@ def clean(L, people):
 
 if __name__ == "__main__":
     if "--clean" in sys.argv:
-        fam = json.load(open(os.path.join(ROOT, "data", "family.json"), encoding="utf-8"))
-        L = clean(json.load(open(OUT, encoding="utf-8")), fam["people"])
-        json.dump(L, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        tree_path = os.path.join(ROOT, "data", "tree.json")
+        tree = json.load(open(tree_path, encoding="utf-8"))
+        L = clean(tree.setdefault("ingestion", {}).setdefault("auto_siblings", []), tree["family"]["people"])
+        tree["ingestion"]["auto_siblings"] = L
+        json.dump(tree, open(tree_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         print(sum(1 for x in L if not x.get("none") and not x.get("reject")), "søskende;", sum(1 for x in L if x.get("reject")), "afviste flokke")
     else:
         main()
