@@ -88,3 +88,8 @@ When adding or materially revising a research lead:
 
 The site rebuild workflow regenerates the public research section after changes to the research register. Check the workflow and Pages deployment before describing a new lead as live.
 
+
+
+## Forslag og arbejdsmateriale
+
+Manuelle og automatiske ane-/søskendeforslag samt familiedokumenternes supplerende rettelser opbevares i `data/tree.json` under `ingestion`. Det er fortsat indbakke-/arbejdsmateriale, ikke publicerede slægtsdata. Brug værktøjerne i `tools/`; de skriver til denne del af den kanoniske fil. Kun en bevidst, kildeunderbygget godkendelse flytter oplysninger til `family` eller `research`.
