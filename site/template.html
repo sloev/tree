@@ -290,6 +290,7 @@ button,a{touch-action:manipulation}
 </header>
 <nav class="tabs" aria-label="Sektioner">
   <a href="#stamtrae" data-anchor="stamtrae">Stamtræ</a>
+  <a href="#nyheder" data-anchor="nyheder">Nyheder</a>
   <a href="#oversigt" data-view="oversigt">Forside</a>
   <a href="#personer" data-view="personer">Personer</a>
   <a href="#kort" data-view="kort">Kort</a>
@@ -303,6 +304,13 @@ button,a{touch-action:manipulation}
   <div class="block">
     <p class="ink2" style="font-size:1.02rem">Din slægt fundet i kirkebøger, folketællinger, lokalarkiver og familiens egne papirer. Farfars side går tilbage til 1700-tallets Djursland, Mols og København. Farmor Liss' side kommer fra hedesognene i Vestjylland. Morfars side fører via Nybøl, Egernsund og Lejrskov til officersslægten Gedde og den pommerske adelsslægt von Kleist. Mormor Gerdas side er Sydlangeland og Langø-familien.</p>
     <div class="tiles" id="tiles"></div>
+  </div>
+
+  <div class="block homepage-tree" id="stamtrae">
+    <div class="sec-head"><span class="eyebrow">Anetavle</span><h2>Stamtræet</h2><p class="muted">Følg slægten lodret fra dig og bagud gennem generationerne. Fold en person ud for at se forældrene; vælg navnet for livshistorie og kilder.</p></div>
+    <div class="toolbar"><div class="seg" role="group" aria-label="Vis del af træet"><button type="button" data-root="1" aria-pressed="true">Hele træet</button><button type="button" data-root="2" aria-pressed="false">Fars side</button><button type="button" data-root="3" aria-pressed="false">Mors side</button></div><span class="count" id="pedcount"></span></div>
+    <div class="ped-scroll" id="pedscroll" tabindex="0" role="region" aria-label="Lodret, udvideligt stamtræ"><div id="ped" class="ped-tree" role="tree" aria-label="Slægtens anetræ"></div></div>
+    <p class="note-box">Træet viser Lorenz' biologiske far, <button class="linkish" data-pid="sofus">Sophus Petersen</button>, ifølge familiens viden. <button class="linkish" data-pid="p12">Wilhelm Krogh</button> tog skylden og står som far i standsregistret. Lorenz voksede op hos stedfaren <button class="linkish" data-pid="pf12">Peter Frederiksen</button>.</p>
   </div>
 
   <div class="block">
@@ -349,13 +357,6 @@ button,a{touch-action:manipulation}
         <p class="research-links"><a href="https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf" target="_blank" rel="noopener">Harbou: von Kleist i Danmark (1897)</a><a href="https://www.v-kleist.com/FG/Muttrin/Muttrin.pdf" target="_blank" rel="noopener">Muttrin-Damensche historie (2025)</a><a href="https://www.v-kleist.com/FG/Gesamt.pdf" target="_blank" rel="noopener">Pommerske dokumenter og lensbrev</a></p>
       </article>
     </div>
-  </div>
-
-  <div class="block homepage-tree" id="stamtrae">
-    <div class="sec-head"><span class="eyebrow">Anetavle</span><h2>Stamtræet</h2><p class="muted">Følg slægten lodret fra dig og bagud gennem generationerne. Fold en person ud for at se forældrene; vælg navnet for livshistorie og kilder.</p></div>
-    <div class="toolbar"><div class="seg" role="group" aria-label="Vis del af træet"><button type="button" data-root="1" aria-pressed="true">Hele træet</button><button type="button" data-root="2" aria-pressed="false">Fars side</button><button type="button" data-root="3" aria-pressed="false">Mors side</button></div><span class="count" id="pedcount"></span></div>
-    <div class="ped-scroll" id="pedscroll" tabindex="0" role="region" aria-label="Lodret, udvideligt stamtræ"><div id="ped" class="ped-tree" role="tree" aria-label="Slægtens anetræ"></div></div>
-    <p class="note-box">Træet viser Lorenz' biologiske far, <button class="linkish" data-pid="sofus">Sophus Petersen</button>, ifølge familiens viden. <button class="linkish" data-pid="p12">Wilhelm Krogh</button> tog skylden og står som far i standsregistret. Lorenz voksede op hos stedfaren <button class="linkish" data-pid="pf12">Peter Frederiksen</button>.</p>
   </div>
 
   <div class="block">
