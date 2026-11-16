@@ -535,7 +535,7 @@ function openPerson(id, push=true){
   dBack.hidden = hist.length<2;
   dTree.hidden = !p.ahnen;
   dTree.onclick = ()=>{ closeDrawer(); go('oversigt'); setRoot(1); highlight(id); };
-  const par=parentsOf(p), step=p.step&&byId[p.step], kids=childrenOf(p.id), stepkids=P.filter(c=>c.step===p.id), sibs=siblingsOf(p), sp=spousesOf(p);
+  const par=parentsOf(p), step=p.step&&byId[p.step], kids=childrenOf(p.id), stepkids=P.filter(c=>c.step===p.id), sibs=siblingsOf(p), sp=spousesOf(p), claims=p.relationship_claims||[];
   const lifeTxt = p.living? 'Lever' : [p.born?`Født ${fmtDate(p.born)}${p.bplace?' i '+p.bplace:''}`:'', p.died?`Død ${fmtDate(p.died)}${p.dplace?' i '+p.dplace:''}`:''].filter(Boolean).join('<br>');
   const list = arr => `<div class="plist">${arr.join('')}</div>`;
   dBody.innerHTML = `<div style="display:flex;flex-direction:column;gap:6px">
@@ -547,6 +547,7 @@ function openPerson(id, push=true){
      ${p.res.length?`<dt>Boede</dt><dd><ul>${p.res.map(r=>`<li><span style="font-family:var(--f-data);font-size:.8rem">${r[0]}</span> ${esc(r[1])}${r[2]?` <span class="muted">· ${esc(r[2])}</span>`:''}</li>`).join('')}</ul></dd>`:''}
      ${par.length?`<dt>Forældre</dt><dd>${list(par.map(q=>personLink(q)))}</dd>`:''}
      ${step?`<dt>Stedfar</dt><dd>${list([personLink(step)])}</dd>`:''}
+     ${claims.length?`<dt>Andre forældreskabsoplysninger</dt><dd>${list(claims.map(c=>`<div>${byId[c.person]?personLink(byId[c.person]):esc(c.person)} <span class="conf possible">${esc(c.status||'påstand')}</span><p class="muted" style="margin:4px 0">${esc(c.note||'')}</p>${c.sources?.length?`<div class="src">${c.sources.map(srcLink).join('<br>')}</div>`:''}</div>`))}</dd>`:''}
      ${sp.length?`<dt>Gift med</dt><dd>${list(sp.map(q=>personLink(q)))}</dd>`:''}
      ${sibs.length?`<dt>Søskende</dt><dd>${list(sibs.map(s=>personLink(s.p, s.half?' <span class="muted" style="font-size:.78rem">halvsøskende</span>':'')))}</dd>`:''}
      ${kids.length?`<dt>Børn</dt><dd>${list(kids.map(q=>personLink(q)))}</dd>`:''}
