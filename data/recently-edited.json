@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Forskningsmateriale eller kildegrundlag er opdateret. Se ændringsloggen og de relevante forskningsnoter for detaljer.",
-    "commit": "678ae45a03cb5f1a8f4a49522257fb2456c4dcf2",
+    "commit": "3a526737ccc6a29aa4badc32731cf70ecc125df3",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "coop.log.md"
     ],
     "people": [],
-    "title": "Log person drawer research links and build validation"
+    "title": "Log bounded null result for Dybbøl 1866 marriage image search"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
