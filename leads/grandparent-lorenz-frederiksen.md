@@ -626,3 +626,34 @@ Sources checked:
 - [Example of 1930 census citations for Vester Snogbæk, Sottrup parish](https://www.stroemming.dk/genealogy/gedweb/Public/da/Details/Details-I384.html) (an unrelated Petersen household; useful as a locality/census navigation aid, not evidence for Wilhelm).
 
 No proposed parent, grandparent, sibling or exact Krogh household has been confirmed from an original record. The canonical tree and all three fatherhood distinctions remain unchanged.
+
+
+### Follow-up: Sottrup census evidence and the 1932 Sønderborg court route (16 November 2026)
+
+The new Vester Snogbæk identification is supported as a real place/parish combination by independent local census references. A published biography of Hans Jørgen Andresen explicitly cites the 5 November 1930 census for **V. Sottrup parish, Snogbæk**, held at Rigsarkivet. Strømming's genealogy index also cites 1930 census entries for several households in Snogbæk, Sottrup parish, including the Petersen household at matrikel Snogbæk 18. These references establish the correct census locality and that the 1930 schedules are used by researchers; they do **not** identify Wilhelm or his family. The public K-name index's only Krogh entry is an unrelated Anne Marie Krogh, so it is not a usable name index for Wilhelm.
+
+The photo leads need to be kept separate:
+- Arkiv.dk search results list an undated item “1870–1900 Præstevænget 1, Nybøl, Detlef Krogh” and another “1927–1944 Detlef Krogh, Joller, Præstevænget 1, Nybøl”.
+- A local-history publication about Bachmann's brickworks names a Detlef Krogh among workers photographed in 1930.
+These could be valuable visual leads, but the Præstevænget/Nybøl address is not the stated Vester Snogbæk address, and none of the image captions establishes whether the person is Wilhelm's proposed father (b.1876), brother (b.1905), or another Detlef Krogh. Do not use them to merge identities.
+
+**Court/police catalogue refinement:** a DAISY search for the exact series name “faderskabssager” finds the following Sønderborg-specific holdings:
+- Sønderborg Politi: *Journal vedr. faderskabssager* only **1944–1945**.
+- Retten for Sønderborg Købstad / Sønderborg Købstads Civilret: *Journal for faderskabssager* **1944–1957**, *Retsbog for faderskabssager* **1946–1957**, and later dedicated *Faderskabssager* series. These start too late for the 1932 decision.
+- However, DAISY lists a general **Retsliste for borgerlige retssager** for Sønderborg Købstads Civilret covering **1920–1957**. This is now the best catalogued court entry point for the 10 June 1932 decision: ask staff to search the 1932 retsliste by the names Wilhelm Krogh, Else Gedde Jensen and Lorenz Frederiksen, and then trace any case number to the corresponding general civil judgment/protocol.
+- The dedicated Gråsten *Politiprotokol for faderskabsager* is catalogued from 1920–1976, so it remains a possible source for the mother's-side investigation, even though the alleged father's proposed Sottrup address points to Sønderborg.
+
+This confirms why the district split matters: the father-side 1932 civil case may be in Sønderborg's general civil court records, while interviews or police work concerning Else in Egernsund may be in Gråsten. Do not assume the later dedicated paternity series cover 1932 simply because the catalogue has a similar title for later years.
+
+Next action is to inspect the **1930 Sottrup parish schedules**, not Broager, and ask Rigsarkivet for the 1932 Sønderborg civil *retsliste* and associated judgment records. If the case is not in the Sønderborg retsliste, test the Gråsten general civil court registers as the mother's-side alternative.
+
+Sources:
+- [Hans Jørgen Andresen biography, citing 5 November 1930 census at V. Sottrup, Snogbæk](https://denstorekrig1914-1918.dk/soenderjyder-oversigt/soenderjyder-a/andresen-hans-joergen-1891-1973/).
+- [Strømming: Kristen Petersen, Snogbæk, Sottrup — 1930 census citation](https://www.stroemming.dk/genealogy/gedweb/Public/da/Details/Details-I383.html) (unrelated household; locality confirmation only).
+- [Arkiv.dk search listing, including Detlef Krogh photo captions](https://arkiv.dk/soeg?page=2&searchstring=krogh%2C+hans).
+- [Local-history publication: Bachmann brickworks workers in 1930](https://slaegtsbibliotek.dk/2025/953685.pdf).
+- [DAISY exact-series search: faderskabssager](https://daisy.rigsarkivet.dk/arkivserie_liste?a=&b=faderskabssager&c=&d=1&e=2024).
+- [DAISY: Retsliste for civil cases, including Sønderborg Købstads Civilret 1920–1957](https://daisy.rigsarkivet.dk/arkivskaber_eller_arkivserie_liste?c=retsliste&d=1&e=2019).
+- [Trap 5: Nybøl Herred — court and police district changes](https://trap5.lex.dk/herred/nyboel-herred-soenderborg-amt/).
+
+No Krogh household has yet been read in the original Sottrup 1930 census, and no 1932 court case number has been found. These remain the next record targets.
