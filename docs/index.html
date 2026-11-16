@@ -293,6 +293,52 @@ button,a{touch-action:manipulation}
  .ft-sex{width:13px;height:18px;flex-basis:13px;font-size:14px}
 }
 @media(prefers-reduced-motion:no-preference){.ft-line,.ft-nav button,.ft-chevron{transition:background .12s,color .12s,border-color .12s}}
+
+/* Nyhedsbulletin: tydelig afstand mellem de enkelte opdateringer. */
+#nyheder{gap:22px}
+#nyheder .sec-head{gap:9px;max-width:72ch}
+#nyheder .sec-head h2{margin-top:2px}
+#nyheder .bulletin-list{
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+  max-width:980px;
+  width:100%;
+}
+#nyheder .bulletin-item{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:9px;
+  padding:18px 20px 20px;
+  border:1px solid var(--rule);
+  border-left:3px solid var(--rule-2);
+  border-radius:8px;
+  background:var(--sheet);
+}
+#nyheder .bulletin-item time{
+  display:inline-block;
+  color:var(--muted);
+  font:500 .76rem/1.4 var(--f-data);
+  letter-spacing:.015em;
+}
+#nyheder .bulletin-item .conf{margin-top:0}
+#nyheder .bulletin-item h3{
+  font-size:clamp(1.12rem,1.6vw,1.32rem);
+  line-height:1.28;
+  margin-top:1px;
+}
+#nyheder .bulletin-item p{
+  max-width:76ch;
+  line-height:1.62;
+  color:var(--ink-2);
+}
+@media(max-width:640px){
+  #nyheder{gap:18px}
+  #nyheder .bulletin-list{gap:12px}
+  #nyheder .bulletin-item{padding:14px 15px 16px;gap:8px}
+  #nyheder .bulletin-item p{line-height:1.55}
+}
 </style>
 </head>
 <body>
