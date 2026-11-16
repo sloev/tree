@@ -666,6 +666,7 @@ function renderPed(root){
     card.style.setProperty('--gen-color',genColor);
     const top=document.createElement('div');top.className='ped-card-top';
     const name=document.createElement(p?'button':'strong');name.textContent=p?clean(p.name):(n%2?'Ukendt mor':'Ukendt far');
+    let nav=null;
     if(p){
       name.type='button';name.className='ped-name';name.setAttribute('aria-keyshortcuts','ArrowLeft ArrowRight');name.setAttribute('aria-label',clean(p.name)+', use left and right arrow keys to move between people in the same generation');name.addEventListener('click',()=>openPerson(p.id));
       const peers=generationNodes[depth]||(generationNodes[depth]=[]);
@@ -680,7 +681,7 @@ function renderPed(root){
         e.preventDefault();moveInGeneration(e.key==='ArrowRight'?1:-1);
       });
       peers.push({ahnen:n,person:p,button:name});
-      const nav=document.createElement('span');nav.className='ped-nav';
+      nav=document.createElement('span');nav.className='ped-nav';
       const prev=document.createElement('button');prev.type='button';prev.textContent='‹';prev.setAttribute('aria-label','Forrige person i samme generation');prev.title='Forrige i generationen';prev.addEventListener('click',()=>moveInGeneration(-1));
       const next=document.createElement('button');next.type='button';next.textContent='›';next.setAttribute('aria-label','Næste person i samme generation');next.title='Næste i generationen';next.addEventListener('click',()=>moveInGeneration(1));
       nav.append(prev,next);
