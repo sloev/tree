@@ -86,3 +86,21 @@ Validation: the main JavaScript function extracted from `site/template.html` pas
 4. Keep biological, legal and social parentage roles for Lorenz distinct.
 
 **Handoff:** Small commits on main only. No private data exposed. Repositories remain strictly separated.
+
+## 2026-11-16 — unified agent operating method and collaboration log
+
+**Request:** repository owner asked that the agent method be updated for every agent working in this repository and that this collaboration log be maintained.
+
+**Policy now made explicit in `AGENTS.md`:**
+- Every agent must read `AGENTS.md`, `research_method.md`, relevant recent handoffs in this log, and the existing tracks in `data/tree.json` before work.
+- `data/tree.json` → `research.claims[]` is the sole editable research registry. New evidence, leads, transcriptions, negative searches, conflicts, decisions and next steps are recorded in the relevant existing track; only genuinely new questions get a new track.
+- Detailed research history is stored as dated, provenance-bearing `research_notes[]` on the track, not in sidecar files. Required note fields: `title`, `text`, `provenance`, `imported_on`.
+- `leads/` and `research-archive/` are retired and must not be recreated as active workspaces. Generated JSON, GEDCOM, Markdown and HTML outputs must not be edited by hand.
+- Source criticism, relationship/identity caution, public-data privacy, main-only collaboration, SHA-safe edits, build verification and truthful deployment reporting are mandatory.
+- Every substantive agent task must append a dated summary here with affected tracks/files, commits, checks actually performed, outstanding checks and next action. This log is a handoff summary, not a parallel research ledger.
+
+**Related repository state:** the single-source research method is documented in `research_method.md`; the public register and imported note rendering are in `data/tree.json` and the site template. The historical lead/archive directories and the obsolete `data/build_data.py` were removed in the cleanup sequence. Retired dossier pointers were removed from research records and migrated note provenance was normalized to human-readable archive descriptions.
+
+**Validation / limitations:** repository file listings and research JSON were inspected through GitHub. The current canonical research register contains 54 tracks; detailed imported notes are stored on those tracks. A local Python build, GEDCOM export, browser/visual review and final Pages deployment check have not been performed as part of this log update. Do not infer those checks from a queued or unrelated Actions run.
+
+**Next:** use this method for all future agents and keep this log current. Reconcile any remaining stale README references or generated-site links to retired dossiers, then run `python3 data/build.py`, `python3 data/export.py`, `python3 site/build.py` in a local checkout and verify the latest Actions/Pages run.
