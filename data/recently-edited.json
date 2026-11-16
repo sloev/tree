@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "2a130641372f29264d2b82b733e8a530ddad1c5d",
+    "commit": "018bf8fb796a76e65219e9a7beb116f926765668",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "data/tree.json"
     ],
     "people": [],
-    "title": "Add remaining collateral and Gedde research tracks"
+    "title": "Ingest dossier research notes into canonical public research tracks"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
