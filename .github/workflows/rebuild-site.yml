@@ -11,6 +11,7 @@ on:
       - 'site/build.py'
       - 'site/poster.html'
       - 'site/unlock.js'
+      - 'tools/mark_recent_people.py'
       - 'images/**'
   workflow_dispatch:
 
@@ -33,6 +34,10 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+      - name: Mark recently edited people from source-data diff
+        env:
+          BASE_SHA: ${{ github.event.before || github.sha }}
+        run: python3 tools/mark_recent_people.py "$BASE_SHA" "$GITHUB_SHA"
       - name: Rebuild canonical data, GEDCOM and website
         run: |
           python3 data/build_data.py
@@ -42,7 +47,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/family.json family-tree.ged site/index.html site/plakat.html docs/index.html docs/plakat.html docs/.nojekyll
+          git add data/family.json data/recently-edited.json family-tree.ged site/index.html site/plakat.html docs/index.html docs/plakat.html docs/.nojekyll
           if git diff --cached --quiet; then
             echo "Generated outputs are already up to date."
             exit 0
