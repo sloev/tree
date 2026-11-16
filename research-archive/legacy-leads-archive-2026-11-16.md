@@ -3177,3 +3177,989 @@ These images are already in the family-tree repo at `https://github.com/sloev/tr
 
 *Catalog compiled November 2026. If you have additional family photographs or portraits to add, scan them and place them in `/home/z/my-project/upload/` for me to include in the next revision.*
 
+
+
+---
+
+# Archived file: leads/family-tree-evidence-audit.txt
+
+==============================================================================
+SLÆGTEN GÅRDSTED OG GEDDE — EVIDENCE AUDIT
+Strengthening the weakest truths, node by node
+==============================================================================
+Date: 16 November 2026
+Status: PROPOSED COMPILATION — not yet imported into canonical tree
+Source tree: https://sloev.github.io/tree/ (489 canonical people)
+Companion file: family-tree-expanded.txt (531 people after Nov 2026 expansion)
+
+PURPOSE
+=======
+This file audits every weak-truth node in the expanded tree, starting with
+the weakest. For each node, it lists:
+  1. The current claim and its confidence level
+  2. The sources currently cited
+  3. ADDITIONAL corroborating sources found in this November 2026 pass
+  4. The specific primary-source check that would settle the link
+
+WEAKEST = (a) conf="possible" or "told", (b) no parents recorded,
+         (c) sources restricted to user-sourced trees (WikiTree/Geni/MyHeritage),
+         (d) note contains "sandsynligvis", "måske", "ikke fundet", "ifølge familien".
+
+==============================================================================
+PART 1 — VON KLEIST TYCHOW CHAIN (deepest past, strongest chain)
+==============================================================================
+
+After the 16 Nov 2026 correction (Reimer → Bartes mix-up fixed), the chain is:
+  Hans Clest (I.24, c.1400)
+    └─ Bartes II.3 (c.1425, d.1523)
+       └─ Andreas II.11 (c.1500, efter 1546)
+          └─ Carsten den Ældre II.21 (c.1535, før 1618)
+             └─ Bernd II.39 (c.1565, efter 1665)
+                └─ Christian II.60 (d.1679) — p6948
+                   └─ Christian Casimir II.82 (1654-1722) — p3474
+
+PRIMARY-SOURCE STRENGTH: STRONG but secondary.
+
+Current evidence:
+  • VKA Dubberow (English translation), p.117, 122-145
+    https://www.v-kleist.com/FG/english/Dubberow_translation.pdf
+  • H. W. Harbou, "Slægten von Kleist i Danmark",
+    Personalhistorisk Tidsskrift 1897
+    https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf
+
+ADDITIONAL CORROBORATING SOURCES FOUND (Nov 2026):
+  • L. Quandt, "Die Bearbeitung der Genealogie des Kleistschen Geschlechts"
+    (genealogical treatise inside the VKA Geschichte, 1862-1887 edition)
+    https://www.v-kleist.com/FG/Genealogie/AllgemeineGeschichte.pdf
+    — explicitly discusses "Der Lehnbrief von 1477" (the feudal letter of 1477)
+    as the founding document for the Tychow-Dubberow line.
+  • Albrecht Elzow, "Pommerscher Adelsspiegel" (c.1695) — article on Kleist
+    https://www.v-kleist.com/FG/Genealogie/genealogie1.pdf
+    — the earliest secondary source for the von Kleist genealogy.
+  • Von der Osten, "Adelsspiegel" (1770) — extends Elzow
+    https://dirkpeters.info/?page_id=283 (Pommerscher Adelsspiegel project)
+    — names Bartes II.3's wife as "f. von Briesen" (confirms our correction).
+
+PRIMARY-SOURCE CHECK NEEDED TO REACH "RECORD" CONFIDENCE:
+  • The 1477 feudal letter itself (urk. 125 in VKA's urkundenbuch)
+    — Landesarchiv Greifswald, Rep. 40 Nr. 35 gg, bl. 2-13 (per VKA archive
+      overview https://www.v-kleist.com/bestand_greifswald.htm).
+    — The original was sold to Peter Christian von Kleist in 1766; current
+      archive text may be a copy. Inspect the Greifswald archive version.
+  • Lenbrev 23/8 1540 (urk. 459k) — Andreas II.11's feudal letter.
+  • Lenbrev 1/6 1546 (urk. 469) — Andreas II.11's re-investiture.
+  • Lenbrev 22/2 1575 (urk. 502) — Carsten II.21's feudal letter.
+  • Lenbrev 26/9 1618 (urk. 585) — Bernd II.39's feudal letter.
+  • Skifte efter Christian von Kleist 1679 (Rendsborg skifteprotokol).
+  Each of these would mention the parent's name explicitly.
+
+NOT DONE: We have not yet inspected these primary documents. The chain
+remains "record" in the sense that it is documented in a 19th-century
+family-published genealogy citing medieval feudal letters — but the actual
+letters have not been inspected in this research pass. Treat as
+"probable → record" pending primary inspection.
+
+==============================================================================
+PART 2 — GEDDE OFFICER LINE ( bourgeoisie, not noble )
+==============================================================================
+
+NODE: Christian Giedde (p864's father) — conf="record" but birth year 1638 vs 1639 conflict.
+
+Current claim in tree: Christian Giedde b.1638 Kville, d.1705 (buried Copenhagen)
+  Source: Danish Wikipedia: https://da.wikipedia.org/wiki/Christian_Giedde
+
+CORRECTION FOUND (Nov 2026):
+  Wikipedia explicitly states b.1639 in Kville, not 1638:
+  "Christian Giedde, (født i Kville i 1639, blev begravet i København i 1705)."
+  Bohuslän belonged to Sweden from 1658 — so "Kville" is in modern Sweden
+  (Kville herred, Bohuslän), but in 1639 it was still Danish/Norwegian territory.
+
+Christian Giedde's wife: Anna Margrethe Charlotte von Geijder
+  Born 1648 on Øsel (Saaremaa, Estonia)
+  Father: Carl Christian von Geijder, commander on Øsel (Courlandic nobility)
+  Mother: Charlotte von Vietinghoff
+  Source: https://da.wikipedia.org/wiki/Christian_Giedde
+
+ACTION: Update p864's note to reflect 1639 (Wikipedia explicit), not 1638.
+Original baptism record for Christian Giedde in Kville kirkebog (pre-1814) at
+Arkivalieronline. Kville sogn, Kville herred, Bohuslän — now in Sweden but
+records were transferred; check Riksarkivet (Stockholm) for Swedish-era copy
+or Arkivalieronline for the Danish-era scan.
+
+NODE: Samuel Christoph Gedde (p864) b.1691-07-14 Copenhagen, d.1766-02-02
+
+Current claim in tree: born Copenhagen 14/7 1691.
+Source: Harbou 1897 s.96-99, da.wikipedia.org/wiki/Samuel_Christoph_Gedde,
+Weilbachs Kunstnerleksikon.
+
+CORROBORATING SOURCES:
+  • Wikipedia (Danish): https://da.wikipedia.org/wiki/Samuel_Christoph_Gedde
+    — confirms parents, wife Marie Elisabeth Pechernaut de la Remière
+    (b.29 July 1705, d.6 Sept 1751), and 10 children.
+  • Weilbach: https://weilbach.lex.dk/Samuel_Christoph_Gedde
+    — confirms military career and cartographic work.
+  • His own work: Christianshavn 1751 map (Wikimedia Commons, public domain)
+    https://commons.wikimedia.org/wiki/File:Christianshavn_1751_by_Samuel_Christoph_Gedde.jpg
+    — primary source confirming his role as fortificationsetat chief.
+
+ACTION: Promote p864's conf to "record" — multiple independent sources
+(Harbou 1897, Wikipedia, Weilbach, his own cartographic works) corroborate.
+
+NODE: Hans Christopher Gedde (p432) b.1738 (no exact date in tree)
+
+Current claim: b.1738, d.1817-03-09, conf="probable".
+Source: Harbou 1897, Weilbach, Anker 1885.
+
+CONFLICT — birth date:
+  • Tree gives 1738.
+  • Weilbachs Kunstnerleksikon (https://weilbach.lex.dk/Hans_Christopher_Gedde):
+    "Født 23.6.1738 i Oldenburg, død 9.3.1817 i København, begr. smst. (Garn)."
+  • SNL (https://snl.no/Hans_Christopher_Gedde): "Født: 23. juni 1738, Oldenburg"
+  • Wikipedia (Danish): https://da.wikipedia.org/wiki/Hans_Christopher_Gedde
+  • Wikipedia (Norwegian): https://no.wikipedia.org/wiki/Hans_Christopher_Gedde
+  • Carl Johan Anker 1885: gives same dates.
+
+CORRECTION: Birth date is 23.6.1738 in Oldenburg (now Lower Saxony, Germany;
+then Danish territory as part of Slesvig-Holsten-Gottorp). Tree currently
+gives just "1738" — should be updated to "1738-06-23" with bplace "Oldenburg".
+
+NODE: Ove Samuel Gedde (p216) — birth date conflict 1778 vs 1788
+
+Current claim in tree: b.1778-02-28, d.1843-03-10, Helsingør.
+Sources: Harbou 1897 s.95 ff (gives 28 Feb 1778), current project data.
+
+CONFLICT:
+  • Harbou 1897: 28 Feb 1778, d.10 Mar 1843.
+  • P.I. Liebe & E. Borgstrøm, "Biografiske data om faste artilleriofficerer
+    af linien", p.509: 28 May 1778 — 10 Mar 1843.
+  • Carl Johan Anker, 1885, p.94: 28 May 1788 — 10 Mar 1843.
+    (Project Runeberg marks page as "unproofread OCR".)
+  • Fredensborg Slotssogn baptism register — has NOT been inspected.
+
+PRIMARY-SOURCE CHECK NEEDED:
+  • Fredensborg Slotssogn kirkebog for 1778 (entries around 28/2 1778 and
+    28/5 1778) at Arkivalieronline.
+    Search: https://arkivalieronline.rigsarkivet.dk/
+    Slottet Fredensborg had its own church register (Hof- og Slotsmenighed).
+    Per the church register guide at FamilySearch wiki:
+    https://www.familysearch.org/en/wiki/Denmark_Church_Records_Christenings_Guide
+  • Cross-check with army rolls (Militære Etater) at Rigsarkivet for
+    Ove Samuel Gedde's age at enlistment.
+
+Until then: keep 1778-02-28 as Harbou's date, flag in note that 28 May 1778
+(Liebe/Borgstrøm) and 28 May 1788 (Anker) are alternative readings.
+
+NODE: Øllegaard Sophie Fischer (p433) — spelling conflict Øllegaard vs Ødegaard
+
+Current claim: b.ca.1752, d.?, conf="probable".
+Source: Harbou 1897 (gives Øllegaard), Anker 1885 (gives Ødegaard).
+
+CONFLICT:
+  • Harbou 1897: name "Øllegaard Sophie Fischer" (2nd wife, m. 15 Feb 1789).
+  • Anker 1885: name "Ødegaard Sophie Fischer" (2nd wife, m. 15 Dec 1789).
+  • Marriage date conflict: 15 Feb 1789 vs 15 Dec 1789.
+
+PRIMARY-SOURCE CHECK NEEDED:
+  • Marriage register for Hans Christopher Gedde's 2nd wedding (1789)
+    in Copenhagen (likely Garnisons Kirke or Frederiks Tyske Kirke).
+  • Burial register for Øllegaard Sophie Fischer.
+
+ACTION: Keep "Øllegaard" spelling as Harbou's, but flag the Anker alternative
+in note. The Fischer sisters (Frederikke Christiane and Øllegaard Sophie)
+were first cousins of Hans Christopher — verify with Fischer family records.
+
+NODE: Edvard Hammer Gedde (p54) — b.1845-09-08 Herlufmagle, d.1925-12-27
+
+Current claim: proprietær, vognmand, b.1845-09-08 Herlufmagle.
+Source: tree src=[LL:12-8975344] for birth, Herlufmagle Kirkebog.
+
+CORROBORATING SOURCES:
+  • The 1895 family photo "Familien Gedde" (in family-tree repo):
+    https://raw.githubusercontent.com/sloev/tree/main/images/familien-gedde-1895.jpg
+    — shows Edvard and Mathilde with their 12 children, including Paula.
+  • Trap Danmark 4. udgave: Tamdrup estate ownership records.
+
+ACTION: Already strong. Promote to conf="record" (LL: post + family photo).
+
+==============================================================================
+PART 3 — ROSENKRANTZ / KRAG / JUEL / ULFELDT NOBLE LINES
+==============================================================================
+
+The Rosenkrantz, Krag, Juel, Ulfeldt, Podebusk, Friis, Brahe, Gyldenstierne,
+Høeg, and Sehested entries (the Danish noble lines around Christian
+Rosenkrantz til Skovsbo and his wife Frederikke Louise Krag) currently rely
+on WikiTree and Geni as primary cited sources. These are user-sourced
+compilations. The CORROBORATING evidence we found in Nov 2026:
+
+KEY FINDING: Almost every entry in these lines is documented in
+**Danmarks Adels Aarbog (DAA)**, the official yearbook of Danish nobility
+published since 1884 by the Foreningen til Udgivelse af Danmarks Adels Aarbog.
+DAA is the gold-standard secondary source for Danish noble genealogy.
+
+DAA accessible at:
+  • https://www.familysearch.org/library/books/viewer/779881/ (1919 edition)
+  • https://catalog.hathitrust.org/Record/011408261 (catalog record)
+  • https://archive.org/details/danmarksadelaarb1900kj (selected volumes)
+  • https://slaegtsbibliotek.dk/samlinger/trap (Danish genealogy library)
+
+For each noble person in our tree, the DAA cross-check is:
+
+NODE: Christian Rosenkrantz til Skovsbo (p1738) b.1672, d.1736-09-03
+  Confirmed in:
+    • Wikipedia (Danish): https://da.wikipedia.org/wiki/Christian_Rosenkrantz
+    • Amtmandsbogen (Rigsarkivet): https://slaegtsbibliotek.dk/929042.pdf
+    • Erik Brindt: https://www.brindt.dk/erik_brindt/10359.htm
+    • Familypedia: https://familypedia.fandom.com/wiki/Christian_Rosenkrantz_(1672-1736)
+      — explicit "born 1672 to Jens Rosenkrantz (1640-1695) and Dorte Friis
+      (1654-1681) and died 3 September 1736 Skovsbo."
+
+PARENTS: Jens Rosenkrantz (1640-1695) + Dorte Friis (efter 1652 — 1681)
+  Currently ★NY entries rk_f_christian and rk_m_christian.
+  • WikiTree (Krag-235) confirms Jens + Dorte as Frederikke's parents-in-law.
+  • Familypedia confirms Jens Rosenkrantz 1640-1695 + Dorte Friis 1654-1681.
+  • Amtmandsbogen (https://slaegtsbibliotek.dk/929042.pdf) p.193: "Søn af
+    etatsråd Jens Rosenkrantz og grevinde Dorthe Friis."
+
+ACTION: These are confirmed by multiple secondary sources. Confidence
+upgraded to "record" pending DAA volume verification.
+
+NODE: Jørgen Holgersen Rosenkrantz til Kjeldgård (rk_g_ff) b.1607-07-11
+  Confirmed in:
+    • Wikipedia (English): https://en.wikipedia.org/wiki/Jørgen_Rosenkrantz
+      "Jørgen Rosenkrantz (11 July 1607 – 8 January 1675) was a Danish
+      nobleman who served as headmaster of Sorø Academy..."
+    • WikiTree: https://www.wikitree.com/wiki/Rosenkrantz-78
+    • Painting by Johan Thim 1640 (Wikimedia Commons):
+      https://commons.wikimedia.org/wiki/File:Jørgen_Rosenkrantz.jpg
+    • Wikidata: https://www.wikidata.org/wiki/Q114760342
+
+NODE: Holger Rosenkrantz "den Lærde" (rk_g_fff) b.1577-06-02
+  Currently ★NY entry.
+  Confirmed in:
+    • Wikipedia (English): https://en.wikipedia.org/wiki/Holger_Rosenkrantz
+      "Holger Rosenkrantz (14 December 1574 – 28 October 1642) was a Danish
+      nobleman and member of the Danish Council of State."
+      ⚠ CONFLICT: Wikipedia gives b.1574-12-14, our tree gives b.1577-06-02.
+      Both dates are cited to different sources. The WikiTree entry
+      (https://www.wikitree.com/wiki/Rosenkrantz-113) gives 14 Dec 1574
+      at Kalø, Randers, son of Jørgen Ottesen Rosenkrantz.
+      NEED: Check Danmarks Adels Aarbog for the canonical date.
+
+  • Painting by Johan Thim 1636 (Wikimedia Commons):
+    https://commons.wikimedia.org/wiki/File:Johan_Thim_1636_Holger_Rosenkrantz_den_laerde_IMG_5857.jpg
+    Held at Portrætsamlingen, Frederiksborg Slot.
+  • National Portrait Gallery London: https://www.npg.org.uk/collections/search/portrait/mw40567/Holger-Rosenkrantz
+    — sitter entry for "Holger Rosenkrantz (1586-1647), Nobleman and soldier"
+    ⚠ This NPG entry gives 1586-1647 — which matches Holger Axelsen Rosenkrantz
+      (rk_fmf, Frederikke's great-grandfather), NOT Holger Rosenkrantz "den
+      Lærde" (1577/1574-1642). They are two different Holgers.
+      DO NOT CONFLATE. Our entry is correct: Holger den Lærde b.1574 or 1577.
+
+ACTION: Investigate 1574 vs 1577 birth date. Likely two Holgers confused in
+the tradition. The "Holger den Lærde" who married Sophie Axelsdatter Brahe
+and was the son of Jørgen Ottesen Rosenkrantz was b.1574 (per Wikipedia and
+WikiTree). Our 1577-06-02 date may be a different Holger Rosenkrantz.
+NEED: DAA Rosenkrantz volume for definitive identification.
+
+NODE: Sophie Axelsdatter Brahe (rk_g_ffm) b.1578-05-11 Elvedgaard
+  Confirmed in:
+    • Geni: https://www.geni.com/people/Sophie-Brahe/6000000006910675540
+      "Sophie Axelsdatter Brahe (1578 - 1646). Immediate Family:
+      Holger Jørgensen Rosenkrantz. husband, Mette Holgersdatter Rosenkrantz,
+      daughter, Jørgen Holgersen Rosenkrantz, II. son."
+  • This is NOT the famous Sophia Brahe (1556/1558-1643), sister of astronomer
+    Tycho Brahe. Sophie Axelsdatter (1578-1646) was a different person, daughter
+    of Axel Brahe til Elvedgaard. Both were of the Brahe family but different
+    branches. Don't conflate.
+
+NODE: Mogens greve Friis til Frijsenborg (rk_g_mf) b.1623-09-07 Skumstrup
+  Currently ★NY entry.
+  Confirmed in:
+    • Wikipedia (Danish): https://da.wikipedia.org/wiki/Mogens_Friis
+      "Mogens Friis (født 7. september 1623 på Skumstrup, død 9. juli 1675
+      i København), Gehejmeråd og Greve."
+      ⚠ CONFLICT: Our tree gives 1623-04-16, Wikipedia gives 1623-09-07.
+      The Wikipedia date appears more reliable (multiple corroborating).
+      Our 4/16 date may be a confusion with baptism vs birth date.
+    • Dansk Biografisk Leksikon: https://biografiskleksikon.lex.dk/Mogens_Friis
+    • Aarhuswiki: https://aarhuswiki.dk/wiki/Mogens_Friis_(1623-1675)
+      "Portræt af Mogens Friis (1623-1675) efter maleri på Frederiksborg,
+      udfærdiget i 1670."
+    • Painting by Abraham Wuchters 1670 (Wikimedia Commons):
+      https://commons.wikimedia.org/wiki/File:Mogens_Frijs.jpg
+    • Finn Holbek: https://finnholbek.dk/getperson.php?personID=I12754&tree=2
+      (mobile: https://finnholbek.dk/getperson.php?tng_extras=1&personID=I12754&tree=2&sitever=mobile)
+
+PARENTS of Mogens Friis: Niels Friis til Favrskov + Dorthe Gyldenstjerne
+  (per Wikipedia: "Han var søn af Niels Friis til Favrskov og Skumstrup
+  (Vilhelmsborg) (af den gamle adelsslægt med et rødt egern i våbenet) og
+  dennes første hustru, Dorthe Mogensdatter Gyldenstjerne til Restrup.")
+  Currently NOT in our tree — would extend another generation back.
+
+ACTION: Correct our tree to 1623-09-07 (per Wikipedia). Consider adding
+Mogens Friis's parents (Niels Friis + Dorthe Gyldenstjerne) as further
+verified ancestors.
+
+NODE: Admiral Niels Juel (kr_mf) b.1629-05-08 Christiania, d.1697-04-08
+  Confirmed in:
+    • Wikipedia (English): https://en.wikipedia.org/wiki/Niels_Juel
+    • Wikipedia (Danish): https://da.wikipedia.org/wiki/Niels_Juel
+    • Wikidata: https://www.wikidata.org/wiki/Q451738
+    • Commons: https://commons.wikimedia.org/wiki/Category:Niels_Juel
+    • Painting by Jacob Coning (Wikimedia Commons):
+      https://commons.wikimedia.org/wiki/File:Niels_Juel_(Jacob_Coning_painting).jpg
+    • Encyclopædia Britannica 1911: https://en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Juel,_Niels
+    • Geneanet: https://gw.geneanet.org/sdenais?lang=en&n=juel&p=niels
+    • Dansk Biografisk Leksikon: https://biografiskleksikon.lex.dk/Niels_Juel
+    • Geni: https://www.geni.com/people/Admiral-Niels-Juel-til-Valdemar-slot/5667678941080027324
+
+PARENTS of Niels Juel: Erik Juel til Alsted (1591-1657) + Sophie Sehested (1594-1658)
+  • Erik Juel confirmed in Wikipedia (Danish): https://da.wikipedia.org/wiki/Erik_Juel_(rigsråd)
+    "Erik Juel, ofte refereret til som Erik Juel til Hundsbæk og Alsted
+    (født 1591, død 13. februar 1657), var dansk lensmand, embedsmand og
+    Rigsråd samt far til Admiral Niels Juel."
+  • WikiTree (Juel-81): https://www.wikitree.com/wiki/Juel-81
+    "Erik Juel born 1591 in Alsted Øster Nykirke (Nørvang H., Vejle).
+    Died 13 Feb 1657. Married Sophie Clausdatter Sehested 27 Sep 1618 in Viborg."
+  • Cross-confirmed: https://www.roskildehistorie.dk/stamtavler/adel/Sehested/Sehested.htm
+    (Sehested family tree includes Sophie Clausdatter ~ married Erik Juel)
+  • SlektenKaas: http://slektenkaas.com/familygroup.php?familyID=F2281&tree=1
+    (confirms marriage date and locations)
+
+ACTION: Promote to conf="record". All four sources (Wikipedia da/en,
+WikiTree, Roskilde Historie, SlektenKaas) agree.
+
+NODE: Margrethe Knudsdatter Ulfeldt (kr_mm) b.1641-06-17, d.1703-05-01
+  Confirmed in:
+    • Dansk Biografisk Leksikon: https://biografiskleksikon.lex.dk/Margrethe_Ulfeldt
+      "Margrethe Ulfeldt, 17.6.1641 - 1.5.1703, legatstifter. Født på
+      Østergård, Harre hrd, død i Kbh., bisat i Holmens k.s kapel."
+    • Geneanet: https://gw.geneanet.org/sdenais?lang=en&n=juel&p=niels
+    • Wikipedia: married Niels Juel in 1661 (per Encyclopædia Britannica 1911
+      and Dansk Biografisk Leksikon).
+
+PARENTS: Knud Ulfeldt (1609-1657) + Vibeke Podebusk (1608-1645)
+  • Knud Ulfeldt confirmed in Wikipedia (Danish):
+    https://da.wikipedia.org/wiki/Knud_Christoffersen_Ulfeldt
+    "Knud Christoffersen Ulfeldt (født 1609, død 28. juli 1657) var en
+    dansk generalkrigskommisær. Knud Ulfeldts forældre var rigsråd
+    Christoffer Ulfeldt og Maren Urup."
+  • WikiTree: https://www.wikitree.com/wiki/Ulfeldt-29
+    Sources cite DAA explicitly.
+  • Dansk Biografisk Leksikon: https://biografiskleksikon.lex.dk/Christoffer_Ulfeldt
+    — entry for Christoffer Ulfeldt (Knud's father), confirms family.
+  • Müllnitz genealogy: http://www.xn--mllnitz-q1a.dk/getperson.php?personID=I3526&tree=tree1
+    "Knud ULFELDT f. 1609 d. 28 jul. 1657 Sibbarp, Sverige. ... som
+    Generalkrigskommisær, afsk. 1641, Salling Østergaard..."
+    — cites "Danmarks Adels Aarbog, Thiset, Hiort-Lorenzen, Bobé"
+    (the DAA editors).
+
+Vibeke Podebusk b.1608-05-02 Krapperup, d.1645-03-01
+  • Finn Holbek: https://finnholbek.dk/showmedia.php?mediaID=1035&medialinkID=2812
+    (portrait image)
+  • Wikidata: https://www.wikidata.org/wiki/Q110304683
+  • Olhus.dk: https://olhus.dk/getperson.php?personID=I11660&tree=tree1
+    "Vibeke Clausdatter Podebusk f. 2 maj 1608 Sverige, Skåne län d. Krapperup
+    Gods (Luggunde H.) Død 1 mar. 1645"
+
+ACTION: Promote to conf="record". Multiple independent sources including
+Dansk Biografisk Leksikon explicitly document this family.
+
+NODE: Holger Axelsen Rosenkrantz til Glimminge (kr_fmf) b.1586-05-09, d.1647-07-31
+  Currently ★NY entry.
+  Confirmed in:
+    • British Museum: https://www.britishmuseum.org/collection/term/AUTH235586
+      "Rosenkrantz, Holger Axelsen. Details: individual; military/naval;
+      official; Danish; Male. Life dates: 6 May 1586 -31 July 1647."
+    • Finn Holbek: https://finnholbek.dk/getperson.php?personID=I11866&tree=2
+      "Holger Axelsen 'den Rige' Rosenkrantz, født 9 maj 1586, Glimminge,
+      Skåne, Sverige. Død 31 jul 1647. Begravet Nyborg."
+      ⚠ CONFLICT: BM gives b.6 May, Finn Holbek gives 9 May. Likely
+        baptism (9 May) vs birth (6 May). Need to verify with original
+        Glimminge kirkebog.
+    • MyHeritage: https://www.myheritage.com/names/holger_rosenkrantz%20%20til%20glimminge
+    • FamilySearch: https://ancestors.familysearch.org/en/LH8K-Z8R/holger-axelsen-rosenkrantz-1586-1647
+
+  Note: called "den Rige" (the Rich) in some traditions, to distinguish from
+  "den Lærde" (the Learned) — but they are first cousins. Both named Holger
+  Axelsen Rosenkrantz but different people.
+  • Holger den Rige (1586-1647) — til Glimminge, our ancestor
+  • Holger den Lærde (1574-1642) — til Rosenholm, also our ancestor
+    (Jørgen Holgersen's father, four generations up the same line)
+
+ACTION: Both Holgers confirmed. Add death/burial place (Nyborg) to entry.
+
+==============================================================================
+PART 4 — GAARDSTED LINE — OPEN ANCHOR: CLAUS GAARDSTED'S PARENTS
+==============================================================================
+
+NODE: Claus Gaardsted (p72) b.ca.1750, d.1811 — forpagter Vosnæsgaard 1787-ca.1796,
+      ejer Bogensholm 1796/97-1811.
+  Currently: no parents recorded. note: "ukendt".
+
+CURRENT SOURCES:
+  • Skifteuddrag Rolsøgård G302 (1778-1816), p.39 (under Niels Jensen Degn
+    probate no. 11, 14 May 1787): "Arv i boet til afdødes stedbørn efter
+    Christen Christensen Tohde? foged i Dejret (skifte 1764) til datter
+    Karen Christensdatter LV: broder Claus Gaardsted forpagter på Vosnæsgaard."
+    Source: https://slaegt.dk/media/jnnnvuml/alfabetisk-navneliste-og-skifteuddrag-til-rols%C3%B8g%C3%A5rd-gods-g302-mols-herred-1778-1816-1818.pdf
+  • Trap Danmark: Claus Gaardsted bought Bogensholm 1796 for 10,000 rigsdaler.
+    https://trap5.lex.dk/sogn/vistoft-sogn-mols-herred/
+  • Kongelig promemoria 6/8 1803: Claus as owner of Bogensholm.
+    https://da.wikisource.org/wiki/Side:Kongelige_Rescripter...1803-1804).pdf/258
+
+WHAT THE SOURCES SUPPORT:
+  • Claus Gaardsted was Karen Christensdatter's brother.
+  • Both were step-children of Christen Christensen Tohde, foged in Dejret.
+  • The index points to an EARLIER 1764 probate for Tohde in the Rolsøgård
+    estate records (before the indexed 1778-1816 volume).
+
+WHAT THE SOURCES DO NOT SUPPORT:
+  • Claus's biological parents are not named in the 1787 probate index.
+  • The word "stedbørn" (step-children) means Tohde was their step-father,
+    not their biological father. Their biological parent(s) are unknown
+    from this index alone.
+
+PRIMARY-SOURCE CHECK NEEDED:
+  • The earlier Rolsøgård estate probate series for 1764 — search under
+    Christen Christensen Tohde, possible spelling variants (Toft, Tofte),
+    and Dejret parish. The Rolsøgård estate archive is at Landsarkivet
+    for Sjælland (Rigsarkivet Viborg). The 1764 probate case would name:
+    - Tohde's marital history
+    - Names and relationships of his step-children
+    - Identity of their biological parent(s)
+    - Whether Claus Gaardsted is explicitly named as Karen's brother
+  • Dejret kirkebog (Mols herred) for Claus's baptism around 1750.
+    Pre-1814 ministerialbog at Arkivalieronline.
+  • Vistoft sogn kirkebog for Claus's marriage to Kirsten Marie Jørgensdatter
+    around 1780 — marriage entries typically name the bridegroom's father.
+
+NEIGHBORING CONTEXT (not in tree):
+  • Vosnæsgaard history (https://www.danskeherregaarde.dk/nutid/vosnaesgaard):
+    The estate's owner history is documented; Claus was forpagter (tenant),
+    not owner. Owner 1787 was likely the Dunker/Mørch family.
+  • Bogensholm history at Trap Danmark: https://trap5.lex.dk/sogn/vistoft-sogn-mols-herred/
+    The 1796 purchase for 10,000 rigsdaler is confirmed; Claus sold/was sold
+    by widow in 1811. Auction records may survive.
+
+ACTION: Schedule a reading-room visit at Rigsarkivet Viborg for the
+Rolsøgård estate archive, specifically the 1764 probate series. Until
+then, leave Claus's parents as "ukendt" with the existing note.
+
+==============================================================================
+PART 5 — ROUSING LINE — OPEN ANCHORS
+==============================================================================
+
+NODE: Rasmus Jensen (p304) b.ca.1718 Fuglslev, conf="possible"
+  Currently: no parents recorded.
+
+CONTEXT:
+  Fuglslev sogn, Mols herred, Randers amt. Pre-1814 ministerialbog NOT
+  indexed on Link Lives; images available at Arkivalieronline.
+  FT 1787 Fuglslev lists Rasmus Jensen, bonde og gårdmand, 70 år (=>b.ca.1717,
+  consistent with ca.1718 claim). [LL:0-655526]
+
+ACTION: Read Fuglslev kirkebog page-by-page for baptisms 1715-1720 at
+Arkivalieronline. The baptismal entries will name father, mother, place,
+and godparents — typically a paternal uncle or grandfather.
+
+NODE: Jens Rasmussen (p152) b.ca.1755 Fuglslev, conf="probable"
+  Current note: "I FT 1787 bor han i Fuglslev med hustruen Margrethe og sønnen
+  Rasmus. Forældrene ukendte."
+
+POSSIBLE PARENT: Rasmus Jensen (p304, b.ca.1718) — the age fits.
+  Currently no explicit link in tree; "conf=probable" suggests family
+  knowledge.
+
+ACTION: Fuglslev kirkebog entries 1755-1760 should contain Jens's baptism
+with father Rasmus (patronymic fits).
+
+NODE: Hans Jacobsen (p78) b.ca.1794, Maren Rasmusdatter (p79) b.ca.1798
+  No parents recorded for either.
+
+ACTION: Read Fuglslev kirkebog 1794-1798 baptisms. Both are patronymic —
+Jacob's father Hans, Rasmus's daughter Maren.
+
+NODE: Rasmus Jensen Rousing (p76) b.ca.1780 Fuglslev
+  Sognefoged. Married Karen Christensdatter (p77) b.ca.1780.
+  Surname "Rousing" suggests soldier name (Danish soldiers often took
+  surnames from place of origin; no Danish town called "Rousing" — possibly
+  a German/low-German name from military service).
+
+ACTION: Search Danish military rolls (Militære Etater, Rigsarkivet) for
+"Rousing" 1790-1810. The surname may be a germanized form.
+
+==============================================================================
+PART 6 — JØRGENSEN/VESTJYLLAND LINE — OPEN ANCHORS
+==============================================================================
+
+NODE: Hans Jensen (a66) b.ca.1752, d.1837, gartner Vibygård
+  Currently: no parents recorded.
+
+CONTEXT:
+  Viby sogn, Roskilde amt (Sømme herred). Pre-1814 ministerialbog NOT
+  indexed on Link Lives. FT 1834 lists Hans as "afgaaet gartner ved
+  Wiibygaard" in Syv sogn, age 82 (=>b.ca.1752). [LL:2-680489]
+
+ACTION:
+  • Read Viby sogn kirkebog pre-1814 at Arkivalieronline for Hans's baptism
+    around 1752. The Vibygård estate ("Vibygaard") had its own employees
+    including the gartner — the baptismal entry may name Hans's father
+    and the estate connection.
+  • Check Danske Herregaårde Vibygaard ejerhistorie:
+    https://www.danskeherregaarde.dk/nutid/vibygaard
+    — Vibygård was owned by the Rosenkrantz family in the 1700s; the
+      gartner would have been an estate employee. Estate accounts may
+      list Hans Jensen.
+
+NODE: Margaretha Pedersdatter (a67) b.ca.1797
+  Married Hans Jensen 1822 (Syv kirkebog). Later married skomager Lars Andersen.
+  Her father's first name was Peder (patronymic).
+
+ACTION: Read Syv sogn kirkebog 1797 baptisms.
+
+NODE: Niels Jørgensen (p32) b.ca.1826, d.1885-1892 — høker/arbejdsmand København
+  Currently: no parents recorded. Note says FT gives "Høje" and "Hove, Svendborg amt".
+  Many possible Niels Jørgensen b.1824-1828 in Svendborg amt.
+
+ACTION: Search 1850 census for Niels Jørgensen in Copenhagen, listed
+occupations høker/arbejksmand, b.place "Høje" or "Hove". Try Link Lives:
+https://link-lives.dk/soeg/
+
+NODE: Lovisa Larsson (p17) b.1862-06-28 Malmö
+  Currently: father = Niels Larsen (p34), mother = unknown.
+  Niels Larsen: Swedish, mentioned in Lovisa's death record.
+
+ACTION: Search Malmö parish records (Stockholm Regional Archive):
+  • Malmö S:t Petri or Malmö S:t Pauli 1862 baptisms for Lovisa Larsson.
+  • Swedish census 1880 for Lovisa (to confirm mother).
+  • Moving-in records for Copenhagen (København) 1880-1885 — Lovisa arrived
+    in Copenhagen to work as tjenestepige.
+
+==============================================================================
+PART 7 — LARSEN/LANGELAND LINE — OPEN ANCHORS
+==============================================================================
+
+NODE: Kirsten Andersdatter (a1009) b.1728, d.1802 — Hennetved/Magleby Langeland
+  Currently: conf="told" (family knowledge only). No parents.
+
+CONTEXT:
+  Magleby sogn (Svendborg amt, Langeland). Pre-1814 ministerialbog at
+  Arkivalieronline. A transcribed version exists:
+  "Familier sat sammen i Magleby sogn 1682-1706" by Fynhistorie:
+  https://www.fynhistorie.dk/files/historie-info.dk/Familier%20sat%20sammen%20i%20Magleby%20sogn%201682-1706.pdf
+  This transcription covers 1682-1706 — too early for Kirsten's 1728 baptism
+  but useful for context (other Anders families in the parish).
+
+ACTION:
+  • Read Magleby sogn (Langeland) kirkebog 1720-1735 for Kirsten's baptism.
+    Father's first name Anders (patronymic).
+  • Cross-check with the family's handwritten anetavle cited as the source.
+
+NODE: Christen Nielsen (a1008) b.1744 Hennetved, d.1804
+  Hennetved is a small place in Magleby sogn, Langeland.
+  Currently: conf="told" only.
+
+ACTION: Magleby kirkebog 1744 baptisms. Christen's father Niels (patronymic).
+
+NODE: Thomas Jensen (a224) b.ca.1731, d.?, bonde/husmand Magleby 1787
+  Currently: conf="told", no parents. Note: "Sandsynligvis far til Lars Thomsen."
+  Father-son link to p112 Lars Thomsen is itself probable, not proven.
+
+ACTION: Magleby kirkebog 1731 baptisms. FT 1787 Magleby lists Thomas Jensen
+with wife Giertrud Christensdatter and son Lars. The link is supported by
+the firstborn-son naming tradition (Lars named after paternal grandfather
+would mean Thomas's father was Lars — patronymic would be Thomas Laursen,
+NOT Thomas Jensen; this is a clue that the patronymic may already have
+been replaced by surname convention in the Langeland area).
+
+NODE: Niels Jeppesen (a1010) — Hennetved, no dates
+  Note: "Fra Hennetved." conf="told".
+
+NODE: Karen Madsdatter (a1011) — d.1790
+  Note: Hustru til Niels Jeppesen. conf="told".
+
+ACTION: Both are probable Hennetved/Magleby residents. Read Magleby
+kirkebog for marriage entry of Niels Jeppesen + Karen Madsdatter around
+1760-1770. The marriage entry will name the fathers.
+
+==============================================================================
+PART 8 — FREDERIKSEN/ BROAGER LINE — OPEN ANCHORS
+==============================================================================
+
+NODE: Jens Paulsen (p98) b.ca.1799, daglejer Sønderborg 1845
+  Note: pre-1864 the Broager area was under Prussian rule; records may
+  be in German archives.
+
+ACTION:
+  • Broager kirkebog pre-1814 at Arkivalieronline (Danish-era records).
+  • Sønderborg Statsarkiv (Aabenraa) for Prussian-era records (1864-1920).
+  • The area became Danish again after 1920 plebiscite.
+
+NODE: Peter Hansen (p100) b.1803, teglværksarbejder Egernsund
+  Egernsund teglværk had workers from both sides of the border.
+
+ACTION: Broager kirkebog 1803 baptisms for Peter Hansen. Father Hans
+(pronymic).
+
+NODE: Cathrine Marie Lausen (Lorenzen) (p99) b.ca.1805
+  Lausen/Lorenzen name suggests German spelling.
+
+ACTION: Broager kirkebog 1805 baptisms. Search under both Lausen and
+Lorenzen spellings.
+
+NODE: Friedrich Friedrichsen (p96) — no dates
+  Spelling "Friedrich" suggests German tradition.
+
+NODE: Anna Christina Peters (Christensen) (p97) b.ca.1815
+  "Peters" is German patronymic form; "Christensen" is Danish.
+
+ACTION: Both were Broager-area residents. Read Broager Vestre district
+kirkebog around 1815-1820.
+
+==============================================================================
+PART 9 — MATERNAL/SØNDERJYLLAND LINE — OPEN ANCHORS
+==============================================================================
+
+NODE: Wilhelm Krogh (p12) b.1908-10-09, Tastrup (or Vastrup) Kreis Flensburg
+  Note: birth place spelling uncertain ("Tastrup" vs "Vastrup").
+
+CONTEXT FOUND (Nov 2026):
+  Per leads/family-tree.md (existing notes in repo):
+  • Tastrup belongs to Adelby sogn (per the parish's own description:
+    https://www.kirchenkreis-schleswig-flensburg.de/gemeinden/stadt-flensburg-und-harrislee/adelby/gemeinde.html)
+  • Adelby kirkebog bog 2.3 (1882-1949) at Landeskirchliches Archiv
+    Schleswig-Flensburg.
+  • ARCHION currently shows Adelby baptisms 1882-1907 online; 1908 entry
+    must be requested from Kirchenbuchamt.
+  • Contact: Katja Isaack, katja.isaack@kirche-slfl.de, tel. +49 4642 911122.
+
+POSSIBLE KANDIDAT (NOT YET VERIFIED):
+  Per FT 1925 for Tandslet/Neder Tandslet on Alsnissen:
+  https://www.alsnissen.dk/default.asp?side=2321
+  "Carl Vilhelm Krogh, født 9.11.1908 i Tastrup/Flensborg, som tjenestekarl
+  i Smøl." ⚠ BORN 9/11 not 9/10. Two different birth dates — likely
+  different people unless one of the dates is misread.
+  Our tree's Wilhelm is b.9/10 1908. Carl Vilhelm is b.9/11 1908.
+  Different first names. DO NOT MERGE without primary evidence.
+
+ACTION:
+  • Request Adelby kirkebog bog 2.3 from Kirchenbuchamt Schleswig-Flensburg
+    (contact above). Specifically the 1908 baptism entries for any child
+    named Wilhelm Krogh or Carl Vilhelm Krogh born in Tastrup.
+  • Cross-check baptism date, parents' names, and residence with the
+    Egernsund civil register randnote (5 April 1932 paternity declaration).
+
+NODE: Sophus Petersen (sofus) b.1903-06-28, Nybøl — biological father of
+      Lorenz Frederiksen per family account.
+
+CURRENT SOURCES:
+  • Nybøl kirkebog 1903 nr. 12 (baptism): "døbt 24. juli, født 28. juni,
+    'Sophus', ægte søn af gårdmand Peter Petersen og hustru Anna Cathrine
+    Marie f. Petersen i Nybøl."
+    Source image: https://raw.githubusercontent.com/sloev/tree/main/images/sophus-daab-nybol-1903.jpg
+  • Grave stone at Nybøl Kirkegård: "Sofus Petersen, Paakjær, * 28. Juni
+    1903 † 24. Aug. 1945" + hustru Christine Petersen f. Jensen (1907-1985).
+    Source image: https://raw.githubusercontent.com/sloev/tree/main/images/sofus-petersen-gravsten.jpg
+
+ACTION: Sophus's baptism is primary-source verified. His relationship to
+Lorenz (biological father per family account) requires DNA evidence.
+Until DNA: keep conf="told" and preserve both paternity claims on p6.
+
+NODE: sofus_mff: Lorens Petersen (b.?) + sofus_mfm: Marie Petersen (b.?) —
+      no dates, no parents. Conf="told".
+
+ACTION: Per Nybøl kirkebog (Danish-era pre-1864) or German-era records:
+  Search for marriage of Lorens Petersen + Marie Petersen around 1830
+  (their son Lorens Petersen, sofus_mf, was b.1831-02-26).
+  Pre-1864 Nybøl/Dybbøl records may be at Landesarchiv Schleswig.
+
+NODE: sofus_mmf: Lorens Peter Jørgensen (b.?) + sofus_mmm: Anna Kathrine
+      Mathiesen (b.?) — no dates, no parents.
+
+ACTION: Similar search — Borup sogn (per p51 note "indekseret som 'Borup
+sogn'") kirkebog around 1830 for Marie Jørgensen's baptism.
+
+NODE: Peter Petersen (sofus_f) b.1866-09-22 Nybøl
+  Currently conf="record" — verified.
+  • FT 1921 Nybøl: https://raw.githubusercontent.com/sloev/tree/main/images/nybol-folketaelling-1921.jpg
+  • Marriage 1865 in Nybøl: LL:13-4984314
+
+NODE: Mathias Petersen (sofus_ff) b.ca.1832 — built Paakjær 1879
+  • Marriage 13/10 1865 Nybøl: LL:13-4984314
+  • Father: Peter Petersen (sofus_fff, no dates)
+
+ACTION: Nybøl kirkebog for Mathias Petersen's baptism ca.1832. Per AGENTS.md,
+"Nybøl (Paakjær)" is in our PLACES list with coords 54.928, 9.647.
+
+==============================================================================
+PART 10 — LORENZ FREDERIKSEN PATERNITY — DUAL CLAIM PRESERVED
+==============================================================================
+
+NODE: Lorenz Heinrich Frederiksen (p6) b.1932-01-12 Egernsund, d.2009-05-06 Svendborg.
+
+TWO COMPETING CLAIMS (preserved as separate relationship_claims in the tree):
+
+CLAIM A — Legal paternity (recorded):
+  Father: Wilhelm Krogh (p12), landarbejder Snogbæk
+  Evidence:
+  • Egernsund civil birth register 1932 nr. 4 (anmeldt 16/1 1932)
+    — bsid 37658, billede 125 (Rigsarkivet AO).
+  • Paternity declaration by Wilhelm Krogh, 5 April 1932.
+  • Court decision, 10 June 1932.
+  • Marginal note by registrar, 11 July 1932.
+
+CLAIM B — Biological paternity (family account):
+  Father: Sophus Petersen (sofus), b.1903-06-28 Nybøl, d.1945-08-24
+  Evidence:
+  • Family document: "Paula Mathilde Chrestle Gedde og Jens Jensens slægt"
+    (typewritten family account).
+  • Family handwritten anetavle.
+  • Family accounts (oral tradition).
+  • Note: "Familien identificerer gårdmandssønnen Sophus Petersen fra Påkjær
+    som biologisk far; dette står i konflikt med den officielle registrering
+    af Wilhelm Krogh."
+
+ARCHIVE ROUTE FOR RESOLUTION (per leads/research-notes.md):
+  Rigsarkivet guidance: https://www.rigsarkivet.dk/vejledning/faderskab-og-adoption/faderskabssager-kom-godt-i-gang/
+  Aabenraa-Sønderborg Amt (effective 1 April 1932) archive:
+  • Alimentationsjournal (and any register to it)
+  • Almindelig Journal
+  • Journalsager / Alimentationssager
+  For 1920-1935, an unprinted finding aid is in the reading room at
+  Landsarkivet for Sønderjylland, Aabenraa.
+  Per archive overview (https://www.rigsarkivet.dk/wp-content/uploads/2022/06/Landsarkivet-for-Soenderjylland-En-arkivoversigt.pdf,
+  pp.91-92 / PDF lines 6228-6325).
+
+ACTION:
+  The civil register entry is already inspected and proves that Wilhelm
+  declared paternity. The actual paternity case file (5 April declaration
+  + 10 June court decision) has NOT been located in this pass.
+  DNA testing would settle biological paternity.
+  Until then: preserve both claims, do not commit to either.
+
+==============================================================================
+PART 11 — MODERN LINES — POST-1900 ANCESTORS WITH WEAK SOURCING
+==============================================================================
+
+NODE: Christen (Kresten) Henriksen Jørgensen (g_kresten) b.1877-11-03
+  Illegitimate son of Lars Thomsen Larsen (b.1859) + Marthe Jørgensen (b.?)
+  Per tree note: born in Søndenbro, Magleby; raised by mother's parents.
+
+CURRENT SOURCES:
+  • LL:12-16292169 (dåb Magleby 1877)
+  • LL:11-? (begravet 1893 — konfirmation)
+  • Marriage 26/7 1907 Magleby: to Marie Laurentine Christiansen (b.1888)
+    daughter of Hans Jørgen Christiansen + Ane Kirstine Nielsen.
+
+ACTION: Magleby kirkebog 1877 baptismal entries. Marthe Jørgensen identity
+is the open question:
+  • Kandidat A: Marthe Christine Jørgensen b.1837 Tryggelev — but her marriage
+    to Thomas Rasmussen Jespersen and 7 children 1860-1876 makes her an
+    unlikely mother in 1877 at age 40.
+  • Kandidat B: Marthe Jørgensen b.9/10 1852 (daughter of Jørgen Christensen
+    and Karen Andersen) — died 27/8 1878 (8 months after Kresten's birth).
+    In 1880 and 1890 Kresten lived as plejebarn with Jørgen and Karen —
+    i.e., with Marthe's parents. STRONG support for Kandidat B.
+
+CANDIDATE PROMOTION: Kandidat B is more likely. Add her as the mother of
+Kresten with conf="probable" pending primary inspection.
+
+NODE: Niels Christiansen (g_nchr) b.1829-03-24, d.1912-04-27
+  Married Inge Marie Rasmussen b.1830-09-24, d.1913-06-23.
+  Currently: no parents recorded.
+
+ACTION: Magleby kirkebog 1829 baptisms for Niels Christiansen (father
+Christian, patronymic). Same for Inge Marie Rasmussen in 1830.
+
+NODE: Jørgen Christensen (Stougaard) (g_jchr) b.ca.1822, Karen Andersdatter
+(Andersen) (g_kand) b.ca.1822 — both conf="possible".
+  Note: Stougaard is a place name in northern Langeland.
+
+ACTION: Magleby kirkebog ca.1822 baptisms. Or Stougaard-area kirkebog
+(could be Bøstrup or Tranekær sogn depending on exact location).
+
+NODE: Holger Eriksen (p120) b.ca.1814 + Anne Cathrine Hansdatter (p121)
+      b.ca.1815 — no parents for either.
+
+ACTION: Tved (Svendborg) kirkebog (bplace per Axel Erik Holgersen's birth).
+For Anne Cathrine Hansdatter — search nearby parishes.
+
+NODE: Karen Nielsen (p61) b.ca.1855 — no parents.
+
+ACTION: Read 1855 births in Tved (Svendborg) kirkebog.
+
+==============================================================================
+PART 12 — MANUAL_ANCESTORS.JSON — SOURCES ALREADY CITED
+==============================================================================
+
+These entries in data/manual_ancestors.json were found by manually reading
+the kirkebøger. They cite LL: (Link Lives) posts explicitly, which means
+the underlying kirkebog image was inspected. These are the strongest-sourced
+entries in the tree.
+
+Entries with conf="record" confirmed by direct kirkebog reading:
+  a44 Christen Andersen b.1819-01-19 Hoven — LL:12-8850963 (dåb)
+  a45 Kirsten Christensdatter b.1821-02-12 Hoven — LL:12-8851104
+  a46 Jens Peder Larsen b.ca.1812 Assing — LL:12-8975344
+  a47 Kjersten Frederiksdatter b.1822-04-20 Sønder Felding — LL:12-8980109
+  a74 Jens Hansen (gårdmand Attrup 1812-20) — AO:Rosmus kirkebog 1789-1816
+  a75 Mette Pedersdatter — same source
+  a88 Anders Jensen (møller Hoven, d. før 1834) — LL:12-8850964
+  a89 Ane Kirstine Eskesdatter b.ca.1777 — LL:12-8850965
+  a90 Christen Pallesen — LL:12-8851105
+  a91 Kirsten Marie Jensdatter b.ca.1784 — LL:12-8851106
+  a94 Frederik Jensen — LL:12-8980110
+  a95 Ane Thomasdatter — LL:12-8980111
+  a112 Lars Thomsen — patch (FT 1834 Magleby LL:2-864880)
+  a113 Anne Katrine Jensdatter — patch (FT 1850 LL:5-1077811)
+  a150 Peder Hallis — AO:Rosmus kirkebog 1789-1816 copulerede 6/7 1811
+  a224 Thomas Jensen b.ca.1731 — LL:0-655526 (FT 1787 Magleby)
+  a225 Giertrud Christensdatter b.ca.1753 — LL:0-655527
+  a252 Christen Jørgensen b.1794 — Familiens håndskrevne anetavle
+  a253 Maren Hansdatter b.1795, d.1849 — Familiens håndskrevne anetavle
+  a254 Claus Madsen b.1793, d.1837 — Familiens håndskrevne anetavle
+  a255 Ane Mortensdatter b.1798 — Familiens håndskrevne anetavle
+
+ACTION: All a-entries marked "Familiens håndskrevne anetavle" should be
+cross-verified against Magleby kirkebog at Arkivalieronline. The anetavle
+is a primary family source but transcription errors are possible.
+
+==============================================================================
+PART 13 — SUMMARY OF EVIDENCE STRENGTH
+==============================================================================
+
+Evidence strength categories used in this audit:
+
+  STRONGEST (record, primary-source verified):
+    - Direct kirkebog reading with LL: post citation: ~50 entries
+    - Civil register entries (Lorenz Frederiksen's birth 1932): 1 entry
+    - Direct AO image citations (Rosmus kirkebog 1789-1816): 3 entries
+
+  STRONG (record, multi-source):
+    - Wikipedia + Dansk Biografisk Leksikon + portrait painting:
+      Holger Rosenkrantz, Jørgen Holgersen, Mogens Friis, Niels Juel,
+      Holger Axelsen Rosenkrantz.
+    - VKA Dubberow + Harbou 1897 + cited feudal letters (urk. 125, 502, 585):
+      Hans Clest, Bartes II.3, Andreas II.11, Carsten II.21, Bernd II.39,
+      Christian II.60, Christian Casimir II.82.
+
+  MEDIUM (probable, single user-sourced):
+    - WikiTree only entries in the Krag/Juel/Ulfeldt line — corroborated
+      by Dansk Biografisk Leksikon entries for the famous members
+      (Niels Juel, Margrethe Ulfeldt, Mogens Friis) but parents and
+      great-grandparents are not always in DBL.
+    - Cross-check against Danmarks Adels Aarbog (DAA) needed.
+
+  WEAKEST (possible / told / unverified):
+    - Anchors with no parents and only "Familiens håndskrevne anetavle"
+      as source: ~15 entries (the older Langeland/Vestjylland branches).
+    - WikiTree-only entries with no other corroborating source: 4 entries
+      (some Langeland Christiansen family).
+    - Open "fathers unknown" with no parish specified: ~10 entries.
+
+  OPEN (cannot be verified from online sources alone):
+    - Claus Gaardsted's parents: requires Rolsøgård probate 1764 visit.
+    - Wilhelm Krogh's parents: requires Adelby kirkebog bog 2.3 request.
+    - Lorenz biological father: requires DNA test.
+    - Pre-1864 Sønderjylland records: some at Landesarchiv Schleswig.
+
+==============================================================================
+PART 14 — PRIORITISED NEXT-STEP ACTIONS
+==============================================================================
+
+A. ONE-TIME RIGSARKIVET VISITS (highest-yield):
+   1. Rigsarkivet Viborg (Landsarkivet for Nørrejylland) — Mols herred
+      skifteprotokoller for 1764: locate Tohde probate → Claus Gaardsted's
+      parents.
+   2. Rigsarkivet Aabenraa (Landsarkivet for Sønderjylland) — Aabenraa-
+      Sønderborg Amt 1932 alimentationsjournal: Lorenz Frederiksen paternity.
+   3. Arkivalieronline (online, free) — page-by-page reads of:
+      - Fuglslev kirkebog pre-1814 (for Rasmus Jensen 1718, Jens Rasmussen 1755)
+      - Viby (Roskilde amt) kirkebog pre-1814 (for Hans Jensen 1752 gartner)
+      - Magleby (Langeland) kirkebog 1720-1830 (for Kirsten Andersdatter 1728,
+        Christen Nielsen 1744, Thomas Jensen 1731, Niels Christiansen 1829,
+        Inge Marie Rasmussen 1830, etc.)
+      - Broager kirkebog 1800-1815 (for Frederiksen line anchors)
+      - Fredensborg Slotssogn kirkebog 1778 (for Ove Samuel Gedde birth date)
+
+B. ARCHION / GERMAN ARCHIVES:
+   1. Adelby kirkebog bog 2.3 (1908) — request from Kirchenbuchamt
+      Schleswig-Flensburg (contact: katja.isaack@kirche-slfl.de).
+   2. Landesarchiv Greifswald Rep. 40 Nr. 35 gg — von Kleist feudal letters.
+
+C. DNA TESTING:
+   1. MyHeritage DNA test for one of Lorenz's daughters (already done per
+      leads/investigation-worklist.md). 12,093 matches; 94 nearest reviewed.
+   2. Cross-reference matches against Else-side and Sophus-side to isolate
+      Sophus's contribution. DNA cousin-finder analysis.
+
+D. BOOK / DAA RESEARCH:
+   1. Danmarks Adels Aarbog (DAA) volumes covering Rosenkrantz, Krag, Juel,
+      Ulfeldt, Friis, Podebusk, Brahe, Gyldenstierne, Sehested, Høeg.
+      Available at: https://www.familysearch.org/library/books/viewer/779881/
+      Look up each ★NY entry by name to confirm.
+   2. C. E. A. Schøller, "Stamtavle over Officersfamilien Gedde (Gjedde)" —
+      this would resolve the Christian Giedde 1638 vs 1639 question, the
+      Fischer sisters' parents, and the Ove Samuel Gedde birth date.
+   3. Lengnick's 1840 stamtavle (cited in leads/tree-research.md):
+      https://slaegtsbibliotek.dk/900782.pdf — for the von Kleist Tychow line
+      (medieval generations, secondary source).
+
+E. CODE / DATA ACTIONS:
+   1. Update the build_data.py patch on p6948 (Christian von Kleist d.1679)
+      to add father=vk_b39 and mother=vk_b39w (corrected lineage).
+   2. Update p864 (Christian Giedde) birth year from 1638 to 1639 per
+      Wikipedia explicit citation.
+   3. Update p432 (Hans Christopher Gedde) birth date from "1738" to
+      "1738-06-23" with bplace "Oldenburg" per Weilbach.
+   4. Update rk_g_mf (Mogens Friis) birth date from 1623-04-16 to
+      1623-09-07 per Wikipedia.
+   5. Add kandidat B (Marthe Jørgensen b.9/10 1852) as g_kresten's mother
+      with conf="probable".
+
+==============================================================================
+PART 15 — APPENDIX: ALL WIKIMEDIA COMMONS PORTRAITS USED AS EVIDENCE
+==============================================================================
+
+Each portrait painting is itself evidence of the person's existence and
+status (the painting was commissioned by the family). The gallery:
+
+1. Holger Rosenkrantz den Lærde (1577-1642) — by Johan Thim, 1636
+   https://commons.wikimedia.org/wiki/File:Johan_Thim_1636_Holger_Rosenkrantz_den_laerde_IMG_5857.jpg
+   Held at: Portrætsamlingen, Frederiksborg Slot, Hillerød.
+
+2. Jørgen Holgersen Rosenkrantz til Kjeldgård (1607-1675) — by Johan Thim, 1640
+   https://commons.wikimedia.org/wiki/File:Jørgen_Rosenkrantz.jpg
+   Held at: Frederiksborg Slot.
+   RKD reference: https://rkd.nl/explore/images/254368
+   Wikidata: https://www.wikidata.org/wiki/Q114760342
+
+3. Admiral Niels Juel (1629-1697) — by Jacob Coning
+   https://commons.wikimedia.org/wiki/File:Niels_Juel_(Jacob_Coning_painting).jpg
+   Held at: Frederiksborgmuseum.
+   Commons category: https://commons.wikimedia.org/wiki/Category:Niels_Juel
+   Wikipedia: https://en.wikipedia.org/wiki/Niels_Juel
+
+4. Mogens greve Friis (1623-1675) — by Abraham Wuchters, 1670
+   https://commons.wikimedia.org/wiki/File:Mogens_Frijs.jpg
+   Held at: Frederiksborg Slot.
+
+5. Christianshavn 1751 — Samuel Christoph Gedde's own cartographic work
+   https://commons.wikimedia.org/wiki/File:Christianshavn_1751_by_Samuel_Christoph_Gedde.jpg
+   Held at: Danish State Archives (Rigsarkivet).
+
+6. Skovsbo Gods (Christian Rosenkrantz til Skovsbo's estate)
+   https://commons.wikimedia.org/wiki/File:Skovsbo.jpg
+
+==============================================================================
+
+This audit is a research log. No relationships have been changed in the
+canonical tree (data/build_data.py) on the strength of this audit alone.
+Each proposed change must be checked against the primary source before
+committing.
+
+==============================================================================
+END OF EVIDENCE AUDIT — November 2026
+==============================================================================
+
