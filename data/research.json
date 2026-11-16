@@ -449,6 +449,111 @@
       "person_ids": [
         "p868"
       ]
+    },
+    {
+      "id": "evald-niels-birthplace",
+      "branch": "Evald Gårdsted Jørgensen",
+      "title": "Niels Jørgensens fødested: Hove, Høje eller Høve?",
+      "status": "needs",
+      "claim": "Niels Jørgensen (p32) er i materialet angivet med et usikkert fødested, læst som “Hove/Høje sogn, Svendborg amt”. De nævnte sogne og amtsangivelsen passer ikke umiddelbart sammen, så fødestedet må ikke normaliseres uden original vielses- eller dåbsdokumentation.",
+      "evidence": "Dossieret peger på vielsen 7. juli 1854 i Vor Frue Kirke, København, og registrerer flere mulige sognevarianter: Hove i Ringkøbing, Høje i Holbæk og Høve i Sorø.",
+      "missing": "Den fulde vielsesindførsel med ordret fødested, alder, erhverv, bopæl og forlovere samt en mulig dåbsindførsel i det identificerede sogn.",
+      "next": "Læs original vielse i Vor Frue 1854; brug derefter den præcise ordlyd til at afgrænse dåbssøgningen.",
+      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+      "person_ids": [
+        "p32"
+      ]
+    },
+    {
+      "id": "evald-claus-probate-1811",
+      "branch": "Evald Gårdsted Jørgensen",
+      "title": "Claus Gaardsteds skifte og Bogensholm-auktion i 1811",
+      "status": "needs",
+      "claim": "Claus Gaardsted (p72) døde i 1811, og enken solgte Bogensholm på auktion samme år. Skiftet og auktionsmaterialet kan muligvis identificere hans første hustru og børn, men dossieret har endnu ikke fastslået disse familieforhold.",
+      "evidence": "Dossieret angiver auktionen i 1811 og henviser til Trap Danmark/danskeherregaarde.dk for Bogensholm samt Rolsøgård G302-skiftet fra 1787 som et separat slægtsspor.",
+      "missing": "Originalt skifte efter Claus, auktionsprotokol/skøde og dokumentation for hustru(er), arvinger, værger og ejendommens overdragelse.",
+      "next": "Find Claus Gaardsteds skifte fra 1811 og den tilhørende auktionsprotokol; transskriber arvinger og værger før familieforbindelser ændres.",
+      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+      "person_ids": [
+        "p72"
+      ]
+    },
+    {
+      "id": "evald-rousing-office",
+      "branch": "Evald Gårdsted Jørgensen",
+      "title": "Rasmus Jensen Rousing: sognefogedudnævnelse og militærruller",
+      "status": "hypothesis",
+      "claim": "Rasmus Jensen Rousing (p76) har en sandsynlig, men ikke fuldt dokumenteret forældreplacering. En sognefogedudnævnelse i Djurs Nørre herred og eventuelle militærruller kan give uafhængige oplysninger om bopæl, alder og navneform.",
+      "evidence": "Dossieret bygger den sandsynlige forbindelse til Jens Rasmussen (p152) på folketællingen 1801, hvor en 20-årig Rasmus findes i hans husstand. En Rasmus Jensen i Fuglslevs folketælling 1787 er kun et muligt navnespor.",
+      "missing": "Original udnævnelses-/embedsoplysning og eventuelle militærruller fra ca. 1790–1810, der kan knytte samme mand til alder, bopæl og patronymikon.",
+      "next": "Opsøg Djurs Nørre herreds sognefogedudnævnelse og militærruller; sammenhold dem med 1801-husstanden og senere kirkebøger.",
+      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+      "person_ids": [
+        "p76",
+        "p152"
+      ]
+    },
+    {
+      "id": "liss-hoven-households",
+      "branch": "Liss Pedersen",
+      "title": "Hoven mølle: fire personer og ejendommens succession",
+      "status": "needs",
+      "claim": "Dossieret identificerer en Hoven-husstand omkring 1834 med møller Anders Jensen, enken Ane Kirstine Eskesdatter, Christen Pallesen og Kirsten Marie Jensdatter. Ejendoms- og husholdningssporene kan afklare erhverv og succession, men må ikke bruges alene til at udlede biologisk slægtskab.",
+      "evidence": "Ane Kirstine Eskesdatter (a89) beskrives som enke og ejer af Hoven mølle i 1834. Dossieret angiver også Anders Jensen (a88), Christen Pallesen (a90) og Kirsten Marie Jensdatter (a91) som personer i det lokale materiale.",
+      "missing": "Originale kirkebogsindførsler for dåb og vielser ca. 1770–1800, fuld folketællingshusstand 1834 samt møllens skøde-, matrikel- og brandforsikringsmateriale.",
+      "next": "Læs Hoven-husstanden i FT 1834 fuldt ud, og følg møllens ejer- og forsikringshistorie sammen med kirkebøgerne.",
+      "dossier": "leads/grandparent-liss-pedersen.md",
+      "person_ids": [
+        "a88",
+        "a89",
+        "a90",
+        "a91"
+      ]
+    },
+    {
+      "id": "gerda-lango-children",
+      "branch": "Gerda Larsen",
+      "title": "Langø-familien: to børn med uafklaret videre liv",
+      "status": "needs",
+      "claim": "Familienotaterne angiver to yderligere børn af Marius Michelsen Christensen (p62) og Ane Marie Jørgensen (p63), hvis senere liv ikke er fulgt til ende: Christian Anton Christensen, født 1879 i Skrøbelev, og Christian Jørgen Christensen, født 1887 i København.",
+      "evidence": "Dossieret angiver konkrete fødselsdatoer og steder samt en senere bekræftelse i Humble i 1902 for Christian Jørgen. Det er et forskningsspor fra familie-/dossiermaterialet, ikke dokumentation for senere emigration eller dødsfald.",
+      "missing": "Originale dåbsindførsler, folketællinger efter 1880/1901, konfirmation/tilgangslister og eventuelle udrejsekontrakter eller passagerlister.",
+      "next": "Kontrollér Skrøbelevs dåb i 1879 og Københavns dåb i 1887; følg derefter hver person separat i folketællinger og udvandringsprotokoller.",
+      "dossier": "leads/grandparent-gerda-larsen.md",
+      "person_ids": [
+        "p62",
+        "p63"
+      ]
+    },
+    {
+      "id": "lorenz-ove-identity",
+      "branch": "Lorenz Frederiksen",
+      "title": "Ove Samuel Gedde: fødselsdato, mulig navnebror og moderens identitet",
+      "status": "needs",
+      "claim": "Ove Samuel Geddes identitet rummer flere uløste konflikter: 1778 mod 1788, 28. februar mod 28. maj, og to forskellige Fischer-søstre som mulig mor/stedmor. En hypotese foreslår to mænd med navnet Ove Samuel, men den er ikke bevist.",
+      "evidence": "Harbou angiver 28. februar 1778; en officerbiografi angiver 28. maj 1778; Anker angiver 28. maj 1788. Dossieret beskriver desuden en konflikt mellem den kanoniske moder Øllegaard Sophie Fischer og den foreslåede biologiske mor Frederikke Christiane Fischer.",
+      "missing": "Originale dåbs- og begravelsesindførsler i Fredensborg/Hof- og Slotsmenigheden og Fredrikstad samt vielses-/dødsindførsler, der kan skelne mulige navnebrødre og de to Fischer-søstre.",
+      "next": "Undersøg først dåb og tidlig død for en mulig Ove født 1778; kontrollér derefter Fredrikstad-dåben 1788 og Helsingør-begravelsen 1843, før person eller forældretilknytning ændres.",
+      "dossier": "leads/grandparent-lorenz-frederiksen.md",
+      "person_ids": [
+        "p216",
+        "p432",
+        "p433"
+      ]
+    },
+    {
+      "id": "lorenz-gedde-christian",
+      "branch": "Lorenz Frederiksen",
+      "title": "Christian Gedde/Giedde: to mulige identiteter i Ove Samuel-linjen",
+      "status": "hypothesis",
+      "claim": "Kilderne beskriver to uforenelige kandidater til faderen til Samuel Christoph Gedde: Christian Gedde (1648–1707), kommandant på Møn, og Christian Giedde (født 1639, død 1705), knyttet til Kville. De må ikke flettes sammen alene på grund af navnelighed.",
+      "evidence": "Dossieret sammenholder DBL/Harbou med en separat genealogisk oplysning om Christian Giedde og fremhæver forskelle i fødsels-/dødsår og ægtefællens navn.",
+      "missing": "Samtidig dokumentation fra Kville og Møn, original vielse/familieoplysninger samt en kildekritisk gennemgang af Harbou, DBL og Schøllers officersgenealogi.",
+      "next": "Sammenlign de originale eller nær-samtidige kilder til begge mænd og fastslå, om der er tale om to personer eller en senere sammenblanding.",
+      "dossier": "leads/grandparent-lorenz-frederiksen.md",
+      "person_ids": [
+        "p864"
+      ]
     }
   ]
 }
