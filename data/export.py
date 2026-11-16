@@ -36,6 +36,7 @@ for p in P:  # ægtepar uden fælles børn i data
         k = (p["id"], sp["id"]) if p["sex"] == "M" else (sp["id"], p["id"])
         fams.setdefault(k, [])
 famid = {k: f"F{i+1}" for i, k in enumerate(fams)}
+union_statuses = {frozenset(u.get("partners", [])): u for u in D.get("union_statuses", [])}
 L = ["0 HEAD", "1 SOUR GaardstedJorgensenTree", "1 GEDC", "2 VERS 5.5.1", "2 FORM LINEAGE-LINKED", "1 CHAR UTF-8"]
 for p in P:
     L += [f"0 @{p['id']}@ INDI", f"1 NAME {gname(p['name'])}", f"1 SEX {p['sex'] if p['sex'] in 'MF' else 'U'}"]
@@ -57,6 +58,10 @@ for k, kids in fams.items():
     L.append(f"0 @{famid[k]}@ FAM")
     if k[0]: L.append(f"1 HUSB @{k[0]}@")
     if k[1]: L.append(f"1 WIFE @{k[1]}@")
+    union = union_statuses.get(frozenset(k))
+    if union and union.get("status") == "divorced":
+        L.append("1 DIV")
+        if union.get("note"): L.append(f"1 NOTE {union['note']}")
     for c in kids: L.append(f"1 CHIL @{c}@")
 L.append("0 TRLR")
 open(os.path.join(root, "family-tree.ged"), "w", encoding="utf-8").write("\n".join(L) + "\n")
