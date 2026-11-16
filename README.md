@@ -44,7 +44,7 @@ FAMILY_PASSWORD=... python3 data/private_tool.py encrypt   # krypterer igen og o
 
 **Forskningssporene i `data/tree.json` er den eneste aktive registrering af al genealogisk forskning.** Alle nye leads, kildefund, transskriptioner, rettelser, kildekonflikter, negative søgninger og opfølgninger skal indarbejdes direkte i det relevante forskningsspor. Hvis spørgsmålet ikke allerede findes, oprettes et nyt spor. Hvis det findes, udvides det eksisterende spor — opret ikke parallelle noter eller dubletter. Hjemmesidens forskningsfane er den offentlige visning af denne registrering. `data/research.json` er kun en automatisk genereret projektion; `data/tree.json` er den eneste redigerbare sandhedskilde.
 
-Dossierer i `leads/` og historiske noter er fremover arkiv-/proveniensmateriale, ikke aktive arbejdsregistre. De må gerne indeholde historiske kildescanninger og tidligere analyser, men nye forskningsresultater og næste skridt skal altid registreres i `data/tree.json`. Hvis et dossier indeholder et unikt fund, der stadig er relevant, skal fundet først indarbejdes i det relevante forskningsspor. Dossieret skal ikke vedligeholdes parallelt.
+Alt relevant genealogisk forskningsmateriale fra de tidligere dossierer og research-arkiver er overført til `research_notes` på de relevante poster i `data/tree.json`. Den gamle `leads/`- og `research-archive/`-struktur er udfaset. Nye noter, kildefund, transskriptioner, negative søgninger og næste skridt registreres direkte i forskningssporet.
 
 Dette projekt er åbent i både kode, kilder, metode og revisioner. Den offentlige hjemmeside viser både det etablerede stamtræ og et særskilt forskningsspor med synlige modenhedsgrader. Et forslag i forskningssporet er ikke automatisk en accepteret forældre-/barn-relation.
 
@@ -70,14 +70,14 @@ Status gælder den enkelte påstand — især hver enkelt relation — ikke auto
 ### Sådan følger du ændringer
 
 - [Seneste commits](https://github.com/sloev/tree/commits/main/) viser alle kilde-, data- og kodeændringer.
-- [Forskningssporene](https://github.com/sloev/tree/blob/main/data/tree.json) er den fulde aktive forskningslog med fund, kilder, konflikter og næste arkivskridt. Dossierer er historisk baggrund/proveniens.
+- [Forskningssporene](https://github.com/sloev/tree/blob/main/data/tree.json) er den fulde aktive forskningslog med fund, kilder, konflikter og næste arkivskridt. Alle noter er samlet i forskningssporene.
 - [Samarbejdsloggen](coop.log.md) dokumenterer forskningshandoffs, beslutninger, ændringer og hvad der endnu ikke er kontrolleret.
 - [Nyhedsbulletinen og forskningssporet](https://sloev.github.io/tree/) viser de læsbare opdateringer på hjemmesiden.
 
 
 ### Automatisk udrulning af ændringer
 
-Når `data/tree.json` ændres, sammenligner GitHub Actions persondata med forrige version. Ændrede personer får en gul prik i stamtræet i 30 dage, og en dateret opdatering indsættes i nyhedsbulletinen. Ændringer i dossierer under `leads/` udløser ikke et build: dossiererne er kun indgående forskningsmateriale, som først bliver offentligt, når et vurderet spor er indarbejdet i `data/tree.json`. Bygget regenererer alle afledte data, GEDCOM og hjemmesidens HTML.
+Når `data/tree.json` ændres, sammenligner GitHub Actions persondata med forrige version. Ændrede personer får en gul prik i stamtræet i 30 dage, og en dateret opdatering indsættes i nyhedsbulletinen. Alle forskningsændringer sker i `data/tree.json` og udløser automatisk build. Bygget regenererer alle afledte data, GEDCOM og hjemmesidens HTML.
 
 Markeringen er en visuel ændringsindikator, ikke en kilde- eller sikkerhedsgrad. En ændring i et dossier, der ikke nævner en bestemt person på de ændrede linjer, giver en bulletinpost, men ingen vilkårlig personmarkør. Markørerne udløber efter 30 dage. Se `.github/workflows/rebuild-site.yml`, `data/build.py` og `tools/mark_recent_people.py` for implementeringen.
 
@@ -94,4 +94,4 @@ Vi vil gerne have hjælp fra besøgende. Forskningssiden skal derfor gøre det l
 
 Fanen **Forskningsspor** viser alle aktive forskningsspor fra `data/tree.json`, på tværs af de fire bedsteforældregrene. Hvert spor viser status, foreliggende belæg, hvad der mangler, næste kontrol og relevante kilder. Registeret redigeres kun i `data/tree.json`; `data/research.json` genereres automatisk som en kompatibilitetsprojektion. Der findes ikke en separat aktiv forskningslog eller et parallelt dossier-workflow.
 
-Registeret er fortsat en kurateret oversigt — ikke en fuldstændig offentliggørelse af alle dossier-noter. Den lokale bygge- og browserkontrol samt bekræftelse af GitHub Pages-deploy mangler fortsat.
+Forskningssporet viser nu også de overførte noter fra de tidligere dossierer i fold-ud-afsnit under hvert spor. De fulde noter kan søges med forskningssidens søgefelt. Build og Pages-udrulning skal kontrolleres efter ændringer.
