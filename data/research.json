@@ -24,7 +24,11 @@
       "evidence": "Dossieret identificerer Egernsund standsregister, fødte 1928–33, 1932 nr. 4 (bsid 37658, billede 125), samt Broager Vestre kirkebog 1933 nr. 1. Kildereferencerne er registreret; selve sagsakterne er ikke fuldt gennemgået i denne offentlige oversigt.",
       "missing": "Den fulde faderskabssag, ordlyden af erklæringen og retsafgørelsen samt eventuelle samtidige breve eller vidneudsagn. Biologisk slægtskab kræver særskilt evidens.",
       "next": "Find og gennemgå den originale faderskabssag og sammenhold den med øvrige samtidige kilder.",
-      "dossier": "leads/grandparent-lorenz-frederiksen.md"
+      "dossier": "leads/grandparent-lorenz-frederiksen.md",
+      "person_ids": [
+        "p6",
+        "p12"
+      ]
     },
     {
       "id": "lorenz-sophus",
@@ -35,7 +39,11 @@
       "evidence": "Familiedokumentet, den håndskrevne anetavle og familiens mundtlige overlevering identificerer Sophus. Sophus' dåb og gravsten underbygger hans identitet og livsforløb, ikke faderskabet til Lorenz.",
       "missing": "Uafhængig dokumentation for forbindelsen mellem Sophus og Lorenz, fx samtidige breve, vidneudsagn eller relevant DNA-sammenligning med dokumenteret slægt.",
       "next": "Opsøg efterladte familiepapirer og vurder muligheden for DNA-sammenligning med kendte efterkommere af Sophus.",
-      "dossier": "leads/grandparent-lorenz-frederiksen.md"
+      "dossier": "leads/grandparent-lorenz-frederiksen.md",
+      "person_ids": [
+        "p6",
+        "sofus"
+      ]
     },
     {
       "id": "liss-marriage",
@@ -46,7 +54,12 @@
       "evidence": "Den aktive Liss-dossier beskriver navneafvigelsen og peger på kirkebogens vielsesindførsel i 1843 som næste kilde.",
       "missing": "Den originale vielsesindførsel og sammenligning af alder, bopæl, forlovere og forældrenavne med de øvrige personer i husstanden.",
       "next": "Find vielsesindførslen i Sønder Felding og registrér dens præcise ordlyd og billedhenvisning.",
-      "dossier": "leads/grandparent-liss-pedersen.md"
+      "dossier": "leads/grandparent-liss-pedersen.md",
+      "person_ids": [
+        "a46",
+        "a47",
+        "p23"
+      ]
     },
     {
       "id": "liss-baptism",
@@ -57,7 +70,11 @@
       "evidence": "Sporet er noteret i den aktive Liss-dossier som en målrettet kirkebogskontrol, ikke som en fastslået identifikation.",
       "missing": "Original dåbsindførsel samt match på forældre, alder og senere bopæl/vielse.",
       "next": "Kontrollér kirkebogen og sammenhold alle navne- og stedvarianter.",
-      "dossier": "leads/grandparent-liss-pedersen.md"
+      "dossier": "leads/grandparent-liss-pedersen.md",
+      "person_ids": [
+        "a46",
+        "a47"
+      ]
     },
     {
       "id": "evald-vibygard",
@@ -68,7 +85,10 @@
       "evidence": "Den aktive Evald-dossier samler dette som et åbent identitetsspor. Der er endnu ikke fremlagt en sammenhængende kæde af originale dokumenter her.",
       "missing": "Sammenlignelige skøde-, skifte-, folketællings- eller kirkebogsoplysninger, der forbinder navn, sted, tid og familie.",
       "next": "Sammenhold de konkrete Vibygård- og Syv-poster og dokumentér både match og afvigelser.",
-      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md"
+      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+      "person_ids": [
+        "a66"
+      ]
     },
     {
       "id": "evald-bogensholm",
@@ -90,7 +110,11 @@
       "evidence": "Den aktive Gerda-dossier udpeger dåbsindførslen som kontrolpunkt. Der er endnu ikke gengivet en verificeret transskription i denne oversigt.",
       "missing": "Original kirkebogsindførsel, faddere og bopælsoplysninger samt sammenhold med senere vielse og folketællinger.",
       "next": "Kontrollér dåbsbilledet og følg familien gennem senere kilder.",
-      "dossier": "leads/grandparent-gerda-larsen.md"
+      "dossier": "leads/grandparent-gerda-larsen.md",
+      "person_ids": [
+        "g_kresten",
+        "p28"
+      ]
     },
     {
       "id": "gerda-lango",
@@ -101,7 +125,11 @@
       "evidence": "Begge spor er nævnt i den aktive Gerda-dossier som konkrete arkivopgaver. Det er endnu ikke fastslået, hvad dokumenterne præcist siger.",
       "missing": "Originalt skøde samt kommunale, amtslige eller vejmyndighedsakter fra omkring 1911 med klar angivelse af ansvar, dato og berørte ejendomme.",
       "next": "Identificér arkivskaber og journal-/tingbogsnummer, og gennemgå originalakterne.",
-      "dossier": "leads/grandparent-gerda-larsen.md"
+      "dossier": "leads/grandparent-gerda-larsen.md",
+      "person_ids": [
+        "p62",
+        "p63"
+      ]
     },
     {
       "id": "evald-tohde-probate",
@@ -112,7 +140,10 @@
       "evidence": "Evald-dossieret peger på Rolsøgård Gods, skifteprotokol G302, og skiftet i Dejret fra 1764. En senere 1787-henvisning bruger ifølge dossierets foreløbige læsning ordet “stedbørn”.",
       "missing": "Originalen fra 1764 og den præcise ordlyd i Rolsøgård G302 nr. 11, 14. maj 1787, folio 39. Den biologiske forælder til Claus og Karen er ikke identificeret.",
       "next": "Bestil og læs begge originale skifter; transskriber slægtskabsordene før nogen forældretilknytning ændres.",
-      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md"
+      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+      "person_ids": [
+        "p36"
+      ]
     },
     {
       "id": "evald-viby-probate",
@@ -123,7 +154,10 @@
       "evidence": "Dossieret angiver Vibygård Gods skifteprotokol, bog 2, folio 21–22 og 32–34, samt navne og bopæle på Poul, Jens, Peder og Ane.",
       "missing": "Originalskiftets identitetsoplysninger og sammenligning med vielsen i Syv 1822, alder, bopæl, ægtefælle og børn.",
       "next": "Læs originalskiftet og den fulde vielsesindførsel fra 1822; hold husstandene adskilt indtil de kan forbindes.",
-      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md"
+      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+      "person_ids": [
+        "a66"
+      ]
     },
     {
       "id": "evald-rosmus-mette",
@@ -134,7 +168,11 @@
       "evidence": "1811-vielsen i Rosmus og dåben i 1812 er de centrale kildeankre. Dåben er ifølge dossieret gengivet med navnet “Mette Pedersdatter Hallis”.",
       "missing": "En ny gennemgang af original vielse, dåb, folketællinger og skifter, især den præcise stavemåde og patronymikon.",
       "next": "Sammenlign originalbillederne og registrér ordret navneform, alder, bopæl og forlovere.",
-      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md"
+      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+      "person_ids": [
+        "p37",
+        "a75"
+      ]
     },
     {
       "id": "evald-rousing-parentage",
@@ -145,7 +183,12 @@
       "evidence": "Grundlaget for den sandsynlige forbindelse er en 1801-folketælling, hvor en 20-årig Rasmus optræder i Jens Rasmussens husstand. En Rasmus Jensen i 1787 er et muligt, men svagere spor.",
       "missing": "Dåb, skifte, militærrulle eller anden kilde, der direkte forbinder Rasmus med forældrene.",
       "next": "Undersøg Fuglslevs kirkebøger, folketællinger, skifter og sognefoged-/militærmateriale.",
-      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md"
+      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+      "person_ids": [
+        "p76",
+        "p152",
+        "p304"
+      ]
     },
     {
       "id": "evald-lovisa-mother",
@@ -156,7 +199,11 @@
       "evidence": "Dossieret henviser til dødsindførslen i 1910 og identificerer Lovisa som allerede tilknyttet Evalds direkte linje.",
       "missing": "Malmös originale fødsels- og husstandsoplysninger, der kan identificere moderen og bekræfte fødselsregistreringen.",
       "next": "Find det rette Malmö sogn og følg Lovisa i fødsels- og husstandsregistre.",
-      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md"
+      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+      "person_ids": [
+        "p17",
+        "p34"
+      ]
     },
     {
       "id": "liss-assing-baptism",
@@ -178,7 +225,10 @@
       "evidence": "Den aktive dossier og Horsbøl-slægtsmaterialet peger på Kjersten og vielsen 8. oktober 1843; en ældre udvidet note nævner fejlagtigt eller alternativt Mette Pedersdatter.",
       "missing": "Original dåb og forældrenes vielser/dåb samt fuld vielsesindførsel fra 1843.",
       "next": "Læs dåben fra 1822 og vielsen fra 1843 med vidner, alder, bopæl og fædre.",
-      "dossier": "leads/grandparent-liss-pedersen.md"
+      "dossier": "leads/grandparent-liss-pedersen.md",
+      "person_ids": [
+        "a47"
+      ]
     },
     {
       "id": "liss-hoven-mill",
@@ -189,7 +239,12 @@
       "evidence": "Dossieret henviser til 1834-husstanden og til sønnen Christen Andersens dåb i Hoven 1819. Møllen er et fast geografisk og ejendomsmæssigt holdepunkt.",
       "missing": "Original skøde-/matrikel-/brandforsikringsmateriale og de relevante Hoven kirkebøger fra ca. 1770–1800.",
       "next": "Sammenhold 1834-folketælling, møllens ejendomshistorie og kirkebøgernes dåb/vielser.",
-      "dossier": "leads/grandparent-liss-pedersen.md"
+      "dossier": "leads/grandparent-liss-pedersen.md",
+      "person_ids": [
+        "a44",
+        "a45",
+        "a89"
+      ]
     },
     {
       "id": "liss-karen-date",
@@ -200,7 +255,10 @@
       "evidence": "Dossieret prioriterer dåbs- og vielsesoplysningerne og registrerer folketællingens afvigelse særskilt.",
       "missing": "En fuld sammenligning af original dåb, vielse og folketællingens præcise felt/afskrift.",
       "next": "Kontrollér de originale indførsler og bevar afvigelsen som en kildevariant.",
-      "dossier": "leads/grandparent-liss-pedersen.md"
+      "dossier": "leads/grandparent-liss-pedersen.md",
+      "person_ids": [
+        "p23"
+      ]
     },
     {
       "id": "gerda-kresten-mother",
@@ -211,7 +269,11 @@
       "evidence": "Dossieret nævner dåbsindekset LL:12-16292169 og folketællingerne 1880 og 1890, hvor Kresten skal være opvokset hos Jørgen Christensen og Karen Andersen. Det kan pege mod Marthe Jørgensen (født 1852), men er indirekte.",
       "missing": "Den fulde dåbsindførsel med alder, bopæl, tjenestested og marginalnoter samt kandidat B's begravelse og tilgangsliste 1877.",
       "next": "Læs dåbsbilledet først, og sammenhold derefter begravelse, tilgangsliste og kandidat A's folketælling 1921.",
-      "dossier": "leads/grandparent-gerda-larsen.md"
+      "dossier": "leads/grandparent-gerda-larsen.md",
+      "person_ids": [
+        "g_kresten",
+        "p28"
+      ]
     },
     {
       "id": "gerda-lango-deed",
@@ -232,6 +294,10 @@
           "label": "Familieerindring, side 1",
           "url": "https://raw.githubusercontent.com/sloev/tree/main/images/04-langoe-erindringer.jpg"
         }
+      ],
+      "person_ids": [
+        "p62",
+        "p63"
       ]
     },
     {
@@ -253,6 +319,10 @@
           "label": "Familieerindring, side 2",
           "url": "https://raw.githubusercontent.com/sloev/tree/main/images/02-langoe-erindringer-s2.jpg"
         }
+      ],
+      "person_ids": [
+        "p62",
+        "p63"
       ]
     },
     {
@@ -264,7 +334,10 @@
       "evidence": "Københavns Politis udvandringskontrakt nr. 4443, dateret 8. september 1910, er angivet som et konkret opslagsspor.",
       "missing": "Selve kontraktens fulde oplysninger og sammenligning med passagerlister, amerikanske folketællinger, naturalisation og dødsoplysninger.",
       "next": "Læs kontrakt nr. 4443 og følg navn, alder, fødested og destination i amerikanske kilder.",
-      "dossier": "leads/grandparent-gerda-larsen.md"
+      "dossier": "leads/grandparent-gerda-larsen.md",
+      "person_ids": [
+        "p60"
+      ]
     },
     {
       "id": "gerda-christian-probate",
@@ -275,7 +348,11 @@
       "evidence": "Dossieret beskriver en skifteoplysning om to ægteskaber og flere børn i Nordenbro og en mulig forbindelse til den senere Magleby-familie.",
       "missing": "Originalt skifte med afdødes alder, bopæl, ægtefæller og børn samt en dokumenteret generationsforbindelse frem til 1829-parret.",
       "next": "Find den rette skifteprotokol og sammenlign navne, alder, bopæl og familieforløb med kirkebøgerne.",
-      "dossier": "leads/grandparent-gerda-larsen.md"
+      "dossier": "leads/grandparent-gerda-larsen.md",
+      "person_ids": [
+        "p114",
+        "p115"
+      ]
     },
     {
       "id": "gerda-emigrant-family",
@@ -286,7 +363,11 @@
       "evidence": "Familiearket angiver ni børn og et overordnet rejseforløb. Dossieret har allerede dåbshenvisninger for flere børn.",
       "missing": "De præcise navne og individuelle udrejsekontrakter, passagerlister, amerikanske folketællinger og eventuelle naturalisations-/kirkebogsoplysninger.",
       "next": "Lav en separat tidslinje for hvert barn og søg først i de relevante danske sogne, derefter i destinationskilder.",
-      "dossier": "leads/grandparent-gerda-larsen.md"
+      "dossier": "leads/grandparent-gerda-larsen.md",
+      "person_ids": [
+        "p126",
+        "p127"
+      ]
     },
     {
       "id": "lorenz-paternity-case",
@@ -303,6 +384,12 @@
           "label": "Rigsarkivet: Faderskabssager – kom godt i gang",
           "url": "https://www.rigsarkivet.dk/vejledning/faderskab-og-adoption/faderskabssager-kom-godt-i-gang/"
         }
+      ],
+      "person_ids": [
+        "p6",
+        "p12",
+        "sofus",
+        "pf12"
       ]
     },
     {
@@ -324,6 +411,9 @@
           "label": "Vor Frelsers sogneinventar",
           "url": "https://slaegtsbibliotek.dk/900379.pdf"
         }
+      ],
+      "person_ids": [
+        "p868"
       ]
     },
     {
@@ -341,6 +431,9 @@
           "label": "Harbou: Slægten von Kleist i Danmark",
           "url": "https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf"
         }
+      ],
+      "person_ids": [
+        "p868"
       ]
     },
     {
@@ -352,7 +445,10 @@
       "evidence": "Dossierets kildekritiske gennemgang sammenholder Harbou, 2025-familiehistorien og Muttrin-materialets dokumenter. Den fremhæver bl.a. en konflikt mellem Reimer- og Bartes-traditionerne og forskellige personer med navnet Pribislaff.",
       "missing": "Kontrol af de præcise dokumenthenvisninger i Muttrin-bogen og de relevante Greifswald-chartere, især hvor 1477-charteret og senere slægtstavler er uenige.",
       "next": "Fortsæt dokument-for-dokument-audit af hver slægtsstamme; hold Tychow-Dubberow og Muttrin adskilt i træet indtil en ubrudt kildekæde foreligger.",
-      "dossier": "leads/grandparent-lorenz-frederiksen.md"
+      "dossier": "leads/grandparent-lorenz-frederiksen.md",
+      "person_ids": [
+        "p868"
+      ]
     }
   ]
 }
