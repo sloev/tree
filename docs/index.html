@@ -701,7 +701,7 @@ function renderPed(root){
     if(p){item.dataset.personId=p.id;name.setAttribute('aria-label',clean(p.name)+', åbn personkort');name.addEventListener('click',()=>openPerson(p.id));}
     const years=document.createElement('span');years.className='ft-years';years.textContent=p?life(p):'';
     const sex=document.createElement('i');sex.className='ft-sex'+(p?.sex==='F'?' sex-f':p?.sex==='M'?' sex-m':'');if(p)sex.setAttribute('aria-label',p.sex==='F'?'Kvinde':p.sex==='M'?'Mand':'Køn ikke angivet');
-    const place=document.createElement('span');place.className='ft-place';place.textContent=p?.bplace||'';
+    const place=document.createElement('span');place.className='ft-place';place.textContent=p?.bplace||'';place.title=p?.bplace||'';
     const nav=document.createElement('span');nav.className='ft-nav';
     if(p){
       const peers=generationNodes[depth]||(generationNodes[depth]=[]);
