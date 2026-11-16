@@ -250,3 +250,22 @@ Further corroboration was found for the candidate Rasmus Jensen in Fuglslev. Kar
 **Validation:** canonical JSON parsed before update; current blob SHA fetched before writes. No original kirkebog, census, probate or lease images were read; no local build/export or deployment check performed.
 
 **Next:** inspect the original 1744 marriage entry and the 1787 census image; search baptism/death entries for the children of Rasmus and Anne Cathrine; inspect the underlying 1784 and 1788/1799 lease documents to establish whether they refer to the same holding; then assess whether p304's parentage can be upgraded.
+
+
+## 2026-11-17 — research loop: possible identification of Christen Gårdsted in Dejret
+
+**Track updated:** `evald-tohde-probate`.
+
+Hanne Vinter Henriksen's Isgård G299 lease-register transcription (1719–1823) has a highly relevant entry: Tved, Dejret; Christen Christensen Gårdsted; 1750; page 123; note: former bailiff at Rolsgård, taking the house vacated by Søren Pedersen Danmand. This is a strong candidate for the man called “Christen Christensen Tohde?” in Rolsøgård G302 no. 11 (14 May 1787, fol. 39): the name, Dejret location, and bailiff/Rolsgård connection align. The uncertain “Tohde?” may be a misreading or alternative nickname; it is not yet safe to equate the men.
+
+The original archival route is now precisely identified via DS-Wiki Isgård: AO scan for G299 probate protocol 1762–1812 (epid 17176611), register (17176629), lease protocol 1719–1829 (21027118), and lease register (21027120). The web viewer cannot read the scanned images, so these are concrete manual inspection targets. The G299 public index extract did not list a separate 1764 probate under this name; that remains only a negative result in a secondary extract. The 1750 lease entry makes it particularly important to check the original G299 probate register/protocol around 1764 and lease page 123.
+
+**Interpretive guardrail:** G302 describes Karen Christensdatter and Claus Gaardsted as “stedbørn” of the deceased Christen Christensen, not established biological children. No parentage or sibling edges were changed. The new entry may clarify the man's identity and jurisdiction, not the biological parentage of Claus/Karen by itself.
+
+**Sources reviewed:** Isgård G299 lease register (1750, p.123); Rolsøgård G302 published extract (1787, fol.39); DS-Wiki Isgård; 1970 Landsarkiv inventory of private estate probate/lease records; Rigsarkivet AO catalogue links.
+
+**Files changed:** `data/tree.json` and `coop.log.md`; appended a dated note to the existing track and added original AO links. No sidecar file, no new person, no family edge.
+
+**Validation:** canonical JSON parsed before write; fetched current SHA before write. AO pages resolve to official scan viewer URLs, but original images were not read; no local build or deployment status checked in this cycle.
+
+**Next:** inspect original G299 register/protocol around 1764 and original lease page 123; compare the handwritten name with “Tohde?” in original G302 fol.39. Confirm whether the 1764 deceased was a G299 tenant/employee and preserve the distinction between stepchildren and biological parentage.
