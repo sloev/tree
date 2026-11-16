@@ -130,3 +130,16 @@ Append-only coordination log for the Gårdsted / Gedde family-history project. A
 5. Only after those checks consider whether any disputed parent links should enter canonical data.
 
 **Handoff:** all findings and next actions live in the Lorenz dossier; archive material remains provenance-only. Main branch only.
+
+
+### Audit follow-up — expanded tree exports checked
+
+A second pass searched the complete expanded JSON, GEDCOM and text exports plus the archived personal-information supplement, rather than relying only on the narrative archive. This located and evaluated the research-only IDs exp020–exp042 and the associated collateral spouses/parents.
+
+Important clarification incorporated into the dossier:
+- The 2025 Muttrin genealogy explicitly states that Pribislaff III.281 (p3472) was the son of Hans Jürgen III.186 and an unnamed daughter of Achatz III.110. The expanded record exp033 has the narrative child assertion, but p3472's own structured `father` and `mother` fields remain null. This is a data-model/encoding gap, not absence of a published parentage claim.
+- The same 2025 genealogy identifies p3473 as Anna Esther von Kameke of Kratzig, daughter of Jacob von Kameke of Körlin and Catharina von Koller; the expanded export has exp036/exp037 but canonical p3473 has no parent links.
+- The expanded note also records the reported beheading-after-duel tradition for Pribislaff and lists his other children. These have been retained as sourced tradition/collateral leads, not asserted as established fact.
+- The full proposed path exp020–exp042 has been written into the Lorenz dossier with source-by-source grades and the limits of each generation.
+
+No canonical data or GEDCOM edges were changed. No local tests/build were run.
