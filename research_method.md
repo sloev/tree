@@ -997,3 +997,29 @@ Rotate from the Fåborg branch to p74 Jens Hansen and p75 Mette Pedersdatter. Ex
 2. Inspect the 1812 Ane Sophie baptism in the same register and compare the mother's full name, legitimacy wording, residence and named father with p74/p75/p150.
 3. If the entries support the existing tree, identify the parents of Mette Pedersdatter Hallis and Jens Hansen separately; if they support Broge/Helles, record the mismatch for correction review rather than silently changing IDs.
 4. Rotate to the Syv (p66–67) or Langeland (p114–121) branch after this bounded Rosmus check; keep research balanced across Vivi's whole tree.
+
+
+## Milestone 39 — Ahnentafel 32: screened a same-name, same-day 1826 military-medal candidate (16 November 2026)
+
+### Target and candidate
+The whole-tree gap list identifies p32 **Niels Jørgensen**, born about 1826, later a høker/arbejdsmand in Copenhagen; census-derived place clues are “Høje” / “Hove, Svendborg Amt,” with exact birthplace still unresolved. A Rigsarkivet index search surfaced **Niels Jørgensen, Svinehøihuus**, born 4 April 1826, in the Svendborg Amt, Gudme Herred applications for the 1848–50 commemorative medal. The exact birth date and year made him worth screening, but name/date coincidence alone is not identification.
+
+### Record-level result
+The Rigsarkivet transcription of application no. 68653 records:
+- born 4 April 1826;
+- served in the 3rd Reservejægerkorps, 3rd Company, from 16 April 1848 until the peace in February 1851;
+- later occupation husmand;
+- residence at the time of application: Oure parish and town, Gudme Herred, Svendborg Amt.
+
+A separate local-history transcription of Oure parish marriages reports that **Niels Jørgensen of Albjerg Mark**, born there 4 April 1826, married Anne Larsdatter at Oure on 4 November 1854. This appears to be the same Oure man as the medal applicant, but the underlying parish image has not yet been inspected. Oure is not the tree's reported Høje/Hove locality. Consequently this is **not a supported identification** for p32; retain it as a screened-out same-name candidate unless migration evidence later connects the Oure man to the tree's Niels.
+
+### Sources
+- Rigsarkivet, application no. 68653, 1848–50 commemorative medal applications: https://cs.rigsarkivet.dk/picture/view-values/68653?selectedTab=3
+- Rigsarkivet index page, Svendborg Amt/Gudme Herred: https://cs.rigsarkivet.dk/picture_series/517?page=8
+- Gudme Lokalarkiv, Oure marriages/deaths 1851–1858 (transcription): https://gudmelokalarkiv.dk/wp-content/uploads/2014/11/Oure-viede_d%C3%B8de-1851_1858_.pdf
+
+### Assessment and next steps
+The medal application gives a useful new research path into the 1848–50 military records, but its Oure residence and the separate Oure marriage point away from the Høje/Hove candidate. Do not merge the two men. Next inspect the original Oure 1826 baptism and 1854 marriage images to confirm this man's parents and identity, then return to Lunde parish/Høje and the relevant 1824–28 baptisms for p32. The current evidence does not solve p32's birth parish or parentage.
+
+### Validation
+Only this research checkpoint was updated. No canonical person, parent link, family-tree narrative or generated site file changed. No build or tests were run; private data was not accessed.
