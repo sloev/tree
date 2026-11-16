@@ -282,6 +282,20 @@ Sources: [Urk. 125, 1477, in the Urkundenbuch](https://v-kleist.com/FG/urkunden/
 
 The 2025 Muttrin volume itself says the early arrangement of persons is probable and based on contemporary documents together with later family records. This is a critical qualification, not a minor disclaimer. See [Muttrin, 2025](https://www.v-kleist.com/FG/Muttrin/Muttrin.pdf), introduction (PDF text around pp. 3–7), and the [charter cross-reference](https://v-kleist.com/FG/urkundenzuordnung.htm). Note a date correction for our working notes: **Urk. 83 is indexed as 1364 for Prissebur of Muttrin; 1368 is Urk. 84 for Dubbeslaff Cleest.** Do not carry forward a 1368 date for Prissebur.
 
+#### B1. What the 1407 and 1435 documents actually establish
+
+The original-source editions give a useful distinction between dated appearances and the parentage supplied by later genealogy.
+
+- **Urk. 100, 2 February 1407:** the Urkundenbuch says the original was in the Pommersches Provinzialarchiv, Schr. XIX, Chat. 4, Nr. 65. It names the old Bispraw Clest; Henning Clest of Bruskow; Henning Clest of Raddatz; Henning Clest of Muttrin; Kurt Clest of Damen; Prybbeslaf Clest of Kresyn; and another Prybbeslaf, son of Henning Clest of Raddatz. They jointly guarantee for their cousin Clest, Henning's son of Raddatz, held prisoner at Neustettin. Eight seal straps are noted, two missing, with only an indistinct seal remnant on the last.
+- The record establishes a group of named Kleists, their estates/locations and a cousin relationship to the imprisoned Raddatz man. It does **not** state that Henning of Muttrin is the son of the earlier Prissebur, nor does it supply the full Muttrin parent-child structure. That link is supplied by the family genealogy.
+- **Urk. 103, c.1435:** a record of damage to the Teutonic Order's lands names Pribbeslaff Clest and Claws Kameke among men raiding Dąbczlaw and other villages. The edition says it comes from a foliant in the Königsberg State Archive. This is a dated appearance of a Pribbeslaff Clest in the regional conflict network; the record does not state his ancestry.
+- **Urk. 104, c.1435:** a letter from Duke Bogislaw IX to the Teutonic Grand Master, preserved in the Königsberg State Archive, says the Order's vogt had seized goods from “our man Henningh Klystes sone van mütteryn” (the son of Henning Kleist of Muttrin). The 2025 Muttrin genealogy identifies this Henning as M.8 and gives him as a son of Henning M.3. The document itself confirms the son and the Muttrin association but does not name the father in the way the later pedigree does; the identification with the 1407 Henning and the exact M.3 → M.8 link depends on the combined record sequence and family genealogy.
+- **Urk. 104a, 11 October 1436:** names Hermann Kleist as son of Curt Kleist of Damen, an explicit parentage statement in a separate collateral branch. It is useful evidence that the contemporary document book can preserve direct father-child wording, but it does not prove the Muttrin line.
+
+**Assessment:** the 1407 and 1435 records substantially corroborate the existence, geography and chronology of the people used in the Muttrin reconstruction. They do not, on their own, prove every link in the Prissebur → Henning → Henning → Bisprow chain. The distinction between a named person, a stated parent and a pedigree identification must remain visible.
+
+Source: [Urkundenbuch, Urk. 100, 103, 104 and 104a](https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf).
+
 #### C. The 1477 charter and the three main lines
 
 Quandt's transcription of the 13 April 1477 collective fief letter (Urk. 125) says the enfeoffed Kleists testified that they descended from an “Oldervater” who had three sons. It then groups named people at Muttrin, Damen, Tychow/Dubberow and Vilnow/Raddatz. The [family association's charter summary](https://v-kleist.com/FG/urkunden/urkunden.htm) likewise says the letter confirms three lines from a common ancestor and his three sons.
