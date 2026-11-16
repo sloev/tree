@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "aa5a0e1ffd9e5fe4f3f2457d576c8d5e570390dd",
+    "commit": "e87201a48a895f46fe5fbdfedb5f070267a588eb",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "data/tree.json"
     ],
     "people": [],
-    "title": "Add new Isgaard-Rolsogaard probate cross-check and Sønder Felding archive lead to research tracks"
+    "title": "Add official Kolding parish name-register lead to Frederik Christian von Kleist research"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
