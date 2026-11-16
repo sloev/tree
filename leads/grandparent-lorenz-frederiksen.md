@@ -364,3 +364,67 @@ Source anchors:
 - [Allgemeine Geschichte](https://www.v-kleist.com/FG/Genealogie/AllgemeineGeschichte.pdf)
 - [Harbou 1897](https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf)
 - [English Tychow-Dubberow translation, p.123](https://www.v-kleist.com/FG/english/Dubberow_translation.pdf)
+
+
+## 15. Gedde officer-line evidence conflicts and noble collateral ancestry
+
+### Christian Giedde / Christian Gedde — possible namesake conflation
+
+Two incompatible source descriptions exist for the earlier Christian Gedde/Giedde said to be father of Samuel Christoph Gedde (`p864`):
+
+- The DBL / Harbou-derived source used in the earlier audit identifies **Christian Gedde (1648–1707)**, colonel and commandant on Møn, husband of Charlotte von Geidern, as father of Samuel Christoph (born 14 July 1691).
+- The separate evidence-audit compilation cites Danish Wikipedia for **Christian Giedde (born 1639 in Kville, died 1705)**, husband of Anna Margrethe Charlotte von Geijder (born 1648 on Øsel; daughter of Carl Christian von Geijder and Charlotte von Vietinghoff), and recommends changing p864's father's birth year from 1638 to 1639.
+
+These cannot be silently merged: the birth/death years and wife's name differ. The 1639 correction may apply to the person currently encoded as p864's father, while the DBL 1648–1707 Møn commandant may be a different Christian or a source conflation. Reconcile the original DBL article, Harbou, Schøller's officer-family genealogy and Møn/Kville records before changing p864's father's dates, spouse or identity. Search Kville baptisms and Møn commandant records. The current 1638 date is not secure; neither is a merge with the 1648–1707 person.
+
+### Samuel Christoph Gedde (`p864`)
+
+The 14 July 1691 Copenhagen birth and 2 February 1766 Copenhagen death are supported by Harbou, DBL and Weilbach. Weilbach also supports his engineering/cartographic career. His 1751 map of Christianshavn is a primary work-product that independently demonstrates his cartographic role. The family history says he and Marie Elisabeth Pechernaut de la Remière had ten children. The exact identity of his father remains subject to the Christian Gedde/Giedde conflict above.
+
+Sources:
+- [Samuel Christoph Gedde — DBL](https://biografiskleksikon.lex.dk/Samuel_Christoph_Gedde)
+- [Samuel Christoph Gedde — Weilbach](https://weilbach.lex.dk/Samuel_Christoph_Gedde)
+- [Christianshavn 1751 map](https://commons.wikimedia.org/wiki/File:Christianshavn_1751_by_Samuel_Christoph_Gedde.jpg)
+- [Christian Giedde — Danish Wikipedia](https://da.wikipedia.org/wiki/Christian_Giedde)
+
+### Hans Christopher Gedde (`p432`) and second-wife spelling/date
+
+Weilbach and Store norske leksikon give Hans Christopher's exact birth as 23 June 1738 in Oldenburg and death as 9 March 1817 in Copenhagen. The current tree only records the year 1738; the exact date/place is well supported but still secondary-source evidence. Add it only after checking the original Oldenburg baptism.
+
+The second wife appears as **Øllegaard Sophie Fischer** in Harbou and as **Ødegaard Sophie Fischer** in Anker's 1885 account. Their marriage month also conflicts: Harbou gives 15 February 1789, Anker 15 December 1789. The expanded Gedde research uses 15 December 1789. Preserve both spellings and dates until the Copenhagen marriage and burial entries are inspected.
+
+### Ove Samuel I / II hypothesis
+
+The segment 12 extension argues for two men:
+- Ove Samuel I, born 28 February 1778, who died young;
+- Ove Samuel II, born 28 May 1788 in Fredrikstad, died 10 March 1843 in Helsingør and buried 16 March at Skt. Mariæ.
+
+It argues that Harbou attached the 1778 birth to the man who married in 1806 and died in 1843. This is a plausible conflation hypothesis, but the 1778 infant's death and the 1788 Fredrikstad baptism have not been inspected. Keep one existing p216 record with the competing dates and maternal possibilities documented; do not create a second Ove or move the canonical FAMC until the Fredensborg/Fredrikstad baptism and burial records are read.
+
+### Rosenkrantz / Krag / Juel / Ulfeldt noble ancestry
+
+The line above Sophie Rosenkrantz (`p869`) and Christian Rosenkrantz (`p1738`) contains a group of Danish noble families currently sourced mainly through WikiTree/Geni and online biographies. These are secondary compilations, not primary evidence. Danmarks Adels Aarbog (DAA) is the main next cross-check.
+
+Specific discrepancies and candidates recorded in the evidence audit:
+- **Christian Rosenkrantz til Skovsbo** (`p1738`), reported 1672–3 September 1736; proposed parents Jens Rosenkrantz (1640–1695) and Dorte Friis (1654–1681). Amtmandsbogen and other secondary sources support the family, but verify the DAA Rosenkrantz/Friis entries.
+- **Holger Rosenkrantz “den Lærde”**: birth 2 June 1577 in the current tree conflicts with sources giving 14 December 1574; he is not the same man as **Holger Axelsen Rosenkrantz “den Rige”** (1586–1647). The latter has another date conflict (6 May vs 9 May 1586, likely birth vs baptism). Do not merge the two Holgers.
+- **Sophie Axelsdatter Brahe** (1578–1646) is not the famous Sophia Brahe (1556/1558–1643), sister of Tycho Brahe. They are different people in different branches.
+- **Mogens Friis**: tree date 16 April 1623 conflicts with sources giving 7 September 1623; proposed parents are Niels Friis and Dorthe Mogensdatter Gyldenstjerne. Verify DAA and the original baptism.
+- **Admiral Niels Juel** (1629–1697) is reported as son of Erik Juel (1591–1657) and Sophie Clausdatter Sehested (1594–1658). DBL and other sources support the family.
+- **Margrethe Knudsdatter Ulfeldt** (1641–1703) is reported as daughter of Knud Ulfeldt (1609–1657) and Vibeke Podebusk (1608–1645). DBL supports Margrethe and the Ulfeldt family; DAA should be checked for the full chain.
+- Other names in the proposed noble line include Rosenkrantz, Krag, Juel, Ulfeldt, Podebusk, Friis, Brahe, Gyldenstierne, Høeg and Sehested. Do not add parents or extend these lines based on a name-only match.
+
+Useful source routes:
+- [Danmarks Adels Aarbog 1919, FamilySearch viewer](https://www.familysearch.org/library/books/viewer/779881/)
+- [HathiTrust catalogue](https://catalog.hathitrust.org/Record/011408261)
+- [Selected DAA volumes at Internet Archive](https://archive.org/details/danmarksadelaarb1900kj)
+- [Amtmandsbogen](https://slaegtsbibliotek.dk/929042.pdf)
+- [Mogens Friis — DBL](https://biografiskleksikon.lex.dk/Mogens_Friis)
+- [Niels Juel — DBL](https://biografiskleksikon.lex.dk/Niels_Juel)
+- [Margrethe Ulfeldt — DBL](https://biografiskleksikon.lex.dk/Margrethe_Ulfeldt)
+- [Holger Rosenkrantz portrait, 1636](https://commons.wikimedia.org/wiki/File:Johan_Thim_1636_Holger_Rosenkrantz_den_laerde_IMG_5857.jpg)
+- [Jørgen Holgersen Rosenkrantz portrait, 1640](https://commons.wikimedia.org/wiki/File:Jørgen_Rosenkrantz.jpg)
+- [Niels Juel portrait](https://commons.wikimedia.org/wiki/File:Niels_Juel_(Jacob_Coning_painting).jpg)
+- [Mogens Friis portrait, 1670](https://commons.wikimedia.org/wiki/File:Mogens_Frijs.jpg)
+
+No date or parentage changes from this section have been applied to canonical data.
