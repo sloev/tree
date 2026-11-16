@@ -213,3 +213,10 @@ Added these exact series, signatures/volumes and caveats to the Lorenz dossier. 
 **Build/publication:** not yet run or independently verified in this entry. The repository has a GitHub Actions rebuild workflow; inspect its latest run and confirm the generated-output commit and GitHub Pages deployment before claiming the public page is updated. Do not change generated HTML by hand.
 
 **Next:** verify workflow and Pages; then continue with Vor Frelsers 1705 original baptism entry, including the bell-ringer's parallel series. If the image is inaccessible online, send Rigsarkivet a precise lookup request. After the Kleist line, resume the outstanding tasks in the Evald, Liss and Gerda dossiers.
+
+
+### Follow-up verification — generated outputs
+
+After the template commit, the configured `.github/workflows/rebuild-site.yml` push trigger produced commit `583023779f254de508e0e83b87bd8d6a547bd776` (“Rebuild family tree website”). Its changed-file list includes both `site/index.html` and `docs/index.html`; the `site/index.html` diff explicitly contains the new Kleist–Gedde bulletin entry at the top. The generated `docs/index.html` blob changed as part of the same commit, but the GitHub file-fetch wrapper returns empty content for that large file, so its full content was not round-tripped here. The public Pages URL could not be independently fetched by the available browser. Therefore the source and generated outputs are updated in Git, but live browser rendering/deployment remains to be confirmed by the owner.
+
+The combined commit-status endpoint returned no status records for the log commit; this is not evidence of a passing workflow. No local build, browser test or live Pages smoke test was run in this session.
