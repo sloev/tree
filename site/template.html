@@ -351,6 +351,7 @@ button,a{touch-action:manipulation}
 .claim details{border-top:1px solid var(--rule);padding-top:9px}
 .claim details>div{display:flex;flex-direction:column;gap:5px;margin:9px 0}
 .claim .claim-label{font:500 .66rem var(--f-data);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.claim-sources{margin:3px 0 0;padding-left:18px;font-size:.84rem;display:flex;flex-direction:column;gap:4px}
 .claim .claim-foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;align-items:center}
 .claim .dossier-link{font-size:.82rem}
 @media(max-width:700px){.claim-list{grid-template-columns:minmax(0,1fr)}}
@@ -811,6 +812,7 @@ function renderForskning(){
         <div><span class="claim-label">Hvad vi har</span><p>${esc(c.evidence)}</p></div>
         <div><span class="claim-label">Hvad der mangler</span><p>${esc(c.missing)}</p></div>
         <div><span class="claim-label">Næste kontrol</span><p>${esc(c.next)}</p></div>
+        ${(c.sources||[]).length?'<div><span class="claim-label">Kilder og videre læsning</span><ul class="claim-sources">'+c.sources.filter(x=>/^https:\/\//.test(x.url||'')).map(x=>'<li><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.label)+'</a></li>').join('')+'</ul></div>':''}
       </details>
       <div class="claim-foot"><span class="count">Spor-ID: ${esc(c.id)}</span><a class="dossier-link" href="https://github.com/sloev/tree/blob/main/${encodeURI(c.dossier)}" target="_blank" rel="noopener">Åbn arbejdsdossier ↗</a></div>
     </article>`).join('')||'<p class="muted">Ingen spor matcher søgningen.</p>';
