@@ -1439,3 +1439,23 @@ Harbous note 36 henviser til “Selmer, Nekrolog. Saml. II”. Den matchende bio
 - [Brejl, private personarkiver, post om gravbrev for Frederik Christian von Kleist](https://brejl.dk/privatB.html).
 
 **Vurdering:** Frederik Christian af Kleist i Selmers nekrolog er med stor sandsynlighed Harbous III.727. Dødsdatoen 21. maj 1848 bekræftes uafhængigt af Harbou; Selmer giver fødselsdatoen 3. januar, mens Harbou giver 8. januar. Begravelse på Garnisons Kirkegård 26. maj er registreret i Brejls oversigt, men det originale gravbrev/protokol og selve dødsstedet mangler stadig. Ingen kanoniske personer eller slægtskabsrelationer ændres.
+
+
+## Follow-up: Kolding Stadsarkivs afskrifter som vej til dåben (16. november 2026)
+
+En konkret, lokal kildevej er identificeret til at afgøre fødselsdatokonflikten mellem Selmers 3. januar og Harbous 8. januar 1775.
+
+Kolding Stadsarkiv oplyser, at lokalhistorikeren Ingrid Bruuns arkiv indeholder afskrifter af kirkebøger fra Kolding Kommune for perioden 1635–1881. Afskrifterne er digitaliseret og frit tilgængelige via en søgeportal. Det er et nyttigt søgehjælpemiddel til at lokalisere den relevante indførsel og kontrollere navnevarianter, men afskriften bør sammenholdes med den originale kirkebog, før dato og forældre anses for endeligt fastslået.
+
+Kolding Stadsarkivs side om slægtsforskning linker direkte til Ingrid Bruuns afskrifter:
+https://koldingstadsarkiv.dk/brug-arkivet/slaegtsforskning
+
+**Status:** Søgeportalen (salldata.dk/ibp/index.php) gav timeout under denne undersøgelse. Der er derfor endnu ikke fundet eller læst en konkret dåbsindførsel for Frederik Christian. Dette er en ny søgevej, ikke ny persondokumentation.
+
+Næste trin er at søge i Kolding-afskrifterne på Frederik/Frederich Christian von Kleist og varianter af forældrenes navne, afgrænset til januar 1775. Derefter skal originalbilledet i Arkivalieronline kontrolleres. Rigsarkivets vejledning beskriver, at kirkebøger før ca. 1814 normalt findes som enesteministerialbøger, ført kronologisk; Kolding Stadsarkivs afskrifter kan hjælpe med at finde stedet i den originale bog.
+
+Kilder:
+- [Kolding Stadsarkiv: Slægtsforskning og Ingrid Bruuns afskrifter](https://koldingstadsarkiv.dk/brug-arkivet/slaegtsforskning).
+- [Rigsarkivet: Kirkebøger – kom godt i gang](https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/).
+
+**Vurdering:** Der er nu en konkret og relevant søgeportal for Kolding 1775, men fødselsdatoen er fortsat uafklaret, indtil afskrift og originalindførsel er fundet og sammenholdt.
