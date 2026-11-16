@@ -16282,6 +16282,10 @@
      {
       "label": "Rigsarkivet: Kirkebøger – kom godt i gang",
       "url": "https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/"
+     },
+     {
+      "label": "Rigsarkivet, Arkivalieronline: Kolding Sankt Nikolaj navne-register 1635–1891",
+      "url": "https://arkivalieronline.rigsarkivet.dk/da/other/index-creator/29/534415/17148233"
      }
     ],
     "person_ids": [
@@ -16433,6 +16437,13 @@
       "context": "Von Woyten–Kleist descent: supplied pedigree and source audit (16 November 2026)",
       "text": "- The family history identifies Barbara Juliane as daughter of Christian Casimir II.82 and wife of Cartz Ulrik III.369. The existing tree's `p1737` and `p1736` links therefore provide the correct route to Christian Adam `p868`.\n- The 2025 history dates Christian Casimir's death to **19 February 1722**, whereas the current structured data `p3474` says **1 February 1722**. This is a source conflict to resolve, not a date to overwrite without checking the underlying citation.\n- The family history names the wife **Anna Hedwig von Fürst** and gives her death as 1722; the current tree calls her Anna von Fürst. Retain the name variant pending primary-source comparison.\n- The supplied Christian Adam birth date of **3 October 1705** conflicts with the currently used published account and family-association report of **1 October 1705**. The original Vor Frelsers baptism entry has not yet been read; keep 1 October as the current published claim, not as a verified register transcription.\n- The supplied downstream names and dates — Frederik/Friedrich Carl Emil, Christian Frederik Vilhelm, Sophie Frederikke, Julie von Kleist and Eide/Moltke/Rosenkrantz descendants — need their own source chain. They are not established by the Tychow-Dubberow pages audited here. The family history also describes II.82's son Andreas Wilhelm II.117 and his descendants separately; do not conflate that line with Christian Adam's descent through Barbara Juliane.",
       "provenance": "Tidligere Lorenz-dossier, fuldt indarbejdet 16.11.2026",
+      "imported_on": "2026-11-16"
+     },
+     {
+      "title": "Nyt officielt søgehjælpemiddel: Kolding Sankt Nikolaj navne-register",
+      "context": "Kolding kirkebøger, januar 1775",
+      "text": "Rigsarkivets Arkivalieronline har et officielt registreret hjælpemiddel med titlen “Kolding Sankt Nikolaj Sogn: Navneregister til kirkebøger, viede og døde – Kolding (1635–1891)”. Indholdssiden linker til en scannet registerenhed. Det er et nyt konkret søgehjælpemiddel til Kolding-identifikationerne, men sidens titel specificerer ikke tydeligt, om dåbsindførsler fra 1775 er omfattet. Selve registerbilledet kunne ikke læses gennem denne webgrænseflade (AO viser billedviserens ramme, ikke opslagets indhold). Det må derfor ikke registreres som et negativt navnesøg eller som bevis for, at Frederik Christian findes/ikke findes i registret.\n\nNæste kontrol: åbne registeret direkte i Arkivalieronline og afklare dets indhold/alfabetiske dækning; uanset resultat gennemgå de to originale Kolding Sankt Nikolaj-bøger C 469-3 (præstens enesteministerialbog 1751–1815) og C 469-7 (kordegnens bog 1723–1779) omkring januar 1775. Sammenhold derefter dato, forældre, bopæl og faddere med Selmers 3. januar og Harbous 8. januar.",
+      "provenance": "Nye webkildekontroller 16.11.2026; Rigsarkivet Arkivalieronline",
       "imported_on": "2026-11-16"
      }
     ]
