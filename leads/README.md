@@ -9,8 +9,9 @@ This directory consolidates the readable uploads, the prior research file, and t
 - [Investigation worklist](investigation-worklist.md) — actionable leads and conflicts extracted from the source material.
 - [Research notes](research-notes.md) — first source checks, corrections, archival search routes and findings.
 - [Earlier tree research](tree-research.md) — prior von Woyten, von Stojentin, von Kleist and Gedde research, plus the all-connections evidence policy.
-- [Archive review leads](archive-review-leads.md) — review of the newly unpacked export, including the Lorenz, Sophus, Jochum, Langø and other image-based leads, plus format-count discrepancies.
-- [Original ZIP export](family-tree-export.zip) — retained byte-for-byte as supplied. Its contents have now been unpacked and reviewed; the original archive remains the untouched source package.
+- [Archive review leads](archive-review-leads.md) — review of the unpacked export and its image-based leads.
+- [Independent research and GEDCOM audit](independent-research-2026-11.md) — independent source checks, the four JSON-only people missing from GEDCOM, and next archival steps.
+- [Original ZIP export](family-tree-export.zip) — retained byte-for-byte as supplied. Its contents have been unpacked and reviewed; the original archive remains the untouched source package.
 
 ## Source and evidence policy
 
