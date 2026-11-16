@@ -6,7 +6,7 @@
 2 VERS 5.5.1
 2 FORM LINEAGE-LINKED
 1 CHAR UTF-8
-1 NOTE Expanded export: the 489 persons of the site GEDCOM (sloev.github.io/tree) plus 34 ancestors (ids exp001-exp041) added by backward research 2026-11-16 from published sources (Dansk biografisk Lexikon
+1 NOTE Expanded export: the 489 persons of the site GEDCOM (sloev.github.io/tree) plus 35 ancestors (ids exp001-exp042) added by backward research 2026-11-16 from published sources (Dansk biografisk Lexikon
 1 NOTE bind V via runeberg.org; H.W. Harbou: Slægten von Kleist i Danmark 1897; Familiengeschichte v. Kleist Muttrin-Damen 2025, v-kleist.com; da.wikipedia; snl.no). See family-tree-full-export.txt Section I
 1 NOTE for details and confidence notes. Family records rebuilt from corrected parent links (e.g. mother of Ove Samuel Gedde p216 = Frederikke Christiane Fischer exp009, first wife, per DBL; Oellegaard
 1 NOTE Sophie Fischer p433 = stepmother).
@@ -6007,7 +6007,7 @@
 2 CONT Pribslaff, Dubbeschlaff, Jacob, Schir, David og Voltzen grundlagde Grenene af Muttrin-Damen-linjen.
 1 SOUR
 2 PAGE MUT:Muttrin (Familiengeschichte v. Kleist, Muttrin-Damensche Linie, revideret udgave 2025, v-kleist.com/FG/Muttrin/Muttrin.pdf)
-1 FAMS @fx133@
+1 FAMS @fx160@
 1 FAMC @fx156@
 0 @exp038@ INDI
 1 NAME  /von Wedelstedt/
@@ -6194,6 +6194,15 @@
 1 SOUR
 2 PAGE MUT:Muttrin (Familiengeschichte v. Kleist, Muttrin-Damensche Linie, revideret udgave 2025, v-kleist.com/FG/Muttrin/Muttrin.pdf)
 1 FAMS @fx77@
+0 @exp042@ INDI
+1 NAME Henning /von Mutteryn/
+1 SEX M
+1 NOTE Søn af Henning (M. 3); i live 1435 (Urk. 104). Muttrin 2025 omtaler ham som Henning (M. 8), den yngre søn af Henning (M. 3), og siger at han ifølge den gamle familiegenealogi var gift med en von Wedelstett og havde syv sønner, herunder Bisperow (III. 1). Ægteskabet og sønnerækken er udtrykkeligt henført til den ældre familiegenealogi; de skal ikke behandles som samtidige dåbs-/vielsesbeviser.
+1 SOUR
+2 PAGE MUT:Muttrin (Familiengeschichte v. Kleist, Muttrin-Damensche Linie, revideret udgave 2025, v-kleist.com/FG/Muttrin/Muttrin.pdf)
+1 FAMS @fx133@
+1 FAMC @fx160@
+
 0 @fx1@ FAM
 1 HUSB @p432@
 1 WIFE @p433@
@@ -6942,7 +6951,7 @@
 1 CHIL @exp004@
 1 CHIL @exp005@
 0 @fx133@ FAM
-1 HUSB @exp022@
+1 HUSB @exp042@
 1 WIFE @exp038@
 1 CHIL @exp024@
 0 @fx134@ FAM
@@ -7028,4 +7037,7 @@
 0 @fx159@ FAM
 1 HUSB @exp035@
 1 CHIL @exp034@
+0 @fx160@ FAM
+1 HUSB @exp022@
+1 CHIL @exp042@
 0 TRLR
