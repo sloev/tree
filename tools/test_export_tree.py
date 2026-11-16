@@ -70,6 +70,31 @@ class ExportRelationshipTests(unittest.TestCase):
         self.assertEqual(people[0]["src"], ["source A", "source B"])
         self.assertEqual(people[0]["occ"], ["farmer", "teacher"])
 
+    def test_gedcom_divorce_is_preserved_as_historical_union(self):
+        people = [
+            {"id": "former_a", "name": "Former A"},
+            {"id": "former_b", "name": "Former B"}
+        ]
+        ged = """0 HEAD
+0 @former_a@ INDI
+1 FAMS @F1@
+0 @former_b@ INDI
+1 FAMS @F1@
+0 @F1@ FAM
+1 HUSB @former_a@
+1 WIFE @former_b@
+1 DIV
+0 TRLR
+"""
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "divorced.ged"
+            path.write_text(ged, encoding="utf-8")
+            result = build_export({"people": people}, {}, path)
+        union = next(e for e in result["relationships"]
+                     if e.get("relationship") == "gedcom_family_union")
+        self.assertEqual(union["union_status"], "divorced")
+        self.assertEqual(union["biological_status"], "not_implied")
+
 
 if __name__ == "__main__":
     unittest.main()
