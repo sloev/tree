@@ -134,3 +134,30 @@ Append-only coordination log for the Gårdsted / Gedde family-history project. A
 - The 1249, 1254 and 1269 records establish Conradus and Bertoldus as brothers. The 1289 entry remains textually ambiguous. The 1325 Nycolaus witness is unlinked. The 1364 Prissebur is named in a text transmitted through a 1589 transsumpt and later copies.
 - Added a direct source prefix for the 1325 Pommersches Urkundenbuch PDF and taught the site source renderer to link it.
 - The new data and template changes are covered by the automatic site rebuild workflow; await its generated-output commit and verify Pages before claiming the public deployment is live.
+
+
+## 2026-11-16 — ChatGPT: refetch main and extend Kleist-to-Gedde line
+
+**Repository/branch:** sloev/tree, main (refetched; no branch created).  
+**Instructions read:** AGENTS.md, README.md, research_method.md, leads/README.md, latest coop.log.md, and the current Lorenz dossier.  
+**Repository reconciliation:** compared the previous checkpoint commit 50ee2c780cd66dee42b8bd6b365bf67c6fc10281 with current main. Main was 86 commits ahead. Reviewed the latest work log and relevant dossier/source changes. The other agent's changes were preserved; no unrelated file was reverted. Current main now has a restored research method, an automatic site rebuild workflow, publication-status labels, unlinked early Kleist historical people, and the Lorenz canonical father field unset while competing paternity assertions remain separate. The site workflow/deployment was not run or independently verified in this session.
+
+### Research and changes
+
+- Re-read the 1477 fief-letter transcription and the 2025 Tychow-Dubberow volume. Kept the Reimer/Bartes parentage conflict visible: Urk. 125 as printed by Quandt names Pribbeslaw of Muttrin as their father; the later family genealogy identifies Hans of Tychow. This is a collateral early-Tychow conflict, not a reason to remove the later Danish marriage connection.
+- Re-read Harbou's 1897 “Slægten von Kleist i Danmark.” It explicitly states Cartz Ulrik III.369 was son of Pribislaff III.281 and Esther von Kameke; Cartz married Barbara Juliane von Kleist of the Tychow line. Harbou then gives their son Christian Adam III.466, his son Christian Frederik III.601, and Christian Frederik's daughter Frederikke Louise Dorthea, who married Ove Samuel Gedde on 24 June 1806. This provides a clear published bridge from the Muttrin Kleists into the Danish Gedde line.
+- Re-read *Materialzusammenstellung zu den früheren Gütern der Familie v. Kleist*, pp. 116–119. Its Muttrin estate history explicitly describes the property succession III.22 → III.54 → III.114 → III.186 → III.281 and the June 1698 division. This strengthens the research path through named landholdings and succession, but remains a compiled secondary source rather than the original fief/inheritance documents.
+- Confirmed the Greifswald archive route in the family association's finding aid: Rep. 40 Nr. 35 gg, Bl. 2–13 (99 fief extracts and Steinbrück material), and Rep. 41 Nr. 28 Plathe (von der Osten's Adelsspiegel). Provenance caveat: the fief-extract original was sold in 1766; the status of the current archival text as original or copy is uncertain.
+- Added a dated Kleist-to-Gedde section to leads/grandparent-lorenz-frederiksen.md, including the direct published descent, the estate succession, archive shelfmarks, date distinction (12 June 1698 Muttrin division vs separate 12 July Drenow transaction), and the continuing medieval caveats.
+
+### Validation and limits
+
+- Refetched the updated Lorenz dossier and verified the new section is present.
+- No canonical relationship was changed; no new parent edge was created.
+- No private records were decrypted or accessed.
+- No unit tests, data/GEDCOM/site build, workflow run, or Pages deployment were performed.
+- Online research did not inspect the original fief extracts, inheritance agreements, baptismal registers or probate files. The new line is a well-defined archive target, not a claim that those originals have already been checked.
+
+**Next action:** request/copy Rep. 40 Nr. 35 gg, Bl. 2–13 from Landesarchiv Greifswald, identifying records for III.22, III.54, III.114, III.186, III.281 and III.369; in parallel inspect Harbou's cited Danish church, probate and military sources for the Cartz Ulrik → Christian Adam → Christian Frederik → Frederikke Louise line. Keep the other three grandparent dossiers queued after this high-value Kleist audit.
+
+**Handoff:** main only; maintain one active dossier per grandparent line; preserve privacy and source distinctions.
