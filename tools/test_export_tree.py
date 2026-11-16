@@ -12,10 +12,10 @@ class ExportRelationshipTests(unittest.TestCase):
              "mother": "mother", "step": "stepfather", "spouse": None,
              "relationship_claims": [
                  {"person": "family_father", "relationship": "claimed_biological_parent",
-                  "status": "disputed", "asserted_by": "family account",
+                  "status": "family_claim", "biological_status": "disputed", "asserted_by": "family account",
                   "sources": ["family note"], "note": "Family account."},
-                 {"person": "recorded_father", "relationship": "paternity_declaration",
-                  "status": "disputed_as_biological_parentage",
+                 {"person": "recorded_father", "relationship": "recorded_biological_parentage",
+                  "status": "recorded", "biological_status": "disputed",
                   "asserted_by": "civil register", "sources": ["register"],
                   "note": "Declaration recorded; biological status unresolved."}
              ]},
@@ -50,7 +50,9 @@ class ExportRelationshipTests(unittest.TestCase):
         gedcom_parent = next(e for e in edges if e.get("relationship") == "gedcom_family_parent_link"
                              and e.get("to") == "recorded_father")
         self.assertEqual(family_claim["biological_status"], "disputed")
+        self.assertEqual(recorded_claim["evidence_status"], "recorded")
         self.assertEqual(recorded_claim["biological_status"], "disputed")
+        self.assertFalse(any(e.get("relationship") == "parent_child" and e.get("to") in {"family_father", "recorded_father"} for e in edges))
         self.assertEqual(step["biological_status"], "not_implied")
         self.assertEqual(gedcom_parent["biological_status"], "unspecified")
         self.assertEqual(gedcom_parent["pedigree_tags"], ["adopted"])
