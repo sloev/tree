@@ -1181,3 +1181,16 @@ Sources:
 ### Correction to the Vor Frelsers index access route (16 November 2026)
 
 Closer reading of the parish inventory's wording adds an important access caveat: it says the original name registers are all available **as copies in the reading room**. Thus volume 20 is a precisely identified index, but I have not established that the index itself is digitized on Arkivalieronline. The inventory identifies the bell-ringer's baptism registers as volumes 15–19; the minister's FVD 1686–1722 series is separately listed by Rigsarkivet's release notes. The practical next step is to ask Rigsarkivet whether they can consult or provide a lookup from name-index volume 20, and whether the relevant bell-ringer register volume is digitized or must be ordered. The previous lookup description should not be read as claiming that volume 20 is online. No baptism entry has been seen.
+
+### Source audit — why the 1705 date and name still need the original entry (16 November 2026)
+
+A further check of Harbou's printed footnote and the von Kleist family association's online correction clarifies the provenance of the date:
+- Harbou states Christian Adam was born 1 October 1705 and baptised at Vor Frelsers, but his footnote 28 only discusses the older *Dansk biografisk Lexikon* error (which made the maternal grandfather Christian Casimir his father) and the variant “Christian Adrian” in the German family history. It does not give a parish-register page, archive signature or direct citation for the baptism.
+- The family association's correction for III.466 says that an archive search in Danish records produced the date 1 October 1705 and the second name Adam rather than Adrian. It does not identify the specific register, image, page or archive signature. This is an additional reported archival finding, but still not a directly inspectable citation.
+- The older DBL article gives 3 October 1705 and the wrong father. The 1 October date is supported by Harbou and the family association's report of Danish archival research, but the discrepancy can only be settled by reading the original entry or the relevant archival index and its referenced book.
+
+Accordingly, keep the date and parentage at **“Kræver mere belæg”**. Treat the family association's c.1960 archive-research statement as a provenance clue, not as a substitute for the underlying record. No canonical data changed.
+
+Sources:
+- [Harbou 1897, Christian Adam and footnote 28](https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf).
+- [Familienverband derer v. Kleist, Ergänzungen zu III.466](https://v-kleist.com/FG/Muttrin/fg0283a.htm) — reports a Danish archive search but supplies no exact shelfmark or transcription.
