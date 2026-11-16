@@ -216,3 +216,20 @@ The same G304 source also has no. 206 (1813), the Visbeholm smith Rasmus Jensen 
 **Validation:** current SHA fetched; JSON parsed before write. Original G304 folios not inspected; no local build/export or deployment check performed.
 
 **Next:** inspect original G304 fol. 135; then search Skærsø leasehold register 1781–1820 and Fuglslev parish records for Rasmus Jensen's identity and children.
+
+
+## 2026-11-17 — research loop: Rousing family identified across 1735 and 1762 probate extracts
+
+**Track updated:** `evald-rousing-parentage`.
+
+A major new corroborating source was found in Erik Brejl's *Skanderborg Rytterdistrikt* probate extracts: no. 1678, Maren Thygesdatter in Bryrup, 4 April 1735, fol. 96. It identifies her mother as Maren Pedersdatter, widow of Thyge Jespersen of Gravlev Mølle, and lists siblings including Karen Thygesdatter married to Jens Rasmussen in Fuglslev and Esben Thygesen in Gravlev Mølle. Read together with Skærsø G304 no. 52 (7 June 1762, fol. 135), which names Esben's deceased sister Karen and her children Rasmus Jensen and two others in/near Fuglslev, this materially strengthens the hypothesis that p304 (Rasmus Jensen, ca. 1718, Fuglslev) was a son of Karen Thygesdatter and Jens Rasmussen. Both are published extracts/transcriptions; neither original probate image has yet been independently inspected. No parentage edges were added.
+
+A further route was found in the Skærsø leasehold register 1781–1820: entry no. 9, page 5, dated 31 October 1784, says Rasmus Jensen Smed of Fuglslev relinquished a holding due to old age with life support for himself and his wife. This could fit p304's approximate birth c.1718, but requires the original lease and corroborating records. Entry no. 43 (24 March 1800) separately names Rasmus Jensen Degn from Øster Alling as tenant of Gravlev Mølle after Thyge Mathiasen; do not conflate him with the Fuglslev Rasmus. The Gravlev Mølle transcription also contains a 1787 census entry for a 25-year-old Rasmus Jensen servant at the mill, a possible namesake kept separate pending original census review.
+
+**Sources reviewed:** Erik Brejl, Skanderborg Rytterdistrikt probate extract no. 1678 (1735); Skærsø G304 transcript, no. 52, fol. 135; Skærsø leasehold register 1781–1820, entries 9 and 43; Gravlev Mølle transcription; Norddjursarkiver local history of Fuglslev.
+
+**Files changed:** `data/tree.json` and `coop.log.md`. Added a dated, source-preserving note and stable source links to the existing track. No new track, sidecar file, person fact or family edge created.
+
+**Validation:** parsed canonical JSON before update; confirmed current branch is `main`; fetched current blob SHA before each write. No original probate/lease images, original census image, local build/export or Pages deployment were checked.
+
+**Next:** inspect original G304 fol. 135; inspect the original 1784 lease entry and identify the farm/household; then test the 1735/1762 family cluster against parish baptisms, marriage and the 1801 household. Keep p304 parentage and p152's parentage unchanged until those checks are complete.
