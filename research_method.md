@@ -1133,3 +1133,33 @@ The search has narrowed the exact Vorbasse source volume, but has not verified a
 2. In Arkivalieronline, select Fåborg Sogn, Ribe Amt, contract-ministerial book covering 1830 and locate the 20 June Agerbæk entry; record volume, page/image, parents, residence and witnesses.
 3. Inspect the reported 4 December 1828 marriage of John Eskesen and Anne Knudsdatter, and the 7 October 1852 marriage of Peder Jensen and Karen Johnsen, only as cross-checks after the baptism entries are read.
 4. Keep both parent couples as candidates until the original images and the marriage cross-checks agree.
+
+
+
+## Milestone 43 — Broager/Dybbøl branch: collateral Hansen family lead and register index (16 November 2026)
+
+### Research target
+Rotate to the Broager/Dybbøl open ancestor p53 Anne Christine Hansen and parents p106 Hans Hansen / p107 Ellen Kock. The existing public tree records p53's marriage to Rasmus Jensen in Dybbøl on 18 September 1866, but gives no birth date or place for her. The question is whether a separately compiled Dybbøl Hansen family offers a testable sibling/collateral lead.
+
+### Findings
+- The Stømming genealogy compilation contains a Jørgen Hansen born 26 April 1827 in Dybbøl and baptised 6 May 1827. Its profile names Hans Hansen (born about 1798) and Ellen Kock (born about 1799) as his parents, and cites Dybbøl KMB 1810–1853 FVD, p.95, 1827 no.10, newly numbered image 50. This is a useful candidate household for testing p106/p107, but it is a secondary transcription/profile, not an inspected original image.
+- The same Stømming compilation records Jørgen's marriage in Dybbøl in 1858 and his later family. This supports that the compiler has traced a family around the same parental couple; it does not establish that p53 Anne Christine is another child of the couple. Exact-name searches for Anne Christine Hansen + Rasmus Jensen and for the couple's alleged daughter did not produce a matching indexed profile.
+- Arkivalieronline's official register/help collection explicitly lists a **Register til Dybbøl kirkebog (1729–1900)**. This is a potentially high-value route to the 1866 marriage and to earlier birth entries, before manually scanning the whole book. The official parish-book guidance confirms that the 1814–1960 duplicate and main registers are searchable by parish and event type.
+- The target's exact 1866 marriage entry and the 1827 Jørgen baptism have not been visually inspected in this run. No evidence yet links p53 to the Hans Hansen/Ellen Kock couple. The similar names and same parish are not sufficient for a parent assignment.
+
+### Sources
+- Stømming, Jørgen Hansen profile; parents and cited 1827 Dybbøl baptism: https://www.stroemming.dk/genealogy/gedweb/Public/da/Details/Details-I6346.html
+- Arkivalieronline, registers and finding aids, including Register til Dybbøl kirkebog (1729–1900): https://arkivalieronline.rigsarkivet.dk/da/other/other-collection/29
+- Rigsarkivet, church-book search guidance: https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/
+- Arkivalieronline, national church-book collection: https://arkivalieronline.rigsarkivet.dk/da/geo/geo-collection/5
+
+### Assessment and limits
+- This identifies a specific collateral household and a parish-level name-register resource, but does not establish a new ancestor or sibling relationship.
+- No canonical person, parent link, spouse, date, or place was changed. No changes to data/build_data.py, data/family.json, or generated site files.
+- No build or tests were run; private data was not accessed.
+
+### Next concrete steps
+1. Open the Dybbøl parish register index and locate the 18 September 1866 marriage of p53 Anne Christine Hansen and Rasmus Jensen; capture the exact book, page/image, witnesses and residence.
+2. Inspect Dybbøl KMB 1810–1853 FVD, p.95, 1827 no.10 (new image 50), for Jørgen Hansen's parents, residence and witnesses.
+3. Search the same couple's earlier/later children and compare residence and family witnesses with p53's 1866 marriage. Only a direct record or a convincing multi-record household chain can support the p53 parent link.
+4. Continue rotation to Syv p66–p67 or another unworked branch after the Dybbøl register-index lookup.
