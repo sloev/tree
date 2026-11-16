@@ -43,6 +43,14 @@ def validate(tree):
     claim_ids = [c["id"] for c in research.get("claims", [])]
     assert len(claim_ids) == len(set(claim_ids)), "Dublet forskningsspor-id"
     for claim in research.get("claims", []):
+        required = ("id", "branch", "title", "status", "claim", "evidence", "missing", "next", "sources", "person_ids")
+        for field in required:
+            assert field in claim, f"{claim.get('id', 'Ukendt spor')} mangler feltet {field}"
+        assert claim["status"] in {"needs", "hypothesis", "family", "conflict"}, (claim["id"], claim["status"])
+        assert isinstance(claim["sources"], list), f"{claim['id']}.sources skal være en liste"
+        for source in claim["sources"]:
+            assert isinstance(source, dict) and source.get("label") and source.get("url"), f"Ugyldig kilde i {claim['id']}"
+        assert isinstance(claim["person_ids"], list), f"{claim['id']}.person_ids skal være en liste"
         for pid in claim.get("person_ids", []):
             assert pid in id_set, f"{claim['id']} henviser til ukendt person {pid}"
         dossier = claim.get("dossier")
