@@ -1,0 +1,250 @@
+# Grandparent dossier 3 — Lorenz Heinrich Frederiksen
+
+**Tree ID:** `p6` · **Ahnentafel:** 6 · **Branch:** maternal grandfather's line  
+**Identity:** born 12 January 1932, Egernsund; died 6 May 2009, Svendborg. Married Gerda Larsen (`p7`) on 25 November 1954 in Magleby. His mother was Else Gedde Jensen (`p13`). His fatherhood is a central unresolved issue: the civil register names Wilhelm Krogh through a declaration and court decision; family history identifies Sophus Petersen; Peter Frederiksen was the social/stepfather.
+
+## Reading this dossier
+
+This file is the **single active research record** for this grandparent's line. It combines the existing tree's direct ancestors with all relevant leads, archive clues, source pointers, contradictions and next steps formerly scattered across `leads/`.
+
+### Evidence labels
+- **Record-backed**: a cited original or archival record has been read or is specifically identified in the tree; check the individual note for whether the image itself was re-read.
+- **Published genealogy**: a compiled genealogy states the fact; its underlying evidence may still need inspection.
+- **Family account**: supplied family knowledge, memoir or handwritten/typed family chart; valuable but independently testable.
+- **Hypothesis / disputed**: not established; do not promote to a biological or legal relationship without evidence.
+- **Negative search**: a defined search found no match; this is not proof that a person or record does not exist.
+
+The canonical structured data is `data/family.json` / `data/build_data.py`; this dossier does not silently overwrite it. Record legal, biological, marital, step, foster, guardian and household relationships separately. Preserve original spellings and ambiguous readings.
+
+### Source-prefix key
+- `0` — LL:; Link Lives (Rigsarkivet); Indekserede kirkebøger 1557–1917 og folketællinger 1787–1921
+- `1` — AO:; Arkivalieronline (Rigsarkivet); Originale kirkebøger og standsregistre, læst direkte på billederne
+- `2` — DFS:; Danish Family Search; Folketællinger 1925–1940
+- `3` — ARK:; arkiv.dk; Lokalarkiver: billeder, personarkiver, erindringer
+- `4` — PHT:; Personalhistorisk Tidsskrift 1897; H.W. Harbou: Slægten von Kleist i Danmark
+- `5` — VKA:; von Kleist Familienarchiv; History of the Family von Kleist – Tychow-Dubberow line, English translation, p. 123
+
+### Change discipline
+When new evidence arrives, update this dossier's relevant claim and its status here first. Keep one authoritative statement per claim. If a person or relationship is relevant to another grandparent, cross-reference that person's ID and this dossier rather than duplicating the full claim.
+
+## 1. Direct ancestry currently linked to Lorenz
+
+The following is the complete ancestor traversal currently linked to `p6` in `data/family.json`. **Important:** the canonical data currently encodes `sofus` as the father, but also records a disputed relationship claim and the official register's Wilhelm Krogh entry. The relationship is not settled by the tree field alone.
+
+- **Lorenz Heinrich Frederiksen** (`p6`; 1932-01-12 – 2009-05-06; born Egernsund; data confidence: record; parents: sofus + p13). Sources: `AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4 (bsid 37658, billede 125)`; `AO:Broager Vestre distrikt kontraministerialbog 1906–48, fødte 1933 nr. 1 (bsid 201141, billede 112)`; `BillionGraves via MyHeritage (samling 10147): Lorenz H. Frederiksen, Sankt Jørgens Kirkegård, Svendborg`; `MyHeritage: Folketælling 1940, 'Lorens Henrick Frederiksen'`; `Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)`; `Familiens håndskrevne anetavle`. Note: Det borgerlige fødselsregister for Egernsund (1932 nr. 4, anmeldt 16. jan. 1932) siger, at Else Gedde Frederiksen, f. Jensen, fødte ham 12. jan. 1932 kl. 5.30. En randnote af 11. juli 1932 siger, at landarbejder Wilhelm Krogh fra Snogbæk er den biologiske far. Det bygger på hans faderskabserklæring af 5. april 1932 og en retsafgørelse af 10. juni 1932. Stedfaren Peter Frederiksen gav drengen sit efternavn. Det stemmer med familiens fortælling om, at Lorenz først som voksen fandt ud af, at Peter ikke var hans far. Familiens viden er, at den biologiske far var gårdmandssønnen Sophus Petersen fra Påkjær i Nybøl, at landarbejder Wilhelm Krogh tog skylden, og at Peter Frederiksen blev betalt for at gifte sig med Else. Stamtræet følger familiens viden. Ifølge dåbsindførslen i Broager Vestre distrikt (1933 nr. 1) var fadderne stedfaren selv, arbejdsmand Lorenz Frederiksen og hustru Catharina, Egernsund, samt gårdejer Jens Jensens hustru fra Dalsgaard. Lorenz er begravet sammen med hustruen Gerda på Sankt Jørgens Kirkegård i Svendborg. Familiens opgørelse skriver født 10. jan. 1932 (fødselsregistret: 12. jan.). Konfirmeret palmesøndag 1946. Gift 25. nov. 1954 i Magleby Kirke med Gerda Larsen. Familien fortæller: Indtil han var 40, vidste han ikke andet, end at Peter Frederiksen var hans far. Han fik så at vide, at Peter havde giftet sig med Else et par måneder før fødslen, men at det ikke var ham, der var faren. Det blev der ikke talt om. Lorenz fandt senere ud af, at faren var gårdejer Sofus Petersen fra Paakjær i Nybøl. Relationship claims: claimed_biological_parent to sofus (disputed; asserted by family account) — Familien identificerer gårdmandssønnen Sophus Petersen fra Påkjær som biologisk far; dette står i konflikt med den officielle registrering af Wilhelm Krogh. / paternity_declaration_and_civil_registration to p12 (disputed_as_biological_parentage; asserted by Egernsund civil birth register marginal note and court decision) — Wilhelm Krogh erklærede faderskab 5. april 1932; en retsafgørelse 10. juni 1932 og randnote 11. juli 1932 registrerer ham som far. Dette dokumenterer erklæringen og den juridiske registrering, ikke nødvendigvis biologisk faderskab.
+  - **Sophus (Sofus) Petersen** (`sofus`; 1903-06-28 – 1945-08-24; born Nybøl (Paakjær); data confidence: told; parents: sofus_f + sofus_m). Sources: `AO:Nybøl kirkebog 1880–1931, dåb 1903 nr. 12 (bsid 202179, billede 88)`; `LL:12-15057041 (indekseret med dåbsdatoen 24.7.1903)`; `Gravsten på Nybøl Kirkegård (foto fra familien): 'Minde over en elsket Mand og Fader Sofus Petersen, Paakjær, * 28. Juni 1903 † 24. Aug. 1945'`; `Familiens oplysninger`; `AO:Nybøl kirkebog 1931–58, fødte piger 1938 nr. 6, 1940 nr. 4, 1943 nr. 5`; `Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)`; `Familiens håndskrevne anetavle`. Note: Født 28. juni 1903 og døbt 24. juli 1903 i Nybøl Kirke (kirkebogen 1903 nr. 12) som søn af gårdmand ('Hufner') Peter Petersen og hustru Anna Cathrine Marie f. Petersen i Nybøl. Faddere: gæstgiver Johannes Hansen i Hostrup, tjenestekarl Jürgen Jacobsen i Nybøl og ugift Marie Iversen i Schottsbüllfeld. Fødselsdatoen passer præcist med gravstenen på Nybøl Kirkegård. Familien har fået at vide, at Lorenz' far hed Sophus og var fra Påkjær gård i Nybøl, og at han som gårdmandssøn ikke kunne vedstå faderskabet. I stedet tog landarbejder Wilhelm Krogh skylden: han anerkendte faderskabet i 1932, og retten stadfæstede det, så det er Krogh, der står i standsregistret. Påkjær ligger i Nybøl sogn tæt ved Snogbæk, hvor Krogh var karl i 1932. Sophus døde kun 42 år gammel. Han og hustruen Christine fik tre døtre: Gerda og to andre, hvoraf den ene flyttede til Norge. De er Lorenz' halvsøstre. En DNA-test kan bekræfte slægtskabet. Familiens anetavle: gårdejer, død af lungekræft 24. aug. 1945 på Paakjær i Nybøl. Familiens opgørelse: 'I dennes ægteskab var 4 døtre, der var Lorenz's halvsøstre.'
+    - **Peter Petersen** (`sofus_f`; 1866-09-22 – 1939-11-28; born Nybøl (Paakjær); data confidence: record; parents: sofus_ff + sofus_fm). Sources: `LL:13-4983073`; `LL:12-15059287`; `LL:25-6006023`; `AO:Nybøl kirkebog 1903 nr. 12`; `Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)`; `Familiens håndskrevne anetavle`. Note: Søn af Mathias Petersen. Gift 6. juni 1895 i Nybøl med Anna Cathrine Marie Petersen. I folketællingen 1921 er han landmand i Nybøl med hustru, børnene Peter, Jørgen, Marie, Hans og Viggo, en tjenestekarl og to tjenestepiger. Gårdejer på 'Paakjær' i Nybøl. Han og Cathrine fik 8 sønner og 1 datter.
+      - **Mathias Petersen** (`sofus_ff`; 1832-04-24 – 1894-08-08; born Nybøl (Paakjær); data confidence: record; parents: sofus_fff + sofus_ffm). Sources: `LL:13-4984314`; `LL:12-15059288`; `Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)`; `Familiens håndskrevne anetavle`. Note: Gift 13. okt. 1865 i Nybøl med Sophia Maria Nissen. Byggede gården 'Paakjær' i Nybøl i 1879. Gården kom senere til at hedde 'Sofus minde'.
+        - **Peter Petersen** (`sofus_fff`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `LL:13-4984315`.
+        - **Maria Cathrine Lorensen** (`sofus_ffm`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `LL:13-4984316`.
+      - **Sophia Maria Nissen** (`sofus_fm`; 1842-03-15 – 1871-06-30; born Nybøl (Paakjær); data confidence: record; parents: sofus_fmf + sofus_fmm). Sources: `LL:12-15058141`; `LL:13-4984317`; `LL:12-15059289`; `Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)`; `Familiens håndskrevne anetavle`. Note: Kaldes Sophie Marie Nielsen i familiens papirer; død 30. juni 1871 i Nybøl, 29 år gammel.
+        - **Rasmus Nissen** (`sofus_fmf`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `LL:13-4984318`.
+        - **Maren Zachariasen** (`sofus_fmm`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `LL:13-4984319`.
+    - **Anna Cathrine Marie Petersen** (`sofus_m`; 1869-08-12 – 1949-09-04; born Dybbøl; data confidence: record; parents: sofus_mf + sofus_mm). Sources: `LL:13-4983076`; `LL:12-14359019`; `LL:25-6006024`; `Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)`; `Familiens håndskrevne anetavle`. Note: Datter af Lorenz Petersen. Født i Rageböl ifølge folketællingen 1921. Kaldt Cathrine. Født og død i Nybøl.
+      - **Lorens Petersen** (`sofus_mf`; 1831-02-26 – death date unknown; born Nybøl (Paakjær); data confidence: record; parents: sofus_mff + sofus_mfm). Sources: `LL:12-14384545`; `LL:13-4698057`; `LL:12-14359020`. Note: Gift 12. april 1860 i Dybbøl med Marie Jørgensen.
+        - **Lorens Petersen** (`sofus_mff`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `LL:13-4698058`.
+        - **Marie Petersen** (`sofus_mfm`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `LL:13-4698059`.
+      - **Marie Jørgensen** (`sofus_mm`; 1834-05-22 – death date unknown; data confidence: record; parents: sofus_mmf + sofus_mmm). Sources: `LL:13-4698060`; `LL:12-14359021`. Note: Fødestedet er indekseret som 'Borup sogn'.
+        - **Lorens Peter Jørgensen** (`sofus_mmf`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `LL:13-4698061`.
+        - **Anna Kathrine Mathiesen** (`sofus_mmm`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `LL:13-4698062`.
+  - **Else Gedde Jensen** (`p13`; 1912-08-31 – 1975-01-30; born Lejrskov (Ferup); data confidence: record; parents: p26 + p27). Sources: `AO:Lejrskov kirkebog, fødte piger 1912 nr. 17 (bsid 165996, billede 94)`; `LL:12-4852565`; `AO:Egernsund standsregister 1932 nr. 4`; `AO:Broager Vestre 1933 nr. 1`; `Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)`; `Familiens håndskrevne anetavle`. Note: Født 31. aug. 1912 i Ferup, Lejrskov sogn, og døbt 20. okt. 1912 i Lejrskov Kirke. Faddere: frøken Mathilde Gedde, København (moster/grandtante på Gedde-siden), Kirstine Jensen og købmand Jørgen Jensen, Haderslev. Her kommer navnet Gedde fra: Else fik det som mellemnavn efter sin mor, Paula Gedde. I januar 1932 var hun gift med arbejdsmand Peter Frederiksen i Egernsund. Gift 15. nov. 1931 i Egernsund med Peter Frederiksen. Død 30. jan. 1975 på Sønderborg Sygehus (familiens opgørelse og anetavle).
+    - **Jens Jensen** (`p26`; 1866-12-31 – 1951-03-26; born Dybbøl; data confidence: record; parents: p52 + p53). Sources: `LL:12-14358775`; `LL:13-432734`; `LL:12-4852564`; `AO:Lejrskov kirkebog 1912 nr. 17`; `Familiens håndskrevne anetavle`. Note: Søn af Rasmus Jensen og Christine Hansen. Gift 29. okt. 1907 i Mariendal Kirke, København, med Paula Gedde. Muligvis den 'gårdejer Jens Jensen, Dalsgaard', hvis hustru var gudmor til Lorenz i 1933. Det er ikke bekræftet. Gårdejer på Dalsgård i Rinkenæs, hvor han døde 26. marts 1951 (familiens anetavle).
+      - **Rasmus Jensen** (`p52`; 1838-10-16 – death date unknown; born Broager; data confidence: record; parents: p104 + p105). Sources: `LL:12-15007344`; `LL:13-4977279`; `LL:12-14358776`; `LL:13-432735`; `Familiens håndskrevne anetavle`. Note: Gift 18. sep. 1866 i Dybbøl med Anne Christine Hansen; sønnen Jens blev født i Dybbøl nytårsaften samme år. Familien fortæller, at Rasmus Jensen boede i Haderslev og havde 9 børn; et af dem drev manufakturhandelen 'Jensen og Wik'.
+        - **Jens Jensen** (`p104`; birth date unknown – death date unknown; data confidence: record; parents: a208 + a209). Sources: `LL:13-4942617 (vielse Broager 1834)`; `LL:13-4977280`. Note: Gift 1834 i Broager; vielsen nævner begge forældrepar.
+          - **Rasmus Jensen** (`a208`; birth date unknown – death date unknown; data confidence: told; parents: not recorded). Sources: `LL:13-4942618`. Note: Nævnt som far i Jens Jensens vielse.
+          - **Anna Maria Margaretha Christiansen f. Christiansen** (`a209`; birth date unknown – death date unknown; data confidence: told; parents: not recorded). Sources: `LL:13-4942619`. Note: Nævnt som mor i Jens Jensens vielse.
+        - **Ane Cathrine Christensen** (`p105`; birth date unknown – death date unknown; data confidence: record; parents: a210 + a211). Sources: `LL:13-4942620 (vielse Broager 1834)`; `LL:13-4977281`. Note: Gift 1834 i Broager; vielsen nævner begge forældrepar.
+          - **Andreas Christensen** (`a210`; birth date unknown – death date unknown; data confidence: told; parents: not recorded). Sources: `LL:13-4942621`. Note: Nævnt som far i Ane Cathrine Christensens vielse.
+          - **Anna Maria Matzen f. Matzen** (`a211`; birth date unknown – death date unknown; data confidence: told; parents: not recorded). Sources: `LL:13-4942622`. Note: Nævnt som mor i Ane Cathrine Christensens vielse.
+      - **Anne Christine Hansen** (`p53`; birth date unknown – death date unknown; data confidence: record; parents: p106 + p107). Sources: `LL:13-4977282`; `LL:12-14358777`; `LL:13-432736`; `Familiens håndskrevne anetavle`. Note: Familien fortæller, at hun en juleaften faldt ned i kælderen og brækkede halsen.
+        - **Hans Hansen** (`p106`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `LL:13-4977283`.
+        - **Ellen Kock** (`p107`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `LL:13-4977284`.
+    - **Paula Mathilde Christle Gedde** (`p27`; 1880-12-30 – 1952-02-29; born Tamdrup; data confidence: record; parents: p54 + p55). Sources: `LL:13-432737`; `LL:12-4851845`; `LL:12-4852565`; `AO:Lejrskov kirkebog 1912 nr. 17`; `Familiens håndskrevne anetavle`; `Familiedokument: 'Familien Gedde' med familiebilledet fra 1895`. Note: Mor til mindst fem børn i Lejrskov 1908–13 (navnene på de yngste er skjult i indekset af hensyn til privatlivet). Kaldt 'Laue' i familien. Død 29. feb. 1952 på Dalsgård.
+      - **Edvard Hammer Gedde** (`p54`; 1845-09-08 – 1925-12-27; born Herlufmagle; data confidence: record; parents: p108 + p109). Sources: `Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)`; `LL:5-674514`; `LL:13-5702405`; `LL:7-1280754`; `LL:13-432738`; `LL:11-652493`; `Familiedokument: 'Familien Gedde' med familiebilledet fra 1895`. Note: Gift 8. juli 1870 i Sankt Peders Kirke, Næstved, med Vitta Ludvigsen. Mellemnavnet Hammer har han efter farens plejefar, dr.theol. Edvard Snedorph Hammer, sognepræst i Herlufmagle. Gift 8. juli 1870 med Mathilde Ludvigsen. Familiebilledet fra 1895, med alle 12 børn, var sikkert en gave til forældrenes sølvbryllup.
+        - **Ove Frederik Christopher Gedde** (`p108`; 1808-07 – death date unknown; born Fredensborg; data confidence: record; parents: p216 + p217). Sources: `AO:Fredensborg Slotssogn kirkebog 1733–1814, s. 127 (bsid 594366, billede 65)`; `LL:2-251474`; `LL:14-7607995`; `LL:3-593931`; `LL:4-652578`; `LL:5-674512`; `PHT:1897`. Note: Hjemmedøbt i Fredensborg, indført i kirkebogen 24. juli 1808 som søn af 'Hr. Capitaine ved Kronens Regiment Hr. Ove Samuel Giedde og Frue Frederikke Lovise Birthe født Kleist'. Faddere: oberstløjtnantinde Recke, jomfru Gradman fra Helsingør, kaptajn Giedde fra Helsingør og løjtnanterne Tønnesen og Bøgtrup. Han voksede op i Herlufmagle Præstegård hos sin moster Christine Sophie von Kleist og hendes mand, sognepræst dr.theol. Edvard Snedorph Hammer. Gift 16. okt. 1840 i Helligånds Kirke, København, med Charlotte Frederikke Christine Møller. I 1840–50 bestyrede han Viborggaard i Herlufmagle for mosteren, der var enke og ejede gården. Hendes bror, pensionist Ludvig Adam Kleist, boede der også. Begge var født i Assens.
+          - **Ove Samuel Gedde** (`p216`; 1778-02-28 – 1843-03-10; data confidence: record; parents: p432 + p433). Sources: `AO:Fredensborg Slotssogn kirkebog 1808`; `LL:2-80373`; `LL:3-51002`; `LL:11-5877418`; `LL:14-7607995`; `PHT:1897`; `Geni: Ove Samuel Gedde (1778–1843)`. Note: Gift 24. juni 1806 med Frederikke Louise Dorthea von Kleist. Kaldes 'von Gedde' i folketællingen 1834, hvor familien bor i Helsingør med datteren Henriette (f. 1819). Han er familiens bedste bud på 'kaptajnen' i fortællingen om navnet Gedde: Else Gedde Jensens tipoldefar og kaptajn i 1808. Der er dog intet i kilderne om, at han var i Trankebar.
+            - **Hans Christopher Gedde** (`p432`; 1738 – 1817; data confidence: probable; parents: p864). Sources: `Store norske leksikon: Gedde (slekt)`; `lokalhistoriewiki.no: Gedde (borgerlig slekt)`; `Geni: Ove Samuel Gedde`. Note: Stamfar til den norske Gedde-slægt. Hans søn Nicolai Wilhelm Gedde (1779–1833) giftede sig med Frederikke Louises søster. Geni angiver ham som far til Ove Samuel, men det er ikke bekræftet i en primærkilde.
+              - **Samuel Christoph Gedde** (`p864`; 1691-07-14 – 1766-02-02; born København; data confidence: probable; parents: not recorded). Sources: `Store norske leksikon: Gedde (slekt)`. Note: Far til ti børn, bl.a. Hans Christopher (f. 1738). Ifølge Store norske leksikon har den borgerlige Gedde-slægt sandsynligvis ingen forbindelse til den uddøde adelsslægt Gjedde, som Trankebars grundlægger, admiral Ove Gjedde, tilhørte.
+            - **Øllegaard Sophie Fischer** (`p433`; ca. 1752 – death date unknown; data confidence: probable; parents: not recorded). Sources: `lokalhistoriewiki.no: Gedde (borgerlig slekt)`; `Geni: Ove Samuel Gedde`. Note: Kaldes andre steder 'Frederikke Christiane Fischer'.
+          - **Frederikke Louise Dorthea von Kleist** (`p217`; 1786-01-05 – 1870-01-24; data confidence: record; parents: p434 + p435). Sources: `PHT:1897`; `LL:2-80374`; `LL:3-51003`; `AO:Fredensborg Slotssogn kirkebog 1808`. Note: Kirkebogen 1808 kalder hende 'Frederikke Lovise Birthe født Kleist'. Datter af kammerherre Christian Frederik von Kleist. Hendes søster Christine Sophie var gift med pastor Hammer i Herlufmagle, og søsteren Juliane med den norske generalmajor Nicolai Wilhelm Gedde, sandsynligvis Ove Samuels bror.
+            - **Christian Frederik von Kleist** (`p434`; 1743-08-25 – 1799-07-12; data confidence: record; parents: p868 + p869). Sources: `PHT:1897`. Note: Gift 3. dec. 1770 med Anna Margrethe Schubart. Fire sønner og fire døtre, bl.a. generalmajor Carl Gottlieb von Kleist.
+              - **Christian Adam von Kleist** (`p868`; 1705-10-01 – 1778-10-31; born København; data confidence: record; parents: p1736 + p1737). Sources: `PHT:1897`; `Dansk biografisk Lexikon IX s. 219`. Note: Døbt i Vor Frelsers Kirke på Christianshavn. Ridder af Dannebrog 1759. Død i Bredsted og begravet i Slesvig Domkirke.
+                - **Cartz Ulrik von Kleist** (`p1736`; birth date unknown – 1722-11; data confidence: record; parents: p3472 + p3473). Sources: `PHT:1897`. Note: Fra Muttrin-linjen af den pommerske adelsslægt von Kleist. Han var i brandenborgsk tjeneste 1692–94 og i dansk tjeneste fra 1701. Han blev såret og taget til fange ved Helsingborg i 1710 og ved Gadebusch i 1712. Han døde i Rendsborg og blev begravet 17. nov. 1722. Parret fik 10 børn.
+                  - **Pribislaff von Kleist** (`p3472`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `PHT:1897`.
+                  - **Esther von Kameke** (`p3473`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `PHT:1897`.
+                - **Barbara Juliane von Kleist** (`p1737`; birth date unknown – efter 1730; data confidence: record; parents: p3474 + p3475). Sources: `PHT:1897`. Note: Boede endnu i 1730 på godset Drenow i Pommern.
+                  - **Christian Casimir von Kleist** (`p3474`; 1654 – 1722-02-01; data confidence: record; parents: p6948 + p6949). Sources: `PHT:1897`. Note: Arvede en del af Gross Tychow i Pommern. Han deltog i felttoget i hertugdømmerne i 1700 og døde i Oldenborg.
+                    - **Christian von Kleist** (`p6948`; birth date unknown – 1679; data confidence: record; parents: not recorded). Sources: `PHT:1897`. Note: Stamfar til den gren af slægten, der 'i henimod halvandet hundrede år blomstrede i Danmark'.
+                    - **Hedvig Maria von Kleist** (`p6949`; birth date unknown – death date unknown; data confidence: record; parents: p13898 + p13899). Sources: `PHT:1897`. Note: Hans første hustru. Hun bragte en del af Gross Tychow med ind i ægteskabet.
+                      - **Georg von Kleist** (`p13898`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `PHT:1897`.
+                      - **Christina von Woyten** (`p13899`; birth date unknown – death date unknown; data confidence: record; parents: woyten_benedictus + stojentin_elisabeth). Sources: `PHT:1897`; `VKA:Dubberow p.123`.
+                        - **Benedictus (Benedict) von Woyten** (`woyten_benedictus`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `VKA:Dubberow p.123`. Note: Died after 6 December 1584. Father of Christina von Woyten.
+                        - **Elisabeth von Stojentin** (`stojentin_elisabeth`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `VKA:Dubberow p.123`. Note: Of Giesebitz; mother of Christina von Woyten.
+                  - **Anna von Fürst** (`p3475`; birth date unknown – 1722; data confidence: record; parents: not recorded). Sources: `PHT:1897`. Note: Fra Schlesien.
+              - **Sophie Rosenkrantz** (`p869`; 1714 – 1770-06-04; data confidence: record; parents: p1738 + p1739). Sources: `PHT:1897`. Note: Dame de l'Union parfaite 1752. Begravet i Slesvig Domkirke.
+                - **Christian Rosenkrantz til Skovsbo** (`p1738`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `PHT:1897`.
+                - **Frederikke Louise Krag** (`p1739`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `PHT:1897`.
+            - **Anna Margrethe Schubart** (`p435`; 1753-04-03 – 1842-08-24; data confidence: record; parents: p870 + p871). Sources: `PHT:1897`.
+              - **Johan Valentin Schubart** (`p870`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `PHT:1897`.
+              - **Christiane Sophie Woldenberg** (`p871`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `PHT:1897`.
+        - **Charlotte Frederikke Christine Møller** (`p109`; 1815 – death date unknown; born København; data confidence: record; parents: not recorded). Sources: `LL:5-674513`.
+      - **Vitta Dorthea Henriette Mathilde Ludvigsen** (`p55`; 1847-10-04 – 1927-01-17; born Næstved; data confidence: record; parents: p110 + p111). Sources: `Familiens slægtsopgørelse 'Familien Gedde' (maskinskrevet, familiens eksemplar)`; `LL:12-17734083`; `LL:6-812043`; `LL:13-5702406`; `LL:7-1280755`; `LL:13-432739`. Note: Kaldt Mathilde.
+        - **Johan Alexander Ludvigsen** (`p110`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `LL:12-17734084`.
+        - **Margaretha Dorothea Elisabeth Bølin** (`p111`; birth date unknown – death date unknown; data confidence: record; parents: not recorded). Sources: `LL:12-17734085`.
+
+## 2. Lorenz's paternity — central conflict
+
+### What the civil records say
+
+The Egernsund civil birth register, 1932 no. 4 (BSID 37658, image 125), records that Else Gedde Frederiksen, née Jensen, gave birth to Lorenz on 12 January 1932 at 05:30. A marginal note dated 11 July 1932 reportedly names landworker Wilhelm Krogh of Snogbæk as father, based on:
+- a paternity declaration dated 5 April 1932;
+- a court decision dated 10 June 1932.
+
+The Broager Vestre baptism register, 1933 no. 1 (BSID 201141, image 112), names worker Peter Frederiksen and wife Else Gedde Jensen as parents and refers to a letter from the civil registrar dated 11 July 1932. Peter was Lorenz's social/stepfather and gave him his surname.
+
+These sources establish what was officially declared/registered and what the church register recorded. They do not, without the underlying paternity case and further evidence, conclusively establish biological paternity.
+
+### What the family account says
+
+The typed family document “Paula Mathilde Chrestle Gedde og Jens Jensens slægt” and the handwritten family chart identify farmer's son Sophus (Sofus) Petersen of Påkjær, Nybøl, as Lorenz's biological father. The account says Wilhelm Krogh accepted paternity and Peter Frederiksen raised Lorenz as his own. This is a family claim that conflicts with the official registration.
+
+Sophus Petersen was born 28 June 1903 and died 24 August 1945. His baptism in Nybøl in 1903 no. 12 identifies his parents as farmer Peter Petersen and Anna Cathrine Marie Petersen. A family grave photograph gives the same dates and names Påkjær. The 1921 Nybøl census is useful for the household and farm context but does not prove Lorenz's paternity.
+
+### Keep three roles separate
+
+| Role | Person | Current evidence |
+|---|---|---|
+| Registered/legal father | Wilhelm Krogh | Civil-register marginal note, paternity declaration and court decision reported; underlying file not yet inspected |
+| Family-claimed biological father | Sophus Petersen | Family account and chart; disputed, not independently established |
+| Social/stepfather | Peter Frederiksen | Church-book entry and family account |
+
+Do not rewrite the biological father field as settled. The current JSON's `father: sofus` should be treated as a family-claimed relationship until the evidence is adjudicated. Any future data-model change should store the legal/registered and social relationships explicitly, not overwrite them.
+
+### Archive route
+
+Rigsarkivet's current guidance says paternity cases from 1919–1970 generally began with police; disputed paternity was decided by civil court; maintenance/alimentation files are held by the county archive. For Aabenraa-Sønderborg Amt from 1932 onward, the relevant 1920–1935 journals/case files require the unprinted reading-room finding aid. Search the police/civil case file and the county archive alimentation records using the 5 April declaration, 10 June decision and 11 July marginal-note dates.
+
+Official guidance:
+- [Rigsarkivet — paternity and adoption cases](https://www.rigsarkivet.dk/vejledning/faderskab-og-adoption/faderskabssager-kom-godt-i-gang/)
+- [Landsarkivet for Sønderjylland archive overview](https://www.rigsarkivet.dk/wp-content/uploads/2022/06/Landsarkivet-for-Soenderjylland-En-arkivoversigt.pdf)
+
+## 3. Sophus Petersen's reported daughters / possible half-siblings
+
+The family account says Sophus and wife Christine had four daughters and that one moved to Norway. The current tree note elsewhere names only three daughters (Gerda and two others), while the family document says “4 døtre”. This is a count discrepancy. Nybøl church-book searches are reported for girls born 1938, 1940 and 1943; a fourth daughter has not been located. Recheck the full family group and a wider date range. Do not assume a fourth daughter solely from the count without recording the source for it.
+
+If the relationship to Sophus is supported, the daughters would be possible maternal/paternal half-siblings depending on the exact parentage, but this is downstream of the paternity question and should not be used as proof of it.
+
+## 4. Else Gedde Jensen and the Gedde officer line
+
+Else (`p13`) was born 31 August 1912 at Ferup, Lejrskov, and baptised 20 October 1912. She was the daughter of Jens Jensen (`p26`) and Paula Mathilde Christle Gedde (`p27`). She received the middle name Gedde through her mother Paula.
+
+Paula's 1895 family photograph is captioned as Edvard Hammer Gedde and Vitta Ludvigsen with their 12 children; child no. 8 is identified as Paula. The caption is family provenance, not a primary birth record. Paula's ancestry connects to Ove Frederik Christopher Gedde (`p108`), Ove Samuel Gedde (`p216`) and Frederikke Louise Dorthea von Kleist (`p217`).
+
+Image: [Familien Gedde, 1895](https://raw.githubusercontent.com/sloev/tree/main/images/01-familien-gedde-1895.jpg).
+
+## 5. Ove Samuel Gedde — birth date and maternal identity
+
+### Birth date
+
+There is a real date conflict:
+- Harbou (1897) gives 28 February 1778–10 March 1843.
+- The current tree uses 28 February 1778.
+- P.I. Liebe / E. Borgstrøm's officer biography (based on Rigsarkiv military notes) gives 28 May 1778–10 March 1843.
+- Carl Johan Anker (1885) gives 28 May 1788; the OCR is marked unproofread and may conflate Ove with his father Hans Christopher.
+
+The year 1778 has stronger support than 1788, but the exact day/month remains unresolved. Inspect the original baptism register in the relevant Fredensborg/Hof- og Slotsmenighed records and compare adjacent entries. Do not silently choose between 28 February and 28 May.
+
+### Fischer sisters and mother conflict
+
+The 2025 expanded research export corrected the proposed parentage: it links Ove (1778) to Hans Christopher Gedde and his first wife **Frederikke Christiane Fischer** (baptised 4 November 1745 at Toten, died 28 February 1787), while **Øllegaard Sophie Fischer** (born 5 August 1752 at Ullensaker, died 9 December 1821) is treated as his stepmother, married to Hans Christopher on 15 December 1789. DBL's Hans Christopher entry distinguishes these as two sisters.
+
+However, the canonical `data/family.json` still links Ove to `p433`, Øllegaard Sophie Fischer, as mother. The expanded research export and canonical tree therefore disagree. This is a priority data-reconciliation issue, but do not change canonical parentage until the original baptism and marriage/death records have been checked.
+
+Sources:
+- [DBL, Hans Christopher Gedde](https://biografiskleksikon.lex.dk/Hans_Christopher_Gedde)
+- [Harbou, Slægten von Kleist i Danmark](https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf)
+- [Anker, Biografiske Efterretninger om norske Officerer](https://arkivkopia.se/bok/runeberg-acj330bio)
+
+## 6. Gedde family additions exp001–exp013
+
+The previous audit of the expanded research export found:
+- Christian Gedde (1648–1707) and Charlotte von Geidern are identified in DBL as parents of Samuel Christoph Gedde (born 14 July 1691). Other online accounts give different dates for a Christian Gedde namesake; do not merge the identities without checking.
+- Samuel Christoph Gedde (1691–1766) and Marie Elisabeth Pechernaut de la Remière (1705–1751) are reported as parents of ten children, including Hans Christopher and Salomon. Weilbach supports Christian Gedde (1729–1798), cartographer, as another child.
+- Salomon Gedde (born 10 February 1748) married Catharina Elisabeth Qvist in 1784. Catharina's parents are Peter Jacobsen Qvist and Inger, née Ivers; their ancestry remains thinly identified.
+- Frederikke Christiane Fischer and Øllegaard Sophie Fischer are two distinct sisters, not alternate names for one woman.
+- Nicolai Wilhelm Gedde (born 27 December 1779) married Juliane Frederikke Margrethe von Kleist in 1811. DBL gives his death as 31 May 1833, Harbou as 31 August 1833; check Norwegian death/burial records before choosing.
+
+These are published-genealogy leads. Exact page references and primary parish/military records should be retained alongside each relationship. The full individual audit has been preserved in the research archive; see the index.
+
+## 7. von Kleist / von Woyten / von Stojentin ancestry
+
+### Established source anchor and limits
+
+The von Kleist Family Archive's Tychow-Dubberow translation, p.123, identifies Christina von Woyten's parents as Benedictus von Woyten and Elisabeth von Stojentin of Giesebitz, and identifies her earlier husband as Otto von Below of Pustamin. The relationship to Georg von Kleist is supported by the same family-history context. The exact wording and underlying references should be rechecked in the German edition before expanding collateral siblings.
+
+The dossier's proposed Hans von Stojentin (1446–1517) as Elisabeth's father is described in the older notes as probable, not demonstrated. Do not promote it to an established parent link. The estate association with Giesebitz alone is not proof.
+
+### Muttrin medieval additions exp020–exp042
+
+A separate audit covers the 22 proposed people exp020–exp041 and the repaired missing Henning M.8 generation exp042. Key conclusions:
+- Prissebur's appearance in Urkunde 83 of 1364 is a dated documentary reference as reported by the 2025 Muttrin volume. His alleged parentage and sons are partly derived from a 1576 family genealogy and older letter; not all claims have equal evidence.
+- The 2025 Muttrin volume explicitly calls the early Stammtafel a probable arrangement based on both contemporary documents and later family records.
+- The notes say Henning M.3 was father of Henning M.8, who was alive in 1435 and, according to the old family genealogy, married a von Wedelstett and had seven sons including Bisprow III.1. The expanded export originally skipped M.8; it has been repaired by adding exp042 to the expanded JSON/GEDCOM and changing Bisprow's and the unnamed wife's links. These are still research-export data, not canonical-tree edits.
+- Bisprow III.1, Hans III.6, Pribislaff III.22, Hans III.54, Pribislaff III.114 and Hans Jürgen III.186 are reported in the 2025 genealogy with dated feudal, church, school and office references. Each parent-child link must be distinguished from what the underlying document actually says.
+- The expanded JSON note says Hans Jürgen III.186's son was Pribislaff III.281, existing canonical `p3472`, but the structured parent fields do not encode `p3472.father = exp033`. This narrative/structure mismatch remains open.
+- Existing `p3473` Esther von Kameke is identified in the expanded export as Anna Esther von Kameke, wife of Pribislaff III.281; the proposed parents are Jacob von Kameke of Körlin and Catharina von Koller. These are family-genealogy claims needing exact page/primary-record confirmation.
+
+### Tychow / Reimer and Bartes: unresolved father conflict
+
+Two sources conflict:
+- The 2025 Tychow-Dubberow genealogy says Hans of Tychow I.24 had sons Reimer II.2 and Bartes II.3.
+- L. Quandt's transcription of the 13 April 1477 collective fief letter in *Allgemeine Geschichte* names “Pribbeslaw zu Muttrin mit seinen Söhnen, die Brüder Reymer und Bartes zu [Groß-]Tichow”.
+- The same general-history discussion says the earlier Tychow/Dubberow branch ancestor is not known from the older family records.
+
+Therefore the father of Reimer and Bartes is disputed. Do not state Hans I.24 as proven, and do not merge the Muttrin and Tychow reconstructions until the original charter/authenticated copy and the later genealogy's reasoning are checked.
+
+The branch below Bartes is explicitly stated in the 2025 Tychow-Dubberow biographies as:
+**Bartes II.3 → Andreas (Drews) II.11 → Carsten II.21 → Bernd II.39 → Christian II.60.**
+Reimer II.2's son is Bartez II.6; Bartez II.6 is not Andreas's father.
+
+Sources:
+- [Muttrin 2025](https://www.v-kleist.com/FG/Muttrin/Muttrin.pdf)
+- [Tychow-Dubberow 2025](https://www.v-kleist.com/FG/Dubberow.pdf)
+- [Allgemeine Geschichte](https://www.v-kleist.com/FG/Genealogie/AllgemeineGeschichte.pdf)
+- [English translation, Tychow-Dubberow p.123](https://www.v-kleist.com/FG/english/Dubberow_translation.pdf)
+- [Harbou 1897](https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf)
+
+## 8. Other Gedde and emigration leads
+
+- **Ove Gjedde / Brostrup Gjedde:** the older admiral Ove Gjedde (1594–1660) and Brostrup Gjedde are not automatically the same family as the later Danish/Norwegian officer-family Gedde. The Store norske leksikon notes the two may not be connected. Keep separate unless Schøller and primary records establish a link.
+- **Olaf Gedde, Shanghai, 1904:** search passport, shipping, consular and commercial records; destination may be intermediate.
+- **Emil Gedde, Argentina, 1922:** search emigration and Argentine civil/immigration records; preserve Gedde/Giedde spelling.
+- **Wilhelm Krogh, reported birth 9 October 1908, “Tastrup/Vastrup”, Kreis Flensburg:** locality reading is uncertain. Preserve both candidate spellings until the historical place and Standesamt jurisdiction are established.
+
+## 9. Dybbøl / Broager collateral line
+
+Jens Jensen (`p26`), father of Else Gedde Jensen, is recorded as son of Rasmus Jensen and Christine Hansen. He married Paula Gedde in 1907. Rasmus Jensen (`p52`) married Anne Christine Hansen (`p53`) in Dybbøl on 18 September 1866. The exact marriage entry remains to be visually inspected; prior Arkivalieronline access returned a viewer shell. The 1861–1927 Dybbøl Ab 4 volume contains marriages 1861–1906. Transcribe witnesses, ages, residences and fathers from the original page before treating the proposed parents Hans Hansen and Ellen Kock as independently verified.
+
+## 10. Open tasks in priority order
+
+1. Obtain the full Egernsund paternity declaration, 10 June 1932 judgment and associated police/county alimentation file.
+2. Re-read the complete Egernsund birth entry and Broager Vestre baptism entry from the original images.
+3. Verify Sophus Petersen's 1931–32 location and household; resolve the three-versus-four daughters discrepancy.
+4. Inspect Ove Samuel's original baptism to settle the 1778 date and maternal identity; reconcile canonical `p433` versus expanded `exp009`.
+5. Reconcile Ove Samuel's death date (10 March 1843) and the exact birth date (28 February/28 May).
+6. Inspect Hans Christopher's marriages and the two Fischer sisters' original baptism/death entries.
+7. Check the exact Muttrin biography and source references for III.281 / `p3472`; resolve `exp033` narrative vs structured father link.
+8. Inspect the original 1477 fief letter or authenticated copy and reconcile the Tychow father conflict.
+9. Verify the 1364 Prissebur record and each medieval generation separately.
+10. Check the Dybbøl 1866 marriage and test the Hans Hansen / Ellen Kock parentage.
+11. Verify the Christina von Woyten / von Stojentin claims against the German source and any cited primary documents.
+12. Search the emigration and consular leads for Olaf and Emil Gedde.
+
+## 11. Related images and documents
+
+- [Lorenz's Broager baptism scan](https://raw.githubusercontent.com/sloev/tree/main/images/08-lorenz-baptism-broager-1933.jpg)
+- [Sophus Petersen's Nybøl baptism scan](https://raw.githubusercontent.com/sloev/tree/main/images/05-sophus-daab-nybol-1903.jpg)
+- [Sophus's grave](https://raw.githubusercontent.com/sloev/tree/main/images/06-sofus-petersen-gravsten.jpg)
+- [Nybøl 1921 census scan](https://raw.githubusercontent.com/sloev/tree/main/images/07-nybol-folketaelling-1921.jpg)
+- [Gedde family photograph, 1895](https://raw.githubusercontent.com/sloev/tree/main/images/01-familien-gedde-1895.jpg)
+- See the family image catalog (archived outside the active leads index) for additional portraits and contextual imagery.
