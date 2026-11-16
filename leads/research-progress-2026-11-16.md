@@ -234,3 +234,18 @@ The English PDF labels itself a machine translation made in 2026 and says it has
 - Cartz Ulrich → Christian Adam → Christian Frederik → Frederikke Louise Dorthea → Ove Samuel Gedde → Ove Frederik Christopher Gedde: not checked in the Dubberow passages above; retain earlier Harbou/other-source audit and verify each link separately.
 - Further Rosenkrantz and Krag ancestry supplied by Z.ai: not inspected in this source pass.
 - No canonical GEDCOM/tree relationships have been changed. The site research card was corrected to show the two separate Tychow branches and the verified parent links, while keeping the source-quality caveat.
+
+
+## Correction — Tychow/Reimer/Bartes father is disputed
+
+A further source comparison requires qualification of the preceding Tychow-Dubberow section. The 2025 Tychow-Dubberow volume states that Reimer II.2 and Bartes II.3 were sons of Hans of Tychow I.24. However, L. Quandt's *Allgemeine Geschichte* transcribes the 13 April 1477 collective fief letter as naming “Pribbeslaw zu Muttrin mit seinen Söhnen, die Brüder Reymer und Bartes zu [Groß-]Tichow” (accessible text around line 1042). The same general-history discussion says that the name of the earlier Tychow/Dubberow branch ancestor is not known from the older family records (around lines 1373 and 1390).
+
+These statements conflict. The 1477 transcription appears to name Pribbeslaw of Muttrin as father; the later Tychow genealogy assigns the brothers to Hans I.24. Until the original charter/authenticated copy and the genealogical reasoning are checked, the father of Reimer and Bartes must remain unresolved. The descent from Bartes II.3 to Andreas II.11, Carsten II.21, Bernd II.39 and Christian II.60 remains explicitly stated in the 2025 Tychow-Dubberow biographies. Bartez II.6 is Reimer II.2's son and is not the father of Andreas II.11.
+
+This also means the earlier statement that the whole chain begins with Hans I.24 was too definite. The corrected source audit is in leads/von-kleist-source-audit-2026-11-16.md.
+
+## Von Kleist additions exp020–exp041 — source audit completed, import held
+
+A new itemized source audit has been added at leads/von-kleist-source-audit-2026-11-16.md. It distinguishes the 1364 Prissebur reference from later pedigree reconstruction; records what the 2025 Muttrin volume says about the early generations; audits all 22 proposed people exp020–exp041; and flags the structured-data mismatch where exp033's note names existing p3472 as his son but the JSON leaves p3472's father blank.
+
+No canonical family data or GEDCOM records were changed. The next work is to locate the exact Muttrin biography for III.281/p3472, reconcile old and revised numbering, inspect the original 1477 charter or authenticated copy, and then determine which specific relationships are strong enough for a carefully scoped canonical update.
