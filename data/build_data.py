@@ -570,7 +570,14 @@ person("p6949", "Hedvig Maria von Kleist", "F", ahnen=6949, line="gedde", father
        note="Hans første hustru. Hun bragte en del af Gross Tychow med ind i ægteskabet.", src=["PHT:1897"])
 person("p13898", "Georg von Kleist", "M", ahnen=13898, line="gedde", occ=["Godsejer, Gross Tychow (Pommern)"], spouse="p13899",
        src=["PHT:1897"])
-person("p13899", "Christina von Woyten", "F", ahnen=13899, line="gedde", spouse="p13898", src=["PHT:1897"])
+person("p13899", "Christina von Woyten", "F", ahnen=13899, line="gedde", father="woyten_benedictus", mother="stojentin_elisabeth", spouse="p13898", src=["PHT:1897", "VKA:Dubberow p.123"])
+person("woyten_benedictus", "Benedictus (Benedict) von Woyten", "M", line="gedde",
+       occ=["Princely Pomeranian captain of Bütow", "Lord of Versin"],
+       note="Died after 6 December 1584. Father of Christina von Woyten.", src=["VKA:Dubberow p.123"])
+person("stojentin_elisabeth", "Elisabeth von Stojentin", "F", line="gedde",
+       note="Of Giesebitz; mother of Christina von Woyten.", src=["VKA:Dubberow p.123"])
+person("below_otto_pustamin", "Otto von Below of Pustamin", "M", line="gedde", spouse="p13899",
+       note="Christina von Woyten’s first husband; she was his widow when she married Georg von Kleist.", src=["VKA:Dubberow p.123"])
 
 # ================= Søskende og andre slægtninge (bredde) =================
 def sibs(parents, line, rel, rows):
@@ -821,6 +828,7 @@ SOURCES = [
     ("DFS:", "Danish Family Search", "Folketællinger 1925–1940", "https://www.danishfamilysearch.dk/"),
     ("ARK:", "arkiv.dk", "Lokalarkiver: billeder, personarkiver, erindringer", "https://arkiv.dk/"),
     ("PHT:", "Personalhistorisk Tidsskrift 1897", "H.W. Harbou: Slægten von Kleist i Danmark", "https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf"),
+    ("VKA:", "von Kleist Familienarchiv", "History of the Family von Kleist – Tychow-Dubberow line, English translation, p. 123", "https://www.v-kleist.com/FG/english/Dubberow_translation.pdf"),
 ]
 
 # ================= Automatisk fundne aner (tools/expand.py) =================
