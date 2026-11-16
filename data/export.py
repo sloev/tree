@@ -35,6 +35,16 @@ for p in P:  # ægtepar uden fælles børn i data
         sp = next(q for q in P if q["id"] == p["spouse"])
         k = (p["id"], sp["id"]) if p["sex"] == "M" else (sp["id"], p["id"])
         fams.setdefault(k, [])
+# Historical unions are retained independently of any current spouse field.
+for union in D.get("union_statuses", []):
+    partners = union.get("partners", [])
+    if len(partners) != 2:
+        continue
+    a, b = (next((p for p in P if p["id"] == pid), None) for pid in partners)
+    if not a or not b:
+        continue
+    k = (a["id"], b["id"]) if a.get("sex") == "M" else (b["id"], a["id"])
+    fams.setdefault(k, [])
 famid = {k: f"F{i+1}" for i, k in enumerate(fams)}
 union_statuses = {frozenset(u.get("partners", [])): u for u in D.get("union_statuses", [])}
 L = ["0 HEAD", "1 SOUR GaardstedJorgensenTree", "1 GEDC", "2 VERS 5.5.1", "2 FORM LINEAGE-LINKED", "1 CHAR UTF-8"]
