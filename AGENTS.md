@@ -12,9 +12,11 @@ This repository is exclusively the Gårdsted and Gedde family-history project an
 
 ## Family-tree website requirements
 - Mobile-first, responsive layout; never require horizontal panning to read or navigate the tree.
-- The homepage tree is a continuous, non-collapsible hierarchy. Keep every known branch visible; do not introduce accordions, disclosure toggles, or hidden ancestry branches.
-- On wide screens, present the hierarchy compactly from left to right, with generations forming successive columns. On narrow/mobile screens, reflow it into a compact vertical hierarchy so the complete tree remains accessible without horizontal panning.
-- Left/right keyboard navigation moves through every person in the currently displayed tree at the same generation, in left-to-right order, and wraps at both ends.
+- Render the ancestry tree as a compact, single-column file explorer: one person per row, with depth shown by indentation and subtle vertical guide lines. Keep rows readable on desktop and touch-friendly on mobile.
+- All known branches are expanded by default. Users may collapse/expand individual subtrees; persist those choices for the current browser session.
+- Use the shared generation palette for row accents and indentation guides. Maternal and paternal people at the same depth share a colour; adjacent generations use distinct colours. Never require horizontal panning.
+- Keep previous/next controls for other people at the same generation, ordered by ahnentafel position. Provide accessible tree keyboard navigation for visible rows and subtree expansion.
+- Preserve the tree entry points (renderPed, setRoot, highlight, nodes) and ahnentafel indexing. Do not change genealogy data as part of presentation work.
 - Use one shared, high-contrast generation colour for both maternal and paternal nodes at a given depth; make adjacent generations visually distinct. Do not use family-line colours as the primary node colour.
 - Keep the home navigation item labelled "Forside" first.
 - Preserve privacy protections for living people and private stubs. Do not decrypt or expose private data without explicit, scoped authorization.
