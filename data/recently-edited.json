@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Forskningsmateriale eller kildegrundlag er opdateret. Se ændringsloggen og de relevante forskningsnoter for detaljer.",
-    "commit": "90e426b332144cd9b15d9522c4f93be338aab049",
+    "commit": "4e4adec27afc3ee9f30cd09a366a9ae9a71d7ce5",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "coop.log.md"
     ],
     "people": [],
-    "title": "Record 16 November Kleist research handoff"
+    "title": "Record open research publication requirements"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
