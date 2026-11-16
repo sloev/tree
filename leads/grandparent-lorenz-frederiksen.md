@@ -218,6 +218,20 @@ A separate audit covers the 22 proposed people exp020–exp041 and the repaired 
 
 This is a source-by-source evaluation of the medieval and early-modern leads preserved in the archived branch dossier, cross-branch ledger, expanded export audit and the current family-history publications. It does **not** establish a continuous descent from the medieval Klest to canonical Pribislaff III.281 (p3472). The following evidence grades describe what each item supports, not the prestige of the family or the authority of a later pedigree.
 
+#### A-1. The earlier Conradus Clest and Bertoldus Clest (1248–1269)
+
+The 1248–1269 evidence concerns a separate, earlier Kleist-named pair in the Oder/Stettin region. It must be kept distinct from the 1289 Belgard witness group until a connection is demonstrated.
+
+- **Urk. 26 (1248):** Conradus Clest appears among witnesses to Barnim I's grant involving Tamzowa and Radekow. The Urkundenbuch cites the original in the Pommersches Provinzialarchiv, Schr. I, Chat. 1, Nr. 6. A later note says Conradus and Theodoricus Bawarus were still squires in 1248.
+- **Urk. 27 (17 June 1249):** the Colbatz monastery matricula gives “Bertoldus et Conradus Clest fratres” (brothers). This is an explicit relationship in the documentary tradition, although this edition is from the monastery's register rather than the original charter.
+- **Urk. 32a (1254):** a separate charter from the original then held in the Geheimes Archiv at Königsberg names “Conradus marscalcus et Bartoldus Clest fratres”. This is independent contemporary evidence for Conradus and Bartoldus as brothers.
+- **Urk. 48 (7 April 1269):** Conradus miles dictus Clest states that the village Belitz and associated holdings had been granted to him and his already deceased brother Bertoldus for life, with reversion to Colbatz after Conrad's death. The edition is from the Colbatz monastery matricula. This again explicitly identifies the brother relationship.
+- The 1251/1254 documents also place Conradus Clest in the ducal witness network; the 1254 record calls him marshal. This is a substantial documentary biography for this pair, but it is not a genealogical bridge to the later Muttrin family.
+
+**Assessment:** Conradus and Bertoldus are a well-attested sibling pair. The 1289 Urk. 75 witness phrase may refer to another pair/group of Clest brothers, as Sauer and von Ledebur argue, but no source found so far identifies those men as descendants of Conradus/Bertoldus. Conversely, no source proves they were unrelated. Keep both possibilities open and do not merge their families or assign the 1289 Clest to the seal-holder without further evidence.
+
+Source: [Urkundenbuch, Urk. 26, 27, 32a and 48](https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf).
+
 #### A0. Critical source criticism: the 1289–1364 bridge is contested
 
 A targeted re-check of the printed primary-source editions and Eberhard Sauer's 1939 critique materially changes the confidence assessment in the first section.
