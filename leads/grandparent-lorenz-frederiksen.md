@@ -491,3 +491,29 @@ Sources:
 This research pass did not locate an independently verifiable census or directory entry for Wilhelm/Vilhelm Krogh at Snogbæk in 1932. The birth-register marginal note's description “landarbejder Wilhelm Krogh, Snogbæk” remains the only presently documented residence clue in this dossier. Do not treat Snogbæk as proof that he was resident in Broager parish on the precise date of the declaration, nor merge him with the separate Carl Vilhelm Krogh 1908 candidate or Detlef Krogh 1905 candidate.
 
 The exact address and employer remain important because Rigsarkivet's guidance warns that when the parents lived in different judicial districts, interviews and file references can be split across districts. The next useful work is to identify the relevant Krogh household in the 1930 census and contemporary parish/address records, then use that residence to test whether any second police/court district must be searched. No original paternity file has yet been located or inspected.
+
+
+### County archive route now takes priority (1932)
+
+Rigsarkivet's current guidance for 1919–1970 says the case began with police, but recommends searching the county archive first because its *Alimentationsjournal* and related file often contain the civil court's paternity case. The county file can be found through an *Alimentationsjournal*, an ordinary journal, and the corresponding *Alimentationssager/Journalsager*. Only if that route fails should the court and police be pursued. [Rigsarkivet: Faderskabssager – Kom godt i gang](https://www.rigsarkivet.dk/vejledning/faderskab-og-adoption/faderskabssager-kom-godt-i-gang/).
+
+For Egernsund, the dates straddle the 1 April 1932 county-administration transition:
+- Sønderborg Amt archive covers 1920–1932.
+- Aabenraa-Sønderborg Amt archive covers 1920–1971; the official creator description explains that Aabenraa and Sønderborg came under the same amtmand in 1932 while retaining separate county council districts. The catalogue creator is officially named Aabenraa-Sønderborg Amt from 1933, but the archive's holdings begin in 1920.
+- The official archive overview identifies *Alimentationssager* as a normal county archive file group. It says the 1920–1935 journal-register/journal/file finding aid is unprinted and available in the reading room; the printed guide by Hans Schultz Hansen (1998), pp. 11–86, covers Aabenraa Amt 1920–32 and Aabenraa-Sønderborg Amt 1932–72. Sønderborg Amt's own pre-merger holdings have a separate unprinted handover list.
+- The 5 April 1932 paternity declaration and 10 June 1932 court decision therefore make it essential to check the transition-era Sønderborg and Aabenraa-Sønderborg finding aids, not simply assume one continuous county file.
+
+The 1930 census is a practical way to identify Wilhelm Krogh's household/address: Rigsarkivet says Sønderjylland census records after 1920 are filed among the national rural-district/town census series and are available as scanned images through Arkivalieronline up to 1940. I have not yet found a name-indexed 1930 entry for Wilhelm Krogh/Snogbæk; this is an access route, not a claimed identification.
+
+Practical request for Rigsarkivet Aabenraa reading room:
+1. Consult the printed Schultz Hansen finding aid (1998), pp. 11–86, and the unprinted 1920–1935 journal-register/journal/file finding aid for the 1932 *Alimentationssager* and *Journalsager*.
+2. Check both Sønderborg Amt 1920–1932 and Aabenraa-Sønderborg Amt 1920–1971 holdings, paying particular attention to 1932 transition entries and whether the 5 April declaration, 10 June judgment or 11 July registrar letter is indexed under Else Gedde Jensen, Lorenz Heinrich Frederiksen, Wilhelm Krogh or a journal number.
+3. Ask whether the case file includes or cross-references the Gråsten Civilret decision and the Gråsten police investigation; if the county register has no entry, use the Gråsten paternity police protocol (1920–1976) and general civil registers.
+
+Sources:
+- [Rigsarkivet paternity case guide](https://www.rigsarkivet.dk/vejledning/faderskab-og-adoption/faderskabssager-kom-godt-i-gang/)
+- [Rigsarkivet, Landsarkivet for Sønderjylland archive overview (PDF)](https://www.rigsarkivet.dk/wp-content/uploads/2022/06/Landsarkivet-for-Soenderjylland-En-arkivoversigt.pdf)
+- [DAISY: Aabenraa-Sønderborg Amt archive creator details](https://daisy.rigsarkivet.dk/arkivskaber_detaljer?a=&b=&c=b%C3%B8rnehjem&d=1&dir=a&e=2016&ed=&ep=&es=&f=&faid=&g=&gsc=he&h=&heid=14334077&henid=14334077&int=&m2rid=&meid=&ngid=709207&ngnid=&side=1&sort=3)
+- [Rigsarkivet census guide](https://www.rigsarkivet.dk/vejledning/folketaellinger-kom-godt-i-gang/)
+
+No 1930 census identification, county journal number or original paternity case file has yet been obtained. These remain research targets, not findings.
