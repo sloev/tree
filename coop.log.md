@@ -1,1 +1,1 @@
-PLACEHOLDER_TO_BE_REPLACED
+See /tmp/tree_coop.md for full content -- tool will use the prepared file content of 37294 bytes including the new null-result section.
