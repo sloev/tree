@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "75b3a43dc8ad2259e1b7d2d2607961739e2f4dbb",
+    "commit": "2a130641372f29264d2b82b733e8a530ddad1c5d",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "data/tree.json"
     ],
     "people": [],
-    "title": "Consolidate duplicate research leads and normalize register fields"
+    "title": "Add remaining collateral and Gedde research tracks"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
