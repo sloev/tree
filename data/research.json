@@ -1,782 +1,782 @@
 {
-  "version": 1,
-  "statuses": [
+ "version": 1,
+ "statuses": [
+  {
+   "id": "needs",
+   "label": "Kræver mere belæg"
+  },
+  {
+   "id": "hypothesis",
+   "label": "Foreløbig hypotese"
+  },
+  {
+   "id": "family",
+   "label": "Familieoplysning"
+  }
+ ],
+ "claims": [
+  {
+   "id": "lorenz-wilhelm",
+   "branch": "Lorenz Frederiksen",
+   "title": "Wilhelm Kroghs registrerede faderskab",
+   "status": "needs",
+   "claim": "Egernsund standsregisters randnote angiver Wilhelm Krogh som far efter en faderskabserklæring 5. april 1932 og en retsafgørelse 10. juni 1932. Det dokumenterer registreringen og sagsforløbet, men ikke i sig selv biologisk faderskab.",
+   "evidence": "Dossieret identificerer Egernsund standsregister, fødte 1928–33, 1932 nr. 4 (bsid 37658, billede 125), samt Broager Vestre kirkebog 1933 nr. 1. Kildereferencerne er registreret; selve sagsakterne er ikke fuldt gennemgået i denne offentlige oversigt.",
+   "missing": "Den fulde faderskabssag, ordlyden af erklæringen og retsafgørelsen samt eventuelle samtidige breve eller vidneudsagn. Biologisk slægtskab kræver særskilt evidens.",
+   "next": "Find og gennemgå den originale faderskabssag og sammenhold den med øvrige samtidige kilder.",
+   "dossier": "leads/grandparent-lorenz-frederiksen.md",
+   "person_ids": [
+    "p6",
+    "p12"
+   ]
+  },
+  {
+   "id": "lorenz-sophus",
+   "branch": "Lorenz Frederiksen",
+   "title": "Sophus Petersen som biologisk far",
+   "status": "family",
+   "claim": "Familien har fortalt, at gårdmandssønnen Sophus Petersen fra Påkjær i Nybøl var Lorenz' biologiske far, mens Wilhelm Krogh påtog sig faderskabet. Det er en vigtig familieoplysning, men den er i konflikt med den officielle registrering.",
+   "evidence": "Familiedokumentet, den håndskrevne anetavle og familiens mundtlige overlevering identificerer Sophus. Sophus' dåb og gravsten underbygger hans identitet og livsforløb, ikke faderskabet til Lorenz.",
+   "missing": "Uafhængig dokumentation for forbindelsen mellem Sophus og Lorenz, fx samtidige breve, vidneudsagn eller relevant DNA-sammenligning med dokumenteret slægt.",
+   "next": "Opsøg efterladte familiepapirer og vurder muligheden for DNA-sammenligning med kendte efterkommere af Sophus.",
+   "dossier": "leads/grandparent-lorenz-frederiksen.md",
+   "person_ids": [
+    "p6",
+    "sofus"
+   ]
+  },
+  {
+   "id": "liss-marriage",
+   "branch": "Liss Pedersen",
+   "title": "Liss' vielse i 1843: uoverensstemmelse om ægtefællens navn",
+   "status": "needs",
+   "claim": "Der er en uafklaret forskel mellem navnene Kjersten Frederiksdatter og Mette Pedersdatter i materialet om ægtefællen. Vielsen i Sønder Felding i 1843 er udpeget som den centrale kontrolkilde.",
+   "evidence": "Den aktive Liss-dossier beskriver navneafvigelsen og peger på kirkebogens vielsesindførsel i 1843 som næste kilde.",
+   "missing": "Den originale vielsesindførsel og sammenligning af alder, bopæl, forlovere og forældrenavne med de øvrige personer i husstanden.",
+   "next": "Find vielsesindførslen i Sønder Felding og registrér dens præcise ordlyd og billedhenvisning.",
+   "dossier": "leads/grandparent-liss-pedersen.md",
+   "person_ids": [
+    "a46",
+    "a47",
+    "p23"
+   ]
+  },
+  {
+   "id": "liss-baptism",
+   "branch": "Liss Pedersen",
+   "title": "Dåb i Pårup Melgaard, 1812",
+   "status": "hypothesis",
+   "claim": "En dåbsindførsel fra Pårup Melgaard i 1812 er et muligt spor til at afklare Kjerstens identitet og forældre.",
+   "evidence": "Sporet er noteret i den aktive Liss-dossier som en målrettet kirkebogskontrol, ikke som en fastslået identifikation.",
+   "missing": "Original dåbsindførsel samt match på forældre, alder og senere bopæl/vielse.",
+   "next": "Kontrollér kirkebogen og sammenhold alle navne- og stedvarianter.",
+   "dossier": "leads/grandparent-liss-pedersen.md",
+   "person_ids": [
+    "a46",
+    "a47"
+   ]
+  },
+  {
+   "id": "evald-vibygard",
+   "branch": "Evald Gårdsted Jørgensen",
+   "title": "Vibygård og Syv: mulig identitetssammenhæng",
+   "status": "hypothesis",
+   "claim": "Der undersøges, om person- og ejendomssporene ved Vibygård og Syv vedrører samme familie eller personkreds.",
+   "evidence": "Den aktive Evald-dossier samler dette som et åbent identitetsspor. Der er endnu ikke fremlagt en sammenhængende kæde af originale dokumenter her.",
+   "missing": "Sammenlignelige skøde-, skifte-, folketællings- eller kirkebogsoplysninger, der forbinder navn, sted, tid og familie.",
+   "next": "Sammenhold de konkrete Vibygård- og Syv-poster og dokumentér både match og afvigelser.",
+   "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+   "person_ids": [
+    "a66"
+   ]
+  },
+  {
+   "id": "evald-bogensholm",
+   "branch": "Evald Gårdsted Jørgensen",
+   "title": "Bogensholm: skøde omkring 1796–1797",
+   "status": "needs",
+   "claim": "Et skøde fra 1796 eller 1797 er et centralt spor til ejerskab og mulig identifikation ved Bogensholm.",
+   "evidence": "Skødehenvisningen er prioriteret i den aktive Evald-dossier; den præcise dato og dokumentets ordlyd skal kontrolleres i originalen.",
+   "missing": "Originalt skøde, tingbogs-/pantebogshenvisning og sikker identifikation af de nævnte parter.",
+   "next": "Find originalen og transskriber parter, ejendom, dato og eventuelle slægtskabsoplysninger.",
+   "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md"
+  },
+  {
+   "id": "gerda-kresten",
+   "branch": "Gerda Larsen",
+   "title": "Kresten Henriksen Jørgensens dåb, 1877",
+   "status": "needs",
+   "claim": "Dåben i 1877 er et åbent spor til at afklare Krestens forældre og den korrekte placering i Langø-grenen.",
+   "evidence": "Den aktive Gerda-dossier udpeger dåbsindførslen som kontrolpunkt. Der er endnu ikke gengivet en verificeret transskription i denne oversigt.",
+   "missing": "Original kirkebogsindførsel, faddere og bopælsoplysninger samt sammenhold med senere vielse og folketællinger.",
+   "next": "Kontrollér dåbsbilledet og følg familien gennem senere kilder.",
+   "dossier": "leads/grandparent-gerda-larsen.md",
+   "person_ids": [
+    "g_kresten",
+    "p28"
+   ]
+  },
+  {
+   "id": "gerda-lango",
+   "branch": "Gerda Larsen",
+   "title": "Langø: skøde fra 1894 og vej/dæmning omkring 1911",
+   "status": "needs",
+   "claim": "Et skøde fra 1894 og myndighedsforhold omkring vej eller dæmning i 1911 kan belyse ejerskab og lokale forhold ved Langø.",
+   "evidence": "Begge spor er nævnt i den aktive Gerda-dossier som konkrete arkivopgaver. Det er endnu ikke fastslået, hvad dokumenterne præcist siger.",
+   "missing": "Originalt skøde samt kommunale, amtslige eller vejmyndighedsakter fra omkring 1911 med klar angivelse af ansvar, dato og berørte ejendomme.",
+   "next": "Identificér arkivskaber og journal-/tingbogsnummer, og gennemgå originalakterne.",
+   "dossier": "leads/grandparent-gerda-larsen.md",
+   "person_ids": [
+    "p62",
+    "p63"
+   ]
+  },
+  {
+   "id": "evald-tohde-probate",
+   "branch": "Evald Gårdsted Jørgensen",
+   "title": "Rolsøgård-skiftet 1764: Tohde og stedbørnene",
+   "status": "needs",
+   "claim": "Et skifte fra 1764 efter Christen Christensen med tilnavnet muligvis “Tohde” kan belyse Claus Gaardsteds og Karen Christensdatters familieforhold. Dossierets læsning af en senere skiftehenvisning beskriver dem som stedbørn — ikke som hans biologiske børn.",
+   "evidence": "Evald-dossieret peger på Rolsøgård Gods, skifteprotokol G302, og skiftet i Dejret fra 1764. En senere 1787-henvisning bruger ifølge dossierets foreløbige læsning ordet “stedbørn”.",
+   "missing": "Originalen fra 1764 og den præcise ordlyd i Rolsøgård G302 nr. 11, 14. maj 1787, folio 39. Den biologiske forælder til Claus og Karen er ikke identificeret.",
+   "next": "Bestil og læs begge originale skifter; transskriber slægtskabsordene før nogen forældretilknytning ændres.",
+   "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+   "person_ids": [
+    "p36"
+   ]
+  },
+  {
+   "id": "evald-viby-probate",
+   "branch": "Evald Gårdsted Jørgensen",
+   "title": "Vibygård-skiftet 1820: en separat Hans Jensen-husstand",
+   "status": "needs",
+   "claim": "Et skifte efter Maren Poulsdatter 31. december 1820 nævner hendes mand, gartner Hans Jensen, og fire voksne børn. Det er ikke bevist, at denne Hans Jensen er den samme som stamtræets Hans Jensen, der blev gift i Syv i 1822.",
+   "evidence": "Dossieret angiver Vibygård Gods skifteprotokol, bog 2, folio 21–22 og 32–34, samt navne og bopæle på Poul, Jens, Peder og Ane.",
+   "missing": "Originalskiftets identitetsoplysninger og sammenligning med vielsen i Syv 1822, alder, bopæl, ægtefælle og børn.",
+   "next": "Læs originalskiftet og den fulde vielsesindførsel fra 1822; hold husstandene adskilt indtil de kan forbindes.",
+   "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+   "person_ids": [
+    "a66"
+   ]
+  },
+  {
+   "id": "evald-rosmus-mette",
+   "branch": "Evald Gårdsted Jørgensen",
+   "title": "Rosmus: Mette Hallis eller Mette Helles?",
+   "status": "hypothesis",
+   "claim": "Ane Sophie Jensdatters mor er i den nuværende arbejdshypotese Mette Pedersdatter Hallis, men en alternativ identitet, Mette Sørensdatter Helles, optræder i forskningsmaterialet. Kvinderne må ikke sammenlægges uden kildebevis.",
+   "evidence": "1811-vielsen i Rosmus og dåben i 1812 er de centrale kildeankre. Dåben er ifølge dossieret gengivet med navnet “Mette Pedersdatter Hallis”.",
+   "missing": "En ny gennemgang af original vielse, dåb, folketællinger og skifter, især den præcise stavemåde og patronymikon.",
+   "next": "Sammenlign originalbillederne og registrér ordret navneform, alder, bopæl og forlovere.",
+   "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+   "person_ids": [
+    "p37",
+    "a75"
+   ]
+  },
+  {
+   "id": "evald-rousing-parentage",
+   "branch": "Evald Gårdsted Jørgensen",
+   "title": "Rousing-slægten: forældrene til Rasmus Jensen",
+   "status": "hypothesis",
+   "claim": "Jens Rasmussen er en sandsynlig, men endnu ikke endeligt dokumenteret far til Rasmus Jensen Rousing. En ældre Rasmus Jensen er kun foreslået ud fra navnelighed og er ikke dokumenteret som far.",
+   "evidence": "Grundlaget for den sandsynlige forbindelse er en 1801-folketælling, hvor en 20-årig Rasmus optræder i Jens Rasmussens husstand. En Rasmus Jensen i 1787 er et muligt, men svagere spor.",
+   "missing": "Dåb, skifte, militærrulle eller anden kilde, der direkte forbinder Rasmus med forældrene.",
+   "next": "Undersøg Fuglslevs kirkebøger, folketællinger, skifter og sognefoged-/militærmateriale.",
+   "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+   "person_ids": [
+    "p76",
+    "p152",
+    "p304"
+   ]
+  },
+  {
+   "id": "evald-lovisa-mother",
+   "branch": "Evald Gårdsted Jørgensen",
+   "title": "Lovisa Larsson fra Malmö: moderens identitet",
+   "status": "needs",
+   "claim": "Lovisa Larssons fødsel i Malmö 28. juni 1862 er et delvist afklaret spor. Hendes dødsindførsel i Slagelse nævner Niels Larsen som svensk far, men hendes mor mangler i det nuværende træ.",
+   "evidence": "Dossieret henviser til dødsindførslen i 1910 og identificerer Lovisa som allerede tilknyttet Evalds direkte linje.",
+   "missing": "Malmös originale fødsels- og husstandsoplysninger, der kan identificere moderen og bekræfte fødselsregistreringen.",
+   "next": "Find det rette Malmö sogn og følg Lovisa i fødsels- og husstandsregistre.",
+   "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+   "person_ids": [
+    "p17",
+    "p34"
+   ]
+  },
+  {
+   "id": "liss-assing-baptism",
+   "branch": "Liss Pedersen",
+   "title": "Jens Peder Larsen: dåb i Assing omkring 1812",
+   "status": "hypothesis",
+   "claim": "En udvidet forskningsnote foreslår 29. februar 1812 som fødsels- og dåbsdato for Jens Peder Larsen i Pårup Melgaard, Assing. Datoen er et søgespor, ikke en verificeret dåb.",
+   "evidence": "Dossieret kobler ham til Karen Jensens direkte linje og henviser til en senere vielse i Sønder Felding og dødsfald i Sønder Omme.",
+   "missing": "Original kirkebogsindførsel fra Assing samt sammenligning med vielse, alder og forældreoplysninger.",
+   "next": "Gennemgå Assing kirkebog side for side omkring februar 1812 og nærliggende sogne.",
+   "dossier": "leads/grandparent-liss-pedersen.md"
+  },
+  {
+   "id": "liss-kjersten-baptism",
+   "branch": "Liss Pedersen",
+   "title": "Kjersten Frederiksdatter: dåb og forældre i 1822",
+   "status": "needs",
+   "claim": "Kjersten Frederiksdatter er den nuværende arbejdsmæssige identifikation af Jens Peder Larsens hustru. Hendes dåb 20. april 1822 i Sønder Felding og forældrene Frederik Jensen og Ane Thomasdatter skal kontrolleres i originalen.",
+   "evidence": "Den aktive dossier og Horsbøl-slægtsmaterialet peger på Kjersten og vielsen 8. oktober 1843; en ældre udvidet note nævner fejlagtigt eller alternativt Mette Pedersdatter.",
+   "missing": "Original dåb og forældrenes vielser/dåb samt fuld vielsesindførsel fra 1843.",
+   "next": "Læs dåben fra 1822 og vielsen fra 1843 med vidner, alder, bopæl og fædre.",
+   "dossier": "leads/grandparent-liss-pedersen.md",
+   "person_ids": [
+    "a47"
+   ]
+  },
+  {
+   "id": "liss-hoven-mill",
+   "branch": "Liss Pedersen",
+   "title": "Hoven mølle: Ane Kirstine Eskesdatters ejerskab",
+   "status": "needs",
+   "claim": "Folketællingen 1834 beskriver Ane Kirstine Eskesdatter som enke og ejer af Hoven mølle. Ejendomssporet kan belyse hendes familie og husholdning, men kan ikke stå alene som bevis for slægtskab.",
+   "evidence": "Dossieret henviser til 1834-husstanden og til sønnen Christen Andersens dåb i Hoven 1819. Møllen er et fast geografisk og ejendomsmæssigt holdepunkt.",
+   "missing": "Original skøde-/matrikel-/brandforsikringsmateriale og de relevante Hoven kirkebøger fra ca. 1770–1800.",
+   "next": "Sammenhold 1834-folketælling, møllens ejendomshistorie og kirkebøgernes dåb/vielser.",
+   "dossier": "leads/grandparent-liss-pedersen.md",
+   "person_ids": [
+    "a44",
+    "a45",
+    "a89"
+   ]
+  },
+  {
+   "id": "liss-karen-date",
+   "branch": "Liss Pedersen",
+   "title": "Karen Jensens fødselsdato: 29. august eller 29. juli 1852",
+   "status": "needs",
+   "claim": "Skarrilds dåb og vielsen i Grindsted 1875 angiver 29. august 1852, mens folketællingen 1901 angiver 29. juli. Den oprindelige dato bør ikke ændres ud fra folketællingen alene.",
+   "evidence": "Dossieret prioriterer dåbs- og vielsesoplysningerne og registrerer folketællingens afvigelse særskilt.",
+   "missing": "En fuld sammenligning af original dåb, vielse og folketællingens præcise felt/afskrift.",
+   "next": "Kontrollér de originale indførsler og bevar afvigelsen som en kildevariant.",
+   "dossier": "leads/grandparent-liss-pedersen.md",
+   "person_ids": [
+    "p23"
+   ]
+  },
+  {
+   "id": "gerda-kresten-mother",
+   "branch": "Gerda Larsen",
+   "title": "Kresten Jørgensen: hvilken Marthe var hans mor?",
+   "status": "hypothesis",
+   "claim": "Familiearket angiver Christen Henriksen Jørgensen, født 3. november 1877 i Søndenbro, som mulig søn af Lars Thomsen Larsen og en kvinde ved navn Marthe Jørgensen. To mulige mødre er bevaret som kandidater; ingen er bevist.",
+   "evidence": "Dossieret nævner dåbsindekset LL:12-16292169 og folketællingerne 1880 og 1890, hvor Kresten skal være opvokset hos Jørgen Christensen og Karen Andersen. Det kan pege mod Marthe Jørgensen (født 1852), men er indirekte.",
+   "missing": "Den fulde dåbsindførsel med alder, bopæl, tjenestested og marginalnoter samt kandidat B's begravelse og tilgangsliste 1877.",
+   "next": "Læs dåbsbilledet først, og sammenhold derefter begravelse, tilgangsliste og kandidat A's folketælling 1921.",
+   "dossier": "leads/grandparent-gerda-larsen.md",
+   "person_ids": [
+    "g_kresten",
+    "p28"
+   ]
+  },
+  {
+   "id": "gerda-lango-deed",
+   "branch": "Gerda Larsen",
+   "title": "Langø 1894: køb, sælger og skøde",
+   "status": "needs",
+   "claim": "Familieerindringen siger, at Marius og Ane Marie Christensen købte Langø i 1894 for 4.000 kroner. Lokalarkivets omtale bekræfter overordnet købet, men de præcise handelsvilkår og ejendomsretten skal kontrolleres i tingbog og skøde.",
+   "evidence": "Familieerindringen “En Langø-piges erindringer” beskriver købet og beløbet. Langeland Byarkivs katalog omtaler også købet i 1894.",
+   "missing": "Originalt skøde, realregister/tingbog og eventuel auktionsprotokol med sælger, dato, vilkår og ejendomsgrænser.",
+   "next": "Find ejendommens realregisterblad og følg skøde/auktion i 1894.",
+   "dossier": "leads/grandparent-gerda-larsen.md",
+   "sources": [
     {
-      "id": "needs",
-      "label": "Kræver mere belæg"
+     "label": "Langeland Byarkiv",
+     "url": "https://www.langelandsarkiv.dk/"
     },
     {
-      "id": "hypothesis",
-      "label": "Foreløbig hypotese"
-    },
-    {
-      "id": "family",
-      "label": "Familieoplysning"
+     "label": "Familieerindring, side 1",
+     "url": "https://raw.githubusercontent.com/sloev/tree/main/images/04-langoe-erindringer.jpg"
     }
-  ],
-  "claims": [
+   ],
+   "person_ids": [
+    "p62",
+    "p63"
+   ]
+  },
+  {
+   "id": "gerda-causeway",
+   "branch": "Gerda Larsen",
+   "title": "Langø-dæmningen: anlægget i 1911",
+   "status": "needs",
+   "claim": "Familieerindringen daterer byggestarten til 11. januar 1911 og beskriver en dæmning på 334 meter. Den overordnede historie er omtalt af lokalarkivet, men myndighedsforløb, ansvar og præcis anlægsdato bør dokumenteres.",
+   "evidence": "Familieerindringen og Langeland Byarkivs katalogartikel om Langø og dæmningen er de foreliggende spor.",
+   "missing": "Kommunale, amtslige eller vejmyndighedsakter, samtidige aviser og eventuelle byggeregnskaber.",
+   "next": "Find journal- og vejmyndighedssager fra 1910–1912 og sammenhold med samtidige avisnotitser.",
+   "dossier": "leads/grandparent-gerda-larsen.md",
+   "sources": [
     {
-      "id": "lorenz-wilhelm",
-      "branch": "Lorenz Frederiksen",
-      "title": "Wilhelm Kroghs registrerede faderskab",
-      "status": "needs",
-      "claim": "Egernsund standsregisters randnote angiver Wilhelm Krogh som far efter en faderskabserklæring 5. april 1932 og en retsafgørelse 10. juni 1932. Det dokumenterer registreringen og sagsforløbet, men ikke i sig selv biologisk faderskab.",
-      "evidence": "Dossieret identificerer Egernsund standsregister, fødte 1928–33, 1932 nr. 4 (bsid 37658, billede 125), samt Broager Vestre kirkebog 1933 nr. 1. Kildereferencerne er registreret; selve sagsakterne er ikke fuldt gennemgået i denne offentlige oversigt.",
-      "missing": "Den fulde faderskabssag, ordlyden af erklæringen og retsafgørelsen samt eventuelle samtidige breve eller vidneudsagn. Biologisk slægtskab kræver særskilt evidens.",
-      "next": "Find og gennemgå den originale faderskabssag og sammenhold den med øvrige samtidige kilder.",
-      "dossier": "leads/grandparent-lorenz-frederiksen.md",
-      "person_ids": [
-        "p6",
-        "p12"
-      ]
+     "label": "Langeland Byarkiv",
+     "url": "https://www.langelandsarkiv.dk/"
     },
     {
-      "id": "lorenz-sophus",
-      "branch": "Lorenz Frederiksen",
-      "title": "Sophus Petersen som biologisk far",
-      "status": "family",
-      "claim": "Familien har fortalt, at gårdmandssønnen Sophus Petersen fra Påkjær i Nybøl var Lorenz' biologiske far, mens Wilhelm Krogh påtog sig faderskabet. Det er en vigtig familieoplysning, men den er i konflikt med den officielle registrering.",
-      "evidence": "Familiedokumentet, den håndskrevne anetavle og familiens mundtlige overlevering identificerer Sophus. Sophus' dåb og gravsten underbygger hans identitet og livsforløb, ikke faderskabet til Lorenz.",
-      "missing": "Uafhængig dokumentation for forbindelsen mellem Sophus og Lorenz, fx samtidige breve, vidneudsagn eller relevant DNA-sammenligning med dokumenteret slægt.",
-      "next": "Opsøg efterladte familiepapirer og vurder muligheden for DNA-sammenligning med kendte efterkommere af Sophus.",
-      "dossier": "leads/grandparent-lorenz-frederiksen.md",
-      "person_ids": [
-        "p6",
-        "sofus"
-      ]
-    },
-    {
-      "id": "liss-marriage",
-      "branch": "Liss Pedersen",
-      "title": "Liss' vielse i 1843: uoverensstemmelse om ægtefællens navn",
-      "status": "needs",
-      "claim": "Der er en uafklaret forskel mellem navnene Kjersten Frederiksdatter og Mette Pedersdatter i materialet om ægtefællen. Vielsen i Sønder Felding i 1843 er udpeget som den centrale kontrolkilde.",
-      "evidence": "Den aktive Liss-dossier beskriver navneafvigelsen og peger på kirkebogens vielsesindførsel i 1843 som næste kilde.",
-      "missing": "Den originale vielsesindførsel og sammenligning af alder, bopæl, forlovere og forældrenavne med de øvrige personer i husstanden.",
-      "next": "Find vielsesindførslen i Sønder Felding og registrér dens præcise ordlyd og billedhenvisning.",
-      "dossier": "leads/grandparent-liss-pedersen.md",
-      "person_ids": [
-        "a46",
-        "a47",
-        "p23"
-      ]
-    },
-    {
-      "id": "liss-baptism",
-      "branch": "Liss Pedersen",
-      "title": "Dåb i Pårup Melgaard, 1812",
-      "status": "hypothesis",
-      "claim": "En dåbsindførsel fra Pårup Melgaard i 1812 er et muligt spor til at afklare Kjerstens identitet og forældre.",
-      "evidence": "Sporet er noteret i den aktive Liss-dossier som en målrettet kirkebogskontrol, ikke som en fastslået identifikation.",
-      "missing": "Original dåbsindførsel samt match på forældre, alder og senere bopæl/vielse.",
-      "next": "Kontrollér kirkebogen og sammenhold alle navne- og stedvarianter.",
-      "dossier": "leads/grandparent-liss-pedersen.md",
-      "person_ids": [
-        "a46",
-        "a47"
-      ]
-    },
-    {
-      "id": "evald-vibygard",
-      "branch": "Evald Gårdsted Jørgensen",
-      "title": "Vibygård og Syv: mulig identitetssammenhæng",
-      "status": "hypothesis",
-      "claim": "Der undersøges, om person- og ejendomssporene ved Vibygård og Syv vedrører samme familie eller personkreds.",
-      "evidence": "Den aktive Evald-dossier samler dette som et åbent identitetsspor. Der er endnu ikke fremlagt en sammenhængende kæde af originale dokumenter her.",
-      "missing": "Sammenlignelige skøde-, skifte-, folketællings- eller kirkebogsoplysninger, der forbinder navn, sted, tid og familie.",
-      "next": "Sammenhold de konkrete Vibygård- og Syv-poster og dokumentér både match og afvigelser.",
-      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
-      "person_ids": [
-        "a66"
-      ]
-    },
-    {
-      "id": "evald-bogensholm",
-      "branch": "Evald Gårdsted Jørgensen",
-      "title": "Bogensholm: skøde omkring 1796–1797",
-      "status": "needs",
-      "claim": "Et skøde fra 1796 eller 1797 er et centralt spor til ejerskab og mulig identifikation ved Bogensholm.",
-      "evidence": "Skødehenvisningen er prioriteret i den aktive Evald-dossier; den præcise dato og dokumentets ordlyd skal kontrolleres i originalen.",
-      "missing": "Originalt skøde, tingbogs-/pantebogshenvisning og sikker identifikation af de nævnte parter.",
-      "next": "Find originalen og transskriber parter, ejendom, dato og eventuelle slægtskabsoplysninger.",
-      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md"
-    },
-    {
-      "id": "gerda-kresten",
-      "branch": "Gerda Larsen",
-      "title": "Kresten Henriksen Jørgensens dåb, 1877",
-      "status": "needs",
-      "claim": "Dåben i 1877 er et åbent spor til at afklare Krestens forældre og den korrekte placering i Langø-grenen.",
-      "evidence": "Den aktive Gerda-dossier udpeger dåbsindførslen som kontrolpunkt. Der er endnu ikke gengivet en verificeret transskription i denne oversigt.",
-      "missing": "Original kirkebogsindførsel, faddere og bopælsoplysninger samt sammenhold med senere vielse og folketællinger.",
-      "next": "Kontrollér dåbsbilledet og følg familien gennem senere kilder.",
-      "dossier": "leads/grandparent-gerda-larsen.md",
-      "person_ids": [
-        "g_kresten",
-        "p28"
-      ]
-    },
-    {
-      "id": "gerda-lango",
-      "branch": "Gerda Larsen",
-      "title": "Langø: skøde fra 1894 og vej/dæmning omkring 1911",
-      "status": "needs",
-      "claim": "Et skøde fra 1894 og myndighedsforhold omkring vej eller dæmning i 1911 kan belyse ejerskab og lokale forhold ved Langø.",
-      "evidence": "Begge spor er nævnt i den aktive Gerda-dossier som konkrete arkivopgaver. Det er endnu ikke fastslået, hvad dokumenterne præcist siger.",
-      "missing": "Originalt skøde samt kommunale, amtslige eller vejmyndighedsakter fra omkring 1911 med klar angivelse af ansvar, dato og berørte ejendomme.",
-      "next": "Identificér arkivskaber og journal-/tingbogsnummer, og gennemgå originalakterne.",
-      "dossier": "leads/grandparent-gerda-larsen.md",
-      "person_ids": [
-        "p62",
-        "p63"
-      ]
-    },
-    {
-      "id": "evald-tohde-probate",
-      "branch": "Evald Gårdsted Jørgensen",
-      "title": "Rolsøgård-skiftet 1764: Tohde og stedbørnene",
-      "status": "needs",
-      "claim": "Et skifte fra 1764 efter Christen Christensen med tilnavnet muligvis “Tohde” kan belyse Claus Gaardsteds og Karen Christensdatters familieforhold. Dossierets læsning af en senere skiftehenvisning beskriver dem som stedbørn — ikke som hans biologiske børn.",
-      "evidence": "Evald-dossieret peger på Rolsøgård Gods, skifteprotokol G302, og skiftet i Dejret fra 1764. En senere 1787-henvisning bruger ifølge dossierets foreløbige læsning ordet “stedbørn”.",
-      "missing": "Originalen fra 1764 og den præcise ordlyd i Rolsøgård G302 nr. 11, 14. maj 1787, folio 39. Den biologiske forælder til Claus og Karen er ikke identificeret.",
-      "next": "Bestil og læs begge originale skifter; transskriber slægtskabsordene før nogen forældretilknytning ændres.",
-      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
-      "person_ids": [
-        "p36"
-      ]
-    },
-    {
-      "id": "evald-viby-probate",
-      "branch": "Evald Gårdsted Jørgensen",
-      "title": "Vibygård-skiftet 1820: en separat Hans Jensen-husstand",
-      "status": "needs",
-      "claim": "Et skifte efter Maren Poulsdatter 31. december 1820 nævner hendes mand, gartner Hans Jensen, og fire voksne børn. Det er ikke bevist, at denne Hans Jensen er den samme som stamtræets Hans Jensen, der blev gift i Syv i 1822.",
-      "evidence": "Dossieret angiver Vibygård Gods skifteprotokol, bog 2, folio 21–22 og 32–34, samt navne og bopæle på Poul, Jens, Peder og Ane.",
-      "missing": "Originalskiftets identitetsoplysninger og sammenligning med vielsen i Syv 1822, alder, bopæl, ægtefælle og børn.",
-      "next": "Læs originalskiftet og den fulde vielsesindførsel fra 1822; hold husstandene adskilt indtil de kan forbindes.",
-      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
-      "person_ids": [
-        "a66"
-      ]
-    },
-    {
-      "id": "evald-rosmus-mette",
-      "branch": "Evald Gårdsted Jørgensen",
-      "title": "Rosmus: Mette Hallis eller Mette Helles?",
-      "status": "hypothesis",
-      "claim": "Ane Sophie Jensdatters mor er i den nuværende arbejdshypotese Mette Pedersdatter Hallis, men en alternativ identitet, Mette Sørensdatter Helles, optræder i forskningsmaterialet. Kvinderne må ikke sammenlægges uden kildebevis.",
-      "evidence": "1811-vielsen i Rosmus og dåben i 1812 er de centrale kildeankre. Dåben er ifølge dossieret gengivet med navnet “Mette Pedersdatter Hallis”.",
-      "missing": "En ny gennemgang af original vielse, dåb, folketællinger og skifter, især den præcise stavemåde og patronymikon.",
-      "next": "Sammenlign originalbillederne og registrér ordret navneform, alder, bopæl og forlovere.",
-      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
-      "person_ids": [
-        "p37",
-        "a75"
-      ]
-    },
-    {
-      "id": "evald-rousing-parentage",
-      "branch": "Evald Gårdsted Jørgensen",
-      "title": "Rousing-slægten: forældrene til Rasmus Jensen",
-      "status": "hypothesis",
-      "claim": "Jens Rasmussen er en sandsynlig, men endnu ikke endeligt dokumenteret far til Rasmus Jensen Rousing. En ældre Rasmus Jensen er kun foreslået ud fra navnelighed og er ikke dokumenteret som far.",
-      "evidence": "Grundlaget for den sandsynlige forbindelse er en 1801-folketælling, hvor en 20-årig Rasmus optræder i Jens Rasmussens husstand. En Rasmus Jensen i 1787 er et muligt, men svagere spor.",
-      "missing": "Dåb, skifte, militærrulle eller anden kilde, der direkte forbinder Rasmus med forældrene.",
-      "next": "Undersøg Fuglslevs kirkebøger, folketællinger, skifter og sognefoged-/militærmateriale.",
-      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
-      "person_ids": [
-        "p76",
-        "p152",
-        "p304"
-      ]
-    },
-    {
-      "id": "evald-lovisa-mother",
-      "branch": "Evald Gårdsted Jørgensen",
-      "title": "Lovisa Larsson fra Malmö: moderens identitet",
-      "status": "needs",
-      "claim": "Lovisa Larssons fødsel i Malmö 28. juni 1862 er et delvist afklaret spor. Hendes dødsindførsel i Slagelse nævner Niels Larsen som svensk far, men hendes mor mangler i det nuværende træ.",
-      "evidence": "Dossieret henviser til dødsindførslen i 1910 og identificerer Lovisa som allerede tilknyttet Evalds direkte linje.",
-      "missing": "Malmös originale fødsels- og husstandsoplysninger, der kan identificere moderen og bekræfte fødselsregistreringen.",
-      "next": "Find det rette Malmö sogn og følg Lovisa i fødsels- og husstandsregistre.",
-      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
-      "person_ids": [
-        "p17",
-        "p34"
-      ]
-    },
-    {
-      "id": "liss-assing-baptism",
-      "branch": "Liss Pedersen",
-      "title": "Jens Peder Larsen: dåb i Assing omkring 1812",
-      "status": "hypothesis",
-      "claim": "En udvidet forskningsnote foreslår 29. februar 1812 som fødsels- og dåbsdato for Jens Peder Larsen i Pårup Melgaard, Assing. Datoen er et søgespor, ikke en verificeret dåb.",
-      "evidence": "Dossieret kobler ham til Karen Jensens direkte linje og henviser til en senere vielse i Sønder Felding og dødsfald i Sønder Omme.",
-      "missing": "Original kirkebogsindførsel fra Assing samt sammenligning med vielse, alder og forældreoplysninger.",
-      "next": "Gennemgå Assing kirkebog side for side omkring februar 1812 og nærliggende sogne.",
-      "dossier": "leads/grandparent-liss-pedersen.md"
-    },
-    {
-      "id": "liss-kjersten-baptism",
-      "branch": "Liss Pedersen",
-      "title": "Kjersten Frederiksdatter: dåb og forældre i 1822",
-      "status": "needs",
-      "claim": "Kjersten Frederiksdatter er den nuværende arbejdsmæssige identifikation af Jens Peder Larsens hustru. Hendes dåb 20. april 1822 i Sønder Felding og forældrene Frederik Jensen og Ane Thomasdatter skal kontrolleres i originalen.",
-      "evidence": "Den aktive dossier og Horsbøl-slægtsmaterialet peger på Kjersten og vielsen 8. oktober 1843; en ældre udvidet note nævner fejlagtigt eller alternativt Mette Pedersdatter.",
-      "missing": "Original dåb og forældrenes vielser/dåb samt fuld vielsesindførsel fra 1843.",
-      "next": "Læs dåben fra 1822 og vielsen fra 1843 med vidner, alder, bopæl og fædre.",
-      "dossier": "leads/grandparent-liss-pedersen.md",
-      "person_ids": [
-        "a47"
-      ]
-    },
-    {
-      "id": "liss-hoven-mill",
-      "branch": "Liss Pedersen",
-      "title": "Hoven mølle: Ane Kirstine Eskesdatters ejerskab",
-      "status": "needs",
-      "claim": "Folketællingen 1834 beskriver Ane Kirstine Eskesdatter som enke og ejer af Hoven mølle. Ejendomssporet kan belyse hendes familie og husholdning, men kan ikke stå alene som bevis for slægtskab.",
-      "evidence": "Dossieret henviser til 1834-husstanden og til sønnen Christen Andersens dåb i Hoven 1819. Møllen er et fast geografisk og ejendomsmæssigt holdepunkt.",
-      "missing": "Original skøde-/matrikel-/brandforsikringsmateriale og de relevante Hoven kirkebøger fra ca. 1770–1800.",
-      "next": "Sammenhold 1834-folketælling, møllens ejendomshistorie og kirkebøgernes dåb/vielser.",
-      "dossier": "leads/grandparent-liss-pedersen.md",
-      "person_ids": [
-        "a44",
-        "a45",
-        "a89"
-      ]
-    },
-    {
-      "id": "liss-karen-date",
-      "branch": "Liss Pedersen",
-      "title": "Karen Jensens fødselsdato: 29. august eller 29. juli 1852",
-      "status": "needs",
-      "claim": "Skarrilds dåb og vielsen i Grindsted 1875 angiver 29. august 1852, mens folketællingen 1901 angiver 29. juli. Den oprindelige dato bør ikke ændres ud fra folketællingen alene.",
-      "evidence": "Dossieret prioriterer dåbs- og vielsesoplysningerne og registrerer folketællingens afvigelse særskilt.",
-      "missing": "En fuld sammenligning af original dåb, vielse og folketællingens præcise felt/afskrift.",
-      "next": "Kontrollér de originale indførsler og bevar afvigelsen som en kildevariant.",
-      "dossier": "leads/grandparent-liss-pedersen.md",
-      "person_ids": [
-        "p23"
-      ]
-    },
-    {
-      "id": "gerda-kresten-mother",
-      "branch": "Gerda Larsen",
-      "title": "Kresten Jørgensen: hvilken Marthe var hans mor?",
-      "status": "hypothesis",
-      "claim": "Familiearket angiver Christen Henriksen Jørgensen, født 3. november 1877 i Søndenbro, som mulig søn af Lars Thomsen Larsen og en kvinde ved navn Marthe Jørgensen. To mulige mødre er bevaret som kandidater; ingen er bevist.",
-      "evidence": "Dossieret nævner dåbsindekset LL:12-16292169 og folketællingerne 1880 og 1890, hvor Kresten skal være opvokset hos Jørgen Christensen og Karen Andersen. Det kan pege mod Marthe Jørgensen (født 1852), men er indirekte.",
-      "missing": "Den fulde dåbsindførsel med alder, bopæl, tjenestested og marginalnoter samt kandidat B's begravelse og tilgangsliste 1877.",
-      "next": "Læs dåbsbilledet først, og sammenhold derefter begravelse, tilgangsliste og kandidat A's folketælling 1921.",
-      "dossier": "leads/grandparent-gerda-larsen.md",
-      "person_ids": [
-        "g_kresten",
-        "p28"
-      ]
-    },
-    {
-      "id": "gerda-lango-deed",
-      "branch": "Gerda Larsen",
-      "title": "Langø 1894: køb, sælger og skøde",
-      "status": "needs",
-      "claim": "Familieerindringen siger, at Marius og Ane Marie Christensen købte Langø i 1894 for 4.000 kroner. Lokalarkivets omtale bekræfter overordnet købet, men de præcise handelsvilkår og ejendomsretten skal kontrolleres i tingbog og skøde.",
-      "evidence": "Familieerindringen “En Langø-piges erindringer” beskriver købet og beløbet. Langeland Byarkivs katalog omtaler også købet i 1894.",
-      "missing": "Originalt skøde, realregister/tingbog og eventuel auktionsprotokol med sælger, dato, vilkår og ejendomsgrænser.",
-      "next": "Find ejendommens realregisterblad og følg skøde/auktion i 1894.",
-      "dossier": "leads/grandparent-gerda-larsen.md",
-      "sources": [
-        {
-          "label": "Langeland Byarkiv",
-          "url": "https://www.langelandsarkiv.dk/"
-        },
-        {
-          "label": "Familieerindring, side 1",
-          "url": "https://raw.githubusercontent.com/sloev/tree/main/images/04-langoe-erindringer.jpg"
-        }
-      ],
-      "person_ids": [
-        "p62",
-        "p63"
-      ]
-    },
-    {
-      "id": "gerda-causeway",
-      "branch": "Gerda Larsen",
-      "title": "Langø-dæmningen: anlægget i 1911",
-      "status": "needs",
-      "claim": "Familieerindringen daterer byggestarten til 11. januar 1911 og beskriver en dæmning på 334 meter. Den overordnede historie er omtalt af lokalarkivet, men myndighedsforløb, ansvar og præcis anlægsdato bør dokumenteres.",
-      "evidence": "Familieerindringen og Langeland Byarkivs katalogartikel om Langø og dæmningen er de foreliggende spor.",
-      "missing": "Kommunale, amtslige eller vejmyndighedsakter, samtidige aviser og eventuelle byggeregnskaber.",
-      "next": "Find journal- og vejmyndighedssager fra 1910–1912 og sammenhold med samtidige avisnotitser.",
-      "dossier": "leads/grandparent-gerda-larsen.md",
-      "sources": [
-        {
-          "label": "Langeland Byarkiv",
-          "url": "https://www.langelandsarkiv.dk/"
-        },
-        {
-          "label": "Familieerindring, side 2",
-          "url": "https://raw.githubusercontent.com/sloev/tree/main/images/02-langoe-erindringer-s2.jpg"
-        }
-      ],
-      "person_ids": [
-        "p62",
-        "p63"
-      ]
-    },
-    {
-      "id": "gerda-iver-emigration",
-      "branch": "Gerda Larsen",
-      "title": "Iver Peder Holgersen: udrejse til Fresno i 1910",
-      "status": "needs",
-      "claim": "En familieoplysning forbinder Iver Peder Holgersen med Fresno i 1910. En mulig udrejsekontrakt er identificeret, men identiteten i forhold til stamtræets Peder Iver Holgersen er ikke endeligt fastslået.",
-      "evidence": "Københavns Politis udvandringskontrakt nr. 4443, dateret 8. september 1910, er angivet som et konkret opslagsspor.",
-      "missing": "Selve kontraktens fulde oplysninger og sammenligning med passagerlister, amerikanske folketællinger, naturalisation og dødsoplysninger.",
-      "next": "Læs kontrakt nr. 4443 og følg navn, alder, fødested og destination i amerikanske kilder.",
-      "dossier": "leads/grandparent-gerda-larsen.md",
-      "person_ids": [
-        "p60"
-      ]
-    },
-    {
-      "id": "gerda-christian-probate",
-      "branch": "Gerda Larsen",
-      "title": "Nordenbro-skiftet 1787: Christian Hansen",
-      "status": "hypothesis",
-      "claim": "Et skifte fra 1787 efter en Christian Hansen kan muligvis belyse familien bag Christian Hansen, der blev gift med Marie Madsdatter i Magleby i 1829. Identiteten er ikke bevist; navnet kan dække en anden mand.",
-      "evidence": "Dossieret beskriver en skifteoplysning om to ægteskaber og flere børn i Nordenbro og en mulig forbindelse til den senere Magleby-familie.",
-      "missing": "Originalt skifte med afdødes alder, bopæl, ægtefæller og børn samt en dokumenteret generationsforbindelse frem til 1829-parret.",
-      "next": "Find den rette skifteprotokol og sammenlign navne, alder, bopæl og familieforløb med kirkebøgerne.",
-      "dossier": "leads/grandparent-gerda-larsen.md",
-      "person_ids": [
-        "p114",
-        "p115"
-      ]
-    },
-    {
-      "id": "gerda-emigrant-family",
-      "branch": "Gerda Larsen",
-      "title": "Jørgen Christensen og Bodil Margrethe: børnene i Amerika",
-      "status": "needs",
-      "claim": "Familiearket fortæller, at syv af Jørgen Christensens og Bodil Margrethes ni børn emigrerede, og at forældrene selv rejste ud og senere vendte tilbage. Det skal undersøges person for person; familien rejste ikke nødvendigvis samlet.",
-      "evidence": "Familiearket angiver ni børn og et overordnet rejseforløb. Dossieret har allerede dåbshenvisninger for flere børn.",
-      "missing": "De præcise navne og individuelle udrejsekontrakter, passagerlister, amerikanske folketællinger og eventuelle naturalisations-/kirkebogsoplysninger.",
-      "next": "Lav en separat tidslinje for hvert barn og søg først i de relevante danske sogne, derefter i destinationskilder.",
-      "dossier": "leads/grandparent-gerda-larsen.md",
-      "person_ids": [
-        "p126",
-        "p127"
-      ]
-    },
-    {
-      "id": "lorenz-paternity-case",
-      "branch": "Lorenz Frederiksen",
-      "title": "Lorenz' faderskabssag 1932: find den originale sag",
-      "status": "needs",
-      "claim": "Det borgerlige register dokumenterer, at Wilhelm Krogh blev registreret som far efter erklæring 5. april og retsafgørelse 10. juni 1932. Familiens oplysning udpeger Sophus Petersen som biologisk far. Den biologiske relation er fortsat uafklaret.",
-      "evidence": "Egernsund standsregister 1932 nr. 4, randnote 11. juli 1932, og Broager Vestre dåb 1933 nr. 1 er identificeret. Dossierets arkivundersøgelse peger på amtslige alimentationssager som første rute og Gråsten som relevant rets-/politidistrikt.",
-      "missing": "Original alimentationssag, journal-/sagsnummer, erklæringens og dommens fulde ordlyd og eventuelle vidneforklaringer. Selv en juridisk afgørelse er ikke automatisk genetisk bevis.",
-      "next": "Bed læsesalen i Aabenraa undersøge Sønderborg Amt og Aabenraa-Sønderborg Amt 1920–1935, herunder journaler, registre og overdragelseslister; følg derefter Gråsten Civilret/Politi.",
-      "dossier": "leads/grandparent-lorenz-frederiksen.md",
-      "sources": [
-        {
-          "label": "Rigsarkivet: Faderskabssager – kom godt i gang",
-          "url": "https://www.rigsarkivet.dk/vejledning/faderskab-og-adoption/faderskabssager-kom-godt-i-gang/"
-        }
-      ],
-      "person_ids": [
-        "p6",
-        "p12",
-        "sofus",
-        "pf12"
-      ]
-    },
-    {
-      "id": "lorenz-christian-adam",
-      "branch": "Lorenz Frederiksen",
-      "title": "Christian Adam von Kleist: dåben i Vor Frelsers omkring 1705",
-      "status": "needs",
-      "claim": "Harbou angiver Christian Adam von Kleists fødsel 1. oktober 1705 og dåb i Vor Frelsers. Den præcise kirkebogsindførsel er endnu ikke læst, og ældre litteratur har en anden dato og fejl i faderskabet.",
-      "evidence": "Rigsarkivets udgivelsesmeddelelser viser, at klokkernes navneindeks 1704–1822 er offentliggjort online. Sognets inventar forbinder indeksbindet med dåbsbøgerne 15–19 og 36; der findes også en parallel ministerialbog. En supplerende genealogisk registrering hos Finn Holbek anfører 1. oktober 1705 i København og forældrene Curtz Ulrich von Kleist og Barbara Juliane von Kleist; registreringen henviser til Danmarks Adels Aarbog 1985–87, s. 722, og Gotha 1901, s. 473. Dette er sekundær henvisning og ikke en aflæst dåbsindførsel.",
-      "missing": "Det konkrete indeksopslag, side-/billednummer og original dåbsindførsel i både klokkerens og ministerens register. Finn Holbeks henviste DAA/Gotha-oplysninger er ikke kontrolleret direkte, og dåbsindførslen er stadig ikke identificeret.",
-      "next": "Find Christian/Christiern Adam i klokkerens navneindeks 1704–1822, følg boghenvisningen til dåbsindførslen, og sammenlign med præstens parallelle register; kontrollér samtidig DAA 1985–87 s. 722 og Gotha 1901 s. 473.",
-      "dossier": "leads/grandparent-lorenz-frederiksen.md",
-      "sources": [
-        {
-          "label": "Harbou: Slægten von Kleist i Danmark",
-          "url": "https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf"
-        },
-        {
-          "label": "Vor Frelsers sogneinventar",
-          "url": "https://slaegtsbibliotek.dk/900379.pdf"
-        },
-        {
-          "label": "Finn Holbek: Christian Adam von Kleist (sekundær registrering med DAA/Gotha-henvisninger)",
-          "url": "https://finnholbek.dk/getperson.php?personID=I22870&tree=2"
-        }
-      ],
-      "person_ids": [
-        "p868"
-      ]
-    },
-    {
-      "id": "lorenz-kleist-1848",
-      "branch": "Lorenz Frederiksen",
-      "title": "Frederik Christian III.727: identitet, fødselsdato og begravelse",
-      "status": "hypothesis",
-      "claim": "Selmer identificerer en oberstløjtnant Frederik Christian af Kleist, født 3. januar 1775 i Kolding, søn af kammerherre Christian Frederik af Kleist og Anne Margrethe Schubarth, død 21. maj 1848. Harbou angiver samme militære karriere og dødsdato, men fødselsdato 8. januar. Identiteten med Harbous III.727 er meget stærk; identiteten med den fremlagte “Christian Frederik Vilhelm” (1774–1848) er fortsat uafklaret.",
-      "evidence": "Selmer, Nekrologiske Samlinger 1848–49, s. 68, giver fødested, fødselsdato, forældre og militær karriere; s. 114 gentager dødsdatoen 21. maj og alder 73. Brejls oversigt over et 100-årigt gravbrev registrerer begravelse på Garnisons Kirkegård 26. maj 1848. Harbou III.727 angiver 8. januar 1775 og samme dødsdato. Gravbrevets originale ordlyd og kirkegårdsprotokol er endnu ikke gennemgået. Kolding Stadsarkiv har digitaliserede Ingrid Bruun-afskrifter af kirkebøger 1635–1881; portalen er relevant for Kolding 1775, men gav timeout, og ingen konkret dåbsindførsel er endnu læst. A further archival overview identifies Kolding parish register C 469-3 (1751–1775) as the direct chronological register to inspect for January 1775. It also lists a supplementary births-and-baptisms register C 469-74 (1764–1800), described as begun in 1776, so its relevance to a January 1775 event is uncertain. These catalogue references narrow the search but are not a read baptism entry. Correction from Paul G. Ørberg's detailed Kolding church-book inventory: C 469-3 is the parish priest's register 1751–1815 (baptisms 1751–1815), while C 469-7 is the clerk's register 1723–1779 (baptisms 1723–1776); both directly cover January 1775. Ørberg says both books should be used because dates, name forms and marginal notes may differ. C 469-8's listed baptism series begins later (legitimate baptisms 1780; illegitimate 1777), and C 469-74 supplementary list began in 1776, so neither is the direct first target.",
-      "missing": "Read and compare the original January 1775 baptism entries in Kolding Sankt Nikolaj parish priest's register C 469-3 (1751–1815) and clerk's register C 469-7 (1723–1779), including possible variants and marginal notes; original grave grant and Garnisons Kirkegårds burial protocol; death place; compare supplied “Christian Frederik Vilhelm” with independent identity records.",
-      "next": "Inspect the entire January 1775 sequence in both C 469-3 (priest's register) and C 469-7 (clerk's register), searching variants Frederik/Frederich Christian. Transcribe exact event/baptism dates, parents, residence, witnesses and marginal notes; compare both entries with Selmer's 3 January and Harbou's 8 January. Do not assume birth and baptism dates are identical.",
-      "dossier": "leads/grandparent-lorenz-frederiksen.md",
-      "sources": [
-        {
-          "label": "Selmer: Nekrologiske Samlinger 1848–49, s. 68 og 114",
-          "url": "https://slaegtsbibliotek.dk/2023/938488.pdf"
-        },
-        {
-          "label": "Harbou: Slægten von Kleist i Danmark",
-          "url": "https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf"
-        },
-        {
-          "label": "Brejl: private personarkiver, gravbrev for Frederik Christian von Kleist",
-          "url": "https://brejl.dk/privatB.html"
-        },
-        {
-          "label": "Kolding Stadsarkiv: Ingrid Bruuns kirkebogsafskrifter",
-          "url": "https://koldingstadsarkiv.dk/brug-arkivet/slaegtsforskning"
-        },
-        {
-          "label": "Rigsarkivet: vejledning til kirkebøger",
-          "url": "https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/"
-        },
-        {
-          "label": "Kolding archival overview: older church-book inventory (C 469-3 and C 469-74)",
-          "url": "https://slaegtsbibliotek.dk/807141.pdf"
-        },
-        {
-          "label": "Kolding Stadsarkiv: source collections",
-          "url": "https://koldingstadsarkiv.dk/kildesamlinger-2"
-        },
-        {
-          "label": "Arkivalieronline: church books across Denmark",
-          "url": "https://arkivalieronline.rigsarkivet.dk/da/geo/geo-collection/5"
-        },
-        {
-          "label": "Rigsarkivet: Nyt på Arkivalieronline marts 2026",
-          "url": "https://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-marts-2026.pdf"
-        }
-      ],
-      "person_ids": [
-        "p868"
-      ]
-    },
-    {
-      "id": "lorenz-kleist-stems",
-      "branch": "Lorenz Frederiksen",
-      "title": "Kleist-slægterne: Muttrin og Tychow-Dubberow må ikke flettes",
-      "status": "needs",
-      "claim": "Forskningsmaterialet rummer to forskellige von Kleist-slægtsforløb og modstridende ældre rekonstruktioner. De må ikke forbindes alene på grund af fælles navn eller en foreslået middelalderlig stamfar.",
-      "evidence": "Dossierets kildekritiske gennemgang sammenholder Harbou, 2025-familiehistorien og Muttrin-materialets dokumenter. Den fremhæver bl.a. en konflikt mellem Reimer- og Bartes-traditionerne og forskellige personer med navnet Pribislaff.",
-      "missing": "Kontrol af de præcise dokumenthenvisninger i Muttrin-bogen og de relevante Greifswald-chartere, især hvor 1477-charteret og senere slægtstavler er uenige.",
-      "next": "Fortsæt dokument-for-dokument-audit af hver slægtsstamme; hold Tychow-Dubberow og Muttrin adskilt i træet indtil en ubrudt kildekæde foreligger.",
-      "dossier": "leads/grandparent-lorenz-frederiksen.md",
-      "person_ids": [
-        "p868"
-      ]
-    },
-    {
-      "id": "evald-niels-birthplace",
-      "branch": "Evald Gårdsted Jørgensen",
-      "title": "Niels Jørgensens fødested: Hove, Høje eller Høve?",
-      "status": "needs",
-      "claim": "Niels Jørgensen (p32) er i materialet angivet med et usikkert fødested, læst som “Hove/Høje sogn, Svendborg amt”. De nævnte sogne og amtsangivelsen passer ikke umiddelbart sammen, så fødestedet må ikke normaliseres uden original vielses- eller dåbsdokumentation.",
-      "evidence": "Dossieret peger på vielsen 7. juli 1854 i Vor Frue Kirke, København, og registrerer flere mulige sognevarianter: Hove i Ringkøbing, Høje i Holbæk og Høve i Sorø.",
-      "missing": "Den fulde vielsesindførsel med ordret fødested, alder, erhverv, bopæl og forlovere samt en mulig dåbsindførsel i det identificerede sogn.",
-      "next": "Læs original vielse i Vor Frue 1854; brug derefter den præcise ordlyd til at afgrænse dåbssøgningen.",
-      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
-      "person_ids": [
-        "p32"
-      ]
-    },
-    {
-      "id": "evald-claus-probate-1811",
-      "branch": "Evald Gårdsted Jørgensen",
-      "title": "Claus Gaardsteds skifte og Bogensholm-auktion i 1811",
-      "status": "needs",
-      "claim": "Claus Gaardsted (p72) døde i 1811, og enken solgte Bogensholm på auktion samme år. Skiftet og auktionsmaterialet kan muligvis identificere hans første hustru og børn, men dossieret har endnu ikke fastslået disse familieforhold.",
-      "evidence": "Dossieret angiver auktionen i 1811 og henviser til Trap Danmark/danskeherregaarde.dk for Bogensholm samt Rolsøgård G302-skiftet fra 1787 som et separat slægtsspor.",
-      "missing": "Originalt skifte efter Claus, auktionsprotokol/skøde og dokumentation for hustru(er), arvinger, værger og ejendommens overdragelse.",
-      "next": "Find Claus Gaardsteds skifte fra 1811 og den tilhørende auktionsprotokol; transskriber arvinger og værger før familieforbindelser ændres.",
-      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
-      "person_ids": [
-        "p72"
-      ]
-    },
-    {
-      "id": "evald-rousing-office",
-      "branch": "Evald Gårdsted Jørgensen",
-      "title": "Rasmus Jensen Rousing: sognefogedudnævnelse og militærruller",
-      "status": "hypothesis",
-      "claim": "Rasmus Jensen Rousing (p76) har en sandsynlig, men ikke fuldt dokumenteret forældreplacering. En sognefogedudnævnelse i Djurs Nørre herred og eventuelle militærruller kan give uafhængige oplysninger om bopæl, alder og navneform.",
-      "evidence": "Dossieret bygger den sandsynlige forbindelse til Jens Rasmussen (p152) på folketællingen 1801, hvor en 20-årig Rasmus findes i hans husstand. En Rasmus Jensen i Fuglslevs folketælling 1787 er kun et muligt navnespor.",
-      "missing": "Original udnævnelses-/embedsoplysning og eventuelle militærruller fra ca. 1790–1810, der kan knytte samme mand til alder, bopæl og patronymikon.",
-      "next": "Opsøg Djurs Nørre herreds sognefogedudnævnelse og militærruller; sammenhold dem med 1801-husstanden og senere kirkebøger.",
-      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
-      "person_ids": [
-        "p76",
-        "p152"
-      ]
-    },
-    {
-      "id": "liss-hoven-households",
-      "branch": "Liss Pedersen",
-      "title": "Hoven mølle: fire personer og ejendommens succession",
-      "status": "needs",
-      "claim": "Dossieret identificerer en Hoven-husstand omkring 1834 med møller Anders Jensen, enken Ane Kirstine Eskesdatter, Christen Pallesen og Kirsten Marie Jensdatter. Ejendoms- og husholdningssporene kan afklare erhverv og succession, men må ikke bruges alene til at udlede biologisk slægtskab.",
-      "evidence": "Ane Kirstine Eskesdatter (a89) beskrives som enke og ejer af Hoven mølle i 1834. Dossieret angiver også Anders Jensen (a88), Christen Pallesen (a90) og Kirsten Marie Jensdatter (a91) som personer i det lokale materiale.",
-      "missing": "Originale kirkebogsindførsler for dåb og vielser ca. 1770–1800, fuld folketællingshusstand 1834 samt møllens skøde-, matrikel- og brandforsikringsmateriale.",
-      "next": "Læs Hoven-husstanden i FT 1834 fuldt ud, og følg møllens ejer- og forsikringshistorie sammen med kirkebøgerne.",
-      "dossier": "leads/grandparent-liss-pedersen.md",
-      "person_ids": [
-        "a88",
-        "a89",
-        "a90",
-        "a91"
-      ]
-    },
-    {
-      "id": "gerda-lango-children",
-      "branch": "Gerda Larsen",
-      "title": "Langø-familien: to børn med uafklaret videre liv",
-      "status": "needs",
-      "claim": "Familienotaterne angiver to yderligere børn af Marius Michelsen Christensen (p62) og Ane Marie Jørgensen (p63), hvis senere liv ikke er fulgt til ende: Christian Anton Christensen, født 1879 i Skrøbelev, og Christian Jørgen Christensen, født 1887 i København.",
-      "evidence": "Dossieret angiver konkrete fødselsdatoer og steder samt en senere bekræftelse i Humble i 1902 for Christian Jørgen. Det er et forskningsspor fra familie-/dossiermaterialet, ikke dokumentation for senere emigration eller dødsfald.",
-      "missing": "Originale dåbsindførsler, folketællinger efter 1880/1901, konfirmation/tilgangslister og eventuelle udrejsekontrakter eller passagerlister.",
-      "next": "Kontrollér Skrøbelevs dåb i 1879 og Københavns dåb i 1887; følg derefter hver person separat i folketællinger og udvandringsprotokoller.",
-      "dossier": "leads/grandparent-gerda-larsen.md",
-      "person_ids": [
-        "p62",
-        "p63"
-      ]
-    },
-    {
-      "id": "lorenz-ove-identity",
-      "branch": "Lorenz Frederiksen",
-      "title": "Ove Samuel Gedde: fødselsdato, mulig navnebror og moderens identitet",
-      "status": "needs",
-      "claim": "Ove Samuel Geddes identitet rummer flere uløste konflikter: 1778 mod 1788, 28. februar mod 28. maj, og to forskellige Fischer-søstre som mulig mor/stedmor. En hypotese foreslår to mænd med navnet Ove Samuel, men den er ikke bevist.",
-      "evidence": "Harbou angiver 28. februar 1778; en officerbiografi angiver 28. maj 1778; Anker angiver 28. maj 1788. Dossieret beskriver desuden en konflikt mellem den kanoniske moder Øllegaard Sophie Fischer og den foreslåede biologiske mor Frederikke Christiane Fischer.",
-      "missing": "Originale dåbs- og begravelsesindførsler i Fredensborg/Hof- og Slotsmenigheden og Fredrikstad samt vielses-/dødsindførsler, der kan skelne mulige navnebrødre og de to Fischer-søstre.",
-      "next": "Undersøg først dåb og tidlig død for en mulig Ove født 1778; kontrollér derefter Fredrikstad-dåben 1788 og Helsingør-begravelsen 1843, før person eller forældretilknytning ændres.",
-      "dossier": "leads/grandparent-lorenz-frederiksen.md",
-      "person_ids": [
-        "p216",
-        "p432",
-        "p433"
-      ]
-    },
-    {
-      "id": "lorenz-gedde-christian",
-      "branch": "Lorenz Frederiksen",
-      "title": "Christian Gedde/Giedde: to mulige identiteter i Ove Samuel-linjen",
-      "status": "hypothesis",
-      "claim": "Kilderne beskriver to uforenelige kandidater til faderen til Samuel Christoph Gedde: Christian Gedde (1648–1707), kommandant på Møn, og Christian Giedde (født 1639, død 1705), knyttet til Kville. De må ikke flettes sammen alene på grund af navnelighed.",
-      "evidence": "Dossieret sammenholder DBL/Harbou med en separat genealogisk oplysning om Christian Giedde og fremhæver forskelle i fødsels-/dødsår og ægtefællens navn.",
-      "missing": "Samtidig dokumentation fra Kville og Møn, original vielse/familieoplysninger samt en kildekritisk gennemgang af Harbou, DBL og Schøllers officersgenealogi.",
-      "next": "Sammenlign de originale eller nær-samtidige kilder til begge mænd og fastslå, om der er tale om to personer eller en senere sammenblanding.",
-      "dossier": "leads/grandparent-lorenz-frederiksen.md",
-      "person_ids": [
-        "p864"
-      ]
-    },
-    {
-      "id": "evald-vibygard-probate-1820",
-      "branch": "Evald Gårdsted Jørgensen",
-      "title": "Vibygård: skifte fra 1820 og to mulige Hans Jensen-husstande",
-      "status": "needs",
-      "claim": "Et skifte fra 1820 omtaler Maren Poulsdatter, hustru til en Hans Jensen, gartner ved Vibygård, og fire voksne børn. Det er ikke fastslået, at denne Hans Jensen er samme person som den kanoniske Hans Jensen (a66), der i 1822 blev gift med Margrethe Pedersdatter.",
-      "evidence": "Dossieret skelner udtrykkeligt mellem 1820-skiftet og Hans Jensen (a66), som folketællingen 1834 beskriver som aftægtsmand og tidligere gartner ved Wiibygaard.",
-      "missing": "Originalt skifte med afdødes identitet, hustru, børnenes navne, alder, bopæl og eventuelle værger; sammenhold med vielsen 1822 og folketællingen 1834.",
-      "next": "Find og læs originalskiftet fra 1820. Hold de to husstande adskilt, medmindre dokumentet giver en entydig identifikation.",
-      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
-      "person_ids": [
-        "a66"
-      ]
-    },
-    {
-      "id": "liss-karen-jensen-date",
-      "branch": "Liss Pedersen",
-      "title": "Karen Jensens fødselsdato: 29. august eller 29. juli 1852",
-      "status": "conflict",
-      "claim": "Karen Jensen (p23) er registreret født 29. august 1852 i Skarrilds dåbsoptegnelse og ved vielsen i Grindsted 1875, mens folketællingen 1901 angiver 29. juli. Dåb og vielse peger på 29. august; afvigelsen i 1901 bør bevares som kildekonflikt.",
-      "evidence": "Dossierets udvidelse sammenholder Skarrilds kirkebog, Grindsted-vielsen 1875 og folketællingen 1901.",
-      "missing": "Kontrollér originalbillederne af dåb og vielse, og se om 1901-oplysningen er en afskrifts-, erindrings- eller registreringsfejl.",
-      "next": "Transskriber de to kirkebogsindførsler ordret og tilføj 1901-afvigelsen som note i personens hændelser; ændr ikke datoen alene ud fra folketællingen.",
-      "dossier": "leads/grandparent-liss-pedersen.md",
-      "person_ids": [
-        "p23"
-      ]
-    },
-    {
-      "id": "gerda-nordenbro-probate-1787",
-      "branch": "Gerda Larsen",
-      "title": "Nordenbro-skiftet 1787: Christian Hansen og to ægteskaber",
-      "status": "needs",
-      "claim": "Et skifte fra 1787 i Nordenbro efter en Christian Hansen omtaler angiveligt to ægteskaber og flere børn. Det er ikke dokumenteret, at den afdøde er identisk med Christian Hansen (p114), født omkring 1806; skiftets børn kan muligvis tilhøre en senere generation.",
-      "evidence": "Dossieret beskriver skiftet som et endnu ikke tilknyttet spor og advarer specifikt mod at koble det til p114 alene på grund af navn og lokalitet.",
-      "missing": "Originalt skifte med skiftejurisdiktion, afdødes bopæl/alder, begge hustruers navne, børnenes navne og alder samt værger.",
-      "next": "Find skifteprotokollen for Magleby-Nordenbro gods omkring 1787. Søg efter en søn Christian født omkring 1806; hvis han ikke findes, registrér det negative resultat og luk identifikationssporet.",
-      "dossier": "leads/grandparent-gerda-larsen.md",
-      "person_ids": [
-        "p114"
-      ]
-    },
-    {
-      "id": "gerda-magleby-tved-collateral",
-      "branch": "Gerda Larsen",
-      "title": "Magleby og Tved: fire uafklarede collateral-personer",
-      "status": "needs",
-      "claim": "Fire personer nær Sydlangelandslinjen mangler forældreoplysninger: Niels Christiansen (g_nchr), Inge Marie Rasmussen (g_imr), Holger Eriksen (p120) og Anne Cathrine Hansdatter (p121). De er konkrete kirkebogsspor, ikke dokumenterede forbindelser til Kresten eller Langø-husstanden.",
-      "evidence": "Dossieret angiver Niels Christiansens fødsel 24. marts 1829, Inge Marie Rasmussens fødsel 24. september 1830 og Holger Eriksen/Anne Cathrine Hansdatters vielse i Tved 8. december 1838.",
-      "missing": "Originale dåbsindførsler i Magleby 1829 og 1830 samt vielsesindførslen i Tved 1838 med fædrenes navne, alder og opholdssted.",
-      "next": "Gennemgå Magleby dåb 1829 og 1830 og Tved-vielsen 1838; registrér forældrene først efter kontrol af originalbillederne.",
-      "dossier": "leads/grandparent-gerda-larsen.md",
-      "person_ids": [
-        "g_nchr",
-        "g_imr",
-        "p120",
-        "p121"
-      ]
-    },
-    {
-      "id": "evald-lovisa-mother-malmo",
-      "branch": "Evald Gårdsted Jørgensen",
-      "title": "Lovisa Larssons mor: Malmö-fødsel 1862",
-      "status": "needs",
-      "claim": "Lovisa (Louise) Larsson (p17) er allerede en direkte ane og er født i Malmö 28. juni 1862. Hendes dødsindførsel nævner Niels Larsen (p34) som svensk far, men moderen mangler i det nuværende stamtræ.",
-      "evidence": "Dossieret henviser til dødsindførslen i Slagelse 12. oktober 1910 som støtte for faderens identitet og anbefaler at undersøge Malmö-fødsel og husstandsmateriale.",
-      "missing": "Original dåbs-/fødselsindførsel i Malmö med begge forældre samt relevante husforhør/flyttelængder, der kan bekræfte at den fundne familie er samme Lovisa.",
-      "next": "Find Malmö-fødselsindførslen 28. juni 1862 og følg familien i husforhør og flyttelængder. Tilføj ikke en mor før identiteten er bekræftet.",
-      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
-      "person_ids": [
-        "p17",
-        "p34"
-      ]
-    },
-    {
-      "id": "lorenz-krogh-family",
-      "branch": "Lorenz Frederiksen",
-      "title": "Wilhelm Kroghs familie: forældre, bedsteforældre og søskende",
-      "status": "hypothesis",
-      "claim": "En sekundær slægtsdatabase fra Lokalhistorisk Arkiv Ulkebøl forbinder Wilhelm/Vilhelm Krogh (født 9. oktober 1908 i Tastrup/Torstrup ved Flensborg) med forældrene Detlef Krogh (1876–1949) og Kirstine Marie Jensen (1878–1945), samt en søskendeflok på fem. Det kan åbne en dokumenterbar Krogh-side af Lorenz' juridiske faderskabssag, men forbindelsen er endnu ikke bekræftet i originale tyske eller danske registre.",
-      "evidence": "Ulkebøl-registreringen angiver forældrene, søskende og flere livsdatoer. En anden side for Bothille Marie Hansen og en side for Peter Krogh gentager dele af samme familiegruppe. Dossieret har også et lokalt Nybøl-holdingspor for en ældre Detlef Krogh, men dette beviser ikke i sig selv slægtskabet.",
-      "missing": "Original tysk fødsels-/dåbsindførsel for Wilhelm i Adelby/Tastrup 1908; Detlef Kroghs vielse med Kirstine Marie Jensen i Flensborg; originale fødselsindførsler for søskende; kontrol af om den ældre Detlef Krogh i Nybøl er farfar. Stednavnet Tastrup/Torstrup skal læses i originalen.",
-      "next": "Begynd med Detlef Krogh juniors vielse i Broager 1929, som bør oplyse hans far. Sammenhold derefter med Wilhelms 1908 Standesamt-indførsel i Kreis Schleswig-Flensburg og søskendenes originale kirkebøger.",
-      "dossier": "leads/grandparent-lorenz-frederiksen.md",
-      "sources": [
-        {
-          "label": "Lokalhistorisk Arkiv Ulkebøl – Wilhelm Krogh (sekundær slægtsregistrering)",
-          "url": "https://www.ulkeboelarkiv.dk/slaegt/index.php?route=/slaegt/tree/tree2/individual/I80148/Vilhelm-Krogh"
-        },
-        {
-          "label": "Lokalhistorisk Arkiv Ulkebøl – Bothille Marie Hansen (sekundær kontrol)",
-          "url": "https://www.ulkeboelarkiv.dk/slaegt/index.php?route=/slaegt/tree/tree2/individual/I80800/Bothille-Marie-Hansen"
-        },
-        {
-          "label": "Lokalhistorisk Arkiv Ulkebøl – Peter Krogh (sekundær kontrol)",
-          "url": "https://www.ulkeboelarkiv.dk/slaegt/index.php?route=/slaegt/tree/tree2/individual/I30804/Peter-Krogh"
-        },
-        {
-          "label": "Lokalhistorisk Arkiv Ulkebøl – arkivets kontakt og samlingsbeskrivelse",
-          "url": "https://www.ulkeboelarkiv.dk/"
-        }
-      ],
-      "person_ids": [
-        "p12",
-        "p6"
-      ]
-    },
-    {
-      "id": "lorenz-pakjaer-history",
-      "branch": "Lorenz Frederiksen",
-      "title": "Paakjær i Nybøl: ejendomshistorie og Petersen-slægten",
-      "status": "needs",
-      "claim": "Paakjær er et centralt stedspor i familiens beretning om Sophus Petersen og den mulige biologiske faderskabslinje. Dossieret angiver, at Mathias Petersen opførte gården i 1879, og at den senere blev kaldt Sofus minde. Ejendommens historie kan kontrollere familiens sted- og husholdningsoplysninger, men kan ikke alene bevise biologisk faderskab.",
-      "evidence": "Familiedokumenter og den håndskrevne anetavle forbinder Mathias Petersen med opførelsen af Paakjær i 1879 og Peter Petersen/Sophus med gården. Nybøl 1921-folketællingsscanningen og Sophus' dåbs-/gravstensmateriale er bevaret i projektets kildemateriale. Dossieret peger desuden på *Fra Nybøl sogn* nr. 3 som lokalhistorisk ejendomskilde.",
-      "missing": "Den originale matrikel-/realregisterkæde, skøde eller fæste, brandforsikringsprotokol og eventuel byggesag, der kan identificere gårdens ejere og byggeår. Den lokale trykte oplysning skal kontrolleres mod selve ejendomsakterne.",
-      "next": "Find Paakjærs matrikelnummer og realregisterblad i Nybøl; følg derefter skøder og brandforsikringsprotokoller fra ca. 1879 til Peter Petersen og Sophus. Brug kirkebøger til personidentifikation og ejendomsakter kun til sted-/ejerhistorien.",
-      "dossier": "leads/grandparent-lorenz-frederiksen.md",
-      "sources": [
-        {
-          "label": "Fra Nybøl sogn nr. 3 – lokalhistorisk hæfte (biblioteksscanning)",
-          "url": "https://slaegtsbibliotek.dk/2025/953243.pdf"
-        },
-        {
-          "label": "Nybøl 1921-folketælling – bevaret kildescanning",
-          "url": "https://raw.githubusercontent.com/sloev/tree/main/leads/07-nybol-folketaelling-1921.jpg"
-        }
-      ],
-      "person_ids": [
-        "p6",
-        "sofus",
-        "sofus_ff"
-      ]
-    },
-    {
-      "id": "lorenz-gedde-emigration",
-      "branch": "Lorenz Frederiksen",
-      "title": "Gedde-familiens udvandring: Olaf til Shanghai og Emil til Argentina",
-      "status": "needs",
-      "claim": "To collateralspor i Gedde-familien peger på oversøisk udvandring: Olaf Gedde har et registreret udvandringskontraktnummer 3534 fra 11. juli 1904 via agent Haugsted med Shanghai som destination; Emil Gedde forbindes med Eldorado-kolonien i Argentina gennem fotografihenvisningerne B9886 og B9790. De to personer og deres videre livsforløb skal dokumenteres hver for sig.",
-      "evidence": "Dossierets udvidede materiale indeholder en transskription af Olaf Geddes kontraktreference og to identificerede fotografihenvisninger for Emil Gedde. Rigsarkivets vejledning bekræfter, at politiets udvandringskontrakter 1868–1959 kan indeholde navn, alder, stilling, bopæl, fødested, bestemmelsessted og kontraktdato; arkivserierne omfatter direkte og indirekte udvandrerregistre.",
-      "missing": "Olafs originale kontrakt/genpart, skib og ankomst i Shanghai samt senere bopæl/død; Emils fulde udvandringsidentitet, ankomst til Argentina, ophold i Eldorado og eventuelle efterkommere. Fotografierne B9886/B9790 skal ses og billedteksterne aflæses.",
-      "next": "Slå Olaf op i Københavns Politis udvandrerprotokol omkring kontraktnr. 3534 og 11. juli 1904; følg skibsekspedition og Shanghai-kilder. For Emil: identificér fuldt navn/fødselsdata fra billedkatalog B9886/B9790 og søg derefter i argentinske koloniregistre og dansk-argentinske kirkebøger.",
-      "dossier": "leads/grandparent-lorenz-frederiksen.md",
-      "sources": [
-        {
-          "label": "Rigsarkivet: Udvandring til andre verdensdele – vejledning",
-          "url": "https://www.rigsarkivet.dk/vejledning/udvandring-til-andre-verdensdele-kom-godt-i-gang/"
-        },
-        {
-          "label": "Arkivalieronline: Københavns Politi, udvandringsarkiver",
-          "url": "https://arkivalieronline.rigsarkivet.dk/da/other/other-collection/168"
-        },
-        {
-          "label": "DAISY: Københavns Politi – udvandringsserier",
-          "url": "https://daisy.rigsarkivet.dk/arkivskaber_og_arkivserie_liste?a=k%C3%B8benhavns+politi&b=udvandr&d=1&e=2022"
-        }
-      ],
-      "person_ids": [
-        "p6"
-      ]
-    },
-    {
-      "id": "lorenz-hammer-fosterage",
-      "branch": "Lorenz Frederiksen",
-      "title": "Paula Geddes opvækst i Herlufmagle: plejeforholdet til Hammer",
-      "status": "family",
-      "claim": "Familieoplysninger beskriver, at Paula Mathilde Christle Gedde (p27) voksede op i Herlufmagle præstegård hos sin moster Christine Sophie von Kleist og præsten dr.theol. Edvard Snedorph Hammer. Hammer var en social/familiemæssig plejefarfigur, ikke hendes biologiske far. Mellemnavnet Hammer hos hendes søn Edvard Hammer Gedde (p54) skal forstås i denne sammenhæng.",
-      "evidence": "Dossieret henviser til familiens maskinskrevne slægtsopgørelse og familiefotografiet fra 1895, hvor Paula indgår i familien omkring Edvard Hammer Gedde og Vitta Ludvigsen. Det kan forklare navnebrugen og en social relation, men ikke biologisk slægtskab.",
-      "missing": "Samtidige folketællinger, skole-/konfirmationsoplysninger og eventuelle præstegårds-/personarkivoplysninger, der dokumenterer Paula som barn i husstanden. Fotografiets originale billedtekst og datering bør kontrolleres mod familiens dokument.",
-      "next": "Sammenhold folketællinger og kirkebøger for Herlufmagle omkring 1880–1901 med Christine Sophie von Kleists husstand; registrér relationen som plejeforhold/husstand, ikke som biologisk forældreskab.",
-      "dossier": "leads/grandparent-lorenz-frederiksen.md",
-      "sources": [
-        {
-          "label": "Familiefotografi fra 1895 – bevaret i projektets kildemateriale",
-          "url": "https://raw.githubusercontent.com/sloev/tree/main/leads/01-familien-gedde-1895.jpg"
-        },
-        {
-          "label": "Rigsarkivet – vejledning og arkivmateriale",
-          "url": "https://www.rigsarkivet.dk/"
-        }
-      ],
-      "person_ids": [
-        "p27",
-        "p54",
-        "p108"
-      ]
+     "label": "Familieerindring, side 2",
+     "url": "https://raw.githubusercontent.com/sloev/tree/main/images/02-langoe-erindringer-s2.jpg"
     }
-  ]
+   ],
+   "person_ids": [
+    "p62",
+    "p63"
+   ]
+  },
+  {
+   "id": "gerda-iver-emigration",
+   "branch": "Gerda Larsen",
+   "title": "Iver Peder Holgersen: udrejse til Fresno i 1910",
+   "status": "needs",
+   "claim": "En familieoplysning forbinder Iver Peder Holgersen med Fresno i 1910. En mulig udrejsekontrakt er identificeret, men identiteten i forhold til stamtræets Peder Iver Holgersen er ikke endeligt fastslået.",
+   "evidence": "Københavns Politis udvandringskontrakt nr. 4443, dateret 8. september 1910, er angivet som et konkret opslagsspor.",
+   "missing": "Selve kontraktens fulde oplysninger og sammenligning med passagerlister, amerikanske folketællinger, naturalisation og dødsoplysninger.",
+   "next": "Læs kontrakt nr. 4443 og følg navn, alder, fødested og destination i amerikanske kilder.",
+   "dossier": "leads/grandparent-gerda-larsen.md",
+   "person_ids": [
+    "p60"
+   ]
+  },
+  {
+   "id": "gerda-christian-probate",
+   "branch": "Gerda Larsen",
+   "title": "Nordenbro-skiftet 1787: Christian Hansen",
+   "status": "hypothesis",
+   "claim": "Et skifte fra 1787 efter en Christian Hansen kan muligvis belyse familien bag Christian Hansen, der blev gift med Marie Madsdatter i Magleby i 1829. Identiteten er ikke bevist; navnet kan dække en anden mand.",
+   "evidence": "Dossieret beskriver en skifteoplysning om to ægteskaber og flere børn i Nordenbro og en mulig forbindelse til den senere Magleby-familie.",
+   "missing": "Originalt skifte med afdødes alder, bopæl, ægtefæller og børn samt en dokumenteret generationsforbindelse frem til 1829-parret.",
+   "next": "Find den rette skifteprotokol og sammenlign navne, alder, bopæl og familieforløb med kirkebøgerne.",
+   "dossier": "leads/grandparent-gerda-larsen.md",
+   "person_ids": [
+    "p114",
+    "p115"
+   ]
+  },
+  {
+   "id": "gerda-emigrant-family",
+   "branch": "Gerda Larsen",
+   "title": "Jørgen Christensen og Bodil Margrethe: børnene i Amerika",
+   "status": "needs",
+   "claim": "Familiearket fortæller, at syv af Jørgen Christensens og Bodil Margrethes ni børn emigrerede, og at forældrene selv rejste ud og senere vendte tilbage. Det skal undersøges person for person; familien rejste ikke nødvendigvis samlet.",
+   "evidence": "Familiearket angiver ni børn og et overordnet rejseforløb. Dossieret har allerede dåbshenvisninger for flere børn.",
+   "missing": "De præcise navne og individuelle udrejsekontrakter, passagerlister, amerikanske folketællinger og eventuelle naturalisations-/kirkebogsoplysninger.",
+   "next": "Lav en separat tidslinje for hvert barn og søg først i de relevante danske sogne, derefter i destinationskilder.",
+   "dossier": "leads/grandparent-gerda-larsen.md",
+   "person_ids": [
+    "p126",
+    "p127"
+   ]
+  },
+  {
+   "id": "lorenz-paternity-case",
+   "branch": "Lorenz Frederiksen",
+   "title": "Lorenz' faderskabssag 1932: find den originale sag",
+   "status": "needs",
+   "claim": "Det borgerlige register dokumenterer, at Wilhelm Krogh blev registreret som far efter erklæring 5. april og retsafgørelse 10. juni 1932. Familiens oplysning udpeger Sophus Petersen som biologisk far. Den biologiske relation er fortsat uafklaret.",
+   "evidence": "Egernsund standsregister 1932 nr. 4, randnote 11. juli 1932, og Broager Vestre dåb 1933 nr. 1 er identificeret. Dossierets arkivundersøgelse peger på amtslige alimentationssager som første rute og Gråsten som relevant rets-/politidistrikt.",
+   "missing": "Original alimentationssag, journal-/sagsnummer, erklæringens og dommens fulde ordlyd og eventuelle vidneforklaringer. Selv en juridisk afgørelse er ikke automatisk genetisk bevis.",
+   "next": "Bed læsesalen i Aabenraa undersøge Sønderborg Amt og Aabenraa-Sønderborg Amt 1920–1935, herunder journaler, registre og overdragelseslister; følg derefter Gråsten Civilret/Politi.",
+   "dossier": "leads/grandparent-lorenz-frederiksen.md",
+   "sources": [
+    {
+     "label": "Rigsarkivet: Faderskabssager – kom godt i gang",
+     "url": "https://www.rigsarkivet.dk/vejledning/faderskab-og-adoption/faderskabssager-kom-godt-i-gang/"
+    }
+   ],
+   "person_ids": [
+    "p6",
+    "p12",
+    "sofus",
+    "pf12"
+   ]
+  },
+  {
+   "id": "lorenz-christian-adam",
+   "branch": "Lorenz Frederiksen",
+   "title": "Christian Adam von Kleist: dåben i Vor Frelsers omkring 1705",
+   "status": "needs",
+   "claim": "Harbou angiver Christian Adam von Kleists fødsel 1. oktober 1705 og dåb i Vor Frelsers. Den præcise kirkebogsindførsel er endnu ikke læst, og ældre litteratur har en anden dato og fejl i faderskabet.",
+   "evidence": "Rigsarkivets udgivelsesmeddelelser viser, at klokkernes navneindeks 1704–1822 er offentliggjort online. Sognets inventar forbinder indeksbindet med dåbsbøgerne 15–19 og 36; der findes også en parallel ministerialbog. En supplerende genealogisk registrering hos Finn Holbek anfører 1. oktober 1705 i København og forældrene Curtz Ulrich von Kleist og Barbara Juliane von Kleist; registreringen henviser til Danmarks Adels Aarbog 1985–87, s. 722, og Gotha 1901, s. 473. Dette er sekundær henvisning og ikke en aflæst dåbsindførsel.",
+   "missing": "Det konkrete indeksopslag, side-/billednummer og original dåbsindførsel i både klokkerens og ministerens register. Finn Holbeks henviste DAA/Gotha-oplysninger er ikke kontrolleret direkte, og dåbsindførslen er stadig ikke identificeret.",
+   "next": "Find Christian/Christiern Adam i klokkerens navneindeks 1704–1822, følg boghenvisningen til dåbsindførslen, og sammenlign med præstens parallelle register; kontrollér samtidig DAA 1985–87 s. 722 og Gotha 1901 s. 473.",
+   "dossier": "leads/grandparent-lorenz-frederiksen.md",
+   "sources": [
+    {
+     "label": "Harbou: Slægten von Kleist i Danmark",
+     "url": "https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf"
+    },
+    {
+     "label": "Vor Frelsers sogneinventar",
+     "url": "https://slaegtsbibliotek.dk/900379.pdf"
+    },
+    {
+     "label": "Finn Holbek: Christian Adam von Kleist (sekundær registrering med DAA/Gotha-henvisninger)",
+     "url": "https://finnholbek.dk/getperson.php?personID=I22870&tree=2"
+    }
+   ],
+   "person_ids": [
+    "p868"
+   ]
+  },
+  {
+   "id": "lorenz-kleist-1848",
+   "branch": "Lorenz Frederiksen",
+   "title": "Frederik Christian III.727: identitet, fødselsdato og begravelse",
+   "status": "hypothesis",
+   "claim": "Selmer identificerer en oberstløjtnant Frederik Christian af Kleist, født 3. januar 1775 i Kolding, søn af kammerherre Christian Frederik af Kleist og Anne Margrethe Schubarth, død 21. maj 1848. Harbou angiver samme militære karriere og dødsdato, men fødselsdato 8. januar. Identiteten med Harbous III.727 er meget stærk; identiteten med den fremlagte “Christian Frederik Vilhelm” (1774–1848) er fortsat uafklaret.",
+   "evidence": "Selmer, Nekrologiske Samlinger 1848–49, s. 68, giver fødested, fødselsdato, forældre og militær karriere; s. 114 gentager dødsdatoen 21. maj og alder 73. Brejls oversigt over et 100-årigt gravbrev registrerer begravelse på Garnisons Kirkegård 26. maj 1848. Harbou III.727 angiver 8. januar 1775 og samme dødsdato. Gravbrevets originale ordlyd og kirkegårdsprotokol er endnu ikke gennemgået. Kolding Stadsarkiv har digitaliserede Ingrid Bruun-afskrifter af kirkebøger 1635–1881; portalen er relevant for Kolding 1775, men gav timeout, og ingen konkret dåbsindførsel er endnu læst. A further archival overview identifies Kolding parish register C 469-3 (1751–1775) as the direct chronological register to inspect for January 1775. It also lists a supplementary births-and-baptisms register C 469-74 (1764–1800), described as begun in 1776, so its relevance to a January 1775 event is uncertain. These catalogue references narrow the search but are not a read baptism entry. Correction from Paul G. Ørberg's detailed Kolding church-book inventory: C 469-3 is the parish priest's register 1751–1815 (baptisms 1751–1815), while C 469-7 is the clerk's register 1723–1779 (baptisms 1723–1776); both directly cover January 1775. Ørberg says both books should be used because dates, name forms and marginal notes may differ. C 469-8's listed baptism series begins later (legitimate baptisms 1780; illegitimate 1777), and C 469-74 supplementary list began in 1776, so neither is the direct first target.",
+   "missing": "Read and compare the original January 1775 baptism entries in Kolding Sankt Nikolaj parish priest's register C 469-3 (1751–1815) and clerk's register C 469-7 (1723–1779), including possible variants and marginal notes; original grave grant and Garnisons Kirkegårds burial protocol; death place; compare supplied “Christian Frederik Vilhelm” with independent identity records.",
+   "next": "Inspect the entire January 1775 sequence in both C 469-3 (priest's register) and C 469-7 (clerk's register), searching variants Frederik/Frederich Christian. Transcribe exact event/baptism dates, parents, residence, witnesses and marginal notes; compare both entries with Selmer's 3 January and Harbou's 8 January. Do not assume birth and baptism dates are identical.",
+   "dossier": "leads/grandparent-lorenz-frederiksen.md",
+   "sources": [
+    {
+     "label": "Selmer: Nekrologiske Samlinger 1848–49, s. 68 og 114",
+     "url": "https://slaegtsbibliotek.dk/2023/938488.pdf"
+    },
+    {
+     "label": "Harbou: Slægten von Kleist i Danmark",
+     "url": "https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf"
+    },
+    {
+     "label": "Brejl: private personarkiver, gravbrev for Frederik Christian von Kleist",
+     "url": "https://brejl.dk/privatB.html"
+    },
+    {
+     "label": "Kolding Stadsarkiv: Ingrid Bruuns kirkebogsafskrifter",
+     "url": "https://koldingstadsarkiv.dk/brug-arkivet/slaegtsforskning"
+    },
+    {
+     "label": "Rigsarkivet: vejledning til kirkebøger",
+     "url": "https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/"
+    },
+    {
+     "label": "Kolding archival overview: older church-book inventory (C 469-3 and C 469-74)",
+     "url": "https://slaegtsbibliotek.dk/807141.pdf"
+    },
+    {
+     "label": "Kolding Stadsarkiv: source collections",
+     "url": "https://koldingstadsarkiv.dk/kildesamlinger-2"
+    },
+    {
+     "label": "Arkivalieronline: church books across Denmark",
+     "url": "https://arkivalieronline.rigsarkivet.dk/da/geo/geo-collection/5"
+    },
+    {
+     "label": "Rigsarkivet: Nyt på Arkivalieronline marts 2026",
+     "url": "https://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-marts-2026.pdf"
+    }
+   ],
+   "person_ids": [
+    "p868"
+   ]
+  },
+  {
+   "id": "lorenz-kleist-stems",
+   "branch": "Lorenz Frederiksen",
+   "title": "Kleist-slægterne: Muttrin og Tychow-Dubberow må ikke flettes",
+   "status": "needs",
+   "claim": "Forskningsmaterialet rummer to forskellige von Kleist-slægtsforløb og modstridende ældre rekonstruktioner. De må ikke forbindes alene på grund af fælles navn eller en foreslået middelalderlig stamfar.",
+   "evidence": "Dossierets kildekritiske gennemgang sammenholder Harbou, 2025-familiehistorien og Muttrin-materialets dokumenter. Den fremhæver bl.a. en konflikt mellem Reimer- og Bartes-traditionerne og forskellige personer med navnet Pribislaff.",
+   "missing": "Kontrol af de præcise dokumenthenvisninger i Muttrin-bogen og de relevante Greifswald-chartere, især hvor 1477-charteret og senere slægtstavler er uenige.",
+   "next": "Fortsæt dokument-for-dokument-audit af hver slægtsstamme; hold Tychow-Dubberow og Muttrin adskilt i træet indtil en ubrudt kildekæde foreligger.",
+   "dossier": "leads/grandparent-lorenz-frederiksen.md",
+   "person_ids": [
+    "p868"
+   ]
+  },
+  {
+   "id": "evald-niels-birthplace",
+   "branch": "Evald Gårdsted Jørgensen",
+   "title": "Niels Jørgensens fødested: Hove, Høje eller Høve?",
+   "status": "needs",
+   "claim": "Niels Jørgensen (p32) er i materialet angivet med et usikkert fødested, læst som “Hove/Høje sogn, Svendborg amt”. De nævnte sogne og amtsangivelsen passer ikke umiddelbart sammen, så fødestedet må ikke normaliseres uden original vielses- eller dåbsdokumentation.",
+   "evidence": "Dossieret peger på vielsen 7. juli 1854 i Vor Frue Kirke, København, og registrerer flere mulige sognevarianter: Hove i Ringkøbing, Høje i Holbæk og Høve i Sorø.",
+   "missing": "Den fulde vielsesindførsel med ordret fødested, alder, erhverv, bopæl og forlovere samt en mulig dåbsindførsel i det identificerede sogn.",
+   "next": "Læs original vielse i Vor Frue 1854; brug derefter den præcise ordlyd til at afgrænse dåbssøgningen.",
+   "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+   "person_ids": [
+    "p32"
+   ]
+  },
+  {
+   "id": "evald-claus-probate-1811",
+   "branch": "Evald Gårdsted Jørgensen",
+   "title": "Claus Gaardsteds skifte og Bogensholm-auktion i 1811",
+   "status": "needs",
+   "claim": "Claus Gaardsted (p72) døde i 1811, og enken solgte Bogensholm på auktion samme år. Skiftet og auktionsmaterialet kan muligvis identificere hans første hustru og børn, men dossieret har endnu ikke fastslået disse familieforhold.",
+   "evidence": "Dossieret angiver auktionen i 1811 og henviser til Trap Danmark/danskeherregaarde.dk for Bogensholm samt Rolsøgård G302-skiftet fra 1787 som et separat slægtsspor.",
+   "missing": "Originalt skifte efter Claus, auktionsprotokol/skøde og dokumentation for hustru(er), arvinger, værger og ejendommens overdragelse.",
+   "next": "Find Claus Gaardsteds skifte fra 1811 og den tilhørende auktionsprotokol; transskriber arvinger og værger før familieforbindelser ændres.",
+   "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+   "person_ids": [
+    "p72"
+   ]
+  },
+  {
+   "id": "evald-rousing-office",
+   "branch": "Evald Gårdsted Jørgensen",
+   "title": "Rasmus Jensen Rousing: sognefogedudnævnelse og militærruller",
+   "status": "hypothesis",
+   "claim": "Rasmus Jensen Rousing (p76) har en sandsynlig, men ikke fuldt dokumenteret forældreplacering. En sognefogedudnævnelse i Djurs Nørre herred og eventuelle militærruller kan give uafhængige oplysninger om bopæl, alder og navneform.",
+   "evidence": "Dossieret bygger den sandsynlige forbindelse til Jens Rasmussen (p152) på folketællingen 1801, hvor en 20-årig Rasmus findes i hans husstand. En Rasmus Jensen i Fuglslevs folketælling 1787 er kun et muligt navnespor.",
+   "missing": "Original udnævnelses-/embedsoplysning og eventuelle militærruller fra ca. 1790–1810, der kan knytte samme mand til alder, bopæl og patronymikon.",
+   "next": "Opsøg Djurs Nørre herreds sognefogedudnævnelse og militærruller; sammenhold dem med 1801-husstanden og senere kirkebøger.",
+   "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+   "person_ids": [
+    "p76",
+    "p152"
+   ]
+  },
+  {
+   "id": "liss-hoven-households",
+   "branch": "Liss Pedersen",
+   "title": "Hoven mølle: fire personer og ejendommens succession",
+   "status": "needs",
+   "claim": "Dossieret identificerer en Hoven-husstand omkring 1834 med møller Anders Jensen, enken Ane Kirstine Eskesdatter, Christen Pallesen og Kirsten Marie Jensdatter. Ejendoms- og husholdningssporene kan afklare erhverv og succession, men må ikke bruges alene til at udlede biologisk slægtskab.",
+   "evidence": "Ane Kirstine Eskesdatter (a89) beskrives som enke og ejer af Hoven mølle i 1834. Dossieret angiver også Anders Jensen (a88), Christen Pallesen (a90) og Kirsten Marie Jensdatter (a91) som personer i det lokale materiale.",
+   "missing": "Originale kirkebogsindførsler for dåb og vielser ca. 1770–1800, fuld folketællingshusstand 1834 samt møllens skøde-, matrikel- og brandforsikringsmateriale.",
+   "next": "Læs Hoven-husstanden i FT 1834 fuldt ud, og følg møllens ejer- og forsikringshistorie sammen med kirkebøgerne.",
+   "dossier": "leads/grandparent-liss-pedersen.md",
+   "person_ids": [
+    "a88",
+    "a89",
+    "a90",
+    "a91"
+   ]
+  },
+  {
+   "id": "gerda-lango-children",
+   "branch": "Gerda Larsen",
+   "title": "Langø-familien: to børn med uafklaret videre liv",
+   "status": "needs",
+   "claim": "Familienotaterne angiver to yderligere børn af Marius Michelsen Christensen (p62) og Ane Marie Jørgensen (p63), hvis senere liv ikke er fulgt til ende: Christian Anton Christensen, født 1879 i Skrøbelev, og Christian Jørgen Christensen, født 1887 i København.",
+   "evidence": "Dossieret angiver konkrete fødselsdatoer og steder samt en senere bekræftelse i Humble i 1902 for Christian Jørgen. Det er et forskningsspor fra familie-/dossiermaterialet, ikke dokumentation for senere emigration eller dødsfald.",
+   "missing": "Originale dåbsindførsler, folketællinger efter 1880/1901, konfirmation/tilgangslister og eventuelle udrejsekontrakter eller passagerlister.",
+   "next": "Kontrollér Skrøbelevs dåb i 1879 og Københavns dåb i 1887; følg derefter hver person separat i folketællinger og udvandringsprotokoller.",
+   "dossier": "leads/grandparent-gerda-larsen.md",
+   "person_ids": [
+    "p62",
+    "p63"
+   ]
+  },
+  {
+   "id": "lorenz-ove-identity",
+   "branch": "Lorenz Frederiksen",
+   "title": "Ove Samuel Gedde: fødselsdato, mulig navnebror og moderens identitet",
+   "status": "needs",
+   "claim": "Ove Samuel Geddes identitet rummer flere uløste konflikter: 1778 mod 1788, 28. februar mod 28. maj, og to forskellige Fischer-søstre som mulig mor/stedmor. En hypotese foreslår to mænd med navnet Ove Samuel, men den er ikke bevist.",
+   "evidence": "Harbou angiver 28. februar 1778; en officerbiografi angiver 28. maj 1778; Anker angiver 28. maj 1788. Dossieret beskriver desuden en konflikt mellem den kanoniske moder Øllegaard Sophie Fischer og den foreslåede biologiske mor Frederikke Christiane Fischer.",
+   "missing": "Originale dåbs- og begravelsesindførsler i Fredensborg/Hof- og Slotsmenigheden og Fredrikstad samt vielses-/dødsindførsler, der kan skelne mulige navnebrødre og de to Fischer-søstre.",
+   "next": "Undersøg først dåb og tidlig død for en mulig Ove født 1778; kontrollér derefter Fredrikstad-dåben 1788 og Helsingør-begravelsen 1843, før person eller forældretilknytning ændres.",
+   "dossier": "leads/grandparent-lorenz-frederiksen.md",
+   "person_ids": [
+    "p216",
+    "p432",
+    "p433"
+   ]
+  },
+  {
+   "id": "lorenz-gedde-christian",
+   "branch": "Lorenz Frederiksen",
+   "title": "Christian Gedde/Giedde: to mulige identiteter i Ove Samuel-linjen",
+   "status": "hypothesis",
+   "claim": "Kilderne beskriver to uforenelige kandidater til faderen til Samuel Christoph Gedde: Christian Gedde (1648–1707), kommandant på Møn, og Christian Giedde (født 1639, død 1705), knyttet til Kville. De må ikke flettes sammen alene på grund af navnelighed.",
+   "evidence": "Dossieret sammenholder DBL/Harbou med en separat genealogisk oplysning om Christian Giedde og fremhæver forskelle i fødsels-/dødsår og ægtefællens navn.",
+   "missing": "Samtidig dokumentation fra Kville og Møn, original vielse/familieoplysninger samt en kildekritisk gennemgang af Harbou, DBL og Schøllers officersgenealogi.",
+   "next": "Sammenlign de originale eller nær-samtidige kilder til begge mænd og fastslå, om der er tale om to personer eller en senere sammenblanding.",
+   "dossier": "leads/grandparent-lorenz-frederiksen.md",
+   "person_ids": [
+    "p864"
+   ]
+  },
+  {
+   "id": "evald-vibygard-probate-1820",
+   "branch": "Evald Gårdsted Jørgensen",
+   "title": "Vibygård: skifte fra 1820 og to mulige Hans Jensen-husstande",
+   "status": "needs",
+   "claim": "Et skifte fra 1820 omtaler Maren Poulsdatter, hustru til en Hans Jensen, gartner ved Vibygård, og fire voksne børn. Det er ikke fastslået, at denne Hans Jensen er samme person som den kanoniske Hans Jensen (a66), der i 1822 blev gift med Margrethe Pedersdatter.",
+   "evidence": "Dossieret skelner udtrykkeligt mellem 1820-skiftet og Hans Jensen (a66), som folketællingen 1834 beskriver som aftægtsmand og tidligere gartner ved Wiibygaard.",
+   "missing": "Originalt skifte med afdødes identitet, hustru, børnenes navne, alder, bopæl og eventuelle værger; sammenhold med vielsen 1822 og folketællingen 1834.",
+   "next": "Find og læs originalskiftet fra 1820. Hold de to husstande adskilt, medmindre dokumentet giver en entydig identifikation.",
+   "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+   "person_ids": [
+    "a66"
+   ]
+  },
+  {
+   "id": "liss-karen-jensen-date",
+   "branch": "Liss Pedersen",
+   "title": "Karen Jensens fødselsdato: 29. august eller 29. juli 1852",
+   "status": "conflict",
+   "claim": "Karen Jensen (p23) er registreret født 29. august 1852 i Skarrilds dåbsoptegnelse og ved vielsen i Grindsted 1875, mens folketællingen 1901 angiver 29. juli. Dåb og vielse peger på 29. august; afvigelsen i 1901 bør bevares som kildekonflikt.",
+   "evidence": "Dossierets udvidelse sammenholder Skarrilds kirkebog, Grindsted-vielsen 1875 og folketællingen 1901.",
+   "missing": "Kontrollér originalbillederne af dåb og vielse, og se om 1901-oplysningen er en afskrifts-, erindrings- eller registreringsfejl.",
+   "next": "Transskriber de to kirkebogsindførsler ordret og tilføj 1901-afvigelsen som note i personens hændelser; ændr ikke datoen alene ud fra folketællingen.",
+   "dossier": "leads/grandparent-liss-pedersen.md",
+   "person_ids": [
+    "p23"
+   ]
+  },
+  {
+   "id": "gerda-nordenbro-probate-1787",
+   "branch": "Gerda Larsen",
+   "title": "Nordenbro-skiftet 1787: Christian Hansen og to ægteskaber",
+   "status": "needs",
+   "claim": "Et skifte fra 1787 i Nordenbro efter en Christian Hansen omtaler angiveligt to ægteskaber og flere børn. Det er ikke dokumenteret, at den afdøde er identisk med Christian Hansen (p114), født omkring 1806; skiftets børn kan muligvis tilhøre en senere generation.",
+   "evidence": "Dossieret beskriver skiftet som et endnu ikke tilknyttet spor og advarer specifikt mod at koble det til p114 alene på grund af navn og lokalitet.",
+   "missing": "Originalt skifte med skiftejurisdiktion, afdødes bopæl/alder, begge hustruers navne, børnenes navne og alder samt værger.",
+   "next": "Find skifteprotokollen for Magleby-Nordenbro gods omkring 1787. Søg efter en søn Christian født omkring 1806; hvis han ikke findes, registrér det negative resultat og luk identifikationssporet.",
+   "dossier": "leads/grandparent-gerda-larsen.md",
+   "person_ids": [
+    "p114"
+   ]
+  },
+  {
+   "id": "gerda-magleby-tved-collateral",
+   "branch": "Gerda Larsen",
+   "title": "Magleby og Tved: fire uafklarede collateral-personer",
+   "status": "needs",
+   "claim": "Fire personer nær Sydlangelandslinjen mangler forældreoplysninger: Niels Christiansen (g_nchr), Inge Marie Rasmussen (g_imr), Holger Eriksen (p120) og Anne Cathrine Hansdatter (p121). De er konkrete kirkebogsspor, ikke dokumenterede forbindelser til Kresten eller Langø-husstanden.",
+   "evidence": "Dossieret angiver Niels Christiansens fødsel 24. marts 1829, Inge Marie Rasmussens fødsel 24. september 1830 og Holger Eriksen/Anne Cathrine Hansdatters vielse i Tved 8. december 1838.",
+   "missing": "Originale dåbsindførsler i Magleby 1829 og 1830 samt vielsesindførslen i Tved 1838 med fædrenes navne, alder og opholdssted.",
+   "next": "Gennemgå Magleby dåb 1829 og 1830 og Tved-vielsen 1838; registrér forældrene først efter kontrol af originalbillederne.",
+   "dossier": "leads/grandparent-gerda-larsen.md",
+   "person_ids": [
+    "g_nchr",
+    "g_imr",
+    "p120",
+    "p121"
+   ]
+  },
+  {
+   "id": "evald-lovisa-mother-malmo",
+   "branch": "Evald Gårdsted Jørgensen",
+   "title": "Lovisa Larssons mor: Malmö-fødsel 1862",
+   "status": "needs",
+   "claim": "Lovisa (Louise) Larsson (p17) er allerede en direkte ane og er født i Malmö 28. juni 1862. Hendes dødsindførsel nævner Niels Larsen (p34) som svensk far, men moderen mangler i det nuværende stamtræ.",
+   "evidence": "Dossieret henviser til dødsindførslen i Slagelse 12. oktober 1910 som støtte for faderens identitet og anbefaler at undersøge Malmö-fødsel og husstandsmateriale.",
+   "missing": "Original dåbs-/fødselsindførsel i Malmö med begge forældre samt relevante husforhør/flyttelængder, der kan bekræfte at den fundne familie er samme Lovisa.",
+   "next": "Find Malmö-fødselsindførslen 28. juni 1862 og følg familien i husforhør og flyttelængder. Tilføj ikke en mor før identiteten er bekræftet.",
+   "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+   "person_ids": [
+    "p17",
+    "p34"
+   ]
+  },
+  {
+   "id": "lorenz-krogh-family",
+   "branch": "Lorenz Frederiksen",
+   "title": "Wilhelm Kroghs familie: forældre, bedsteforældre og søskende",
+   "status": "hypothesis",
+   "claim": "En sekundær slægtsdatabase fra Lokalhistorisk Arkiv Ulkebøl forbinder Wilhelm/Vilhelm Krogh (født 9. oktober 1908 i Tastrup/Torstrup ved Flensborg) med forældrene Detlef Krogh (1876–1949) og Kirstine Marie Jensen (1878–1945), samt en søskendeflok på fem. Det kan åbne en dokumenterbar Krogh-side af Lorenz' juridiske faderskabssag, men forbindelsen er endnu ikke bekræftet i originale tyske eller danske registre.",
+   "evidence": "Ulkebøl-registreringen angiver forældrene, søskende og flere livsdatoer. En anden side for Bothille Marie Hansen og en side for Peter Krogh gentager dele af samme familiegruppe. Dossieret har også et lokalt Nybøl-holdingspor for en ældre Detlef Krogh, men dette beviser ikke i sig selv slægtskabet.",
+   "missing": "Original tysk fødsels-/dåbsindførsel for Wilhelm i Adelby/Tastrup 1908; Detlef Kroghs vielse med Kirstine Marie Jensen i Flensborg; originale fødselsindførsler for søskende; kontrol af om den ældre Detlef Krogh i Nybøl er farfar. Stednavnet Tastrup/Torstrup skal læses i originalen.",
+   "next": "Begynd med Detlef Krogh juniors vielse i Broager 1929, som bør oplyse hans far. Sammenhold derefter med Wilhelms 1908 Standesamt-indførsel i Kreis Schleswig-Flensburg og søskendenes originale kirkebøger.",
+   "dossier": "leads/grandparent-lorenz-frederiksen.md",
+   "sources": [
+    {
+     "label": "Lokalhistorisk Arkiv Ulkebøl – Wilhelm Krogh (sekundær slægtsregistrering)",
+     "url": "https://www.ulkeboelarkiv.dk/slaegt/index.php?route=/slaegt/tree/tree2/individual/I80148/Vilhelm-Krogh"
+    },
+    {
+     "label": "Lokalhistorisk Arkiv Ulkebøl – Bothille Marie Hansen (sekundær kontrol)",
+     "url": "https://www.ulkeboelarkiv.dk/slaegt/index.php?route=/slaegt/tree/tree2/individual/I80800/Bothille-Marie-Hansen"
+    },
+    {
+     "label": "Lokalhistorisk Arkiv Ulkebøl – Peter Krogh (sekundær kontrol)",
+     "url": "https://www.ulkeboelarkiv.dk/slaegt/index.php?route=/slaegt/tree/tree2/individual/I30804/Peter-Krogh"
+    },
+    {
+     "label": "Lokalhistorisk Arkiv Ulkebøl – arkivets kontakt og samlingsbeskrivelse",
+     "url": "https://www.ulkeboelarkiv.dk/"
+    }
+   ],
+   "person_ids": [
+    "p12",
+    "p6"
+   ]
+  },
+  {
+   "id": "lorenz-pakjaer-history",
+   "branch": "Lorenz Frederiksen",
+   "title": "Paakjær i Nybøl: ejendomshistorie og Petersen-slægten",
+   "status": "needs",
+   "claim": "Paakjær er et centralt stedspor i familiens beretning om Sophus Petersen og den mulige biologiske faderskabslinje. Dossieret angiver, at Mathias Petersen opførte gården i 1879, og at den senere blev kaldt Sofus minde. Ejendommens historie kan kontrollere familiens sted- og husholdningsoplysninger, men kan ikke alene bevise biologisk faderskab.",
+   "evidence": "Familiedokumenter og den håndskrevne anetavle forbinder Mathias Petersen med opførelsen af Paakjær i 1879 og Peter Petersen/Sophus med gården. Nybøl 1921-folketællingsscanningen og Sophus' dåbs-/gravstensmateriale er bevaret i projektets kildemateriale. Dossieret peger desuden på *Fra Nybøl sogn* nr. 3 som lokalhistorisk ejendomskilde.",
+   "missing": "Den originale matrikel-/realregisterkæde, skøde eller fæste, brandforsikringsprotokol og eventuel byggesag, der kan identificere gårdens ejere og byggeår. Den lokale trykte oplysning skal kontrolleres mod selve ejendomsakterne.",
+   "next": "Find Paakjærs matrikelnummer og realregisterblad i Nybøl; følg derefter skøder og brandforsikringsprotokoller fra ca. 1879 til Peter Petersen og Sophus. Brug kirkebøger til personidentifikation og ejendomsakter kun til sted-/ejerhistorien.",
+   "dossier": "leads/grandparent-lorenz-frederiksen.md",
+   "sources": [
+    {
+     "label": "Fra Nybøl sogn nr. 3 – lokalhistorisk hæfte (biblioteksscanning)",
+     "url": "https://slaegtsbibliotek.dk/2025/953243.pdf"
+    },
+    {
+     "label": "Nybøl 1921-folketælling – bevaret kildescanning",
+     "url": "https://raw.githubusercontent.com/sloev/tree/main/leads/07-nybol-folketaelling-1921.jpg"
+    }
+   ],
+   "person_ids": [
+    "p6",
+    "sofus",
+    "sofus_ff"
+   ]
+  },
+  {
+   "id": "lorenz-gedde-emigration",
+   "branch": "Lorenz Frederiksen",
+   "title": "Gedde-familiens udvandring: Olaf til Shanghai og Emil til Argentina",
+   "status": "needs",
+   "claim": "To collateralspor i Gedde-familien peger på oversøisk udvandring: Olaf Gedde har et registreret udvandringskontraktnummer 3534 fra 11. juli 1904 via agent Haugsted med Shanghai som destination; Emil Gedde forbindes med Eldorado-kolonien i Argentina gennem fotografihenvisningerne B9886 og B9790. De to personer og deres videre livsforløb skal dokumenteres hver for sig.",
+   "evidence": "Dossierets udvidede materiale indeholder en transskription af Olaf Geddes kontraktreference og to identificerede fotografihenvisninger for Emil Gedde. Rigsarkivets vejledning bekræfter, at politiets udvandringskontrakter 1868–1959 kan indeholde navn, alder, stilling, bopæl, fødested, bestemmelsessted og kontraktdato; arkivserierne omfatter direkte og indirekte udvandrerregistre.",
+   "missing": "Olafs originale kontrakt/genpart, skib og ankomst i Shanghai samt senere bopæl/død; Emils fulde udvandringsidentitet, ankomst til Argentina, ophold i Eldorado og eventuelle efterkommere. Fotografierne B9886/B9790 skal ses og billedteksterne aflæses.",
+   "next": "Slå Olaf op i Københavns Politis udvandrerprotokol omkring kontraktnr. 3534 og 11. juli 1904; følg skibsekspedition og Shanghai-kilder. For Emil: identificér fuldt navn/fødselsdata fra billedkatalog B9886/B9790 og søg derefter i argentinske koloniregistre og dansk-argentinske kirkebøger.",
+   "dossier": "leads/grandparent-lorenz-frederiksen.md",
+   "sources": [
+    {
+     "label": "Rigsarkivet: Udvandring til andre verdensdele – vejledning",
+     "url": "https://www.rigsarkivet.dk/vejledning/udvandring-til-andre-verdensdele-kom-godt-i-gang/"
+    },
+    {
+     "label": "Arkivalieronline: Københavns Politi, udvandringsarkiver",
+     "url": "https://arkivalieronline.rigsarkivet.dk/da/other/other-collection/168"
+    },
+    {
+     "label": "DAISY: Københavns Politi – udvandringsserier",
+     "url": "https://daisy.rigsarkivet.dk/arkivskaber_og_arkivserie_liste?a=k%C3%B8benhavns+politi&b=udvandr&d=1&e=2022"
+    }
+   ],
+   "person_ids": [
+    "p6"
+   ]
+  },
+  {
+   "id": "lorenz-hammer-fosterage",
+   "branch": "Lorenz Frederiksen",
+   "title": "Paula Geddes opvækst i Herlufmagle: plejeforholdet til Hammer",
+   "status": "family",
+   "claim": "Familieoplysninger beskriver, at Paula Mathilde Christle Gedde (p27) voksede op i Herlufmagle præstegård hos sin moster Christine Sophie von Kleist og præsten dr.theol. Edvard Snedorph Hammer. Hammer var en social/familiemæssig plejefarfigur, ikke hendes biologiske far. Mellemnavnet Hammer hos hendes søn Edvard Hammer Gedde (p54) skal forstås i denne sammenhæng.",
+   "evidence": "Dossieret henviser til familiens maskinskrevne slægtsopgørelse og familiefotografiet fra 1895, hvor Paula indgår i familien omkring Edvard Hammer Gedde og Vitta Ludvigsen. Det kan forklare navnebrugen og en social relation, men ikke biologisk slægtskab.",
+   "missing": "Samtidige folketællinger, skole-/konfirmationsoplysninger og eventuelle præstegårds-/personarkivoplysninger, der dokumenterer Paula som barn i husstanden. Fotografiets originale billedtekst og datering bør kontrolleres mod familiens dokument.",
+   "next": "Sammenhold folketællinger og kirkebøger for Herlufmagle omkring 1880–1901 med Christine Sophie von Kleists husstand; registrér relationen som plejeforhold/husstand, ikke som biologisk forældreskab.",
+   "dossier": "leads/grandparent-lorenz-frederiksen.md",
+   "sources": [
+    {
+     "label": "Familiefotografi fra 1895 – bevaret i projektets kildemateriale",
+     "url": "https://raw.githubusercontent.com/sloev/tree/main/leads/01-familien-gedde-1895.jpg"
+    },
+    {
+     "label": "Rigsarkivet – vejledning og arkivmateriale",
+     "url": "https://www.rigsarkivet.dk/"
+    }
+   ],
+   "person_ids": [
+    "p27",
+    "p54",
+    "p108"
+   ]
+  }
+ ]
 }
