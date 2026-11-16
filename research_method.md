@@ -611,3 +611,21 @@ Phase 5 continues: prioritize original probate records for the Gaardsted branch,
 4. Continue whole-tree genealogy research separately; the four homepage cards are leads and evidence summaries, not new parentage claims.
 
 - **Milestone 26 follow-up:** a post-edit reference scan found one remaining person-drawer visibility check pointing at the removed `v-stamtrae` view. Updated it to check the homepage overview before scrolling to the tree. Re-ran the structural checks: all remaining view containers exist, the drawer-to-tree check targets the homepage, the tree is vertical-only, no duplicate IDs exist, and there are no stale `v-stamtrae` references. Latest template content SHA: `a85c8d7acd07f4aa11fa2e6c1b16c63e602e29dd`. Browser/build validation is still outstanding.
+
+
+## Milestone 27 — von Kleist-sporet mod middelalderen
+- Re-læste hele denne metodefil og fortsatte på `ccr-6abdfb67-cbzklo`. Arbejdede kun med offentlige slægtsoplysninger og åbne historiske kilder; ingen private eller krypterede data blev tilgået.
+- Genbesøgte den allerede dokumenterede Gedde/von Kleist-forbindelse og kontrollerede H. W. Harbous artikel *Slægten von Kleist i Danmark* (Personalhistorisk Tidsskrift, 1897). Harbou fører Ove Samuel Geddes hustru Frederikke Louise Dorthea von Kleist (født 5. januar 1786) til hendes far Christian Frederik (født 1743), dennes far Christian Adam (født 1705), og videre til Cartz Ulrik von Kleist, søn af Pribislaff von Kleist på Muttrin og Esther von Kameke. Kilden er en genealogisk sammenstilling fra 1897, men giver en konkret, navngiven forbindelse mellem Vivis Gedde-linje og Muttrin-grenen i Pommern. Kilde: https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf (især linjerne/afsnittet om Cartz Ulrik og hans børn).
+- Kontrollerede von Kleist-familiens dokumentoversigt og dokumentbog:
+  - **1248:** Conradus og Bertoldus Clest optræder i et dokument.
+  - **1289:** Klest (Klest de Densin) optræder i et dokument fra Stolp.
+  - **1477:** lensbrev fra hertug Bogislaw X nævner Muttrin-, Damen-, Tychow-, Dubberow-, Vilnow- og Raddatz-linjerne; teksten gengiver familiens erklæring om fælles stamfader og tre sønner.
+  Kilder: https://www.v-kleist.com/FG/urkunden/urkunden.htm og https://www.v-kleist.com/FG/Gesamt.pdf.
+- Vigtig kildekritik: 1248/1289-dokumenterne og 1477-lensbrevet dokumenterer middelalderlige medlemmer og slægtens egen påstand om fælles ophav, men de beviser ikke i sig selv en ubrudt direkte kæde fra Vivis konkrete Muttrin-forfader Pribislaff (død 1698) til Conradus Clest eller Klest de Densin. Familiehistorien omtaler selv huller i den tidlige dokumentation; forbindelser mellem enkelte tidlige generationer må behandles som hypotetiske, indtil de er dokumenteret i de relevante lensbreve og biografier. Ingen middelalderlige personer er derfor føjet til stamtræet som direkte aner.
+- Opdaterede `site/template.html` med et femte kort under **Seneste fund** på forsiden, der beskriver von Kleist-sporet og dets begrænsninger med links til Harbou, dokumentbogen og Muttrin-registeret. Den vertikale anetavle og øvrige forsideelementer er bevaret.
+- Opdaterede `family-tree.md` med en særskilt note om middelaldersporet og den nødvendige forskel mellem dokumenteret slægtsgren og endnu ikke bevist middelalderlig direkte afstamning.
+- Validering: kontrollerede indsættelsesmarkører og filopdateringer via GitHub-API; ingen lokal HTML-build, browser- eller JavaScript-test er kørt. `site/build.py` er ikke kørt, så genererede `site/index.html` og `docs/index.html` afspejler endnu ikke det nye forsidekort. Ingen relationer i genealogidata blev ændret.
+### Næste skridt
+1. Gennemgå Muttrin-familiehistorien fra 2025 for den præcise far-til-søn-kæde fra Pribislaff (III.281, død 1698) tilbage gennem de dokumenterede 1400-talsled; sammenhold hvert led med de nævnte urkunden.
+2. Læs selve 1477-lensbrevet i dokumentbogen og identificér, hvilke Muttrin-personer der faktisk indgår i den direkte gren, frem for at stole på senere navnelighed.
+3. Fortsæt samtidig på andre uafhængige grene i Vivis træ. Middelaldermålet må ikke få os til at overse bonde-, præste- og håndværkerlinjer, som kan føres til 1500–1600-tallet via skifter, jordebøger, tingbøger og fæsteprotokoller.
