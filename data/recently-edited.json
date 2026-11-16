@@ -1,16 +1,14 @@
 {
   "latest_bulletin": {
-    "body": "Personoplysninger er ændret i kildedataene. Åbn personkortene for at se de aktuelle datoer, noter og kilder.",
-    "commit": "5f10df75e174a4e0a5bf9b72f9000cdc6c90c810",
+    "body": "Forskningsmateriale eller kildegrundlag er opdateret. Se ændringsloggen og de relevante forskningsnoter for detaljer.",
+    "commit": "bfaba069a062151903df7ceced99ed69c3118554",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "leads/grandparent-lorenz-frederiksen.md"
     ],
-    "people": [
-      "p6948"
-    ],
-    "title": "Stamtræ opdateret: Christian von Kleist"
+    "people": [],
+    "title": "Correct Kolding church-book signatures for Kleist baptism"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
