@@ -2,7 +2,7 @@
 
 En slægtsbog bygget på danske kirkebøger, folketællinger og lokalarkiver.
 
-- **Hjemmeside:** `docs/index.html`, udgivet med GitHub Pages fra `master`-grenen, mappen `/docs`.
+- **Hjemmeside:** `docs/index.html`, udgivet med GitHub Pages fra `main`-grenen, mappen `/docs`.
 - **Sammenfatning med kilder:** [`family-tree.md`](family-tree.md)
 - **GEDCOM til MyHeritage, Geni, Ancestry eller Gramps:** [`family-tree.ged`](family-tree.ged)
 
