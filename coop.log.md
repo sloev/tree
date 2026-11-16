@@ -126,3 +126,11 @@ Append-only coordination log for the Gårdsted / Gedde family-history project. A
 - Added `.github/workflows/rebuild-site.yml` so changes to canonical data, site templates and source assets rebuild the JSON, GEDCOM and GitHub Pages output, then commit generated outputs to main.
 - No canonical relationships changed in this pass. The website template and build automation are committed, but the workflow run/deployment has not yet been verified; do not claim the live website has updated until its generated-output commit and Pages deployment are checked.
 - Source trail: https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf ; https://v-kleist.com/FG/Genealogie/AllgemeineGeschichte.pdf ; https://www.v-kleist.com/FG/Dubberow.pdf
+
+### Publish documented early Kleist name-bearing persons without inventing descent
+
+- Added five historically attested people to the canonical public register as unlinked historical entries: Conradus Clest, Bertoldus Clest, the Prissebur witness of 1289, Nycolaus Klest (1325), and Prissebur Klest of Muttrin (1364).
+- Their existence/name-bearing appearances are published as documented, while notes explicitly state that their relationship to the later Muttrin ancestry is unknown or disputed. No father, mother, spouse or descent edge was invented.
+- The 1249, 1254 and 1269 records establish Conradus and Bertoldus as brothers. The 1289 entry remains textually ambiguous. The 1325 Nycolaus witness is unlinked. The 1364 Prissebur is named in a text transmitted through a 1589 transsumpt and later copies.
+- Added a direct source prefix for the 1325 Pommersches Urkundenbuch PDF and taught the site source renderer to link it.
+- The new data and template changes are covered by the automatic site rebuild workflow; await its generated-output commit and verify Pages before claiming the public deployment is live.
