@@ -14047,7 +14047,8 @@
     "person_ids": [
      "p6",
      "p12"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "lorenz-sophus",
@@ -14062,7 +14063,8 @@
     "person_ids": [
      "p6",
      "sofus"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "liss-marriage",
@@ -14078,7 +14080,8 @@
      "a46",
      "a47",
      "p23"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "liss-baptism",
@@ -14093,7 +14096,8 @@
     "person_ids": [
      "a46",
      "a47"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "evald-vibygard",
@@ -14107,7 +14111,8 @@
     "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
     "person_ids": [
      "a66"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "evald-bogensholm",
@@ -14118,7 +14123,9 @@
     "evidence": "Skødehenvisningen er prioriteret i den aktive Evald-dossier; den præcise dato og dokumentets ordlyd skal kontrolleres i originalen.",
     "missing": "Originalt skøde, tingbogs-/pantebogshenvisning og sikker identifikation af de nævnte parter.",
     "next": "Find originalen og transskriber parter, ejendom, dato og eventuelle slægtskabsoplysninger.",
-    "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md"
+    "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+    "sources": [],
+    "person_ids": []
    },
    {
     "id": "gerda-kresten",
@@ -14133,7 +14140,8 @@
     "person_ids": [
      "g_kresten",
      "p28"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "gerda-lango",
@@ -14148,7 +14156,8 @@
     "person_ids": [
      "p62",
      "p63"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "evald-tohde-probate",
@@ -14162,21 +14171,8 @@
     "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
     "person_ids": [
      "p36"
-    ]
-   },
-   {
-    "id": "evald-viby-probate",
-    "branch": "Evald Gårdsted Jørgensen",
-    "title": "Vibygård-skiftet 1820: en separat Hans Jensen-husstand",
-    "status": "needs",
-    "claim": "Et skifte efter Maren Poulsdatter 31. december 1820 nævner hendes mand, gartner Hans Jensen, og fire voksne børn. Det er ikke bevist, at denne Hans Jensen er den samme som stamtræets Hans Jensen, der blev gift i Syv i 1822.",
-    "evidence": "Dossieret angiver Vibygård Gods skifteprotokol, bog 2, folio 21–22 og 32–34, samt navne og bopæle på Poul, Jens, Peder og Ane.",
-    "missing": "Originalskiftets identitetsoplysninger og sammenligning med vielsen i Syv 1822, alder, bopæl, ægtefælle og børn.",
-    "next": "Læs originalskiftet og den fulde vielsesindførsel fra 1822; hold husstandene adskilt indtil de kan forbindes.",
-    "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
-    "person_ids": [
-     "a66"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "evald-rosmus-mette",
@@ -14191,7 +14187,8 @@
     "person_ids": [
      "p37",
      "a75"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "evald-rousing-parentage",
@@ -14207,22 +14204,8 @@
      "p76",
      "p152",
      "p304"
-    ]
-   },
-   {
-    "id": "evald-lovisa-mother",
-    "branch": "Evald Gårdsted Jørgensen",
-    "title": "Lovisa Larsson fra Malmö: moderens identitet",
-    "status": "needs",
-    "claim": "Lovisa Larssons fødsel i Malmö 28. juni 1862 er et delvist afklaret spor. Hendes dødsindførsel i Slagelse nævner Niels Larsen som svensk far, men hendes mor mangler i det nuværende træ.",
-    "evidence": "Dossieret henviser til dødsindførslen i 1910 og identificerer Lovisa som allerede tilknyttet Evalds direkte linje.",
-    "missing": "Malmös originale fødsels- og husstandsoplysninger, der kan identificere moderen og bekræfte fødselsregistreringen.",
-    "next": "Find det rette Malmö sogn og følg Lovisa i fødsels- og husstandsregistre.",
-    "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
-    "person_ids": [
-     "p17",
-     "p34"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "liss-assing-baptism",
@@ -14233,7 +14216,9 @@
     "evidence": "Dossieret kobler ham til Karen Jensens direkte linje og henviser til en senere vielse i Sønder Felding og dødsfald i Sønder Omme.",
     "missing": "Original kirkebogsindførsel fra Assing samt sammenligning med vielse, alder og forældreoplysninger.",
     "next": "Gennemgå Assing kirkebog side for side omkring februar 1812 og nærliggende sogne.",
-    "dossier": "leads/grandparent-liss-pedersen.md"
+    "dossier": "leads/grandparent-liss-pedersen.md",
+    "sources": [],
+    "person_ids": []
    },
    {
     "id": "liss-kjersten-baptism",
@@ -14247,7 +14232,8 @@
     "dossier": "leads/grandparent-liss-pedersen.md",
     "person_ids": [
      "a47"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "liss-hoven-mill",
@@ -14263,21 +14249,8 @@
      "a44",
      "a45",
      "a89"
-    ]
-   },
-   {
-    "id": "liss-karen-date",
-    "branch": "Liss Pedersen",
-    "title": "Karen Jensens fødselsdato: 29. august eller 29. juli 1852",
-    "status": "needs",
-    "claim": "Skarrilds dåb og vielsen i Grindsted 1875 angiver 29. august 1852, mens folketællingen 1901 angiver 29. juli. Den oprindelige dato bør ikke ændres ud fra folketællingen alene.",
-    "evidence": "Dossieret prioriterer dåbs- og vielsesoplysningerne og registrerer folketællingens afvigelse særskilt.",
-    "missing": "En fuld sammenligning af original dåb, vielse og folketællingens præcise felt/afskrift.",
-    "next": "Kontrollér de originale indførsler og bevar afvigelsen som en kildevariant.",
-    "dossier": "leads/grandparent-liss-pedersen.md",
-    "person_ids": [
-     "p23"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "gerda-kresten-mother",
@@ -14292,7 +14265,8 @@
     "person_ids": [
      "g_kresten",
      "p28"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "gerda-lango-deed",
@@ -14364,22 +14338,8 @@
     "dossier": "leads/grandparent-gerda-larsen.md",
     "person_ids": [
      "p60"
-    ]
-   },
-   {
-    "id": "gerda-christian-probate",
-    "branch": "Gerda Larsen",
-    "title": "Nordenbro-skiftet 1787: Christian Hansen",
-    "status": "hypothesis",
-    "claim": "Et skifte fra 1787 efter en Christian Hansen kan muligvis belyse familien bag Christian Hansen, der blev gift med Marie Madsdatter i Magleby i 1829. Identiteten er ikke bevist; navnet kan dække en anden mand.",
-    "evidence": "Dossieret beskriver en skifteoplysning om to ægteskaber og flere børn i Nordenbro og en mulig forbindelse til den senere Magleby-familie.",
-    "missing": "Originalt skifte med afdødes alder, bopæl, ægtefæller og børn samt en dokumenteret generationsforbindelse frem til 1829-parret.",
-    "next": "Find den rette skifteprotokol og sammenlign navne, alder, bopæl og familieforløb med kirkebøgerne.",
-    "dossier": "leads/grandparent-gerda-larsen.md",
-    "person_ids": [
-     "p114",
-     "p115"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "gerda-emigrant-family",
@@ -14394,7 +14354,8 @@
     "person_ids": [
      "p126",
      "p127"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "lorenz-paternity-case",
@@ -14511,7 +14472,8 @@
     "dossier": "leads/grandparent-lorenz-frederiksen.md",
     "person_ids": [
      "p868"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "evald-niels-birthplace",
@@ -14525,7 +14487,8 @@
     "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
     "person_ids": [
      "p32"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "evald-claus-probate-1811",
@@ -14539,7 +14502,8 @@
     "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
     "person_ids": [
      "p72"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "evald-rousing-office",
@@ -14554,7 +14518,8 @@
     "person_ids": [
      "p76",
      "p152"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "liss-hoven-households",
@@ -14571,7 +14536,8 @@
      "a89",
      "a90",
      "a91"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "gerda-lango-children",
@@ -14586,7 +14552,8 @@
     "person_ids": [
      "p62",
      "p63"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "lorenz-ove-identity",
@@ -14602,7 +14569,8 @@
      "p216",
      "p432",
      "p433"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "lorenz-gedde-christian",
@@ -14616,7 +14584,8 @@
     "dossier": "leads/grandparent-lorenz-frederiksen.md",
     "person_ids": [
      "p864"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "evald-vibygard-probate-1820",
@@ -14630,7 +14599,8 @@
     "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
     "person_ids": [
      "a66"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "liss-karen-jensen-date",
@@ -14644,7 +14614,8 @@
     "dossier": "leads/grandparent-liss-pedersen.md",
     "person_ids": [
      "p23"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "gerda-nordenbro-probate-1787",
@@ -14658,7 +14629,8 @@
     "dossier": "leads/grandparent-gerda-larsen.md",
     "person_ids": [
      "p114"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "gerda-magleby-tved-collateral",
@@ -14675,7 +14647,8 @@
      "g_imr",
      "p120",
      "p121"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "evald-lovisa-mother-malmo",
@@ -14690,7 +14663,8 @@
     "person_ids": [
      "p17",
      "p34"
-    ]
+    ],
+    "sources": []
    },
    {
     "id": "lorenz-krogh-family",
