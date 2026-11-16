@@ -657,3 +657,30 @@ Sources:
 - [Trap 5: Nybøl Herred — court and police district changes](https://trap5.lex.dk/herred/nyboel-herred-soenderborg-amt/).
 
 No Krogh household has yet been read in the original Sottrup 1930 census, and no 1932 court case number has been found. These remain the next record targets.
+
+
+### Sottrup 1930 census search: access confirmed, no Krogh household yet (16 November 2026)
+
+A fresh check of Rigsarkivet's current census guide confirms that **all Danish census material through 1940 is scanned and viewable on Arkivalieronline**. For Sønderjylland after 1920, the guide specifically directs researchers to the national census series under landdistrikter/købstæder. The correct 1930 series is *Folketælling 1930, Sognelister*; its selector has fields for Amt, Kommune/Herred and Sogn and explains that the schedules list households with names, ages, household roles, occupations and (from 1845) birthplaces.
+
+Direct route: [1930 census parish-list selector](https://arkivalieronline.rigsarkivet.dk/da/rif/select/7/16972563). Select Sønderborg Amt, Nybøl Herred and Sottrup Sogn. The selector is interactive and its selected image references are not exposed in the text-search index, so this research pass did not retrieve or read the Snogbæk schedule images themselves. **No claim is made that Wilhelm is absent from the original census.**
+
+Independent locality cross-checks:
+- A biography for Hans Jørgen Andresen cites the 5 November 1930 census in Sottrup Sogn, specifically Vester Sottrup.
+- Strømming's public genealogy index cites 1930 census entries for Snogbæk, Sottrup Sogn.
+- Arkiv.dk search results identify a 1920–1930 image as “Snogbæk præstegård, Vester Snogbæk 6”. This corroborates the Vester Snogbæk place-name, not a Krogh residence.
+- Searches of indexed web material for “Wilhelm Krogh”/“Vilhelm Krogh” with Snogbæk or Sottrup did not surface a census entry. This is only a failure to find an indexed transcription; the original census is not name-searchable through the selector.
+
+A separate Strømming all-names index result for **Elisabeth Andersdatter** records her baptism at Sottrup in 1713 and death at Snogbæk in 1756. This is unrelated to the Krogh family but confirms Snogbæk as a historical locality within Sottrup Sogn.
+
+**Practical next step:** open the 1930 parish-list selector and inspect the Sottrup schedules image by image, locating the Snogbæk/Vester Snogbæk section. Transcribe all Krogh/Krog households and neighbouring farmhands, including variant first names. If the images are numerous, first locate the locality headings or schedule numbers using the 1930 Sottrup census citations in the local-history biographies, then inspect adjacent schedules. Follow any identified Wilhelm household back to the 1925 census and Adelby baptism register.
+
+Sources:
+- [Rigsarkivet census guide](https://www.rigsarkivet.dk/vejledning/folketaellinger-kom-godt-i-gang/) — confirms scanned access through 1940 and the post-1920 Sønderjylland filing route.
+- [Arkivalieronline: 1930 parish-list selector](https://arkivalieronline.rigsarkivet.dk/da/rif/select/7/16972563).
+- [Hans Jørgen Andresen biography](https://denstorekrig1914-1918.dk/soenderjyder-oversigt/soenderjyder-a/andresen-hans-joergen-1891-1973/) — census reference for Sottrup, 5 November 1930.
+- [Strømming: Kristen Petersen, Snogbæk, Sottrup](https://www.stroemming.dk/genealogy/gedweb/Public/da/Details/Details-I383.html) — unrelated household, census locality reference only.
+- [Arkiv.dk: Snogbæk præstegård, Vester Snogbæk 6](https://arkiv.dk/soeg?searchString=%20b%C3%B8rnehavel%C3%A6rer) — place-name/photo caption, not a Krogh record.
+- [Strømming all-names index](https://www.stroemming.dk/genealogy/gedweb/Public/da/Lists/allnames-A.html) — historical Sottrup/Snogbæk locality reference.
+
+No Krogh household, 1930 address, 1908 baptism or 1932 court case number has been confirmed in this pass. The family-tree supplement's proposed parents and siblings remain secondary leads only.
