@@ -51,6 +51,11 @@ def validate(tree):
         for source in claim["sources"]:
             assert isinstance(source, dict) and source.get("label") and source.get("url"), f"Ugyldig kilde i {claim['id']}"
         assert isinstance(claim["person_ids"], list), f"{claim['id']}.person_ids skal være en liste"
+        notes = claim.get("research_notes", [])
+        assert isinstance(notes, list), f"{claim['id']}.research_notes skal være en liste"
+        for note in notes:
+            for field in ("title", "text", "provenance", "imported_on"):
+                assert note.get(field), f"{claim['id']} har forskningsnote uden {field}"
         for pid in claim.get("person_ids", []):
             assert pid in id_set, f"{claim['id']} henviser til ukendt person {pid}"
         dossier = claim.get("dossier")
