@@ -798,7 +798,7 @@ function renderPed(root){
     const name=document.createElement('button');name.type='button';name.className='ft-name';name.textContent=p?clean(p.name):(n%2?'Ukendt mor':'Ukendt far');
     if(p){item.dataset.personId=p.id;name.setAttribute('aria-label',clean(p.name)+', åbn personkort');name.addEventListener('click',()=>openPerson(p.id));}
     line.append(toggle,guides,stripe,name);
-    if(p && RECENT[p.id]){
+    if(p && RECENT[p.id] && Date.now()-Date.parse(RECENT[p.id]) < 30*86400000){
       const dot=document.createElement('span');dot.className='ft-recent-dot';
       dot.setAttribute('aria-label','Redigeret for nylig');
       dot.title='Personoplysninger redigeret inden for de seneste 30 dage';
