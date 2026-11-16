@@ -554,6 +554,80 @@
       "person_ids": [
         "p864"
       ]
+    },
+    {
+      "id": "evald-vibygard-probate-1820",
+      "branch": "Evald Gårdsted Jørgensen",
+      "title": "Vibygård: skifte fra 1820 og to mulige Hans Jensen-husstande",
+      "status": "needs",
+      "claim": "Et skifte fra 1820 omtaler Maren Poulsdatter, hustru til en Hans Jensen, gartner ved Vibygård, og fire voksne børn. Det er ikke fastslået, at denne Hans Jensen er samme person som den kanoniske Hans Jensen (a66), der i 1822 blev gift med Margrethe Pedersdatter.",
+      "evidence": "Dossieret skelner udtrykkeligt mellem 1820-skiftet og Hans Jensen (a66), som folketællingen 1834 beskriver som aftægtsmand og tidligere gartner ved Wiibygaard.",
+      "missing": "Originalt skifte med afdødes identitet, hustru, børnenes navne, alder, bopæl og eventuelle værger; sammenhold med vielsen 1822 og folketællingen 1834.",
+      "next": "Find og læs originalskiftet fra 1820. Hold de to husstande adskilt, medmindre dokumentet giver en entydig identifikation.",
+      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+      "person_ids": [
+        "a66"
+      ]
+    },
+    {
+      "id": "liss-karen-jensen-date",
+      "branch": "Liss Pedersen",
+      "title": "Karen Jensens fødselsdato: 29. august eller 29. juli 1852",
+      "status": "conflict",
+      "claim": "Karen Jensen (p23) er registreret født 29. august 1852 i Skarrilds dåbsoptegnelse og ved vielsen i Grindsted 1875, mens folketællingen 1901 angiver 29. juli. Dåb og vielse peger på 29. august; afvigelsen i 1901 bør bevares som kildekonflikt.",
+      "evidence": "Dossierets udvidelse sammenholder Skarrilds kirkebog, Grindsted-vielsen 1875 og folketællingen 1901.",
+      "missing": "Kontrollér originalbillederne af dåb og vielse, og se om 1901-oplysningen er en afskrifts-, erindrings- eller registreringsfejl.",
+      "next": "Transskriber de to kirkebogsindførsler ordret og tilføj 1901-afvigelsen som note i personens hændelser; ændr ikke datoen alene ud fra folketællingen.",
+      "dossier": "leads/grandparent-liss-pedersen.md",
+      "person_ids": [
+        "p23"
+      ]
+    },
+    {
+      "id": "gerda-nordenbro-probate-1787",
+      "branch": "Gerda Larsen",
+      "title": "Nordenbro-skiftet 1787: Christian Hansen og to ægteskaber",
+      "status": "needs",
+      "claim": "Et skifte fra 1787 i Nordenbro efter en Christian Hansen omtaler angiveligt to ægteskaber og flere børn. Det er ikke dokumenteret, at den afdøde er identisk med Christian Hansen (p114), født omkring 1806; skiftets børn kan muligvis tilhøre en senere generation.",
+      "evidence": "Dossieret beskriver skiftet som et endnu ikke tilknyttet spor og advarer specifikt mod at koble det til p114 alene på grund af navn og lokalitet.",
+      "missing": "Originalt skifte med skiftejurisdiktion, afdødes bopæl/alder, begge hustruers navne, børnenes navne og alder samt værger.",
+      "next": "Find skifteprotokollen for Magleby-Nordenbro gods omkring 1787. Søg efter en søn Christian født omkring 1806; hvis han ikke findes, registrér det negative resultat og luk identifikationssporet.",
+      "dossier": "leads/grandparent-gerda-larsen.md",
+      "person_ids": [
+        "p114"
+      ]
+    },
+    {
+      "id": "gerda-magleby-tved-collateral",
+      "branch": "Gerda Larsen",
+      "title": "Magleby og Tved: fire uafklarede collateral-personer",
+      "status": "needs",
+      "claim": "Fire personer nær Sydlangelandslinjen mangler forældreoplysninger: Niels Christiansen (g_nchr), Inge Marie Rasmussen (g_imr), Holger Eriksen (p120) og Anne Cathrine Hansdatter (p121). De er konkrete kirkebogsspor, ikke dokumenterede forbindelser til Kresten eller Langø-husstanden.",
+      "evidence": "Dossieret angiver Niels Christiansens fødsel 24. marts 1829, Inge Marie Rasmussens fødsel 24. september 1830 og Holger Eriksen/Anne Cathrine Hansdatters vielse i Tved 8. december 1838.",
+      "missing": "Originale dåbsindførsler i Magleby 1829 og 1830 samt vielsesindførslen i Tved 1838 med fædrenes navne, alder og opholdssted.",
+      "next": "Gennemgå Magleby dåb 1829 og 1830 og Tved-vielsen 1838; registrér forældrene først efter kontrol af originalbillederne.",
+      "dossier": "leads/grandparent-gerda-larsen.md",
+      "person_ids": [
+        "g_nchr",
+        "g_imr",
+        "p120",
+        "p121"
+      ]
+    },
+    {
+      "id": "evald-lovisa-mother-malmo",
+      "branch": "Evald Gårdsted Jørgensen",
+      "title": "Lovisa Larssons mor: Malmö-fødsel 1862",
+      "status": "needs",
+      "claim": "Lovisa (Louise) Larsson (p17) er allerede en direkte ane og er født i Malmö 28. juni 1862. Hendes dødsindførsel nævner Niels Larsen (p34) som svensk far, men moderen mangler i det nuværende stamtræ.",
+      "evidence": "Dossieret henviser til dødsindførslen i Slagelse 12. oktober 1910 som støtte for faderens identitet og anbefaler at undersøge Malmö-fødsel og husstandsmateriale.",
+      "missing": "Original dåbs-/fødselsindførsel i Malmö med begge forældre samt relevante husforhør/flyttelængder, der kan bekræfte at den fundne familie er samme Lovisa.",
+      "next": "Find Malmö-fødselsindførslen 28. juni 1862 og følg familien i husforhør og flyttelængder. Tilføj ikke en mor før identiteten er bekræftet.",
+      "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+      "person_ids": [
+        "p17",
+        "p34"
+      ]
     }
   ]
 }
