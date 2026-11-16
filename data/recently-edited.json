@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Forskningsmateriale eller kildegrundlag er opdateret. Se ændringsloggen og de relevante forskningsnoter for detaljer.",
-    "commit": "98c982713b18d11257fe596e048acbaa5eb88afe",
+    "commit": "678ae45a03cb5f1a8f4a49522257fb2456c4dcf2",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "coop.log.md"
     ],
     "people": [],
-    "title": "Log expanded public research register and validation"
+    "title": "Log person drawer research links and build validation"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
