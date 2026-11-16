@@ -664,6 +664,93 @@
         "p17",
         "p34"
       ]
+    },
+    {
+      "id": "lorenz-krogh-family",
+      "branch": "Lorenz Frederiksen",
+      "title": "Wilhelm Kroghs familie: forældre, bedsteforældre og søskende",
+      "status": "hypothesis",
+      "claim": "En sekundær slægtsdatabase fra Lokalhistorisk Arkiv Ulkebøl forbinder Wilhelm/Vilhelm Krogh (født 9. oktober 1908 i Tastrup/Torstrup ved Flensborg) med forældrene Detlef Krogh (1876–1949) og Kirstine Marie Jensen (1878–1945), samt en søskendeflok på fem. Det kan åbne en dokumenterbar Krogh-side af Lorenz' juridiske faderskabssag, men forbindelsen er endnu ikke bekræftet i originale tyske eller danske registre.",
+      "evidence": "Ulkebøl-registreringen angiver forældrene, søskende og flere livsdatoer. En anden side for Bothille Marie Hansen og en side for Peter Krogh gentager dele af samme familiegruppe. Dossieret har også et lokalt Nybøl-holdingspor for en ældre Detlef Krogh, men dette beviser ikke i sig selv slægtskabet.",
+      "missing": "Original tysk fødsels-/dåbsindførsel for Wilhelm i Adelby/Tastrup 1908; Detlef Kroghs vielse med Kirstine Marie Jensen i Flensborg; originale fødselsindførsler for søskende; kontrol af om den ældre Detlef Krogh i Nybøl er farfar. Stednavnet Tastrup/Torstrup skal læses i originalen.",
+      "next": "Begynd med Detlef Krogh juniors vielse i Broager 1929, som bør oplyse hans far. Sammenhold derefter med Wilhelms 1908 Standesamt-indførsel i Kreis Schleswig-Flensburg og søskendenes originale kirkebøger.",
+      "dossier": "leads/grandparent-lorenz-frederiksen.md",
+      "sources": [
+        {
+          "label": "Lokalhistorisk Arkiv Ulkebøl – Wilhelm Krogh (sekundær slægtsregistrering)",
+          "url": "https://www.ulkeboelarkiv.dk/slaegt/index.php?route=/slaegt/tree/tree2/individual/I80148/Vilhelm-Krogh"
+        },
+        {
+          "label": "Lokalhistorisk Arkiv Ulkebøl – Bothille Marie Hansen (sekundær kontrol)",
+          "url": "https://www.ulkeboelarkiv.dk/slaegt/index.php?route=/slaegt/tree/tree2/individual/I80800/Bothille-Marie-Hansen"
+        },
+        {
+          "label": "Lokalhistorisk Arkiv Ulkebøl – Peter Krogh (sekundær kontrol)",
+          "url": "https://www.ulkeboelarkiv.dk/slaegt/index.php?route=/slaegt/tree/tree2/individual/I30804/Peter-Krogh"
+        },
+        {
+          "label": "Lokalhistorisk Arkiv Ulkebøl – arkivets kontakt og samlingsbeskrivelse",
+          "url": "https://www.ulkeboelarkiv.dk/"
+        }
+      ],
+      "person_ids": [
+        "p12",
+        "p6"
+      ]
+    },
+    {
+      "id": "lorenz-pakjaer-history",
+      "branch": "Lorenz Frederiksen",
+      "title": "Paakjær i Nybøl: ejendomshistorie og Petersen-slægten",
+      "status": "needs",
+      "claim": "Paakjær er et centralt stedspor i familiens beretning om Sophus Petersen og den mulige biologiske faderskabslinje. Dossieret angiver, at Mathias Petersen opførte gården i 1879, og at den senere blev kaldt Sofus minde. Ejendommens historie kan kontrollere familiens sted- og husholdningsoplysninger, men kan ikke alene bevise biologisk faderskab.",
+      "evidence": "Familiedokumenter og den håndskrevne anetavle forbinder Mathias Petersen med opførelsen af Paakjær i 1879 og Peter Petersen/Sophus med gården. Nybøl 1921-folketællingsscanningen og Sophus' dåbs-/gravstensmateriale er bevaret i projektets kildemateriale. Dossieret peger desuden på *Fra Nybøl sogn* nr. 3 som lokalhistorisk ejendomskilde.",
+      "missing": "Den originale matrikel-/realregisterkæde, skøde eller fæste, brandforsikringsprotokol og eventuel byggesag, der kan identificere gårdens ejere og byggeår. Den lokale trykte oplysning skal kontrolleres mod selve ejendomsakterne.",
+      "next": "Find Paakjærs matrikelnummer og realregisterblad i Nybøl; følg derefter skøder og brandforsikringsprotokoller fra ca. 1879 til Peter Petersen og Sophus. Brug kirkebøger til personidentifikation og ejendomsakter kun til sted-/ejerhistorien.",
+      "dossier": "leads/grandparent-lorenz-frederiksen.md",
+      "sources": [
+        {
+          "label": "Fra Nybøl sogn nr. 3 – lokalhistorisk hæfte (biblioteksscanning)",
+          "url": "https://slaegtsbibliotek.dk/2025/953243.pdf"
+        },
+        {
+          "label": "Nybøl 1921-folketælling – bevaret kildescanning",
+          "url": "https://raw.githubusercontent.com/sloev/tree/main/leads/07-nybol-folketaelling-1921.jpg"
+        }
+      ],
+      "person_ids": [
+        "p6",
+        "sofus",
+        "sofus_ff"
+      ]
+    },
+    {
+      "id": "lorenz-gedde-emigration",
+      "branch": "Lorenz Frederiksen",
+      "title": "Gedde-familiens udvandring: Olaf til Shanghai og Emil til Argentina",
+      "status": "needs",
+      "claim": "To collateralspor i Gedde-familien peger på oversøisk udvandring: Olaf Gedde har et registreret udvandringskontraktnummer 3534 fra 11. juli 1904 via agent Haugsted med Shanghai som destination; Emil Gedde forbindes med Eldorado-kolonien i Argentina gennem fotografihenvisningerne B9886 og B9790. De to personer og deres videre livsforløb skal dokumenteres hver for sig.",
+      "evidence": "Dossierets udvidede materiale indeholder en transskription af Olaf Geddes kontraktreference og to identificerede fotografihenvisninger for Emil Gedde. Rigsarkivets vejledning bekræfter, at politiets udvandringskontrakter 1868–1959 kan indeholde navn, alder, stilling, bopæl, fødested, bestemmelsessted og kontraktdato; arkivserierne omfatter direkte og indirekte udvandrerregistre.",
+      "missing": "Olafs originale kontrakt/genpart, skib og ankomst i Shanghai samt senere bopæl/død; Emils fulde udvandringsidentitet, ankomst til Argentina, ophold i Eldorado og eventuelle efterkommere. Fotografierne B9886/B9790 skal ses og billedteksterne aflæses.",
+      "next": "Slå Olaf op i Københavns Politis udvandrerprotokol omkring kontraktnr. 3534 og 11. juli 1904; følg skibsekspedition og Shanghai-kilder. For Emil: identificér fuldt navn/fødselsdata fra billedkatalog B9886/B9790 og søg derefter i argentinske koloniregistre og dansk-argentinske kirkebøger.",
+      "dossier": "leads/grandparent-lorenz-frederiksen.md",
+      "sources": [
+        {
+          "label": "Rigsarkivet: Udvandring til andre verdensdele – vejledning",
+          "url": "https://www.rigsarkivet.dk/vejledning/udvandring-til-andre-verdensdele-kom-godt-i-gang/"
+        },
+        {
+          "label": "Arkivalieronline: Københavns Politi, udvandringsarkiver",
+          "url": "https://arkivalieronline.rigsarkivet.dk/da/other/other-collection/168"
+        },
+        {
+          "label": "DAISY: Københavns Politi – udvandringsserier",
+          "url": "https://daisy.rigsarkivet.dk/arkivskaber_og_arkivserie_liste?a=k%C3%B8benhavns+politi&b=udvandr&d=1&e=2022"
+        }
+      ],
+      "person_ids": [
+        "p6"
+      ]
     }
   ]
 }
