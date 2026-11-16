@@ -734,3 +734,21 @@ Sources:
 ### Important distinction
 
 The county archive search is a route to the administrative record and possible copy of the court ruling; it does not itself prove the biological father. The registered/legal paternity currently attributed to Wilhelm Krogh remains based on the civil-register marginal note and its references, while the family claim that Sophus Petersen was the biological father remains unproven until the original case and independent evidence are examined.
+
+
+## Consolidation checkpoint: online evidence exhausted for the disputed 1932 paternity (16 November 2026)
+
+I rechecked the online catalogue and indexed web sources for Wilhelm/Vilhelm Krogh in Snogbæk/Sottrup, the 1932 paternity decision, and the Adelby 1908 baptism. No indexed transcription of Wilhelm's 1930 household, no accessible 1932 case file or case number, and no digitised 1908 Adelby baptism entry surfaced. This is a research-access limit, not evidence that the records or people are absent.
+
+### What is now firmly established as a research path
+
+1. **1930 census:** Rigsarkivet's national collection lists “Folketælling 1930, Sognelister”; its selector has Amt, Kommune/Herred and Sogn fields. The Sottrup schedule must be selected and read as original images, focusing on Snogbæk/Vester Snogbæk. No searchable name index is exposed on the selector. The collection describes household-by-household enumeration with names, ages, household positions and occupations. Sources: https://arkivalieronline.rigsarkivet.dk/en/rif/rif-collection/7 and https://arkivalieronline.rigsarkivet.dk/en/rif/select/7/16972563.
+2. **1932 paternity:** The county-first request documented above is the appropriate archive route. There is no online evidence yet that identifies a case number or confirms the underlying ruling's full contents. The civil register's reported marginal note remains evidence of registered/legal paternity only; the family's claim for Sophus Petersen remains unproved.
+3. **Adelby 1908:** Archion's current public list for Adelby exposes “Taufen 1882–1907” (local signature Adelby_2.3), not 1908. It does expose the Adelby marriage register “Trauungen 1884–1937” (Adelby_5.3), accessible through an Archion account. The archive's separate overview describes a wider baptism series through 1949, so an archive enquiry is needed for the 1908 continuation. Source: https://www.archion.de/de/alle-archive/schleswig-holstein/landeskirchliches-archiv-der-evangelisch-lutherischen-kirche-in-norddeutschland/kirchenkreis-schleswig-flensburg/adelby/273644.
+4. **Nybøl Detlef:** The 1981 local-history register does list Detlef Krogh at holding no. 32, with the note “from 1883 only indersted.” It is a property-history lead, not an identification of the Detlef in Wilhelm's proposed family. The full PDF confirms the register title and that it is a Nybøl 1851 holdings list (printed p. 71): https://slaegtsbibliotek.dk/2025/953243.pdf.
+
+### What would actually close the Lorenz branch
+
+The decisive missing item is the original 1932 paternity/alimentation file or the court case file. It should settle what Wilhelm acknowledged, what the court decided, and whether any biological evidence or statements naming another man survive. The 1930 census and Adelby church book are supporting identity checks, not substitutes for that file. Until the county archive/court file is obtained, this branch cannot honestly be marked solved.
+
+**Triage decision:** online discovery for this branch is now exhausted enough that repeating broad web searches is unlikely to help. Keep it as a tightly specified archive retrieval task rather than letting it block the more promising ancestral lines. If the original case file is later obtained, revisit the biological-father question; otherwise retain the three distinct roles already documented (registered/legal father Wilhelm Krogh, family-claimed biological father Sophus Petersen, social father Peter Frederiksen) and do not collapse them into one.
