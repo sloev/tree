@@ -286,7 +286,7 @@ button,a{touch-action:manipulation}
   </div>
 </header>
 <nav class="tabs" aria-label="Sektioner">
-  <a href="#stamtrae" data-view="oversigt" data-anchor="stamtrae">Stamtræ</a>
+  <a href="#stamtrae" data-anchor="stamtrae">Stamtræ</a>
   <a href="#oversigt" data-view="oversigt">Forside</a>
   <a href="#personer" data-view="personer">Personer</a>
   <a href="#kort" data-view="kort">Kort</a>
@@ -554,10 +554,12 @@ function go(v){ if(!VIEWS.includes(v)) v='oversigt';
   try{ localStorage.setItem('view',v) }catch(e){}
 }
 document.querySelectorAll('.tabs a[data-view]').forEach(a=>a.addEventListener('click',e=>{
-  e.preventDefault(); go(a.dataset.view);
-  if(a.dataset.anchor){ requestAnimationFrame(()=>document.getElementById(a.dataset.anchor)?.scrollIntoView({behavior:'smooth',block:'start'})); }
-  else window.scrollTo({top:0,behavior:'smooth'});
+  e.preventDefault(); go(a.dataset.view); window.scrollTo({top:0,behavior:'smooth'});
 }));
+document.querySelector('.tabs a[data-anchor="stamtrae"]').addEventListener('click',e=>{
+  e.preventDefault(); go('oversigt'); history.replaceState(null,'','#stamtrae');
+  requestAnimationFrame(()=>document.getElementById('stamtrae')?.scrollIntoView({behavior:'smooth',block:'start'}));
+});
 addEventListener('hashchange',()=>{
   const hash=location.hash.slice(1), anchor=hash==='stamtrae';
   go(anchor?'oversigt':hash);
@@ -676,7 +678,7 @@ function renderPed(root){
   ped.setAttribute('viewBox',`0 0 ${W} ${H}`); ped.setAttribute('width',W); ped.setAttribute('height',H);
   pos = n => { const g=Math.floor(Math.log2(n))-g0; return {x:90+ypos[n]*(CW+GX), y:TOP+g*(CH+GY)}; };
   for(let g=g0; g<=gmax; g++){
-    const label=el('text',{x:pedDirection==='vertical'?6:6+(g-g0)*(CW+GX),y:pedDirection==='vertical'?TOP+(g-g0)*(CH+GY)-8:14,class:'gen-label'},ped);
+    const label=el('text',{x:6,y:TOP+(g-g0)*(CH+GY)-8,class:'gen-label'},ped);
     label.textContent=genLabel(g);
   }
   for(const n of Object.keys(slots).map(Number)){ if(n===root) continue; const a=pos(Math.floor(n/2)), b=pos(n);
