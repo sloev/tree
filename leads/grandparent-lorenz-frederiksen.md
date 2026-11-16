@@ -248,3 +248,48 @@ Jens Jensen (`p26`), father of Else Gedde Jensen, is recorded as son of Rasmus J
 - [Nybøl 1921 census scan](https://raw.githubusercontent.com/sloev/tree/main/images/07-nybol-folketaelling-1921.jpg)
 - [Gedde family photograph, 1895](https://raw.githubusercontent.com/sloev/tree/main/images/01-familien-gedde-1895.jpg)
 - See the family image catalog (archived outside the active leads index) for additional portraits and contextual imagery.
+
+
+## 12. Additional recovered leads: German-period Sønderjylland, Nybøl and Gedde collateral
+
+### Wilhelm Krogh's origins and family
+
+The extension gives a reported birth for Wilhelm Krogh (`p12`) of 9 October 1908 at a place read as either **Tastrup** or **Vastrup**, Kreis Flensburg. The place name must remain ambiguous until the 11 July 1932 Egernsund marginal note is reread at high magnification. Search the 1908 birth register at Kreisarchiv Schleswig-Flensburg, after identifying the correct Standesamt jurisdiction.
+
+A possible brother is Detlef Krogh, born 8 May 1905, who reportedly married in Broager in 1929 and had daughters registered in Nybøl in 1936 and 1940. The extension also notes a Detlef Krogh (born 1849) and Botilde (born 1850) in the 1921 Nybøl census as possible older relatives. These are **family-identification leads**, not established sibling or grandparent links. The best next step is the 1905 Detlef's 1929 Broager marriage entry, which should name his father; compare it with Wilhelm's 1908 German birth entry.
+
+For Sønderjylland after 1867, use German Standesamt civil registers and Kreisarchiv holdings as well as the relevant church books. The old extension identifies Broagerlands Lokalarkiv's teglværk personnel protocols as another possible source for Egernsund workers.
+
+### Paakjær farm records and the Sophus line
+
+Mathias Petersen (`sofus_ff`) reportedly built Paakjær in Nybøl in 1879; the farm was later called “Sofus minde”. This gives a collateral archival route: building application, fire-insurance policy and property records may identify the builder, owners and estate history. These records can corroborate household/property context but do not prove Lorenz's paternity.
+
+The Nybøl 1921 census scan and Sophus's 1903 baptism/grave scan are preserved in `leads/` and linked above. For the possible half-sibling group, the current citations cover Nybøl girls born 1938, 1940 and 1943. Read the register beyond 1943 before assuming a fourth daughter; if the Norway lead is correct, search Norwegian marriage banns and newspaper notices after identifying her full name.
+
+### Older Lorenz namesake warning
+
+The research extension also distinguishes an earlier Lorenz Heinrich Frederiksen (`p24`) in the Broager line from another namesake (`pf12`) in Egernsund, and from this grandparent (`p6`, born 1932). Keep these people separate by birth date, parents, spouse and parish. Do not merge on the shared forenames.
+
+### Herlufmagle fosterage and the Hammer name
+
+Paula Mathilde Christle Gedde (`p27`) is reported to have grown up in Herlufmagle parsonage with her aunt Christine Sophie von Kleist and the pastor Dr. theol. Edvard Snedorph Hammer. Edvard Hammer is Paula's foster/social father figure; the middle name of Paula's son Edvard Hammer Gedde (`p54`) is explained as honouring him. Preserve this as a foster/household relationship, not biological parentage. The family photograph from 1895 is an important captioned source for Paula's place among Edvard Hammer Gedde and Vitta Ludvigsen's children.
+
+### Emigration leads with specific contract details
+
+- **Olaf Gedde → Shanghai:** Copenhagen Police emigration contract no. 3534, dated 11 July 1904 (agent Haugsted), is already transcribed in the extension. Follow the contract through shipping and Danish consular records in Shanghai.
+- **Emil Gedde → Argentina:** two photographs from the Eldorado colony are cited as B9886 and B9790. Search the colony register at Museo Eldorado and Danish-Argentine congregation books, in addition to emigration and passenger records.
+- **Ove Gjedde vs Gedde:** the old admiral Ove Gjedde/Tranquebar line and the later bourgeois officer-family Gedde must remain separate. The shared surname is not proof of kinship.
+
+## 13. Harbou / von Kleist reconciliation cautions
+
+The 29-row Harbou worksheet in the uploaded segment is an audit instrument, not a completed reconciliation. Four rows need special care:
+1. `p3473` “Esther von Kameke”: one proposed reconstruction names an unnamed N.N. von Kameke as wife of Hans Jürgen von Kleist, while another source says Anna Esther von Kameke was wife of Pribislaff III.281. Confirm whether these refer to the same woman or two different generations before assigning parents.
+2. `p3475` “Anna von Fürst”: verify whether the family name is “von Fürst” or “von Fürsten”.
+3. `p6949` Hedwig Maria von Kleist: Harbou says she brought part of Groß Tychow into her marriage; if both spouses were von Kleist from different branches, record the cousin-marriage relationship accurately.
+4. `p1736` Cartz Ulrik's capture/wounding at Helsingborg (1710) and Gadebusch (1712) is attributed to Harbou; independent military-history corroboration remains desirable.
+
+Harbou is valuable for the Danish generations and military service, but it is a secondary reconstruction for Pomeranian ancestry before 1700. Use it to locate the relevant German family-history entries and Greifswald charters, not as a substitute for them.
+
+A separate extension proposes Hans Jürgen von Kleist as father of Pribislaff III.281 (`p3472`) and an unnamed von Kameke as mother, via Geneanet reconstructions. This conflicts with the later exp020–exp042 Muttrin audit's source numbering and is not yet reconciled. Do not encode either parent in canonical data until the precise III.22 / III.54 / III.114 / III.186 → III.281 sequence is checked in the German Muttrin volume and source references.
+
+The uploaded Tychow chain and Muttrin chain are not to be spliced. The 1477 Reimer/Bartes father conflict and the distinction between Pribislaff III.281 (d.1698) and Pribislaff III.22 (different person/branch) remain central safeguards.
