@@ -171,3 +171,18 @@ A further source search identified specific church-book series for the Harbou li
 - Bredstedt: the church-book overview lists baptisms 1764–1830 and marriages 1764–1826. Bredstedt is a reasonable first check for the 1770 marriage and Frederikke Louise Dorthea's 1786 birth because Harbou places Christian Frederik's estate and death near Bredstedt, but the event localities are not explicitly stated. Treat it as a first search, not a confirmed parish.
 
 Added these exact series, signatures/volumes and caveats to the Lorenz dossier. No individual entry has yet been inspected, and no canonical data was changed.
+
+
+## 2026-11-16 — Fix blank tree caused by malformed Kleist story string
+
+**User report:** public tree area blank; browser console showed Uncaught SyntaxError: Unexpected identifier 'https' (at tree/:709:960). User supplied a saved-page ZIP and screenshot.
+
+**Diagnosis:** inspected the uploaded saved HTML and matched line 709 to the live source site/template.html. The STORIES array's Kleist item used a JavaScript double-quoted string for its description, but embedded three HTML anchors with unescaped double-quoted href, target and rel attributes. The first https://... therefore appeared to the JS parser as an unexpected identifier. This is exactly consistent with the browser error and explains why the tree script did not execute.
+
+**Fix:** changed only the quote delimiters of the three embedded anchor attributes to single quotes in site/template.html; retained the story text, links, labels, person IDs and genealogy unchanged. Commit: 2aaf3b1468c6a4990c721234c87cc587efebe7f7.
+
+**Validation:** refetched site/template.html from main and confirmed the Kleist story has zero double-quoted href attributes and all three links now use single-quoted attributes. Extracted the corresponding inline JavaScript from the user's saved HTML, applied the same minimal quote correction, and ran node --check: the original script fails at the Kleist story entry, the corrected script passes with exit code 0. The other inline scripts in the saved HTML also pass syntax checking. This validates the parse fix; it does not independently verify a new Pages deployment or live browser rendering.
+
+**Scope:** no genealogy data, tree relationships, generated data or other story content changed. The fix is in the source template, not generated HTML. Automatic deployment status not yet verified.
+
+**Next:** confirm the Pages build/deployment from GitHub Actions or ask the owner to reload after the workflow completes; then continue the Kleist primary-record work.
