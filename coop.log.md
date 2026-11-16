@@ -287,3 +287,14 @@ A closer reading of the church-book inventory clarifies that the original name r
 4. Do not modify canonical data without primary evidence meeting the evidence rules.
 
 **Handoff:** Small commits on main only. Never expose private data. Repositories remain strictly separated from earlysmolweb.
+
+### Correction / new lead — Vor Frelsers bell-ringer name index released online
+
+The prior access caveat said volume 20 was not confirmed digitized. That has now been superseded by Rigsarkivet's Arkivalieronline release notices: October 2025 lists the Vor Frelsers bell-ringer's name index, content FØDTE 1704–1749; November 2025 lists the same series with content FØDTE 1704–1822 and a second index for 1750–1842. The parish inventory identifies the 1704–1822 index as volume 20, referring to bell-ringer baptism books 15–19 and 36.
+
+This confirms the index series was released online, not that we have read its images or found Christian Adam. Next: open the series in Arkivalieronline, search Christian/Christiern/Christian Adam and possible Adrian spelling, record the exact image/page and referenced baptism book, then inspect the primary entry and compare the minister's FVD 1686–1722 register. Status remains “Kræver mere belæg”; no canonical edge added.
+
+Sources:
+- https://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-oktober-2025.pdf
+- https://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-november-2025.pdf
+- https://slaegtsbibliotek.dk/900379.pdf
