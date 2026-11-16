@@ -3,6 +3,7 @@
     {
       "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
       "commit": "8042a92f5e231d387c81f4872230ac436199931f",
+      "created_at": "2026-11-17T00:23:40+01:00",
       "date": "2026-11-16",
       "date_label": "16.11.2026",
       "paths": [
@@ -14,6 +15,7 @@
     {
       "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
       "commit": "820386ada834c44a18a6c3be8d6a285490fb42fa",
+      "created_at": "2026-11-17T00:28:07+01:00",
       "date": "2026-11-16",
       "date_label": "16.11.2026",
       "paths": [
@@ -25,6 +27,7 @@
     {
       "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
       "commit": "f776d46f39343c97c1e4554a685bf68a8d24b701",
+      "created_at": "2026-11-17T00:29:23+01:00",
       "date": "2026-11-16",
       "date_label": "16.11.2026",
       "paths": [
@@ -32,18 +35,31 @@
       ],
       "people": [],
       "title": "Add probate cross-checks to Rousing and Tohde research"
+    },
+    {
+      "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
+      "commit": "66d35ad11e536880bfc83a777a7e7de551079cfc",
+      "created_at": "2026-11-16T23:30:54Z",
+      "date": "2026-11-16",
+      "date_label": "16.11.2026",
+      "paths": [
+        "coop.log.md"
+      ],
+      "people": [],
+      "title": "Order bulletin entries by precise commit time"
     }
   ],
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "f776d46f39343c97c1e4554a685bf68a8d24b701",
+    "commit": "66d35ad11e536880bfc83a777a7e7de551079cfc",
+    "created_at": "2026-11-16T23:30:54Z",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
-      "data/tree.json"
+      "coop.log.md"
     ],
     "people": [],
-    "title": "Add probate cross-checks to Rousing and Tohde research"
+    "title": "Order bulletin entries by precise commit time"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
