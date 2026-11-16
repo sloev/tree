@@ -1066,3 +1066,12 @@ No parent edge is added or changed. The 1477 charter and later family genealogie
 - Polish State Archives, Stettin, 65/10/0/7/151 (Bohlen manuscript): https://www.szukajwarchiwach.gov.pl/en/web/guest/jednostka/-/jednostka/7906489
 
 **Limit:** this is a source-stemma analysis of Quandt's printed transcription and critique, not a fresh inspection of the 1576 autograph, Bolduan's original, Kiel's copy, or the original 1477 parchment.
+
+
+### Independent re-check against the 2025 Tychow-Dubberow volume
+
+The 2025 second edition of the Tychow-Dubberow biographies makes the Hans attribution explicit: its contents identify “the sons of Hans of Tichow (I.24)” as Reimer and Bartes; the biography says they were first cousins of Jürgen and Peter of Dubberow because their fathers were brothers. It then gives Reimer's wife as a von Born of Grassee and his sons as Bartez, Tessen and Joachim; Bartes's wife as a von Briesen and his children as Martin, Jacob, Andreas and a daughter who married Volze of Raddatz. This provides a more detailed published reconstruction of the Tychow branch and supports the later Hans tradition as the current family-association genealogy. Source: 2025 *Tychow-Dubberower Linie*, pp. 134–136, https://www.v-kleist.com/FG/Dubberow.pdf.
+
+However, the same volume's introduction says that the name Hans in the generation after the earliest period rests on later genealogical material. Its 1477 reference does not quote the father phrase; it cites the charter for Reimer and Bartes being brothers. The actual 1477 text in Urk. 125, as printed by Quandt, separately says “Pribbeslaw of Muttrin with his sons, Reymer and Bartes, brothers at Tychow.” Thus the 2025 volume's Hans genealogy is a published modern synthesis, not independent primary confirmation of Hans's paternity. It appears to preserve the later family-genealogy reading while the 1477 text as transcribed names Pribbeslaw. This reinforces the decision not to change the canonical parentage or present the issue as settled.
+
+The 2025 volume also states that Tessen of Dubberow was a nephew of Hans of Tichow, while his father was allegedly Peter of Dubberow; it explicitly says the family records only state the nephew relationship and identify his marriage and two sons. This helps define the collateral relationship but does not resolve whether Hans or Pribbeslaw fathered Reimer and Bartes.
