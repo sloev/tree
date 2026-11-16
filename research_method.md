@@ -735,3 +735,31 @@ p32, **Niels Jørgensen**, er født ca. 1826 og gift 7. juli 1854 i Vor Frue Kir
 1. Åbn originalindførslen for vielsen 7. juli 1854 i Vor Frue, København, og transskriber brudgommens præcise fødested, alder, ophold og forlovere.
 2. Gennemgå Lunde Sogns fødte mandkøn 1824–1828, begynd med Niels Jørgensen omkring 1826; noter forældre, bopæl og faddere, og sammenhold dem med vielsen og Københavns folketællinger.
 3. Hvis Lunde ikke giver en entydig dåb, brug vielsens ordlyd og til-/afgangslister til at afgøre, om “Hove” peger på en anden lokalitet. Ingen brede navnematches må tilføjes uden identitetskontrol.
+
+
+## Milestone 32 — Ahnentafel 32: Vor Frue-vielsesregister fundet, men billedet kræver manuel aflæsning (16. november 2026)
+
+### Forskningsmål
+Fortsat undersøgelse af p32 Niels Jørgensen (ca. 1826), gift 7. juli 1854 i Vor Frue Kirke, København, med Johanne Sophie Hansdatter. Træets fødestedstransskription er “Hove/Høje sogn, Svendborg amt”; forældre er ukendte.
+
+### Nyt, konkret arkivfund
+- Rigsarkivets Arkivalieronline har et særskilt **Register til Vor Frue Kirkes vielser 1814–1891**, arkivskaber/serievisning: https://arkivalieronline.rigsarkivet.dk/da/other/index-creator/29/790837/17256642
+- Registeret er opdelt i to skannede dele, **A–L** og **M–Ø**. Niels Jørgensen skal derfor søges i M–Ø-delen efter brudgommens efternavn Jørgensen; Johanne Sophie Hansdatter kan desuden kontrolleres i A–L efter brudens efternavn Hansdatter. Det giver to uafhængige indgange til samme vielse.
+- Direkte billedviser til M–Ø-delen: https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=17256642. Web-tekstvisningen viser kun billedrammen og ikke selve registeropslaget, så jeg har ikke kunnet aflæse opslag, sidetal eller henvisning til vielsesprotokollen.
+- Rigsarkivets registratur for Vor Frue bekræfter, at kontraministerialbogens vielsesbind **3-13-41** dækker **november 1838–oktober 1860**, altså den relevante vielse i juli 1854. Registraturen gengives i Danskernes Historie Online, https://slaegtsbibliotek.dk/905009.pdf (s. 65 i PDF-udtrækket). Det er et præcist mål for originalindførslen, når registerets sidetal er aflæst.
+- Rigsarkivets vejledning beskriver kirkebøger fra ca. 1814 som hoved- og kontraministerialbøger og anbefaler søgning efter sogn, tidspunkt og navn: https://www.rigsarkivet.dk/vejledning/kirkeboeger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/.
+
+### Lunde-sporet: arkivmæssig præcisering
+- DS-Wiki bekræfter, at Lunde Sogn i Sunds Herred, Svendborg Amt har kirkebøger 1678–1814 og 1814–1990: https://wiki.slaegt.dk/index.php/Lunde_Sogn_%28Sunds_Herred%29.
+- En Daisy-søgning på “Lunde Sogn” gav imidlertid arkivskaberen **Lunde Sogn (Odense Amt)**, som er et andet sogn. Den tilhørende 1814–1891 dåbsserie må ikke forveksles med Lunde i Sunds Herred. Den tidligere Lunde-kandidat er fortsat uafklaret; der skal vælges korrekt arkivskaber “Lunde Sogn (Svendborg Amt)” før en dåbssøgning.
+- Rigsarkivets kirkebogsvejledning siger, at 1814–1960-bøger findes som hoved- eller kontraministerialbøger, og at til-/afgangslister kan findes i nogle sogne. Kilde ovenfor.
+
+### Kildekritik og status
+- Den digitale registraturs eksistens og dens to alfabetiske dele er verificeret. Den konkrete Niels/Johanne-indførsel er **ikke** aflæst, og der er derfor endnu ingen original henvisning eller nye oplysninger om alder, fødested, forlovere eller forældre.
+- Ingen data i data/build_data.py, data/family.json eller family-tree.md er ændret. Ingen relationer eller fødesteder er opgraderet fra hypotese til faktum.
+- Ingen private eller krypterede data blev tilgået. Ingen build eller tests er kørt.
+
+### Næste konkrete skridt
+1. Åbn M–Ø-registerbilledet i en almindelig browser og find Jørgensen; noter registerets præcise henvisning. Søg derefter A–L-delen efter Hansdatter som krydskontrol.
+2. Brug henvisningen til vielsesbind 3-13-41 (nov. 1838–okt. 1860) og aflæs originalindførslen 7. juli 1854: alder, fødested, ophold, erhverv, forlovere og eventuelle fædre.
+3. Først derefter afgøres det, om Lunde (Sunds Herred) er rette sogn; identificér den korrekte Daisy-arkivskaber og undersøg fødte mandkøn 1824–1828 samt relevante til-/afgangslister.
