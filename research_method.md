@@ -86,3 +86,19 @@ A research task is complete when another researcher can repeat the source search
 ## 8. Current handoff
 
 The active branch dossiers and the latest entries in `coop.log.md` are the live status. In particular, the Lorenz paternity question remains unresolved: the Egernsund register records Wilhelm Krogh as biological father following a declaration and court decision; the family account identifies Sophus Petersen; Peter Frederiksen was the social/stepfather. The original 1932 case file has not yet been inspected. Keep these three roles distinct and do not mark biological paternity as settled.
+
+
+## 8. Publication threshold: publish with an explicit status
+
+Do not hold a credible historical claim back from the public family tree merely because it is not proven beyond doubt. Publish it with a plain-language confidence label and a short explanation of what the source does and does not establish. The aim is a living, qualified family history, not an indefinitely unfinished research project.
+
+Use these public labels:
+
+- **Well established / Godt belagt:** contemporary records or strong, genuinely independent corroboration support the stated fact.
+- **Needs more evidence / Kræver mere belæg:** the claim is credible, but an identity, parent-child link, reading or intermediate generation remains unresolved.
+- **Speculative / Foreløbig hypotese:** a plausible reconstruction, family tradition or possible identification; never render it as a proven parent-child edge.
+- **Family account / Familieoplysning:** a provenance label, not a confidence rating. Preserve the account as a claim and seek corroboration without erasing it.
+
+Assess the existence/identity of a person separately from every relationship attributed to that person. A well-documented individual may have speculative parentage. A source may establish a person's title, landholding or presence as a witness without proving descent. Distinguish biological, legal/registered, marital, step, foster, guardian and household ties. If the website's current data model cannot label a particular relationship independently, explain that limitation in the person's note and do not imply that person-level confidence automatically validates the edge.
+
+Publication is not permission to flatten contradictions: show competing readings and identify which source is contemporary, derivative, or family tradition. Change the canonical parent edge only when the evidence supports that relationship at the chosen level; otherwise publish the person and claim without connecting the line.
