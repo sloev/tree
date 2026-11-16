@@ -189,3 +189,27 @@ Added these exact series, signatures/volumes and caveats to the Lorenz dossier. 
 
 
 **Generated-site rebuild:** after the source-template fix, regenerated the two tree outputs using the exact substitutions and wrapper logic in site/build.py, with current main data/family.json, data/map.json, site/unlock.js and all 11 referenced image assets. Updated site/index.html and docs/index.html (the GitHub Pages publication directory). Commits: 27b47c729366519ae8d9661379f47d90c93bb103 and 49657430ce934823ee13db8b026dcc27a6268f6a. The generated files were written successfully and their repository blob refs were re-fetched; the GitHub file-fetch wrapper returned empty content for these multi-megabyte files, so a full content round-trip was not available. The generation inputs and replacement logic match site/build.py. Live Pages rendering/deployment still needs external confirmation.
+
+
+## 2026-11-16 — ChatGPT: publish Kleist–Gedde source-critical update
+
+**Repository/branch:** `sloev/tree`, `main`; confirmed the live default branch and recent commits before editing. No feature branch created.
+
+**Files read:** `AGENTS.md`, `README.md`, `research_method.md`, `leads/README.md`, `coop.log.md`, `site/template.html`, `site/build.py`, `data/build_data.py`, and the Lorenz dossier. Confirmed the four-dossier workflow, canonical data source, privacy boundary, and publication rules.
+
+**Research assessment:**
+- Rechecked the latest committed Harbou correction and the Lorenz dossier's Gedde line. Harbou (1897, pp. 100–102) names Christian Adam as son of Cartz Ulrik and Barbara Juliane; the old DBL father attribution to maternal grandfather Christian Casimir is a known generation error.
+- The 1808 Fredensborg Slotssogn baptism (BSID 594366, image 65) independently calls Ove Samuel Gedde's wife “Frederikke Lovise Birthe født Kleist”; Harbou gives “Frederikke Louise Dorthea”. Kept the variant visible and did not treat the baptism as proof of her parents.
+- Vor Frelsers 1705 minister's register and bell-ringer's parallel index/register remain uninspected primary targets. Rendsburg and Bredstedt parish suggestions remain search hypotheses, not confirmed event localities.
+- No canonical parent edge, confidence field, GEDCOM or family data was changed.
+
+**Files changed:**
+- `site/template.html`: inserted a dated, source-qualified Kleist–Gedde bulletin item ahead of the older Tychow headline. This directly addresses the stale-looking latest bulletin entry; the bulletin is hand-authored in the template, not automatically generated from `coop.log.md`.
+- `leads/grandparent-lorenz-frederiksen.md`: added the source-critical revision, exact primary-register search plan, name variant, and explicit limits of the 1808 Gedde baptism.
+- `coop.log.md`: this handoff.
+
+**Commits:** template `1679f44eff4f774da3e332b89b30000035def8dc`; Lorenz dossier `88a371c1d7e5d277032676718dc8898c4126f860`; this log entry follows.
+
+**Build/publication:** not yet run or independently verified in this entry. The repository has a GitHub Actions rebuild workflow; inspect its latest run and confirm the generated-output commit and GitHub Pages deployment before claiming the public page is updated. Do not change generated HTML by hand.
+
+**Next:** verify workflow and Pages; then continue with Vor Frelsers 1705 original baptism entry, including the bell-ringer's parallel series. If the image is inaccessible online, send Rigsarkivet a precise lookup request. After the Kleist line, resume the outstanding tasks in the Evald, Liss and Gerda dossiers.
