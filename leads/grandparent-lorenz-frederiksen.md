@@ -1091,3 +1091,45 @@ The public family tree should include the credible historical evidence and the f
 | Pribislaff III.281 (`p3472`) → Cartz Ulrik III.369 (`p1736`) | **Well established within the published Danish genealogy** | Harbou's 1897 published genealogy explicitly gives the relationship; it is already represented in canonical data. | Harbou is a secondary published source; this review did not locate a primary record that independently confirms the parentage. |
 
 The 2025 Tychow-Dubberow volume is useful evidence of the modern family-association reconstruction, but it is not an independent primary witness to the disputed Hans paternity. The 1477 wording and the later Hans tradition should remain visible side by side. The source-stemma analysis and archive retrieval targets above remain active leads; publication does not close the research.
+
+
+## Kleist line to the Danish Gedde branch: direct chain and next proof targets (16 November 2026)
+
+The latest source comparison makes the Danish connection much clearer. This is the rewarding, well-defined part of the Kleist research and should now take priority over repeating the unresolved Lorenz paternity searches.
+
+### The documented Danish descent
+
+H. W. Harbou's 1897 article, “Slægten von Kleist i Danmark,” gives the following chain:
+1. **Pribislaff III.281** of Muttrin, Borntin, Döbel and Drenow, and Esther von Kameke, were the parents of **Cartz Ulrik III.369**. Harbou records his Brandenburg service in Brabant (1692–1694), Danish service from 9 August 1701, promotion to lieutenant-colonel, death at Rendsburg in 1722 and burial on 17 November.
+2. Cartz Ulrik married **Barbara Juliane von Kleist**, daughter of Christian Casimir II.82 of the Tychow line. This is a marriage linking the Muttrin and Tychow-Dubberow branches of the same wider family.
+3. Their son **Christian Adam III.466** was born 1 October 1705 and baptised at Frelsers Kirke, Christianshavn.
+4. Christian Adam's son **Christian Frederik III.601** was born 25 August 1743. He married Anna Margrethe Schubart in 1770.
+5. Their daughter **Frederikke Louise Dorthea** was born 5 January 1786 and married **Ove Samuel Gedde** on 24 June 1806.
+
+This is the explicit published bridge from the Kleist family into the Danish Gedde line. Harbou's article cites military, church, probate and official records in its notes, but remains a 1897 synthesis; the cited original records should be checked before describing every link as primary-record proven. The key names, dates and relationship statements are recorded in Harbou, pp. 95–102. Source: https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf.
+
+### The Muttrin inheritance chain behind Pribislaff III.281
+
+The family association's *Materialzusammenstellung zu den früheren Gütern der Familie v. Kleist*, printed pp. 118–119, supplies a more concrete property-history chain:
+- In the second half of the 17th century, Muttrin passed from Hans von Kleist of Borntin (III.186) to his son Pribislaff (III.281).
+- Its footnote states that Hans III.186 inherited from his father III.114, who inherited from his father III.54, who inherited from his father III.22.
+- After Pribislaff's death, the division agreement dated **12 June 1698** allocated Muttrin to Christoph Jürgen III.470, son of his deceased brother Hans Jacob; Christoph Jürgen then ceded it to his cousin Adam Heinrich III.368, Pribislaff's eldest son.
+
+This is valuable because it ties the numbered pedigree to a succession of named estates and inheritance events, rather than relying only on an online family tree. It is still a compiled estate-history summary, not the original fief or inheritance documents. The 12 June 1698 date here concerns the division of Muttrin; do not conflate it with the separately reported 12 July 1698 Drenow transaction. Those dates need checking against the originals.
+
+Source: *Materialzusammenstellung*, pp. 116–119, especially pp. 118–119: https://www.v-kleist.com/FG_allg/G_Zusammenstellung.pdf. Its introductory note says it is an evolving compilation of 18th- and 19th-century estate descriptions and cross-references the numbered biographies in the family history.
+
+### Where to verify it in the archives
+
+The family association's Greifswald archive inventory gives the most actionable targets:
+- **Landesarchiv Greifswald, Rep. 40 Nr. 35 gg, Bl. 2–13:** 99 extracts of Kleist fief documents assembled by Lehnsarchivar Thilo. The family association notes that the original was sold to Peter Christian von Kleist in 1766 and that it is uncertain whether the text now in the archive is the original or a later copy.
+- The same file includes genealogical work by Pastor Steinbrück (father, c.1780) and his son (c.1820–1830). These are family-history compilations, not contemporary records.
+- **Rep. 41 Nr. 28 Plathe:** the two versions of von der Osten's Adelsspiegel, with handwritten additions. Useful as a separate comparison witness, but not a substitute for the fief documents.
+
+The family association's archive inventory is a secondary finding aid, but it gives precise shelfmarks and describes the provenance caveats: https://www.v-kleist.com/bestand_greifswald.htm. It also identifies Rep. 40 III 35ac and Rep. 40 III 35gg as Steinbrück material. A request should ask staff to identify all extracts concerning III.22, III.54, III.114, III.186, III.281 and III.369, and to distinguish the original charter, contemporary copy, later extract and genealogical annotation.
+
+### Keep the early-medieval uncertainty in its proper place
+
+The 1477 charter conflict over whether Reimer and Bartes were sons of Pribbeslaw of Muttrin or Hans of Tychow concerns the collateral Tychow branch. It does not erase Harbou's later documented marriage link between Barbara Juliane of Tychow and Cartz Ulrik of Muttrin, nor the explicit Danish descent through Christian Adam, Christian Frederik and Frederikke Louise. It does, however, mean that the early Tychow pedigree must remain qualified. The 1364 Prissebur record, the 1477 collective fief letter and the later family genealogies are separate pieces of evidence; none alone proves an unbroken descent from the 13th century to Cartz Ulrik.
+
+**Working conclusion:** the Kleist-to-Gedde connection through Cartz Ulrik and Frederikke Louise Dorthea is a credible, specifically documented published genealogy. The immediate parentage of Cartz Ulrik is supported by Harbou and the family register; the generations behind Pribislaff III.281 are supported by a denser but still secondary property/genealogy trail. The next high-value action is to retrieve the fief extracts and inheritance documents at Greifswald, then compare Harbou's Danish citations with the original church and probate records. No canonical parent edge is changed by this review.
