@@ -527,7 +527,7 @@ uncertaintyToggle?.addEventListener("change",()=>{
   showUnderInvestigation=uncertaintyToggle.checked;
   document.body.classList.toggle("show-uncertain",showUnderInvestigation);
   if(Object.keys(nodes).length) renderPed(pedRoot);
-  if(document.getElementById("tbody")?.dataset.ready==="1") drawPeople();
+  if(document.getElementById("tbody")?.dataset.ready==="1") document.getElementById("q")?.dispatchEvent(new Event("input"));
 });
 const P = DATA.people, byId = Object.fromEntries(P.map(p=>[p.id,p]));
 if(byId.p1 && !byId.p1.private) document.getElementById('eyebrow').textContent='Slægtsbog for '+byId.p1.name;
