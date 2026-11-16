@@ -143,3 +143,14 @@ Important clarification incorporated into the dossier:
 - The full proposed path exp020–exp042 has been written into the Lorenz dossier with source-by-source grades and the limits of each generation.
 
 No canonical data or GEDCOM edges were changed. No local tests/build were run.
+
+
+### Medieval source-critical follow-up — Urk. 75, Nycolaus Klest (1325), Urk. 83
+
+- Compared the 1862 Kleist Urkundenbuch transcription of Urk. 75 with the 1888 Pommersches Urkundenbuch transcription. The former prints `Prissebur, Clest fratres` and says the original has a comma between the two names; the latter prints `Prissebur, Clest, fratres`. Both editions note the source as the original Bukow charter in the Stettin State Archive, damaged by moisture, with seal detached. The grammatical reading is disputed.
+- Read Eberhard Sauer's 1937 dissertation extracts (published 1939), which explicitly argues that “Prissebur, [the] Clest brothers” is possible and that Kratz/Quandt's brother reading is not proven. Sauer emphasizes the gap between the 1289 witnesses, Nycolaus Klest in 1325 and Prissebur of Muttrin in 1364; he does not establish a link among them.
+- Located the 1325 charter itself in Pommersches Urkundenbuch VI, Urk. 3888. It names Nycolaus Klest as a witness to a Dargun boundary settlement; the edition says it is based on the original in the Hauptarchiv Schwerin, Dargun collection. The record does not state his residence or parentage. Sauer's possible Kolberg citizenship is an interpretation only.
+- Reconfirmed Urk. 83 (22 June 1364) in the Kleist Urkundenbuch. Its source note identifies a 1589 transsumpt and several sixteenth-century copies, not the original 1364 parchment. Also found a typo in the current family-association “Wichtige Urkunden” summary which calls Urk. 83 1368; the document itself and other indexes give 1364, while Urk. 84 is the 1368 Dubbeslaff record.
+- Updated the Lorenz dossier with the source-critical comparison and revised assessment: Urk. 75 → Urk. 83 is not proven; the 1325 Nycolaus is an independent name-bearing witness, not a bridge. No canonical parent links changed.
+- Sources read: https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf ; https://kpbc.umk.pl/Content/23561/PDF/Pomorze_062_05.pdf ; https://kpbc.umk.pl/Content/23455/PDF/Pomorze_062_12.pdf ; https://v-kleist.com/FG/Adel_Ostpommern.htm ; https://v-kleist.com/FG/Muttrin/Muttrin.pdf
+- No local tests/build/deployment run. No private records opened.
