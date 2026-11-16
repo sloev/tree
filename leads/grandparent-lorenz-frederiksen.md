@@ -122,11 +122,18 @@ Do not rewrite the biological father field as settled. The current JSON's `fathe
 
 ### Archive route
 
-Rigsarkivet's current guidance says paternity cases from 1919–1970 generally began with police; disputed paternity was decided by civil court; maintenance/alimentation files are held by the county archive. For Aabenraa-Sønderborg Amt from 1932 onward, the relevant 1920–1935 journals/case files require the unprinted reading-room finding aid. Search the police/civil case file and the county archive alimentation records using the 5 April declaration, 10 June decision and 11 July marginal-note dates.
+Rigsarkivet's current guidance says paternity cases from 1919–1970 generally began with police; disputed paternity was decided by civil court; maintenance/alimentation files are held by the county archive. The recommended first route is the county archive's alimentation journal/register and case file, followed by the civil court's paternity case list and judgment book, and then the police journal if needed. Search using Else Gedde Frederiksen/Jensen, Lorenz (born 12 January 1932), Wilhelm Krogh of Snogbæk, the 5 April declaration, 10 June decision and 11 July marginal-note dates.
 
-Official guidance:
+**New archival finding — exact county archive and a date-boundary trap (researched 16 November 2026):**
+- The official Rigsarkivet archive overview identifies both the **Sønderborg Amt archive (1920–1932)** and the **Aabenraa-Sønderborg Amt archive (1920–1971)**. It says the Sønderjylland county archives are journal archives with registers and case files, and that the Aabenraa/Aabenraa-Sønderborg holdings include *alimentationssager*. The 1920–1935 journal/register/case-file finding aid is unprinted and must be consulted in the Aabenraa reading room; the overview specifically lists an internal handover register for the Sønderborg Amt archive.
+- The same overview states that Aabenraa and Sønderborg counties were merged with effect from **1 April 1932**. The Egernsund birth occurred on 12 January 1932, but the paternity declaration and judgment cited in the marginal note are dated **5 April and 10 June 1932**, respectively. Therefore do not assume all three documents are filed under the same county archive creator: inspect both **Sønderborg Amt** (for the January birth / any opening record) and **Aabenraa-Sønderborg Amt** (for the April–June 1932 declaration/judgment and later alimentation administration). Daisy's creator page labels Aabenraa-Sønderborg Amt from 1933, while the archive overview gives the merger's effective date as 1 April 1932; treat the naming/transfer boundary as an archival catalogue issue to confirm with staff, not as settled from the catalogue label alone.
+- The county archive is the best starting point, but the civil/police records remain separate possibilities: the 1932 county merger did **not** transfer police or court powers to the amtmand. Rigsarkivet's archive creator note explicitly says amtmen had no police or court powers after 1919. Use the civil court and police route if the county file does not contain the judgment or source references.
+- The 1932 file is beyond the general 75-year access restriction described by Rigsarkivet, but availability of a particular file still needs confirmation in Daisy and with the archive.
+
+Official guidance and finding aids:
 - [Rigsarkivet — paternity and adoption cases](https://www.rigsarkivet.dk/vejledning/faderskab-og-adoption/faderskabssager-kom-godt-i-gang/)
 - [Landsarkivet for Sønderjylland archive overview](https://www.rigsarkivet.dk/wp-content/uploads/2022/06/Landsarkivet-for-Soenderjylland-En-arkivoversigt.pdf)
+- [Daisy — Aabenraa-Sønderborg Amt archive creator](https://daisy.rigsarkivet.dk/arkivskaber_detaljer?a=&b=&c=b%C3%B8rnehjem&d=1&dir=a&e=2016&ed=&ep=&es=&f=&faid=&g=&gsc=he&h=&heid=14334077&henid=14334077&int=&m2rid=&meid=&ngid=709207&ngnid=&side=1&sort=3)
 
 ## 3. Sophus Petersen's reported daughters / possible half-siblings
 
