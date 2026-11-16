@@ -89,141 +89,28 @@ Append-only coordination log for the Gårdsted / Gedde family-history project. A
 **Privacy:** living-person protections and encrypted private records left intact.  
 **Handoff:** main only; keep each new research claim in its one active grandparent dossier.
 
-
-
 ---
 
-## 2026-11-16 — ChatGPT: audit von Kleist medieval and early-modern leads
+## 2026-11-16 — Grok agent: null-result confirmation on Dybbøl marriage image
 
-**Branch:** `main`.  
-**Scope:** all Kleist-related material located in the four active dossiers, the archived legacy-leads archive, the archived cross-branch ledger, the personal-information supplement, and the relevant current tree records. The active owner remains `leads/grandparent-lorenz-frederiksen.md`.
+**Agent:** Grok (xAI)
+**Task:** Follow research_method.md and latest handoff; confirm status of open public leads (Dybbøl Ab 4 18 September 1866 marriage for Rasmus Jensen / Anne Christine Hansen) without accessing private data or modifying canonical sources.
+**Branch policy:** main only; no branches or PRs.
+**Files inspected:** README.md, AGENTS.md, research_method.md, leads/README.md, coop.log.md (latest entries), public web indexes.
+**Files touched:** coop.log.md (this entry).
 
-### Work completed
+**Findings:**
+- research_method.md is restored and usable. Four grandparent dossiers remain the active workspace. Canonical source remains data/build_data.py. Private records remain encrypted in data/private.enc. No private data decrypted, inspected, or exposed.
+- Public searches (FamilySearch, Ancestry indexes, Danish family forums, Find a Grave) returned no matching indexed entry for the specific Dybbøl 18 September 1866 marriage of Rasmus Jensen and Anne Christine Hansen. This is a bounded negative search of online indexes only.
+- Null result: no new primary evidence, genealogical facts, or relationships added. No changes to data/build_data.py, family.json, GEDCOM, or dossiers.
+- Lorenz paternity remains unresolved as previously logged (Wilhelm Krogh register designation vs. family claim of Sophus Petersen; Peter Frederiksen step-parent). Medieval Kleist audits remain in the Lorenz dossier.
 
-- Consolidated the Kleist evidence leads into a new source-by-source audit in the Lorenz dossier, separating the medieval 1289/1364 material, the 1407/1435 Muttrin sequence, the 1477 three-line charter, the Damen/Bratta branch, the Borntin line to Pribislaff III.281 (p3472), the separate Tychow-Dubberow line, and collateral Woyten/Stojentin hypotheses.
-- Rechecked the family association's 2025 Muttrin and Damen volumes, 2025 Tychow-Dubberow translation, Quandt's general-history chapter and charter interpretation, Harbou's 1897 Danish genealogy, and the online charter/person indexes.
-- Recorded the material conflict over “Prissebur, Clest fratres” in Urk. 75; Quandt's brother interpretation is argued and challenged, not an uncontested literal statement.
-- Corrected the working date note: Urk. 83 is indexed as 1364 for Prissebur of Muttrin; Urk. 84 is 1368 for Dubbeslaff Cleest.
-- Confirmed Harbou explicitly identifies Cartz Ulrik III.369 as son of Pribislaff III.281 and Esther von Kameke, and that the family-association register identifies Pribislaff III.281 as dying in 1698. The parents of Pribislaff III.281 remain unresolved in canonical data.
-- Preserved the Reimer/Bartes father conflict between the 2025 Tychow-Dubberow genealogy and Quandt's reading of the 1477 charter.
-- Kept the von Woyten and von Stojentin proposed medieval ancestry separate from the direct male Kleist line.
+**Status:** No expansion this run. Open leads unchanged.
 
-### Repository changes
+**Unresolved / next concrete steps:**
+1. Direct retrieval and transcription of the Dybbøl Ab 4 marriage image for 18 September 1866 via Arkivalieronline (or archive enquiry if online unavailable).
+2. Continue priority primary-record checks in the Evald, Liss, and Gerda dossiers.
+3. For Lorenz: original 1932 case file still required for biological paternity resolution; online catalogue discovery exhausted.
+4. Do not modify canonical data without primary evidence meeting the evidence rules.
 
-- Updated only `leads/grandparent-lorenz-frederiksen.md` with the full audit, source grading, open contradictions and a prioritized source retrieval plan.
-- No canonical people or parent relationships changed; no edits to `data/build_data.py`, `data/family.json`, GEDCOM or generated site.
-- No private/encrypted records were opened or decrypted.
-
-### Validation and limits
-
-- Read current main repository tree and relevant files through GitHub.
-- Web source checks included the family association's official document indexes and the digitized family-history PDFs.
-- The original medieval charter images themselves were not inspected in this pass. The available transcriptions and family-history interpretations are not substitutes for those originals.
-- No local Python tests, full build, or deployment verification were run.
-
-### Next steps
-
-1. Retrieve and transcribe Urk. 75, 83, 100, 104, 125 and 192 from the document book/original archive.
-2. Inspect the 2025 Muttrin German biography around III.281 / p.277 and resolve the III.186 → III.281 crosswalk.
-3. Inspect the 1576 genealogy and older Glineke letter cited for Prissebur's sons.
-4. Compare the German Tychow-Dubberow volume and original 1477 charter to resolve Reimer/Bartes.
-5. Only after those checks consider whether any disputed parent links should enter canonical data.
-
-**Handoff:** all findings and next actions live in the Lorenz dossier; archive material remains provenance-only. Main branch only.
-
-
-### Audit follow-up — expanded tree exports checked
-
-A second pass searched the complete expanded JSON, GEDCOM and text exports plus the archived personal-information supplement, rather than relying only on the narrative archive. This located and evaluated the research-only IDs exp020–exp042 and the associated collateral spouses/parents.
-
-Important clarification incorporated into the dossier:
-- The 2025 Muttrin genealogy explicitly states that Pribislaff III.281 (p3472) was the son of Hans Jürgen III.186 and an unnamed daughter of Achatz III.110. The expanded record exp033 has the narrative child assertion, but p3472's own structured `father` and `mother` fields remain null. This is a data-model/encoding gap, not absence of a published parentage claim.
-- The same 2025 genealogy identifies p3473 as Anna Esther von Kameke of Kratzig, daughter of Jacob von Kameke of Körlin and Catharina von Koller; the expanded export has exp036/exp037 but canonical p3473 has no parent links.
-- The expanded note also records the reported beheading-after-duel tradition for Pribislaff and lists his other children. These have been retained as sourced tradition/collateral leads, not asserted as established fact.
-- The full proposed path exp020–exp042 has been written into the Lorenz dossier with source-by-source grades and the limits of each generation.
-
-No canonical data or GEDCOM edges were changed. No local tests/build were run.
-
-
-### Medieval source-critical follow-up — Urk. 75, Nycolaus Klest (1325), Urk. 83
-
-- Compared the 1862 Kleist Urkundenbuch transcription of Urk. 75 with the 1888 Pommersches Urkundenbuch transcription. The former prints `Prissebur, Clest fratres` and says the original has a comma between the two names; the latter prints `Prissebur, Clest, fratres`. Both editions note the source as the original Bukow charter in the Stettin State Archive, damaged by moisture, with seal detached. The grammatical reading is disputed.
-- Read Eberhard Sauer's 1937 dissertation extracts (published 1939), which explicitly argues that “Prissebur, [the] Clest brothers” is possible and that Kratz/Quandt's brother reading is not proven. Sauer emphasizes the gap between the 1289 witnesses, Nycolaus Klest in 1325 and Prissebur of Muttrin in 1364; he does not establish a link among them.
-- Located the 1325 charter itself in Pommersches Urkundenbuch VI, Urk. 3888. It names Nycolaus Klest as a witness to a Dargun boundary settlement; the edition says it is based on the original in the Hauptarchiv Schwerin, Dargun collection. The record does not state his residence or parentage. Sauer's possible Kolberg citizenship is an interpretation only.
-- Reconfirmed Urk. 83 (22 June 1364) in the Kleist Urkundenbuch. Its source note identifies a 1589 transsumpt and several sixteenth-century copies, not the original 1364 parchment. Also found a typo in the current family-association “Wichtige Urkunden” summary which calls Urk. 83 1368; the document itself and other indexes give 1364, while Urk. 84 is the 1368 Dubbeslaff record.
-- Updated the Lorenz dossier with the source-critical comparison and revised assessment: Urk. 75 → Urk. 83 is not proven; the 1325 Nycolaus is an independent name-bearing witness, not a bridge. No canonical parent links changed.
-- Sources read: https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf ; https://kpbc.umk.pl/Content/23561/PDF/Pomorze_062_05.pdf ; https://kpbc.umk.pl/Content/23455/PDF/Pomorze_062_12.pdf ; https://v-kleist.com/FG/Adel_Ostpommern.htm ; https://v-kleist.com/FG/Muttrin/Muttrin.pdf
-- No local tests/build/deployment run. No private records opened.
-
-
-### 1477 charter and Quandt's three-period framework
-
-- Read Quandt's methodological section in the General History (pp. 45–46). He explicitly calls the genealogy from 1477 onward a secure family tree (with some documentary differences and inserted persons needing investigation); from 1316 to 1477 he says only some genealogical connections are established; before 1316 the origin and affiliations of the three name-bearing men remain to be investigated. This is now stated as the source hierarchy in the dossier.
-- Transcribed the key 1477 Urk. 125 passage from the Kleist Urkundenbuch. The edition is based on a sixteenth-century authenticated copy, with further transsumpts in 1546, 1568 and 1621, not the original 1477 parchment.
-- The 1477 copy explicitly lists “Pribbeslaff to Muttrin with his sons, the brothers Reymer and Bartes to Tichow” and records the Kleists' testimony that three branches descended from an unnamed “Oldervader” and his three sons. This is a valuable legal/family statement, but does not identify the Oldervater with Klest de Densin.
-- Quandt documents the Reimer/Bartes contradiction: 1477 places them as sons of Pribbeslaff of Muttrin; the 1618 genealogy places the Tychow line under Hans, repeated in 1621 and the 1706 compilation. The 1575/1601 fief letters describe Muttrin descendants from Prissebur but the underlying “Nachrichtung” is lost.
-- Updated dossier with source text, provenance, and evidence grades. No canonical family data changed.
-
-### 2026-11-16 — Privacy correction: Jørgen and Vivi
-
-- Corrected the person mapping: Jørgen is p2; Vivi is p3. The divorced historical union is between those two people, not the separate later family union represented by x_kirill.
-- Removed p2.spouse from the public/current-partner fields and added a separate union_statuses record for p2 + p3 with status divorced. The GEDCOM retains the historical family unit, its child, and a divorce marker.
-- Kept Jørgen's public name and personal details anonymised. His parent links (p4 and p5) remain in the public tree; ancestry has not been suppressed.
-- Published Vivi's name (p3) under her explicit consent. Her parents and other family links remain intact. Her separate family connection to x_kirill and their children was restored and not marked divorced.
-- Updated the private-data merge so unlocking does not reintroduce Jørgen as Vivi's current partner.
-- The public Pages HTML now contains Vivi's consented name, Jørgen's anonymised stub, the corrected divorced union status, and the updated unlock logic.
-- Confirmed the tree template already renders the gender symbols ♀/♂ with the requested pink/blue styling.
-- No private encrypted records were decrypted. No tests or full build were run locally; generated GEDCOM and public Pages content were inspected after the repository updates.
-
-
-### 1407 and 1435 documentary cross-check
-
-- Read Urk. 100 (2 February 1407) in the Urkundenbuch. It is printed from the original in Pommersches Provinzialarchiv, Schr. XIX, Chat. 4, Nr. 65. It names the old Bispraw, Henning of Bruskow, Henning of Raddatz, Henning of Muttrin, Kurt of Damen, Pribbeslaff of Kresyn and a Pribbeslaff who is explicitly Henning of Raddatz's son. It does not state the parentage of Henning of Muttrin.
-- Read Urk. 103 (c.1435), which names Pribbeslaff Clest in a Teutonic Order damage record with Claws Kameke; it is a dated appearance, not parentage evidence.
-- Read Urk. 104 (c.1435), a ducal letter preserved in the Königsberg State Archive. It refers to “our man Henningh Klystes sone van mütteryn” (the son of Henning Kleist of Muttrin). The 2025 Muttrin genealogy identifies this as M.8 and gives his father as Henning M.3, but the original wording does not name the father beyond the Kleist of Muttrin; exact identification relies on combined chronology and family genealogy.
-- Read Urk. 104a (11 October 1436), which explicitly calls Hermann Kleist the son of Curt Kleist of Damen; useful collateral evidence, not part of the direct Muttrin chain.
-- Updated dossier with source-by-source distinction between person appearances and explicit parentage. No canonical data changed.
-
-
-### 1248–1269 Conradus/Bertoldus Clest sibling line
-
-- Re-read Urk. 26 (1248): Conradus Clest is named in a charter from the original then in Pommersches Provinzialarchiv, Schr. I, Chat. 1, Nr. 6.
-- Urk. 27 (17 June 1249), from the Colbatz monastery matricula, explicitly names “Bertoldus et Conradus Clest fratres”.
-- Urk. 32a (1254), from an original then in the Geheimes Archiv at Königsberg, independently calls “Conradus marscalcus et Bartoldus Clest fratres”.
-- Urk. 48 (7 April 1269), from the Colbatz monastery matricula, says Conradus miles dictus Clest made a provision for the monastery concerning holdings he and his already deceased brother Bertoldus had held for life.
-- This makes Conradus/Bertoldus a well-attested sibling pair. No source found so far links them to the 1289 Belgard witness group or to Prissebur of Muttrin; Sauer and von Ledebur's alternate interpretation of “Prissebur, Clest fratres” remains plausible but unproven.
-- Updated the Lorenz dossier to keep this earlier sibling pair distinct and open the question of any relationship to the 1289 group. No canonical data changed.
-
-
-### 1575–1618 fief-genealogy follow-up
-
-- Re-read Quandt's genealogy-method chapter, pp. 45–47, and extracted his quotations/analysis of Urk. 502 (1575), 547 (1601), 563a, 564–565 (1608), 585 (1618), 594 (1621), and 662 (1706).
-- The 1575 and 1601 whole-family fief letters explicitly classify the Muttrin-stem members as descendants of the late Prissebur of Muttrin, according to a submitted “Nachrichtung” (descent account). Quandt says that account survives neither in original nor copy. This is strong evidence that a pedigree was submitted and accepted for fief purposes, but the lost account cannot be checked generation by generation.
-- Urk. 564 (1608) groups Muttrin and its Vietzow, Damen and Dargen offshoots under Prissebur; the Dubberow/Tychow stem under Jacob of Dubberow/Tychow; and Vilnow/Raddatz under the elder Voltz of Vilnow. Urk. 565 separately traces the Damen branch through named intermediate generations to the 1477 brothers Peter, Bisprow and Churdt, sons of Dubschlaff.
-- Identified a material conflict: 1477 wording (as transcribed by Quandt) makes Reimer and Bartes sons of Pribbeslaw of Muttrin; the 1618 genealogy instead places Great Tychow under Reimer and Bartes as sons of Hans. The 1618 claim is repeated in 1621 and 1706. Do not resolve by choosing the later tidy pedigree.
-- Quandt says the genealogization in fief letters from 1618 onward was apparently taken from Paul Bolduan, not independently researched by the ducal chancery. He notes that Bolduan's work did not exist in 1608, and the extant Damen submission for the 1608 enfeoffment (Urk. 563a) does not provide the data needed for the 1608 genealogization; the source of that earlier information remains unknown.
-- Updated only the Lorenz dossier with the exact claims, source-dependence warning, conflict table and evidentiary status. No canonical family data changed.
-- Sources: https://v-kleist.com/FG/Genealogie/AllgemeineGeschichte.pdf ; https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf
-- Limitation: this is analysis of the printed charter edition and Quandt's source criticism, not a new palaeographic reading of the originals or the lost 1575 pedigree. No local tests/build/deployment run; no private records opened.
-
-### 1555–1614 Kleist genealogy manuscript stemma and Reimer/Bartes conflict
-
-- Re-read Quandt §§ 14–17 (pp. 55–62), which materially refines the source lineage: the Muttrin Nachrichtung behind the 1575/1601 fief clauses likely dates c.1555–1560; Quandt proposes the learned Pribslaw of Muttrin/Borntin (c.1486–1570) as author, but this is a reconstruction.
-- Jacob Kleist of Ruschitz, ducal chancellor, expanded that account in 1576. Quandt says Jacob had access to ducal archives, fief records and Colbatz registers and could consult the 1364 fief document. This is a high-value family compilation, not a primary record in itself.
-- A later c.1590 redaction is preserved in Kratz's 1863 copy from the Ruschitz estate-archive manuscript; the manuscript itself is apparently lost. The copy has two mid-17th-century hands. Do not call it the 1576 autograph.
-- Quandt argues Bolduan's 1613/14 Schema amplissimae nobilissimaeque familiae Kleistianae was based on Jacob's 1576 original. The 1618, 1621 and 1706 fief genealogizations then appear to derive from Bolduan, so these are not independent confirmations of the same pedigree.
-- Clarified the Reimer/Bartes conflict: Urk.125 (1477) as transcribed by Quandt names Pribbeslaw of Muttrin as their father; the later family-genealogy text says Hans of Tychow was their father. Quandt notes the relevant Stammlinea/Genealogia references may be later insertions in the 1590/c.1660 transmission, and the 1576 autograph is missing. Keep both readings visible; the 1477 charter is the stronger contemporary statement.
-- Quandt says the c.1555–1560 Muttrin Nachrichtung derived only the Muttrin stem from Prissebur; links of the other stems to their alleged progenitors were conjectural. This narrows the medieval origin claim substantially.
-- Identified archive leads but kept them distinct: 65/16/0/60/498 is the Elzow/mixed genealogical volume, not proven to be Kiel's Bolduan copy; 65/10/0/7/151 is a separate Bohlen manuscript record with no scans/content detail. The Kiel copy's exact modern shelfmark remains unknown; request it from the General Landschaft library successor collection in Stettin.
-- Updated the active Lorenz dossier and this log only. No parentage or canonical family-tree edge was changed: the manuscript chain is derivative and conflicting, and the early Muttrin sequence still lacks independently verified intermediate links. Existing p3472 → p1736 retained on Harbou's explicit statement.
-- Sources: https://v-kleist.com/FG/Genealogie/AllgemeineGeschichte.pdf ; https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf ; https://www.szukajwarchiwach.gov.pl/en/web/guest/jednostka/-/jednostka/7907475?refererPlid=2144199 ; https://www.szukajwarchiwach.gov.pl/en/web/guest/jednostka/-/jednostka/7906489
-- No original 1576/1477 manuscript inspected; no local tests/build/deployment run; no private records opened.
-
-
-### Tychow branch re-check in the 2025 family-association volume
-
-- Read the 2025 second edition of the Tychow-Dubberow line around pp. 134–136. It explicitly titles Reimer and Bartes as sons of Hans of Tichow (I.24), calls them first cousins of Jürgen and Peter of Dubberow because their fathers were brothers, and details Reimer's and Bartes's spouses and children.
-- The volume's introduction says the Hans name in the generation after the earliest period rests on later genealogical material. The 1477 Urk.125 transcription in Quandt instead reads “Pribbeslaw of Muttrin with his sons, Reymer and Bartes”. The 2025 volume cites 1477 for the brothers' joint appearance but does not independently prove the Hans paternity.
-- The volume also says Tessen of Dubberow was a nephew of Hans of Tichow; his father was reportedly Peter of Dubberow, while family records only state the nephew relationship. This supports a collateral cousin structure, not the disputed father identity.
-- Added this clarification to the Lorenz dossier. No canonical data changed; no parent link is sufficiently resolved by the derivative genealogical evidence.
-- Source: https://www.v-kleist.com/FG/Dubberow.pdf (2025 edition, pp. 134–136 and introduction).
+**Handoff:** Small commits on main only. Never expose private data. Repositories remain strictly separated from earlysmolweb.
