@@ -915,3 +915,35 @@ Only this research checkpoint was updated. No genealogical data, family-tree nar
 2. Inspect Øse's 1801/1802 baptism for Anne and identify the original record for Knud Nielsen and Karen Madsdatter's marriage; inspect Læborg's circa-1799 baptism for John and identify Eske/Kirsten's marriage.
 3. Inspect Vorbasse's 1783 baptism for Jens Christian Hansen and Egtved's 1797 baptism for Else Sørensdatter, then the couple's marriage.
 4. After this source plan is recorded, rotate to another open Ahnentafel branch; preserve the whole-tree balance.
+
+
+## Milestone 36 — Ahnentafel 42–43: exact parish-register targets identified (16 November 2026)
+
+### Research target
+Continue p42 Peder Jensen (reported born 4 April 1820, Vorbasse) and p43 Karen Johnsen (reported born 20 June 1830, Agerbæk, Fåborg parish, Ribe Amt). Their proposed parents remain secondary-source candidates from the GEDCOM project; no original parentage evidence has yet been transcribed.
+
+### New archival identification
+- Located the exact Arkivalieronline image-viewer collection for **Vorbasse Sogn**: https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=17128288. The viewer identifies the Kontraministerialbog section **1813 FKVDJTA–1821 FKVDJTA**, which covers Peder's reported 1820 birth. A second section runs 1821–1829. This is a direct target, not merely a general catalogue search.
+- The AO viewer is a JavaScript/image interface; the text-accessible web view exposed only the viewer shell, not the register images. Therefore the 4 April 1820 entry and parents were not inspected or transcribed in this run.
+- Correctly disambiguated Karen's birthplace: this is **Fåborg Sogn, Skast Herred, Ribe Amt**, not Fåborg town/parish in Svendborg Amt. Rigsarkivet's DAISY catalogue confirms a Kontraministerialbog series for Fåborg Sogn (Ribe Amt), 1813–2002. Catalogue entry: https://daisy.rigsarkivet.dk/arkivserie_liste?a=&b=Kontraministerialbog&d=1&e=2024 (find “Fåborg Sogn (Ribe Amt)”). This catalogue list does not expose the exact 1830 volume segmentation in the text extract.
+- Rigsarkivet's guide confirms that 1814 onward registers are organised by parish and event, with births listed chronologically and boys before girls. The national AO collection confirms digitised duplicate registers for 1814–1892.
+- The GEDCOM project profiles for Peder and Karen repeat the claimed birth details and parent couples, but explicitly identify submitted genealogist data rather than original-source proof. They remain discovery aids only.
+
+### Sources
+- Arkivalieronline, Vorbasse Sogn Kontraministerialbog viewer (1813–1821 section): https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=17128288
+- Rigsarkivet, DAISY catalogue, Kontraministerialbog series: https://daisy.rigsarkivet.dk/arkivserie_liste?a=&b=Kontraministerialbog&d=1&e=2024
+- Rigsarkivet, “Kirkebøger – Kom godt i gang”: https://www.rigsarkivet.dk/vejledning/kirkeboeger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/
+- Arkivalieronline, national church-book collection: https://arkivalieronline.rigsarkivet.dk/da/geo/geo-collection/5
+- GEDCOM project profiles: https://gedcom.slaegt.dk/?fil=60&person=9317 and https://gedcom.slaegt.dk/?fil=60&person=9318
+
+### Result and confidence
+The Vorbasse target is now pinpointed to a specific image-viewer collection and volume segment. The correct Fåborg parish and archive series are identified. No original image was successfully read; no new birth entry, parent, relationship or date was verified. No genealogical data was changed.
+
+### Changes and validation
+Only this checkpoint was appended to research_method.md. No changes to data/build_data.py, data/family.json, family-tree.md, or generated site files. No build or tests were run; private data was not accessed.
+
+### Next concrete steps
+1. In a normal browser, open the Vorbasse AO viewer above and select “Fødte mænd 1820”; inspect the entry for 4 April and transcribe parents, residence, witnesses and home/church baptism dates.
+2. In DAISY/AO, open the Fåborg Sogn (Ribe Amt) Kontraministerialbog and select “Fødte kvinder 1830”; inspect the entry for 20 June and transcribe parents and witnesses.
+3. Compare both original entries with the proposed couples; then inspect the 7 October 1852 Fåborg marriage before adding any relationship.
+4. Rotate to another open branch after this bounded record pass.
