@@ -104,3 +104,21 @@ Validation: the main JavaScript function extracted from `site/template.html` pas
 **Validation / limitations:** repository file listings and research JSON were inspected through GitHub. The current canonical research register contains 54 tracks; detailed imported notes are stored on those tracks. A local Python build, GEDCOM export, browser/visual review and final Pages deployment check have not been performed as part of this log update. Do not infer those checks from a queued or unrelated Actions run.
 
 **Next:** use this method for all future agents and keep this log current. Reconcile any remaining stale README references or generated-site links to retired dossiers, then run `python3 data/build.py`, `python3 data/export.py`, `python3 site/build.py` in a local checkout and verify the latest Actions/Pages run.
+
+## 2026-11-16 — research loop: Evald probate cross-check and Liss local archive lead
+
+**Task:** Continue finding new leads, ingest them into existing research tracks, and work the tracks iteratively.
+
+**Tracks updated:**
+- `evald-tohde-probate`: added a three-record comparison from Isgård-Kvelstrup G299 (Rasmus Christensen, 19 Feb 1772 fol. 58; Karen Christensdatter, 2 Jun 1774 fol. 90) and Rolsøgård G302 (Niels Jensen Degn, 14 May 1787 fol. 39). The comparison supports a testable hypothesis that the widow Karen Christensdatter in 1772/1774 is the Karen who inherited from Christen Christensen Tohde? and whose brother/guardian was Claus Gaardsted. No family edge was added; all three are published abstracts, not originals. Added the source URLs and a dated research note.
+- `liss-marriage`: added Arkiv.dk A410, the Jens and Eli Kjær person archive at Sønder Felding Lokalhistoriske Arkiv. The catalogue includes local/genealogical notes for 1786–1844 and transcribed churchbook material for 1826–1860, a promising route for the 1843 marriage conflict. Added Horsbøl's secondary identification/date as corroboration only, not primary proof.
+
+**Important source correction:** Rolsøgård G302's probate book is 1778–1816, so it cannot be the original 1764 probate cited in the 1787 abstract. The 1970 private-estate archive overview also lists Vosnæsgård G311 with holdings 1736–1743 and 1839–1850, not a 1764 probate book. The original 1764 jurisdiction/record remains unidentified. The Daisy justitsprotokol result is a distinct court series described as containing judgments; it was not treated as the probate file.
+
+**Sources reviewed:** Isgård-Kvelstrup G299 PDF; Rolsøgård G302 PDF; Landsarkivet's 1970 inventory of private estate records; Rigsarkivet probate guidance; Arkiv.dk A410; Horsbøl genealogy page.
+
+**Files changed:** `data/tree.json` only for the research ingestion; this entry updates the collaboration log. No people, dates or family edges were changed.
+
+**Validation:** Fetched current file SHA before edit; JSON parsed before update. No local Python build, GEDCOM export, visual review or Pages deployment verification performed in this research loop.
+
+**Next actions:** (1) identify which authority/estate held the 1764 Dejret probate of Christen Christensen Tohde?; (2) inspect original G299 records 1772 fol. 58 and 1774 fol. 90 if scans can be resolved; (3) request item-level detail from Sønder Felding Lokalhistoriske Arkiv for A410 nr. 15 and 22 before assuming they contain Liss's marriage.
