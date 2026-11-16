@@ -65,3 +65,17 @@ A credible historical claim should not be kept off the public website merely bec
 Assess people and relationships separately. A person's existence may be well established while their proposed parentage is speculative. Never infer that a displayed parent-child edge is as strong as the person's own documentary status. Keep biological, legal/registered, step, foster, guardian and household relationships distinct.
 
 The public tree is a living, qualified account. Do not delay publication indefinitely while waiting for perfect evidence; update the status and explanation when new evidence appears. Do not create a parent-child edge from a speculative claim just to make a line visually continuous.
+
+## Public website research register
+
+The public website's **Forskning** section is generated from `data/research.json`. The four dossiers remain the detailed working records; the JSON register is the concise, publishable index that makes selected leads visible on the website.
+
+When adding or materially revising a research lead:
+- Update the existing claim rather than creating a duplicate for the same question.
+- Add a concise entry to `data/research.json` with a unique `id`, the owning `branch`, `title`, one of the supported statuses (`needs`, `hypothesis`, `family`, `conflict`), and the fields `claim`, `evidence`, `missing`, `next`, `dossier`, `sources`, and `person_ids`.
+- Link to the dossier and to stable source URLs where available. Label secondary databases and family accounts honestly.
+- Keep the public claim understandable without the dossier, and distinguish what is documented from what remains a lead.
+- Do not add speculative parent-child links to `data/family.json` merely to make a public lead appear in the tree.
+
+The site rebuild workflow regenerates the public research section after changes to the research register. Check the workflow and Pages deployment before describing a new lead as live.
+
