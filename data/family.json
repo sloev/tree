@@ -165,7 +165,31 @@
    "living": false,
    "sibof": null,
    "step": "pf12",
-   "spouse": "p7"
+   "spouse": "p7",
+   "relationship_claims": [
+    {
+     "person": "sofus",
+     "relationship": "claimed_biological_parent",
+     "status": "disputed",
+     "asserted_by": "family account",
+     "sources": [
+      "Familiedokument: 'Paula Mathilde Chrestle Gedde og Jens Jensens slægt' (maskinskrevet, familiens eksemplar)",
+      "Familiens håndskrevne anetavle",
+      "Familiens oplysninger"
+     ],
+     "note": "Familien identificerer gårdmandssønnen Sophus Petersen fra Påkjær som biologisk far; dette står i konflikt med den officielle registrering af Wilhelm Krogh."
+    },
+    {
+     "person": "p12",
+     "relationship": "paternity_declaration_and_civil_registration",
+     "status": "disputed_as_biological_parentage",
+     "asserted_by": "Egernsund civil birth register marginal note and court decision",
+     "sources": [
+      "AO:Egernsund standsregister, fødte 1928–33, 1932 nr. 4 (bsid 37658, billede 125)"
+     ],
+     "note": "Wilhelm Krogh erklærede faderskab 5. april 1932; en retsafgørelse 10. juni 1932 og randnote 11. juli 1932 registrerer ham som far. Dette dokumenterer erklæringen og den juridiske registrering, ikke nødvendigvis biologisk faderskab."
+    }
+   ]
   },
   {
    "id": "p7",
