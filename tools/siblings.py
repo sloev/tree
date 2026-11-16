@@ -1,4 +1,4 @@
-"""Finder søskende til alle aner i Link Lives og skriver dem til data/auto_siblings.json.
+"""Finder søskende til alle aner i Link Lives og skriver dem til tree.json → ingestion.auto_siblings.
 
 For hver ane med en indekseret dåb: søg alle dåb i samme sogn ±25 år, hvor faren har samme navn og moren samme
 fornavn. Fanges også i nabosogne i samme amt, hvis begge forældres fulde navne passer. Spædbørnsdødsfald slås op
