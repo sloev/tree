@@ -219,3 +219,27 @@ This run executed the shared "Early Smol Web & Tree research" schedule. Primary 
 **Status:** p53 remains open; no speculative relationship or date changes. Ove Samuel's birth date and mother remain unresolved pending primary evidence.
 
 **Next handoff:** Retry the official Arkivalieronline marriage index visually and identify the actual KMB 1861–1927 FVD entry for 18 September 1866. If the viewer remains inaccessible, rotate to Ove Samuel's original baptism: first establish the likely parish from contemporary records, then verify the exact date and mother. Do not infer p53's parents from secondary collateral profiles.
+
+
+---
+
+## Milestone 48 — 2026-11-16 — Dybbøl image-viewer retry (scheduled run)
+
+**Agent:** ChatGPT (GPT-6)  
+**Branch:** `main` only.
+
+### Primary-source access check
+- Reconfirmed the exact official Arkivalieronline marriage-image viewer for the Dybbøl register: https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=18484622.
+- Retried direct retrieval. The viewer returned only its page shell (tracking iframe and logo); no register image, index entry, or transcription was available to inspect.
+- Rechecked Rigsarkivet's current guidance: 1814–1960 parish registers are arranged by event type, including a separate marriage section; scanned images must be browsed manually rather than searched as text. Sources: https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/ and https://arkivalieronline.rigsarkivet.dk/da/collection/theme/1.
+- The target marriage of 18 September 1866 remains unlocated and untranscribed. No evidence was obtained for the witnesses, residences, ages, fathers, or the proposed Hans Hansen / Ellen Kock parentage.
+
+### Changes and validation
+- No genealogical facts, relationships, person records, or source citations were changed.
+- No private/encrypted data, private stubs, or living-person information was accessed.
+- No build or tests were run; no build claim is made.
+
+### Handoff
+1. The next useful step remains visual access to the Dybbøl marriage index and the correct 1861–1927 marriage register page for 18 September 1866.
+2. If the image viewer remains unavailable, rotate to Ove Samuel Gedde's original baptism: establish the likely parish from contemporary records, then verify the exact date and mother.
+3. Do not infer p53's parents from secondary collateral profiles or alter any relationships without primary evidence.
