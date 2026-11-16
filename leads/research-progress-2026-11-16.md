@@ -159,3 +159,37 @@ This is a triage of the leads supplied in the extension and earlier repository f
 | Magleby, Rosmus, Djursland, Rousing, Vestjylland/Pårup | Locality, date and named-person clues in the dossiers give targeted parish/probate searches. | Most remain source-poor; inspect original marriage/baptism/probate/census entries before making connections. |
 
 No canonical people, relationships, or GEDCOM records were changed by this research pass.
+
+
+## Christian von Kleist II.60 (d.1679) — Harbou checked against the new Z.ai lead
+
+The relevant passage in H. W. Harbou, “Slægten von Kleist i Danmark,” *Personalhistorisk Tidsskrift* 1897, p. 97 in the printed article / page 2 in the PDF text, has now been reread directly.
+
+Harbou states that the Brandenburg colonel Christian von Kleist (II.60) of Groß-Tychow:
+- inherited one part of the estate from his father;
+- received another part with his first wife Hedwig Maria von Kleist, daughter of Georg of Groß-Tychow and Christina von Woyten;
+- married second Barbara Eleonore von Kalckstein;
+- died in 1679, after which his four sons from the first marriage divided the Pomeranian estates on 1 June; there were also one daughter from the first marriage and one son and one daughter from the second.
+
+Harbou does **not** name Christian II.60's father in this paragraph. He separately says that Swedish cavalry captain Joachim Henning von Kleist (II.59) of Groß-Tychow was Christian's *Farbrodersøn*. This Danish kinship term denotes a paternal uncle's son / cousin relationship; it does not mean half-brother. Harbou therefore does not establish the proposed sequence Christian II.60 ← Bernd II.39 ← Carsten II.21 ← Joachim II.22.
+
+The Z.ai-supplied candidate sequence:
+- Christian II.60 ← Bernd II.39 + Elisabeth von Manteuffel;
+- Bernd II.39 ← Carsten II.21 “the Elder” + Hedwig von Heydebreck;
+- Carsten II.21 ← Joachim II.22;
+- further ancestry to Bartez the Younger and Reimer II.2;
+
+is retained as a **new unverified lead**, not a finding. It was not located in Harbou's 1897 Danish article in this pass (searches for “Bernd (II.39)” and “Joachim (II.22)” return no matching text). The next required action is to open the exact numbered biographies II.60, II.39, II.21 and II.22 in the relevant German *Geschichte des Geschlechts von Kleist* / family-history volume, inspect the original printed page images and references, then trace each parent link to its cited contemporary record. The family-history numbering is not interchangeable with the III. numbering used in Harbou's Muttrin section.
+
+### Current evidence status
+
+- Christian II.60's father: **not named by Harbou in the cited passage**.
+- Christian II.60's first wife and her parents: **explicitly named by Harbou**.
+- Christian II.60's second wife: **explicitly named by Harbou**.
+- Joachim Henning II.59: **explicitly called Farbrodersøn of Christian II.60 by Harbou**; do not describe him as a half-brother.
+- Bernd II.39 / Carsten II.21 / Joachim II.22 proposed chain: **unverified lead from user-supplied Z.ai notes**.
+- Bartez / Reimer ancestry and Krag / Rosenkrantz expansions: **not yet source-inspected here**; do not import.
+
+### Site correction
+
+The site template now includes a dated bulletin item and research card explaining that Harbou does not name Christian II.60's father in this passage, that Joachim Henning II.59 is described as *Farbrodersøn*, and that the II.39 → II.21 → II.22 chain remains under verification. No family-tree or GEDCOM relationships were changed.
