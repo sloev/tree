@@ -31,3 +31,34 @@ FAMILY_PASSWORD=... python3 data/private_tool.py encrypt   # krypterer igen og o
 ```
 
 `data/build_data.py` stopper med en fejl, hvis en person, der burde være privat, står i klartekst.
+
+
+## Åben forskning og bidrag
+
+Dette projekt er åbent i både kode, kilder, metode og revisioner. Den offentlige hjemmeside viser både det etablerede stamtræ og et særskilt forskningsspor med synlige modenhedsgrader. Et forslag i forskningssporet er ikke automatisk en accepteret forældre-/barn-relation.
+
+Alle må gerne:
+
+- foreslå en rettelse eller en ny person/forbindelse via [GitHub Issues](https://github.com/sloev/tree/issues);
+- indsende kildehenvisninger, transskriptioner eller reproducerbare fund via en [Pull Request](https://github.com/sloev/tree/pulls);
+- udfordre en eksisterende tolkning, også hvis det betyder at en tidligere konklusion skal nedgraderes eller trækkes tilbage.
+
+Et nyttigt bidrag angiver så præcist som muligt arkiv, kirkebog/serie, sogn, år, opslag/side/billede, ordret relevant tekst, stabil URL og hvad kilden ikke beviser. Skeln mellem originalkilde, indeks, publiceret slægtshistorie og familieoplysning. Angiv hvilken konkret person eller relation påstanden vedrører. Ingen bør dele adgangskoder, private nulevende personers følsomme oplysninger eller materiale, de ikke har ret til at offentliggøre.
+
+### Offentlig modenhedsstatus
+
+| Status | Betydning |
+|---|---|
+| Godt belagt | Samtidige eller stærkt uafhængige kilder støtter den konkrete oplysning. |
+| Kræver mere belæg | Et troværdigt spor, men afgørende originalkilde, identitet eller mellemled mangler. |
+| Foreløbig hypotese | Mulig forbindelse eller søgeidé; må ikke læses som fastslået slægtskab. |
+| Familieoplysning | Oplysningens proveniens er familien; det er ikke i sig selv en sikkerhedsgrad. |
+
+Status gælder den enkelte påstand — især hver enkelt relation — ikke automatisk alle oplysninger om personen. Modstridende udsagn bevares med deres kilder og må ikke skjules ved at vælge en bekvem version.
+
+### Sådan følger du ændringer
+
+- [Seneste commits](https://github.com/sloev/tree/commits/main/) viser alle kilde-, data- og kodeændringer.
+- [Forskningsdossierer](leads/README.md) forklarer aktive spørgsmål og næste arkivskridt.
+- [Samarbejdsloggen](coop.log.md) dokumenterer forskningshandoffs, beslutninger, ændringer og hvad der endnu ikke er kontrolleret.
+- [Nyhedsbulletinen og forskningssporet](https://sloev.github.io/tree/) viser de læsbare opdateringer på hjemmesiden.
