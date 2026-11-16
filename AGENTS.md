@@ -7,6 +7,8 @@ This repository is exclusively the Gårdsted and Gedde family-history project an
 - Never import, copy, summarize, or publish material from `sloev/earlysmolweb` here. In particular, Iceland, UUCP, EUnet, networking history, and early Internet research belong exclusively in `sloev/earlysmolweb`. They must never appear in this repository's content, news bulletin, source lists, data, commits, or generated site unless the user explicitly changes this boundary.
 - Do not use one repository's task list, notes, files, or research as context for work in the other. If a request is ambiguous, stop and ask which repository it concerns.
 - Before editing, confirm the repository is `sloev/tree` and the branch is `main`. Work directly on `main`; do not create feature branches.
+- `data/tree.json` is the only editable source of truth for all genealogy and research. Read and update existing research tracks there; never use branch dossiers or separate lead files as active workspaces.
+- All new leads, source findings, transcriptions, conflicts, negative searches and follow-up tasks belong in `data/tree.json` under `research.claims`, with detailed history in that claim's `research_notes`.
 - Keep generated files consistent with their source files. Do not edit generated HTML as a substitute for editing its source template/data.
 - Never claim a website is published or updated until the build/deployment has actually completed and been checked.
 
