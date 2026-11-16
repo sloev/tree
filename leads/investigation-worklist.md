@@ -5,7 +5,7 @@
 ## Priority 1 — Lorenz Heinrich Frederiksen: competing biological-father claims
 
 - **Person:** Lorenz Heinrich Frederiksen (born 12 January 1932, Egernsund; died 6 May 2009, Svendborg).
-- **Official record claim:** Egernsund civil birth register, 1932 no. 4, reportedly records a marginal note dated 11 July 1932 naming Wilhelm Krogh of Snogbæk as biological father, based on a declaration dated 5 April 1932 and a court decision dated 10 June 1932.
+- **Official record claim:** Egernsund civil birth register, 1932 no. 4, reportedly records a marginal note dated 11 July 1932 recording Wilhelm Krogh of Snogbæk as the legally acknowledged/registered father, based on a declaration dated 5 April 1932 and a court decision dated 10 June 1932.
 - **Family-history claim:** biological father was Sophus Petersen (born 1903, Påkjær, Nybøl; died 24 August 1945); Wilhelm Krogh allegedly took responsibility; Peter Frederiksen was the social/stepfather and gave Lorenz his surname.
 - **Existing source anchors:** Egernsund civil birth register (BSID 37658, image 125); Broager Vestre baptism register 1933 no. 1 (BSID 201141, image 112); family document “Paula Mathilde Chrestle Gedde og Jens Jensens slægt”; family chart; grave photo.
 - **Research tasks:** obtain and read the complete civil birth entry and marginal note; locate the 5 April 1932 declaration and 10 June 1932 court judgment/case file; search paternity/civil court records and any appeal/correction; inspect the original baptism; independently establish Sophus Petersen's whereabouts and household in 1931–32 and test the alleged four daughters/half-sibling clue. Keep legal paternity, biological paternity, and social fatherhood as separate fields.
