@@ -86,6 +86,15 @@ button{font:inherit;color:inherit}
 .story{border-top:2px solid var(--c,var(--ink));padding-top:12px;display:flex;flex-direction:column;gap:8px}
 .story p{font-size:.92rem}
 .story .who{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.84rem}
+.research-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.research-card{display:flex;flex-direction:column;gap:9px;min-width:0;padding:16px;background:var(--sheet);border:1px solid var(--rule);border-radius:11px}
+.research-card h3{font-size:1.12rem}
+.research-card p{font-size:.88rem;color:var(--ink-2)}
+.research-meta{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px}
+.research-links{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:.84rem}
+.homepage-tree{scroll-margin-top:86px}
+.homepage-tree .sec-head{max-width:72ch}
+.homepage-tree .ped-scroll{max-height:min(860px,76vh)}
 .open{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 .open div{border-left:2px solid var(--accent);padding:4px 0 4px 12px;font-size:.9rem}
 .open b{display:block;font-weight:600}
@@ -196,6 +205,7 @@ tbody tr:hover td{background:var(--hover)}
   .gallery{grid-template-columns:repeat(2,minmax(0,1fr))}
   .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
+@media (max-width:700px){.research-grid{grid-template-columns:minmax(0,1fr)}}
 @media (max-width:560px){
   .open{grid-template-columns:minmax(0,1fr)}
   .statrow{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -276,8 +286,8 @@ button,a{touch-action:manipulation}
   </div>
 </header>
 <nav class="tabs" aria-label="Sektioner">
-  <a href="#stamtrae" data-view="stamtrae">Stamtræ</a>
-  <a href="#oversigt" data-view="oversigt">Oversigt</a>
+  <a href="#stamtrae" data-view="oversigt" data-anchor="stamtrae">Stamtræ</a>
+  <a href="#oversigt" data-view="oversigt">Forside</a>
   <a href="#personer" data-view="personer">Personer</a>
   <a href="#kort" data-view="kort">Kort</a>
   <a href="#tal" data-view="tal">Tal og levetider</a>
@@ -291,6 +301,52 @@ button,a{touch-action:manipulation}
     <p class="ink2" style="font-size:1.02rem">Din slægt fundet i kirkebøger, folketællinger, lokalarkiver og familiens egne papirer. Farfars side går tilbage til 1700-tallets Djursland, Mols og København. Farmor Liss' side kommer fra hedesognene i Vestjylland. Morfars side fører via Nybøl, Egernsund og Lejrskov til officersslægten Gedde og den pommerske adelsslægt von Kleist. Mormor Gerdas side er Sydlangeland og Langø-familien.</p>
     <div class="tiles" id="tiles"></div>
   </div>
+
+  <div class="block">
+    <div class="sec-head"><span class="eyebrow">Nyt fra slægtsforskningen</span><h2>Seneste fund</h2>
+      <p class="muted">Nye spor fra kirkebøger, folketællinger og skifteuddrag. Mulige forbindelser er markeret som ubekræftede, indtil originalkilderne er kontrolleret.</p></div>
+    <div class="research-grid">
+      <article class="research-card">
+        <div class="research-meta"><span class="eyebrow">Assing · 1812–1870</span><span class="conf probable">Stærkt spor</span></div>
+        <h3>Jens Peder Larsen fra Pårup Melgaard</h3>
+        <p>En lokal slægtssammenstilling angiver fødsel og dåb 29. februar 1812 i Assing, vielse i Sønder Felding i 1843 og død i Sønder Omme i 1870. Det passer godt med personen i træet, men hans forældre er endnu ikke verificeret i den originale dåbsindførsel.</p>
+        <p class="research-links"><a href="https://www.horsboel.dk/familie/grind/dat16.htm" target="_blank" rel="noopener">Slægtssammenstilling</a><a href="https://www.horsboel.dk/fkt/FKT_Sdr_Omme_1870.pdf" target="_blank" rel="noopener">Folketælling 1870</a></p>
+      </article>
+      <article class="research-card">
+        <div class="research-meta"><span class="eyebrow">Rosmus · 1811–1812</span><span class="conf possible">Uafklaret</span></div>
+        <h3>To forskellige brudenavne i 1811</h3>
+        <p>Træets 1812-dåbsnotat angiver Mette Pedersdatter som mor. En uafhængig GEDCOM-sammenstilling nævner derimod Mette Sørensdatter Helles ved en vielse samme dato. Den originale vielsesindførsel skal afgøre, om der er tale om en fejl eller to forskellige par.</p>
+        <p class="research-links"><a href="https://tom.brondsted.dk/genextracts/?chpt=21&colbranch=&ged=2&sid=I29" target="_blank" rel="noopener">GEDCOM-uddrag</a><a href="https://arkivalieronline.rigsarkivet.dk/da/geo/geo-collection/5" target="_blank" rel="noopener">Rigsarkivets kirkebogsvejledning</a></p>
+      </article>
+      <article class="research-card">
+        <div class="research-meta"><span class="eyebrow">Syv / Viby · 1820</span><span class="conf possible">Mulig forbindelse</span></div>
+        <h3>Hans Jensen, gartner ved Vibygård</h3>
+        <p>Et skifteuddrag fra 1820 nævner en Hans Jensen, gartner, med hustruen Maren Poulsdatter og fire voksne børn. Det kan være anen Hans Jensen i Syv-grenen, men identiteten er ikke bevist, og familien er derfor ikke føjet til træet.</p>
+        <p class="research-links"><a href="https://aurelia-clemons.dk/vibygdx.htm" target="_blank" rel="noopener">Vibygård-skifteuddrag</a><a href="https://wiki.slaegt.dk/index.php/Vibyg%C3%A5rd" target="_blank" rel="noopener">Vibygård i DS-Wiki</a></p>
+      </article>
+      <article class="research-card">
+        <div class="research-meta"><span class="eyebrow">Magleby · 1787</span><span class="conf possible">Ikke koblet til træet</span></div>
+        <h3>Skifte efter Christian Hansen i Nordenbro</h3>
+        <p>Et skifte fra 1787 beskriver to ægteskaber og flere børn i en lokal Nordenbro-familie. Det er et nyttigt nyt spor til områdets familier, men der er endnu ingen dokumenteret forbindelse til Christian Hansen, som blev gift i Magleby i 1829.</p>
+        <p class="research-links"><a href="https://elgezira.dk/historie.html" target="_blank" rel="noopener">Elgezira – lokalhistoriske kilder</a></p>
+      </article>
+    </div>
+  </div>
+
+  <div class="block homepage-tree" id="stamtrae">
+<div class="sec-head"><span class="eyebrow">Anetavle</span><h2>Stamtræet</h2>
+    <p class="muted">Generationerne læses oppefra og ned. Far er til venstre, mor til højre. Træet viser den biologiske slægt; stiplede kort er ukendte eller usikre personer. Vælg en person for at åbne livshistorie og kilder.</p></div>
+  <div class="toolbar">
+    <div class="seg" role="group" aria-label="Vis del af træet">
+      <button type="button" data-root="1" aria-pressed="true">Hele træet</button>
+      <button type="button" data-root="2" aria-pressed="false">Fars side</button>
+      <button type="button" data-root="3" aria-pressed="false">Mors side</button>
+    </div>
+        <span class="count" id="pedcount"></span>
+  </div>
+  <div class="ped-scroll" id="pedscroll" tabindex="0" role="region" aria-label="Interaktiv anetavle. Brug rullebjælkerne til at udforske generationerne."><svg id="ped" role="img" aria-label="Anetavle"></svg></div>
+  <p class="note-box">Træet viser Lorenz' biologiske far, <button class="linkish" data-pid="sofus">Sophus Petersen</button>, ifølge familiens viden. <button class="linkish" data-pid="p12">Wilhelm Krogh</button> tog skylden og står som far i standsregistret. Lorenz voksede op hos stedfaren <button class="linkish" data-pid="pf12">Peter Frederiksen</button>, der blev betalt for at gifte sig med Else, og fik hans efternavn. Peters slægt fra Broager, Rinkenæs og Ulkebøl står under Personer som "Stedfarens slægt".</p>
+</div>
 
   <div class="block">
     <div class="sec-head"><span class="eyebrow">Nærmeste familie</span><h2>Dig, dine forældre og deres familier</h2>
@@ -307,26 +363,6 @@ button,a{touch-action:manipulation}
     <div class="sec-head"><span class="eyebrow">Næste skridt</span><h2>Det, vi endnu ikke ved</h2></div>
     <div class="open" id="open"></div>
   </div>
-</section>
-
-<!-- ============ STAMTRÆ ============ -->
-<section class="view" id="v-stamtrae" hidden>
-  <div class="sec-head"><span class="eyebrow">Anetavle</span><h2>Stamtræet</h2>
-    <p class="muted">Generationerne læses oppefra og ned. Far er til venstre, mor til højre. Træet viser den biologiske slægt; stiplede kort er ukendte eller usikre personer. Vælg en person for at åbne livshistorie og kilder.</p></div>
-  <div class="toolbar">
-    <div class="seg" role="group" aria-label="Vis del af træet">
-      <button type="button" data-root="1" aria-pressed="true">Hele træet</button>
-      <button type="button" data-root="2" aria-pressed="false">Fars side</button>
-      <button type="button" data-root="3" aria-pressed="false">Mors side</button>
-    </div>
-    <div class="seg" role="group" aria-label="Træets retning">
-      <button type="button" data-direction="vertical" aria-pressed="true">Lodret</button>
-      <button type="button" data-direction="horizontal" aria-pressed="false">Vandret</button>
-    </div>
-    <span class="count" id="pedcount"></span>
-  </div>
-  <div class="ped-scroll" id="pedscroll" tabindex="0" role="region" aria-label="Interaktiv anetavle. Brug rullebjælkerne til at udforske generationerne."><svg id="ped" role="img" aria-label="Anetavle"></svg></div>
-  <p class="note-box">Træet viser Lorenz' biologiske far, <button class="linkish" data-pid="sofus">Sophus Petersen</button>, ifølge familiens viden. <button class="linkish" data-pid="p12">Wilhelm Krogh</button> tog skylden og står som far i standsregistret. Lorenz voksede op hos stedfaren <button class="linkish" data-pid="pf12">Peter Frederiksen</button>, der blev betalt for at gifte sig med Else, og fik hans efternavn. Peters slægt fra Broager, Rinkenæs og Ulkebøl står under Personer som "Stedfarens slægt".</p>
 </section>
 
 <!-- ============ PERSONER ============ -->
@@ -465,7 +501,7 @@ function openPerson(id, push=true){
   if(push) hist.push(id);
   dBack.hidden = hist.length<2;
   dTree.hidden = !p.ahnen;
-  dTree.onclick = ()=>{ closeDrawer(); go('stamtrae'); setRoot(1); highlight(id); };
+  dTree.onclick = ()=>{ closeDrawer(); go('oversigt'); setRoot(1); highlight(id); };
   const par=parentsOf(p), step=p.step&&byId[p.step], kids=childrenOf(p.id), stepkids=P.filter(c=>c.step===p.id), sibs=siblingsOf(p), sp=spousesOf(p);
   const lifeTxt = p.living? 'Lever' : [p.born?`Født ${fmtDate(p.born)}${p.bplace?' i '+p.bplace:''}`:'', p.died?`Død ${fmtDate(p.died)}${p.dplace?' i '+p.dplace:''}`:''].filter(Boolean).join('<br>');
   const list = arr => `<div class="plist">${arr.join('')}</div>`;
@@ -508,17 +544,25 @@ addEventListener('keydown',e=>{
 function wire(root){ root.querySelectorAll('[data-pid]').forEach(b=>b.addEventListener('click',()=>openPerson(b.dataset.pid))); }
 
 // ---------- faner ----------
-const VIEWS=['oversigt','stamtrae','personer','kort','tal','kilder'];
+const VIEWS=['oversigt','personer','kort','tal','kilder'];
 const drawn={};
-function go(v){ if(!VIEWS.includes(v)) v='stamtrae';
+function go(v){ if(!VIEWS.includes(v)) v='oversigt';
   VIEWS.forEach(k=>document.getElementById('v-'+k).hidden = k!==v);
   document.querySelectorAll('.tabs a').forEach(a=>{ if(a.dataset.view===v) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current'); });
   if(!drawn[v]){ drawn[v]=true; (RENDER[v]||(()=>{}))(); }
   if(location.hash!=='#'+v) history.replaceState(null,'','#'+v);
   try{ localStorage.setItem('view',v) }catch(e){}
 }
-document.querySelectorAll('.tabs a[data-view]').forEach(a=>a.addEventListener('click',e=>{ e.preventDefault(); go(a.dataset.view); window.scrollTo({top:0}); }));
-addEventListener('hashchange',()=>go(location.hash.slice(1)));
+document.querySelectorAll('.tabs a[data-view]').forEach(a=>a.addEventListener('click',e=>{
+  e.preventDefault(); go(a.dataset.view);
+  if(a.dataset.anchor){ requestAnimationFrame(()=>document.getElementById(a.dataset.anchor)?.scrollIntoView({behavior:'smooth',block:'start'})); }
+  else window.scrollTo({top:0,behavior:'smooth'});
+}));
+addEventListener('hashchange',()=>{
+  const hash=location.hash.slice(1), anchor=hash==='stamtrae';
+  go(anchor?'oversigt':hash);
+  if(anchor) requestAnimationFrame(()=>document.getElementById('stamtrae')?.scrollIntoView({block:'start'}));
+});
 
 // ---------- fælles ----------
 document.getElementById('legend').innerHTML = ['jorgensen','gaardsted','rousing','maternal','gedde','larsen','frederiksen'].map(l=>`<span><i class="sw" style="background:${lineVar(l)}"></i>${esc(LINES[l])}</span>`).join('');
@@ -616,7 +660,7 @@ function renderOversigt(){
 // ================= STAMTRÆ =================
 const ped=document.getElementById('ped'), pedScroll=document.getElementById('pedscroll');
 const CW=184, CH=52, GX=34, GY=24, TOP=44;
-let nodes={}, pedRoot=1, pedDirection='vertical', pos=null;
+let nodes={}, pedRoot=1, pos=null;
 function renderPed(root){
   pedRoot=root; ped.innerHTML=''; nodes={};
   const g0=Math.floor(Math.log2(root));
@@ -628,23 +672,16 @@ function renderPed(root){
     const ys=kids.map(lay); ypos[n]=(ys[0]+ys[1])/2; return ypos[n]; })(root);
   const gmax=Math.max(...Object.keys(slots).map(n=>Math.floor(Math.log2(+n))));
   const depth=gmax-g0+1;
-  const W=pedDirection==='vertical'?90+leaf*(CW+GX)+10:depth*(CW+GX)+10, H=pedDirection==='vertical'?TOP+depth*(CH+GY)+10:TOP+leaf*(CH+GY)+10;
+  const W=90+leaf*(CW+GX)+10, H=TOP+depth*(CH+GY)+10;
   ped.setAttribute('viewBox',`0 0 ${W} ${H}`); ped.setAttribute('width',W); ped.setAttribute('height',H);
-  pos = n => { const g=Math.floor(Math.log2(n))-g0; return pedDirection==='vertical'
-    ? {x:90+ypos[n]*(CW+GX), y:TOP+g*(CH+GY)}
-    : {x:6+g*(CW+GX), y:TOP+ypos[n]*(CH+GY)}; };
+  pos = n => { const g=Math.floor(Math.log2(n))-g0; return {x:90+ypos[n]*(CW+GX), y:TOP+g*(CH+GY)}; };
   for(let g=g0; g<=gmax; g++){
     const label=el('text',{x:pedDirection==='vertical'?6:6+(g-g0)*(CW+GX),y:pedDirection==='vertical'?TOP+(g-g0)*(CH+GY)-8:14,class:'gen-label'},ped);
     label.textContent=genLabel(g);
   }
   for(const n of Object.keys(slots).map(Number)){ if(n===root) continue; const a=pos(Math.floor(n/2)), b=pos(n);
-    if(pedDirection==='vertical'){
-      const x1=a.x+CW/2,y1=a.y+CH,x2=b.x+CW/2,y2=b.y,mid=(y1+y2)/2;
-      el('path',{d:`M${x1},${y1}V${mid}H${x2}V${y2}`,class:'edge'},ped);
-    }else{
-      const x1=a.x+CW,y1=a.y+CH/2,x2=b.x,y2=b.y+CH/2,mx=(x1+x2)/2;
-      el('path',{d:`M${x1},${y1}H${mx}V${y2}H${x2}`,class:'edge'},ped);
-    }
+    const x1=a.x+CW/2,y1=a.y+CH,x2=b.x+CW/2,y2=b.y,mid=(y1+y2)/2;
+    el('path',{d:`M${x1},${y1}V${mid}H${x2}V${y2}`,class:'edge'},ped);
   }
   for(const n of Object.keys(slots).map(Number)){
     const p=slots[n], {x,y}=pos(n);
@@ -665,7 +702,6 @@ function setRoot(r){ if(pedRoot!==r || !Object.keys(nodes).length) renderPed(r);
 function highlight(id){ Object.values(nodes).forEach(n=>n.classList.remove('sel')); const n=nodes[id]; if(!n) return; n.classList.add('sel');
   const p=byId[id]; if(!document.getElementById('v-stamtrae').hidden && p.ahnen && pos){ try{ const q=pos(p.ahnen); pedScroll.scrollTo({left:Math.max(0,q.x-80),top:Math.max(0,q.y-100),behavior:'smooth'}); }catch(e){} } }
 document.querySelectorAll('[data-root]').forEach(b=>b.addEventListener('click',()=>{ renderPed(+b.dataset.root); pedScroll.scrollTo({left:0,top:0}); }));
-document.querySelectorAll('[data-direction]').forEach(b=>b.addEventListener('click',()=>{ pedDirection=b.dataset.direction; document.querySelectorAll('[data-direction]').forEach(x=>x.setAttribute('aria-pressed',String(x===b))); renderPed(pedRoot); pedScroll.scrollTo({left:0,top:0}); }));
 
 // ================= PERSONER =================
 function renderPersoner(){
@@ -806,10 +842,11 @@ function renderKilder(){
   document.getElementById('links').innerHTML=DATA.links.map(([t,u])=>`<li><a href="${u}" target="_blank" rel="noopener">${esc(t)}</a></li>`).join('');
 }
 
-const RENDER={oversigt:renderOversigt, stamtrae:()=>renderPed(1), personer:renderPersoner, kort:renderKort, tal:renderTal, kilder:renderKilder};
-let start=location.hash.slice(1);
-if(!VIEWS.includes(start)) start='stamtrae';
+const RENDER={oversigt:()=>{renderOversigt();renderPed(1);}, personer:renderPersoner, kort:renderKort, tal:renderTal, kilder:renderKilder};
+let start=location.hash.slice(1), showTree=start==='stamtrae';
+if(!VIEWS.includes(start)) start='oversigt';
 go(start);
+if(showTree) requestAnimationFrame(()=>document.getElementById('stamtrae')?.scrollIntoView({block:'start'}));
 }
 </script>
 <script>
