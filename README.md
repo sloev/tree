@@ -79,13 +79,13 @@ Status gælder den enkelte påstand — især hver enkelt relation — ikke auto
 
 Når `data/tree.json` ændres, sammenligner GitHub Actions persondata med forrige version. Ændrede personer får en gul prik i stamtræet i 30 dage, og en dateret opdatering indsættes i nyhedsbulletinen. Alle forskningsændringer sker i `data/tree.json` og udløser automatisk build. Bygget regenererer alle afledte data, GEDCOM og hjemmesidens HTML.
 
-Markeringen er en visuel ændringsindikator, ikke en kilde- eller sikkerhedsgrad. En ændring i et dossier, der ikke nævner en bestemt person på de ændrede linjer, giver en bulletinpost, men ingen vilkårlig personmarkør. Markørerne udløber efter 30 dage. Se `.github/workflows/rebuild-site.yml`, `data/build.py` og `tools/mark_recent_people.py` for implementeringen.
+Markeringen er en visuel ændringsindikator, ikke en kilde- eller sikkerhedsgrad. Forskningsændringer registreres i `data/tree.json`; historiske arkivfiler er ikke aktive arbejdsdokumenter. Markørerne udløber efter 30 dage. Se `.github/workflows/rebuild-site.yml`, `data/build.py` og `tools/mark_recent_people.py` for implementeringen.
 
 ### Åben forskningsside — også det, der endnu ikke er bevist
 
 Hjemmesiden skal være et **åbent forskningstræ**. Relevante, privatlivsmæssigt forsvarlige spor skal vises, mens de undersøges — ikke først når de er bevist. Et klik på en person eller forbindelse skal forklare status, kildernes oprindelse, hvad de faktisk viser, eventuelle modstridende oplysninger og præcis hvad der mangler. Mulige biologiske forbindelser må ikke ligne fastslåede slægtskabsforhold; vis dem særskilt og tydeligt foreløbigt.
 
-Vi vil gerne have hjælp fra besøgende. Forskningssiden skal derfor gøre det let at finde åbne spørgsmål efter navn, sted, slægtslinje og status og give en konkret anvisning på, hvilken kirkebog, folio, folketælling, skifteprotokol eller anden kilde der kan afklare spørgsmålet. Bidrag kan sendes via [GitHub Issues](https://github.com/sloev/tree/issues) eller Pull Requests. Se [den fulde publicerings- og privatlivsmetode](research_method.md#9-open-public-research-and-community-contributions).
+Vi vil gerne have hjælp fra besøgende. Forskningssiden skal derfor gøre det let at finde åbne spørgsmål efter navn, sted, slægtslinje og status og give en konkret anvisning på, hvilken kirkebog, folio, folketælling, skifteprotokol eller anden kilde der kan afklare spørgsmålet. Bidrag kan sendes via [GitHub Issues](https://github.com/sloev/tree/issues) eller Pull Requests. Se [den fulde publicerings- og privatlivsmetode](research_method.md#5-offentlighed-og-privatliv).
 
 Åbenhed gælder historisk forskning, ikke private oplysninger: levende personer, private dokumenter, følsomme detaljer og ikke-offentliggjorte oplysninger om informanter skal fortsat beskyttes. En familieoplysning kan godt offentliggøres som familieoplysning, når det er forsvarligt; den må aldrig præsenteres som et dokumenteret faktum alene af den grund.
 
