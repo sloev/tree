@@ -545,7 +545,7 @@ function openPerson(id, push=true){
    <dl>${lifeTxt?`<dt>Liv</dt><dd>${lifeTxt}</dd>`:''}
      ${p.occ.length?`<dt>Erhverv</dt><dd><ul>${p.occ.map(o=>`<li>${esc(o)}</li>`).join('')}</ul></dd>`:''}
      ${p.res.length?`<dt>Boede</dt><dd><ul>${p.res.map(r=>`<li><span style="font-family:var(--f-data);font-size:.8rem">${r[0]}</span> ${esc(r[1])}${r[2]?` <span class="muted">· ${esc(r[2])}</span>`:''}</li>`).join('')}</ul></dd>`:''}
-     ${par.length?`<dt>Forældre</dt><dd>${list(par.map(q=>personLink(q)))}</dd>`:''}
+     ${par.length?`<dt>Forældre</dt><dd>${list(par.map(q=>personLink(q,claims.some(c=>c.person===q.id)?' <span class="conf possible">omstridt</span>':'')))}</dd>`:''}
      ${step?`<dt>Stedfar</dt><dd>${list([personLink(step)])}</dd>`:''}
      ${claims.length?`<dt>Andre forældreskabsoplysninger</dt><dd>${list(claims.map(c=>`<div>${byId[c.person]?personLink(byId[c.person]):esc(c.person)} <span class="conf possible">${esc(c.status||'påstand')}</span><p class="muted" style="margin:4px 0">${esc(c.note||'')}</p>${c.sources?.length?`<div class="src">${c.sources.map(srcLink).join('<br>')}</div>`:''}</div>`))}</dd>`:''}
      ${sp.length?`<dt>Gift med</dt><dd>${list(sp.map(q=>personLink(q)))}</dd>`:''}
