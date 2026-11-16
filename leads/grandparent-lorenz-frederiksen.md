@@ -243,7 +243,9 @@ Sources:
 
 ## 9. Dybbøl / Broager collateral line
 
-Jens Jensen (`p26`), father of Else Gedde Jensen, is recorded as son of Rasmus Jensen and Christine Hansen. He married Paula Gedde in 1907. Rasmus Jensen (`p52`) married Anne Christine Hansen (`p53`) in Dybbøl on 18 September 1866. The exact marriage entry remains to be visually inspected; prior Arkivalieronline access returned a viewer shell. The 1861–1927 Dybbøl Ab 4 volume contains marriages 1861–1906. Transcribe witnesses, ages, residences and fathers from the original page before treating the proposed parents Hans Hansen and Ellen Kock as independently verified.
+Jens Jensen (`p26`), father of Else Gedde Jensen, is recorded as son of Rasmus Jensen and Christine Hansen. He married Paula Gedde in 1907. Rasmus Jensen (`p52`) married Anne Christine Hansen (`p53`) in Dybbøl on 18 September 1866. The exact marriage entry remains to be visually inspected; prior Arkivalieronline access returned a viewer shell. The archival series description confirms that Dybbøl Ab 4 (1861–1927) contains marriages 1861–1906; a separate official Rigsarkivet index for Dybbøl marriages 1723–1900 is also catalogued, but its image viewer currently exposes only a shell to this research pass. These catalogue descriptions confirm where to look, not the contents of the 1866 entry. Transcribe witnesses, ages, residences and fathers from the original page before treating the proposed parents Hans Hansen and Ellen Kock as independently verified.
+
+**Catalogue confirmation (16 November 2026):** Rigsarkivet's [Dybbøl register index](https://arkivalieronline.rigsarkivet.dk/da/other/index-creator/29/725983/18484622) lists a marriage index for 1723–1900. The printed archival inventory confirms that [Dybbøl Ab 4](https://slaegtsbibliotek.dk/2024/941454.pdf) covers marriages 1861–1906. Neither catalogue/index description has yet yielded a readable transcription of the 18 September 1866 entry. See also [Rigsarkivet's church-book guide](https://www.rigsarkivet.dk/vejledning/kirkeboeger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/).
 
 ## 10. Open tasks in priority order
 
