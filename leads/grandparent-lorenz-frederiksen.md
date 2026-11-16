@@ -581,3 +581,48 @@ Sources:
 - [Arkivalieronline — 1930 census series listing](https://arkivalieronline.rigsarkivet.dk/da/rif/rif-collection/7).
 
 No census household, exact address or employer has yet been verified; this update records the corrected archive route only.
+
+### Ingested personal-information supplement: Wilhelm Krogh's family and precise residence (16 November 2026)
+
+The newly supplied leads/family-tree-personal-info.txt was reviewed against all four active dossiers. Most of its biographies and branch notes repeat material already consolidated in those dossiers. The important new Lorenz lead is a more precise identification of Wilhelm Krogh's family and 1932 locality. The original upload is preserved for provenance at [research-archive/family-tree-personal-info-2026-11-16.txt](../research-archive/family-tree-personal-info-2026-11-16.txt); it is no longer a parallel active worklist.
+
+**Secondary genealogy lead — not yet verified in original registers:** the supplement attributes the following family reconstruction to Hans Petersen's genealogy database linked from Lokalhistorisk Arkiv Ulkebøl:
+- Wilhelm / Vilhelm Krogh, born 9 October 1908, is proposed as son of **Detlef Krogh (1876–1949)** and **Kirstine Marie Jensen (1878–1945)**.
+- Proposed paternal grandparents: **Detlef Krogh (senior, c.1849–1931)** and **Bothille/Botilde Marie Hansen (1850–1930)**.
+- Proposed siblings: **Anna Bothilde (1901), Detlef (1905), Peter (1907), Wilhelm (1908), and Christine Marie (1913)**.
+- The supplement says the youngest sister, Christine Marie, died 16 January 1932, four days after Lorenz's birth. This is a precise and testable lead, not yet an independently checked death entry.
+- It says the family moved from Flensburg to Nybøl parish around 1909–1912 and that Wilhelm was a farmhand in **Vester (V.) Snogbæk, Sottrup parish**, in 1932.
+
+Do not merge the two proposed Detlef Kroghs: one is Wilhelm's proposed father (born 1876), the other his proposed brother (born 1905). Nor should the older Detlef Krogh already associated with Nybøl be assumed to be the same as the proposed grandfather without matching dates, spouse and children. The source is a compiled local genealogy, not a primary record; the linked database could not be independently read in this pass. The Ulkebøl archive's site does link to Hans Petersen's genealogy database, establishing provenance of the source route but not validating each relationship.
+
+**Major correction to the census and jurisdiction plan:** the new place detail changes the target parish. Vester Snogbæk is in **Sottrup Sogn**, not Broager Sogn. The 1930 census search should therefore start at Arkivalieronline's [Folketælling 1930, Sognelister](https://arkivalieronline.rigsarkivet.dk/da/rif/select/7/16972563), selecting **Sønderborg Amt → Nybøl Herred → Sottrup Sogn**, then inspecting the Snogbæk/Vester Snogbæk schedules. The earlier instruction to start with Broager was based on the imprecise place description and is superseded.
+
+This also changes the police/court search priority:
+- Trap 5's Nybøl Herred administrative history says that in 1920 the herred was part of Sønderborg retskreds; in 1922 **Ullerup and Nybøl parishes** were moved to the new Gråsten retskreds, and Egernsund was added. **Sottrup was not among those transferred**, so Wilhelm's proposed Vester Snogbæk residence points to **Sønderborg Retskreds**.
+- The 1922 police reorganisation likewise assigned Ullerup, Nybøl and Egernsund to Gråsten, leaving Sottrup in **Sønderborg Politikreds**. DAISY identifies the Sønderborg police creator as operating from 1920; the Gråsten police creator covers its distinct district.
+- Else's Egernsund address remains in the Gråsten court/police district. Thus the alleged father's district (Sønderborg) and the mother's district (Gråsten) may both matter. Rigsarkivet warns that when parents lived in different judicial districts, interviews and cross-references may be split between them.
+- The county priority is not changed: both localities are within Sønderborg Amt. Rigsarkivet's guidance still puts the father's county first; the 1932 county-administration transition remains relevant to the 5 April declaration, 10 June decision and 11 July marginal note.
+
+DAISY search has so far identified a dedicated Politiprotokol for faderskabsager under Gråsten and Aabenraa, but the Sønderborg creator overview fetched in this pass did not expose a matching dedicated series. Do not assume that absence from the visible creator summary means the case is missing. Ask Rigsarkivet to identify the relevant 1932 Sønderborg police journal/protocol and its register, and whether a case opened in Sønderborg was cross-referenced in the Gråsten district because Else lived in Egernsund. The Gråsten paternity protocol remains relevant for the mother's-side investigation, not as the default police district for Wilhelm.
+
+**Additional identity lead:** a published local-history article on the Bachmann brickworks identifies a **Detlef Krogh** among workers photographed in 1930. It does not state whether this is Wilhelm's proposed father (Detlef b.1876), his proposed brother (Detlef b.1905), or another person. Treat it only as a clue to check against the original photograph and the proposed family.
+
+**Next primary-record checks:**
+1. Inspect the 1930 census for Sottrup parish, especially Vester Snogbæk, and record the Krogh household's exact address, occupations and members.
+2. Verify Wilhelm's 1908 birth in Adelby parish, Flensburg, against the proposed parents; check the Danish-side Sottrup/Nybøl family after the reported move around 1909–12.
+3. Locate the 16 January 1932 death entry for Christine Marie Krogh and compare the parents' names and age.
+4. Search the 1932 Sønderborg county alimentation register and the Sønderborg police/court records under Wilhelm Krogh, Else Gedde Jensen and Lorenz Frederiksen; cross-check Gråsten because the mother lived there.
+5. Compare the two Detlef Krogh candidates with the 1930 Bachmann brickworks photograph and any employment/personnel records. Do not use the photo alone to establish identity.
+
+Sources checked:
+- [Arkivalieronline: Folketælling 1930, Sognelister](https://arkivalieronline.rigsarkivet.dk/da/rif/select/7/16972563) (selector identifies the 1930 parish-list series and the census fields).
+- [Rigsarkivet: census guide](https://www.rigsarkivet.dk/vejledning/folketaellinger-kom-godt-i-gang/).
+- [Trap 5: Nybøl Herred](https://trap5.lex.dk/herred/nyboel-herred-soenderborg-amt/) (1920–22 court and police district changes).
+- [DAISY: Sønderborg Politikreds](https://daisy.rigsarkivet.dk/arkivskaber_detaljer?a=&b=&c=politi&d=1&dir=a&e=2016&ed=&ep=&epid=&es=&f=&faid=&g=&gsc=he&h=&heid=&henid=&int=&m2rid=&meid=&ngid=723247&ngnid=5123072&side=1&sort=3).
+- [DAISY: Gråsten Politikreds](https://daisy.rigsarkivet.dk/arkivskaber_detaljer?a=&b=&c=politi&d=1&dir=a&e=2016&ed=&ep=&epid=&es=&f=&faid=&g=&gsc=he&h=&heid=14334077&henid=14334077&int=&m2rid=&meid=&ngid=723236&ngnid=&side=1&sort=2).
+- [Rigsarkivet: Sønderjylland archive overview](https://www.rigsarkivet.dk/wp-content/uploads/2022/06/Landsarkivet-for-Soenderjylland-En-arkivoversigt.pdf).
+- [Lokalhistorisk Arkiv Ulkebøl](https://www.ulkeboelarkiv.dk/) (links to Hans Petersen's genealogy database).
+- [1930 Bachmann brickworks photograph caption, local-history publication](https://slaegtsbibliotek.dk/2025/953685.pdf).
+- [Example of 1930 census citations for Vester Snogbæk, Sottrup parish](https://www.stroemming.dk/genealogy/gedweb/Public/da/Details/Details-I384.html) (an unrelated Petersen household; useful as a locality/census navigation aid, not evidence for Wilhelm).
+
+No proposed parent, grandparent, sibling or exact Krogh household has been confirmed from an original record. The canonical tree and all three fatherhood distinctions remain unchanged.
