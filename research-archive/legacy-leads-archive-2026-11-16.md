@@ -6917,3 +6917,1591 @@ Learned the hard way this pass, and worth keeping:
   aid, not a source.
 
 == END SEGMENT 14 — reply "next" for the closing summary ==
+
+
+---
+
+# Original extension segments — batch 2
+
+The following original agent-supplied segment files are preserved verbatim as historical source material. They are no longer active working notes; use the four grandparent dossiers.
+
+
+---
+
+## leads/file-m4r.file
+
+================================================================
+LINE 7 — SOUTH-WEST JUTLAND, NYBØL, NÆSTVED, MALMÖ
+Generations 5-9 on the farmor and morfar sides. As with segment
+5, this is a document schedule. The named frontier persons here
+are mostly placeholders taken from marriage entries, and each
+needs its own baptism or burial to move.
+================================================================
+
+----------------------------------------------------------------
+7A — ASSING: the strongest open lead in the file
+----------------------------------------------------------------
+The site grades this "Stærkt spor" and states it plainly: a local
+family compilation gives Jens Peder Larsen @a46@ born and
+baptised 29 Feb 1812 in Assing, married 1843 in Sønder Felding,
+died 1870 in Sønder Omme, at Pårup Melgaard. The dates fit. His
+parents are not verified.
+
+Work order:
+1. horsboel.dk/familie/grind/dat16.htm — the compilation itself,
+   read in full for the named parents.
+2. Assing kirkebog, fødte 1812. Pre-1814 and unindexed; page by
+   page on Arkivalieronline. This is the document that decides
+   it, and it is also where the line extends if the compilation
+   holds.
+3. FT 1870 Sønder Omme (horsboel.dk/fkt/FKT_Sdr_Omme_1870.pdf)
+   for the household and the children's ages.
+4. The 1843 Sønder Felding marriage entry for his stated father.
+Conf: D for the parents, B for the compilation.
+
+29 Feb 1812 is a leap day, which is useful: a compilation
+inventing a date rarely invents a leap day, and the date appears
+in three separate assertions (birth, baptism, and the derived
+marriage age). Treat the leap day as corroboration, not proof.
+
+----------------------------------------------------------------
+7B — HOVEN: the mill family
+----------------------------------------------------------------
+Three consecutive generations of placeholders, all resting on
+baptism entries that name the parents and nothing more:
+
+  @a88@ Anders /Jensen/, møller i Hoven, d. before 1834
+  @a89@ Ane Kirstine /Eskesdatter/, b. c. 1777, enke, owner of
+        the Hoven mill in 1834
+  @a90@ Christen /Pallesen/, gårdmand i Hoven, d. before 1834
+  @a91@ Kirsten Marie /Jensdatter/, b. c. 1784, gårdmandsenke
+        1834, aftægtskone 1840-60
+
+Two things make this tractable. A mill is a fixed asset with a
+skøde and a fire protocol; a widow who owns one appears in the
+matrikel and in the 1834 census as "ejer af møllen." And
+aftægtsfolk appear in the household they are fed by, so
+@a91@ is locatable in three censuses running.
+
+- Hoven kirkebog, fødte 1770-1800, for both women, and viede
+  c. 1770-1785 for both couples.
+- The Hoven mølle skøde- og brandprotokol, and the 1834 matrikel.
+- FT 1834 Hoven household 124565 (already cited twice) read in
+  full — it contains both widows and the children.
+Conf: D. Sources: @a88@, @a89@, @a90@, @a91@ entries and the
+FT 1834 citations LL:2-658252, LL:2-658290.
+
+----------------------------------------------------------------
+7C — SØNDER FELDING AND SKARRILD
+----------------------------------------------------------------
+  @a94@ Frederik /Jensen/ and @a95@ Ane /Thomasdatter/, parents
+        of @a47@ Kjersten Frederiksdatter, b. 20 Apr 1822
+  @p22@ Mads /Christensen/ and @p23@ Karen /Jensen/, married
+        Grindsted 1875
+
+Both are one-document frontiers:
+- Sønder Felding kirkebog, fødte 1822 (LL:12-8980109 already
+  cited) for @a47@, then viede for @a94@ and @a95@.
+- Grindsted kirkebog, viede 1875 (LL:13-3794323, 3794324), which
+  the tree already cites for both and which names both fathers.
+- Skarrild and Sønder Felding censuses 1845, 1850, 1880, 1901
+  for @p23@ and @p22@, several already cited.
+Conf: D.
+
+Note a source conflict already in the file: @p23@'s birth is
+29 Aug 1852 by the 1875 marriage and the Skarrild baptism, but
+29 Jul 1852 in the 1901 census. Record both, prefer the baptism.
+
+----------------------------------------------------------------
+7D — NYBØL / PAAKJÆR
+----------------------------------------------------------------
+The Paakjær line runs back through four placeholder couples, each
+named only in a marriage entry:
+
+  @sofus_fff@ Peter /Petersen/ + @sofus_ffm@ Maria Cathrine
+    /Lorensen/ — parents of @sofus_ff@ Mathias Petersen, m.
+    Nybøl 13 Oct 1865
+  @sofus_fmf@ Rasmus /Nissen/ + @sofus_fmm@ Maren
+    /Zachariasen/ — parents of @sofus_fm@ Sophia Maria Nissen
+  @sofus_mff@ Lorens /Petersen/ + @sofus_mfm@ Marie /Petersen/
+    — parents of @sofus_mf@ Lorens Petersen, m. Dybbøl 1860
+  @sofus_mmf@ Lorens Peter /Jørgensen/ + @sofus_mmm@ Anna
+    Kathrine /Mathiesen/ — parents of @sofus_mm@ Marie Jørgensen
+
+Nybøl is Nübel, and from 1867 the civil registers there are
+German. That changes the route: Nybøl kirkebog for the church
+entries, and the Standesamt registers for births, marriages and
+deaths after 1867, held at Kreisarchiv Schleswig-Flensburg.
+
+The farm itself is a fixed anchor. Mathias Petersen built
+Paakjær in Nybøl in 1879 and it was later renamed "Sofus minde."
+A farm built in 1879 has a building application and a fire
+insurance policy, and both name the builder's parents' estate.
+
+Also outstanding and cheap: @s_sofus_f_2@ Asmus /Petersen/,
+d. 4 Sep 1899, no birth date. Nybøl kirkebog fødte 1899, then
+the burial entry.
+Conf: D throughout.
+
+----------------------------------------------------------------
+7E — NÆSTVED: @p110@ and @p111@
+----------------------------------------------------------------
+Johan Alexander /Ludvigsen/ and Margaretha Dorothea Elisabeth
+/Bølin/, parents of @p55@ Vitta Dorthea Henriette Mathilde
+Ludvigsen @p55@, b. 4 Oct 1847 Næstved.
+
+- Næstved Sankt Peders kirkebog, fødte 1847 (LL:12-17734083
+  already cited), then viede for the parents.
+- Bølin is a rare surname. Search it alone across the whole
+  Arkivalieronline register set; it will cluster.
+Conf: D.
+
+----------------------------------------------------------------
+7F — MALMÖ: @p17@ Lovisa Larsson and @p34@ Niels Larsen
+----------------------------------------------------------------
+@p17@ b. 28 Jun 1862 Malmö, d. 12 Oct 1910 Slagelse. Father
+@p34@ Niels Larsen, Swedish, named only in her death entry
+(LL:11-231268). Her mother is not named at all.
+
+This is the only entirely foreign line in the file, and the
+Swedish material is better than the Danish for this period:
+
+- Malmö Sankt Petri och Malmö Karoli födelseböcker 1862, plus the
+  Malmö husförhörslängder for the household. Digitalised at
+  Arkiv Digital and SVAR; the längder give the whole family and
+  the flyttningar.
+- The 1880 Swedish census (folkräkningen) for Malmö.
+- Her 1885 move to København: the Danish tilflytningsliste and
+  the Swedish flyttningsbetyg, which name the parish she left.
+Conf: D. Source: @p17@, @p34@ entries.
+
+A note on method: a Swedish tjenestepige in København in 1885 is
+a well-documented category. The politiets registerblade and the
+København tilgangsliste for that year will place her by address
+and employer and will name Malmö. That is a faster route than
+the Swedish books and it feeds them.
+
+----------------------------------------------------------------
+OPEN on this line
+----------------------------------------------------------------
+O-21 Assing kirkebog, fødte 1812, for @a46@ and his parents.
+O-22 Hoven kirkebog 1770-1800 for @a88@, @a89@, @a90@, @a91@;
+     plus the Hoven mølle skøde and 1834 matrikel.
+O-23 Sønder Felding viede for @a94@ and @a95@.
+O-24 Nybøl kirkebog viede 1860, 1865, and the four placeholder
+     couples behind them; then Kreisarchiv Schleswig-Flensburg
+     Standesamt registers.
+O-25 Paakjær's 1879 building application and fire policy.
+O-26 Næstved Sankt Peders viede for @p110@ and @p111@; and a
+     surname sweep for Bølin.
+O-27 Malmö födelsebok 1862 and husförhörslängd for @p17@;
+     København tilgangsliste 1885 and politiets registerblade.
+
+== END SEGMENT 7 of 8 — reply "next" for SEGMENT 8: OPEN QUESTIONS, METHOD, IMPORT CHECKLIST ==
+
+
+---
+
+## leads/file-mbf.file
+
+================================================================
+SEGMENT 10 — INDEX
+Key to the file. Every person touched, by GEDCOM id, with the
+segment that carries it. Read the segment before the person.
+================================================================
+
+CONTENTS
+  1  Front matter, confidence key, source key, corrections
+  2  Gedde / Gjedde
+  3  Gaardsted — new generation 8
+  4  Syv / Vibygård — new first marriage and four children
+  5  Langeland schedule
+  6  Kresten, Langø, emigrants, Krogh, Sophus' daughter
+  7  South-west Jutland, Nybøl, Næstved, Malmö
+  8  DNA, consolidated open list, method, import checklist
+  9  Remaining frontiers
+  10 Index
+
+----------------------------------------------------------------
+CORRECTIONS
+----------------------------------------------------------------
+C-1  Muttrin 1364 note                     seg 1
+C-2  @p433@ second wife, not first         seg 2, 8
+
+----------------------------------------------------------------
+NEW PERSONS — GEDCOM-READY
+----------------------------------------------------------------
+@a_gaardsted_f@ Christen Christensen Tohde  seg 3  A
+@a_maren_poulsdatter@ Maren Poulsdatter     seg 4  A
+@ms_a66_0@ Poul Hansen                      seg 4  A
+@ms_a66_1@ Jens Hansen                      seg 4  A
+@ms_a66_2@ Peder Hansen                     seg 4  A
+@ms_a66_3@ Ane Hansdatter                   seg 4  A
+@ms_a66_4@ Willum Hansen                    seg 4  A
+@F136@ @F137@ @F138@                        seg 3, 4
+
+----------------------------------------------------------------
+NEW PERSONS — NOTE ONLY UNTIL O-1
+----------------------------------------------------------------
+Hans Jürgen von Kleist                      seg 1  C
+N.N. von Kameke, m. Hans Jürgen             seg 1  C
+Barbara von Kameke, d. c. 1606              seg 1  C
+Wilhelm von Kleist auf Vietzow, d. c. 1606  seg 1  C
+Achatius von Kameke, c. 1490-1550           seg 1  C
+Christine von Borcke, d. c. 1563            seg 1  C
+Georg von Kameke, d. 1511+                  seg 1  C
+Barbara von Münchow                         seg 1  C
+Hans von Borcke, 1471-1542                  seg 1  C
+N.N. von Böse                               seg 1  C
+Anton II. von Borcke, 1508-1575             seg 1  C
+Dorothea von Glasenapp                      seg 1  C
+Prissebur von Kleist                        seg 1  C
+Henning von Kleist (I.M.8)                  seg 1  C
+Henning von Kleist, s. of Prissebur         seg 1  C
+Margarethe von Wedelstädt                   seg 1  C
+Hans von Kleist, d. 1515/16                 seg 1  C
+N.N. von Borntin                            seg 1  C
+Pribislaff von Kleist, d. 1570              seg 1  C
+Dorothee Elisabeth von Below                seg 1  C
+Bisprow von Kleist, d. c. 1493              seg 1  C
+Peter von Kleist, d. 1501                    seg 1  C
+Dubislaff von Kleist, d. c. 1482            seg 1  A
+Catharina von Podewils                      seg 1  A
+Christian Giedde, 1638-1705                 seg 2  B
+Marie Elisabeth Pechernaut de la Remière    seg 2  B
+Frederikke Christiane Fischer, d. 1787      seg 2  B
+
+----------------------------------------------------------------
+PERSONS WITH NEW NOTES OR CONFLICTS
+----------------------------------------------------------------
+@p6@    three fathers, note                  seg 8
+@p12@   no parents, no family — oversight    seg 6, 8
+@p13@   half-sister cluster                  seg 6
+@p17@   Malmö route                           seg 7
+@p24@   distinguish from @pf12@              seg 9
+@p32@   Hove/Høje/Høve, read 1854 entry      seg 9
+@p33@   four half-siblings                   seg 4
+@p54@   fosterage clause to copy in          seg 9
+@p72@   FAMC, NAME Christensen, first wife   seg 3
+@p75@   Rosmus conflict note                seg 4
+@p216@  1778 vs 1788 birth conflict          seg 2
+@p217@  "sandsynligvis" can go               seg 2
+@p433@  second wife                          seg 2
+@p126@/@p127@  emigration note               seg 6
+@p432@  first wife added                     seg 2
+@a66@   FAMC of children, note rewrite       seg 4
+@a75@   conflict note                        seg 4
+
+----------------------------------------------------------------
+PERSONS ON A DOCUMENT SCHEDULE
+----------------------------------------------------------------
+seg 5  @p112@ @p113@ @p114@ @p115@ @p116@ @p117@ @p118@
+       @p119@ @p120@ @p121@ @p124@ @p125@ @p126@ @p127@
+       @a252@ @a253@ @a254@ @a255@ @a1008@ @a1009@
+seg 6  @g_kresten@ @g_marthe@ @g_kbarn@ @s_p62_0@ @s_p62_1@
+       @s_p62_5@ @x_lisbeth@ @s_p54_3@ @s_p54_6@ @s_p60_2@
+       @sofus@ @sofus_w@ @sofus_d0@ @sofus_d1@ @sofus_d2@
+seg 7  @a46@ @a47@ @a88@ @a89@ @a90@ @a91@ @a94@ @a95@
+       @p22@ @p23@ @sofus_f@ @sofus_m@ @sofus_ff@ @sofus_fm@
+       @sofus_mf@ @sofus_mm@ @sofus_fff@ @sofus_ffm@
+       @sofus_fmf@ @sofus_fmm@ @sofus_mff@ @sofus_mfm@
+       @sofus_mmf@ @sofus_mmm@ @s_sofus_f_2@ @p110@ @p111@
+       @p34@
+seg 9  @p304@ @p152@ @p76@ @p77@ @p38@ @p39@ @p32@
+       @s_p32_0@ @s_p32_2@ @g_knudg@ @g_mlh@ @g_olga@
+       @g_annasm@ @g_jepmond@ @g_aase@ @g_jlk@ @p96@ @p97@
+       @p98@ @p99@ @p100@ @p101@ @p48@ @p49@ @p50@ @p51@
+       @p26@ @p27@ @s_p26_4@ @s_p26_0@
+
+----------------------------------------------------------------
+OPEN ITEMS
+----------------------------------------------------------------
+O-1 to O-35   seg 8, part 2
+O-36 to O-44  seg 9
+
+----------------------------------------------------------------
+SOURCES BY SEGMENT
+----------------------------------------------------------------
+seg 1  GK  GN1  GN2  GN3  HAR  MUT  PHT
+seg 2  DAW  SNL  LHW  GN3  MC
+seg 3  G302  G305
+seg 4  VIB
+seg 6  Udvandrerarkivet B9886 B9790
+seg 8  MyHeritage DNA, Cousin Finder
+URLs for every code are in the source key, seg 1.
+
+================================================================
+END
+================================================================
+
+Two things to do before any of this touches the repo:
+
+The corrections first. C-2 is the one that matters most — the
+Fischer sisters are the only place in this file where a live
+entry is simply wrong rather than thin, and it sits at the top of
+the morfar line.
+
+Then decide the von Kleist question. Segment 1 gives you five
+generations, but four of them hang on chain B, and chain B does
+not agree with the Harbou numbering your own site already
+carries. Import GEN 12 and leave 13-16 in a note until O-1 is
+done, or you will end up with a medieval line that looks settled
+and isn't. Given how the rest of the tree is built — a blank
+beats a guess — the note is probably the right call.
+
+
+---
+
+## leads/file-rag.file
+
+================================================================
+LINE 3 — GAARDSTED / GÅRDSTED
+Claus Gaardsted @p72@ is generation 7. The new generation sits
+ABOVE him, generation 8.
+================================================================
+
+This is the site's own open question O-1 in the "Det, vi endnu
+ikke ved" list: "Et skifteuddrag fra 1787 dokumenterer søsteren
+Karen Christensdatter; hans egne forældre og fødested kræver
+stadig kilder før 1787." The 1787 extract was read too narrowly.
+It does not just name the sister. It names the father.
+
+----------------------------------------------------------------
+THE DOCUMENT
+----------------------------------------------------------------
+Rolsøgård gods skifteprotokol, Mols herred, series G302,
+1778-1816 (with Mols and Djurs Sønder herred 1818). Fol. 39,
+skifte nr. 11, 14 May 1787. Deceased: Niels Jensen Degn i
+Vrinners. Verbatim, the operative clause:
+
+  "Arv i boet til afdødes stedbørn efter Christen Christensen
+   Tohde foged i Dejret (skifte 1764) til datter Karen
+   Christensdatter; LV: broder Claus Gaardsted forpagter på
+   Vosnæsgård."
+
+Read: the estate owes a legacy to the deceased's stepchildren by
+Christen Christensen Tohde, foged in Dejret, probate 1764, and it
+is paid to the daughter Karen Christensdatter, with her brother
+Claus Gaardsted, tenant at Vosnæsgaard, as guardian.
+
+Conf: A. Sources: G302; the same entry also in milloup.dk's
+extract of the same series.
+  https://slaegt.dk/media/jnnnvuml/alfabetisk-navneliste-og-skifteuddrag-til-rols%C3%B8g%C3%A5rd-gods-g302-mols-herred-1778-1816-1818.pdf
+  https://www.milloup.dk/hvh/download/skifter/rolsoegaard_gods_skifter.htm
+
+----------------------------------------------------------------
+WHAT IT ESTABLISHES
+----------------------------------------------------------------
+1. Claus Gaardsted had a sister, Karen Christensdatter. The tree
+   already knew the sister but not that she was a sister — it had
+   her as a bare probate reference.
+2. Their father is Christen Christensen Tohde, foged in Dejret.
+   Claus is therefore Claus Christensen, "Gaardsted" being a
+   byname taken from a place, not a patronymic.
+3. The father was dead by 1787 — his probate is 1764.
+4. Dejret lies in Vistoft sogn, immediately under Vosnæsgaard,
+   the estate Claus leased from 1787. Father foged there, son
+   forpagter there. The career is explained by the birth.
+
+Dejret is also the parish of the 1794 and 1796 entries in G305,
+so the place is populated in the right period.
+
+----------------------------------------------------------------
+GEN 8 — NEW
+----------------------------------------------------------------
+  Christen Christensen /Tohde/
+    occ Foged i Dejret, Vistoft sogn, Mols herred
+    d. before 1787; probate 1764, Rolsøgård gods
+    children:
+      Karen /Christensdatter/ — living 1787
+      Claus /Christensen/ /Gaardsted/ @p72@ — living 1787
+  Conf: A for the man, the office, the probate year, and both
+  children. Source: G302.
+
+  Add as GEDCOM:
+  0 @a_gaardsted_f@ INDI
+  1 NAME Christen Christensen /Tohde/
+  1 SEX M
+  1 OCCU Foged, Dejret, Vistoft sogn
+  1 DEAT
+  2 DATE BEF 1787
+  2 NOTE Skifte 1764, Rolsøgård gods. Far til Karen
+    Christensdatter og Claus Gaardsted (G302 fol. 39).
+  1 SOUR
+  2 PAGE G302 fol. 39, skifte nr. 11, 14.5.1787
+  0 @F136@ FAM
+  1 HUSB @a_gaardsted_f@
+  1 CHIL @p72@
+
+  Then on @p72@ add:
+  1 FAMC @F136@
+  1 NAME Claus /Christensen/
+
+----------------------------------------------------------------
+CAUTION — the name "Tohde"
+----------------------------------------------------------------
+"Tohde" occurs once in the extract and is flagged there with a
+question mark by the transcriber. Read the original before
+committing the spelling. Conf: A for the caution.
+
+Do not confuse with the Tønde/Tohde family in the same herred
+series, nor with Christen Christensen Mogensen in Vistoft
+(probate 26 Oct 1761, widow Kirsten Jensdatter) — a different man
+with a different family. Conf: A. Source: G305.
+
+----------------------------------------------------------------
+DOWNWARD — what the new generation implies
+----------------------------------------------------------------
+Claus Gaardsted's own probate is not in G302, which stops at
+1816, and his widow sold Bogensholm at auction in 1811 for
+31,000 rd. That auction and his probate are the two documents
+most likely to name his siblings and half-siblings outright.
+Conf: B. Source: @p72@ entry, Trap/danskeherregaarde.dk.
+
+Also: @p72@ married twice, and Kirsten Marie Jørgensdatter
+@p73@ was the second wife. His first wife is unnamed in the
+tree and the children of that marriage are missing except
+@s_p72_0@ and @s_p72_1@. The 1787 probate names him at
+Vosnæsgaard; the first marriage belongs before that. Conf: A
+for the two marriages (@p72@ entry), D for the missing first
+wife.
+
+----------------------------------------------------------------
+OPEN on this line
+----------------------------------------------------------------
+O-8  The 1764 probate of Christen Christensen Tohde. Rolsøgård
+     gods earlier series, before the 1778 start of G302.
+     Landsarkivet for Nørrejylland, Rolsøgård gods, 1764.
+     This is the single document that turns GEN 8 from a name
+     into a family.
+O-9  Claus Gaardsted's own probate, 1811, and the Bogensholm
+     auction same year. Both should name siblings.
+O-10 Claus's first wife and her children. Between c. 1775 and
+     1790; Vosnæsgaard and Skødstrup kirkebog.
+
+== END SEGMENT 3 of 8 — reply "next" for LINE 4, SYV / VIBYGÅRD ==
+
+
+---
+
+## leads/file-up7.file
+
+================================================================
+SEGMENT 13 — HARBOU RECONCILIATION WORKSHEET
+Every PHT:1897 citation in family-tree.ged, 29 of them, with
+what it currently asserts and what to check. Work down the
+columns. Do not delete a citation before its row is closed.
+================================================================
+
+PROCEDURE
+---------
+1. Read the row's person in Harbou (both PDFs; the German one is
+   the typescript original and the Danish one is the translation
+   — where they differ, note both).
+2. Fill the HARBOU NR column with Harbou's own number. This is
+   the column O-1 needs: III.22, III.54, III.114, III.186 and
+   III.281 are somewhere in this list or adjacent to it, and
+   finding them by name is the whole job.
+3. Fill CHECK with what Harbou actually says.
+4. Set STATUS: CONFIRM / CORRECT / HARBOU ONLY / SILENT.
+   - HARBOU ONLY means the file's claim rests on Harbou alone and
+     no register has been read. Those rows are the exposure.
+   - SILENT means Harbou does not have the person; the citation
+     is then wrong and should be replaced or removed.
+5. Only CONFIRM rows keep a PHT:1897 citation. CORRECT rows get
+   the corrected text plus the citation. HARBOU ONLY rows get a
+   "sekundær, ikke efterprøvet" note.
+
+----------------------------------------------------------------
+A — THE DANISH BRANCH, generation 7-11
+----------------------------------------------------------------
+ID          PERSON                        ASSERTION            HARBOU NR  CHECK  STATUS
+@p108@      Ove Frederik Christopher       b. Jul 1808          ____       ____   ____
+            /Gedde/                        Fredensborg; plejesøn
+                                           hos Hammer
+@p216@      Ove Samuel /Gedde/             b. 28 Feb 1778;      ____       ____   ____
+                                           d. 10 Mar 1843
+                                           Helsingør; oberst
+@p217@      Frederikke Louise Dorthea      b. 5 Jan 1786;       ____       ____   ____
+            von /Kleist/                   d. 24 Jan 1870;
+                                           datter af Christian
+                                           Frederik
+@s_p216_0@  Wilhelm Edvardt Sophus von     b. 1809; sekond-     ____       ____   ____
+            /Gedde/                        løjtnant 1834
+@s_p216_1@  Henriette /von Gedde/          b. 1819              ____       ____   ____
+@s_p108_0@  Emilie Sophie Frederikke       b. 7 Jul 1842        ____       ____   ____
+            /Gedde/
+@s_p108_1@  Margrethe Ida Marie /Gedde/    b. 11 Apr 1849       ____       ____   ____
+@s_p108_2@  Ove Frederik /Gedde/           b. 11 Dec 1850;      ____       ____   ____
+                                           d. 24 Oct 1907
+@s_p434_0@  Christine Sophie von /Kleist/  b. 28 Aug 1771;      ____       ____   ____
+                                           d. 31 Mar 1862;
+                                           m. Hammer 1795
+@s_p434_1@  Adam Ludvig Vilhelm von        b. 16 Oct 1772;      ____       ____   ____
+            /Kleist/                       d. 6 Oct 1851
+@s_p434_2@  Valentin Ulrik von /Kleist/    b. 31 Dec 1773;      ____       ____   ____
+                                           d. 23 Jul 1827
+@s_p434_3@  Frederik Christian von         b. 8 Jan 1775;       ____       ____   ____
+            /Kleist/                       d. 21 May 1848
+@s_p434_4@  Carl Gottlieb von /Kleist/     b. 15 Jan 1778;      ____       ____   ____
+                                           d. 26 Jul 1849
+@s_p434_5@  Juliane Frederikke Margrethe   b. 2 Dec 1781;       ____       ____   ____
+            von /Kleist/                   d. 22 May 1861;
+                                           m. N. W. Gedde 1811
+@s_p434_6@  Henriette Louise von /Kleist/  b. 30 Nov 1795;      ____       ____   ____
+                                           d. 12 Apr 1827;
+                                           m. von der Recke 1813
+@s_p868_0@  Frederikke Louise von          b. 27 Mar 1747;      ____       ____   ____
+            /Kleist/                       d. 29 May 1814
+
+Note on @s_p434_5@: this is the marriage that confirms Ove
+Samuel's brother Nicolai Wilhelm, and it is the row where Harbou
+matters most. If Harbou has it, the Kleist-Gedde double marriage
+is documented from a contemporary and segment 2's "sandsynligvis"
+note is fully closed.
+
+Note on @s_p434_0@: Christine Sophie is the foster mother. Harbou
+is the only source for the fostering arrangement in the file,
+and @p108@'s whole entry hangs on it.
+
+----------------------------------------------------------------
+B — generation 12-13
+----------------------------------------------------------------
+@p434@      Christian Frederik von /Kleist/ b. 25 Aug 1743;     ____       ____   ____
+                                           d. 12 Jul 1799;
+                                           kammerherre 1779
+@p435@      Anna Margrethe /Schubart/      b. 3 Apr 1753;       ____       ____   ____
+                                           d. 24 Aug 1842;
+                                           m. 3 Dec 1770
+@p868@      Christian Adam von /Kleist/    b. 1 Oct 1705       ____       ____   ____
+                                           København; d. 31
+                                           Oct 1778 Bredsted
+@p869@      Sophie /Rosenkrantz/           b. 1714; d. 4 Jun    ____       ____   ____
+                                           1770; dame de
+                                           l'Union parfaite
+@p870@      Johan Valentin /Schubart/      major i kavaleriet   ____       ____   ____
+@p871@      Christiane Sophie /Woldenberg/ —                    ____       ____   ____
+@p1738@     Christian Rosenkrantz til       gehejmeråd;         ____       ____   ____
+            /Skovsbo/                      godsejer Skovsbo
+@p1739@     Frederikke Louise /Krag/       —                    ____       ____   ____
+
+Cross-check @p869@: "Dame de l'Union parfaite 1752" and a 1714
+birth with a 1770 death. The l'Union parfaite order was founded
+1732 and its membership rolls survive in the Rigsarkiv; if she is
+in them, that is a primary confirmation of a person who
+otherwise exists only in Harbou.
+
+Cross-check @p868@: Dansk biografisk Lexikon IX p. 219 is cited
+alongside Harbou. Read DBL too — where two printed sources agree
+independently the row can be closed at B without a register.
+
+----------------------------------------------------------------
+C — generation 14-17, the Pomeranian end
+----------------------------------------------------------------
+@p1736@     Cartz Ulrik von /Kleist/       d. Nov 1722;         ____       ____   ____
+                                           premierløjtnant
+                                           1701; herre til
+                                           Drenow; såret ved
+                                           Helsingborg 1710 og
+                                           Gadebusch 1712
+@p1737@     Barbara Juliane von /Kleist/   d. after 1730;       ____       ____   ____
+                                           boede på Drenow
+@p3472@     Pribislaff von /Kleist/       godsejer Muttrin,     ____       ____   ____
+                                           Borntin, Döbel,
+                                           Drenow
+@p3473@     Esther von /Kameke/            —                    ____       ____   ____
+@p3474@     Christian Casimir von /Kleist/ b. 1654; d. 1 Feb    ____       ____   ____
+                                           1722 Oldenborg
+@p3475@     Anna von /Fürst/               d. 1722; fra         ____       ____   ____
+                                           Schlesien
+@p6948@     Christian von /Kleist/         d. 1679; branden-    ____       ____   ____
+                                           borgsk oberst;
+                                           godsejer Gross
+                                           Tychow
+@p6949@     Hedvig Maria von /Kleist/      første hustru;       ____       ____   ____
+                                           bragte Gross
+                                           Tychow ind
+@p13898@    Georg von /Kleist/             godsejer Gross        ____       ____   ____
+                                           Tychow
+@p13899@    Christina von /Woyten/         —                    ____       ____   ____
+
+FOUR ROWS THAT NEED SPECIAL CARE
+--------------------------------
+1. @p3473@ "Esther von /Kameke/". GN2 has Hans Jürgen von Kleist
+   married to an unnamed N.N. von Kameke, and Barbara von Kameke
+   married to Wilhelm von Kleist. Two Kameke women, one
+   generation apart, and the file's "Esther" is not in GN2. Either
+   Harbou names her and the forename stands, or the file has
+   imported a forename from somewhere else. Check before anything
+   else in section C.
+
+2. @p3475@ "Anna von /Fürst/". Fürst is not a Pomeranian name in
+   the same way as the rest of this set; "von Fürst" and "von
+   Fürsten" are different families. Confirm the form.
+
+3. @p6949@ Hedvig Maria "von /Kleist/". A Kleist marrying a
+   Kleist, and she is the one who brings Gross Tychow in. If
+   Harbou shows her as a von Kleist of a different branch, the
+   line has a cousin marriage in it and the note should say so.
+
+4. @p1736@ Cartz Ulrik's wounding and capture. Harbou is the only
+   source for Helsingborg 1710 and Gadebusch 1712 in the file.
+   Those are checkable against the Danish military histories of
+   both actions, independently of Harbou.
+
+----------------------------------------------------------------
+D — THE NUMBERS O-1 NEEDS
+----------------------------------------------------------------
+When you have filled HARBOU NR for section A-C, sort the sheet by
+that column. The five numbers the site's note already quotes —
+III.22, III.54, III.114, III.186, III.281 — will either land on
+rows in this sheet or fall in the gaps between them. Either
+answer is a result:
+
+- If they land on rows: the chain is confirmed by name and the
+  von Kleist extension in segment 1 goes into the GEDCOM.
+- If they fall in the gaps: the chain runs through persons the
+  file does not have, and the gaps between the nearest numbers
+  are exactly the persons to add, in order, from Harbou.
+
+Fill the gaps from Harbou before touching segment 1. That is the
+sequence: worksheet, then gaps, then import.
+
+----------------------------------------------------------------
+E — WHAT HARBOU IS AND IS NOT
+----------------------------------------------------------------
+Is: a contemporary, related by marriage, working from family
+papers, the Danish military rolls and the church books, in 1897.
+Detailed, dated, and the origin of most of the Pomeranian detail
+in the file.
+
+Is not: a primary source. He is reconstructing a German line he
+had no registers for, from a family history (GK) that is itself
+partisan and, per its own 2025 revision, wrong in the earliest
+generations. Everything he says about Pomerania before 1700 is
+third-hand at best.
+
+So: use Harbou to identify and date the Danish generations, which
+he knew. Use him only to locate the Pomeranian ones, and let GK
+and the Greifswald charters carry those.
+
+Conf: A for the distinction.
+
+== END SEGMENT 13 — reply "next" for the negatives log ==
+
+
+---
+
+## leads/file-vx6.file
+
+================================================================
+SLAEGTEN GAARDSTED OG GEDDE — RESEARCH EXTENSION FILE
+Compiled 16 Nov 2026. Companion to family-tree.ged (489 persons,
+14 generations, @p1@-@p13899@).
+================================================================
+
+HOW TO USE
+----------
+Work top-down. Every entry carries the GEDCOM id it attaches to,
+a confidence flag, and a source code. Only entries flagged A or B
+should go straight into the GEDCOM; C needs a second source
+first; D is a lead, not a person yet.
+
+Line sections are ordered by depth, not by importance. Nothing
+here overrides an existing entry in family-tree.ged without an
+explicit CORRECTION line.
+
+CONFIDENCE KEY
+--------------
+A  Primary source read, or verbatim extract of one
+B  Printed secondary source, named author, page/number given
+C  Online database or reconstruction; internally consistent,
+   unverified
+D  Lead only. No person added yet.
+
+SOURCE KEY
+----------
+GK   Geschlechts v. Kleist, Muttrin-Damensche Linie
+     (Familienverband derer v. Kleist), III. numbering
+GN1  Geneanet, tree gbrouge, surname list "VON KLEIST"
+GN2  Geneanet, tree cvpolier, Barbara von Kameke
+GN3  Geneanet, tree cvpolier, Pribislaff von Kleist (3)
+G302 Rolsøgård gods skifteprotokol, Mols herred, G302
+     (slaegt.dk / milloup.dk extract, fol. 39)
+G305 Gods i Vistoft og Agri sogne, G305, 1739-1797
+VIB  Vibygaard gods skifteprotokol, book 2 1819-1850,
+     film 41401 (aurelia-clemons.dk extract)
+DAW  da.wikipedia.org
+SNL  Store norske leksikon, "Gedde (slekt)"
+LHW  lokalhistoriewiki.no, "Gedde (borgerlig slekt)"
+HAR  H. W. Harbou, "von Kleist i Danmark" (1897)
+     v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf
+MUT  Muttrin-Damensche Familiengeschichte (2025)
+     v-kleist.com/FG/Muttrin/Muttrin.pdf
+PHT  PHT:1897, cited throughout family-tree.ged
+MC   mortenclausen.dk/GEDHT
+
+CHANGE SUMMARY
+--------------
+NEW      41 persons, 4 generations added above the current top of
+         the von Kleist line; 1 generation above Claus Gaardsted;
+         4 half-siblings of Johanne Sophie Hansen; 1 generation
+         above Hans Christopher Gedde.
+CORRECTED  2 (see below).
+CONFIRMED  3 open items in the site's own gap list now closed.
+OPEN     9, listed in the final segment.
+
+CORRECTIONS — apply these to the live tree
+------------------------------------------
+C-1  Site note says the Muttrin line reaches "Prissebur, der
+     nævnes i et dokument fra 1364." GK gives no 1364 date. The
+     earliest documented person in the Damen line is Henning
+     (I.M.8), and "Prisse" occurs only as an illegitimate woman,
+     "Prisse Kleistes genannt," in a 1577 settlement by III.38
+     Jacob auf Kowalk. "Um 1365" is the acquisition of Damen,
+     not a person. Reword to "um 1365" and drop the 1364.
+     Conf: A. Source: GK.
+
+C-2  Øllegaard Sophie Fischer @p433@ is entered as Ove Samuel
+     Geddes wife. She is his second wife and the mother of Ove
+     Samuel the younger; his first wife was her sister Frederikke
+     Christiane Fischer (d. 1787). Both sisters, one after the
+     other. Conf: B. Source: DAW, SNL.
+
+CONFIRMED — the site's gap list, closed
+---------------------------------------
+K-1  "Claus Gaardsteds herkomst." Father identified: Christen
+     Christensen Tohde, foged i Dejret, probate 1764. See
+     LINE 3.
+K-2  "Ove Samuel Geddes forældre." Father confirmed as Hans
+     Christopher Gedde @p432@. See LINE 2.
+K-3  "Hans Jensen, gartner ved Vibygård" — the 1820 probate is
+     him, and it yields a whole earlier marriage. See LINE 4.
+
+================================================================
+LINE 1 — VON KLEIST / MUTTRIN
+Deepest line. Cartz Ulrik von Kleist @p1736@ is generation 11.
+Everything below sits ABOVE him, generations 12-16.
+================================================================
+
+NOTE ON TWO CHAINS
+------------------
+Two reconstructions exist for the stretch between Dubislaff
+(d. c. 1482) and Pribislaff (d. 1698). They do not agree, and
+GK's own numbering is the arbiter. Do not splice them blindly.
+
+  Chain A — site's note, Harbou numbering, persons unnamed:
+  III.22 > III.54 > III.114 > III.186 (Hans) > III.281
+  (Pribislaff, Cartz Ulrik's father).
+
+  Chain B — GN1, Prissebur line. Same family, different
+  sub-branch, and its Pribislaff (d. 1570) is NOT the
+  Pribislaff (d. 1698) who fathered Cartz Ulrik.
+
+Resolve A against GK III.22 / III.54 / III.114 / III.186 before
+importing anything from B. Conf: A for the method, C for B.
+
+----------------------------------------------------------------
+GEN 12 — parents of Pribislaff von Kleist @p3472@
+----------------------------------------------------------------
+@p3472@ Pribislaff von /Kleist/ — godsejer Muttrin, Borntin,
+  Döbel, Drenow. d. 1698.
+  FATHER  Hans Jürgen von /Kleist/, Herr auf Muttrin und Drenow.
+          d. before 1665.
+  MOTHER  N.N. von /Kameke/, daughter of Barbara von Kameke
+          (GN2) and Wilhelm von Kleist auf Vietzow (d. c. 1606).
+  Conf: C. Source: GN2, GN3.
+
+----------------------------------------------------------------
+GEN 13-16 — the Kameke / Borcke matrix behind N.N. von Kameke
+----------------------------------------------------------------
+Only the direct mother's line. Conf: C throughout. Source: GN2.
+
+  Barbara von /Kameke/
+    f. Wilhelm von /Kleist/, Herr auf Vietzow, d. c. 1606
+    f. Achatius von /Kameke/, Herr auf Lassehne, c. 1490-1550
+    m. Christine von /Borcke/, d. c. 1563
+    ff. Georg von /Kameke/, d. 1511 or later
+    fm. Barbara von /Münchow/
+    mf. Hans von /Borcke/, Herr auf Regenwalde, Stramehl,
+        Döberitz, Labes, Kankelfitz, 1471-1542
+    mm. N.N. von /Böse/
+    mff. Anton II. von /Borcke/, Herr auf Satzig, 1508-1575
+         m. 1554
+    mfm. Dorothea von /Glasenapp/
+
+Note: Barbara von Kameke's Kleist marriage produced Achatz Philipp
+von Kleist auf Vietzow (d. c. 1637) and Peter von Kleist auf
+Pumlow (d. 1638), so the Kameke-Kleist link is doubly attested in
+the same generation. Conf: C.
+
+----------------------------------------------------------------
+GEN 12-14 — Prissebur line, IF chain B holds
+----------------------------------------------------------------
+  Prissebur von /Kleist/
+    f. Henning von /Kleist/
+    ff. Henning von /Kleist/
+        m. Margarethe von /Wedelstädt/ aus Gülzow
+        (Wedelstädt c. 1376-1440 per Geni)
+  Children of Henning + Wedelstädt, per GN1:
+    - Hans von /Kleist/, d. 1515/16, m. N.N. von /Borntin/,
+      s. Pribislaff von Kleist d. 1570, m. Dorothee Elisabeth
+      von /Below/, s. Hedwig von Kleist m. Wulf von /Wedel/
+      d. 1573
+    - Bisprow von /Kleist/, d. c. 1493, m. N.N. von /Natzmer/
+    - Peter von /Kleist/, d. 1501, m. Barbara von /Tessen/
+    - Dubislaff von /Kleist/, d. c. 1482, m. a) Catharina von
+      /Podewils/, b) N.N. von /Glasenapp/ aus Gramenz
+  Conf: C. Source: GN1.
+
+----------------------------------------------------------------
+GEN 13-14 — Dubislaff's career, from the family history
+----------------------------------------------------------------
+This is the one stretch that is A-grade and it is worth having
+verbatim, because it dates the whole line:
+
+  "III.2 Dubislaff, also called Bratta, auf Damen, 1477,
+   d. c. 1482," son of Henning (I.M.8) and Margarethe von
+   Wedelstädt aus Gülzow. First mentioned, with his five sons
+   Drews, Curt, Bisprow, Peter and Pribislaff (III.7-11), in the
+   joint enfeoffment letter of 13 April 1477. Held half of
+   castle and town Bublitz; his Bublitz share was bought in 1479
+   by Ludwig Graf zu Eberstein, Bishop of Cammin. Married a)
+   Catharina von Podewils, b) ... von Glasenapp aus Gramenz. His
+   sons were enfeoffed 28 Dec 1486, father dead by then.
+   Source: GK, verbatim. Conf: A.
+
+Fate notes, same source, same grade — this family dies hard:
+  III.7 Andreas (Drews) auf Voldekow, princely councillor, 1477,
+  d. 1488, said to have been beaten to death by peasants in
+  Drenow. III.24 Matthias auf Damen, d. before 1540, beaten to
+  death in a dispute with peasants of Drenow. III.57 Anton
+  (Tonnies), d. before 1538, drowned, probably in the Persante —
+  with him the Andreas sub-branch died out.
+
+----------------------------------------------------------------
+THE DAMEN SUB-BRANCH — full GK chain, for reference
+----------------------------------------------------------------
+Use only to place persons once chain A is resolved.
+
+  III.8 Curt auf Damen und Kowalk, 1477, d. before 1501;
+    m. a) N.N. von Manteuffel (childless), b) N.N. von
+    Wopersnow aus Standemin; s. Lorenz, Andreas, Paul, Georg
+  III.27 Andreas (Drews) auf Voldekow, d. before 1546;
+    m. Elisabeth von Podewils
+    s. III.58 Georg, d. c. 1560, killed by a peasant's spear in
+       the 1559 feud with Venz and Tönnies
+    s. III.59 Curt auf Kl.-Voldekow und Schwellin, d. c. 1582;
+       m. Emerentia von Zastrow; s. Michael, Jürgen, Joachim,
+       Reimar
+  III.118 Jürgen auf Dargen und Kl.-Voldekow, d. before 1618;
+    m. a) N.N. (s. Curt, Joachim, Michael; d. Elisabeth),
+       b) Barbara von Massow (childless)
+  III.190 Curt, d. after 1650, unmarried
+  III.191 Joachim auf Dargen, d. after 1665, c. 1670;
+    m. Agnes von Versen
+    s. III.285 Jürgen Heinrich auf Dimkuhlen, d. before 1690,
+       shot by his brother-in-law Reimer auf Schmenzin c. 1690 —
+       with him the Damen-Voldekower side branch died out
+  III.194 Jürgen auf Kowalk und Schmenzin, b. before 1614,
+    d. 1657; m. Ilsa Maria von Stojentin, d. 1694
+    s. III.286 Joachim Heinrich d. 1699, III.287 Reimar d. 1685,
+       III.288 Alexander Lorenz d. 1695, III.289 Jürgen d. 1718,
+       III.290 Jacob d. 1686
+  III.286 Joachim Heinrich auf Voldekow, d. 1699;
+    m. Esther Margaretha von Briesen
+    s. III.377 Hans Erdmann, III.378 Jürgen Ulrich d. 1703
+  III.377 Hans Erdmann auf Gr. Voldekow, 1714;
+    m. Maria Ludovica von Kleist
+    s. III.477 Georg Wedig 1707-1759, III.478 Jürgen Lorenz
+       b. 1720, d. young, no heirs
+  III.477 Georg Wedig, captain, 1707-1759;
+    m. Charlotte Luise von Flemming
+    s. III.603 Hans Georg Wedig 1750-1816, major and postmaster
+       in Schlawe
+  Conf: A. Source: GK.
+
+----------------------------------------------------------------
+OPEN on this line
+----------------------------------------------------------------
+O-1  Identify GK III.22, III.54, III.114, III.186 by name and
+     confirm III.281 = Pribislaff d. 1698. Needs GK itself, not
+     the extracts.
+O-2  Landesarchiv Greifswald: lensbreve and skifter for Muttrin,
+     Drenow, Borntin, Gross Tychow. GK cites these directly.
+O-3  The 1364 question: MUT (2025) is the cited authority. Read
+     MUT itself before any medieval claim goes on the site.
+
+== END SEGMENT 1 of 8 — reply "next" for LINE 2, GEDDE / GJEDDE ==
+
+
+---
+
+## leads/file-xbh.file
+
+================================================================
+SEGMENT 11 — GEDCOM PATCH
+One contiguous block. GEDCOM 5.5.1, UTF-8, LINEAGE-LINKED.
+Append to family-tree.ged, or use as a merge reference for
+build_data.py (which is the real source of truth — the .ged is
+generated, so this is for import into Gramps/MyHeritage or for
+transcribing into person() calls).
+================================================================
+
+CAUTION
+-------
+Read the section headers before applying. Section A is safe.
+Section B carries a decision. Section C is notes only.
+
+Do not apply Section B until you have decided the 1778/1788
+question. It changes parentage, and it is the one place in this
+patch where a wrong move is worse than doing nothing.
+
+----------------------------------------------------------------
+SECTION A — SAFE. New persons and families, segments 3 and 4.
+----------------------------------------------------------------
+0 @a_gaardsted_f@ INDI
+1 NAME Christen Christensen /Tohde/
+1 SEX M
+1 OCCU Foged, Dejret, Vistoft sogn
+1 DEAT
+2 DATE BEF 1787
+1 NOTE Foged i Dejret, Vistoft sogn, Mols herred. Skifte 1764,
+2 CONT Rolsøgård gods. Far til Karen Christensdatter og Claus
+2 CONT Gaardsted. Navnet "Tohde" er usikkert læst i uddraget.
+1 NOTE Sikkerhed: dokumenteret
+1 SOUR
+2 PAGE G302 fol. 39, skifte nr. 11, 14.5.1787
+2 PAGE Rolsøgård gods skifteprotokol 1764 (skifte)
+1 FAMS @F136@
+0 @F136@ FAM
+1 HUSB @a_gaardsted_f@
+1 CHIL @p72@
+1 CHIL @a_karen_ch@
+0 @a_karen_ch@ INDI
+1 NAME Karen /Christensdatter/
+1 SEX F
+1 NOTE Datter af Christen Christensen Tohde. Nævnt 14.5.1787,
+2 CONT hvor broderen Claus Gaardsted er hendes lavværge.
+1 NOTE Sikkerhed: dokumenteret
+1 SOUR
+2 PAGE G302 fol. 39, skifte nr. 11, 14.5.1787
+1 FAMC @F136@
+0 @a_maren_poulsdatter@ INDI
+1 NAME Maren /Poulsdatter/
+1 SEX F
+1 BIRT
+2 PLAC Viby, Roskilde amt
+1 DEAT
+2 DATE 1820
+2 PLAC Viby, Roskilde amt
+1 NOTE Skifte 31.12.1820, Vibygaard gods skpr. II fol. 21.
+1 NOTE Sikkerhed: dokumenteret
+1 SOUR
+2 PAGE VIB book 2, fol. 21, 22, 32-34
+1 FAMS @F137@
+0 @ms_a66_0@ INDI
+1 NAME Poul /Hansen/
+1 SEX M
+1 OCCU Husmand, Assingløse
+1 NOTE Nævnt i moderens skifte 1820 som husmand i Assingløse.
+1 NOTE Sikkerhed: dokumenteret
+1 SOUR
+2 PAGE VIB book 2, fol. 21
+1 FAMC @F137@
+0 @ms_a66_1@ INDI
+1 NAME Jens /Hansen/
+1 SEX M
+1 OCCU Gartner
+1 NOTE Nævnt i moderens skifte 1820 som gartner.
+1 NOTE Sikkerhed: dokumenteret
+1 SOUR
+2 PAGE VIB book 2, fol. 21
+1 FAMC @F137@
+0 @ms_a66_2@ INDI
+1 NAME Peder /Hansen/
+1 SEX M
+1 OCCU Husmand, Viby
+1 NOTE Nævnt i moderens skifte 1820 som husmand i Viby.
+1 NOTE Sikkerhed: dokumenteret
+1 SOUR
+2 PAGE VIB book 2, fol. 21
+1 FAMC @F137@
+0 @ms_a66_3@ INDI
+1 NAME Ane /Hansdatter/
+1 SEX F
+1 NOTE Nævnt i moderens skifte 1820, gift med Willum Hansen,
+2 CONT gårdmand i Valsø.
+1 NOTE Sikkerhed: dokumenteret
+1 SOUR
+2 PAGE VIB book 2, fol. 21
+1 FAMC @F137@
+1 FAMS @F138@
+0 @ms_a66_4@ INDI
+1 NAME Willum /Hansen/
+1 SEX M
+1 OCCU Gårdmand, Valsø
+1 NOTE Sikkerhed: dokumenteret
+1 SOUR
+2 PAGE VIB book 2, fol. 21
+1 FAMS @F138@
+0 @F137@ FAM
+1 HUSB @a66@
+1 WIFE @a_maren_poulsdatter@
+1 CHIL @ms_a66_0@
+1 CHIL @ms_a66_1@
+1 CHIL @ms_a66_2@
+1 CHIL @ms_a66_3@
+0 @F138@ FAM
+1 HUSB @ms_a66_4@
+1 WIFE @ms_a66_3@
+
+-- and these additions to the two existing persons:
+
+on @p72@, add:
+1 NAME Claus /Christensen/
+1 FAMC @F136@
+1 NOTE Forældre: foged Christen Christensen Tohde i Dejret,
+2 CONT skifte 1764, og en mor der endnu ikke er fundet. Claus er
+2 CONT døbt Christensen; "Gaardsted" er et tilnavn efter sted,
+2 CONT ikke et patronymikon. Broderen-rollen fremgår af G302 fol.
+2 CONT 39 (1787), hvor han er lavværge for søsteren Karen
+2 CONT Christensdatter. Faderen var foged under Vosnæsgaard, hvor
+2 CONT Claus selv blev forpagter samme år. Gift to gange; Kirsten
+2 CONT Marie Jørgensdatter var den anden hustru. Den første
+2 CONT hustru og hendes børn er ikke fundet.
+
+on @a66@, add:
+1 FAMS @F137@
+1 NOTE Gift to gange. Første hustru Maren Poulsdatter, skifte
+2 CONT 31.12.1820, fire voksne børn (Poul, Jens, Peder, Ane).
+2 CONT Anden gang 1822 i Syv sogn med Margrethe Pedersdatter, ca.
+2 CONT 45 år yngre; tre børn. Alder og erhverv gør det afgjort, at
+2 CONT det er denne Hans Jensen: 1820-skiftet, gartnerposten ved
+2 CONT Vibygård, FT 1834 "afgaaet gartner ved Wiibygaard", og
+2 CONT børnenes bopæl i Syv sogn. Endnu ikke bekræftet i
+2 CONT vielsesindførslen 1822.
+
+and replace @a66@'s existing note sentence "Gift 1822 i Syv sogn
+med Margrethe Pedersdatter, ca. 45 år yngre; han var omkring 70."
+with the two NOTE lines above.
+
+on @p33@, add:
+1 NOTE Fire ældre halvsøskende af faderens første ægteskab, alle
+2 CONT voksne ved hendes fødsel: Poul Hansen, Jens Hansen, Peder
+2 CONT Hansen og Ane Hansdatter. Faderens gartnerpost ved
+2 CONT Vibygård er den samme, der giver hende det senere fødested
+2 CONT Viby.
+
+----------------------------------------------------------------
+SECTION B — THE DECISION. Fischer sisters, segment 2.
+----------------------------------------------------------------
+Add the person and family, then decide @p216@'s FAMC.
+
+0 @a_fischer1@ INDI
+1 NAME Frederikke Christiane /Fischer/
+1 SEX F
+1 DEAT
+2 DATE 1787
+1 NOTE Første hustru til Hans Christopher Gedde. Søster til
+2 CONT Øllegaard Sophie Fischer, der blev hans anden hustru.
+1 NOTE Sikkerhed: sekundær kilde
+1 SOUR
+2 PAGE da.wikipedia.org, Hans Christopher Gedde
+1 FAMS @F139@
+0 @F139@ FAM
+1 HUSB @p432@
+1 WIFE @a_fischer1@
+1 NOTE Børn af dette ægteskab er ikke identificeret enkeltvis.
+2 CONT Børn født før 1787 hører her; børn født efter hører i @F62@.
+
+on @p432@, add:
+1 FAMS @F139@
+1 NOTE Gift to gange med to søstre: 1) Frederikke Christiane
+2 CONT Fischer (d. 1787), 2) Øllegaard Sophie Fischer (d. 1821).
+2 CONT Begge hed Fischer; de er ikke samme person.
+
+on @p433@, add:
+1 NOTE Anden hustru. Søster til Frederikke Christiane Fischer.
+
+DECISION
+--------
+If @p216@ Ove Samuel is born 1778, he belongs in @F139@, not
+@F62@, because Frederikke Christiane does not die until 1787.
+If he is born 1788 in Fredrikstad, he belongs where he is, in
+@F62@.
+
+The pattern in the sibling set supports the first reading:
+Nicolai Wilhelm (1779) falls before 1787 and Øllegaard Sophie
+Elisabeth is plainly named after the second wife, i.e. born
+after. That puts Ove Samuel in the first marriage.
+
+But do not move him on pattern alone. Either:
+  a) leave him in @F62@ and add a NOTE naming both readings, or
+  b) read O-4 first, then move him.
+Do not move him and mark it settled.
+
+If (a), the note on @p216@:
+1 NOTE Fødslen er usikker: 28.2.1778 (træet) eller 28.5.1788 i
+2 CONT Fredrikstad (mortenclausen.dk). Dødsfald og begravelse
+2 CONT 1843 i Helsingør er sikre. Er 1778 rigtigt, er han søn af
+2 CONT faderens første hustru Frederikke Christiane Fischer, og
+2 CONT FAMC skal være @F139@. Er 1788 rigtigt, er han søn af
+2 CONT Øllegaard Sophie Fischer, jf. @F62@.
+
+----------------------------------------------------------------
+SECTION C — NOTES ONLY, no structural change.
+----------------------------------------------------------------
+on @p6@:
+1 NOTE Tre fædre, tre roller. Sophus Petersen på Paakjær:
+2 CONT familiens viden om den biologiske far. Wilhelm Krogh:
+2 CONT biologisk far efter det borgerlige fødselsregister 1932 nr.
+2 CONT 4 og rettens afgørelse 10.6.1932; Krogh anerkendte
+2 CONT faderskabet 5.4.1932. Peter Frederiksen: social far, gift
+2 CONT med Else og gav drengen sit efternavn. Træet følger
+2 CONT familiens viden.
+
+on @p12@:
+1 NOTE Faderskabet står i randnoten til Egernsund-registret.
+2 CONT Hans forældre og videre liv mangler; de står i tyske
+2 CONT registre. Mulig broder: Detlef Krogh (f. 8.5.1905), gift
+2 CONT 1929 i Broager, døtre i Nybøl 1936 og 1940. Mulige
+2 CONT bedsteforældre: Detlef Krogh (f. 1849) og Botilde (f.
+2 CONT 1850), Nybøl 1921. Fødestedet læses "Tastrup" eller
+2 CONT "Vastrup", Landkreis Flensburg; skriften er svær.
+
+on @a75@:
+1 NOTE Uafklaret. En uafhængig GEDCOM-sammenstilling (Brondsted,
+2 CONT ged 2, sid I29) nævner i stedet Mette Sørensdatter Helles
+2 CONT ved vielse samme dato. Den originale vielsesindførsel
+2 CONT 6.7.1811 må afgøre, om der er tale om fejl eller to
+2 CONT forskellige par. Dåbsindførslen 1812 bruger navnet "Mette
+2 CONT Pedersdatter Hallis".
+
+on @p126@ and @p127@:
+1 NOTE Af de ni børn udvandrede syv til Amerika; den ældste søn
+2 CONT og den yngste datter blev i Danmark. Forældrene fulgte
+2 CONT efter og kom hjem igen. Udvandrerprotokollen
+2 CONT (Københavns Politi) og de dansk-amerikanske kirkebøger er
+2 CONT den videre vej.
+
+on @p54@:
+1 NOTE Voksede op i Herlufmagle Præstegård hos mosteren Christine
+2 CONT Sophie von Kleist og hendes mand, sognepræst dr.theol.
+2 CONT Edvard Snedorph Hammer. Mellemnavnet Hammer har han efter
+2 CONT ham. Jf. @p108@.
+
+on @p24@:
+1 NOTE Lorenz Heinrich Frederiksen den ældre. Der er en anden
+2 CONT Lorenz Heinrich Frederiksen i Egernsund, f. 1902 (@pf12@),
+2 CONT fire årtier senere og i samme sogn. To mænd, samme
+2 CONT fornavne, forskellige generationer.
+
+on @p32@:
+1 NOTE Fødestedet er skrevet "Hove/Høje sogn, Svendborg amt" og
+2 CONT er ikke identificeret; ingen af de to sogne ligger i det
+2 CONT amt. Strengen stammer fra vielsen 7.7.1854 i Vor Frue,
+2 CONT København, hvor en skriver har optaget et jysk sogn efter
+2 CONT mandens diktat. Hove (Ringkøbing), Høje (Holbæk) og Høve
+2 CONT (Sorø) må prøves mod hans alder i vielsen.
+
+on @p217@:
+1 NOTE Søster til Juliane Frederikke Margrethe von Kleist
+2 CONT (1781-1861), der 1811 blev gift med Ove Samuels bror,
+2 CONT generalmajor Nicolai Wilhelm Gedde. Søstrenes dobbelte
+2 CONT giftermål i samme søskendeflok er bekræftet.
+
+----------------------------------------------------------------
+END OF PATCH
+----------------------------------------------------------------
+
+Apply Section A and C, re-run the build, and check the privacy
+gate. Section B waits on O-4 or on your willingness to carry a
+"do not know" in the file.
+
+If you would rather not hand-maintain a GEDCOM patch at all, the
+Section A and C content transcribes into person() and NOTE calls
+in data/build_data.py in about twenty minutes, and then the .ged
+regenerates itself and stays authoritative. That is the better
+route given the repo already has a build step and a privacy gate
+that will catch mistakes.
+
+
+---
+
+## leads/file-xdx.file
+
+================================================================
+LINE 4 — SYV / VIBYGÅRD
+Hans Jensen @a66@ is generation 7. The new material is a first
+marriage and four children, generation 7 same as him.
+================================================================
+
+This closes the site's own O-3: "Et skifteuddrag fra 1820 nævner
+en Hans Jensen, gartner, med hustruen Maren Poulsdatter og fire
+voksne børn. Det kan være anen Hans Jensen i Syv-grenen, men
+identiteten er ikke bevist, og familien er derfor ikke føjet til
+træet." It is him. The extract was already in hand and the
+conclusion was not drawn.
+
+----------------------------------------------------------------
+THE DOCUMENT
+----------------------------------------------------------------
+Vibygaard gods skifteprotokol, book 2, 1819-1850, FHL film
+41401, fol. 21, 22, 32, 33, 34. Verbatim:
+
+  "Maren Poulsdtr i Wibye 31 Dec 1820 — HUSB: Hans Jensen
+   gartner — CH: Poul Hansen hmd i Assinglose, Jens Hansen
+   gartner, Peder Hansen hmd i Wiibye, Ane Hansdtr = Willum
+   Hansen gmd i Walsoe"
+
+Conf: A. Source: VIB.
+  https://aurelia-clemons.dk/vibygdx.htm
+
+----------------------------------------------------------------
+WHY THIS IS @a66@ AND NOT A NAMESAKE
+----------------------------------------------------------------
+Four independent anchors, and they converge:
+
+1. Occupation. "Gartner" is unusual, and @a66@'s own entry already
+   records "Gartner ved Vibygård" and that Johanne Sophie "senere
+   står som født i Viby" for exactly that reason.
+2. Place. The probate is at Vibygaard gods, in Viby sogn.
+3. The 1834 census. @a66@ is then "afgaaet gartner ved
+   Wiibygaard," i.e. retired from the same post, on aftægt in Syv.
+4. Continuity of parish. Poul Hansen is in Assingløse, which lies
+   in Syv sogn. The family is already in Syv parish in 1820, and
+   @a66@ marries there in 1822.
+
+Timing seals it: his wife's probate is 31 Dec 1820, his second
+marriage 1822. A 70-year-old widower with four grown children
+remarries within eighteen months, to a woman 45 years younger,
+and has three more children by her.
+
+Conf: C, strong, four-way convergence, no contradicting datum.
+Grade it A only once the 1822 Syv marriage entry names him as
+enkemands and names Maren Poulsdatter.
+
+----------------------------------------------------------------
+GEN 7 — four new people, all half-siblings of @p33@
+----------------------------------------------------------------
+Children of @a66@ and Maren Poulsdatter, all adults in 1820:
+
+  Poul /Hansen/ — husmand, Assingløse (Syv sogn)
+  Jens /Hansen/ — gartner
+  Peder /Hansen/ — husmand, Viby
+  Ane /Hansdatter/ — m. Willum /Hansen/, gårdmand, Valsø
+  Conf: A for existence, name, occupation, spouse and place.
+  Source: VIB.
+
+  GEDCOM, as children of a new family @F137@:
+  0 @ms_a66_0@ INDI
+  1 NAME Poul /Hansen/
+  1 SEX M
+  1 OCCU Husmand, Assingløse
+  1 FAMC @F137@
+  0 @ms_a66_1@ INDI
+  1 NAME Jens /Hansen/
+  1 SEX M
+  1 OCCU Gartner
+  1 FAMC @F137@
+  0 @ms_a66_2@ INDI
+  1 NAME Peder /Hansen/
+  1 SEX M
+  1 OCCU Husmand, Viby
+  1 FAMC @F137@
+  0 @ms_a66_3@ INDI
+  1 NAME Ane /Hansdatter/
+  1 SEX F
+  1 FAMS @F138@
+  1 FAMC @F137@
+  0 @ms_a66_4@ INDI
+  1 NAME Willum /Hansen/
+  1 SEX M
+  1 OCCU Gårdmand, Valsø
+  1 FAMS @F138@
+  0 @F137@ FAM
+  1 HUSB @a66@
+  1 WIFE @a_maren_poulsdatter@
+  1 CHIL @ms_a66_0@
+  1 CHIL @ms_a66_1@
+  1 CHIL @ms_a66_2@
+  1 CHIL @ms_a66_3@
+  0 @F138@ FAM
+  1 HUSB @ms_a66_4@
+  1 WIFE @ms_a66_3@
+
+  And the wife:
+  0 @a_maren_poulsdatter@ INDI
+  1 NAME Maren /Poulsdatter/
+  1 SEX F
+  1 BIRT
+  2 PLAC Viby, Roskilde amt
+  1 DEAT
+  2 DATE 1820
+  2 PLAC Viby
+  2 NOTE Skifte 31.12.1820, Vibygaard gods skpr. II fol. 21.
+  1 SOUR
+  2 PAGE VIB book 2, fol. 21
+  1 FAMS @F137@
+
+  On @a66@ add:
+  1 FAMS @F137@
+  and in the note, replace "Gift 1822 i Syv sogn med Margrethe
+  Pedersdatter, ca. 45 år yngre; han var omkring 70" with the
+  same plus "Enkemand efter Maren Poulsdatter, skifte 31.12.1820;
+  fire voksne børn af første ægteskab."
+
+----------------------------------------------------------------
+CONSEQUENCE FOR THE EXISTING ENTRY
+----------------------------------------------------------------
+@p33@ Johanne Sophie is currently the only child of @a66@. She
+now has four half-siblings, all older, all adults when she was
+born. Her own note says her father had been gartner at Vibygård —
+that is the same post, and it was his, not a family tradition.
+
+Also note: @a66@'s entry calls Margrethe "ca. 45 år yngre." She
+is b. c. 1797 against his c. 1752. On the 1820 evidence the gap
+is a remarriage pattern, not an oddity, and can be stated plainly.
+
+----------------------------------------------------------------
+THE ROSMUS PROBLEM — @a75@ Mette Pedersdatter
+----------------------------------------------------------------
+Separate line, but the same kind of question, and it is the
+site's own "Uafklaret" item.
+
+Two incompatible mothers for @p37@ Ane Sophie:
+
+  A  Mette /Pedersdatter/ @a75@, daughter of gårdmand Peder
+     /Hallis/ @a150@ in Attrup. Called "Mette Pedersdatter
+     Hallis" at the 1812 baptism. Source: @a75@ entry, AO
+     Rosmus kirkebog 1789-1816, copulerede 6 Jul 1811.
+  B  Mette /Sørensdatter/ /Helles/, at a marriage of the same
+     date. Source: tom.brondsted.dk genextracts, ged 2, sid I29.
+
+Neither reading is impossible. The baptism entry is the stronger
+witness for the name actually used, and it is a primary source;
+the GEDCOM extract is a tertiary compilation and is known to
+conflate.
+
+Do not change @a75@ on present evidence. Add to her note: "En
+uafhængig GEDCOM-sammenstilling (Brondsted) nævner i stedet Mette
+Sørensdatter Helles ved vielse samme dato; den originale
+vielsesindførsel 6.7.1811 må afgøre, om der er tale om fejl eller
+to forskellige par." Conf: A for the conflict, C for reading B.
+
+----------------------------------------------------------------
+OPEN on this line
+----------------------------------------------------------------
+O-11 The 1822 Syv marriage entry, @a66@ + Margrethe
+     Pedersdatter. Syv kirkebog, viede 1822. Should read
+     "enkemand efter Maren Poulsdatter" and give ages. This
+     upgrades the whole segment from C to A.
+O-12 @a66@'s baptism, c. 1752, and his 1837 burial entry, Syv.
+     His parents are not known at all; the 1837 entry may name
+     them.
+O-13 The four new children downward: Poul Hansen in Assingløse,
+     Jens Hansen gartner, Peder Hansen in Viby, Ane and Willum
+     Hansen in Valsø. Viby, Syv and Valsølille kirkebøger.
+O-14 The 6 Jul 1811 Rosmus marriage entry itself, to settle A/B.
+
+== END SEGMENT 4 of 8 — reply "next" for LINE 5, LANGELAND ==
+
+
+---
+
+## leads/file-yqa.file
+
+================================================================
+SEGMENT 9 — THE REMAINING FRONTIERS
+Four clusters not covered in segments 3-7. This completes the
+schedule: every bare-name frontier in family-tree.ged is now on
+it. Same form as 5 and 7 — documents, not persons.
+================================================================
+
+----------------------------------------------------------------
+9A — FUGLSLEV: the sognefoged line
+----------------------------------------------------------------
+This is the file's deepest Djursland branch and the one with the
+weakest evidence at the top. Four generations rest on
+name-pattern inference:
+
+  @p304@ Rasmus /Jensen/, b. c. 1718, bonde og gårdmand i
+         Fuglslev 1787 — "mulig" father of @p152@, on the name
+         pattern alone
+  @p152@ Jens /Rasmussen/, b. c. 1755, bonde og gårdbeboer —
+         "sandsynlig," because a Rasmus Jensen aged 20 is in his
+         household in 1801
+  @p76@  Rasmus Jensen /Rousing/, b. c. 1780, selvejergårdmand
+         og sognefoged — "sandsynlig"
+  @p38@  Anders Rasmussen /Rousing/, 1818-1886, boelsmand then
+         gårdmand, aftægtsmand 1880
+
+A sognefoged is a crown appointment with a beskikkelse in the
+herredsprotokol. That is the strongest single document here and
+it names @p76@ outright, with the parish and the year.
+
+- Fuglslev kirkebog: fødte 1780 and 1818, viede 3 Sep 1841, and
+  the burials 1858 and 1886. Small parish, legible, unindexed
+  before 1814.
+- Herredsprotokollen for Djurs Nørre herred: @p76@'s
+  sognefogedbeskikkelse, and any sager where he appears as
+  foged — these carry his patronymic and residence.
+- FT 1787 and 1801 Fuglslev, for @p304@'s household and the
+  Rasmus Jensen aged 20. Read both pages in full; the 1801
+  entry is the whole basis of @p152@'s parentage.
+- FT 1834-1880 for @p38@, already partly cited.
+
+Conf: C for the two "sandsynlig," D for @p304@. Sources:
+@p304@, @p152@, @p76@, @p38@ entries.
+
+Note: @p76@ and @p77@'s daughter @p19@ Rasmine Christine
+Andersen is the link to the Gaardsted line, so this branch feeds
+segment 3's descendants. Getting @p304@ wrong would put a false
+generation under half the tree.
+
+----------------------------------------------------------------
+9B — KØBENHAVN: @p32@ Niels Jørgensen and the siblings
+----------------------------------------------------------------
+@p32@ Niels /Jørgensen/, b. c. 1826, høker then arbejdsmand,
+d. between 1885 and 1892, København. Fødested written "Hove/Høje
+sogn, Svendborg amt" and never identified.
+
+Two jobs:
+
+1. Settle the birth parish. Hove sogn does not exist in Svendborg
+   amt; Høje sogn does not either as a rural parish, and the
+   København Vor Frue marriage entry 7 Jul 1854 (LL:13-4281756)
+   is the only place the string occurs. Read that entry in full —
+   a clerk writing a rural Jutland parish from a man's own
+   dictation is where "Hove/Høje" comes from, and the entry may
+   also give his father and his age. Then test Hove (Ringkøbing),
+   Høje (Holbæk) and Høve (Sorø) against his 1854 age.
+2. Then the baptism in whichever parish resolves.
+
+The four Jørgensen children who died in infancy are already
+dated and cited; nothing more is owed them. The two who lived —
+@s_p32_0@ Hans Sophus Frederik, possementmager, and
+@s_p32_2@ Peter, skomager — need their own marriages and
+descendants, and a possementmager and a skomager are both
+traceable through the København håndværkerprotokoller and the
+borgerlige skøder.
+
+Conf: D. Source: @p32@ entry.
+
+----------------------------------------------------------------
+9C — HERLUFMAGLE / TAMDRUP: @p54@ Edvard Hammer Gedde
+----------------------------------------------------------------
+The twelve children are nearly complete already, and the two
+descendant lines that survive are named in the file:
+
+  @g_knudg@ Knud /Gedde/, 1901-1954 — m1 Marie Louise Hansen
+    (1898-1989, divorced), m2 23 Dec 1934 Olga Frederikke Olsen;
+    daughter @g_aase@ Aase, b. 1925
+  @g_annasm@ Anna Sophie Mathilde /Gedde/, 1902-1985, m. 25 Jun
+    1934 Svend-Aage van /Jepmond/; children @x_ovevj@,
+    @x_sophiecr@
+
+Both are 20th century and both are open in the same way: the
+marriages are dated but the spouses' origins are not.
+
+- For @g_mlh@ Marie Louise Hansen: the 1934 divorce is a
+  bevilling in Statstidende, and the marriage itself is in the
+  København borgerlige vielsesprotokol. Both name her father.
+- For @g_olga@ Olga Frederikke Olsen: the 1934 marriage entry,
+  same series.
+- For @g_jepmond@ Svend-Aage van /Jepmond/: a Dutch-sounding
+  name with a Danish military-adjacent marriage. The
+  København vielsesprotokol 1934 and, if he was foreign, the
+  indfødsrets- og fremmedpasprotokol.
+- @g_aase@'s 1990 marriage to @g_jlk@ Jørgen Lindegaard Knudsen
+  is late enough that both parties may be living memory.
+
+On @p54@ himself: the file says he was the son of Ove Frederik
+Christopher Gedde @p108@ and was raised in Herlufmagle
+Præstegård, and that his middle name Hammer comes from dr.theol.
+Edvard Snedorph Hammer, his father's foster father. That
+fosterage is documented in @p108@'s entry, not in @p54@'s. Copy
+the relevant clause into @p54@'s note so the name is explained
+where the name is.
+
+Conf: C. Sources: @p54@, @p108@, @g_knudg@, @g_annasm@ entries.
+
+----------------------------------------------------------------
+9D — BROAGER AND NYBØL: the Frederiksen and Hansen couples
+----------------------------------------------------------------
+Eight bare-name parents, all named only in a marriage entry, all
+in the German-period Sønderjylland frame:
+
+  @p96@ Friedrich /Friedrichsen/ + @p97@ Anna Christina
+    /Peters/ (b. c. 1815, "Vester Hostrup") — parents of
+    @p48@ Peter Christian Frederiksen, m. Broager 9 Dec 1860
+  @p98@ Jens /Paulsen/, daglejer, Sønderborg, b. c. 1799 +
+    @p99@ Cathrine Marie /Lausen/, b. c. 1805 — parents of
+    @p49@ Anna Kirstine Marie Paulsen, m. 1860; themselves m.
+    Ulkebøl 24 Feb 1833
+  @p100@ Peter /Hansen/, teglværksarbejder, Egernsund, b. 1803,
+    "født i Brejning" + @p101@ Anna Christina /Jensen/, b. 1813,
+    "født i Gudum" — parents of @p50@ Carl Peter Hansen
+  @p50@ Carl Peter /Hansen/, 1842-1909 + @p51@ Eline Helene
+    Marie /Hansen/, 1850-1894 — parents of @p25@ Cathrina Maria
+    Magdalena Hansen
+
+Route, in order:
+1. The four marriage entries are already cited (LL:13-4957004,
+   4957007, 4995190). Read them in full first — each names both
+   parents' parishes, which is the whole point of a German-period
+   marriage entry.
+2. Broager, Ulkebøl, Egernsund and Nybøl kirkebøger for the
+   baptisms 1799-1850. Egernsund is a teglværksby and the
+   teglværkernes personnelprotokoller survive in Broagerlands
+   Lokalarkiv — that is where a teglværksarbejder is found.
+3. Brejning and Gudum: both are in the 1803/1813 birth lines and
+   both are place-name leads from a census, not from a register.
+   Confirm the sogn before searching, since Brejning exists in
+   several amter.
+4. From 1867 the Standesamt registers at Kreisarchiv
+   Schleswig-Flensburg supersede the kirkebøger for births,
+   marriages and deaths.
+
+Conf: D. Sources: @p96@-@p101@, @p48@-@p51@ entries.
+
+Note the naming trap: @p48@'s son @p24@ is Lorenz Heinrich
+Frederiksen, and there is a second Lorenz Heinrich Frederiksen
+@pf12@ in the same parish forty years later. Two men, same
+forenames, different generations, both Broager/Egernsund. The
+file keeps them apart correctly; keep it that way and say in
+@p24@'s note that he is the elder.
+
+----------------------------------------------------------------
+9E — RINKENÆS / DALSGÅRD
+----------------------------------------------------------------
+@p26@ Jens /Jensen/ d. 26 Mar 1951 on Dalsgård, and @p27@ Paula
+Gedde d. 29 Feb 1952 same place. The farm is the anchor.
+
+- Rinkenæs kirkebog, burials 1951 and 1952, and the Dalsgård
+  skøde in the Rinkenæs godsarkiv.
+- Their seven children are all listed with dates and five with
+  spouses. The two without are @s_p26_4@ Mathilde (unmarried) and
+  the infant @s_p26_0@.
+- The @p13@ Else half-sibling cluster and the Dalsgård household
+  are the same story from two sides; read them together.
+
+Conf: C. Sources: @p26@, @p27@ entries.
+
+----------------------------------------------------------------
+OPEN — added here
+----------------------------------------------------------------
+O-36 Fuglslev kirkebog 1780, 1818, 1841, 1858, 1886.
+O-37 Djurs Nørre herredsprotokol, @p76@'s sognefogedbeskikkelse.
+O-38 FT 1787 and 1801 Fuglslev, read in full.
+O-39 København Vor Frue viede 7 Jul 1854, read in full; then
+     Hove/Høje/Høve tested against age.
+O-40 Statstidende 1934 bevilling and the borgerlige
+     vielsesprotokol for @g_knudg@'s two marriages.
+O-41 @g_annasm@'s 1934 marriage and @g_jlk@'s origins.
+O-42 The four Broager/Ulkebøl marriage entries read in full.
+O-43 Broagerlands Lokalarkiv, teglværks personnelprotokoller.
+O-44 Rinkenæs burials 1951-52 and the Dalsgård skøde.
+
+== END SEGMENT 9 — reply "next" for the consolidated INDEX ==
