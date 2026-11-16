@@ -174,6 +174,20 @@ Et muligt bagudgående forløb fremgår af flere sekundære oversigter:
 
 Kilder: [Harbou 1897, *Slægten von Kleist i Danmark*](https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf) · [von Kleist-navneregister L](https://v-kleist.com/FG/NamenabfrageL.html) · [Lengnick-stamtavle 1840, digitaliseret](https://slaegtsbibliotek.dk/900782.pdf) · [Rittergüter-Lexikon: Muttrin](https://schlossarchiv.de/?gut=9439&such=) · [Rittergüter-Lexikon: Döbel](https://schlossarchiv.de/?gut=9409&such=) · [Dirk Peters, *Ahnentafel Peters*, Register und Ergänzungen (2017)](https://dirkpeters.info/wp-content/uploads/2018/10/ahnentafel_peters_bd_4.pdf) · [Geneanet-sammenstilling for Hans Jürgen](https://gw.geneanet.org/cvpolier?lang=en&n=von+kleist&p=hans+jurgen).
 
+### Nyere kildearbejde: godsejerarvefølge og arkivspor (november 2026)
+
+En yderligere von Kleist-familiehistorisk materialoversigt knytter Pribislaff III.281 til en præcis arvefølge for Muttrin: **III.22 → III.54 → III.114 → III.186 (Hans) → III.281 (Pribislaff)**. Noten siger, at Hans III.186 arvede godset fra sin far III.114, denne fra sin far III.54, og denne fra sin far III.22. Det er en specifik kæde fra familiehistorisk ejendomsdokumentation, stærkere end et frit online-stamtræ, men den er stadig en sekundær sammenstilling og skal efterprøves i de underliggende lensbreve og arvedokumenter. Kilde: [Materialzusammenstellung zu den früheren Gütern der Familie v. Kleist](https://www.v-kleist.com/FG_allg/G_Zusammenstellung.pdf), siderne 118–119, fodnote 353–354.
+
+**Vigtig datoforskel:** Samme oversigt daterer Muttrin-arveaftalen til **12. juni 1698**, mens den omtaler Drenow-overdragelsen til Cartz Ulrik den **12. juli 1698**. Dirk Peters' 2017-sammenstilling anfører 12. juli for en delingsaftale. Datoerne må ikke blandes sammen; originalaftalen skal kontrolleres for at afgøre, om der var to separate dispositioner eller en afskriver-/dateringsfejl.
+
+Der er nu også identificeret konkrete arkivindgange:
+- Landesarchiv Greifswald, **Rep. 40 Nr. 35 gg, bl. 2–13**: 99 uddrag af von Kleist-lensbreve samlet af Lehnsarchivar Thilo. Arkivoversigten oplyser, at originalen blev solgt til Peter Christian von Kleist i 1766, og at det er uklart, om den nuværende arkivtekst er originalen.
+- Landesarchiv Greifswald, **Rep. 41 Nr. 28 Plathe**: Adelsspiegel-materiale fra kammerherre von der Osten, med en ældre familiegenealogi og senere tilføjelser.
+- Landesarchiv Greifswald, **Rep. 40 Nr. 35 gg** indeholder også materiale fra pastor Steinbrücks genealogiske arbejde omkring 1780 og 1820–1830.
+- Elzows Adelsspiegel, bevaret i Stettin under signatur **65/16/0/60/498**, er udtrykkeligt beskrevet af arkivoversigten som ufuldstændig og med mulige fejl. Det er en advarsel mod at behandle den tidlige tavle som et sikkert stamtræ.
+
+Kilder: [von Kleist-arkivoversigten](https://www.v-kleist.com/bestand_greifswald.htm) og [Materialzusammenstellung](https://www.v-kleist.com/FG_allg/G_Zusammenstellung.pdf). Ingen originalarkivsag er endnu bestilt eller læst, og ingen middelalderlige aner er indsat i Vivis stamtræ.
+
 ## Navnet Gedde og Trankebar
 Familien fortæller, at navnet kommer fra en kaptajn i Trankebar. Den nærmeste kaptajn i slægten er Ove Samuel Gedde (kaptajn 1808), men intet i kilderne nævner Indien. Han tilhører den borgerlige officersslægt Gedde, stammende fra generalmajor Samuel Christoph Gedde (1691–1766). Ifølge Store norske leksikon er den sandsynligvis ikke beslægtet med den uddøde adelsslægt Gjedde. Admiral **Ove Gjedde** fra den slægt grundlagde Trankebar i 1620. Fornavnet Ove og det næsten enslydende efternavn er nok årsagen til, at fortællingen er opstået.
 
