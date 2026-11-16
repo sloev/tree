@@ -1292,10 +1292,15 @@ This expansion follows the editorial policy in leads/tree-research.md:
   • Only verified facts (with cited source) are entered as relationships.
   • Hypotheses, estimates, and unverified claims are NOT inserted as parent
     links. They remain research leads.
-  • Medieval von Kleist material (Prissebur 1364, Klest de Densin 1289,
-    Conradus/Bertoldus Clest 1248) is context-only and NOT added as direct
-    ancestors — the generation-by-generation chain is not yet proven.
-  • The von Kleist Tychow chain Reimer → Bartez → Andreas → Carsten → Bernd →
-    Christian IS proven by VKA Dubberow p.122-145, which cites the feudal
-    letters of 1477 (urk. 125), 1503, 1540, 1546, 1575, 1585, 1594, 1601,
-    1605, 1608, 1618, 1621, 1622, 1665. This is a strong documentary chain.
+  • The expanded research JSON/GEDCOM contains provisional Muttrin ancestry
+    exp020–exp042; these are research-export relationships, not canonical site
+    ancestors. The early generation chain is not fully proven and must remain
+    separate from the canonical tree until the cited charters and family records
+    are checked.
+  • The 2025 Tychow-Dubberow genealogy distinguishes Reimer II.2 → Bartez II.6
+    from Bartes II.3 → Andreas II.11 → Carsten II.21 → Bernd II.39 → Christian
+    II.60. Bartez II.6 is NOT the father of Andreas II.11. The father of Reimer
+    and Bartes is disputed: the 1477 charter transcription names Pribbeslaw of
+    Muttrin with sons Reimer and Bartes, while the later Tychow genealogy says
+    Hans I.24. Keep that upstream parent unresolved. The chain from Bartes II.3
+    onward is stated in the 2025 numbered biographies, a secondary compilation.
