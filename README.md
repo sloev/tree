@@ -62,3 +62,10 @@ Status gælder den enkelte påstand — især hver enkelt relation — ikke auto
 - [Forskningsdossierer](leads/README.md) forklarer aktive spørgsmål og næste arkivskridt.
 - [Samarbejdsloggen](coop.log.md) dokumenterer forskningshandoffs, beslutninger, ændringer og hvad der endnu ikke er kontrolleret.
 - [Nyhedsbulletinen og forskningssporet](https://sloev.github.io/tree/) viser de læsbare opdateringer på hjemmesiden.
+
+
+### Automatisk udrulning af ændringer
+
+Når persondata i `data/build_data.py` ændres, registrerer GitHub Actions automatisk de ændrede personposter. De pågældende personer får en lille gul prik i stamtræet i 30 dage, og en dateret opdatering indsættes øverst i nyhedsbulletinen. Ændringer i forskningsdossierer, forskningsarkivet, samarbejdsloggen eller README udløser også et genbyg og en ny bulletinpost. Bygget regenererer familiedata, GEDCOM og hjemmesidens HTML; de genererede filer skal ikke redigeres manuelt.
+
+Markeringen er en visuel ændringsindikator, ikke en kilde- eller sikkerhedsgrad. En ændring i et dossier uden ændring i en persons datapost giver derfor en bulletinpost, men ikke automatisk en gul personmarkør. Markørerne udløber efter 30 dage. Se `.github/workflows/rebuild-site.yml` og `tools/mark_recent_people.py` for implementeringen.
