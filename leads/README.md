@@ -1,29 +1,54 @@
-# Genealogical leads
+FAMILY TREE EXPORT PACKAGE - "Slægten Gårdsted og Gedde" (sloev.github.io/tree)
+================================================================================
 
-This directory consolidates the readable uploads, the prior research file, and the original ZIP export.
+CONTENTS
+--------
+family-tree-full-export.txt     Main export (15,000+ lines, all sections A-I):
+                                A  index of all 523 persons
+                                B  full person dossiers: dates, places over time,
+                                   occupations, parents/spouse/children, works,
+                                   media, every source with its resolved fetch URL
+                                C  photo gallery (11 photos, see below)
+                                D  related media links (17 external links)
+                                E  documented works (books/music/art)
+                                F  source registry + URL patterns
+                                G  place gazetteer (~200 places with coordinates)
+                                H  family lines + occupation categories
+                                I  TREE EXPANSION 2026-11-16: 34 new ancestors
+                                   (Gedde line one generation further back via DBL;
+                                   von Kleist medieval chain back to 1289 via
+                                   Harbou 1897 + Muttrin 2025), corrections,
+                                   social connections, exact next records to fetch
 
-## Contents
+family-tree-expanded.ged        NEW: GEDCOM 5.5.1 with all 523 persons and 159
+                                families, built from the corrected parent links
+                                (imports into any genealogy software)
 
-- [Complete ancestry register](ancestry-register.md) — all readable material transcribed from tree2.txt, including profiles, relationships, notes, citations, image names, archival identifiers, caveats and statistics.
-- [Consolidated branch dossiers](branch-dossiers.md) — both dossier files, combined and reformatted.
-- [Investigation worklist](investigation-worklist.md) — actionable leads and conflicts extracted from the source material.
-- [Research notes](research-notes.md) — first source checks, corrections, archival search routes and findings.
-- [Earlier tree research](tree-research.md) — prior von Woyten, von Stojentin, von Kleist and Gedde research, plus the all-connections evidence policy.
-- [Archive review leads](archive-review-leads.md) — review of the unpacked export and its image-based leads.
-- [Independent research and GEDCOM audit](independent-research-2026-11.md) — independent source checks, the four JSON-only people missing from GEDCOM, and next archival steps.
-- [Potential leads register](potential-leads-register.md) — preserves unresolved, conflicting and user-supplied leads across the von Kleist, Gaardsted, Gedde, emigration and other family lines, with status labels and next checks.
-- [Review of first research-extension batch](review-new-extension-files-2026-11.md) — review of the first seven line files, source conflicts, confidence cautions and a prioritized verification/import plan.
-- [Review of second research-extension batch](review-second-extension-batch-2026-11.md) — review of Segments 7–12, the GEDCOM patch, open-question index, and cautions on Gaardsted, Gedde, Fischer, Lorenz paternity and Vibygård.
-- [Review of final research-extension batch](review-final-extension-batch-2026-11.md) — review of Segments 13–15, Harbou audit worksheet, negatives log, closing assessment and remaining import cautions.
-- [Research progress — 16 November 2026](research-progress-2026-11-16.md) — first-pass Harbou reconciliation, source-checked person numbers, the Rolsøgård 1764/1787 series distinction and next archival steps.
-- [Expanded family tree compilation](family-tree-expanded.txt) — large November 2026 text export combining the current tree with proposed additions and new branch material; retained as a research compilation, not imported into canonical data.
-- [Review of expanded family tree](review-expanded-family-tree-2026-11-16.md) — source-quality assessment, correction of the Reimer/Bartez versus Bartes/Andreas branch mix-up, and an itemized audit plan for claimed additions.
-- [Original ZIP export](family-tree-export.zip) — retained byte-for-byte as supplied. Its contents have been unpacked and reviewed; the original archive remains the untouched source package.
+family-tree.ged                 The site's own original GEDCOM (489 persons),
+                                kept for reference - same person ids as the site
 
-## Source and evidence policy
+family-tree-data.json           The site's embedded DATA JSON, extracted verbatim
+                                (489 persons, places, photos, links, sources, lines)
 
-The uploaded files are derivative research compilations. Treat their assertions as leads, not primary evidence. Verify parentage and identity against original parish registers, census schedules, probate, court/paternity files, military records, and contemporary archival documents. Preserve negative searches and conflicting evidence. Do not merge hypotheses into data/build_data.py without primary-source support.
+family-tree-data-expanded.json  Same data + the 34 new ancestors + corrected fields
+                                for 18 existing persons (documented in Section I)
 
-## Privacy
+family-tree-images/             The 11 site photos, extracted from the base64
+                                blobs embedded in the page HTML (the images/*.jpg
+                                URLs on the site 404 - these JPGs are the real ones)
 
-The ZIP includes an encrypted private_blob field described as containing details for living/private people. It was not decrypted or inspected. The extracted working copy excludes that encrypted payload; living people remain redacted. Do not attempt to decrypt data/private.enc or infer private identities from family-link structure.
+QUICK FACTS
+-----------
+- 523 person records (489 from the site + 34 new ancestors), 98 of them
+  living/private: shown as "Privat person" (data is AES-encrypted on the site,
+  only the owner password can decrypt - so they stay private here too)
+- Sources: 626 source citations with resolved fetch URLs; new sources added:
+  DBL (runeberg.org), MUT (v-kleist.com Muttrin PDF), Wikipedia, SNL,
+  slaegtsbibliotek.dk
+- Date formats preserved as on the site: "1922-09-20" full date, "2008-11" month,
+  "ca. 1750"/"efter 1800" approximations
+- arkiv.dk links return HTTP 403 to command-line fetchers but open in a browser
+- All new persons are marked conf=probable/possible: documented in published
+  genealogy/biography, not yet verified page-by-page in original archives
+
+Generated 2026-11-16.
