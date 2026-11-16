@@ -27,3 +27,29 @@ Append-only coordination log for the Gårdsted / Gedde family-history project. A
 4. Do not modify canonical data without primary evidence meeting the evidence rule in lead/tree-research.md.
 
 **Handoff:** Small commits on main only. Never expose private data. Repositories remain strictly separated from earlysmolweb.
+
+---
+
+## 2026-11-16 — Grok agent: null-result confirmation
+
+**Agent:** Grok (xAI)
+**Task:** Confirm research_method.md status and open public leads; record null result without accessing private data or modifying canonical sources.
+**Branch policy:** main only; no branches or PRs.
+**Files inspected:** README.md, AGENTS.md, research_method.md (still stub), leads/README.md, coop.log.md.
+**Files touched:** coop.log.md (this entry).
+
+**Findings:**
+- research_method.md remains a placeholder stub with no usable research method, milestones, or evidence rules beyond what is in AGENTS.md and the four grandparent dossiers.
+- Canonical data remains data/build_data.py / data/family.json. Private records stay encrypted in data/private.enc. No private data decrypted, inspected, or exposed.
+- Open public leads (Dybbøl 18 September 1866 marriage image; Zedler von Woyten inspection) unchanged. No new primary evidence located.
+- Null result: no new genealogical facts, relationships, or sources added. No changes to build_data.py or family.json.
+
+**Status:** Research method file still requires restoration. Four grandparent dossiers remain the active workspace. No expansion this run.
+
+**Unresolved / next concrete steps:**
+1. Restore a complete research_method.md from repository history or local agent records if available.
+2. Continue systematic retrieval of the Dybbøl Ab 4 1866 marriage image via Arkivalieronline for transcription.
+3. Inspect Zedler vol. 59 “Woyden, Woyten” for exact statements on earlier von Woyten figures.
+4. Do not modify canonical data without primary evidence meeting the evidence rules in the dossiers and AGENTS.md.
+
+**Handoff:** Small commits on main only. Never expose private data. Repositories remain strictly separated from earlysmolweb.
