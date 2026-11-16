@@ -212,6 +212,7 @@ def build_export(family, docs, gedcom_path):
                     "relationship": "gedcom_family_union",
                     "assertion_source": "family-tree.ged",
                     "family_record": family_xref,
+                    "union_status": "divorced" if "DIV" in fields else "status_not_recorded",
                     "biological_status": "not_implied",
                     "evidence_status": "gedcom_recorded"
                 })
