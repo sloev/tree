@@ -360,62 +360,20 @@ button,a{touch-action:manipulation}
     <div class="legend" id="legend"></div>
   </div>
 </header>
-<nav class="tabs" aria-label="Sektioner">
-  <a href="#oversigt" data-view="oversigt">Forside</a>
+<nav class="tabs" aria-label="Forsidens sektioner">
   <a href="#stamtrae" data-anchor="stamtrae">Stamtræ</a>
   <a href="#nyheder" data-anchor="nyheder">Nyheder</a>
-  <a href="#forskningsspor" data-anchor="forskningsspor">Forskningsspor</a>
-  <a href="#personer" data-view="personer">Personer</a>
-  <a href="#kort" data-view="kort">Kort</a>
-  <a href="#tal" data-view="tal">Tal og levetider</a>
-  <a href="#kilder" data-view="kilder">Kilder og billeder</a>
+  <a href="#fortaellinger" data-anchor="fortaellinger">Tema-fortællinger</a>
   <a href="https://sloev.github.io/tree/plakat.html" target="_blank" rel="noopener" class="ext">Plakat ↗</a>
 </nav>
 
 <!-- ============ OVERSIGT ============ -->
 <section class="view" id="v-oversigt">
-  <div class="block">
-    <p class="ink2" style="font-size:1.02rem">Din slægt fundet i kirkebøger, folketællinger, lokalarkiver og familiens egne papirer. Farfars side går tilbage til 1700-tallets Djursland, Mols og København. Farmor Liss' side kommer fra hedesognene i Vestjylland. Morfars side fører via Nybøl, Egernsund og Lejrskov til officersslægten Gedde og den pommerske adelsslægt von Kleist. Mormor Gerdas side er Sydlangeland og Langø-familien.</p>
-    <div class="tiles" id="tiles"></div>
-  </div>
-
   <div class="block homepage-tree" id="stamtrae">
     <div class="sec-head"><span class="eyebrow">Anetavle</span><h2>Stamtræet</h2><p class="muted">Følg slægten fra venstre mod højre gennem generationerne. Alle kendte grene er synlige samtidig; vælg et navn for livshistorie og kilder. På små skærme lægges træet lodret for at undgå sideværts rulning.</p></div>
     <div class="toolbar"><div class="seg" role="group" aria-label="Vis del af træet"><button type="button" data-root="1" aria-pressed="true">Hele træet</button><button type="button" data-root="2" aria-pressed="false">Fars side</button><button type="button" data-root="3" aria-pressed="false">Mors side</button></div><span class="count" id="pedcount"></span><span class="ft-recent-legend"><i class="ft-recent-dot" aria-hidden="true"></i> Redigeret seneste 30 dage</span></div>
     <div class="ped-scroll" id="pedscroll" role="region" aria-label="Slægtens stamtræ"><div id="ped" class="ped-tree" role="tree" aria-label="Slægtens anetræ"></div></div>
     <p class="note-box">Træet viser Lorenz' biologiske far, <button class="linkish" data-pid="sofus">Sophus Petersen</button>, ifølge familiens viden. <button class="linkish" data-pid="p12">Wilhelm Krogh</button> tog skylden og står som far i standsregistret. Lorenz voksede op hos stedfaren <button class="linkish" data-pid="pf12">Peter Frederiksen</button>.</p>
-  </div>
-
-  <div class="block" id="forskningsspor">
-    <div class="sec-head"><span class="eyebrow">Åbent forskningsarbejde · opdateres løbende</span><h2>Nye spor på vej ind i stamtræet</h2>
-      <p class="muted">Her kan du følge personer og forbindelser, før de eventuelt bliver en del af det kanoniske stamtræ. Status gælder den konkrete oplysning eller forbindelse — ikke automatisk hele personen. Forslag bliver aldrig vist som sikre forældrelinjer, før belægget rækker.</p></div>
-    <div class="research-grid">
-      <article class="research-card">
-        <div class="research-meta"><span class="eyebrow">Kleist–Gedde · ca. 1705</span><span class="conf probable">Kræver mere belæg</span></div>
-        <h3>Christian Adam III.466</h3>
-        <p><b>Foreslået placering:</b> søn af Cartz Ulrik III.369 og Barbara Juliane von Kleist. Harbou (1897, s. 100–102) angiver dette slægtskab og dåb 1. oktober 1705 i Vor Frelsers Kirke. Familienverband derer v. Kleist oplyser, at en dansk arkivundersøgelse også fandt datoen 1. oktober og navneformen Adam frem for Adrian, men uden at angive bind, side eller billede. Harbous note 28 retter DBL's fejlagtige farangivelse, men citerer ikke selve dåbsindførslen; DBL angiver 3. oktober og morfaderen Christian Casimir som far. Den originale indførsel mangler derfor stadig at blive kontrolleret.</p>
-        <p>Arkivvejen er nu præciseret: Vor Frelsers havde parallelle bøger ført af præsten og klokkeren. Klokkerens dåbsnavneregister 1704–1822 er bind 20 og henviser til dåbsbøgerne i bind 15–19 og 36. En vigtig opdatering: Rigsarkivets oktober- og november-2025-lister over nyt på Arkivalieronline viser, at netop dette register blev frigivet digitalt — først med indhold 1704–1749, siden 1704–1822. Registeret kan derfor søges online. Det er endnu ikke åbnet og afskrevet her, og Christian Adam er ikke fundet i det. Præstens FVD 1686–1722 skal kontrolleres særskilt. Status forbliver “Kræver mere belæg”.</p><p class="research-links"><a href="https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf" target="_blank" rel="noopener">Harbou 1897</a><a href="https://v-kleist.com/FG/Muttrin/fg0283a.htm" target="_blank" rel="noopener">Familienverbandets arkivnote</a><a href="https://slaegtsbibliotek.dk/900379.pdf" target="_blank" rel="noopener">Vor Frelsers kirkebogsoversigt</a><a href="https://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-oktober-2025.pdf" target="_blank" rel="noopener">Arkivalieronline oktober 2025</a><a href="https://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-november-2025.pdf" target="_blank" rel="noopener">Arkivalieronline november 2025</a><a href="https://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-januar-2025.pdf" target="_blank" rel="noopener">Præstens FVD-register</a></p>
-      </article>
-      <article class="research-card">
-        <div class="research-meta"><span class="eyebrow">Kleist–Gedde · 1743</span><span class="conf probable">Kræver mere belæg</span></div>
-        <h3>Christian Frederik III.601</h3>
-        <p><b>Foreslået placering:</b> søn af Christian Adam. Harbou angiver fødsel 25. august 1743. Rendsburg St. Marien og Christkirche er endnu kun mulige kirkebogsspor; den konkrete dåbsindførsel og forældrenes navne er ikke afskrevet.</p>
-        <p class="research-links"><a href="https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf" target="_blank" rel="noopener">Harbou 1897</a><a href="https://www.rigsarkivet.dk/" target="_blank" rel="noopener">Rigsarkivet</a></p>
-      </article>
-      <article class="research-card">
-        <div class="research-meta"><span class="eyebrow">Kleist–Gedde · 1786–1808</span><span class="conf probable">Identitet støttet · forældre åbne</span></div>
-        <h3>Frederikke Louise Dorthea / Frederikke Lovise Birthe Kleist</h3>
-        <p>Harbou angiver Frederikke Louise Dorthea, født 5. januar 1786, og gift med Ove Samuel Gedde i 1806. En uafhængig dåb for parrets søn i Fredensborg Slotssogn 24. juli 1808 (BSID 594366, billede 65) kalder moderen “Frederikke Lovise Birthe født Kleist”. Det støtter, at Geddes hustru var født Kleist, men navnevarianten og hendes forældre er ikke endeligt afklaret. Dåben beviser ikke hendes forældre.</p>
-        <p class="research-links"><a href="https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf" target="_blank" rel="noopener">Harbou 1897</a><a href="https://www.rigsarkivet.dk/" target="_blank" rel="noopener">Opspor vielse og dåb</a></p>
-      </article>
-      <article class="research-card">
-        <div class="research-meta"><span class="eyebrow">Kleist–Gedde · 1770</span><span class="conf possible">Foreløbig søgeplan</span></div>
-        <h3>Christian Frederik og Anna Margrethe Schubart</h3>
-        <p>Harbou angiver vielse 3. december 1770. Bredstedt er alene en foreløbig søgehypotese; hverken sogn eller original vielsesindførsel er bekræftet. Dette spor må ikke tegnes som en dokumenteret begivenhed endnu.</p>
-        <p class="research-links"><a href="https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf" target="_blank" rel="noopener">Harbou 1897</a></p>
-      </article>
-    </div>
-    <p class="note-box"><b>Sådan læses modenheden:</b> Godt belagt = samtidige eller stærkt uafhængige kilder. Kræver mere belæg = troværdigt spor, men afgørende originalkilde eller identifikation mangler. Foreløbig hypotese = søgeidé eller mulig rekonstruktion. Familieoplysning = tydeligt markeret mundtlig/skriftlig familietradition. Når en oplysning styrkes eller afkræftes, opdateres status og ændringsloggen — også når resultatet er “ikke bevist”.</p>
   </div>
 
   <div class="block">
@@ -433,57 +391,11 @@ button,a{touch-action:manipulation}
     </div>
   </div>
 
-  <div class="sec-head"><span class="eyebrow">Nyt fra slægtsforskningen</span><h2>Seneste fund</h2>
-      <p class="muted">Nye spor fra kirkebøger, folketællinger og skifteuddrag. Mulige forbindelser er markeret som ubekræftede, indtil originalkilderne er kontrolleret.</p></div>
-    <div class="research-grid">
-      <article class="research-card">
-        <div class="research-meta"><span class="eyebrow">Assing · 1812–1870</span><span class="conf probable">Stærkt spor</span></div>
-        <h3>Jens Peder Larsen fra Pårup Melgaard</h3>
-        <p>En lokal slægtssammenstilling angiver fødsel og dåb 29. februar 1812 i Assing, vielse i Sønder Felding i 1843 og død i Sønder Omme i 1870. Det passer godt med personen i træet, men hans forældre er endnu ikke verificeret i den originale dåbsindførsel.</p>
-        <p class="research-links"><a href="https://www.horsboel.dk/familie/grind/dat16.htm" target="_blank" rel="noopener">Slægtssammenstilling</a><a href="https://www.horsboel.dk/fkt/FKT_Sdr_Omme_1870.pdf" target="_blank" rel="noopener">Folketælling 1870</a></p>
-      </article>
-      <article class="research-card">
-        <div class="research-meta"><span class="eyebrow">Rosmus · 1811–1812</span><span class="conf possible">Uafklaret</span></div>
-        <h3>To forskellige brudenavne i 1811</h3>
-        <p>Træets 1812-dåbsnotat angiver Mette Pedersdatter som mor. En uafhængig GEDCOM-sammenstilling nævner derimod Mette Sørensdatter Helles ved en vielse samme dato. Den originale vielsesindførsel skal afgøre, om der er tale om en fejl eller to forskellige par.</p>
-        <p class="research-links"><a href="https://tom.brondsted.dk/genextracts/?chpt=21&colbranch=&ged=2&sid=I29" target="_blank" rel="noopener">GEDCOM-uddrag</a><a href="https://arkivalieronline.rigsarkivet.dk/da/geo/geo-collection/5" target="_blank" rel="noopener">Rigsarkivets kirkebogsvejledning</a></p>
-      </article>
-      <article class="research-card">
-        <div class="research-meta"><span class="eyebrow">Syv / Viby · 1820</span><span class="conf possible">Mulig forbindelse</span></div>
-        <h3>Hans Jensen, gartner ved Vibygård</h3>
-        <p>Et skifteuddrag fra 1820 nævner en Hans Jensen, gartner, med hustruen Maren Poulsdatter og fire voksne børn. Det kan være anen Hans Jensen i Syv-grenen, men identiteten er ikke bevist, og familien er derfor ikke føjet til træet.</p>
-        <p class="research-links"><a href="https://aurelia-clemons.dk/vibygdx.htm" target="_blank" rel="noopener">Vibygård-skifteuddrag</a><a href="https://wiki.slaegt.dk/index.php/Vibyg%C3%A5rd" target="_blank" rel="noopener">Vibygård i DS-Wiki</a></p>
-      </article>
-      <article class="research-card">
-        <div class="research-meta"><span class="eyebrow">Groß-Tychow · 1600-tallet</span><span class="conf possible">Far ikke identificeret i Harbou</span></div>
-        <h3>Christian von Kleist (II.60, †1679): faderlinjen undersøges</h3>
-        <p>Den reviderede Tychow-Dubberow-familiehistorie (2025) identificerer Christian II.60 (†1679) som søn af Bernd II.39, søn af Carsten II.21, søn af Andreas (Drews) II.11. Vigtigt: Andreas II.11 var søn af Bartes II.3, som var bror til Reimer II.2; han var ikke søn af Bartez II.6. Bartez II.6 var derimod Reimers søn i en særskilt gren. Den korrekte forgrening er derfor Reimer II.2 → Bartez II.6 og hans søskende på den ene side, og Reimers bror Bartes II.3 → Andreas II.11 → Carsten II.21 → Bernd II.39 → Christian II.60 på den anden. Værket angiver Hedwig von Heydebreck som Carstens niece og Elisabeth von Manteuffel som Bernds hustru. Christian II.60's første hustru var Hedwig Maria von Kleist, datter af Georg II.55. Harbou 1897 nævner ikke Christians far ved navn i det pågældende afsnit, men kalder Joachim Henning II.59 hans Farbrodersøn. Kæden er understøttet af de nummererede biografier i 2025-udgaven, men er fortsat en moderne familiehistorisk rekonstruktion, der henviser til ældre fief-, skatte- og arkivdokumenter.</p>
-        <p class="research-links"><a href="https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf" target="_blank" rel="noopener">Harbou (1897), afsnit I.b, Linien Tychow</a><a href="https://www.v-kleist.com/FG/Dubberow.pdf" target="_blank" rel="noopener">Familiehistorien: Dubberow / Tychow-materiale</a></p>
-      </article>
-      <article class="research-card">
-        <div class="research-meta"><span class="eyebrow">Magleby · 1787</span><span class="conf possible">Ikke koblet til træet</span></div>
-        <h3>Skifte efter Christian Hansen i Nordenbro</h3>
-        <p>Et skifte fra 1787 beskriver to ægteskaber og flere børn i en lokal Nordenbro-familie. Det er et nyttigt nyt spor til områdets familier, men der er endnu ingen dokumenteret forbindelse til Christian Hansen, som blev gift i Magleby i 1829.</p>
-        <p class="research-links"><a href="https://elgezira.dk/historie.html" target="_blank" rel="noopener">Elgezira – lokalhistoriske kilder</a></p>
-      </article>
-      <article class="research-card">
-        <div class="research-meta"><span class="eyebrow">Pommern · 1364–1477</span><span class="conf possible">Dokumenterede holdepunkter · tidlig slægtsrække delvis rekonstrueret</span></div>
-        <h3>Von Kleist: Muttrin, Damen og de tre hovedlinjer</h3>
-        <p>Den reviderede Muttrin-historie (2025) henviser til Urkunde 83 fra 1364, hvor Prißebur, kaldet Klest von Muttrin, nævnes som medejer af jord i Glineke. Samme værk siger åbent, at den tidlige rækkefølge af personer bygger på både samtidige dokumenter og senere familieoptegnelser. Urkunde 125 fra 13. april 1477 gengiver et fælles lensbrev, hvor Kleist-slægten selv angiver én stamfader med tre sønner og tre hovedlinjer: Muttrin-Damen, Tychow-Dubberow og Vilnow-Raddatz. Brevet nævner konkrete personer og sønner i de levende grene, men beviser ikke alene hvert mellemled frem til Pribislaff von Kleist (d. 1698), Cartz Ulriks far, eller den danske Gedde-forbindelse. Damen blev erhvervet omkring 1365; det er en særskilt oplysning, ikke identisk med 1364-henvisningen.</p>
-        <p class="research-links"><a href="https://www.v-kleist.com/FG/Muttrin/Muttrin.pdf" target="_blank" rel="noopener">Muttrin-Damensche historie (2025), især s. 5–7</a><a href="https://www.v-kleist.com/FG/Gesamt.pdf" target="_blank" rel="noopener">Urkundenbuch, Urkunde 125 (1477)</a><a href="https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf" target="_blank" rel="noopener">Harbou: von Kleist i Danmark (1897)</a></p>
-      </article>
-    </div>
-  </div>
-
-  <div class="block">
-    <div class="sec-head"><span class="eyebrow">Fortællinger</span><h2>Det, kilderne fortæller</h2></div>
+  <div class="block" id="fortaellinger">
+    <div class="sec-head"><span class="eyebrow">Tema-fortællinger</span><h2>Det, kilderne fortæller</h2></div>
     <div class="stories" id="stories"></div>
   </div>
 
-  <div class="block">
-    <div class="sec-head"><span class="eyebrow">Næste skridt</span><h2>Det, vi endnu ikke ved</h2></div>
-    <div class="open" id="open"></div>
-  </div>
 </section>
 
 <!-- ============ PERSONER ============ -->
