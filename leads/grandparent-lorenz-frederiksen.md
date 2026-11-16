@@ -1402,3 +1402,40 @@ The catalogue pages confirm that these volumes exist and are held by the Landesk
 Next: inspect Selmer vol. II at the precise reference Harbou intended, first to identify the death locality and any obituary details. Then search the appropriate 1848 burial register; if Selmer gives no locality, use the Schleswig and Bredstedt name indexes as a bounded two-parish search, while checking the officer's last known residence/service record. Compare any result against age, rank, family and date before identifying it as III.727. Keep the “Christian Frederik Vilhelm” match speculative until independent identity attributes agree.
 
 **Assessment:** Harbou securely records III.727's 1775 birth, career and 21 May 1848 death as a published genealogical claim, but does not provide a locality in this entry. The archive catalogues identify two possible register series, not a confirmed burial. No new person, date, relationship or canonical edge is added.
+
+
+## Follow-up: Selmers nekrolog og begravelsen for Frederik Christian af Kleist (16. november 2026)
+
+Den samtidige *Nekrologiske Samlinger* 1848–49 er nu fundet digitaliseret, og den indeholder en biografi, der matcher Harbous Frederik Christian III.727.
+
+### Samtidig nekrolog — biografisk identifikation
+
+H. P. Selmer, *Nekrologiske Samlinger*, 1848–49, s. 68, omtaler **“Oberstløjtnant Frederik Christian af Kleist”**. Han beskrives som:
+- født **3. januar 1775 i Kolding**;
+- søn af kammerherre Christian Frederik af Kleist og Anne Margrethe født Schubarth;
+- først page hos Christian VII, derefter landkadet og omkring 1792/1793 fændrik ved Sjællandske Jægerkorps;
+- senere kaptajn og kompagnichef;
+- afskediget 1. marts 1816 på grund af svagelighed med pension som major, senere med oberstløjtnants afsked;
+- død **21. maj 1848**.
+
+Selmers dødsfortegnelse i samme bind, s. 114, anfører igen oberstløjtnant Frederik Christian af Kleist, død efter mange lidelser, 73 år gammel. Kombinationen af navn, rang, dødsdato, alder, forældre og militær karriere gør identifikationen med Harbous III.727 meget stærk. Den bekræfter dog ikke den alternative identifikation med den fremlagte “Christian Frederik Vilhelm” (1774–1848).
+
+### Vigtig fødselsdatoafvigelse
+
+Harbou angiver **8. januar 1775**, mens Selmer angiver **3. januar 1775** og fødestedet Kolding. Bevar begge datoer som kildevarianter, indtil Koldings dåbsindførsel er kontrolleret. Selmers forældreoplysninger passer til Harbous Christian Frederik III.601 og Anna Margrethe Schubart.
+
+### Begravelse
+
+Brejls oversigt over private personarkiver omtaler et 100-årigt gravbrev dateret 27. maj 1848 for et gravsted på Garnisons Kirkegård uden Østerport. Heri er oberstløjtnant Frederik Christian von Kleist registreret som nedsat **26. maj 1848**. Det giver en konkret begravelsesdato og kirkegård, men oversigten er en sekundær registrering af et gravbrev — ikke selve gravbrevet eller kirkegårdens originale begravelsesprotokol. Den dokumenterer derfor begravelsesstedet bedre end dødsstedet; den beviser ikke, at han døde i København.
+
+### Bibliografisk note
+
+Harbous note 36 henviser til “Selmer, Nekrolog. Saml. II”. Den matchende biografi og dødsfortegnelse er fundet i det digitaliserede bind **1848–49**, som er bind I i værkets tobindsudgave. Henvisningens bindnummer bør kontrolleres mod Harbous originale tryk/udgave, men det ændrer ikke indholdet af den fundne samtidige nekrolog.
+
+### Kilder
+
+- [H. P. Selmer, *Nekrologiske Samlinger*, 1848–49, s. 68 og 114 (PDF)](https://slaegtsbibliotek.dk/2023/938488.pdf).
+- [Harbou, *Slægten von Kleist i Danmark* (1897), Frederik Christian III.727 og note 36](https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf).
+- [Brejl, private personarkiver, post om gravbrev for Frederik Christian von Kleist](https://brejl.dk/privatB.html).
+
+**Vurdering:** Frederik Christian af Kleist i Selmers nekrolog er med stor sandsynlighed Harbous III.727. Dødsdatoen 21. maj 1848 bekræftes uafhængigt af Harbou; Selmer giver fødselsdatoen 3. januar, mens Harbou giver 8. januar. Begravelse på Garnisons Kirkegård 26. maj er registreret i Brejls oversigt, men det originale gravbrev/protokol og selve dødsstedet mangler stadig. Ingen kanoniske personer eller slægtskabsrelationer ændres.
