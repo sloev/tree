@@ -1018,3 +1018,51 @@ The key methodological point: the fief letters are valuable legal evidence that 
 - The analysis above is based on the printed charter editions as quoted and evaluated by Quandt. It is not a fresh palaeographic reading of the original fief charters or the lost 1575 “Nachrichtung”. The original 1477 parchment is also not extant in the edition's account; its text is transmitted by a sixteenth-century authenticated copy.
 
 **Canonical tree decision:** no parent edge added or altered. Keep the proposed Muttrin descent chain in the research dossier only, with the lost 1575 account and the Reimer/Bartes contradiction explicitly visible.
+
+## Genealogy-source stemma: 1555–1614 manuscripts and the Reimer/Bartes conflict (16 November 2026)
+
+### The lost 1555–1560 “Nachrichtung” and Jacob Kleist's 1576 expansion
+
+A closer reading of Quandt's §§ 14–17 materially refines the source history behind the early pedigree:
+
+1. **A Muttrin “Nachrichtung” existed by 1575.** The 1575 and 1601 whole-family fief letters explicitly say the Muttrin stem descended from the late Prissebur of Muttrin according to a written account submitted to the duke (Urk. 502 and 547). The account itself is lost.
+2. **Quandt dates that underlying account to c.1555–1560.** He argues that it covered the descendants of Bisprow and derived only the Muttrin stem from Prissebur, whom it placed around 1320. Quandt proposes that its author may have been the learned Pribslaw of Muttrin/Borntin (born c.1486, died 1570), formerly ducal/bishop's chancellor and cathedral scholastic. This authorship and the c.1320 placement are Quandt's reconstruction, not statements preserved in the lost document.
+3. **Jacob Kleist of Ruschitz expanded it in 1576.** Jacob was ducal chancellor and had access to the ducal archives, fief records, Marienstift foundation, and Colbatz monastery registers. Quandt identifies him as the author of the 1576 expansion and says he could consult the original and copies of the 1364 fief record during border disputes. This makes the 1576 compilation an unusually informed family source, but it remains a compiled genealogy and needs comparison with the cited documents.
+4. **A further redaction was made around 1590.** The surviving witness was copied by Kratz in 1863 from a Ruschitz estate-archive manuscript, later apparently lost. The copy has two mid-17th-century scribal hands and incorporates material from earlier redactions. Quandt distinguishes the 1576 original, a 1590 redaction, and a later c.1660 Ruschitz copy/manuscript. We do not possess the 1576 autograph.
+5. **Bolduan used Jacob's 1576 original.** Quandt argues that Paul Bolduan's Schema amplissimae nobilissimaeque familiae Kleistianae, composed in 1613 or 1614, was based on Jacob's 1576 genealogy and selectively carried some branches forward. It is therefore not an independent witness to the 1576 pedigree. The 1618, 1621 and 1706 fief-letter genealogizations appear to have been taken from Bolduan, not independently researched by the ducal chancery.
+
+This source stemma is essential: a 1576 family account, Bolduan's 1613/14 schema, and the 1618/1621/1706 fief genealogies cannot be counted as four independent confirmations where they share a common textual ancestor.
+
+### Reimer and Bartes: the conflict predates Bolduan
+
+The 1477 fief letter, as transcribed by Quandt from the sixteenth-century authenticated copy, names **Pribbeslaw of Muttrin with his sons, the brothers Reymer and Bartes at Tychow** (Urk. 125). By contrast, the family genealogy text preserved in the later Ruschitz/Elzow tradition says that **Hans lived at Tychow and left two sons, Reimer and Bartes**, who received the joint fief after their father's death in 1477. The 1618 and later fief genealogies follow the Hans attribution.
+
+This is not simply “1477 versus a 1618 invention”: the Hans version is present in the later transmission of the 1576/1590 family genealogy and thus may predate Bolduan. But Quandt cautions that the relevant sentences referring to a Stammlinea/Genealogia may be additions either to the 1576 source or to its 1590/1660 redaction; in his view the underlying 1576 narrative author did not know the name of Tessen's father and would otherwise have named him. The 1576 autograph is not extant, so the exact layer in which “Hans” entered cannot now be fixed.
+
+**Assessment:** the contemporaneous 1477 fief text remains the stronger evidence for the immediate father named there: Pribbeslaw of Muttrin. The Hans tradition is an early family-genealogy variant of uncertain textual date, not a reason to overwrite the 1477 statement. Possible explanations include a later insertion, conflation of generations or people, or an error in one of the transmitted texts; none is currently demonstrated. Keep the Reimer/Bartes father unresolved in canonical data and preserve both readings in the research dossier.
+
+### What the 1576 account does and does not say about the medieval origin
+
+Quandt's reconstruction says the lost 1555–1560 Muttrin Nachrichtung traced the Muttrin stem to Prissebur, one of three alleged stem-brothers, and set him around 1320. He explicitly says only the Muttrin stem was derived from Prissebur in that account; the connections of the other two stems to their supposed progenitors were conjectural. This is a much narrower claim than a proven, fully connected three-branch pedigree back to the 13th century.
+
+Jacob's access to the 1364 fief document is a valuable provenance clue: the 1576 compiler may have been able to consult it directly. It does not prove that Prissebur in 1364 was father of a named Henning or that the later 15th–17th-century Muttrin line descends generation by generation from him. Those intermediate links still need their own documentary support.
+
+### Archival retrieval targets clarified
+
+- **Bolduan/Kiel copy:** Quandt says a copy made around 1735 by Christoph Kiel survived with Kiel's copied historical manuscripts, passed via Consistorialrat Brüggemann to the library of the General Landschaft of Altvorpommern in Stettin. The exact modern shelfmark has not been established in the material inspected. Request the Schema amplissimae nobilissimaeque familiae Kleistianae / Kiel copy from that library or its successor collection; do not assume it is the same as the Elzow file below.
+- **Elzow manuscript:** the family-archive overview identifies Stettin archive signature **65/16/0/60/498**, with the Kleist genealogy beginning around folio 180. The Polish archive catalogue describes this as a mixed genealogical manuscript volume dated broadly 1700–1800; it is not identified as Bolduan's Kiel copy. Online catalogue entry: https://www.szukajwarchiwach.gov.pl/en/web/guest/jednostka/-/jednostka/7907475?refererPlid=2144199.
+- **Bohlen manuscript:** Stettin archive signature **65/10/0/7/151**, titled Notizen zur Genealogie der Familie von Kleist. Manuskript Bohlen, has no scans and no content description. It is a separate research lead, not yet identified with Bolduan or Kiel: https://www.szukajwarchiwach.gov.pl/en/web/guest/jednostka/-/jednostka/7906489.
+- **Ruschitz manuscript:** Kratz's 1863 copy described by Quandt is the immediate accessible witness to the c.1590 redaction; the estate manuscript itself is reported lost. Search Kratz's printed transcription in §17 rather than treating it as the 1576 autograph.
+
+### Canonical-tree decision
+
+No parent edge is added or changed. The 1477 charter and later family genealogies conflict over the Reimer/Bartes father, and the 1576 autograph plus the lost 1555–1560 Nachrichtung are unavailable. The medieval Prissebur → later Muttrin sequence remains a research-only hypothesis until each intervening link is independently established. The existing canonical p3472 → p1736 (Pribislaff III.281 → Cartz Ulrik III.369) relationship is retained: Harbou's 1897 genealogy explicitly states it, but this audit has not produced a reason to alter it. No new person has been inserted into data/build_data.py.
+
+### Sources
+
+- Quandt, Allgemeine Geschichte, §§ 2–7 and 14–17, especially pp. 45–62: https://v-kleist.com/FG/Genealogie/AllgemeineGeschichte.pdf
+- Kleist Urkundenbuch, Urk. 125, 502, 547, 564–565, 585, 594, 662: https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf
+- Polish State Archives, Stettin, 65/16/0/60/498 (Elzow and other genealogical material): https://www.szukajwarchiwach.gov.pl/en/web/guest/jednostka/-/jednostka/7907475?refererPlid=2144199
+- Polish State Archives, Stettin, 65/10/0/7/151 (Bohlen manuscript): https://www.szukajwarchiwach.gov.pl/en/web/guest/jednostka/-/jednostka/7906489
+
+**Limit:** this is a source-stemma analysis of Quandt's printed transcription and critique, not a fresh inspection of the 1576 autograph, Bolduan's original, Kiel's copy, or the original 1477 parchment.
