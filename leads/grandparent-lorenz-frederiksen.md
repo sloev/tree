@@ -263,10 +263,44 @@ This is the critical bridge to the Danish officer Cartz Ulrik:
 - Harbou (1897) explicitly identifies **Cartz Ulrik (III.369)** as son of **Pribislaff (III.281)** of Muttrin, Borntin, Döbel and Drenow, and **Esther von Kameke**. Harbou says Cartz inherited Drenow from his father. This is direct secondary-genealogy evidence for the p3472 → Cartz Ulrik relationship and for the maternal name Esther von Kameke. Source: [Harbou, “Slægten von Kleist i Danmark,” pp. 95 ff.](https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf), section II.a (PDF text around p. 101).
 - The family association's male-name register identifies Pribislaff III.281 as “auf Muttrin”, died 1698, with wife abbreviated “A. E. v. Kamcke” and a biography reference at FG III,3 p. 277 ([register search result](https://v-kleist.com/FG/Muttrin/register5.html); the broader name register also lists him among the Muttrin Pribislaffs). This supports the identity/date/estate and a wife whose initials are A.E.; it does not itself state his parents.
 - The current canonical tree has p3472 with no father or mother recorded, and p3473 named Esther von Kameke with no parents. Cartz Ulrik (p1736) is linked to p3472 and p3473. Do not add a parent to p3472 merely from a third-party online tree.
-- The archive's earlier audit records a proposed link **Hans Jürgen III.186 → Pribislaff III.281 / p3472**, but notes that the expanded export did not encode it and that the exact Muttrin biography/number crosswalk remains to be checked. A Geneanet tree independently proposes Hans Jürgen (d. before 1665) and an unnamed N.N. von Kleist as p3472's parents; treat that as a search lead only, not corroboration.
-- A separate proposal identifies p3473 as **Anna Esther von Kameke**, daughter of Jacob von Kameke of Körlin and Catharina von Koller. This is not yet established by the sources inspected. Do not conflate p3473 with the separate unnamed von Kameke woman proposed as wife of Hans Jürgen.
+- The 2025 Muttrin family-history biography (III.281) identifies Pribislaff as son of **Hans Jürgen III.186** and a daughter of Landrat Achatz von Kleist of Vietzow (III.110). The expanded export contains the complete narrative and the exp033 record for Hans Jürgen, but the p3472 person record still has no structured `father` or `mother` field. Thus the relationship is explicitly asserted by the published family genealogy, but is not yet encoded as a structured parent edge and has not been independently verified from the original 1665/1699 enfeoffment records. A Geneanet tree makes a similar proposal; it is not independent corroboration.
+- The 2025 Muttrin biography identifies p3473 more fully as **Anna Esther von Kameke of Kratzig**, daughter of Captain Jacob von Kameke of Körlin and Catharina von Koller. The expanded export has these parents as exp036 and exp037, while canonical p3473 currently has no parents. This is a specific published genealogy claim, not an unsupported guess; nevertheless, it should be verified against the cited marriage/estate records before canonical parent links are added. Do not conflate Anna Esther with the separate unnamed daughter of Achatz who married Hans Jürgen.
+- The same expanded-export note reports a tradition from von der Osten that Pribislaff was beheaded following an “unlucky” duel. This is an anecdotal historical claim, not verified by a court or execution record; retain only as a sourced tradition, never as established fact.
+- The 2025 Muttrin note lists Pribislaff's children as Adam Heinrich (III.368), Cartz Ulrich (III.369), Bogislaff Henning (III.370), Hans Jacob (III.371), and daughters Anna Hedwig (married von Marunde), Catharina Elisabeth (married Adam Wilhelm von Kleist of Völzkow, II.83), and Barbara Agnise. The expanded tree currently only carries Cartz Ulrik as the child in the canonical line; the other siblings and their connections are collateral research leads.
 
 **Current assessment:** p3472 → Cartz Ulrik is a strong published-genealogy relationship; p3472's own parentage is unresolved. The 1698 death and A.E. von Kamcke identity are supported by the family association's register, but the original biography and cited source notes should be read before upgrading the parents or expanding the maternal line.
+
+#### E1. Full expanded-export path and collateral connections
+
+The expanded JSON/GEDCOM contain a detailed research-only chain (exp020–exp042) that was not fully visible in the canonical tree. Its proposed direct sequence is:
+
+| Person / ID | Proposed parent | Source basis and assessment |
+|---|---|---|
+| Klest de Densin (exp020) | — | 1289 Urk. 75 and the seal tradition; identity as ancestor is a family-history reconstruction. |
+| Prissebur (exp021) | Klest de Densin | Urk. 83 (1364) anchors Prissebur at Muttrin; the father/son link is the 2025 reconstruction. |
+| Henning M.3 (exp022) | Prissebur | 1576 family genealogy and older Glineke letter; later family record, not a contemporary birth/parentage record. |
+| Henning M.8 (exp042) | Henning M.3 | Named in the 1407/1435 record tradition; the family volume expressly says he was Henning M.3's younger son. The wife, a von Wedelstett, and seven sons are attributed to the old genealogy. |
+| Bisprow III.1 (exp024) | Henning M.8 | 2025 Muttrin says he was Henning M.8's son; 1477 Urk. 125 names him and his sons; 1493 records support the family chronology. |
+| Hans III.6 (exp026) | Bisprow III.1 | 1477 and 1498 record references; family history identifies him as Bisprow's youngest son. |
+| Pribislaff III.22 (exp028) | Hans III.6 | Family history identifies him as Hans's younger son; the 1516/1517 Borntin transfer and later office/estate records support the biography. |
+| Hans III.54 (exp030) | Pribislaff III.22 | 1575 enfeoffment calls him the Scholasticus's son; the 2025 volume also cites 1577 holdings and later records. |
+| Pribislaff III.114 (exp032) | Hans III.54 | 2025 volume identifies him as eldest son; the 1586/1588, 1601, 1605, 1608, 1618 and 1621 enfeoffment references provide a dated documentary trail. |
+| Hans Jürgen III.186 (exp033) | Pribislaff III.114 | Family history identifies him as son; 1621 university entry, 1627 disputation and 1641/1643 property/office references support the person. His death before 1665 is inferred from the son's 1665 enfeoffment. |
+| Pribislaff III.281 (p3472) | Hans Jürgen III.186 | 2025 Muttrin biography says he was Hans Jürgen's son; the 1665 enfeoffment, 1688 transfer to Adam Heinrich and 1699 enfeoffment of the surviving sons support the chronology and death before 1699. The family register gives 1698. |
+
+This chain is **substantially more developed than the short archive summary suggested**, but the evidential quality is mixed: the 13th–14th-century parent links depend on later family records and a reconstruction; the 15th–17th-century line is supported by a denser series of fief, property, church and office records. Even where the family biography gives an explicit parent-child link, the cited original record must be checked to see whether it states parentage or merely identifies a person/estate. The expanded IDs are research records, not authority by themselves.
+
+The expanded export also preserves these collateral relationships and clues:
+- **Henning M.8's wife** is an unnamed von Wedelstett (exp038); the old genealogy supplies the marriage and seven sons. No parents are identified for her.
+- **Bisprow III.1's wife** is a née von Natzmer (exp025); parents not identified in this lead set.
+- **Hans III.6's wife** is a daughter of Paul von Bornentin of Borntin (exp027); her personal name is not supplied.
+- **Pribislaff III.22's wife** is Dorothea Elisabeth von Below (exp029), daughter of Gerhard Henning von Below of Gatz (exp039) and Catharina von Glasenapp of Wusterwitz (exp040).
+- **Hans III.54's wife** is Elisabeth von Kleist of Ruschitz (exp031), daughter of Andreas von Kleist of Ruschitz (exp041). This is a collateral Kleist-to-Kleist connection, not a new medieval ancestor.
+- **Hans Jürgen III.186's wife** is an unnamed daughter of Achatz von Kleist of Vietzow (III.110; exp034/exp035). This is the proposed mother of p3472. Her personal name is not given.
+- **Anna Esther von Kameke** (p3473/exp036–exp037) is the wife of p3472, from Kratzig, daughter of Jacob von Kameke of Körlin and Catharina von Koller.
+- The children of p3472 named above are a collateral set to research, and should not be silently omitted merely because the current canonical tree only carries Cartz Ulrik into the Danish line.
+
+The full expanded tree also carries later Danish descendants and collateral Gedde marriages: Cartz Ulrik → Christian Adam (p868) → Christian Frederik (p434) → Frederikke Louise Dorthea (p217), who married Ove Samuel Gedde (p216); and Juliane Frederikke Margrethe (exp013), who married Nicolai Wilhelm Gedde (exp012). The expanded note explicitly says exp013's ancestry within the von Kleist family is unknown, so she must not be attached to this same line without evidence. The family-history source gives the Danish officer line and its marriages, while the 1808 Fredensborg baptism record names Ove Samuel and Frederikke Louise as parents of Ove Frederik Christopher Gedde (p108).
 
 #### F. The separate Tychow-Dubberow → Danish Christian line
 
