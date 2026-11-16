@@ -45,3 +45,16 @@ Implemented the first website-facing slice of the open-research policy:
 The eight initial entries are a curated starting register, not a complete transcription of every note in all four dossiers. Some entries intentionally say that a source is identified but not yet inspected; do not upgrade them merely because they appear in the public register. Continue expanding the register from each active dossier, one claim at a time, with provenance and privacy review.
 
 Validation performed: fetched the three changed files from `main`, parsed `data/research.json` as JSON, and checked that the tab, view, renderer, build placeholder and all four dossier links are present. A local Python site build, browser interaction test, deployment check and live-site inspection have **not** been run in this environment. Do not claim the public GitHub Pages site has changed until deployment is confirmed.
+
+
+## 16 November 2026 — expand the public register and include source links
+
+Expanded the structured public research register from 8 to **27 open claims**:
+- Evald: 7 claims, including the 1764/1787 Rolsøgård probate, the separate 1820 Vibygård household, Rosmus identity conflict, Rousing parentage and Lovisa's missing mother.
+- Liss: 6 claims, including Assing baptism, Kjersten's 1822 baptism, Hoven mill property context and Karen Jensen's date discrepancy.
+- Gerda: 8 claims, including Kresten's possible mothers, Langø purchase/causeway, Iver Peder's 1910 contract, the 1787 probate and the reported family emigration.
+- Lorenz: 6 claims, including the 1932 paternity file, Christian Adam's 1705 baptism, Frederik Christian III.727's 1848 death and the separate Kleist stem reconstructions.
+
+Added curated source links to selected claims and a visible “Kilder og videre læsning” section in each expanded research card. Claims remain explicitly unresolved where the dossier says the original record has not been inspected; no canonical parent-child links or GEDCOM facts were changed.
+
+Validation: JSON parses; 27 unique claim IDs; all entries point to one of the four active dossiers; all four branches and all three statuses are represented; the research tab/view/renderer, source-link UI and build injection are present. The automatic GitHub Actions rebuild for commit `a75e103` completed successfully and generated `docs/index.html`; the generated page was fetched from GitHub and checked for the tab, renderer, source section and newly added claim IDs. GitHub Pages deployment was still in progress at the time of this log entry.
