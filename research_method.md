@@ -763,3 +763,35 @@ Fortsat undersøgelse af p32 Niels Jørgensen (ca. 1826), gift 7. juli 1854 i Vo
 1. Åbn M–Ø-registerbilledet i en almindelig browser og find Jørgensen; noter registerets præcise henvisning. Søg derefter A–L-delen efter Hansdatter som krydskontrol.
 2. Brug henvisningen til vielsesbind 3-13-41 (nov. 1838–okt. 1860) og aflæs originalindførslen 7. juli 1854: alder, fødested, ophold, erhverv, forlovere og eventuelle fædre.
 3. Først derefter afgøres det, om Lunde (Sunds Herred) er rette sogn; identificér den korrekte Daisy-arkivskaber og undersøg fødte mandkøn 1824–1828 samt relevante til-/afgangslister.
+
+
+## Milestone 33 — Ahnentafel 34: Niels Larsen and the Malmö 1862 birth-record route (16 November 2026)
+
+### Research target
+The public-data tree identifies **p34 Niels Larsen**, described as Swedish and born in Malmö, with the note that he is named in his daughter p17 Lovisa (Louise) Larsson's death entry. p17 is recorded as born in Malmö on 28 June 1862 and died in Slagelse on 12 October 1910. p17's current source keys are LL:8-200847, LL:9-1795569 and LL:11-231267; p34 currently has LL:11-231268. No parents or birth date are recorded for p34.
+
+### New archival route
+- Malmö City Archives' official page for **Caroli parish** confirms that Caroli birth and baptism registers cover 1688–1882 and that the birth registers record parents, residence and baptism witnesses. The same page says the searchable alphabetical registers and original books are available at the city archive; the register is a finding aid and must be checked against the original.
+  Source: https://malmo.se/Uppleva-och-gora/Arkitektur-och-kulturarv/Malmo-stadsarkiv/Arkiv-och-samlingar/Sokregister/Caroli-forsamling.html
+- The official page for **S:t Petri parish** confirms an alphabetical household-examination register for 1816–1870 and explains that these records can provide household members, parents' birth details and birth parishes, marriage dates, and moves. It also says the original books are held at Malmö City Archives.
+  Source: https://malmo.se/Uppleva-och-gora/Arkitektur-och-kulturarv/Malmo-stadsarkiv/Arkiv-och-samlingar/Sokregister/St-Petri-forsamling.html
+- Malmö City Archives' general search-register page confirms that its digitised registers are only a subset; more registers and access to SVAR, Genline and ArkivDigital are available in the reading rooms. The city's church-archives page says most of the underlying church records require a visit.
+  Sources: https://malmo.se/Uppleva-och-gora/Arkitektur-och-kulturarv/Malmo-stadsarkiv/Arkiv-och-samlingar/Sokregister.html ; https://malmo.se/Uppleva-och-gora/Arkitektur-och-kulturarv/Malmo-stadsarkiv/Sok-och-forska/Slaktforska/Kyrkoarkiv.html
+- A secondary archival inventory lists S:t Petri birth and baptism registers 1698–1899 and Caroli birth registers 1688–1901. A separate searchable-database page notes gaps in the online DDSS transcription for Caroli births in 1861–1862. These are reasons not to assume that a failed online name search disproves a Malmö birth; they do not establish which parish p17 belonged to.
+  Sources: https://slaegtsbibliotek.dk/910437.pdf ; https://tjocka.nu/heritage/f167.htm
+
+### Result and confidence
+- This establishes a practical, source-grounded route to test p34 through p17's 1862 birth and subsequent Malmö household records.
+- It does **not** independently verify the 28 June 1862 birth, the father's identity, or the precise parish. The tree's current “Niels Larsen” remains a candidate identity attached to p17 by the existing death-entry transcription.
+- No additional Niels Larsen found in indexed public web results could be linked to this family. Generic name matches were rejected.
+- No family relationship, date, or birthplace has been upgraded in the genealogical data.
+
+### Changes and validation
+- Updated only this research checkpoint. No changes to data/build_data.py, data/family.json, or family-tree.md.
+- Official Malmö City Archives pages were read; no original 1862 birth image, household-examination page, or Slagelse death entry was inspected. No build or tests were run.
+
+### Next concrete steps
+1. Inspect p17's Slagelse 1910 death entry (the underlying LL:11-231267 record) to transcribe exactly what it says about her father; compare the adjacent LL:11-231268 source record before assuming it is p34's own record.
+2. Search Malmö Caroli and S:t Petri household registers for Lovisa Larsson, born 28 June 1862, and determine the parish from the family's residence and migration notes.
+3. Locate the corresponding original 1862 birth entry. Record both parents, address, witnesses, and any marginal notes; then trace Niels Larsen backwards through the household register and migration lists.
+4. If the Caroli online transcription returns no hit, treat that as an index gap / coverage issue, not evidence that the birth did not occur there.
