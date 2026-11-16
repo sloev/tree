@@ -89,3 +89,44 @@ Append-only coordination log for the Gårdsted / Gedde family-history project. A
 **Privacy:** living-person protections and encrypted private records left intact.  
 **Handoff:** main only; keep each new research claim in its one active grandparent dossier.
 
+
+
+---
+
+## 2026-11-16 — ChatGPT: audit von Kleist medieval and early-modern leads
+
+**Branch:** `main`.  
+**Scope:** all Kleist-related material located in the four active dossiers, the archived legacy-leads archive, the archived cross-branch ledger, the personal-information supplement, and the relevant current tree records. The active owner remains `leads/grandparent-lorenz-frederiksen.md`.
+
+### Work completed
+
+- Consolidated the Kleist evidence leads into a new source-by-source audit in the Lorenz dossier, separating the medieval 1289/1364 material, the 1407/1435 Muttrin sequence, the 1477 three-line charter, the Damen/Bratta branch, the Borntin line to Pribislaff III.281 (p3472), the separate Tychow-Dubberow line, and collateral Woyten/Stojentin hypotheses.
+- Rechecked the family association's 2025 Muttrin and Damen volumes, 2025 Tychow-Dubberow translation, Quandt's general-history chapter and charter interpretation, Harbou's 1897 Danish genealogy, and the online charter/person indexes.
+- Recorded the material conflict over “Prissebur, Clest fratres” in Urk. 75; Quandt's brother interpretation is argued and challenged, not an uncontested literal statement.
+- Corrected the working date note: Urk. 83 is indexed as 1364 for Prissebur of Muttrin; Urk. 84 is 1368 for Dubbeslaff Cleest.
+- Confirmed Harbou explicitly identifies Cartz Ulrik III.369 as son of Pribislaff III.281 and Esther von Kameke, and that the family-association register identifies Pribislaff III.281 as dying in 1698. The parents of Pribislaff III.281 remain unresolved in canonical data.
+- Preserved the Reimer/Bartes father conflict between the 2025 Tychow-Dubberow genealogy and Quandt's reading of the 1477 charter.
+- Kept the von Woyten and von Stojentin proposed medieval ancestry separate from the direct male Kleist line.
+
+### Repository changes
+
+- Updated only `leads/grandparent-lorenz-frederiksen.md` with the full audit, source grading, open contradictions and a prioritized source retrieval plan.
+- No canonical people or parent relationships changed; no edits to `data/build_data.py`, `data/family.json`, GEDCOM or generated site.
+- No private/encrypted records were opened or decrypted.
+
+### Validation and limits
+
+- Read current main repository tree and relevant files through GitHub.
+- Web source checks included the family association's official document indexes and the digitized family-history PDFs.
+- The original medieval charter images themselves were not inspected in this pass. The available transcriptions and family-history interpretations are not substitutes for those originals.
+- No local Python tests, full build, or deployment verification were run.
+
+### Next steps
+
+1. Retrieve and transcribe Urk. 75, 83, 100, 104, 125 and 192 from the document book/original archive.
+2. Inspect the 2025 Muttrin German biography around III.281 / p.277 and resolve the III.186 → III.281 crosswalk.
+3. Inspect the 1576 genealogy and older Glineke letter cited for Prissebur's sons.
+4. Compare the German Tychow-Dubberow volume and original 1477 charter to resolve Reimer/Bartes.
+5. Only after those checks consider whether any disputed parent links should enter canonical data.
+
+**Handoff:** all findings and next actions live in the Lorenz dossier; archive material remains provenance-only. Main branch only.
