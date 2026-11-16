@@ -218,3 +218,14 @@ An open lead says a 1787 Nordenbro probate after **Christian Hansen** describes 
 ## 16. Additional identity caution for the 1787 Nordenbro probate
 
 The 1787 probate lead is explicitly described in the original extension as **not yet connected to the tree**. It concerns a deceased Christian Hansen in Nordenbro with two marriages and several children; one possible son of the right generation could be the Christian Hansen (`p114`) who married Marie Madsdatter in 1829. The 42-year gap is too long for the deceased Christian to be p114's father; the probate's children might be p114's generation or siblings. Read the probate for a son Christian born around 1806, the two wives' names and the guardian list. If no matching Christian appears, record the negative and close the lead. Source cited in the old extension: Magleby-Nordenbro gods probate series; a web lead was elgezira.dk/historie.html.
+
+
+## 17. Additional Magleby / Tved collateral anchors
+
+The evidence-audit compilation also identifies several people with missing parents who sit near the direct South Langeland line. They are not new parent links; they are specific parish targets:
+- **Niels Christiansen** (`g_nchr`), born 24 March 1829 and died 27 April 1912, married Inge Marie Rasmussen (24 September 1830–23 June 1913). Search Magleby baptisms 1829 and 1830 for their parent names.
+- **Jørgen Christensen (Stougaard)** (`g_jchr`) and Karen Andersdatter/Andersen (`g_kand`), both circa 1822, are the proposed parents of candidate Marthe B. Search Magleby and the Stougaard-area parish (possibly Bøstrup or Tranekær) before accepting that connection.
+- **Holger Eriksen** (`p120`) and Anne Cathrine Hansdatter (`p121`) married in Tved on 8 December 1838; their parentage is open. Search Tved and neighbouring parishes.
+- **Karen Nielsen** (`p61`), born circa 1855, has no parents recorded; search Tved baptisms around 1855.
+
+These are useful next-generation searches, but do not attach any of these people to Kresten or the Langø household based on names alone.
