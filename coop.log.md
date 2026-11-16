@@ -261,3 +261,12 @@ Owner request: make additions visible as research progresses, with evidence matu
 ### Access caveat — Vor Frelsers name index (16 November 2026)
 
 A closer reading of the church-book inventory clarifies that the original name registers are available as copies in the reading room. Volume 20 is therefore a precisely identified index, but it is **not confirmed to be digitized online**. The earlier lookup sequence is corrected accordingly: ask Rigsarkivet to consult/provide the volume 20 index lookup and confirm whether the referenced bell-ringer register is online or must be ordered. The minister's FVD 1686–1722 series is listed in the 2025 Arkivalieronline release notes. No baptism entry has been seen, and no family relationship is promoted.
+
+
+### Provenance check — Harbou's 1705 date and the family association's archive report
+
+Read Harbou's footnote 28 in context and checked the von Kleist family association's correction for III.466. Harbou reports 1 October 1705 and baptism at Vor Frelsers, but footnote 28 only corrects the DBL's maternal-grandfather-as-father error and notes “Christian Adrian” as a variant; it does not cite the baptism image or a register signature. The family association separately reports that a Danish archive search established 1 October 1705 and the form Adam rather than Adrian, but likewise gives no precise register, folio or image reference. DBL gives 3 October and the wrong father. Therefore the date/name report is stronger than an unsourced online tree, but the original entry remains the decisive missing evidence. Status remains “Kræver mere belæg”; no canonical data changed.
+
+Sources:
+- https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf
+- https://v-kleist.com/FG/Muttrin/fg0283a.htm
