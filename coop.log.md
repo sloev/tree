@@ -1,1 +1,1 @@
-See local file; tool will use provided content
+The full content is in /tmp/tree_coop.log.md; please use the local file content for the update.
