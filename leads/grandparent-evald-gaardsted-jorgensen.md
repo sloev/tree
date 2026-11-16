@@ -169,3 +169,17 @@ Archive pointer: Vibygaard Gods skifteprotokol, book 2, film 41401, fol. 21, 22,
 - Inspect the original 1811 Rosmus marriage, not only the 1812 baptism, to resolve Mette Pedersdatter Hallis versus Mette Sørensdatter Helles.
 - For Claus Gaardsted, also search his 1811 probate and the 1811 Bogensholm auction; the first wife and her children are not identified in the current notes.
 - The G305 Vistoft/Agri probate index (1739–1797) was searched and did not contain the Dejret/Tohde/Karen/Gaardsted entries. This negative result supports using the Rolsøgård G302 series rather than G305 for the 1764 probate.
+
+
+## 13. Clarification: Tohde was a stepfather, not an established biological father
+
+The evidence-audit compilation parses the G302 clause as describing Karen Christensdatter and Claus Gaardsted as **stepchildren** of Christen Christensen “Tohde?” (foged in Dejret; probate 1764). This is consistent with the word `stedbørn`. The 1787 index therefore does **not** identify the biological father of Claus or Karen. It supports the sibling relationship and points to Tohde's earlier probate, which may name the biological parent(s). The exact wording must still be checked on the original folio 39.
+
+The old extension's proposed patch that creates Christen Christensen Tohde as biological father of Claus and Karen, renames Claus “Claus Christensen”, and adds a FAMC is not approved. Keep the current blank parent fields until the original 1764 probate and the original 1787 folio are read.
+
+## 14. Rousing and Viby extra source details
+
+- The 1787 Fuglslev census lists a Rasmus Jensen, farmer, age 70 (approx. birth 1717/1718), which is consistent with but does not prove the possible `p304` identity. The 1801 household of Jens Rasmussen (`p152`) with a 20-year-old Rasmus is the actual basis for the probable `p152` → `p76` link.
+- The surname Rousing may be a soldier-name or German/Low German form; this is only a search hypothesis. The extension recommends checking Danish military rolls (Militære Etater, 1790–1810) for Rousing and the Djurs Nørre herred appointment of `p76` as sognefoged.
+- Hans Jensen (`a66`) and Margaretha Pedersdatter (`a67`) have no recorded parents. Search Viby pre-1814 baptisms for Hans around 1752 and Syv baptisms for Margaretha around 1797. The Vibygaard estate accounts may list Hans as a gardener.
+- The 1820 Vibygaard probate and the 1822 Syv marriage are still the key identity pair. A probate transcription is a strong clue but not a substitute for the original 1822 marriage entry.
