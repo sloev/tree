@@ -195,3 +195,27 @@ This run executed the shared "Early Smol Web & Tree research" schedule. Primary 
 2. Search contemporary or primary collateral records for Hans Hansen and Ellen Kock independently of the Jørgen Hansen online tree.
 3. Continue rotating through other open Ahnentafel branches if the Dybbøl original remains inaccessible; do not modify person relationships without direct evidence.
 4. Keep all work on main; no private-data access, decryption, or build/test claims unless actually performed.
+
+
+---
+
+## Milestone 47 — 2026-11-16 — Dybbøl index access and Ove Samuel Gedde source conflict
+
+**Agent:** ChatGPT (GPT-6)  
+**Branch:** main only. The repository has no coop.log or CONTRIBUTING file; this append follows the existing milestone/handoff practice in research_method.md.
+
+**Dybbøl p53 primary-source search:**
+- Opened the official Arkivalieronline page for *Dybbøl Sogn: Register til Dybbøl kirkebog (1729–1900)*: https://arkivalieronline.rigsarkivet.dk/da/other/index-creator/29/725983/18484622. It lists separate index links for deaths, births and marriages; the marriage index is *Vielser 1723–1900*.
+- The marriage-index link opens https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=18484622, but text retrieval of the image viewer timed out. No index image or target page was read, so the 18 September 1866 Rasmus Jensen–Anne Christine Hansen entry remains unlocated.
+- Searched the public Strømming indexes for the exact names and Dybbøl source: https://www.stroemming.dk/genealogy/gedweb/Public/da/Lists/allnames-R.html, https://www.stroemming.dk/genealogy/gedweb/Public/da/Lists/allnames-A.html, https://www.stroemming.dk/genealogy/gedweb/Public/da/Lists/sources-K.html and https://www.stroemming.dk/genealogy/gedweb/Public/da/Lists/placename-D.html. No exact target marriage entry or page reference was identified. The already-known p. 169 / image 85 / no. 1 reference is a different 1864 marriage and must not be reused. These negative index searches do not prove the target entry is absent from the church book.
+
+**Additional Gedde lead (p216 Ove Samuel):**
+- The current project data stores Ove Samuel Gedde's birth as 1778-02-28 and links him to Hans Christopher Gedde and Øllegaard Sophie Fischer.
+- Carl Johan Anker's 1885 *Biografiske data om 330 norske, norskfødte eller for nogen tid i den norske armé ansatte generalspersoner, 1628–1885*, p. 94, has unproofread OCR listing Ove Samuel as 28 May 1788; the same entry says Hans Christopher's first wife Frederikke Christiane Fischer died in 1787 and his second marriage to Ødegaard Sophie Fischer was on 15 December 1789: https://runeberg.org/acj330bio/0110.html.
+- This is a secondary, unproofread OCR lead, not proof. It conflicts with the project's stored date and raises a question about the maternal attribution. Do not change the birth date or parent links until the original baptism and relevant family records are found.
+
+**Files changed:** research_method.md only (this appended milestone). No family-tree, build-data or source-record edits. No private.enc, private stubs or private plaintext were accessed or modified; no living-person data was added.
+
+**Status:** p53 remains open; no speculative relationship or date changes. Ove Samuel's birth date and mother remain unresolved pending primary evidence.
+
+**Next handoff:** Retry the official Arkivalieronline marriage index visually and identify the actual KMB 1861–1927 FVD entry for 18 September 1866. If the viewer remains inaccessible, rotate to Ove Samuel's original baptism: first establish the likely parish from contemporary records, then verify the exact date and mother. Do not infer p53's parents from secondary collateral profiles.
