@@ -142,7 +142,7 @@ A separate family lead reports Iver Peder Holgersen travelled to Fresno in 1910.
 
 ## 10. Related images and documents
 
-- [Gerda's Magleby baptism / 1935 register scan](https://raw.githubusercontent.com/sloev/tree/main/images/03-liss-daab-silkeborg-1931.jpg) — this image file is labelled as Liss's baptism, not Gerda's; do not use it as Gerda's source.
+- Gerda's birth/baptism is cited as DFS `kbid157287` (Magleby 1929–62, girls born 1935 no. 13); the relevant original scan is not among the JPGs currently listed in `leads/`.
 - [Langø memoir scans](https://raw.githubusercontent.com/sloev/tree/main/images/04-langoe-erindringer.jpg) and [page 2](https://raw.githubusercontent.com/sloev/tree/main/images/02-langoe-erindringer-s2.jpg).
 - [Family tree source image catalog](../research-archive/family-tree-image-catalog.md).
 
