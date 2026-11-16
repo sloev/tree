@@ -12,7 +12,8 @@ This directory consolidates the readable uploads, the prior research file, and t
 - [Archive review leads](archive-review-leads.md) — review of the unpacked export and its image-based leads.
 - [Independent research and GEDCOM audit](independent-research-2026-11.md) — independent source checks, the four JSON-only people missing from GEDCOM, and next archival steps.
 - [Potential leads register](potential-leads-register.md) — preserves unresolved, conflicting and user-supplied leads across the von Kleist, Gaardsted, Gedde, emigration and other family lines, with status labels and next checks.
-- [Review of new research-extension files](review-new-extension-files-2026-11.md) — review of the seven new line files, source conflicts, confidence cautions and a prioritized verification/import plan.
+- [Review of first research-extension batch](review-new-extension-files-2026-11.md) — review of the first seven line files, source conflicts, confidence cautions and a prioritized verification/import plan.
+- [Review of second research-extension batch](review-second-extension-batch-2026-11.md) — review of Segments 7–12, the GEDCOM patch, open-question index, and cautions on Gaardsted, Gedde, Fischer, Lorenz paternity and Vibygård.
 - [Original ZIP export](family-tree-export.zip) — retained byte-for-byte as supplied. Its contents have been unpacked and reviewed; the original archive remains the untouched source package.
 
 ## Source and evidence policy
