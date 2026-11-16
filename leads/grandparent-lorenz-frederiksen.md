@@ -118,7 +118,7 @@ Sophus Petersen was born 28 June 1903 and died 24 August 1945. His baptism in Ny
 | Family-claimed biological father | Sophus Petersen | Family account and chart; disputed, not independently established |
 | Social/stepfather | Peter Frederiksen | Church-book entry and family account |
 
-Do not rewrite the biological father field as settled. The current JSON's `father: sofus` should be treated as a family-claimed relationship until the evidence is adjudicated. Any future data-model change should store the legal/registered and social relationships explicitly, not overwrite them.
+Do not rewrite the biological father field as settled. The canonical data no longer sets `father: sofus` as a settled parent link. Both the official register's biological-father designation for Wilhelm and the family's biological-father claim for Sophus are retained as separate, disputed relationship assertions. The step/social father Peter remains a separate link. This prevents the visual tree and downstream exports from presenting either disputed biological claim as established.
 
 ### Archive route
 
