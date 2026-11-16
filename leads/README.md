@@ -1,63 +1,44 @@
-FAMILY TREE EXPORT PACKAGE - "Slægten Gårdsted og Gedde" (sloev.github.io/tree)
-================================================================================
+# Leads — four grandparent dossiers
 
-CONTENTS
---------
-family-tree-full-export.txt     Main export (15,000+ lines, all sections A-I):
-                                A  index of all 524 persons
-                                B  full person dossiers: dates, places over time,
-                                   occupations, parents/spouse/children, works,
-                                   media, every source with its resolved fetch URL
-                                C  photo gallery (11 photos, see below)
-                                D  related media links (17 external links)
-                                E  documented works (books/music/art)
-                                F  source registry + URL patterns
-                                G  place gazetteer (~200 places with coordinates)
-                                H  family lines + occupation categories
-                                I  TREE EXPANSION 2026-11-16: 35 new ancestors
-                                   (Gedde line one generation further back via DBL;
-                                   von Kleist medieval chain back to 1289 via
-                                   Harbou 1897 + Muttrin 2025), corrections,
-                                   social connections, exact next records to fetch
+**These four files are the authoritative, active research workspace.** All ongoing genealogy investigation belongs in the relevant grandparent dossier, not in separate overlapping branch notes.
 
-family-tree-expanded.ged        NEW: GEDCOM 5.5.1 with all 524 persons and 160
-                                families, built from the corrected parent links
-                                (imports into any genealogy software)
+## The four dossiers
 
-family-tree.ged                 The site's own original GEDCOM (489 persons),
-                                kept for reference - same person ids as the site
+1. [Evald Johannes Gaardsted-Jørgensen](grandparent-evald-gaardsted-jorgensen.md) — Ahnentafel 4; Gaardsted, Jørgensen, Vosnæsgaard/Rolsøgård, Syv/Vibygård, Rosmus, Rousing and Malmö.
+2. [Liss Gaardsted-Jørgensen (née Pedersen)](grandparent-liss-pedersen.md) — Ahnentafel 5; Pedersen, Christensen/Kristensen, Vester Starup, Hoven, Sønder Felding, Assing and Pårup Melgaard.
+3. [Lorenz Heinrich Frederiksen](grandparent-lorenz-frederiksen.md) — Ahnentafel 6; disputed paternity, Else Gedde Jensen, Sophus Petersen, Gedde, von Kleist, von Woyten and von Stojentin.
+4. [Gerda Frederiksen (née Larsen)](grandparent-gerda-larsen.md) — Ahnentafel 7; Larsen, Holgersen, Christensen, Langø, South Langeland, Kresten and emigration leads.
 
-family-tree-data.json           The site's embedded DATA JSON, extracted verbatim
-                                (489 persons, places, photos, links, sources, lines)
+## Rules that prevent contradictions
 
-family-tree-data-expanded.json  Same data + the 35 new ancestors + corrected fields
-                                for 18 existing persons (documented in Section I)
+- A research claim has one home: the dossier of the grandparent whose ancestral line it concerns.
+- Shared events (Evald/Liss marriage; Lorenz/Gerda marriage) are cross-referenced by tree ID, not copied as independent claims.
+- A lead that may belong to a branch but is not yet linked is kept in the most plausible dossier with an explicit **unlinked / identity unresolved** label.
+- Each dossier distinguishes original record evidence, published genealogy, family account, inference, conflict and negative search.
+- Record the source's exact wording and what it proves; never let a secondary index or family tree silently become a primary source.
+- Legal/registered, biological, marital, step, foster, guardian and household relationships remain separate.
+- Do not add or change canonical relationships solely because a claim appears in a dossier.
+- When new evidence changes a conclusion, edit the existing claim in its one dossier and add a dated change note there. Do not leave a second competing version in another active note.
 
-family-tree-images/             The 11 site photos, extracted from the base64
-                                blobs embedded in the page HTML (the images/*.jpg
-                                URLs on the site 404 - these JPGs are the real ones)
+## Canonical source and generated exports
 
-QUICK FACTS
------------
-- 524 person records (489 from the site + 35 new ancestors), 98 of them
-  living/private: shown as "Privat person" (data is AES-encrypted on the site,
-  only the owner password can decrypt - so they stay private here too)
-- Sources: 626 source citations with resolved fetch URLs; new sources added:
-  DBL (runeberg.org), MUT (v-kleist.com Muttrin PDF), Wikipedia, SNL,
-  slaegtsbibliotek.dk
-- Date formats preserved as on the site: "1922-09-20" full date, "2008-11" month,
-  "ca. 1750"/"efter 1800" approximations
-- arkiv.dk links return HTTP 403 to command-line fetchers but open in a browser
-- All new persons are marked conf=probable/possible: documented in published
-  genealogy/biography, not yet verified page-by-page in original archives
+- Canonical source: [`data/build_data.py`](../data/build_data.py) and [`data/family.json`](../data/family.json).
+- The expanded research JSON/GEDCOM and text exports in this directory are **working/generated reference exports**, not separate authorities. They may contain proposals or inconsistencies; use the dossier's conflict notes before relying on them.
+- The source scans, family photographs, uploaded `file-*.file` documents and image assets remain preserved. They are evidence/source material, not parallel narrative dossiers.
 
-Generated 2026-11-16.
+## Cross-branch relationships
 
+- Evald (`p4`) and Liss (`p5`) are a couple; each dossier records its own ancestry.
+- Lorenz (`p6`) and Gerda (`p7`) are a couple; Lorenz's paternity question belongs only in Lorenz's dossier.
+- A shared person or collateral line should be identified by the existing person ID and linked to the dossier that owns the source analysis.
 
-RESEARCH AUDIT ADDENDA
-----------------------
-von-kleist-source-audit-2026-11-16.md
-                                Source-by-source audit of proposed people
-                                exp020–exp041, the p3472/p3473 identity and
-                                a material conflict in the 1477 Tychow ancestry.
-                                This is a research assessment, not an import.
+## Archived legacy notes
+
+Earlier agent-generated branch dossiers, worklists, reviews, research logs and image catalog have been consolidated into a single historical archive outside this folder:
+[`research-archive/legacy-leads-archive-2026-11-16.md`](../research-archive/legacy-leads-archive-2026-11-16.md).
+
+That archive preserves the former notes for provenance, but they are **not active research instructions**. If an archived statement conflicts with one of the four current dossiers, the current dossier is the maintained interpretation. Do not update the archive as a second live source.
+
+## Source assets retained here
+
+The JPG scans, original uploaded `file-*.file` segments and generated GEDCOM/JSON/text exports remain in this folder as source/reference artifacts. They are not additional research dossiers. The image catalog is preserved in the historical archive.
