@@ -540,3 +540,24 @@ The ledger's remaining material was checked against the active dossiers:
 - The Lorenz parentage distinctions between Sophus Petersen (family-claimed biological father), Wilhelm Krogh (declaration/civil registration) and Peter Frederiksen (step/social father) are already recorded here. The new ledger does not supply new evidence resolving the dispute.
 
 The original supplied ledger has been preserved as `research-archive/tree-research-ledger-2026-11-16.md` for provenance. It is an archived source of research leads, not a second active dossier.
+
+
+### 1930 census and correction to county search priority (16 November 2026)
+
+A fresh check of Rigsarkivet's current paternity guide corrects the previous emphasis on the mother's Egernsund county archive. For cases of this period, Rigsarkivet says the paternity case was generally handled in the **county where the alleged father lived**; only when the father's name/address is unknown does it recommend starting with the mother's county. Thus Wilhelm Krogh's residence is the key jurisdictional fact. If Snogbæk is confirmed as his residence in 1932, the Sønderborg county archive remains the likely county route; if the 1930/1932 address points elsewhere, the relevant father's county must be checked instead. The county transition issue (Sønderborg Amt versus Aabenraa-Sønderborg Amt after 1 April 1932) matters only after the father's county is established.
+
+The 1930 census route is real but not yet completed:
+- Arkivalieronline has a dedicated **Folketællinger, Sønderjylland** collection and the Landsarkivet for Sønderjylland's original census series (1769–1935). The series index is image-based; the online catalogue does not provide a name-searchable transcription for the target household.
+- Independent local-history/genealogy indexes cite the **5 November 1930 census for Broager Sogn, Nybøl Herred, Sønderborg Amt**, including household/family references such as *skema 82, familie nr. 1*. This confirms that a Broager 1930 census exists and is cited by researchers, but does not identify Wilhelm Krogh.
+- Search variants should include Wilhelm/Vilhelm, Carl Vilhelm, Krogh/Krog, and the place Snogbæk/Snogbaek. The candidate names already noted elsewhere in this dossier remain unmerged until the household and birth details match.
+
+Practical next step: inspect the 5 November 1930 Broager census by locality/household, starting with Snogbæk, then compare any Krogh entry with the 1908 birth candidates and with the birth-register marginal note. If there is no matching household in Broager, widen to nearby Sottrup, Nybøl, Dybbøl and Gråsten, and then to the county implied by any alternative address.
+
+Sources:
+- [Rigsarkivet: Faderskabssager – Kom godt i gang](https://www.rigsarkivet.dk/vejledning/faderskab-og-adoption/faderskabssager-kom-godt-i-gang/) (explicitly says the case was generally handled in the father's county; mother's county is the fallback if father is unknown).
+- [Arkivalieronline: Folketællinger, Sønderjylland](https://arkivalieronline.rigsarkivet.dk/da/other/other-collection/48)
+- [Arkivalieronline: Landsarkivet for Sønderjylland, Originale folketællinger 1769–1935](https://arkivalieronline.rigsarkivet.dk/da/other/index-creator/48/14962499/20597409)
+- [Broager Sogn overview and census guide](https://wiki.slaegt.dk/index.php/Broager_Sogn)
+- [Local genealogy index citing the 1930 Broager census, skema 82](https://www.stroemming.dk/genealogy/gedweb/Public/da/Lists/placename-I.html)
+
+No Krogh household has yet been identified in the 1930 census, and no exact address or employer has been established. The local genealogy index is a navigation aid, not evidence for Wilhelm's identity.
