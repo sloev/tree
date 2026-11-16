@@ -13,7 +13,8 @@ from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ENC, PLAIN, STUBS = (os.path.join(HERE, f) for f in ("private.enc", "private_people.json", "private_stubs.json"))
+TREE = os.path.join(HERE, "tree.json")
+PLAIN = os.path.join(HERE, "private_people.json")
 ITER = 200_000
 STUB_KEYS = ("id", "sex", "ahnen", "line", "rel", "father", "mother", "sibof", "step", "spouse")
 
@@ -49,10 +50,17 @@ def stub(p):
 if __name__ == "__main__":
     pw = os.environ.get("FAMILY_PASSWORD") or sys.exit("Sæt FAMILY_PASSWORD")
     if sys.argv[1] == "decrypt":
-        json.dump(decrypt(json.load(open(ENC)), pw), open(PLAIN, "w"), ensure_ascii=False, indent=1)
+        tree = json.load(open(TREE, encoding="utf-8"))
+        json.dump(decrypt(tree["family"]["private_blob"], pw), open(PLAIN, "w"), ensure_ascii=False, indent=1)
         print("skrev", PLAIN)
     elif sys.argv[1] == "encrypt":
-        people = json.load(open(PLAIN))
-        json.dump(encrypt(people, pw), open(ENC, "w"))
-        json.dump([stub(p) for p in people if not p.get("patch")], open(STUBS, "w"), ensure_ascii=False, indent=1)
-        print(len(people), "private personer krypteret")
+        people = json.load(open(PLAIN, encoding="utf-8"))
+        tree = json.load(open(TREE, encoding="utf-8"))
+        private_ids = {p["id"] for p in people}
+        public_people = [p for p in tree["family"]["people"] if p["id"] not in private_ids and not p.get("private")]
+        tree["family"]["people"] = public_people + [stub(p) for p in people if not p.get("patch")]
+        tree["family"]["private_blob"] = encrypt(people, pw)
+        with open(TREE, "w", encoding="utf-8") as f:
+            json.dump(tree, f, ensure_ascii=False, indent=1)
+            f.write("\n")
+        print(len(people), "private personer krypteret i tree.json")
