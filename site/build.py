@@ -2,7 +2,18 @@
 import base64, json, os
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 data = json.load(open(os.path.join(root, "data", "family.json"), encoding="utf-8"))
-geo = json.load(open(os.path.join(root, "data", "map.json")))\nrecent_path = os.path.join(root, "data", "recently-edited.json")\nrecent = json.load(open(recent_path, encoding="utf-8")) if os.path.exists(recent_path) else {}
+geo = json.load(open(os.path.join(root, "data", "map.json")))
+recent_path = os.path.join(root, "data", "recently-edited.json")
+recent = json.load(open(recent_path, encoding="utf-8")) if os.path.exists(recent_path) else {"people": {}, "latest_bulletin": None}
+bulletin = recent.get("latest_bulletin")
+bulletin_html = ""
+if bulletin:
+    import html
+    date = html.escape(bulletin.get("date", ""))
+    label = html.escape(bulletin.get("date_label", date))
+    title = html.escape(bulletin.get("title", "Research update"))
+    body = html.escape(bulletin.get("body", ""))
+    bulletin_html = f'<article class="bulletin-item auto-bulletin"><time datetime="{date}">{label}</time><span class="conf probable">Automatisk opdatering</span><h3>{title}</h3><p>{body}</p></article>'
 imgs = []
 for ph in data["photos"]:
     b = open(os.path.join(root, ph["file"]), "rb").read()
@@ -10,7 +21,9 @@ for ph in data["photos"]:
 tpl = open(os.path.join(root, "site", "template.html"), encoding="utf-8").read()
 UNLOCK = open(os.path.join(root, "site", "unlock.js"), encoding="utf-8").read()
 out = (tpl.replace("__UNLOCK_JS__", UNLOCK).replace("__DATA__", json.dumps(data, ensure_ascii=False))
-          .replace("__MAP__", json.dumps(geo))\n          .replace("__RECENT__", json.dumps(recent, ensure_ascii=False))
+          .replace("__MAP__", json.dumps(geo))
+          .replace("__RECENT__", json.dumps(recent.get("people", {}), ensure_ascii=False))
+          .replace("__AUTO_BULLETIN__", bulletin_html)
           .replace("__IMGS__", json.dumps(imgs)))
 open(os.path.join(root, "site", "index.html"), "w", encoding="utf-8").write(out)
 print("wrote site/index.html", len(out) // 1024, "KB")
