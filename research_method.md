@@ -795,3 +795,38 @@ The public-data tree identifies **p34 Niels Larsen**, described as Swedish and b
 2. Search Malmö Caroli and S:t Petri household registers for Lovisa Larsson, born 28 June 1862, and determine the parish from the family's residence and migration notes.
 3. Locate the corresponding original 1862 birth entry. Record both parents, address, witnesses, and any marginal notes; then trace Niels Larsen backwards through the household register and migration lists.
 4. If the Caroli online transcription returns no hit, treat that as an index gap / coverage issue, not evidence that the birth did not occur there.
+
+
+
+## Milestone 34 — Ahnentafel 34: Malmö Caroli/S:t Petri records narrowed to specific archive series (16 November 2026)
+
+### Research target
+Continue the whole-tree frontier at p34, Niels Larsen, the Swedish-born father named in the existing tree's transcription of daughter Lovisa Larsson's 1910 Slagelse death entry. Lovisa is recorded as born in Malmö on 28 June 1862. Neither Niels's own birth nor his parents are established.
+
+### New source verification
+- Malmö City Archives' official Caroli page confirms alphabetical name indexes to Caroli household-examination books for 1813–1901. The page explains that these indexes identify a volume and page, and that the original household book supplies family members, parents' birth dates and birth parishes, marriage dates, and possible immigration/emigration years. Crucially, the archive explicitly says the index is only a finding aid and that entries must be checked against the original book.
+- The same page identifies the exact Caroli household-examination volumes for **1860–1865 (1867)** as **AI:8, AI:9, AI:12, AI:13, AI:18, AI:19, AI:20, AI:21, AI:24, AI:25, AI:30, AI:31, AI:32, AI:34, AI:35 and AI:36**. These are now the bounded volume set to consult if the family is shown to belong to Caroli.
+- Caroli's birth/baptism books and alphabetical birth indexes cover **1688–1882**. The register convention is useful: first number = birth year; second = annual running number in the birth book. The original birth entry contains parents, residence, and baptism witnesses. However, the official page places these registers at Malmö City Archives and says originals can be consulted on the archive's computers; it does **not** expose a public online name-search interface. Do not describe the Caroli birth index as freely searchable online.
+- Malmö City Archives' general page confirms that only a subset of its search registers is digitised online and that more registers plus SVAR, Genline and ArkivDigital access are available in its reading rooms. Its church-archives page says most underlying church records require an in-person visit.
+- A separate archival inventory gives S:t Petri birth/baptism books 1698–1899 and Caroli birth books 1688–1901, with registers for both. This is corroborating collection-level coverage, not evidence that Lovisa belonged to either parish.
+
+### Sources
+- Malmö City Archives, Caroli parish indexes and volume guide: https://malmo.se/Uppleva-och-gora/Arkitektur-och-kulturarv/Malmo-stadsarkiv/Arkiv-och-samlingar/Sokregister/Caroli-forsamling.html
+- Malmö City Archives, general search-register access: https://malmo.se/Uppleva-och-gora/Arkitektur-och-kulturarv/Malmo-Stadsarkiv/Arkiv-och-samlingar/Sokregister.html
+- Malmö City Archives, church-archive access: https://malmo.se/Uppleva-och-gora/Arkitektur-och-kulturarv/Malmo-stadsarkiv/Sok-och-forska/Slaktforska/Kyrkoarkiv.html
+- Archival inventory, Malmö parish-book coverage: https://slaegtsbibliotek.dk/910437.pdf
+
+### Result and confidence
+- This improves the research plan from a general “search Malmö” instruction to a concrete Caroli household-volume list and clarifies which indexes are only available in the archive reading room.
+- It does **not** prove that Lovisa was born in Caroli, that Niels Larsen was her father, or that p34 can be identified with any particular Malmö household. S:t Petri remains a parallel candidate until the 1910 Slagelse death entry or another record names the parish/address.
+- No new person, date, parent, or relationship has been added to genealogical data.
+
+### Changes and validation
+- Updated only this research checkpoint. No changes to data/build_data.py, data/family.json, family-tree.md, or site files.
+- Official Malmö City Archives pages and the collection-level inventory were checked. No original church-register image or Lovisa's 1910 death entry was inspected. No build or tests were run; private data was not accessed.
+
+### Next concrete steps
+1. Retrieve and transcribe the original Slagelse death entry for Lovisa on 12 October 1910, especially the exact wording for her father and any birthplace/residence details.
+2. Use the entry's stated birthplace/parish (if present) to choose Caroli or S:t Petri. Search the corresponding 1862 birth register/index for Lovisa/Louise Larsson and spelling variants, then verify the original baptism entry.
+3. If Caroli is confirmed, use the relevant AI:8–AI:36 volume identified by the name index to trace the Larsson household backwards and follow Niels Larsen's own birth parish and migration notes. If not, use the matching S:t Petri household and birth series instead.
+4. Rotate to another open Ahnentafel branch after this bounded Malmö archival pass; do not let p34 displace the rest of Vivi's tree.
