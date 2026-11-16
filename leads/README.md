@@ -52,3 +52,12 @@ QUICK FACTS
   genealogy/biography, not yet verified page-by-page in original archives
 
 Generated 2026-11-16.
+
+
+RESEARCH AUDIT ADDENDA
+----------------------
+von-kleist-source-audit-2026-11-16.md
+                                Source-by-source audit of proposed people
+                                exp020–exp041, the p3472/p3473 identity and
+                                a material conflict in the 1477 Tychow ancestry.
+                                This is a research assessment, not an import.
