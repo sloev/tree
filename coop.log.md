@@ -154,3 +154,12 @@ No canonical data or GEDCOM edges were changed. No local tests/build were run.
 - Updated the Lorenz dossier with the source-critical comparison and revised assessment: Urk. 75 → Urk. 83 is not proven; the 1325 Nycolaus is an independent name-bearing witness, not a bridge. No canonical parent links changed.
 - Sources read: https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf ; https://kpbc.umk.pl/Content/23561/PDF/Pomorze_062_05.pdf ; https://kpbc.umk.pl/Content/23455/PDF/Pomorze_062_12.pdf ; https://v-kleist.com/FG/Adel_Ostpommern.htm ; https://v-kleist.com/FG/Muttrin/Muttrin.pdf
 - No local tests/build/deployment run. No private records opened.
+
+
+### 1477 charter and Quandt's three-period framework
+
+- Read Quandt's methodological section in the General History (pp. 45–46). He explicitly calls the genealogy from 1477 onward a secure family tree (with some documentary differences and inserted persons needing investigation); from 1316 to 1477 he says only some genealogical connections are established; before 1316 the origin and affiliations of the three name-bearing men remain to be investigated. This is now stated as the source hierarchy in the dossier.
+- Transcribed the key 1477 Urk. 125 passage from the Kleist Urkundenbuch. The edition is based on a sixteenth-century authenticated copy, with further transsumpts in 1546, 1568 and 1621, not the original 1477 parchment.
+- The 1477 copy explicitly lists “Pribbeslaff to Muttrin with his sons, the brothers Reymer and Bartes to Tichow” and records the Kleists' testimony that three branches descended from an unnamed “Oldervader” and his three sons. This is a valuable legal/family statement, but does not identify the Oldervater with Klest de Densin.
+- Quandt documents the Reimer/Bartes contradiction: 1477 places them as sons of Pribbeslaff of Muttrin; the 1618 genealogy places the Tychow line under Hans, repeated in 1621 and the 1706 compilation. The 1575/1601 fief letters describe Muttrin descendants from Prissebur but the underlying “Nachrichtung” is lost.
+- Updated dossier with source text, provenance, and evidence grades. No canonical family data changed.
