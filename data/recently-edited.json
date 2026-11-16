@@ -1,16 +1,14 @@
 {
   "latest_bulletin": {
-    "body": "Personoplysninger er ændret i kildedataene. Åbn personkortene for at se de aktuelle datoer, noter og kilder.",
-    "commit": "d23f70b17c33480d9fd0a1e70d112bde8ba4df6c",
+    "body": "Forskningsmateriale eller kildegrundlag er opdateret. Se ændringsloggen og de relevante forskningsnoter for detaljer.",
+    "commit": "af512cdb08e118cd499139e73c2212227fa8ba26",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
-      "data/build_data.py"
+      "README.md"
     ],
-    "people": [
-      "p13899"
-    ],
-    "title": "Stamtræ opdateret: Christina von Woyten"
+    "people": [],
+    "title": "Document research-note person highlighting"
   },
   "people": {
     "p13899": "2026-11-16T20:30:54Z"
