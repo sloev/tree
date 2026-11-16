@@ -609,3 +609,5 @@ Phase 5 continues: prioritize original probate records for the Gaardsted branch,
 2. Check the vertical tree's scroll/zoom behavior with the full ancestor set and confirm that the homepage anchor and person drawer's “Vis i stamtræ” action land correctly.
 3. If the generated pages pass review, commit the build artifacts through the normal publishing workflow; do not copy or expose decrypted private data.
 4. Continue whole-tree genealogy research separately; the four homepage cards are leads and evidence summaries, not new parentage claims.
+
+- **Milestone 26 follow-up:** a post-edit reference scan found one remaining person-drawer visibility check pointing at the removed `v-stamtrae` view. Updated it to check the homepage overview before scrolling to the tree. Re-ran the structural checks: all remaining view containers exist, the drawer-to-tree check targets the homepage, the tree is vertical-only, no duplicate IDs exist, and there are no stale `v-stamtrae` references. Latest template content SHA: `a85c8d7acd07f4aa11fa2e6c1b16c63e602e29dd`. Browser/build validation is still outstanding.
