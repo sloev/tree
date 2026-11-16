@@ -9,7 +9,7 @@ Hver oplysning har en sikkerhedsgrad og så vidt muligt en arkivhenvisning:
   PHT:1897    = H.W. Harbou, "Slægten von Kleist i Danmark", Personalhistorisk Tidsskrift 1897 s. 95 ff.
                 (https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf)
 
-Sikkerhed (conf): told = oplyst af dig, record = arkivkilde, probable = sandsynlig, possible = mulig.
+Sikkerhed (conf): record = godt belagt, told = familieoplysning, probable = kræver mere belæg, possible = foreløbig hypotese. Graden gælder personen/oplysningen og beviser ikke automatisk alle relationer.
 Ahnentafel-numre (ahnen) følger den biologiske slægt: far = 2n, mor = 2n+1.
 """
 import json, os
