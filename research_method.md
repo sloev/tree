@@ -1111,3 +1111,25 @@ Return briefly to p114–p121 after the prior archival-routing checkpoint. The c
 1. Open Magleby Sogn (Langelands Sønder Herred, Svendborg Amt), KMB 1828–1839 FKVDJTA, in Arkivalieronline; inspect the 1829 V section and 1832 F sections.
 2. Transcribe each target entry with its page/image, residence, fathers, witnesses/godparents, and legitimacy wording; compare with the existing source-key transcriptions.
 3. Resume branch rotation after this focused source lookup; the next independent target should be the Syv p66–p67 couple or Broager/Nybøl p53, not another speculative surname search.
+
+
+## Milestone 42 — Vorbasse/Fåborg baptism image targets resolved (16 November 2026)
+
+### Research target
+Resume Ahnentafel 42–43, Peder Jensen (reported born 4 April 1820, Vorbasse) and Karen Johnsen (reported born 20 June 1830, Agerbæk, Fåborg Sogn). Earlier notes had only the submitted GEDCOM transcription and an unresolved attempt to inspect the original scans.
+
+### Findings
+- Rigsarkivet's Arkivalieronline catalogue now gives the direct image-viewer entry for **Vorbasse Sogn, Kontraministerialbog, 1813 FKVDJTA–1821 FKVDJTA**: https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=17128288. This is the correct register series containing the reported April 1820 baptism; the catalogue also lists a separate 1821–1829 volume. The viewer page currently exposes only its JavaScript shell to text retrieval, so the actual baptism image and entry have **not** been read.
+- The publicly submitted GEDCOM profile for Peder repeats the exact birth date, home baptism on 6 April and church baptism on 9 July 1820, and names Jens Christian Hansen and Else Sørensdatter as parents. It explicitly says the data were submitted by a family researcher and invites corrections; it is a discovery lead, not independent proof. Source: https://gedcom.slaegt.dk/?fil=60&person=9317.
+- The submitted GEDCOM profile for Karen repeats 20 June 1830 at Agerbæk, Fåborg Sogn, home baptism the same day, church baptism 25 July, and names John Eskesen and Anne Knudsdatter as parents. It has the same submitted-data limitation. Source: https://gedcom.slaegt.dk/?fil=60&person=9318.
+- Rigsarkivet's general church-book guide confirms the register abbreviations (F births, K confirmations, V marriages, D deaths, A departures, T arrivals, J cross-reference lists) and that the 1814–1892 contract-ministerial books are digitised. This supports using the exact parish/year books and migration lists for corroboration, but does not itself verify either entry. Source: https://arkivalieronline.rigsarkivet.dk/da/geo/geo-collection/5.
+- No direct image URL for the 1830 Fåborg baptism was recovered in this pass. The Karen record therefore remains an indexed candidate pending locating the correct Fåborg volume and reading the original image.
+
+### Assessment and limits
+The search has narrowed the exact Vorbasse source volume, but has not verified a single name in the original record. The parents of p42 and p43 remain unconfirmed. No canonical person or relationship was changed; no private data was accessed; no build or tests were run.
+
+### Next concrete steps
+1. Open the Vorbasse 1813–1821 contract-ministerial book in Arkivalieronline and navigate to the 1820 births; inspect the 4 April entry and the 6 April home-baptism / 9 July church-baptism details against the submitted profile.
+2. In Arkivalieronline, select Fåborg Sogn, Ribe Amt, contract-ministerial book covering 1830 and locate the 20 June Agerbæk entry; record volume, page/image, parents, residence and witnesses.
+3. Inspect the reported 4 December 1828 marriage of John Eskesen and Anne Knudsdatter, and the 7 October 1852 marriage of Peder Jensen and Karen Johnsen, only as cross-checks after the baptism entries are read.
+4. Keep both parent couples as candidates until the original images and the marriage cross-checks agree.
