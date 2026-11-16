@@ -161,6 +161,19 @@ Det er et reelt middelalderspor, men endnu ikke bevis for, at Vivis konkrete dan
 
 Kilder: [H. W. Harbou, *Slægten von Kleist i Danmark* (1897)](https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf) · [Muttrin-Damensche historie (2025)](https://www.v-kleist.com/FG/Muttrin/Muttrin.pdf) · [Familien von Kleists dokumentbog](https://www.v-kleist.com/FG/Gesamt.pdf) · [Oversigt over de tidlige dokumenter](https://www.v-kleist.com/FG/urkunden/urkunden.htm).
 
+## Borntin-linjen: Pribislaff III.281 og hans mulige forældre (november 2026)
+
+Harbous artikel *Slægten von Kleist i Danmark* (1897) angiver udtrykkeligt, at den danske officer Cartz Ulrik (III.369) var søn af Pribislaff (III.281) til Muttrin, Borntin, Döbel og Drenow samt Esther von Kameke. Cartz Ulrik gik i dansk tjeneste i 1701, blev oberstløjtnant og døde i Rendsborg i 1722. Den nyere von Kleist-navneregisterpost identificerer III.281 som Pribislaff på Muttrin, død 1698, gift med A. E. von Kamecke; Harbou og registeret stemmer dermed om identiteten, hustruen og dødsåret.
+
+Et muligt bagudgående forløb fremgår af flere sekundære oversigter:
+- En ældre Lengnick-stamtavle fra 1840 (genudgivet i *Familien V. Kleist*, digitaliseret i Slægtsforskernes Bibliotek) opstiller: Prebislaw til Borntin, omtalt 1621 → sønnen Hans Jürgen, landråd → dennes søn Prebislaw til Muttrin, Borntin og Drenow → Cartz Ulrik.
+- Et nyere online-godsleksikon for Muttrin og Döbel opregner tilsvarende Pribislaff (død 1640) → Hans Jürgen (død før 1665) → Pribislaff (død 1698). Geneanet-brugertræer foreslår også Hans Jürgen III.186 som far til Pribislaff III.281 og Pribislaff III.114 (død 1640) som hans farfar.
+- En genealogisk kompilationsbog af Dirk Peters (2017) nævner Adam Heinrich von Kleist som ældste søn af Pribislaff og siger, at han fik Borntin allerede i faderens levetid i 1688; en delingsaftale fra 12. juli 1698 fordelte Muttrin, Döbel og Borntin. Det passer med Pribislaffs død i 1698, men værket er en sekundær samling og skal føres tilbage til de citerede lens- og godsarkiver.
+
+**Kildekritisk status:** Forbindelsen Cartz Ulrik → Pribislaff III.281 er stærkt understøttet af Harbou og det nyere slægtsregister. Hans Jürgen som far til III.281 er et konkret, men endnu ikke primærkilde-verificeret spor. Den ældre Lengnick-tavle er nyttig til at formulere søgningen, men dens 13.- og 14.-århundredes kæde må ikke betragtes som bevist alene på grundlag af tavlen. Vi har endnu ikke set selve lensbrevene, skiftet eller landrådsdokumenterne for de pågældende far-søn-forbindelser. Ingen nye forældre er derfor indsat i Vivis stamtræ.
+
+Kilder: [Harbou 1897, *Slægten von Kleist i Danmark*](https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf) · [von Kleist-navneregister L](https://v-kleist.com/FG/NamenabfrageL.html) · [Lengnick-stamtavle 1840, digitaliseret](https://slaegtsbibliotek.dk/900782.pdf) · [Rittergüter-Lexikon: Muttrin](https://schlossarchiv.de/?gut=9439&such=) · [Rittergüter-Lexikon: Döbel](https://schlossarchiv.de/?gut=9409&such=) · [Dirk Peters, *Ahnentafel Peters*, Register und Ergänzungen (2017)](https://dirkpeters.info/wp-content/uploads/2018/10/ahnentafel_peters_bd_4.pdf) · [Geneanet-sammenstilling for Hans Jürgen](https://gw.geneanet.org/cvpolier?lang=en&n=von+kleist&p=hans+jurgen).
+
 ## Navnet Gedde og Trankebar
 Familien fortæller, at navnet kommer fra en kaptajn i Trankebar. Den nærmeste kaptajn i slægten er Ove Samuel Gedde (kaptajn 1808), men intet i kilderne nævner Indien. Han tilhører den borgerlige officersslægt Gedde, stammende fra generalmajor Samuel Christoph Gedde (1691–1766). Ifølge Store norske leksikon er den sandsynligvis ikke beslægtet med den uddøde adelsslægt Gjedde. Admiral **Ove Gjedde** fra den slægt grundlagde Trankebar i 1620. Fornavnet Ove og det næsten enslydende efternavn er nok årsagen til, at fortællingen er opstået.
 
