@@ -106,3 +106,51 @@ Names and dates in these sections are not accompanied by individual record image
 - Preserve uncertainty in the data model. Do not turn hypotheses into biological parent links.
 - Record the exact page, document number, archive reference or image identifier for each new claim.
 - When a new source contradicts an existing claim, document the conflict before changing the tree.
+
+
+## 7. Review of the November 2026 ancestry uploads
+
+Two further files were added in commit [d3be503](https://github.com/sloev/tree/commit/d3be503f544aef3f015b724367cc898b4358016c):
+
+- [`complete_ancestry_dossier.txt`](https://github.com/sloev/tree/blob/d3be503f544aef3f015b724367cc898b4358016c/complete_ancestry_dossier.txt) — narrative overview of the Gedde/von Kleist/von Woyten, West Jutland, Djursland/Mols/Copenhagen and South Langeland branches.
+- [`tree2.txt`](https://github.com/sloev/tree/blob/d3be503f544aef3f015b724367cc898b4358016c/tree2.txt) — a text export describing the existing site data, generations, people, source references, images and documents.
+
+### 7.1 What the uploads add to the research workflow
+
+The files are useful as an index and reconciliation checklist, not as independent proof:
+
+- The dossier provides a compact branch-level map and identifies people/topics for further research, including Jens Peder Larsen and the Pårup Melgaard / Assing–Sønder Felding–Sønder Omme area.
+- The export supplies a convenient inventory of the existing tree's people and source pointers, including Danish parish-register, census, local-history and family-document references.
+- The export lists nine image files and points to the GEDCOM, JSON, family-document data and printable posters. These are repository/site assets, not additional independent historical sources.
+- The modern Danish branches are already represented in the structured export. Re-entering people from this text would risk duplicate individuals and duplicate or conflicting relationships.
+
+### 7.2 Reconciliation cautions retained from the export
+
+The export itself flags several important data-quality issues. Preserve these when using it:
+
+- The identifier `p13` is used for two different people in the export: Else Gedde Jensen and Lovisa Larsson. Do not use that identifier alone to merge records or infer a relationship.
+- The Bornholm Lars Larsen (born 1771 in Rutsker, died 1854 in Allinge) connection is explicitly rejected by the source notes as an erroneous automatic link. It must not be reintroduced.
+- The medieval von Kleist material is contextual and the continuous descent is not established. Do not convert the names in the narrative into direct ancestors without a documented generation-by-generation chain.
+- Some people have partial dates or incomplete event details. Preserve unknown values as unknown; do not fill gaps from approximate narrative descriptions.
+- The export reports aggregate counts (including 486 people and 593 source references), but those counts are descriptive metadata, not a validation of every person, event or citation.
+- Living-person information is intentionally withheld from the public export. Do not attempt to reconstruct it from encrypted material or expose private identities.
+
+### 7.3 New claims deliberately not imported
+
+No new people or parent-child links have been added to `data/build_data.py` on the strength of these two files alone.
+
+In particular:
+- The dossier's expanded claims about Christina von Woyten's children (“and others”) conflict with the family-archive passage already cited above, which identifies Hedwig Maria as Georg and Christina's only legitimate child. Retain the archive-supported statement unless a stronger primary source demonstrates otherwise.
+- The profile dates and places for several early modern noble figures are approximate and lack pinpoint citations in the uploaded dossier.
+- Broad descriptions of the Djursland, West Jutland and Langeland branches do not identify individual records precisely enough to create or modify relationships.
+- The dossier's references to military rolls, local-history collections and census material are leads only until the exact record, page/image and relevant entry are inspected.
+
+### 7.4 Recommended next verification sequence
+
+1. Reconcile each person in the new narrative against the existing structured data by name, dates, spouse/parent context and source identifiers; never match on `p13` alone.
+2. For the modern Danish lines, use the exact church-book, census, probate or local-archive reference already attached to the relevant person. Verify the actual record image and transcribe the event before changing the data.
+3. Treat the nine image files as illustrations or document leads. Where an image is a source document, record its archive origin, date, page/image number and the fact it supports.
+4. For the Pomeranian lines, continue from the cited family-history works and contemporary feudal, church or military records, documenting each generation separately.
+5. Only after verification, update the source-of-truth script and regenerate the structured JSON. Keep this research log separate from importable genealogical data.
+
+**Editorial conclusion:** these uploads improve navigation and expose useful source leads, but they do not independently justify additional structured ancestry links. The previously verified Christina von Woyten relationships remain the only new Pomeranian parentage/partnership additions supported by the cited family-archive passage.
