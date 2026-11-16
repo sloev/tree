@@ -5,7 +5,7 @@ Run from the repository root:
     python3 tools/export_tree.py
     python3 tools/export_tree.py --out-dir /tmp/tree-export
 
-The exporter reads the generated data/family.json, applies family_docs.json patches
+The exporter reads canonical data/tree.json and its preserved ingestion.family_docs patches
 idempotently (the normal build already applies them), and reconciles GEDCOM family
 records as a second representation. It never guesses biological parentage from
 keywords, names, surnames, or the existence of a marriage.
@@ -253,11 +253,11 @@ def build_export(family, docs, gedcom_path):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--out-dir", type=Path, default=ROOT / "lead" / "tree-export")
-    parser.add_argument("--family", type=Path, default=ROOT / "data" / "family.json")
-    parser.add_argument("--docs", type=Path, default=ROOT / "data" / "family_docs.json")
+    parser.add_argument("--tree", type=Path, default=ROOT / "data" / "tree.json")
     parser.add_argument("--gedcom", type=Path, default=ROOT / "family-tree.ged")
     args = parser.parse_args()
-    family, docs = load_json(args.family), load_json(args.docs)
+    tree = load_json(args.tree)
+    family, docs = tree["family"], tree.get("ingestion", {}).get("family_docs", {})
     result = build_export(family, docs, args.gedcom)
     args.out_dir.mkdir(parents=True, exist_ok=True)
     (args.out_dir / "people.json").write_text(
