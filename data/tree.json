@@ -14804,6 +14804,200 @@
      "p54",
      "p108"
     ]
+   },
+   {
+    "id": "evald-claus-probate",
+    "branch": "Evald Gårdsted Jørgensen",
+    "title": "Claus Gaardsted: skifte og Bogensholm-auktion i 1811",
+    "status": "needs",
+    "claim": "Claus Gaardsteds skifte og en mulig auktion over Bogensholm i 1811 kan afklare hans husstand, første ægteskab og børn samt ejendommens overgang. De mulige forbindelser er endnu ikke dokumenteret i en sammenhængende originalkildekæde.",
+    "evidence": "Evald-dossieret udpeger 1811-skiftet og auktionen som konkrete arkivspor. Det hidtidige materiale identificerer ikke sikkert første hustru eller eventuelle børn.",
+    "missing": "Originalt skifte, auktions-/skødeprotokol og præcis arkivskaber, dato og parternes navne.",
+    "next": "Find Claus i det relevante gods-/herredsskifte omkring 1811 og sammenhold skiftearvinger med Bogensholm-auktions- og pantebogsakter.",
+    "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+    "sources": [],
+    "person_ids": [
+     "p72"
+    ]
+   },
+   {
+    "id": "evald-jochum-baptism",
+    "branch": "Evald Gårdsted Jørgensen",
+    "title": "Jochum Gaardsted: dåben i Skødstrup 1792",
+    "status": "needs",
+    "claim": "Jochum (Joachim) Gaardsted, knyttet til den direkte Gaardsted-linje, har en dåb i Skødstrup i 1792, som bør kontrolleres i original kirkebog før detaljer og slægtsforbindelser anses for endeligt dokumenterede.",
+    "evidence": "Dossieret har et bevaret billede af dåbssporet og prioriterer en gennemgang af hele siden, ikke kun en afskrift eller isoleret navneindførsel.",
+    "missing": "Ordret originalindførsel med dato, forældre, bopæl, faddere og eventuelle henvisninger til andre Gaardsted-personer.",
+    "next": "Læs hele Skødstrup kirkebogssiden for 1792 og transskriber indførslen samt naboposter, der kan afklare navne og bopæl.",
+    "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+    "sources": [],
+    "person_ids": [
+     "p36"
+    ]
+   },
+   {
+    "id": "evald-jorgensen-collateral",
+    "branch": "Evald Gårdsted Jørgensen",
+    "title": "Niels og Johanne Jørgensens to overlevende sønner",
+    "status": "needs",
+    "claim": "Hans Sophus Frederik Jørgensen og Peter Jørgensen fremstår som to overlevende sønner af Niels Jørgensen og Johanne Sophie Hansdatter. Deres ægteskaber og efterkommere er collateral forskning og må ikke blandes ind i Evalds direkte anelinje uden dokumentation.",
+    "evidence": "Evald-dossieret identificerer de to sønner og deres erhverv som possementmager og skomager; fire øvrige børn døde som små ifølge det foreliggende materiale.",
+    "missing": "Originale dåbs- og vielsesindførsler, adresser, håndværker-/lavsprotokoller og dokumenterede efterkommere.",
+    "next": "Find sønnernes vielser i København og følg dem via adressebøger, håndværkerprotokoller og kirkebøger. Registrér kun dokumenterede børn og ægtefæller.",
+    "dossier": "leads/grandparent-evald-gaardsted-jorgensen.md",
+    "sources": [],
+    "person_ids": [
+     "p32",
+     "p33"
+    ]
+   },
+   {
+    "id": "liss-foster-households",
+    "branch": "Liss Pedersen",
+    "title": "Plejebørn i Pårup Melgaard og hedesognene",
+    "status": "needs",
+    "claim": "Folketællingsmaterialet nævner plejebørn og børn i husholdninger i Pårup Melgaard-/hedesognsområdet. Det er sociale og husstandsmæssige relationer, ikke automatisk biologisk slægtskab.",
+    "evidence": "Liss-dossieret beskriver konkrete plejebarns- og husstandsspor, men ikke alle børn er endnu opgjort med fuld kildehenvisning og ordret husstandsposition.",
+    "missing": "For hvert barn: original folketælling, år, husstand, præcis relationstekst, alder, fødested og eventuelt navngivne forældre.",
+    "next": "Gennemgå de relevante folketællinger person for person; opret en særskilt oversigt over plejeforhold og sammenhold med dåb og senere livsforløb. Opret ikke biologiske forældrekanter på baggrund af husstanden alene.",
+    "dossier": "leads/grandparent-liss-pedersen.md",
+    "sources": [],
+    "person_ids": [
+     "p10",
+     "p11",
+     "p22",
+     "p23"
+    ]
+   },
+   {
+    "id": "lorenz-sophus-daughters",
+    "branch": "Lorenz Frederiksen",
+    "title": "Sophus Petersen: mulig fjerde datter og halvsøskende",
+    "status": "needs",
+    "claim": "Familieoplysningen siger, at Sophus Petersen og Christine havde fire døtre, mens det nuværende materiale kun identificerer tre. En fjerde datter er ikke fundet. Dette spor afhænger af, at Lorenz' omstridte biologiske forbindelse til Sophus først bliver afklaret.",
+    "evidence": "Familiedokumentet omtaler “4 døtre”; kirkebogssøgninger er noteret for piger født i 1938, 1940 og 1943. De fundne piger og den mulige fjerde skal kontrolleres mod hele familiegruppen.",
+    "missing": "Fuld børnegruppe med originale dåb, navnevarianter, vielser og eventuelle udvandringer. Desuden uafhængigt belæg for Sophus som Lorenz' biologiske far.",
+    "next": "Søg bredere i Nybøl og nabosogne efter alle børn af Sophus og Christine, og sammenhold med folketællinger og senere vielser. Hold søgningen adskilt fra beviset for Lorenz' faderskab.",
+    "dossier": "leads/grandparent-lorenz-frederiksen.md",
+    "sources": [],
+    "person_ids": [
+     "p6",
+     "sofus"
+    ]
+   },
+   {
+    "id": "lorenz-dybbol-marriage",
+    "branch": "Lorenz Frederiksen",
+    "title": "Rasmus Jensen og Anne Christine Hansens vielse i Dybbøl 1866",
+    "status": "needs",
+    "claim": "Vielsen 18. september 1866 i Dybbøl er et centralt kontrolpunkt for Rasmus Jensen og Anne Christine Hansen i Else Geddes slægtslinje. Arkivkatalogerne bekræfter, hvor vielsesbogen findes, men selve indførslen er endnu ikke læst i originalen.",
+    "evidence": "Dossieret henviser til Dybbøl Ab 4 (1861–1927), der omfatter vielser 1861–1906, og Rigsarkivets indeks over Dybbøl-vielser 1723–1900. Vieweradgang gav hidtil kun en skal.",
+    "missing": "Original vielsesindførsel med alder, bopæl, fædre, forlovere og præcis navneform; særligt forældrene til Rasmus skal kontrolleres.",
+    "next": "Åbn den konkrete Dybbøl-side via Arkivalieronline eller bestil billedet; transskriber hele indførslen og sammenhold med dåb og folketællinger.",
+    "dossier": "leads/grandparent-lorenz-frederiksen.md",
+    "sources": [
+     "https://arkivalieronline.rigsarkivet.dk/da/other/index-creator/29/725983/18484622",
+     "https://slaegtsbibliotek.dk/2024/941454.pdf"
+    ],
+    "person_ids": [
+     "p52",
+     "p53",
+     "p26"
+    ]
+   },
+   {
+    "id": "lorenz-kleist-medieval-audit",
+    "branch": "Lorenz Frederiksen",
+    "title": "von Kleist: middelalderlig Muttrin-linje og kildekonflikter",
+    "status": "hypothesis",
+    "claim": "Dossieret samler middelalderlige og tidligmoderne Muttrin-/von-Kleist-spor, men flere forbindelser mellem 1200- og 1500-tallet er omstridte eller bygger på senere genealogier. De skal offentliggøres som kildekritiske undersøgelsesspor, ikke som sikker biologisk afstamning.",
+    "evidence": "Gennemgangen skelner mellem dokumenter fra 1248–1477, Muttrin-forbindelserne fra 1364 og frem, 1555–1618-slægtsoptegnelser og senere Reimer/Bartes-rekonstruktioner. Dossieret registrerer væsentlige modsigelser og moderne kildekritik.",
+    "missing": "Originale eller pålidelige udgaver af de citerede breve, fulde proveniensoplysninger for de tabte slægtsoptegnelser og uafhængig dokumentation for hvert generationsled.",
+    "next": "Arbejd led for led fra den dokumenterede danske von Kleist-forbindelse baglæns; prioriter 1477-charteret, 1407/1435-dokumenterne og 1555–1618-manuskripternes proveniens. Ingen middelalderlige forældrekanter uden særskilt bevis.",
+    "dossier": "leads/grandparent-lorenz-frederiksen.md",
+    "sources": [
+     "https://www.v-kleist.com/FG/Dubberow.pdf",
+     "https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf"
+    ],
+    "person_ids": [
+     "p868",
+     "p3472"
+    ]
+   },
+   {
+    "id": "lorenz-woyten-stojentin",
+    "branch": "Lorenz Frederiksen",
+    "title": "von Woyten og von Stojentin: identiteter og afstamningspåstande",
+    "status": "hypothesis",
+    "claim": "De indsendte og publicerede pedigree-spor forbinder von Woyten- og von Stojentin-navne med Kleist-linjen, men flere personer med samme navn og de middelalderlige afstamningspåstande er ikke sikkert identificeret. To Georg-personer i Christina Woyten-sporet skal holdes adskilt.",
+    "evidence": "Lorenz-dossieret sammenholder Harbou, den nyere von-Kleist-familiehistorie, Deutsche Biographie og Mörres studie af Swenzonerne; materialet afviser nogle af de leverede Puttkamer-/Swenzone-forbindelser som utilstrækkeligt belagte.",
+    "missing": "Præcise arkivhenvisninger til de enkelte Woyten/Stojentin-personer, original dåb/vielse/skifte og sikker identifikation af Christina Woytens far.",
+    "next": "Kontrollér Christina Woytens to mulige Georg-fædre i samtidige kirkebøger og skifter; efterprøv derefter hver ældre Woyten/Stojentin-generation mod originaldokumenter og moderne forskning.",
+    "dossier": "leads/grandparent-lorenz-frederiksen.md",
+    "sources": [
+     "https://www.deutsche-biographie.de/gnd189411813.html",
+     "https://www.deutsche-biographie.de/sfz81519.html",
+     "https://dlibra.bibliotekaelblaska.pl/Content/69900/PDF%20czarno-bia%C5%82y/CZ.R.6.19czb.pdf"
+    ],
+    "person_ids": [
+     "p217"
+    ]
+   },
+   {
+    "id": "lorenz-danish-kleist-1775",
+    "branch": "Lorenz Frederiksen",
+    "title": "Frederik Christian von Kleist: dåb i Kolding 1775 og identitet",
+    "status": "needs",
+    "claim": "Selmer beskriver en Frederik Christian af Kleist født 3. januar 1775 i Kolding, mens Harbou angiver 8. januar 1775 for Frederik Christian III.727. Identiteten er stærkt sandsynlig, men fødselsdatoen og den præcise dåbsindførsel er ikke afgjort.",
+    "evidence": "Den samtidige nekrolog hos Selmer og Harbous slægtshistorie matcher på forældre og dødsdato 21. maj 1848. Kolding kirkebøger C 469-3 og C 469-7 dækker januar 1775 og er udpeget som direkte kontrolkilder.",
+    "missing": "Original dåbsindførsel med fødsels-/dåbsdato, forældre, bopæl og faddere; afklaring af om Selmers 3. januar er fødselsdato eller en afvigende oplysning.",
+    "next": "Søg i Kolding Sankt Nikolaj C 469-3 og C 469-7 for januar 1775; sammenhold afskrifter med originalbilledet før dato eller personidentitet ændres.",
+    "dossier": "leads/grandparent-lorenz-frederiksen.md",
+    "sources": [
+     "https://slaegtsbibliotek.dk/2023/938488.pdf",
+     "https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf",
+     "https://slaegtsbibliotek.dk/807141.pdf"
+    ],
+    "person_ids": [
+     "p868"
+    ]
+   },
+   {
+    "id": "gerda-collateral-parentage",
+    "branch": "Gerda Larsen",
+    "title": "Magleby og Tved: manglende forældre til collateral-personer",
+    "status": "needs",
+    "claim": "Flere personer tæt på Sydlangelandsgrenen mangler dokumenterede forældre: Niels Christiansen, Jørgen Christensen (Stougaard), Karen Andersdatter, Holger Eriksen, Anne Cathrine Hansdatter og Karen Nielsen. De er konkrete sognebogsspor, ikke etablerede forbindelser til Kresten eller Langø-husstanden.",
+    "evidence": "Gerda-dossieret angiver fødsels-/vielsesår og mulige sogne for hver person samt at Holger Eriksen og Anne Cathrine Hansdatter blev viet i Tved 1838.",
+    "missing": "Originale dåb og vielser med forældre, bopæl og faddere; for Jørgen/Karen også sikker bestemmelse af rette sogn omkring Stougaard.",
+    "next": "Søg Magleby 1829/1830, Tved omkring 1855 og vielsen 1838; undersøg nabosognene Bøstrup/Tranekær for Jørgen og Karen. Hold alle personer ulinkede indtil konkrete dokumenter forbinder dem.",
+    "dossier": "leads/grandparent-gerda-larsen.md",
+    "sources": [],
+    "person_ids": [
+     "p120",
+     "p121",
+     "p61",
+     "g_nchr",
+     "g_jchr",
+     "g_kand"
+    ]
+   },
+   {
+    "id": "gerda-christian-hansen-marriage",
+    "branch": "Gerda Larsen",
+    "title": "Christian Hansen og Marie Madsdatter: vielse i Magleby 1829",
+    "status": "needs",
+    "claim": "Christian Hansen og Marie Madsdatter er placeret som forældre til Maren Christiansen, men vielsen i Magleby 13. november 1829 bør genlæses for at fastslå deres alder, bopæl og forældre og skelne dem fra navnebrødre.",
+    "evidence": "Dossieret har Link Lives-henvisninger til vielsen og efterfølgende familieposter, men den fulde originale vielsesindførsel er ikke gengivet i forskningsoversigten.",
+    "missing": "Original vielsesindførsel og relevante børns dåb med faddere og bopæl.",
+    "next": "Find Magleby kirkebog 13. november 1829; transskriber parternes navne, alder, bopæl, fædre og forlovere, og sammenhold med børnenes dåb.",
+    "dossier": "leads/grandparent-gerda-larsen.md",
+    "sources": [],
+    "person_ids": [
+     "p114",
+     "p115",
+     "p57"
+    ]
    }
   ]
  },
