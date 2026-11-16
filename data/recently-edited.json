@@ -1,32 +1,31 @@
 {
   "latest_bulletin": {
     "body": "Personoplysninger er ændret i kildedataene. Åbn personkortene for at se de aktuelle datoer, noter og kilder.",
-    "commit": "510f60906168822b1ee764b4c7fe6cecc925098b",
+    "commit": "064c68a8a4cf93fbfe45a854cb07febc1add6ac2",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "leads/grandparent-lorenz-frederiksen.md"
     ],
     "people": [
-      "below_otto_pustamin",
-      "p13898",
-      "p13899",
       "p1736",
       "p1737",
-      "p3475",
-      "p868",
+      "p435",
+      "p56",
       "stojentin_elisabeth"
     ],
-    "title": "Stamtræ opdateret: Otto von Below of Pustamin, Georg von Kleist, Christina von Woyten, Cartz Ulrik von Kleist, Barbara Juliane von Kleist (+3)"
+    "title": "Stamtræ opdateret: Cartz Ulrik von Kleist, Barbara Juliane von Kleist, Anna Margrethe Schubart, Lars Larsen, Elisabeth von Stojentin"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
     "p13898": "2026-11-16T20:53:37Z",
     "p13899": "2026-11-16T20:53:37Z",
-    "p1736": "2026-11-16T20:53:37Z",
-    "p1737": "2026-11-16T20:53:37Z",
+    "p1736": "2026-11-16T20:54:45Z",
+    "p1737": "2026-11-16T20:54:45Z",
     "p3475": "2026-11-16T20:53:37Z",
+    "p435": "2026-11-16T20:54:45Z",
+    "p56": "2026-11-16T20:54:45Z",
     "p868": "2026-11-16T20:53:37Z",
-    "stojentin_elisabeth": "2026-11-16T20:53:37Z"
+    "stojentin_elisabeth": "2026-11-16T20:54:45Z"
   }
 }
