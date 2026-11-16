@@ -168,3 +168,29 @@ This run executed the shared "Early Smol Web & Tree research" schedule. Primary 
 1. Continue the Broager/Dybbøl p53 collateral-family test using the parish index and original 1866 marriage register.
 2. Rotate across remaining open Ahnentafel branches, prioritising original register images.
 3. Keep all further commits on `main` only.
+
+
+## Milestone 46 — resume after main-only branch cleanup (16 November 2026)
+
+### Repository state
+- User confirmed deletion of the legacy refs after changing the default branch. A fresh GitHub audit now reports **only main** in sloev/tree; main is the default branch.
+- Companion repository sloev/earlysmolweb also reports only main, with main as its default branch.
+- All new writes in this run are made directly to main; no feature branches or pull requests are used.
+
+### Dybbøl p53 source audit — important index distinction
+- The working question remains whether p53 Anne Christine Hansen's stated parents, Hans Hansen and Ellen Kock, can be independently supported through collateral Dybbøl records. The secondary online profile for Jørgen Hansen (born 26 April 1827) is only a lead and must not be used as proof of p53's parentage.
+- A fresh inspection of the Stroemming genealogy source index identifies the cited KMB 1861–1927 FVD, p. 169 / image 85 / no. 1 entry as the birth/baptism reference for Christen Hansen (born 6 May 1839), not the target marriage of Rasmus Jensen and Anne Christine Hansen in 1866. The same reference appears in the source profile of Christen Hansen. Do not mislabel that page as the 1866 marriage register.
+- The exact 1866 marriage entry (reported date 18 September 1866) and its original page/image have **not** been located or transcribed in this pass. The Dybbøl parish index establishes the relevant register series, but the target page still needs to be identified in Arkivalieronline and read directly.
+- Rigsarkivet's current guide confirms that 1814–1960 parish registers are organized by event sections (births, confirmations, marriages, arrivals/departures, deaths) and that the relevant books are available through Arkivalieronline. For southern Jutland, church books remain available, but the later civil-register system begins in 1874; this 1866 marriage must be pursued in the parish register.
+
+**Sources inspected:**
+- Stroemming source index, Dybbøl KMB 1861–1927 FVD entries: https://www.stroemming.dk/genealogy/gedweb/Public/da/Lists/sources-K.html
+- Jørgen Hansen secondary profile (collateral lead only): https://www.stroemming.dk/genealogy/gedweb/Public/da/Details/Details-I6346.html
+- Rigsarkivet, “Kirkebøger – Kom godt i gang”: https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/
+- Rigsarkivet, Arkivalieronline church-book collection: https://arkivalieronline.rigsarkivet.dk/da/collection/theme/1
+
+### Next work
+1. Identify the exact Dybbøl 1866 marriage page/image for 18 September; inspect the original witnesses, residences, ages and fathers before drawing any relationship inference.
+2. Search contemporary or primary collateral records for Hans Hansen and Ellen Kock independently of the Jørgen Hansen online tree.
+3. Continue rotating through other open Ahnentafel branches if the Dybbøl original remains inaccessible; do not modify person relationships without direct evidence.
+4. Keep all work on main; no private-data access, decryption, or build/test claims unless actually performed.
