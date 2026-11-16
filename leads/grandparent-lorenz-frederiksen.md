@@ -961,3 +961,60 @@ I rechecked the online catalogue and indexed web sources for Wilhelm/Vilhelm Kro
 The decisive missing item is the original 1932 paternity/alimentation file or the court case file. It should settle what Wilhelm acknowledged, what the court decided, and whether any biological evidence or statements naming another man survive. The 1930 census and Adelby church book are supporting identity checks, not substitutes for that file. Until the county archive/court file is obtained, this branch cannot honestly be marked solved.
 
 **Triage decision:** online discovery for this branch is now exhausted enough that repeating broad web searches is unlikely to help. Keep it as a tightly specified archive retrieval task rather than letting it block the more promising ancestral lines. If the original case file is later obtained, revisit the biological-father question; otherwise retain the three distinct roles already documented (registered/legal father Wilhelm Krogh, family-claimed biological father Sophus Petersen, social father Peter Frederiksen) and do not collapse them into one.
+
+
+## 1575–1618 fief-genealogy audit — the lost Muttrin descent account and later reconstructions (16 November 2026)
+
+### 1. What the 1575 and 1601 records actually establish
+
+Quandt quotes the concluding formula in the whole-family fief letters:
+
+- **1575, Urk. 502:** the persons listed in the Muttrin stem belong to that line “according to their credible account of descent presented to us” and are descendants of the late Prissebur Kleist of Muttrin.
+- **1601, Urk. 547:** repeats the same substance, calling the listed persons descendants of the late Prissebur, formerly seated at Muttrin, according to the account of descent submitted to the duke.
+
+This is substantial contemporary legal evidence that, by 1575, the Muttrin branch had submitted a written pedigree/account tracing its descent to Prissebur. It is not the same as having that pedigree in hand: Quandt says the “Nachrichtung” survives neither in original nor copy. Its detailed sequence of intermediate generations therefore cannot be checked directly against the document that the ducal administration saw. The 1575/1601 letters support the branch-level descent claim to Prissebur, but do not by themselves independently verify every father-son link later printed in the family genealogy.
+
+### 2. The 1608 whole-family letter gives a three-stem classification
+
+Quandt quotes the formulae in Urk. 564 (1608):
+
+- first stem: the Muttrin line and its offshoots at Vietzow, Damen and Dargen, described as descendants of Prissebur Kleist of Muttrin;
+- second stem: the Dubberow line, described as descendants of Jacob Kleist of Dubberow and Tychow;
+- third stem: Vilnow and Raddatz, described as descendants of the elder Voltz Kleist of Vilnow.
+
+This is an important continuity check: the 1608 fief record preserves the same broad three-part descent model as the 1477 “Oldervater with three sons” statement, and explicitly names Prissebur as the Muttrin-stem ancestor. It does not identify Prissebur with the 1289 witness or seal-owner, and it does not restore the lost pedigree submitted in 1575.
+
+A separate 1608 fief letter, Urk. 565, is described by Quandt as tracing the then-current Damen line by named intermediate generations to the 1477 brothers Peter, Bisprow and Churdt, sons of Dubschlaff. Quandt says the lines of the first and fifth brothers had died out. This is a more detailed branch-specific genealogy than the broad formula in Urk. 564; it concerns the Damen branch and must not be misapplied as a direct pedigree for Muttrin proper.
+
+### 3. The 1618 / 1621 / 1706 genealogies introduce a material contradiction
+
+The whole-family letters of **1618 (Urk. 585), 1621 (Urk. 594), and the compilation made in 1706 for the 1665 enfeoffment (Urk. 662)** rearrange the first, Muttrin stem into three sub-lines: Damen, Muttrin–Vietzow, and Ruschitz–Dargen.
+
+Quandt says the 1618 genealogy traces the other two sub-lines of the Muttrin stem through intermediate links from **Bisprow and Pribschlaff**. In the second major stem, called descendants of “Old Georg”, it traces the Dubberow line from Peter of the 1477 letter, but the Great Tychow line from **Reimer and Bartes as sons of Hans**.
+
+That last assertion conflicts with the wording Quandt transcribes from 1477: the 1477 list calls Pribbeslaw of Muttrin the father of “the brothers Reymer and Bartes” at Tychow. The two statements cannot both be literal descriptions of the same immediate father-child relationship unless there is a copying/reading issue, an otherwise unrecorded Hans, or an error in one of the later reconstructions. Do not silently harmonize them.
+
+Quandt's source criticism is especially important here: he says this later “genealogization” in fief letters from 1618 onward was not independently worked out by the ducal chancery, which lacked the necessary information, but was apparently taken from Paul Bolduan's genealogical work. He says Bolduan also first names Georg as progenitor of the Dubberow stem. Bolduan's work was not yet in existence in 1608, so the earlier 1608 formulation must have come from another source. Quandt further notes that the surviving material submitted by the Damen branch for the 1608 enfeoffment (Urk. 563a) does not supply the data needed for the later genealogization; the source of the 1608 information therefore remains unknown.
+
+### 4. Revised evidentiary assessment
+
+| Claim | Current assessment |
+|---|---|
+| The Muttrin branch claimed descent from Prissebur by 1575 | **Strong, contemporary legal evidence**: explicit formula in Urk. 502, repeated in Urk. 547 |
+| A written Muttrin descent account existed in 1575 | **Strong evidence of existence**, but the account itself is lost |
+| 1608 grouped Muttrin/Vietzow/Damen/Dargen under Prissebur | **Strong evidence of the contemporary branch classification**, quoted from Urk. 564 by Quandt |
+| The Damen branch had a named intermediate pedigree to the 1477 brothers | **Documented as a claim in Urk. 565**, but the full text and source basis still merit direct re-reading |
+| Reimer and Bartes were sons of Pribbeslaw, as the 1477 wording says | **Explicit in the surviving 1477 copy as printed by Quandt** |
+| Reimer and Bartes were sons of Hans, as the 1618 genealogy says | **Later genealogical claim**, repeated in 1621 and 1706; conflicts with 1477 wording |
+| The 1618 genealogy independently proves the correct father | **No**: Quandt attributes the genealogization to Bolduan's compilation, not independent chancery research |
+| Prissebur of Muttrin = 1289 Prissebur / Klest de Densin | **Not established by these records** |
+
+The key methodological point: the fief letters are valuable legal evidence that family members represented a descent and were admitted to joint fief rights on that basis. But their genealogical clauses are not all independent corroborations. Later letters repeat earlier family genealogies, and the pedigree document submitted in 1575 is lost. For the Reimer/Bartes question, the 1477 wording remains the earlier statement; the Hans attribution must remain a contradictory later tradition pending inspection of the underlying 1618 source and any Bolduan manuscript or surviving excerpt.
+
+### Sources and limits
+
+- Quandt, “Die Bearbeitung der Genealogie des Kleist’schen Geschlechts,” *Allgemeine Geschichte*, pp. 45–47: https://v-kleist.com/FG/Genealogie/AllgemeineGeschichte.pdf
+- Kleist *Urkundenbuch*: Urk. 502 (1575), 547 (1601), 563a, 564–565 (1608), 585 (1618), 594 (1621), 662 (1706): https://v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf
+- The analysis above is based on the printed charter editions as quoted and evaluated by Quandt. It is not a fresh palaeographic reading of the original fief charters or the lost 1575 “Nachrichtung”. The original 1477 parchment is also not extant in the edition's account; its text is transmitted by a sixteenth-century authenticated copy.
+
+**Canonical tree decision:** no parent edge added or altered. Keep the proposed Muttrin descent chain in the research dossier only, with the lost 1575 account and the Reimer/Bartes contradiction explicitly visible.
