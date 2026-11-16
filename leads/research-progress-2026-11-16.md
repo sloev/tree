@@ -246,6 +246,26 @@ This also means the earlier statement that the whole chain begins with Hans I.24
 
 ## Von Kleist additions exp020–exp041 — source audit completed, import held
 
-A new itemized source audit has been added at leads/von-kleist-source-audit-2026-11-16.md. It distinguishes the 1364 Prissebur reference from later pedigree reconstruction; records what the 2025 Muttrin volume says about the early generations; audits all 22 proposed people exp020–exp041; and flags the structured-data mismatch where exp033's note names existing p3472 as his son but the JSON leaves p3472's father blank.
+A new itemized source audit has been added at leads/von-kleist-source-audit-2026-11-16.md. It distinguishes the 1364 Prissebur reference from later pedigree reconstruction; records what the 2025 Muttrin volume says about the early generations; audits all 23 proposed people exp020–exp042; and flags the structured-data mismatch where exp033's note names existing p3472 as his son but the JSON leaves p3472's father blank.
 
 No canonical family data or GEDCOM records were changed. The next work is to locate the exact Muttrin biography for III.281/p3472, reconcile old and revised numbering, inspect the original 1477 charter or authenticated copy, and then determine which specific relationships are strong enough for a carefully scoped canonical update.
+
+
+## Expanded research export repair — missing Henning M.8 generation
+
+A structural error was found while comparing the notes with the relationships in the expanded JSON and GEDCOM:
+
+- exp022 is Henning M.3; his note says he was father of Henning M.8.
+- The Muttrin volume says Bisprow III.1 (exp024) was son of Henning M.8, not Henning M.3.
+- The unnamed von Wedelstett (exp038) is the wife of Henning M.8, not Henning M.3.
+- The original structured export had skipped Henning M.8: exp024.father pointed directly to exp022, and exp038.spouse pointed to exp022.
+
+I added exp042, Henning von Mutteryn (M.8), to the **research-only expanded package** and corrected the links to exp022 → exp042 → exp024, with exp038 as exp042's spouse and exp024's mother. The same repair was applied to:
+- leads/family-tree-data-expanded.json
+- leads/family-tree-expanded.ged
+- leads/family-tree-full-export.txt
+- leads/family-tree-expanded.txt
+- leads/README.md
+- leads/von-kleist-source-audit-2026-11-16.md
+
+The expanded package now has 524 people (489 original site records + 35 research additions) and 160 families. The canonical site JSON and canonical family-tree.ged remain unchanged. The p3472 ← exp033 relationship is still stated in the research narrative but is not yet encoded in structured parent fields; it remains open pending exact biography/page verification.
