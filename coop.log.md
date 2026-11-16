@@ -150,3 +150,19 @@ Validation: the main JavaScript function extracted from `site/template.html` pas
 **Files changed:** `data/tree.json` and `coop.log.md`. Commit for the new track note: `ee4c597aed3893ce5e607f25cdc8d7b533ec0545`. No people, dates or family edges changed.
 
 **Validation:** current file SHA fetched before update; canonical JSON parsed before write. No local build/export or Pages check performed.
+
+
+## 2026-11-17 — research loop: Bogensholm G298, 1803 ownership record and Rousing disambiguation
+
+**Tracks updated:**
+- `evald-claus-probate-1811`: identified the original Bogensholm Gods G298 probate series (1800–1811), its register, Arkivalieronline unit and Hanne Vinter Henriksen's digital extract. The eight-case published extract has no separate Claus Gaardsted entry; this is a bounded negative result in the extract only, not proof that no original probate exists. Next: inspect the original register/protocol and 1811 auction records.
+- `evald-bogensholm`: added the 6 August 1803 printed royal chancery memorandum that explicitly calls Claus Gaardsted owner and resident at Bogensholm. Added Trap 4 (1925), which gives 1797, alongside Trap 5's 1796 date. Ownership in 1803 is supported; acquisition year remains unresolved pending the original deed/pantebog.
+- `evald-rousing-parentage`: added Skærsø G304 no. 206 (7 October 1813, fols. 331/336), a published extract for a Rasmus Jensen Rousing smith and wife Kirsten Thygesdatter at Visbeholm, with two daughters and named guardians. This is a new same-name disambiguation lead, not evidence that the man is p76 (Fuglslev, ca. 1780–1858); the original folios must establish the precise probate subject.
+
+**Sources reviewed:** DS-Wiki Bogensholm archive page; Hanne Vinter Henriksen's Bogensholm G298 extract; Arkivalieronline link for G298; Trap 4 and Trap 5; *Kongelige Rescripter* 6 August 1803; Skærsø G304 published probate extract.
+
+**Files changed:** `data/tree.json` and this `coop.log.md` entry. No people, dates or family edges were changed. No new research tracks or sidecar files were created.
+
+**Validation:** fetched current source files and SHA values; parsed canonical `data/tree.json` as JSON before editing. No local Python build/export, visual review, original archive-image inspection or Pages deployment check was performed. The Arkivalieronline G298 series was identified, but its original images were not read.
+
+**Next actions:** (1) inspect Bogensholm G298 register and original 1811 protocol; (2) locate the 1811 auction record for Bogensholm; (3) inspect Skærsø G304 no. 206, fols. 331/336; (4) continue the existing priority order for the 1764 Dejret probate, Liss's 1843 marriage and Kolding's January 1775 baptism.
