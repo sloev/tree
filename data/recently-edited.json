@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "ac15b03be526b753edcd59afb3ddb7bc032301ce",
+    "commit": "15964bd8ca168edcd6d65a8dcef1c979f64806c2",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "data/tree.json"
     ],
     "people": [],
-    "title": "Correct placement of imported Kleist, Woyten and Danish branch research notes"
+    "title": "Finalize note grouping and keep policy material out of genealogical research tracks"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
