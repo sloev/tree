@@ -1,17 +1,17 @@
 {
   "latest_bulletin": {
+    "body": "Christinas personnotat og forskningsdossier er præciseret efter kontrol af den reviderede Tychow-Dubberow-linje (2025), s. 36 og 143. To forskellige Georg von Kleist optræder med en Christina Woyten; det er endnu uafklaret, om der er tale om én kvinde i flere ægteskaber eller to navnesøstre. De anvendte kilder oplyser hverken fødsels- eller dødsdato, så felterne står fortsat åbne. Ingen relationer er ændret uden belæg.",
+    "commit": "af512cdb08e118cd499139e73c2212227fa8ba26",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
-    "title": "Christina von Woyten: datoer og identitet undersøgt",
-    "body": "Christinas personnotat og forskningsdossier er præciseret efter kontrol af den reviderede Tychow-Dubberow-linje (2025), s. 36 og 143. To forskellige Georg von Kleist optræder med en Christina Woyten; det er endnu uafklaret, om der er tale om én kvinde i flere ægteskaber eller to navnesøstre. De anvendte kilder oplyser hverken fødsels- eller dødsdato, så felterne står fortsat åbne. Ingen relationer er ændret uden belæg.",
-    "people": [
-      "p13899"
-    ],
-    "commit": "af512cdb08e118cd499139e73c2212227fa8ba26",
     "paths": [
       "data/build_data.py",
       "leads/grandparent-lorenz-frederiksen.md"
-    ]
+    ],
+    "people": [
+      "p13899"
+    ],
+    "title": "Christina von Woyten: datoer og identitet undersøgt"
   },
   "people": {
     "p13899": "2026-11-16T20:30:54Z"
