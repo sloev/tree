@@ -193,3 +193,44 @@ is retained as a **new unverified lead**, not a finding. It was not located in H
 ### Site correction
 
 The site template now includes a dated bulletin item and research card explaining that Harbou does not name Christian II.60's father in this passage, that Joachim Henning II.59 is described as *Farbrodersøn*, and that the II.39 → II.21 → II.22 chain remains under verification. No family-tree or GEDCOM relationships were changed.
+
+
+## Tychow-Dubberow chain: direct check of the 2025 numbered biographies
+
+Source inspected: *History of the Family v. Kleist, Third Part, Second Department: Tychow-Dubberower line*, 2nd revised edition, German 2025; English machine translation 2026:
+https://www.v-kleist.com/FG/english/Dubberow_translation.pdf
+The translation's own notice says it is machine translated, not yet proofread, and is based on the 2025 German edition. Use the German original for fine wording and all legal/kinship terminology before final publication.
+
+### The key correction to the Z.ai chain
+
+The numbered biographies do **not** give the sequence Reimer II.2 → Bartez II.6 → Andreas II.11. They show two brothers and two separate son-lines:
+
+- Hans of Tychow (I.24) had sons Reimer II.2 and Bartes II.3 (printed pp. 121–122 / PDF pp. 121–122).
+- Reimer II.2 (born c.1425) and his wife, a von Born of the Grassee house, had three sons: Bartez II.6, Tessen II.7 and Joachim II.8. Bartez II.6 died c.1527 and married a von Zozenow; their six sons are listed as II.15–20 (printed pp. 122–123 / PDF pp. 122–123).
+- Bartes II.3 was Reimer's brother. Bartes and his wife from the von Briesen family had three sons: Martin II.9, Jacob II.10 and Andreas (Drews) II.11 (printed p.122 / PDF pp.122–123).
+- Andreas II.11 († after 1546) was the father of Carsten II.21 and Joachim II.22 (printed pp.132–133 / PDF pp.132–133).
+- Carsten II.21 († before 1618), called “the Elder” to distinguish him from his cousin Carsten II.19, was married first to a von Hechthausen and around 1575 to his niece Hedwig von Heydebreck. The volume lists eight sons, including Bernhard II.39 (printed pp.133–134 / PDF pp.133–134).
+- Bernd/Bernhard II.39 († after 1665), sixth son of Carsten II.21, was married to Elisabeth von Manteuffel of Pribbernow and Broitz. The biography says she bore him Christian II.60 and Andreas Joachim II.61 (printed pp.134–135 / PDF pp.134–135).
+- Christian II.60 (†1679) is explicitly introduced as a son of Bernd II.39. The biography names his two wives: first Hedwig Maria von Kleist, daughter of Georg II.55; second Barbara Eleonora von Kalkstein. It lists four sons and one daughter from the first marriage and one son and one daughter from the second (printed pp.142–145 / PDF pp.143–145).
+- Christian Casimir II.82 (born 1654, died 19 Feb 1722) is explicitly described as Christian II.60's second son. His wife was Anna Hedwig von Fürst; their daughter Barbara Juliane married Lieutenant Colonel Cartz Ulrich von Kleist (III.369) (printed pp.145–146 / PDF pp.146–147).
+
+Thus the supported paternal branch is:
+Hans I.24 → Bartes II.3 → Andreas (Drews) II.11 → Carsten II.21 → Bernd/Bernhard II.39 → Christian II.60 → Christian Casimir II.82 → Barbara Juliane → marriage to Cartz Ulrich III.369.
+
+Reimer II.2 is the brother of Bartes II.3, not the direct father of Andreas II.11. Bartez II.6 is Reimer's son and belongs to a collateral branch. The two lines share the earlier Hans I.24 ancestor, but Bartez II.6 must not be inserted between Reimer II.2 and Andreas II.11.
+
+### Evidence character and cautions
+
+This is a meaningful advance: the revised family-history volume explicitly states each parent-child relationship in the numbered biographies and cites older feudal letters, investitures, tax registers, family records and other archive materials. It is still a modern secondary genealogical compilation, not a substitute for independently inspecting each cited original record. The volume itself distinguishes documentary support from family-table claims in places; for example, it reports the marriage of Reimer II.2 to a von Born based on family records, and Carsten II.21's marriages according to von der Osten. Keep the source type visible per link.
+
+The English PDF labels itself a machine translation made in 2026 and says it has not yet been proofread. The German original should be checked for exact terms, especially “Nichte” and “Farbrodersohn,” and for any translation ambiguity.
+
+### What is and is not now established from this pass
+
+- Parent chain Hans I.24 → Bartes II.3 → Andreas II.11 → Carsten II.21 → Bernd II.39 → Christian II.60: explicitly stated in the revised numbered biographies.
+- Reimer II.2 → Bartez II.6: explicitly stated, but this is a collateral line, not the line through Andreas II.11.
+- Christian II.60 → Christian Casimir II.82 → Barbara Juliane: explicitly stated.
+- Barbara Juliane → Cartz Ulrich III.369: marriage explicitly stated.
+- Cartz Ulrich → Christian Adam → Christian Frederik → Frederikke Louise Dorthea → Ove Samuel Gedde → Ove Frederik Christopher Gedde: not checked in the Dubberow passages above; retain earlier Harbou/other-source audit and verify each link separately.
+- Further Rosenkrantz and Krag ancestry supplied by Z.ai: not inspected in this source pass.
+- No canonical GEDCOM/tree relationships have been changed. The site research card was corrected to show the two separate Tychow branches and the verified parent links, while keeping the source-quality caveat.
