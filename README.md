@@ -28,16 +28,16 @@ GitHub Actions kører automatisk samme kæde, når \`data/tree.json\` ændres. \
 ## Private personer
 
 Nulevende og personer født inden for de sidste 100 år uden dødsdato står ikke i klartekst i repoet.
-De ligger AES-256-GCM-krypteret i `data/private.enc` og vises som "Privat person" på den offentlige side,
+De ligger AES-256-GCM-krypteret i `data/tree.json` under `family.private_blob` og vises som "Privat person" på den offentlige side,
 indtil man låser op med kodeordet. Kodeordet står ikke i repoet.
 
 ```sh
 FAMILY_PASSWORD=... python3 data/private_tool.py decrypt   # skriver data/private_people.json (ignoreres af git)
 # ret i data/private_people.json
-FAMILY_PASSWORD=... python3 data/private_tool.py encrypt   # krypterer igen og opdaterer data/private_stubs.json
+FAMILY_PASSWORD=... python3 data/private_tool.py encrypt   # krypterer igen og opdaterer den krypterede blob og pladsholdere i data/tree.json
 ```
 
-`data/build_data.py` stopper med en fejl, hvis en person, der burde være privat, står i klartekst.
+`data/build.py` stopper med en fejl, hvis en person, der burde være privat, står i klartekst.
 
 
 ## Åben forskning og bidrag
