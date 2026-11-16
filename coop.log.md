@@ -278,3 +278,14 @@ A closer grammatical reading of the published G302 no. 11 extract (14 May 1787, 
 This makes the 1750 G299 entry for Christen Christensen Gårdsted in Dejret (former bailiff at Rolsgård) especially important as a possible match for the Christen in the 1787 reference. Still, name identity, precise relationship and sibling structure all remain unproven until original G302 fol. 39 and the original 1764 G299 probate are read.
 
 **Files changed:** `data/tree.json` and `coop.log.md`. Added an explicit interpretive correction to the existing claim and log; no family edges or person facts changed.
+
+
+## 2026-11-17 — commit and build handoff
+
+Commit IDs for the substantive research updates in this session:
+- Rousing 1735/1762 probate synthesis: tree `378afbd35c9159f7ec71ad42908a86ff10915b45`; log `a1405e48dc881644d788762f098f3e57388ce846`.
+- Rasmus Jensen Smed 1744/1787 corroboration: tree `ad9f304a7193d67b5296d4094c44b4805f3851d8`; log `151b5fe446fe85dd1c73b838e6048f313b479312`.
+- Christen Gårdsted / Isgård G299 lead: tree `10b2f9a1f46300e8dca17b1b10e5c4795a9550bf`; log `5d1773e8d8316e12b272518b6db5b98fa40669f4`.
+- G302 “stedbørn efter” interpretive correction: tree `8042a92f5e231d387c81f4872230ac436199931f`; log `40b2deb86017b6203a42f8016ab33d3ee2f34a9b`.
+
+**Validation:** fetched and parsed canonical `data/tree.json` (494 people, 63 claims). GitHub Actions workflow “Rebuild family tree website” for tree commit `8042a92f5e231d387c81f4872230ac436199931f` completed successfully (run 43978900444). Read-only check of generated `data/research.json` and `docs/index.html` confirms both contain the new Gårdsted lead and the grammatical correction. A Pages deployment run was still in progress at handoff; no claim that the public site is live is made.
