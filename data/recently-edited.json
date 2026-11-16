@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Forskningsmateriale eller kildegrundlag er opdateret. Se ændringsloggen og de relevante forskningsnoter for detaljer.",
-    "commit": "5ba3a155de2c6e781d6211c977a5210c9736c6d5",
+    "commit": "0486473218cba39746233513f6fdc14636044fd1",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "coop.log.md"
     ],
     "people": [],
-    "title": "Log null-result confirmation on open public genealogical leads"
+    "title": "Restore full coop.log.md with null-result handoff entry"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
