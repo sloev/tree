@@ -606,7 +606,9 @@ person("p6949", "Hedvig Maria von Kleist", "F", ahnen=6949, line="gedde", father
        note="Hans første hustru. Hun bragte en del af Gross Tychow med ind i ægteskabet.", src=["PHT:1897"])
 person("p13898", "Georg von Kleist", "M", ahnen=13898, line="gedde", occ=["Godsejer, Gross Tychow (Pommern)"], spouse="p13899",
        src=["PHT:1897"])
-person("p13899", "Christina von Woyten", "F", ahnen=13899, line="gedde", father="woyten_benedictus", mother="stojentin_elisabeth", spouse="p13898",\n       note="Ingen fødsels- eller dødsdato er oplyst i de anvendte slægtshistoriske kilder. VKA, Dubberow 2025, s. 143 (II.55), identificerer hende som enke efter Otto von Below og hustru til Georg von Kleist på Groß-Tychow; samme værk omtaler på s. 36 (II.44) en Christina Woyten fra Versin som første hustru til en anden Georg von Kleist, uden børn. Om det er samme kvinde i to på hinanden følgende ægteskaber, eller to navnesøstre, er ikke afgjort. Datoer må ikke udledes af hendes fars dødsgrænse.",\n       src=["PHT:1897", "VKA:Dubberow p.123", "VKA:Dubberow 2025 pp.36,143"])
+person("p13899", "Christina von Woyten", "F", ahnen=13899, line="gedde", father="woyten_benedictus", mother="stojentin_elisabeth", spouse="p13898",
+       note="Ingen fødsels- eller dødsdato er oplyst i de anvendte slægtshistoriske kilder. VKA, Dubberow 2025, s. 143 (II.55), identificerer hende som enke efter Otto von Below og hustru til Georg von Kleist på Groß-Tychow; samme værk omtaler på s. 36 (II.44) en Christina Woyten fra Versin som første hustru til en anden Georg von Kleist, uden børn. Om det er samme kvinde i to på hinanden følgende ægteskaber, eller to navnesøstre, er ikke afgjort. Datoer må ikke udledes af hendes fars dødsgrænse.",
+       src=["PHT:1897", "VKA:Dubberow p.123", "VKA:Dubberow 2025 pp.36,143"])
 person("woyten_benedictus", "Benedictus (Benedict) von Woyten", "M", line="gedde",
        occ=["Princely Pomeranian captain of Bütow", "Lord of Versin"],
        note="Died after 6 December 1584. Father of Christina von Woyten.", src=["VKA:Dubberow p.123"])
