@@ -1,20 +1,18 @@
 {
   "latest_bulletin": {
     "body": "Personoplysninger er ændret i kildedataene. Åbn personkortene for at se de aktuelle datoer, noter og kilder.",
-    "commit": "064c68a8a4cf93fbfe45a854cb07febc1add6ac2",
+    "commit": "720397a36d7413d4f9b977006d0271b6a4eeea8b",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "leads/grandparent-lorenz-frederiksen.md"
     ],
     "people": [
-      "p1736",
-      "p1737",
+      "p216",
       "p435",
-      "p56",
-      "stojentin_elisabeth"
+      "p869"
     ],
-    "title": "Stamtræ opdateret: Cartz Ulrik von Kleist, Barbara Juliane von Kleist, Anna Margrethe Schubart, Lars Larsen, Elisabeth von Stojentin"
+    "title": "Stamtræ opdateret: Ove Samuel Gedde, Anna Margrethe Schubart, Sophie Rosenkrantz"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
@@ -22,10 +20,12 @@
     "p13899": "2026-11-16T20:53:37Z",
     "p1736": "2026-11-16T20:54:45Z",
     "p1737": "2026-11-16T20:54:45Z",
+    "p216": "2026-11-16T20:56:57Z",
     "p3475": "2026-11-16T20:53:37Z",
-    "p435": "2026-11-16T20:54:45Z",
+    "p435": "2026-11-16T20:56:57Z",
     "p56": "2026-11-16T20:54:45Z",
     "p868": "2026-11-16T20:53:37Z",
+    "p869": "2026-11-16T20:56:57Z",
     "stojentin_elisabeth": "2026-11-16T20:54:45Z"
   }
 }
