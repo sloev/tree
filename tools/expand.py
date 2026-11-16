@@ -136,7 +136,7 @@ def main(rounds=3):
                         np["src"].insert(0, "LL:" + b["key"]); break
                 known[k] = np; auto.append(np); added += 1
                 print(f"  + {k}: {np['name']} f. {np.get('born')} {np.get('bplace_text') or ''}", flush=True)
-            json.dump(auto, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+            json.dump(tree, open(tree_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         # navne fra vielser uden fødselspost bliver næste generation (kun navn + kilde)
         for a in list(auto):
             n = a["ahnen"]
@@ -149,7 +149,7 @@ def main(rounds=3):
                       "note": f"Nævnt som {'far' if i == 0 else 'mor'} i {known[n]['name']}s vielse."}
                 known[k] = np; auto.append(np); added += 1
                 print(f"  + {k}: {np['name']} (fra vielse)", flush=True)
-        json.dump(auto, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        json.dump(tree, open(tree_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         print(f"runde {rnd+1}: {added} nye", flush=True)
         if not added: break
 
