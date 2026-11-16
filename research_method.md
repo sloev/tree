@@ -671,3 +671,6 @@ Phase 5 continues: prioritize original probate records for the Gaardsted branch,
   Source: https://www.v-kleist.com/bestand_greifswald.htm, especially lines 7–37.
 - This is an actionable archival plan, not proof that the 13th-century chain is continuous. Updated `family-tree.md` with the III.22 → III.54 → III.114 → III.186 → III.281 chain, the June/July 1698 date conflict, and the exact archive references. No genealogical data or relationships changed.
 - Validation remains GitHub file update only; no original archival document has been inspected and no build/browser test run.
+
+
+- Further archival inventory detail: the Greifswald family-archive list includes a file titled **“Klage der Erben des Hans-Jürgen v. gegen die Prälaten Mannen und Städte des Stiftes Cammin wegen Schuldenforderungen”**, dated **1633–1692**, signature **Rep. 7 Nr. 5894**. This may be relevant to Hans Jürgen III.186 or another same-name person; identity must be checked before use. It is now an additional targeted archive request alongside Rep.40 Nr.35 gg and Rep.41 Nr.28 Plathe. Source: https://www.v-kleist.com/bestand_greifswald.htm.
