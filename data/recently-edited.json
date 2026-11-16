@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Forskningsmateriale eller kildegrundlag er opdateret. Se ændringsloggen og de relevante forskningsnoter for detaljer.",
-    "commit": "0486473218cba39746233513f6fdc14636044fd1",
+    "commit": "90e426b332144cd9b15d9522c4f93be338aab049",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "coop.log.md"
     ],
     "people": [],
-    "title": "Restore full coop.log.md with null-result handoff entry"
+    "title": "Record 16 November Kleist research handoff"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
