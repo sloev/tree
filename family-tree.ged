@@ -6213,6 +6213,8 @@
 0 @F93@ FAM
 1 HUSB @p2@
 1 WIFE @p3@
+1 DIV
+1 NOTE Family-reported divorce more than 30 years ago; exact date not supplied.
 1 CHIL @p1@
 0 @F94@ FAM
 1 HUSB @p4@
@@ -6240,7 +6242,6 @@
 0 @F98@ FAM
 1 HUSB @x_kirill@
 1 WIFE @p3@
-1 DIV
 1 CHIL @x_benjamin@
 1 CHIL @x_sonja@
 1 CHIL @x_sofie@
