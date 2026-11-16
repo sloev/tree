@@ -329,3 +329,16 @@ Commit IDs for the substantive research updates in this session:
 Tilføjet et tidsstempel til automatiske nyhedsindlæg, baseret på commit-/oprettelsestid, og bagudfyldning af tidsstempler for ældre poster fra deres Git-commitmetadata. Websitebygget skriver tidsstemplet som `data-created-at`, og klientens sortering bruger det før dato-fallback. Det sikrer, at “10 nyeste” også er korrekt, når flere forskningsopdateringer har samme kalenderdato. Historikken er fortsat append-only; ingen tidligere indlæg fjernes eller erstattes.
 
 **Validering:** Kontrolleret patch-markører mod de aktuelle filer. GitHub Actions skal genbygge efter commit; visuel browserkontrol og Pages-udrulning af denne præcisionsændring afventes.
+
+
+## 2026-11-17 — correction: G299 nr. 56 revises the preferred G302 stepchild reading
+
+**Track updated:** `evald-tohde-probate`.
+
+The existing claim's summary was revised to reflect the new G299 nr. 56 cross-check. The preferred working hypothesis is now that Karen and Claus were children of Kirsten Jensdatter and Christen Christensen, and stepchildren of Niels Jensen in Vrinners; the 1787 G302 extract may refer to those stepchildren after/from Christen. The identification of Niels Jensen in the 1775 and 1787 records, and Claus's identity as Claus Gaardsted, remain unproven. The earlier alternative reading remains in the dated research history, not erased.
+
+**Files changed:** `data/tree.json` and this log. No people or family edges changed; repository remains 494 people and 63 research claims.
+
+**Validation:** Parsed canonical JSON before commit and checked the existing track ID; committed the claim revision. Build/Pages verification for this commit is pending. Original fol. 106, fol. 39 and the 1764 probate have not been read.
+
+**Next:** inspect the original G299 and G302 folios, identify the 1764 probate jurisdiction and verify the Niels/Claus identities.
