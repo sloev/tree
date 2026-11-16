@@ -152,3 +152,64 @@ A separate family lead reports Iver Peder Holgersen travelled to Fresno in 1910.
 - Do not assume Kresten's father from the partly obscured family chart.
 - Do not assume the Iver Peder Holgersen emigration lead is the same person as ancestor `p60` until name/date/passenger evidence matches.
 - Do not treat the detailed Langø memoir narrative as deed evidence.
+
+
+## 12. Kresten and the two possible mothers named Marthe Jørgensen
+
+The family chart's lead is more specific than the earlier summary. It gives **Christen Henriksen Jørgensen** (`g_kresten`), born 3 November 1877 at Søndenbro, as a possible non-marital son of Lars Thomsen Larsen (`p28`), aged 18, and a woman recorded as Marthe Jørgensen (`g_marthe`). The mother's identity remains unresolved.
+
+Two candidates are preserved:
+- **Candidate A:** Marthe Christine Jørgensen, born 25 January 1837 at Tryggelev; married Thomas Rasmussen Jespersen in 1861; had seven children and was alive in 1921.
+- **Candidate B:** Marthe Jørgensen, born 9 October 1852, daughter of Jørgen Christensen (Stougaard) and Karen Andersen; died 27 August 1878.
+
+The extension leans toward candidate B because Kresten's foster parents in the 1880 and 1890 censuses were Jørgen Christensen and Karen Andersen, who were candidate B's parents. Candidate B's death in 1878 does not rule her out as Kresten's mother, but it means she could not have raised him after his birth. This is a hypothesis, not proof. A plausible age/household inference must not replace the original baptism.
+
+**Decisive checks, in order:**
+1. Read the full 1877 baptism entry cited as `LL:12-16292169`, not only the index. It reportedly names “Marthe Jørgensen” without a husband; inspect age, residence, employer (“tjener på”) and marginal notes.
+2. Read candidate B's 27 August 1878 burial. If a surviving child is named, that is significant; absence of a child does not by itself disprove maternity.
+3. Inspect the Magleby tilgangsliste for 1877 for the mother's residence and any child placement.
+4. Search candidate A's 1921 census household for Kresten.
+5. Test the MyHeritage claim that “Marthe Jørgensen fra Søndenbro” had three further children (Margrethe, Nielsine Marie and Otto August). These are not found in the Magleby register under her name in the existing notes; births after August 1878 cannot belong to candidate B.
+
+Other open points:
+- Kresten's death has not been found.
+- Magleby church book 1916 reportedly names an unnamed child of Kresten and Marie Laurentine, born 15 January 1916 (`g_kbarn`). Read the full entry and identify whether the child was stillborn, unnamed at registration, or later named.
+- The prior exact-name web search and Strømming K-name index returned no match; this is a scoped negative search, not proof of non-existence.
+
+## 13. Langø household: two additional children to trace
+
+The family notes list seven children of Marius Michelsen Christensen (`p62`) and Ane Marie Jørgensen (`p63`). Two remain open:
+- **Christian Anton Christensen**, born 17 June 1879 in Skrøbelev, before his parents' marriage. Search Skrøbelev baptism, 1880/1890 censuses and the lægdsrulle to trace residence and later life.
+- **Christian Jørgen Christensen**, born 1 December 1887 in Copenhagen, confirmed in Humble in 1902; absent from Danish censuses after 1901 and possibly an emigrant. Search the 1901 and 1911 censuses and Copenhagen Police emigration protocols 1902–1920 by name and birth parish.
+
+The extension says Valdemar Emil Christensen took over Langø and was father of Lisbeth Skov, author of “En Langø-piges erindringer”. The memoir is a family-held private print. Scan it and preserve provenance; consider depositing a copy with Langelands Museum or the local archive with the family's permission.
+
+## 14. Emigration: precise protocol references
+
+The earlier general leads can now be made more actionable:
+- **Iver Peder Holgersen → Fresno:** Copenhagen Police emigration contract no. **4443**, dated **8 September 1910**. The open-web search for the name and Fresno returned nothing relevant; continue from the contract number to passenger records, California directories/census, naturalization and death records.
+- **Olaf Gedde → Shanghai:** contract no. **3534**, dated **11 July 1904**; see Lorenz dossier because Olaf is Paula Gedde's brother.
+- **Emil Gedde → Argentina:** the Eldorado colony has two photographs already cited as B9886 and B9790; search the colony register and Danish-Argentine congregation records; see Lorenz dossier.
+- **Jørgen Christensen and Bodil Margrethe Clausdatter:** nine children are reported; the family says seven emigrated to America, the eldest son and youngest daughter stayed in Denmark, and the parents followed then returned. Five children are already named in the tree with baptism citations. Search emigration protocols parish-first (Magleby, Skrøbelev, Humble, Nordenbro), then US censuses and Danish-American church registers. Do not assume all nine travelled together.
+
+The Copenhagen police protocols cover people who bought a contract ticket through an emigration agent; independent travellers may be missing. A null protocol search is not proof that someone stayed in Denmark.
+
+## 15. South Langeland source preservation and the 1787 probate
+
+### Family-held Sydlangeland death list
+
+“Dødsliste for Sydlangeland 1900–1970” is a printed register held in the family's copy and cited repeatedly in the tree. It carries names, occupations, residences, ages and death dates, including entries otherwise difficult to find in indexed church books. Scan it at high resolution, preserve its title/creator/publication details and keep the original; the family notes suggest depositing a copy with Langelands Museum/local archive if the family agrees.
+
+### 1787 Nordenbro probate — Christian Hansen
+
+An open lead says a 1787 Nordenbro probate after **Christian Hansen** describes two marriages and several children in a local family. The extension suggests using it to test the identity of Christian Hansen (`p114`), born about 1806, who married Marie Madsdatter in 1829. The probate may concern a different Christian Hansen; the identity match is not established. Locate the correct probate jurisdiction and inspect the original for the deceased's age, spouse(s), children, residence and estate. Do not attach the family group to `p114` based only on the name and locality.
+
+### Other open Langeland checks
+
+- Verify the 1850 marriage of Jørgen Christensen (`p126`) and Bodil Margrethe Clausdatter (`p127`) in Skrøbelev/Magleby; their parents and nine children should be traced from the original records.
+- Inspect Fangel parish records for Anne Katrine Jensdatter (`p113`).
+- Inspect Snøde baptism records for Hans Berendsen (`p116`) and Anne Marie Olsdatter (`p117`).
+- Inspect Magleby/Humble records 1780–1800 for Claus Madsen (`a254`), Ane Mortensdatter (`a255`), Mads Hansen (`a508`) and Karen Clausdatter (`a509`).
+- Hennetved parish registers 1720–1800 are unindexed and are the route to the older Jørgensen branch (`a504`, `a505`, `a1008`–`a1011`).
+
+
