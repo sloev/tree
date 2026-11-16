@@ -398,9 +398,9 @@
       "title": "Christian Adam von Kleist: dåben i Vor Frelsers omkring 1705",
       "status": "needs",
       "claim": "Harbou angiver Christian Adam von Kleists fødsel 1. oktober 1705 og dåb i Vor Frelsers. Den præcise kirkebogsindførsel er endnu ikke læst, og ældre litteratur har en anden dato og fejl i faderskabet.",
-      "evidence": "Rigsarkivets udgivelsesmeddelelser viser, at klokkernes navneindeks 1704–1822 er offentliggjort online. Sognets inventar forbinder indeksbindet med dåbsbøgerne 15–19 og 36; der findes også en parallel ministerialbog.",
-      "missing": "Det konkrete indeksopslag, side-/billednummer og original dåbsindførsel i både klokkerens og ministerens register.",
-      "next": "Find Christian/Christiern Adam i navneindekset, følg boghenvisningen og sammenlign de parallelle dåbsindførsler.",
+      "evidence": "Rigsarkivets udgivelsesmeddelelser viser, at klokkernes navneindeks 1704–1822 er offentliggjort online. Sognets inventar forbinder indeksbindet med dåbsbøgerne 15–19 og 36; der findes også en parallel ministerialbog. En supplerende genealogisk registrering hos Finn Holbek anfører 1. oktober 1705 i København og forældrene Curtz Ulrich von Kleist og Barbara Juliane von Kleist; registreringen henviser til Danmarks Adels Aarbog 1985–87, s. 722, og Gotha 1901, s. 473. Dette er sekundær henvisning og ikke en aflæst dåbsindførsel.",
+      "missing": "Det konkrete indeksopslag, side-/billednummer og original dåbsindførsel i både klokkerens og ministerens register. Finn Holbeks henviste DAA/Gotha-oplysninger er ikke kontrolleret direkte, og dåbsindførslen er stadig ikke identificeret.",
+      "next": "Find Christian/Christiern Adam i klokkerens navneindeks 1704–1822, følg boghenvisningen til dåbsindførslen, og sammenlign med præstens parallelle register; kontrollér samtidig DAA 1985–87 s. 722 og Gotha 1901 s. 473.",
       "dossier": "leads/grandparent-lorenz-frederiksen.md",
       "sources": [
         {
@@ -410,6 +410,10 @@
         {
           "label": "Vor Frelsers sogneinventar",
           "url": "https://slaegtsbibliotek.dk/900379.pdf"
+        },
+        {
+          "label": "Finn Holbek: Christian Adam von Kleist (sekundær registrering med DAA/Gotha-henvisninger)",
+          "url": "https://finnholbek.dk/getperson.php?personID=I22870&tree=2"
         }
       ],
       "person_ids": [
