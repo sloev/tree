@@ -163,3 +163,14 @@ No canonical data or GEDCOM edges were changed. No local tests/build were run.
 - The 1477 copy explicitly lists “Pribbeslaff to Muttrin with his sons, the brothers Reymer and Bartes to Tichow” and records the Kleists' testimony that three branches descended from an unnamed “Oldervader” and his three sons. This is a valuable legal/family statement, but does not identify the Oldervater with Klest de Densin.
 - Quandt documents the Reimer/Bartes contradiction: 1477 places them as sons of Pribbeslaff of Muttrin; the 1618 genealogy places the Tychow line under Hans, repeated in 1621 and the 1706 compilation. The 1575/1601 fief letters describe Muttrin descendants from Prissebur but the underlying “Nachrichtung” is lost.
 - Updated dossier with source text, provenance, and evidence grades. No canonical family data changed.
+
+### 2026-11-16 — Privacy correction: Jørgen and Vivi
+
+- Corrected the person mapping: Jørgen is p2; Vivi is p3. The divorced historical union is between those two people, not the separate later family union represented by x_kirill.
+- Removed p2.spouse from the public/current-partner fields and added a separate union_statuses record for p2 + p3 with status divorced. The GEDCOM retains the historical family unit, its child, and a divorce marker.
+- Kept Jørgen's public name and personal details anonymised. His parent links (p4 and p5) remain in the public tree; ancestry has not been suppressed.
+- Published Vivi's name (p3) under her explicit consent. Her parents and other family links remain intact. Her separate family connection to x_kirill and their children was restored and not marked divorced.
+- Updated the private-data merge so unlocking does not reintroduce Jørgen as Vivi's current partner.
+- The public Pages HTML now contains Vivi's consented name, Jørgen's anonymised stub, the corrected divorced union status, and the updated unlock logic.
+- Confirmed the tree template already renders the gender symbols ♀/♂ with the requested pink/blue styling.
+- No private encrypted records were decrypted. No tests or full build were run locally; generated GEDCOM and public Pages content were inspected after the repository updates.
