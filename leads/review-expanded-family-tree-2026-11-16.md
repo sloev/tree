@@ -21,12 +21,13 @@ The file's tree section around lines 444–463 and its summary around lines 1170
 
 That parentage is not what the numbered biographies in the cited 2025 Tychow-Dubberow volume state. The same volume distinguishes the two brothers and their branches:
 
-- Hans of Tychow I.24 had sons Reimer II.2 and Bartes II.3.
+- The 2025 Tychow-Dubberow volume says Hans of Tychow I.24 had sons Reimer II.2 and Bartes II.3.
+- However, L. Quandt's transcription of the 13 April 1477 collective fief letter in *Allgemeine Geschichte* names “Pribbeslaw zu Muttrin mit seinen Söhnen, die Brüder Reymer und Bartes zu [Groß-]Tichow”. The same discussion says the earlier Tychow/Dubberow branch ancestor is not known from the older family records. The father of Reimer and Bartes is therefore disputed between the 1477 charter transcription and the later Tychow genealogy; do not state Hans I.24 as proven.
 - Reimer II.2's sons include Bartez II.6.
 - Bartes II.3's sons include Andreas (Drews) II.11.
 - Andreas II.11 is the father of Carsten II.21; Carsten is father of Bernd II.39; Bernd is father of Christian II.60.
 
-Therefore Bartez II.6 is a collateral relative of Andreas II.11, not his father. The expanded file's indentation and its “verified chain” paragraph both need correction before this text is reused. The branch through Andreas is **Hans I.24 → Bartes II.3 → Andreas II.11 → Carsten II.21 → Bernd II.39 → Christian II.60**. Reimer II.2 → Bartez II.6 is a separate sibling branch. The book's numbered biographies are the direct source for this correction; the English PDF is a machine translation and German wording should be checked before publication.
+Therefore Bartez II.6 is a collateral relative of Andreas II.11, not his father. The expanded file's indentation and its “verified chain” paragraph both need correction before this text is reused. From Bartes onward, the branch is **Bartes II.3 → Andreas II.11 → Carsten II.21 → Bernd II.39 → Christian II.60**. Reimer II.2 → Bartez II.6 is a separate sibling branch. The parent of Reimer and Bartes remains disputed: the Tychow-Dubberow genealogy says Hans I.24, while the 1477 charter transcription in *Allgemeine Geschichte* says Pribbeslaw of Muttrin. The English PDF is a machine translation; consult the German originals and underlying charter before publication.
 
 The file also says “five generations” were added from Reimer to Christian, but the line actually mixes the collateral Reimer/Bartez branch with the Andreas/Carsten branch. Do not repeat that generation count without recalculating it from the corrected branch.
 
@@ -62,3 +63,8 @@ The expanded file includes many useful indexed record references (LL/AO/DFS/ARK 
 4. Resolve Ove Samuel Gedde's 1778/1788 conflict independently.
 5. Inspect the strongest LL/AO/DFS record references for the other branches and log negative searches with exact scope.
 6. Only then prepare a small, sourced patch for `data/family.json` and GEDCOM. No structural import has been made in this review.
+
+
+## Subsequent source qualification — 1477 father attribution
+
+The statement above that Hans I.24 is the father of Reimer II.2 and Bartes II.3 is not settled. A later comparison found that *Allgemeine Geschichte* transcribes the 1477 collective fief letter as naming Pribbeslaw of Muttrin with sons Reimer and Bartes. The 2025 Tychow-Dubberow volume instead assigns the brothers to Hans I.24. This conflict is recorded in the new itemized audit at leads/von-kleist-source-audit-2026-11-16.md. Until the charter and the later genealogical reconstruction are reconciled, show the parent as disputed. The corrected chain from Bartes II.3 through Andreas II.11, Carsten II.21, Bernd II.39 and Christian II.60 remains source-stated; Bartez II.6 remains on Reimer's separate branch.
