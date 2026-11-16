@@ -24,7 +24,7 @@
 
 - Canonical source: [`data/build_data.py`](../data/build_data.py) and [`data/family.json`](../data/family.json).
 - The expanded research JSON/GEDCOM and text exports in this directory are **working/generated reference exports**, not separate authorities. They may contain proposals or inconsistencies; use the dossier's conflict notes before relying on them.
-- The source scans, family photographs, uploaded `file-*.file` documents and image assets remain preserved. They are evidence/source material, not parallel narrative dossiers.
+- The source scans and family photographs remain here as evidence assets. The uploaded `file-*.file` extension segments, superseded 531-person text export, legacy audits and image catalog have been preserved in the historical archive outside `leads/`.
 
 ## Cross-branch relationships
 
@@ -41,4 +41,4 @@ That archive preserves the former notes for provenance, but they are **not activ
 
 ## Source assets retained here
 
-The JPG scans, original uploaded `file-*.file` segments and generated GEDCOM/JSON/text exports remain in this folder as source/reference artifacts. They are not additional research dossiers. The image catalog is preserved in the historical archive.
+The JPG scans and current GEDCOM/JSON/text exports remain here as source/reference artifacts, not additional research dossiers. Original uploaded extension segments, the superseded 531-person export and the image catalog are preserved in the historical archive.
