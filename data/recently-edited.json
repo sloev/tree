@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "38060131abcd8db4997312958fb9f4a848185bec",
+    "commit": "c6016cc0b9083c70002316ca097177441dc6f9c9",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "data/tree.json"
     ],
     "people": [],
-    "title": "Research: narrow Tohde 1764 probate to Isgård G299"
+    "title": "Research: correct Bogensholm deed date and deepen Rousing probate lead"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",

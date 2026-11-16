@@ -119,8 +119,8 @@
    "status": "needs",
    "claim": "Et skøde fra 1796 eller 1797 er et centralt spor til ejerskab og mulig identifikation ved Bogensholm.",
    "evidence": "Skødehenvisningen er prioriteret i den aktive Evald-dossier; den præcise dato og dokumentets ordlyd skal kontrolleres i originalen. En samtidig trykt administrativ promemoria af 6. august 1803 omtaler Claus Gaardsted som ejer og beboer af Bogensholm; Trap 4 (1925) angiver køb i 1797, mens Trap 5 angiver 1796.",
-   "missing": "Originalt skøde, tingbogs-/pantebogshenvisning og sikker identifikation af de nævnte parter. Den originale skøde-/pantebogsindførsel mangler fortsat for at afgøre 1796/1797-konflikten.",
-   "next": "Find originalt skøde/pantebogsindførsel for Bogensholm omkring 1796–1797 og sammenhold den med den samtidige 1803-promemoria.",
+   "missing": "Originalt skøde, tingbogs-/pantebogshenvisning og sikker identifikation af de nævnte parter. Den originale skøde-/pantebogsindførsel mangler fortsat for at kontrollere den sekundært oplyste overdragelse i 1796.",
+   "next": "Find originalt skøde/tinglysning i Djurs Sønder-Mols Herreds skøde- og panteprotokol omkring 1796; sammenhold med Trap og den samtidige 1803-promemoria.",
    "sources": [
     {
      "label": "Rolsøgård G302 index, 1778–1816",
@@ -160,6 +160,12 @@
      "title": "Samtidig administrativ kilde bekræfter Claus Gaardsted som ejer af Bogensholm i 1803; købsåret er fortsat omstridt",
      "text": "Den trykte samling Kongelige Rescripter gengiver en kancellipromemoria af 6. august 1803 til amtmanden over Randers Amt om højtidsoffer fra hovedgårde. Begrundelsen siger udtrykkeligt, at Claus Gaardsted på det tidspunkt ejede og beboede sædegården Bogensholm i Vistoft Sogn; selve afgørelsen pålægger ham at betale samme offer som tidligere ejere. Det er en samtidig offentlig administrativ tekst i en senere trykt afskrift og giver en uafhængig tidsfæstelse af hans ejerskab i 1803. Den dokumenterer ikke hans familieforhold eller selve købet.\n\nEjendommens overtagelsesår er stadig en kildekonflikt: Trap 5 angiver 1796 og købspris 10.000 rigsdaler; Trap 4 (1925) angiver, at Rosenkrantz solgte Bogensholm til Claus i 1797. Begge er sekundære historiske fremstillinger. Den oprindelige skøde-/pantebogsindførsel er fortsat nødvendig for at afgøre dato, sælger og overdragelsens vilkår.\n\nKilder:\n- Trap 5, Vistoft Sogn: https://trap5.lex.dk/sogn/vistoft-sogn-mols-herred/\n- Trap 4 (1925), Randers Amt, Mols og Øster-Lisbjerg Herreder: https://netstol.dk/slaegtsForskning/trap_danmark_4/Trap_Danmark_4_udgave_%281925%29_Bind_6_Randers_Amt_Mols_og_OEster-Lisbjaerg_Herreder.pdf\n- Kongelige Rescripter, 6. august 1803, s. 252: https://da.wikisource.org/wiki/Side:Kongelige_Rescripter,_Resolutioner_og_Collegialbreve_for_Danmark_og_Norge_udtogsvis_udgivne_i_chronologisk_Orden._VI._Deel._12._Bind_(1803%E2%80%931804).pdf/258\n\nVurdering: ejerskabet i 1803 er stærkt underbygget af en samtidig administrativ tekst; købsåret 1796/1797 er ikke afgjort.",
      "provenance": "Nye webkildekontroller 17.11.2026; Kongelige Rescripter 1803–1804 og Trap Danmark 4./5. udgave",
+     "imported_on": "2026-11-17"
+    },
+    {
+     "title": "Kildekorrektion: Trap 4 angiver også 1796, ikke 1797",
+     "text": "En genkontrol af Trap 4 (1925), bind VI, Randers Amt, afsnittet om Vistoft/Bogensholm, viser på PDF-linjerne 1882–1897, at Bogensholm havde fælles ejerhistorie med Møllerup indtil 1796, hvorefter Frederik Christian Rosenkrantz solgte gården for 10.000 rigsdaler til Claus Gaardsted, der døde 1811. Samme afsnit siger, at enken solgte gården ved auktion i 1811 for 31.000 rigsdaler til J.J. Wiid.\n\nDette korrigerer den foregående forskningsnote, som fejlagtigt gengav Trap 4 som 1797. Trap 4 og Trap 5 stemmer begge om 1796. Den tidligere påståede konflikt 1796/1797 skal derfor slettes som kildekonflikt; den skyldtes en fejl i vores gengivelse, ikke uenighed mellem de to Trap-udgaver.\n\nTrap er fortsat en sekundær topografisk fremstilling, ikke skødet. Den oprindelige adkomst/tinglysning skal stadig findes for at kontrollere datoen, sælgeren, køberen og vilkårene. Samtidig bekræfter Trap 4 uafhængigt af 1803-promemoriaen både Claus' død i 1811 og enkens auktion samme år.",
+     "provenance": "Kontrol af Trap 4 PDF, Vistoft/Bogensholm, 17.11.2026; sammenholdt med Trap 5 og 1803-promemoria",
      "imported_on": "2026-11-17"
     }
    ]
@@ -298,9 +304,9 @@
    "title": "Rousing-slægten: forældrene til Rasmus Jensen",
    "status": "hypothesis",
    "claim": "Jens Rasmussen er en sandsynlig, men endnu ikke endeligt dokumenteret far til Rasmus Jensen Rousing. En ældre Rasmus Jensen er kun foreslået ud fra navnelighed og er ikke dokumenteret som far.",
-   "evidence": "Grundlaget for den sandsynlige forbindelse er en 1801-folketælling, hvor en 20-årig Rasmus optræder i Jens Rasmussens husstand. En Rasmus Jensen i 1787 er et muligt, men svagere spor.",
-   "missing": "Dåb, skifte, militærrulle eller anden kilde, der direkte forbinder Rasmus med forældrene.",
-   "next": "Læs original Skærsø G304 nr. 206, fol. 331 og 336, for at fastslå den præcise person- og boidentitet; hold Visbeholm-manden adskilt fra p76, indtil originalkilden viser andet.",
+   "evidence": "Grundlaget for den sandsynlige forbindelse er en 1801-folketælling, hvor en 20-årig Rasmus optræder i Jens Rasmussens husstand. En Rasmus Jensen i 1787 er et muligt, men svagere spor. G304 nr. 206 (7.10.1813, fol. 331/336) opregner Rasmus Jensen Rousing smed på Visbeholm, hustru Kirsten Thygesdatter og døtrene Marie Cathrine (19) og Anne Elisabeth; dette peger stærkt på en anden mand end p76 fra Fuglslev, men originalprotokollen er ikke læst.",
+   "missing": "Dåb, skifte, militærrulle eller anden kilde, der direkte forbinder Rasmus med forældrene. Original G304 fol. 331 og 336 skal bekræfte afdøde, familieforhold og formyndere.",
+   "next": "Læs original Skærsø G304 nr. 206, fol. 331 og 336; identificér derefter døtrenes dåb og forældrenes vielse. Hold Visbeholm-manden adskilt fra p76.",
    "person_ids": [
     "p76",
     "p152",
@@ -310,6 +316,10 @@
     {
      "label": "Danske Slægtsforskere: Skærsø Gods G304, alfabetisk navneliste og skifteuddrag 1748–1817, nr. 206, fol. 331 og 336",
      "url": "https://slaegt.dk/media/uiqblvfb/alfabetisk-navneliste-og-skifteuddrag-til-sk%C3%A6rs%C3%B8-gods-g304-mols-herred-1748-1817.pdf"
+    },
+    {
+     "label": "DS-Wiki: Skærsø Gods, original skifteprotokol og register 1748–1817",
+     "url": "https://wiki.slaegt.dk/index.php/Sk%C3%A6rs%C3%B8"
     }
    ],
    "research_notes": [
@@ -331,6 +341,12 @@
      "title": "Navnesammenfald: Rasmus Jensen Rousing ved Visbeholm i G304 (1813) er ikke uden videre Rasmus Jensen Rousing fra Fuglslev",
      "text": "En ny kontrol af det publicerede Skærsø Gods G304-register (Mols Herred 1748–1817) fandt nr. 206, dateret 7. oktober 1813, fol. 331 og 336. Indførslen er rubriceret “Rasmus Jensen Rousing smed og hustru Kirsten Thygesdatter på Visbeholm”. Uddraget nævner Marie Cathrine, 19 år, gift med Søren Nielsen i Attrup i Rosmus Sogn, samt Anne Elisabeth; som formyndere nævnes morbroderen sognefoged Peder Thygesen i Gravlev og farbroderen Hans Jensen, bødker i Hyllested.\n\nDette er et konkret nyt skiftespor for en Rasmus Jensen Rousing på Visbeholm. Det må ikke sammenblandes med projektets Rasmus Jensen Rousing (p76), der i det nuværende træ er født ca. 1780 i Fuglslev og død 25. maj 1858 samme sted. G304-uddraget er et publiceret sekundært skifteuddrag, og den præcise afdøde/boets relation skal kontrolleres i originalprotokollen; det er ikke bevis for, at de to mænd er samme person eller beslægtede. Navneformen og den nævnte familie kan bruges som en afgrænsningskontrol, når p76's tidlige liv og forældre undersøges.\n\nNæste trin: identificér original Skærsø G304 nr. 206 og læs fol. 331/336 for at fastslå, hvem skiftet vedrører, og om Rasmus Jensen Rousing er afdøde, efterlevende eller blot nævnt. Sammenhold derefter Visbeholm, erhverv, hustru og døtre med Fuglslev-materialet før nogen identifikation overvejes.",
      "provenance": "Nye webkildekontroller 17.11.2026; publiceret Skærsø G304-skifteuddrag",
+     "imported_on": "2026-11-17"
+    },
+    {
+     "title": "Skærsø G304 nr. 206 transskriberet fra den publicerede afskrift; stærkere adskillelse fra p76",
+     "text": "Den publicerede alfabetiske liste og skifteuddrag for Skærsø Gods G304 (Mols Herred 1748–1817) har under overskriften “Afdøde og Enke(mand), skifte nr.” posten nr. 206: “Rasmus Jensen Rousing smed på Visbeholm” og hustru Kirsten Thygesdatter, 7. oktober 1813, fol. 331 og 336. Uddraget opregner børnene Marie Cathrine, 19 år, gift med Søren Nielsen i Attrup i Rosmus Sogn, og Anne Elisabeth. Formyndere: morbroderen sognefoged Peder Thygesen i Gravlev og farbroderen Hans Jensen, bødker i Hyllested.\n\nDette er mere end et rent navnesammenfald: det er en konkret familiegruppe og en præcis originalhenvisning til to folios. Da registerets hovedrubrik er afdøde og enke(mand), synes Rasmus at være den person, hvis bo registreres, men den originale protokol skal læses for at bekræfte, hvem der døde, og den præcise familieformulering.\n\nDet er meget usandsynligt, at denne Rasmus uden videre er p76 fra Fuglslev (født ca. 1780): Marie Cathrine er allerede 19 år i 1813, hvilket indebærer fødsel ca. 1794 og dermed moderskab/faderskab omkring 14-årsalderen, hvis p76 var hendes far. Det er ikke matematisk umuligt, men kræver særskilt dokumentation og passer dårligt med den hidtidige livstidslinje. Visbeholm-manden skal derfor behandles som en separat person, indtil originalkilden og samtidige kirkebøger eventuelt viser en usædvanlig forbindelse. Ingen forældre eller relationer i stamtræet ændres.\n\nArkivvejen er nu konkret: DS-Wiki angiver Skærsø Gods G304 med original skifteprotokol og register 1748–1817 i Rigsarkivet. Næste kontrol er originalens fol. 331 og 336 og derefter dåb/vielse for Marie Cathrine, Anne Elisabeth og deres forældre i de relevante sogne. Den publicerede afskrift er sekundær og kan have normaliseret navne eller forkortet relationer.",
+     "provenance": "Webkontrol af G304-afskrift og DS-Wiki Skærsø, 17.11.2026",
      "imported_on": "2026-11-17"
     }
    ]
@@ -1185,6 +1201,14 @@
     {
      "label": "Hanne Vinter Henriksen: Skifteuddrag Bogensholm Gods (G298), Mols Herred 1800–1811",
      "url": "https://www.milloup.dk/hvh/download/skifter/bogensholm_gods_skifter.htm"
+    },
+    {
+     "label": "Djurslandsdatabasen: Claus Gaardsted, født 1751, død 1811 i Bogensholm (sekundær database)",
+     "url": "https://djursslaegt.djursdatabasen.dk/efternavne/EFTERNAVNG.htm"
+    },
+    {
+     "label": "Trap 4 (1925), Vistoft/Bogensholm, Claus Gaardsted og enkens auktion 1811",
+     "url": "https://netstol.dk/slaegtsForskning/trap_danmark_4/Trap_Danmark_4_udgave_%281925%29_Bind_6_Randers_Amt_Mols_og_OEster-Lisbjaerg_Herreder.pdf"
     }
    ],
    "research_notes": [
@@ -1192,6 +1216,12 @@
      "title": "Bogensholm G298 identificeret som den konkrete skifteprotokol; afgrænset negativt resultat i den publicerede afskrift",
      "text": "En mere præcis arkivvej til Claus Gaardsteds skifte er nu identificeret. DS-Wiki's arkivoversigt for Bogensholm angiver en original skifteprotokol for Bogensholm Gods, 1800–1811, ved Rigsarkivet, med både protokol og register i Daisy samt en Arkivalieronline-enhed. Arkivoversigten linker desuden til Hanne Vinter Henriksens digitaliserede skifteuddrag for Bogensholm Gods (G298), Mols Herred 1800–1811.\n\nDen publicerede G298-afskrift har otte skifter. Den alfabetiske liste og de otte gengivne sager indeholder ikke en særskilt indførsel for Claus Gaardsted. Den sidste gengivne sag er Peder Andersen Tuesen i Bogens, 31. august 1811, fol. 15b. Dette er kun et negativt resultat i den publicerede afskrift; det beviser ikke, at Claus ikke blev skiftet. Den originale protokol og register skal kontrolleres, herunder om Claus' bo blev behandlet under en anden arkivskaber, i en auktionsprotokol eller som privat/ekstraordinært bo.\n\nKonkret næste kontrol: gennemgå Bogensholm G298-registeret 1800–1811 og derefter hele protokollen omkring 1811; søg også på enken Kirsten Marie Jørgensdatter og navnevarianter af Claus. Hvis der ikke findes en indførsel, følg auktionen i 1811 via Mols Herreds auktions-/tingbogsmateriale. Arkivalieronline-siden kunne identificeres, men originalbillederne er ikke læst i denne undersøgelse.",
      "provenance": "Nye webkildekontroller 17.11.2026; DS-Wiki Bogensholm, Arkivalieronline og Hanne Vinter Henriksens G298-afskrift",
+     "imported_on": "2026-11-17"
+    },
+    {
+     "title": "Uafhængig sekundær personpost for Claus Gaardsted",
+     "text": "Djurslandsdatabasens alfabetiske G-oversigt har en post: “Gaardsted, Claus, født 1751 i [ukendt], død 1811 i Bogensholm”. Det stemmer med projektets Claus Gaardsted (p72), hvis nuværende fødselsangivelse er ca. 1750, og med Trap 4/5's angivelse af hans død i 1811. Det er et nyttigt sekundært identifikationsmatch, men oversigten angiver ikke forældre, ægtefælle eller primærkilde på denne linje. Den kan derfor ikke afgøre Claus' fødested, første ægteskab eller børn.\n\nNæste trin er at åbne den individuelle Djurslandsdatabase-post (hvis den har yderligere kildehenvisninger) og efterprøve 1751/1811 i kirkebog og skifte-/auktionsmateriale. Bevar ca. 1750 i stamtræet, indtil original dåb eller anden samtidig kilde dokumenterer en præcis dato.",
+     "provenance": "Webkontrol af Djurslandsdatabasens efternavnsoversigt, 17.11.2026",
      "imported_on": "2026-11-17"
     }
    ]
