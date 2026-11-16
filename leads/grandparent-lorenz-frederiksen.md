@@ -1373,3 +1373,32 @@ Compare the original pedigree's entry for “Christian Frederik Vilhelm” again
 **Assessment:** Harbou now provides a detailed, internally coherent branch from Christian Adam III.466 through Christian Frederik III.601 and his eight children. One supplied 1774–1848 figure may correspond to Frederik Christian III.727, but the name/date discrepancy must be resolved. No canonical tree records or links are changed.
 
 Source: [H. W. Harbou, “Slægten von Kleist i Danmark” (1897), especially the full entry for Christian Adam III.466 and children of Christian Frederik III.601](https://www.v-kleist.com/FG_allg/Kleist_in_Daenmark.pdf), searchable text at pp. 196–242 of the transcription.
+
+
+## Follow-up: locating the 1848 death evidence for Frederik Christian III.727 (16 November 2026)
+
+This check follows the unresolved identity question between Harbou's Frederik Christian III.727 (born 8 January 1775; died 21 May 1848) and the supplied “Christian Frederik Vilhelm” (1774–1848). No identity merge or canonical data change is justified.
+
+### What the cited source actually says
+
+H. W. Harbou, “Slægten von Kleist i Danmark,” *Personalhistorisk Tidsskrift* (1897), in the entry for Christian Adam III.466 and his children, gives III.727's name, birth date, and military progression (page, cadet, officer in the Sjællandske Jægerkorps, company commander, major, and finally brevet/character lieutenant-colonel), ending only with “† 21/5 1848.” The entry does **not** name a death place or burial place. Harbou's footnote 36 points to H. P. Selmer, *Nekrologiske Samlinger*, vol. II. This is the immediate next secondary source to inspect for a fuller death notice and possible residence/place of death. The earlier suggestion that he died at Bredsted is not established by this passage and should not be repeated as fact.
+
+Harbou separately states that III.601 (Christian Frederik, born 1743) owned property near Bredsted and died there in 1799. That Bredsted location belongs to III.601, not III.727; avoid transferring it to his younger brother.
+
+### Archive catalogue route identified
+
+The Landeskirchliches Archiv der Evangelisch-Lutherischen Kirche in Norddeutschland's Archion catalogue lists the following digitised church-book series:
+- Bredstedt, *Bestattungen 1831–1879*, covering the year 1848; catalogue parish page also lists *Namensverzeichnis (Taufen, Trauungen, Bestattungen) 1714–1900*, local signature Bredstedt_13.
+- Schleswig-Domgemeinde, *Bestattungen 1823–1856*, also covering 1848; the parish catalogue additionally lists a burial-name index for 1770–1874.
+
+The catalogue pages confirm that these volumes exist and are held by the Landeskirchliches Archiv; they do not establish that III.727 appears in either register. The Archion catalogue indicates account-gated access to the digitised images. No original register image has yet been inspected. Because Harbou does not supply a place of death, both parish routes remain conditional rather than proof that either was his parish.
+
+### Source and next action
+
+- Harbou, *Slægten von Kleist i Danmark* (1897), entry III.727 and footnote 36: https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf (transcription lines 229–230 and 252 in the online text).
+- Archion, Bredstedt parish catalogue and index: https://www.archion.de/de/alle-archive/schleswig-holstein/landeskirchliches-archiv-der-evangelisch-lutherischen-kirche-in-norddeutschland/kirchenkreis-nordfriesland/bredstedt/266084
+- Archion, Schleswig-Domgemeinde catalogue: https://www.archion.de/de/alle-archive/schleswig-holstein/landeskirchliches-archiv-der-evangelisch-lutherischen-kirche-in-norddeutschland/kirchenkreis-schleswig-flensburg/schleswig-domgemeinde
+
+Next: inspect Selmer vol. II at the precise reference Harbou intended, first to identify the death locality and any obituary details. Then search the appropriate 1848 burial register; if Selmer gives no locality, use the Schleswig and Bredstedt name indexes as a bounded two-parish search, while checking the officer's last known residence/service record. Compare any result against age, rank, family and date before identifying it as III.727. Keep the “Christian Frederik Vilhelm” match speculative until independent identity attributes agree.
+
+**Assessment:** Harbou securely records III.727's 1775 birth, career and 21 May 1848 death as a published genealogical claim, but does not provide a locality in this entry. The archive catalogues identify two possible register series, not a confirmed burial. No new person, date, relationship or canonical edge is added.
