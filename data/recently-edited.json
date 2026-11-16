@@ -1,14 +1,14 @@
 {
   "latest_bulletin": {
     "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
-    "commit": "774955fe975fc3cb39319e427d0912557eedd196",
+    "commit": "ab41a77d21a1722b081c6700f62c126cc363b8f3",
     "date": "2026-11-16",
     "date_label": "16.11.2026",
     "paths": [
       "data/tree.json"
     ],
     "people": [],
-    "title": "Re-ingest all dossier and cross-branch ledger research into canonical tracks"
+    "title": "Refine full research-note migration and exclude private/obsolete dossier sections"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
