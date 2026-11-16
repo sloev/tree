@@ -536,9 +536,9 @@ function initBulletin(){
   if(!list||!more) return;
   const items=[...list.querySelectorAll(':scope > .bulletin-item')];
   items.sort((a,b)=>{
-    const da=a.dataset.createdAt||a.querySelector('time')?.dateTime||'';
-    const db=b.dataset.createdAt||b.querySelector('time')?.dateTime||'';
-    return db.localeCompare(da);
+    const da=Date.parse(a.dataset.createdAt||a.querySelector('time')?.dateTime||'')||0;
+    const db=Date.parse(b.dataset.createdAt||b.querySelector('time')?.dateTime||'')||0;
+    return db-da;
   });
   items.forEach(item=>list.appendChild(item));
   let visible=10;

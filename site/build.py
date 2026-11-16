@@ -1,5 +1,6 @@
 """Builds the site from data/tree.json using the site templates and assets."""
 import base64, json, os
+from datetime import datetime, timezone
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 canonical = json.load(open(os.path.join(root, "data", "tree.json"), encoding="utf-8"))
 data = canonical["family"]
@@ -19,8 +20,17 @@ legacy = recent.get("latest_bulletin")
 if isinstance(legacy, dict) and not any(x.get("commit") == legacy.get("commit") for x in bulletins if isinstance(x, dict)):
     bulletins.append(legacy)
 import html
+def bulletin_timestamp(item):
+    value = item.get("created_at") or item.get("date") or ""
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=timezone.utc)
+        return parsed.timestamp()
+    except (TypeError, ValueError, OverflowError):
+        return 0
 bulletin_html = ""
-for bulletin in sorted((x for x in bulletins if isinstance(x, dict)), key=lambda x: x.get("date", ""), reverse=True):
+for bulletin in sorted((x for x in bulletins if isinstance(x, dict)), key=bulletin_timestamp, reverse=True):
     date = html.escape(bulletin.get("date", ""))
     label = html.escape(bulletin.get("date_label", date))
     title = html.escape(bulletin.get("title", "Research update"))

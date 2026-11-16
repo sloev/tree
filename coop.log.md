@@ -342,3 +342,10 @@ The existing claim's summary was revised to reflect the new G299 nr. 56 cross-ch
 **Validation:** Parsed canonical JSON before commit and checked the existing track ID; committed the claim revision. Build/Pages verification for this commit is pending. Original fol. 106, fol. 39 and the 1764 probate have not been read.
 
 **Next:** inspect the original G299 and G302 folios, identify the 1764 probate jurisdiction and verify the Niels/Claus identities.
+
+
+## 2026-11-17 — Nyhedsbulletin: tidszonekorrekt sortering
+
+En validering af de gemte commit-tidsstempler viste, at de ældre poster kunne have lokal UTC-offset (+01:00), mens nyere poster blev gemt i UTC (Z). Ren tekstsortering af ISO-strenge er derfor ikke tilstrækkelig. Både Python-buildets rækkefølge og browserens rækkefølge er nu ændret til at sammenligne faktiske tidsværdier, så poster sorteres kronologisk på tværs af tidszoner. Dato uden klokkeslæt bruges som fallback for manuelle/ældre indlæg. Append-only-lagring og 10+10-visning er uændret.
+
+**Validering:** Rettelsen er gennemgået mod de fem nuværende automatiske poster, som alle har tidsstempel. Ny build og Pages-udrulning afventer workflow.
