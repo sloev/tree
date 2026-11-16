@@ -128,6 +128,17 @@ def build_export(family, docs, gedcom_path):
                 "sources": list(p.get("src") or []),
                 "context": p.get("note") or ""
             })
+        sibling = p.get("sibof")
+        if sibling:
+            if sibling not in by_id:
+                raise ValueError(f"{p['id']} has missing sibof reference {sibling}")
+            add({
+                "from": p["id"], "to": sibling, "relationship": "sibling_group_reference",
+                "assertion_source": "family.json", "biological_status": "not_assessed",
+                "evidence_status": "recorded_in_tree",
+                "sources": list(p.get("src") or []),
+                "context": "sibof is a grouping/reference field; it does not establish full or half-sibling status by itself."
+            })
         target = p.get("spouse")
         if target:
             if target not in by_id:
@@ -154,8 +165,15 @@ def build_export(family, docs, gedcom_path):
             child_id = child_xref.strip("@")
             if child_id not in gedcom_person_ids:
                 continue
-            child_fields = gedcom_fields(ged_people[child_id])
-            pedigree = (child_fields.get("FAMC", []))
+            # PEDI is nested under the child's FAMC structure in GEDCOM.
+            child_tags = ged_people[child_id]["tags"]
+            pedigree = []
+            active_famc = None
+            for level, tag, value in child_tags:
+                if level == 1:
+                    active_famc = value if tag == "FAMC" else None
+                elif level == 2 and tag == "PEDI" and active_famc == record["xref"]:
+                    pedigree.append(value)
             for parent_xref in partners:
                 parent_id = parent_xref.strip("@")
                 if parent_id not in gedcom_person_ids:
