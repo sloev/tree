@@ -107,3 +107,31 @@ Liss's baptism scan: [Silkeborg 1931, girls no. 25](https://raw.githubuserconten
 - Do not use Mette Pedersdatter as Jens Peder Larsen's wife based only on the broad uploaded dossier; the current supported candidate is Kjersten Frederiksdatter, pending original marriage inspection.
 - Do not treat foster children as biological children.
 - Do not attach unrelated West Jutland families simply because they lived in the same parishes.
+
+
+## 10. Additional source targets recovered from the research extensions
+
+### Assing / Pårup Melgaard
+
+The extension gives a more specific candidate date for Jens Peder Larsen (`a46`): born and baptised 29 February 1812 at Pårup Melgaard, Assing; married in Sønder Felding in 1843; died 25 May 1870 in Sønder Omme. The leap-day date is useful as a search clue but is not a substitute for the original baptism. The 1870 Sønder Omme census and Horsbøl entry should be read together with the original 1843 marriage.
+
+### Hoven mill
+
+The Hoven line is tractable because the mill was a fixed property. The extension identifies:
+- Anders Jensen (`a88`), miller in Hoven, died before 1834;
+- Ane Kirstine Eskesdatter (`a89`), widow and owner of the Hoven mill in 1834;
+- Christen Pallesen (`a90`), farmer in Hoven, died before 1834;
+- Kirsten Marie Jensdatter (`a91`), farmer's widow in 1834 and aftægtskone 1840–1860.
+
+Next checks are Hoven baptisms 1770–1800 and marriages c.1770–1785, the Hoven mill deed and fire-insurance protocol, the 1834 matrikel, and a full reading of 1834 census household 124565. A mill deed/insurance record may establish property succession and occupation, but it does not replace the parish evidence for parentage.
+
+### Karen Jensen's birth-date discrepancy
+
+Karen Jensen (`p23`) is recorded as born 29 August 1852 by the Skarrild baptism and the 1875 Grindsted marriage, while the 1901 census gives 29 July. Prefer the baptism/marriage evidence and preserve the 1901 census discrepancy in the event notes rather than silently normalising it.
+
+### Further open work
+
+- Inspect Sønder Felding 1822 birth entry for Kjersten Frederiksdatter (`a47`) and the marriages of her parents Frederik Jensen and Ane Thomasdatter.
+- Inspect Grindsted 1875 marriage of Mads Christensen and Karen Jensen; it reportedly names both fathers.
+- The Hoven line has pre-1814 unindexed entries; use page-by-page review, not surname search alone.
+- The broader West Jutland dossier contains other heath-parish families, but only retain them here if an exact record connects them to the Pedersen/Christensen ancestors listed above.
