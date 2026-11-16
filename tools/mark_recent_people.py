@@ -69,7 +69,7 @@ def main():
     # Keep the last bulletin unless this commit changed a research/data input.
     bulletin = state.get("latest_bulletin") if isinstance(state, dict) else None
     relevant = [p for p in changed_paths if p.startswith(("data/build_data.py", "leads/", "research-archive/"))
-                or p in ("coop.log.md", "README.md")]
+                or p == "coop.log.md"]
     if relevant:
         names = [after.get(pid, before.get(pid, (pid, "")))[0] for pid in changed_ids]
         subject = git("log", "-1", "--format=%s", head)
