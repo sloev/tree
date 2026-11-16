@@ -1277,3 +1277,63 @@ Sources:
 - [Harbou, *Slægten von Kleist i Danmark* (1897)](https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf).
 - [Ahnentafel Peters, vol. 1](https://dirkpeters.info/wp-content/uploads/2018/10/ahnentafel_peters_bd_1.pdf) — a compiled secondary pedigree; useful as a lead for Regina von Woyten and Gerson von Kleist, not as proof of the parentage.
 - [Geneanet compilation for Christian Adam von Kleist](https://de.geneanet.org/fonds/individus/?go=1&nom=VON+KLEIST&prenom=Christian+Adam) — derivative tree data; use only as a clue.
+
+
+## Additional reverse pedigree: 19th-century Danish side branches and medieval claims (16 November 2026)
+
+This supplement records the second supplied overview and checks it against H. W. Harbou's 1897 article, the Deutsche Biographie, and Fritz Mörre's 1939 study of the Swenzonen. It is a research note, not a canonical tree import.
+
+### High-value corrections from Harbou (1897)
+
+Harbou's article is especially useful because it explicitly warns that earlier Danish Kleist pedigrees by Benzon, Lengnick and others were often incomplete and inaccurate. It should be preferred over unattributed online pedigrees, while still being checked against the Danish records that Harbou cites.
+
+1. **Christian Adam III.466 is the son-in-law route, not a son of Christian Casimir.** Harbou identifies Christian Adam as the husband of Barbara Juliane von Kleist and names Cartz Ulrik von Kleist (III.369) as her husband. This supports the existing tree route Christian Casimir II.82 → Barbara Juliane → Cartz Ulrik → Christian Adam III.466. Harbou's note 28 specifically says the *Dansk Biografisk Lexikon* had incorrectly made Christian Adam a son of his maternal grandfather Christian Casimir; the family history calls him Christian Adrian. This is an explicit warning against importing that older error.
+2. **The supplied +4/+5 Danish descent does not match Harbou's account of Christian Adam's children.** Harbou lists Christian Adam's son Christian Frederik III.601, born 25 August 1743 and died 12 July 1799 at Bredsted, married Anna Margrethe Schubart. He does not list a son Frederik/Friedrich Carl Emil born 1742/43 and dying 1815. Nor does this Harbou branch support the supplied Christian Frederik Vilhelm (1774–1848), Sophie Frederikke (1776–1851) and Julie von Kleist (1814–1894) as descendants of Christian Adam. These names may belong to another Kleist line or reflect a conflation; do not attach them to p868 until their parents and source chain are established.
+3. **The 1813–1822 Copenhagen branch data in the supplied text appears to be misattributed.** Harbou places Margrethe Christine Elisabeth, Frederik Christian III.853, Holgerine Henriette Caroline, Christian Conrad Sophus, Aadamine Frederikke Christiane, Riise Sophie Emilie and Johan Eduard Valentin among the children of Valentin Ulrik III.726 and Anna Matthea Bierg — not as children or grandchildren of the alleged Christian Frederik Vilhelm line. Harbou gives:
+   - Margrethe Christine Elisabeth: born 25 August 1813 (not 25 March), died 9 March 1895.
+   - Frederik Christian III.853: born 8 October 1815, died 26 November 1892 in Copenhagen.
+   - Holgerine Henriette Caroline: born 17 April 1817, died 19 October 1845; married Hans Lindholm on **13 October 1838** (not 18 October).
+   - Christian Conrad Sophus: born 8 February 1820, died **28 August 1880** (not unknown).
+   - Aadamine Frederikke Christiane: born 2 August 1822, died 22 December 1874.
+   - Riise Sophie Emilie: born 7 February 1824, died 7 February 1864.
+   - Johan Eduard Valentin: born 2 December 1825.
+   The supplied list omits two of these children and shifts the branch's parentage. Harbou's source references include portraits and photographs at the Royal Danish Library; these may help identify the relevant individuals.
+4. **Herath/Herrath Juliane:** Harbou's text says she was a widow of Joachim Heinrich von Heydebreck at her father's death, was engaged in 1682 to a Baron von Borch, and later married a von Manteuffel. The second marriage is consistent with the supplied outline, but the proposed burial in Rendsburg on 31 October 1802 (or 1702) is not confirmed by the passage and needs a church-register check.
+5. **Cartz spelling:** Harbou's note 25 explains that Cartz in Danish records became Carl, Curt or even Lauritz, and suggests it is a shortened form of Carsten. Preserve these as variants rather than creating separate people.
+
+### Frederik Carl Eide: a separate identity investigation
+
+The supplied claim that Frederik Carl Eide (born 2 March 1815 in Christiania) was an illegitimate son of the later Christian VIII and Johanna Maria Christensdatter Bandvold needs careful handling. A modern Norwegian academic thesis reports that the infant Frederik Carl was born to Marie/Johanna Maria Brandvold in March 1815 and was brought into her subsequent marriage to Lars Larsen Eide in April 1815; the child thereafter used the Eide surname. The source is useful for the mother's marriage and child's social/legal upbringing, but the excerpt located so far does not establish the alleged royal paternity. Treat the paternity as an unverified claim unless supported by contemporary correspondence, acknowledged paternity or a reliable biographical source. Do not state it as fact in the tree.
+
+### The Swenzone / Puttkamer ancestry: a significant correction
+
+The supplied account presents Anna von Puttkamer's family as reaching back to the Swenzone dynasty around 1257–1260. This is not a secure genealogical connection.
+
+- The Deutsche Biographie states that the Puttkamer name derives from the Polish office title *podkomorzy* (under-chamberlain), that the family is attested in the Stolp area in 1257, but that the proposed genealogical relationship to the Swenzones is unclear and modern scholarship is sceptical. It explicitly says the family is now considered probably immigrant rather than autochthonous Pomeranian, while its ethnic classification remains open.
+- Fritz Mörre's 1939 study, *Die Swenzonen in Ostpommern*, reviews the old claimed descent and concludes that there is no proof of a direct continuation from the Swenzones into the Puttkamer family. He explains that the 1425 "Lorenz Swenz genannt Puttkamer" was likely a member of the Swenz family, not a Puttkamer, and that Peter Putkummer appears as a vassal/witness in Swenzone documents rather than a proven relative.
+- Therefore, the supplied statement that the Puttkamer line is demonstrably descended from Swenzo should be removed from any factual narrative. It may be mentioned only as an older, disputed family tradition. The Puttkamer family itself is historically documented in Pomerania; that does not prove Anna von Puttkamer's exact parentage or connect her to Martin von Woyten.
+
+### Stojentin and Woyten medieval origins
+
+- Valentin von Stojentin is independently documented as a Pomeranian councillor/court official, born around 1485 and dying in 1528 or 1529. This establishes a historical Stojentin figure, not that he was Christina's maternal grandfather or a direct ancestor of Elisabeth von Stojentin. The exact Giesebitz line still needs estate and church evidence.
+- Bagmihl's *Pommersches Wappenbuch* is a heraldic compilation. A coat of arms or a list of estates can help identify a family, but cannot by itself prove a parent-child relationship, the alleged Woyten etymology from *wojt/Wojciech*, or a descent from medieval Slavic nobility. The linguistic and ethnic claims in the supplied overview remain hypotheses pending specialist onomastic and archival sources.
+- The claims that Martin von Woyten held Varsin, Wessin, Alt Reitz and Vigelow, and that Benedictus von Woyten held Versin and served as a ducal captain/official at Bütow, remain useful leads. They still need exact references to contemporary feudal registers, land records or the relevant pages of a critical family history. Do not treat the proposed Martin → Benedictus father-son link or Anna von Puttkamer's parentage as established solely from the supplied pedigree.
+
+### Research priorities from this supplement
+
+1. Reconstruct the Danish line from Harbou's exact entries and compare it with the current `p868`, `p1737`, `p1736` and associated records. Resolve the 1743 Christian Frederik III.601 branch before adding any 1770s or 1800s people.
+2. Identify the actual parents and genealogy of Frederik/Friedrich Carl Emil (1742/43–1815), Christian Frederik Vilhelm (1774–1848), Sophie Frederikke (1776–1851) and Julie von Kleist (1814–1894). Search Danish nobility directories, probate, marriage and baptism records; do not assume they belong to Christian Adam III.466.
+3. Inspect Harbou's cited portraits/photos and source notes for the 1813–1825 children of Valentin Ulrik III.726; verify the baptism and burial registers.
+4. For Frederik Carl Eide, separate the documented birth/marriage/name history from the unproven paternity allegation. Search contemporary Norwegian/Danish records and reliable biographies.
+5. For Woyten/Stojentin/Puttkamer, identify the specific archival citations behind the claims about Martin, Benedictus, Elisabeth and Anna. Treat medieval lineage and etymology as separate research questions.
+
+**Assessment:** Harbou independently confirms important parts of the Danish connection through Barbara Juliane and Cartz Ulrik, but contradicts the supplied later Danish descent and the parentage assigned to the 1813–1822 Copenhagen branch. The claimed Puttkamer–Swenzone descent is not accepted by modern scholarship cited here. No canonical people, dates, parent-child edges or spousal edges are added by this supplement.
+
+Sources:
+- [H. W. Harbou, *Slægten von Kleist i Danmark* (1897), searchable transcription](https://www.v-kleist.com/FG_allg/Kleist_in_Daenemark.pdf) — Christian Adam III.466 and his family, Cartz Ulrik III.369, and descendants of Valentin Ulrik III.726.
+- [H. W. Harbou, digitised original pamphlet (1897)](https://slaegtsbibliotek.dk/2023/938476.pdf).
+- [Deutsche Biographie: Puttkamer family](https://www.deutsche-biographie.de/gnd189411813.html).
+- [Fritz Mörre, “Die Swenzonen in Ostpommern”, *Baltische Studien*, N.F. 41 (1939), pp. 35–98](https://dlibra.bibliotekaelblaska.pl/Content/69900/PDF%20czarno-bia%C5%82y/CZ.R.6.19czb.pdf) — especially pp. 39–43 and 81.
+- [Deutsche Biographie: Valentin von Stojentin](https://www.deutsche-biographie.de/sfz81519.html).
+- [NMBU thesis discussing Frederik Carl Eide's birth and his mother's 1815 marriage](https://nmbu.brage.unit.no/nmbu-xmlui/bitstream/handle/11250/2648017/mif35.pdf?isAllowed=y&sequence=1).
+- [Pommerscher Greif: digitised heraldic literature, including Bagmihl's *Pommersches Wappenbuch*](https://www.pommerscher-greif.de/forschung/literatur/heraldik/).
