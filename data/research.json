@@ -119,8 +119,8 @@
    "status": "needs",
    "claim": "Trap 4 og Trap 5 angiver, at Frederik Christian Rosenkrantz solgte Bogensholm til Claus Gaardsted i 1796 for 10.000 rigsdaler; Trap 3 angiver 1797. En samtidig kancellipromemoria fra 6. august 1803 bekræfter, at Claus da ejede og beboede gården. Det præcise tinglyste overdragelsesår er derfor fortsat uafklaret.",
    "evidence": "Trap 4 (1925) og Trap 5, Vistoft Sogn, stemmer om salget i 1796 for 10.000 rigsdaler og Claus' død i 1811. Trap 3 (Runeberg's searchable transcription) instead gives 1797. The 6 August 1803 chancellery memorandum independently identifies Claus as owner and resident. Thus the discrepancy is between Trap editions, not between Trap 4 and Trap 5; none of these secondary accounts replaces the original deed.",
-   "missing": "Originalt skøde og tingbogs-/pantebogshenvisning mangler fortsat for at kontrollere dato, sælger, køber og vilkår direkte. Trap 3 and Trap 4/5 disagree on the year; the 1803 memorandum proves ownership by that date, not the purchase date.",
-   "next": "Find og læs original adkomst/tinglysning i Djurs Sønder-Mols Herreds skøde- og panteprotokol omkring 1796–1797; registrér præcis dato, dokumentnummer, sælger, køber og vilkår.",
+   "missing": "Originalt skøde og tingbogs-/pantebogshenvisning mangler fortsat for at kontrollere dato, sælger, køber og vilkår direkte. Trap 3 and Trap 4/5 disagree on the year; the 1803 memorandum proves ownership by that date, not the purchase date. DAISY identifies the relevant archive creator and the 1747–1806 name register to the deed books, but the specific register entry and deed folio have not yet been located.",
+   "next": "Use the Rigsarkivet DAISY name register to skøde- og panteprotokol (1747–1806) to locate the 1796/1797 entry, then inspect the corresponding original deed in the Djurs Sønder-Mols Herredsfoged skøde- og panteprotokol (series 1688–1927; also check the separate 1802–1808 volume only if the register directs there). Record folio, date, grantor, grantee and terms.",
    "sources": [
     {
      "label": "Rolsøgård G302 index, 1778–1816",
@@ -149,6 +149,10 @@
     {
      "label": "Trap 3, Vistoft/Bogensholm (Runeberg searchable transcription; gives 1797)",
      "url": "https://runeberg.org/trap/3-4/1051.html"
+    },
+    {
+     "label": "Rigsarkivet DAISY: Djurs Sønder-Mols Herredsfoged, archive series and indexes",
+     "url": "https://daisy.rigsarkivet.dk/arkivskabers_arkivserier?a=&b=&c=Djurs+S%C3%B8nde+herred&d=1&dir=&e=2022&ed=&ep=&epid=&es=&f=&faid=&g=&gsc=&h=&heid=&henid=&int=&m2rid=&meid=&ngid=522700&ngnid=2969153&side=&sort="
     }
    ],
    "person_ids": [],
@@ -176,6 +180,12 @@
      "title": "Kildeafvejning: Trap 3 angiver 1797, mens Trap 4 og Trap 5 angiver 1796",
      "text": "Direkte genkontrol af Trap 4 (1925), bind VI, Vistoft/Bogensholm, og Trap 5 viser, at begge angiver, at Frederik Christian Rosenkrantz solgte Bogensholm til Claus Gaardsted i 1796 for 10.000 rigsdaler. En yderligere kontrol af Trap 3's søgbare tekst (Randers Amt, Vistoft) viser imidlertid, at 3. udgave angiver 1797 for samme salg. Den tidligere påståede forskel mellem Trap 4 og Trap 5 var en fejl i vores gengivelse; men der består en reel sekundær kildekonflikt mellem Trap 3 (1797) og Trap 4/5 (1796).\n\nWikisource-afskriften af kancellipromemoriaen 6. august 1803 (s. 252) siger, at Claus Gaardsted ejede og beboede Bogensholm. Det er en samtidig administrativ omtale, men den fastslår ikke købsdatoen eller selve adkomstens vilkår. Trap-udgaverne er sekundære fremstillinger; den originale skøde-/pantebogsindførsel er nødvendig for at afgøre datoen.\n\nKilder:\n- Trap 3, Vistoft/Bogensholm: https://runeberg.org/trap/3-4/1051.html\n- Trap 4 (1925), Randers Amt, Mols og Øster-Lisbjerg Herreder, Bogensholm: https://netstol.dk/slaegtsForskning/trap_danmark_4/Trap_Danmark_4_udgave_%281925%29_Bind_6_Randers_Amt_Mols_og_OEster-Lisbjaerg_Herreder.pdf\n- Trap 5, Vistoft Sogn: https://trap5.lex.dk/sogn/vistoft-sogn-mols-herred/\n- Kongelige Rescripter, 6. august 1803, s. 252: https://da.wikisource.org/wiki/Side:Kongelige_Rescripter,_Resolutioner_og_Collegialbreve_for_Danmark_og_Norge_udtogsvis_udgivne_i_chronologisk_Orden._VI._Deel._12._Bind_(1803%E2%80%931804).pdf/258\n\nVurdering: Trap 4 og Trap 5 stemmer om 1796; Trap 3 siger 1797. Ejerskab i 1803 er bekræftet af en samtidig administrativ tekst; den originale adkomst er stadig uundersøgt.",
      "provenance": "Direkte genkontrol af Trap 3 (Runeberg), Trap 4 PDF, Trap 5 Vistoft Sogn og Wikisource-afskriften af kancellipromemoriaen, 17.11.2026",
+     "imported_on": "2026-11-17"
+    },
+    {
+     "title": "DAISY-registratur identificerer præcist register og skødeprotokol for 1796–1797",
+     "text": "Rigsarkivets DAISY-registratur for arkivskaberen Djurs Sønder og Mols Herred (officielt navn: Djurs Sønder-Mols Herredsfoged, 1687–1919) viser en relevant “Navneregister til skøde- og panteprotokol” for 1747–1806 og en bredere protokolserie “Skøde- og panteprotokol” for 1688–1927. En særskilt skøde- og panteprotokol findes også for 1802–1808, men den dækker ikke selve 1796/1797-spørgsmålet.\n\nDette giver en konkret arkivvej: slå Rosenkrantz, Claus Gaardsted og eventuelle varianter op i navneregistret 1747–1806; følg henvisningen til skøde-/panteprotokollen og kontroller selve indførslen. Det afgørende dokument er endnu ikke læst, og katalogposten beviser ikke i sig selv, at skødet findes i den forventede serie.\n\nKilde: Rigsarkivet DAISY, Djurs Sønder-Mols Herredsfoged, arkivserier: https://daisy.rigsarkivet.dk/arkivskabers_arkivserier?a=&b=&c=Djurs+S%C3%B8nde+herred&d=1&dir=&e=2022&ed=&ep=&epid=&es=&f=&faid=&g=&gsc=&h=&heid=&henid=&int=&m2rid=&meid=&ngid=522700&ngnid=2969153&side=&sort=",
+     "provenance": "Direkte kontrol af Rigsarkivets DAISY-arkivserieliste, 17.11.2026",
      "imported_on": "2026-11-17"
     }
    ]
@@ -1300,9 +1310,9 @@
    "title": "Claus Gaardsteds skifte og Bogensholm-auktion i 1811",
    "status": "needs",
    "claim": "Claus Gaardsted (p72) døde i 1811, og enken solgte Bogensholm på auktion samme år. Skiftet og auktionsmaterialet kan muligvis identificere hans første hustru og børn, men dossieret har endnu ikke fastslået disse familieforhold.",
-   "evidence": "Dossieret angiver auktionen i 1811 og henviser til Trap Danmark/danskeherregaarde.dk for Bogensholm samt Rolsøgård G302-skiftet fra 1787 som et separat slægtsspor. The published G298 (Bogensholm Gods) 1800–1811 probate extract lists eight proceedings and none is for Claus Gaardsted; the latest listed case is Peder Andersen Tuesen, 31.8.1811, fol. 15b. This is a bounded negative result in the published extract, not proof that no separate probate or auction file exists.",
-   "missing": "Originalt skifte efter Claus, auktionsprotokol/skøde og dokumentation for hustru(er), arvinger, værger og ejendommens overdragelse. The G298 published extract has no Claus Gaardsted entry, so the original G298 register and other relevant probate/auction/estate-settlement records must be checked before concluding where his estate was administered.",
-   "next": "Inspect the original Bogensholm Gods G298 register and the 1811 auction/estate papers; because the published G298 extract has no Claus entry, also search Mols herred's general probate/auction records and any private estate settlement. Keep the widow's 1811 sale distinct from Claus's probate.",
+   "evidence": "Dossieret angiver auktionen i 1811 og henviser til Trap Danmark/danskeherregaarde.dk for Bogensholm samt Rolsøgård G302-skiftet fra 1787 som et separat slægtsspor. The published G298 (Bogensholm Gods) 1800–1811 probate extract lists eight proceedings and none is for Claus Gaardsted; the latest listed case is Peder Andersen Tuesen, 31.8.1811, fol. 15b. This is a bounded negative result in the published extract, not proof that no separate probate or auction file exists. DAISY's catalogue for Djurs Sønder-Mols Herredsfoged lists a name register to the probate protocol (1794–1917), probate designations/death notifications (1795–1851), the combined Sønder Djurs and Mols probate protocol (1794–1824), and auction protocols covering 1792–1814 and 1753–1928, plus supporting auction files (1791–1928). These are the next jurisdiction-level series to search after the negative G298 index check.",
+   "missing": "Originalt skifte efter Claus, auktionsprotokol/skøde og dokumentation for hustru(er), arvinger, værger og ejendommens overdragelse. The G298 published extract has no Claus Gaardsted entry, so the original G298 register and other relevant probate/auction/estate-settlement records must be checked before concluding where his estate was administered. The exact name-register entry and relevant folio in the herredsfoged's probate/death-notification and auction series have not yet been identified.",
+   "next": "Search the 1794–1917 probate-protocol name register for Claus Gaardsted and name variants; check the 1795–1851 probate designations/death notifications; then inspect the 1794–1824 Sønder Djurs and Mols probate protocol. Separately search the 1792–1814 and 1753–1928 auction protocols and 1791–1928 auction case files for the 1811 Bogensholm sale. Record exact register entry, folio, date, heirs and auction conditions.",
    "person_ids": [
     "p72"
    ],
@@ -1326,6 +1336,10 @@
     {
      "label": "Trap 4 (1925), Vistoft/Bogensholm, Claus Gaardsted og enkens auktion 1811",
      "url": "https://netstol.dk/slaegtsForskning/trap_danmark_4/Trap_Danmark_4_udgave_%281925%29_Bind_6_Randers_Amt_Mols_og_OEster-Lisbjaerg_Herreder.pdf"
+    },
+    {
+     "label": "Rigsarkivet DAISY: Djurs Sønder-Mols Herredsfoged, probate and auction series",
+     "url": "https://daisy.rigsarkivet.dk/arkivskabers_arkivserier?a=&b=&c=Djurs+S%C3%B8nde+herred&d=1&dir=&e=2022&ed=&ep=&epid=&es=&f=&faid=&g=&gsc=&h=&heid=&henid=&int=&m2rid=&meid=&ngid=522700&ngnid=2969153&side=&sort="
     }
    ],
    "research_notes": [
@@ -1345,6 +1359,12 @@
      "title": "G298-uddraget 1800–1811 kontrolleret: intet registreret skifte efter Claus Gaardsted",
      "text": "Den publicerede alfabetiske oversigt og skifteuddrag for Bogensholm Gods (G298), Mols Herred 1800–1811, er gennemgået. Den anfører otte sager: Dorthe Pedersdatter i Bogens (1800), Jørgen Pedersen Møller i Fuglsø (1802), Søren Mikkelsen i Bogens (1802), Jens Rasmussen Balle i Fuglsø (1803), Rasmus Nielsen Skomager i Bogens (1804), Dorthe Nielsdatter i Fuglsø (1804), Søren Rasmussen Kierre i Fuglsø (1803) og Peder Andersen Tuesen i Bogens (31.8.1811, fol. 15b). Claus Gaardsted står ikke i oversigten, heller ikke under en tydelig variant.\n\nDette er en afgrænset negativ kontrol af det offentliggjorte G298-uddrag, ikke et bevis for, at Claus ikke blev skiftet. Uddragets forfatter oplyser, at navne er standardiseret, og at teksten ikke er korrekturlæst; et skifte kan også være behandlet i en anden jurisdiktion, ved privat skifte eller i et auktions-/boopbudsforløb. Claus' død i 1811 og enkens auktion over Bogensholm samme år er fortsat dokumenteret i Trap 4/5, men selve skifteforløbet er ikke identificeret.\n\nKilde: Bogensholm Gods (G298), skifteuddrag 1800–1811: https://www.milloup.dk/hvh/download/skifter/bogensholm_gods_skifter.htm\n\nNæste skridt er at kontrollere original G298-register/protokol og søge i Mols herreds skifte-, auktions- og eventuelle private booptegnelser omkring 1811. Ingen familiekanter ændres.",
      "provenance": "Direkte kontrol af det publicerede G298 skifteuddrag på milloup.dk, 17.11.2026",
+     "imported_on": "2026-11-17"
+    },
+    {
+     "title": "DAISY identificerer herredsfogedens skifte- og auktionsserier efter negativ G298-kontrol",
+     "text": "Rigsarkivets DAISY-registratur for Djurs Sønder-Mols Herredsfoged (1687–1919) viser følgende relevante serier: “Navneregister til skifteprotokol” 1794–1917; “Skiftedesignationer og dødsanmeldelser” 1795–1851; “Skifteprotokol, Sønder Djurs og Mols Herred” 1794–1824; “Auktionsprotokol” 1792–1814 og 1753–1928; “Auktionsprotokol for by og herreder” 1753–1928; “Sager til auktionsprotokol” og “Dokumenter til auktionsprotokol” 1791–1928.\n\nDette er et konkret nyt spor efter at det publicerede G298-godsuddrag ikke viste Claus Gaardsted. Claus' bo kan være anmeldt/skiftet ved herredsfogeden, og enken kan have solgt Bogensholm ved en herredsauktion. Start med navneregistret til skifteprotokollen og skiftedesignationerne/dødsanmeldelserne omkring 1811; følg derefter henvisninger til original skifteprotokol. Søg auktionen separat i auktionsprotokollen og sagerne til auktionsprotokollen. Kataloget identificerer arkivserierne, men ingen af originalprotokollerne er endnu læst.\n\nKilde: Rigsarkivet DAISY, Djurs Sønder-Mols Herredsfoged, arkivserier: https://daisy.rigsarkivet.dk/arkivskabers_arkivserier?a=&b=&c=Djurs+S%C3%B8nde+herred&d=1&dir=&e=2022&ed=&ep=&epid=&es=&f=&faid=&g=&gsc=&h=&heid=&henid=&int=&m2rid=&meid=&ngid=522700&ngnid=2969153&side=&sort=",
+     "provenance": "Direkte kontrol af Rigsarkivets DAISY-arkivserieliste, 17.11.2026",
      "imported_on": "2026-11-17"
     }
    ]
