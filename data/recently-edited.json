@@ -113,21 +113,31 @@
         "p304"
       ],
       "title": "Stamtræ opdateret: Rasmus Jensen"
+    },
+    {
+      "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
+      "commit": "35cc6aeb5958e465becddea6a82efbca314da5d0",
+      "created_at": "2026-11-17T00:20:59Z",
+      "date": "2026-11-17",
+      "date_label": "17.11.2026",
+      "paths": [
+        "data/tree.json"
+      ],
+      "people": [],
+      "title": "Record negative G298 probate index check"
     }
   ],
   "latest_bulletin": {
-    "body": "Personoplysninger er ændret i den kanoniske datafil. Åbn personkortene for aktuelle datoer, noter og kilder.",
-    "commit": "8105fdce1b2564449b2c47cd0c2eea56b96805f3",
-    "created_at": "2026-11-17T00:19:54Z",
+    "body": "Det offentlige forskningsregister eller andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.",
+    "commit": "35cc6aeb5958e465becddea6a82efbca314da5d0",
+    "created_at": "2026-11-17T00:20:59Z",
     "date": "2026-11-17",
     "date_label": "17.11.2026",
     "paths": [
       "data/tree.json"
     ],
-    "people": [
-      "p304"
-    ],
-    "title": "Stamtræ opdateret: Rasmus Jensen"
+    "people": [],
+    "title": "Record negative G298 probate index check"
   },
   "people": {
     "below_otto_pustamin": "2026-11-16T20:53:37Z",
