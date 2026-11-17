@@ -375,3 +375,16 @@ A further search of Trap 3's searchable transcription found that the third editi
 **Validation:** Checked Trap 3's searchable text, Trap 4 PDF, Trap 5 page and the 1803 memorandum. The canonical JSON was parsed before update. The local build/export commands were not run; the GitHub Actions rebuild and Pages deployment for this correction must be checked.
 
 **Next:** Locate the original 1796–1797 deed/tinglysning. Keep the 1803 ownership statement separate from the purchase-date question.
+
+
+## 2026-11-17 — Rousing: cross-check of the 1784 Fuglslev lease and 1787 household
+
+**Track updated:** `evald-rousing-parentage` (and the research note on person `p304`).
+
+**Finding:** The Skærsø lease register (1781–1820), no. 9, p. 5, dated 31 October 1784, says Poul Hansen Møller took over the Fuglslev holding relinquished by “Rasmus Jensen Smed” due to old age, with life provision for Rasmus and his wife. Aksel Rousing's local-history transcription of the 1787 census gives Rasmus Jensen Smed, 66, and wife Ane Cathrine Sørensdatter, 65. The Tirstrup register gives the 8 July 1744 marriage of Rasmus Jensen Smed in Fuglslev to Anne Cathrine Sørensdatter. Together these independently support the identity of the same Fuglslev smith across 1744–1787 and an approximate birth around 1720/21. They do not prove his parents, his identity with the Rasmus Jensen in G304 no. 52 (1762), or the parent-child edge to p152.
+
+**Files changed:** `data/tree.json`: added source links and a dated note to the existing Rousing claim; clarified p304's note without changing family edges.
+
+**Validation:** Read the three cited PDFs/registers and parsed the canonical JSON before update. Original parish images and the original lease entry were not visually inspected; local build/export commands were not run. GitHub Actions rebuild and Pages deployment must be checked.
+
+**Next:** Inspect the original 1744 marriage, the full 1787 census image and the original 1784 lease entry; then compare the Rasmus's household/children with G304 fol. 135 and the 1735 Skanderborg probate before accepting parentage.
