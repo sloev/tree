@@ -362,3 +362,16 @@ En validering af de gemte commit-tidsstempler viste, at de ældre poster kunne h
 **Validation:** Confirmed the repository is `main`; read the three cited web sources and checked the relevant passage in Trap 4 and the 1803 memorandum. The canonical JSON was parsed before update. The local Python build/export commands were not run in this environment. GitHub Actions rebuild and Pages deployment must be checked after the commit; no publication claim is made.
 
 **Next:** Locate the original 1796 deed/tinglysning in Djurs Sønder-Mols Herreds skøde- og panteprotokol. Continue the separate G299/G302 original-probate checks; published extracts and indexes remain secondary evidence only.
+
+
+## 2026-11-17 — correction: Trap 3 preserves a 1797 Bogensholm date
+
+**Track updated:** `evald-bogensholm`.
+
+A further search of Trap 3's searchable transcription found that the third edition gives 1797 for Frederik Christian Rosenkrantz's sale of Bogensholm to Claus Gaardsted, whereas Trap 4 (1925) and Trap 5 give 1796. The previous correction was accurate only in saying that Trap 4 and Trap 5 agree; it must not be read as eliminating the conflict across all Trap editions. The canonical summary now preserves the 1796/1797 disagreement, cites Trap 3, and treats the original deed as decisive. The person timeline is marked 1796/1797 rather than asserting a precise year.
+
+**Files changed:** `data/tree.json` only; same Bogensholm claim and p72, no family edges changed. `coop.log.md` records this correction.
+
+**Validation:** Checked Trap 3's searchable text, Trap 4 PDF, Trap 5 page and the 1803 memorandum. The canonical JSON was parsed before update. The local build/export commands were not run; the GitHub Actions rebuild and Pages deployment for this correction must be checked.
+
+**Next:** Locate the original 1796–1797 deed/tinglysning. Keep the 1803 ownership statement separate from the purchase-date question.
