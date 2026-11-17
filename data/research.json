@@ -3356,6 +3356,87 @@
      "imported_on": "2026-11-16"
     }
    ]
+  },
+  {
+   "id": "christinelund-mogens-johansen-1831-lawsuit",
+   "branch": "Gerda Larsen",
+   "title": "Mogens Johansen Mogensen og jagtsagen 1831–1833",
+   "status": "needs",
+   "claim": "En artikel baseret på Borregårdens originale familiepapirer beskriver en retssag efter en jagtkonflikt 6. januar 1831. Den 15-årige Mogens Johansen Mogensen var søn af Ole (Oluf) Mogensen på Christinelund. Sagen blev ført af faderen som værge, først ved Langelands Herredsting (dom 29. marts 1832) og derefter ved Landsoverretten, som afsagde endelig dom 25. marts 1833. Artiklen giver et konkret dokument- og personspor for Mogensen-familiens næste generation.",
+   "evidence": "Hansen og Mollerup gengiver sagsforløb, navngiver far og søn, beskriver vidnelisten og anfører, at noter 1–9 bygger på originale dokumenter på Borregården. Ole Mogensen omtales som ejer af Christinelund; han døde 1842, hvorefter sønnen Mogens Mogensen overtog fødegården. Artiklen skelner i teksten mellem den unge Mogens Johansen Mogensen og den senere Mogens Mogensen; identiteten og navneformen bør kontrolleres i kirkebogen.",
+   "missing": "Originale retsakter fra Langelands Herredsting og Landsoverretten, dåb for Mogens Johansen Mogensen omkring 1815/1816, vielse og dåb for Ole Mogensen, samt præcis identifikation af lillebroderen og de to kammerater. Den trykte artikel er en sekundær gengivelse af originale familiedokumenter.",
+   "next": "Find herredstingets dom 29. marts 1832 og Landsoverrettens dom 25. marts 1833. Kontrollér Mogens' dåb i Lindelse kirkebog og identificér vidnerne Hans Peider, Mads Hansen, Hans Jørgen Kristensen, forpagter Lundsgaard og Johanne på Bogetoftegård i folketællinger og kirkebøger.",
+   "sources": [
+    {
+     "label": "Hansen & Mollerup, Skæbner bag et gravsted: En retssag fra Langeland 1831, Fynske Årbøger 1978",
+     "url": "https://www.histfyn.dk/PDF/1978/sk%C3%A6bner%20bag%20et%20gravsted.pdf"
+    },
+    {
+     "label": "Hansen & Mollerup, En langelandsk frigård og dens ejere i 1700-tallet, Fynske Årbøger 1975",
+     "url": "https://www.histfyn.dk/PDF/1975/en%20langelandsk%20frigaard.pdf"
+    }
+   ],
+   "person_ids": [],
+   "research_notes": [
+    {
+     "title": "Discovery note (17 November 2026)",
+     "text": "The 1978 article is especially valuable because it explicitly says notes 1–9 are original documents held at Borregården. Do not create parent-child links beyond the explicit father-son statement until parish records are checked."
+    }
+   ]
+  },
+  {
+   "id": "christinelund-hennetved-landowners-1829",
+   "branch": "Gerda Larsen",
+   "title": "Christinelund-parcellerne: lokale selvejere og naboer underskriver jagtret 1829",
+   "status": "needs",
+   "claim": "Et dokument dateret Christinelund 4. maj 1829, gengivet i en artikel fra 1978, er underskrevet af Hans Jacob Madsen, Mikkel Hansen, Laurs Andersen Christensen, Rasmus Christensen, Laus Hansen og Hans Jensen. De omtales som selvejende parcellejere, der gav Ole Mogensen og hans husstand jagtret på parceller udskilt fra Christinelund. Det er et navngivet netværk af lokale jordejere, som kan kobles til realregistre og tingbøger.",
+   "evidence": "Artiklen gengiver dokumentets ordlyd og underskrifter samt bevidnelsen ved Hans Jacob Madsen og Rasmus Jensen. Den oplyser også, at Mikkel Hansen på Bogetoftegård købte en del af jorden ved frasalget.",
+   "missing": "Originalt underskrevet dokument og skøderne for de enkelte parceller, matrikelnumre, identitet og bopæl for hver underskriver samt eventuelle familieforbindelser. Laurs Andersen Christensen må ikke automatisk deles i to personer eller læses som to navne uden originalen.",
+   "next": "Find skøderne i Lindelse realregister og tingbøger for 1825–1830. Brug underskriverne som søgenøgler i folketællingen 1834 og Lindelse kirkebog. Kortlæg parcellerne omkring Hennetved og Bogetoftegård.",
+   "sources": [
+    {
+     "label": "Hansen & Mollerup, Skæbner bag et gravsted, pp. 41–42",
+     "url": "https://www.histfyn.dk/PDF/1978/sk%C3%A6bner%20bag%20et%20gravsted.pdf"
+    },
+    {
+     "label": "Arkiv.dk, elektroniske realregistre og tingbøger for Lindelse m.fl. (A790)",
+     "url": "https://arkiv.dk/vis/3931656"
+    }
+   ],
+   "person_ids": [],
+   "research_notes": [
+    {
+     "title": "Discovery note (17 November 2026)",
+     "text": "The 1829 document creates a strong cluster of named neighbours/landholders. Names and signatures require verification; do not assume the signatories are related."
+    }
+   ]
+  },
+  {
+   "id": "magleby-1665-land-assessment-households",
+   "branch": "Gerda Larsen",
+   "title": "Magleby 1665: navngivne gårdbrugere i Nyborg Amtstues matrikel",
+   "status": "needs",
+   "claim": "En transskription af Nyborg Amtstues matrikel fra 1665 for Magleby sogn indeholder en tidlig navngiven oversigt over gårdbrugere, jordparter og landgilde. Blandt navnene optræder Lauridz Jensen, Rassmus Madtzen, Hans Thomesen, Thomas Nissen, Godfred Rasmussen, Morten Rasmussen, Michel Pedersen, Peder Christensen, Hans Rasmussen, Rasmus Egertsen, Hans Hansen Fynboe, Troels Smid og Rasmus Michelsen. Materialet kan danne en før-kirkebogslig baseline for familier og gårde i sognet.",
+   "evidence": "Den digitale transskription angiver, at Magleby-sognet begynder ved folio 76, at navne er gengivet i den staveform, de findes i originalen, og at teksten er transskriberet af Finn R. Hansen og Jytte Grevsen. Den indeholder også sted-/gårdmarkører som Wraastrup, Bøsseballe og Hvidbjerggård.",
+   "missing": "Kontrol mod originalmatriklen og folio-/gårdidentifikation; de enkelte navne skal knyttes til bestemte gårde og jordparter. Matrikelnavne er ikke i sig selv dokumentation for slægtskab eller for, at en person er identisk med en senere navnebror.",
+   "next": "Udtræk alle navne med deres omkringliggende gård-/jordbeskrivelser fra folio 76 og frem. Sammenhold gårdene med 1719-fæstekataloget, 1787-folketællingen og kirkebogen fra 1682. Prioritér sjældne tilnavne som Fynboe, Egertsen og Smid som identifikationsnøgler.",
+   "sources": [
+    {
+     "label": "Nyborg Amtstue Matrikel Langeland herred 1665, transskription af Magleby sogn",
+     "url": "https://doczz.net/doc/6978361/nyborg-amtstue-matrikel-langeland-herred-1665"
+    },
+    {
+     "label": "Magleby Sogn, Grevskabet Langelands Fæstebreve (M10), Arkiv.dk",
+     "url": "https://arkiv.dk/vis/3839420"
+    }
+   ],
+   "person_ids": [],
+   "research_notes": [
+    {
+     "title": "Discovery note (17 November 2026)",
+     "text": "This is a landholding and taxation source, not a parish register. Treat names as farm/landholding clues and verify the manuscript before importing individuals into the family tree."
+    }
+   ]
   }
  ]
 }
