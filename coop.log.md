@@ -416,3 +416,18 @@ Reviewed the published Bogensholm Gods (G298) probate extracts for 1800–1811. 
 **Validation:** Read the complete published G298 index/extract page (eight case entries). Original G298 register and 1811 auction/estate papers have not yet been inspected; local build/export commands were not run. GitHub Actions rebuild and Pages deployment must be checked.
 
 **Next:** Check original G298 register and Mols herred probate/auction records for Claus's estate; keep the widow's 1811 sale separate from the probate.
+
+
+## 2026-11-17 — DAISY archive-path discovery for Bogensholm deed and Claus's 1811 estate
+
+**Tracks updated:** `evald-bogensholm` and `evald-claus-probate-1811`.
+
+Rigsarkivet's DAISY catalogue for Djurs Sønder-Mols Herredsfoged (1687–1919) provides concrete series to search. For the disputed 1796/1797 deed: a name register to the deed/probate books for 1747–1806 and a deed/mortgage protocol series 1688–1927. For Claus's 1811 estate and Bogensholm auction: a probate-protocol name register 1794–1917; probate designations/death notifications 1795–1851; combined Sønder Djurs and Mols probate protocol 1794–1824; auction protocols 1792–1814 and 1753–1928; and supporting auction case files 1791–1928.
+
+This is a specific route beyond the negative G298 index: the estate may have been registered by the herredsfoged, and the 1811 sale may appear in the herred auction protocol. The catalogue does not prove the records contain Claus or Bogensholm; the name-register entry and original folios still need to be located and read.
+
+**Files changed:** `data/tree.json`: added the DAISY catalogue source and dated notes; revised the next actions for the deed and probate/auction claims. No family edges changed.
+
+**Validation:** Read the DAISY archive-creator series list and recorded the exact series titles and date ranges. Original protocols remain uninspected; local build/export commands were not run. GitHub Actions rebuild and Pages deployment must be checked.
+
+**Next:** Search the 1747–1806 deed name register for Rosenkrantz/Gaardsted and the 1794–1917 probate name register for Claus Gaardsted; then follow the references to original folios. Search the 1792–1814 auction protocol for the 1811 Bogensholm sale.
