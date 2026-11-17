@@ -403,3 +403,16 @@ The 1784 Skærsø register entry says Poul Hansen Møller took over a Fuglslev h
 **Validation:** Opened the Skærsø 1781–1820 lease-register PDF and Aksel Rousing's Fuglslev history at the relevant passages, plus the Tirstrup marriage register. Canonical JSON parsed before update. Original archival images and underlying original lease entries remain uninspected; local build/export commands were not run. GitHub Actions rebuild and Pages deployment must be checked.
 
 **Next:** Compare original Skærsø lease folios for the 1784 handover and the Møllegården 1788/1799 entries; verify whether Poul Hansen Møller is Mette Rasmusdatter's husband. Keep the G304 1762 identity and p304 parentage provisional until then.
+
+
+## 2026-11-17 — Claus Gaardsted: bounded negative check of G298 probate extracts
+
+**Track updated:** `evald-claus-probate-1811`.
+
+Reviewed the published Bogensholm Gods (G298) probate extracts for 1800–1811. The list contains eight proceedings and no entry for Claus Gaardsted, including no obvious name variant. Its latest listed case is Peder Andersen Tuesen in Bogens, 31 August 1811, fol. 15b. The extract notes that names are standardized and the transcription is not proofread. This is a bounded negative result in the published index only: Claus's estate may have been handled in another jurisdiction, by private settlement, or through separate auction/estate papers.
+
+**Files changed:** `data/tree.json`: added the G298 source, dated negative-search note, and revised missing/next actions. No family edges changed.
+
+**Validation:** Read the complete published G298 index/extract page (eight case entries). Original G298 register and 1811 auction/estate papers have not yet been inspected; local build/export commands were not run. GitHub Actions rebuild and Pages deployment must be checked.
+
+**Next:** Check original G298 register and Mols herred probate/auction records for Claus's estate; keep the widow's 1811 sale separate from the probate.
