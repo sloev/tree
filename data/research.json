@@ -115,12 +115,12 @@
   {
    "id": "evald-bogensholm",
    "branch": "Evald Gårdsted Jørgensen",
-   "title": "Bogensholm: skøde omkring 1796–1797",
+   "title": "Bogensholm: overdragelsen til Claus Gaardsted i 1796",
    "status": "needs",
-   "claim": "Et skøde fra 1796 eller 1797 er et centralt spor til ejerskab og mulig identifikation ved Bogensholm.",
-   "evidence": "Skødehenvisningen er prioriteret i den aktive Evald-dossier; den præcise dato og dokumentets ordlyd skal kontrolleres i originalen. En samtidig trykt administrativ promemoria af 6. august 1803 omtaler Claus Gaardsted som ejer og beboer af Bogensholm; Trap 4 (1925) angiver køb i 1797, mens Trap 5 angiver 1796.",
-   "missing": "Originalt skøde, tingbogs-/pantebogshenvisning og sikker identifikation af de nævnte parter. Den originale skøde-/pantebogsindførsel mangler fortsat for at kontrollere den sekundært oplyste overdragelse i 1796.",
-   "next": "Find originalt skøde/tinglysning i Djurs Sønder-Mols Herreds skøde- og panteprotokol omkring 1796; sammenhold med Trap og den samtidige 1803-promemoria.",
+   "claim": "Trap 4 og Trap 5 angiver begge, at Frederik Christian Rosenkrantz solgte Bogensholm til Claus Gaardsted i 1796 for 10.000 rigsdaler. En samtidig kancellipromemoria fra 6. august 1803 bekræfter, at Claus da ejede og beboede gården. Den præcise tinglyste overdragelse er endnu ikke kontrolleret i original skøde-/panteprotokol.",
+   "evidence": "Trap 4 (1925), Randers Amt, Vistoft/Bogensholm, og Trap 5, Vistoft Sogn, stemmer om salget i 1796 for 10.000 rigsdaler og Claus' død i 1811. Kancellipromemoriaen 6. august 1803 omtaler ham udtrykkeligt som ejer og beboer. Den tidligere påståede 1796/1797-konflikt skyldtes en fejllæsning af Trap 4 og er ikke reel.",
+   "missing": "Originalt skøde og tingbogs-/pantebogshenvisning mangler fortsat for at kontrollere dato, sælger, køber og vilkår direkte. Trap er sekundær topografisk litteratur; 1803-promemoriaen beviser ejerskab på det tidspunkt, ikke selve købet.",
+   "next": "Find og læs original adkomst/tinglysning i Djurs Sønder-Mols Herreds skøde- og panteprotokol omkring 1796; registrér præcis dato, dokumentnummer, sælger, køber og vilkår.",
    "sources": [
     {
      "label": "Rolsøgård G302 index, 1778–1816",
@@ -166,6 +166,12 @@
      "title": "Kildekorrektion: Trap 4 angiver også 1796, ikke 1797",
      "text": "En genkontrol af Trap 4 (1925), bind VI, Randers Amt, afsnittet om Vistoft/Bogensholm, viser på PDF-linjerne 1882–1897, at Bogensholm havde fælles ejerhistorie med Møllerup indtil 1796, hvorefter Frederik Christian Rosenkrantz solgte gården for 10.000 rigsdaler til Claus Gaardsted, der døde 1811. Samme afsnit siger, at enken solgte gården ved auktion i 1811 for 31.000 rigsdaler til J.J. Wiid.\n\nDette korrigerer den foregående forskningsnote, som fejlagtigt gengav Trap 4 som 1797. Trap 4 og Trap 5 stemmer begge om 1796. Den tidligere påståede konflikt 1796/1797 skal derfor slettes som kildekonflikt; den skyldtes en fejl i vores gengivelse, ikke uenighed mellem de to Trap-udgaver.\n\nTrap er fortsat en sekundær topografisk fremstilling, ikke skødet. Den oprindelige adkomst/tinglysning skal stadig findes for at kontrollere datoen, sælgeren, køberen og vilkårene. Samtidig bekræfter Trap 4 uafhængigt af 1803-promemoriaen både Claus' død i 1811 og enkens auktion samme år.",
      "provenance": "Kontrol af Trap 4 PDF, Vistoft/Bogensholm, 17.11.2026; sammenholdt med Trap 5 og 1803-promemoria",
+     "imported_on": "2026-11-17"
+    },
+    {
+     "title": "Uafhængig genkontrol af Trap 4, Trap 5 og kancellipromemoriaen",
+     "text": "Direkte genkontrol af Trap 4 (1925), bind VI, Vistoft/Bogensholm, viser at Møllerup og Bogensholm havde fælles ejerhistorie indtil 1796, hvorefter Frederik Christian Rosenkrantz solgte Bogensholm til Claus Gaardsted for 10.000 rigsdaler. Trap 5 angiver samme år og pris. Dermed er den tidligere angivne forskel mellem 1796 og 1797 en afskrifts-/læsefejl i projektets note, ikke en konflikt mellem Trap-udgaverne.\n\nWikisource-afskriften af kancellipromemoriaen 6. august 1803 (s. 252) siger, at Claus Gaardsted ejede og beboede Bogensholm. Det er en samtidig administrativ omtale, men den fastslår ikke købsdatoen eller selve adkomstens vilkår. Begge Trap-udgaver er sekundære fremstillinger; den originale skøde-/pantebogsindførsel skal stadig findes.\n\nKilder:\n- Trap 4 (1925), Randers Amt, Mols og Øster-Lisbjerg Herreder, Bogensholm: https://netstol.dk/slaegtsForskning/trap_danmark_4/Trap_Danmark_4_udgave_%281925%29_Bind_6_Randers_Amt_Mols_og_OEster-Lisbjaerg_Herreder.pdf\n- Trap 5, Vistoft Sogn: https://trap5.lex.dk/sogn/vistoft-sogn-mols-herred/\n- Kongelige Rescripter, 6. august 1803, s. 252: https://da.wikisource.org/wiki/Side:Kongelige_Rescripter,_Resolutioner_og_Collegialbreve_for_Danmark_og_Norge_udtogsvis_udgivne_i_chronologisk_Orden._VI._Deel._12._Bind_(1803%E2%80%931804).pdf/258\n\nVurdering: salgsåret 1796 er konsistent i begge Trap-udgaver; Claus' ejerskab i 1803 er bekræftet af en samtidig administrativ tekst; den originale adkomst er stadig uundersøgt.",
+     "provenance": "Direkte genkontrol af Trap 4 PDF, Trap 5 Vistoft Sogn og Wikisource-afskriften af kancellipromemoriaen, 17.11.2026",
      "imported_on": "2026-11-17"
     }
    ]
