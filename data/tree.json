@@ -15319,9 +15319,9 @@
     "title": "Claus Gaardsteds skifte og Bogensholm-auktion i 1811",
     "status": "needs",
     "claim": "Claus Gaardsted (p72) døde i 1811, og enken solgte Bogensholm på auktion samme år. Skiftet og auktionsmaterialet kan muligvis identificere hans første hustru og børn, men dossieret har endnu ikke fastslået disse familieforhold.",
-    "evidence": "Dossieret angiver auktionen i 1811 og henviser til Trap Danmark/danskeherregaarde.dk for Bogensholm samt Rolsøgård G302-skiftet fra 1787 som et separat slægtsspor.",
-    "missing": "Originalt skifte efter Claus, auktionsprotokol/skøde og dokumentation for hustru(er), arvinger, værger og ejendommens overdragelse.",
-    "next": "Kontrollér Bogensholm Gods G298-registeret og originalprotokollen 1800–1811 for Claus Gaardsted, enken Kirsten Marie Jørgensdatter og navnevarianter; følg derefter 1811-auktionen i auktions-/tingbogsmaterialet.",
+    "evidence": "Dossieret angiver auktionen i 1811 og henviser til Trap Danmark/danskeherregaarde.dk for Bogensholm samt Rolsøgård G302-skiftet fra 1787 som et separat slægtsspor. The published G298 (Bogensholm Gods) 1800–1811 probate extract lists eight proceedings and none is for Claus Gaardsted; the latest listed case is Peder Andersen Tuesen, 31.8.1811, fol. 15b. This is a bounded negative result in the published extract, not proof that no separate probate or auction file exists.",
+    "missing": "Originalt skifte efter Claus, auktionsprotokol/skøde og dokumentation for hustru(er), arvinger, værger og ejendommens overdragelse. The G298 published extract has no Claus Gaardsted entry, so the original G298 register and other relevant probate/auction/estate-settlement records must be checked before concluding where his estate was administered.",
+    "next": "Inspect the original Bogensholm Gods G298 register and the 1811 auction/estate papers; because the published G298 extract has no Claus entry, also search Mols herred's general probate/auction records and any private estate settlement. Keep the widow's 1811 sale distinct from Claus's probate.",
     "person_ids": [
      "p72"
     ],
@@ -15358,6 +15358,12 @@
       "title": "Uafhængig sekundær personpost for Claus Gaardsted",
       "text": "Djurslandsdatabasens alfabetiske G-oversigt har en post: “Gaardsted, Claus, født 1751 i [ukendt], død 1811 i Bogensholm”. Det stemmer med projektets Claus Gaardsted (p72), hvis nuværende fødselsangivelse er ca. 1750, og med Trap 4/5's angivelse af hans død i 1811. Det er et nyttigt sekundært identifikationsmatch, men oversigten angiver ikke forældre, ægtefælle eller primærkilde på denne linje. Den kan derfor ikke afgøre Claus' fødested, første ægteskab eller børn.\n\nNæste trin er at åbne den individuelle Djurslandsdatabase-post (hvis den har yderligere kildehenvisninger) og efterprøve 1751/1811 i kirkebog og skifte-/auktionsmateriale. Bevar ca. 1750 i stamtræet, indtil original dåb eller anden samtidig kilde dokumenterer en præcis dato.",
       "provenance": "Webkontrol af Djurslandsdatabasens efternavnsoversigt, 17.11.2026",
+      "imported_on": "2026-11-17"
+     },
+     {
+      "title": "G298-uddraget 1800–1811 kontrolleret: intet registreret skifte efter Claus Gaardsted",
+      "text": "Den publicerede alfabetiske oversigt og skifteuddrag for Bogensholm Gods (G298), Mols Herred 1800–1811, er gennemgået. Den anfører otte sager: Dorthe Pedersdatter i Bogens (1800), Jørgen Pedersen Møller i Fuglsø (1802), Søren Mikkelsen i Bogens (1802), Jens Rasmussen Balle i Fuglsø (1803), Rasmus Nielsen Skomager i Bogens (1804), Dorthe Nielsdatter i Fuglsø (1804), Søren Rasmussen Kierre i Fuglsø (1803) og Peder Andersen Tuesen i Bogens (31.8.1811, fol. 15b). Claus Gaardsted står ikke i oversigten, heller ikke under en tydelig variant.\n\nDette er en afgrænset negativ kontrol af det offentliggjorte G298-uddrag, ikke et bevis for, at Claus ikke blev skiftet. Uddragets forfatter oplyser, at navne er standardiseret, og at teksten ikke er korrekturlæst; et skifte kan også være behandlet i en anden jurisdiktion, ved privat skifte eller i et auktions-/boopbudsforløb. Claus' død i 1811 og enkens auktion over Bogensholm samme år er fortsat dokumenteret i Trap 4/5, men selve skifteforløbet er ikke identificeret.\n\nKilde: Bogensholm Gods (G298), skifteuddrag 1800–1811: https://www.milloup.dk/hvh/download/skifter/bogensholm_gods_skifter.htm\n\nNæste skridt er at kontrollere original G298-register/protokol og søge i Mols herreds skifte-, auktions- og eventuelle private booptegnelser omkring 1811. Ingen familiekanter ændres.",
+      "provenance": "Direkte kontrol af det publicerede G298 skifteuddrag på milloup.dk, 17.11.2026",
       "imported_on": "2026-11-17"
      }
     ]
