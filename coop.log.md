@@ -349,3 +349,16 @@ The existing claim's summary was revised to reflect the new G299 nr. 56 cross-ch
 En validering af de gemte commit-tidsstempler viste, at de ældre poster kunne have lokal UTC-offset (+01:00), mens nyere poster blev gemt i UTC (Z). Ren tekstsortering af ISO-strenge er derfor ikke tilstrækkelig. Både Python-buildets rækkefølge og browserens rækkefølge er nu ændret til at sammenligne faktiske tidsværdier, så poster sorteres kronologisk på tværs af tidszoner. Dato uden klokkeslæt bruges som fallback for manuelle/ældre indlæg. Append-only-lagring og 10+10-visning er uændret.
 
 **Validering:** Rettelsen er gennemgået mod de fem nuværende automatiske poster, som alle har tidsstempel. Ny build og Pages-udrulning afventer workflow.
+
+
+## 2026-11-17 — independent source recheck: Bogensholm transfer year
+
+**Track updated:** `evald-bogensholm`.
+
+**Finding:** Re-opened Trap 4 (1925), Trap 5, and the 6 August 1803 chancellery memorandum. Trap 4 and Trap 5 both give 1796 and 10,000 rigsdaler for Frederik Christian Rosenkrantz's sale of Bogensholm to Claus Gaardsted. The previously stated 1796/1797 conflict was a transcription/reading error in our note, not a disagreement between the two Trap editions. The 1803 memorandum independently confirms Claus as owner and resident, but does not prove the purchase date or conveyance terms.
+
+**Files changed:** `data/tree.json`: corrected p72's Bogensholm ownership start year and the existing research claim's title, summary, evidence, missing evidence, next action, and source-preserving note. No family relationships changed.
+
+**Validation:** Confirmed the repository is `main`; read the three cited web sources and checked the relevant passage in Trap 4 and the 1803 memorandum. The canonical JSON was parsed before update. The local Python build/export commands were not run in this environment. GitHub Actions rebuild and Pages deployment must be checked after the commit; no publication claim is made.
+
+**Next:** Locate the original 1796 deed/tinglysning in Djurs Sønder-Mols Herreds skøde- og panteprotokol. Continue the separate G299/G302 original-probate checks; published extracts and indexes remain secondary evidence only.
