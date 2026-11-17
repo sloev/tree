@@ -388,3 +388,18 @@ A further search of Trap 3's searchable transcription found that the third editi
 **Validation:** Read the three cited PDFs/registers and parsed the canonical JSON before update. Original parish images and the original lease entry were not visually inspected; local build/export commands were not run. GitHub Actions rebuild and Pages deployment must be checked.
 
 **Next:** Inspect the original 1744 marriage, the full 1787 census image and the original 1784 lease entry; then compare the Rasmus's household/children with G304 fol. 135 and the 1735 Skanderborg probate before accepting parentage.
+
+
+## 2026-11-17 — Rousing: reconcile the 1784 and 1788–1799 Fuglslev tenancy records
+
+**Track updated:** `evald-rousing-parentage`.
+
+The 1784 Skærsø register entry says Poul Hansen Møller took over a Fuglslev holding relinquished by Rasmus Jensen Smed due to old age, with aftægt for Rasmus and his wife. Aksel Rousing's book separately assigns Rasmus Jensen Smed to Møllegården (old matr. 5) as tenant in 1788 and his son-in-law Poul Hansen as tenant in 1799. His transcription of the 1787 census places Rasmus (66), wife Ane Cathrine Sørensdatter (65), daughter Mette Rasmusdatter (36) and granddaughter Ane Poulsdatter (7) in the household; Mette's husband is described as a mill worker. The 1744 Tirstrup marriage-register entry for Rasmus Jensen Smed and Anne Cathrine Sørensdatter fits this household. Poul Hansen Møller may be Mette's husband, but that identification is not explicit in the records reviewed.
+
+**Unresolved contradiction:** the 1784 handover to Poul appears to precede the 1788 entry that again names Rasmus as tenant of Møllegården. Possible explanations are different holdings in Fuglslev, a date/transcription issue, or a more complex tenancy sequence. No explanation is accepted without comparing the original lease records, holding description and hartkorn.
+
+**Files changed:** `data/tree.json`: expanded the Rousing evidence, missing items and next action; clarified p304's note; no family edges changed. The dated note includes exact citations and preserves the unresolved chronology.
+
+**Validation:** Opened the Skærsø 1781–1820 lease-register PDF and Aksel Rousing's Fuglslev history at the relevant passages, plus the Tirstrup marriage register. Canonical JSON parsed before update. Original archival images and underlying original lease entries remain uninspected; local build/export commands were not run. GitHub Actions rebuild and Pages deployment must be checked.
+
+**Next:** Compare original Skærsø lease folios for the 1784 handover and the Møllegården 1788/1799 entries; verify whether Poul Hansen Møller is Mette Rasmusdatter's husband. Keep the G304 1762 identity and p304 parentage provisional until then.
