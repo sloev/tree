@@ -115,12 +115,12 @@
   {
    "id": "evald-bogensholm",
    "branch": "Evald Gårdsted Jørgensen",
-   "title": "Bogensholm: overdragelsen til Claus Gaardsted i 1796",
+   "title": "Bogensholm: uafklaret overdragelsesår (Trap 3: 1797; Trap 4/5: 1796)",
    "status": "needs",
-   "claim": "Trap 4 og Trap 5 angiver begge, at Frederik Christian Rosenkrantz solgte Bogensholm til Claus Gaardsted i 1796 for 10.000 rigsdaler. En samtidig kancellipromemoria fra 6. august 1803 bekræfter, at Claus da ejede og beboede gården. Den præcise tinglyste overdragelse er endnu ikke kontrolleret i original skøde-/panteprotokol.",
-   "evidence": "Trap 4 (1925), Randers Amt, Vistoft/Bogensholm, og Trap 5, Vistoft Sogn, stemmer om salget i 1796 for 10.000 rigsdaler og Claus' død i 1811. Kancellipromemoriaen 6. august 1803 omtaler ham udtrykkeligt som ejer og beboer. Den tidligere påståede 1796/1797-konflikt skyldtes en fejllæsning af Trap 4 og er ikke reel.",
-   "missing": "Originalt skøde og tingbogs-/pantebogshenvisning mangler fortsat for at kontrollere dato, sælger, køber og vilkår direkte. Trap er sekundær topografisk litteratur; 1803-promemoriaen beviser ejerskab på det tidspunkt, ikke selve købet.",
-   "next": "Find og læs original adkomst/tinglysning i Djurs Sønder-Mols Herreds skøde- og panteprotokol omkring 1796; registrér præcis dato, dokumentnummer, sælger, køber og vilkår.",
+   "claim": "Trap 4 og Trap 5 angiver, at Frederik Christian Rosenkrantz solgte Bogensholm til Claus Gaardsted i 1796 for 10.000 rigsdaler; Trap 3 angiver 1797. En samtidig kancellipromemoria fra 6. august 1803 bekræfter, at Claus da ejede og beboede gården. Det præcise tinglyste overdragelsesår er derfor fortsat uafklaret.",
+   "evidence": "Trap 4 (1925) og Trap 5, Vistoft Sogn, stemmer om salget i 1796 for 10.000 rigsdaler og Claus' død i 1811. Trap 3 (Runeberg's searchable transcription) instead gives 1797. The 6 August 1803 chancellery memorandum independently identifies Claus as owner and resident. Thus the discrepancy is between Trap editions, not between Trap 4 and Trap 5; none of these secondary accounts replaces the original deed.",
+   "missing": "Originalt skøde og tingbogs-/pantebogshenvisning mangler fortsat for at kontrollere dato, sælger, køber og vilkår direkte. Trap 3 and Trap 4/5 disagree on the year; the 1803 memorandum proves ownership by that date, not the purchase date.",
+   "next": "Find og læs original adkomst/tinglysning i Djurs Sønder-Mols Herreds skøde- og panteprotokol omkring 1796–1797; registrér præcis dato, dokumentnummer, sælger, køber og vilkår.",
    "sources": [
     {
      "label": "Rolsøgård G302 index, 1778–1816",
@@ -145,6 +145,10 @@
     {
      "label": "Kongelige Rescripter 1803–1804, 6. august 1803, s. 252 (Wikisource-afskrift)",
      "url": "https://da.wikisource.org/wiki/Side:Kongelige_Rescripter,_Resolutioner_og_Collegialbreve_for_Danmark_og_Norge_udtogsvis_udgivne_i_chronologisk_Orden._VI._Deel._12._Bind_(1803%E2%80%931804).pdf/258"
+    },
+    {
+     "label": "Trap 3, Vistoft/Bogensholm (Runeberg searchable transcription; gives 1797)",
+     "url": "https://runeberg.org/trap/3-4/1051.html"
     }
    ],
    "person_ids": [],
@@ -169,9 +173,9 @@
      "imported_on": "2026-11-17"
     },
     {
-     "title": "Uafhængig genkontrol af Trap 4, Trap 5 og kancellipromemoriaen",
-     "text": "Direkte genkontrol af Trap 4 (1925), bind VI, Vistoft/Bogensholm, viser at Møllerup og Bogensholm havde fælles ejerhistorie indtil 1796, hvorefter Frederik Christian Rosenkrantz solgte Bogensholm til Claus Gaardsted for 10.000 rigsdaler. Trap 5 angiver samme år og pris. Dermed er den tidligere angivne forskel mellem 1796 og 1797 en afskrifts-/læsefejl i projektets note, ikke en konflikt mellem Trap-udgaverne.\n\nWikisource-afskriften af kancellipromemoriaen 6. august 1803 (s. 252) siger, at Claus Gaardsted ejede og beboede Bogensholm. Det er en samtidig administrativ omtale, men den fastslår ikke købsdatoen eller selve adkomstens vilkår. Begge Trap-udgaver er sekundære fremstillinger; den originale skøde-/pantebogsindførsel skal stadig findes.\n\nKilder:\n- Trap 4 (1925), Randers Amt, Mols og Øster-Lisbjerg Herreder, Bogensholm: https://netstol.dk/slaegtsForskning/trap_danmark_4/Trap_Danmark_4_udgave_%281925%29_Bind_6_Randers_Amt_Mols_og_OEster-Lisbjaerg_Herreder.pdf\n- Trap 5, Vistoft Sogn: https://trap5.lex.dk/sogn/vistoft-sogn-mols-herred/\n- Kongelige Rescripter, 6. august 1803, s. 252: https://da.wikisource.org/wiki/Side:Kongelige_Rescripter,_Resolutioner_og_Collegialbreve_for_Danmark_og_Norge_udtogsvis_udgivne_i_chronologisk_Orden._VI._Deel._12._Bind_(1803%E2%80%931804).pdf/258\n\nVurdering: salgsåret 1796 er konsistent i begge Trap-udgaver; Claus' ejerskab i 1803 er bekræftet af en samtidig administrativ tekst; den originale adkomst er stadig uundersøgt.",
-     "provenance": "Direkte genkontrol af Trap 4 PDF, Trap 5 Vistoft Sogn og Wikisource-afskriften af kancellipromemoriaen, 17.11.2026",
+     "title": "Kildeafvejning: Trap 3 angiver 1797, mens Trap 4 og Trap 5 angiver 1796",
+     "text": "Direkte genkontrol af Trap 4 (1925), bind VI, Vistoft/Bogensholm, og Trap 5 viser, at begge angiver, at Frederik Christian Rosenkrantz solgte Bogensholm til Claus Gaardsted i 1796 for 10.000 rigsdaler. En yderligere kontrol af Trap 3's søgbare tekst (Randers Amt, Vistoft) viser imidlertid, at 3. udgave angiver 1797 for samme salg. Den tidligere påståede forskel mellem Trap 4 og Trap 5 var en fejl i vores gengivelse; men der består en reel sekundær kildekonflikt mellem Trap 3 (1797) og Trap 4/5 (1796).\n\nWikisource-afskriften af kancellipromemoriaen 6. august 1803 (s. 252) siger, at Claus Gaardsted ejede og beboede Bogensholm. Det er en samtidig administrativ omtale, men den fastslår ikke købsdatoen eller selve adkomstens vilkår. Trap-udgaverne er sekundære fremstillinger; den originale skøde-/pantebogsindførsel er nødvendig for at afgøre datoen.\n\nKilder:\n- Trap 3, Vistoft/Bogensholm: https://runeberg.org/trap/3-4/1051.html\n- Trap 4 (1925), Randers Amt, Mols og Øster-Lisbjerg Herreder, Bogensholm: https://netstol.dk/slaegtsForskning/trap_danmark_4/Trap_Danmark_4_udgave_%281925%29_Bind_6_Randers_Amt_Mols_og_OEster-Lisbjaerg_Herreder.pdf\n- Trap 5, Vistoft Sogn: https://trap5.lex.dk/sogn/vistoft-sogn-mols-herred/\n- Kongelige Rescripter, 6. august 1803, s. 252: https://da.wikisource.org/wiki/Side:Kongelige_Rescripter,_Resolutioner_og_Collegialbreve_for_Danmark_og_Norge_udtogsvis_udgivne_i_chronologisk_Orden._VI._Deel._12._Bind_(1803%E2%80%931804).pdf/258\n\nVurdering: Trap 4 og Trap 5 stemmer om 1796; Trap 3 siger 1797. Ejerskab i 1803 er bekræftet af en samtidig administrativ tekst; den originale adkomst er stadig uundersøgt.",
+     "provenance": "Direkte genkontrol af Trap 3 (Runeberg), Trap 4 PDF, Trap 5 Vistoft Sogn og Wikisource-afskriften af kancellipromemoriaen, 17.11.2026",
      "imported_on": "2026-11-17"
     }
    ]

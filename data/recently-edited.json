@@ -85,12 +85,26 @@
         "p72"
       ],
       "title": "Stamtræ opdateret: Claus Gaardsted"
+    },
+    {
+      "body": "Personoplysninger er ændret i den kanoniske datafil. Åbn personkortene for aktuelle datoer, noter og kilder.",
+      "commit": "7e4224b26fd703be1980382b99bbffe0314f9edf",
+      "created_at": "2026-11-17T00:19:28Z",
+      "date": "2026-11-17",
+      "date_label": "17.11.2026",
+      "paths": [
+        "data/tree.json"
+      ],
+      "people": [
+        "p72"
+      ],
+      "title": "Stamtræ opdateret: Claus Gaardsted"
     }
   ],
   "latest_bulletin": {
     "body": "Personoplysninger er ændret i den kanoniske datafil. Åbn personkortene for aktuelle datoer, noter og kilder.",
-    "commit": "244612b3cf0d1f3ca09e3edd1e102e2c6b711af9",
-    "created_at": "2026-11-17T00:18:51Z",
+    "commit": "7e4224b26fd703be1980382b99bbffe0314f9edf",
+    "created_at": "2026-11-17T00:19:28Z",
     "date": "2026-11-17",
     "date_label": "17.11.2026",
     "paths": [
@@ -112,7 +126,7 @@
     "p435": "2026-11-16T22:19:19Z",
     "p56": "2026-11-16T20:54:45Z",
     "p6948": "2026-11-16T22:21:37Z",
-    "p72": "2026-11-17T00:18:51Z",
+    "p72": "2026-11-17T00:19:28Z",
     "p868": "2026-11-16T20:53:37Z",
     "p869": "2026-11-16T20:56:57Z",
     "stojentin_elisabeth": "2026-11-16T20:54:45Z"
