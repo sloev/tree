@@ -155,6 +155,9 @@ button.linkish:focus-visible{outline:2px solid var(--accent)}
 .mapsvg .lbl{font:500 10.5px var(--f-body);fill:var(--ink)}
 .mapsvg .lbl-halo{font:500 10.5px var(--f-body);stroke:var(--sheet);stroke-width:3.5;fill:none;stroke-linejoin:round}
 .mapsvg .sea{fill:var(--sheet)}
+.world-land{fill:var(--paper);stroke:var(--rule-2);stroke-width:1.2;stroke-linejoin:round}
+#worldmap{width:100%;height:auto;min-height:180px;max-height:420px}
+#worldmap [data-claim-id]{cursor:pointer;stroke:var(--sheet);stroke-width:2.5}
 .placelist{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:2px 16px;font-size:.84rem}
 .placelist button{all:unset;cursor:pointer;display:flex;justify-content:space-between;gap:8px;border-bottom:1px solid var(--rule);padding:4px 0}
 .placelist button:hover{background:var(--hover)}
@@ -500,7 +503,7 @@ body:not(.show-uncertain) .ft-item.uncertain>.ft-line{display:none}
       <div class="panel"><h3>Djursland og Mols, forstørret</h3><svg id="inset" class="mapsvg" role="img" aria-label="Forstørret kort over Djursland"></svg></div>
       <div class="panel"><h3>Langeland, forstørret</h3><p class="muted" style="font-size:.82rem">Fødesteder, dødssteder og registrerede ophold på øen. Klik på et punkt for at se personerne og hændelserne. Kortet bruger de stedsposter, der allerede findes i slægtsdataene.</p><svg id="langeland-map" class="mapsvg" role="img" aria-label="Forstørret kort over Langeland og slægtens steder"></svg><div class="place-detail" id="langeland-summary"></div></div>
       <div class="panel"><h3 id="pd-title">Steder efter antal hændelser</h3><div class="place-detail" id="placedetail" hidden></div><div class="placelist" id="placelist"></div></div>
-      <div class="panel"><h3>Oversøiske udvandringsspor</h3><p class="muted" style="font-size:.82rem">Foreløbige destinationer i slægtens forskningsspor. De er ikke alle knyttet til Langeland, og markeringerne er ikke dokumentation for en bestemt rejserute.</p><ul class="links" style="columns:1">
+      <div class="panel"><h3>Oversøiske destinationer i forskningen</h3><p class="muted" style="font-size:.82rem">Kortet viser steder, der nævnes i konkrete udvandringsspor. Punkterne er destinationer eller mulige destinationer — ikke dokumenterede ruter fra Langeland.</p><svg id="worldmap" class="mapsvg" role="img" aria-label="Verdenskort med foreløbige udvandringsdestinationer"></svg><ul class="links" style="columns:1">
         <li><a href="?claim=gerda-iver-emigration#forskning">Fresno, Californien — Iver Peder Holgersen, mulig udrejse i 1910</a></li>
         <li><a href="?claim=lorenz-gedde-emigration#forskning">Shanghai — Olaf Gedde, kontraktreference fra 1904</a></li>
         <li><a href="?claim=lorenz-gedde-eduard-eldorado#forskning">Eldorado, Argentina — Eduard/Edouard Gedde, mulig identifikation</a></li>
@@ -1066,6 +1069,32 @@ function renderKort(){
     document.getElementById('langeland-map').setAttribute('viewBox','0 0 600 220');
     document.getElementById('langeland-summary').textContent='Der er endnu ingen stedsposter med regionen Langeland i de aktuelle data.';
   }
+  // Schematic world map: plot only destination places explicitly present in current research leads.
+  // No origin-to-destination line is drawn unless an individual journey is independently documented.
+  const world=document.getElementById('worldmap'), ww=900, wh=440;
+  world.setAttribute('viewBox',`0 0 ${ww} ${wh}`);
+  el('rect',{x:0,y:0,width:ww,height:wh,class:'sea'},world);
+  const wx=lon=>(lon+180)/360*ww, wy=lat=>(90-lat)/180*wh;
+  const continents=[
+    [[-168,70],[-145,72],[-125,58],[-124,42],[-112,30],[-98,18],[-82,8],[-78,25],[-62,45],[-52,58],[-90,72]],
+    [[-81,12],[-70,8],[-52,-5],[-44,-22],[-52,-42],[-68,-56],[-76,-30]],
+    [[-11,72],[32,70],[42,55],[28,42],[10,36],[-10,45],[-18,58]],
+    [[-17,35],[10,37],[35,30],[50,10],[40,-35],[20,-35],[5,-5],[-10,5]],
+    [[30,70],[65,75],[105,70],[145,58],[160,48],[140,35],[120,20],[105,5],[80,8],[65,25],[45,35],[35,50]],
+    [[112,-11],[154,-10],[153,-40],[130,-45],[114,-30]]
+  ];
+  continents.forEach(points=>el('polygon',{points:points.map(([lon,lat])=>`${wx(lon)},${wy(lat)}`).join(' '),class:'world-land'},world));
+  const destinations=[
+    {name:'Fresno',country:'USA',lat:36.7378,lon:-119.7871,claim:'gerda-iver-emigration',status:'Muligt mål · identitet uafklaret'},
+    {name:'Shanghai',country:'Kina',lat:31.2304,lon:121.4737,claim:'lorenz-gedde-emigration',status:'Kontraktreference · 1904'},
+    {name:'Eldorado',country:'Argentina',lat:-26.4,lon:-54.65,claim:'lorenz-gedde-eduard-eldorado',status:'Hypotese · Gedde-identifikation'}
+  ];
+  destinations.forEach(d=>{
+    const x=wx(d.lon), y=wy(d.lat);
+    el('circle',{cx:x,cy:y,r:7,class:'dot',fill:'var(--accent)', 'data-claim-id':d.claim,tabindex:0,role:'button','aria-label':d.name+', '+d.country+', '+d.status},world);
+    const label=el('text',{x:x+10,y:y-9,class:'lbl'},world);label.textContent=d.name;
+  });
+  wire(world);
   const listEl=document.getElementById('placelist');
   listEl.innerHTML = Object.keys(ev).sort((a,b)=>ev[b].length-ev[a].length).map(pl=>`<button type="button" data-pl="${esc(pl)}"><span><i class="sw" style="background:${lineVar(dom(pl))};width:9px;height:9px;margin-right:6px"></i>${esc(pl)}</span><span class="n">${ev[pl].length}</span></button>`).join('');
   listEl.querySelectorAll('[data-pl]').forEach(b=>b.addEventListener('click',()=>showPlace(b.dataset.pl)));
