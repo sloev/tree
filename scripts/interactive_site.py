@@ -379,12 +379,25 @@ def build():
     for folder, items, query, title_for in legacy:
         out_dir = DOCS / folder
         out_dir.mkdir(parents=True, exist_ok=True)
-        for meta, _body, _path in items:
+        suffix = {"person":"", "place":"#kort", "claim":"#forskning",
+                  "source":"#kilder", "media":"#kilder"}[query]
+        active_pages = {"index.html"}
+        for meta, _body, source_path in items:
             rid = str(meta["id"])
-            suffix = {"person":"", "place":"#kort", "claim":"#forskning",
-                      "source":"#kilder", "media":"#kilder"}[query]
             target = "../?" + query + "=" + rid + suffix
-            write_redirect(out_dir / (site_slug(rid) + ".html"), title_for(meta), target)
+            # Preserve both the record-ID URL and the historical filename URL.
+            # Older generators sometimes used the Markdown filename as the slug.
+            slugs = {site_slug(rid), site_slug(source_path.stem)}
+            for slug in slugs:
+                filename = slug + ".html"
+                active_pages.add(filename)
+                write_redirect(out_dir / filename, title_for(meta), target)
+        # Retire orphaned pages left by the former static generator. Keep their
+        # URLs alive, but send them to the corresponding shared register rather
+        # than leaving a second design or broken links to the removed CSS.
+        for old_page in out_dir.glob("*.html"):
+            if old_page.name not in active_pages:
+                write_redirect(old_page, old_page.stem, index_targets[folder])
         write_redirect(out_dir / "index.html", folder, index_targets[folder])
 
     persons_dir = DOCS / "persons"
