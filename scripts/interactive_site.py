@@ -102,7 +102,7 @@ def build():
         person.update({
             "name": "Privat person" if hidden else str(meta.get("name") or meta["id"]),
             "private": hidden,
-            "permalink": "people/" + site_slug(meta["id"]) + ".html",
+            "permalink": "?person=" + str(meta["id"]),
             "born": None if hidden else meta.get("born"),
             "bplace": None if hidden else meta.get("bplace"),
             "died": None if hidden else meta.get("died"),
