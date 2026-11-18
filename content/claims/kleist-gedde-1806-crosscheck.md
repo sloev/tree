@@ -12,10 +12,14 @@ person_ids:
   - "p217"
   - "p216"
   - "p108"
+  - "s_p434_5"
 sources:
   - "harbou-1897-von-kleist-denmark"
   - "faste-artilleriofficerer-liebe-borgstrom"
   - "danske-jurister-1736-1936"
+  - "tychsen-1893-fortifikations-ingenieurkorps"
+  - "snl-nicolai-wilhelm-gedde"
+  - "snl-gedde-family"
 ---
 ## Påstand og foreløbig vurdering
 
@@ -60,3 +64,20 @@ Cartz Ulrik-ruten er Harbous Muttrin-afsnit. Barbara Juliane von Kleist er samti
 7. Find Vor Frelsers dåbsindførsel for Christian Adam i både præstens og klokkerens bøger.
 
 Ingen kanoniske forældre- eller ægtefællerelationer ændres af denne opdatering.
+
+## Den anden Kleist-søster giftede sig også ind i Gedde-familien
+
+Harbou oplyser, at **Juliane Frederikke Margrethe von Kleist** (født 2. december 1781, død 22. maj 1861), søster til Frederikke Louise Dorthea, blev gift 25. februar 1811 med **Nicolai Wilhelm Gedde** (født 27. december 1779). Store norske leksikon / Norsk kunstnerleksikon bekræfter uafhængigt, at Nicolai Wilhelm blev gift i 1811 med Juliane Kleist (1781–1861). Liebe/Borgstrøms danske militærbiografi identificerer Ove Samuel og Nicolai Wilhelm som sønner af samme Hans Christoffer Gedde. Det giver to søster-bror-ægteskaber: Juliane → Nicolai (1811) og Frederikke → Ove Samuel (1806).
+
+Tychsen (1893) identificerer Nicolai Wilhelm som søn af Hans Christopher von Gedde og født i Frederikstad 27. december 1779. Han anfører hans død som 31. januar 1833; Harbou anfører 31. august 1833; Store norske leksikon anfører 30. juni 1833; andre genealogiske databaser anfører 31. maj 1833. Dødsdatoen må derfor stå uafklaret, indtil den norske døds-/begravelsesindførsel er fundet.
+
+Den norske gren giver en konkret efterkommervej fra Juliane og Nicolai: deres datter **Louise Christiane Henriette Gedde** (født 6. juli 1817 i Trondheim, død 27. juni 1892 i Christiania) blev gift med Johan Henrik Dahl. Store norske leksikon nævner blandt hendes børn Jonas Wilhelm Gedde Dahl (1845–1921), Julius Fredrik Kleist Gedde (1852–1928) og Sophus Gedde-Dahl (1856–1943). Julius Fredrik Kleist Gedde blev født som Julius Fredrik Kleist Dahl; SNL oplyser, at han voksede op hos sin onkel Vilhelm J.K. Gedde. Dette er en collateral Kleist/Gedde-efterkommerlinje, ikke den direkte Ove Samuel-linje.
+
+En vigtig afgrænsning: SNL-artiklen om Gedde-familien siger, at den norske officersslægt Gedde sandsynligvis ikke har forbindelse til den uddøde danske og norske adelsslægt Gjedde. Den dokumenterede Kleist-forbindelse går gennem officerfamilien Gedde; den må ikke bruges som automatisk bevis for ældre adelsslægt Gjedde.
+
+## Nye åbne spørgsmål for den norske collateralgren
+
+1. Find vielsen mellem Juliane og Nicolai, 25. februar 1811, og registrér sogn og forlovere.
+2. Find Nicolais norske døds-/begravelsesindførsel for at afgøre 31. januar / 31. maj / 30. juni / 31. august 1833.
+3. Find Louise Geddes dåb i Trondheim 1817 og vielsen med Johan Henrik Dahl i Christiania 1844.
+4. Find Vilhelm Julius Kleist Geddes dåb omkring 15. oktober 1818; Marcus-kataloget bekræfter en person med navnet og fødselsår 1818, men ikke forældrene.
