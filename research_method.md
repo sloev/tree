@@ -61,7 +61,7 @@ Søg aktivt efter så meget **lovligt, relevant og efterprøveligt** billedbevis
 - Kilder: `content/sources/<id>.md`
 - Mediemetadata: `content/media/<id>.md`
 - Steder: `content/places/<id>.md`; every place must compile to `docs/places/<id>.html` and be linked from maps, person birth/death/residence references and the place register.
-- Permalinks: every person, place, research claim, source and media record gets its own stable HTML page based on its Markdown ID. Lists and cross-references must link to those pages; interactive drawers may preview records but must expose an explicit permanent-page link.
+- Personvisning og permalinks: der findes kun ét autoritativt personkort — det udvidede interaktive kort, som åbnes fra stamtræet og personregisteret. Personens permanente URL er den samme interaktive forside med `?person=<id>` og skal åbne netop dette kort, også ved direkte adgang, deling og genindlæsning. Alle personlinks, herunder fra register, stamtræ, kort, diagrammer og andre personkort, skal åbne samme komponent med samme data. Opret ikke reducerede, parallelle biografisider. Gamle `people/<id>.html`-URL’er skal viderestille til den kanoniske visning. Personregisteret skal ligeledes føre til den fælles interaktive Personer-visning. Steder, forskningsspor, kilder og medier kan fortsat have egne stabile sider.
 - Historiske forhold: `content/unions/<id>.md`
 - Binære filer: `images/`, `media/files/`
 Relationer i GEDCOM må kun ændres på eksplicit evidens. Biologisk, juridisk, ægteskabelig, plejeforældre-, værge- og husstandsrelation må ikke sammenblandes.
