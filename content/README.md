@@ -24,4 +24,4 @@ Each file starts with YAML front matter containing id and schema. The site build
 
 ## Generated output
 
-docs/ contains static HTML indexes and permanent pages. family-tree.ged is generated from person front matter. Never hand-edit generated HTML or GEDCOM.
+docs/ contains the shared interactive application plus minimal compatibility redirects for old record URLs. All record details are rendered by `site/template.html`; no parallel static-page design is generated. family-tree.ged is generated from person front matter. Never hand-edit generated HTML or GEDCOM.
