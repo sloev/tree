@@ -701,6 +701,9 @@ function openPerson(id, push=true){
   const p=byId[id]; if(!p) return;
   if(drawer.hidden){ lastFocus=document.activeElement; hist=[]; }
   if(push) hist.push(id);
+  const personUrl = new URL(location.href);
+  personUrl.searchParams.set('person', id);
+  history[push ? 'pushState' : 'replaceState']({person:id}, '', personUrl.pathname + personUrl.search + personUrl.hash);
   dBack.hidden = hist.length<2;
   dTree.hidden = !p.ahnen;
   dTree.onclick = ()=>{ closeDrawer(); go('oversigt'); setRoot(1); highlight(id); };
@@ -715,7 +718,7 @@ function openPerson(id, push=true){
   dBody.innerHTML = `<div style="display:flex;flex-direction:column;gap:6px">
      <span class="chip"><i class="sw" style="background:${lineVar(p.line)}"></i>${esc(LINES[p.line]||'')}</span>
      <h2 id="d-name" style="font-size:1.5rem">${esc(p.name)}</h2>
-     <a class="linkish" href="${esc(p.permalink)}">Åbn permanent personside ↗</a>
+     <a class="linkish" href="${esc(p.permalink)}">Åbn personens permanente visning ↗</a>
      <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center"><span class="ink2" style="font-size:.9rem">${esc(rel(p))}</span><span class="conf ${p.conf}">${confLabel[p.conf]||p.conf}</span></div></div>
    ${personPhotos.length?'<div class="person-evidence">'+personPhotos.map(ph=>{const i=DATA.photos.indexOf(ph);return i<0?'':`<figure><a href="${esc(photoSourceUrl(ph))}" target="_blank" rel="noopener"><img src="${IMGS[i]}" alt="${esc(ph.title)}"></a><figcaption><b>${esc(ph.title)}</b>${esc(ph.caption||'')}<span>${evidenceLabel(ph.evidence_role)}</span><span>${esc(ph.credit||'')}</span></figcaption></figure>`;}).join('')+'</div>':''}
    <dl>${lifeTxt?`<dt>Liv</dt><dd>${lifeTxt}</dd>`:''}
@@ -737,8 +740,13 @@ function openPerson(id, push=true){
   document.getElementById('d-close').focus({preventScroll:true});
   highlight(id);
 }
-function closeDrawer(){ drawer.hidden=true; scrim.hidden=true; document.body.classList.remove('drawer-open'); hideTip(); if(lastFocus&&lastFocus.focus) lastFocus.focus({preventScroll:true}); }
+function closeDrawer(updateUrl=true){ drawer.hidden=true; scrim.hidden=true; document.body.classList.remove('drawer-open'); hideTip(); if(updateUrl && new URL(location.href).searchParams.has('person')){const u=new URL(location.href);u.searchParams.delete('person');history.replaceState({},'',u.pathname+u.search+u.hash);} if(lastFocus&&lastFocus.focus) lastFocus.focus({preventScroll:true}); }
 dBack.addEventListener('click',()=>{ hist.pop(); openPerson(hist[hist.length-1], false); });
+addEventListener('popstate',()=>{
+  const id=new URL(location.href).searchParams.get('person');
+  if(id && byId[id]) openPerson(id,false);
+  else if(!drawer.hidden) closeDrawer(false);
+});
 document.getElementById('d-close').addEventListener('click',closeDrawer);
 scrim.addEventListener('click',closeDrawer);
 addEventListener('keydown',e=>{
@@ -1120,6 +1128,8 @@ const RENDER={oversigt:()=>{renderOversigt();renderPed(1);}, forskning:renderFor
 let start=location.hash.slice(1), showTree=start==='stamtrae';
 if(!VIEWS.includes(start)) start='oversigt';
 go(start);
+const initialPerson=new URL(location.href).searchParams.get('person');
+if(initialPerson && byId[initialPerson]) requestAnimationFrame(()=>openPerson(initialPerson,false));
 if(showTree) requestAnimationFrame(()=>document.getElementById('stamtrae')?.scrollIntoView({block:'start'}));
 }
 </script>
