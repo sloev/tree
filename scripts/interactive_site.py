@@ -194,10 +194,12 @@ def build():
     imgs = ["media/" + Path(item["file"]).name for item in photos]
 
     source_details = [{"id": str(meta["id"]), "title": str(meta.get("label") or meta.get("title") or meta["id"]), "meta": meta, "body": body} for meta, body, _path in source_records]
+    media_details = [{"id": str(meta["id"]), "title": str(meta.get("title") or meta["id"]), "meta": meta, "body": body} for meta, body, _path in media_records]
     data = {
         "people": people,
         "place_details": place_details,
         "source_details": source_details,
+        "media_details": media_details,
         "places": places,
         "place_urls": place_urls,
         "lines": config.get("lines") or {},
