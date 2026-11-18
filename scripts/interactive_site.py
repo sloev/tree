@@ -173,6 +173,7 @@ def build():
             "branch": meta.get("branch") or "",
             "title": meta.get("title") or str(meta["id"]),
             "status": meta.get("status") or "needs",
+            "body": body,
             "claim": section(body, "Claim"),
             "evidence": section(body, "Evidence"),
             "missing": section(body, "Missing"),
