@@ -1,4 +1,4 @@
-name: Build original interactive genealogy site from reviewed Markdown
+name: Build unified interactive genealogy site from reviewed Markdown
 
 on:
   push:
@@ -49,7 +49,7 @@ jobs:
           python3 scripts/check_local_links.py
           python3 scripts/check_integrity.py
           python3 scripts/check_external_links.py
-      - name: Generate GEDCOM and static HTML
+      - name: Generate GEDCOM and unified interactive site
         run: |
           set -euo pipefail
           python3 scripts/compile_content.py
@@ -58,14 +58,14 @@ jobs:
           test -s family-tree.ged
           test -s docs/index.html
           test -s docs/persons/index.html
-          test -s docs/places/index.html
+          test -s docs/places/index.html\n          test -s docs/sources/index.html\n          test -s docs/media/index.html || true
           test -s docs/research/index.html
-          test -d docs/people
+          test -d docs/people\n          test -s docs/sources/$(find content/sources -maxdepth 1 -name "*.md" | head -n 1 | sed "s#content/sources/##;s#\\.md#.html#")
           test -d docs/places
           grep -q '1 FAMS ' family-tree.ged
           grep -q '1 FAMC ' family-tree.ged
           grep -q 'const DATA = {"people":' docs/index.html
-          grep -q 'function renderPed' docs/index.html
+          grep -q 'function renderPed' docs/index.html\n          grep -q 'place_details' docs/index.html\n          grep -q 'source_details' docs/index.html\n          grep -q '__showPlaceRecord' docs/index.html
           grep -q 'id="stamtrae"' docs/index.html
           test ! -e data/tree.json
           ! grep -R -q 'tree.json' docs/index.html docs/persons docs/research
