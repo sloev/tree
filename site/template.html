@@ -977,6 +977,7 @@ function renderForskning(){
         ${(c.sources||[]).some(x=>String(x.url||'').startsWith('https://'))?'<div><span class="claim-label">Kilder og videre læsning</span><ul class="claim-sources">'+c.sources.filter(x=>String(x.url||'').startsWith('https://')).map(x=>'<li><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.label)+'</a></li>').join('')+'</ul></div>':''}
         ${personSources.length?'<div><span class="claim-label">Kilder på de tilknyttede personer</span><ul class="claim-sources">'+personSources.map(x=>'<li>'+srcLink(x.source)+' <span class="muted">('+esc(x.person)+')</span></li>').join('')+'</ul></div>':''}
       </details>
+      <details class="claim-original"><summary>Hele den oprindelige forskningspost</summary><div style="white-space:pre-wrap;overflow-wrap:anywhere">${esc(c.body||"")}</div></details>
       <div class="claim-foot"><span class="count">Spor-ID: ${esc(c.id)}</span><span class="count">${(c.research_notes||[]).length} overførte noter</span></div>
     </article>`;
     }).join('')||'<p class="muted">Ingen spor matcher søgningen.</p>';
