@@ -1012,7 +1012,8 @@ function renderKort(){
   function showPlace(pl){ ev[pl]=ev[pl]||[]; const d=document.getElementById('placedetail'); d.hidden=false;
     document.getElementById('pd-title').textContent=pl;
     const detail=(DATA.place_details||[]).find(x=>x.name===pl); d.innerHTML=`<span class="muted">${esc(DATA.places[pl]?.[2]||detail?.meta?.region||"Sted")} · ${ev[pl].length} hændelser</span>`+(detail?.body?`<p style="white-space:pre-wrap">${esc(detail.body)}</p>`:"")+`<a class="linkish" href="${esc(DATA.place_urls?.[pl]||"#")}">Permanent link ↗</a>`+ev[pl].map(e=>`<span>${personLink(e.p)} <span class="muted">${esc(e.what)}</span></span>`).join('')+`<button class="linkish" id="pd-all" style="margin-top:6px">Vis alle steder</button>`;
-    window.__showPlaceRecord=(id)=>{const rec=(DATA.place_details||[]).find(x=>x.id===String(id));if(rec)showPlace(rec.name);}; wire(d); document.getElementById('pd-all').addEventListener('click',()=>{d.hidden=true;document.getElementById('pd-title').textContent='Steder efter antal hændelser';}); }
+    wire(d); document.getElementById('pd-all').addEventListener('click',()=>{d.hidden=true;document.getElementById('pd-title').textContent='Steder efter antal hændelser';}); }
+  window.__showPlaceRecord=(id)=>{const rec=(DATA.place_details||[]).find(x=>x.id===String(id));if(rec)showPlace(rec.name);};
   function drawMap(svg, vb, labelFor){
     const s = MAP.W / vb[2];
     svg.setAttribute('viewBox', vb.join(' '));
