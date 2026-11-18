@@ -85,3 +85,20 @@
 **Unresolved questions:** Exact free-access status of G302 protocol images on Arkivalieronline / FamilySearch; whether the extract PDF rights allow local archival of the index.
 
 **Next handoff:** If rights permit, archive the extract PDF locally in a future approved publication package; otherwise request alternative primary images via private intake. Continue one open claim at a time. DNA and raw captures remain restricted to tree_private.
+
+
+## 2026-11-19 — DONE: Langeland map inset and overseas migration leads
+
+**Agent:** OpenAI GPT-6. **Repository/branch:** sloev/tree, main.
+
+**Scope:** Extend the existing unified `#kort` view without creating a parallel map page or editing generated `docs/` output.
+
+**Files changed:**
+- `site/template.html`: added a dedicated Langeland zoom panel, populated dynamically from public place records whose region is Langeland; the map reuses the existing Denmark projection and place-event data. Added a short panel linking current overseas migration research leads for Fresno, Shanghai and Eldorado/Argentina. Added an optional place filter to the shared SVG map renderer so the Langeland inset only displays Langeland events.
+- `coop.log.md`: this handoff.
+
+**Research/evidence boundary:** The overseas items are explicitly labelled as research leads, not as proven Langeland departures or established routes. Fresno (Iver Peder Holgersen) remains an unresolved identity/destination lead; Shanghai is an emigration-contract reference for Olaf Gedde; the Eldorado/Argentina identification of Eduard/Edouard Gedde with Emil Ludvig Edvard Gedde remains a hypothesis. No Brazil route or Langeland-to-Americas route is asserted. No person or GEDCOM relationship was changed.
+
+**Validation:** Template edit committed as `fd776a6cfa39b93b2ead2bc9cc44ffb99b41a3da`. No local browser render or build was available in this GitHub-only editing pass; CI/build and live Pages rendering must be checked before claiming deployment success.
+
+**Next:** Inspect the generated Langeland inset and confirm that all current Langeland place records are plotted. Then build a genuine overseas migration map from individually identified people, with departure, arrival and settlement events separated and source/validation status visible. Research Langeland emigrants to the USA, Argentina and Brazil before drawing any specific origin-to-destination route.
