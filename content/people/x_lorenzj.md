@@ -1,0 +1,13 @@
+---
+id: "x_lorenzj"
+schema: person/v1
+name: "Privat person"
+sex: "M"
+line: "gedde"
+father: "s_p26_2"
+mother: "g_luise"
+spouse: "x_sonjal"
+rel: "slægtning"
+living: true
+conf: "told"
+---

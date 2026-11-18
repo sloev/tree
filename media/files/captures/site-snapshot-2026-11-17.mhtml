@@ -1,0 +1,3677 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://sloev.github.io/tree/#forskning
+Subject: =?utf-8?Q?Sl=C3=A6gten=20G=C3=A5rdsted=20og=20Gedde?=
+Date: Tue, 17 Nov 2026 16:53:28 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--LvRw9FWS9HxhI6ZfW9tjATcFlgmRixHOFB7a1XQ2NT----"
+
+
+------MultipartBoundary--LvRw9FWS9HxhI6ZfW9tjATcFlgmRixHOFB7a1XQ2NT----
+Content-Type: text/html
+Content-ID: <frame-C4A12196BAB95698F6FDC8E570EFBF93@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://sloev.github.io/tree/#forskning
+
+<!DOCTYPE html><html lang=3D"da"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-eb6d61fb-3875-42ca-9ef2-7fa44069bb78@mhtml.blink" /><l=
+ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-fe740c36-a240-4143=
+-99fd-8f8ebbb598a8@mhtml.blink" />
+
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1,=
+ viewport-fit=3Dcover">
+<title>Sl=C3=A6gten G=C3=A5rdsted og Gedde</title>
+<link rel=3D"preconnect" href=3D"https://fonts.googleapis.com/">
+<link rel=3D"stylesheet" href=3D"https://fonts.googleapis.com/css2?family=
+=3DIM+Fell+DW+Pica:ital@0;1&amp;family=3DInstrument+Sans:wght@400;500;600&a=
+mp;family=3DIBM+Plex+Mono:wght@400;500&amp;display=3Dswap">
+
+<link id=3D"appwriter-cloud-style" type=3D"text/css" rel=3D"stylesheet" hre=
+f=3D"chrome-extension://lokadhdaghfjbmailhhenifjejpokche/css/content.css"><=
+/head>
+<body>
+<div class=3D"wrap">
+<header class=3D"mast">
+  <div class=3D"lead">
+    <span class=3D"eyebrow" id=3D"eyebrow">Sl=C3=A6gtsbog</span>
+    <h1>Sl=C3=A6gten G=C3=A5rdsted og Gedde</h1>
+  </div>
+  <div style=3D"display:flex;flex-direction:column;gap:8px;align-items:flex=
+-end">
+    <div class=3D"lock" id=3D"lockbox">
+      <button type=3D"button" class=3D"icon-btn" id=3D"lock-open">Vis priva=
+te personer</button>
+     =20
+     =20
+    </div>
+    <div class=3D"legend" id=3D"legend"></div>
+  </div>
+</header>
+<nav class=3D"tabs" aria-label=3D"Forsidens sektioner">
+  <a href=3D"https://sloev.github.io/tree/#stamtrae" data-anchor=3D"stamtra=
+e">Stamtr=C3=A6</a>
+  <a href=3D"https://sloev.github.io/tree/#nyheder" data-anchor=3D"nyheder"=
+>Nyheder</a>
+  <a href=3D"https://sloev.github.io/tree/#fortaellinger" data-anchor=3D"fo=
+rtaellinger">Tema-fort=C3=A6llinger</a>
+  <a href=3D"https://sloev.github.io/tree/#forskning" data-view=3D"forsknin=
+g">Forskningsspor</a>
+  <a href=3D"https://sloev.github.io/tree/#tal" data-view=3D"tal">Tal</a>
+  <a href=3D"https://sloev.github.io/tree/#personer" data-view=3D"personer"=
+>Personer</a>
+  <a href=3D"https://sloev.github.io/tree/plakat.html" target=3D"_blank" re=
+l=3D"noopener" class=3D"ext">Plakat =E2=86=97</a>
+</nav>
+
+<!-- =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D OVERSIGT =3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D -->
+<section class=3D"view" id=3D"v-oversigt">
+  <div class=3D"block homepage-tree" id=3D"stamtrae">
+    <div class=3D"sec-head"><span class=3D"eyebrow">Anetavle</span><h2>Stam=
+tr=C3=A6et</h2><p class=3D"muted">F=C3=B8lg sl=C3=A6gten fra venstre mod h=
+=C3=B8jre gennem generationerne. Godt belagte personer vises som standard. =
+Usikre led kan vises med =E2=80=9CVis aktuelle i unders=C3=B8gelse=E2=80=9D=
+; v=C3=A6lg et navn for livshistorie og kilder. P=C3=A5 sm=C3=A5 sk=C3=A6rm=
+e l=C3=A6gges tr=C3=A6et lodret for at undg=C3=A5 sidev=C3=A6rts rulning.</=
+p></div>
+    <div class=3D"toolbar"><div class=3D"seg" role=3D"group" aria-label=3D"=
+Vis del af tr=C3=A6et"><button type=3D"button" data-root=3D"1" aria-pressed=
+=3D"true">Hele tr=C3=A6et</button><button type=3D"button" data-root=3D"2" a=
+ria-pressed=3D"false">Fars side</button><button type=3D"button" data-root=
+=3D"3" aria-pressed=3D"false">Mors side</button></div><label class=3D"uncer=
+tain-toggle"><input id=3D"show-uncertain" type=3D"checkbox"> Vis aktuelle i=
+ unders=C3=B8gelse</label><span class=3D"count" id=3D"pedcount"></span><spa=
+n class=3D"ft-recent-legend"><i class=3D"ft-recent-dot" aria-hidden=3D"true=
+"></i> Redigeret seneste 30 dage</span></div>
+    <div class=3D"ped-scroll" id=3D"pedscroll" role=3D"region" aria-label=
+=3D"Sl=C3=A6gtens stamtr=C3=A6"><div id=3D"ped" class=3D"ped-tree" role=3D"=
+tree" aria-label=3D"Sl=C3=A6gtens anetr=C3=A6"></div></div>
+    <p class=3D"note-box">Tr=C3=A6et viser Lorenz' biologiske far, <button =
+class=3D"linkish" data-pid=3D"sofus">Sophus Petersen</button>, if=C3=B8lge =
+familiens viden. <button class=3D"linkish" data-pid=3D"p12">Wilhelm Krogh</=
+button> tog skylden og st=C3=A5r som far i standsregistret. Lorenz voksede =
+op hos stedfaren <button class=3D"linkish" data-pid=3D"pf12">Peter Frederik=
+sen</button>.</p>
+  </div>
+
+  <div class=3D"block">
+    <div class=3D"block bulletin" id=3D"nyheder">
+    <div class=3D"sec-head"><span class=3D"eyebrow">Sl=C3=A6gtsforskning =
+=C2=B7 =C3=A6ndringer og nye fund</span><h2>Nyhedsbulletin</h2><p class=3D"=
+muted">Daterede opdateringer til stamtr=C3=A6et og kildearbejdet.</p></div>
+    <div class=3D"bulletin-list" id=3D"nyheder-list" aria-live=3D"polite">
+      <article class=3D"bulletin-item auto-bulletin" data-created-at=3D"202=
+6-11-17T15:18:03Z"><time datetime=3D"2026-11-17">17.11.2026</time><span cla=
+ss=3D"conf probable">Automatisk opdatering</span><h3>Attach uploaded histor=
+ical search leads to existing research tracks</h3><p>Det offentlige forskni=
+ngsregister eller andre kanoniske data er opdateret. Se forskningssiden for=
+ de aktuelle spor.</p></article><article class=3D"bulletin-item auto-bullet=
+in" data-created-at=3D"2026-11-17T14:24:23Z"><time datetime=3D"2026-11-17">=
+17.11.2026</time><span class=3D"conf probable">Automatisk opdatering</span>=
+<h3>Refine 1833 Langeland appeal archival search route</h3><p>Det offentlig=
+e forskningsregister eller andre kanoniske data er opdateret. Se forsknings=
+siden for de aktuelle spor.</p></article><article class=3D"bulletin-item au=
+to-bulletin" data-created-at=3D"2026-11-17T13:51:22Z"><time datetime=3D"202=
+6-11-17">17.11.2026</time><span class=3D"conf probable">Automatisk opdateri=
+ng</span><h3>Document Link-Lives individual record URL format on Liss claim=
+s</h3><p>Det offentlige forskningsregister eller andre kanoniske data er op=
+dateret. Se forskningssiden for de aktuelle spor.</p></article><article cla=
+ss=3D"bulletin-item auto-bulletin" data-created-at=3D"2026-11-17T13:40:03Z"=
+><time datetime=3D"2026-11-17">17.11.2026</time><span class=3D"conf probabl=
+e">Automatisk opdatering</span><h3>Stamtr=C3=A6 opdateret: Rasmus Jensen, A=
+nna Maria Margaretha Christiansen f. Christiansen, Andreas Christensen, Ann=
+a Maria Matzen f. Matzen, Thomas Jensen (+258)</h3><p>Personoplysninger er =
+=C3=A6ndret i den kanoniske datafil. =C3=85bn personkortene for aktuelle da=
+toer, noter og kilder.</p></article><article class=3D"bulletin-item auto-bu=
+lletin" data-created-at=3D"2026-11-17T13:36:05Z"><time datetime=3D"2026-11-=
+17">17.11.2026</time><span class=3D"conf probable">Automatisk opdatering</s=
+pan><h3>Add Gerda court-case archive locators</h3><p>Det offentlige forskni=
+ngsregister eller andre kanoniske data er opdateret. Se forskningssiden for=
+ de aktuelle spor.</p></article><article class=3D"bulletin-item auto-bullet=
+in" data-created-at=3D"2026-11-17T13:11:21Z"><time datetime=3D"2026-11-17">=
+17.11.2026</time><span class=3D"conf probable">Automatisk opdatering</span>=
+<h3>Correct Bogensholm deed archive route to Viborg Landsting</h3><p>Det of=
+fentlige forskningsregister eller andre kanoniske data er opdateret. Se for=
+skningssiden for de aktuelle spor.</p></article><article class=3D"bulletin-=
+item auto-bulletin" data-created-at=3D"2026-11-17T00:50:11Z"><time datetime=
+=3D"2026-11-17">17.11.2026</time><span class=3D"conf probable">Automatisk o=
+pdatering</span><h3>Locate Vor Frue 1854 marriage index for Evald line</h3>=
+<p>Det offentlige forskningsregister eller andre kanoniske data er opdatere=
+t. Se forskningssiden for de aktuelle spor.</p></article><article class=3D"=
+bulletin-item auto-bulletin" data-created-at=3D"2026-11-17T00:49:51Z"><time=
+ datetime=3D"2026-11-17">17.11.2026</time><span class=3D"conf probable">Aut=
+omatisk opdatering</span><h3>Trace Iver Holgersen 1910 emigration register =
+series</h3><p>Det offentlige forskningsregister eller andre kanoniske data =
+er opdateret. Se forskningssiden for de aktuelle spor.</p></article><articl=
+e class=3D"bulletin-item auto-bulletin" data-created-at=3D"2026-11-17T00:49=
+:20Z"><time datetime=3D"2026-11-17">17.11.2026</time><span class=3D"conf pr=
+obable">Automatisk opdatering</span><h3>Identify Vibyg=C3=A5rd estate archi=
+ve series for Evald research</h3><p>Det offentlige forskningsregister eller=
+ andre kanoniske data er opdateret. Se forskningssiden for de aktuelle spor=
+.</p></article><article class=3D"bulletin-item auto-bulletin" data-created-=
+at=3D"2026-11-17T00:48:43Z"><time datetime=3D"2026-11-17">17.11.2026</time>=
+<span class=3D"conf probable">Automatisk opdatering</span><h3>Pinpoint Liss=
+ branch 1812 parish register sources</h3><p>Det offentlige forskningsregist=
+er eller andre kanoniske data er opdateret. Se forskningssiden for de aktue=
+lle spor.</p></article><article class=3D"bulletin-item auto-bulletin" data-=
+created-at=3D"2026-11-17T00:46:53Z"><time datetime=3D"2026-11-17">17.11.202=
+6</time><span class=3D"conf probable">Automatisk opdatering</span><h3>Deepe=
+n Djursland probate, auction and leasehold source routes</h3><p>Det offentl=
+ige forskningsregister eller andre kanoniske data er opdateret. Se forsknin=
+gssiden for de aktuelle spor.</p></article><article class=3D"bulletin-item =
+auto-bulletin" data-created-at=3D"2026-11-17T00:46:29Z"><time datetime=3D"2=
+026-11-17">17.11.2026</time><span class=3D"conf probable">Automatisk opdate=
+ring</span><h3>Deepen Liss baptism and marriage source verification routes<=
+/h3><p>Det offentlige forskningsregister eller andre kanoniske data er opda=
+teret. Se forskningssiden for de aktuelle spor.</p></article><article class=
+=3D"bulletin-item auto-bulletin" data-created-at=3D"2026-11-17T00:46:06Z"><=
+time datetime=3D"2026-11-17">17.11.2026</time><span class=3D"conf probable"=
+>Automatisk opdatering</span><h3>Add archival registers and source-critical=
+ notes to Magleby claims</h3><p>Det offentlige forskningsregister eller and=
+re kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.</p=
+></article><article class=3D"bulletin-item auto-bulletin" data-created-at=
+=3D"2026-11-17T00:45:50Z"><time datetime=3D"2026-11-17">17.11.2026</time><s=
+pan class=3D"conf probable">Automatisk opdatering</span><h3>Deepen Lang=C3=
+=B8 deed and causeway research with local archive sources</h3><p>Det offent=
+lige forskningsregister eller andre kanoniske data er opdateret. Se forskni=
+ngssiden for de aktuelle spor.</p></article><article class=3D"bulletin-item=
+ auto-bulletin" data-created-at=3D"2026-11-17T00:45:37Z"><time datetime=3D"=
+2026-11-17">17.11.2026</time><span class=3D"conf probable">Automatisk opdat=
+ering</span><h3>Add archival search routes for paternity and Djursland prop=
+erty claims</h3><p>Det offentlige forskningsregister eller andre kanoniske =
+data er opdateret. Se forskningssiden for de aktuelle spor.</p></article><a=
+rticle class=3D"bulletin-item auto-bulletin" data-created-at=3D"2026-11-17T=
+00:42:56Z"><time datetime=3D"2026-11-17">17.11.2026</time><span class=3D"co=
+nf probable">Automatisk opdatering</span><h3>Deepen Langeland research with=
+ targeted DAISY archive routes</h3><p>Det offentlige forskningsregister ell=
+er andre kanoniske data er opdateret. Se forskningssiden for de aktuelle sp=
+or.</p></article><article class=3D"bulletin-item auto-bulletin" data-create=
+d-at=3D"2026-11-17T00:40:28Z"><time datetime=3D"2026-11-17">17.11.2026</tim=
+e><span class=3D"conf probable">Automatisk opdatering</span><h3>Complete re=
+search note metadata required by canonical build</h3><p>Det offentlige fors=
+kningsregister eller andre kanoniske data er opdateret. Se forskningssiden =
+for de aktuelle spor.</p></article><article class=3D"bulletin-item auto-bul=
+letin" data-created-at=3D"2026-11-17T00:22:52Z"><time datetime=3D"2026-11-1=
+7">17.11.2026</time><span class=3D"conf probable">Automatisk opdatering</sp=
+an><h3>Add precise DAISY archive paths for Bogensholm records</h3><p>Det of=
+fentlige forskningsregister eller andre kanoniske data er opdateret. Se for=
+skningssiden for de aktuelle spor.</p></article><article class=3D"bulletin-=
+item auto-bulletin" data-created-at=3D"2026-11-17T00:20:59Z"><time datetime=
+=3D"2026-11-17">17.11.2026</time><span class=3D"conf probable">Automatisk o=
+pdatering</span><h3>Record negative G298 probate index check</h3><p>Det off=
+entlige forskningsregister eller andre kanoniske data er opdateret. Se fors=
+kningssiden for de aktuelle spor.</p></article><article class=3D"bulletin-i=
+tem auto-bulletin" data-created-at=3D"2026-11-17T00:19:54Z"><time datetime=
+=3D"2026-11-17">17.11.2026</time><span class=3D"conf probable">Automatisk o=
+pdatering</span><h3>Stamtr=C3=A6 opdateret: Rasmus Jensen</h3><p>Personoply=
+sninger er =C3=A6ndret i den kanoniske datafil. =C3=85bn personkortene for =
+aktuelle datoer, noter og kilder.</p></article><article class=3D"bulletin-i=
+tem auto-bulletin" data-created-at=3D"2026-11-17T00:19:28Z"><time datetime=
+=3D"2026-11-17">17.11.2026</time><span class=3D"conf probable">Automatisk o=
+pdatering</span><h3>Stamtr=C3=A6 opdateret: Claus Gaardsted</h3><p>Personop=
+lysninger er =C3=A6ndret i den kanoniske datafil. =C3=85bn personkortene fo=
+r aktuelle datoer, noter og kilder.</p></article><article class=3D"bulletin=
+-item auto-bulletin" data-created-at=3D"2026-11-17T00:18:51Z"><time datetim=
+e=3D"2026-11-17">17.11.2026</time><span class=3D"conf probable">Automatisk =
+opdatering</span><h3>Stamtr=C3=A6 opdateret: Claus Gaardsted</h3><p>Persono=
+plysninger er =C3=A6ndret i den kanoniske datafil. =C3=85bn personkortene f=
+or aktuelle datoer, noter og kilder.</p></article><article class=3D"bulleti=
+n-item auto-bulletin" data-created-at=3D"2026-11-16T23:32:48Z"><time dateti=
+me=3D"2026-11-16">16.11.2026</time><span class=3D"conf probable">Automatisk=
+ opdatering</span><h3>Sort bulletin entries by absolute timestamp</h3><p>De=
+t offentlige forskningsregister eller andre kanoniske data er opdateret. Se=
+ forskningssiden for de aktuelle spor.</p></article><article class=3D"bulle=
+tin-item auto-bulletin" data-created-at=3D"2026-11-16T23:32:05Z"><time date=
+time=3D"2026-11-16">16.11.2026</time><span class=3D"conf probable">Automati=
+sk opdatering</span><h3>Revise Dejret stepchild hypothesis with 1775 probat=
+e</h3><p>Det offentlige forskningsregister eller andre kanoniske data er op=
+dateret. Se forskningssiden for de aktuelle spor.</p></article><article cla=
+ss=3D"bulletin-item auto-bulletin" data-created-at=3D"2026-11-16T23:30:54Z"=
+><time datetime=3D"2026-11-16">16.11.2026</time><span class=3D"conf probabl=
+e">Automatisk opdatering</span><h3>Order bulletin entries by precise commit=
+ time</h3><p>Det offentlige forskningsregister eller andre kanoniske data e=
+r opdateret. Se forskningssiden for de aktuelle spor.</p></article><article=
+ class=3D"bulletin-item auto-bulletin" data-created-at=3D"2026-11-17T00:29:=
+23+01:00"><time datetime=3D"2026-11-16">16.11.2026</time><span class=3D"con=
+f probable">Automatisk opdatering</span><h3>Add probate cross-checks to Rou=
+sing and Tohde research</h3><p>Det offentlige forskningsregister eller andr=
+e kanoniske data er opdateret. Se forskningssiden for de aktuelle spor.</p>=
+</article><article class=3D"bulletin-item auto-bulletin" data-created-at=3D=
+"2026-11-17T00:28:07+01:00"><time datetime=3D"2026-11-16">16.11.2026</time>=
+<span class=3D"conf probable">Automatisk opdatering</span><h3>Make news bul=
+letin append-only with progressive display</h3><p>Det offentlige forsknings=
+register eller andre kanoniske data er opdateret. Se forskningssiden for de=
+ aktuelle spor.</p></article><article class=3D"bulletin-item auto-bulletin"=
+ data-created-at=3D"2026-11-17T00:23:40+01:00"><time datetime=3D"2026-11-16=
+">16.11.2026</time><span class=3D"conf probable">Automatisk opdatering</spa=
+n><h3>Research: clarify stepchild wording in Rols=C3=B8g=C3=A5rd probate ex=
+tract</h3><p>Det offentlige forskningsregister eller andre kanoniske data e=
+r opdateret. Se forskningssiden for de aktuelle spor.</p></article>
+      <article class=3D"bulletin-item"><time datetime=3D"2026-11-16">16. no=
+vember 2026</time><span class=3D"conf probable">Kildekritisk revision</span=
+><h3>Kleist=E2=80=93Gedde: Christian Adams d=C3=A5b og Frederikkes navnevar=
+iant</h3><p>Harbou (1897, s. 100=E2=80=93102) angiver Christian Adam III.46=
+6 som s=C3=B8n af Cartz Ulrik III.369 og Barbara Juliane von Kleist og g=C3=
+=B8r opm=C3=A6rksom p=C3=A5, at den =C3=A6ldre Dansk biografisk Lexikon fej=
+lagtigt gjorde hans morfar Christian Casimir til far. Harbou angiver d=C3=
+=A5b i Vor Frelsers Kirke 1. oktober 1705, og Familienverband derer v. Klei=
+st oplyser, at en dansk arkivunders=C3=B8gelse fandt samme dato og navnefor=
+men Adam. Ingen af disse henvisninger giver dog en pr=C3=A6cis side eller b=
+illedreference; Harbous note 28 citerer ikke selve d=C3=A5bsindf=C3=B8rslen=
+. Den originale indf=C3=B8rsel er derfor endnu ikke afskrevet, og klokkeren=
+s parallelle kirkebog skal ogs=C3=A5 unders=C3=B8ges. En uafh=C3=A6ngig Fre=
+densborg Slotssogn-d=C3=A5b 24. juli 1808 (BSID 594366, billede 65) kalder =
+Ove Samuel Geddes hustru =E2=80=9CFrederikke Lovise Birthe f=C3=B8dt Kleist=
+=E2=80=9D, mens Harbou kalder hende Frederikke Louise Dorthea. Det st=C3=B8=
+tter identifikationen af hustruen som f=C3=B8dt Kleist, men navnevarianten =
+og hendes for=C3=A6ldre kr=C3=A6ver fortsat kildekontrol. Ingen kanoniske r=
+elationer =C3=A6ndres i denne opdatering. <a href=3D"https://www.v-kleist.c=
+om/FG_allg/Kleist_in_Daenemark.pdf" target=3D"_blank" rel=3D"noopener">Harb=
+ou 1897, s. 100=E2=80=93102</a> =C2=B7 <a href=3D"https://www.rigsarkivet.d=
+k/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/=
+" target=3D"_blank" rel=3D"noopener">Rigsarkivets vejledning til kirkeb=C3=
+=B8ger</a>.</p></article>
+      <article class=3D"bulletin-item"><time datetime=3D"2026-11-16">16. no=
+vember 2026</time><span class=3D"conf probable">Arkivspor identificeret</sp=
+an><h3>Vor Frelsers 1705: parallelle kirkeb=C3=B8ger giver en pr=C3=A6cis s=
+=C3=B8gevej</h3><p>En kirkebogsoversigt forklarer, at Vor Frelsers f=C3=B8r=
+te parallelle d=C3=A5bsb=C3=B8ger hos pr=C3=A6sten og klokkeren. Klokkerens=
+ navneregister 1704=E2=80=931822 er bind 20 og henviser til d=C3=A5bsb=C3=
+=B8gerne i bind 15=E2=80=9319 og 36. En vigtig opdatering: Rigsarkivets rel=
+ease-noter fra oktober og november 2025 viser, at netop dette register blev=
+ frigivet p=C3=A5 Arkivalieronline (f=C3=B8rst 1704=E2=80=931749, siden 170=
+4=E2=80=931822). Registeret kan derfor s=C3=B8ges online. Det er endnu ikke=
+ =C3=A5bnet eller afskrevet her, og Christian Adam er ikke fundet i det. Pr=
+=C3=A6stens FVD 1686=E2=80=931722 skal kontrolleres s=C3=A6rskilt. Det g=C3=
+=B8r s=C3=B8gevejen konkret for Christian Adams rapporterede d=C3=A5b 1. ok=
+tober 1705. Men selve indf=C3=B8rslen er endnu ikke l=C3=A6st, s=C3=A5 dato=
+ og for=C3=A6ldre er fortsat p=C3=A5 status =E2=80=9CKr=C3=A6ver mere bel=
+=C3=A6g=E2=80=9D. <a href=3D"https://slaegtsbibliotek.dk/900379.pdf" target=
+=3D"_blank" rel=3D"noopener">Kirkebogsoversigten</a> =C2=B7 <a href=3D"http=
+s://www.rigsarkivet.dk/wp-content/uploads/2022/02/Nyt-fra-de-frivillige-jan=
+uar-2025.pdf" target=3D"_blank" rel=3D"noopener">Rigsarkivets registrering<=
+/a>.</p></article>
+      <article class=3D"bulletin-item"><time datetime=3D"2026-11-16">16. no=
+vember 2026</time><span class=3D"conf probable">Kildekontrol</span><h3>Chri=
+stian von Kleists Tychow-linje: de nummererede biografier kontrolleret</h3>=
+<p>Den reviderede Tychow-Dubberow-familiehistorie (2025) angiver Christian =
+II.60 som s=C3=B8n af Bernd II.39, s=C3=B8n af Carsten II.21, s=C3=B8n af A=
+ndreas II.11. En vigtig rettelse: Andreas II.11 var s=C3=B8n af Bartes II.3=
+, der var bror til Reimer II.2; han var ikke s=C3=B8n af Bartez II.6. Barte=
+z II.6 var Reimers s=C3=B8n i en s=C3=A6rskilt gren. Kilden f=C3=B8rer desu=
+den Christian II.60 videre til s=C3=B8nnen Christian Casimir II.82 og datte=
+ren Barbara Juliane, der blev gift med Cartz Ulrich III.369. Det er klare u=
+dsagn i en moderne familiehistorisk udgave, som henviser til =C3=A6ldre dok=
+umenter; de enkelte originalkilder skal fortsat kontrolleres, f=C3=B8r k=C3=
+=A6den importeres i stamtr=C3=A6et.</p></article>
+
+      <article class=3D"bulletin-item"><time datetime=3D"2026-11-16">16. no=
+vember 2026</time><span class=3D"conf">Dokumentfund</span><h3>Von Kleist: 1=
+364- og 1477-kilderne er skilt ad</h3><p>Den reviderede Muttrin-historie fr=
+a 2025 henviser udtrykkeligt til Urkunde 83 fra 1364, hvor Pri=C3=9Febur, k=
+aldet Klest von Muttrin, n=C3=A6vnes som medejer af jord i Glineke. En ande=
+n kilde, Urkunde 125 fra 13. april 1477, gengiver hertugens f=C3=A6lles len=
+sbrev og opregner Muttrin-, Damen-, Tychow/Dubberow- og Vilnow/Raddatz-gren=
+ene. Det er reelle dokumentariske holdepunkter, men forbindelsen mellem de =
+tidlige personer og den senere danske gren skal stadig kontrolleres led for=
+ led. Damen-erhvervelsen omkring 1365 er en s=C3=A6rskilt oplysning og m=C3=
+=A5 ikke forveksles med 1364-dokumentet.</p></article>
+      <article class=3D"bulletin-item"><time datetime=3D"2026-11-16">16. no=
+vember 2026</time><span class=3D"conf probable">Kildekritisk pr=C3=A6ciseri=
+ng</span><h3>Von Kleist: 1477-brevet dokumenterer grenene, ikke hele anetav=
+len</h3><p>1477-brevet siger, at de tilstedev=C3=A6rende Kleist-sl=C3=A6gte=
+r nedstammer fra =C3=A9n stamfader med tre s=C3=B8nner, og identificerer de=
+ tre hovedlinjer. Det dokumenterer ikke i sig selv alle mellemled tilbage t=
+il 1200-tallet eller forbindelsen til Cartz Ulrik von Kleist. Den revidered=
+e Muttrin-historie siger selv, at den tidlige personr=C3=A6kkef=C3=B8lge er=
+ en sandsynlig rekonstruktion baseret p=C3=A5 samtidige dokumenter og sener=
+e familieoptegnelser.</p></article>
+      <article class=3D"bulletin-item"><time datetime=3D"2026-11-16">16. no=
+vember 2026</time><span class=3D"conf">Kildeidentifikation</span><h3>Dybb=
+=C3=B8l kirkebog: vielsesbogen er identificeret</h3><p>Arkivets registratur=
+ fastsl=C3=A5r, at Dybb=C3=B8l Ab 4 d=C3=A6kker vielser 1861=E2=80=931906. =
+Det indsn=C3=A6vrer s=C3=B8gningen efter Rasmus Jensen og Anne Christine Ha=
+nsens vielse 18. september 1866. Selve indf=C3=B8rslen er endnu ikke fundet=
+ og afskrevet, s=C3=A5 ingen for=C3=A6ldre er =C3=A6ndret p=C3=A5 dette gru=
+ndlag.</p></article>
+      <article class=3D"bulletin-item"><time datetime=3D"2026-11-16">16. no=
+vember 2026</time><span class=3D"conf probable">Rettelse</span><h3>Dybb=C3=
+=B8l side 169: tidligere tolkning korrigeret</h3><p>Henvisningen KMB 1861=
+=E2=80=931927, side 169, billede 85, nr. 1, h=C3=B8rer til =C3=A6gteskabsde=
+len i Ab 4 og m=C3=A5 ikke omtales som en d=C3=A5bsindf=C3=B8rsel. Den er i=
+kke det samme som den endnu uidentificerede vielse i 1866.</p></article>
+    </div>
+    <div class=3D"bulletin-more-wrap">
+     =20
+      <span class=3D"muted" id=3D"bulletin-count" aria-live=3D"polite"></sp=
+an>
+    </div>
+  </div>
+
+  <div class=3D"block" id=3D"fortaellinger">
+    <div class=3D"sec-head"><span class=3D"eyebrow">Tema-fort=C3=A6llinger<=
+/span><h2>Det, kilderne fort=C3=A6ller</h2></div>
+    <div class=3D"stories" id=3D"stories"></div>
+  </div>
+
+</div></section>
+
+<!-- =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D PERSONER =3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D -->
+
+
+
+
+<!-- =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D KORT =3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D -->
+
+
+<!-- =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D TAL =3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D -->
+
+
+<!-- =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D KILDER =3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D -->
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div id=3D"appwriter-loading" style=3D"display: none;"></div><div id=3D"app=
+writer-predictions-wrapper" dir=3D"ltr" style=3D"">
+<div id=3D"appwriter-predictions-arrow-top"></div>
+<div id=3D"appwriter-predictions-border">
+  <div id=3D"appwriter-predictions-pin">
+    <button class=3D"appwriter-predictions-button" i18n-title=3D"mute_readi=
+ng_predictions" id=3D"appwriter-predictions-mute-btn" title=3D"Sl=C3=A5 lyd=
+ fra/til">
+      <i class=3D"appwriter-predictions-btn-icon appwriter-predictions-spea=
+ker"></i>
+    </button>
+    <button class=3D"" id=3D"appwriter-predictions-pin-btn">
+      <i class=3D"appwriter-predictions-btn-icon" id=3D"appwriter-predictio=
+ns-pin-btn-icon"></i>
+    </button>
+  </div>
+  <div id=3D"appwriter-predictions">
+    <div id=3D"appwriter-prediction-numbers">
+      <div class=3D"prediction-number" title=3D"">1</div><div class=3D"pred=
+iction-number" title=3D"">2</div><div class=3D"prediction-number" title=3D"=
+">3</div><div class=3D"prediction-number" title=3D"">4</div><div class=3D"p=
+rediction-number" title=3D"">5</div><div class=3D"prediction-number" title=
+=3D"">6</div><div class=3D"prediction-number" title=3D"">7</div><div class=
+=3D"prediction-number" title=3D"">8</div><div class=3D"prediction-number" t=
+itle=3D"">9</div>
+      <div class=3D"prediction-number" title=3D"">0</div>
+    </div>
+    <div id=3D"appwriter-speech-model-predictions">
+                <div class=3D"prediction" title=3D"" data-type=3D"speechMod=
+el" data-index=3D"0" data-prediction=3D"">              <span class=3D"pred=
+iction-text" translate=3D"no"><strong> </strong> </span>              <div =
+class=3D"prediction-play"></div>          </div>          <div class=3D"pre=
+diction" title=3D"" data-type=3D"speechModel" data-index=3D"1" data-predict=
+ion=3D"">              <span class=3D"prediction-text" translate=3D"no"><st=
+rong> </strong> </span>              <div class=3D"prediction-play"></div> =
+         </div>          <div class=3D"prediction" title=3D"" data-type=3D"=
+speechModel" data-index=3D"2" data-prediction=3D"">              <span clas=
+s=3D"prediction-text" translate=3D"no"><strong> </strong> </span>          =
+    <div class=3D"prediction-play"></div>          </div>          <div cla=
+ss=3D"prediction" title=3D"" data-type=3D"speechModel" data-index=3D"3" dat=
+a-prediction=3D"">              <span class=3D"prediction-text" translate=
+=3D"no"><strong> </strong> </span>              <div class=3D"prediction-pl=
+ay"></div>          </div>          <div class=3D"prediction" title=3D"" da=
+ta-type=3D"speechModel" data-index=3D"4" data-prediction=3D"">             =
+ <span class=3D"prediction-text" translate=3D"no"><strong> </strong> </span=
+>              <div class=3D"prediction-play"></div>          </div>       =
+   <div class=3D"prediction" title=3D"" data-type=3D"speechModel" data-inde=
+x=3D"5" data-prediction=3D"">              <span class=3D"prediction-text" =
+translate=3D"no"><strong> </strong> </span>              <div class=3D"pred=
+iction-play"></div>          </div>          <div class=3D"prediction" titl=
+e=3D"" data-type=3D"speechModel" data-index=3D"6" data-prediction=3D"">    =
+          <span class=3D"prediction-text" translate=3D"no"><strong> </stron=
+g> </span>              <div class=3D"prediction-play"></div>          </di=
+v>          <div class=3D"prediction" title=3D"" data-type=3D"speechModel" =
+data-index=3D"7" data-prediction=3D"">              <span class=3D"predicti=
+on-text" translate=3D"no"><strong> </strong> </span>              <div clas=
+s=3D"prediction-play"></div>          </div>          <div class=3D"predict=
+ion" title=3D"" data-type=3D"speechModel" data-index=3D"8" data-prediction=
+=3D"">              <span class=3D"prediction-text" translate=3D"no"><stron=
+g> </strong> </span>              <div class=3D"prediction-play"></div>    =
+      </div>          <div class=3D"prediction" title=3D"" data-type=3D"spe=
+echModel" data-index=3D"9" data-prediction=3D"">              <span class=
+=3D"prediction-text" translate=3D"no"><strong> </strong> </span>           =
+   <div class=3D"prediction-play"></div>          </div>
+    </div>
+    <div id=3D"appwriter-glossary-predictions">
+            <div class=3D"prediction user-word" title=3D"" data-type=3D"glo=
+ssary" data-index=3D"0" data-prediction=3D"">              <span class=3D"p=
+rediction-text" translate=3D"no"><strong> </strong> </span>              <d=
+iv class=3D"prediction-play"></div>          </div>      <div class=3D"pred=
+iction user-word" title=3D"" data-type=3D"glossary" data-index=3D"1" data-p=
+rediction=3D"">              <span class=3D"prediction-text" translate=3D"n=
+o"><strong> </strong> </span>              <div class=3D"prediction-play"><=
+/div>          </div>      <div class=3D"prediction user-word" title=3D"" d=
+ata-type=3D"glossary" data-index=3D"2" data-prediction=3D"">              <=
+span class=3D"prediction-text" translate=3D"no"><strong> </strong> </span> =
+             <div class=3D"prediction-play"></div>          </div>      <di=
+v class=3D"prediction user-word" title=3D"" data-type=3D"glossary" data-ind=
+ex=3D"3" data-prediction=3D"">              <span class=3D"prediction-text"=
+ translate=3D"no"><strong> </strong> </span>              <div class=3D"pre=
+diction-play"></div>          </div>      <div class=3D"prediction user-wor=
+d" title=3D"" data-type=3D"glossary" data-index=3D"4" data-prediction=3D"">=
+              <span class=3D"prediction-text" translate=3D"no"><strong> </s=
+trong> </span>              <div class=3D"prediction-play"></div>          =
+</div>      <div class=3D"prediction user-word" title=3D"" data-type=3D"glo=
+ssary" data-index=3D"5" data-prediction=3D"">              <span class=3D"p=
+rediction-text" translate=3D"no"><strong> </strong> </span>              <d=
+iv class=3D"prediction-play"></div>          </div>      <div class=3D"pred=
+iction user-word" title=3D"" data-type=3D"glossary" data-index=3D"6" data-p=
+rediction=3D"">              <span class=3D"prediction-text" translate=3D"n=
+o"><strong> </strong> </span>              <div class=3D"prediction-play"><=
+/div>          </div>      <div class=3D"prediction user-word" title=3D"" d=
+ata-type=3D"glossary" data-index=3D"7" data-prediction=3D"">              <=
+span class=3D"prediction-text" translate=3D"no"><strong> </strong> </span> =
+             <div class=3D"prediction-play"></div>          </div>      <di=
+v class=3D"prediction user-word" title=3D"" data-type=3D"glossary" data-ind=
+ex=3D"8" data-prediction=3D"">              <span class=3D"prediction-text"=
+ translate=3D"no"><strong> </strong> </span>              <div class=3D"pre=
+diction-play"></div>          </div>      <div class=3D"prediction user-wor=
+d" title=3D"" data-type=3D"glossary" data-index=3D"9" data-prediction=3D"">=
+              <span class=3D"prediction-text" translate=3D"no"><strong> </s=
+trong> </span>              <div class=3D"prediction-play"></div>          =
+</div>
+    </div>
+  </div>
+  <div id=3D"appwriter-predictions-pagers">
+    <div id=3D"appwriter-speech-model-predictions-pager">
+      <div id=3D"appwriter-speech-model-predictions-pager-left-arrow">
+        <div></div>
+      </div>
+      <div id=3D"appwriter-speech-model-predictions-pager-text">-</div>
+      <div id=3D"appwriter-speech-model-predictions-pager-right-arrow">
+        <div></div>
+      </div>
+    </div>
+    <div id=3D"appwriter-glossary-predictions-pager">
+      <div id=3D"appwriter-glossary-predictions-pager-left-arrow">
+        <div></div>
+      </div>
+      <div id=3D"appwriter-glossary-predictions-pager-text">-</div>
+      <div id=3D"appwriter-glossary-predictions-pager-right-arrow">
+        <div></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id=3D"appwriter-predictions-arrow-bottom"></div>
+<div id=3D"appwriter-predictions-flyout-btn">
+  <div id=3D"appwriter-predictions-flyout-arrow"></div>
+</div>
+</div><div id=3D"appwriter-menu" class=3D"appwriter-menu appwriter-disabled=
+" style=3D""><div class=3D"appwriter-menu-disable-overlay appwriter-dom" i1=
+8n-title=3D"menuLoginToUse" title=3D"Log ind for at bruge AppWriter Cloud."=
+ dir=3D"ltr"></div>
+<div class=3D"appwriter-menu-button appwriter-dom appwriter-menu-button--di=
+sabled" data-appwriter-action=3D"play" i18n-data-tooltip=3D"playTooltip" da=
+ta-tooltip=3D"Afspil/stop" title=3D"S=C3=B8g+8 / Alt+Shift+P" dir=3D"ltr">
+  <i class=3D"appwriter-icon__play"></i>
+</div>
+<div class=3D"appwriter-popup appwriter-dom appwriter-popup--disabled" data=
+-appwriter-action=3D"profile-menu" i18n-data-tooltip=3D"readingSettingsTool=
+tip" data-tooltip=3D"L=C3=A6seindstillinger" dir=3D"ltr">
+  <div class=3D"appwriter-popup__content">
+    <i class=3D"appwriter-icon__listen"></i>
+  </div>
+ =20
+</div>
+<div class=3D"appwriter-popup appwriter-popup--writing-settings appwriter-d=
+om appwriter-popup--disabled" data-appwriter-action=3D"profile-menu" i18n-d=
+ata-tooltip=3D"writingSettingsTooltip" data-tooltip=3D"Skriveindstillinger"=
+ dir=3D"ltr">
+  <div class=3D"appwriter-popup__content">
+    <i class=3D"appwriter-icon__prediction"></i>
+  </div>
+ =20
+</div>
+<div class=3D"appwriter-menu-button appwriter-dom appwriter-hidden-element"=
+ data-appwriter-action=3D"speechToText" i18n-data-tooltip=3D"popup_menu_spe=
+ech_text" data-tooltip=3D"Tale til tekst" dir=3D"ltr">
+  <i class=3D"appwriter-icon__stt"></i>
+</div>
+<div class=3D"appwriter-menu-button appwriter-dom" data-appwriter-action=3D=
+"snippingTool" i18n-data-tooltip=3D"popup_menu_snipping_tool" data-tooltip=
+=3D"Udklipsl=C3=A6ser" dir=3D"ltr">
+  <i class=3D"appwriter-icon__snipping"></i>
+</div>
+<div class=3D"appwriter-menu-button appwriter-dom appwriter-hidden-element"=
+ data-appwriter-action=3D"dictionaryLookup" i18n-data-tooltip=3D"dictionary=
+LookupTooltip" data-tooltip=3D"Sl=C3=A5 markeret ord op" dir=3D"ltr">
+  <i class=3D"appwriter-icon__page"></i>
+</div>
+<div class=3D"appwriter-popup appwriter-popup--profile-select appwriter-dom=
+" i18n-data-tooltip=3D"languageSelectionTooltip" data-tooltip=3D"Sprogv=C3=
+=A6lger" dir=3D"ltr">
+  <div class=3D"appwriter-popup__content">
+    <i class=3D"appwriter-popup__content-icon appwriter-popup__content-icon=
+--hidden"></i>
+  </div>
+ =20
+</div>
+</div></body></html>
+------MultipartBoundary--LvRw9FWS9HxhI6ZfW9tjATcFlgmRixHOFB7a1XQ2NT----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://lokadhdaghfjbmailhhenifjejpokche/css/content.css
+
+@charset "utf-8";
+
+:root { --appwriter-link: #1f94e0; --selection-background: rgba(255,255,0,0=
+.5); --selection-color: #000; --max-z-index: 2147483647; --aw-logo-icon: ur=
+l(/images/logo/cloud48x48.png); --aw-dropdown-icon: url(/images/dropdown.sv=
+g); --aw-listen-icon: url(/images/listen.svg); --aw-prediction-icon: url(/i=
+mages/prediction.svg); --aw-page-icon: url(/images/page.svg); --aw-stt-icon=
+: url(/images/speech_to_text.svg); --aw-snipping-icon: url(/images/snipping=
+-reader.svg); --aw-play-icon: url(/images/play.svg); --aw-pause-icon: url(/=
+images/pause.svg); --aw-resume-icon: url(/images/resume.svg); }
+
+@font-face { font-family: Roboto; font-weight: 400; src: url("/fonts/roboto=
+-regular.woff2") format("woff2"); }
+
+@font-face { font-family: Roboto; font-weight: 500; src: url("/fonts/roboto=
+-medium.woff2") format("woff2"); }
+
+@font-face { font-family: Roboto; font-weight: 700; src: url("/fonts/roboto=
+-bold.woff2") format("woff2"); }
+
+@font-face { font-family: Montserrat; font-weight: 500; src: url("/fonts/mo=
+ntserrat-medium.woff2") format("woff2"); }
+
+.appwriter-draggable-overlay, .appwriter-resizable-overlay { position: fixe=
+d; inset: 0px; z-index: 2147483647; background: transparent; cursor: defaul=
+t; }
+
+.appwriter-resizable-overlay { cursor: se-resize; }
+
+#TabContainerOverflow { overflow: visible !important; }
+
+.cui-groupBody.appwriter-menu__wrapper { display: flex; -webkit-box-align: =
+center; align-items: center; }
+
+.appwriter-powerpoint-classic-menu .root-142 { display: inline-flex; -webki=
+t-box-align: center; align-items: center; height: 100%; }
+
+appwriter-snipping-overlay { position: fixed; inset: 0px; border-color: rgb=
+a(0, 0, 0, 0.15); border-style: solid; cursor: crosshair; z-index: 42949672=
+; outline: none; box-shadow: rgb(189, 189, 189) 1px 1px 0px inset, rgb(189,=
+ 189, 189) -1px -1px 0px inset; background-color: rgba(255, 255, 255, 0.01)=
+; }
+
+appwriter-snipping-overlay.appwriter-snipping-completed { cursor: unset; }
+
+.appwriter-snipping-dialog--no-scroll { overflow: hidden; }
+
+.appwriter-snipping-dialog__positioner { position: fixed; z-index: 42949672=
+; font-size: 1em; line-height: 1em; color: rgb(0, 0, 0); }
+
+.appwriter-snipping-dialog { min-width: 370px; min-height: 200px; backgroun=
+d: rgb(255, 255, 255); border: 1px solid rgb(217, 217, 217); box-shadow: rg=
+ba(0, 0, 0, 0.2) 1px 0px 3px 0px, rgba(0, 0, 0, 0.2) 0px 2px 3px 0px; font-=
+family: Roboto, sans-serif; text-align: left; display: flex; -webkit-box-or=
+ient: vertical; -webkit-box-direction: normal; flex-direction: column; posi=
+tion: relative; overflow: hidden; }
+
+.appwriter-snipping-dialog.appwriter-snipping-dialog--status .appwriter-sni=
+pping-dialog__actions, .appwriter-snipping-dialog:not(.appwriter-snipping-d=
+ialog--completed) [data-view=3D"completed"], .appwriter-snipping-dialog:not=
+(.appwriter-snipping-dialog--error) [data-view=3D"error"], .appwriter-snipp=
+ing-dialog:not(.appwriter-snipping-dialog--start) [data-view=3D"start"], .a=
+ppwriter-snipping-dialog:not(.appwriter-snipping-dialog--status) [data-view=
+=3D"status"] { display: none; }
+
+.appwriter-snipping-dialog [data-view=3D"completed"] { -webkit-box-flex: 1;=
+ flex: 1 1 auto; }
+
+.appwriter-snipping-dialog [data-view=3D"completed"] .appwriter-snipping-di=
+alog-content__description { display: flex; -webkit-box-flex: 1; flex: 1 1 a=
+uto; }
+
+.appwriter-snipping-dialog [data-view=3D"completed"] .appwriter-snipping-di=
+alog__textarea { -webkit-box-flex: 1; flex: 1 1 100%; resize: none; font-si=
+ze: 14px; padding: 8px 10px; box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px ins=
+et; border: 1px solid rgb(217, 217, 217); font-family: Roboto, sans-serif; =
+background-color: rgb(255, 255, 255); position: relative; height: auto; col=
+or: rgb(0, 0, 0); line-height: 18px; }
+
+.appwriter-snipping-dialog__content { text-align: center; padding: 16px 8px=
+ 8px; display: flex; -webkit-box-flex: 1; flex: 1 1 auto; }
+
+.appwriter-snipping-dialog__content > div { -webkit-box-flex: 1; flex: 1 1 =
+100%; }
+
+appwriter-text-block.appwriter-snipping-text-block { position: absolute; ov=
+erflow: hidden; color: transparent; white-space: pre; box-sizing: content-b=
+ox; }
+
+.appwriter-snipping-text-block::selection, .appwriter-snipping-text-block :=
+:selection { color: transparent; background: rgba(0, 0, 255, 0.4); }
+
+.appwriter-snipping-dialog-content__title { font-size: 14px; line-height: 1=
+4px; color: rgb(25, 25, 25); font-family: Roboto, sans-serif; margin-bottom=
+: 16px; }
+
+.appwriter-snipping-dialog-content__description { font-size: 14px; line-hei=
+ght: 14px; color: rgb(108, 108, 108); font-family: Roboto, sans-serif; marg=
+in-bottom: 12px; }
+
+.appwriter-snipping-dialog-content__description.appwriter-snipping-dialog-c=
+ontent__description--strong { font-size: 16px; line-height: 16px; color: rg=
+b(25, 25, 25); }
+
+.appwriter-snipping-dialog__actions, .appwriter-speech__actions { box-shado=
+w: rgba(0, 0, 0, 0.2) 0px 0px 4px 0px; padding: 8px; }
+
+.appwriter-speech__actions { display: flex; -webkit-box-pack: justify; just=
+ify-content: space-between; }
+
+[dir=3D"rtl"] .appwriter-speech__actions { -webkit-box-orient: horizontal; =
+-webkit-box-direction: reverse; flex-direction: row-reverse; }
+
+.appwriter-snipping-dialog__actions > div { -webkit-box-flex: 1; flex: 1 1 =
+100%; -webkit-box-pack: center; justify-content: center; }
+
+.appwriter-snipping-dialog__actions > div:first-child { -webkit-box-pack: s=
+tart; justify-content: flex-start; }
+
+.appwriter-snipping-dialog__actions > div:last-child { -webkit-box-pack: en=
+d; justify-content: flex-end; }
+
+.appwriter-snipping-dialog__actions, .appwriter-snipping-dialog__actions > =
+div { display: flex; -webkit-box-orient: horizontal; -webkit-box-direction:=
+ normal; flex-direction: row; -webkit-box-align: center; align-items: cente=
+r; }
+
+.appwriter-snipping-dialog__btn, .appwriter-snipping-dialog__btn:link, .app=
+writer-snipping-dialog__btn:visited { color: rgb(108, 108, 108); text-decor=
+ation: none; }
+
+.appwriter-snipping-dialog .appwriter-dialog__header .appwriter-snipping-di=
+alog__btn { margin-left: auto; }
+
+.appwriter-snipping-dialog__btn.appwriter-snipping-dialog__btn--primary, .a=
+ppwriter-snipping-dialog__btn.appwriter-snipping-dialog__btn--primary:link,=
+ .appwriter-snipping-dialog__btn.appwriter-snipping-dialog__btn--primary:vi=
+sited { color: rgb(32, 148, 224); text-decoration: none; margin: auto 0px; =
+}
+
+.appwriter-snipping-dialog__btn:hover { text-decoration: none; }
+
+.appwriter-snipping-dialog__actions { min-height: 20px; }
+
+span.appwriter-snipping-dialog-btn__content { color: rgb(0, 0, 0); }
+
+.appwriter-snipping-dialog-btn__icon.appwriter-snipping-dialog-icon__play {=
+ background: var(--aw-play-icon) no-repeat 50%; width: 14px; height: 16px; =
+}
+
+.appwriter-snipping-dialog__btn[data-action=3D"read"].appwriter-snipping-di=
+alog__btn--reading .appwriter-snipping-dialog-btn__icon.appwriter-snipping-=
+dialog-icon__play { background: var(--aw-pause-icon) no-repeat 50%; width: =
+14px; height: 14px; }
+
+.appwriter-snipping-dialog__btn.appwriter-menu-button--active .appwriter-sn=
+ipping-dialog-btn__icon.appwriter-snipping-dialog-icon__play, .appwriter-st=
+t__btn.appwriter-menu-button--active .appwriter-snipping-dialog-btn__icon.a=
+ppwriter-snipping-dialog-icon__play { background-image: var(--aw-pause-icon=
+); }
+
+.appwriter-snipping-dialog__btn.appwriter-resume-button .appwriter-snipping=
+-dialog-btn__icon.appwriter-snipping-dialog-icon__play, .appwriter-stt__btn=
+.appwriter-resume-button .appwriter-snipping-dialog-btn__icon.appwriter-sni=
+pping-dialog-icon__play { background-image: var(--aw-resume-icon); }
+
+.appwriter-snipping-dialog--completed { min-height: 0px; height: unset !imp=
+ortant; }
+
+.appwriter-snipping-dialog--completed .appwriter-snipping-dialog__content {=
+ padding: 0px; }
+
+.appwriter-snipping-dialog-btn__icon.appwriter-snipping-dialog-icon__snippi=
+ng { background: var(--aw-snipping-icon) no-repeat 50%; width: 20px; height=
+: 20px; }
+
+.appwriter-snipping-dialog:not(.appwriter-snipping-dialog--completed) .appw=
+riter-snipping-dialog__btn[data-action=3D"read"], .appwriter-snipping-dialo=
+g:not(.appwriter-snipping-dialog--completed) .appwriter-snipping-dialog__bt=
+n[data-action=3D"snipping"], .appwriter-snipping-dialog__btn[data-action=3D=
+"read"].appwriter-snipping-dialog__btn--reading .appwriter-snipping-dialog-=
+btn__content[data-switch=3D"read"], .appwriter-snipping-dialog__btn[data-ac=
+tion=3D"read"]:not(.appwriter-snipping-dialog__btn--reading) .appwriter-sni=
+pping-dialog-btn__content[data-switch=3D"stop"] { display: none; }
+
+.appwriter-snipping-dialog-btn__icon { display: inline-block; margin: 0px 8=
+px; vertical-align: middle; }
+
+.appwriter-snipping-dialog-btn__content { vertical-align: middle; }
+
+.appwriter-snipping-dialog-btn__icon.appwriter-snipping-dialog-icon__close =
+{ background: url("/images/close.svg") 50% center no-repeat; width: 15px; h=
+eight: 15px; }
+
+.appwriter-snipping-dialog__resize { width: 16px; height: 16px; position: a=
+bsolute; right: -5px; bottom: -6px; box-sizing: content-box; cursor: se-res=
+ize; z-index: 10; background: url("/images/resize.svg") -5px -6px no-repeat=
+; }
+
+.appwriter-record__positioner { position: fixed; top: 120px; right: 60px; z=
+-index: 42949672; }
+
+.appwriter-dom { font-size: 14px; line-height: 14px; }
+
+.appwriter-dropdown-languageList-container { display: flex; -webkit-box-ori=
+ent: vertical; -webkit-box-direction: normal; flex-direction: column; }
+
+.appwriter-record { width: 300px; background: rgb(255, 255, 255); border: 1=
+px solid rgb(217, 217, 217); box-shadow: rgba(0, 0, 0, 0.2) 1px 0px 3px 0px=
+, rgba(0, 0, 0, 0.2) 0px 2px 3px 0px; font-family: Roboto, sans-serif; font=
+-size: 14px; line-height: 14px; text-align: left; overflow: hidden; }
+
+.appwriter-dialog__header { padding: 8px; border-bottom: 1px solid rgb(217,=
+ 217, 217); display: flex; -webkit-box-align: center; align-items: center; =
+outline: none; line-height: 24px; }
+
+[dir=3D"rtl"] .appwriter-stt__header.appwriter-dialog__header { -webkit-box=
+-orient: horizontal; -webkit-box-direction: reverse; flex-direction: row-re=
+verse; }
+
+.appwriter-dialog__header .appwriter-logo { width: 32px; height: 32px; back=
+ground: url("/images/logo/logo.png") no-repeat; }
+
+.appwriter-dialog__header .title { margin-left: 10px; color: rgb(0, 0, 0); =
+font-family: Montserrat, sans-serif; font-size: 1.3em; line-height: 1.3em; =
+font-weight: 500; text-rendering: optimizelegibility; }
+
+[dir=3D"rtl"] .appwriter-dialog__header .title { margin-left: 0px; margin-r=
+ight: 10px; -webkit-box-flex: 1; flex: 1 1 0%; text-align: right; }
+
+.appwriter-record__content { text-align: center; padding: 16px 8px 8px; }
+
+.appwriter-record-content__title { font-size: 14px; line-height: 14px; colo=
+r: rgb(25, 25, 25); font-family: Roboto, sans-serif; margin-bottom: 16px; }
+
+.appwriter-record-content__description { font-size: 14px; line-height: 14px=
+; color: rgb(108, 108, 108); font-family: Roboto, sans-serif; margin-bottom=
+: 12px; }
+
+.appwriter-record-content__spinner { background: url("/images/spinner.gif")=
+ 50% center no-repeat; width: 80px; height: 80px; margin: auto; }
+
+.appwriter-record-content__description.appwriter-record-content__descriptio=
+n--strong { font-size: 16px; line-height: 16px; color: rgb(25, 25, 25); }
+
+.appwriter-record-content__error { font-size: 14px; line-height: 14px; colo=
+r: rgb(208, 1, 27); font-family: Roboto, sans-serif; margin-bottom: 12px; }
+
+.appwriter-record.appwriter-record--completed .appwriter-popup--profile-sel=
+ect, .appwriter-record.appwriter-record--completed .appwriter-record__btn[d=
+ata-action=3D"record"], .appwriter-record.appwriter-record--completed .appw=
+riter-record__content > [data-view=3D"processing"], .appwriter-record.appwr=
+iter-record--completed .appwriter-record__content > [data-view=3D"record"],=
+ .appwriter-record.appwriter-record--processing .appwriter-record__actions,=
+ .appwriter-record.appwriter-record--processing .appwriter-record__content =
+> [data-view=3D"completed"], .appwriter-record.appwriter-record--processing=
+ .appwriter-record__content > [data-view=3D"record"], .appwriter-record.app=
+writer-record--record .appwriter-record__btn[data-action=3D"download"], .ap=
+pwriter-record.appwriter-record--record .appwriter-record__btn[data-action=
+=3D"new"], .appwriter-record.appwriter-record--record .appwriter-record__co=
+ntent > [data-view=3D"completed"], .appwriter-record.appwriter-record--reco=
+rd .appwriter-record__content > [data-view=3D"processing"] { display: none;=
+ }
+
+.appwriter-record__actions { box-shadow: rgba(0, 0, 0, 0.1) 0px -1px 1px 0p=
+x; }
+
+.appwriter-record__positioner .appwriter-record__actions { display: flex; -=
+webkit-box-pack: justify; justify-content: space-between; -webkit-box-align=
+: center; align-items: center; padding: 8px; }
+
+.appwriter-record__btn, .appwriter-record__btn:link, .appwriter-record__btn=
+:visited { color: rgb(108, 108, 108); text-decoration: none; }
+
+.appwriter-record__btn.appwriter-record__btn--primary, .appwriter-record__b=
+tn.appwriter-record__btn--primary:link, .appwriter-record__btn.appwriter-re=
+cord__btn--primary:visited { color: rgb(32, 148, 224); text-decoration: non=
+e; }
+
+.appwriter-record__btn--create-new[data-action=3D"new"] { display: flex; -w=
+ebkit-box-align: center; align-items: center; }
+
+.appwriter-record__btn--create-new[data-action=3D"new"]:hover, a.appwriter-=
+record__btn.appwriter-record__btn--primary:hover { border-radius: 2px; bord=
+er: 1px solid rgb(198, 198, 198); box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1p=
+x 0px; }
+
+.appwriter-record__btn:hover { text-decoration: none; }
+
+.appwriter-record__btn[data-action=3D"cancel"] { margin-left: auto; }
+
+.appwriter-record__btn[data-action=3D"record"] { margin-left: auto; padding=
+: 7px 10px; border: 1px solid transparent; }
+
+[dir=3D"rtl"] .appwriter-record__btn[data-action=3D"record"] { margin-right=
+: auto; margin-left: 0px; }
+
+.appwriter-record__btn[data-action=3D"download"] { margin-left: auto; margi=
+n-right: 5px; padding: 5px; border: 1px solid transparent; }
+
+.appwriter-record__actions::after { content: ""; display: table; clear: bot=
+h; }
+
+.appwriter-record-btn__icon { display: inline-block; margin-left: 8px; vert=
+ical-align: middle; }
+
+[dir=3D"rtl"] .appwriter-record-btn__icon { margin-left: 0px; margin-right:=
+ 8px; }
+
+.appwriter-record-btn__content { vertical-align: middle; }
+
+.appwriter-record-btn__icon.appwriter-record-icon__close { background: url(=
+"/images/close.svg") 50% center no-repeat; width: 15px; height: 15px; }
+
+.appwriter-record-btn__icon.appwriter-record-icon__record { background: url=
+("/images/audio.svg") 100% center no-repeat; width: 19px; height: 19px; }
+
+.appwriter-record-btn__icon.appwriter-record-icon__create-new { background:=
+ url("/images/plus.svg") 50% center no-repeat; width: 13px; height: 13px; m=
+argin-right: 5px; }
+
+.appwriter-record__btn--create-new[data-action=3D"new"] { padding: 9px 9px =
+9px 0px; border: 1px solid transparent; }
+
+.appwriter-record-btn__icon.appwriter-record-icon__download { background: u=
+rl("/images/download.svg") 50% center no-repeat; width: 13px; height: 14px;=
+ }
+
+.appwriter-menu { display: none; position: absolute; box-sizing: content-bo=
+x; color: rgb(0, 0, 0); overflow: visible; z-index: var(--max-z-index); hei=
+ght: 40px; padding: 0px 16px; border: 1px solid rgb(217, 217, 217); border-=
+radius: 2px; box-shadow: rgba(0, 0, 0, 0.2) 1px 0px 3px 0px, rgba(0, 0, 0, =
+0.2) 0px 2px 3px 0px; background: rgb(238, 238, 238) !important; }
+
+.appwriter-menu, .appwriter-popup__menu { font-family: Roboto, sans-serif; =
+font-size: 14px; line-height: 14px; font-weight: 400; -webkit-writing-mode:=
+ initial; writing-mode: initial; color: rgb(0, 0, 0); }
+
+.appwriter-popup__menu--record { overflow-y: auto; color: rgb(0, 0, 0); pos=
+ition: fixed !important; }
+
+.appwriter-menu--visible, .appwriter-menu.google-embedded { display: inline=
+-flex; -webkit-box-align: center; align-items: center; }
+
+.appwriter-menu:not(.google-embedded) .appwriter-popup[data-only-show=3D"em=
+bedded"] { display: none; }
+
+.appwriter-menu.google-embedded { position: relative; height: auto; width: =
+auto; border: 0px; border-radius: 0px; padding: 0px; box-shadow: none; vert=
+ical-align: middle; z-index: auto; background-color: transparent !important=
+; }
+
+.appwriter-menu-button:not(.on-toolbar-button), .appwriter-popup:not(.on-to=
+olbar-button) { cursor: default; margin-right: 6px; border: 1px solid trans=
+parent; }
+
+.appwriter-menu-button:not(.on-toolbar-button) { display: flex; width: 40px=
+; height: 34px; -webkit-box-align: center; align-items: center; -webkit-box=
+-pack: center; justify-content: center; }
+
+.appwriter-menu.google-embedded .appwriter-menu-button { width: 24px; heigh=
+t: 24px; }
+
+.appwriter-menu:not(.google-embedded) [data-embedded-only] { display: none;=
+ }
+
+.appwriter-menu.google-embedded .appwriter-popup { width: auto; height: 24p=
+x; }
+
+.appwriter-popup:not(.on-toolbar-button) { position: relative; float: left;=
+ min-width: auto; height: 34px; white-space: nowrap; align-self: center; }
+
+.appwriter-popup__content { display: flex; -webkit-box-align: center; align=
+-items: center; -webkit-box-pack: center; justify-content: center; height: =
+100%; padding: 0px 4px; color: rgb(108, 108, 108); font-size: 14px; line-he=
+ight: 14px; font-weight: 500; }
+
+[dir=3D"rtl"] .appwriter-popup__content { direction: rtl; }
+
+.appwriter-popup__content::after { content: " "; background-repeat: no-repe=
+at; background-position: 50% center; background-image: var(--aw-dropdown-ic=
+on); width: 6px; height: 4px; margin-left: 8px; }
+
+[dir=3D"rtl"] .appwriter-popup__content::after { margin-right: 8px; }
+
+.appwriter-popup__content-text { max-width: 120px; text-overflow: ellipsis;=
+ overflow: hidden; }
+
+.appwriter-menu.google-embedded .appwriter-popup__content-text { font-size:=
+ 11px; line-height: 11px; color: rgb(51, 51, 51); font-weight: 700; font-fa=
+mily: arial, sans-serif; }
+
+.cui-groupBody .appwriter-menu.google-embedded .appwriter-popup__content-te=
+xt { font-weight: 500; font-size: 12px; line-height: 12px; font-family: Rob=
+oto, sans-serif; }
+
+.appwriter-popup__menu { display: none; position: absolute; overflow: auto;=
+ top: 100%; z-index: var(--max-z-index); box-shadow: rgba(0, 0, 0, 0.2) 1px=
+ 0px 3px 0px, rgb(217, 217, 217) 0px 2px 3px 0px; -webkit-box-orient: horiz=
+ontal; -webkit-box-direction: normal; flex-direction: row; -webkit-box-alig=
+n: center; align-items: center; padding: 8px; background: rgb(255, 255, 255=
+); min-width: 200px; margin-top: 1px; cursor: default; box-sizing: border-b=
+ox; }
+
+.appwriter-popup__menu--wrapper { position: fixed; overflow-y: auto; }
+
+.appwriter-popup__menu--wrapper.appwriter-popup__menu--main-menu { position=
+: absolute; }
+
+.appwriter-popup__menu.google-capability { z-index: 1003; }
+
+.appwriter-menu-button--disabled, .appwriter-popup--disabled, .appwriter-po=
+pup-menu__option--disabled, .appwriter-select-list__item--disabled { opacit=
+y: 0.3; }
+
+.appwriter-menu-button--disabled::before, .appwriter-popup--disabled::befor=
+e, .appwriter-popup-menu__option--disabled::before, .appwriter-select-list_=
+_item--disabled::before { visibility: hidden; }
+
+.appwriter-menu.google-embedded .appwriter-menu-button, .appwriter-menu.goo=
+gle-embedded .appwriter-popup { border-radius: 2px; background: 0px center;=
+ border: 1px solid transparent; outline: none; padding: 0px; list-style: no=
+ne; text-decoration: none; vertical-align: middle; cursor: default; margin:=
+ 3px 1px 0px; width: auto; height: 26px; line-height: 26px; color: rgba(0, =
+0, 0, 0.87); }
+
+.appwriter-menu.google-embedded .appwriter-menu-button { width: 26px; }
+
+.appwriter-menu.google-embedded .appwriter-menu-button.appwriter-menu-butto=
+n--active:hover:not(.appwriter-menu-button--disabled), .appwriter-menu.goog=
+le-embedded .appwriter-menu-button.appwriter-menu-button--active:not(.appwr=
+iter-menu-button--disabled), .appwriter-menu.google-embedded .appwriter-men=
+u-button:active:not(.appwriter-menu-button--disabled), .appwriter-menu.goog=
+le-embedded .appwriter-popup.appwriter-popup--active:hover:not(.appwriter-p=
+opup--disabled), .appwriter-menu.google-embedded .appwriter-popup.appwriter=
+-popup--active:not(.appwriter-popup--disabled), .appwriter-menu.google-embe=
+dded .appwriter-popup:active:not(.appwriter-popup--disabled) { background-c=
+olor: rgba(0, 0, 0, 0.12); background-image: none; box-shadow: none; border=
+-radius: 2px; border-color: transparent !important; }
+
+.appwriter-menu.google-embedded .appwriter-menu-button:hover:not(.appwriter=
+-menu-button--disabled), .appwriter-menu.google-embedded .appwriter-popup:h=
+over:not(.appwriter-popup--disabled) { background-color: rgba(0, 0, 0, 0.06=
+); background-image: none; box-shadow: none; cursor: pointer; border-radius=
+: 2px; border-color: transparent !important; }
+
+.appwriter-menu-button:hover:not(.appwriter-menu-button--disabled):not(.on-=
+toolbar-button), .appwriter-popup:hover:not(.appwriter-popup--disabled):not=
+(.on-toolbar-button), a.appwriter-snipping-dialog__btn.appwriter-snipping-d=
+ialog__btn--primary:last-child:hover { border-radius: 2px; border: 1px soli=
+d rgb(198, 198, 198); box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1px 0px; }
+
+a.appwriter-snipping-dialog__btn.appwriter-snipping-dialog__btn--primary:la=
+st-child { padding: 5px; border: 1px solid transparent; margin-right: 0px; =
+}
+
+.appwriter-menu-button.appwriter-menu-button--active.appwriter-menu-button-=
+-active:not(.on-toolbar-button), .appwriter-popup.appwriter-popup--active.a=
+ppwriter-popup--active:not(.appwriter-popup--disabled):not(.on-toolbar-butt=
+on) { border: 0px; padding: 1px; background: linear-gradient(rgb(236, 236, =
+236), rgb(225, 225, 225)); box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px 0px i=
+nset; }
+
+.appwriter-popup__menu .appwriter-popup-menu__title { display: flex; -webki=
+t-box-align: center; align-items: center; font-family: Roboto, sans-serif; =
+font-size: 11px; line-height: 11px; color: rgb(108, 108, 108); margin: 8px =
+0px; }
+
+.appwriter-popup__menu .appwriter-popup-menu__title::after, .appwriter-popu=
+p__menu .appwriter-popup-menu__title::before { content: " "; border-bottom:=
+ 1px solid rgb(217, 217, 217); -webkit-box-flex: 1; flex: 1 1 auto; }
+
+.appwriter-popup__menu .appwriter-popup-menu__title::before { margin-right:=
+ 8px; }
+
+[dir=3D"rtl"] .appwriter-popup-menu__title::before { margin-left: 8px; marg=
+in-right: 0px; }
+
+.appwriter-popup__menu .appwriter-popup-menu__title::after { margin-left: 8=
+px; }
+
+[dir=3D"rtl"] .appwriter-popup-menu__title::after { margin-right: 8px; marg=
+in-left: 0px; }
+
+.appwriter-popup__menu.appwriter-popup__menu--speech { position: fixed; ove=
+rflow-y: auto; direction: ltr; }
+
+.appwriter-popup-menu__option, .appwriter-select-list { margin: 0px -8px; p=
+adding: 0px; }
+
+.appwriter-popup-menu__option, .appwriter-select-list__item { padding: 0px =
+8px 0px 0px; color: rgb(0, 0, 0); display: flex; -webkit-box-orient: horizo=
+ntal; -webkit-box-direction: normal; flex-direction: row; -webkit-box-align=
+: center; align-items: center; height: 30px; cursor: pointer; }
+
+.appwriter-popup-menu__option.appwriter-popup-menu__option--disabled, .appw=
+riter-select-list__item.appwriter-select-list__item--disabled { cursor: def=
+ault; }
+
+.appwriter-popup-menu__option:hover:not(.appwriter-popup-menu__option--disa=
+bled), .appwriter-select-list__item:hover:not(.appwriter-select-list__item-=
+-disabled) { background: rgb(238, 238, 238); }
+
+.appwriter-popup-menu__option::before, .appwriter-select-list__item::before=
+ { display: inline-block; content: " "; width: 30px; height: 20px; }
+
+.appwriter-popup-menu__option.appwriter-popup-menu__option--selected::befor=
+e, .appwriter-select-list__item.appwriter-popup-menu__option--selected::bef=
+ore { background: url("/images/checked.svg") 50% center no-repeat; }
+
+.appwriter-popup__content-icon { width: 32px; height: 20px; background-repe=
+at: no-repeat; background-position: 50% center; text-align: center; }
+
+.appwriter-popup__content-icon--hidden { display: none; }
+
+.appwriter-popup__content-text { padding-left: 8px; }
+
+.appwriter-select-list__item-icon { width: 32px; height: 20px; background-r=
+epeat: no-repeat; background-position: 50% center; }
+
+.appwriter-voice-ai-icon { width: 14px; height: 14px; background-image: url=
+("/images/ai.svg"); background-size: contain; flex-shrink: 0; }
+
+.appwriter-popup-menu__option-text, .appwriter-select-list__item-text { pad=
+ding-left: 8px; -webkit-box-flex: 1; flex: 1 1 0%; white-space: nowrap; }
+
+.appwriter-icon__aw { background-size: contain; background-image: var(--aw-=
+logo-icon); }
+
+.appwriter-icon__aw, .appwriter-icon__play { display: inline-block; backgro=
+und-repeat: no-repeat; background-position: 50% center; width: 20px; height=
+: 20px; }
+
+.appwriter-icon__play { background-image: var(--aw-play-icon); }
+
+.appwriter-menu.google-embedded .appwriter-icon__play { background-size: 18=
+px 18px; width: 18px; height: 18px; }
+
+.appwriter-menu-button.appwriter-menu-button--active .appwriter-icon__play =
+{ background: var(--aw-pause-icon) 50% no-repeat; }
+
+.appwriter-menu-button.appwriter-menu-button--active.appwriter-resume-butto=
+n .appwriter-icon__play { background-image: var(--aw-resume-icon); }
+
+.appwriter-icon__listen { display: inline-block; background-repeat: no-repe=
+at; background-position: 50% center; background-image: var(--aw-listen-icon=
+); width: 20px; height: 20px; }
+
+.appwriter-menu.google-embedded .appwriter-icon__listen { background-size: =
+18px 18px; width: 18px; height: 18px; }
+
+.appwriter-icon__prediction { display: inline-block; background-repeat: no-=
+repeat; background-position: 50% center; background-image: var(--aw-predict=
+ion-icon); width: 20px; height: 20px; }
+
+.appwriter-menu.google-embedded .appwriter-icon__prediction { background-si=
+ze: 18px 18px; width: 18px; height: 18px; }
+
+.appwriter-icon__page { display: inline-block; background-repeat: no-repeat=
+; background-position: 50% center; background-image: var(--aw-page-icon); w=
+idth: 20px; height: 20px; }
+
+.appwriter-menu.google-embedded .appwriter-icon__page { background-size: 18=
+px 18px; width: 18px; height: 18px; }
+
+.appwriter-icon__stt { background-image: var(--aw-stt-icon); }
+
+.appwriter-icon__snipping, .appwriter-icon__stt { display: inline-block; ba=
+ckground-repeat: no-repeat; background-position: 50% center; aspect-ratio: =
+1 / 1; width: 20px; }
+
+.appwriter-icon__snipping { background-image: var(--aw-snipping-icon); }
+
+.appwriter-menu.google-embedded .appwriter-icon__snipping { background-size=
+: 18px 18px; width: 18px; height: 18px; }
+
+.appwriter-slider { position: relative; width: auto; height: 48px; margin: =
+0px 8px; cursor: pointer; touch-action: pan-x; -webkit-tap-highlight-color:=
+ transparent; }
+
+.appwriter-slider__track-container { position: absolute; top: 50%; width: 1=
+00%; height: 2px; background-color: rgb(189, 189, 189); overflow: hidden; }
+
+[dir=3D"rtl"] .appwriter-slider__track-container { background-color: rgb(31=
+, 148, 224); }
+
+.appwriter-slider__track { --scale-x: 0; background-color: rgb(31, 148, 224=
+); position: absolute; width: 100%; height: 100%; transform-origin: left to=
+p; will-change: transform; transform: scaleX(var(--scale-x)); }
+
+[dir=3D"rtl"] .appwriter-slider__track { background-color: rgb(189, 189, 18=
+9); }
+
+.appwriter-slider__thumb-container { --translate-x: 0; display: flex; -webk=
+it-box-align: center; align-items: center; -webkit-box-pack: center; justif=
+y-content: center; position: absolute; top: 15px; left: 0px; width: 20px; h=
+eight: 20px; will-change: transform; transform: translateX(calc(var(--trans=
+late-x) - 50%)); }
+
+.appwriter-slider__thumb { position: relative; top: 0px; left: 0px; backgro=
+und: rgb(31, 148, 224); border-radius: 50%; width: 12px; height: 12px; tran=
+sition: width 0.1s, height 0.1s; will-change: width, height; }
+
+.appwriter-slider--active .appwriter-slider__thumb { width: 20px; height: 2=
+0px; }
+
+.appwriter-slider--in-transit .appwriter-slider__thumb { transition-delay: =
+0.14s; }
+
+.appwriter-slider--in-transit .appwriter-slider__thumb-container, .appwrite=
+r-slider--in-transit .appwriter-slider__track { transition: transform 80ms,=
+ -webkit-transform 80ms; }
+
+.appwriter-profile-property-view { color: rgb(25, 25, 25); text-align: cent=
+er; font-weight: 500; font-size: 16px; line-height: 16px; margin-bottom: 16=
+px; }
+
+.appwriter-gdocs-hide-selection .kix-cursor { display: none; }
+
+.appwriter-highlight ::selection { background-color: var(--selection-backgr=
+ound) !important; color: var(--selection-color) !important; }
+
+.kix-selection-overlay.appwriter-highlight { background-color: rgb(255, 255=
+, 0); }
+
+.appwriter-highlight select:focus { outline: rgb(255, 255, 0) solid 1px !im=
+portant; background-color: rgba(255, 255, 0, 0.5) !important; color: rgb(0,=
+ 0, 0) !important; }
+
+.awcloud-overlay-text-selection { fill: rgb(255, 255, 0); }
+
+.appwriter-menu.disabled.google-embedded { opacity: 0.3; }
+
+.appwriter-menu * { box-sizing: content-box; }
+
+.appwriter-menu-disable-overlay { display: none; position: absolute; left: =
+0px; top: 0px; width: 100%; height: 100%; background-color: rgb(255, 255, 2=
+55); opacity: 0.5; z-index: 49; }
+
+.appwriter-menu.disabled .appwriter-menu-disable-overlay { display: block; =
+}
+
+.appwriter-menu.google-embedded.disabled .appwriter-menu-disable-overlay { =
+opacity: 0; }
+
+.appwriter-icon { width: 29px; height: 29px; margin-right: 1px; float: left=
+; vertical-align: top; cursor: pointer; }
+
+.appwriter-icon:last-child { margin-right: 0px; }
+
+.appwriter-menu.google-embedded .appwriter-icon { margin: 3px 0px 0px; bord=
+er-width: medium; border-style: none; border-color: currentcolor; border-im=
+age: none; vertical-align: top; cursor: default; }
+
+.appwriter-icon-border { width: 29px; height: 29px; background: url("/image=
+s/menu_buttons.png?v=3D1") -29px -29px no-repeat; }
+
+.appwriter-menu.google-embedded .appwriter-icon-border { background-positio=
+n: 50000px 50000px; }
+
+.appwriter-menu.google-embedded .appwriter-icon:hover .appwriter-icon-borde=
+r { background-position: -29px -29px; }
+
+.appwriter-icon.disabled { cursor: default; opacity: 0.5; }
+
+.appwriter-icon.active.disabled .appwriter-icon-border, .appwriter-icon.dis=
+abled .appwriter-icon-border { background-position: -29px -29px !important;=
+ }
+
+.appwriter-icon:active .appwriter-icon-border { background-position: -58px =
+-29px; }
+
+.appwriter-icon.active .appwriter-icon-border { background-position: -87px =
+-29px !important; }
+
+.appwriter-icon-img { width: 29px; height: 29px; background: url("/images/m=
+enu_buttons.png?v=3D1") 0px 0px no-repeat; }
+
+.appwriter-play .appwriter-icon-img { background-position: -58px 0px; }
+
+.appwriter-play.active .appwriter-icon-img { background-position: -87px 0px=
+; }
+
+.appwriter-dictionary .appwriter-icon-img { background-position: -116px 0px=
+; }
+
+.appwriter-select { display: inline-block; position: relative; margin-right=
+: 9px; padding-left: 8px; background: url("/images/menu_buttons.png?v=3D1")=
+ left -58px no-repeat; vertical-align: top; cursor: pointer; height: 29px !=
+important; line-height: 29px !important; }
+
+.appwriter-select:last-child { margin-right: 8px; }
+
+.appwriter-menu.google-embedded .appwriter-select { margin: 3px 8px 0px 0px=
+; padding-left: 8px; border-width: medium; border-style: none; border-color=
+: currentcolor; border-image: none; background: url("/images/menu_buttons.p=
+ng?v=3D1") 50000px 50000px no-repeat; cursor: default; }
+
+.appwriter-select:active { background-position: left -87px; }
+
+.appwriter-select:active .appwriter-select-bg { background-position: right =
+-87px; }
+
+.appwriter-select.active { background-position: left -116px; }
+
+.appwriter-select.active .appwriter-select-bg { background-position: right =
+-116px; }
+
+.appwriter-menu.google-embedded .appwriter-select:hover { background-positi=
+on: left -58px; }
+
+.appwriter-menu.google-embedded .appwriter-select:hover .appwriter-select-b=
+g { background-position: right -58px; }
+
+.appwriter-select .appwriter-select-bg { position: absolute; top: 0px; righ=
+t: -8px; height: 29px; width: 8px; background: url("/images/menu_buttons.pn=
+g?v=3D1") right -58px no-repeat; }
+
+.appwriter-menu.google-embedded .appwriter-select .appwriter-select-bg { ba=
+ckground-position: 50000px 50000px; }
+
+.appwriter-select-selected { display: inline-block; }
+
+.appwriter-select-text { font-size: 11px; line-height: 11px; font-weight: 7=
+00; color: rgb(51, 51, 51); }
+
+.appwriter-select-arrow { display: inline-block; position: relative; top: -=
+2px; width: 5px; height: 3px; margin-left: 10px; background: url("/images/m=
+enu_buttons.png?v=3D1") -150px top no-repeat; opacity: 0.75; }
+
+.appwriter-menu .appwriter-select-options { display: none; position: absolu=
+te; top: 27px; left: 1px; padding: 0px; margin: 0px; border: 1px solid rgb(=
+204, 204, 204); outline: none; border-radius: 0px; box-shadow: rgba(0, 0, 0=
+, 0.2) 0px 2px 4px; background: rgb(255, 255, 255); font-size: 13px; line-h=
+eight: 13px; cursor: default; }
+
+.appwriter-select-option { margin: 0px; border-bottom: 1px solid rgb(230, 2=
+30, 230); color: rgb(51, 51, 51); white-space: nowrap; list-style: none; cu=
+rsor: pointer; padding: 4px 10px 4px 30px !important; }
+
+.appwriter-select-option:hover { background-color: rgb(238, 238, 238); }
+
+.appwriter-select-option:last-child { border: 0px !important; }
+
+.appwriter-select-option-text { font-weight: 700 !important; }
+
+.appwriter-select-checkmark { display: none; position: absolute; left: 6px;=
+ top: 50%; width: 13px; height: 12px; margin-top: -6px; background: url("/i=
+mages/menu_buttons.png?v=3D1") -155px top no-repeat; }
+
+.appwriter-select-option.selected .appwriter-select-checkmark { display: in=
+line-block; }
+
+.appwriter-language-select { float: left; }
+
+.appwriter-language-select .appwriter-select-option { position: relative; h=
+eight: 24px; line-height: 24px; text-indent: 28px; }
+
+.appwriter-language-select .appwriter-flag { position: absolute; top: 4px; =
+left: 24px; }
+
+.appwriter-language-select .appwriter-flag-small { position: relative; top:=
+ 4px; margin-right: 3px; }
+
+.appwriter-flag { display: inline-block; width: 24px; height: 24px; backgro=
+und: url("/images/menu_buttons.png?v=3D1") left -145px no-repeat; }
+
+.appwriter-locale-ar-EG { background-image: url("/images/languages/ar-EG.sv=
+g"); }
+
+.appwriter-locale-cy-WA { background-image: url("/images/languages/cy-WA.sv=
+g"); }
+
+.appwriter-locale-da-DK { background-image: url("/images/languages/da-DK.sv=
+g"); }
+
+.appwriter-locale-de-DE { background-image: url("/images/languages/de-DE.sv=
+g"); }
+
+.appwriter-locale-en-AU { background-image: url("/images/languages/en-AU.sv=
+g"); }
+
+.appwriter-locale-en-GB { background-image: url("/images/languages/en-GB.sv=
+g"); }
+
+.appwriter-locale-en-US { background-image: url("/images/languages/en-US.sv=
+g"); }
+
+.appwriter-locale-en-WA { background-image: url("/images/languages/en-WA.sv=
+g"); }
+
+.appwriter-locale-es-US { background-image: url("/images/languages/es-US.sv=
+g"); }
+
+.appwriter-locale-es-ES { background-image: url("/images/languages/es-ES.sv=
+g"); }
+
+.appwriter-locale-fr-CA { background-image: url("/images/languages/fr-CA.sv=
+g"); }
+
+.appwriter-locale-fr-FR { background-image: url("/images/languages/fr-FR.sv=
+g"); }
+
+.appwriter-locale-is-IS { background-image: url("/images/languages/is-IS.sv=
+g"); }
+
+.appwriter-locale-it-IT { background-image: url("/images/languages/it-IT.sv=
+g"); }
+
+.appwriter-locale-nb-NO { background-image: url("/images/languages/nb-NO.sv=
+g"); }
+
+.appwriter-locale-nl-NL { background-image: url("/images/languages/nl-NL.sv=
+g"); }
+
+.appwriter-locale-nn-NO { background-image: url("/images/languages/nn-NO.sv=
+g"); }
+
+.appwriter-locale-pl-PL { background-image: url("/images/languages/pl-PL.sv=
+g"); }
+
+.appwriter-locale-ro-RO { background-image: url("/images/languages/ro-RO.sv=
+g"); }
+
+.appwriter-locale-sv-SE { background-image: url("/images/languages/sv-SE.sv=
+g"); }
+
+.appwriter-locale-en-IN { background-image: url("/images/languages/en-IN.sv=
+g"); }
+
+.appwriter-locale-en-X0 { background-image: url("/images/languages/en-X0.sv=
+g"); }
+
+.appwriter-locale-fi-FI { background-image: url("/images/languages/fi-FI.sv=
+g"); }
+
+.appwriter-locale-fi-SE { background-image: url("/images/languages/fi-SE.sv=
+g"); }
+
+.appwriter-locale-fo-FO { background-image: url("/images/languages/fo-FO.sv=
+g"); }
+
+.appwriter-locale-el-GR { background-image: url("/images/languages/el-GR.sv=
+g"); }
+
+.appwriter-locale-hi-IN { background-image: url("/images/languages/hi-IN.sv=
+g"); }
+
+.appwriter-locale-nl-BE { background-image: url("/images/languages/nl-BE.sv=
+g"); }
+
+.appwriter-locale-ja-JP { background-image: url("/images/languages/ja-JP.sv=
+g"); }
+
+.appwriter-locale-zh-CH { background-image: url("/images/languages/zh-CH.sv=
+g"); }
+
+.appwriter-locale-ko-KR { background-image: url("/images/languages/ko-KR.sv=
+g"); }
+
+.appwriter-locale-pt-BR { background-image: url("/images/languages/pt-BR.sv=
+g"); }
+
+.appwriter-locale-pt-PT { background-image: url("/images/languages/pt-PT.sv=
+g"); }
+
+.appwriter-locale-ru-RU { background-image: url("/images/languages/ru-RU.sv=
+g"); }
+
+.appwriter-locale-se-X0 { background-image: url("/images/languages/se-X0.sv=
+g"); }
+
+.appwriter-locale-se-X1 { background-image: url("/images/languages/se-X1.sv=
+g"); }
+
+.appwriter-locale-ca-ES { background-image: url("/images/languages/ca-ES.sv=
+g"); }
+
+.appwriter-locale-es-MX { background-image: url("/images/languages/es-MX.sv=
+g"); }
+
+.appwriter-locale-cs-CZ { background-image: url("/images/languages/cs-CZ.sv=
+g"); }
+
+.appwriter-locale-tr-TR { background-image: url("/images/languages/tr-TR.sv=
+g"); }
+
+.appwriter-locale-uk-UA { background-image: url("/images/languages/uk-UA.sv=
+g"); }
+
+.appwriter-locale-ta-LK { background-image: url("/images/languages/ta-LK.sv=
+g"); }
+
+.appwriter-locale-zh-HK { background-image: url("/images/languages/zh-HK.sv=
+g"); }
+
+.appwriter-locale-th-TH { background-image: url("/images/languages/th-TH.sv=
+g"); }
+
+.appwriter-locale-hr-HR { background-image: url("/images/languages/hr-HR.sv=
+g"); }
+
+.appwriter-locale-fa-IR { background-image: url("/images/languages/fa-IR.sv=
+g"); }
+
+.appwriter-flag-small { display: inline-block; width: 17px; height: 17px; b=
+ackground: url("/images/menu_buttons.png?v=3D1") left -217px no-repeat; }
+
+.appwriter-flag-small.da-DK { background-position: -17px -217px; }
+
+.appwriter-flag-small.de-DE { background-position: -34px -217px; }
+
+.appwriter-flag-small.en-AU { background-position: -51px -217px; }
+
+.appwriter-flag-small.en-GB { background-position: -68px -217px; }
+
+.appwriter-flag-small.en-US { background-position: -85px -217px; }
+
+.appwriter-flag-small.es-ES { background-position: -102px -217px; }
+
+.appwriter-flag-small.fr-FR { background-position: -119px -217px; }
+
+.appwriter-flag-small.it-IT { background-position: -136px -217px; }
+
+.appwriter-flag-small.nl-NL { background-position: 0px -234px; }
+
+.appwriter-flag-small.pl-PL { background-position: -17px -234px; }
+
+.appwriter-flag-small.pt-PT { background-position: -34px -234px; }
+
+.appwriter-flag-small.ro-RO { background-position: -51px -234px; }
+
+.appwriter-flag-small.ru-RU { background-position: -68px -234px; }
+
+.appwriter-flag-small.se-SE { background-position: -85px -234px; }
+
+.appwriter-flag-small.tr-TR { background-position: -102px -234px; }
+
+.appwriter-flag-small.ar-EG { background-position: -119px -234px; }
+
+#appwriter-predictions-wrapper { --predictionsWidth: 160px; --predictionsWi=
+deWidth: 235px; top: 0px; left: 0px; display: none; position: absolute; fon=
+t-family: Roboto, sans-serif; font-size: 13px; line-height: 13px; font-weig=
+ht: 400; color: rgb(0, 0, 0); pointer-events: none; z-index: var(--max-z-in=
+dex); direction: ltr; }
+
+#appwriter-predictions-wrapper, #appwriter-predictions-wrapper *, #appwrite=
+r-predictions-wrapper::after, #appwriter-predictions-wrapper ::after, #appw=
+riter-predictions-wrapper::before, #appwriter-predictions-wrapper ::before =
+{ box-sizing: content-box; }
+
+#appwriter-predictions, #appwriter-predictions-flyout-btn, #appwriter-predi=
+ctions-pagers, #appwriter-predictions-pin { pointer-events: auto; }
+
+#appwriter-predictions-arrow-bottom, #appwriter-predictions-arrow-top { dis=
+play: none; width: 0px; height: 0px; border-style: solid; }
+
+#appwriter-predictions-arrow-top { position: relative; border-width: 0px 14=
+px 14px; border-color: transparent transparent rgb(217, 217, 217); z-index:=
+ 1; }
+
+#appwriter-predictions-wrapper.arrow-top #appwriter-predictions-arrow-top {=
+ display: block; }
+
+#appwriter-predictions-arrow-bottom { bottom: 0px; left: 61px; border-width=
+: 14px 14px 0px; border-color: rgb(217, 217, 217) transparent transparent; =
+}
+
+#appwriter-predictions-wrapper.arrow-bottom #appwriter-predictions-arrow-bo=
+ttom { display: block; }
+
+#appwriter-predictions-border { border: 4px solid rgb(217, 217, 217); backg=
+round: rgb(217, 217, 217); border-radius: 3px; box-shadow: rgba(0, 0, 0, 0.=
+25) 1px 0px 4px 0px, rgba(0, 0, 0, 0.25) 0px -1px 4px 0px, rgba(0, 0, 0, 0.=
+25) 0px 1px 4px 0px !important; }
+
+#appwriter-predictions-flyout-btn { display: none; position: absolute; top:=
+ 50%; right: -14px; width: 0px; height: 34px; border-style: solid; border-c=
+olor: transparent transparent transparent rgb(217, 217, 217); border-image:=
+ none; border-width: 8px 0px 8px 14px; cursor: pointer; }
+
+#appwriter-predictions-wrapper.arrow-top #appwriter-predictions-flyout-btn =
+{ margin-top: -18px; }
+
+#appwriter-predictions-wrapper.arrow-bottom #appwriter-predictions-flyout-b=
+tn { margin-top: -32px; }
+
+#appwriter-predictions-flyout-arrow { width: 0px; height: 0px; margin-top: =
+11px; margin-left: -13px; border-style: solid; border-color: transparent; b=
+order-image: none; border-width: 6px 10px; }
+
+#appwriter-predictions-wrapper.flyout-closed #appwriter-predictions-flyout-=
+arrow { border-right-width: 0px; border-left-color: rgb(255, 255, 255); }
+
+#appwriter-predictions-wrapper.flyout-open #appwriter-predictions-flyout-ar=
+row { margin-left: -14px; border-left-width: 0px; border-right-color: rgb(2=
+55, 255, 255); }
+
+#appwriter-predictions-wrapper.flyout-closed.has-glossary-predictions #appw=
+riter-predictions-flyout-arrow { border-left-color: rgb(170, 255, 170); }
+
+#appwriter-predictions-wrapper.flyout-open.has-glossary-predictions #appwri=
+ter-predictions-flyout-arrow { border-right-color: rgb(217, 255, 206); }
+
+#appwriter-predictions-wrapper.has-glossary-predictions-only #appwriter-spe=
+ech-model-predictions, #appwriter-predictions-wrapper.has-glossary-predicti=
+ons-only #appwriter-speech-model-predictions-pager { display: none; }
+
+.has-glossary-predictions-only #appwriter-predictions-border { transform: t=
+ranslateX(calc(var(--predictionsWidth)*-1/2)); }
+
+#appwriter-predictions { display: flex; background: rgb(255, 255, 255); }
+
+#appwriter-predictions-pin { background: rgb(217, 217, 217); text-align: ri=
+ght; }
+
+#appwriter-predictions-pin button { background: transparent; border: 0px; p=
+adding: 5px 4px; margin-right: 3px; cursor: pointer; height: revert; min-wi=
+dth: revert; }
+
+.appwriter-predictions-button { display: inline-flex; -webkit-box-align: ce=
+nter; align-items: center; -webkit-box-pack: center; justify-content: cente=
+r; }
+
+.appwriter-predictions-btn-icon { display: block; width: 13px; height: 13px=
+; background-repeat: no-repeat; }
+
+.appwriter-predictions-icon { display: block; width: 10px; height: 10px; ba=
+ckground-repeat: no-repeat; }
+
+.appwriter-predictions-speaker { width: 13px; height: 13px; }
+
+.appwriter-predictions-button .appwriter-predictions-speaker { background-i=
+mage: url("/images/speaker.svg"); }
+
+.appwriter-predictions-button.appwriter-predictions-mute .appwriter-predict=
+ions-speaker { background-image: url("/images/mute.svg"); }
+
+#appwriter-predictions-pin-btn-icon { background-image: url("/images/lock_l=
+ocked.svg"); }
+
+#appwriter-predictions-pin button.active #appwriter-predictions-pin-btn-ico=
+n { background: url("/images/lock_unlocked.svg") no-repeat; }
+
+#appwriter-predictions-pin button:hover { background: rgb(169, 169, 169); }
+
+#appwriter-predictions-pin button#appwriter-predictions-mute-btn { margin-r=
+ight: 0px; }
+
+#appwriter-prediction-numbers { border-right: 1px solid rgb(217, 217, 217);=
+ background-color: rgb(238, 238, 238); }
+
+#appwriter-prediction-numbers .prediction-number { width: 25px; height: 25p=
+x; line-height: 25px; border-bottom: 1px solid rgb(217, 217, 217); text-ali=
+gn: center; }
+
+#appwriter-glossary-predictions, #appwriter-speech-model-predictions { min-=
+width: var(--predictionsWidth); background: rgb(238, 238, 238); }
+
+#appwriter-glossary-predictions { border-left: 4px solid rgb(217, 217, 217)=
+; }
+
+.has-glossary-predictions-only #appwriter-glossary-predictions { border-lef=
+t-width: medium; border-left-style: none; border-left-color: currentcolor; =
+}
+
+#appwriter-predictions-wrapper.flyout-closed #appwriter-glossary-prediction=
+s { display: none; }
+
+#appwriter-predictions-pagers { display: flex; background-color: rgb(255, 2=
+55, 255); font-size: 12px; line-height: 12px; text-align: center; color: rg=
+b(108, 108, 108); height: 25px; margin-left: 26px; }
+
+#appwriter-glossary-predictions-pager, #appwriter-speech-model-predictions-=
+pager { display: flex; -webkit-box-align: center; align-items: center; -web=
+kit-box-pack: center; justify-content: center; width: var(--predictionsWidt=
+h); border-top: 1px solid rgb(217, 217, 217); margin-top: -1px; }
+
+.has-glossary-predictions-only #appwriter-glossary-predictions-pager { bord=
+er-left-width: medium; border-left-style: none; border-left-color: currentc=
+olor; }
+
+#appwriter-glossary-predictions-pager.disabled, #appwriter-speech-model-pre=
+dictions-pager.disabled { background: rgb(238, 238, 238); }
+
+#appwriter-glossary-predictions-pager { border-left: 4px solid rgb(217, 217=
+, 217); }
+
+#appwriter-predictions-wrapper.flyout-closed #appwriter-glossary-prediction=
+s-pager { display: none; }
+
+#appwriter-glossary-predictions-pager-text, #appwriter-speech-model-predict=
+ions-pager-text { display: inline-block; margin-top: 2px; vertical-align: t=
+op; }
+
+#appwriter-glossary-predictions-pager-left-arrow, #appwriter-speech-model-p=
+redictions-pager-left-arrow { display: inline-block; padding: 4px 0px 2px; =
+margin-right: 7px; cursor: pointer; vertical-align: middle; margin-top: -1p=
+x; }
+
+#appwriter-glossary-predictions-pager.disabled #appwriter-glossary-predicti=
+ons-pager-left-arrow, #appwriter-glossary-predictions-pager.disabled #appwr=
+iter-glossary-predictions-pager-right-arrow, #appwriter-speech-model-predic=
+tions-pager.disabled #appwriter-speech-model-predictions-pager-left-arrow, =
+#appwriter-speech-model-predictions-pager.disabled #appwriter-speech-model-=
+predictions-pager-right-arrow { display: none; }
+
+#appwriter-glossary-predictions-pager-right-arrow, #appwriter-speech-model-=
+predictions-pager-right-arrow { display: inline-block; padding: 4px 0px 2px=
+; margin-left: 7px; cursor: pointer; vertical-align: middle; margin-top: -1=
+px; }
+
+#appwriter-glossary-predictions-pager-right-arrow div, #appwriter-speech-mo=
+del-predictions-pager-right-arrow div { width: 8px; height: 13px; backgroun=
+d: url("/images/expand-right.svg"); }
+
+#appwriter-glossary-predictions-pager-left-arrow div, #appwriter-speech-mod=
+el-predictions-pager-left-arrow div { width: 8px; height: 13px; background:=
+ url("/images/expand-left.svg"); }
+
+#appwriter-predictions .prediction { position: relative; width: auto; heigh=
+t: 25px; line-height: 25px; padding: 0px 24px 0px 6px; border-bottom: 1px s=
+olid rgb(217, 217, 217); background: rgb(255, 255, 255); text-align: left; =
+text-overflow: ellipsis; white-space: nowrap; overflow: hidden; cursor: poi=
+nter; }
+
+#appwriter-predictions .prediction.spell-corrected { background-color: rgb(=
+206, 235, 255); }
+
+#appwriter-predictions .prediction.user-word { background-color: rgb(217, 2=
+55, 206); }
+
+#appwriter-predictions .prediction.hover, #appwriter-predictions .predictio=
+n:hover { background: linear-gradient(rgb(5, 140, 245), rgb(1, 93, 230)); }
+
+#appwriter-predictions .prediction.hover .prediction-text, #appwriter-predi=
+ctions .prediction:hover .prediction-text { color: rgb(255, 255, 255) !impo=
+rtant; }
+
+#appwriter-predictions .prediction-play { display: block; position: absolut=
+e; top: 2px; right: 2px; padding: 5px; background: url("/images/select.svg"=
+) 50% center no-repeat; width: 9px; height: 1em; }
+
+#appwriter-predictions .prediction-wrapper:last-child { border-bottom-width=
+: medium; border-bottom-style: none; border-bottom-color: currentcolor; }
+
+#appwriter-loading { width: 100px; height: 66px; background: url("/images/a=
+jax-loader-black.gif") 50% center no-repeat rgb(244, 244, 244); color: rgb(=
+255, 255, 255); border: 1px solid rgb(220, 220, 220); position: fixed; left=
+: 50%; margin-left: -50px; top: 50%; border-radius: 6px; z-index: 50; }
+
+.cui-menu.cui-menu-vertical { position: absolute; z-index: 1001; }
+
+.cui-menu a.cui-ctl-menu-hover.aw-cui { border-color: rgb(213, 225, 242) !i=
+mportant; background-color: rgb(213, 225, 242) !important; }
+
+.cui-ctl-medium.cui-ctl-medium-focused.cui-fa-dropped { border-color: rgb(1=
+63, 189, 227) !important; background-color: rgb(163, 189, 227) !important; =
+}
+
+.cui-ctl-medium.cui-ctl-medium-focused.cui-ctl-medium-hover.cui-fa-dropped =
+{ border-color: rgb(213, 225, 242) !important; background-color: rgb(213, 2=
+25, 242) !important; }
+
+.compact .label { display: none !important; }
+
+#tabHome.cui-tabBody { overflow: visible !important; }
+
+.appwriter-highlight .EOP.Selected, .appwriter-highlight .LineBreakBlob.Sel=
+ected, .appwriter-highlight .Selected .EOP, .appwriter-highlight .TextRun .=
+Selected { border-color: inherit !important; border-bottom-width: 0px !impo=
+rtant; margin-bottom: 0px !important; border-top-width: 0px !important; mar=
+gin-top: 0px !important; }
+
+.appwriter-highlight .caretForCanvas, .appwriter-highlight .Selected, .appw=
+riter-highlight .Selected.MergeHighlight, .appwriter-highlight .Selected p,=
+ .appwriter-highlight .Selected p *, .appwriter-highlight .Selected span, .=
+appwriter-highlight .Selected span *, .appwriter-highlight .TextRun p, .app=
+writer-highlight .TextRun p *, .appwriter-highlight .TextRun span:not(#Note=
+sContentContainer *), .appwriter-highlight .TextRun span:not(#NotesContentC=
+ontainer *) *, .appwriter-highlight span.Selected * { position: relative; z=
+-index: 1002; background-color: transparent !important; }
+
+html body.appwriter-highlight .EOP.Selected, html body.appwriter-highlight =
+.EOP.Selected::after, html body.appwriter-highlight .EOP.Selected::before, =
+html body.appwriter-highlight .HighlightsContainer .CanvasHighlightStyleEle=
+ment.CanvasSelected, html body.appwriter-highlight .LineBreakBlob.Selected,=
+ html body.appwriter-highlight .Selected .EOP, html body.appwriter-highligh=
+t .Selected .LineBreakBlob { background-color: transparent !important; back=
+ground-image: none !important; box-shadow: none !important; border-color: t=
+ransparent !important; border-width: 0px !important; outline-color: transpa=
+rent !important; }
+
+.appwriter-highlight #NotesContentContainer * { opacity: 1 !important; }
+
+.appwriter-highlight .Paragraph { background: transparent !important; }
+
+.appwriter-highlight .Paragraph .WACImageContainer { z-index: 2; }
+
+.aw-highlight { position: absolute; z-index: 1001; background: rgb(198, 198=
+, 198); }
+
+body:has(.aw-highlight) {
+  caret-color: transparent;
+  & [aria-labelledby=3D"header-SharedSpellingCritique"] { display: none; }
+}
+
+.aw-modal-body, .aw-modal-body body { overflow: hidden !important; }
+
+.aw-modal { text-align: left; padding: 30px 42px !important; border: 1px so=
+lid rgb(220, 220, 220) !important; color: rgb(0, 0, 0) !important; border-r=
+adius: 6px !important; outline: 0px !important; font: 13px Roboto, sans-ser=
+if !important; }
+
+.aw-modal, .aw-modal-bg { z-index: 2147483647; position: absolute !importan=
+t; background: rgb(255, 255, 255) !important; }
+
+.aw-modal-bg { left: 0px !important; top: 0px !important; }
+
+.aw-modal-title { background-color: rgb(255, 255, 255) !important; color: r=
+gb(0, 0, 0) !important; cursor: default !important; font-size: 16px !import=
+ant; font-weight: 400 !important; line-height: 24px !important; margin: 0px=
+ 0px 16px !important; }
+
+.aw-modal-buttons, .aw-modal-content { background: rgb(255, 255, 255) !impo=
+rtant; }
+
+.aw-modal-buttons { margin-top: 16px !important; }
+
+.aw-modal-buttons button { border-radius: 2px !important; background-color:=
+ rgb(245, 245, 245) !important; background-image: linear-gradient(rgb(245, =
+245, 245), rgb(241, 241, 241)) !important; border: 1px solid rgba(0, 0, 0, =
+0.1) !important; color: rgb(51, 51, 51) !important; cursor: default !import=
+ant; font-family: inherit !important; font-size: 11px !important; font-weig=
+ht: 700 !important; height: 29px !important; line-height: 27px !important; =
+margin: 0px 16px 0px 0px !important; min-width: 72px !important; outline: 0=
+px !important; padding: 0px 8px !important; }
+
+.aw-modal-buttons button:active, .aw-modal-buttons button:hover { box-shado=
+w: rgba(0, 0, 0, 0.1) 0px 1px 1px !important; background-color: rgb(248, 24=
+8, 248) !important; background-image: linear-gradient(rgb(248, 248, 248), r=
+gb(241, 241, 241)) !important; border: 1px solid rgb(198, 198, 198) !import=
+ant; color: rgb(17, 17, 17) !important; }
+
+.aw-modal-buttons button:active { box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2p=
+x inset !important; }
+
+.aw-modal-buttons button:focus { border: 1px solid rgb(77, 144, 254) !impor=
+tant; }
+
+.aw-modal-buttons button.goog-buttonset-default { background-color: rgb(77,=
+ 144, 254) !important; background-image: linear-gradient(rgb(77, 144, 254),=
+ rgb(71, 135, 237)) !important; border: 1px solid rgb(48, 121, 237) !import=
+ant; color: rgb(255, 255, 255) !important; }
+
+.aw-modal-buttons button.goog-buttonset-default:active, .aw-modal-buttons b=
+utton.goog-buttonset-default:hover { background-color: rgb(53, 122, 232) !i=
+mportant; background-image: linear-gradient(rgb(77, 144, 254), rgb(53, 122,=
+ 232)) !important; border: 1px solid rgb(47, 91, 183) !important; color: rg=
+b(255, 255, 255) !important; }
+
+.aw-modal-buttons button.goog-buttonset-default:focus { box-shadow: rgb(255=
+, 255, 255) 0px 0px 0px 1px inset !important; border: 1px solid transparent=
+ !important; outline: transparent 0px !important; }
+
+.aw-modal-buttons button.goog-buttonset-default:active { box-shadow: rgba(0=
+, 0, 0, 0.3) 0px 1px 2px inset !important; }
+
+.aw-scroll-btn-wrapper { position: fixed; right: 15px; bottom: 15px; z-inde=
+x: 19999999; }
+
+.aw-scroll-btn { border-radius: 2px; border: 0px; background: rgb(255, 255,=
+ 255); cursor: pointer; }
+
+.aw-scroll-btn:hover { background: rgb(221, 221, 221); }
+
+.aw-scroll-btn-icon { display: block; width: 48px; height: 48px; background=
+: url("/images/material/chevron-double-up.png") no-repeat; }
+
+.aw-scroll-btn-upsidedown .aw-scroll-btn-icon { transform: rotate(180deg); =
+}
+
+#appwriter-predictions .prediction-text, .appwriter-select .appwriter-selec=
+t-option-text { font-family: Roboto, sans-serif; line-height: 13px; font-we=
+ight: 400; color: rgb(0, 0, 0); font-size: 13px !important; }
+
+.appwriter-menu.appwriter-disabled, .on-toolbar-integration.appwriter-disab=
+led { display: none !important; }
+
+.appwriter-menu.appwriter-disabled + .goog-toolbar-separator { display: non=
+e; }
+
+.appwriter-invisible-overlay { position: fixed; inset: 0px; z-index: 214748=
+3647; opacity: 0; background: rgb(255, 255, 255); }
+
+#appwriter-glossary-predictions-pager, #appwriter-predictions, #appwriter-s=
+peech-model-predictions-pager, .appwriter-dialog__header, .appwriter-menu--=
+visible, .appwriter-menu.google-embedded, .appwriter-popup__content, .appwr=
+iter-record__positioner .appwriter-record__actions, .appwriter-speech__acti=
+ons { -webkit-box-orient: horizontal; -webkit-box-direction: normal; flex-d=
+irection: row; }
+
+#appwriter-predictions-pin { -webkit-box-orient: horizontal; -webkit-box-di=
+rection: reverse; flex-direction: row-reverse; }
+
+.appwriter-onedrive-icon { background: url("/images/logo/cloud16x16.png") 5=
+0% 50% no-repeat; display: inline-block; height: 20px; width: 20px; vertica=
+l-align: sub; margin: auto 3px auto 0px; }
+
+.od-theme--darkTransparent .appwriter-onedrive-icon { background-color: rgb=
+(255, 255, 255); }
+
+.appwriter-stt__positioner { position: fixed; top: 120px; right: 60px; z-in=
+dex: 42949672; line-height: 1em; font-size: 14px; }
+
+.appwriter-stt-dialog { position: relative; width: 320px; background: rgb(2=
+55, 255, 255); border: 1px solid rgb(217, 217, 217); box-shadow: rgba(0, 0,=
+ 0, 0.2) 1px 0px 3px 0px, rgba(0, 0, 0, 0.2) 0px 2px 3px 0px; font-family: =
+Roboto, sans-serif; font-size: 14px; line-height: 14px; text-align: left; m=
+in-width: 340px; min-height: 340px; direction: ltr; flex-direction: column;=
+ -webkit-box-pack: justify; justify-content: space-between; overflow: hidde=
+n; }
+
+.appwriter-stt-dialog, .appwriter-stt__content { display: flex; -webkit-box=
+-orient: vertical; -webkit-box-direction: normal; }
+
+.appwriter-stt__content { padding: 1em; flex-direction: column; -webkit-box=
+-flex: 1; flex: 1 1 0%; }
+
+.appwriter-stt-content__title { font-size: 14px; line-height: 14px; color: =
+rgb(25, 25, 25); font-family: Roboto, sans-serif; margin-bottom: 16px; }
+
+.appwriter-stt-content__description { font-size: 14px; line-height: 14px; c=
+olor: rgb(108, 108, 108); font-family: Roboto, sans-serif; margin-bottom: 1=
+2px; }
+
+.appwriter-stt-content__description.appwriter-stt-content__description--str=
+ong { font-size: 16px; line-height: 16px; color: rgb(25, 25, 25); }
+
+.appwriter-stt-content__error { font-size: 14px; line-height: 14px; color: =
+rgb(208, 1, 27); font-family: Roboto, sans-serif; margin-bottom: 12px; }
+
+.appwriter-stt-dialog.appwriter-stt--completed .appwriter-stt__btn[data-act=
+ion=3D"record"], .appwriter-stt-dialog.appwriter-stt--completed .appwriter-=
+stt__content > [data-view=3D"processing"], .appwriter-stt-dialog.appwriter-=
+stt--completed .appwriter-stt__content > [data-view=3D"record"], .appwriter=
+-stt-dialog.appwriter-stt--processing .appwriter-stt__actions, .appwriter-s=
+tt-dialog.appwriter-stt--processing .appwriter-stt__content > [data-view=3D=
+"completed"], .appwriter-stt-dialog.appwriter-stt--processing .appwriter-st=
+t__content > [data-view=3D"record"], .appwriter-stt-dialog.appwriter-stt--r=
+ecord .appwriter-stt__btn[data-action=3D"download"], .appwriter-stt-dialog.=
+appwriter-stt--record .appwriter-stt__content > [data-view=3D"completed"], =
+.appwriter-stt-dialog.appwriter-stt--record .appwriter-stt__content > [data=
+-view=3D"processing"] { display: none; }
+
+.appwriter-stt-btn__icon { display: inline-block; margin-left: 8px; vertica=
+l-align: middle; }
+
+.appwriter-stt-btn__content { vertical-align: middle; }
+
+.appwriter-stt-btn__icon.appwriter-stt-icon__close { background: url("/imag=
+es/close.svg") 50% center no-repeat; width: 15px; height: 15px; }
+
+.appwriter-stt-btn__icon.appwriter-stt-icon__record { background: url("/ima=
+ges/record--active.svg") 50% center no-repeat; width: 13px; height: 19px; }
+
+.appwriter-stt-btn__icon.appwriter-stt-icon__download { background: url("/i=
+mages/download.svg") 50% center no-repeat; width: 13px; height: 14px; }
+
+.appwriter-stt__results { min-width: 100%; max-width: 100%; }
+
+.appwriter-stt__btn { margin-left: auto; }
+
+.appwriter-stt__btn[data-action=3D"read"] { visibility: hidden; box-shadow:=
+ transparent 0px 0px 1px 0px; padding: 6px; }
+
+.appwriter-stt__btn[data-action=3D"read"]:hover { box-shadow: rgba(0, 0, 0,=
+ 0.4) 0px 0px 1px 0px; }
+
+.appwriter-stt__btn[data-action=3D"read"].active { visibility: visible; }
+
+.appwriter-stt__disabled button.appwriter-stt__action-btn { opacity: 0.6; c=
+ursor: default; }
+
+.appwriter-stt__disabled .appwriter-speech__actions, .appwriter-stt__disabl=
+ed .appwriter-stt__detected-text { display: none; }
+
+button.appwriter-stt__action-btn[data-action=3D"record"] { display: block; =
+width: 104px; height: 104px; margin: auto; box-sizing: border-box; border-r=
+adius: 50%; border: 1px solid transparent; background: url("/images/speech_=
+to_text.svg") 50% center / 66px 66px no-repeat; cursor: pointer; transition=
+: outline-offset 0.3s; outline: red solid 0px; outline-offset: -100px; }
+
+button.appwriter-stt__action-btn[data-action=3D"record"]:focus, button.appw=
+riter-stt__action-btn[data-action=3D"record"]:hover { border-color: rgb(198=
+, 198, 198); }
+
+button.appwriter-stt__action-btn[data-action=3D"record"].appwriter-stt__act=
+ion-btn--detect:hover, button.appwriter-stt__action-btn[data-action=3D"reco=
+rd"].appwriter-stt__action-btn--recording:hover { border-color: transparent=
+; }
+
+button.appwriter-stt__action-btn[data-action=3D"record"].appwriter-stt__act=
+ion-btn--connecting { outline-color: rgb(74, 74, 74); filter: none; }
+
+button.appwriter-stt__action-btn[data-action=3D"record"].appwriter-stt__act=
+ion-btn--connecting, button.appwriter-stt__action-btn[data-action=3D"record=
+"].appwriter-stt__action-btn--recording { outline-width: 6px; outline-offse=
+t: -6px; transition: outline-offset 0.2s; }
+
+button.appwriter-stt__action-btn[data-action=3D"record"].appwriter-stt__act=
+ion-btn--recording { filter: invert(27%) sepia(94%) saturate(5437%) hue-rot=
+ate(353deg) brightness(99%) contrast(132%); }
+
+button.appwriter-stt__action-btn[data-action=3D"record"].appwriter-stt__act=
+ion-btn--detect { outline-offset: -8px; }
+
+.appwriter-stt__detected-text-container { position: relative; margin-top: 1=
+3px; -webkit-box-flex: 1; flex: 1 1 0%; }
+
+.appwriter-stt__detected-text-container > .appwriter-stt__detected-text { p=
+osition: absolute; inset: 0px; border: 1px solid rgb(204, 204, 204); box-sh=
+adow: rgba(0, 0, 0, 0.1) 0px 1px 2px inset; color: rgb(0, 0, 0); background=
+-color: rgb(255, 255, 255); font-size: 14px; line-height: 14px; box-sizing:=
+ border-box; width: 100%; height: 100%; margin: 0px; padding: 5px 10px; res=
+ize: none; }
+
+textarea.appwriter-snipping-dialog__textarea.focus-visible, textarea.appwri=
+ter-stt__detected-text.focus-visible { outline: rgb(16, 16, 16) auto 1px !i=
+mportant; }
+
+.appwriter-stt__detected-text-container > .appwriter-stt__detected-text[dir=
+=3D"rtl"] { text-align: right; }
+
+.appwriter-stt__detected-text.active { display: block; }
+
+.appwriter-speech__actions > a[data-action=3D"insert"] { text-decoration: n=
+one; filter: grayscale(100%); cursor: default; padding: 9px 6px 5px 5px; fo=
+nt-size: 14px; line-height: 14px; border-radius: 3px; color: rgb(31, 148, 2=
+24); border: 1px solid transparent; display: flex; -webkit-box-align: cente=
+r; align-items: center; }
+
+[dir=3D"rtl"] .appwriter-speech__actions > a[data-action=3D"insert"] { -web=
+kit-box-orient: horizontal; -webkit-box-direction: reverse; flex-direction:=
+ row-reverse; }
+
+.appwriter-speech__actions > a[data-action=3D"insert"].active { filter: gra=
+yscale(0); }
+
+.appwriter-speech__actions > a[data-action=3D"insert"].active:hover { borde=
+r: 1px solid rgb(204, 204, 204); box-shadow: rgb(204, 204, 204) 0px 0px 1px=
+; cursor: pointer; }
+
+.appwriter-stt__copied_successfully { display: none; margin: 0px; padding-t=
+op: 14px; }
+
+.appwriter-stt__copied_successfully.active { display: block; }
+
+.appwriter-speech-icon__insert-text, .appwriter-speech-icon__insert-text:vi=
+sited { background: url("/images/insert_text.svg") 50% center no-repeat; wi=
+dth: 20px; height: 20px; margin-right: 3px; }
+
+[dir=3D"rtl"] .appwriter-speech-icon__insert-text, [dir=3D"rtl"] .appwriter=
+-speech-icon__insert-text:visited { margin-right: 0px; margin-left: 3px; }
+
+.appwriter-progressing::after { animation: 1s ease 0s infinite normal none =
+running appwriter_progressing; content: ""; display: inline-block; width: 1=
+.2em; text-align: left; padding-left: 2px; }
+
+@-webkit-keyframes appwriter_progressing {=20
+  0% { content: ""; }
+  25% { content: "."; }
+  50% { content: ".."; }
+  100% { content: "..."; }
+}
+
+@keyframes appwriter_progressing {=20
+  0% { content: ""; }
+  25% { content: "."; }
+  50% { content: ".."; }
+  100% { content: "..."; }
+}
+
+.appwriter-stt__errors strong { display: block; margin-bottom: 0.8em; color=
+: rgb(44, 44, 44); }
+
+.appwriter-stt__errors p { margin: 0px; padding: 0px; font-size: 0.9em; lin=
+e-height: 0.9em; color: rgb(86, 86, 86); }
+
+.appwriter-stt__actions-buttons { position: relative; }
+
+.appwriter-stt__actions-buttons .appwriter-stt__errors_wrapper, .appwriter-=
+stt__tooltip_wrapper { position: absolute; top: -16px; z-index: 1; display:=
+ flex; width: 100%; }
+
+.appwriter-stt__tooltip_wrapper .appwriter-sst__tooltip-content { text-alig=
+n: center; line-height: 2em; color: rgb(0, 0, 0); }
+
+.appwriter-stt-dialog .appwriter-stt__tooltip_wrapper { top: 92px; }
+
+.appwriter-stt__actions-buttons .appwriter-stt__errors, .appwriter-stt__too=
+ltip { background-color: rgb(232, 240, 254); padding: 1em; box-shadow: rgba=
+(0, 0, 0, 0.15) 0px 2px 5px; border-radius: 5px; border-bottom: 1px solid r=
+gba(0, 0, 0, 0.1); font-size: 16px; line-height: 16px; margin: auto; text-a=
+lign: center; }
+
+.appwriter-stt-dialog .appwriter-stt__tooltip { font-size: 13px; line-heigh=
+t: 13px; box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 3px; background-color: rgb(=
+255, 255, 255); border-width: 1px; border-style: solid; border-image: none;=
+ border-color: rgb(187, 187, 187) rgb(187, 187, 187) rgb(168, 168, 168); po=
+sition: relative; }
+
+.appwriter-stt__tooltip-triangle { box-sizing: border-box; width: 20px; hei=
+ght: 10px; border-bottom: 10px solid rgb(255, 255, 255); border-left: 10px =
+solid transparent; border-right: 10px solid transparent; display: inline-bl=
+ock; vertical-align: middle; position: absolute; margin-left: auto; margin-=
+right: auto; left: 0px; top: -10px; right: 0px; }
+
+.appwriter-stt__tooltip-triangle-top { z-index: 1; }
+
+.appwriter-stt__tooltip-triangle-bottom { z-index: 0; border-bottom: 10px s=
+olid rgb(61, 61, 61); }
+
+.appwriter_stt_open_settings { text-decoration: underline; cursor: pointer;=
+ color: var(--appwriter-link); }
+
+.appwriter_stt_how-to-fix-mic { background-size: 100%; width: 265px; height=
+: 90px; display: block; }
+
+.appwriter_stt_how-to-fix-mic[data-lang=3D"en-GB"] { background: url("/imag=
+es/fix-mic/en-GB.gif") 50% center no-repeat; }
+
+.appwriter_stt_how-to-fix-mic[data-lang=3D"da-DK"] { background: url("/imag=
+es/fix-mic/da-DK.gif") 50% center no-repeat; }
+
+.appwriter_stt_how-to-fix-mic[data-lang=3D"nb-NO"] { background: url("/imag=
+es/fix-mic/nb-NO.gif") 50% center no-repeat; }
+
+.appwriter_stt_how-to-fix-mic[data-lang=3D"sv-SE"] { background: url("/imag=
+es/fix-mic/sv-SE.gif") 50% center no-repeat; }
+
+.appwriter_stt_open_settings:hover { color: rgb(85, 26, 139); }
+
+.appwriter_stt_cannot_hear_error { margin: 0px auto; }
+
+[data-profile-property=3D"highlightType"] { display: flex; justify-content:=
+ space-around; margin-bottom: 1em; font-size: 14px; line-height: 14px; font=
+-weight: 400; }
+
+[data-profile-property=3D"highlightType"] .appwriter-select-list__item { wi=
+dth: 42px; height: 38px; border-width: medium; border-style: none; border-c=
+olor: currentcolor; border-image: none; background-color: transparent; back=
+ground-position: 50% center; background-repeat: no-repeat; border-radius: 3=
+px; position: relative; }
+
+[data-profile-property=3D"highlightType"] .appwriter-select-list__item:hove=
+r { background-color: rgb(244, 244, 244); }
+
+[data-profile-property=3D"highlightType"] .appwriter-select-list__item.appw=
+riter-popup-menu__option--selected, [data-profile-property=3D"highlightType=
+"] .appwriter-select-list__item:active { background-color: rgb(246, 246, 24=
+6); box-shadow: rgb(232, 232, 232) 1px 1px 3px 0px inset; }
+
+[data-profile-property=3D"highlightType"] .appwriter-select-list__item::bef=
+ore { content: none; display: none; }
+
+.appwriter-select-list[data-profile-property=3D"highlightType"] .appwriter-=
+select-list__item { padding: 0px; }
+
+[data-profile-property=3D"highlightType"] .appwriter-select-list__item span=
+ { padding-left: 0px; }
+
+[data-profile-property=3D"highlightType"] .appwriter-select-list__item .app=
+writer-select-list__item-text { margin: auto; display: flex; -webkit-box-pa=
+ck: center; justify-content: center; }
+
+[data-profile-property=3D"highlightType"] .appwriter-select-list__item i { =
+display: block; width: 25px; height: 22px; }
+
+[data-profile-property=3D"highlightType"] .appwriter-select-list__item[data=
+-value=3D"none"] i { background: url("/images/highlight/none.svg"); }
+
+[data-profile-property=3D"highlightType"] .appwriter-select-list__item[data=
+-value=3D"word"] i { background: url("/images/highlight/word.svg"); }
+
+[data-profile-property=3D"highlightType"] .appwriter-select-list__item[data=
+-value=3D"sentence"] i { background: url("/images/highlight/sentence.svg");=
+ }
+
+.appwriter-hidden-element, .appwriter-menu-button.appwriter-hidden-element,=
+ .appwriter-popup__menu .hidden, .gw-toolbar.pdf-viewer__toolbar > .gw-tool=
+bar__toolbar-buttons > .gw-group:first-child, .texthelp-groundworks-list-gr=
+oup.texthelp-groundworks-settings-nav-area__menu > .texthelp-groundworks-li=
+st-group__item:nth-child(2) { display: none; }
+
+.appwriter-html-highlight { visibility: visible; border: 0px; color: rgb(0,=
+ 0, 0); }
+
+.PSPDFKit-Text .appwriter-html-highlight { color: transparent !important; }
+
+.page-wrapper .stamp__view .appwriter-html-highlight { color: rgb(0, 0, 0) =
+!important; }
+
+.appwriter-clone-container { pointer-events: none; }
+
+.appwriter-clone-container .appwriter-input-clone { outline: none; width: 1=
+00%; height: 100%; box-sizing: border-box; }
+
+.appwriter-input-field-clone { max-height: 100%; display: flex; -webkit-box=
+-align: center; align-items: center; overflow: hidden; }
+
+.appwriter-clone-text-container { position: relative; z-index: 3; }
+
+.appwriter-input-field-clone .appwriter-clone-text-container { white-space:=
+ pre; }
+
+.appwriter-html-overlay, .appwriter-input-clone .appwriter-input-overlay { =
+color: rgb(0, 0, 0); }
+
+.appwriter-select-overlay { background-color: var(--appwriter-select-overla=
+y-background-color); color: var(--appwriter-select-overlay-text-color); z-i=
+ndex: var(--appwriter-select-overlay-z-index); }
+
+:has(> appwriter-overlay[data-dir=3D"rtl"]) { direction: rtl; }
+
+#awFeatureSet.dark-mode { --separator-color: #424c64; }
+
+#awFeatureSet { --separator-color: #d1d1d1; border-right: 1px solid var(--s=
+eparator-color); padding-right: 4em; margin-right: 1em; }
+
+#awFeatureSet > div:first-child { transform: scale(1.1); transform-origin: =
+0px center; }
+
+#awFeatureSet .appwriter-icon__play { scale: 0.8; }
+
+#awFeatureSet .appwriter-dom { min-width: 35px; height: 35px; top: -2px; po=
+sition: relative; }
+
+#awFeatureSet .appwriter-dom.word-online { top: 0px !important; }
+
+#awFeatureSet.light-mode { --orbit-note-active-button-color: #de174f; }
+
+#awFeatureSet.light-mode, #awFeatureSet.light-mode-gray { --aw-play-icon: u=
+rl(/images/play-light.svg); --aw-pause-icon: url(/images/pause-light.svg); =
+--aw-resume-icon: url(/images/resume-light.svg); }
+
+#awFeatureSet.light-mode-gray { --orbit-note-active-button-color: #e3e3e3; =
+}
+
+#awFeatureSet.dark-mode { --orbit-note-active-button-color: #007bbd; }
+
+#awFeatureSet.dark-mode, #awFeatureSet.light-mode :is(.appwriter-menu-butto=
+n, .appwriter-popup):hover, .on-theme-dark { --aw-dropdown-icon: url(/image=
+s/dropdown-dark.svg); --aw-listen-icon: url(/images/listen-dark.svg); --aw-=
+prediction-icon: url(/images/prediction-dark.svg); --aw-page-icon: url(/ima=
+ges/page-dark.svg); --aw-stt-icon: url(/images/speech_to_text-dark.svg); --=
+aw-play-icon: url(/images/play-dark.svg); --aw-pause-icon: url(/images/paus=
+e-dark.svg); --aw-resume-icon: url(/images/resume-dark.svg); --aw-snipping-=
+icon: url(/images/snipping-reader-dark.svg); }
+
+#awFeatureSet :is(.appwriter-menu-button, .appwriter-popup):hover { backgro=
+und-color: var(--orbit-note-active-button-color) !important; }
+
+#awFeatureSet :is(.appwriter-menu-button, .appwriter-popup) { border-radius=
+: 5px !important; }
+
+#awFeatureSet.appwriter-menu.google-embedded .appwriter-menu-button, #awFea=
+tureSet.appwriter-menu.google-embedded .appwriter-popup { padding-top: 3px;=
+ padding-bottom: 3px; margin-top: 0px; min-width: 34px; }
+
+#awFeatureSet.appwriter-menu.google-embedded .appwriter-popup.appwriter-pop=
+up--active { padding-top: 4px; padding-bottom: 4px; margin-top: 0px; }
+
+#awFeatureSet.appwriter-menu.google-embedded.appwriter-popup.dark-mode .app=
+writer-popup--active, #awFeatureSet.appwriter-menu.google-embedded.appwrite=
+r-popup.light-mode-gray .appwriter-popup--active, #awFeatureSet.appwriter-m=
+enu.google-embedded.dark-mode .appwriter-menu-button, #awFeatureSet.appwrit=
+er-menu.google-embedded.dark-mode .appwriter-popup, #awFeatureSet.appwriter=
+-menu.google-embedded.light-mode-gray .appwriter-menu-button, #awFeatureSet=
+.appwriter-menu.google-embedded.light-mode-gray .appwriter-popup { padding-=
+top: 0px; padding-bottom: 0px; }
+
+.pdf-viewer__toolbar:has(#awFeatureSet) #rwFeatureSet { display: none; }
+
+#awFeatureSet svg.appwriter-popup__content-icon-svg { filter: drop-shadow(r=
+gb(255, 255, 255) 1px 0px 0px) drop-shadow(rgb(255, 255, 255) -1px 0px 0px)=
+ drop-shadow(rgb(255, 255, 255) 0px 1px 0px) drop-shadow(rgb(255, 255, 255)=
+ 0px -1px 0px); }
+
+.on-toolbar-button.appwriter-menu-button.appwriter-menu-button--active.appw=
+riter-menu-button--active, .on-toolbar-button.appwriter-popup.appwriter-pop=
+up--active.appwriter-popup--active:not(.appwriter-popup--disabled) { backgr=
+ound-color: var(--on-toolbar-background) !important; }
+
+.on-toolbar-button.appwriter-popup { width: auto; }
+
+.on-toolbar-button .appwriter-popup__content { padding: 0px; }
+
+.on-toolbar-integration__button i { width: 28px; height: 28px; }
+
+.on-toolbar-button i { width: 22px; height: 22px; }
+
+.on-toolbar:has(.on-toolbar-integration:not(.appwriter-disabled) .appwriter=
+-icon__aw) button[id^=3D"clickToSpeak-"], .on-toolbar:has(.on-toolbar-integ=
+ration:not(.appwriter-disabled) .appwriter-icon__aw) button[id^=3D"dictiona=
+ry-"], .on-toolbar:has(.on-toolbar-integration:not(.appwriter-disabled) .ap=
+pwriter-icon__aw) button[id^=3D"pictureDictionary-"], .on-toolbar:has(.on-t=
+oolbar-integration:not(.appwriter-disabled) .appwriter-icon__aw) button[id^=
+=3D"play-"], .on-toolbar:has(.on-toolbar-integration:not(.appwriter-disable=
+d) .appwriter-icon__aw) button[id^=3D"screenShot-"], .on-toolbar:has(.on-to=
+olbar-integration:not(.appwriter-disabled) .appwriter-icon__aw) button[id^=
+=3D"stop-"] { display: none; }
+
+.appwriter-orbitnote-signed-in .on-comment-playonly-button button, .appwrit=
+er-orbitnote-signed-in .on-custom-speech-button button.custom-play-icon, .a=
+ppwriter-orbitnote-signed-in .settings-modal-dialog ul.gw-settings-nav-area=
+__menu li:nth-child(2) { display: none; }
+
+.appwriter-orbitnote-signed-in .on-comment-playonly-button { height: 38px; }
+------MultipartBoundary--LvRw9FWS9HxhI6ZfW9tjATcFlgmRixHOFB7a1XQ2NT----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap
+
+@charset "utf-8";
+
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight:=
+ 400; font-display: swap; src: url("https://fonts.gstatic.com/s/ibmplexmono=
+/v23/-F63fjptAgt5VM-kVkqdyU8n1iIq129k.woff2") format("woff2"); unicode-rang=
+e: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight:=
+ 400; font-display: swap; src: url("https://fonts.gstatic.com/s/ibmplexmono=
+/v23/-F63fjptAgt5VM-kVkqdyU8n1isq129k.woff2") format("woff2"); unicode-rang=
+e: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight:=
+ 400; font-display: swap; src: url("https://fonts.gstatic.com/s/ibmplexmono=
+/v23/-F63fjptAgt5VM-kVkqdyU8n1pUL8lJdhg.woff2") format("woff2"); unicode-ra=
+nge: U+2000-2001, U+2004-2008, U+200A, U+23B8-23BD, U+2500-259F; }
+
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight:=
+ 400; font-display: swap; src: url("https://fonts.gstatic.com/s/ibmplexmono=
+/v23/-F63fjptAgt5VM-kVkqdyU8n1iAq129k.woff2") format("woff2"); unicode-rang=
+e: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-=
+301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight:=
+ 400; font-display: swap; src: url("https://fonts.gstatic.com/s/ibmplexmono=
+/v23/-F63fjptAgt5VM-kVkqdyU8n1iEq129k.woff2") format("woff2"); unicode-rang=
+e: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+3=
+29, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4=
+, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight:=
+ 400; font-display: swap; src: url("https://fonts.gstatic.com/s/ibmplexmono=
+/v23/-F63fjptAgt5VM-kVkqdyU8n1i8q1w.woff2") format("woff2"); unicode-range:=
+ U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+=
+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U=
++FFFD; }
+
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight:=
+ 500; font-display: swap; src: url("https://fonts.gstatic.com/s/ibmplexmono=
+/v23/-F6qfjptAgt5VM-kVkqdyU8n3twJwl1FgtIU.woff2") format("woff2"); unicode-=
+range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2=
+F; }
+
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight:=
+ 500; font-display: swap; src: url("https://fonts.gstatic.com/s/ibmplexmono=
+/v23/-F6qfjptAgt5VM-kVkqdyU8n3twJwlRFgtIU.woff2") format("woff2"); unicode-=
+range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight:=
+ 500; font-display: swap; src: url("https://fonts.gstatic.com/s/ibmplexmono=
+/v23/-F6qfjptAgt5VM-kVkqdyU8n3twJwupkp-8tFQ.woff2") format("woff2"); unicod=
+e-range: U+2000-2001, U+2004-2008, U+200A, U+23B8-23BD, U+2500-259F; }
+
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight:=
+ 500; font-display: swap; src: url("https://fonts.gstatic.com/s/ibmplexmono=
+/v23/-F6qfjptAgt5VM-kVkqdyU8n3twJwl9FgtIU.woff2") format("woff2"); unicode-=
+range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+=
+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight:=
+ 500; font-display: swap; src: url("https://fonts.gstatic.com/s/ibmplexmono=
+/v23/-F6qfjptAgt5VM-kVkqdyU8n3twJwl5FgtIU.woff2") format("woff2"); unicode-=
+range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308,=
+ U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-=
+20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight:=
+ 500; font-display: swap; src: url("https://fonts.gstatic.com/s/ibmplexmono=
+/v23/-F6qfjptAgt5VM-kVkqdyU8n3twJwlBFgg.woff2") format("woff2"); unicode-ra=
+nge: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308=
+, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEF=
+F, U+FFFD; }
+
+@font-face { font-family: "IM Fell DW Pica"; font-style: italic; font-weigh=
+t: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/imfelldwp=
+ica/v16/2sDEZGRQotv9nbn2qSl0TxXVYNwNZjnXlis.woff2") format("woff2"); unicod=
+e-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U=
++308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U=
++FEFF, U+FFFD; }
+
+@font-face { font-family: "IM Fell DW Pica"; font-style: normal; font-weigh=
+t: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/imfelldwp=
+ica/v16/2sDGZGRQotv9nbn2qSl0TxXVYNwNYwnV.woff2") format("woff2"); unicode-r=
+ange: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+30=
+8, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FE=
+FF, U+FFFD; }
+
+@font-face { font-family: "Instrument Sans"; font-style: normal; font-weigh=
+t: 400; font-stretch: 100%; font-display: swap; src: url("https://fonts.gst=
+atic.com/s/instrumentsans/v4/pxiTypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr0S=
+he1YmV.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-=
+2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U=
++1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A=
+7FF; }
+
+@font-face { font-family: "Instrument Sans"; font-style: normal; font-weigh=
+t: 400; font-stretch: 100%; font-display: swap; src: url("https://fonts.gst=
+atic.com/s/instrumentsans/v4/pxiTypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr0S=
+Ze1Q.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2B=
+B-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+212=
+2, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Instrument Sans"; font-style: normal; font-weigh=
+t: 500; font-stretch: 100%; font-display: swap; src: url("https://fonts.gst=
+atic.com/s/instrumentsans/v4/pxiTypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr0S=
+he1YmV.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-=
+2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U=
++1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A=
+7FF; }
+
+@font-face { font-family: "Instrument Sans"; font-style: normal; font-weigh=
+t: 500; font-stretch: 100%; font-display: swap; src: url("https://fonts.gst=
+atic.com/s/instrumentsans/v4/pxiTypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr0S=
+Ze1Q.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2B=
+B-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+212=
+2, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Instrument Sans"; font-style: normal; font-weigh=
+t: 600; font-stretch: 100%; font-display: swap; src: url("https://fonts.gst=
+atic.com/s/instrumentsans/v4/pxiTypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr0S=
+he1YmV.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-=
+2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U=
++1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A=
+7FF; }
+
+@font-face { font-family: "Instrument Sans"; font-style: normal; font-weigh=
+t: 600; font-stretch: 100%; font-display: swap; src: url("https://fonts.gst=
+atic.com/s/instrumentsans/v4/pxiTypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr0S=
+Ze1Q.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2B=
+B-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+212=
+2, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--LvRw9FWS9HxhI6ZfW9tjATcFlgmRixHOFB7a1XQ2NT----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-fe740c36-a240-4143-99fd-8f8ebbb598a8@mhtml.blink
+
+@charset "utf-8";
+
+:root { --paper: #f3f5f2; --sheet: #fbfcfa; --ink: #1b2422; --ink-2: #4d595=
+5; --muted: #6f7c77; --rule: #d9e0dc; --rule-2: #c3ccc7; --accent: #7a2e1f;=
+ --l-jorgensen: #2a78d6; --l-gaardsted: #eb6834; --l-rousing: #1baf7a; --l-=
+frederiksen: #eda100; --l-gedde: #e87ba4; --l-larsen: #008300; --l-maternal=
+: #8d8a80; --l-self: #1b2422; --hover: rgba(27,36,34,.06); --scrim: rgba(20=
+,26,24,.32); --shadow: 0 10px 40px rgba(27,36,34,.18); --f-display: "IM Fel=
+l DW Pica", "Iowan Old Style", Georgia, serif; --f-body: "Instrument Sans",=
+ system-ui, -apple-system, "Segoe UI", sans-serif; --f-data: "IBM Plex Mono=
+", ui-monospace, Menlo, monospace; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme=3D"light"]) { --paper: #121614; --sheet: #1a1f1d; -=
+-ink: #eef2ef; --ink-2: #b9c3bf; --muted: #8d9994; --rule: #2b3330; --rule-=
+2: #3a4440; --accent: #e08a74; --l-jorgensen: #3987e5; --l-gaardsted: #d959=
+26; --l-rousing: #199e70; --l-frederiksen: #c98500; --l-gedde: #d55181; --l=
+-larsen: #3a9a3a; --l-maternal: #9a978d; --l-self: #eef2ef; --hover: rgba(2=
+38,242,239,.07); --scrim: rgba(0,0,0,.5); --shadow: 0 10px 40px rgba(0,0,0,=
+.5); color-scheme: dark; }
+}
+
+:root[data-theme=3D"dark"] { --paper: #121614; --sheet: #1a1f1d; --ink: #ee=
+f2ef; --ink-2: #b9c3bf; --muted: #8d9994; --rule: #2b3330; --rule-2: #3a444=
+0; --accent: #e08a74; --l-jorgensen: #3987e5; --l-gaardsted: #d95926; --l-r=
+ousing: #199e70; --l-frederiksen: #c98500; --l-gedde: #d55181; --l-larsen: =
+#3a9a3a; --l-maternal: #9a978d; --l-self: #eef2ef; --hover: rgba(238,242,23=
+9,.07); --scrim: rgba(0,0,0,.5); --shadow: 0 10px 40px rgba(0,0,0,.5); colo=
+r-scheme: dark; }
+
+* { box-sizing: border-box; }
+
+[hidden] { display: none !important; }
+
+body { background: var(--paper); color: var(--ink); font: 15px/1.55 var(--f=
+-body); margin: 0px; }
+
+.wrap { max-width: 1180px; margin: 0px auto; padding-inline: 20px; padding-=
+block: 0px 64px; }
+
+h1, h2, h3 { font-family: var(--f-display); font-weight: 400; text-wrap: ba=
+lance; margin: 0px; }
+
+h1 { font-size: clamp(1.9rem, 4.4vw, 3rem); line-height: 1.05; }
+
+h2 { font-size: 1.65rem; line-height: 1.15; }
+
+h3 { font-size: 1.18rem; line-height: 1.25; }
+
+.eyebrow { font: 500 .72rem/1 var(--f-data); letter-spacing: 0.12em; text-t=
+ransform: uppercase; color: var(--accent); }
+
+p { margin: 0px; max-width: 68ch; }
+
+.muted { color: var(--muted); }
+
+.ink2 { color: var(--ink-2); }
+
+a { color: inherit; text-decoration-color: var(--rule-2); text-underline-of=
+fset: 3px; }
+
+a:hover { text-decoration-color: var(--accent); }
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+button { font: inherit; color: inherit; }
+
+.mast { display: flex; flex-wrap: wrap; justify-content: space-between; ali=
+gn-items: end; gap: 10px 24px; padding-block: 28px 14px; }
+
+.mast .lead { display: flex; flex-direction: column; gap: 8px; min-width: 0=
+px; }
+
+.tabs { position: sticky; top: env(safe-area-inset-top,0px); z-index: 5; ba=
+ckground: var(--paper); border-bottom: 1px solid var(--rule-2); display: fl=
+ex; gap: 2px; overflow-x: auto; scrollbar-width: none; margin-inline: -20px=
+; padding-inline: 20px; }
+
+.tabs::-webkit-scrollbar { display: none; }
+
+.tabs a { font: 500 .9rem/1 var(--f-body); text-decoration: none; color: va=
+r(--ink-2); padding: 13px 12px 12px; border-bottom: 2px solid transparent; =
+white-space: nowrap; }
+
+.tabs a:hover { color: var(--ink); }
+
+.tabs a[aria-current=3D"page"] { color: var(--ink); border-bottom-color: va=
+r(--accent); }
+
+.view { display: flex; flex-direction: column; gap: 36px; padding-top: 28px=
+; }
+
+.view[hidden] { display: none; }
+
+.block { display: flex; flex-direction: column; gap: 14px; }
+
+.sec-head { display: flex; flex-direction: column; gap: 6px; }
+
+.sec-head p { font-size: 0.92rem; }
+
+.tiles { display: grid; grid-template-columns: repeat(4, minmax(0px, 1fr));=
+ column-gap: 20px; border-top: 2px solid var(--ink); }
+
+.tile { padding: 12px 0px; display: flex; flex-direction: column; gap: 2px;=
+ border-bottom: 1px solid var(--rule); }
+
+.tile .v { font-style: ; font-variant-ligatures: ; font-variant-caps: ; fon=
+t-variant-east-asian: ; font-variant-alternates: ; font-variant-position: ;=
+ font-variant-emoji: ; font-weight: ; font-stretch: ; font-size: ; line-hei=
+ght: ; font-family: ; font-optical-sizing: ; font-size-adjust: ; font-kerni=
+ng: ; font-feature-settings: ; font-variation-settings: ; font-language-ove=
+rride: ; font-variant-numeric: tabular-nums; }
+
+.tile .k { font-size: 0.8rem; color: var(--ink-2); }
+
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 0.84rem=
+; color: var(--ink-2); }
+
+.legend span { display: inline-flex; align-items: center; gap: 7px; }
+
+.sw { width: 11px; height: 11px; border-radius: 3px; display: inline-block;=
+ flex: 0 0 auto; }
+
+.conf { font: 500 .66rem/1 var(--f-data); letter-spacing: 0.06em; text-tran=
+sform: uppercase; padding: 3px 6px; border-radius: 4px; border: 1px solid v=
+ar(--rule-2); color: var(--ink-2); white-space: nowrap; }
+
+.conf.probable, .conf.possible { border-style: dashed; }
+
+.lock form { display: flex; flex-wrap: wrap; gap: 6px; align-items: center;=
+ }
+
+.lock input[type=3D"password"] { font-style: inherit; font-variant: inherit=
+; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-f=
+amily: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; fo=
+nt-kerning: inherit; font-feature-settings: inherit; font-variation-setting=
+s: inherit; font-language-override: inherit; font-size: 0.86rem; padding: 6=
+px 9px; border: 1px solid var(--rule-2); border-radius: 5px; background: va=
+r(--sheet); color: var(--ink); width: 180px; }
+
+.lock-rem { font-size: 0.8rem; color: var(--ink-2); display: inline-flex; g=
+ap: 5px; align-items: center; }
+
+.lock-err { font-size: 0.8rem; color: var(--accent); }
+
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: =
+rect(0px, 0px, 0px, 0px); }
+
+.stories { display: grid; grid-template-columns: repeat(2, minmax(0px, 1fr)=
+); gap: 16px; }
+
+.story { border-top: 2px solid var(--c,var(--ink)); padding-top: 12px; disp=
+lay: flex; flex-direction: column; gap: 8px; }
+
+.story p { font-size: 0.92rem; }
+
+.story .who { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 0.8=
+4rem; }
+
+.research-grid { display: grid; grid-template-columns: repeat(2, minmax(0px=
+, 1fr)); gap: 14px; }
+
+.research-card { display: flex; flex-direction: column; gap: 9px; min-width=
+: 0px; padding: 16px; background: var(--sheet); border: 1px solid var(--rul=
+e); border-radius: 11px; }
+
+.research-card h3 { font-size: 1.12rem; }
+
+.research-card p { font-size: 0.88rem; color: var(--ink-2); }
+
+.research-meta { display: flex; flex-wrap: wrap; justify-content: space-bet=
+ween; align-items: center; gap: 8px; }
+
+.research-links { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size:=
+ 0.84rem; }
+
+.homepage-tree { scroll-margin-top: 86px; }
+
+.homepage-tree .sec-head { max-width: 72ch; }
+
+.homepage-tree .ped-scroll { max-height: min(860px, 76vh); }
+
+.open { display: grid; grid-template-columns: repeat(2, minmax(0px, 1fr)); =
+gap: 12px; }
+
+.open div { border-left: 2px solid var(--accent); padding: 4px 0px 4px 12px=
+; font-size: 0.9rem; }
+
+.open b { display: block; font-weight: 600; }
+
+.seg { display: inline-flex; border: 1px solid var(--rule-2); border-radius=
+: 6px; overflow: hidden; }
+
+.seg button { color-scheme: unset; forced-color-adjust: unset; math-depth: =
+unset; position: unset; position-anchor: unset; text-size-adjust: unset; ap=
+pearance: unset; font-family: unset; font-feature-settings: unset; font-ker=
+ning: unset; font-language-override: unset; font-optical-sizing: unset; fon=
+t-palette: unset; font-size-adjust: unset; font-stretch: unset; font-style:=
+ unset; font-synthesis: unset; font-variant: unset; font-variation-settings=
+: unset; font-weight: unset; position-area: unset; text-orientation: unset;=
+ text-rendering: unset; text-spacing-trim: unset; -webkit-font-smoothing: u=
+nset; -webkit-locale: unset; -webkit-text-orientation: unset; -webkit-writi=
+ng-mode: unset; writing-mode: unset; zoom: unset; accent-color: unset; plac=
+e-content: unset; place-items: unset; place-self: unset; alignment-baseline=
+: unset; anchor-name: unset; anchor-scope: unset; animation-composition: un=
+set; animation: unset; animation-trigger: unset; app-region: unset; aspect-=
+ratio: unset; backdrop-filter: unset; backface-visibility: unset; backgroun=
+d: unset; background-blend-mode: unset; baseline-shift: unset; baseline-sou=
+rce: unset; block-size: unset; border-block: unset; border: unset; border-r=
+adius: unset; border-collapse: unset; border-end-end-radius: unset; border-=
+end-start-radius: unset; border-inline: unset; border-shape: unset; border-=
+start-end-radius: unset; border-start-start-radius: unset; inset: unset; bo=
+x-decoration-break: unset; box-shadow: unset; box-sizing: unset; break-afte=
+r: unset; break-before: unset; break-inside: unset; buffered-rendering: uns=
+et; caption-side: unset; caret-animation: unset; caret-color: unset; caret-=
+shape: unset; clear: unset; clip: unset; clip-path: unset; clip-rule: unset=
+; color-interpolation: unset; color-interpolation-filters: unset; color-ren=
+dering: unset; columns: unset; column-fill: unset; gap: unset; rule-break: =
+unset; rule: unset; rule-inset: unset; rule-visibility-items: unset; column=
+-span: unset; contain: unset; contain-intrinsic-block-size: unset; contain-=
+intrinsic-size: unset; contain-intrinsic-inline-size: unset; container: uns=
+et; content: unset; content-visibility: unset; corner-shape: unset; corner-=
+block-end-shape: unset; corner-block-start-shape: unset; counter-increment:=
+ unset; counter-reset: unset; counter-set: unset; cx: unset; cy: unset; d: =
+unset; display: unset; dominant-baseline: unset; dynamic-range-limit: unset=
+; empty-cells: unset; field-sizing: unset; fill: unset; fill-opacity: unset=
+; fill-rule: unset; filter: unset; flex: unset; flex-flow: unset; flex-line=
+-count: unset; float: unset; flood-color: unset; flood-opacity: unset; grid=
+: unset; grid-area: unset; height: unset; hyphenate-character: unset; hyphe=
+nate-limit-chars: unset; hyphens: unset; image-orientation: unset; image-re=
+ndering: unset; initial-letter: unset; inline-size: unset; inset-block: uns=
+et; inset-inline: unset; interactivity: unset; interest-delay: unset; inter=
+polate-size: unset; isolation: unset; letter-spacing: unset; lighting-color=
+: unset; line-break: unset; line-height: unset; list-style: unset; margin-b=
+lock: unset; margin: unset; margin-inline: unset; marker: unset; mask: unse=
+t; mask-type: unset; math-shift: unset; math-style: unset; max-block-size: =
+unset; max-height: unset; max-inline-size: unset; max-width: unset; min-blo=
+ck-size: unset; min-height: unset; min-inline-size: unset; min-width: unset=
+; mix-blend-mode: unset; object-fit: unset; object-position: unset; object-=
+view-box: unset; offset: unset; opacity: unset; order: unset; orphans: unse=
+t; outline: unset; outline-offset: unset; overflow-anchor: unset; overflow-=
+block: unset; overflow-clip-margin: unset; overflow-inline: unset; overflow=
+-wrap: unset; overflow: unset; overlay: unset; overscroll-behavior-block: u=
+nset; overscroll-behavior-inline: unset; overscroll-behavior: unset; paddin=
+g-block: unset; padding-inline: unset; page: unset; page-margin-safety: uns=
+et; page-orientation: unset; paint-order: unset; perspective: unset; perspe=
+ctive-origin: unset; pointer-events: unset; position-try: unset; position-v=
+isibility: unset; print-color-adjust: unset; quotes: unset; r: unset; readi=
+ng-flow: unset; reading-order: unset; resize: unset; rotate: unset; ruby-al=
+ign: unset; ruby-overhang: unset; ruby-position: unset; rule-overlap: unset=
+; rx: unset; ry: unset; scale: unset; scroll-behavior: unset; scroll-initia=
+l-target: unset; scroll-margin-block: unset; scroll-margin: unset; scroll-m=
+argin-inline: unset; scroll-marker-group: unset; scroll-padding-block: unse=
+t; scroll-padding: unset; scroll-padding-inline: unset; scroll-snap-align: =
+unset; scroll-snap-stop: unset; scroll-snap-type: unset; scroll-target-grou=
+p: unset; scroll-timeline: unset; scrollbar-color: unset; scrollbar-gutter:=
+ unset; scrollbar-width: unset; shape-image-threshold: unset; shape-margin:=
+ unset; shape-outside: unset; shape-rendering: unset; size: unset; speak: u=
+nset; stop-color: unset; stop-opacity: unset; stroke: unset; stroke-dasharr=
+ay: unset; stroke-dashoffset: unset; stroke-linecap: unset; stroke-linejoin=
+: unset; stroke-miterlimit: unset; stroke-opacity: unset; stroke-width: uns=
+et; tab-size: unset; table-layout: unset; text-align: unset; text-align-las=
+t: unset; text-anchor: unset; text-autospace: unset; text-box: unset; text-=
+combine-upright: unset; text-decoration: unset; text-decoration-skip-ink: u=
+nset; text-emphasis: unset; text-emphasis-position: unset; text-fit: unset;=
+ text-indent: unset; text-justify: unset; text-overflow: unset; text-shadow=
+: unset; text-transform: unset; text-underline-offset: unset; text-underlin=
+e-position: unset; text-wrap: unset; timeline-scope: unset; timeline-trigge=
+r: unset; touch-action: unset; transform: unset; transform-box: unset; tran=
+sform-origin: unset; transform-style: unset; transition: unset; translate: =
+unset; trigger-scope: unset; user-select: unset; vector-effect: unset; vert=
+ical-align: unset; view-timeline: unset; view-transition-class: unset; view=
+-transition-group: unset; view-transition-name: unset; view-transition-scop=
+e: unset; visibility: unset; border-spacing: unset; -webkit-box-align: unse=
+t; -webkit-box-decoration-break: unset; -webkit-box-direction: unset; -webk=
+it-box-flex: unset; -webkit-box-ordinal-group: unset; -webkit-box-orient: u=
+nset; -webkit-box-pack: unset; -webkit-box-reflect: unset; -webkit-line-bre=
+ak: unset; -webkit-line-clamp: unset; -webkit-mask-box-image: unset; -webki=
+t-rtl-ordering: unset; -webkit-ruby-position: unset; -webkit-tap-highlight-=
+color: unset; -webkit-text-combine: unset; -webkit-text-decorations-in-effe=
+ct: unset; -webkit-text-fill-color: unset; -webkit-text-security: unset; -w=
+ebkit-text-stroke: unset; -webkit-user-drag: unset; white-space-collapse: u=
+nset; widows: unset; width: unset; will-change: unset; word-break: unset; w=
+ord-spacing: unset; x: unset; y: unset; z-index: unset; cursor: pointer; pa=
+dding: 7px 13px; font-size: 0.86rem; color: var(--ink-2); }
+
+.seg button + button { border-left: 1px solid var(--rule-2); }
+
+.seg button[aria-pressed=3D"true"] { background: var(--ink); color: var(--p=
+aper); }
+
+.seg button:focus-visible { outline: 2px solid var(--accent); outline-offse=
+t: -2px; }
+
+.toolbar { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: cen=
+ter; justify-content: space-between; }
+
+.ped-scroll { overflow: auto; max-height: min(980px, 80vh); background: var=
+(--sheet); border: 1px solid var(--rule); border-radius: 6px; }
+
+#ped text { fill: var(--ink); }
+
+#ped .gen-label { font: 500 10px var(--f-data); letter-spacing: 0.1em; fill=
+: var(--muted); }
+
+#ped .edge { fill: none; stroke: var(--rule-2); stroke-width: 1.5; }
+
+#ped .node { cursor: pointer; }
+
+#ped .node rect.card { fill: var(--sheet); stroke: var(--rule-2); stroke-wi=
+dth: 1; }
+
+#ped .node:hover rect.card, #ped .node.sel rect.card { stroke: var(--ink); =
+stroke-width: 1.5; }
+
+#ped .node .nm { font: 600 11.5px var(--f-body); }
+
+#ped .node .yr { font: 400 10.5px var(--f-data); fill: var(--ink-2); }
+
+#ped .node.unknown rect.card { stroke-dasharray: 3, 3; }
+
+#ped .node.unknown .nm { fill: var(--muted); }
+
+.note-box { font-size: 0.88rem; color: var(--ink-2); border-left: 2px solid=
+ var(--l-frederiksen); padding: 2px 0px 2px 12px; }
+
+.scrim { position: fixed; inset: 0px; background: var(--scrim); z-index: 20=
+; }
+
+.drawer { position: fixed; z-index: 21; top: 0px; right: 0px; bottom: 0px; =
+width: min(440px, 100vw); background: var(--sheet); border-left: 1px solid =
+var(--rule-2); box-shadow: var(--shadow); display: flex; flex-direction: co=
+lumn; padding-top: env(safe-area-inset-top,0px); padding-bottom: env(safe-a=
+rea-inset-bottom,0px); }
+
+.drawer-head { display: flex; justify-content: space-between; align-items: =
+center; gap: 8px; padding: 12px 16px; border-bottom: 1px solid var(--rule);=
+ }
+
+.drawer-body { overflow: auto; padding: 18px 20px 28px; display: flex; flex=
+-direction: column; gap: 16px; min-height: 0px; }
+
+.icon-btn { color-scheme: unset; forced-color-adjust: unset; math-depth: un=
+set; position: unset; position-anchor: unset; text-size-adjust: unset; appe=
+arance: unset; font-family: unset; font-feature-settings: unset; font-kerni=
+ng: unset; font-language-override: unset; font-optical-sizing: unset; font-=
+palette: unset; font-size-adjust: unset; font-stretch: unset; font-style: u=
+nset; font-synthesis: unset; font-variant: unset; font-variation-settings: =
+unset; font-weight: unset; position-area: unset; text-orientation: unset; t=
+ext-rendering: unset; text-spacing-trim: unset; -webkit-font-smoothing: uns=
+et; -webkit-locale: unset; -webkit-text-orientation: unset; -webkit-writing=
+-mode: unset; writing-mode: unset; zoom: unset; accent-color: unset; place-=
+content: unset; place-items: unset; place-self: unset; alignment-baseline: =
+unset; anchor-name: unset; anchor-scope: unset; animation-composition: unse=
+t; animation: unset; animation-trigger: unset; app-region: unset; aspect-ra=
+tio: unset; backdrop-filter: unset; backface-visibility: unset; background:=
+ unset; background-blend-mode: unset; baseline-shift: unset; baseline-sourc=
+e: unset; block-size: unset; border-block: unset; border-collapse: unset; b=
+order-end-end-radius: unset; border-end-start-radius: unset; border-inline:=
+ unset; border-shape: unset; border-start-end-radius: unset; border-start-s=
+tart-radius: unset; inset: unset; box-decoration-break: unset; box-shadow: =
+unset; box-sizing: unset; break-after: unset; break-before: unset; break-in=
+side: unset; buffered-rendering: unset; caption-side: unset; caret-animatio=
+n: unset; caret-color: unset; caret-shape: unset; clear: unset; clip: unset=
+; clip-path: unset; clip-rule: unset; color-interpolation: unset; color-int=
+erpolation-filters: unset; color-rendering: unset; columns: unset; column-f=
+ill: unset; gap: unset; rule-break: unset; rule: unset; rule-inset: unset; =
+rule-visibility-items: unset; column-span: unset; contain: unset; contain-i=
+ntrinsic-block-size: unset; contain-intrinsic-size: unset; contain-intrinsi=
+c-inline-size: unset; container: unset; content: unset; content-visibility:=
+ unset; corner-shape: unset; corner-block-end-shape: unset; corner-block-st=
+art-shape: unset; counter-increment: unset; counter-reset: unset; counter-s=
+et: unset; cx: unset; cy: unset; d: unset; display: unset; dominant-baselin=
+e: unset; dynamic-range-limit: unset; empty-cells: unset; field-sizing: uns=
+et; fill: unset; fill-opacity: unset; fill-rule: unset; filter: unset; flex=
+: unset; flex-flow: unset; flex-line-count: unset; float: unset; flood-colo=
+r: unset; flood-opacity: unset; grid: unset; grid-area: unset; height: unse=
+t; hyphenate-character: unset; hyphenate-limit-chars: unset; hyphens: unset=
+; image-orientation: unset; image-rendering: unset; initial-letter: unset; =
+inline-size: unset; inset-block: unset; inset-inline: unset; interactivity:=
+ unset; interest-delay: unset; interpolate-size: unset; isolation: unset; l=
+etter-spacing: unset; lighting-color: unset; line-break: unset; line-height=
+: unset; list-style: unset; margin-block: unset; margin: unset; margin-inli=
+ne: unset; marker: unset; mask: unset; mask-type: unset; math-shift: unset;=
+ math-style: unset; max-block-size: unset; max-height: unset; max-inline-si=
+ze: unset; max-width: unset; min-block-size: unset; min-height: unset; min-=
+inline-size: unset; min-width: unset; mix-blend-mode: unset; object-fit: un=
+set; object-position: unset; object-view-box: unset; offset: unset; opacity=
+: unset; order: unset; orphans: unset; outline: unset; outline-offset: unse=
+t; overflow-anchor: unset; overflow-block: unset; overflow-clip-margin: uns=
+et; overflow-inline: unset; overflow-wrap: unset; overflow: unset; overlay:=
+ unset; overscroll-behavior-block: unset; overscroll-behavior-inline: unset=
+; overscroll-behavior: unset; padding-block: unset; padding-inline: unset; =
+page: unset; page-margin-safety: unset; page-orientation: unset; paint-orde=
+r: unset; perspective: unset; perspective-origin: unset; pointer-events: un=
+set; position-try: unset; position-visibility: unset; print-color-adjust: u=
+nset; quotes: unset; r: unset; reading-flow: unset; reading-order: unset; r=
+esize: unset; rotate: unset; ruby-align: unset; ruby-overhang: unset; ruby-=
+position: unset; rule-overlap: unset; rx: unset; ry: unset; scale: unset; s=
+croll-behavior: unset; scroll-initial-target: unset; scroll-margin-block: u=
+nset; scroll-margin: unset; scroll-margin-inline: unset; scroll-marker-grou=
+p: unset; scroll-padding-block: unset; scroll-padding: unset; scroll-paddin=
+g-inline: unset; scroll-snap-align: unset; scroll-snap-stop: unset; scroll-=
+snap-type: unset; scroll-target-group: unset; scroll-timeline: unset; scrol=
+lbar-color: unset; scrollbar-gutter: unset; scrollbar-width: unset; shape-i=
+mage-threshold: unset; shape-margin: unset; shape-outside: unset; shape-ren=
+dering: unset; size: unset; speak: unset; stop-color: unset; stop-opacity: =
+unset; stroke: unset; stroke-dasharray: unset; stroke-dashoffset: unset; st=
+roke-linecap: unset; stroke-linejoin: unset; stroke-miterlimit: unset; stro=
+ke-opacity: unset; stroke-width: unset; tab-size: unset; table-layout: unse=
+t; text-align: unset; text-align-last: unset; text-anchor: unset; text-auto=
+space: unset; text-box: unset; text-combine-upright: unset; text-decoration=
+: unset; text-decoration-skip-ink: unset; text-emphasis: unset; text-emphas=
+is-position: unset; text-fit: unset; text-indent: unset; text-justify: unse=
+t; text-overflow: unset; text-shadow: unset; text-transform: unset; text-un=
+derline-offset: unset; text-underline-position: unset; text-wrap: unset; ti=
+meline-scope: unset; timeline-trigger: unset; touch-action: unset; transfor=
+m: unset; transform-box: unset; transform-origin: unset; transform-style: u=
+nset; transition: unset; translate: unset; trigger-scope: unset; user-selec=
+t: unset; vector-effect: unset; vertical-align: unset; view-timeline: unset=
+; view-transition-class: unset; view-transition-group: unset; view-transiti=
+on-name: unset; view-transition-scope: unset; visibility: unset; border-spa=
+cing: unset; -webkit-box-align: unset; -webkit-box-decoration-break: unset;=
+ -webkit-box-direction: unset; -webkit-box-flex: unset; -webkit-box-ordinal=
+-group: unset; -webkit-box-orient: unset; -webkit-box-pack: unset; -webkit-=
+box-reflect: unset; -webkit-line-break: unset; -webkit-line-clamp: unset; -=
+webkit-mask-box-image: unset; -webkit-rtl-ordering: unset; -webkit-ruby-pos=
+ition: unset; -webkit-tap-highlight-color: unset; -webkit-text-combine: uns=
+et; -webkit-text-decorations-in-effect: unset; -webkit-text-fill-color: uns=
+et; -webkit-text-security: unset; -webkit-text-stroke: unset; -webkit-user-=
+drag: unset; white-space-collapse: unset; widows: unset; width: unset; will=
+-change: unset; word-break: unset; word-spacing: unset; x: unset; y: unset;=
+ z-index: unset; cursor: pointer; padding: 6px 10px; border: 1px solid var(=
+--rule-2); border-radius: 5px; font-size: 0.84rem; color: var(--ink-2); }
+
+.icon-btn:hover { border-color: var(--ink); color: var(--ink); }
+
+.icon-btn:focus-visible { outline: 2px solid var(--accent); }
+
+.drawer dl { display: grid; grid-template-columns: 86px minmax(0px, 1fr); g=
+ap: 8px 12px; margin: 0px; font-size: 0.9rem; }
+
+.drawer dt { color: var(--muted); font: 500 .68rem/1.9 var(--f-data); text-=
+transform: uppercase; letter-spacing: 0.06em; }
+
+.drawer dd { margin: 0px; min-width: 0px; }
+
+.drawer ul { margin: 0px; padding-left: 18px; display: flex; flex-direction=
+: column; gap: 3px; }
+
+.drawer .src { font: 400 .74rem/1.55 var(--f-data); color: var(--ink-2); wo=
+rd-break: break-word; }
+
+.drawer .note { font-size: 0.9rem; line-height: 1.6; }
+
+.plist { display: flex; flex-direction: column; gap: 3px; }
+
+.chip { display: inline-flex; align-items: center; gap: 6px; font-size: 0.8=
+rem; color: var(--ink-2); }
+
+button.linkish { color-scheme: unset; forced-color-adjust: unset; math-dept=
+h: unset; position: unset; position-anchor: unset; text-size-adjust: unset;=
+ appearance: unset; color: unset; font: unset; font-palette: unset; font-sy=
+nthesis: unset; position-area: unset; text-orientation: unset; text-renderi=
+ng: unset; text-spacing-trim: unset; -webkit-font-smoothing: unset; -webkit=
+-locale: unset; -webkit-text-orientation: unset; -webkit-writing-mode: unse=
+t; writing-mode: unset; zoom: unset; accent-color: unset; place-content: un=
+set; place-items: unset; place-self: unset; alignment-baseline: unset; anch=
+or-name: unset; anchor-scope: unset; animation-composition: unset; animatio=
+n: unset; animation-trigger: unset; app-region: unset; aspect-ratio: unset;=
+ backdrop-filter: unset; backface-visibility: unset; background: unset; bac=
+kground-blend-mode: unset; baseline-shift: unset; baseline-source: unset; b=
+lock-size: unset; border-block: unset; border: unset; border-radius: unset;=
+ border-collapse: unset; border-end-end-radius: unset; border-end-start-rad=
+ius: unset; border-inline: unset; border-shape: unset; border-start-end-rad=
+ius: unset; border-start-start-radius: unset; inset: unset; box-decoration-=
+break: unset; box-shadow: unset; box-sizing: unset; break-after: unset; bre=
+ak-before: unset; break-inside: unset; buffered-rendering: unset; caption-s=
+ide: unset; caret-animation: unset; caret-color: unset; caret-shape: unset;=
+ clear: unset; clip: unset; clip-path: unset; clip-rule: unset; color-inter=
+polation: unset; color-interpolation-filters: unset; color-rendering: unset=
+; columns: unset; column-fill: unset; gap: unset; rule-break: unset; rule: =
+unset; rule-inset: unset; rule-visibility-items: unset; column-span: unset;=
+ contain: unset; contain-intrinsic-block-size: unset; contain-intrinsic-siz=
+e: unset; contain-intrinsic-inline-size: unset; container: unset; content: =
+unset; content-visibility: unset; corner-shape: unset; corner-block-end-sha=
+pe: unset; corner-block-start-shape: unset; counter-increment: unset; count=
+er-reset: unset; counter-set: unset; cx: unset; cy: unset; d: unset; displa=
+y: unset; dominant-baseline: unset; dynamic-range-limit: unset; empty-cells=
+: unset; field-sizing: unset; fill: unset; fill-opacity: unset; fill-rule: =
+unset; filter: unset; flex: unset; flex-flow: unset; flex-line-count: unset=
+; float: unset; flood-color: unset; flood-opacity: unset; grid: unset; grid=
+-area: unset; height: unset; hyphenate-character: unset; hyphenate-limit-ch=
+ars: unset; hyphens: unset; image-orientation: unset; image-rendering: unse=
+t; initial-letter: unset; inline-size: unset; inset-block: unset; inset-inl=
+ine: unset; interactivity: unset; interest-delay: unset; interpolate-size: =
+unset; isolation: unset; letter-spacing: unset; lighting-color: unset; line=
+-break: unset; list-style: unset; margin-block: unset; margin: unset; margi=
+n-inline: unset; marker: unset; mask: unset; mask-type: unset; math-shift: =
+unset; math-style: unset; max-block-size: unset; max-height: unset; max-inl=
+ine-size: unset; max-width: unset; min-block-size: unset; min-height: unset=
+; min-inline-size: unset; min-width: unset; mix-blend-mode: unset; object-f=
+it: unset; object-position: unset; object-view-box: unset; offset: unset; o=
+pacity: unset; order: unset; orphans: unset; outline: unset; outline-offset=
+: unset; overflow-anchor: unset; overflow-block: unset; overflow-clip-margi=
+n: unset; overflow-inline: unset; overflow-wrap: unset; overflow: unset; ov=
+erlay: unset; overscroll-behavior-block: unset; overscroll-behavior-inline:=
+ unset; overscroll-behavior: unset; padding-block: unset; padding: unset; p=
+adding-inline: unset; page: unset; page-margin-safety: unset; page-orientat=
+ion: unset; paint-order: unset; perspective: unset; perspective-origin: uns=
+et; pointer-events: unset; position-try: unset; position-visibility: unset;=
+ print-color-adjust: unset; quotes: unset; r: unset; reading-flow: unset; r=
+eading-order: unset; resize: unset; rotate: unset; ruby-align: unset; ruby-=
+overhang: unset; ruby-position: unset; rule-overlap: unset; rx: unset; ry: =
+unset; scale: unset; scroll-behavior: unset; scroll-initial-target: unset; =
+scroll-margin-block: unset; scroll-margin: unset; scroll-margin-inline: uns=
+et; scroll-marker-group: unset; scroll-padding-block: unset; scroll-padding=
+: unset; scroll-padding-inline: unset; scroll-snap-align: unset; scroll-sna=
+p-stop: unset; scroll-snap-type: unset; scroll-target-group: unset; scroll-=
+timeline: unset; scrollbar-color: unset; scrollbar-gutter: unset; scrollbar=
+-width: unset; shape-image-threshold: unset; shape-margin: unset; shape-out=
+side: unset; shape-rendering: unset; size: unset; speak: unset; stop-color:=
+ unset; stop-opacity: unset; stroke: unset; stroke-dasharray: unset; stroke=
+-dashoffset: unset; stroke-linecap: unset; stroke-linejoin: unset; stroke-m=
+iterlimit: unset; stroke-opacity: unset; stroke-width: unset; tab-size: uns=
+et; table-layout: unset; text-align: unset; text-align-last: unset; text-an=
+chor: unset; text-autospace: unset; text-box: unset; text-combine-upright: =
+unset; text-decoration-skip-ink: unset; text-emphasis: unset; text-emphasis=
+-position: unset; text-fit: unset; text-indent: unset; text-justify: unset;=
+ text-overflow: unset; text-shadow: unset; text-transform: unset; text-unde=
+rline-position: unset; text-wrap: unset; timeline-scope: unset; timeline-tr=
+igger: unset; touch-action: unset; transform: unset; transform-box: unset; =
+transform-origin: unset; transform-style: unset; transition: unset; transla=
+te: unset; trigger-scope: unset; user-select: unset; vector-effect: unset; =
+vertical-align: unset; view-timeline: unset; view-transition-class: unset; =
+view-transition-group: unset; view-transition-name: unset; view-transition-=
+scope: unset; visibility: unset; border-spacing: unset; -webkit-box-align: =
+unset; -webkit-box-decoration-break: unset; -webkit-box-direction: unset; -=
+webkit-box-flex: unset; -webkit-box-ordinal-group: unset; -webkit-box-orien=
+t: unset; -webkit-box-pack: unset; -webkit-box-reflect: unset; -webkit-line=
+-break: unset; -webkit-line-clamp: unset; -webkit-mask-box-image: unset; -w=
+ebkit-rtl-ordering: unset; -webkit-ruby-position: unset; -webkit-tap-highli=
+ght-color: unset; -webkit-text-combine: unset; -webkit-text-decorations-in-=
+effect: unset; -webkit-text-fill-color: unset; -webkit-text-security: unset=
+; -webkit-text-stroke: unset; -webkit-user-drag: unset; white-space-collaps=
+e: unset; widows: unset; width: unset; will-change: unset; word-break: unse=
+t; word-spacing: unset; x: unset; y: unset; z-index: unset; cursor: pointer=
+; text-decoration-line: underline; text-decoration-thickness: initial; text=
+-decoration-style: initial; text-decoration-color: var(--rule-2); text-unde=
+rline-offset: 3px; }
+
+button.linkish:hover { text-decoration-color: var(--accent); }
+
+button.linkish:focus-visible { outline: 2px solid var(--accent); }
+
+.yrs { font: 400 .76rem var(--f-data); color: var(--muted); margin-left: 6p=
+x; }
+
+@media (max-width: 640px) {
+  .drawer { top: auto; left: 0px; width: 100%; height: 86vh; border-left: 0=
+px; border-top: 1px solid var(--rule-2); border-radius: 14px 14px 0px 0px; =
+}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .drawer { animation: 0.2s ease-out 0s 1 normal none running slidein; }
+  @keyframes slidein {=20
+  0% { transform: translateX(24px); opacity: 0.4; }
+  100% { transform: none; opacity: 1; }
+}
+}
+
+.two { display: grid; grid-template-columns: minmax(0px, 1.15fr) minmax(0px=
+, 1fr); gap: 24px; align-items: start; }
+
+.panel { background: var(--sheet); border: 1px solid var(--rule); border-ra=
+dius: 6px; padding: 14px; min-width: 0px; display: flex; flex-direction: co=
+lumn; gap: 10px; }
+
+.panel h3 { font-size: 1.05rem; }
+
+.mapsvg .land { fill: var(--paper); stroke: var(--rule-2); stroke-width: 0.=
+8; }
+
+.mapsvg .land.dk { fill: var(--rule); }
+
+.mapsvg .route { fill: none; stroke-width: 1.6; opacity: 0.75; }
+
+.mapsvg .dot { stroke: var(--sheet); stroke-width: 2; cursor: pointer; }
+
+.mapsvg .lbl { font: 500 10.5px var(--f-body); fill: var(--ink); }
+
+.mapsvg .lbl-halo { font: 500 10.5px var(--f-body); stroke: var(--sheet); s=
+troke-width: 3.5; fill: none; stroke-linejoin: round; }
+
+.mapsvg .sea { fill: var(--sheet); }
+
+.placelist { display: grid; grid-template-columns: repeat(auto-fill, minmax=
+(210px, 1fr)); gap: 2px 16px; font-size: 0.84rem; }
+
+.placelist button { color-scheme: unset; forced-color-adjust: unset; math-d=
+epth: unset; position: unset; position-anchor: unset; text-size-adjust: uns=
+et; appearance: unset; color: unset; font: unset; font-palette: unset; font=
+-synthesis: unset; position-area: unset; text-orientation: unset; text-rend=
+ering: unset; text-spacing-trim: unset; -webkit-font-smoothing: unset; -web=
+kit-locale: unset; -webkit-text-orientation: unset; -webkit-writing-mode: u=
+nset; writing-mode: unset; zoom: unset; accent-color: unset; align-content:=
+ unset; place-items: unset; place-self: unset; alignment-baseline: unset; a=
+nchor-name: unset; anchor-scope: unset; animation-composition: unset; anima=
+tion: unset; animation-trigger: unset; app-region: unset; aspect-ratio: uns=
+et; backdrop-filter: unset; backface-visibility: unset; background: unset; =
+background-blend-mode: unset; baseline-shift: unset; baseline-source: unset=
+; block-size: unset; border-block: unset; border-radius: unset; border-coll=
+apse: unset; border-end-end-radius: unset; border-end-start-radius: unset; =
+border-image: unset; border-inline: unset; border-left: unset; border-right=
+: unset; border-shape: unset; border-start-end-radius: unset; border-start-=
+start-radius: unset; border-top: unset; inset: unset; box-decoration-break:=
+ unset; box-shadow: unset; box-sizing: unset; break-after: unset; break-bef=
+ore: unset; break-inside: unset; buffered-rendering: unset; caption-side: u=
+nset; caret-animation: unset; caret-color: unset; caret-shape: unset; clear=
+: unset; clip: unset; clip-path: unset; clip-rule: unset; color-interpolati=
+on: unset; color-interpolation-filters: unset; color-rendering: unset; colu=
+mns: unset; column-fill: unset; rule-break: unset; rule: unset; rule-inset:=
+ unset; rule-visibility-items: unset; column-span: unset; contain: unset; c=
+ontain-intrinsic-block-size: unset; contain-intrinsic-size: unset; contain-=
+intrinsic-inline-size: unset; container: unset; content: unset; content-vis=
+ibility: unset; corner-shape: unset; corner-block-end-shape: unset; corner-=
+block-start-shape: unset; counter-increment: unset; counter-reset: unset; c=
+ounter-set: unset; cx: unset; cy: unset; d: unset; dominant-baseline: unset=
+; dynamic-range-limit: unset; empty-cells: unset; field-sizing: unset; fill=
+: unset; fill-opacity: unset; fill-rule: unset; filter: unset; flex: unset;=
+ flex-flow: unset; flex-line-count: unset; float: unset; flood-color: unset=
+; flood-opacity: unset; grid: unset; grid-area: unset; height: unset; hyphe=
+nate-character: unset; hyphenate-limit-chars: unset; hyphens: unset; image-=
+orientation: unset; image-rendering: unset; initial-letter: unset; inline-s=
+ize: unset; inset-block: unset; inset-inline: unset; interactivity: unset; =
+interest-delay: unset; interpolate-size: unset; isolation: unset; letter-sp=
+acing: unset; lighting-color: unset; line-break: unset; list-style: unset; =
+margin-block: unset; margin: unset; margin-inline: unset; marker: unset; ma=
+sk: unset; mask-type: unset; math-shift: unset; math-style: unset; max-bloc=
+k-size: unset; max-height: unset; max-inline-size: unset; max-width: unset;=
+ min-block-size: unset; min-height: unset; min-inline-size: unset; min-widt=
+h: unset; mix-blend-mode: unset; object-fit: unset; object-position: unset;=
+ object-view-box: unset; offset: unset; opacity: unset; order: unset; orpha=
+ns: unset; outline: unset; outline-offset: unset; overflow-anchor: unset; o=
+verflow-block: unset; overflow-clip-margin: unset; overflow-inline: unset; =
+overflow-wrap: unset; overflow: unset; overlay: unset; overscroll-behavior-=
+block: unset; overscroll-behavior-inline: unset; overscroll-behavior: unset=
+; padding-block: unset; padding-inline: unset; page: unset; page-margin-saf=
+ety: unset; page-orientation: unset; paint-order: unset; perspective: unset=
+; perspective-origin: unset; pointer-events: unset; position-try: unset; po=
+sition-visibility: unset; print-color-adjust: unset; quotes: unset; r: unse=
+t; reading-flow: unset; reading-order: unset; resize: unset; rotate: unset;=
+ ruby-align: unset; ruby-overhang: unset; ruby-position: unset; rule-overla=
+p: unset; rx: unset; ry: unset; scale: unset; scroll-behavior: unset; scrol=
+l-initial-target: unset; scroll-margin-block: unset; scroll-margin: unset; =
+scroll-margin-inline: unset; scroll-marker-group: unset; scroll-padding-blo=
+ck: unset; scroll-padding: unset; scroll-padding-inline: unset; scroll-snap=
+-align: unset; scroll-snap-stop: unset; scroll-snap-type: unset; scroll-tar=
+get-group: unset; scroll-timeline: unset; scrollbar-color: unset; scrollbar=
+-gutter: unset; scrollbar-width: unset; shape-image-threshold: unset; shape=
+-margin: unset; shape-outside: unset; shape-rendering: unset; size: unset; =
+speak: unset; stop-color: unset; stop-opacity: unset; stroke: unset; stroke=
+-dasharray: unset; stroke-dashoffset: unset; stroke-linecap: unset; stroke-=
+linejoin: unset; stroke-miterlimit: unset; stroke-opacity: unset; stroke-wi=
+dth: unset; tab-size: unset; table-layout: unset; text-align: unset; text-a=
+lign-last: unset; text-anchor: unset; text-autospace: unset; text-box: unse=
+t; text-combine-upright: unset; text-decoration: unset; text-decoration-ski=
+p-ink: unset; text-emphasis: unset; text-emphasis-position: unset; text-fit=
+: unset; text-indent: unset; text-justify: unset; text-overflow: unset; tex=
+t-shadow: unset; text-transform: unset; text-underline-offset: unset; text-=
+underline-position: unset; text-wrap: unset; timeline-scope: unset; timelin=
+e-trigger: unset; touch-action: unset; transform: unset; transform-box: uns=
+et; transform-origin: unset; transform-style: unset; transition: unset; tra=
+nslate: unset; trigger-scope: unset; user-select: unset; vector-effect: uns=
+et; vertical-align: unset; view-timeline: unset; view-transition-class: uns=
+et; view-transition-group: unset; view-transition-name: unset; view-transit=
+ion-scope: unset; visibility: unset; border-spacing: unset; -webkit-box-ali=
+gn: unset; -webkit-box-decoration-break: unset; -webkit-box-direction: unse=
+t; -webkit-box-flex: unset; -webkit-box-ordinal-group: unset; -webkit-box-o=
+rient: unset; -webkit-box-pack: unset; -webkit-box-reflect: unset; -webkit-=
+line-break: unset; -webkit-line-clamp: unset; -webkit-mask-box-image: unset=
+; -webkit-rtl-ordering: unset; -webkit-ruby-position: unset; -webkit-tap-hi=
+ghlight-color: unset; -webkit-text-combine: unset; -webkit-text-decorations=
+-in-effect: unset; -webkit-text-fill-color: unset; -webkit-text-security: u=
+nset; -webkit-text-stroke: unset; -webkit-user-drag: unset; white-space-col=
+lapse: unset; widows: unset; width: unset; will-change: unset; word-break: =
+unset; word-spacing: unset; x: unset; y: unset; z-index: unset; cursor: poi=
+nter; display: flex; justify-content: space-between; gap: 8px; border-botto=
+m: 1px solid var(--rule); padding: 4px 0px; }
+
+.placelist button:hover { background: var(--hover); }
+
+.placelist button:focus-visible { outline: 2px solid var(--accent); }
+
+.placelist .n { font-style: ; font-variant-ligatures: ; font-variant-caps: =
+; font-variant-east-asian: ; font-variant-alternates: ; font-variant-positi=
+on: ; font-variant-emoji: ; font-weight: ; font-stretch: ; font-size: ; lin=
+e-height: ; font-family: ; font-optical-sizing: ; font-size-adjust: ; font-=
+kerning: ; font-feature-settings: ; font-variation-settings: ; font-languag=
+e-override: ; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+
+.place-detail { font-size: 0.88rem; display: flex; flex-direction: column; =
+gap: 4px; }
+
+svg text { font-family: var(--f-body); }
+
+.axis text { font: 400 10px var(--f-data); fill: var(--muted); }
+
+.axis line { stroke: var(--rule); stroke-width: 1; }
+
+.base { stroke: var(--rule-2); stroke-width: 1; }
+
+.bar-lbl { font: 500 11px var(--f-body); fill: var(--ink); }
+
+.bar-val { font: 400 10.5px var(--f-data); fill: var(--ink-2); }
+
+.life rect { cursor: pointer; }
+
+.life text { font: 400 10.5px var(--f-body); fill: var(--ink-2); }
+
+.statrow { display: grid; grid-template-columns: repeat(3, minmax(0px, 1fr)=
+); gap: 10px; }
+
+.stat { border-top: 1px solid var(--rule-2); padding-top: 8px; }
+
+.stat .v { font-style: ; font-variant-ligatures: ; font-variant-caps: ; fon=
+t-variant-east-asian: ; font-variant-alternates: ; font-variant-position: ;=
+ font-variant-emoji: ; font-weight: ; font-stretch: ; font-size: ; line-hei=
+ght: ; font-family: ; font-optical-sizing: ; font-size-adjust: ; font-kerni=
+ng: ; font-feature-settings: ; font-variation-settings: ; font-language-ove=
+rride: ; font-variant-numeric: tabular-nums; }
+
+.stat .k { font-size: 0.78rem; color: var(--ink-2); }
+
+#tip { position: fixed; pointer-events: none; background: var(--ink); color=
+: var(--paper); font: .8rem/1.4 var(--f-body); padding: 7px 9px; border-rad=
+ius: 5px; max-width: 280px; z-index: 30; box-shadow: rgba(0, 0, 0, 0.18) 0p=
+x 4px 14px; }
+
+.gallery { display: grid; grid-template-columns: repeat(4, minmax(0px, 1fr)=
+); gap: 18px; }
+
+figure { margin: 0px; display: flex; flex-direction: column; gap: 8px; }
+
+figure img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border: 1=
+px solid var(--rule-2); border-radius: 4px; background: var(--sheet); }
+
+figcaption { font-size: 0.82rem; color: var(--ink-2); display: flex; flex-d=
+irection: column; gap: 4px; }
+
+figcaption b { color: var(--ink); font-weight: 600; }
+
+.links { columns: 300px 2; column-gap: 28px; padding: 0px; margin: 0px; lis=
+t-style: none; font-size: 0.9rem; }
+
+.links li { break-inside: avoid; padding: 6px 0px; border-bottom: 1px solid=
+ var(--rule); }
+
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--rule); border-radius:=
+ 6px; background: var(--sheet); }
+
+table { border-collapse: collapse; width: 100%; font-size: 0.85rem; }
+
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(=
+--rule); vertical-align: top; }
+
+th { font: 500 .7rem/1.2 var(--f-data); letter-spacing: 0.07em; text-transf=
+orm: uppercase; color: var(--muted); background: var(--sheet); position: st=
+icky; top: 0px; }
+
+td.name { min-width: 210px; }
+
+td.num { font-family: var(--f-data); font-variant-numeric: tabular-nums; wh=
+ite-space: nowrap; }
+
+tbody tr:hover td { background: var(--hover); }
+
+.filters { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: cent=
+er; }
+
+.uncertain-toggle { display: inline-flex; align-items: center; gap: 7px; fo=
+nt-size: 0.82rem; color: var(--ink-2); cursor: pointer; }
+
+.uncertain-toggle input { accent-color: var(--accent); width: 16px; height:=
+ 16px; }
+
+.filters label { font-size: 0.84rem; color: var(--muted); }
+
+.filters input, .filters select { font-style: inherit; font-variant: inheri=
+t; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-=
+family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; f=
+ont-kerning: inherit; font-feature-settings: inherit; font-variation-settin=
+gs: inherit; font-language-override: inherit; font-size: 0.88rem; padding: =
+6px 9px; border: 1px solid var(--rule-2); border-radius: 5px; background: v=
+ar(--sheet); color: var(--ink); }
+
+.count { font: 400 .8rem var(--f-data); color: var(--muted); }
+
+@media (max-width: 900px) {
+  .two, .stories { grid-template-columns: minmax(0px, 1fr); }
+  .gallery { grid-template-columns: repeat(2, minmax(0px, 1fr)); }
+  .tiles { grid-template-columns: repeat(2, minmax(0px, 1fr)); }
+}
+
+@media (max-width: 700px) {
+  .research-grid { grid-template-columns: minmax(0px, 1fr); }
+}
+
+@media (max-width: 560px) {
+  .open { grid-template-columns: minmax(0px, 1fr); }
+  .statrow { grid-template-columns: repeat(2, minmax(0px, 1fr)); }
+  .wrap { padding-inline: 16px; }
+  .tabs { margin-inline: -16px; padding-inline: 16px; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  #ped .node rect.card { transition: stroke 0.15s; }
+}
+
+.wrap { padding-inline: clamp(16px, 3vw, 36px); max-width: 1440px; }
+
+.mast { padding-block: clamp(22px, 4vw, 38px) 18px; gap: 14px 28px; }
+
+.tabs { margin-inline: calc(-1 * clamp(16px, 3vw, 36px)); padding-inline: c=
+lamp(16px, 3vw, 36px); gap: 4px; background: color-mix(in srgb,var(--paper)=
+ 94%,transparent); backdrop-filter: blur(14px); }
+
+.tabs a { padding: 14px 14px 13px; border-radius: 7px 7px 0px 0px; font-wei=
+ght: 600; transition: background 0.15s, color 0.15s; }
+
+.tabs a:hover { background: var(--hover); }
+
+.tabs a[aria-current=3D"page"] { background: var(--sheet); }
+
+.view { gap: clamp(24px, 3vw, 40px); padding-top: clamp(22px, 3vw, 34px); }
+
+.fam, .panel, .tbl-wrap { border-radius: 11px; box-shadow: rgba(27, 36, 34,=
+ 0.035) 0px 2px 10px; }
+
+.fam { padding: clamp(14px, 2vw, 22px); gap: 16px; }
+
+.panel { padding: clamp(14px, 2vw, 20px); gap: 12px; }
+
+.pcard { max-width: 280px; padding: 10px 13px 10px 15px; border-radius: 9px=
+; gap: 3px; transition: border-color 0.15s, transform 0.15s, box-shadow 0.1=
+5s; }
+
+.pcard:hover { transform: translateY(-1px); box-shadow: rgba(27, 36, 34, 0.=
+07) 0px 3px 10px; }
+
+.story { border-right-color: ; border-right-style: ; border-right-width: ; =
+border-bottom-color: ; border-bottom-style: ; border-bottom-width: ; border=
+-left-color: ; border-left-style: ; border-left-width: ; border-image-sourc=
+e: ; border-image-slice: ; border-image-width: ; border-image-outset: ; bor=
+der-image-repeat: ; border-top: 3px solid var(--c,var(--ink)); border-radiu=
+s: 10px; padding: 16px; background: var(--sheet); }
+
+.open div { border-top-color: ; border-top-style: ; border-top-width: ; bor=
+der-right-color: ; border-right-style: ; border-right-width: ; border-botto=
+m-color: ; border-bottom-style: ; border-bottom-width: ; border-image-sourc=
+e: ; border-image-slice: ; border-image-width: ; border-image-outset: ; bor=
+der-image-repeat: ; border-left: 3px solid var(--accent); border-radius: 8p=
+x; padding: 12px 14px; background: var(--sheet); }
+
+.seg { border-radius: 9px; background: var(--sheet); }
+
+.seg button { padding: 9px 14px; }
+
+.toolbar { position: sticky; top: 48px; z-index: 3; padding: 10px 0px; back=
+ground: var(--paper); }
+
+.ped-scroll { max-height: min(1000px, 78vh); min-height: 320px; border-radi=
+us: 12px; box-shadow: rgba(27, 36, 34, 0.04) 0px 2px 12px; overscroll-behav=
+ior: contain; scrollbar-gutter: stable; outline-offset: 4px; }
+
+.ped-scroll:focus-visible { outline: 2px solid var(--accent); }
+
+#ped .node:focus { outline: none; }
+
+#ped .node:focus rect.card { stroke: var(--accent); stroke-width: 2.5; }
+
+.drawer { width: min(480px, 100vw); }
+
+th, td { padding: 10px 12px; }
+
+.tbl-wrap { border-radius: 10px; }
+
+.filters { padding: 12px 14px; border: 1px solid var(--rule); border-radius=
+: 10px; background: var(--sheet); gap: 9px 14px; }
+
+.filters input, .filters select { padding: 9px 11px; border-radius: 7px; mi=
+n-height: 40px; background: var(--paper); }
+
+@media (max-width: 560px) {
+  .wrap { padding-inline: 16px; }
+  .tabs { margin-inline: -16px; padding-inline: 16px; }
+  .tabs a { padding-inline: 12px; }
+  .toolbar { top: 44px; }
+  .ped-scroll { max-height: 70vh; }
+}
+
+body.drawer-open { overflow: hidden; }
+
+:where(a, button, input, select, textarea, [tabindex]):focus-visible { outl=
+ine: 2px solid var(--accent); outline-offset: 3px; }
+
+button, a { touch-action: manipulation; }
+
+.drawer { width: min(480px, 100vw); }
+
+.drawer-head { min-height: 58px; flex-shrink: 0; }
+
+.drawer-body { overscroll-behavior: contain; }
+
+.ped-scroll { touch-action: pan-x pan-y; overscroll-behavior: contain; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after { scroll-behavior: auto !important; animation-durati=
+on: 0.01ms !important; animation-iteration-count: 1 !important; transition-=
+duration: 0.01ms !important; }
+}
+
+.homepage-tree { scroll-margin-top: 86px; }
+
+.homepage-tree .ped-scroll { overflow: hidden auto; max-height: min(82vh, 1=
+000px); min-height: 360px; padding: 8px 10px; background: var(--sheet); bor=
+der: 1px solid var(--rule); border-radius: 10px; overscroll-behavior: conta=
+in; scrollbar-gutter: stable; }
+
+.ped-tree { display: block; width: 100%; max-width: 100%; margin: 0px; colo=
+r: var(--ink); font-size: 0.84rem; --ft-indent-step: 20px; --ft-row-height:=
+ 29px; }
+
+.ft-item { display: block; min-width: 0px; outline: none; }
+
+.ft-line { position: relative; display: flex; align-items: center; gap: 7px=
+; min-width: 0px; min-height: var(--ft-row-height); padding: 2px 4px; borde=
+r-bottom: 1px solid var(--rule); border-radius: 2px; background: transparen=
+t; }
+
+.ft-item:nth-child(2n) > .ft-line { background: color-mix(in srgb,var(--hov=
+er) 48%,transparent); }
+
+.ft-line::before { content: ""; position: absolute; left: 0px; top: 3px; bo=
+ttom: 3px; width: 3px; border-radius: 2px; background: var(--gen-color); }
+
+.ft-item.uncertain > .ft-line::before { background: transparent; border-lef=
+t: 2px dashed var(--gen-color); }
+
+body:not(.show-uncertain) .ft-item.uncertain > .ft-line { display: none; }
+
+.ft-item:hover > .ft-line { background: var(--hover); }
+
+.ft-item:focus > .ft-line { outline: 2px solid var(--accent); outline-offse=
+t: -2px; background: var(--hover); }
+
+.ft-item.sel > .ft-line { outline: 2px solid var(--gen-color); outline-offs=
+et: -2px; }
+
+.ft-chevron { display: inline-flex; align-items: center; justify-content: c=
+enter; flex: 0 0 20px; width: 20px; height: 24px; margin-left: 3px; padding=
+: 0px; border: 0px; border-radius: 4px; background: transparent; color: var=
+(--muted); font: 600 .9rem/1 var(--f-body); cursor: pointer; }
+
+.ft-chevron:hover, .ft-chevron:focus-visible { color: var(--ink); backgroun=
+d: var(--hover); }
+
+.ft-chevron.spacer { visibility: hidden; pointer-events: none; }
+
+.ft-guides { position: relative; align-self: stretch; flex: 0 0 calc(var(--=
+ft-depth)*var(--ft-indent-step)); width: calc(var(--ft-depth)*var(--ft-inde=
+nt-step)); min-width: 0px; }
+
+.ft-guide { position: absolute; left: calc(var(--ft-guide-level)*var(--ft-i=
+ndent-step) + var(--ft-indent-step)/2); top: -4px; bottom: -4px; border-lef=
+t: 1px solid var(--guide-color); opacity: 0.48; }
+
+.ft-name { color-scheme: unset; forced-color-adjust: unset; math-depth: uns=
+et; position: unset; position-anchor: unset; text-size-adjust: unset; appea=
+rance: unset; font-palette: unset; font-synthesis: unset; position-area: un=
+set; text-orientation: unset; text-rendering: unset; text-spacing-trim: uns=
+et; -webkit-font-smoothing: unset; -webkit-locale: unset; -webkit-text-orie=
+ntation: unset; -webkit-writing-mode: unset; writing-mode: unset; zoom: uns=
+et; accent-color: unset; place-content: unset; place-items: unset; place-se=
+lf: unset; alignment-baseline: unset; anchor-name: unset; anchor-scope: uns=
+et; animation-composition: unset; animation: unset; animation-trigger: unse=
+t; app-region: unset; aspect-ratio: unset; backdrop-filter: unset; backface=
+-visibility: unset; background: unset; background-blend-mode: unset; baseli=
+ne-shift: unset; baseline-source: unset; block-size: unset; border-block: u=
+nset; border: unset; border-radius: unset; border-collapse: unset; border-e=
+nd-end-radius: unset; border-end-start-radius: unset; border-inline: unset;=
+ border-shape: unset; border-start-end-radius: unset; border-start-start-ra=
+dius: unset; inset: unset; box-decoration-break: unset; box-shadow: unset; =
+box-sizing: unset; break-after: unset; break-before: unset; break-inside: u=
+nset; buffered-rendering: unset; caption-side: unset; caret-animation: unse=
+t; caret-color: unset; caret-shape: unset; clear: unset; clip: unset; clip-=
+path: unset; clip-rule: unset; color-interpolation: unset; color-interpolat=
+ion-filters: unset; color-rendering: unset; columns: unset; column-fill: un=
+set; gap: unset; rule-break: unset; rule: unset; rule-inset: unset; rule-vi=
+sibility-items: unset; column-span: unset; contain: unset; contain-intrinsi=
+c-block-size: unset; contain-intrinsic-size: unset; contain-intrinsic-inlin=
+e-size: unset; container: unset; content: unset; content-visibility: unset;=
+ corner-shape: unset; corner-block-end-shape: unset; corner-block-start-sha=
+pe: unset; counter-increment: unset; counter-reset: unset; counter-set: uns=
+et; cx: unset; cy: unset; d: unset; dominant-baseline: unset; dynamic-range=
+-limit: unset; empty-cells: unset; field-sizing: unset; fill: unset; fill-o=
+pacity: unset; fill-rule: unset; filter: unset; flex-flow: unset; flex-line=
+-count: unset; float: unset; flood-color: unset; flood-opacity: unset; grid=
+: unset; grid-area: unset; height: unset; hyphenate-character: unset; hyphe=
+nate-limit-chars: unset; hyphens: unset; image-orientation: unset; image-re=
+ndering: unset; initial-letter: unset; inline-size: unset; inset-block: uns=
+et; inset-inline: unset; interactivity: unset; interest-delay: unset; inter=
+polate-size: unset; isolation: unset; letter-spacing: unset; lighting-color=
+: unset; line-break: unset; list-style: unset; margin-block: unset; margin:=
+ unset; margin-inline: unset; marker: unset; mask: unset; mask-type: unset;=
+ math-shift: unset; math-style: unset; max-block-size: unset; max-height: u=
+nset; max-inline-size: unset; min-block-size: unset; min-height: unset; min=
+-inline-size: unset; mix-blend-mode: unset; object-fit: unset; object-posit=
+ion: unset; object-view-box: unset; offset: unset; opacity: unset; order: u=
+nset; orphans: unset; outline: unset; outline-offset: unset; overflow-ancho=
+r: unset; overflow-block: unset; overflow-clip-margin: unset; overflow-inli=
+ne: unset; overflow-wrap: unset; overlay: unset; overscroll-behavior-block:=
+ unset; overscroll-behavior-inline: unset; overscroll-behavior: unset; padd=
+ing-block: unset; padding: unset; padding-inline: unset; page: unset; page-=
+margin-safety: unset; page-orientation: unset; paint-order: unset; perspect=
+ive: unset; perspective-origin: unset; pointer-events: unset; position-try:=
+ unset; position-visibility: unset; print-color-adjust: unset; quotes: unse=
+t; r: unset; reading-flow: unset; reading-order: unset; resize: unset; rota=
+te: unset; ruby-align: unset; ruby-overhang: unset; ruby-position: unset; r=
+ule-overlap: unset; rx: unset; ry: unset; scale: unset; scroll-behavior: un=
+set; scroll-initial-target: unset; scroll-margin-block: unset; scroll-margi=
+n: unset; scroll-margin-inline: unset; scroll-marker-group: unset; scroll-p=
+adding-block: unset; scroll-padding: unset; scroll-padding-inline: unset; s=
+croll-snap-align: unset; scroll-snap-stop: unset; scroll-snap-type: unset; =
+scroll-target-group: unset; scroll-timeline: unset; scrollbar-color: unset;=
+ scrollbar-gutter: unset; scrollbar-width: unset; shape-image-threshold: un=
+set; shape-margin: unset; shape-outside: unset; shape-rendering: unset; siz=
+e: unset; speak: unset; stop-color: unset; stop-opacity: unset; stroke: uns=
+et; stroke-dasharray: unset; stroke-dashoffset: unset; stroke-linecap: unse=
+t; stroke-linejoin: unset; stroke-miterlimit: unset; stroke-opacity: unset;=
+ stroke-width: unset; tab-size: unset; table-layout: unset; text-align: uns=
+et; text-align-last: unset; text-anchor: unset; text-autospace: unset; text=
+-box: unset; text-combine-upright: unset; text-decoration: unset; text-deco=
+ration-skip-ink: unset; text-emphasis: unset; text-emphasis-position: unset=
+; text-fit: unset; text-indent: unset; text-justify: unset; text-shadow: un=
+set; text-transform: unset; text-underline-offset: unset; text-underline-po=
+sition: unset; text-wrap-style: unset; timeline-scope: unset; timeline-trig=
+ger: unset; touch-action: unset; transform: unset; transform-box: unset; tr=
+ansform-origin: unset; transform-style: unset; transition: unset; translate=
+: unset; trigger-scope: unset; user-select: unset; vector-effect: unset; ve=
+rtical-align: unset; view-timeline: unset; view-transition-class: unset; vi=
+ew-transition-group: unset; view-transition-name: unset; view-transition-sc=
+ope: unset; visibility: unset; border-spacing: unset; -webkit-box-align: un=
+set; -webkit-box-decoration-break: unset; -webkit-box-direction: unset; -we=
+bkit-box-flex: unset; -webkit-box-ordinal-group: unset; -webkit-box-orient:=
+ unset; -webkit-box-pack: unset; -webkit-box-reflect: unset; -webkit-line-b=
+reak: unset; -webkit-line-clamp: unset; -webkit-mask-box-image: unset; -web=
+kit-rtl-ordering: unset; -webkit-ruby-position: unset; -webkit-tap-highligh=
+t-color: unset; -webkit-text-combine: unset; -webkit-text-decorations-in-ef=
+fect: unset; -webkit-text-fill-color: unset; -webkit-text-security: unset; =
+-webkit-text-stroke: unset; -webkit-user-drag: unset; widows: unset; width:=
+ unset; will-change: unset; word-break: unset; word-spacing: unset; x: unse=
+t; y: unset; z-index: unset; display: block; flex: 0 1 auto; min-width: 70p=
+x; max-width: min(36vw, 360px); overflow: hidden; text-overflow: ellipsis; =
+white-space: nowrap; color: var(--ink); font: 600 .85rem/1.35 var(--f-body)=
+; cursor: pointer; }
+
+.ft-name:hover { text-decoration: underline; text-underline-offset: 2px; }
+
+.ft-recent-dot { display: inline-block; width: 7px; height: 7px; flex: 0 0 =
+7px; border-radius: 50%; background: rgb(234, 179, 8); margin: 0px 2px 0px =
+5px; box-shadow: color-mix(in srgb, rgb(234, 179, 8) 18%, transparent) 0px =
+0px 0px 2px; }
+
+.ft-recent-dot[aria-label] { cursor: help; }
+
+.ft-recent-legend { display: inline-flex; align-items: center; gap: 6px; ma=
+rgin-left: 10px; color: var(--muted); font-size: 0.75rem; }
+
+.ft-recent-legend .ft-recent-dot { margin: 0px; }
+
+.ft-item.uncertain .ft-name { font-style: italic; color: var(--muted); font=
+-weight: 500; }
+
+.ft-years { flex: 0 0 auto; color: var(--ink-2); font: 400 .76rem/1.3 var(-=
+-f-data); white-space: nowrap; }
+
+.ft-place { flex: 1 1 auto; min-width: 0px; overflow: hidden; text-overflow=
+: ellipsis; white-space: nowrap; color: var(--muted); font-size: 0.74rem; }
+
+.ft-sex { display: inline-flex; align-items: center; justify-content: cente=
+r; flex: 0 0 15px; width: 15px; height: 18px; color: var(--muted); font-var=
+iant-ligatures: ; font-variant-caps: ; font-variant-numeric: ; font-variant=
+-east-asian: ; font-variant-alternates: ; font-variant-position: ; font-var=
+iant-emoji: ; font-weight: ; font-stretch: ; font-size: ; line-height: ; fo=
+nt-family: ; font-optical-sizing: ; font-size-adjust: ; font-kerning: ; fon=
+t-feature-settings: ; font-variation-settings: ; font-language-override: ; =
+font-style: normal; }
+
+.ft-sex.sex-f { color: rgb(217, 107, 154); }
+
+.ft-sex.sex-m { color: rgb(67, 136, 214); }
+
+.ft-nav { display: flex; align-items: center; gap: 2px; flex: 0 0 auto; mar=
+gin-left: auto; }
+
+.ft-nav button { display: inline-flex; align-items: center; justify-content=
+: center; width: 24px; height: 24px; padding: 0px; border: 1px solid transp=
+arent; border-radius: 5px; background: transparent; color: var(--muted); fo=
+nt: 600 .82rem/1 var(--f-body); cursor: pointer; }
+
+.ft-nav button:hover, .ft-nav button:focus-visible { border-color: var(--ge=
+n-color); background: color-mix(in srgb,var(--gen-color) 12%,transparent); =
+color: var(--gen-color); }
+
+.ft-children { display: block; margin: 0px; padding: 0px; }
+
+.ft-children[hidden] { display: none !important; }
+
+@media (max-width: 640px) {
+  .homepage-tree .ped-scroll { max-height: 74vh; min-height: 240px; padding=
+: 5px 3px; overflow: hidden auto; }
+  .ped-tree { --ft-indent-step: 8px; --ft-row-height: 36px; font-size: 0.82=
+rem; }
+  .ft-line { gap: 4px; padding: 3px 2px; min-height: 36px; }
+  .ft-chevron { flex-basis: 22px; width: 22px; height: 30px; margin-left: 1=
+px; }
+  .ft-name { min-width: 40px; max-width: 46%; font-size: 0.82rem; }
+  .ft-years { font-size: 0.69rem; }
+  .ft-place { display: none; }
+  .ft-nav { gap: 0px; }
+  .ft-nav button { width: 32px; height: 32px; font-size: 0.82rem; }
+  .ft-sex { width: 13px; height: 18px; flex-basis: 13px; font-size: 14px; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .ft-line, .ft-nav button, .ft-chevron { transition: background 0.12s, col=
+or 0.12s, border-color 0.12s; }
+}
+
+#nyheder { gap: 22px; }
+
+#nyheder .sec-head { gap: 9px; max-width: 72ch; }
+
+#nyheder .sec-head h2 { margin-top: 2px; }
+
+#nyheder .bulletin-list { display: flex; flex-direction: column; gap: 18px;=
+ max-width: 980px; width: 100%; }
+
+#nyheder .bulletin-item { display: flex; flex-direction: column; align-item=
+s: flex-start; gap: 9px; padding: 18px 20px 20px; border-top-color: ; borde=
+r-top-style: ; border-top-width: ; border-right-color: ; border-right-style=
+: ; border-right-width: ; border-bottom-color: ; border-bottom-style: ; bor=
+der-bottom-width: ; border-image-source: ; border-image-slice: ; border-ima=
+ge-width: ; border-image-outset: ; border-image-repeat: ; border-left: 3px =
+solid var(--rule-2); border-radius: 8px; background: var(--sheet); }
+
+#nyheder .bulletin-item time { display: inline-block; color: var(--muted); =
+font: 500 .76rem/1.4 var(--f-data); letter-spacing: 0.015em; }
+
+#nyheder .bulletin-item .conf { margin-top: 0px; }
+
+#nyheder .bulletin-item h3 { font-size: clamp(1.12rem, 1.6vw, 1.32rem); lin=
+e-height: 1.28; margin-top: 1px; }
+
+#nyheder .bulletin-item p { max-width: 76ch; line-height: 1.62; color: var(=
+--ink-2); }
+
+@media (max-width: 640px) {
+  #nyheder { gap: 18px; }
+  #nyheder .bulletin-list { gap: 12px; }
+  #nyheder .bulletin-item { padding: 14px 15px 16px; gap: 8px; }
+  #nyheder .bulletin-item p { line-height: 1.55; }
+}
+
+#nyheder .bulletin-more-wrap { display: flex; flex-wrap: wrap; align-items:=
+ center; gap: 10px; margin-top: 2px; }
+
+#nyheder .bulletin-more-wrap .muted { font-size: 0.82rem; }
+
+#nyheder #bulletin-more { cursor: pointer; }
+
+.research-intro { max-width: 82ch; }
+
+.research-toolbar { display: flex; flex-wrap: wrap; gap: 10px 14px; align-i=
+tems: center; padding: 12px 14px; border: 1px solid var(--rule); border-rad=
+ius: 10px; background: var(--sheet); }
+
+.research-toolbar input, .research-toolbar select { font-style: inherit; fo=
+nt-variant: inherit; font-weight: inherit; font-stretch: inherit; line-heig=
+ht: inherit; font-family: inherit; font-optical-sizing: inherit; font-size-=
+adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; fon=
+t-variation-settings: inherit; font-language-override: inherit; font-size: =
+0.88rem; padding: 7px 9px; border: 1px solid var(--rule-2); border-radius: =
+6px; background: var(--sheet); color: var(--ink); }
+
+.claim-list { display: grid; grid-template-columns: repeat(2, minmax(0px, 1=
+fr)); gap: 12px; }
+
+.claim { background: var(--sheet); border: 1px solid var(--rule); border-ra=
+dius: 10px; padding: 15px; display: flex; flex-direction: column; gap: 9px;=
+ min-width: 0px; }
+
+.claim h3 { font-size: 1.08rem; }
+
+.claim p { font-size: 0.88rem; color: var(--ink-2); }
+
+.claim summary { cursor: pointer; font-size: 0.86rem; color: var(--accent);=
+ font-weight: 600; }
+
+.claim details { border-top: 1px solid var(--rule); padding-top: 9px; }
+
+.claim details > div { display: flex; flex-direction: column; gap: 5px; mar=
+gin: 9px 0px; }
+
+.claim .claim-label { font: 500 .66rem var(--f-data); letter-spacing: 0.06e=
+m; text-transform: uppercase; color: var(--muted); }
+
+.claim-sources { margin: 3px 0px 0px; padding-left: 18px; font-size: 0.84re=
+m; display: flex; flex-direction: column; gap: 4px; }
+
+.claim .claim-foot { display: flex; justify-content: space-between; flex-wr=
+ap: wrap; gap: 8px; align-items: center; }
+
+.claim .dossier-link { font-size: 0.82rem; }
+
+@media (max-width: 700px) {
+  .claim-list { grid-template-columns: minmax(0px, 1fr); }
+}
+------MultipartBoundary--LvRw9FWS9HxhI6ZfW9tjATcFlgmRixHOFB7a1XQ2NT----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-eb6d61fb-3875-42ca-9ef2-7fa44069bb78@mhtml.blink
+
+@charset "utf-8";
+
+body { transition: opacity 0.2s ease-in; }
+
+body[unresolved] { opacity: 0; display: block; overflow: hidden; position: =
+relative; }
+------MultipartBoundary--LvRw9FWS9HxhI6ZfW9tjATcFlgmRixHOFB7a1XQ2NT------

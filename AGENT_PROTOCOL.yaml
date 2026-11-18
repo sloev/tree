@@ -1,0 +1,42 @@
+protocol_version: "1.0"
+repository_role: public_publication
+source_of_truth:
+  structured_records: "content/**/*.md"
+  media: ["images/**", "media/files/**"]
+  generated_do_not_edit: ["docs/**", "build/**", "family-tree.ged"]
+forbidden_inputs:
+  - raw_captures
+  - original_scans
+  - page_images_from_private_queue
+  - unreviewed_ocr
+  - private_dna_or_match_data
+  - living_person_identifiers
+roles:
+  genealogical_researcher:
+    mission: "Publish only evidence-backed, public-safe historical claims."
+    outputs: ["content/people/*.md", "content/claims/*.md", "content/sources/*.md"]
+  evidence_auditor:
+    mission: "Independently test identity, chronology, source quality, contradictions and inference."
+    required_checks: ["source supports exact claim", "alternative identities considered", "uncertainty stated"]
+  publication_editor:
+    mission: "Check privacy, rights, provenance, citations, stable IDs and public suitability."
+    gate: "No publication unless explicitly approved and public-safe."
+  newsbulletin_editor:
+    mission: "Ensure each substantive public research/media commit is represented at the top of content/activity.md."
+    automation: "scripts/update_newsbulletin.py"
+    display_heading: "Nyhedsbulletin"
+  build_release_maintainer:
+    mission: "Validate content, build GEDCOM/site and verify GitHub Actions/Pages."
+    commands: ["python3 scripts/compile_content.py --check", "python3 scripts/check_local_links.py", "python3 scripts/check_integrity.py", "python3 scripts/compile_content.py", "python3 site/build.py"]
+workflow:
+  intake_repository: "sloev/tree_private"
+  publication_channel: "reviewed pull request from private repository"
+  trigger_scope: ["content/**", "images/**", "media/files/**", "site/**", "scripts/**"]
+  newsbulletin: "One concise Danish story per substantive public research/media commit."
+  privacy: "Never copy private DNA, match-level or living-person data."
+completion:
+  - "Research claim has source references and an explicit validation status."
+  - "Contradictions and unresolved questions remain visible."
+  - "Nyhedsbulletin entry appears for substantive public work."
+  - "Build and integrity checks pass."
+  - "coop.log.md records factual handoff."
