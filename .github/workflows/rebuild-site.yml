@@ -70,6 +70,10 @@ jobs:
           grep -q 'function renderPed' docs/index.html
           grep -q 'place_details' docs/index.html
           grep -q 'source_details' docs/index.html
+          grep -q 'media_details' docs/index.html
+          grep -q 'initialClaim' docs/index.html
+          test ! -e scripts/static_site.py
+          ! grep -q 'static_site' site/build.py
           grep -q '__showPlaceRecord' docs/index.html
           grep -q 'id="stamtrae"' docs/index.html
           test ! -e data/tree.json
