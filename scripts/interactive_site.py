@@ -140,7 +140,7 @@ def build():
 
     photos = []
     imgs = []
-    for meta, _body, _path in media_records:
+    for meta, media_body, _path in media_records:
         file = str(meta.get("file") or "")
         if not file:
             continue
@@ -158,6 +158,11 @@ def build():
             "claim_ids": [str(x) for x in (meta.get("claim_ids") or [])],
             "source_ids": [str(x) for x in (meta.get("source_ids") or [])],
             "evidence_role": meta.get("evidence_role") or "unverified",
+            "original_url": meta.get("original_url"),
+            "accessed": meta.get("accessed"),
+            "rights": meta.get("rights"),
+            "body": media_body,
+            "meta": meta,
         })
 
     claims = []
