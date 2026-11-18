@@ -73,12 +73,14 @@ Læs seneste log, AGENTS.md, denne metode og relevante claims før arbejde. Efte
 Ved ændringer i content/media/images/template/compiler:
 ```sh
 python3 -m pip install -r requirements.txt
-python3 scripts/ingest_leads.py
 python3 scripts/compile_content.py --check
+python3 scripts/check_local_links.py
+python3 scripts/check_integrity.py
 python3 scripts/compile_content.py
 python3 site/build.py
+python3 scripts/check_generated_links.py
 ```
-Kontrollér schemaer, interne referencer, lokale links/media, privacy og den oprindelige interaktive forside. Generér statisk HTML + GEDCOM. GitHub Actions skal køre på relevante ændringer og fejle ved manglende lokale filer/links. Commit kilder og scripts, ikke håndredigerede outputs. Bekræft workflow og Pages deployment før live-status.
+Buildet må ikke importere eller kalde en separat statisk sidegenerator. Kontrollér schemaer, interne referencer, lokale links/media, privacy og den fælles interaktive forside. Test direkte adgang, genindlæsning og browserhistorik for `?person=`, `?place=`, `?claim=`, `?source=` og `?media=` samt `#tal` og `#personer`. GitHub Actions skal køre på relevante ændringer og fejle ved manglende lokale filer/links. Commit kilder og scripts, ikke håndredigerede outputs. Bekræft workflow og Pages deployment før live-status.
 
 ## Capture er først DONE når
 Capture er klassificeret, arkiveret lokalt eller dokumenteret utilgængelig; original placering og adgangsdato er gemt; source + claims er opdateret; relevante personer/steder/billeder er knyttet; links er kontrolleret; leads og coop.log er opdateret.
