@@ -84,7 +84,7 @@ def main():
     args=ap.parse_args()
     paths=changed_paths(args.before,args.after)
     paths=[p for p in paths if p!="content/activity.md"]
-    research=[p for p in paths if p.startswith("content/")]
+    research=[p for p in paths if p.startswith("content/") and p not in ("content/activity.md","content/STATUS.md","content/README.md")]
     media=[p for p in paths if p.startswith(("images/","media/files/"))]
     if not research and not media:
         print("No substantive public research/media changes; bulletin unchanged.")
