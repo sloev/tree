@@ -528,7 +528,7 @@ body:not(.show-uncertain) .ft-item.uncertain>.ft-line{display:none}
   <div class="block">
     <div class="sec-head"><span class="eyebrow">Billeder</span><h2>Dokumenter og billeder</h2>
       <p class="muted">Originale kirkebogsindførsler, som træet bygger på, og billeder fra danske lokalarkiver.</p></div>
-    <div class="gallery" id="gallery"></div>
+    <div class="gallery" id="gallery"></div><div id="media-detail" class="panel" hidden></div>
     <h3>Mere i arkiverne</h3>
     <ul class="links" id="links"></ul>
   </div>
@@ -1133,12 +1133,22 @@ function renderKilder(){
     const s=sourceRecords.find(x=>x.id===String(id)); if(!s)return;
     const m=s.meta||{}, box=document.getElementById('source-detail'); box.hidden=false;
     box.innerHTML='<h3>'+esc(s.title)+'</h3><p class="muted">Kilde-ID: '+esc(s.id)+'</p>'+
-      ['original_url','url','archive','reference','accessed','local_copy','file'].filter(k=>m[k]).map(k=>'<p><b>'+esc(k)+':</b> '+esc(m[k])+'</p>').join('')+
+      ['original_url','url','archive','reference','accessed','local_copy','file'].filter(k=>m[k]).map(k=>k==='local_copy'?'<p><b>'+esc(k)+':</b> <a href="media/files/captures/'+esc(String(m[k]).split('/').pop())+'">Åbn lokal kopi</a></p>':'<p><b>'+esc(k)+':</b> '+esc(m[k])+'</p>').join('')+
       '<div style="white-space:pre-wrap;overflow-wrap:anywhere">'+esc(s.body||'')+'</div>';
     box.scrollIntoView({behavior:'smooth',block:'start'});
   }
   window.__showSourceRecord=showSource;
-  document.getElementById('gallery').innerHTML=DATA.photos.map((ph,i)=>`<figure id="media-${esc(ph.id||i)}"><a href="${esc(photoSourceUrl(ph))}" target="_blank" rel="noopener"><img src="${IMGS[i]}" alt="${esc(ph.title)}"></a><figcaption><b>${esc(ph.title)}</b>${esc(ph.caption)}<span class="muted">${esc(ph.credit)}</span></figcaption></figure>`).join('');
+  document.getElementById('gallery').innerHTML=DATA.photos.map((ph,i)=>`<figure id="media-${esc(ph.id||i)}"><a href="${esc(photoSourceUrl(ph))}" target="_blank" rel="noopener"><img src="${IMGS[i]}" alt="${esc(ph.title)}"></a><figcaption><b>${esc(ph.title)}</b>${esc(ph.caption)}<span class="muted">${esc(ph.credit)}</span><button class="linkish" type="button" data-media-open="${esc(ph.id||i)}">Vis registrering</button></figcaption></figure>`).join('');
+  function showMedia(id){
+    const ph=(DATA.photos||[]).find(x=>String(x.id)===String(id)); if(!ph)return;
+    const m=ph.meta||{}, box=document.getElementById('media-detail'); box.hidden=false;
+    box.innerHTML='<h3>'+esc(ph.title)+'</h3><p>'+esc(ph.caption||'')+'</p>'+
+      ['credit','evidence_role','original_url','accessed','rights','file'].filter(k=>m[k]||ph[k]).map(k=>'<p><b>'+esc(k)+':</b> '+esc(m[k]||ph[k])+'</p>').join('')+
+      '<div style="white-space:pre-wrap;overflow-wrap:anywhere">'+esc(ph.body||'')+'</div>';
+    box.scrollIntoView({behavior:'smooth',block:'start'});
+  }
+  document.querySelectorAll('[data-media-open]').forEach(b=>b.addEventListener('click',()=>showMedia(b.dataset.mediaOpen)));
+  window.__showMediaRecord=showMedia;
   document.getElementById('links').innerHTML=DATA.links.map(([t,u])=>`<li>${u?'<a href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(t)+'</a>':esc(t)+' <span class="muted">· direkte link mangler</span>'}</li>`).join('');
 }
 
@@ -1152,7 +1162,7 @@ const initialClaim=routeParams.get('claim'), initialPlace=routeParams.get('place
 if(initialClaim){go('forskning');requestAnimationFrame(()=>{const card=document.getElementById('claim-'+initialClaim);if(card){card.querySelector('details')?.setAttribute('open','');card.scrollIntoView({block:'start'});}});}
 if(initialPlace){go('kort');requestAnimationFrame(()=>window.__showPlaceRecord?.(initialPlace));}
 if(initialSource){go('kilder');requestAnimationFrame(()=>window.__showSourceRecord?.(initialSource));}
-if(initialMedia){go('kilder');requestAnimationFrame(()=>document.getElementById('media-'+initialMedia)?.scrollIntoView({block:'center'}));}
+if(initialMedia){go('kilder');requestAnimationFrame(()=>window.__showMediaRecord?.(initialMedia));}
 const initialPerson=new URL(location.href).searchParams.get('person');
 if(initialPerson && byId[initialPerson]) requestAnimationFrame(()=>openPerson(initialPerson,false));
 if(showTree) requestAnimationFrame(()=>document.getElementById('stamtrae')?.scrollIntoView({block:'start'}));
