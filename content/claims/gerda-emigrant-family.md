@@ -2,33 +2,70 @@
 id: "gerda-emigrant-family"
 schema: claim/v1
 branch: "Gerda Larsen"
-title: "Jørgen Christensen og Bodil Margrethe: børnene i Amerika"
+title: "Jørgen Christensen og Bodil Margrethe: børnene og Amerika-rejsen"
 status: "needs"
+validation: "delvist dokumenteret"
 person_ids:
   - "p126"
   - "p127"
+sources:
+  - "Link-Lives: https://link-lives.dk/soeg/pa/12-15555842"
+  - "Link-Lives: https://link-lives.dk/soeg/pa/12-15555956"
+  - "Link-Lives: https://link-lives.dk/soeg/pa/12-15556146"
+  - "Link-Lives: https://link-lives.dk/soeg/pa/12-15556964"
+  - "Link-Lives: https://link-lives.dk/soeg/pa/12-15556364"
+  - "Link-Lives: https://link-lives.dk/soeg/pa/12-15557487"
+  - "Link-Lives: https://link-lives.dk/soeg/pa/12-15557632"
+  - "Link-Lives: https://link-lives.dk/soeg/pa/11-7443684"
+  - "Link-Lives: https://link-lives.dk/soeg/pa/12-15558734"
+  - "Rigsarkivet: https://www.rigsarkivet.dk/vejledning/soeg-din-slaegt-ved-navnesoegning-1787-1918/"
 ---
 
-## Claim
+## Foreløbigt spor
 
-Familiearket fortæller, at syv af Jørgen Christensens og Bodil Margrethes ni børn emigrerede, og at forældrene selv rejste ud og senere vendte tilbage. Det skal undersøges person for person; familien rejste ikke nødvendigvis samlet.
+Familieoplysningerne fortæller, at Jørgen Christensen (1829–1895) og Bodil Margrethe Clausdatter (1829–1890) fik ni børn, at syv emigrerede til Amerika, og at forældrene selv rejste ud og senere vendte tilbage. Rejserne er endnu ikke dokumenteret person for person. Ordet *Amerika* må ikke automatisk fortolkes som USA.
 
-## Evidence
+## Børn i den nuværende kanoniske slægtsfil
 
-Familiearket angiver ni børn og et overordnet rejseforløb. Dossieret har allerede dåbshenvisninger for flere børn.
+Den aktuelle offentlige GEDCOM og de tilhørende personposter indeholder otte navngivne børn:
 
-## Missing
+| Barn | Født | Personpost | Foreløbig bemærkning |
+|---|---:|---|---|
+| Peder Madsen Clausen Jørgensen | 6. feb. 1850 | `as_p63_0` | I familieoplysningen omtalt som den ældste søn, der blev i Danmark |
+| Mads Andersen Jørgensen | 17. sep. 1852 | `as_p63_1` | Senere liv og udvandring uafklaret |
+| Claus Jørgensen | 19. mar. 1857 | `as_p63_2` | Senere liv og udvandring uafklaret |
+| Ane Marie Jørgensen | 7. sep. 1859 | `p63` | Dokumenteret senere på Langeland; en eventuel tidligere udrejse og hjemkomst er ikke undersøgt |
+| Marius Christian Jørgensen | 1. sep. 1862 | `as_p63_3` | Senere liv og udvandring uafklaret |
+| Hans Jørgensen | 9. maj 1870 | `as_p63_4` | Senere liv og udvandring uafklaret |
+| Niels Rasmussen Jørgensen | 5. dec. 1872 | `as_p63_5` | Død 1873; kan ikke uden videre regnes som en voksen udvandrer |
+| Jørgine Margrete Andersine Jørgensen | 30. jul. 1875 | `as_p63_6` | I familieoplysningen omtalt som den yngste datter, der blev i Danmark |
 
-De præcise navne og individuelle udrejsekontrakter, passagerlister, amerikanske folketællinger og eventuelle naturalisations-/kirkebogsoplysninger.
+Dåbsoplysningerne er knyttet til de individuelle Link-Lives-personposter i kildelisten. Niels' begravelse er ligeledes registreret særskilt.
 
-## Next
+## Modstrid mellem familiefortælling og nuværende registrering
 
-Lav en separat tidslinje for hvert barn og søg først i de relevante danske sogne, derefter i destinationskilder.
+Der er mindst tre spørgsmål, som skal holdes åbne:
 
-## Note: 6. Jørgen Christensen and Bodil Margrethe — emigration
+1. Familiearket angiver ni børn, mens den nuværende GEDCOM kun indeholder otte. Et niende barn mangler derfor i den nuværende rekonstruktion, medmindre familietallet eller GEDCOM-afgrænsningen er forkert.
+2. Familieoplysningen om syv emigranter kan ikke fordeles sikkert på de otte kendte børn: Niels døde som spæd/barn i 1873, og Ane Marie er dokumenteret senere på Langeland. Det er muligt, at Ane Marie også rejste ud og vendte hjem, men det er ikke påvist.
+3. Oplysningen om, at Jørgen og Bodil selv rejste til Amerika og kom hjem igen, mangler endnu datoer, destinationer, skibsoplysninger og individuelle passager-/emigrationsfund.
 
-Jørgen Christensen (`p126`) and Bodil Margrethe Clausdatter (`p127`) are ancestors of Ane Marie Jørgensen. The family chart says they had nine children; the eldest son and youngest daughter stayed in Denmark, while the others emigrated to America. Jørgen and Bodil also reportedly emigrated and later returned to Denmark. Preserve the exact nine names and original birth details from the family chart/GEDCOM. Do not assume the family travelled together or that “America” necessarily means the United States.
+Ingen af de otte børn er på nuværende grundlag identificeret sikkert i en amerikansk eller canadisk ankomstkilde. Der er derfor endnu ikke grundlag for at oprette amerikanske efterkommere eller nye familieforbindelser.
 
-Search Danish emigration protocols, passenger arrivals, US census, naturalization, marriage, death and local records. Rigsarkivet cautions that the Copenhagen police emigration protocols after 1868 cover people who purchased contract tickets through an emigration agent; independent travellers may be absent. Therefore, a negative protocol search alone is not evidence that a person did not emigrate.
+## Søgemetode og kildebegrænsning
 
-*Provenance: Tidligere Gerda-dossier, fuldt indarbejdet 16.11.2026 · imported_on: 2026-11-16*
+Rigsarkivets vejledning forklarer, at navnesøgning i kirkebøger og folketællinger kræver relevante årstal og steder. Københavns Politis udvandrerprotokoller skal søges med navnevarianter og mulige opholdssteder; protokollerne dækker især personer, der købte billet gennem en dansk udvandringsagent. En manglende post er derfor ikke bevis for, at personen blev i Danmark.
+
+Søgningen skal også omfatte alternative ruter og stavemåder: Jørgensen/Jorgensen, Christensen/Christiansen, Madsen, Clausen/Clausdatter samt patronymiske og amerikansk tilpassede navne. Sognene Skrøbelev, Magleby og Humble er centrale som udgangspunkt, men senere bopæl skal fastslås før en emigrantpost kan identificeres.
+
+## Næste undersøgelser
+
+1. Find det originale familieark og afskriv alle ni børn præcist, inklusive datoer og eventuelle marginalnoter. Sammenhold med kirkebøgernes fødsels-/dåbsregistre i Skrøbelev og nabosognene.
+2. Find vielsen mellem Jørgen og Bodil omkring 1850 og følg familiens til- og afgangslister.
+3. Søg hver person særskilt i Københavns Politis udvandrerprotokoller, Vejle-agenturets lister og relevante passager-/ankomstregistre. Søg også forældrene som selvstændige rejsende.
+4. Når en sandsynlig destination er fundet, følg personen gennem amerikanske/canadiske folketællinger, naturalisation, kirkebøger, vielser, dødsfald og nekrologer.
+5. Registrér hver identificeret efterkommer med dokumenteret forældre-/børnekæde og adskil sikre fund fra navnelighed.
+
+## Afgrænsning
+
+Dette er en foreløbig forskningsstatus, ikke en påstand om at otte børn er den endelige søskendeflok. Ingen nye personer eller GEDCOM-relationer er tilføjet. Modstriden om ni børn og syv udvandrere skal forblive synlig, indtil original familieoversigt og samtidige kilder er sammenholdt.
