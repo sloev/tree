@@ -1140,11 +1140,13 @@ function renderKilder(){
   window.__showSourceRecord=showSource;
   document.getElementById('gallery').innerHTML=DATA.photos.map((ph,i)=>`<figure id="media-${esc(ph.id||i)}"><a href="${esc(photoSourceUrl(ph))}" target="_blank" rel="noopener"><img src="${IMGS[i]}" alt="${esc(ph.title)}"></a><figcaption><b>${esc(ph.title)}</b>${esc(ph.caption)}<span class="muted">${esc(ph.credit)}</span><button class="linkish" type="button" data-media-open="${esc(ph.id||i)}">Vis registrering</button></figcaption></figure>`).join('');
   function showMedia(id){
-    const ph=(DATA.photos||[]).find(x=>String(x.id)===String(id)); if(!ph)return;
-    const m=ph.meta||{}, box=document.getElementById('media-detail'); box.hidden=false;
-    box.innerHTML='<h3>'+esc(ph.title)+'</h3><p>'+esc(ph.caption||'')+'</p>'+
-      ['credit','evidence_role','original_url','accessed','rights','file'].filter(k=>m[k]||ph[k]).map(k=>'<p><b>'+esc(k)+':</b> '+esc(m[k]||ph[k])+'</p>').join('')+
-      '<div style="white-space:pre-wrap;overflow-wrap:anywhere">'+esc(ph.body||'')+'</div>';
+    const ph=(DATA.photos||[]).find(x=>String(x.id)===String(id));
+    const rec=(DATA.media_details||[]).find(x=>String(x.id)===String(id)); if(!ph&&!rec)return;
+    const m=rec?.meta||ph?.meta||{}, box=document.getElementById('media-detail'); box.hidden=false;
+    const title=rec?.title||ph?.title||String(id), caption=ph?.caption||m.caption||'';
+    box.innerHTML='<h3>'+esc(title)+'</h3><p>'+esc(caption)+'</p>'+
+      ['credit','evidence_role','original_url','accessed','rights','file'].filter(k=>m[k]||ph?.[k]).map(k=>'<p><b>'+esc(k)+':</b> '+esc(m[k]||ph?.[k])+'</p>').join('')+
+      '<div style="white-space:pre-wrap;overflow-wrap:anywhere">'+esc(rec?.body||ph?.body||'')+'</div>';
     box.scrollIntoView({behavior:'smooth',block:'start'});
   }
   document.querySelectorAll('[data-media-open]').forEach(b=>b.addEventListener('click',()=>showMedia(b.dataset.mediaOpen)));
