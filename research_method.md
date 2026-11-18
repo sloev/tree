@@ -4,7 +4,7 @@ Dette er den fælles, fremadrettede standard for brugeren og alle agenter. Læs 
 
 ## Ufravigelige principper
 1. **Kilder:** Kun Markdown under `content/` og lokale mediefiler er redaktionelle kilder. Ingen JSON-snapshots eller genererede filer må bruges som kilder.
-2. **Kompilering:** På relevante repoændringer genereres den eksisterende interaktive forside (uden redesign), statiske HTML-sider og GEDCOM fra Markdown/media. Output må ikke håndredigeres.
+2. **Kompilering:** Én compiler (`scripts/interactive_site.py`) og én HTML/CSS/JS-skabelon (`site/template.html`) genererer hele webstedet fra Markdown/media. Alle registre og detaljevisninger bruger samme interaktive grænseflade. Output må ikke håndredigeres.
 3. **Åben forskning:** Vis fakta, hypoteser, konflikter, mangler og negative søgninger. Ingen sikkerhed må antydes, som kilderne ikke bærer.
 4. **Lokal kildebevaring:** Klikbare links til dokumenter/billeder skal pege på lokale kopier i repoet. Registrér altid original URL/arkivsignatur og adgangsdato som provenance.
 5. **Sporbarhed:** Påstand → claim → kildepost → lokal fil → oprindelig placering.
@@ -60,8 +60,8 @@ Søg aktivt efter så meget **lovligt, relevant og efterprøveligt** billedbevis
 - Claims/forskningsspor: `content/claims/<id>.md`
 - Kilder: `content/sources/<id>.md`
 - Mediemetadata: `content/media/<id>.md`
-- Steder: `content/places/<id>.md`; every place must compile to `docs/places/<id>.html` and be linked from maps, person birth/death/residence references and the place register.
-- Personvisning og permalinks: der findes kun ét autoritativt personkort — det udvidede interaktive kort, som åbnes fra stamtræet og personregisteret. Personens permanente URL er den samme interaktive forside med `?person=<id>` og skal åbne netop dette kort, også ved direkte adgang, deling og genindlæsning. Alle personlinks, herunder fra register, stamtræ, kort, diagrammer og andre personkort, skal åbne samme komponent med samme data. Opret ikke reducerede, parallelle biografisider. Gamle `people/<id>.html`-URL’er skal viderestille til den kanoniske visning. Personregisteret skal ligeledes føre til den fælles interaktive Personer-visning. Steder, forskningsspor, kilder og medier kan fortsat have egne stabile sider.
+- Steder: `content/places/<id>.md`; every place is compiled into the shared interactive data layer and linked from maps, person birth/death/residence references and the place register.
+- Personvisning og permalinks: der findes kun ét autoritativt personkort — det udvidede interaktive kort, som åbnes fra stamtræet og personregisteret. Personens permanente URL er den samme interaktive forside med `?person=<id>` og skal åbne netop dette kort, også ved direkte adgang, deling og genindlæsning. Alle personlinks, herunder fra register, stamtræ, kort, diagrammer og andre personkort, skal åbne samme komponent med samme data. Opret ikke reducerede, parallelle biografisider. Gamle `people/<id>.html`-URL’er skal viderestille til den kanoniske visning. Personregisteret skal ligeledes føre til den fælles interaktive Personer-visning. Steder, forskningsspor, kilder og medier åbnes i samme interaktive websted via stabile query-permalinks (`?place=`, `?claim=`, `?source=`, `?media=`). Ældre `.html`-adresser og register-URL’er bevares kun som små redirects til den fælles visning; de må aldrig generere parallelle sider eller CSS.
 - Historiske forhold: `content/unions/<id>.md`
 - Binære filer: `images/`, `media/files/`
 Relationer i GEDCOM må kun ændres på eksplicit evidens. Biologisk, juridisk, ægteskabelig, plejeforældre-, værge- og husstandsrelation må ikke sammenblandes.
