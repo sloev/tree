@@ -11,6 +11,7 @@ import json
 import re
 from datetime import datetime, timezone
 from pathlib import Path
+import shutil
 
 from compile_content import read_records, private as is_private
 
@@ -322,6 +323,68 @@ def build():
 
     if "__" in template and re.search(r"__[A-Z_]+__", template):
         raise SystemExit("Unexpanded template placeholder remains")
+
+
+    # Copy only approved, referenced media into the publication directory.
+    media_out = DOCS / "media"
+    media_out.mkdir(parents=True, exist_ok=True)
+    for item in photos:
+        src = (ROOT / item["file"]).resolve()
+        if ROOT.resolve() in src.parents and src.is_file():
+            shutil.copy2(src, media_out / Path(item["file"]).name)
+    for meta, _body, _path in source_records:
+        local_copy = meta.get("local_copy")
+        if local_copy:
+            src = (ROOT / str(local_copy)).resolve()
+            if ROOT.resolve() not in src.parents or not src.is_file():
+                raise SystemExit(f"Missing/outside source local_copy: {meta['id']}: {local_copy}")
+            dst = media_out / "files" / "captures" / src.name
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(src, dst)
+
+    # Stable legacy paths are redirects, never a second rendering system.
+    def write_redirect(path: Path, title: str, target: str):
+        path.parent.mkdir(parents=True, exist_ok=True)
+        safe = html.escape(target, quote=True)
+        page = (
+            '<!doctype html><html lang="da"><head><meta charset="utf-8">'
+            '<meta name="viewport" content="width=device-width,initial-scale=1">'
+            '<meta http-equiv="refresh" content="0;url=' + safe + '">'
+            '<link rel="canonical" href="' + safe + '"><title>' +
+            html.escape(title) + '</title></head><body><p>Åbner i den fælles slægtsvisning. '
+            '<a href="' + safe + '">Fortsæt</a>.</p><script>location.replace(' +
+            js(target) + ')</script></body></html>'
+        )
+        path.write_text(page, encoding="utf-8")
+
+    legacy = [
+        ("people", people_records, "person", lambda m: str(m.get("name") or m["id"])),
+        ("places", place_records, "place", lambda m: str(m.get("name") or m["id"])),
+        ("research", claims_records, "claim", lambda m: str(m.get("title") or m["id"])),
+        ("sources", source_records, "source", lambda m: str(m.get("label") or m.get("title") or m["id"])),
+        ("media", media_records, "media", lambda m: str(m.get("title") or m["id"])),
+    ]
+    index_targets = {
+        "people": "../#personer", "places": "../#kort", "research": "../#forskning",
+        "sources": "../#kilder", "media": "../#kilder",
+    }
+    for folder, items, query, title_for in legacy:
+        out_dir = DOCS / folder
+        out_dir.mkdir(parents=True, exist_ok=True)
+        for meta, _body, _path in items:
+            rid = str(meta["id"])
+            suffix = {"person":"", "place":"#kort", "claim":"#forskning",
+                      "source":"#kilder", "media":"#kilder"}[query]
+            target = "../?" + query + "=" + rid + suffix
+            write_redirect(out_dir / (site_slug(rid) + ".html"), title_for(meta), target)
+        write_redirect(out_dir / "index.html", folder, index_targets[folder])
+
+    persons_dir = DOCS / "persons"
+    persons_dir.mkdir(parents=True, exist_ok=True)
+    write_redirect(persons_dir / "index.html", "Personer", "../#personer")
+    old_css = DOCS / "assets" / "site.css"
+    if old_css.exists():
+        old_css.unlink()
 
     site_output = ROOT / "site" / "index.html"
     site_output.write_text(template, encoding="utf-8")
