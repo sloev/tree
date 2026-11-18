@@ -127,13 +127,15 @@ def build():
 
     places = {}
     place_urls = {}
-    for meta, _body, _path in place_records:
+    place_details = []
+    for meta, place_body, _path in place_records:
         name = str(meta.get("name") or meta["id"])
         coords = meta.get("data")
         if isinstance(coords, list) and len(coords) >= 3:
             places[name] = coords
             place_slug = site_slug(meta["id"])
-            place_urls[name] = "places/" + place_slug + ".html"
+            place_urls[name] = "?place=" + str(meta["id"]) + "#kort"
+        place_details.append({"id": str(meta["id"]), "name": name, "data": coords, "body": place_body, "meta": meta})
 
     photos = []
     imgs = []
@@ -145,6 +147,7 @@ def build():
         if ROOT.resolve() not in source.parents or not source.is_file():
             continue
         photos.append({
+            "id": str(meta.get("id") or Path(file).stem),
             "file": file,
             "title": meta.get("title") or Path(file).stem,
             "caption": meta.get("caption") or "",
@@ -184,8 +187,11 @@ def build():
     # different image files (including the Sofus gravestone under Evald).
     imgs = ["media/" + Path(item["file"]).name for item in photos]
 
+    source_details = [{"id": str(meta["id"]), "title": str(meta.get("label") or meta.get("title") or meta["id"]), "meta": meta, "body": body} for meta, body, _path in source_records]
     data = {
         "people": people,
+        "place_details": place_details,
+        "source_details": source_details,
         "places": places,
         "place_urls": place_urls,
         "lines": config.get("lines") or {},
