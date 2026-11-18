@@ -49,6 +49,7 @@ def build():
     claims_records = records("claims", "claim/v1")
     media_records = records("media", "media/v1")
     place_records = records("places", "place/v1")
+    source_records = records("sources", "source/v1")
     # The site configuration is a single Markdown record at content/site-config.md.
     import yaml
     cfg_path = ROOT / "content" / "site-config.md"
@@ -220,6 +221,82 @@ def build():
             f'<h3>{title}</h3><p>{body}</p></article>'
         )
 
+    # Homepage statistics are computed from Markdown source records, never snapshots.
+    def confirmed_date(value):
+        match = re.fullmatch(r"(\d{4})(?:-(\d{2})(?:-(\d{2}))?)?", str(value or ""))
+        if not match:
+            return None
+        try:
+            return datetime(int(match.group(1)), int(match.group(2) or 1), int(match.group(3) or 1))
+        except ValueError:
+            return None
+
+    def display_date(value):
+        parsed = confirmed_date(value)
+        if not parsed:
+            return str(value or "")
+        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(value)):
+            return parsed.strftime("%d.%m.%Y")
+        if re.fullmatch(r"\d{4}-\d{2}", str(value)):
+            return parsed.strftime("%m.%Y")
+        return parsed.strftime("%Y")
+
+    oldest = {"born": None, "died": None}
+    for meta, _body, _path in people_records:
+        if meta.get("conf") != "record" or is_private(meta):
+            continue
+        for field in ("born", "died"):
+            parsed = confirmed_date(meta.get(field))
+            if parsed and (oldest[field] is None or parsed < oldest[field][0]):
+                oldest[field] = (parsed, meta)
+
+    current_counts = {
+        "people": len(people_records),
+        "claims": len(claims_records),
+        "sources": len(source_records),
+        "places": len(place_records),
+        "media": len(media_records),
+    }
+    snapshot = activity.get("stats_snapshot") or {
+        "date": "2026-11-18", "people": 494, "claims": 78,
+        "sources": 19, "places": 54, "media": 11,
+    }
+    count_labels = [("people", "personer"), ("claims", "forskningsspor"), ("sources", "kilder"), ("places", "steder")]
+    growth = []
+    for key, label in count_labels:
+        previous = snapshot.get(key)
+        if isinstance(previous, int):
+            delta = current_counts[key] - previous
+            growth.append(f"{delta:+d} {label}")
+    snapshot_date = str(snapshot.get("date") or "sidste opgørelse")
+    try:
+        snapshot_date = datetime.strptime(snapshot_date[:10], "%Y-%m-%d").strftime("%d.%m.%Y")
+    except ValueError:
+        pass
+    open_claims = sum(1 for meta, _body, _path in claims_records if meta.get("status") in ("needs", "hypothesis", "conflict"))
+    stat_items = [
+        ("Personer", current_counts["people"], "i stamtræet"),
+        ("Forskningsspor", current_counts["claims"], "samlede poster"),
+        ("Åbne spor", open_claims, "kræver mere arbejde"),
+        ("Kilder", current_counts["sources"], "registrerede kildeposter"),
+        ("Steder", current_counts["places"], "stedsposter"),
+        ("Billedposter", current_counts["media"], "knyttet til slægten"),
+    ]
+    stats_html = '<div class="home-stats-grid">' + "".join(
+        f'<div class="home-stat"><span class="home-stat-value">{value:,}</span><span class="home-stat-label">{html.escape(label)}</span><span class="home-stat-note">{html.escape(note)}</span></div>'
+        for label, value, note in stat_items
+    ) + '</div>'
+    oldest_html = []
+    for field, label in (("born", "Ældste dokumenterede fødsel"), ("died", "Ældste dokumenterede dødsfald")):
+        item = oldest[field]
+        if item:
+            _parsed, meta = item
+            name = str(meta.get("name") or meta.get("id"))
+            link = "people/" + site_slug(meta["id"]) + ".html"
+            oldest_html.append(f'<div class="home-oldest-item"><span>{html.escape(label)}</span><a href="{html.escape(link, quote=True)}">{html.escape(name)}</a><b>{html.escape(display_date(meta.get(field)))}</b></div>')
+    growth_text = " · ".join(growth) if growth else "ingen sammenlignelige tal"
+    stats_html += '<div class="home-stats-bottom">' + "".join(oldest_html) + f'<p class="home-growth">Ændring siden {html.escape(snapshot_date)}: {html.escape(growth_text)}</p></div>'
+
     template = TEMPLATE.read_text(encoding="utf-8")
     replacements = {
         "__DATA__": js(data),
@@ -228,6 +305,7 @@ def build():
         "__IMGS__": js(imgs),
         "__RESEARCH__": js(research),
         "__AUTO_BULLETIN__": bulletin_html,
+        "__STATS__": stats_html,
         # Keep the original encrypted private-person unlock behavior.
         "__UNLOCK_JS__": (ROOT / "site" / "unlock.js").read_text(encoding="utf-8"),
     }

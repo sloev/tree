@@ -3,7 +3,7 @@
 Markdown is the canonical source for the public genealogy and research site.
 
 - 494 people in content/people/
-- 78 research claims in content/claims/
+- 77 research claims in content/claims/
 - source records, media metadata and places in their corresponding content/ folders
 
 ## Website generation
@@ -16,7 +16,7 @@ The production build now reads Markdown front matter and body text directly. It 
 
 The generated site contains a person directory, a permanent HTML page for every person, research indexes and individual claim pages, source pages, a place directory, a media gallery and a GEDCOM download. Navigation and page content work without JavaScript; the person search is a progressive enhancement.
 
-Latest generated output checked on 2026-11-18: 494 person rows/pages, 78 research claims, 494 GEDCOM INDI records, and 135 GEDCOM FAM records. GEDCOM includes reciprocal FAMS/FAMC links. The public output contains no embedded DATA object or tree.json reference.
+Latest generated output checked on 2026-11-18: 494 person rows/pages, 77 research claims, 494 GEDCOM INDI records, and 135 GEDCOM FAM records. GEDCOM includes reciprocal FAMS/FAMC links. The public output contains no embedded DATA object or tree.json reference.
 
 Living people and people born in 1926 or later without a recorded death date are anonymized in public HTML and GEDCOM output.
 

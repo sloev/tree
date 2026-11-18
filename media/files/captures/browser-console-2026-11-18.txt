@@ -1,5 +1,0 @@
-Browser console
-
-1 browser issues were collected.
-
-Page error: Invalid regular expression flags

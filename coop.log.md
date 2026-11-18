@@ -113,3 +113,18 @@ Added a machine-readable `AGENT_PROTOCOL.yaml` and expanded `AGENTS.md` with dis
 The one-time public history purge workflow successfully prepared a sanitized history locally, but GitHub rejected the force-push because the workflow's GITHUB_TOKEN lacked the separate **Workflows: write** permission required when rewriting commits that include workflow files. No branch deletion occurred and no public refs were changed by that attempt. The failed temporary workflow and trigger marker have been removed from main. The current main tree remains sanitized, but old commit history and the five non-main branches are still reachable.
 
 A follow-up purge must be performed using a token with **Contents: read/write** and **Workflows: read/write** on sloev/tree; branch/tag cleanup also requires Contents write. TREE_TOKEN is stored only in sloev/tree_private. The current connector does not expose a safe direct Git ref deletion/orphan-commit operation, and the attempted automated workflow was blocked by tool safety checks. Do not claim the historical purge is complete. Until the history and old refs are actually removed, keep new raw captures exclusively in tree_private and do not publish them.
+
+
+## 2026-11-18 — DONE: Remove technical error lead; improve homepage statistics and bulletin
+
+**Agent:** OpenAI GPT-6. **Repository/branch:** sloev/tree, main.
+
+**Changes:** Removed the temporary browser-console diagnostic research claim and its source record/capture. Updated the two latest generic bulletin entries with named people and specific Evald/Bogensholm/Gaardsted/Rousing research topics. Replaced generic future bulletin generation with metadata-aware summaries that resolve changed person/claim/source/place records, including changed entries inside the enrichment maps.
+
+**Homepage:** Added a compact statistics strip between the navigation and family tree. Counts are computed from Markdown person, claim, source, place and media records; open research tracks are counted separately. The oldest documented birth/death are derived only from person records marked `conf: record` and exact year/month/day values. The baseline snapshot records the immediately preceding update date and counts so the site can display the delta since that update.
+
+**Current baseline before this change:** 494 people, 78 research claims, 19 source records, 54 places and 11 media records. The removed technical diagnostic changes the current totals to 494 people, 77 claims and 18 sources. Oldest recorded birth: Christian Casimir von Kleist (1654). Oldest recorded death: Christian von Kleist (1679).
+
+**Validation:** Source changes committed; GitHub Actions build and Pages deployment must be checked before claiming the live page is updated. The old generated diagnostic pages and captured console text are removed alongside their Markdown sources.
+
+**Handoff:** Verify the published statistics and responsive layout, and inspect the next automatically generated bulletin to ensure it names actual affected people and research topics.
