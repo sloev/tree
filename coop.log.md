@@ -102,3 +102,8 @@
 **Validation:** Template edit committed as `fd776a6cfa39b93b2ead2bc9cc44ffb99b41a3da`. No local browser render or build was available in this GitHub-only editing pass; CI/build and live Pages rendering must be checked before claiming deployment success.
 
 **Next:** Inspect the generated Langeland inset and confirm that all current Langeland place records are plotted. Then build a genuine overseas migration map from individually identified people, with departure, arrival and settlement events separated and source/validation status visible. Research Langeland emigrants to the USA, Argentina and Brazil before drawing any specific origin-to-destination route.
+
+
+### Follow-up — world destination map
+
+Added a schematic world map to the same `#kort` view in commit `92d2d31844d00544678bc2baec689db768073b6f`. It plots Fresno, Shanghai and Eldorado as clickable research destinations linked to their existing claims. It intentionally draws no migration lines: Fresno is unresolved, Shanghai is a contract-reference lead, and the Eldorado identification remains a hypothesis. Brazil is not plotted because no individual Brazil destination has yet been identified in the public records inspected for this change. The Langeland inset and world map have not yet been browser-rendered or CI-verified.
