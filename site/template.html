@@ -498,7 +498,13 @@ body:not(.show-uncertain) .ft-item.uncertain>.ft-line{display:none}
     <div class="panel"><svg id="map" class="mapsvg" role="img" aria-label="Kort over slægtens steder"></svg></div>
     <div style="display:flex;flex-direction:column;gap:24px;min-width:0">
       <div class="panel"><h3>Djursland og Mols, forstørret</h3><svg id="inset" class="mapsvg" role="img" aria-label="Forstørret kort over Djursland"></svg></div>
+      <div class="panel"><h3>Langeland, forstørret</h3><p class="muted" style="font-size:.82rem">Fødesteder, dødssteder og registrerede ophold på øen. Klik på et punkt for at se personerne og hændelserne. Kortet bruger de stedsposter, der allerede findes i slægtsdataene.</p><svg id="langeland-map" class="mapsvg" role="img" aria-label="Forstørret kort over Langeland og slægtens steder"></svg><div class="place-detail" id="langeland-summary"></div></div>
       <div class="panel"><h3 id="pd-title">Steder efter antal hændelser</h3><div class="place-detail" id="placedetail" hidden></div><div class="placelist" id="placelist"></div></div>
+      <div class="panel"><h3>Oversøiske udvandringsspor</h3><p class="muted" style="font-size:.82rem">Foreløbige destinationer i slægtens forskningsspor. De er ikke alle knyttet til Langeland, og markeringerne er ikke dokumentation for en bestemt rejserute.</p><ul class="links" style="columns:1">
+        <li><a href="?claim=gerda-iver-emigration#forskning">Fresno, Californien — Iver Peder Holgersen, mulig udrejse i 1910</a></li>
+        <li><a href="?claim=lorenz-gedde-emigration#forskning">Shanghai — Olaf Gedde, kontraktreference fra 1904</a></li>
+        <li><a href="?claim=lorenz-gedde-eduard-eldorado#forskning">Eldorado, Argentina — Eduard/Edouard Gedde, mulig identifikation</a></li>
+      </ul><p class="muted" style="font-size:.78rem">Brasilien og øvrige destinationer tilføjes, når konkrete personer og kilder er identificeret.</p></div>
     </div>
   </div>
 </section>
@@ -1015,7 +1021,7 @@ function renderKort(){
     const detail=(DATA.place_details||[]).find(x=>x.name===pl); d.innerHTML=`<span class="muted">${esc(DATA.places[pl]?.[2]||detail?.meta?.region||"Sted")} · ${ev[pl].length} hændelser</span>`+(detail?.body?`<p style="white-space:pre-wrap">${esc(detail.body)}</p>`:"")+`<a class="linkish" href="${esc(DATA.place_urls?.[pl]||"#")}">Permanent link ↗</a>`+ev[pl].map(e=>`<span>${personLink(e.p)} <span class="muted">${esc(e.what)}</span></span>`).join('')+`<button class="linkish" id="pd-all" style="margin-top:6px">Vis alle steder</button>`;
     wire(d); document.getElementById('pd-all').addEventListener('click',()=>{d.hidden=true;document.getElementById('pd-title').textContent='Steder efter antal hændelser';}); }
   window.__showPlaceRecord=(id)=>{const rec=(DATA.place_details||[]).find(x=>x.id===String(id));if(rec)showPlace(rec.name);};
-  function drawMap(svg, vb, labelFor){
+  function drawMap(svg, vb, labelFor, onlyPlaces=null){
     const s = MAP.W / vb[2];
     svg.setAttribute('viewBox', vb.join(' '));
     el('rect',{x:vb[0],y:vb[1],width:vb[2],height:vb[3],class:'sea'},svg);
@@ -1024,7 +1030,7 @@ function renderKort(){
     anc.forEach(p=>{ const a=DATA.places[p.bplace], b=DATA.places[p.dplace]; if(!a||!b||p.bplace===p.dplace) return;
       const [x1,y1]=prj(a[0],a[1]), [x2,y2]=prj(b[0],b[1]); const mx=(x1+x2)/2+(y2-y1)*.18, my=(y1+y2)/2-(x2-x1)*.18;
       el('path',{d:`M${x1},${y1}Q${mx},${my} ${x2},${y2}`,class:'route',stroke:lineVar(p.line),style:`stroke-width:${1.6/s}px`},routes); });
-    sorted.forEach(pl=>{ const [lat,lon]=DATA.places[pl]; const [x,y]=prj(lat,lon); const n=ev[pl].length;
+    sorted.filter(pl=>!onlyPlaces||onlyPlaces.has(pl)).forEach(pl=>{ const [lat,lon]=DATA.places[pl]; const [x,y]=prj(lat,lon); const n=ev[pl].length;
       const c=el('circle',{cx:x,cy:y,r:(4+Math.sqrt(n)*2.2)/s,class:'dot',style:`stroke-width:${2/s}px`,fill:lineVar(dom(pl)),tabindex:0,role:'button','aria-label':`${pl}: ${n} hændelser`},svg);
       const html=`<b>${esc(pl)}</b> · ${esc(DATA.places[pl][2])}<br>`+ev[pl].slice(0,8).map(e=>`${esc(clean(e.p.name))} <span style="opacity:.7">${esc(e.what)}</span>`).join('<br>')+(n>8?`<br>+${n-8} flere`:'');
       c.addEventListener('mousemove',e=>showTip(e,html)); c.addEventListener('mouseleave',hideTip);
@@ -1046,6 +1052,20 @@ function renderKort(){
   drawMap(document.getElementById('inset'),[ix0,iy0,ix1-ix0,iy1-iy0],[
     L('Kolind','start',-4),L('Tirstrup','start',-4),L('Fuglslev','start',14),L('Rosmus','end',12),L('Ebeltoft'),
     L('Vosnæsgaard, Skødstrup','start',4),L('Bogensholm, Vistoft (Mols)','start',4)].filter(Boolean));
+  const langelandPlaces=new Set(Object.keys(pl).filter(name=>/langeland/i.test(pl[name]?.[2]||'')));
+  if(langelandPlaces.size){
+    const coords=[...langelandPlaces].map(name=>pl[name]);
+    const minLat=Math.min(...coords.map(c=>c[0]))-.10, maxLat=Math.max(...coords.map(c=>c[0]))+.10;
+    const minLon=Math.min(...coords.map(c=>c[1]))-.12, maxLon=Math.max(...coords.map(c=>c[1]))+.12;
+    const [lx0,ly1]=prj(maxLat,minLon), [lx1,ly0]=prj(minLat,maxLon);
+    const langelandLabels=[...langelandPlaces].map(name=>L(name,'start',5)).filter(Boolean);
+    drawMap(document.getElementById('langeland-map'),[lx0,ly0,lx1-lx0,ly1-ly0],langelandLabels,langelandPlaces);
+    const total=[...langelandPlaces].reduce((n,name)=>n+(ev[name]?.length||0),0);
+    document.getElementById('langeland-summary').innerHTML='<b>'+langelandPlaces.size+' sted(er) på Langeland</b> · '+total+' registrerede hændelser i den nuværende offentlige datamængde. Dette er et udsnit af de registrerede steder, ikke en fuldstændig opgørelse over øens udvandring.';
+  }else{
+    document.getElementById('langeland-map').setAttribute('viewBox','0 0 600 220');
+    document.getElementById('langeland-summary').textContent='Der er endnu ingen stedsposter med regionen Langeland i de aktuelle data.';
+  }
   const listEl=document.getElementById('placelist');
   listEl.innerHTML = Object.keys(ev).sort((a,b)=>ev[b].length-ev[a].length).map(pl=>`<button type="button" data-pl="${esc(pl)}"><span><i class="sw" style="background:${lineVar(dom(pl))};width:9px;height:9px;margin-right:6px"></i>${esc(pl)}</span><span class="n">${ev[pl].length}</span></button>`).join('');
   listEl.querySelectorAll('[data-pl]').forEach(b=>b.addEventListener('click',()=>showPlace(b.dataset.pl)));
