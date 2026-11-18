@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Compile Markdown records into the data layer consumed by the original interactive front page.
+"""Compile every Markdown record into the sole shared interactive site and route data.
 
 The HTML/CSS/interaction template is intentionally kept separate from the data compiler.
 No tree.json or other editable JSON source is read or written.
