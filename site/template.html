@@ -524,7 +524,7 @@ body:not(.show-uncertain) .ft-item.uncertain>.ft-line{display:none}
 <section class="view" id="v-kilder" hidden>
   <div class="sec-head"><span class="eyebrow">Kilder</span><h2>Kilderne bag træet</h2>
     <p class="muted">Hver person viser de præcise poster, oplysningerne bygger på. Her er samlingerne, de kommer fra.</p></div>
-  <div class="tbl-wrap"><table><thead><tr><th>Kilde</th><th>Hvad den gav</th><th>Henvisninger</th></tr></thead><tbody id="srcbody"></tbody></table></div>
+  <div class="tbl-wrap"><table><thead><tr><th>Kilde</th><th>Hvad den gav</th><th>Henvisninger</th></tr></thead><tbody id="srcbody"></tbody></table></div><div id="source-detail" class="panel" hidden></div>
   <div class="block">
     <div class="sec-head"><span class="eyebrow">Billeder</span><h2>Dokumenter og billeder</h2>
       <p class="muted">Originale kirkebogsindførsler, som træet bygger på, og billeder fra danske lokalarkiver.</p></div>
@@ -1009,10 +1009,10 @@ function renderKort(){
   const dom = pl => { const c={}; ev[pl].forEach(e=>{c[e.p.line]=(c[e.p.line]||0)+1}); return Object.entries(c).sort((a,b)=>b[1]-a[1])[0][0]; };
   const sorted=Object.keys(ev).sort((a,b)=>ev[a].length-ev[b].length);
   const short=pl=>pl.split(/[,(\/]/)[0].trim();
-  function showPlace(pl){ const d=document.getElementById('placedetail'); d.hidden=false;
+  function showPlace(pl){ ev[pl]=ev[pl]||[]; const d=document.getElementById('placedetail'); d.hidden=false;
     document.getElementById('pd-title').textContent=pl;
-    d.innerHTML=`<span class="muted">${esc(DATA.places[pl][2])} · ${ev[pl].length} hændelser</span><a class="linkish" href="${esc(DATA.place_urls?.[pl]||"#")}">Åbn permanent stedside ↗</a>`+ev[pl].map(e=>`<span>${personLink(e.p)} <span class="muted">${esc(e.what)}</span></span>`).join('')+`<button class="linkish" id="pd-all" style="margin-top:6px">Vis alle steder</button>`;
-    wire(d); document.getElementById('pd-all').addEventListener('click',()=>{d.hidden=true;document.getElementById('pd-title').textContent='Steder efter antal hændelser';}); }
+    const detail=(DATA.place_details||[]).find(x=>x.name===pl); d.innerHTML=`<span class="muted">${esc(DATA.places[pl]?.[2]||detail?.meta?.region||"Sted")} · ${ev[pl].length} hændelser</span>`+(detail?.body?`<p style="white-space:pre-wrap">${esc(detail.body)}</p>`:"")+`<a class="linkish" href="${esc(DATA.place_urls?.[pl]||"#")}">Permanent link ↗</a>`+ev[pl].map(e=>`<span>${personLink(e.p)} <span class="muted">${esc(e.what)}</span></span>`).join('')+`<button class="linkish" id="pd-all" style="margin-top:6px">Vis alle steder</button>`;
+    window.__showPlaceRecord=(id)=>{const rec=(DATA.place_details||[]).find(x=>x.id===String(id));if(rec)showPlace(rec.name);}; wire(d); document.getElementById('pd-all').addEventListener('click',()=>{d.hidden=true;document.getElementById('pd-title').textContent='Steder efter antal hændelser';}); }
   function drawMap(svg, vb, labelFor){
     const s = MAP.W / vb[2];
     svg.setAttribute('viewBox', vb.join(' '));
@@ -1121,7 +1121,23 @@ function renderKilder(){
   const rows=DATA.sources.map(([k,n,w,u])=>[k,n,u,w]).concat(EXTRA);
   document.getElementById('srcbody').innerHTML=rows.map(([k,n,u,w])=>{const c=allSrc.filter(s=>s.startsWith(k)||s.includes(k)).length;
     return `<tr><td>${u?'<a href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(n)+'</a>':esc(n)+' <span class="muted">· direkte link mangler</span>'}</td><td>${esc(w)}</td><td class="num">${c}</td></tr>`}).join('');
-  document.getElementById('gallery').innerHTML=DATA.photos.map((ph,i)=>`<figure><a href="${esc(photoSourceUrl(ph))}" target="_blank" rel="noopener"><img src="${IMGS[i]}" alt="${esc(ph.title)}"></a><figcaption><b>${esc(ph.title)}</b>${esc(ph.caption)}<span class="muted">${esc(ph.credit)}</span></figcaption></figure>`).join('');
+  const sourceRecords=DATA.source_details||[];
+  sourceRecords.forEach(s=>{
+    const tr=document.createElement('tr'); tr.id='source-'+s.id;
+    const m=s.meta||{}, url=m.original_url||m.url||'';
+    tr.innerHTML='<td>'+esc(s.title)+'</td><td>'+esc(m.description||m.type||'Kildepost')+'</td><td><button class="linkish" type="button">Vis detaljer</button></td>';
+    tr.querySelector('button').addEventListener('click',()=>showSource(s.id)); document.getElementById('srcbody').appendChild(tr);
+  });
+  function showSource(id){
+    const s=sourceRecords.find(x=>x.id===String(id)); if(!s)return;
+    const m=s.meta||{}, box=document.getElementById('source-detail'); box.hidden=false;
+    box.innerHTML='<h3>'+esc(s.title)+'</h3><p class="muted">Kilde-ID: '+esc(s.id)+'</p>'+
+      ['original_url','url','archive','reference','accessed','local_copy','file'].filter(k=>m[k]).map(k=>'<p><b>'+esc(k)+':</b> '+esc(m[k])+'</p>').join('')+
+      '<div style="white-space:pre-wrap;overflow-wrap:anywhere">'+esc(s.body||'')+'</div>';
+    box.scrollIntoView({behavior:'smooth',block:'start'});
+  }
+  window.__showSourceRecord=showSource;
+  document.getElementById('gallery').innerHTML=DATA.photos.map((ph,i)=>`<figure id="media-${esc(ph.id||i)}"><a href="${esc(photoSourceUrl(ph))}" target="_blank" rel="noopener"><img src="${IMGS[i]}" alt="${esc(ph.title)}"></a><figcaption><b>${esc(ph.title)}</b>${esc(ph.caption)}<span class="muted">${esc(ph.credit)}</span></figcaption></figure>`).join('');
   document.getElementById('links').innerHTML=DATA.links.map(([t,u])=>`<li>${u?'<a href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(t)+'</a>':esc(t)+' <span class="muted">· direkte link mangler</span>'}</li>`).join('');
 }
 
@@ -1129,6 +1145,13 @@ const RENDER={oversigt:()=>{renderOversigt();renderPed(1);}, forskning:renderFor
 let start=location.hash.slice(1), showTree=start==='stamtrae';
 if(!VIEWS.includes(start)) start='oversigt';
 go(start);
+const routeParams=new URL(location.href).searchParams;
+const initialClaim=routeParams.get('claim'), initialPlace=routeParams.get('place'),
+      initialSource=routeParams.get('source'), initialMedia=routeParams.get('media');
+if(initialClaim){go('forskning');requestAnimationFrame(()=>{const card=document.getElementById('claim-'+initialClaim);if(card){card.querySelector('details')?.setAttribute('open','');card.scrollIntoView({block:'start'});}});}
+if(initialPlace){go('kort');requestAnimationFrame(()=>window.__showPlaceRecord?.(initialPlace));}
+if(initialSource){go('kilder');requestAnimationFrame(()=>window.__showSourceRecord?.(initialSource));}
+if(initialMedia){go('kilder');requestAnimationFrame(()=>document.getElementById('media-'+initialMedia)?.scrollIntoView({block:'center'}));}
 const initialPerson=new URL(location.href).searchParams.get('person');
 if(initialPerson && byId[initialPerson]) requestAnimationFrame(()=>openPerson(initialPerson,false));
 if(showTree) requestAnimationFrame(()=>document.getElementById('stamtrae')?.scrollIntoView({block:'start'}));
