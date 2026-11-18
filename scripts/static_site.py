@@ -2,6 +2,7 @@
 """Markdown + media -> static HTML. No JSON runtime."""
 from pathlib import Path
 import html, re, shutil, os
+from urllib.parse import quote
 ROOT=Path(__file__).resolve().parents[1]; CONTENT=ROOT/"content"; DOCS=ROOT/"docs"
 LABEL={"record":"Godt belagt","told":"Familieoplysning","probable":"Kræver mere belæg","possible":"Foreløbig hypotese"}
 STATUS={"needs":"Kræver mere belæg","hypothesis":"Foreløbig hypotese","family":"Familieoplysning","conflict":"Kildekonflikt"}
@@ -95,7 +96,10 @@ def build():
   notes="" if hidden else md(p["body"],page)
   citations="" if hidden or not m.get("src") else '<h2>Kildehenvisninger</h2><ul>'+ "".join("<li>"+e(v)+"</li>" for v in m.get("src",[])) + "</ul>"
   body='<p class="eyebrow">Personregister · '+e(pid)+'</p><h1>'+e(pname(p))+'</h1><div class="facts">'+fh+'</div><h2>Familie</h2>'+relhtml+historical+research+citations+'<section class="prose"><h2>Noter</h2>'+notes+'</section>'
-  dest=DOCS/"people"/(slug(pid)+".html"); dest.parent.mkdir(exist_ok=True); dest.write_text(layout(page,pname(p),body,"people"),encoding="utf-8")
+  dest=DOCS/"people"/(slug(pid)+".html"); dest.parent.mkdir(exist_ok=True)
+  target="../?person="+quote(pid,safe="")
+  redirect='<!doctype html><html lang="da"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0;url='+e(target)+'"><link rel="canonical" href="'+e(target)+'"><title>'+e(pname(p))+' · Slægten Gårdsted &amp; Gedde</title></head><body><p>Personkortet åbnes i slægtens fælles personvisning. <a href="'+e(target)+'">Åbn personkortet</a>.</p><script>location.replace('+json.dumps(target)+')</script></body></html>'
+  dest.write_text(redirect,encoding="utf-8")
  # Persons index
  page="docs/persons/index.html"; rows=[]
  for p in sorted(people,key=lambda x:(pname(x).casefold(),str(x["m"]["id"]))):
@@ -103,7 +107,8 @@ def build():
   rows.append('<tr data-search="'+e(search)+'"><td>'+a(page,"docs/people/"+slug(m["id"])+".html",n)+'</td><td>'+e("Privat" if private(p) else m.get("born",""))+'</td><td>'+e(LINES.get(m.get("line"),m.get("line","")))+'</td><td><span class="pill">'+e("Privat" if private(p) else LABEL.get(m.get("conf"),"Ikke angivet"))+'</span></td></tr>')
  (DOCS/"persons").mkdir(exist_ok=True)
  body='<p class="eyebrow">Register</p><h1>Personer</h1><p class="lede">'+str(len(people))+' personposter. Hver person har sin egen permanente HTML-side.</p><label for="q">Søg i personregisteret</label><input class="search" id="q" type="search" placeholder="Navn, sted eller ID"><table><thead><tr><th>Navn</th><th>Født</th><th>Linje</th><th>Kildestatus</th></tr></thead><tbody>'+"".join(rows)+'</tbody></table><script>document.getElementById("q").addEventListener("input",e=>{let q=e.target.value.toLocaleLowerCase("da");document.querySelectorAll("tbody tr").forEach(r=>r.hidden=!r.dataset.search.includes(q));});</script>'
- (DOCS/"persons/index.html").write_text(layout(page,"Personer",body,"people"),encoding="utf-8")
+ persons_target="../#personer"
+ (DOCS/"persons/index.html").write_text('<!doctype html><html lang="da"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0;url='+persons_target+'"><link rel="canonical" href="'+persons_target+'"><title>Personer · Slægten Gårdsted &amp; Gedde</title></head><body><p>Personregisteret åbnes i den fælles interaktive visning. <a href="'+persons_target+'">Åbn personregisteret</a>.</p><script>location.replace('+json.dumps(persons_target)+')</script></body></html>',encoding="utf-8")
  # Claims, rendered as independent pages
  claim_rows=[]
  for c in claims:
