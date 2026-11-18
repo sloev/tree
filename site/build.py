@@ -11,7 +11,7 @@ from interactive_site import build as build_interactive_front_page
 
 
 def main():
-    # The static person/research/source pages remain available as secondary pages.
+    # Person permalinks and the person register redirect into the canonical interactive person-card experience; other records remain static pages.
     build_static_pages()
     ged = ROOT / "family-tree.ged"
     if not ged.is_file():
