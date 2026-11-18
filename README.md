@@ -28,9 +28,9 @@ Hver indholdspost har YAML-front matter med stabilt id og schema. Personrelation
 
 ## Den interaktive hjemmeside
 
-Forsiden bruger den oprindelige interaktive applikation og dens eksisterende design: faner, anetræ, personkort/skuffe, forskningsspor, kort, statistikker, kilder og billedgalleri. HTML, CSS og interaktioner ligger i `site/template.html`; de er adskilt fra datalaget.
+Hele webstedet bruger én interaktiv applikation og ét designsystem: faner, anetræ, personkort, forskningsspor, kort, statistikker, kilder og billedgalleri. HTML, CSS og interaktioner ligger i `site/template.html`; `scripts/interactive_site.py` kompilerer alle Markdown-poster til det fælles datalag.
 
-Under bygningen kompileres Markdown-posterne til det JavaScript-dataobjekt, som den eksisterende app forventer, og dette indlejres i den genererede `docs/index.html`. Det er et build-output, ikke en redigerbar kilde eller en `tree.json`. De statiske person-, forsknings-, kilde- og stedssider genereres fortsat som supplerende sider.
+Alle person-, sted-, forsknings-, kilde- og mediepermalinks åbner den relevante detalje i samme applikation (`?person=`, `?place=`, `?claim=`, `?source=`, `?media=`). Ældre `.html`-adresser er kun redirects, så gamle links fortsat virker uden at skabe et parallelt webdesign. `docs/index.html` er et build-output, ikke en redigerbar kilde eller en `tree.json`. Der findes ingen separat statisk sidegenerator.
 
 ## Byg lokalt
 
