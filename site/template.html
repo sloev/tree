@@ -699,8 +699,9 @@ const dBack=document.getElementById('d-back'), dTree=document.getElementById('d-
 let hist=[], lastFocus=null;
 function openPerson(id, push=true){
   const p=byId[id]; if(!p) return;
-  if(drawer.hidden){ lastFocus=document.activeElement; hist=[]; }
-  if(push) hist.push(id);
+  const wasClosed=drawer.hidden;
+  if(wasClosed){ lastFocus=document.activeElement; hist=[]; }
+  if(push || wasClosed) hist.push(id);
   const personUrl = new URL(location.href);
   personUrl.searchParams.set('person', id);
   history[push ? 'pushState' : 'replaceState']({person:id}, '', personUrl.pathname + personUrl.search + personUrl.hash);
