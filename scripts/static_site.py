@@ -117,7 +117,10 @@ def build():
    if isinstance(s,dict) and s.get("url"): src.append('<li><a href="'+e(s["url"])+'">'+e(s.get("label") or s["url"])+'</a></li>')
    elif isinstance(s,str) and s.startswith("http"): src.append('<li><a href="'+e(s)+'">'+e(s)+'</a></li>')
   title=m.get("title") or cid; status=STATUS.get(m.get("status","needs"),m.get("status","needs"))
-  body='<p class="eyebrow">Forskningsspor · '+e(m.get("branch",""))+'</p><h1>'+e(title)+'</h1><p><span class="pill">'+e(status)+'</span></p><div class="prose">'+md(c["body"],page)+'</div>'
+  claim_body=c["body"]
+  for source_heading,danish_heading in (("Claim","Påstand"),("Evidence","Belæg"),("Missing","Mangler"),("Next","Næste skridt")):
+   claim_body=re.sub(r"(?m)^##\\s+"+source_heading+r"\\s*$","## "+danish_heading,claim_body)
+  body='<p class="eyebrow">Forskningsspor · '+e(m.get("branch",""))+'</p><h1>'+e(title)+'</h1><p><span class="pill">'+e(status)+'</span></p><div class="prose">'+md(claim_body,page)+'</div>'
   if ppl: body+='<h2>Tilknyttede personer</h2><ul>'+"".join("<li>"+x+"</li>" for x in ppl)+"</ul>"
   if src: body+='<h2>Kilder og videre læsning</h2><ul>'+"".join(src)+"</ul>"
   dest=DOCS/"research"/(slug(cid)+".html"); dest.parent.mkdir(exist_ok=True); dest.write_text(layout(page,title,body,"research"),encoding="utf-8")
