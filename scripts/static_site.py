@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Markdown + media -> static HTML. No JSON runtime."""
 from pathlib import Path
-import html, re, shutil, os
+import html, re, shutil, os, json
 from urllib.parse import quote
 ROOT=Path(__file__).resolve().parents[1]; CONTENT=ROOT/"content"; DOCS=ROOT/"docs"
 LABEL={"record":"Godt belagt","told":"Familieoplysning","probable":"Kræver mere belæg","possible":"Foreløbig hypotese"}
