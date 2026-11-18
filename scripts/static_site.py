@@ -108,9 +108,9 @@ def build():
  claim_rows=[]
  for c in claims:
   m=c["m"]; cid=str(m["id"]); page="docs/research/"+slug(cid)+".html"; parts=[]
-  for sec in ("Claim","Evidence","Missing","Next"):
+  for sec,label in (("Claim","Påstand"),("Evidence","Belæg"),("Missing","Mangler"),("Next","Næste skridt")):
    z=re.search(r"^##\s+"+sec+r"\s*\n(.*?)(?=^##\s|\Z)",c["body"],re.S|re.M|re.I)
-   if z and z.group(1).strip(): parts.append("<h2>"+sec+"</h2><div class=\"prose\">"+md(z.group(1),page)+"</div>")
+   if z and z.group(1).strip(): parts.append("<h2>"+label+"</h2><div class=\"prose\">"+md(z.group(1),page)+"</div>")
   ppl=[a(page,"docs/people/"+slug(pid)+".html",pname(byid[str(pid)])) for pid in m.get("person_ids",[]) or [] if str(pid) in byid and not private(byid[str(pid)])]
   src=[]
   for s in m.get("sources",[]) or []:
