@@ -31,7 +31,7 @@ def site_slug(value: str) -> str:
 
 def js(value) -> str:
     # Prevent content values from terminating an inline script element.
-    return json.dumps(value, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    return json.dumps(value, ensure_ascii=False, separators=(",", ":"), default=str).replace("</", "<\\/")
 
 
 def section(body: str, heading: str) -> str:
