@@ -69,16 +69,3 @@ Efter et muligt dansk udrejsefund skal identiteten bekræftes med mindst flere s
 Et vigtigt nærliggende udvandrerfund må ikke tælles som en af Langø-børnenes efterkommere: **Iver Peder Holgersen** rejste ifølge Københavns Politis udvandrerprotokol til Fresno 8. september 1910. Han var bror til Axel Erik Holgersen, som blev gift med Kristine Adamine Margrethe Christensen. Iver er dermed beslægtet med Langø-familien gennem ægteskab, men ikke en direkte efterkommer af Marius og Ane Marie. Se særskilt forskningspost `gerda-iver-emigration`.
 
 Den nuværende GEDCOM viser Valdemar Emil som den eneste af Langø-børnene med en oprettet familiepost; barnet er privatmarkeret, og oplysninger om nulevende eller privatbeskyttede efterkommere bruges ikke her. Der er endnu ikke fundet en dokumenteret transatlantisk rejse blandt de direkte efterkommere i den offentlige del af træet.
-
-
-## Kontrol mod hele den nuværende GEDCOM-fil
-
-En gennemgang af alle eksplicitte udvandrerbemærkninger i den nuværende `family-tree.ged` finder tre poster:
-
-- **Emil Ludvig Edvard Gedde** — udvandrer til Argentina i 1922.
-- **Oluf (Olaf) Christian Kleist Gedde** — udvandrer til Shanghai i 1904.
-- **Iver Peder Holgersen** — udvandrer til Fresno i 1910.
-
-Ingen af de tre er en direkte efterkommer af Marius Michelsen Christensen og Ane Marie Jørgensen. Gedde-personerne hører til Gedde/Kleist-grenen; Iver Holgersen er knyttet til Langø-familien gennem sin bror Axel Eriks ægteskab med Kristine. Det er derfor vigtigt ikke at tælle dem som Langø-descendenter.
-
-Denne kontrol betyder kun, at der ikke er en eksplicit udvandrerbemærkning i den aktuelle GEDCOM for den direkte Langø-descendantlinje. Den beviser ikke, at ingen efterkommere emigrerede: personposter, børnegrene og oversøiske efterkommere kan mangle i den offentlige fil, og de syv børns efterkommere er endnu ikke rekonstrueret fuldt ud.
