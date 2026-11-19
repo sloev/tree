@@ -109,3 +109,20 @@ Source: Arkivalieronline, “Kirkebøger fra hele landet” (accessed 19 Novembe
 This means the 1878 burial and 1877 baptism should be sought in the relevant event/sex portions of the Magleby Langeland books; the general portal does not identify their exact volume or image. The portal's stated end date for standard *Tilgangslister* is 1875, so a **1877 tilgangsliste must not be assumed to exist in that series**. Search the parish-specific catalogue for a separate continuation or related register before treating it as a decisive expected record.
 
 No original image was retrieved, and the identity/maternity question remains unresolved.
+
+
+## New exact Langeland Herredsfoged series — alimentation and Søndenbro movement lists (19 November 2026)
+
+A DAISY catalogue search located two especially relevant series under the correct archive creator, **Langeland Herredsfoged (1684–1919)**:
+
+1. **Alimentationsjournal, 1857–1917**, with a separate **Navneregister til alimentationsjournal, 1867–1917**. Both date ranges include Kresten's 1877 birth. This is the strongest new lead for a possible maintenance case arising from a child born outside marriage. Search the name register first under variants of Marthe Jørgensen, Lars Thomsen Larsen and Christen/Kresten Henriksen Jørgensen, then follow any reference into the journal.
+2. **Til- og afgangsliste for Søndenbro distrikt, Magleby sogn, 1875–1919**. This is a separate Herredsfoged series explicitly covering the correct Søndenbro district and Magleby parish. It may help establish residence or movement around 1877–1878. It is not the same thing as the churchbook's standard *Tilgangsliste*.
+
+Catalogue references (accessed 19 November 2026):
+- Langeland Herredsfoged archive-series list: `https://daisy.rigsarkivet.dk/arkivskabers_arkivserier?a=langeland+her&b=skifte&c=&d=1&dir=&e=2019&ed=&ep=&epid=&es=&f=&faid=&g=&gsc=&h=&heid=3237358&henid=3237358&int=&m2rid=&meid=&ngid=857927&ngnid=&side=&sort=` — the archive creator page lists the 1857–1917 alimentation journal and the 1875–1919 Søndenbro/Magleby movement list.
+- DAISY alimentation-series search: `https://daisy.rigsarkivet.dk/arkivserie_liste?a=&b=alimentation&d=1&e=2024` — lists the Langeland Herredsfoged journal (1857–1917).
+- DAISY search result for *Navneregister til alimentationsjournal*: `https://daisy.rigsarkivet.dk/arkivskaber_eller_arkivserie_liste?c=Alimentation&d=1&e=2016&epid=&f=&ngid=` — lists the Langeland Herredsfoged name index (1867–1917).
+
+**What the catalogue proves and does not prove:** it establishes that the archive describes these series, their creator, titles and date ranges. No package, folio, name entry or case contents have been inspected. It does not prove that Marthe, Lars or Kresten appears in either series or that any record confirms parentage.
+
+**Revised next order:** (1) locate and inspect the 1867–1917 name index; (2) follow any relevant entry into the 1857–1917 alimentation journal; (3) inspect the 1875–1919 Søndenbro district movement list; (4) compare the original 1878 burial and 1852 baptism entries. Keep all identity and relationship hypotheses open until the actual entries are read.
