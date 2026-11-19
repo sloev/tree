@@ -20,6 +20,7 @@ sources:
   - "tychsen-1893-fortifikations-ingenieurkorps"
   - "snl-nicolai-wilhelm-gedde"
   - "snl-gedde-family"
+  - "faedrenelandsk-nekrolog-1843-ove-samuel-gedde"
 ---
 ## Påstand og foreløbig vurdering
 
@@ -64,6 +65,14 @@ Cartz Ulrik-ruten er Harbous Muttrin-afsnit. Barbara Juliane von Kleist er samti
 7. Find Vor Frelsers dåbsindførsel for Christian Adam i både præstens og klokkerens bøger.
 
 Ingen kanoniske forældre- eller ægtefællerelationer ændres af denne opdatering.
+
+## Samtidig nekrolog præciserer Ove Samuels fødselsdato
+
+En vigtig ny kilde er *Fædrenelandsk Nekrolog* fra 1843, trykt samme år som Ove Samuel Geddes død. På trykt side 24–25 står, at oberst Ove Samuel von Gedde var født i Norge **28. maj 1778**, at faderen var generalmajor Hans Christopher von Gedde, og at moderen var Frederikke Gedde, født Fischer. Kilden anfører også hans død 10. marts 1843.
+
+Det er en samtidig biografisk meddelelse og dermed en stærkere kontrol end de senere genealogiske sammenstillinger. Den stemmer med Liebe/Borgstrøms 28. maj 1778, mens Harbou (1897) fortsat står med 28. februar 1778. Da nekrologen ikke er en dåbsindførsel, bør den kanoniske dato ikke ændres endnu; den gør dog **28. maj 1778 til den bedst understøttede arbejdshypotese**.
+
+Carl Johan Ankers *Biografiske data om 330 norske ... generalspersoner* (1885) gentager også 28. maj, men den tilgængelige OCR gengiver året som 1788. Det er sandsynligvis en tryk- eller OCR-fejl, da nekrologen fra 1843 og Liebe/Borgstrøm begge angiver 1778. Anker skal citeres med den synlige variant, ikke stiltiende rettes.
 
 ## Den anden Kleist-søster giftede sig også ind i Gedde-familien
 
