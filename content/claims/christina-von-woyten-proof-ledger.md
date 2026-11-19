@@ -193,3 +193,19 @@ Begge bind er registreret som fuldt mikrofilmede, men uden mikrofilmnummer og ud
 Disse sager kan belyse Below-familiens Pustamin-gren og eventuelle arve-/lensforhold omkring Otto. Men 1619-registraturen nævner ikke Otto eller Christina; Henning må ikke uden videre identificeres som Ottos far. Bestil bind I og II, få mikrofilmnumrene og spørg efter bilag eller ældre lensbreve, der nævner Otto, hans enke eller arvinger. Se [Below-familiens retssager og Pustamin-godset, 1619–1795](https://www.szukajwarchiwach.gov.pl/en/seria?_Seria_delta=200&_Seria_id_serii=382249&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal).
 
 **Status:** Arkivregistratur identificeret; originalakter ikke gennemset; ingen relation til Christina er bevist.
+
+
+## Otto von Below: contemporary cases and an unresolved identity problem
+
+The 2025 Kleist history calls Christina von Woyten the widow of Otto von Below on Pustamin. New official archive catalogue entries provide several possible records for Otto and his relatives:
+
+- **65/7/0/2.9/100 (1579–1587):** Caspar Moldenhover of Schlawe vs Otto Below, debt of 100 thalers; catalogue tag says Otto Below of Salleske. This may be Christina's Otto, but the Salleske/Pustamin estate discrepancy must be resolved.
+- **65/7/0/2.9/102 (1610):** Samuel Runge, pastor at Pustemien (Postomino/Pustamin), vs Joachim Below and Claus Below.
+- **65/7/0/2.9/103 (1611):** Landkasten of Stargard vs Claus Below and wife Anna Manteuffel; file marked "Destrukt".
+- **65/7/0/2.9/104 (1626):** heirs of Matthias Hesling vs Henning Below, Landvogt at Stolp, over 1,220 florins.
+
+A Geneanet user tree lists Otto von Below († before/around 1606) married to Christina von Woyten, and Joachim von Below (†1610) married to Anna von Creytzen, as brothers. However, other online genealogies give conflicting parents and children for Ambrosius von Below and Joachim. This is a lead only, not evidence. The original 1579–1587 Otto file and the 1610 Pustemien case are the key tests.
+
+A wider Wetzlar litigation cluster 65/6/0/2/62–70 (1590–1619) includes Georg von Below of Saleske, daughters Elisabeth and Maria, Joachim/Kasper of Peest, Dorothea von Carnitz (widow of Werner von Below), her sons Joachim/Kasper, and the 1619 Henning von Below of Pustamin vs Heinrich/Kasper of Peest over Georg von Krummel's fiefs. These records may reconstruct the Below family branches at Saleske, Peest and Pustamin, but no catalogue title yet names Otto's widow Christina.
+
+**Best next orders:** 65/7/0/2.9/100, 102–104, and Wetzlar files 65/6/0/2/62–70. Ask for microfilm numbers, earlier title instruments, and any mention of Otto, Christina, heirs or the Pustamin fief. Do not add Otto's birth/death dates or parentage to the tree based on online trees or catalogue metadata.
