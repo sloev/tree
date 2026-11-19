@@ -88,7 +88,7 @@ def build():
         raise SystemExit("Activity Markdown record is invalid")
 
     migration_path = ROOT / "content" / "migrations" / "migration-events.md"
-    migration_match = re.match(r"\\A---\\s*\\n(.*?)\\n---\\s*\\n?(.*)\\Z", migration_path.read_text(encoding="utf-8"), re.S)
+    migration_match = re.match(r"\A---\s*\n(.*?)\n---\s*\n?(.*)\Z", migration_path.read_text(encoding="utf-8"), re.S)
     if not migration_match:
         raise SystemExit("content/migrations/migration-events.md has no YAML front matter")
     migration_data = yaml.safe_load(migration_match.group(1)) or {}
