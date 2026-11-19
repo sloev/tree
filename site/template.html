@@ -155,8 +155,8 @@ button.linkish:focus-visible{outline:2px solid var(--accent)}
 .mapsvg .lbl{font:500 10.5px var(--f-body);fill:var(--ink)}
 .mapsvg .lbl-halo{font:500 10.5px var(--f-body);stroke:var(--sheet);stroke-width:3.5;fill:none;stroke-linejoin:round}
 .mapsvg .sea{fill:var(--sheet)}
-.world-land{fill:var(--paper);stroke:var(--rule-2);stroke-width:1.2;stroke-linejoin:round}
-#worldmap{width:100%;height:auto;min-height:180px;max-height:420px}
+.world-land{fill:var(--paper);stroke:var(--rule-2);stroke-width:1.1;stroke-linejoin:round;vector-effect:non-scaling-stroke}\n.mapsvg .land.langeland{fill:var(--paper);stroke:var(--rule-2);stroke-width:1.15;stroke-linejoin:round}
+#worldmap{display:block;width:100%;height:auto;min-height:300px;max-height:none;aspect-ratio:2.05/1;background:var(--sheet);border:1px solid var(--rule);border-radius:9px}
 #worldmap [data-claim-id]{cursor:pointer;stroke:var(--sheet);stroke-width:2.5}
 .placelist{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:2px 16px;font-size:.84rem}
 .placelist button{all:unset;cursor:pointer;display:flex;justify-content:space-between;gap:8px;border-bottom:1px solid var(--rule);padding:4px 0}
@@ -501,7 +501,7 @@ body:not(.show-uncertain) .ft-item.uncertain>.ft-line{display:none}
     <div class="panel"><svg id="map" class="mapsvg" role="img" aria-label="Kort over slægtens steder"></svg></div>
     <div style="display:flex;flex-direction:column;gap:24px;min-width:0">
       <div class="panel"><h3>Djursland og Mols, forstørret</h3><svg id="inset" class="mapsvg" role="img" aria-label="Forstørret kort over Djursland"></svg></div>
-      <div class="panel"><h3>Langeland, forstørret</h3><p class="muted" style="font-size:.82rem">Fødesteder, dødssteder og registrerede ophold på øen. Klik på et punkt for at se personerne og hændelserne. De særskilte afgangsliste-spor nedenfor er endnu ikke knyttet til navngivne personer.</p><svg id="langeland-map" class="mapsvg" role="img" aria-label="Forstørret kort over Langeland og slægtens steder"></svg><div class="place-detail" id="langeland-summary"></div><div class="place-detail" id="langeland-notes"></div></div>
+      <div class="panel"><h3>Langeland, forstørret</h3><p class="muted" style="font-size:.82rem">Fødesteder, dødssteder og registrerede ophold på øen. Klik på et punkt for at se personerne og hændelserne. De særskilte afgangsliste-spor nedenfor er endnu ikke knyttet til navngivne personer.</p><svg id="langeland-map" class="mapsvg" style="display:block;width:100%;height:auto;min-height:420px" role="img" aria-label="Forstørret kort over Langeland og slægtens steder"></svg><div class="place-detail" id="langeland-summary"></div><div class="place-detail" id="langeland-notes"></div></div>
       <div class="panel"><h3 id="pd-title">Steder efter antal hændelser</h3><div class="place-detail" id="placedetail" hidden></div><div class="placelist" id="placelist"></div></div>
       <div class="panel"><h3>Oversøiske migrations- og forskningsspor</h3><p class="muted" style="font-size:.82rem">Kortet samler kildehenviste personspor og særskilte arkivsøgeområder. Et kontraktmål er ikke det samme som dokumenteret ankomst; en identifikationshypotese er ikke en bekræftet bosættelse. Brasilien vises kun som arkivsøgeområde for Lorenz — ingen rejse dertil er dokumenteret. Der tegnes ingen ruter uden både dokumenteret afrejse og ankomst.</p><svg id="worldmap" class="mapsvg" role="img" aria-label="Verdenskort med dokumentationsspor, hypoteser og arkivsøgeområder"></svg><ul class="links" id="migration-list" style="columns:1"></ul><p class="muted" style="font-size:.78rem">Punktform og tekst angiver evidenstypen. Klik på et punkt eller en post for at åbne det tilknyttede forskningsspor.</p></div>
     </div>
@@ -1025,6 +1025,10 @@ function renderKort(){
     svg.setAttribute('viewBox', vb.join(' '));
     el('rect',{x:vb[0],y:vb[1],width:vb[2],height:vb[3],class:'sea'},svg);
     [['de',''],['se',''],['dk',' dk']].forEach(([k,c])=>el('path',{d:MAP[k],class:'land'+c,style:`stroke-width:${.8/s}px`},svg));
+    // Langeland coastline (geographic outline) is drawn independently of the generalized Denmark mainland path.
+    const langelandCoast=[[54.99,10.87],[54.97,10.91],[54.94,10.91],[54.91,10.89],[54.88,10.88],[54.85,10.87],[54.82,10.86],[54.79,10.85],[54.76,10.84],[54.73,10.82],[54.70,10.80],[54.68,10.77],[54.68,10.73],[54.70,10.70],[54.73,10.69],[54.76,10.68],[54.79,10.67],[54.82,10.66],[54.85,10.65],[54.88,10.64],[54.91,10.63],[54.94,10.62],[54.97,10.63],[54.99,10.66],[55.00,10.70],[55.00,10.75],[55.00,10.80],[54.99,10.87]];
+    const islandPath=langelandCoast.map(([lat,lon],i)=>{const [x,y]=prj(lat,lon);return `${i?'L':'M'}${x},${y}`;}).join(' ')+'Z';
+    el('path',{d:islandPath,class:'land langeland'},svg);
     const routes=el('g',{},svg);
     anc.forEach(p=>{ const a=DATA.places[p.bplace], b=DATA.places[p.dplace]; if(!a||!b||p.bplace===p.dplace) return;
       const [x1,y1]=prj(a[0],a[1]), [x2,y2]=prj(b[0],b[1]); const mx=(x1+x2)/2+(y2-y1)*.18, my=(y1+y2)/2-(x2-x1)*.18;
@@ -1072,15 +1076,12 @@ function renderKort(){
   world.setAttribute('viewBox',`0 0 ${ww} ${wh}`);
   el('rect',{x:0,y:0,width:ww,height:wh,class:'sea'},world);
   const wx=lon=>(lon+180)/360*ww, wy=lat=>(90-lat)/180*wh;
-  const continents=[
-    [[-168,70],[-145,72],[-125,58],[-124,42],[-112,30],[-98,18],[-82,8],[-78,25],[-62,45],[-52,58],[-90,72]],
-    [[-81,12],[-70,8],[-52,-5],[-44,-22],[-52,-42],[-68,-56],[-76,-30]],
-    [[-11,72],[32,70],[42,55],[28,42],[10,36],[-10,45],[-18,58]],
-    [[-17,35],[10,37],[35,30],[50,10],[40,-35],[20,-35],[5,-5],[-10,5]],
-    [[30,70],[65,75],[105,70],[145,58],[160,48],[140,35],[120,20],[105,5],[80,8],[65,25],[45,35],[35,50]],
-    [[112,-11],[154,-10],[153,-40],[130,-45],[114,-30]]
-  ];
-  continents.forEach(points=>el('polygon',{points:points.map(([lon,lat])=>`${wx(lon)},${wy(lat)}`).join(' '),class:'world-land'},world));
+  const landGroup=el('g',{'aria-hidden':'true'},world);
+  const ringPath=ring=>ring.map(([lon,lat],i)=>`${i?'L':'M'}${wx(lon).toFixed(2)},${wy(lat).toFixed(2)}`).join(' ')+'Z';
+  (MAP.world_land||[]).forEach(geometry=>{
+    const polygons=geometry.type==='Polygon'?[geometry.coordinates]:geometry.coordinates;
+    polygons.forEach(poly=>{if(poly[0]?.length>3)el('path',{d:ringPath(poly[0]),class:'world-land'},landGroup);});
+  });
   const migrationEvents=DATA.migrations?.events||[];
   migrationEvents.forEach((d,i)=>{
     const x=wx(Number(d.longitude)), y=wy(Number(d.latitude));
