@@ -39,3 +39,8 @@ Et trykt værk om danske pionerer i udlandet omtaler en **Eduard/Edouard Gedde**
 ## Afgrænsning
 
 Denne claim ændrer ingen GEDCOM-relationer og tilføjer ingen nye personer. Den præciserer et dokumenteret Argentina-spor og en testbar identifikationshypotese.
+
+
+## Ny kildekonflikt: 1875–1954 kontra 1876–1951
+
+1944- og 1955-udgaverne af *Danske Landbrugskandidater* samt Niels Friis' dødsfortegnelse fra 1956 dokumenterer en Emil Ludvig **Eduard** Gedde (15.11.1875–19.07.1954), plantageejer i Eldorado. Den eksisterende familiepost `s_p54_3` for Emil Ludvig **Edvard** Gedde angiver 15.11.1876–1951 og udvandring med hustru og to børn i 1922. Det er plausibelt, at årstallene i familieoptegnelsen er forkerte, men en anden mand kan ikke udelukkes. Identiteten med `s_p54_3` er derfor uafklaret; ingen persondata eller relationer ændres. Se `gedde-1875-1954-vs-1876-1951-identity-conflict`.

@@ -90,3 +90,12 @@ En tredje kilde giver en bemærkelsesværdig krydskontrol. Niels Friis' *Dødsfa
 Sammenholdt med 1944-biografien (fuldt navn Emil Ludvig Eduard Gedde, plantageejer i Argentina fra 1923) og 1955-fortegnelsen (fuldt navn, født 15.11.1875, død 19.07.1954) er identifikationen nu **meget stærk**: tre forskellige trykte kilder forbinder den fulde danske agronom med plantageejeren Eduard Gedde i Eldorado og den præcise dødsdato.
 
 Det er vigtigt at skelne mellem bopæl og dødssted: 1956-listen angiver Eldorado, Misiones, som hans stedlige tilknytning, men vi har endnu ikke en argentinsk civil dødsakt, der beviser, at selve dødsfaldet fandt sted dér. Begravelsessted og dødssted er fortsat åbne spørgsmål.
+
+
+## Kildekritisk identitetskonflikt med den eksisterende Emil Ludvig Edvard Gedde (1876–1951)
+
+Vigtigt: Den nye trykte person må ikke automatisk sammenlægges med træets **Emil Ludvig Edvard Gedde** (`s_p54_3`). Den eksisterende familiepost angiver født 15.11.1876 og død 1951; de tre nye trykte kilder angiver **Emil Ludvig Eduard Gedde**, født 15.11.1875 og død 19.07.1954.
+
+Begge spor har landbrugsuddannelse og Argentina/Eldorado-tilknytning. Det kan være samme mand med fejl i familieoptegnelsen, men to forskellige mænd kan ikke udelukkes. 1944-biografien omtaler desuden hans far som “Forp. E.G.” (forpagter E.G.), hvilket giver et nyt testbart spor til Tyrstinggaards kirkebog og de eksisterende forældre `p54`/`p55`.
+
+**Disposition:** Identiteten med `s_p54_3` forbliver uafklaret. Ingen personposter, fødsels-/dødsdatoer eller slægtskabsrelationer er ændret. Se den særskilte claim om identitetskonflikten.
