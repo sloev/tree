@@ -10,23 +10,23 @@ person_ids:
 
 ## Claim
 
-En familieoplysning forbinder Iver Peder Holgersen med Fresno i 1910. En mulig udrejsekontrakt er identificeret, men identiteten i forhold til stamtræets Peder Iver Holgersen er ikke endeligt fastslået.
+Iver Peder Holgersen, søn af Peder Iver Holgersen (p60) og Karen Nielsen (p61), rejste fra Danmark til Fresno i Californien i 1910. Han er bror til Axel Erik Holgersen (p30), som blev gift med Kristine Adamine Margrethe Christensen (p31), datter af Marius og Ane Marie på Langø. Iver er derfor en nær slægtning ved ægteskab, men **ikke en direkte efterkommer af Langø-familien**.
 
 ## Evidence
 
-Københavns Politis udvandringskontrakt nr. 4443, dateret 8. september 1910, er angivet som et konkret opslagsspor.
+Personposten s_p60_2 angiver Københavns Politis udvandrerprotokol, kontrakt 4443, 8. september 1910: "Holgersen, Iver Peder, arbejder, født Tved, sidste bopæl Skalbjerg, 22 år, rejsemål Fresno, USA", med damperen United States. Alder, fødested, navn og relation til den registrerede søn af Peder Iver Holgersen stemmer indbyrdes. Link-Lives-henvisningen er 22-1332444.
 
 ## Missing
 
-Selve kontraktens fulde oplysninger og sammenligning med passagerlister, amerikanske folketællinger, naturalisation og dødsoplysninger.
+Den originale protokolside/kontrakt bør stadig kontrolleres direkte, og rejsen skal følges videre i passagerlister, amerikanske folketællinger, naturalisation, byvejvisere, vielse og dødsoplysninger. Det vil afklare hans liv og eventuelle efterkommere i Californien.
 
 ## Next
 
-Kontrollér de direkte udvandrerregistre for 1910 under 6., 7., 13. og 14. Politiinspektorat; søg efter kontrakt nr. 4443 og navnevarianter, og transskriber alle identifikationsfelter før sammenligning med Peder Iver Holgersen og amerikanske kilder.
+Find og transskriber kontrakt 4443 i Københavns Politis udvandrerprotokol. Søg derefter i Fresno/California-kilder under Iver Peder Holgersen og mulige navneformer som Iver P. Holgersen, Iver Holgerson og I. P. Holgersen. Hold hans efterkommere adskilt fra den direkte Langø-descendantlinje, medmindre en senere dokumenteret vielse eller efterkommer forbinder grenene.
 
 ## Note: 7. Iver Peder Holgersen — Fresno, 1910
 
-A separate family lead reports Iver Peder Holgersen travelled to Fresno in 1910. The current direct ancestor Peder Iver Holgersen (`p60`) is a plausible name-near candidate, but the name order differs and the identity is not yet established. Search the Danish Emigration Archive/Copenhagen police protocol for a contract, then California passenger, city-directory, census, naturalization and death records. Verify whether 1910 is departure, arrival or first known residence before linking the lead to `p60`.
+The emigrant is the son `s_p60_2`, not his father `p60`. He is a brother of Axel Erik Holgersen (`p30`) and therefore brother-in-law to Kristine Christensen (`p31`), not a direct descendant of Marius and Ane Marie Christensen. The protocol transcription records departure for Fresno on 8 September 1910 aboard the United States. Follow his Californian life and descendants separately.
 
 *Provenance: Tidligere Gerda-dossier, fuldt indarbejdet 16.11.2026 · imported_on: 2026-11-16*
 
