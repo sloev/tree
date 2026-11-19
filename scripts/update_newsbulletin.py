@@ -115,10 +115,14 @@ def main():
                 add_entry(entries,str(record.relative_to(ROOT)),"media")
 
     raw=ACTIVITY.read_text(encoding="utf-8")
-    match=re.search(r"(?m)^bulletins:\s*(\[.*\])\s*$",raw)
-    if not match:
+    bulletin_start=raw.find("bulletins:")
+    front_matter_end=raw.find("\n---", raw.find("---")+3)
+    if bulletin_start < 0 or front_matter_end < 0:
+        raise SystemExit("activity.md bulletins field/front matter not found; refusing to overwrite")
+    bulletin_value_start=raw.find("[", bulletin_start)
+    if bulletin_value_start < 0 or bulletin_value_start > front_matter_end:
         raise SystemExit("activity.md bulletins JSON array not found; refusing to overwrite")
-    bulletins=json.loads(match.group(1))
+    bulletins=json.loads(raw[bulletin_value_start:front_matter_end].strip())
     commit=args.after if args.after and set(args.after)!={"0"} else subprocess.check_output(["git","rev-parse","HEAD"],cwd=ROOT,text=True).strip()
     if any(isinstance(x,dict) and x.get("commit")==commit for x in bulletins):
         print("Bulletin already exists for this commit.")
@@ -166,9 +170,11 @@ def main():
     stats_line="stats_snapshot: "+json.dumps(snapshot,ensure_ascii=False,separators=(",",":"))
     raw=re.sub(r"(?m)^stats_snapshot:.*\n","",raw)
     replacement=stats_line+"\nbulletins: "+json.dumps(bulletins,ensure_ascii=False,separators=(",",":"))
-    raw,n=re.subn(r"(?m)^bulletins:\s*\[.*\]\s*$",lambda _m:replacement,raw,count=1)
-    if n!=1:
-        raise SystemExit("Could not update activity front matter safely")
+    bulletin_start=raw.find("bulletins:")
+    front_matter_end=raw.find("\n---", raw.find("---")+3)
+    if bulletin_start < 0 or front_matter_end < 0:
+        raise SystemExit("Could not locate activity front matter safely")
+    raw=raw[:bulletin_start]+replacement+raw[front_matter_end:]
     ACTIVITY.write_text(raw,encoding="utf-8")
     print(f"Added content-specific Nyhedsbulletin story for {commit}.")
 
