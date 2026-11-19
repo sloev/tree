@@ -56,7 +56,7 @@ Kilde: *Fædrenelandsk Nekrolog*, Ny Samling, bind 2 (1843), trykt s. 24–25, D
 
 ## Teknisk tegnearbejde i den nærmeste familie — særskilt spor
 
-Frederik Christopher Gedde (1781–1840), Ove Samuels yngre halv-/helbror i samme familie, beskrives i Lokalhistoriewiki som stykkjunker ved Artillerikorpset og derefter dessinatør (tegner) ved Ingeniørkorpset fra 1794; fra 1803 var han premierløjtnant ved Fredriksvern værft og fra 1806 ingeniørkaptajn. Kilde: https://lokalhistoriewiki.no/wiki/Frederik_Christopher_Gedde.
+Frederik Christopher Gedde (1781–1840), Ove Samuels yngre bror med samme forældre, beskrives i Lokalhistoriewiki som stykkjunker ved Artillerikorpset og derefter dessinatør (tegner) ved Ingeniørkorpset fra 1794; fra 1803 var han premierløjtnant ved Fredriksvern værft og fra 1806 ingeniørkaptajn. Kilde: https://lokalhistoriewiki.no/wiki/Frederik_Christopher_Gedde.
 
 Dette er relevant familiekontekst, men må ikke forveksles med Ove Samuels tjeneste. Det dokumenterer en teknisk tegner-/ingeniørkarriere hos Frederik Christopher, ikke hos Ove Samuel. Det kan også forklare, hvorfor det er vigtigt at kontrollere hver kortattribution og ikke slutte fra familiens generelle militære miljø til den enkelte brors konkrete arbejde.
 
