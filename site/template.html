@@ -1058,8 +1058,8 @@ function renderKort(){
   const langelandPlaces=new Set(Object.keys(pl).filter(name=>/langeland/i.test(pl[name]?.[2]||'')));
   if(langelandPlaces.size){
     const coords=[...langelandPlaces].map(name=>pl[name]);
-    const minLat=Math.min(54.66,...coords.map(c=>c[0])-.01), maxLat=Math.max(55.16,...coords.map(c=>c[0])+.01);
-    const minLon=Math.min(10.54,...coords.map(c=>c[1])-.01), maxLon=Math.max(10.96,...coords.map(c=>c[1])+.01);
+    const minLat=Math.min(54.66,...coords.map(c=>c[0]-.01)), maxLat=Math.max(55.16,...coords.map(c=>c[0]+.01));
+    const minLon=Math.min(10.54,...coords.map(c=>c[1]-.01)), maxLon=Math.max(10.96,...coords.map(c=>c[1]+.01));
     const [lx0,ly1]=prj(maxLat,minLon), [lx1,ly0]=prj(minLat,maxLon);
     const langelandLabels=[...langelandPlaces].map(name=>L(name,'start',5)).filter(Boolean);
     drawMap(document.getElementById('langeland-map'),[lx0,ly0,lx1-lx0,ly1-ly0],langelandLabels,langelandPlaces);
