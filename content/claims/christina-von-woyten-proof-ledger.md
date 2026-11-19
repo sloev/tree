@@ -35,3 +35,24 @@ H. W. Harbou bekræfter i *Slægten von Kleist i Danmark* (1897), at Hedwig Mari
 Den stærke sekundære identifikation skal nu kontrolleres mod originale pommerske dokumenter: Woyten- og Stojentin-len-/arvesager, ægteskabs- eller enkedokumenter for Christina og Otto von Below, samt skifte- og værgemålsakter omkring Georg II.55 og datteren Hedwig Maria. Datoerne må søges særskilt i de samme kilder.
 
 **Kildekritisk status:** *delvist dokumenteret*. Den centrale identitetsforveksling er rettet, og en dybere Woyten-linje er identificeret; de originale dokumenter og Christinas livsdatoer er fortsat åbne forskningsopgaver.
+
+
+## Nyt arkivspor: Below og Pustamin i det pommerske arkivmateriale (19. november 2026)
+
+En søgning i den officielle polske arkivportal *Szukaj w Archiwach* har identificeret konkrete enheder i statsarkiverne i Szczecin og Koszalin:
+
+- **65/6/0/2/69–70 (1619):** to bind af en sag om Henning von Below på Pustamin og Heinrich/Kasper von Below på Peest vedrørende Georg von Krummels len. Bind I er registreret til 194 sider og med ældre signatur Rep.23 Litt.B Nr.55.
+- **65/8/0/5/85 (1753–1762):** arvesager i von Below-familien.
+- **65/8/0/5/86 (1737; 1764–1766):** sag om oplysninger vedrørende Pustamins len.
+- **65/8/0/5/89 (1781–1794):** senere Below-strid om overdragelse af et len.
+
+Registraturerne er konkrete bestillingsspor, ikke bevis for Christinas ægteskab eller slægtskab. Især er Henning von Below fra 1619 endnu ikke identificeret med Otto von Below. De nævnte enheder viste ingen digitale scanninger ved kontrollen 19. november 2026; akternes indhold er derfor ikke undersøgt. Se den særskilte kildepost: [Polish State Archives: Below / Pustamin archival catalogue leads](https://www.szukajwarchiwach.gov.pl/en/jednostka/-/jednostka/7897669).
+
+En anden vigtig kildeafklaring: 2025-værkets numre 547, 555, 564, 588, 594, 623 og 640 kan slås op i familiens online *Urkundenübersicht*. De betegner henholdsvis lens-/fællesbreve, konkrete Tychow-lensakter, en landrevision i 1645 og et belehningsprotokol i 1665. De er således ikke endnu direkte beviser for Christina, men de giver en præcis kronologisk og ejendomshistorisk ramme for Georg II.55. Den trykte Urkundenbuch-udgave forklarer, at de ældre dokumenter hovedsageligt blev opbevaret i Pommersches Provinzial-Archiv, Altpommersches Lehns-Archiv og Stargarder Hofgerichts-Archiv i Stettin. De gamle signaturer skal nu sammenholdes med nutidige arkivsignaturer, før der kan bestilles originaler.
+
+Kilder:
+- [Familienverband derer v. Kleist, Urkundenübersicht](https://www.v-kleist.com/FG/urkunden/urkunden_verz.htm)
+- [Gustav Kratz, Urkundenbuch, 2. udgave (2021)](https://www.v-kleist.com/FG/urkunden/Urkundenbuch_3.pdf) — forordets beskrivelse af de historiske arkivdepoter, s. 3–4.
+- [Szukaj w Archiwach, Below/Pustamin, 1619, bind I](https://www.szukajwarchiwach.gov.pl/en/jednostka/-/jednostka/7897669)
+
+**Status:** Arkivvejen er nu mere konkret, men ingen ny parent-child-relation eller fødsels-/dødsdato er bevist. Christina forbliver uden opfundne datoer, og spørgsmålet om identitet med Christina i II.44 er fortsat åbent.
