@@ -34,6 +34,32 @@ Det giver en konkret, men endnu ikke bevist, forklaring på 1796-kortets attribu
 
 Det officielle 1805-kort er kronologisk mere foreneligt med Ove Samuel som voksen (ca. 27 år ved fødselsår 1778), og dets placering i Hedmark passer til en mulig fortsættelse af militær opmålingsarbejde. Men det er endnu ikke påvist, hvilken stilling han havde i 1805, eller om han selv udførte opmålingen.
 
+## Ove Samuels tjenesteforløb — ny samtidig biografisk kilde
+
+*Fædrenelandsk Nekrolog* (1843), trykt s. 24–25, indeholder en egentlig biografi over Ove Samuel selv. Den er langt mere oplysende for identifikationen end den hidtil brugte generelle kalenderkontrol. Nekrologen anfører:
+
+- født i Norge 28. maj 1778;
+- kadet ved den norske armé fra 1788;
+- officer fra 1790, først fænrik i det nordenfjeldske regiment;
+- sekondløjtnant i det søndenfjeldske regiment fra 1795;
+- premierløjtnant i samme regiment fra 1800;
+- efter ansøgning overført fra den norske til den danske armé i 1803, som premierløjtnant ved Kongens (senere Kronens) Regiment;
+- stabskaptajn i 1805, kompagnichef i 1811 og major i 1818.
+
+Kilden beskriver også, at han under sin norske tjeneste fik tilladelse til i to år at gøre tjeneste ved det holstenske armékorps for at lære forskellige grene af militærtjenesten og korpsenes økonomiske organisation. I 1801 gjorde han tjeneste ved en division omkring Frederiksværn, som dækkede det norske marineoplag og Norges sydlige og vestlige kyster. I 1807 lå Kronens Regiment på Kronborg. Dette er en betydeligt mere konkret militær biografi end den tidligere antagelse om blot en senere infanterikarriere.
+
+**Betydning for kortene:** Hvis katalogattributionen er korrekt, var Ove Samuel 18 år og sekondløjtnant i det søndenfjeldske regiment, da 1796-kortet blev udarbejdet. I 1805 var han omkring 27 år og blev netop det år stabskaptajn i Kongens/Kronens Regiment. Begge datoer passer nu bedre ind i et dokumenteret officersforløb. Men nekrologen siger ikke, at han arbejdede med opmåling eller korttegning. Der er endnu ingen direkte forbindelse mellem hans regimentstjeneste og Rektangelmålingerne i Hedmark.
+
+**Fødselsårskonflikten er nu skarpere afgrænset:** Den samtidige nekrolog fra 1843 siger udtrykkeligt 28. maj 1778. Anker 1885, s. 94, siger 28. maj 1788. Liebe/Borgstrøm støtter 1778. Indtil dåbsindførslen findes, bør 1778 behandles som klart bedst understøttet, men Ankers afvigelse skal fortsat registreres som kildekonflikt — ikke stiltiende slettes.
+
+Kilde: *Fædrenelandsk Nekrolog*, Ny Samling, bind 2 (1843), trykt s. 24–25, Det Kgl. Bibliotek: https://www.kb.dk/e-mat/dod/130012834358.pdf. Den relevante tekst står under “Oberst Owe Samuel v. Gedde”.
+
+## Teknisk tegnearbejde i den nærmeste familie — særskilt spor
+
+Frederik Christopher Gedde (1781–1840), Ove Samuels yngre halv-/helbror i samme familie, beskrives i Lokalhistoriewiki som stykkjunker ved Artillerikorpset og derefter dessinatør (tegner) ved Ingeniørkorpset fra 1794; fra 1803 var han premierløjtnant ved Fredriksvern værft og fra 1806 ingeniørkaptajn. Kilde: https://lokalhistoriewiki.no/wiki/Frederik_Christopher_Gedde.
+
+Dette er relevant familiekontekst, men må ikke forveksles med Ove Samuels tjeneste. Det dokumenterer en teknisk tegner-/ingeniørkarriere hos Frederik Christopher, ikke hos Ove Samuel. Det kan også forklare, hvorfor det er vigtigt at kontrollere hver kortattribution og ikke slutte fra familiens generelle militære miljø til den enkelte brors konkrete arbejde.
+
 ## Vigtigt fødselsårsforbehold
 
 Fødselsåret er ikke helt ens i litteraturen. *Fædrenelandsk Nekrolog* (1843), trykt s. 24–25, og Liebe/Borgstrøms militærbiografi støtter 28. maj 1778. Carl Johan Ankers *Biografiske data om 330 norske ... generalspersoner* (1885), s. 94, gengiver derimod 28. maj 1788 i den digitaliserede tekst: https://runeberg.org/acj330bio/0110.html. Harbou 1897 anfører 28. februar 1778. Derfor skal aldersberegningen for 1796-kortet stå som betinget af, at 1778 er korrekt; ved 1788 ville han kun være ca. otte år gammel, hvilket gør den personlige udførelse meget usandsynlig. Anker kan have en trykfejl, men den må ikke rettes uden kontrol af tryksiden og uafhængige kilder.
