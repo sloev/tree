@@ -35,6 +35,18 @@ SNL-artiklen *Gedde* (Terje Bratberg) tager Hans Christopher Gedde (1738–1817)
 
 Harbous eget middelalderloft for **denne** danske Muttrin-linje stopper i praksis ved 1500-tallet (Veit / Joachim i Köslin, Christian III's tjeneste 1546, Gross Dubberow 1577). Urkunde 1364 (Prißebur, kaldet Klest von Muttrin) og det fælles lensbrev 13. april 1477 er ægte dokumenter for **huset**, ikke et bevist led-for-led-fædrenebånd frem til Cartz Ulrik.
 
+## Nyt fund: 1600-tallets officerlinje og den omstridte Knud Giedde
+
+Et nyt kildedossier identificerer Christian Gedde (ca.1639/1646/1648–1705/1707) som den sandsynlige ældre generation før Samuel Christopher (1691–1766), men kilderne er uenige om datoer og far. En Møn-kompilation fra 2022 henviser til et 1693-Stambog-opslag, som angiver Christian som 54-årig, gift og far til tre sønner og en datter; den linker direkte til FamilySearch-billede 24. Anker 1885 og Norske Slægter 1912 knytter ham til Major Knud Gedde, mens DBL 1887 giver afvigende datoer. Originalt Stambog-opslag skal læses før dato eller far gøres kanonisk.
+
+*Kancelliets Brevbøger* 1657 nævner en Knud Giedde i tre kongelige skrivelser: hvervning af 50 mænd i Lund (31. januar), tjeneste under Ove Gieddes kompagni (16. februar) og orlov til Norge for søsters begravelse (26. marts). Det kan være Major Knud, men identiteten er ikke bevist. Søsteren i Norge er en ny unik arkivnøgle.
+
+Vigtigt: Danmarks Adels Aarbog 1894, s.123, siger direkte, at påstanden om, at ritmester Christian Giedde var Ove Gieddes brodersøn, var absolut urigtig, og at anden forbindelse til adelsslægten ikke var påvist og heller ikke sandsynlig. Norske Slægter 1912 genfortæller en mulig identifikation af Major Knud (d.1658) med Oves ældre bror Knud, men denne identitet er omtvistet; DAA 1894, s.124, angiver efter sekundær henvisning, at Oves bror døde før 30. juli 1612. Det skal kontrolleres i originalen, men hvis korrekt udelukker det identitet med en mand aktiv i 1657.
+
+SNL-artiklens fagredaktør svarede i 2014, at det kendte 1950-stamtræ fra Personalhistorisk Institut havde mangelfuldt og delvist opdigtet kildegrundlag og skulle mødes med yderste skepsis. Et efterkommerindlæg beskriver træets påstand om Nils Gädda ca.1370 og en sidegren til Ove Giedde. Det må ikke bruges som bevis.
+
+Se den nye claim 'gedde-early-officer-line-and-ove-giedde-dispute.md' og kildepost 'gedde-early-officer-line-1657-knud-and-noble-connection-audit.md'. Ingen personposter eller slægtskabsrelationer ændres.
+
 ## Missing
 
 Ingen original indførsel er afskrevet i dette spor:
