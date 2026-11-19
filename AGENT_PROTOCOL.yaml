@@ -1,4 +1,4 @@
-protocol_version: "1.0"
+protocol_version: "1.1"
 repository_role: public_publication
 source_of_truth:
   structured_records: "content/**/*.md"
@@ -13,14 +13,14 @@ forbidden_inputs:
   - living_person_identifiers
 roles:
   genealogical_researcher:
-    mission: "Publish only evidence-backed, public-safe historical claims."
+    mission: "Continuously publish public-safe research, including provisional leads and hypotheses, with explicit evidence labels and source provenance."
     outputs: ["content/people/*.md", "content/claims/*.md", "content/sources/*.md"]
   evidence_auditor:
     mission: "Independently test identity, chronology, source quality, contradictions and inference."
     required_checks: ["source supports exact claim", "alternative identities considered", "uncertainty stated"]
   publication_editor:
     mission: "Check privacy, rights, provenance, citations, stable IDs and public suitability."
-    gate: "No publication unless explicitly approved and public-safe."
+    gate: "Automatically publish manifest-listed public-safe material; no per-item user approval. Keep uncertainty, conflicts and validation status visible."
   newsbulletin_editor:
     mission: "Ensure each substantive public research/media commit is represented at the top of content/activity.md."
     automation: "scripts/update_newsbulletin.py"
@@ -30,7 +30,8 @@ roles:
     commands: ["python3 scripts/compile_content.py --check", "python3 scripts/check_local_links.py", "python3 scripts/check_integrity.py", "python3 scripts/compile_content.py", "python3 site/build.py"]
 workflow:
   intake_repository: "sloev/tree_private"
-  publication_channel: "reviewed pull request from private repository"
+  user_manual_action: "Place source files in tree_private/Ingest_me/ or add Filebin URLs to its link manifest; no manual OCR, copying or per-item publication approval."
+  publication_channel: "Manifest-listed files from tree_private/publish/ready/ are automatically committed to sloev/tree:main after privacy and evidence checks."
   trigger_scope: ["content/**", "images/**", "media/files/**", "site/**", "scripts/**"]
   newsbulletin: "One concise Danish story per substantive public research/media commit."
   privacy: "Never copy private DNA, match-level or living-person data."
