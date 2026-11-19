@@ -4,7 +4,7 @@ schema: claim/v1
 branch: "Kleist–Gedde"
 title: "To Fischer-søstre var Hans Christopher Geddes to hustruer — ikke samme person"
 status: "needs"
-validation: "stærk biografisk dokumentation og samtidig nekrolog; dåbs- og vielsesoriginaler bør fortsat kontrolleres"
+validation: "samtidig nekrolog støtter 28.05.1778; Anker/Norske Slægter giver 1788 og Harbou 28.02.1778; dåbsoriginal mangler"
 person_ids:
   - "p432"
   - "p216"
@@ -45,4 +45,6 @@ En fejl i den nuværende personkobling har sammenblandet **Frederikke Christiane
 
 DBL er en sekundær biografisk kilde, Anker (1885) er en militærbiografisk sammenstilling, NVE (2014) er en forskningsrapport, og nekrologen fra 1843 er en samtidig biografisk meddelelse. De stemmer indbyrdes om kvindernes identitet og rækkefølgen af ægteskaberne. Originale dåbs- og vielsesindførsler bør stadig hentes fra Toten og Fredrikstad, og Ove Samuels dåbsindførsel bør kontrolleres for at fastslå præcis dato og moderangivelse.
 
-**Vigtig afgrænsning:** Denne rettelse ændrer ikke Ove Samuels omstridte fødselsdato (28. februar/28. maj 1778). Den retter kun moderidentiteten, som den foreliggende dokumentation klart adskiller fra den anden hustru.
+## Fødselsdato — ny kildevægtning
+
+Personpost p216 er nu foreløbigt rettet til **28. maj 1778**. Den samtidige *Fædrenelandsk Nekrolog* (1843, trykt s.24–25) angiver netop 28. maj 1778 og fødsel i Norge. Anker (1885) og *Norske Slægter* (1912) angiver 28. maj 1788; Harbou/PHT (1897) angiver 28. februar 1778. Den samtidige nekrolog vægtes højest, og Anker stemmer med dag og måned, men ikke år. Den oprindelige dåbsindførsel skal stadig findes, så fødselsdatoens status er **foreløbig/probable**, ikke endeligt bevist.
