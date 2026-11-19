@@ -8,6 +8,9 @@ validation: "stærkt dokumenteret arkivspor; genealogisk forbindelse uafklaret"
 person_ids:
   - "s_p54_3"
 sources:
+  - "gedde-emil-ludvig-eduard-1944-directory"
+  - "gedde-emil-ludvig-eduard-death-1954-directory-1955"
+  - "gedde-eduard-eldorado-death-notice-1954"
   - "argentina-eduardo-gedde-pioneer-roles"
   - "gallero-2018-eldorado-company-land-registers"
   - "de-danskes-vej-argentina-eldorado-gedde"

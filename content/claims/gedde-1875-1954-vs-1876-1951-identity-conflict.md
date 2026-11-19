@@ -90,3 +90,14 @@ Den trykte agronom kan være den samme som `s_p54_3`, hvor familiens slægtsopg�
 6. Sammenhold faderen E.G. med forældrene `p54`/`p55` i den private slægtsdokumentation.
 
 **Disposition:** Bevar `s_p54_3` med de hidtidige datoer, men markér identiteten med den trykte 1875–1954-person som uafklaret. Ingen ny person eller forældre-/børn-relation oprettes, før primærkilderne skelner mellem de to muligheder.
+
+
+## Nyt forældrespor: Edvard Hammer Gedde er en stærk faderkandidat
+
+Et vigtigt topografisk fund gør nu Emil's far mere konkret. J. P. Trap, *Kongeriget Danmark*, 4. omarbejdede udgave, VII. bind (1926), trykt s. 414, oplyser, at Provstlund i 1875 blev solgt til **“Forp. E. H. Gedde paa Tyrstinggd.”**, som solgte gården videre i 1884.
+
+A. Kann Rasmussen, *Danske i Siam 1858–1942* (1986), trykt s. 135, identificerer **Edvard Hammer Gedde (1845–1925)** og Vitta Dorthea Henriette Mathilde Ludvigsen (1847–1927) som forældre til Vilhelm Gedde (født 1878 på Provstlund); s. 175 identificerer Oluf Christian Kleist Gedde (født 1879 på Provstlund) som søn af samme par og bror til Vilhelm.
+
+Sammenholdt med 1944-fortegnelsens Emil Ludvig Eduard Gedde, født 15.11.1875 på Tyrstinggaard og omtalt som søn af “Forp. E.G.”, er **Edvard Hammer Gedde en stærk faderkandidat**. Initialerne, efternavnet, forpagterrollen og Tyrstinggaard i 1875 passer sammen. Dette kan også placere Emil i samme børneflok som Vilhelm og Oluf Christian.
+
+**Men:** Ingen af de fundne trykte kilder siger direkte, at Emil er søn af Edvard Hammer Gedde. Vi opretter derfor ikke faderskab eller søskenderelationer endnu. Den afgørende kilde er Tyrsting kirkebogs fødselsindførsel for 15. november 1875. Se særskilt kildepost om Edvard Hammer Gedde som faderkandidat.

@@ -6,6 +6,9 @@ title: "Ejler Gedde i Eldorado: argentinske retsakter, ægteskab og dansk koloni
 status: "needs"
 validation: "foreløbigt spor"
 sources:
+  - "gedde-emil-ludvig-eduard-1944-directory"
+  - "gedde-emil-ludvig-eduard-death-1954-directory-1955"
+  - "gedde-eduard-eldorado-death-notice-1954"
   - "argentina-eduardo-gedde-pioneer-roles"
   - "argentina-gedde-ejler-legal-and-community-records"
   - "gallero-2018-eldorado-company-land-registers"
