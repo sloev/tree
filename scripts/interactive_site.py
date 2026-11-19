@@ -203,6 +203,7 @@ def build():
     allowed_event_types = {
         "contract_destination",
         "contract_destination_transcription",
+        "emigration_destination_secondary",
         "settlement_identification_hypothesis",
         "archive_search_target",
     }
