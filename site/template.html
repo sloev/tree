@@ -1106,9 +1106,12 @@ function renderKort(){
     marker.addEventListener('mouseleave',hideTip);
   });
   const migrationList=document.getElementById('migration-list');
-  migrationList.innerHTML=migrationEvents.map(d=>`<li><a href="?claim=${encodeURIComponent(d.claim_id)}#forskning">${esc(d.place)}, ${esc(d.country)}${d.date?' · '+esc(d.date):''}</a> — <span class="muted">${esc(d.evidence_label)}; ${esc(d.identity_label)}</span><br><span class="muted">${esc(d.note)}</span></li>`).join('');
+  migrationList.innerHTML=migrationEvents.map(d=>{
+    const sourceLinks=(d.source_ids||[]).map((id,i)=>`<a href="?source=${encodeURIComponent(id)}#kilder">${esc(d.source_titles?.[i]||id)}</a>`).join(' · ');
+    return `<li><a href="?claim=${encodeURIComponent(d.claim_id)}#forskning">${esc(d.place)}, ${esc(d.country)}${d.date?' · '+esc(d.date):''}</a> — <a href="?person=${encodeURIComponent(d.person_id)}">${esc(d.person_name)}</a><br><span class="muted">${esc(d.evidence_label)}; ${esc(d.identity_label)}</span><br><span class="muted">${esc(d.note)}</span><br><span class="muted">${esc(d.source_reference||'')} ${sourceLinks?' · Kildeposter: '+sourceLinks:''} · ${esc(d.coordinate_basis||'')}</span></li>`;
+  }).join('');
   const localNotes=DATA.migrations?.local_notes||[];
-  document.getElementById('langeland-notes').innerHTML=localNotes.map(n=>`<p><b>${esc(n.place)} · ${esc(n.date)}</b> <span class="conf probable">${esc(n.evidence_label)}</span><br>${esc(n.note)} <a href="?claim=${encodeURIComponent(n.claim_id)}#forskning">Læs forskningssporet ↗</a></p>`).join('');
+  document.getElementById('langeland-notes').innerHTML=localNotes.map(n=>`<p><b>${esc(n.place)} · ${esc(n.date)}</b> <span class="conf probable">${esc(n.evidence_label)}</span><br>${esc(n.note)} <span class="muted">${esc(n.source_reference||'')}</span> <a href="?claim=${encodeURIComponent(n.claim_id)}#forskning">Læs forskningssporet ↗</a></p>`).join('');
 
   const listEl=document.getElementById('placelist');
   listEl.innerHTML = Object.keys(ev).sort((a,b)=>ev[b].length-ev[a].length).map(pl=>`<button type="button" data-pl="${esc(pl)}"><span><i class="sw" style="background:${lineVar(dom(pl))};width:9px;height:9px;margin-right:6px"></i>${esc(pl)}</span><span class="n">${ev[pl].length}</span></button>`).join('');
