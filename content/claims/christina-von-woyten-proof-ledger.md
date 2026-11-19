@@ -56,3 +56,20 @@ Kilder:
 - [Szukaj w Archiwach, Below/Pustamin, 1619, bind I](https://www.szukajwarchiwach.gov.pl/en/jednostka/-/jednostka/7897669)
 
 **Status:** Arkivvejen er nu mere konkret, men ingen ny parent-child-relation eller fødsels-/dødsdato er bevist. Christina forbliver uden opfundne datoer, og spørgsmålet om identitet med Christina i II.44 er fortsat åbent.
+
+
+## Et ekstra Christina-spor i Woyten-familien (1873)
+
+En ældre Kleist-genealogi indeholder en oplysning, som gør identitetskontrollen mere kompleks. I *Geschichte des Geschlechts v. Kleist*, Zweiter Teil: *Allgemeine Geschichte* (1873), trykt side 71, står der, at Gerson Kleist på Ruße/Stolp var gift med **Regina Woyten**, datter af Benedict Vessinensis (fyrstelig pommersk kaptajn i Bütow) og Elisabeth Stojentin fra Giesebitz. Gerson og Regina havde fire døtre, herunder Christina, som blev gift med Justus Zarte fra Sassenburg. De havde også sønnerne Jacob og Thomas.
+
+Det betyder, at den ældre litteratur omtaler endnu en Christina i den samme Woyten-familiesammenhæng: Regina Woytens datter. Det kan være relevant for at forstå navneforvekslinger, men det beviser ikke, at hun er identisk med nogen af de to Christina-personer, der optræder i 2025-værkets drøftelse. Vi skal foreløbig holde tre kandidater adskilt:
+
+1. **Christina II.55:** hustru til Georg II.55, enke efter Otto von Below, ifølge 2025-værket datter af Benedictus og Elisabeth.
+2. **Christina II.44:** den Christina Woyten fra Versin, som von der Osten tidligere placerede hos Georg II.44; 2025-redaktøren retter denne tilskrivning til II.55.
+3. **Christina, datter af Regina Woyten:** ifølge 1873-genealogien gift med Justus Zarte fra Sassenburg.
+
+1873-værket er en historisk genealogisk sammenstilling, ikke en original vielses- eller skifteakt. Quandts metodiske gennemgang på trykt side 46–52 skelner mellem samtidige dokumenter og familiens genealogier og advarer om, at sidstnævnte kan indeholde fejl. Derfor er passagen et vigtigt identitetsspor, men ikke endelig dokumentation. Se kildeposten [Kleist family history (1873): Regina Woyten and her daughter Christina](https://www.v-kleist.com/FG/Genealogie/AllgemeineGeschichte.pdf).
+
+**Næste dokumentariske test:** Find samtidige akter om Gerson Kleist og Regina Woyten samt ægteskabs-, arve- og værgemålsakter for Justus Zarte og Christina. Det kan afklare, om Benedictus havde både en datter Regina og en datter Christina, og om de tre navnebærere kan adskilles i tid og slægtskab.
+
+**Status:** Foreløbigt identitetsspor. Ingen ny personrelation, ægteskabsrækkefølge eller livsdato er ændret i stamtræet.
