@@ -12,6 +12,7 @@ sources:
   - "gedde-emil-ludvig-eduard-death-1954-directory-1955"
   - "gedde-eduard-eldorado-death-notice-1954"
   - "de-danskes-vej-argentina-eldorado-gedde"
+  - "gedde-edvard-hammer-tyrstinggaard-father-candidate"
 ---
 
 # To næsten ens Gedde-identiteter? 1875–1954 og 1876–1951

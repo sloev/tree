@@ -57,3 +57,12 @@ Brevet fra 1782 angiver Charlotte von Geidem som værende fra Kurland. Det er et
 5. Samuel Christophers seglaftryk fra 1762 og militære skifter fra 1745.
 
 **Konklusion:** Christian Gedde og Charlotte von Geidem er et stærkt, men endnu ikke fuldt primærkildeverificeret forældrepar for Samuel Christopher. En forbindelse til Ove Gjeddes adelsslægt skal ikke indtegnes; Thisets kildekritik taler imod den.
+
+
+## Vigtig modstrid om forbindelsen til adelsslægten
+
+*Norske Slægter* (1912), s. 128–129, vurderer forbindelsen mellem major Knud Giedde (død 1658) og den gamle adelsslægt omkring Ove Gjedde som “meget sandsynlig”, men omtvistet. Thiset (1882) afviser derimod identifikationen med Ove Gjeddes bror Knud ved at citere et brev fra 1612, hvor denne Knud allerede blev meldt skudt. Store norske leksikon vurderer i dag, at den borgerlige Gedde-slægt sandsynligvis ikke er beslægtet med den adelige Gjedde-slægt.
+
+Derfor er relationen til adelsslægten fortsat **uafklaret og bør ikke indtegnes**. Det er ikke nok, at en major Knud døde i 1658; der kræves en primærkilde, som identificerer ham og hans forældre.
+
+Dateringen af Christian Gedde er ligeledes uafklaret: 1782-brevet siger død 1707, 59 år gammel; *Norske Slægter* og Møn-fremstillingen angiver 1705, og Møn-fremstillingen giver fødselsår 1639. Den originale mønstringsrulle og begravelses-/skifteoptegnelser må afgøre, om der er tale om én eller flere personer.

@@ -50,3 +50,12 @@ FamilySearch viser desuden en brugeroprettet profil for Stephan Peter Hammer Ged
 - A. Kann Rasmussen, *Danske i Siam 1858–1942* (1986), trykt s. 135 og 175: https://slaegtsbibliotek.dk/931904.pdf
 - *Danske Landbrugskandidater* (1944), trykt s. 75, nr. 563: https://slaegtsbibliotek.dk/929223.pdf
 - FamilySearch user-tree search result for Stephan Peter Hammer Gedde (1874): https://www.familysearch.org/fr/search/discovery/results/?q.surname=gedde&tab=preview
+
+
+## Opdateret vurdering efter kontrol af eksisterende familierelationer
+
+Den eksisterende TREE-personpost `s_p54_3` angiver allerede Edvard Hammer Gedde og Vitta Ludvigsen som forældre til Emil Ludvig Edvard Gedde. Det betyder, at Trap-oplysningen om “Forp. E. H. Gedde paa Tyrstinggd.” i 1875 og 1944-fortegnelsens “S. a. Forp. E.G.” ikke blot peger mod en løs kandidat, men passer til den far, der allerede er angivet i familiens dossier.
+
+Sammen med *Danske i Siam*'s dokumentation af Edvard Hammer og Vitta som forældre til Vilhelm Gedde (1878) og Oluf Christian Kleist Gedde (1879), begge født på Provstlund, styrker dette identifikationen markant. Emil's fødsel på Tyrstinggaard i 1875 ligger i samme ejendoms- og familieforløb. 1922-udvandringen passer desuden med Argentina-virke fra 1923.
+
+**Vurdering:** meget sandsynligt, at 1875–1954-personen er den samme som TREE-personen; fødsels- og dødsår i familieoptegnelsen er sandsynligvis forkerte. Primær fødsels- og dødsakt mangler stadig, så ingen datoer eller relationer ændres endnu.

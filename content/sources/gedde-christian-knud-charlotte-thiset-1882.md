@@ -72,3 +72,21 @@ Rigsarkivets officielle katalog har en relevant arkivserie: **Den Kongelige Livg
 5. Undersøg om der findes samtidige kurlandske adels- eller kirkebogsoptegnelser for stavemåderne von Geidem, von Geidern eller von Geijder.
 
 **Kildekritisk status:** Dette er et stærkt, publicerbart forskningsspor. Familiebrevet er gengivet af Thiset, men originalen er endnu ikke inspiceret. Den mulige kurlandske forbindelse må ikke udvides til en konkret adelsfamilie uden selvstændig dokumentation.
+
+
+## Yderligere modstrid: Norske Slægter 1912 og den ældre adelsslægt
+
+*Norske Slægter* (1912), s. 128–129, fremstiller Major Knud Giedde som død i 1658 og siger, at han tidligere almindeligvis blev anset for identisk med rigsadmiral Ove Gieddes ældre bror Knud. Værket vurderer forbindelsen til den gamle adelsslægt som “meget sandsynlig”, men allerede da omtvistet. Det står i direkte spænding med A. Thisets argument fra 1882, som identificerer Ove Gjeddes bror Knud som den person, der blev skudt i 1612, og derfor afviser identifikationen. Store norske leksikon vurderer i dag, at den borgerlige Gedde-slægt sandsynligvis ikke er beslægtet med den adelige Gjedde-slægt.
+
+Denne uenighed skal bevares som en egentlig genealogisk kildekonflikt. Thisets argument er konkret og bygger på et dateret brev fra 1612, men *Norske Slægter* fastholder en alternativ mulighed. Ingen adelsslægtsforbindelse bør indtegnes uden et nyt dokument, der identificerer major Knud uafhængigt.
+
+### Samlet kronologisk konflikt for Christian Gedde
+
+| Kilde | Oplysning |
+|---|---|
+| Hans Christopher Geddes brev af 17. februar 1782, citeret af Thiset | Christian døde 1707, 59 år gammel (født ca. 1648) |
+| *Norske Slægter* (1912), s. 128–129 | Christian angives som død 1705; Major Knud død 1658 |
+| Møn-fremstillingen (2023) | Christian 1639–1705; 54 år i 1693 ifølge den afskrevne stambog |
+| Anker/DBL | Traditionel datering omkring 1648–1707 |
+
+Det er ikke forsvarligt at vælge en enkelt fødsels- eller dødsdato, før mønstringsrullen, begravelsesindførslen og eventuelt skiftet er set direkte.
