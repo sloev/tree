@@ -179,3 +179,8 @@ Checked the official Arkivalieronline churchbook collection and DAISY catalogue 
 ## 2026-11-19 — Gerda claim bulletin verification
 
 The automatic Nyhedsbulletin entry for claim commit `29798800b998df28af57a315b1bd4ca50d544116` is now present at the top of `content/activity.md` (title: “Kresten Jørgensen: hvilken Marthe var hans mor?”; path: `content/claims/gerda-kresten-mother.md`). The activity file was re-fetched and the exact commit/path entry verified. The GitHub combined-status endpoint returned no status records; no local build, generated-index content check or live browser/Pages verification was possible in this pass. Do not claim deployment from the bulletin alone.
+
+
+## 2026-11-19 — Gerda claim: official Arkivalieronline search constraints added
+
+A direct read of Rigsarkivet's official “Kirkebøger fra hele landet” page clarified the archive route: 1814–1892 kontraministerialbøger are colour scans divided by sex and church action, with *Døde* first; the portal lists standard *Afgangslister* and *Tilgangslister* only through 1875. This means the 1878 burial and 1877 baptism should be sought in the appropriate event/sex cuts, while a 1877 *tilgangsliste* must be treated as uncertain and sought as a separate parish register if one exists. Source: https://arkivalieronline.rigsarkivet.dk/da/geo/geo-collection/5. The claim was updated in commit `70b1adad30913d8faadc63c58dd4ee5448f6a024`. No original image was accessed and no identity or relationship changed.
