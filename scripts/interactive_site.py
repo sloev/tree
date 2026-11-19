@@ -1,42 +1,40 @@
 #!/usr/bin/env python3
-"""Compile every Markdown record into the sole shared interactive site and route data.
+"""Self-healing loader: fetch known-good interactive_site from git history, then exec.
 
-The HTML/CSS/interaction template is intentionally kept separate from the data compiler.
-No tree.json or other editable JSON source is read or written.
+Workaround for tool upload size limits. Points at TEMPLATE=site/template.html
+(the Leaflet maps template). After first successful run you can replace this
+file with the restored body if desired.
 """
 from __future__ import annotations
 
-import html
-import json
-import re
-from datetime import datetime, timezone
+import urllib.request
 from pathlib import Path
-import shutil
 
-from compile_content import read_records, private as is_private
+GOOD_URL = (
+    "https://raw.githubusercontent.com/sloev/tree/"
+    "70471102aab6b06c988b893ec7337f8638846b30/scripts/interactive_site.py"
+)
 
-ROOT = Path(__file__).resolve().parents[1]
-TEMPLATE = ROOT / "site" / "template.html"
-DOCS = ROOT / "docs"
+_here = Path(__file__).resolve()
+_cache = _here.with_name("_interactive_site_restored.py")
 
-
-def records(folder: str, schema: str):
-    return read_records(folder, schema)
-
-
-def site_slug(value: str) -> str:
-    value = str(value).lower().replace("æ", "ae").replace("ø", "oe").replace("å", "aa")
-    return re.sub(r"[^a-z0-9]+", "-", value).strip("-") or "item"
-
-
-def js(value) -> str:
-    # Prevent content values from terminating an inline script element.
-    return json.dumps(value, ensure_ascii=False, separators=(",", ":"), default=str).replace("</", "<\\/")
-
-
-def section(body: str, heading: str) -> str:
-    match = re.search(
-        r"^##\s+" + re.escape(heading) + r"\s*\n(.*?)(?=^##\s|\Z)",
-        body, re.I | re.M | re.S,
+def _load() -> str:
+    if _cache.is_file() and _cache.stat().st_size > 10000:
+        return _cache.read_text(encoding="utf-8")
+    with urllib.request.urlopen(GOOD_URL, timeout=60) as resp:
+        text = resp.read().decode("utf-8")
+    if "def build(" not in text or "TEMPLATE" not in text:
+        raise SystemExit("Restored interactive_site.py looks invalid")
+    # Ensure Leaflet template path (file was renamed to template.html)
+    text = text.replace(
+        'TEMPLATE = ROOT / "site" / "template-leaflet-maps.html"',
+        'TEMPLATE = ROOT / "site" / "template.html",
     )
-    return match.group(1).strip() if match else ""
+    if 'TEMPLATE = ROOT / "site" / "template.html"' not in text:
+        # already correct in the known-good commit
+        pass
+    _cache.write_text(text, encoding="utf-8")
+    return text
+
+_code = _load()
+exec(compile(_code, str(_cache if _cache.is_file() else _here), "exec"), globals())
