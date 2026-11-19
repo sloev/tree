@@ -1026,7 +1026,7 @@ function renderKort(){
     el('rect',{x:vb[0],y:vb[1],width:vb[2],height:vb[3],class:'sea'},svg);
     [['de',''],['se',''],['dk',' dk']].forEach(([k,c])=>el('path',{d:MAP[k],class:'land'+c,style:`stroke-width:${.8/s}px`},svg));
     // Langeland coastline (geographic outline) is drawn independently of the generalized Denmark mainland path.
-    const langelandCoast=[[54.99,10.87],[54.97,10.91],[54.94,10.91],[54.91,10.89],[54.88,10.88],[54.85,10.87],[54.82,10.86],[54.79,10.85],[54.76,10.84],[54.73,10.82],[54.70,10.80],[54.68,10.77],[54.68,10.73],[54.70,10.70],[54.73,10.69],[54.76,10.68],[54.79,10.67],[54.82,10.66],[54.85,10.65],[54.88,10.64],[54.91,10.63],[54.94,10.62],[54.97,10.63],[54.99,10.66],[55.00,10.70],[55.00,10.75],[55.00,10.80],[54.99,10.87]];
+    const langelandCoast=[[55.13,10.89],[55.11,10.91],[55.08,10.92],[55.05,10.91],[55.02,10.90],[54.99,10.89],[54.96,10.88],[54.93,10.87],[54.90,10.86],[54.87,10.85],[54.84,10.84],[54.81,10.83],[54.78,10.82],[54.75,10.80],[54.72,10.78],[54.70,10.75],[54.70,10.71],[54.72,10.68],[54.75,10.66],[54.78,10.64],[54.81,10.62],[54.84,10.60],[54.87,10.59],[54.90,10.58],[54.93,10.57],[54.96,10.57],[54.99,10.58],[55.02,10.60],[55.05,10.62],[55.08,10.65],[55.11,10.69],[55.13,10.74],[55.14,10.80],[55.13,10.85],[55.13,10.89]];
     const islandPath=langelandCoast.map(([lat,lon],i)=>{const [x,y]=prj(lat,lon);return `${i?'L':'M'}${x},${y}`;}).join(' ')+'Z';
     el('path',{d:islandPath,class:'land langeland'},svg);
     const routes=el('g',{},svg);
@@ -1058,8 +1058,8 @@ function renderKort(){
   const langelandPlaces=new Set(Object.keys(pl).filter(name=>/langeland/i.test(pl[name]?.[2]||'')));
   if(langelandPlaces.size){
     const coords=[...langelandPlaces].map(name=>pl[name]);
-    const minLat=Math.min(...coords.map(c=>c[0]))-.10, maxLat=Math.max(...coords.map(c=>c[0]))+.10;
-    const minLon=Math.min(...coords.map(c=>c[1]))-.12, maxLon=Math.max(...coords.map(c=>c[1]))+.12;
+    const minLat=Math.min(54.66,...coords.map(c=>c[0])-.01), maxLat=Math.max(55.16,...coords.map(c=>c[0])+.01);
+    const minLon=Math.min(10.54,...coords.map(c=>c[1])-.01), maxLon=Math.max(10.96,...coords.map(c=>c[1])+.01);
     const [lx0,ly1]=prj(maxLat,minLon), [lx1,ly0]=prj(minLat,maxLon);
     const langelandLabels=[...langelandPlaces].map(name=>L(name,'start',5)).filter(Boolean);
     drawMap(document.getElementById('langeland-map'),[lx0,ly0,lx1-lx0,ly1-ly0],langelandLabels,langelandPlaces);
