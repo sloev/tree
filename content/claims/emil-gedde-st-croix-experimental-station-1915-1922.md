@@ -13,6 +13,7 @@ sources:
   - "virgin-islands-agricultural-experiment-station-1920-longfield-smith"
   - "rigsarkivet-st-croix-agricultural-research-station-1907-1917"
   - "st-croix-herald-1922-mr-gedde-slob"
+  - "usda-virgin-islands-station-personnel-1919-1923"
 ---
 
 # Emil Ludvig Eduard Gedde på St. Croix — et nyt caribisk spor
@@ -32,11 +33,11 @@ Det er en direkte, samtidig dokumentation af en mand ved navn Eduard Gedde med e
 
 Den samtidige avisunderskrift fra 1918 passer med opholdet og forsøgsstationssporet. Men den beviser ikke, at den underskrivende Eduard Gedde var identisk med hele navnet Emil Ludvig Eduard Gedde, eller at han var stationens øverste leder.
 
-## Vigtig modkilde: Longfield Smith var agronom in charge i 1920
+## Ny officiel kronologi: Longfield Smith 1919–1921, J. B. Thompson fra 1922
 
 Den officielle amerikanske årsrapport *Report of the Virgin Islands Agricultural Experiment Station, 1920* (udgivet 18. april 1921) anfører **Longfield Smith, Agronomist in Charge**, og Charles E. Wilson som entomolog. Smith underskriver følgebrevet fra stationen 13. august 1920.
 
-Det er en reel konflikt med 1944-biografiens oplysning om, at Gedde var forsøgsleder helt frem til 1922. Mulige forklaringer er forskellige funktioner, en overgang efter salget til USA, en lokal ledelses-/ejendomsrolle for Gedde, eller en upræcis slutdato i den senere biografi. Ingen forklaring er endnu bevist.
+Det er en reel rollekonflikt med 1944-biografiens oplysning om, at Gedde var forsøgsleder 1915–1922. Den samtidige serie af USDA-rapporter gør dog tidsforløbet mere præcist: Smith stod for den officielle stationrapportering 1919–1921; J. B. Thompson overtog rapportforfatterrollen i 1922. Gedde kan have haft en særskilt lokal, administrativ, mark-/ejendoms- eller klubrolle, men dette er endnu ikke dokumenteret. 1918-underskriften og 1922-adressen viser tilknytning til Slob, ikke den præcise titel.
 
 En avisnotits fra *The Herald* 12. januar 1922 placerer desuden en “Mr. Gedde” (OCR-teksten varierer mellem GEDDE og CEDDE) ved Slob Experimental Station som kontaktperson for en bortkommen genstand. Det er et nyttigt, men svagere identitets-/adressehint, fordi navnet kræver kontrol mod selve sidebilledet.
 
