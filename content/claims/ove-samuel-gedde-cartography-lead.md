@@ -20,6 +20,7 @@ sources:
   - "Haagen Krog Steffens, Norske Slægter (1912), s. 129: https://slaegtsbibliotek.dk/929149.pdf"
   - "Personalhistorisk Tidsskrift, 3. bind (1882), s. 170–171: https://www.genealogi.dk/images/pht/1882/1882.pdf"
   - "Kartverket, Smålenenes amt nr. 204 (1796), digitaliseret original: https://commons.wikimedia.org/wiki/File:Smålenenes_amt_nr_204-_Sørøstre_del_av_Østfold_fylke,_1796.jpg"
+  - "Riksarkivets topografiske katalog, Arendal: Croquie af Arendal havn og løb (1816), Havnedir-B XXIX-4: https://asta-content-repo.s3.eu-north-1.amazonaws.com/cd839c43-0051-48f5-ba9b-2a5019907cd7-2.pdf"
   - "Norsk kunstnerleksikon, Nicolai Wilhelm Gedde: https://nkl.snl.no/Nicolai_Wilhelm_Gedde"
   - "Rigsarkivet, Militær og forsvar — Ingeniørkorpsets norske arkiv: https://arkivalieronline.rigsarkivet.dk/da/other/other-collection/81"
 ---
@@ -116,7 +117,9 @@ Kortets Commons-post angiver, at det er digitaliseret og delt af Kartverket, ove
 
 **1805 — 32C-6-øst, Hedmark:** Kartverkets officielle katalog anfører Ove Samuel Gedde som kartograf. Nicolai Wilhelm Gedde blev ingeniørpremierløjtnant 20. april 1804 ifølge PHT 1882 og Norsk kunstnerleksikon, og er derfor en relevant alternativ kandidat at kontrollere. Hans tjenestested i 1805 er endnu ikke fastslået. Ove Samuel var ifølge nekrologen overført til den danske hær i 1803; det gør en opmålingsopgave i Hedmark mindre oplagt, men udelukker ikke en særskilt opgave eller tidligere udført arbejde.
 
-**Foreløbig arbejdshypotese:** For 1796 bør Frederik Christopher undersøges først; for 1805 bør Nicolai Wilhelm kontrolleres mod personalakter og kortets originalsignatur. Ove Samuel forbliver den registrerede kartograf i katalogerne, og en mulig sammenblanding er kun en hypotese. Ingen af de to kort er endnu sikkert omattribueret.
+**Yderligere direkte kartografisk belæg for Frederik Christopher:** Riksarkivets topografiske katalog over Arendal registrerer “Croquie af Arendal havn og løb” (1816), signatur **Havnedir-B XXIX-4**, som tegnet af **Gedde, Fredrik Christopher**. Det er to kolorerede ark i målestok 1:1.000, i størrelserne 41 × 33,5 cm og 47,5 × 36,5 cm; kataloget bemærker, at det ene ark er en pennetegning, og at kortet er udarbejdet efter ingeniør Purgau's kort. Et NVE-blogindlæg fra 2016 omtaler et kort med samme titel og påskrift i NVEs samling, men kalder det udateret; Riksarkivets katalog giver en præcis datering til 1816. Det er endnu ikke fastslået, om NVE-eksemplaret og Riksarkivets Havnedir-B XXIX-4 er samme fysiske kort eller parallelle versioner. Nasjonalarkivets vejledning angiver, at Havnedirektoratets kort og tegninger findes i dets kartsamling, normalt under serie T. Kilder: https://asta-content-repo.s3.eu-north-1.amazonaws.com/cd839c43-0051-48f5-ba9b-2a5019907cd7-2.pdf og https://www.nasjonalarkivet.no/kart-og-tegninger/.
+
+**Foreløbig arbejdshypotese:** Frederik Christopher er dokumenteret som kartograf i 1816 og bør undersøges først for 1796-kortet; for 1805 bør Nicolai Wilhelm kontrolleres mod personalakter og kortets originalsignatur. Ove Samuel forbliver den registrerede kartograf i Kartverkets metadata, og en mulig sammenblanding er kun en hypotese. Ingen af de to kort er endnu sikkert omattribueret.
 
 ## Hirsch' officerskartotek — ny konkret arkivhenvisning
 
