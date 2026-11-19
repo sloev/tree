@@ -59,3 +59,16 @@ Club Argentino Danés' historie fortæller, at Eduardo Gedde havde ansvar for de
 6. Undersøg Ejlers vielses-, døds- og successionsakter for at fastslå forældre og eventuelle efterkommere.
 
 **Konklusion:** Den 1875–1954 Emil Ludvig Eduard er meget stærkt identificeret som Eldorados danske plantageejer/pioner. Hans sammenfald med den eksisterende 1876–1951 familieperson er plausibelt, men endnu ikke bevist; faderskabet til Ejler er fortsat uafklaret.
+
+
+## Samtidig biografisk kontrol fra 1918 og ridderudnævnelse 1953
+
+*Danske Landbrugskandidater* (maj 1918), nr. 274, identificerer Eduard Gedde som født 15.11.1875 på Tyrstinggaard, søn af “Forp. E. G.”, landbrugskandidat 1896, og forsøgsleder på St. Croix fra 1915. Det er en samtidig kilde, som går forud for den mere udførlige 1944-biografi. Forordet siger, at fødselsoplysningerne stammer fra Landbohøjskolens indskrivnings- og eksamensprotokoller.
+
+*De Kongelige Danske Ridderordener og Medailler* (1954), trykt s. 98–99, anfører “Gedde, Eduard (R. 2/5 1953), plantageejer. Adr. Eldorado, Misiones, Argentina.” Dette er en uafhængig kontrol af, at plantageejeren Eduard Gedde stadig var registreret i Eldorado i 1953 og blev Ridder af Dannebrog 2. maj samme år. Det passer med dødsdatoen 19.07.1954 i 1955- og 1956-fortegnelserne.
+
+## Nyt faderskabsspor: E. H. Gedde på Tyrstinggaard
+
+Trap Danmark (1926) oplyser, at forpagter **E. H. Gedde** var på Tyrstinggaard i 1875. 1918-fortegnelsen angiver Eduard som søn af “Forp. E. G.” og født på Tyrstinggaard i 1875. Dette er en stærk kandidat til at forbinde den biografiske Eduard med Edvard Hammer Gedde, som er den foreslåede far i den eksisterende familietradition. Men fuldt navn og faderskab er ikke udtrykkeligt bevist i de to trykte kilder. Tyrsting kirkebog og folketællingen 1880 skal afgøre det.
+
+1911-udgaven angiver fødselsdagen som 13.11.1875, mens 1918-, 1944- og 1955-udgaverne angiver 15.11.1875. 1918-udgaven henviser til Landbohøjskolens protokoller for fødselsoplysninger, men original kirkebog skal stadig ses. Ingen personposter eller slægtskabsrelationer er ændret.
