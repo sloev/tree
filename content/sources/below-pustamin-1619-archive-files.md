@@ -49,3 +49,35 @@ Bed AP Szczecin om:
 5. Hvis de ældre dokumenter findes, bed om reproduktioner eller præcise signaturer.
 
 **Kildekritisk status:** Officiel katalogmetadata; ingen originalakt gennemset. Ingen slægtskabsforbindelse mellem Henning og Otto eller mellem Christina og 1619-sagen er fastslået.
+
+
+## Earlier Stargarder Below cases: Otto, Joachim and Claus (1579–1626)
+
+The official catalogue of the **Sąd Nadworny w Stargardzie**, series 65/7/0/2.9, contains further Below-family cases:
+
+- **65/7/0/2.9/100 (1579–1587):** Caspar Moldenhover of Schlawe contra Otto Below, debt of 100 thalers. The catalogue tag identifies Otto as "zu Salleske". This could be the Otto later described as Christina's first husband, but the estate designation differs from Pustamin and the identity is unproven.
+- **65/7/0/2.9/101 (1586):** Gerd Below contra heirs of Martin von Zitzewitz of Quakenburg, 400 florins.
+- **65/7/0/2.9/102 (1610):** Samuel Runge, pastor at Pustemien (Postomino/Pustamin), contra Joachim Below and Claus Below, concerning violence.
+- **65/7/0/2.9/103 (1611):** Landkasten of Stargard contra Claus Below and his wife Anna Manteuffel, identified in the catalogue as daughter of Marcus Manteuffel of Polzin. The file is marked "Destrukt".
+- **65/7/0/2.9/104 (1626):** heirs of Matthias Hesling contra Henning Below, Landvogt at Stolp, over 1,220 florins; catalogue tags also identify Henning as Landvogt at Stolp and Schlawe.
+
+[Official "Procesy na literę B" series](https://www.szukajwarchiwach.gov.pl/en/seria?_Seria_cur=2&_Seria_delta=45&_Seria_id_serii=382271&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal) · [Otto Below, 1579–1587](https://www.szukajwarchiwach.gov.pl/en/jednostka/-/jednostka/7899570) · [Joachim and Claus at Pustemien, 1610](https://www.szukajwarchiwach.gov.pl/en/jednostka/-/jednostka/7899592) · [Claus and Anna Manteuffel, 1611](https://www.szukajwarchiwach.gov.pl/en/jednostka/-/jednostka/7899603)
+
+The Geneanet user tree places an Otto von Below († before/around 1606) married to Christina von Woyten, and a Joachim von Below (†1610) married to Anna von Creytzen, as brothers. This is a research lead only. Other online genealogies give conflicting parentage for Ambrosius von Below and Joachim, so no parentage or identity should be accepted from these trees without contemporary records. The 1579–1587 Otto case's "Salleske" tag must be reconciled with the 2025 Kleist history's "Pustamin" before the person can be identified.
+
+## Related Wetzlar Below litigation, 1590–1619
+
+The 1619 Pustamin case sits within a wider cluster in **Sąd Kameralny Rzeszy w Wetzlar**, series 65/6/0/2:
+
+- **65/6/0/2/62 (1590–1592):** Georg von Below of Saleske vs creditors of Joachim von Below.
+- **65/6/0/2/63 (1595):** a daughter of the late Georg von Below of Saleske, represented by Dionisius Hoppe, vs creditors including Anton von Kleist, Magnus Fincke and Jacob von Wobeser, concerning debts and entry into Below estates.
+- **65/6/0/2/64 (1599):** Joachim and Kasper von Below of Peest vs Elisabeth and Maria, daughters of the late Georg of Saleske, valuation of fiefs.
+- **65/6/0/2/65 (1599–1602):** heirs of Werner von Below of Peest vs heirs of Thomas Mandeken and Hans Gronow, surety debt for Martin von Titzewitz.
+- **65/6/0/2/66 (1600–1614):** Paul von Below of Gartz vs Dorothea born von Carnitz, widow of Werner von Below of Peest and Saleske, and her sons Joachim and Kasper, concerning fiefs.
+- **65/6/0/2/67 (1601):** Paul von Below of Gartz vs Georg von Puttkamer of Barnow, debt.
+- **65/6/0/2/68 (1602–1604):** brothers Joachim and Kasper von Below of Saleske and Peest vs Friedrich von Rausche, surety debt.
+- **65/6/0/2/69–70 (1619, two volumes):** Henning von Below of Pustamin vs Heinrich and Kasper von Below of Peest, concerning possession of Georg von Krummel's fiefs. Vol. I is 194 pages; Vol. II is catalogued as 2,478 pages (verify). Both are marked fully microfilmed, old reference *Rep.23 Litt.B Nr.55*, but no microfilm number is supplied.
+
+[Official Wetzlar series, "Procesy na literę B"](https://www.szukajwarchiwach.gov.pl/en/seria?_Seria_delta=200&_Seria_id_serii=382249&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal)
+
+These records may clarify the Below family branches at Saleske, Peest and Pustamin, including whether the 1619 Henning is the same person as the 1626 Landvogt Henning. They do not yet name Otto's widow Christina. Order 65/7/0/2.9/100 and 102–104, plus the Wetzlar cluster 62–70, before attempting to merge branches.
