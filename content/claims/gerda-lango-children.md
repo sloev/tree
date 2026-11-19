@@ -128,3 +128,24 @@ Der er samtidig en **dødsårskonflikt**:
 **Foreløbig afgørelse:** Dødsåret 1934 er nu understøttet af to uafhængige lokalhistoriske oversigter, en præcis dødsdato i den samlede dødsindeks og hædersbevisningen i 1933. Fyens-artiklens 1930 er sandsynligvis en fejl eller forveksling med Ane Maries dødsår. Den samlede dødsindeks er dog et sekundært hjælpemiddel, hvis indledning selv advarer om mulige læsefejl og uoverensstemmelser mellem kirkebøger. **21. marts 1934 bør derfor stå som stærkt understøttet foreløbig dato, indtil den oprindelige Humble-kirkebogsindførsel er kontrolleret.**
 
 <sup>1</sup> Værkets titelblad angiver Erling Mortensen som redaktør/forfatter og udgivelse ved Det kgl. danske Landhusholdningsselskabs Forlag, København, 1969. Den relevante omtale står på trykt side 91.
+
+
+## Hvem skal undersøges først som mulig udvandrer?
+
+Den nuværende persondokumentation giver forskellige sidste kendte spor. Ingen af dem er en bekræftet oversøisk rejse, men de giver en mere præcis prioritering:
+
+| Barn | Sidste kendte spor i personposterne | Forskningsprioritet |
+|---|---|---|
+| **Christian Jørgen Christensen** (f. 1887, København) | Konfirmeret i Humble 1902; ikke fundet i de danske folketællinger efter 1901 i projektets hidtidige søgning | **Højeste** — undersøg udvandrerprotokoller, søfartsregistre og navnevarianter efter 1901 |
+| **Christian Anton Christensen** (f. 1879, Skrøbelev) | Født før forældrenes vielse; den nuværende personpost har endnu ikke et sikkert senere bopælsforløb | Høj — undersøg 1901/1906/1911 og mulige navneformer Christensen/Jørgensen |
+| **Martha Hansine Christensen** (f. 1890) | Registreret som tjenestepige 1911–1916 | Høj — find sidste tjenestested, senere vielse og eventuel udrejse |
+| **Georg Johannes Christensen** (f. 1892) | Hjemme på Langø i 1921 | Mellem — følg efter 1921, herunder vielse og udrejse |
+| **Jens Peter Christensen** (f. 1895) | Født på Langø; senere forløb mangler i den nuværende personpost | Mellem — følg efter konfirmation og 1911/1921 |
+| **Valdemar Emil Christensen** (f. 1899) | Hjemme på Langø i 1921; overtog Langø efter forældrene | Lav som emigrant selv; hans efterkommergren skal undersøges særskilt, men privatmarkerede personer holdes uden for offentliggørelsen |
+| **Kristine Adamine Margrethe Christensen** (1884–1975) | Gift med Axel Erik Holgersen; datteren Karen Margrethe Holgersen er registreret | Lav som emigrant selv; følg den dokumenterede Holgersen-gren gennem offentlige historiske kilder |
+
+**Vigtigt forbehold:** Fravær fra en folketælling er ikke bevis for udvandring. Christian Jørgen er første prioritet, fordi hans kendte danske spor stopper tidligt; der er endnu ikke fundet en udvandrerkontrakt, passagerliste eller destination, der identificerer ham.
+
+## Dæmningsarbejdet som spor til søskendenes vielser
+
+Mortensen (1969) siger, at Marius byggede dæmningen sammen med tre sønner og en svigersøn. Den offentlige GEDCOM viser Kristines ægteskab med Axel Erik Holgersen, men Martha Hansines senere ægteskab er uafklaret. Axel er derfor en mulig kandidat til svigersønnen, ikke en fastslået identifikation. Det kan afklares ved at finde Marthas vielse og sammenholde alle døtrenes ægteskaber med 1911-kilden.
