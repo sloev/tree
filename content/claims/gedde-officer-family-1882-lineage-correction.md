@@ -54,3 +54,8 @@ Stamtavlen siger, at den bygger på egne optegnelser, Benzons stamtavler, Lengni
 4. Brug ikke officersfamiliens fælles navn og våben som bevis på nedstamning fra admiral Ove Gjedde.
 
 Ingen kanoniske relationer ændres af denne claim.
+
+
+## Supplerende kildekritik: to Frederik Ejler Gedder
+
+H. D. Lind viser i *Personalhistorisk Tidsskrift* (1913), s.59–62, at viceadmiral Frederik Ejler Gedde (1641–1717), søn af Ove Gedde, blev forvekslet med en yngre Frederik Ejler, søn af Brostrup Gedde (født ca.1652). En retsprotokol fra 1683 gentog fejlagtigt den yngre mands faderskab om viceadmiralen. Det er en konkret historisk parallel til risikoen for at sammenblande personer i Gedde-slægten. Den afgør ikke, om major Knud i Hans Christoffers brev fra 1782 er identisk med Knud Gedde til Vadskærgaard; det kræver fortsat originalbrevet og øvrige primærkilder.
