@@ -200,3 +200,12 @@ Updated `content/claims/gerda-kresten-mother.md` in commit `f35da20b19a421439d70
 ## 2026-11-19 — Final bulletin check for the alimentation-register lead
 
 The automatic Nyhedsbulletin entry for claim commit `f35da20b19a421439d70f4641431d0dd7564f2f6` is now visible at the top of `content/activity.md`, with the claim title and path. The activity file was re-fetched and the exact commit ID verified. No local build or live Pages check was performed; the public app's rendered claim content is not confirmed. The catalogue lead remains uninspected at record level.
+
+
+## 2026-11-19 — Daily public-tree audit / private queue handoff
+
+- Agent: ChatGPT; branch `main` only.
+- Startup checks: `README.md`, `AGENT_PROTOCOL.yaml`, `AGENTS.md`, `research_method.md` and the latest relevant `coop.log.md` entries were read. No private-vault content was accessed.
+- Public repository result: no new public genealogical claim or generated file was added in this pass. The current public research state still requires original archival image inspection before the open Langeland/Magleby identity questions can be advanced.
+- Private intake result: the corresponding private workshop run visually reviewed item `3c6e5fedb42d1fc7a45f` (Toten 1745 baptism image), inspecting 1 overview and 6 detail tiles. Its private page disposition is `partial`; no raw capture, page image, OCR or private transcription was copied here, and no public publication bundle was created.
+- Verification: public tree content was not modified; no relationship, date or identity was changed. Next: continue source-image-level archival checking for the open public claim only after the exact record can be read under the repository's evidence rules.
