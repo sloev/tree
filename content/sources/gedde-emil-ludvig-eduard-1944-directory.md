@@ -43,3 +43,14 @@ Et gengivet CEEL-medlemsregister viser desuden “GEDDE EDUARDO A.” som medlem
 - Frances Lowe, “El Colegio Martín Lutero km. 6 – Escuela Luterana”, 29.08.2021: https://www.noticiasdelacalle.com.ar/amp/noticias/2021/08/29/56627-el-colegio-martin-lutero-km-6--escuela-luterana
 - CEEL, gengivet *Padrón 2012*, medlem nr. 64: https://www.yumpu.com/it/document/view/4483246/padron-2012-ceel
 - Club Argentino Danés “La Esperanza”, centenariehistorie, 2022: https://www.primeraedicion.com.ar/nota/100609441/100-anos-del-club-argentino-danes-la-esperanza/
+
+
+## Ny caribisk kildekontrol: avisunderskrift og modstridende stationsledelse
+
+*The Herald* på St. Croix indeholder i april 1918 en meddelelse om forbud mod færdsel på Slob Experimental Stations marker og markveje, underskrevet **EDUARD GEDDE**. Meddelelsen står mellem Vol. III, nr.127 (9. april) og nr.129 (11. april), dvs. sandsynligvis i nr.128 af 10. april. Det er direkte, samtidig dokumentation af Eduard Geddes tilknytning eller bemyndigelse ved stationen, men ikke i sig selv bevis for hans præcise titel.
+
+En vigtig modkilde er den officielle amerikanske årsrapport for 1920, udgivet 18. april 1921, som angiver **Longfield Smith, Agronomist in Charge**, og Charles E. Wilson som entomolog. Det står i spænding med denne biografis oplysning om Gedde som forsøgsleder 1915–1922. Mulige forklaringer — forskellige funktioner, en overgang efter overdragelsen til USA eller upræcis slutdato i 1944-fortegnelsen — er endnu ikke afgjort.
+
+Rigsarkivet har en særskilt arkivserie “Landbrugsforsøgsstationen på Skt. Croix (1907–1917)” under Koloniernes Centralbestyrelse, Vestindisk Kontor. Den skal undersøges for Geddes ansættelse og rolle i den danske periode. En *The Herald*-notits 12. januar 1922 placerer desuden en “Mr. Gedde” (OCR-variant “Cedde”) ved Slob Experimental Station; efternavnet skal verificeres mod originalbilledet.
+
+Nye offentlige kildeposter: `st-croix-herald-1918-eduard-gedde-slob-experimental-station.md`, `virgin-islands-agricultural-experiment-station-1920-longfield-smith.md`, `rigsarkivet-st-croix-agricultural-research-station-1907-1917.md` og `st-croix-herald-1922-mr-gedde-slob.md`. Ingen datoer eller relationer er ændret.
