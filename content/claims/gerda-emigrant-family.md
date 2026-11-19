@@ -89,3 +89,19 @@ Rigsarkivet definerer kirkebøgernes A-lister som afgangslister over fraflyttede
 4. Hvis en af posterne peger mod udlandet, følg personen videre i samtidige ankomst- og folketællingskilder.
 
 Henning Benders oversigt er sekundær statistik; den originale kirkebogsindførsel er stadig nødvendig, før en person kan knyttes til familien.
+
+
+## Søgbare udvandrerregistre og destinationsspor
+
+Det Danske Udvandrerarkivs søgedatabase hos Aalborg Stadsarkiv viser i øjeblikket 412.034 personer og har felter for fornavn, efternavn, stilling, fødested, sidste opholdssted, bestemmelsessted, år og direkte/indirekte rejse. Den er derfor det vigtigste næste navneopslag for børnene og deres mulige efterkommere fra 1868 og frem: https://www.aalborgstadsarkiv.dk/UA.asp?UA=UAProtokol. Jeg har endnu ikke kunnet afvikle de konkrete formularsøgninger gennem den tilgængelige webvisning; databasen er identificeret, men ingen resultater fra den er påstået.
+
+Henning Benders oversigt giver også to nyttige geografiske pejlemærker:
+- 1868–1909: Skrøbelev havde 226 registrerede udvandrere, svarende til ca. 24 % af folketallet i 1890. Det understreger, at en søgning på hele sognet er relevant, men identificerer ikke familien.
+- 1872–1876: foredraget opgør syv udvandrere fra Skrøbelev til New Zealand/Dannevirke. Navnene er ikke gengivet i tabellen. Ingen af dem er koblet til Jørgen og Bodil; børnene Niels (f. 1872) og Jørgine (f. 1875) var små, og Niels døde i 1873.
+
+Der findes særskilte scannede registre på Arkivalieronline, som bør kontrolleres ved siden af den søgbare database:
+- Direkte udvandrere 1869–1921: https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=21995872
+- Indirekte udvandrere 1869–1921: https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=23522257
+- Indirekte mormonudvandring via København 1872–1894: https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=23522258
+
+Disse er register-/billedvisninger, ikke i sig selv navnefund. Søgningen skal først identificere en konkret person med sammenfaldende alder, fødested og sidste opholdssted.
