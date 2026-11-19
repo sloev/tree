@@ -1337,6 +1337,7 @@
 1 SEX M
 1 BIRT
 2 DATE 9 OCT 1908
+1 OCCU Tjenestekarl, Nybøl (1930)
 1 OCCU Landarbejder (karl), Snogbæk (1932)
 0 @I193@ INDI
 1 NAME Holger /Eriksen/
@@ -1544,7 +1545,8 @@
 1 NAME Ove Samuel /Gedde/
 1 SEX M
 1 BIRT
-2 DATE 28 FEB 1778
+2 DATE 28 MAY 1778
+2 PLAC Fredrikstad
 1 DEAT
 2 DATE 10 MAR 1843
 2 PLAC Helsingør
@@ -2712,6 +2714,10 @@
 2 DATE 28 NOV 1878
 1 DEAT
 2 DATE 22 NOV 1931
+2 PLAC Bangkok, Siam
+1 OCCU Bogholder, Siam Electricity Co. og Siamese Tramway Co., Bangkok (1900–ca. 1914)
+1 OCCU Chief Accountant / auditor, Water Works, Bangkok (1917–1924)
+1 OCCU Bestyrelsesformand/direktør, Nai Sok Tin Mining Co., Bangkok (1917–1930)
 1 FAMC @F43@
 0 @I357@ INDI
 1 NAME Oluf (Olaf) Christian Kleist /Gedde/
@@ -2722,6 +2728,9 @@
 2 DATE 4 JUL 1961
 1 OCCU Kommis (handelsmedhjælper)
 1 OCCU Udvandrer til Shanghai, Kina (1904)
+1 OCCU Bogholder/accountant, Siam Electricity Co., Bangkok (1908–1914)
+1 OCCU Plantage på Java; elektricitetsselskab i Japan (til ca. 1930)
+1 OCCU Grosserer, København
 1 FAMC @F43@
 0 @I358@ INDI
 1 NAME Ellen /Gedde/
@@ -2892,7 +2901,9 @@
 1 NAME Jørgen /Petersen/
 1 SEX M
 1 BIRT
-2 DATE 1904
+2 DATE 26 SEP 1904
+2 PLAC Nybøl
+1 OCCU Gårdmand, Nybøl (1930)
 1 FAMC @F102@
 0 @I382@ INDI
 1 NAME Marie /Petersen/
