@@ -87,6 +87,16 @@ def build():
     if activity.get("schema") != "activity/v1":
         raise SystemExit("Activity Markdown record is invalid")
 
+    migration_path = ROOT / "content" / "migrations" / "migration-events.md"
+    migration_match = re.match(r"\\A---\\s*\\n(.*?)\\n---\\s*\\n?(.*)\\Z", migration_path.read_text(encoding="utf-8"), re.S)
+    if not migration_match:
+        raise SystemExit("content/migrations/migration-events.md has no YAML front matter")
+    migration_data = yaml.safe_load(migration_match.group(1)) or {}
+    if migration_data.get("schema") != "migration-events/v1":
+        raise SystemExit("Migration event Markdown record has an invalid schema")
+    if not isinstance(migration_data.get("events"), list) or not isinstance(migration_data.get("local_notes"), list):
+        raise SystemExit("Migration event record must contain events and local_notes lists")
+
     map_records = records("maps", "map/v1")
     if len(map_records) != 1:
         raise SystemExit("Expected exactly one content/maps map/v1 record")
@@ -184,6 +194,45 @@ def build():
             "dossier": meta.get("dossier") or extra.get("dossier"),
         })
 
+    # Migration events are deliberately separate from the single map-geometry record.
+    # Validate all references so no orphaned or private person can leak onto the public map.
+    public_people = {str(meta["id"]): meta for meta, _body, _path in people_records if not is_private(meta)}
+    claim_index = {str(item["id"]): item for item in claims}
+    migration_events = []
+    allowed_event_types = {
+        "contract_destination",
+        "contract_destination_transcription",
+        "settlement_identification_hypothesis",
+        "archive_search_target",
+    }
+    allowed_layers = {"documentary-lead", "hypothesis", "research-target"}
+    for event in migration_data["events"]:
+        if not isinstance(event, dict) or not event.get("id") or event.get("event_type") not in allowed_event_types:
+            raise SystemExit("Invalid migration event: every event needs an id and supported event_type")
+        person_id = str(event.get("person_id") or "")
+        claim_id = str(event.get("claim_id") or "")
+        if person_id not in public_people:
+            raise SystemExit(f"Migration event {event['id']} references a missing/private person: {person_id}")
+        if claim_id not in claim_index:
+            raise SystemExit(f"Migration event {event['id']} references a missing claim: {claim_id}")
+        if event.get("layer") not in allowed_layers:
+            raise SystemExit(f"Migration event {event['id']} has an invalid map layer")
+        try:
+            lat, lon = float(event["latitude"]), float(event["longitude"])
+        except (KeyError, TypeError, ValueError):
+            raise SystemExit(f"Migration event {event['id']} needs numeric latitude and longitude")
+        if not (-90 <= lat <= 90 and -180 <= lon <= 180):
+            raise SystemExit(f"Migration event {event['id']} has coordinates outside valid ranges")
+        event = dict(event)
+        event["person_name"] = str(public_people[person_id].get("name") or person_id)
+        event["claim_title"] = str(claim_index[claim_id].get("title") or claim_id)
+        migration_events.append(event)
+    migration_notes = []
+    for note in migration_data["local_notes"]:
+        if not isinstance(note, dict) or not note.get("id") or str(note.get("claim_id") or "") not in claim_index:
+            raise SystemExit("Invalid local migration note or missing claim reference")
+        migration_notes.append(dict(note))
+
     if config.get("photo_order"):
         order = {str(name): index for index, name in enumerate(config["photo_order"])}
         photos.sort(key=lambda item: (order.get(item["file"], len(order)), item["file"]))
@@ -209,6 +258,7 @@ def build():
         "links": config.get("links") or [],
         "sources": config.get("sources") or [],
         "private_blob": vault["blob"],
+        "migrations": {"events": migration_events, "local_notes": migration_notes},
     }
     research = {"claims": claims}
 
