@@ -8,6 +8,8 @@ validation: "konkret sekundær genealogisk dokumentation med navngivne kirkebogs
 person_ids: []
 sources:
   - "salomon-gedde-fischer-descendants-arends-1934"
+  - "augustenborg-krigergrave-fischer-1849"
+  - "rigsarkivet-soldat-1848-1850-guide"
 ---
 
 ## Claim
@@ -60,3 +62,19 @@ Dette dokumenterer ikke en ny direkte forfaderlinje til Lorenz, men det viser, a
 Arends skriver i indledningen, at han ikke kunne indhente udtømmende oplysninger om den del af Fischer-slægten, der boede i udlandet. Det er en konkret begrundelse for at undersøge denne gren i udvandrings- og udenlandske kilder, men ikke i sig selv belæg for, at nogen emigrerede. Prioritér først at rekonstruere alle elleve børn og deres efterkommere, og søg derefter efter dokumenterede udrejser, ankomster og senere bopæle.
 
 **Kildekritik:** Oplysningerne ovenfor er gengivelser fra Arends' trykte slægtstavle og er endnu ikke alle kontrolleret mod originalkirkebøger eller militære personalakter. Edvards deltagelse i krigen og dødsfald i 1849 er en stærk sekundær oplysning; hans militærrulle og lazaret-/dødsindførsel er oplagte primærkilder.
+
+
+## 1849-krigssporet: navnevariant og arkivmæssig kontrolvej
+
+En supplerende gennemgang af Augustenborg Kirkegårds bevarede krigergrave identificerer den samme sandsynlige unge Fischer som **Eduard Gedde Victor Fischer**, født 6. august 1827 i Vor Frue sogn i København, død af tyfus på Augustenborg Lazaret 19. juni 1849 og begravet 24. juni. Han beskrives som frivillig menig ved 1. lette Infanteribataljon, 2. kompagni, overkomplet nr. 83. Indlægget anfører desuden konfirmation i Trinitatis 1842, lærling hos urtekræmmer Klinges enke i 1845 og henvisningen **Cohen 1849/103: Victor Fischer**.
+
+Der er en vigtig navnevariation, som ikke bør normaliseres væk uden originalkilder:
+- Arends (1934) skriver **Edvard Gedde Victor Fischer** og kalder hans far **Tycho Johan Fischer**.
+- Krigergravsoversigten skriver **Eduard Gedde Victor Fischer** og kalder faderen **Johan Tycho Fischer**.
+- GEDCOM-projektet hos Danske Slægtsforskere har varianten **Wictor Eduart Fischer** og kobler ham til Tycho Johan Fischer og Nicoline Hermine Baggesen.
+
+Fødselsdato, mor og familiekontekst peger på én og samme person, men original dåb og militær-/lazaretakter skal kontrollere stavemåde og forældrenes navneorden. Navnevarianterne bevares derfor som kildeafhængige læsninger.
+
+Rigsarkivets vejledning viser en konkret primærkildevej: Register over døde i krigen 1848–1850 (Robert Lemming, 1997–1998) er indscannet og kan læses i Søg i Samlingerne. Der findes desuden lazaretprotokoller under Forsvarets Lægekorps, arkivserien *Lazaretter Treårs-krigen og 1864* (1848–1895); protokollerne er ikke skannet og skal bestilles til læsesalen. Disse protokoller kan indeholde enhed, rang, sygdom samt indlæggelses-, udskrivnings- og dødsdatoer.
+
+**Foreløbig vurdering:** Den militære identifikation er nu væsentligt stærkere end den tidligere korte omtale i Arends, men den er fortsat baseret på sekundære sammenstillinger. Cohen-henvisningen og Rigsarkivets indscannede register giver en konkret, afgrænset næste kontrolopgave.
