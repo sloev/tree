@@ -159,3 +159,10 @@ Mortensen (1969) siger, at Marius byggede dæmningen sammen med tre sønner og e
 Rudkøbing Byhistoriske Arkivs *Døde på Langeland 1970–2020* anfører **Georg Johannes Christensen**, tidligere konservesfabrikant, Tom Knudsensvej 43, Lohals, Hou, 79 år, død **2. marts 1972**. Navnet og alderen passer med Georg Johannes Christensen i træet (født 10. oktober 1892; 79 år ved dødsfaldet), og Lohals ligger på Langeland. Det er derfor et stærkt match, men den originale kirkebogsindførsel bør stadig kontrolleres. [Se dødsindekset](https://byarkivet.langelandkommune.dk/p/Byhistorisk_Arkiv/Links/D%C3%B8de%20p%C3%A5%20Langeland/55-%C3%A5rs-d%C3%B8dsfald-p%C3%A5-Langeland-1970-2025.pdf).
 
 Dette giver Georg et sandsynligt livsforløb i Danmark frem til 1972 og gør ham til en mindre sandsynlig transatlantisk emigrant. Indekset beviser ikke, at han aldrig rejste udenlands; det dokumenterer, at en person med præcist samme fulde navn og passende alder døde på Langeland.
+
+
+## Arbejdshypotese: Christian Anton kan være den fraværende ældste søn på ca. 1900-fotografiet
+
+Billedteksten nævner Marius og Ane Marie samt seks andre navne: Jens, Martha, Georg, Valdemar, Kristine og Kristian. Hvis portrættet viser forældrene og seks af de syv børn, passer navnelisten aldersmæssigt præcist med alle børn undtagen **Christian Anton Christensen (født 1879)**: Valdemar var født 1899, og de øvrige seks søskende var født 1884–1895. I så fald kan billedtekstens “Kristian” være den yngre **Christian Jørgen (født 1887)**, mens den ældste Christian Anton er den, der ikke er med på billedet.
+
+Dette er en **arbejdshypotese**, ikke en identifikation. Billedteksten siger ikke direkte, at alle otte personer er forældrene og seks børn, og den angiver ikke de to Christian-sønners fulde navne. Men hypotesen gør Christian Anton til en særlig vigtig person at følge efter 1900: han var ca. 21 år, mens de øvrige børn stadig var yngre. En fraværelse fra fotografiet beviser hverken udvandring eller brud med familien.
