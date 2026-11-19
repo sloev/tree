@@ -132,7 +132,7 @@ Rigsarkivets vejledning anbefaler Hirsch' kartotek over danske og norske officer
 
 ## Personalhistorisk Tidsskrift 1882 — tidligt belæg for 28. maj 1778
 
-*Personalhistorisk Tidsskrift*, 3. bind (1882), s. 170–171, indeholder en stamtavle over familien Gjedde. Den anfører Ove Samuel født **28. maj 1778**, død 10. marts 1843; Nicolai Wilhelm født 27. december 1779; og Frederik Christoffer født 2. februar 1781. Stamtavlen angiver, at den er udarbejdet efter egne annotationer, Benzons stamtavler, Lengnicks kirkebogsuddrag og materiale i Geheimearkivets personalhistoriske samling. Det er et stærkt, tidligt genealogisk belæg, men ikke selve dåbsindførslen.
+*Personalhistorisk Tidsskrift*, 3. bind (1882), s. 170–171, indeholder en stamtavle over familien Gjedde. Den anfører Ove Samuel født **28. maj 1778**, død 10. marts 1843; Nicolai Wilhelm født 27. december 1779; og Frederik Christoffer født 2. februar 1781. Efter Ove Samuels personpost står en vielsesnotering, som OCR gengiver “1806 24/a”; den er ikke sikker nok til at fastslå måneden. Harbou (1897) anfører vielsen 24. juni 1806. Stamtavlen angiver, at den er udarbejdet efter egne annotationer, Benzons stamtavler, Lengnicks kirkebogsuddrag og materiale i Geheimearkivets personalhistoriske samling. Det er et stærkt, tidligt genealogisk belæg, men ikke selve dåbsindførslen.
 
 Denne kilde styrker 1778-vurderingen væsentligt: den passer med nekrologen fra 1843 og Liebe/Borgstrøm, mens *Norske Slægter* (1912) anfører 1788, men samtidig kalder Ove Samuel den ældste søn og Nicolai Wilhelm født 1779. Ankers 1885 OCR læser også 1788, men siden er markeret som urettet OCR og faksimilen er endnu ikke visuelt kontrolleret. 1778 er fortsat klart bedst understøttet.
 
