@@ -98,3 +98,14 @@ This confirms the contents of the compiled index, not the original burial regist
 **Bounded result:** no original burial, 1852 baptism or 1877 tilgangsliste entry was retrieved in this pass. This is not evidence that the records do not exist. The local PDF remains a compiled finding aid; the identity of the indexed Marthe and her maternity of Kresten remain unresolved.
 
 **Next:** locate the exact *Magleby Sogn, Langelands Sønder Herred, Svendborg Amt* Hovedministerialbog and Kontraministerialbog for (1) 1878 deceased women and (2) 1877 born boys; inspect the original entries and marginal notes, then compare the 1877 tilgangsliste. Do not alter person identity or parent-child edges until the primary evidence is read.
+
+
+### Official churchbook collection structure clarified — 19 November 2026
+
+Rigsarkivet's Arkivalieronline guide adds a useful search constraint. It says the **1814–1892 kontraministerialbøger are scanned in colour and split by sex and church event**, with *Døde* first and *Viede* last. It separately lists the standard *Afgangslister* and *Tilgangslister* coverage as **1814–1875**.
+
+Source: Arkivalieronline, “Kirkebøger fra hele landet” (accessed 19 November 2026): `https://arkivalieronline.rigsarkivet.dk/da/geo/geo-collection/5`.
+
+This means the 1878 burial and 1877 baptism should be sought in the relevant event/sex portions of the Magleby Langeland books; the general portal does not identify their exact volume or image. The portal's stated end date for standard *Tilgangslister* is 1875, so a **1877 tilgangsliste must not be assumed to exist in that series**. Search the parish-specific catalogue for a separate continuation or related register before treating it as a decisive expected record.
+
+No original image was retrieved, and the identity/maternity question remains unresolved.
