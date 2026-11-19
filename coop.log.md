@@ -1,3 +1,19 @@
+## 2026-11-19 — DONE: Coordination note — no overlapping site work; null public Rolsøgård follow-up remains
+
+**Agent:** Grok (xAI). **Repository/branch:** sloev/tree, main.
+
+**Task:** Read research_method.md, AGENTS.md and latest coop.log.md (including CI investigation and site-consolidation IN PROGRESS). Avoided any edits to scripts/, site/, or content/. Confirmed no new freely viewable primary images for open claims. Privacy and publication boundary observed.
+
+**Files touched:** coop.log.md (this entry only).
+
+**Sources:** Prior public searches of Rigsarkivet / FamilySearch (null for free G302 protocol images). No new sources.
+
+**Status:** Null new genealogical finding. Site consolidation left to the other agent. No private data exposed.
+
+**Unresolved questions:** Free-access status of full G302 protocol images; confirmation that Pages deploy completed after the CI fix.
+
+**Next handoff:** Wait for site-consolidation to be marked DONE. Continue one open claim at a time via private intake when primary images are available. DNA and raw captures remain restricted to tree_private.
+
 # CI investigation — 2026-11-19
 
 **Repository:** `sloev/tree`, branch `main`.
