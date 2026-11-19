@@ -42,3 +42,23 @@ Barbara Świadeks forskningsartikel fra 2023 nævner varianterne Czarten, Czarth
 Mikrofilm R 23948 til 1640-sagen er den bedste første adgang. Bestil derefter 1630-sagen om Jobst Zahrten, 1622–1623-sagen om Ernst og Anna Zarten, samt 1602–1624- og 1612–1613-sagerne. Originalerne skal undersøges for ægtefæller, arvinger, værger, ejendomme, medgift og eksplicitte slægtskabsord.
 
 **Status:** Stærk arkivklynge og konkret bestillingsplan. Ingen originalakt er endnu gennemset; ingen ny personrelation eller livsdato er bevist.
+
+
+## Yderligere pommersk Zarten-kronologi og 1703-spor
+
+En nyere forskningsartikel af Barbara Świadek (2023) sammenfatter flere ældre oplysninger om Zarten-familien. Den understreger samtidig, at kilderne er så sparsomme, at en komplet genealogi ikke kan rekonstrueres. Artiklen nævner:
+
+- **1491:** første kendte omtale af Zarten-familien som jordbesiddere i Pommern.
+- **1524:** Kurt Czarten optræder i forbindelse med et våbensegl.
+- **1548:** hertug Barnim XI skal have givet len til brødrene Peter, Simon og Georg von Zarten fra Glodowa (Głodowa). Artiklen henviser her til Berghaus, *Landbuch des Herzogthums Pommern*, s.335.
+- **1588:** Hans von Zarten skal have solgt sin søn Ernst rettigheder til godser i Glodowa, Dubbertech og Priddargen for 1.500 floriner i 25 år. Artiklen henviser til Bagmihl, *Pommersches Wappenbuch*, bd.5, s.108.
+- **1631:** Paul Zartte omtales som starost; artiklen henviser til Berghaus, s.335.
+- **1665:** en huldigungs-/skatteliste nævner Zarten-besiddelser i Glodowa og Wierzchowo.
+- **1703:** en ny officiel arkivpost i Szczecin, **65/2/0/3.16/III.411**, har titlen: *Der Hauptmann und die Beamten zu Bublitz Bogislaf von Zarten in po: juni Patronatu in Sahsenburg et annexorum*. Den er dateret 1703 og registreret uden scanninger. [Officiel serieliste](https://www.szukajwarchiwach.gov.pl/de/web/guest/seria?_Seria_cur=1&_Seria_delta=20&_Seria_id_serii=385032&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal&refererPlid=2144199) · [Arkivpost](https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/7894107)
+- **1741:** artiklen omtaler et dokument, der gentager familiens godsbesiddelser; den præcise akt/signatur er endnu ikke identificeret.
+
+Denne kronologi gør 1640-sagen om Jobst Zarten og 1703-sagen om Bogislaf von Zarten særligt interessante som mulige led i en kontinuitet omkring Sassenburgs patronatsret. Det er dog ikke bevist, at Jobst og Bogislaf er beslægtede, eller at Bogislaf nedstammer fra Justus/Jobst fra 1873-genealogien.
+
+Artiklens øvrige vigtige oplysning er, at Zarten-navnet forekommer i varianterne Czarten, Czarthen, Czarthe, Zarte, Zarthen, Zarten, Zarth og Zart. Disse former bør bruges ved søgning i ældre lens- og retsakter. [Świadek 2023, trykt s.50–52](https://journals.akademicka.pl/krzysztofory/article/view/5779).
+
+**Bestillingsprioritet opdateret:** Bestil 1640-mikrofilm R 23948 sammen med 1703-enheden III.411. De to sager vedrører begge patronatsretten i Sassenburg og kan muligvis vise, hvem der efterfulgte Jobst i rettigheden. Bestil derefter 1630-sagen 6069 og de 1622–1646 Zarten-sager, som kan forklare familie- og formueforholdene.
