@@ -81,3 +81,19 @@ The 1619 Pustamin case sits within a wider cluster in **Sąd Kameralny Rzeszy w 
 [Official Wetzlar series, "Procesy na literę B"](https://www.szukajwarchiwach.gov.pl/en/seria?_Seria_delta=200&_Seria_id_serii=382249&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal)
 
 These records may clarify the Below family branches at Saleske, Peest and Pustamin, including whether the 1619 Henning is the same person as the 1626 Landvogt Henning. They do not yet name Otto's widow Christina. Order 65/7/0/2.9/100 and 102–104, plus the Wetzlar cluster 62–70, before attempting to merge branches.
+
+
+## Klempin/Kratz 1863: digital estate-history reference for Pustamin
+
+A digitised copy of Robert Klempin and Gustav Kratz (eds.), *Matrikeln und Verzeichnisse der Pommerschen Ritterschaft vom XIV bis in das XIX Jahrhundert* (Berlin, 1863; 748 pages) is held by **Książnica Pomorska** in Szczecin:
+
+- [Książnica Pomorska digital edition](https://zbc.ksiaznica.szczecin.pl/dlibra/publication/1457/edition/1212)
+- [Digital content viewer](https://zbc.ksiaznica.szczecin.pl/dlibra/publication/1457/edition/1212/content)
+- Original library shelfmark **N2350**; DVD references **ZBC196/ZBC197**; DjVu format.
+- [Google Books record with index and place register](https://books.google.de/books?hl=de&id=yLNXAAAAcAAJ)
+
+The *Rittergüter-Lexikon* entry for Pustamin cites Klempin/Kratz 1863, **pp.431, 533 and 648** as historical literature for the estate. These pages and the book's family/place indexes (printed pp.663 onward) are a targeted way to test the Below chronology at Pustamin. The book has been identified but these pages have not yet been inspected; the Książnica viewer timed out during this review.
+
+The estate register lists known later owners including von Below from 1756 onward. That does not necessarily exclude an earlier Below residence, fief or temporary possession: the 1619 court title names Henning von Below "zu Pustamin", and the 2025 Kleist history identifies Otto von Below "auf Pustamin". The apparent difference should be resolved by reading Klempin/Kratz and the original 1619 file, not by assuming the later owner list is exhaustive.
+
+Ask Książnica Pomorska (zbc@ksiaznica.szczecin.pl; +48 91 481 91 10) for printed pp.431, 533 and 648 and index entries for Below, Otto, Henning, Pustamin, Pustemien/Postomino and Salleske/Saleske. No page has yet been read.
