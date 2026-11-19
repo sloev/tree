@@ -138,3 +138,22 @@ Rigsarkivets vejledning anbefaler Hirsch' kartotek over danske og norske officer
 Denne kilde styrker 1778-vurderingen væsentligt: den passer med nekrologen fra 1843 og Liebe/Borgstrøm, mens *Norske Slægter* (1912) anfører 1788, men samtidig kalder Ove Samuel den ældste søn og Nicolai Wilhelm født 1779. Ankers 1885 OCR læser også 1788, men siden er markeret som urettet OCR og faksimilen er endnu ikke visuelt kontrolleret. 1778 er fortsat klart bedst understøttet.
 
 **Konkret kirkebogssøgning:** Fredrikstad hovedsogns ministerialbog 1750–1804, arkivsignatur SAO/A-11082/F/Fa/L0002, er digitaliseret i Digitalarkivet: https://media.digitalarkivet.no/kb/contents/7448. Det er en søgeindgang, ikke dokumentation for at Ove Samuel blev født i Fredrikstad; nekrologen siger kun, at han blev født i Norge. Originalen skal kontrolleres, og en parallel klokkerbok undersøges, hvis den findes.
+
+
+## Ny kontrol: samtidige danske militærkalendere (1820–1837)
+
+Tre årgange af *Kongelig Dansk Hof- og Stats-Calender* identificerer Ove Samuel v. Gedde som officer i den danske hær:
+
+- **1820**, trykt s. 205–206: “Ove Samuel v. Gedde” står blandt majorerne ved Hs. H. Prinds Christian Frederiks Regiment. Kalenderen bemærker, at regimentet fik dette navn 17. januar 1806. Det er en statusoplysning i 1820, ikke bevis for hans ansættelse i 1806. [Digital udgave](https://slaegtsbibliotek.dk/918040.pdf).
+- **1831**, trykt s. 249–250: “Major Ove Samuel v. Gedde” står ved Kronens Regiment til Fods, garnisoneret i Helsingør. [Digital udgave](https://slaegtsbibliotek.dk/918090.pdf).
+- **1837**: “Ove Samuel v. Gedde” betegnes som oberstløjtnant i Kronens Regiment. [Digital udgave](https://slaegtsbibliotek.dk/908094.pdf).
+
+Disse samtidige officielle tryksager giver en uafhængig tidsserie for hans militære identitet, rang og regimentstilknytning. De er nyttige til at målrette regimenternes stambøger og personelarkiver, men dokumenterer ikke i sig selv, at han tegnede de norske kort.
+
+## Samlet vurdering af kartografisporet
+
+Kartverket anfører fuldt navn “Ove Samuel Gedde” som kartograf på 32C-6-øst (Hedmark, 1805, Rektangelmålinger, 1:10.000). Den tilknyttede 1796-post for Smålenenes amt nr. 204 angiver “Ove Samuel” som skaber, men uden efternavn. Samtidig var faderen Hans Christopher Gedde direktør for Norges geografiske opmåling 1796–1802, mens Ove Samuel ifølge nekrologen havde sin egen militære karriere i norsk og senere dansk infanteritjeneste.
+
+Det gør identifikationen værd at undersøge, men ikke afgjort: katalogmetadata er ikke det samme som en original signatur. Den viste 1805-forhåndsvisning er for lavopløselig til at kontrollere signaturen, og 1796-kortets titelblok skal undersøges i original opløsning. Rigsarkivets katalog viser nu en mere præcis søgevej i Ingeniørkorpsets norske arkiv: registre til korrespondance 1770–1813, indkomne breve fra norske fæstninger 1801–1813, kgl. ordrer og norske byggeprojekter 1766–1813. [Arkivalieronline](https://arkivalieronline.rigsarkivet.dk/da/other/other-collection/81) og [arkivoversigt](https://slaegtsbibliotek.dk/905137.pdf).
+
+**Foreløbig konklusion:** Ove Samuel Gedde er uafhængigt identificeret som officer i samtidige officielle kalendere, og Kartverket tilskriver ham mindst ét 1805-kort med fuldt navn samt et 1796-kort med fornavnene “Ove Samuel”. Hans personlige udførelse af kortene er fortsat en arbejdshypotese. Ingen genealogisk relation eller kanonisk fødselsdato ændres på dette grundlag.

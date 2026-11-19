@@ -17,6 +17,7 @@ sources:
   - "Link-Lives: https://link-lives.dk/soeg/pa/12-4983393"
   - "Rigsarkivet: https://www.rigsarkivet.dk/vejledning/fra-dansk-demografisk-database-til-soeg-i-samlingerne/"
   - "fyens-historien-om-en-daemning-2011"
+  - "langeland-death-index-1900-1969"
   - "Dansk Demografisk Database: https://ddd.dda.dk/vejlelister/soeg_udvandrede.asp"
 ---
 
@@ -120,9 +121,10 @@ Det er et nyt spor til at identificere de familiemedlemmer, der arbejdede på d�
 
 Der er samtidig en **dødsårskonflikt**:
 - Nordlangelands Lokalarkivs register over *Øboer* 2011 siger, at Ane Marie døde i 1930, mens Marius blev boende på Langø til sin død i **1934**. [Lokalarkivets register](https://byarkivet.langelandkommune.dk/boeger-brochurer/register-over-artikler-i-oeboer).
+- Rudkøbing Byhistoriske Arkivs samlede døds- og begravelsesliste 1900–1969 har en præcis indførsel: **Marius Michelsen Christensen, aldersrentenyder, Langø, Humble, 75 år, død 21. marts 1934 (HU)**. Koden HU henviser til Humble sogn. [Se arkivets liste](https://byarkivet.langelandkommune.dk/p/Dokumenter/Rudkoebing_Byhistorisk_Arkiv/D%C3%B8delister_Langeland/Juni-2020_69-%C3%A5rs-d%C3%B8dsfald-p%C3%A5-Langeland-1900-1969.pdf), trykt/indekseret alfabetisk under Christensen.
 - Fyens Stiftstidendes artikel *Historien om en dæmning* (Susanne Jølck, 11. september 2011) angiver i det tilgængelige tekstudtræk, at Marius døde i 1930, og at Valdemar overtog Langø derefter. [Artiklen](https://fyens.dk/forside/historien-om-en-daemning).
 - Mortensens bog registrerer Marius som modtager af det største sølvbæger i 1933, hvilket taler for, at han stadig levede i 1933.
 
-Den mest sandsynlige forklaring er, at Fyens-artiklen har forvekslet Ane Maries dødsår (1930) med Marius' (1934). **1934 er den bedst understøttede foreløbige dato**, men kirkebogens dødsindførsel skal findes, før den bruges som endeligt faktum.
+**Foreløbig afgørelse:** Dødsåret 1934 er nu understøttet af to uafhængige lokalhistoriske oversigter, en præcis dødsdato i den samlede dødsindeks og hædersbevisningen i 1933. Fyens-artiklens 1930 er sandsynligvis en fejl eller forveksling med Ane Maries dødsår. Den samlede dødsindeks er dog et sekundært hjælpemiddel, hvis indledning selv advarer om mulige læsefejl og uoverensstemmelser mellem kirkebøger. **21. marts 1934 bør derfor stå som stærkt understøttet foreløbig dato, indtil den oprindelige Humble-kirkebogsindførsel er kontrolleret.**
 
 <sup>1</sup> Værkets titelblad angiver Erling Mortensen som redaktør/forfatter og udgivelse ved Det kgl. danske Landhusholdningsselskabs Forlag, København, 1969. Den relevante omtale står på trykt side 91.
