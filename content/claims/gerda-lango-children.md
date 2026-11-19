@@ -62,3 +62,10 @@ Efter et muligt dansk udrejsefund skal identiteten bekræftes med mindst flere s
 - Ingen nye slægtskabsrelationer eller oversøiske efterkommere er tilføjet på baggrund af navnelighed alene.
 
 *Forskningsstatus opdateret 19.11.2026. Status: foreløbig; identificerede personer er ikke lig med dokumenterede emigranter.*
+
+
+## Afgrænsning mod beslægtede udvandrere
+
+Et vigtigt nærliggende udvandrerfund må ikke tælles som en af Langø-børnenes efterkommere: **Iver Peder Holgersen** rejste ifølge Københavns Politis udvandrerprotokol til Fresno 8. september 1910. Han var bror til Axel Erik Holgersen, som blev gift med Kristine Adamine Margrethe Christensen. Iver er dermed beslægtet med Langø-familien gennem ægteskab, men ikke en direkte efterkommer af Marius og Ane Marie. Se særskilt forskningspost `gerda-iver-emigration`.
+
+Den nuværende GEDCOM viser Valdemar Emil som den eneste af Langø-børnene med en oprettet familiepost; barnet er privatmarkeret, og oplysninger om nulevende eller privatbeskyttede efterkommere bruges ikke her. Der er endnu ikke fundet en dokumenteret transatlantisk rejse blandt de direkte efterkommere i den offentlige del af træet.
