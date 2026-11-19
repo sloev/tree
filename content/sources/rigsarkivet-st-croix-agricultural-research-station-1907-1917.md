@@ -5,7 +5,7 @@ title: "Rigsarkivet: Landbrugsforsøgsstationen på Skt. Croix, 1907–1917"
 creator: "Koloniernes Centralbestyrelse, Vestindisk Kontor"
 date: "1907–1917"
 source_type: "arkivregistratur og digitaliseret arkivserie"
-validation: "arkivserien er identificeret; konkrete Gedde-sager og personaleakter er endnu ikke gennemgået"
+validation: "arkivserien er identificeret i Arkivalieronline og DAISY; Rigsarkivets trykte registratur 1975 angiver serie nr. 904, 1907–1917, 1 pakke; konkrete Gedde-sager er endnu ikke gennemgået"
 url: "https://arkivalieronline.rigsarkivet.dk/da/other/other-collection/110"
 accessed: "2026-11-19"
 ---
@@ -18,7 +18,7 @@ Rigsarkivets Arkivalieronline-katalog for “Plantager (Vestindien)” viser en 
 - **Arkivserie:** Landbrugsforsøgsstationen på Skt. Croix.
 - **Yderår:** 1907–1917.
 
-Det er det oplagte primære arkivspor for at teste, om Emil Ludvig Eduard Gedde blev ansat, udnævnt eller fik bestemte opgaver på forsøgsstationen i 1915–1917, mens øerne endnu var danske.
+Rigsarkivets *Vejledende Arkivregistraturer XX: Koloniernes Centralbestyrelse* (1975), trykt s. 80, identificerer serien som **nr. 904, 1907–1917, 1 pakke**. Arkivalieronline og DAISY bekræfter arkivskaber, serienavn og yderår. Det er det konkrete primære arkivspor for at teste, om Emil Ludvig Eduard Gedde blev ansat, udnævnt eller fik bestemte opgaver på forsøgsstationen i 1915–1917.
 
 ## Supplerende historisk kontrol
 
@@ -37,11 +37,12 @@ Bed Rigsarkivet om hele serien “Landbrugsforsøgsstationen på Skt. Croix (190
 - Forsøgsleder, forsøgsstation, Slob, landbrug, agronom.
 - Ansættelse, løn, bolig, tjeneste, afsked og overdragelse 1915–1917.
 
-Registraturen angiver ikke på forhånd, at Gedde optræder i serien. Dette er et konkret arkivmål, ikke et fund af en bestemt personalesag.
+Den trykte registratur beskriver ikke pakkens enkeltdokumenter, og Arkivalieronline-serievisningen giver ikke i sig selv en transskription af indholdet. Registraturen angiver ikke på forhånd, at Gedde optræder i serien. Dette er et præcist arkivmål (nr. 904, 1 pakke), ikke et fund af en bestemt personalesag.
 
 ## Kilder
 
 - Arkivalieronline, Plantager (Vestindien): https://arkivalieronline.rigsarkivet.dk/da/other/other-collection/110
+- Rigsarkivet, *Vejledende Arkivregistraturer XX: Koloniernes Centralbestyrelse* (1975), trykt s. 80, serie nr. 904: https://www.rigsarkivet.dk/wp-content/uploads/2022/06/Vejledende-Arkivregistraturer-XX-Koloniernes-Centralbestyrelse.pdf
 - Rigsarkivet, *Registratur: Sources in the Danish National Archives on the history of the Danish West Indies*, 2026: https://www.rigsarkivet.dk/wp-content/uploads/2024/08/Registratur-Dansk-Vestindien.pdf
 - USVI Department of Agriculture, “Our History”: https://doa.vi.gov/our-history/
 - *Report of the Virgin Islands Agricultural Experiment Station, 1920*: https://upload.wikimedia.org/wikipedia/commons/b/be/Report_%28IA_report1920virg%29.pdf
