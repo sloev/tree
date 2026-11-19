@@ -64,16 +64,3 @@ USDA's *Work and Expenditures of the Agricultural Experiment Stations, 1918* opl
 Årsrapporten for 1923 (udgivet juli 1924) oplister **John B. Thompson** som agronomist in charge, C. E. Wilson som entomolog og W. M. Perry som horticulturist. Gedde står ikke blandt de tre navngivne fagmedarbejdere. Det udelukker ikke en anden lokal tilknytning, men det understreger, at den biografiske formulering “Forsøgsleder 1915–1922” ikke uden videre kan læses som stationens øverste leder i hele perioden.
 
 Den bedste arbejdshypotese er nu: Eduard Gedde var reelt tilknyttet Slob Experimental Station i 1918 og muligvis fortsat tilknyttet i 1922, men hans formelle rolle skal findes i danske ansættelses-/lønakter og amerikanske stationens personalesager. Longfield Smith var i hvert fald den officielle agronomist in charge i 1918 og 1920; John B. Thompson var det i 1923.
-
-
-## 1922-kontrol: den præcise avisudgave læser MR. GEDDE
-
-Den digitale PDF af *The Herald*, torsdag 12. januar 1922, Vol. VII, nr. 55, har i tekstlaget den klare læsning **“MR. GEDDE, Slob Experimental Station”** i notitsen om bortkomne sølvbestik. Den tidligere variant “CEDDE” kommer fra en anden OCR-gengivelse/udgave og skal ikke overføres til 12. januar-siden. Dette bekræfter, at en person med efternavnet Gedde var kontaktperson ved Slob i januar 1922. Det fulde fornavn er ikke oplyst, så identiteten med Emil Ludvig Eduard er fortsat sandsynlig, men ikke direkte bevist.
-
-## Klubformandsposten 1919–1922
-
-*Danske Landbrugskandidater* (1944), trykt s.75, nr.563, anfører udtrykkeligt, at Emil Ludvig Eduard Gedde var **formand for St. Croix danske Klub og Læseforening 1919–1922**. Det er en klar biografisk kilde til posten, men ikke et referat eller en bestyrelsesprotokol. En senere avisnotits i *St. Croix Avis* (6. juli 1925) dokumenterer, at foreningen fortsat eksisterede, og at Enar Svendsen da var formand. Der er endnu ikke fundet en uafhængig bestyrelsesprotokol eller en 1919–1922-valgnotits, så formandskabet er veldokumenteret sekundært, men ikke primærverificeret.
-
-## Det præcise danske arkivmål
-
-Rigsarkivets registratur 1975 identificerer “Landbrugsforsøgsstationen på Skt. Croix” som **serie nr. 904, 1907–1917, 1 pakke**, under Koloniernes Centralbestyrelse, Vestindisk Kontor. Arkivalieronline viser serien, men indholdet af pakken er endnu ikke gennemgået. Den konkrete bestilling bør bede om hele pakke 904 og tilhørende journalsager, især Gedde/Gjedde/Eduard/Emil, løn, udnævnelse, stillingsinstruks, bolig og overdragelse i 1917.
