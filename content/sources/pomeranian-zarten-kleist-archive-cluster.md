@@ -62,3 +62,12 @@ Denne kronologi gør 1640-sagen om Jobst Zarten og 1703-sagen om Bogislaf von Za
 Artiklens øvrige vigtige oplysning er, at Zarten-navnet forekommer i varianterne Czarten, Czarthen, Czarthe, Zarte, Zarthen, Zarten, Zarth og Zart. Disse former bør bruges ved søgning i ældre lens- og retsakter. [Świadek 2023, trykt s.50–52](https://journals.akademicka.pl/krzysztofory/article/view/5779).
 
 **Bestillingsprioritet opdateret:** Bestil 1640-mikrofilm R 23948 sammen med 1703-enheden III.411. De to sager vedrører begge patronatsretten i Sassenburg og kan muligvis vise, hvem der efterfulgte Jobst i rettigheden. Bestil derefter 1630-sagen 6069 og de 1622–1646 Zarten-sager, som kan forklare familie- og formueforholdene.
+
+
+## Ernst Zarten in the Cammin tax register (1628–1644)
+
+Świadek's 2023 article adds a useful cross-check: it states that the seventeenth-century tax register of the Bishopric of Cammin lists **Ernst Zarten of Priddargen and Dubbertech**, citing Klempin, *Matrikeln und Verzeichnisse der Pommerschen Ritterschaft*, printed p.340 (footnote 87). The article also mentions an inscription naming Anna Blankenburg in connection with the family but explicitly says it cannot be determined whether she was Ernst Zarten's wife. [Świadek 2023, pp.50–52 and note 87](https://journals.akademicka.pl/krzysztofory/article/view/5779).
+
+This may connect to the official 1622–1623 case **65/7/0/2.19/1186**, Godfried Borcke v. Ernst Zarten concerning a remaining dowry of 500 florins and interest on 16 Hufen; the catalogue indexes Anna Zarten and Ernst Zarten. The proximity of the dates and the shared Ernst/Anna names make it worth testing, but the tax-register Ernst and the litigant Ernst are not yet proven to be the same people. Nor is Anna Blankenburg proven to be Anna Zarten. The original case may resolve the wife's maiden name, the dowry creditor and the estate connection.
+
+The same article refers to a 1572 horse-service list in Klempin, printed p.214, as an earlier family-level record. It is useful context for the Zarten family's noble status in the Bishopric of Cammin, but it is not a parent-child record for Christina or the Woyten family.
