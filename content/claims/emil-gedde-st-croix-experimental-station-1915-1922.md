@@ -13,7 +13,6 @@ sources:
   - "virgin-islands-agricultural-experiment-station-1920-longfield-smith"
   - "rigsarkivet-st-croix-agricultural-research-station-1907-1917"
   - "st-croix-herald-1922-mr-gedde-slob"
-  - "usda-experiment-station-record-1920-1922-thompson-st-croix"
 ---
 
 # Emil Ludvig Eduard Gedde på St. Croix — et nyt caribisk spor
@@ -65,10 +64,3 @@ USDA's *Work and Expenditures of the Agricultural Experiment Stations, 1918* opl
 Årsrapporten for 1923 (udgivet juli 1924) oplister **John B. Thompson** som agronomist in charge, C. E. Wilson som entomolog og W. M. Perry som horticulturist. Gedde står ikke blandt de tre navngivne fagmedarbejdere. Det udelukker ikke en anden lokal tilknytning, men det understreger, at den biografiske formulering “Forsøgsleder 1915–1922” ikke uden videre kan læses som stationens øverste leder i hele perioden.
 
 Den bedste arbejdshypotese er nu: Eduard Gedde var reelt tilknyttet Slob Experimental Station i 1918 og muligvis fortsat tilknyttet i 1922, men hans formelle rolle skal findes i danske ansættelses-/lønakter og amerikanske stationens personalesager. Longfield Smith var i hvert fald den officielle agronomist in charge i 1918 og 1920; John B. Thompson var det i 1923.
-
-
-## USDA's egne samtidige lister er indbyrdes modstridende
-
-*Experiment Station Record*, vol.43 (July–December 1920), p.II, lists “Virgin Islands — St. Croix: J. B. Thompson”; the page legend defines footnote 2 as “Agronomist in charge”. The same listing appears in vol.46 (January–June 1922), p.II. This directly conflicts with the station's 1920 annual report, whose title page and letter of transmittal dated 13 August 1920 name Longfield Smith as “Agronomist in Charge”. The 1918 federal directory also names Smith, while the 1923 station report names Thompson. Thus no simple succession date can be asserted: both Smith and Thompson are named as the senior agronomist in contemporary USDA material around 1920. Possible explanations include a changeover within 1920, overlapping roles, a distinction between report author and field agronomist, or an error in one of the directories. None is established.
-
-This does not disprove Gedde's operational connection to Slob. His 1918 signature and the 1922 notice establish a local connection, but do not specify his formal title. The 1944 biography's “Forsøgsleder 1915–1922” must be tested against appointment, payroll and correspondence records in the Danish colonial archive.
