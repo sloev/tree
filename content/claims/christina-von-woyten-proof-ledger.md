@@ -95,3 +95,12 @@ Den bedste første bestilling er 1640-akten på mikrofilm R 23948. Derefter bør
 En forskningsartikel fra 2023 om Zarten-familien opregner navnevarianterne Czarten, Czarthen, Czarthe, Zarte, Zarthen, Zarten og Zarth og advarer om, at kildematerialet ikke rækker til en fuldstændig genealogi. [Barbara Świadek, 2023](https://journals.akademicka.pl/krzysztofory/article/view/5779).
 
 **Status:** Arkivklyngen er verificeret på registraturniveau; ingen originalakt er gennemset. Ingen ny parent-child-relation, ægteskabsidentifikation eller livsdato er bevist.
+
+
+## Zarten-sporet udvidet: Bogislaf von Zarten i 1703
+
+En yderligere officiel registraturpost i Szczecin, **65/2/0/3.16/III.411 (1703)**, nævner Bogislaf von Zarten i forbindelse med patronatsretten i Sassenburg og tilhørende steder. Den står i Bublitz Amts arkivserie og er registreret uden scanninger. Det er interessant sammen med 1640-akten om Jobst Zarten fra Sassenburg, som har mikrofilm R 23948: de to sager kan muligvis dokumentere en fortsættelse af patronatsretten gennem 63 år. Men ingen slægtskabsforbindelse mellem Jobst og Bogislaf er endnu bevist.
+
+En artikel fra 2023 sammenfatter yderligere Zarten-oplysninger: første kendte omtale 1491, Kurt Czarten i 1524, et len til brødrene Peter, Simon og Georg i 1548, Hans von Zartens overdragelse af rettigheder til sønnen Ernst i 1588, Paul Zartte som starost i 1631 og senere ejendomsoversigter. Artiklen advarer udtrykkeligt om, at kilderne er for sparsomme til en komplet genealogi. Den giver derfor søgevarianter, ikke en færdig slægtslinje. [Świadek 2023](https://journals.akademicka.pl/krzysztofory/article/view/5779).
+
+**Næste bedste bestilling:** Sammenhold 1640-mikrofilm R 23948 og 1703-enhed III.411. Se efter navngivne arvinger, patronatsret, tilhørende landsbyer og henvisninger til tidligere indehavere. Derefter gennemgå 1630-sagen om Jobst Zahrten og 1622–1623-sagen om Ernst/Anna Zarten.
