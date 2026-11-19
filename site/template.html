@@ -1066,40 +1066,50 @@ function renderKort(){
   const MAP_VIEWS = {
     dk: {
       placesFilter: null,
+      showPlaces: true,
       showMovement: true,
       showMigrations: false,
       maxZoom: 9,
       panelId: 'panel-dk',
       center: [55.4, 10.5],
-      zoom: 7
+      zoom: 7,
+      boundsFrom: 'places'
     },
     djursland: {
       // Fixed: previous inset used [55.7, 12.0] (Sjælland). Djursland is ~56.3N, 10.7E.
       placesFilter: /djursland|mols|kolind|fuglslev|vosnæs|vosnes|grenå|grenaa|ebbeltoft|nørager|hyllested|tirstrup|hoed|homå/i,
+      showPlaces: true,
       showMovement: true,
       showMigrations: false,
       maxZoom: 12,
       panelId: 'panel-djursland',
       center: [56.32, 10.65],
-      zoom: 10
+      zoom: 10,
+      boundsFrom: 'places'
     },
     langeland: {
       placesFilter: /langeland|langø|lango|nordenbro|rudkøbing|rudkobing|bagenkop|lohals|tryggelev|humble/i,
+      showPlaces: true,
       showMovement: true,
       showMigrations: false,
       maxZoom: 12,
       panelId: 'panel-langeland',
       center: [54.92, 10.78],
-      zoom: 10
+      zoom: 10,
+      boundsFrom: 'places'
     },
     world: {
+      // Overseas migrations only for bounds; domestic places are hidden so the
+      // view opens at global scale instead of collapsing onto Denmark.
       placesFilter: null,
+      showPlaces: false,
       showMovement: false,
       showMigrations: true,
-      maxZoom: 5,
+      maxZoom: 3,
       panelId: 'panel-world',
       center: [20, 0],
-      zoom: 2
+      zoom: 2,
+      boundsFrom: 'migrations'
     }
   };
 
@@ -1189,16 +1199,33 @@ function renderKort(){
     document.querySelectorAll('[data-map-panel]').forEach(panel=>{
       panel.classList.toggle('is-dimmed', panel.dataset.mapPanel !== key);
     });
-    rebuildPlaces(view.placesFilter);
+    if(view.showPlaces !== false) rebuildPlaces(view.placesFilter);
+    else placesGroup.clearLayers();
     if(view.showMovement) rebuildMovement(view.placesFilter);
     else movementGroup.clearLayers();
     if(view.showMigrations) rebuildMigrations();
     else migrationGroup.clearLayers();
     try {
-      const target = placesGroup.getLayers().length ? placesGroup
-        : (migrationGroup.getLayers().length ? migrationGroup : null);
+      // World view must use migration markers (or a fixed global frame). Using
+      // placesGroup here previously collapsed the camera onto Denmark.
+      let target = null;
+      if(view.boundsFrom === 'migrations' && migrationGroup.getLayers().length){
+        target = migrationGroup;
+      } else if(view.boundsFrom === 'places' && placesGroup.getLayers().length){
+        target = placesGroup;
+      } else if(migrationGroup.getLayers().length && key === 'world'){
+        target = migrationGroup;
+      } else if(placesGroup.getLayers().length){
+        target = placesGroup;
+      } else if(migrationGroup.getLayers().length){
+        target = migrationGroup;
+      }
       if(target){
-        map.flyToBounds(target.getBounds(), { padding:[36,36], maxZoom: view.maxZoom, duration: 0.7 });
+        map.flyToBounds(target.getBounds(), {
+          padding: key === 'world' ? [48, 48] : [36, 36],
+          maxZoom: view.maxZoom,
+          duration: 0.7
+        });
       } else {
         map.flyTo(view.center, view.zoom, { duration: 0.7 });
       }
