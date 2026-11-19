@@ -57,3 +57,13 @@ A. Kann Rasmussen, *Danske i Siam 1858–1942* (1986), s. 134–135 og 175, iden
 Dette er en uafhængig trykt kontrol af forældreparret og to yngre sønner født i samme egn få år efter Eduard (1875). Sammenholdt med 1918-fortegnelsens “Søn af Forp. E. G.” og Trap Danmarks forpagter E. H. Gedde på Tyrstinggaard i 1875 styrker det hypotesen om, at Eduard (1875) er endnu en søn af Edvard Hammer Gedde og Vitta Ludvigsen.
 
 **Begrænsning:** 1986-bogen omtaler ikke Eduard født 1875. Den dokumenterer Vilhelm og Oluf, ikke Eduards faderskab. Dåbsindførslen og 1880-folketællingen er stadig afgørende. Forældre-relationen forbliver hypotese, og ingen stamtræsposter ændres.
+
+
+## Ny afgørende kontrolvej: Landbohøjskolens originale 1896-protokoller
+
+1918-fortegnelsens forord siger, at fødselsdag, fødselsår og fødested stammer fra Landbohøjskolens indskrivnings- og eksamensprotokoller. Rigsarkivets DAISY-katalog har nu givet en konkret bestillingsvej:
+
+- **Kgl. Veterinær- og Landbohøjskole, Administrationen: Indskrivningsprotokoller for landbrugere (1869–1925)**.
+- **Eksamensprotokoller (1859–1993), pakke O-80–O-85**, hvor kataloget beskriver et elevregister fra 1865 til 1898. Det omfatter 1896-årgangen.
+
+Bed Rigsarkivet om at slå Eduard Gedde op og kontrollere fuldt navn, fødselsdato, fødested, faderoplysning, optagelse og kandidatgrad. Dette kan afgøre 13/15-november-konflikten og muligvis give en uafhængig kontrol af hans faderskab. Originalerne er endnu ikke bestilt eller læst.
