@@ -36,3 +36,17 @@ Ingen af disse forklaringer er endnu bevist.
 ## Kilde
 
 - *Report of the Virgin Islands Agricultural Experiment Station, 1920*, titelblad, stationspersonale og følgebrev, især trykt s. 1–2: https://upload.wikimedia.org/wikipedia/commons/b/be/Report_%28IA_report1920virg%29.pdf
+
+
+## Ny officiel kontrol: USDA's årsrapportforfattere 1919–1923
+
+USDA's officielle bibliografiske katalog, *List of Publications of the United States Department of Agriculture ... 1901–1925* (1927), trykt s.167, oplister de originale årsrapporter således:
+- 1919: Longfield Smith (udgivet 1920).
+- 1920: Longfield Smith og C. E. Wilson (udgivet 1921).
+- 1921: Longfield Smith og C. E. Wilson (udgivet 1922).
+- 1922: J. B. Thompson og C. E. Wilson (udgivet 1923).
+- 1923: J. B. Thompson og W. M. Perry (udgivet 1924).
+
+Det dokumenterer, at Smith var den navngivne rapportforfatter gennem rapportåret 1921, og at Thompson overtog i rapportåret 1922. Kataloget identificerer ikke alle lokale ansatte og kan derfor ikke udelukke, at Gedde havde en anden funktion ved Slob. Den officielle kronologi afgrænser dog den uafklarede titel “forsøgsleder 1915–1922” væsentligt.
+
+Ny kildepost: `usda-virgin-islands-station-personnel-1919-1923.md`.
