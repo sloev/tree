@@ -27,7 +27,7 @@ I folketællingen 5. november 1930 for Nybøl sogn (skema 4, familie 3) står *J
 Nybøl kirkebogs dåbsregister 1904 nr. 12 viser, at Jørgen blev født 26. september 1904 og døbt 7. oktober 1904 som ægte søn af gårdmand (*Hufner*) Peter Petersen og Anna Catharine Marie født Petersen i Nybøl. Det er de samme forældre som Sophus Petersens (dåb 1903 nr. 12). **Jørgen var altså Sophus' helbror.** Folketællingen skriver årstallet 1905; måned, sogn og forældre stemmer med dåben fra 1904.
 
 **2. Sophus var ugift og opholdt sig på Dalum Landbrugsskole.**
-I forældrenes husstand (skema 5, familie 12: gårdejer Peter Petersen, født 22/9 1866 i Nybøl, og Anna Cathrine Marie, født 12/8 1869 i Dybbøl) står *Petersen, Sophus*, født 28/6 1903 i Nybøl, ugift, søn, landmand. Han er markeret som midlertidigt fraværende med opholdsstedet **Dalum Landbrugsskole**. Skemaets forside angiver netop én midlertidigt fraværende person.
+I forældrenes husstand (skema 6, familie 12: gårdejer Peter Petersen, født 22/9 1866 i Nybøl, og Anna Cathrine Marie, født 12/8 1869 i Dybbøl) står *Petersen, Sophus*, født 28/6 1903 i Nybøl, ugift, søn, landmand. Han er markeret som midlertidigt fraværende med opholdsstedet **Dalum Landbrugsskole**. Skemaets forside angiver netop én midlertidigt fraværende person.
 
 **3. Wilhelm Krogh var i 1930 tjenestekarl i Nybøl — ikke i Snogbæk.**
 I skema 3 står *Krogh, Wilhelm*, født **9/10 1908** i Tyskland, dansk statsborger, ugift, tjenestekarl i husstanden hos Hans Peter Clausen (født 1876). Fødselsdatoen svarer nøjagtigt til den Wilhelm Krogh, der i 1932 anerkendte faderskabet. Randnotens adresse "Snogbæk" i 1932 må derfor være en senere flytning.
@@ -45,7 +45,7 @@ Samme folketælling viser også Peter Krogh (født 23/5 1907 i Tyskland, tjenest
 
 ## Kilder
 
-- Folketælling 1930, Sognelister, Sønderborg Amt, Nybøl Herred, Nybøl Sogn. Rigsarkivet, Arkivalieronline, billedserie bsid 108949: Sogne-Liste (billede 02); skema 3 (forside billede 15, opslag billede 16); skema 4 (forside billede 17, opslag billede 18 og 20); skema 5 (forside billede 21, opslag billede 23–24); Krogh-husstande billede 13 og 46. https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=108949
+- Folketælling 1930, Sognelister, Sønderborg Amt, Nybøl Herred, Nybøl Sogn. Rigsarkivet, Arkivalieronline, billedserie bsid 108949: Sogne-Liste (billede 02); skema 3 (forside billede 15, opslag billede 16); skema 4 (forside billede 17, opslag billede 18 og 20); skema 6 (forside billede 21, opslag billede 23–24); Krogh-husstande billede 13 og 46. https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=108949
 - Nybøl kirkebog 1880–1931, dåbsregister, trykt s. 176, 1904 nr. 12 (Jørgen). Rigsarkivet, Arkivalieronline bsid 202179, billede 90. https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=202179
 - Nybøl kirkebog 1880–1931, dåb 1903 nr. 12 (Sophus), bsid 202179, billede 88 (allerede citeret på Sophus' personside).
 
