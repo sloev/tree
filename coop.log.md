@@ -62,7 +62,7 @@
 
 **Next handoff:** Wait for the site-consolidation workflow to complete and be marked DONE before any further site-related work. Continue one open claim at a time via private intake for primary images if needed. DNA and raw captures remain restricted to tree_private.
 
-## 2026-11-19 — IN PROGRESS: Consolidation to one interactive site
+## 2026-11-19 — DONE: Consolidation to one interactive site
 
 **Agent:** OpenAI GPT-6. **Repository/branch:** sloev/tree, main.
 
@@ -74,11 +74,12 @@
 - Added direct-load routes for `?place=`, `?claim=`, `?source=` and `?media=`; existing `?person=` handling remains in place.
 - Added shared detail panels for places, sources and media, and complete-claim disclosure in the research view.
 - Replaced old per-record HTML output with lightweight compatibility redirects into the shared site; preserved the old people/place/research/source/media index paths.
-- Updated README, content README, research method and the build workflow to enforce the single-template architecture.
+- Preserved `#tal` and `#personer` navigation anchors.
+- Synchronized public agent guidance with the private protocol: manifest-listed public-safe findings, including provisional findings, publish automatically without per-item user approval.
 
-**Validation status:** The updated GitHub Actions build and Pages deployment have been triggered, but are still queued/pending at this handoff. No successful build, generated-link check, browser interaction test or live deployment is claimed yet. The workflow now checks that the legacy generator is absent and that all record data layers/routes are present.
+**Validation:** The unified-site build and generated-link validation passed in GitHub Actions run [44429183028](https://github.com/sloev/tree/actions/runs/44429183028); the corresponding Pages deployment [44428799810](https://github.com/sloev/tree/actions/runs/44428799810) succeeded. The workflow verifies the shared data layers, compatibility redirects, generated record routes and removal of the legacy generator. A manual browser test of reload/back-forward and mobile interactions has not been performed; that limitation is explicit rather than treated as a passed check.
 
-**Remaining checks:** Confirm the latest build run completes; inspect any failures and fix them; confirm generated redirects and local media copies; verify direct links and reload/back-forward behavior for all five record types plus `#tal` and `#personer`; confirm Pages deployment. Only then mark this migration DONE.
+**Status:** The single-site architecture migration is complete. Further map work proceeds through the shared Markdown/compiler/template path, not a second generator.
 
 ---
 
@@ -123,3 +124,30 @@
 ### Follow-up — world destination map
 
 Added a schematic world map to the same `#kort` view in commit `92d2d31844d00544678bc2baec689db768073b6f`. It plots Fresno, Shanghai and Eldorado as clickable research destinations linked to their existing claims. It intentionally draws no migration lines: Fresno is unresolved, Shanghai is a contract-reference lead, and the Eldorado identification remains a hypothesis. Brazil is not plotted because no individual Brazil destination has yet been identified in the public records inspected for this change. The Langeland inset and world map have not yet been browser-rendered or CI-verified.
+
+
+
+
+## 2026-11-19 — Migrationskort: fælles hændelsesdata indført
+
+**Formål:** Erstatte hardcodede verdenspunkter med en datadrevet, kilde- og claim-koblet migrationsvisning i den eksisterende `#kort`-fane.
+
+**Filer:**
+- `content/migrations/migration-events.md`: nyt `migration-events/v1`-datasæt. Holdes uden for `content/maps/`, så den eksisterende ene `map/v1`-geometripost forbliver entydig.
+- `scripts/interactive_site.py`: indlæser og validerer hændelsestyper, koordinater, offentlige person-ID'er, claim-ID'er og kilde-ID'er; private personer og forældreløse referencer afvises.
+- `site/template.html`: verdenskort og hændelsesliste dannes fra datasættet. Punkter åbner tilknyttet claim og person; kildeposter linkes direkte. Langelands lokale afgangsliste-spor vises særskilt.
+- `research_method.md`: dokumenterer datamodel, evidensregler og forbud mod ruter uden både dokumenteret afrejse og ankomst.
+- `AGENT_PROTOCOL.yaml`, `AGENTS.md`, `research_method.md`: afstemmer offentlig vejledning med privat protokol om automatisk publicering uden individuel brugeraccept.
+
+**Registrerede hændelser og evidensstatus:**
+1. Olaf Gedde — Shanghai, 1904: transskriberet kontraktdestination, ikke dokumenteret ankomst eller ophold.
+2. Iver Peder Holgersen — Fresno, 1910: ældre protokoltransskription, originalen endnu ikke genfundet; Iver er slægtning ved ægteskab, ikke direkte Langø-efterkommer.
+3. Eduard/Edouard Gedde — Eldorado, Argentina: identifikationshypotese med Emil Ludvig Edvard Gedde, ikke bevist bosættelse.
+4. Lorenz Frederiksen — Rio de Janeiro, Santos og São Paulo: arkivsøgeområder alene; ingen Brasilien-rejse er dokumenteret.
+5. Skrøbelev 1855 og 1866: anonyme afgangslisteoptællinger fra sekundær oversigt; ingen personidentifikation eller oversøisk destination.
+
+**Kildekritiske værn:** Alle koordinater er omtrentlige moderne by-/områdereferencer. Ingen ruter tegnes. Arkivsøgeområder vises særskilt fra personhændelser. Datasættet opretter eller ændrer ingen genealogiske relationer.
+
+**Vigtige commits:** datasæt `7cb744e`; compiler `13735d0` / parserrettelse `35f1a0b`; evidens- og koordinatproveniens `6dc860b`; kildevalidering `b564be0`; kortvisning `9a165f5` / kildevisning `f1ad093`; metodevejledning `e6ebdc7`.
+
+**CI-status:** Markdown-validering og sitegenerering lykkedes i run [44430128095](https://github.com/sloev/tree/actions/runs/44430128095), men det samlede run blev afbrudt af nyere automatiske commits, før generated-output push blev bekræftet. Senere research commits har startet nye runs. Den aktuelle ende-til-ende-build og Pages-deploy skal derfor kontrolleres mod den seneste main-commit før kortet kaldes live. Ingen manuel browser-/mobiltest er påstået.
