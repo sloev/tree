@@ -54,3 +54,7 @@ Linjeafskrift af de fem dåb, af begravelsen 1787, og af døbte 1778 s. 436–43
 - https://media.digitalarkivet.no/kb/contents/7448
 - https://nkl.snl.no/Nicolai_Wilhelm_Gedde
 - https://nkl.snl.no/Fredrik_Christopher_Gedde
+
+## Rettelse 19.11.2026: Ove Samuel er fundet i samme bog
+
+Døbte 1778 på s. 440 er nu læst i originalbilledet (Digitalarkivet kb 7448, bilde 231). I juni 1778 (d. 4) døbtes major Hans Christopher Geddes og Fridricha Christianas søn **Ove Samuel**. Afsnittet "Ove Samuel mangler i netop denne bog" ovenfor byggede på et registerudtræk og er dermed afkræftet. Familien havde altså **seks** døbte børn i Fredrikstad 1778–1786. Se claim `fredrikstad-1778-ove-samuel-gedde-daab`.
