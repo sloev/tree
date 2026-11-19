@@ -54,6 +54,22 @@ events:
     evidence_label: "Trykte fortegnelser dokumenterer plantageejer i Eldorado fra 1923 og dødsnotits 1954"
     identity_label: "Eldorado-pioneren identificeret; forbindelse til s_p54_3 (1876–1951) uafklaret"
     note: "Den trykte agronom Emil Ludvig Eduard Gedde er stærkt identificeret som plantageejer Eduard/Edouard i Eldorado. Om han er identisk med familiepersonposten s_p54_3, hvor familieopgørelsen angiver 1876–1951, er fortsat uafklaret. Punktet viser et dokumenteret Eldorado-ophold for den trykte 1875–1954-person, ikke en dokumenteret afrejse eller ankomst fra Danmark."
+  - id: kimberley-cape-colony-secondary-1846-branch
+    person_id: fischer-frederik-ernst-fristedt-1846
+    claim_id: caroline-gedde-arends-author-and-cape-emigration
+    event_type: emigration_destination_secondary
+    place: Kimberley, Cape Colony
+    country: Sydafrika
+    latitude: -28.7282
+    longitude: 24.7499
+    coordinate_basis: "Omtrentlig moderne bykoordinat for Kimberley; ikke en historisk adresse eller dokumenteret ankomsthavn."
+    source_reference: "Otto Fr. Arends, Stamtavle over Slægten Fischer fra Bryrup (1934), trykt s. 23."
+    source_ids:
+      - salomon-gedde-fischer-descendants-arends-1934
+    layer: documentary-lead
+    evidence_label: "Sekundær slægtstavle: drog som ung til Kaplandet og arbejdede i diamantminerne ved Kimberley"
+    identity_label: "Frederik Ernst Fristedt Fischer (f. 20.10.1846), identificeret i Arends' Fischer-efterslægt"
+    note: "Arends dokumenterer udrejse til Kaplandet og arbejde ved Kimberley, men angiver ingen dato, skib, ankomsthavn eller dødsdato. Kimberley er arbejdsstedet, ikke nødvendigvis ankomststedet. Ingen rute tegnes uden særskilt afrejse- og ankomstbevis."
   - id: brazil-rio-archive-search
     person_id: p6
     claim_id: lorenz-brazil-sailor-archive-route
