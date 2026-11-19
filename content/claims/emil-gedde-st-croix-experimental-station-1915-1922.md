@@ -13,6 +13,7 @@ sources:
   - "virgin-islands-agricultural-experiment-station-1920-longfield-smith"
   - "rigsarkivet-st-croix-agricultural-research-station-1907-1917"
   - "st-croix-herald-1922-mr-gedde-slob"
+  - "usda-virgin-islands-station-personnel-1919-1923"
 ---
 
 # Emil Ludvig Eduard Gedde på St. Croix — et nyt caribisk spor
@@ -64,3 +65,12 @@ USDA's *Work and Expenditures of the Agricultural Experiment Stations, 1918* opl
 Årsrapporten for 1923 (udgivet juli 1924) oplister **John B. Thompson** som agronomist in charge, C. E. Wilson som entomolog og W. M. Perry som horticulturist. Gedde står ikke blandt de tre navngivne fagmedarbejdere. Det udelukker ikke en anden lokal tilknytning, men det understreger, at den biografiske formulering “Forsøgsleder 1915–1922” ikke uden videre kan læses som stationens øverste leder i hele perioden.
 
 Den bedste arbejdshypotese er nu: Eduard Gedde var reelt tilknyttet Slob Experimental Station i 1918 og muligvis fortsat tilknyttet i 1922, men hans formelle rolle skal findes i danske ansættelses-/lønakter og amerikanske stationens personalesager. Longfield Smith var i hvert fald den officielle agronomist in charge i 1918 og 1920; John B. Thompson var det i 1923.
+
+
+## Årsvis kontrol af ledelsesskiftet
+
+USDA's officielle publikationskatalog fra 1927 (Mabel G. Hunt, trykt s.167) angiver de originale årsrapportforfattere for Virgin Islands Experiment Station: Longfield Smith for rapportåret 1919; Longfield Smith og C. E. Wilson for 1920 og 1921; J. B. Thompson og C. E. Wilson for 1922; J. B. Thompson og W. M. Perry for 1923. Dette er en år-for-år dokumenteret overgang i den officielle rapportering omkring 1922, ikke blot en enkelt modkilde fra 1920.
+
+Den originale 1923-årsrapport (udgivet juli 1924) navngiver Thompson som Agronomist in Charge. På samme personaleside står Wilson med fodnoten “Resigned Aug. 31, 1922” og Perry med “Appointed May 7, 1923”. Det viser, at Thompson var stationens øverste faglige agronom senest i 1923, og at Wilsons fratræden fandt sted i 1922.
+
+Dette udelukker ikke, at Gedde havde en anden lokal eller administrativ funktion ved Slob. 1918-underskriften og 1922-notitsen viser hans mulige lokale tilknytning, men ikke hans præcise stilling. Den biografiske formulering “Forsøgsleder 1915–1922” skal derfor sammenholdes med danske ansættelses-/lønakter og stationens amerikanske personalehistorik.
