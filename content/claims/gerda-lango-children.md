@@ -68,7 +68,11 @@ Efter et muligt dansk udrejsefund skal identiteten bekræftes med mindst flere s
 
 Et vigtigt nærliggende udvandrerfund må ikke tælles som en af Langø-børnenes efterkommere: **Iver Peder Holgersen** rejste ifølge Københavns Politis udvandrerprotokol til Fresno 8. september 1910. Han var bror til Axel Erik Holgersen, som blev gift med Kristine Adamine Margrethe Christensen. Iver er dermed beslægtet med Langø-familien gennem ægteskab, men ikke en direkte efterkommer af Marius og Ane Marie. Se særskilt forskningspost `gerda-iver-emigration`.
 
-Den nuværende GEDCOM viser Valdemar Emil som den eneste af Langø-børnene med en oprettet familiepost; barnet er privatmarkeret, og oplysninger om nulevende eller privatbeskyttede efterkommere bruges ikke her. Der er endnu ikke fundet en dokumenteret transatlantisk rejse blandt de direkte efterkommere i den offentlige del af træet.
+Den nuværende GEDCOM viser to af de syv børn med oprettede familiegrene:
+- **Kristine Adamine Margrethe Christensen** er gift med Axel Erik Holgersen og har en registreret datter, Karen Margrethe Holgersen (1906–1992). Karen-linjen fortsætter til privatmarkerede efterkommere.
+- **Valdemar Emil Christensen** har en familiepost med et privatmarkeret barn.
+
+De øvrige fem søskende har ingen oprettede familieposter i den nuværende offentlige GEDCOM. Det er en mangel i den nuværende træfil, ikke bevis for at de var barnløse. Ingen af de synlige efterkommerposter dokumenterer i sig selv en transatlantisk rejse.
 
 
 ## Kontrol mod hele den nuværende GEDCOM-fil
@@ -98,3 +102,10 @@ Navnelisten passer delvist med den kendte Marius Christensen/Ane Marie Jørgense
 En kommentar i opslaget anfører, at Valdemar er født i 1899 og foreslår 1900–1901 som mulig datering. Det stemmer med den nuværende fødselsdato i træet, men er en senere familiekommentar, ikke en samtidig datering. Indtil fotograf, atelier, original bagside eller en anden daterbar kilde findes, bør dateringen fortsat stå som **ca. 1900**.
 
 Dette er en familieidentifikation af et fotografi og et nyttigt navnespor, ikke primær dokumentation for alle personernes identitet eller indbyrdes relationer. Der er ikke oprettet nye relationer eller ændret persondata på baggrund af opslaget.
+
+
+## Korrigeret descendant-oversigt efter GEDCOM-gennemgang
+
+En ny gennemgang af alle familieposter i `family-tree.ged` viser, at Kristines familiegren tidligere var overset i denne claim. Kristine (1884–1975) er gift med Axel Erik Holgersen; deres datter Karen Margrethe Holgersen (1906–1992) er registreret i GEDCOM. Valdemar har også en familiepost, men barnet er privatmarkeret. Christian Anton, Christian Jørgen, Martha, Georg og Jens har ingen registrerede ægtefælle-/børnefamilier i den offentlige GEDCOM.
+
+Det ændrer ikke hovedkonklusionen om udvandring: der er fortsat ingen identificeret transatlantisk rejse blandt de dokumenterede direkte efterkommere. Men Kristine-grenen skal nu følges videre, og de fem øvrige søskendes familier skal rekonstrueres fra kirkebøger, folketællinger, vielser og dødsregistre. Ingen oplysninger om privatmarkerede efterkommere er gengivet.
