@@ -19,6 +19,7 @@ sources:
   - "Hirsch, Fortegnelse over danske og norske Officerer 1648–1814, navneliste: https://slaegtsbibliotek.dk/900836.pdf"
   - "Haagen Krog Steffens, Norske Slægter (1912), s. 129: https://slaegtsbibliotek.dk/929149.pdf"
   - "Personalhistorisk Tidsskrift, 3. bind (1882), s. 170–171: https://www.genealogi.dk/images/pht/1882/1882.pdf"
+  - "Kartverket, Smålenenes amt nr. 204 (1796), digitaliseret original: https://commons.wikimedia.org/wiki/File:Smålenenes_amt_nr_204-_Sørøstre_del_av_Østfold_fylke,_1796.jpg"
   - "Norsk kunstnerleksikon, Nicolai Wilhelm Gedde: https://nkl.snl.no/Nicolai_Wilhelm_Gedde"
   - "Rigsarkivet, Militær og forsvar — Ingeniørkorpsets norske arkiv: https://arkivalieronline.rigsarkivet.dk/da/other/other-collection/81"
 ---
@@ -72,7 +73,7 @@ Haagen Krog Steffens, *Norske Slægter* (1912), s. 129, anfører Ove Samuel Gedd
 
 ## Vigtigt fødselsårsforbehold
 
-Fødselsåret er ikke helt ens i litteraturen. *Fædrenelandsk Nekrolog* (1843), trykt s. 24–25, og Liebe/Borgstrøms militærbiografi støtter 28. maj 1778. Carl Johan Ankers *Biografiske data om 330 norske ... generalspersoner* (1885), s. 94, gengiver derimod 28. maj 1788 i den digitaliserede tekst: https://runeberg.org/acj330bio/0110.html. Harbou 1897 anfører 28. februar 1778. Derfor skal aldersberegningen for 1796-kortet stå som betinget af, at 1778 er korrekt; ved 1788 ville han kun være ca. otte år gammel, hvilket gør den personlige udførelse meget usandsynlig. Anker kan have en trykfejl, men den må ikke rettes uden kontrol af tryksiden og uafhængige kilder.
+*Fædrenelandsk Nekrolog* (1843), trykt s. 24–25, og *Personalhistorisk Tidsskrift* (1882), s. 170–171, anfører begge 28. maj 1778. Harbou (1897) anfører 28. februar 1778, og Liebe/Borgstrøm støtter 1778. *Norske Slægter* (1912) anfører 1788, men kalder samtidig Ove Samuel den ældste søn, mens Nicolai Wilhelm angives født 1779. Anker (1885), s. 94, har i Project Runebergs udtrykkeligt urettede OCR 28. maj 1788; den trykte faksimile er endnu ikke visuelt kontrolleret. 1778 er derfor klart bedst understøttet, men den kanoniske fødselsdato bør ikke ændres før dåbsindførslen er fundet.
 
 ## Originalkortet — foreløbig visuel kontrol
 
@@ -100,31 +101,22 @@ Kilde: *Kongelig Dansk Hof- og Stats-Calender for Aar 1829*, afsnittet “Land-M
 3. Søg i Rigsarkivets ingeniørkorpsarkiv efter Ove Samuel Gedde, Gedde, kadetter/konduktører, lønnings- og kvartalsrapporter samt korrespondance fra 1795–1806. H.C. Geddes direktørperiode 1796–1802 er et særligt vigtigt vindue.
 4. Fastslå Ove Samuels militære rang, tjenestested og funktion 1796–1806 via stambøger, udnævnelser, hof- og statskalendere samt korpsets personalefortegnelser.
 5. Kontroller Ankers faksimile visuelt; OCR-siden er urettet og viser 1788, men er ikke sikkert belæg for trykkets faktiske tal.
-6. Søg dåb i Fredrikstad prestegjelds transskriberede døbte 1750–1804, men behandl Fredrikstad som en søgehypotese, ikke som fastslået fødested: nekrologen siger kun “i Norge”. Sammenhold med original kirkebog og parallel klokkerbok, hvis bevaret.
+6. Søg dåb i Fredrikstad hovedsogns ministerialbog 1750–1804, arkivsignatur SAO/A-11082/F/Fa/L0002, Digitalarkivet contents/7448: https://media.digitalarkivet.no/kb/contents/7448. Behandl Fredrikstad som en søgehypotese, ikke som fastslået fødested: nekrologen siger kun “i Norge”. Sammenhold med original kirkebog og parallel klokkerbok, hvis bevaret.
 
 **Konklusion:** Der er nu et sammenhængende kartografisk spor, og faderens ledende rolle i Norges geografiske opmåling gør det særligt interessant. Men hverken 1796- eller 1805-kortet må endnu registreres som et sikkert personligt værk af vores Ove Samuel i den kanoniske biografi.
 
 
-## Ny kildekritisk vurdering — ingeniørbrødrene i Gedde-familien
+## Samlet kildekritisk vurdering — hvem tegnede de to kort?
 
-En vigtig ny sekundærkilde ændrer vægten i dette spor. Tove Nedrelids NVE-rapport *Kanalforvaltningen rundt 1814* (NVE-rapport 32, 2014), s. 25–28, dokumenterer, at **Frederik Christopher Gedde (1781–1840) blev ingeniørofficer i 1796**. Rapporten gengiver, at han blev født 2. februar 1781 i Fredrikstad, blev ingeniørofficer i 1796, avancerede til premierløjtnant i 1803 og kaptajn i 1806, og senere blev kanal- og havneinspektør i det søndenfjeldske Norge. Den beskriver hans arbejde ved Fredriksvern og hans tekniske/arkitektoniske tegninger. Kilde: Tove Nedrelid, *Kanalforvaltningen rundt 1814 – del av en fungerende statsadministrasjon for det norske selvstendighetsprosjektet*, NVE-rapport 32 (2014), især s. 25–28: https://publikasjoner.nve.no/rapport/2014/rapport2014_32.pdf.
+De to kort skal undersøges hver for sig. Ove Samuel er fortsat den navngivne kartograf i Kartverkets 1805-post og i metadata til 1796-kortet, men begge tilskrivninger mangler en kontrolleret originalsignatur eller en samtidig tjenesteordre.
 
-Rapporten fremhæver desuden, at Hans Christopher Gedde var direktør for Norges geografiske opmåling fra 1796, og at hans sønner Frederik Christopher og Nicolai Wilhelm hørte til ingeniørmiljøet. Carl Johan Ankers biografiske oversigt (1885), s. 95–96, beskriver også Nicolai Wilhelm Gedde som ingeniørofficer med indtræden i Ingeniørkorpset i 1790 og videre avancement. Det betyder, at mindst to af Ove Samuels brødre havde en dokumenteret ingeniørkarriere, mens Ove Samuel selv i nekrologen beskrives som officer ved infanteriregimenterne og overført til den danske hær i 1803.
+**1796 — Smålenenes amt nr. 204, Østfold:** *Personalhistorisk Tidsskrift* (1882), s. 170–171, anfører, at Frederik Christopher Gedde var **dessinateur i Ingeniørerne fra 23. maj 1794** og sekondløjtnant fra 2. oktober 1796. NVE-rapporten (2014), s. 25–28, bekræfter hans indtræden i Ingeniørkorpset i 1794, hans tidlige tilknytning til Fredriksten og senere arbejde ved Fredriksvern. Han er derfor en konkret alternativ kandidat til kortet over Østfold. Ove Samuel var på dette tidspunkt sekondløjtnant i infanteriet. Det taler for at undersøge Frederik først, men er ikke grundlag for at ændre ophavsmanden uden direkte kort- eller arkivbevis.
 
-**Ny arbejdshypotese:** Korttilskrivningerne til “Ove Samuel Gedde” skal kontrolleres særligt nøje for mulig sammenblanding i Gedde-familiens ingeniørmiljø. Frederik Christopher er en stærk alternativ person at undersøge for kortarbejde, især i 1796, hvor NVE-rapporten placerer ham som nyudnævnt ingeniørofficer. Nicolai Wilhelm er en anden relevant kandidat. Dette er ikke bevis for, at nogen af brødrene tegnede de to kort; katalogets eksplicitte navneform “Ove Samuel Gedde” må fortsat registreres som en selvstændig attribution, indtil originalerne og de tilhørende arkivregistraturer er undersøgt.
+Kortets Commons-post angiver, at det er digitaliseret og delt af Kartverket, overført fra Generalstabens arkiv, map sheet 204, dateret 1796 og med skabernavnet **“Ove Samuel”**. Originalfilen er 13.944 × 10.037 pixels. En 1280 × 921-forhåndsvisning er visuelt kontrolleret; den viser en håndtegnet kortflade og en titelblok, men opløsningen er for lav til sikker læsning af titelblokkens tekst eller en signatur. Commons-metadata er en vigtig proveniensoplysning, men ikke i sig selv en aflæsning af originalens signatur. Kilde: https://commons.wikimedia.org/wiki/File:Smålenenes_amt_nr_204-_Sørøstre_del_av_Østfold_fylke,_1796.jpg.
 
-For 1805-kortene er spørgsmålet skærpet: Ove Samuel var ifølge nekrologen overført til den danske hær i 1803 og blev stabskaptajn i 1805. Det gør hans samtidige tilstedeværelse i Hedmark mindre oplagt, men udelukker ikke en særlig opgave eller et tidligere udført kortarbejde. Der skal findes en tjenesteordre, korrespondance, original signatur eller anden direkte kilde, før attributionen kan bekræftes.
+**1805 — 32C-6-øst, Hedmark:** Kartverkets officielle katalog anfører Ove Samuel Gedde som kartograf. Nicolai Wilhelm Gedde blev ingeniørpremierløjtnant 20. april 1804 ifølge PHT 1882 og Norsk kunstnerleksikon, og er derfor en relevant alternativ kandidat at kontrollere. Hans tjenestested i 1805 er endnu ikke fastslået. Ove Samuel var ifølge nekrologen overført til den danske hær i 1803; det gør en opmålingsopgave i Hedmark mindre oplagt, men udelukker ikke en særskilt opgave eller tidligere udført arbejde.
 
-NVE-rapportens noter henviser for Frederik Christophers biografiske oplysninger bl.a. til *Norsk Forfatter-Lexicon* (1863), s. 209, og til arkivmateriale fra Riksarkivet i Oslo om Kanalvæsenet. Rapporten er derfor en stærk sekundær indgang, men ikke en erstatning for hans personalmappe eller originalkortene.
-
-## Konkrete næste arkivkontroller
-
-- Find Frederik Christopher Geddes officers- og personalakter omkring 1796–1806, især hans første udnævnelse som ingeniørofficer.
-- Find Nicolai Wilhelm Geddes personalakter og sammenhold hans tjenestesteder med de norske opmålingsområder.
-- Undersøg om Ove Samuel havde en særlig opmålingsopgave før overførslen i 1803, og om 1805-kortet kan være tegnet tidligere eller efter ordre fra en anden instans.
-- Bestil/åbn originalkortene i høj opløsning og aflæs signatur, titelblok, dato, rettelser og eventuelle initialer.
-- Brug Ingeniørkorpsets norske arkivserier i Rigsarkivet som søgevej: “Register til korrespondance m.v. (1770–1813)”, “Korrespondance m.v. (1770–1813)” og “Register til Kgl. ordrer … (1750–1800)”. Arkivoversigten viser disse serier, men katalogposterne er endnu ikke i sig selv bevis for nogen af brødrenes deltagelse: https://arkivalieronline.rigsarkivet.dk/da/other/other-collection/81.
-
+**Foreløbig arbejdshypotese:** For 1796 bør Frederik Christopher undersøges først; for 1805 bør Nicolai Wilhelm kontrolleres mod personalakter og kortets originalsignatur. Ove Samuel forbliver den registrerede kartograf i katalogerne, og en mulig sammenblanding er kun en hypotese. Ingen af de to kort er endnu sikkert omattribueret.
 
 ## Hirsch' officerskartotek — ny konkret arkivhenvisning
 
