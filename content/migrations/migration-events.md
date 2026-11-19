@@ -36,21 +36,24 @@ events:
     note: "En tidligere transskription af kontrakt 4443 angiver Fresno som rejsemål og damperen United States. Den originale protokolside er endnu ikke genfundet. Senere Alameda-vejvisere er et muligt identitetsspor, ikke bevis for ankomst til Fresno."
   - id: eldorado-identification-hypothesis
     person_id: s_p54_3
-    claim_id: lorenz-gedde-eduard-eldorado
+    claim_id: gedde-eldorado-identification
     event_type: settlement_identification_hypothesis
-    place: Eldorado, Misiones
+    place: Puerto Eldorado, Misiones
     country: Argentina
     latitude: -26.4
     longitude: -54.65
     coordinate_basis: "Omtrentlig moderne bykoordinat; ikke historisk præcis adresse."
-    source_reference: "De Danskes Vej, bd. III, trykt s. 80; Udvandrerarkivets billedhenvisninger B9886 og B9790."
+    source_reference: "Danske Landbrugskandidater 1944, s. 75; 1955, s. 90; Personalhistorisk Tidsskrift 1956, s. 14; De Danskes Vej, bd. III, s. 80."
     source_ids:
+      - gedde-emil-ludvig-eduard-1944-directory
+      - gedde-emil-ludvig-eduard-death-1954-directory-1955
+      - gedde-eduard-eldorado-death-notice-1954
       - de-danskes-vej-argentina-eldorado-gedde
-    date: "1922"
+    date: "1923–1954"
     layer: hypothesis
-    evidence_label: "Identifikationshypotese"
-    identity_label: "Eduard/Edouard Gedde kan være Emil Ludvig Edvard Gedde"
-    note: "Trykt omtale og Gedde-fotografihenvisninger peger mod Eldorado. Identiteten mellem Eduard/Edouard og Emil er ikke bevist; punktet er ikke en bekræftet ankomst eller bosættelse."
+    evidence_label: "Trykte fortegnelser dokumenterer plantageejer i Eldorado fra 1923 og dødsnotits 1954"
+    identity_label: "Eldorado-pioneren identificeret; forbindelse til s_p54_3 (1876–1951) uafklaret"
+    note: "Den trykte agronom Emil Ludvig Eduard Gedde er stærkt identificeret som plantageejer Eduard/Edouard i Eldorado. Om han er identisk med familiepersonposten s_p54_3, hvor familieopgørelsen angiver 1876–1951, er fortsat uafklaret. Punktet viser et dokumenteret Eldorado-ophold for den trykte 1875–1954-person, ikke en dokumenteret afrejse eller ankomst fra Danmark."
   - id: brazil-rio-archive-search
     person_id: p6
     claim_id: lorenz-brazil-sailor-archive-route
