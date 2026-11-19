@@ -92,3 +92,24 @@ Kilde: *Kongelig Dansk Hof- og Stats-Calender for Aar 1829*, afsnittet “Land-M
 5. Kontroller Ankers trykte side visuelt for om årstallet faktisk står som 1788; sammenhold med 1843-nekrologen og dåbsregisteret, når fødestedet kan bestemmes.
 
 **Konklusion:** Der er nu et sammenhængende kartografisk spor, og faderens ledende rolle i Norges geografiske opmåling gør det særligt interessant. Men hverken 1796- eller 1805-kortet må endnu registreres som et sikkert personligt værk af vores Ove Samuel i den kanoniske biografi.
+
+
+## Ny kildekritisk vurdering — ingeniørbrødrene i Gedde-familien
+
+En vigtig ny sekundærkilde ændrer vægten i dette spor. Tove Nedrelids NVE-rapport *Kanalforvaltningen rundt 1814* (NVE-rapport 32, 2014), s. 25–28, dokumenterer, at **Frederik Christopher Gedde (1781–1840) blev ingeniørofficer i 1796**. Rapporten gengiver, at han blev født 2. februar 1781 i Fredrikstad, blev ingeniørofficer i 1796, avancerede til premierløjtnant i 1803 og kaptajn i 1806, og senere blev kanal- og havneinspektør i det søndenfjeldske Norge. Den beskriver hans arbejde ved Fredriksvern og hans tekniske/arkitektoniske tegninger. Kilde: Tove Nedrelid, *Kanalforvaltningen rundt 1814 – del av en fungerende statsadministrasjon for det norske selvstendighetsprosjektet*, NVE-rapport 32 (2014), især s. 25–28: https://publikasjoner.nve.no/rapport/2014/rapport2014_32.pdf.
+
+Rapporten fremhæver desuden, at Hans Christopher Gedde var direktør for Norges geografiske opmåling fra 1796, og at hans sønner Frederik Christopher og Nicolai Wilhelm hørte til ingeniørmiljøet. Carl Johan Ankers biografiske oversigt (1885), s. 95–96, beskriver også Nicolai Wilhelm Gedde som ingeniørofficer med indtræden i Ingeniørkorpset i 1790 og videre avancement. Det betyder, at mindst to af Ove Samuels brødre havde en dokumenteret ingeniørkarriere, mens Ove Samuel selv i nekrologen beskrives som officer ved infanteriregimenterne og overført til den danske hær i 1803.
+
+**Ny arbejdshypotese:** Korttilskrivningerne til “Ove Samuel Gedde” skal kontrolleres særligt nøje for mulig sammenblanding i Gedde-familiens ingeniørmiljø. Frederik Christopher er en stærk alternativ person at undersøge for kortarbejde, især i 1796, hvor NVE-rapporten placerer ham som nyudnævnt ingeniørofficer. Nicolai Wilhelm er en anden relevant kandidat. Dette er ikke bevis for, at nogen af brødrene tegnede de to kort; katalogets eksplicitte navneform “Ove Samuel Gedde” må fortsat registreres som en selvstændig attribution, indtil originalerne og de tilhørende arkivregistraturer er undersøgt.
+
+For 1805-kortene er spørgsmålet skærpet: Ove Samuel var ifølge nekrologen overført til den danske hær i 1803 og blev stabskaptajn i 1805. Det gør hans samtidige tilstedeværelse i Hedmark mindre oplagt, men udelukker ikke en særlig opgave eller et tidligere udført kortarbejde. Der skal findes en tjenesteordre, korrespondance, original signatur eller anden direkte kilde, før attributionen kan bekræftes.
+
+NVE-rapportens noter henviser for Frederik Christophers biografiske oplysninger bl.a. til *Norsk Forfatter-Lexicon* (1863), s. 209, og til arkivmateriale fra Riksarkivet i Oslo om Kanalvæsenet. Rapporten er derfor en stærk sekundær indgang, men ikke en erstatning for hans personalmappe eller originalkortene.
+
+## Konkrete næste arkivkontroller
+
+- Find Frederik Christopher Geddes officers- og personalakter omkring 1796–1806, især hans første udnævnelse som ingeniørofficer.
+- Find Nicolai Wilhelm Geddes personalakter og sammenhold hans tjenestesteder med de norske opmålingsområder.
+- Undersøg om Ove Samuel havde en særlig opmålingsopgave før overførslen i 1803, og om 1805-kortet kan være tegnet tidligere eller efter ordre fra en anden instans.
+- Bestil/åbn originalkortene i høj opløsning og aflæs signatur, titelblok, dato, rettelser og eventuelle initialer.
+- Brug Ingeniørkorpsets norske arkivserier i Rigsarkivet som søgevej: “Register til korrespondance m.v. (1770–1813)”, “Korrespondance m.v. (1770–1813)” og “Register til Kgl. ordrer … (1750–1800)”. Arkivoversigten viser disse serier, men katalogposterne er endnu ikke i sig selv bevis for nogen af brødrenes deltagelse: https://arkivalieronline.rigsarkivet.dk/da/other/other-collection/81.
