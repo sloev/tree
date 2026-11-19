@@ -1118,16 +1118,17 @@ function renderKort(){
   // --- Denmark overview ---
   const dkMap = makeLeafletMap('denmark-map');
   if(dkMap){
+    // Establish the map view before adding SVG paths/markers.
+    dkMap.setView([55.4, 10.5], 7);
     addPlaceMarkers(dkMap, Object.keys(DATA.places||{}));
     addMovementLines(dkMap);
-    dkMap.setView([55.4, 10.5], 7);
   }
 
   // --- Optional inset (if present) ---
   const insetMap = makeLeafletMap('inset');
   if(insetMap){
-    addPlaceMarkers(insetMap, Object.keys(DATA.places||{}));
     insetMap.setView([55.7, 12.0], 8);
+    addPlaceMarkers(insetMap, Object.keys(DATA.places||{}));
   }
 
   // --- Langeland detail (data-driven: any place whose region/name mentions Langeland) ---
@@ -1137,6 +1138,8 @@ function renderKort(){
   });
   const langMap = makeLeafletMap('langeland-map');
   if(langMap){
+    // Give Leaflet a valid view before its first CircleMarker is attached.
+    langMap.setView([54.92, 10.78], 10);
     const g = addPlaceMarkers(langMap, langelandNames);
     if(g && g.getLayers().length){
       try { langMap.fitBounds(g.getBounds(), { padding:[40,40], maxZoom:12 }); }
@@ -1156,6 +1159,7 @@ function renderKort(){
   // --- World / migration map ---
   const worldMap = makeLeafletMap('worldmap', { worldCopyJump:true });
   if(worldMap){
+    worldMap.setView([20,0], 2);
     addMigrationMarkers(worldMap);
     addPlaceMarkers(worldMap, Object.keys(DATA.places||{}));
     const pts = [];
