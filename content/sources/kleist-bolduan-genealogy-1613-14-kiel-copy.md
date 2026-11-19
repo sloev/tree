@@ -47,3 +47,18 @@ Kontakter:
 Den reviderede familiehistorie er en moderne redaktionel analyse af ældre genealogiske håndskrifter. Den giver en stærk proveniens for Bolduans 1613/14-oplysning og peger på en konkret bevaret afskrift fra ca.1735. Men Kiel-afskriften er endnu ikke set, dens nuværende signatur er ukendt, og den nævnte ægteskabsoplysning er ikke kontrolleret mod en original vielses-, arve- eller skifteakt.
 
 **Status:** Nær-samtidig genealogisk kilde identificeret; bevaret håndskriftkopi skal lokaliseres.
+
+
+## Muligt katalog over den bevarede Kiel-afskrift
+
+Et konkret katalog er nu identificeret i Archiwum Państwowe w Szczecinies samling **Rękopisy i spuścizny (65/16/0)**:
+
+- **65/16/0/60/405**, *Catalogus Bibliothecae Pomerianicae Brüggemaniae* (1700–1800)
+- Ældre signatur: **379 a**
+- 533 sider, 541 digitaliserede scanninger
+- Mikrofilm: **65/32404 N**
+- Registraturbemærkning: katalog over Ziemstwo Pomorskies bibliotek, afdeling for manuskripter og gamle tryk, bl.a. enheder med signatur 380–600.
+
+[Officiel arkivpost](https://www.szukajwarchiwach.gov.pl/de/jednostka/-/jednostka/7907382) · [Officiel serieliste](https://www.szukajwarchiwach.gov.pl/web/guest/seria?_Seria_delta=60&_Seria_id_serii=382422&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal&refererPlid=2144199)
+
+Titlen og proveniensen gør kataloget til et plausibelt hjælpemiddel til at lokalisere Kiel-afskrifterne, men det er endnu ikke bekræftet, at netop Bolduans *Schema* eller *Genealogia Kleistorum* står i kataloget, eller at denne bibliotekssamling er identisk med Generallandschaft-biblioteket nævnt i familiehistorien. Arkivets onlinevisning viste en midlertidig fejl ved kontrollen; katalogets 533 sider er derfor ikke gennemgået. Bed bibliotekets Dr Janina Kosman om at søge i kataloget efter Bolduan, Kiel, Kleist, Winther, *Schema amplissimae* og *Genealogia Kleistorum* og oplyse relevante sidetal/signaturer. Mikrofilm 65/32404 N giver en alternativ adgangsvej.
