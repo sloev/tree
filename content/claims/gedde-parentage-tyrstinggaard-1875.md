@@ -48,3 +48,12 @@ Dette er et stærkt, konkret spor til at forbinde den biografiske agronom Eduard
 5. Sammenlign med familieposten s_p54_3 (1876–1951); behold identitetskonflikten synlig indtil originalerne er læst.
 
 **Disposition:** Ingen forældre, fødselsdatoer, dødsdatoer eller GEDCOM-relationer ændres. Faderskabet til Edvard Hammer Gedde er en stærk hypotese, ikke en fastslået kendsgerning.
+
+
+## Uafhængig trykt kontrol af Edvard Hammer Geddes familie
+
+A. Kann Rasmussen, *Danske i Siam 1858–1942* (1986), s. 134–135 og 175, identificerer **Vilhelm Gedde (født 1878)** og **Oluf Christian Kleist Gedde (født 1879)** som sønner af **Edvard Hammer Gedde (1845–1925)** og **Vitta Dorthea Henriette Mathilde Ludvigsen (1847–1927)**; Oluf kaldes udtrykkeligt Vilhelms bror. Bogen henviser for disse oplysninger til *Danske i Udlandet* (1935), s. 342.
+
+Dette er en uafhængig trykt kontrol af forældreparret og to yngre sønner født i samme egn få år efter Eduard (1875). Sammenholdt med 1918-fortegnelsens “Søn af Forp. E. G.” og Trap Danmarks forpagter E. H. Gedde på Tyrstinggaard i 1875 styrker det hypotesen om, at Eduard (1875) er endnu en søn af Edvard Hammer Gedde og Vitta Ludvigsen.
+
+**Begrænsning:** 1986-bogen omtaler ikke Eduard født 1875. Den dokumenterer Vilhelm og Oluf, ikke Eduards faderskab. Dåbsindførslen og 1880-folketællingen er stadig afgørende. Forældre-relationen forbliver hypotese, og ingen stamtræsposter ændres.
