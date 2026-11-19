@@ -501,13 +501,9 @@ body:not(.show-uncertain) .ft-item.uncertain>.ft-line{display:none}
     <div class="panel"><svg id="map" class="mapsvg" role="img" aria-label="Kort over slægtens steder"></svg></div>
     <div style="display:flex;flex-direction:column;gap:24px;min-width:0">
       <div class="panel"><h3>Djursland og Mols, forstørret</h3><svg id="inset" class="mapsvg" role="img" aria-label="Forstørret kort over Djursland"></svg></div>
-      <div class="panel"><h3>Langeland, forstørret</h3><p class="muted" style="font-size:.82rem">Fødesteder, dødssteder og registrerede ophold på øen. Klik på et punkt for at se personerne og hændelserne. Kortet bruger de stedsposter, der allerede findes i slægtsdataene.</p><svg id="langeland-map" class="mapsvg" role="img" aria-label="Forstørret kort over Langeland og slægtens steder"></svg><div class="place-detail" id="langeland-summary"></div></div>
+      <div class="panel"><h3>Langeland, forstørret</h3><p class="muted" style="font-size:.82rem">Fødesteder, dødssteder og registrerede ophold på øen. Klik på et punkt for at se personerne og hændelserne. De særskilte afgangsliste-spor nedenfor er endnu ikke knyttet til navngivne personer.</p><svg id="langeland-map" class="mapsvg" role="img" aria-label="Forstørret kort over Langeland og slægtens steder"></svg><div class="place-detail" id="langeland-summary"></div><div class="place-detail" id="langeland-notes"></div></div>
       <div class="panel"><h3 id="pd-title">Steder efter antal hændelser</h3><div class="place-detail" id="placedetail" hidden></div><div class="placelist" id="placelist"></div></div>
-      <div class="panel"><h3>Oversøiske destinationer i forskningen</h3><p class="muted" style="font-size:.82rem">Kortet viser steder, der nævnes i konkrete udvandringsspor. Punkterne er destinationer eller mulige destinationer — ikke dokumenterede ruter fra Langeland.</p><svg id="worldmap" class="mapsvg" role="img" aria-label="Verdenskort med foreløbige udvandringsdestinationer"></svg><ul class="links" style="columns:1">
-        <li><a href="?claim=gerda-iver-emigration#forskning">Fresno, Californien — Iver Peder Holgersen, mulig udrejse i 1910</a></li>
-        <li><a href="?claim=lorenz-gedde-emigration#forskning">Shanghai — Olaf Gedde, kontraktreference fra 1904</a></li>
-        <li><a href="?claim=lorenz-gedde-eduard-eldorado#forskning">Eldorado, Argentina — Eduard/Edouard Gedde, mulig identifikation</a></li>
-      </ul><p class="muted" style="font-size:.78rem">Brasilien og øvrige destinationer tilføjes, når konkrete personer og kilder er identificeret.</p></div>
+      <div class="panel"><h3>Oversøiske migrations- og forskningsspor</h3><p class="muted" style="font-size:.82rem">Kortet samler kildehenviste personspor og særskilte arkivsøgeområder. Et kontraktmål er ikke det samme som dokumenteret ankomst; en identifikationshypotese er ikke en bekræftet bosættelse. Brasilien vises kun som arkivsøgeområde for Lorenz — ingen rejse dertil er dokumenteret. Der tegnes ingen ruter uden både dokumenteret afrejse og ankomst.</p><svg id="worldmap" class="mapsvg" role="img" aria-label="Verdenskort med dokumentationsspor, hypoteser og arkivsøgeområder"></svg><ul class="links" id="migration-list" style="columns:1"></ul><p class="muted" style="font-size:.78rem">Punktform og tekst angiver evidenstypen. Klik på et punkt eller en post for at åbne det tilknyttede forskningsspor.</p></div>
     </div>
   </div>
 </section>
@@ -1069,8 +1065,9 @@ function renderKort(){
     document.getElementById('langeland-map').setAttribute('viewBox','0 0 600 220');
     document.getElementById('langeland-summary').textContent='Der er endnu ingen stedsposter med regionen Langeland i de aktuelle data.';
   }
-  // Schematic world map: plot only destination places explicitly present in current research leads.
-  // No origin-to-destination line is drawn unless an individual journey is independently documented.
+  // World migration layer is compiled from content/migrations/migration-events.md.
+  // Points distinguish documentary contract references, identity hypotheses and archive targets.
+  // No route is drawn: no event pair currently establishes both a departure and an arrival.
   const world=document.getElementById('worldmap'), ww=900, wh=440;
   world.setAttribute('viewBox',`0 0 ${ww} ${wh}`);
   el('rect',{x:0,y:0,width:ww,height:wh,class:'sea'},world);
@@ -1084,17 +1081,35 @@ function renderKort(){
     [[112,-11],[154,-10],[153,-40],[130,-45],[114,-30]]
   ];
   continents.forEach(points=>el('polygon',{points:points.map(([lon,lat])=>`${wx(lon)},${wy(lat)}`).join(' '),class:'world-land'},world));
-  const destinations=[
-    {name:'Fresno',country:'USA',lat:36.7378,lon:-119.7871,claim:'gerda-iver-emigration',status:'Muligt mål · identitet uafklaret'},
-    {name:'Shanghai',country:'Kina',lat:31.2304,lon:121.4737,claim:'lorenz-gedde-emigration',status:'Kontraktreference · 1904'},
-    {name:'Eldorado',country:'Argentina',lat:-26.4,lon:-54.65,claim:'lorenz-gedde-eduard-eldorado',status:'Hypotese · Gedde-identifikation'}
-  ];
-  destinations.forEach(d=>{
-    const x=wx(d.lon), y=wy(d.lat);
-    el('circle',{cx:x,cy:y,r:7,class:'dot',fill:'var(--accent)', 'data-claim-id':d.claim,tabindex:0,role:'button','aria-label':d.name+', '+d.country+', '+d.status},world);
-    const label=el('text',{x:x+10,y:y-9,class:'lbl'},world);label.textContent=d.name;
+  const migrationEvents=DATA.migrations?.events||[];
+  migrationEvents.forEach((d,i)=>{
+    const x=wx(Number(d.longitude)), y=wy(Number(d.latitude));
+    const target=d.layer==='research-target', hypothesis=d.layer==='hypothesis';
+    let marker;
+    if(target){
+      marker=el('rect',{x:x-5,y:y-5,width:10,height:10,rx:1,class:'dot research-target',fill:'var(--sheet)',stroke:'var(--muted)','stroke-dasharray':'3 2','data-claim-id':d.claim_id,tabindex:0,role:'button','aria-label':d.place+', '+d.country+', arkivsøgeområde'},world);
+    }else{
+      marker=el('circle',{cx:x,cy:y,r:hypothesis?7:6,class:'dot migration-point',fill:hypothesis?'var(--sheet)':'var(--accent)',stroke:hypothesis?'var(--muted)':'var(--sheet)','stroke-dasharray':hypothesis?'3 2':'none','data-claim-id':d.claim_id,tabindex:0,role:'button','aria-label':d.place+', '+d.country+', '+d.evidence_label},world);
+    }
+    const label=el('text',{x:x+9,y:y+(d.id==='brazil-sao-paulo-archive-search'?15:-8),class:'lbl'},world);
+    label.textContent=d.place;
+    const openClaim=()=>{
+      go('forskning');
+      requestAnimationFrame(()=>{
+        const card=document.getElementById('claim-'+d.claim_id);
+        if(card){card.querySelector('details')?.setAttribute('open','');card.scrollIntoView({block:'start'});}
+      });
+    };
+    marker.addEventListener('click',openClaim);
+    marker.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openClaim();}});
+    marker.addEventListener('mousemove',e=>showTip(e,`<b>${esc(d.place)}, ${esc(d.country)}</b><br>${esc(d.evidence_label)}<br>${esc(d.identity_label)}`));
+    marker.addEventListener('mouseleave',hideTip);
   });
-  wire(world);
+  const migrationList=document.getElementById('migration-list');
+  migrationList.innerHTML=migrationEvents.map(d=>`<li><a href="?claim=${encodeURIComponent(d.claim_id)}#forskning">${esc(d.place)}, ${esc(d.country)}${d.date?' · '+esc(d.date):''}</a> — <span class="muted">${esc(d.evidence_label)}; ${esc(d.identity_label)}</span><br><span class="muted">${esc(d.note)}</span></li>`).join('');
+  const localNotes=DATA.migrations?.local_notes||[];
+  document.getElementById('langeland-notes').innerHTML=localNotes.map(n=>`<p><b>${esc(n.place)} · ${esc(n.date)}</b> <span class="conf probable">${esc(n.evidence_label)}</span><br>${esc(n.note)} <a href="?claim=${encodeURIComponent(n.claim_id)}#forskning">Læs forskningssporet ↗</a></p>`).join('');
+
   const listEl=document.getElementById('placelist');
   listEl.innerHTML = Object.keys(ev).sort((a,b)=>ev[b].length-ev[a].length).map(pl=>`<button type="button" data-pl="${esc(pl)}"><span><i class="sw" style="background:${lineVar(dom(pl))};width:9px;height:9px;margin-right:6px"></i>${esc(pl)}</span><span class="n">${ev[pl].length}</span></button>`).join('');
   listEl.querySelectorAll('[data-pl]').forEach(b=>b.addEventListener('click',()=>showPlace(b.dataset.pl)));
