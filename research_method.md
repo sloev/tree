@@ -12,7 +12,8 @@ Dette er den fælles, fremadrettede standard for brugeren og alle agenter. Læs 
 ## 1. Privat kildeindtagelse og offentlig publicering
 `sloev/tree_private` er eneste indtagelses- og forskningsarbejdsplads. Alle nye captures lægges i det private repositories `Ingest_me/`. GitHub Actions arkiverer originaler, konverterer dokumenter, fremstiller sidebilleder og OCR-udkast og opretter en append-only visuel review-kø til ChatGPT-assisteret gennemgang. OCR er aldrig autoritativ; hver side skal visuelt inspiceres og have en eksplicit disposition. Se private repositories README og `AI_review_queue/README.md`.
 - Dette offentlige repository har ingen capture-indbakke, OCR-job eller råmaterialebehandling.
-- Kun manuelt godkendte, offentligt sikre Markdown-/mediefiler må overføres fra `publish/approved/` i det private repository via en gennemgået pull request.
+- Private `tree_private` publiceringsagenten udarbejder manifest-listede, offentligt sikre Markdown-/mediefiler i `publish/ready/`. GitHub Actions overfører dem automatisk til `sloev/tree:main` efter privacy- og evidenskontrol. Brugeren skal ikke godkende hvert enkelt fund eller merge PR’er.
+- Foreløbige leads, hypoteser og modstridende oplysninger må offentliggøres, når de er offentligt sikre, kildehenviste og tydeligt mærket med valideringsgrad. Rå captures, sidebilleder, ureviewet OCR, DNA-/matchdata og identificerende oplysninger om nulevende forbliver private.
 - Rå DNA-matchcaptures, genetiske data, matchlister og identificerende afledte oplysninger forbliver private.
 - Kilde-/claim-poster i dette repository skal være uafhængigt dokumenteret og må ikke fremstille private match-hypoteser som historiske fakta.
 
@@ -21,12 +22,12 @@ Dette er den fælles, fremadrettede standard for brugeren og alle agenter. Læs 
 - Hver merged publicerings-PR ændrer normalt filer under `content/` og får mindst én automatisk bulletinpost i `content/activity.md`. Bulletin beskriver offentliggørelsesaktivitet, ikke automatisk et bekræftet genealogisk fund.
 - **Håndskrift:** OCR må aldrig stå alene. Gennemgå hvert originalt sidebillede ved læsbar opløsning; lav en diplomatisk transskription (bevar linjeskift, forkortelser, stavemåder og usikkerheder), markér ulæselige tegn med `[?]`, og lav normaliseret læsning separat. Dobbelttjek navne, datoer, stednavne og relationstermer mod billedet. Registrér hvem/hvad der er læst og hvilke sider der ikke er læst. Hvis billedet ikke kan inspiceres, markér capture som BLOCKED — udled ikke indhold fra OCR alene.
 
-## 3. Fra godkendt forskning til offentlig kildemateriale
+## 3. Fra privat forskning til automatisk offentlig kildemateriale
 Arbejd med allerede godkendte forskningsposter i det offentlige repository. Private captures forbliver i `tree_private`; de flyttes ikke til offentlige mapper. Før en offentlig kilde/claim oprettes, skal publiceringspakken indeholde:
 1. Oprindelig URL/arkivsignatur, adgangsdato og provenance.
 2. Kildeklassifikation og præcis diplomatisk transskription med side-/foliohenvisning.
 3. En claim, der angiver hvad kilden beviser og ikke beviser, modstridende evidens og mangler.
-4. Uafhængig privacy-gennemgang; ingen levende DNA-matchdata eller identificerende detaljer.
+4. Uafhængig privacy-gennemgang i agent/workflow; ingen levende DNA-matchdata eller identificerende detaljer. Dette er ikke en bruger-godkendelsesport.
 5. Lokale, lovligt arkiverede kopier kun når publiceringsrettigheder og adgangsvilkår tillader det.
 
 ## 4. Valideringsgrad og åben forskning
