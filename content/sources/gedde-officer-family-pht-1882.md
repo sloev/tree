@@ -72,3 +72,12 @@ Det er en væsentlig kildeangivelse. Den gør det muligt at målrette næste ark
 
 - *Personalhistorisk Tidsskrift*, 1. række, 3. bind (1882), trykt s. 170–174: https://tidsskrift.dk/personalhistorisk_tidsskrift/article/download/79868/114992/166519
 - Samfundet for dansk Genealogi og Personalhistorie, systematisk indholdsfortegnelse, opslag Gedde nr. 1254–1256: https://www.genealogi.dk/index.php?id=12&view=category
+
+
+## Arkivsporet til originalbrevet er nu konkretiseret
+
+Rigsarkivets Daisy-registratur for **Generalia in folio (1777–1944)** viser en særskilt delserie “33 Bertouch, E.A. von” fordelt på pakker 180–199. Pakke 180 indeholder nr. 1–20; pakke 181 nr. 21–50; pakkerne 182–199 fortsætter til nr. 77. Registraturen henviser til papirregistratur s.340–353 og folioregistratur 112. Det er det mest oplagte første sted at søge efter Hans Christoffer Gjeddes brev til Bertouch, 17.02.1782.
+
+En anden mulig destination er **Privatarkiv nr. 5134, Familien Bertouch (1636–1975)**, som har en særskilt registratur og digital billedviser. Det er et supplerende spor; brevet er endnu ikke fundet i nogen af samlingerne.
+
+Bestillingsrækkefølge: gennemgå registraturens s.340–353 og folioregistratur 112; bestil derefter pakke 180 og 181; fortsæt om nødvendigt med pakker 182–199; kontroller til sidst privatarkiv 5134. Søg efter Gedde/Gjedde, Hans Christoffer, Bertouch og datoen 17.02.1782.

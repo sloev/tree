@@ -59,3 +59,12 @@ Ingen kanoniske relationer ændres af denne claim.
 ## Supplerende kildekritik: to Frederik Ejler Gedder
 
 H. D. Lind viser i *Personalhistorisk Tidsskrift* (1913), s.59–62, at viceadmiral Frederik Ejler Gedde (1641–1717), søn af Ove Gedde, blev forvekslet med en yngre Frederik Ejler, søn af Brostrup Gedde (født ca.1652). En retsprotokol fra 1683 gentog fejlagtigt den yngre mands faderskab om viceadmiralen. Det er en konkret historisk parallel til risikoen for at sammenblande personer i Gedde-slægten. Den afgør ikke, om major Knud i Hans Christoffers brev fra 1782 er identisk med Knud Gedde til Vadskærgaard; det kræver fortsat originalbrevet og øvrige primærkilder.
+
+
+## Arkivsporet til originalbrevet er nu konkretiseret
+
+Rigsarkivets Daisy-registratur for **Generalia in folio (1777–1944)** viser en særskilt delserie “33 Bertouch, E.A. von” fordelt på pakker 180–199. Pakke 180 indeholder nr. 1–20; pakke 181 nr. 21–50; pakkerne 182–199 fortsætter til nr. 77. Registraturen henviser til papirregistratur s.340–353 og folioregistratur 112. Det er det mest oplagte første sted at søge efter Hans Christoffer Gjeddes brev til Bertouch, 17.02.1782.
+
+En anden mulig destination er **Privatarkiv nr. 5134, Familien Bertouch (1636–1975)**, som har en særskilt registratur og digital billedviser. Det er et supplerende spor; brevet er endnu ikke fundet i nogen af samlingerne.
+
+Bestillingsrækkefølge: gennemgå registraturens s.340–353 og folioregistratur 112; bestil derefter pakke 180 og 181; fortsæt om nødvendigt med pakker 182–199; kontroller til sidst privatarkiv 5134. Søg efter Gedde/Gjedde, Hans Christoffer, Bertouch og datoen 17.02.1782.
