@@ -151,3 +151,26 @@ Added a schematic world map to the same `#kort` view in commit `92d2d31844d00544
 **Vigtige commits:** datasæt `7cb744e`; compiler `13735d0` / parserrettelse `35f1a0b`; evidens- og koordinatproveniens `6dc860b`; kildevalidering `b564be0`; kortvisning `9a165f5` / kildevisning `f1ad093`; metodevejledning `e6ebdc7`.
 
 **CI-status:** Markdown-validering og sitegenerering lykkedes i run [44430128095](https://github.com/sloev/tree/actions/runs/44430128095), men det samlede run blev afbrudt af nyere automatiske commits, før generated-output push blev bekræftet. Senere research commits har startet nye runs. Den aktuelle ende-til-ende-build og Pages-deploy skal derfor kontrolleres mod den seneste main-commit før kortet kaldes live. Ingen manuel browser-/mobiltest er påstået.
+
+
+## 2026-11-19 — DONE: Gerda line, Marthe Jørgensen archive-route check
+
+**Agent:** OpenAI GPT-6. **Repository/branch:** `sloev/tree`, `main`.
+
+**Startup and scope:** Confirmed `main`; read `AGENTS.md`, `AGENT_PROTOCOL.yaml`, `research_method.md`, `README.md`, this complete log, the active claim `content/claims/gerda-kresten-mother.md`, and person records `g_marthe`, `g_kresten`, and `g_gerda`. The older `leads/README.md` and four `leads/grandparent-*.md` paths named in the automation prompt do not exist on current `main`; followed the repository's current Markdown-publication workflow and updated the existing Gerda claim rather than creating parallel dossiers.
+
+**Research:** Reopened Langeland Kommune Byhistorisk Arkiv's *Døde og begravede på Langeland 1870–1899*. Its coverage header identifies Magleby (MA), 1870–1891; line 4111 reads: “Jørgensen, Marthe Christine, tjenestepige, Søndenbro, Magleby, 26. + 27/8-1878. (MA)”. This proves the compiled index contains the entry; it does not identify the woman as candidate B or prove maternity.
+
+Checked the official Arkivalieronline churchbook collection and DAISY catalogue route. The general collection page is not an exact volume/folio reference. The DAISY search exposed a Magleby (Svendborg Amt) cross-reference register ending in 1871, not the target 1878 death book. A seemingly relevant Magleby scan guide was rejected because it explicitly covers Magleby Sogn on Møn (Præstø Amt), not Langeland. Candidate B's Link-Lives 1852 baptism and 1878 death pages could not be opened in this pass. No original image or transcription was inspected.
+
+**Claim assessment:** Candidate B's reported birth date (9 Oct 1852) makes her 25 years, 10 months and 18 days old at the indexed death date; the index says 26. This is a small but unresolved discrepancy, not a new identity proof. A third Marthe remains possible. The 1877 baptism, 1878 burial and 1877 tilgangsliste remain the decisive checks.
+
+**Files changed:**
+- `content/claims/gerda-kresten-mother.md` — appended a bounded archive-route/search note. Commit: `29798800b998df28af57a315b1bd4ca50d544116`.
+- `coop.log.md` — this handoff.
+
+**Not changed:** no person identity, parent-child edge, canonical data, generated output, source/media file or private repository material. No private vault or DNA data accessed.
+
+**Validation:** branch `main` confirmed. Claim and log re-fetched after writing. No local build, link checker, browser image inspection or deployment test was run in this GitHub-only pass. The automatic Nyhedsbulletin entry and relevant GitHub Actions result still need checking.
+
+**Next:** identify the exact Langeland Magleby HMB/KMB volumes for 1878 deceased women and 1877 born boys; inspect the original entries and marginal notes, then the 1877 tilgangsliste. Keep the claim unresolved until those records are read.
