@@ -10,6 +10,9 @@ events:
     country: Kina
     latitude: 31.2304
     longitude: 121.4737
+    coordinate_basis: "Omtrentlig moderne bykoordinat; ikke historisk præcis adresse."
+    source_reference: "Personpost s_p54_6, felt src; Københavns Politis kontrakt 3534 (11.07.1904)."
+    source_ids: []
     date: "1904-07-11"
     layer: documentary-lead
     evidence_label: "Kontraktreference, transskription"
@@ -23,6 +26,9 @@ events:
     country: USA
     latitude: 36.7378
     longitude: -119.7871
+    coordinate_basis: "Omtrentlig moderne bykoordinat; ikke historisk præcis adresse."
+    source_reference: "Personpost s_p60_2, felt src; tidligere transskription af kontrakt 4443 (08.09.1910)."
+    source_ids: []
     date: "1910-09-08"
     layer: documentary-lead
     evidence_label: "Protokoltransskription; original ikke genfundet"
@@ -36,6 +42,10 @@ events:
     country: Argentina
     latitude: -26.4
     longitude: -54.65
+    coordinate_basis: "Omtrentlig moderne bykoordinat; ikke historisk præcis adresse."
+    source_reference: "De Danskes Vej, bd. III, trykt s. 80; Udvandrerarkivets billedhenvisninger B9886 og B9790."
+    source_ids:
+      - de-danskes-vej-argentina-eldorado-gedde
     date: "1922"
     layer: hypothesis
     evidence_label: "Identifikationshypotese"
@@ -49,6 +59,10 @@ events:
     country: Brasilien
     latitude: -22.9068
     longitude: -43.1729
+    coordinate_basis: "Omtrentlig moderne bykoordinat for arkivsøgeområde; ikke et registreret havneanløb."
+    source_reference: "Rigsarkivets vejledning om Centralkartotek over søfolk; claim lorenz-brazil-sailor-archive-route."
+    source_ids:
+      - rigsarkivet-soefolk-i-handelsfladen
     layer: research-target
     evidence_label: "Arkivsøgeområde"
     identity_label: "Ingen rejse eller ankomst dokumenteret"
@@ -61,6 +75,10 @@ events:
     country: Brasilien
     latitude: -23.9608
     longitude: -46.3336
+    coordinate_basis: "Omtrentlig moderne bykoordinat for arkivsøgeområde; ikke et registreret havneanløb."
+    source_reference: "Rigsarkivets vejledning om Centralkartotek over søfolk; claim lorenz-brazil-sailor-archive-route."
+    source_ids:
+      - rigsarkivet-soefolk-i-handelsfladen
     layer: research-target
     evidence_label: "Arkivsøgeområde"
     identity_label: "Ingen rejse eller ankomst dokumenteret"
@@ -73,6 +91,10 @@ events:
     country: Brasilien
     latitude: -23.5505
     longitude: -46.6333
+    coordinate_basis: "Omtrentlig moderne bykoordinat for arkivsøgeområde; ikke en registreret bopæl."
+    source_reference: "Museu da Imigração som senere arkivsøgevej; claim lorenz-brazil-sailor-archive-route."
+    source_ids:
+      - rigsarkivet-soefolk-i-handelsfladen
     layer: research-target
     evidence_label: "Arkivsøgeområde"
     identity_label: "Ingen rejse eller ankomst dokumenteret"
@@ -82,6 +104,7 @@ local_notes:
     place: Skrøbelev, Langeland
     date: "1855"
     claim_id: gerda-emigrant-family
+    source_reference: "Henning Bender, Den oversøiske udvandring fra Danmark 1840–1920 + kilder, foredrag 25.04.2024."
     evidence_label: "Sognetælling i sekundær oversigt"
     note: "Henning Benders oversigt opgør én person i Skrøbelevs afgangslister i 1855. Navnet er ikke identificeret; det må ikke knyttes til Jørgen, Bodil eller et barn uden original kirkebogsindførsel."
   - id: skroebelev-departure-lists-1866
