@@ -87,3 +87,14 @@ Denne kontrol betyder kun, at der ikke er en eksplicit udvandrerbemærkning i de
 ## Lokalarkivets samtidshistoriske familiekilde
 
 Nordlangelands Lokalarkivs register over *Øboer* 2011 beskriver Lisbeth Skovs artikel **"Langø og dæmningen"**. Registeret anfører, at Marius Christensen og Ane Marie købte Langø i 1894; at Marius med hjælp fra sønner og svigersøn byggede den 334 meter lange dæmning i 1911; at Ane Marie døde i 1930, Marius i 1934; og at børnene rejste en mindesten over dem i 1934. Det er en nyttig lokalhistorisk sekundær kilde til familiens liv på Langø, men ikke i sig selv dokumentation for udvandring blandt børnene. Selve artiklen i *Øboer* 2011, side 85–96, bør fremskaffes og gennemgås med sidetal.
+
+
+## Foreløbigt familiefoto-spor fra omkring 1900
+
+Et Facebook-opslag i gruppen *Gamle billeder fra Langeland*, dateret 8. januar 2025, viser et sort-hvidt gruppeportræt med billedteksten **"Kongen af Langø med familie. (Min tipoldefar)"**. Billedteksten lister navnene Jens, Martha, Ane Marie, Georg, Valdemar, Marius, Kristine og Kristian og daterer billedet forsigtigt til "omkring år 1900". [Se opslaget](https://www.facebook.com/groups/387825631282120/posts/9447257352005524/).
+
+Navnelisten passer delvist med den kendte Marius Christensen/Ane Marie Jørgensen-familie og flere af de syv børn i dette dossier. Den er dog ikke entydig: der er to sønner med Christian-fornavn, mens billedteksten kun siger "Kristian"; desuden nævnes kun seks andre navne ud over Marius og Ane Marie, så ét af de syv kendte børn er ikke opført. Billedteksten angiver ikke, hvem der er hvem på fotografiet, og ansigterne er ikke identificeret visuelt.
+
+En kommentar i opslaget anfører, at Valdemar er født i 1899 og foreslår 1900–1901 som mulig datering. Det stemmer med den nuværende fødselsdato i træet, men er en senere familiekommentar, ikke en samtidig datering. Indtil fotograf, atelier, original bagside eller en anden daterbar kilde findes, bør dateringen fortsat stå som **ca. 1900**.
+
+Dette er en familieidentifikation af et fotografi og et nyttigt navnespor, ikke primær dokumentation for alle personernes identitet eller indbyrdes relationer. Der er ikke oprettet nye relationer eller ændret persondata på baggrund af opslaget.

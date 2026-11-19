@@ -18,6 +18,7 @@ sources:
   - "Tove Nedrelid, NVE-rapport 32 (2014): https://publikasjoner.nve.no/rapport/2014/rapport2014_32.pdf"
   - "Hirsch, Fortegnelse over danske og norske Officerer 1648–1814, navneliste: https://slaegtsbibliotek.dk/900836.pdf"
   - "Haagen Krog Steffens, Norske Slægter (1912), s. 129: https://slaegtsbibliotek.dk/929149.pdf"
+  - "Personalhistorisk Tidsskrift, 3. bind (1882), s. 170–171: https://www.genealogi.dk/images/pht/1882/1882.pdf"
   - "Norsk kunstnerleksikon, Nicolai Wilhelm Gedde: https://nkl.snl.no/Nicolai_Wilhelm_Gedde"
   - "Rigsarkivet, Militær og forsvar — Ingeniørkorpsets norske arkiv: https://arkivalieronline.rigsarkivet.dk/da/other/other-collection/81"
 ---
@@ -67,7 +68,7 @@ Nicolai Wilhelm Gedde (1779–1833) var også ingeniørofficer, men hans tjenest
 
 ## Fødselsårskonflikt — yderligere trykt belæg for 1788
 
-Haagen Krog Steffens, *Norske Slægter* (1912), s. 129, anfører Ove Samuel Gedde som 1788–1843. Dette er endnu en trykt kilde til 1788, ved siden af Anker 1885, og skal vejes mod den samtidige nekrolog fra 1843 (28. maj 1778), Harbou 1897 (28. februar 1778) og Liebe/Borgstrøm (1778). Steffens-værket er en senere slægtshåndbog og dokumenterer ikke selv dåbsindførslen; det kan være en gentaget fejl eller en anden kilde. Indtil kirkebogen findes, skal 1778 fortsat stå som bedst understøttet, men konfliktens omfang skal være synligt.
+Haagen Krog Steffens, *Norske Slægter* (1912), s. 129, anfører Ove Samuel Gedde som 1788–1843. Afsnittet kalder ham samtidig den ældste søn, men anfører hans bror Nicolai Wilhelm som 1779–1833 — en intern kronologisk modsigelse, hvis årstallene læses bogstaveligt. Anker 1885's OCR-tekst anfører også 28. maj 1788, men Project Runeberg markerer siden udtrykkeligt som aldrig korrekturlæst, og den tilhørende faksimile kunne ikke aflæses i denne kontrol. Derfor er 1788 i Anker foreløbig et OCR-afhængigt læsning, ikke en verificeret trykt oplysning. Modsat står den samtidige nekrolog fra 1843 (28. maj 1778), Harbou 1897 (28. februar 1778) og Liebe/Borgstrøm (1778). Samlet er 1778 fortsat klart bedst understøttet; 1788 skal bevares som en dokumenteret sekundær/OCR-variant, indtil kirkebogen eller officerskortet afgør sagen.
 
 ## Vigtigt fødselsårsforbehold
 
@@ -98,7 +99,8 @@ Kilde: *Kongelig Dansk Hof- og Stats-Calender for Aar 1829*, afsnittet “Land-M
 2. Find den officielle Kartverket-post for 32C-6-vest og 1796-kortet; sammenlign metadatafelter og eventuelle ophavsperson-ID'er. Undersøg, om samme katalogautoritet er brugt på alle kort.
 3. Søg i Rigsarkivets ingeniørkorpsarkiv efter Ove Samuel Gedde, Gedde, kadetter/konduktører, lønnings- og kvartalsrapporter samt korrespondance fra 1795–1806. H.C. Geddes direktørperiode 1796–1802 er et særligt vigtigt vindue.
 4. Fastslå Ove Samuels militære rang, tjenestested og funktion 1796–1806 via stambøger, udnævnelser, hof- og statskalendere samt korpsets personalefortegnelser.
-5. Kontroller Ankers trykte side visuelt for om årstallet faktisk står som 1788; sammenhold med 1843-nekrologen og dåbsregisteret, når fødestedet kan bestemmes.
+5. Kontroller Ankers faksimile visuelt; OCR-siden er urettet og viser 1788, men er ikke sikkert belæg for trykkets faktiske tal.
+6. Søg dåb i Fredrikstad prestegjelds transskriberede døbte 1750–1804, men behandl Fredrikstad som en søgehypotese, ikke som fastslået fødested: nekrologen siger kun “i Norge”. Sammenhold med original kirkebog og parallel klokkerbok, hvis bevaret.
 
 **Konklusion:** Der er nu et sammenhængende kartografisk spor, og faderens ledende rolle i Norges geografiske opmåling gør det særligt interessant. Men hverken 1796- eller 1805-kortet må endnu registreres som et sikkert personligt værk af vores Ove Samuel i den kanoniske biografi.
 
@@ -126,11 +128,20 @@ NVE-rapportens noter henviser for Frederik Christophers biografiske oplysninger 
 
 ## Hirsch' officerskartotek — ny konkret arkivhenvisning
 
-Rigsarkivets vejledning anbefaler Hirsch' kartotek over danske og norske officerer 1648–1814 som indgang til officerers personlige data og karriereforløb. Kartoteket findes både som håndskrevet original på Arkivalieronline og i en OCR-søgbart udgave hos Slægtsforskernes Bibliotek. Den søgbare navneliste fører en post **“Joachim Ove Samuel” under Gedde** til **bind 4-1, side 32**. Dette kan være Ove Samuel Gedde, men identiteten er endnu ikke fastslået, fordi navneformen er længere end den, der normalt bruges om obersten. Det er et præcist opslagsspor, ikke i sig selv bevis for tjenesteforløb eller kortarbejde.
+Rigsarkivets vejledning anbefaler Hirsch' kartotek over danske og norske officerer 1648–1814 som indgang til officerers personlige data og karriereforløb. Kartoteket findes både som håndskrevet original på Arkivalieronline og i en OCR-søgbart udgave hos Slægtsforskernes Bibliotek. Den søgbare navneliste fører tre relevante indførsler under Gedde til samme bind **4-1**: “Fredrich Christoffer” (side 27), “Joachim Nicolaj Wilhelm” (side 30) og “Joachim Ove Samuel” (side 32). De svarer sandsynligvis til de tre kendte sønner Frederik Christopher, Nicolai Wilhelm og Ove Samuel Gedde. Det er et lovende familie- og navnematch, men alle tre håndskrevne kort skal aflæses, før identifikationerne og tjenestedata kan fastslås.
 
-- Hirsch' søgbare navneliste: https://slaegtsbibliotek.dk/900836.pdf (find “Gedde”; indførslen står omkring PDF-tekstlinje 12990).
+- Hirsch' søgbare navneliste: https://slaegtsbibliotek.dk/900836.pdf (find “Gedde”; indførslerne står omkring PDF-tekstlinjerne 12961 og 12983–12990).
 - Forklaring af kartotekets omfang og OCR-metode: https://slaegtsbibliotek.dk/samlinger/hirsch.
 - Rigsarkivets originale digitale kartotek, alfabetisk afsnit “Geb–Gei”: https://arkivalieronline.rigsarkivet.dk/da/other/index-creator/81/17133051/17202077.
 - Rigsarkivets vejledning til officersstambøger og Hirsch: https://www.rigsarkivet.dk/vejledning/haerens-og-flaadens-mandskabslister/haerens-mandsskabslister-kom-godt-i-gang/.
 
-**Næste kontrol:** Find originalkortet/billedet for bind 4-1, side 32, og aflæs om posten faktisk vedrører Ove Samuel, hvilken rang og hvilke tjenestesteder den angiver, samt om den indeholder henvisninger til hans toårige tjeneste ved det holstenske armékorps. Sammenhold med Ove Samuels samtidige nekrolog fra 1843 og regimenternes stambøger.
+**Næste kontrol:** Find originalkortene for bind 4-1, side 27, 30 og 32. Sammenhold navn, fødselsdata, forældre, rang og tjenestesteder for de tre brødre. Særligt for Ove Samuel skal der ledes efter hans toårige tjeneste ved det holstenske armékorps og hans overførsel til dansk hær i 1803. Sammenhold med nekrologen fra 1843 og regimenternes stambøger.
+
+
+## Personalhistorisk Tidsskrift 1882 — tidligt belæg for 28. maj 1778
+
+*Personalhistorisk Tidsskrift*, 3. bind (1882), s. 170–171, indeholder en stamtavle over familien Gjedde. Den anfører Ove Samuel født **28. maj 1778**, død 10. marts 1843; Nicolai Wilhelm født 27. december 1779; og Frederik Christoffer født 2. februar 1781. Stamtavlen angiver, at den er udarbejdet efter egne annotationer, Benzons stamtavler, Lengnicks kirkebogsuddrag og materiale i Geheimearkivets personalhistoriske samling. Det er et stærkt, tidligt genealogisk belæg, men ikke selve dåbsindførslen.
+
+Denne kilde styrker 1778-vurderingen væsentligt: den passer med nekrologen fra 1843 og Liebe/Borgstrøm, mens *Norske Slægter* (1912) anfører 1788, men samtidig kalder Ove Samuel den ældste søn og Nicolai Wilhelm født 1779. Ankers 1885 OCR læser også 1788, men siden er markeret som urettet OCR og faksimilen er endnu ikke visuelt kontrolleret. 1778 er fortsat klart bedst understøttet.
+
+**Konkret kirkebogssøgning:** Fredrikstad hovedsogns ministerialbog 1750–1804, arkivsignatur SAO/A-11082/F/Fa/L0002, er digitaliseret i Digitalarkivet: https://media.digitalarkivet.no/kb/contents/7448. Det er en søgeindgang, ikke dokumentation for at Ove Samuel blev født i Fredrikstad; nekrologen siger kun, at han blev født i Norge. Originalen skal kontrolleres, og en parallel klokkerbok undersøges, hvis den findes.

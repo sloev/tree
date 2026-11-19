@@ -18,6 +18,6 @@ På trykt side 129 (PDF-tekst omkring linje 6621) omtales oberst Ove Samuel Gedd
 
 ## Kildekritisk betydning
 
-Årstallet 1788 er i konflikt med *Fædrenelandsk Nekrolog* (1843), som angiver 28. maj 1778, Harbou (1897), som angiver 28. februar 1778, og Liebe/Borgstrøm, som også støtter 1778. Steffens er en senere slægtshåndbog og giver ikke i dette korte afsnit en dåbs- eller anden primærhenvisning til fødselsåret. Oplysningen registreres som selvstændigt belæg for konfliktens udbredelse, ikke som grundlag for at ændre den kanoniske fødselsdato.
+Årstallet 1788 er i konflikt med *Fædrenelandsk Nekrolog* (1843), som angiver 28. maj 1778, Harbou (1897), som angiver 28. februar 1778, og Liebe/Borgstrøm, som også støtter 1778. Steffens er en senere slægtshåndbog og giver ikke i dette korte afsnit en dåbs- eller anden primærhenvisning til fødselsåret. Værket kalder Ove Samuel den ældste søn, men anfører Nicolai Wilhelm som født 1779; hvis Ove var født 1788, ville han være yngre end Nicolai. Det er en intern modsigelse, som gør 1788 særligt mistænkeligt. Oplysningen registreres som selvstændigt belæg for konfliktens udbredelse, ikke som grundlag for at ændre den kanoniske fødselsdato.
 
 **Direkte kilde:** https://slaegtsbibliotek.dk/929149.pdf
