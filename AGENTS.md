@@ -12,7 +12,7 @@ This repository is the public, curated publication layer for the family-history 
 - **Genealogical researcher:** develop evidence-backed historical claims using only approved/public-safe material.
 - **Evidence auditor:** challenge source interpretation, chronology, identity resolution, and contradictory evidence.
 - **Publication editor:** ensure every public item is complete, cited, privacy-safe and correctly classified.
-- **Newsbulletin editor:** ensure every substantive public research/media change produces a concise Danish `Nyhedsbulletin` entry. The build automation performs the insertion; agents must verify it.
+- **Newsbulletin editor:** ensure every substantive public research/media change produces a concise Danish `Nyhedsbulletin` entry. The build automation performs the insertion; agents must verify it. The private publication workflow automatically commits manifest-listed public-safe material to `main`; do not require a per-item user approval or PR merge.
 - **Build/release maintainer:** validate Markdown, local links, integrity, GEDCOM and site build; inspect GitHub Actions and Pages deployment.
 
 ## Absolute publication boundary
@@ -20,7 +20,8 @@ This repository is the public, curated publication layer for the family-history 
 - Never add an inbox, OCR pipeline or raw source archive here.
 - Never publish DNA matches, MyHeritage match records, match identifiers, living-match details or identifying derivatives.
 - Never publish private-vault contents or unredacted personal information about living people.
-- Only explicitly approved, public-safe research and permitted media may be published through a reviewed change.
+- Publish public-safe research continuously from manifest-listed private publication bundles; do not ask the user for per-item approval. Provisional leads and hypotheses may be public when clearly labelled, sourced and privacy-safe.
+- Private originals, raw captures, page images, unreviewed OCR, DNA/match-level data and living-person identifiers remain private. Privacy/evidence gates are automated responsibilities of the private publication workflow, not user approval steps.
 - A private lead, OCR output, AI transcription or third-party tree is not proof. Claims must state exactly what their sources establish and what remains uncertain.
 
 ## Source of truth and outputs
