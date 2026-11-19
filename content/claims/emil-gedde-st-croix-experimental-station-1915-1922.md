@@ -13,7 +13,6 @@ sources:
   - "virgin-islands-agricultural-experiment-station-1920-longfield-smith"
   - "rigsarkivet-st-croix-agricultural-research-station-1907-1917"
   - "st-croix-herald-1922-mr-gedde-slob"
-  - "usda-virgin-islands-station-personnel-1919-1923"
 ---
 
 # Emil Ludvig Eduard Gedde på St. Croix — et nyt caribisk spor
@@ -33,11 +32,11 @@ Det er en direkte, samtidig dokumentation af en mand ved navn Eduard Gedde med e
 
 Den samtidige avisunderskrift fra 1918 passer med opholdet og forsøgsstationssporet. Men den beviser ikke, at den underskrivende Eduard Gedde var identisk med hele navnet Emil Ludvig Eduard Gedde, eller at han var stationens øverste leder.
 
-## Ny officiel kronologi: Longfield Smith 1919–1921, J. B. Thompson fra 1922
+## Vigtig modkilde: Longfield Smith var agronom in charge i 1920
 
 Den officielle amerikanske årsrapport *Report of the Virgin Islands Agricultural Experiment Station, 1920* (udgivet 18. april 1921) anfører **Longfield Smith, Agronomist in Charge**, og Charles E. Wilson som entomolog. Smith underskriver følgebrevet fra stationen 13. august 1920.
 
-Det er en reel rollekonflikt med 1944-biografiens oplysning om, at Gedde var forsøgsleder 1915–1922. Den samtidige serie af USDA-rapporter gør dog tidsforløbet mere præcist: Smith stod for den officielle stationrapportering 1919–1921; J. B. Thompson overtog rapportforfatterrollen i 1922. Gedde kan have haft en særskilt lokal, administrativ, mark-/ejendoms- eller klubrolle, men dette er endnu ikke dokumenteret. 1918-underskriften og 1922-adressen viser tilknytning til Slob, ikke den præcise titel.
+Det er en reel konflikt med 1944-biografiens oplysning om, at Gedde var forsøgsleder helt frem til 1922. Mulige forklaringer er forskellige funktioner, en overgang efter salget til USA, en lokal ledelses-/ejendomsrolle for Gedde, eller en upræcis slutdato i den senere biografi. Ingen forklaring er endnu bevist.
 
 En avisnotits fra *The Herald* 12. januar 1922 placerer desuden en “Mr. Gedde” (OCR-teksten varierer mellem GEDDE og CEDDE) ved Slob Experimental Station som kontaktperson for en bortkommen genstand. Det er et nyttigt, men svagere identitets-/adressehint, fordi navnet kræver kontrol mod selve sidebilledet.
 
@@ -56,3 +55,12 @@ Dernæst bør de amerikanske rapporter og personaleoplysninger 1919–1922 under
 Vi har nu et konkret caribisk livsafsnit, der kan følges gennem danske koloniale arkiver, amerikanske landbrugsrapporter og samtidige aviser. Det direkte 1918-fund bekræfter, at navnet Eduard Gedde var knyttet til Slob Experimental Station efter overdragelsen til USA. Men hans præcise stilling er ikke fastslået, og den officielle 1920-rapport kræver, at den senere titel “forsøgsleder 1915–1922” undersøges kritisk.
 
 Ingen datoer, identiteter eller familierelationer ændres i stamtræet på baggrund af dette spor alene.
+
+
+## Yderligere officiel kontrol: Smith allerede i 1918, Thompson i 1923
+
+USDA's *Work and Expenditures of the Agricultural Experiment Stations, 1918* oplister allerede **Longfield Smith, Ph.D., agronomist in charge, St. Croix**, sammen med entomologen C. E. Wilson. Dermed var Smith udtrykkeligt den fagligt ansvarlige agronom i 1918 — samme år som Eduard Gedde underskrev Slob-meddelelsen. Det taler for, at Gedde kan have haft en anden funktion end stationens øverste agronom.
+
+Årsrapporten for 1923 (udgivet juli 1924) oplister **John B. Thompson** som agronomist in charge, C. E. Wilson som entomolog og W. M. Perry som horticulturist. Gedde står ikke blandt de tre navngivne fagmedarbejdere. Det udelukker ikke en anden lokal tilknytning, men det understreger, at den biografiske formulering “Forsøgsleder 1915–1922” ikke uden videre kan læses som stationens øverste leder i hele perioden.
+
+Den bedste arbejdshypotese er nu: Eduard Gedde var reelt tilknyttet Slob Experimental Station i 1918 og muligvis fortsat tilknyttet i 1922, men hans formelle rolle skal findes i danske ansættelses-/lønakter og amerikanske stationens personalesager. Longfield Smith var i hvert fald den officielle agronomist in charge i 1918 og 1920; John B. Thompson var det i 1923.
