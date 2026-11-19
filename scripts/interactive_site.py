@@ -18,6 +18,7 @@ GOOD_URL = (
 _here = Path(__file__).resolve()
 _cache = _here.with_name("_interactive_site_restored.py")
 
+
 def _load() -> str:
     if _cache.is_file() and _cache.stat().st_size > 10000:
         return _cache.read_text(encoding="utf-8")
@@ -28,13 +29,13 @@ def _load() -> str:
     # Ensure Leaflet template path (file was renamed to template.html)
     text = text.replace(
         'TEMPLATE = ROOT / "site" / "template-leaflet-maps.html"',
-        'TEMPLATE = ROOT / "site" / "template.html",
+        'TEMPLATE = ROOT / "site" / "template.html"',
     )
     if 'TEMPLATE = ROOT / "site" / "template.html"' not in text:
-        # already correct in the known-good commit
-        pass
+        raise SystemExit("Restored interactive_site.py missing TEMPLATE path")
     _cache.write_text(text, encoding="utf-8")
     return text
+
 
 _code = _load()
 exec(compile(_code, str(_cache if _cache.is_file() else _here), "exec"), globals())
