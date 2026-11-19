@@ -12,31 +12,42 @@ accessed: "2026-11-19"
 
 # Salomon Geddes datter Caroline og Fischer-efterslægten
 
-Otto Fr. Arends, *Stamtavle over Slægten Fischer fra Bryrup* (København, 1934), især trykt s. 18–20 (PDF-sider omkring 18–20), dokumenterer følgende:
+Otto Fr. Arends, *Stamtavle over Slægten Fischer fra Bryrup* (København, 1934), især trykt s. 18–23 og 26–27, dokumenterer følgende:
 
 - Caroline Frideriche Wilhelmine Gedde blev født på Fødselsstiftelsen i København 13. august 1775 og døbt 19. august.
 - Hun var datter af kaptajn, senere generalmajor Salomon Gedde (1748–1809) og hans senere hustru Catharina Elisabeth Qvist (1752–1832).
 - Caroline blev gift hjemme 19. marts 1796 med Jens Henrich Fischer; Arends oplyser, at vielsesbevillingen blev givet 13. marts 1796, og at vielsen ikke kunne findes i hverken den danske eller tyske Garnisonskirkebog.
 - Arends angiver, at ægteskabet havde seks sønner og fem døtre.
-- Arends' slægtstavle forbinder desuden Salomon med hans bror Hans Christopher Gedde og med Samuel Christoffer Geddes familie.
 
-Kilden henviser blandt andet til Fødselsstiftelsens dåbsprotokol, Stenmagle kirkebog, Garnisons kirkebog, Veggerslev kirkebog og Sct. Peders kirkebog. Arends advarer selv i indledningen om, at dele af yngre generationers udenlandske efterslægt ikke kunne undersøges udtømmende, og at nogle oplysninger bygger på anden hånd.
+## To nye afgørende efterkommerfund
 
-**Kildekritisk grænse:** Dette er en veldetaljeret sekundær slægtstavle, ikke en erstatning for de nævnte originalindførsler. Den giver en konkret, kontrollerbar efterkommergren fra Salomon Gedde, men beviser ikke i sig selv en forbindelse til Lorenz' direkte Ove Samuel-linje ud over det dokumenterede søskendeforhold mellem Salomon og Hans Christopher.
+### 1. En oversøisk gren til Kimberley, Cape Colony
 
+Trykt s. 23 beskriver **Frederik Ernst Fristedt Fischer**, født 20. oktober 1846, som søn i efterkommerlinjen efter Caroline gennem præsten Ernst Christian Fischer (1806–1878). Arends skriver, at Frederik gik i Odense Latinskole, opgav studierne og drog som ung til Kaplandet, hvor han arbejdede i diamantminerne ved Kimberley. Arends mener, at han antagelig døde dér og formentlig var ugift.
 
-## Efterkommerfund på trykte sider 18–20
+Dette er en konkret sekundærkildebelagt oversøisk migration i Salomon Geddes collateralgren. Den dokumenterer ikke en præcis afrejsedato, ankomsthavn eller dødsdato. Kimberley er det specifikke arbejdssted, ikke nødvendigvis ankomststedet.
 
-Arends giver konkrete efterkommerforløb, der gør denne gren mere end en navneliste:
+### 2. Slægtstavlens forfatter var selv efterkommer af Caroline Gedde
 
-- Caroline og Jens Henrich Fischers datter **Elisabeth Maria Salome (Salomine) Fischer** (1796–1870) blev gift med Tønne Bloch Glahn. Arends beskriver hans militære karriere: kaptajn, afgang fra hæren 1844, land- og søkrigskommissær, chef for 8. udskrivningsdistrikt 1851 og generalkrigskommissær 1856.
-- Sønnen **Tycho Johan Fischer** (1800–1858) var urtekræmmer i København. Hans søn **Edvard Gedde Victor Fischer** blev født 6. august 1827 og døde 19. juni 1849 på Augustenborg Lazaret. Arends anfører, at han deltog i krigen 1849.
-- **Leonhard Christian Fischer** (1803–1882) og hans efterslægt behandles særskilt på trykt s. 24–31.
-- **Hans Christoffer Fischer** (1804–1861) beskrives som gårdejer ved Næstved/Fjenneslevmagle; hans ægteskab havde to døtre.
-- **Ernst Christian Fischer** (1806–1878) blev præst, og hans efterkommere behandles videre i værket.
+På trykt s. 22–23 identificerer Arends **Ingertha Cathrine Jensine Fischer** (28. november 1842–1. december 1922), datter af præsten Ernst Christian Fischer (1806–1878), som gift med Carl Vilhelm Ferdinand Arends den 7. oktober 1863 i Viby Kirke. På s. 26–27 identificerer han deres søn **Otto Frederik Arends** (født 12. juni 1864) og beskriver ham som personalhistorisk forfatter.
 
-Dette er en collateral Gedde-efterslægt, ikke en ny direkte forfaderlinje til Lorenz. Den giver dog nye konkrete forskningsveje til militærhistorie, præste- og landmandsfamilier og potentielt oversøiske grene.
+Dermed er bogens forfatter selv efterkommer af Caroline Frideriche Wilhelmine Gedde:
+Caroline Gedde → Ernst Christian Fischer → Ingertha Cathrine Jensine Fischer → Otto Frederik Arends.
 
-Arends' indledning (trykt s. 3) er særlig vigtig for den videre strategi: forfatteren siger, at han ikke kunne indhente udtømmende oplysninger om de Fischer-efterkommere, der boede i udlandet. Det gør en målrettet emigrationsundersøgelse relevant, men dokumenterer ikke i sig selv nogen udvandring. Alle identificerede børn og efterkommergrene skal følges med kirkebøger, skifter, militærruller og udenlandske ankomst-/folketællingskilder.
+Det er en usædvanlig stærk intern kontrol af den collateral slægtslinje: forfatteren dokumenterer sin egen mødrene slægt, og hans personlige tilknytning forklarer også den detaljerede behandling. Det gør ikke alle oplysninger primærkildeverificerede; Arends advarer selv i indledningen (s. 3), at han på flere punkter måtte nøjes med andenhåndsoplysninger og ikke fik udtømmende oplysninger om den udenlandske del af slægten.
 
-**Næste primærkilder:** Edvard Gedde Victor Fischers militærrulle og lazaret-/dødsindførsel 1849; Glahns officers- og kommissariatsakter; originalerne bag Arends' henvisninger til Fødselsstiftelsens dåbsprotokol, Stenmagle og de øvrige nævnte kirkebøger.
+## Andre efterkommerfund på trykte sider 18–23
+
+- Datteren **Elisabeth Maria Salome (Salomine) Fischer** (1796–1870) blev gift med Tønne Bloch Glahn. Arends beskriver hans militære og administrative karriere: kaptajn, land- og søkrigskommissær, chef for 8. udskrivningsdistrikt i 1851 og generalkrigskommissær i 1856.
+- Sønnen **Tycho Johan Fischer** (1800–1858) havde sønnen **Edvard Gedde Victor Fischer** (6. august 1827–19. juni 1849), som døde på Augustenborg Lazaret. Arends anfører, at Edvard deltog i krigen 1849.
+- **Leonhard Christian Fischer** (1803–1882) og hans efterkommere behandles særskilt på trykt s. 24–31.
+- **Hans Christoffer Fischer** (1804–1861) beskrives som gårdejer ved Næstved/Fjenneslevmagle.
+- **Ernst Christian Fischer** (1806–1878) blev præst; hans efterkommere omfatter både Ingertha og Frederik Ernst Fristedt.
+
+## Kildehenvisninger og kontrolgrænser
+
+Arends henviser blandt andet til Fødselsstiftelsens dåbsprotokol, Stenmagle kirkebog, Garnisons kirkebog, Veggerslev kirkebog og Sct. Peders kirkebog. De konkrete originalindførsler er endnu ikke alle kontrolleret.
+
+Arends' indledning (trykt s. 3) er vigtig: han skriver, at han ikke kunne indhente udtømmende efterretninger om de Fischer-efterkommere, der boede i udlandet, og at han på flere punkter måtte nøjes med andenhåndsoplysninger. Derfor er Cape/Kimberley-oplysningen et stærkt, konkret migrationsspor, men næste skridt er at finde Frederik i udvandringsprotokoller, passagerlister, sydafrikanske civil-/kirkeregistre og Kimberley mine/employment records.
+
+**Kildekritisk grænse:** Dette er en veldetaljeret sekundær slægtstavle, ikke en erstatning for originalindførslerne. Caroline's collateral gren må ikke forveksles med Lorenz' direkte Ove Samuel-linje. Arends' egen nedstamning er dokumenteret af hans bogs genealogiske oplysninger, men uafhængig primærkontrol af de enkelte led er stadig ønskelig.
