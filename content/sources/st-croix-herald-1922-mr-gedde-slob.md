@@ -25,3 +25,8 @@ Den må ikke bruges alene til at identificere personen som Emil Ludvig Eduard Ge
 ## Kilde
 
 - *The Herald*, 12. januar 1922, Vol. VII, nr. 55: https://ufdcimages.uflib.ufl.edu/AA/00/04/07/58/00284/AA00040758_00284.pdf
+
+
+## Supplerende kontrol: *The Herald*, 18. januar 1922
+
+En anden notits i *The Herald*, 18. januar 1922, om en pakke med to sølvbestik tabt på vejen mellem Diamond School og Kingshill, beder finderen kontakte “MR. CEDDE, Slob Experimental Station”. Sammenholdt med 12. januar-notitsen (“MR. GEDDE”) er dette et gentaget spor til en lokal kontakt ved stationen, men OCR-navneformen varierer, og de to notitser beviser ikke alene, at der er tale om samme person.

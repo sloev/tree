@@ -38,3 +38,8 @@ Kilden beviser ikke i sig selv, at han var stationens øverste leder, ejer eller
 
 - *The Herald*, Vol. III, No. 127 (9 Apr 1918) til No. 129 (11 Apr 1918), annonce mellem disse numre; Det Kgl. Bibliotek: https://www.kb.dk/e-mat/dod/130022078675-bw.pdf
 - Tekststed i den digitaliserede PDF: trykt avisannonce “All Trespassing”, Eduard Gedde.
+
+
+## Geografisk præcisering af Slob Experimental Station
+
+Rigsarkivets *Estate Names on St. Croix* (2024), s. 2, angiver “Body Slob; Slob — K 19, 11” (King's Quarter); s. 9 angiver en anden “Slob; Chastity Hall — EEB 28b, 29a, 37” (East End). National Register-nomineringen placerer Estate Slob ved Centerline Road i det centrale landbrugsområde. Da *The Herald* 18. januar 1922 knytter stationen til vejen mellem Diamond School og Kingshill, er Body Slob den mest oplagte kandidat, men ikke bevist. Den alternative Slob-ejendom skal ikke overses.
