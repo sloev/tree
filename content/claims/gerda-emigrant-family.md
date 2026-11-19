@@ -69,3 +69,12 @@ Søgningen skal også omfatte alternative ruter og stavemåder: Jørgensen/Jorge
 ## Afgrænsning
 
 Dette er en foreløbig forskningsstatus, ikke en påstand om at otte børn er den endelige søskendeflok. Ingen nye personer eller GEDCOM-relationer er tilføjet. Modstriden om ni børn og syv udvandrere skal forblive synlig, indtil original familieoversigt og samtidige kilder er sammenholdt.
+
+
+## Supplerende negative søgninger i amerikanske oversigter
+
+Der er foretaget en navnekontrol i Museum of Danish Americas **Danish Immigrant Wall of Honor** (status 1. maj 2026). Der blev ikke fundet et entydigt opslag for Jørgen Christensen fra Skrøbelev, Mads Andersen Jørgensen, Claus Jørgensen, Hans Jørgensen eller Peder Madsen Clausen Jørgensen. Listen er en familieindsendt hædersoversigt, ikke en fuldstændig indvandrerdatabase; fravær kan derfor ikke bruges som bevis for, at de ikke rejste.
+
+Der er også kontrolleret **Danske i California Index**, bogstavafsnittet I–J. Her findes flere Jørgensen-personer, bl.a. en Jørgen Jørgensen uden fødselsår eller fødesogn i Alameda County og Hans Peter Jørgensen født 1883. Ingen af disse poster kan identificeres med børnene i denne familie: Hans Peter er født senere end Hans Jørgensen (1870), og Jørgen-posten mangler de nødvendige identifikationsoplysninger. De er derfor ikke føjet til slægtstræet.
+
+Disse oversigter dækker ikke alle amerikanske delstater og slet ikke Canada, Argentina eller Brasilien. Næste søgning skal fortsat være person-for-person i danske udrejse-/folketællingskilder og derefter i destinationslandenes primærkilder.
