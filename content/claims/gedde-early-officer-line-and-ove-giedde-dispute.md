@@ -16,7 +16,7 @@ sources:
 
 *Kancelliets Brevbøger* for 1657 nævner Knud Giedde i tre kongelige skrivelser: han skulle hverve 50 mænd i Lund; Ove Giedde modtog brev om Knud under sit kompagni; og Knud fik 6–8 ugers orlov til at rejse til Norge ved sin søsters begravelse.
 
-Det er et konkret, samtidigt arkivspor til **Knud Giedde, søn af Ove Giedde (d.1707)**: 1657-brevet omtaler ham under Oves kompagni, og en biografisk reference identificerer Oves søn Knud som død i 1707. Hans orlov til Norge for søsterens begravelse 26. marts 1657 matcher meget præcist **Regitze Ovesdatter Giedde**, som døde i Bergen 1. marts 1657. Brevet navngiver ikke søsteren, så identifikationen er meget stærk, men indirekte.
+Det er næsten sikkert **Knud Giedde, søn af Ove Giedde (d.1707)**: 1657-brevene omtaler ham i militærtjeneste under Oves kompagni, og Riksarkivaren (2000, s.175) siger, at Oves søn Knud gik i militærtjeneste som officer i 1657 og blev major fra 1659. Det er et præcist karrierematch. Hans orlov til Norge for søsterens begravelse 26. marts 1657 matcher meget præcist **Regitze Ovesdatter Giedde**, som døde i Bergen 1. marts 1657. Brevet navngiver ikke søsteren, så identifikationen som Regitze er indirekte, men dato, sted, forældre og Knuds militære tjenestestart i 1657 stemmer.
 
 Denne Knud skal holdes adskilt fra Major Knud Giedde (d.1658) i officerfamilien, som senere genealogier nævner. Det er sandsynligvis to forskellige personer.
 
