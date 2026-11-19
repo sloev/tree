@@ -41,13 +41,13 @@ Rigsarkivets vejledning om udvandring fastslår, at direkte og indirekte udvandr
 
 Polk's directories giver et sammenhængende efterkrigs-/mellemkrigsspor i Alameda-området:
 
-- **1930:** "Holgersen, Iver (Caroline), sheet-metal worker", bopæl 1515 Broadway; samme adresse har også en Jennie, stenograf. En Violet Holgersen står som studerende på en Berkeley-adresse.
+- **1930:** Internet Archives OCR af den digitaliserede Polk-vejviser gengiver "Holgersen, Iver (Caroline), sheet-metal worker", bopæl 1515 Broadway; samme adresse har også en Jennie, stenograf. En Violet Holgersen står som studerende på en Berkeley-adresse. Originalens skannede bind er tilgængeligt via Internet Archive, men selve siden bør stadig visuelt kontrolleres.
 - **1937:** "Iver P. (Caroline), sheet-metal worker", 1093½ Park Avenue, Alameda.
 - **1939:** "Iver (Caroline), sheet-metal worker", 1307 Broadway, Alameda; Esther Holgersen står også på adressen.
 
 De tre vejvisere giver et konsistent navn, ægtefællen Caroline og samme fag, hvilket gør identifikationen med emigranten fra 1910 sandsynlig, men originalprotokollen og naturalisationsakten skal stadig sammenholdes. Vejviser-OCR kan indeholde fejl, og husstandsadresser beviser ikke slægtskab for andre navne, der står i nærheden.
 
-En særlig interessant person er **Violet D. Holgersen**. En videnskabshistorisk monografi omtaler hende som Berkeley-studerende, der omkring 1930 underviste i naturstudier i Pasadena og skrev til Joseph Grinnell. Forfatterens note henviser til et brev dateret 5. november 1930 i Museum of Vertebrate Zoology-arkivet. *The Condor* anfører hende i 1932 og 1934 med adresse i Pasadena. Hun kan være knyttet til Ivers familie, især fordi en Violet Holgersen også optræder i 1930-vejviseren, men ingen kilde, der er fundet indtil nu, fastslår at hun er hans datter.
+En særlig interessant person er **Violet D. Holgersen**. Sally Gregory Kohlstedts monografi fra University of Chicago Press omtaler hende som Berkeley-studerende, der omkring 1930 underviste i naturstudier i Pasadena og skrev til Joseph Grinnell. Forfatterens note henviser til et brev dateret 5. november 1930 i Museum of Vertebrate Zoology-arkivet. *The Condor* anfører hende i 1932 og 1934 med adresse i Pasadena. Hun kan være knyttet til Ivers familie, især fordi en Violet Holgersen også optræder i 1930-vejviseren, men ingen kilde, der er fundet indtil nu, fastslår at hun er hans datter.
 
 Rigsarkivets/MVZ-arkivets vejledning viser, at korrespondancesamlingen MVZA.MSS.0117 dækker 1908–1930, er ordnet alfabetisk efter efternavn og kronologisk, og er åben for forskning. Det præcise brev kan derfor bestilles ved henvisning til Violet D. Holgersen → Joseph Grinnell, 5. november 1930.
 
