@@ -73,3 +73,25 @@ Det betyder, at den ældre litteratur omtaler endnu en Christina i den samme Woy
 **Næste dokumentariske test:** Find samtidige akter om Gerson Kleist og Regina Woyten samt ægteskabs-, arve- og værgemålsakter for Justus Zarte og Christina. Det kan afklare, om Benedictus havde både en datter Regina og en datter Christina, og om de tre navnebærere kan adskilles i tid og slægtskab.
 
 **Status:** Foreløbigt identitetsspor. Ingen ny personrelation, ægteskabsrækkefølge eller livsdato er ændret i stamtræet.
+
+
+## Zarten- og Kleist-arkivklyngen: mulig identifikation af Justus/Jobst (1602–1646)
+
+Arkivregistraturerne i Szczecin viser nu en sammenhængende gruppe sager om Zarten/Zarth-familien og Kleist-familien:
+
+- **1640, 65/2/0/3.2/III.57:** Jobst Zarten fra Sassenburg i en sag om patronatsretten til kirken. Akten er på 76 sider og har mikrofilmnummer R 23948.
+- **1630, 65/7/0/14.8/6069:** Jobst Zahrten fra Sassenburg i en sag om 1.000 floriner; Hans Friedrich Kleist, Ludewig Petersdorff og Carl Hoenichen optræder som værger/forvaltere. Den præcise betydning af "in Vormundschafft Hausfrawen" skal kontrolleres i originalen.
+- **1622–1623, 65/7/0/2.19/1186:** Godfried Borcke mod Ernst Zarten om resterende medgift på 500 floriner og renter af 16 hufen; kataloget indekserer Anna Zarten og Ernst Zarten.
+- **1602–1624, 65/7/0/21.3/8690:** Ernst Zart zu Goldbeck i en arvesag vedrørende hans afdøde hustru.
+- **1612–1613, 65/7/0/21.3/8692–8693:** sager om Simon Zertens enke og arvinger samt Joachim Zartens enke og arvinger.
+- **1646, 65/7/0/21.3/8694:** Ernst Zartens arvinger, repræsenteret af landråd Peter Kleist og Jacob Schoitzow, i en retssag mod Lorenz Hertzbergs enke.
+
+Den 1873-genealogi, der omtaler Regina Woytens datter Christina som gift med "Justus Zarte Sassenburgensis", kan muligvis pege på Jobst Zarten i 1630- og 1640-sagerne. Navn, sted og tidsrum gør identifikationen interessant, men den er ikke bevist. Det er også muligt, at "Justus" er en latinsk form af Jobst/Jost. Vi skal se originalerne, før de to navne knyttes sammen.
+
+Vigtigt: 1873-værket nævner også, at Gersons søn Jacob blev gift med Dorothea Zarten, datter af Antonius. Der var altså mindst to Kleist–Zarten-forbindelser i samme genealogiske miljø. Hans Friedrich Kleist i 1630-sagen må ikke automatisk identificeres med Gersons efterkommere; en anden Hans Friedrich von Kleist er kendt fra Muttrin-Damensche-linjen.
+
+Den bedste første bestilling er 1640-akten på mikrofilm R 23948. Derefter bør 1630-sagen om Jobst Zahrten, 1622–1623-sagen om Ernst/Anna Zarten samt 1602–1624- og 1612–1613-sagerne bestilles samlet. Se den særskilte kildepost [Pomeranian State Archives: Zarten and Kleist litigation, 1602–1646](https://www.szukajwarchiwach.gov.pl/en/jednostka/-/jednostka/7894145).
+
+En forskningsartikel fra 2023 om Zarten-familien opregner navnevarianterne Czarten, Czarthen, Czarthe, Zarte, Zarthen, Zarten og Zarth og advarer om, at kildematerialet ikke rækker til en fuldstændig genealogi. [Barbara Świadek, 2023](https://journals.akademicka.pl/krzysztofory/article/view/5779).
+
+**Status:** Arkivklyngen er verificeret på registraturniveau; ingen originalakt er gennemset. Ingen ny parent-child-relation, ægteskabsidentifikation eller livsdato er bevist.
