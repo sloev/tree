@@ -104,3 +104,32 @@ En yderligere officiel registraturpost i Szczecin, **65/2/0/3.16/III.411 (1703)*
 En artikel fra 2023 sammenfatter yderligere Zarten-oplysninger: første kendte omtale 1491, Kurt Czarten i 1524, et len til brødrene Peter, Simon og Georg i 1548, Hans von Zartens overdragelse af rettigheder til sønnen Ernst i 1588, Paul Zartte som starost i 1631 og senere ejendomsoversigter. Artiklen advarer udtrykkeligt om, at kilderne er for sparsomme til en komplet genealogi. Den giver derfor søgevarianter, ikke en færdig slægtslinje. [Świadek 2023](https://journals.akademicka.pl/krzysztofory/article/view/5779).
 
 **Næste bedste bestilling:** Sammenhold 1640-mikrofilm R 23948 og 1703-enhed III.411. Se efter navngivne arvinger, patronatsret, tilhørende landsbyer og henvisninger til tidligere indehavere. Derefter gennemgå 1630-sagen om Jobst Zahrten og 1622–1623-sagen om Ernst/Anna Zarten.
+
+
+## Woyten-linjen uddybet: Pantaleon til Benedictus
+
+*Ahnentafel Peters* (bd.2, trykt s.479, Tafel 14438) opstiller en fireleddet sekundær linje:
+
+**Pantaleon von Woyten** og Catharina von Below fra Pennekow → **Conrad von Woyten** på Reitz og Anna von Puttkamer fra Granzin → **Martin von Woyten** († efter 1527) og Anna von Puttkamer fra Wollin → **Benedict von Woyten** og Elisabeth von Stojentin.
+
+Bd.1 (trykt s.199, Tafel 902) identificerer Benedict og Elisabeth som forældre til Catharina von Woyten, der blev gift med Wolfgang von Puttkamer den 6. december 1584. Datoerne i tabellen tilhører Wolfgang (født 25. marts 1560 i Jeseritz, død 28. oktober 1625 i Stolp), mens Catharina døde 24. februar 1645 i Jeseritz; hendes fødselsdato er ikke angivet. Bd.4 beskriver Benedict som fyrstelig pommersk kaptajn i Bütow og anfører, at han fra 6. december 1584 var på Vessin og Vilzelow.
+
+Dette giver en konkret dato og to godser at søge efter i originale ægteskabs-, lens- og arveakter. Det er endnu ikke klart, om datoen 6. december 1584 dækker over et ægteskabsinstrument, et lensbrev eller to samtidige dokumenter.
+
+Sammenholdt med 1873-værkets Regina Woyten og 2025-værkets Christina II.55 peger Peters på mindst tre døtre af Benedictus og Elisabeth: Catharina, Regina og Christina. Det er en sammenhængende sekundær rekonstruktion, men ikke endnu en originalt bevist søskendeflok.
+
+## Samtidige Woyten-retssager i Stargard, 1587–1676
+
+Radosław Pawliks artikel i *Acta Cassubiana* 18 (2016), trykt s.246–247, identificerer **13 arkivenheder fra 1587–1676** under slægtsoverskriften **WOITEN (Wojiten, Woyten)** i materialet fra Sąd Nadworny Księstwa Szczecińskiego w Stargardzie. Akterne vedrører Woyten-familiemedlemmer og godser i Vessin, Reitz og Vilgelow.
+
+To sager er særligt vigtige:
+- **1587:** Martin Woitten fra Vessin mod sin bror Tobias om deling af slægtens godser.
+- **1595:** Wolfgang Woiten fra Reitz mod brødrene Conrad og Jakob om fælles administration af arvegodset.
+
+Peters placerer Martin von Woyten i Benedictus' forældrelinje. Derfor kan 1587-sagen muligvis identificere den samme Martin og hans bror Tobias, men identiteten er ikke fastslået. 1595-sagen kan vise et beslægtet søskende- eller arvenetværk.
+
+En relateret officiel arkivpost fra 1661, **65/6/0/20/1924**, handler om arvingerne efter det adelige slægtshus von Woyte og lenene Vessin, Vilgelow og (Alten) Reitz. Kataloget viser ingen scanninger. Det er endnu ikke bekræftet, om posten er en af Pawliks 13 WOITEN-enheder.
+
+Arkivet bør anmodes om de 13 individuelle signaturer under Pawliks overskrift "WOITEN (Wojiten, Woyten), 13 j.a., 1587–1676", især sagerne fra 1587 og 1595, samt enheden fra 1661. Se [Pomeranian Woyten family litigation and estates, 1587–1661](https://bazhum.muzhp.pl/media/texts/acta-cassubiana/2016-tom-18/acta_cassubiana-r2016-t18-s221-250.pdf) og [Ahnentafel Peters: Woyten line](https://www.academia.edu/33026118/Ahnentafel_Peters_Bd_2).
+
+**Status:** Den genealogiske kæde er nu præciseret, og samtidige retssager er identificeret som bestillingsspor. Ingen originalakt er endnu gennemset; ingen ny personrelation eller livsdato er ændret i træet.
