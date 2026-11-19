@@ -1030,7 +1030,7 @@ function renderKort(){
   const ev={};
   const add=(pl,p,what)=>{ if(!pl||!DATA.places[pl]) return; (ev[pl]=ev[pl]||[]).push({p,what}); };
   P.forEach(p=>{ add(p.bplace,p,'født'); add(p.dplace,p,'død'); p.res.forEach(r=>{ if(r[1]!==p.bplace||r[0]!==yr(p.born)) add(r[1],p,`${r[0]}${r[2]?' · '+r[2]:''}`); }); });
-  const dom = pl => { const c={}; ev[pl].forEach(e=>{c[e.p.line]=(c[e.p.line]||0)+1}); return Object.entries(c).sort((a,b)=>b[1]-a[1])[0][0]; };
+  const dom = pl => { const c={}; (ev[pl]||[]).forEach(e=>{c[e.p.line]=(c[e.p.line]||0)+1}); return Object.entries(c).sort((a,b)=>b[1]-a[1])[0]?.[0] || 'maternal'; };
   const sorted=Object.keys(ev).sort((a,b)=>ev[a].length-ev[b].length);
   const short=pl=>pl.split(/[,(\/]/)[0].trim();
   function showPlace(pl){ ev[pl]=ev[pl]||[]; const d=document.getElementById('placedetail'); d.hidden=false;
