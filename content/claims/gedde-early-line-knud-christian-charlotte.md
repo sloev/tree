@@ -74,3 +74,10 @@ Dateringen af Christian Gedde er ligeledes uafklaret: 1782-brevet siger død 170
 Thisets gengivelse af 1782-brevet angiver Charlotte von Geidem fra Kurland, men hendes familie er endnu ikke identificeret. Der er nu fundet en officiel forskningsvej: Verband der Baltischen Ritterschaften oplyser, at Kurlands genealog ikke alene fører registre over de indskrevne slægter, men også undersøger uddøde slægter. Se kildeposten `kurland-geidern-research-route.md` for kontaktvej og relevante værker: Stavenhagens *Genealogisches Handbuch der kurländischen Ritterschaft*, von Fircks' *Curländisches Ritterbuch* (1893) og Hupels adelsmatrikel (1781).
 
 Stavemåderne von Geidem, von Geidern, von Geijder og den ubekræftede form von Geldern skal søges hver for sig. En internetdiskussion, der foreslog Charlotte Amalie de la Trémoille, har ingen dokumenteret forbindelse og må ikke bruges som identifikation.
+
+
+## 1913: dokumenteret navneforveksling i Gedde-familien
+
+H. D. Lind viste i *Personalhistorisk Tidsskrift* (1913), s. 59–62, at to samtidige mænd ved navn Frederik Ejler Gedde blev blandet sammen i Under-Admiralitetsrettens protokol fra 1683. Den ældre (1641–1717) var Ove Geddes søn; den yngre (ca. 1652–?) var Brostrup Geddes søn. Lind dokumenterer, at retsprotokollens faderangivelse ikke kan passe på viceadmiralen.
+
+Dette er en konkret advarsel mod at identificere major Knud i Hans Christophers 1782-brev med Knud Gedde til Vadskærgaard, søn af Ove Gedde, alene på grund af navnelighed. Det er to særskilte Knud-spor, indtil en primærkilde forbinder dem. Rigsarkivets Underadmiralitetsprotokoller 1667–1771 og register 1682–1694 er nu identificeret som den konkrete arkivvej til at kontrollere 1683-sagen; se claim gedde-two-frederik-ejler-1885-1913-court-record.
