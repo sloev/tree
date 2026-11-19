@@ -209,3 +209,12 @@ A Geneanet user tree lists Otto von Below († before/around 1606) married to Ch
 A wider Wetzlar litigation cluster 65/6/0/2/62–70 (1590–1619) includes Georg von Below of Saleske, daughters Elisabeth and Maria, Joachim/Kasper of Peest, Dorothea von Carnitz (widow of Werner von Below), her sons Joachim/Kasper, and the 1619 Henning von Below of Pustamin vs Heinrich/Kasper of Peest over Georg von Krummel's fiefs. These records may reconstruct the Below family branches at Saleske, Peest and Pustamin, but no catalogue title yet names Otto's widow Christina.
 
 **Best next orders:** 65/7/0/2.9/100, 102–104, and Wetzlar files 65/6/0/2/62–70. Ask for microfilm numbers, earlier title instruments, and any mention of Otto, Christina, heirs or the Pustamin fief. Do not add Otto's birth/death dates or parentage to the tree based on online trees or catalogue metadata.
+
+
+## Klempin/Kratz 1863: an indexed estate-history source for Pustamin
+
+A digitised copy of Klempin and Kratz, *Matrikeln und Verzeichnisse der Pommerschen Ritterschaft* (1863, 748 pages), is held by Książnica Pomorska in Szczecin. The Pustamin entry in the *Rittergüter-Lexikon* cites this work at pp.431, 533 and 648. These pages and the printed family/place indexes (from p.663) are now specific targets for checking the Below chronology at Pustamin.
+
+The digital item is [Książnica Pomorska, edition 1457/1212](https://zbc.ksiaznica.szczecin.pl/dlibra/publication/1457/edition/1212), original shelfmark N2350, DVD references ZBC196/ZBC197, DjVu. The Google Books record is [here](https://books.google.de/books?hl=de&id=yLNXAAAAcAAJ). The online viewer timed out and the cited pages have not yet been inspected.
+
+The estate register lists known later owners including von Below from 1756 onward. This does not automatically contradict the 1619 court title naming Henning von Below "zu Pustamin" or the 2025 Kleist history identifying Otto von Below "auf Pustamin"; the later owner list may not be exhaustive of earlier fiefs/residences. The pages should be read and compared with the original 1619 Henning case and the 1579–1587 Otto Below debt case. No new relationship or date is established by the 1863 reference alone.
