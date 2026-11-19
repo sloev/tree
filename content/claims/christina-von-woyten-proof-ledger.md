@@ -133,3 +133,16 @@ En relateret officiel arkivpost fra 1661, **65/6/0/20/1924**, handler om arvinge
 Arkivet bør anmodes om de 13 individuelle signaturer under Pawliks overskrift "WOITEN (Wojiten, Woyten), 13 j.a., 1587–1676", især sagerne fra 1587 og 1595, samt enheden fra 1661. Se [Pomeranian Woyten family litigation and estates, 1587–1661](https://bazhum.muzhp.pl/media/texts/acta-cassubiana/2016-tom-18/acta_cassubiana-r2016-t18-s221-250.pdf) og [Ahnentafel Peters: Woyten line](https://www.academia.edu/33026118/Ahnentafel_Peters_Bd_2).
 
 **Status:** Den genealogiske kæde er nu præciseret, og samtidige retssager er identificeret som bestillingsspor. Ingen originalakt er endnu gennemset; ingen ny personrelation eller livsdato er ændret i træet.
+
+
+## Nær-samtidig kilde til Regina Woytens datter Christina: Bolduan 1613/14
+
+Den reviderede *Geschichte des Geschlechts v. Kleist* analyserer de ældre håndskrevne kilder og skelner mellem en familiegenealogi fra 1576 med redaktioner omkring 1590 og ca.1607 samt Bolduans udvidede version fra **1613 eller 1614**. Redaktøren præciserer, at Bolduan tilføjede ægtemanden til Gerson Kleists fjerde/yngste datter. *Allgemeine Geschichte* (1873), trykt s.71, identificerer denne datter som Christina og hendes mand som **Justus Zarte Sassenburgensis**.
+
+Det korrigerer den tidligere foreløbige datering: den ca.1590-redaktion omtaler Gersons hustru og fire døtre, men den eksplicitte ægtemand Justus Zarte tilskrives Bolduans senere version. Den sikre *terminus ante quem* for ægteskabet er derfor ca.1613/14, ikke 1590. Det er en nær-samtidig familiegenealogi, ikke en original vielsesakt.
+
+Redaktøren oplyser desuden, at Bolduans originalmanuskripter sandsynligvis gik tabt ved ødelæggelsen af Lettow-biblioteket omkring 1828. Der findes dog afskrifter fra ca.1735 udført af Christoph Kiel, herunder **_Schema amplissimae nobilissimaeque familiae Kleistianae_** med 255 numre inklusive døtrene. Kiels samling gik via konsistorialråd Brüggemann til Generallandschaft von Altvorpommern, hvis bibliotek i Stettin rummede afskrifterne. En anden Kiel-afskrift, **_Genealogia Kleistorum a Francisco Winthero scripta_**, er et 82-nummers uddrag af Bolduan.
+
+Dette giver et nyt, konkret håndskriftsmål: få den nuværende signatur og opbevaringsinstitution for Kiel-afskriften og kontrollér den nøjagtige ordlyd om Gerson, Regina, Christina og Justus Zarte. Arkivbibliotekets Dr Janina Kosman er opført som kontakt (jkosman@szczecin.archiwa.gov.pl); Dr Radosław Pawlik kan hjælpe med arkivregistraturer. Se [Bolduans Kleist-genealogi fra 1613/14 og den bevarede Kiel-afskrift](https://www.v-kleist.com/FG/english/Kleist%20history%201289%20to%201477.pdf).
+
+**Status:** Nær-samtidig genealogisk kilde og mulig bevaret afskrift identificeret; Kiel-eksemplaret er endnu ikke lokaliseret eller gennemset. Ingen personrelation eller dato er ændret i træet.
