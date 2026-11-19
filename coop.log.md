@@ -184,3 +184,14 @@ The automatic Nyhedsbulletin entry for claim commit `29798800b998df28af57a315b1b
 ## 2026-11-19 — Gerda claim: official Arkivalieronline search constraints added
 
 A direct read of Rigsarkivet's official “Kirkebøger fra hele landet” page clarified the archive route: 1814–1892 kontraministerialbøger are colour scans divided by sex and church action, with *Døde* first; the portal lists standard *Afgangslister* and *Tilgangslister* only through 1875. This means the 1878 burial and 1877 baptism should be sought in the appropriate event/sex cuts, while a 1877 *tilgangsliste* must be treated as uncertain and sought as a separate parish register if one exists. Source: https://arkivalieronline.rigsarkivet.dk/da/geo/geo-collection/5. The claim was updated in commit `70b1adad30913d8faadc63c58dd4ee5448f6a024`. No original image was accessed and no identity or relationship changed.
+
+
+## 2026-11-19 — Gerda line: exact alimentation and Søndenbro movement series found
+
+A DAISY search produced a much stronger archival route than the general churchbook search. Under **Langeland Herredsfoged (1684–1919)**, the catalogue lists:
+- **Alimentationsjournal, 1857–1917** and **Navneregister til alimentationsjournal, 1867–1917** — both cover 1877 and are the first priority for a possible non-marital-birth maintenance case.
+- **Til- og afgangsliste for Søndenbro distrikt, Magleby sogn, 1875–1919** — an exact district/parish movement series, separate from the standard churchbook *Tilgangsliste*.
+
+Sources: DAISY Langeland Herredsfoged series list https://daisy.rigsarkivet.dk/arkivskabers_arkivserier?a=langeland+her&b=skifte&c=&d=1&dir=&e=2019&ed=&ep=&epid=&es=&f=&faid=&g=&gsc=&h=&heid=3237358&henid=3237358&int=&m2rid=&meid=&ngid=857927&ngnid=&side=&sort= ; DAISY alimentation search https://daisy.rigsarkivet.dk/arkivserie_liste?a=&b=alimentation&d=1&e=2024 ; DAISY name-index search https://daisy.rigsarkivet.dk/arkivskaber_eller_arkivserie_liste?c=Alimentation&d=1&e=2016&epid=&f=&ngid=. These are catalogue descriptions only; no package, folio or person entry has been inspected. No relationship is established.
+
+Updated `content/claims/gerda-kresten-mother.md` in commit `f35da20b19a421439d70f4641431d0dd7564f2f6`. Next: inspect the name index, follow any relevant reference into the journal, then inspect the Søndenbro district movement list and the original churchbook entries.
