@@ -79,3 +79,22 @@ The index header says Magleby parish (MA) is covered for 1870–1891. Source: [L
 **Next:** inspect the original Magleby churchbook burial/death entry for 27 August 1878 and candidate B's 1852 birth/baptism entry; compare the exact name, age, residence, occupation and any marginal notes. Then return to the decisive 3 November 1877 baptism entry for Kresten and the 1877 Magleby tilgangsliste. Rigsarkivet's [Arkivalieronline churchbook collection](https://arkivalieronline.rigsarkivet.dk/da/geo/geo-collection/5) is the official access route, but the original images have **not** been inspected in this pass.
 
 No person identity or parent-child edge was changed in canonical data. The claim remains unresolved.
+
+
+## Note: 19 November 2026 — bounded check of the original Magleby register route
+
+The local-history PDF was reopened and the entry at line 4111 rechecked. Its header confirms that the index covers **Magleby parish (MA), 1870–1891**; the entry itself is exactly:
+
+> Jørgensen, Marthe Christine, tjenestepige, Søndenbro, Magleby, 26. + 27/8-1878. (MA)
+
+This confirms the contents of the compiled index, not the original burial register. It does not add a second independent identification. The age comparison remains a small but real unresolved point: candidate B's reported birth on 9 October 1852 would make her 25 years, 10 months and 18 days old on 27 August 1878. An indexed age of 26 could reflect rounding or a discrepancy in one of the derivative records; it cannot be reconciled confidently without the original entries. A third woman remains possible.
+
+**Archive-route check (19 November 2026):**
+- Rigsarkivet's Arkivalieronline churchbook collection is the correct national access portal: `https://arkivalieronline.rigsarkivet.dk/da/geo/geo-collection/5`. The general collection page does not itself identify the exact Langeland volume, folio or image.
+- A DAISY search for *Kontraministerialbog* surfaced a Magleby Sogn (Svendborg Amt) cross-reference register for 1814–1871, but did not expose the target 1878 death book or a usable folio reference.
+- An apparently relevant online guide to Magleby churchbooks was checked and rejected: it explicitly concerns **Magleby Sogn, Møn, Præstø Amt**, not Magleby on Langeland. The two parishes must not be conflated.
+- The Link-Lives person-record URLs already listed in `g_marthe` (candidate B's 1852 baptism and 1878 death) could not be opened through the available browser in this pass. No original churchbook image or transcription was inspected.
+
+**Bounded result:** no original burial, 1852 baptism or 1877 tilgangsliste entry was retrieved in this pass. This is not evidence that the records do not exist. The local PDF remains a compiled finding aid; the identity of the indexed Marthe and her maternity of Kresten remain unresolved.
+
+**Next:** locate the exact *Magleby Sogn, Langelands Sønder Herred, Svendborg Amt* Hovedministerialbog and Kontraministerialbog for (1) 1878 deceased women and (2) 1877 born boys; inspect the original entries and marginal notes, then compare the 1877 tilgangsliste. Do not alter person identity or parent-child edges until the primary evidence is read.
