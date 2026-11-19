@@ -109,3 +109,19 @@ Dette er en familieidentifikation af et fotografi og et nyttigt navnespor, ikke 
 En ny maskinel gennemgang af samtlige familieposter i `family-tree.ged` viser, at Kristines familiegren tidligere var overset i denne claim. Kristine (1884–1975) er gift med Axel Erik Holgersen; deres datter Karen Margrethe Holgersen (1906–1992) er registreret i GEDCOM. Valdemar har også en familiepost, men barnet er privatmarkeret. Christian Anton, Christian Jørgen, Martha, Georg og Jens har ingen registrerede ægtefælle-/børnefamilier i den offentlige GEDCOM.
 
 Det ændrer ikke hovedkonklusionen om udvandring: der er fortsat ingen identificeret transatlantisk rejse blandt de dokumenterede direkte efterkommere. Men Kristine-grenen skal nu følges videre, og de fem øvrige søskendes familier skal rekonstrueres fra kirkebøger, folketællinger, vielser og dødsregistre. Ingen oplysninger om privatmarkerede efterkommere er gengivet.
+
+
+## Dæmningsarbejdet, sølvbægeret og Marius' dødsår
+
+Erling Mortensens *De viste vejen: Modtagere af Det kgl. danske Landhusholdningsselskabs sølvbægere 1804–1969* (1969), side 91, registrerer **gårdejer Marius Christensen, Langø, Humble sogn** som modtager af selskabets **største sølvbæger i 1933**. Værket oplyser, at Marius sammen med **tre sønner og en svigersøn** gennemførte dæmningsarbejdet i 1911; det nævner ikke deres navne. [Se værket, side 91](https://slaegtsbibliotek.dk/2023/935679.pdf). <sup>1</sup>
+
+Det er et nyt spor til at identificere de familiemedlemmer, der arbejdede på dæmningen. Den nuværende GEDCOM viser to døtre, Kristine og Martha, men kun Kristines ægteskab er oprettet. Axel Erik Holgersen er derfor en mulig kandidat til svigersønnen, men dette er ikke bevist; Marthas eventuelle vielse skal også undersøges. De tre sønner er endnu ikke identificeret ved navn i dæmningskilden.
+
+Der er samtidig en **dødsårskonflikt**:
+- Nordlangelands Lokalarkivs register over *Øboer* 2011 siger, at Ane Marie døde i 1930, mens Marius blev boende på Langø til sin død i **1934**. [Lokalarkivets register](https://byarkivet.langelandkommune.dk/boeger-brochurer/register-over-artikler-i-oeboer).
+- Fyens Stiftstidendes artikel *Historien om en dæmning* (Susanne Jølck, 11. september 2011) angiver i det tilgængelige tekstudtræk, at Marius døde i 1930, og at Valdemar overtog Langø derefter. [Artiklen](https://fyens.dk/forside/historien-om-en-daemning).
+- Mortensens bog registrerer Marius som modtager af det største sølvbæger i 1933, hvilket taler for, at han stadig levede i 1933.
+
+Den mest sandsynlige forklaring er, at Fyens-artiklen har forvekslet Ane Maries dødsår (1930) med Marius' (1934). **1934 er den bedst understøttede foreløbige dato**, men kirkebogens dødsindførsel skal findes, før den bruges som endeligt faktum.
+
+<sup>1</sup> Værkets titelblad angiver Erling Mortensen som redaktør/forfatter og udgivelse ved Det kgl. danske Landhusholdningsselskabs Forlag, København, 1969. Den relevante omtale står på trykt side 91.
