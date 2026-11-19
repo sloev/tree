@@ -18,6 +18,7 @@ sources:
   - "Rigsarkivet: https://www.rigsarkivet.dk/vejledning/fra-dansk-demografisk-database-til-soeg-i-samlingerne/"
   - "fyens-historien-om-en-daemning-2011"
   - "langeland-death-index-1900-1969"
+  - "rundt-i-danmark-lango-2021"
   - "Dansk Demografisk Database: https://ddd.dda.dk/vejlelister/soeg_udvandrede.asp"
 ---
 
@@ -122,10 +123,12 @@ Det er et nyt spor til at identificere de familiemedlemmer, der arbejdede på d�
 Der er samtidig en **dødsårskonflikt**:
 - Nordlangelands Lokalarkivs register over *Øboer* 2011 siger, at Ane Marie døde i 1930, mens Marius blev boende på Langø til sin død i **1934**. [Lokalarkivets register](https://byarkivet.langelandkommune.dk/boeger-brochurer/register-over-artikler-i-oeboer).
 - Rudkøbing Byhistoriske Arkivs samlede døds- og begravelsesliste 1900–1969 har en præcis indførsel: **Marius Michelsen Christensen, aldersrentenyder, Langø, Humble, 75 år, død 21. marts 1934 (HU)**. Koden HU henviser til Humble sogn. [Se arkivets liste](https://byarkivet.langelandkommune.dk/p/Dokumenter/Rudkoebing_Byhistorisk_Arkiv/D%C3%B8delister_Langeland/Juni-2020_69-%C3%A5rs-d%C3%B8dsfald-p%C3%A5-Langeland-1900-1969.pdf), trykt/indekseret alfabetisk under Christensen.
-- Fyens Stiftstidendes artikel *Historien om en dæmning* (Susanne Jølck, 11. september 2011) angiver i det tilgængelige tekstudtræk, at Marius døde i 1930, og at Valdemar overtog Langø derefter. [Artiklen](https://fyens.dk/forside/historien-om-en-daemning).
+- Fyens Stiftstidendes artikel *Historien om en dæmning* (Susanne Jølck, 11. september 2011) angiver i tekstudtrækket, at Marius døde i 1930, og at Valdemar overtog Langø derefter. [Artiklen](https://fyens.dk/forside/historien-om-en-daemning).
+- Fotografier på Rundt i Danmarks side *Langø / ved Langeland* viser to mindesten. Den første er indskrevet med Marius Christensen og hustru Ane Marie som ejere af Langø **1894–1930** og angiver, at de anlagde broen i 1911. Den anden nævner Agnes og Valdemar Christensen som ejere **1930–1993**. [Se siden og billedteksterne](https://www.rundtidanmark.dk/langoe-langeland/).
+- Stenene viser dermed, at **1930 er ejerskiftet fra Marius/Ane Marie til Valdemar/Agnes**, ikke et dødsår. Fyens-artiklen har sandsynligvis forvekslet overdragelsen med Marius' død.
 - Mortensens bog registrerer Marius som modtager af det største sølvbæger i 1933, hvilket taler for, at han stadig levede i 1933.
 
-**Foreløbig afgørelse:** Dødsåret 1934 er nu understøttet af to uafhængige lokalhistoriske oversigter, en præcis dødsdato i den samlede dødsindeks og hædersbevisningen i 1933. Fyens-artiklens 1930 er sandsynligvis en fejl eller forveksling med Ane Maries dødsår. Den samlede dødsindeks er dog et sekundært hjælpemiddel, hvis indledning selv advarer om mulige læsefejl og uoverensstemmelser mellem kirkebøger. **21. marts 1934 bør derfor stå som stærkt understøttet foreløbig dato, indtil den oprindelige Humble-kirkebogsindførsel er kontrolleret.**
+**Foreløbig afgørelse:** Dødsåret 1934 er nu understøttet af to uafhængige lokalhistoriske oversigter, en præcis dødsdato i dødsindekset, hædersbevisningen i 1933 og den fotografiske dokumentation for ejerskiftet i 1930. Dødsindekset er dog et sekundært hjælpemiddel, hvis indledning selv advarer om mulige læsefejl og uoverensstemmelser mellem kirkebøger. **21. marts 1934 er stærkt understøttet foreløbigt; den oprindelige Humble-kirkebogsindførsel mangler stadig.**
 
 <sup>1</sup> Værkets titelblad angiver Erling Mortensen som redaktør/forfatter og udgivelse ved Det kgl. danske Landhusholdningsselskabs Forlag, København, 1969. Den relevante omtale står på trykt side 91.
 
@@ -149,3 +152,10 @@ Den nuværende persondokumentation giver forskellige sidste kendte spor. Ingen a
 ## Dæmningsarbejdet som spor til søskendenes vielser
 
 Mortensen (1969) siger, at Marius byggede dæmningen sammen med tre sønner og en svigersøn. Den offentlige GEDCOM viser Kristines ægteskab med Axel Erik Holgersen, men Martha Hansines senere ægteskab er uafklaret. Axel er derfor en mulig kandidat til svigersønnen, ikke en fastslået identifikation. Det kan afklares ved at finde Marthas vielse og sammenholde alle døtrenes ægteskaber med 1911-kilden.
+
+
+## Georg Johannes Christensen: stærkt dansk dødsindeks-match
+
+Rudkøbing Byhistoriske Arkivs *Døde på Langeland 1970–2020* anfører **Georg Johannes Christensen**, tidligere konservesfabrikant, Tom Knudsensvej 43, Lohals, Hou, 79 år, død **2. marts 1972**. Navnet og alderen passer med Georg Johannes Christensen i træet (født 10. oktober 1892; 79 år ved dødsfaldet), og Lohals ligger på Langeland. Det er derfor et stærkt match, men den originale kirkebogsindførsel bør stadig kontrolleres. [Se dødsindekset](https://byarkivet.langelandkommune.dk/p/Byhistorisk_Arkiv/Links/D%C3%B8de%20p%C3%A5%20Langeland/55-%C3%A5rs-d%C3%B8dsfald-p%C3%A5-Langeland-1970-2025.pdf).
+
+Dette giver Georg et sandsynligt livsforløb i Danmark frem til 1972 og gør ham til en mindre sandsynlig transatlantisk emigrant. Indekset beviser ikke, at han aldrig rejste udenlands; det dokumenterer, at en person med præcist samme fulde navn og passende alder døde på Langeland.

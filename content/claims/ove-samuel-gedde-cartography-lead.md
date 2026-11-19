@@ -129,6 +129,8 @@ Katalogerne registrerer desuden flere fæstnings- og bygningsplaner af Gedde, bl
 
 Nasjonalarkivets vejledning angiver, at Havnedirektoratets kort og tegninger findes i dets kartsamling, normalt under serie T. Originalerne kan derfor bestilles eller inspiceres med katalogsignaturerne som indgang.
 
+**Sammenligningsprøver:** NVE-rapporten gengiver Frederik Christophers embedsed fra 1813 med hans underskrift (s. 27) og en teknisk tegning fra Riksarkivet, signeret 22. maj 1819, af stabilisering af Drammenselvas løb (s. 28). Disse er kendte referenceprøver for hans signatur, håndskrift og tegnestil og bør sammenlignes med originalerne til 1796- og 1805-kortene. De beviser ikke i sig selv, hvem der tegnede de to ældre kort.
+
 **Foreløbig arbejdshypotese:** Frederik Christopher er dokumenteret som kartograf i 1816 og bør undersøges først for 1796-kortet; for 1805 bør Nicolai Wilhelm kontrolleres mod personalakter og kortets originalsignatur. Ove Samuel forbliver den registrerede kartograf i Kartverkets metadata, og en mulig sammenblanding er kun en hypotese. Ingen af de to kort er endnu sikkert omattribueret.
 
 ## Hirsch' officerskartotek — ny konkret arkivhenvisning
