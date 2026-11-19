@@ -51,3 +51,16 @@ Bed Archiwum Państwowe w Szczecinie om:
 4. Eventuelle 1584-dokumenter om Benedict von Woyten, Vessin/Vilzelow og ægteskabet mellem Catharina von Woyten og Wolfgang von Puttkamer.
 
 **Kildekritisk status:** Pawliks artikel er en videnskabelig arkivoversigt, ikke en transskription. 1661-posten er katalogmetadata. Ingen originalakt er endnu gennemset; ingen ny slægtskabsrelation eller livsdato er bevist.
+
+
+## Kontakt til arkivet og bestilling
+
+Dr Radosław Pawlik, som skrev 2016-oversigten over de 13 WOITEN-sager, er opført i Archiwum Państwowe w Szczecins afdeling for registrering og beskrivelse af arkivmateriale:
+- **Radosław Pawlik:** rpawlik@szczecin.archiwa.gov.pl, telefon +48 91 433 50 02, lokal 113. [Officiel medarbejderside](https://www.szczecin.ap.gov.pl/pl/Oddzia%C5%82%2BII)
+- **Generelle forespørgsler og kwerender:** kwerendy@szczecin.archiwa.gov.pl. [Officielle instruktioner](https://www.szczecin.ap.gov.pl/pl/Poszukiwania)
+
+Arkivet oplyser, at en formel kwerende- eller reproduktionsbestilling kræver en underskrevet ansøgning med ansøgerens navn, bopælsadresse, præcist formål og søgeomfang samt oplysninger om de personer, der søges efter. Ved familieundersøgelser skal slægtskabsforholdet oplyses. Arkivet kan bede om supplerende dokumenter og opkræve gebyr for kwerender og reproduktioner. Personlige adresse- og ID-oplysninger skal ikke lægges i det offentlige projektarkiv.
+
+Den mest præcise forespørgsel er at bede om de 13 aktuelle signaturer under Pawliks overskrift "WOITEN (Wojiten, Woyten), 13 j.a., 1587–1676", med særlig vægt på Martin Woitten mod Tobias (1587) og Wolfgang Woiten mod Conrad/Jakob (1595), samt at spørge om 65/6/0/20/1924 (1661) indgår i gruppen. Bed samtidig om muligheden for digitale reproduktioner eller læsesalsadgang og om dokumenterne opbevares i Szczecin eller Stargard.
+
+**Status:** Kontakt og bestillingskrav verificeret på arkivets officielle hjemmeside; ingen forespørgsel er sendt.
