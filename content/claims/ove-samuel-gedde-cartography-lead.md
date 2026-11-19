@@ -15,6 +15,8 @@ sources:
   - "Anker 1885: https://runeberg.org/acj330bio/0110.html"
   - "Fædrenelandsk Nekrolog 1843: https://www.kb.dk/e-mat/dod/130012834358.pdf"
   - "Kongelig Dansk Hof- og Stats-Calender 1829: https://slaegtsbibliotek.dk/918037.pdf"
+  - "Tove Nedrelid, NVE-rapport 32 (2014): https://publikasjoner.nve.no/rapport/2014/rapport2014_32.pdf"
+  - "Rigsarkivet, Militær og forsvar — Ingeniørkorpsets norske arkiv: https://arkivalieronline.rigsarkivet.dk/da/other/other-collection/81"
 ---
 
 # Ove Samuel Gedde og de norske opmaalingskort — foreløbigt kartografisk spor
@@ -30,7 +32,7 @@ sources:
 
 Ove Samuels far, **Hans Christopher Gedde (1738–1817)**, var ingeniørofficer og fra 1796 direktør for Norges geografiske opmåling. Dansk Biografisk Leksikon anfører, at han gjorde tjeneste i Norge 1769–1802, var kommandør for det norske ingeniørdetachement 1793–1802 og direktør for den geografiske opmåling fra 1796. Kilde: https://biografiskleksikon.lex.dk/H.C._Gedde (K. C. Rockstroh, Dansk Biografisk Leksikon).
 
-Det giver en konkret, men endnu ikke bevist, forklaring på 1796-kortets attribution: Hvis kortografen er Ove Samuel (født 28. maj 1778 ifølge nekrologen fra 1843), var han 18 år, netop da faderen blev direktør for opmålingen. Han kan have været elev, assistent eller juniorofficer i et miljø, hvor faderen havde ledelsen; det er foreløbig kun en hypotese. Alternativt kan 1796-attributionen være en navneforveksling eller en senere katalogisering, der har knyttet kortet til den forkerte Gedde.
+Den tidligere hypotese om, at Ove Samuel kan have været elev eller assistent i faderens opmålingsmiljø, er nu svækket af nye oplysninger om brødrene. Hvis fødselsåret 1778 er korrekt, var Ove Samuel 18 år i 1796, men nekrologen placerer ham da som sekondløjtnant i det søndenfjeldske infanteriregiment — ikke i Ingeniørkorpset. Hans yngre bror Frederik Christopher blev derimod ingeniørofficer i 1796, og den ældre bror Nicolai Wilhelm havde også en dokumenteret ingeniørkarriere. Mulig navnesammenblanding eller fejlkatalogisering skal derfor undersøges aktivt.
 
 Det officielle 1805-kort er kronologisk mere foreneligt med Ove Samuel som voksen (ca. 27 år ved fødselsår 1778), og dets placering i Hedmark passer til en mulig fortsættelse af militær opmålingsarbejde. Men det er endnu ikke påvist, hvilken stilling han havde i 1805, eller om han selv udførte opmålingen.
 
@@ -48,17 +50,17 @@ Det officielle 1805-kort er kronologisk mere foreneligt med Ove Samuel som vokse
 
 Kilden beskriver også, at han under sin norske tjeneste fik tilladelse til i to år at gøre tjeneste ved det holstenske armékorps for at lære forskellige grene af militærtjenesten og korpsenes økonomiske organisation. I 1801 gjorde han tjeneste ved en division omkring Frederiksværn, som dækkede det norske marineoplag og Norges sydlige og vestlige kyster. I 1807 lå Kronens Regiment på Kronborg. Dette er en betydeligt mere konkret militær biografi end den tidligere antagelse om blot en senere infanterikarriere.
 
-**Betydning for kortene:** Hvis katalogattributionen er korrekt, var Ove Samuel 18 år og sekondløjtnant i det søndenfjeldske regiment, da 1796-kortet blev udarbejdet. I 1805 var han omkring 27 år og blev netop det år stabskaptajn i Kongens/Kronens Regiment. Begge datoer passer nu bedre ind i et dokumenteret officersforløb. Men nekrologen siger ikke, at han arbejdede med opmåling eller korttegning. Der er endnu ingen direkte forbindelse mellem hans regimentstjeneste og Rektangelmålingerne i Hedmark.
+**Betydning for kortene:** 1796-attributionen er kronologisk mulig, hvis Ove Samuel blev født i 1778, men hans kendte tjeneste var infanteristisk. I 1805 var han omkring 27 år og blev stabskaptajn efter sin overførsel til den danske hær i 1803. Det gør et samtidigt opmålingsarbejde i Hedmark mindre oplagt, selv om det ikke udelukker en særskilt opgave. Nekrologen nævner ikke korttegning eller opmåling. Der er ingen direkte forbindelse mellem hans regimentstjeneste og Rektangelmålingerne.
 
 **Fødselsårskonflikten er nu skarpere afgrænset:** Den samtidige nekrolog fra 1843 siger udtrykkeligt 28. maj 1778. Anker 1885, s. 94, siger 28. maj 1788. Liebe/Borgstrøm støtter 1778. Indtil dåbsindførslen findes, bør 1778 behandles som klart bedst understøttet, men Ankers afvigelse skal fortsat registreres som kildekonflikt — ikke stiltiende slettes.
 
 Kilde: *Fædrenelandsk Nekrolog*, Ny Samling, bind 2 (1843), trykt s. 24–25, Det Kgl. Bibliotek: https://www.kb.dk/e-mat/dod/130012834358.pdf. Den relevante tekst står under “Oberst Owe Samuel v. Gedde”.
 
-## Teknisk tegnearbejde i den nærmeste familie — særskilt spor
+## Frederik Christopher Gedde — dokumenteret ingeniørofficer
 
-Frederik Christopher Gedde (1781–1840), Ove Samuels yngre bror med samme forældre, beskrives i Lokalhistoriewiki som stykkjunker ved Artillerikorpset og derefter dessinatør (tegner) ved Ingeniørkorpset fra 1794; fra 1803 var han premierløjtnant ved Fredriksvern værft og fra 1806 ingeniørkaptajn. Kilde: https://lokalhistoriewiki.no/wiki/Frederik_Christopher_Gedde.
+Den tidligere korte oplysning om Frederik Christopher som tegner fra 1794 er nu afløst af en stærkere kilde. Tove Nedrelids NVE-rapport *Kanalforvaltningen rundt 1814* (2014), s. 25–28, oplyser, at Frederik Christopher Gedde (1781–1840) blev ingeniørofficer i 1796, premierløjtnant i 1803 og kaptajn i 1806. Han blev senere kanal- og havneinspektør i det søndenfjeldske Norge. Rapporten beskriver hans arbejde ved Fredriksvern og hans tekniske tegninger. Kilde: https://publikasjoner.nve.no/rapport/2014/rapport2014_32.pdf.
 
-Dette er relevant familiekontekst, men må ikke forveksles med Ove Samuels tjeneste. Det dokumenterer en teknisk tegner-/ingeniørkarriere hos Frederik Christopher, ikke hos Ove Samuel. Det kan også forklare, hvorfor det er vigtigt at kontrollere hver kortattribution og ikke slutte fra familiens generelle militære miljø til den enkelte brors konkrete arbejde.
+Carl Johan Ankers biografiske oversigt (1885), s. 95–96, beskriver også Ove Samuels ældre bror Nicolai Wilhelm Gedde som ingeniørofficer med indtræden i Ingeniørkorpset i 1790. De to brødres karrierer gør dem til relevante alternative personer at undersøge, men de beviser ikke i sig selv, hvem der tegnede kortene. Ove Samuel må holdes adskilt fra sine brødre, indtil originalkort eller personalakter forbinder en bestemt person med opmålingen.
 
 ## Vigtigt fødselsårsforbehold
 
