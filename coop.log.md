@@ -195,3 +195,8 @@ A DAISY search produced a much stronger archival route than the general churchbo
 Sources: DAISY Langeland Herredsfoged series list https://daisy.rigsarkivet.dk/arkivskabers_arkivserier?a=langeland+her&b=skifte&c=&d=1&dir=&e=2019&ed=&ep=&epid=&es=&f=&faid=&g=&gsc=&h=&heid=3237358&henid=3237358&int=&m2rid=&meid=&ngid=857927&ngnid=&side=&sort= ; DAISY alimentation search https://daisy.rigsarkivet.dk/arkivserie_liste?a=&b=alimentation&d=1&e=2024 ; DAISY name-index search https://daisy.rigsarkivet.dk/arkivskaber_eller_arkivserie_liste?c=Alimentation&d=1&e=2016&epid=&f=&ngid=. These are catalogue descriptions only; no package, folio or person entry has been inspected. No relationship is established.
 
 Updated `content/claims/gerda-kresten-mother.md` in commit `f35da20b19a421439d70f4641431d0dd7564f2f6`. Next: inspect the name index, follow any relevant reference into the journal, then inspect the Søndenbro district movement list and the original churchbook entries.
+
+
+## 2026-11-19 — Final bulletin check for the alimentation-register lead
+
+The automatic Nyhedsbulletin entry for claim commit `f35da20b19a421439d70f4641431d0dd7564f2f6` is now visible at the top of `content/activity.md`, with the claim title and path. The activity file was re-fetched and the exact commit ID verified. No local build or live Pages check was performed; the public app's rendered claim content is not confirmed. The catalogue lead remains uninspected at record level.
