@@ -74,9 +74,9 @@ Den bedste arbejdshypotese er nu: Eduard Gedde var reelt tilknyttet Slob Experim
 
 ## Slob er geografisk indsnævret — men ikke endeligt identificeret
 
-Rigsarkivets estate-register skelner mellem **Body Slob / Slob, King's Quarter K 19 og K 11**, og en anden **Slob / Chastity Hall, East End EEB 28b, 29a og 37**. National Register of Historic Places placerer Estate Slob ved Centerline Road i det centrale landbrugsområde. *The Herald* 18. januar 1922 siger, at en pakke blev tabt på vejen mellem Diamond School og Kingshill, og beder finderen kontakte “Mr. Cedde” ved Slob Experimental Station. Den geografiske sammenhæng peger mest oplagt mod Body Slob i King's Quarter, men kort-/jordbogskontrol mangler.
+Rigsarkivets estate-register skelner mellem **Body Slob / Slob, King's Quarter K 19 og K 11**, og en anden **Slob / Chastity Hall, East End EEB 28b, 29a og 37**. National Register of Historic Places placerer Estate Slob ved Centerline Road i det centrale landbrugsområde. *The Herald* 6. februar 1922 siger, at en pakke blev tabt på vejen mellem Diamond School og Kingshill, og beder finderen kontakte “Mr. Cedde” ved Slob Experimental Station. Den geografiske sammenhæng peger mest oplagt mod Body Slob i King's Quarter, men kort-/jordbogskontrol mangler.
 
-Der er nu to januar-notitser (12. og 18. januar 1922) med en kontakt ved Slob Experimental Station. Den ene OCR-læser GEDDE, den anden CEDDE. Det kan være samme person, men navnelæsningen og identiteten er ikke endeligt fastslået.
+Der er nu to notitser (12. januar og 6. februar 1922) med en kontakt ved Slob Experimental Station. Den ene OCR-læser GEDDE, den anden CEDDE. Det kan være samme person, men navnelæsningen og identiteten er ikke endeligt fastslået.
 
 ## Et uafhængigt 1953-fund: Dannebrogordenen
 
