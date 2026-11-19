@@ -12,9 +12,9 @@ accessed: "2026-11-19"
 
 # Estate Slob er lokaliseret ved Centerline Road i St. Croix' centrale landbrugsområde
 
-National Register of Historic Places-nomineringen for **Estate Slob** beskriver ejendommen som beliggende nord for Centerline Road i det centrale landbrugsområde på St. Croix. Beskrivelsen identificerer blandt andet en historisk hovedbygning, arbejder-/slaveboliger, stalde, vindmølle og sukkerfabrik.
+National Register of Historic Places-nomineringen identificerer stedet som **Estate Slob, Body Slob**, beliggende i **King's Quarter**, ca. 6½ miles vest for Frederiksted og ca. 200 yards nord for Centerline Road. Den beskriver desuden estate-trakterne som nr. 19 og 11 i King's Quarter. Beskrivelsen identificerer blandt andet en historisk hovedbygning, arbejder-/slaveboliger, stalde, vindmølle og sukkerfabrik.
 
-Dette er en vigtig geografisk kontrol til avisernes “Slob Experimental Station”. Den passer med, at 1922-notitsen omtaler vejen mellem Diamond School og Kingshill. Men National Register-registreringen beviser ikke, at stationen lå på Estate Slob eller hvilken af de to historiske Slob-ejendomme der er tale om.
+Dette er en væsentlig geografisk kontrol til avisernes “Slob Experimental Station”: den officielle nominering binder Estate Slob direkte til navnet Body Slob, King's Quarter og trakterne 19/11. Rigsarkivets estate-register bruger samme kombination “Body Slob; Slob — K 19, 11”. 1922-notitsen omtaler vejen mellem Diamond School og Kingshill, hvilket er foreneligt med den centrale placering. Det gør Body Slob til den stærkeste kandidat til stationens placering, men avisnotitsen siger ikke udtrykkeligt, at stationen lå på netop dette gods.
 
 ## Sammenhold med Rigsarkivets stednavneregister
 
