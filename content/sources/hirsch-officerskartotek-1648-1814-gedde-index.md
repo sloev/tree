@@ -14,7 +14,12 @@ Kartotek udarbejdet af J. C. W. Hirsch og Kay Hirsch. Det omfatter 45 foliobind 
 
 ## Konkret Gedde-henvisning
 
-Den digitaliserede navneliste fører en indførsel under Gedde med navneformen **“Joachim Ove Samuel”** til bind **4-1**, side **32**. Det kan være Ove Samuel Gedde, men identiteten er ikke fastslået, fordi den længere navneform endnu ikke er sammenholdt med selve officerskortet. Henvisningen er et stærkt og konkret næste opslag, ikke bevis for rang, tjenestested eller kortarbejde.
+Den digitaliserede navneliste fører tre særligt relevante indførsler under Gedde til samme bind **4-1**:
+- **“Fredrich Christoffer”**, side **27** — muligvis Frederik Christopher Gedde.
+- **“Joachim Nicolaj Wilhelm”**, side **30** — sandsynligvis Nicolai Wilhelm Gedde.
+- **“Joachim Ove Samuel”**, side **32** — sandsynligvis Ove Samuel Gedde.
+
+At alle tre navne optræder i samme bind, og at de stemmer godt overens med de tre kendte sønner af Hans Christopher Gedde, gør identifikationerne lovende. Men dette er stadig et navne- og registermatch; det skal bekræftes ved at læse de tre håndskrevne officerskort og sammenholde fødselsdata, forældre, rang og tjenesteforløb. Henvisningen er ikke i sig selv bevis for kortarbejde.
 
 - Navneliste: https://slaegtsbibliotek.dk/900836.pdf
 - OCR-udgavens forklaring: https://slaegtsbibliotek.dk/samlinger/hirsch
