@@ -10,6 +10,7 @@ person_ids:
   - "p217"
 sources:
   - "gedde-frederik-ejler-misidentification-1913"
+  - "riksarkivet-underadmiralitetsprotokoller-1683"
   - "gedde-officer-family-pht-1882"
 ---
 
@@ -34,7 +35,7 @@ Lind henviser til Under-Admiralitetsrettens protokol 1683 og fortæller, at han 
 
 ## Næste skridt
 
-1. Find Under-Admiralitetsrettens protokol 1683 og sagen mellem Frederik Pauli og schoutbynacht Frederik Gedde.
+1. Bestil Underadmiralitetsprotokoller 1667–1771 og register 1682–1694; kontrollér 19. april, 15. november og 6. december 1683 (Daisy: riksarkivet-underadmiralitetsprotokoller-1683).
 2. Find originalbrevet fra Hans Christoffer Gjedde til kammerherre Bertouch, 17.02.1782.
 3. Sammenlign de to primærkilder for at afgøre, om major Knud i officersfamilien er identisk med den ældre Knud Gedde til Vadskærgaard.
 4. Kontroller den særskilte PHT-indførsel fra 1885, som indholdsfortegnelsen også registrerer under H. D. Lind, før den sammenlægges med 1913-artiklen.
