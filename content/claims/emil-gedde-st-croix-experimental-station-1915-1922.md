@@ -64,12 +64,3 @@ USDA's *Work and Expenditures of the Agricultural Experiment Stations, 1918* opl
 Årsrapporten for 1923 (udgivet juli 1924) oplister **John B. Thompson** som agronomist in charge, C. E. Wilson som entomolog og W. M. Perry som horticulturist. Gedde står ikke blandt de tre navngivne fagmedarbejdere. Det udelukker ikke en anden lokal tilknytning, men det understreger, at den biografiske formulering “Forsøgsleder 1915–1922” ikke uden videre kan læses som stationens øverste leder i hele perioden.
 
 Den bedste arbejdshypotese er nu: Eduard Gedde var reelt tilknyttet Slob Experimental Station i 1918 og muligvis fortsat tilknyttet i 1922, men hans formelle rolle skal findes i danske ansættelses-/lønakter og amerikanske stationens personalesager. Longfield Smith var i hvert fald den officielle agronomist in charge i 1918 og 1920; John B. Thompson var det i 1923.
-
-
-## Vigtig modstrid i USDA's samtidige personalelister
-
-En yderligere officiel kilde ændrer den enkle Smith-til-Thompson tidslinje: *Experiment Station Record*, vol.43 (juli–december 1920), trykt s.II, lister “Virgin Islands — St. Croix: J. B. Thompson”; sidens tegnforklaring markerer fodnote 2 som “Agronomist in charge”. Det samme gentages i vol.46 (januar–juni 1922), s.II. Det står i direkte spænding med 1920-årsrapportens titelblad og følgebrev fra 13.08.1920, hvor Longfield Smith er “Agronomist in Charge”.
-
-Derfor kan vi ikke konkludere en entydig overdragelse i 1922. De officielle kilder viser overlappende eller modstridende angivelser: Smith i 1918-directory og 1920-report; Thompson i 1920- og 1922-Record directories; Thompson igen i 1923-årsrapporten. Mulige forklaringer er rolle-/ansættelsesoverlap, skift i løbet af 1920, forskel mellem den faglige rapportforfatter og stationens daglige agronomansvarlige eller fejl i en af oversigterne. Ingen forklaring er valgt.
-
-Konsekvensen for Gedde: 1918-annonceunderskriften dokumenterer en praktisk tilknytning til Slob, men kan ikke oversættes til “øverste forsøgsleder”. Den danske 1944-biografis stillingsbetegnelse 1915–1922 må kontrolleres mod ansættelsesbrev, lønprotokoller og korrespondance i Rigsarkivet.
