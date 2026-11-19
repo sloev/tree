@@ -19,7 +19,8 @@ permissions:
 
 concurrency:
   group: rebuild-family-tree-site
-  cancel-in-progress: true
+  # Let the active build finish; each job fetches latest main before compiling.
+  cancel-in-progress: false
 
 jobs:
   build:
