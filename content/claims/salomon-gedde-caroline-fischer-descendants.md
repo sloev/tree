@@ -41,3 +41,22 @@ Den tidligere Gedde-gennemgang har især fulgt Hans Christopher og hans sønner.
 ## Next
 
 Begynd med Arends' navngivne børn på PDF-siderne 18–20 og følg hver enkelt til kirkebog eller skifte. Prioritér sønnerne og de døtre, der giftede sig uden for Fischer-navnet. Undersøg samtidig gravpladen for Salomon Gedde i Østre Fredrikstad kirkegård og lokale efterkommere, som Byleksikonet omtaler.
+
+
+## Ny udvidelse: Fischer-efterslægten får konkrete livsforløb
+
+Arends' sider 18–20 gør det muligt at følge flere af Carolines børn ud over selve fødsels- og vielsesoplysningerne:
+
+- **Elisabeth Maria Salome (Salomine) Fischer** (1796–1870) blev gift med Tønne Bloch Glahn. Han var kaptajn ved hæren, afgik i 1844 og fortsatte som land- og søkrigskommissær; han blev chef for 8. udskrivningsdistrikt i 1851 og generalkrigskommissær i 1856.
+- **Tycho Johan Fischer** (1800–1858) var urtekræmmer i København. Hans søn **Edvard Gedde Victor Fischer** (6. august 1827–19. juni 1849) døde på Augustenborg Lazaret. Arends anfører udtrykkeligt, at Edvard deltog i krigen 1849. Det er et konkret nyt militærhistorisk spor i Salomons efterslægt.
+- **Leonhard Christian Fischer** (1803–1882) har en særskilt efterkommerbehandling hos Arends på s. 24–31.
+- **Hans Christoffer Fischer** (1804–1861) blev gårdejer ved Næstved/Fjenneslevmagle og fik to døtre.
+- **Ernst Christian Fischer** (1806–1878) blev præst; hans efterkommere behandles videre i værket.
+
+Dette dokumenterer ikke en ny direkte forfaderlinje til Lorenz, men det viser, at Salomons gren fortsatte gennem flere samfunds- og erhvervsmiljøer: militæradministration, handel, præsteembede og landbrug. Mellemnavnet **Gedde** hos Edvard er bevaret i en efterkommergeneration.
+
+## Emigrationspotentiale
+
+Arends skriver i indledningen, at han ikke kunne indhente udtømmende oplysninger om den del af Fischer-slægten, der boede i udlandet. Det er en konkret begrundelse for at undersøge denne gren i udvandrings- og udenlandske kilder, men ikke i sig selv belæg for, at nogen emigrerede. Prioritér først at rekonstruere alle elleve børn og deres efterkommere, og søg derefter efter dokumenterede udrejser, ankomster og senere bopæle.
+
+**Kildekritik:** Oplysningerne ovenfor er gengivelser fra Arends' trykte slægtstavle og er endnu ikke alle kontrolleret mod originalkirkebøger eller militære personalakter. Edvards deltagelse i krigen og dødsfald i 1849 er en stærk sekundær oplysning; hans militærrulle og lazaret-/dødsindførsel er oplagte primærkilder.
