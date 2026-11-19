@@ -120,14 +120,15 @@ Kortets Commons-post angiver, at det er digitaliseret og delt af Kartverket, ove
 
 ## Hirsch' officerskartotek — ny konkret arkivhenvisning
 
-Rigsarkivets vejledning anbefaler Hirsch' kartotek over danske og norske officerer 1648–1814 som indgang til officerers personlige data og karriereforløb. Kartoteket findes både som håndskrevet original på Arkivalieronline og i en OCR-søgbart udgave hos Slægtsforskernes Bibliotek. Den søgbare navneliste fører tre relevante indførsler under Gedde til samme bind **4-1**: “Fredrich Christoffer” (side 27), “Joachim Nicolaj Wilhelm” (side 30) og “Joachim Ove Samuel” (side 32). De svarer sandsynligvis til de tre kendte sønner Frederik Christopher, Nicolai Wilhelm og Ove Samuel Gedde. Det er et lovende familie- og navnematch, men alle tre håndskrevne kort skal aflæses, før identifikationerne og tjenestedata kan fastslås.
+Rigsarkivets vejledning anbefaler Hirsch' kartotek over danske og norske officerer 1648–1814 som indgang til officerers personlige data og karriereforløb. Kartoteket findes både som håndskrevet original på Arkivalieronline og i en OCR-søgbart udgave hos Slægtsforskernes Bibliotek. Et OCR-register havde fejlsegmenteret rækkerne og fik “Joachim Ove Samuel” til at fremstå som ét navn. Et uafhængigt register udarbejdet af Norsk Slektshistorisk Forening i 2013 bekræfter i stedet tre særskilte poster i Hirsch bind 4-1: “Fredrich Christoffer” (side 27), “Nicolaj Wilhelm” (side 30) og “Ove Samuel” (side 32). “Joachim” står separat på side 29. Dette er nu et stærkt og præcist opslagsspor for alle tre brødre; de håndskrevne kort skal stadig aflæses for at bekræfte personidentitet, rang og tjenesteforløb.
 
-- Hirsch' søgbare navneliste: https://slaegtsbibliotek.dk/900836.pdf (find “Gedde”; indførslerne står omkring PDF-tekstlinjerne 12961 og 12983–12990).
+- Hirsch' OCR-navneliste: https://slaegtsbibliotek.dk/900836.pdf (maskinlæsningen kan sammenblande rækker).
+- Norsk Slektshistorisk Forening, *Samlet register under revisjon* (2013): https://genealogi.no/nettbutikk/Hirschregister.pdf (side 137: Fredrich Christoffer s. 27, Nicolaj Wilhelm s. 30, Ove Samuel s. 32; Joachim særskilt s. 29).
 - Forklaring af kartotekets omfang og OCR-metode: https://slaegtsbibliotek.dk/samlinger/hirsch.
 - Rigsarkivets originale digitale kartotek, alfabetisk afsnit “Geb–Gei”: https://arkivalieronline.rigsarkivet.dk/da/other/index-creator/81/17133051/17202077.
 - Rigsarkivets vejledning til officersstambøger og Hirsch: https://www.rigsarkivet.dk/vejledning/haerens-og-flaadens-mandskabslister/haerens-mandsskabslister-kom-godt-i-gang/.
 
-**Næste kontrol:** Find originalkortene for bind 4-1, side 27, 30 og 32. Sammenhold navn, fødselsdata, forældre, rang og tjenestesteder for de tre brødre. Særligt for Ove Samuel skal der ledes efter hans toårige tjeneste ved det holstenske armékorps og hans overførsel til dansk hær i 1803. Sammenhold med nekrologen fra 1843 og regimenternes stambøger.
+**Næste kontrol:** Find originalkortene for bind 4-1, side 27, 30 og 32. Sammenhold navn, fødselsdata, forældre, rang og tjenestesteder for de tre brødre. Den tidligere OCR-læsning “Joachim Ove Samuel” er trukket tilbage; “Joachim” er en separat post på side 29. Særligt for Ove Samuel skal der ledes efter hans toårige tjeneste ved det holstenske armékorps og hans overførsel til dansk hær i 1803. Sammenhold med nekrologen fra 1843 og regimenternes stambøger.
 
 
 ## Personalhistorisk Tidsskrift 1882 — tidligt belæg for 28. maj 1778

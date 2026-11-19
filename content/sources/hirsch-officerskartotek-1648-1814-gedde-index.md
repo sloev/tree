@@ -12,19 +12,22 @@ url: "https://slaegtsbibliotek.dk/900836.pdf"
 
 Kartotek udarbejdet af J. C. W. Hirsch og Kay Hirsch. Det omfatter 45 foliobind og omkring 14.000 officerer. Slægtsforskernes Bibliotek har offentliggjort en OCR-søgbart udgave; OCR-teksten er et søgehjælpemiddel og skal kontrolleres mod de håndskrevne kort.
 
-## Konkret Gedde-henvisning
+## Konkret Gedde-henvisning — uafhængigt register kontrolleret
 
-Den digitaliserede navneliste fører tre særligt relevante indførsler under Gedde til samme bind **4-1**:
-- **“Fredrich Christoffer”**, side **27** — muligvis Frederik Christopher Gedde.
-- **“Joachim Nicolaj Wilhelm”**, side **30** — sandsynligvis Nicolai Wilhelm Gedde.
-- **“Joachim Ove Samuel”**, side **32** — sandsynligvis Ove Samuel Gedde.
+Et OCR-register fra Danskernes Historie Online havde fejlsegmenteret linjerne og fik “Joachim Ove Samuel” til at se ud som én navneform. Dette er nu kontrolleret mod et uafhængigt register udarbejdet af medlemmer af Norsk Slektshistorisk Forening i 2013, *Samlet register under revisjon* (Hirschregister.pdf). Det uafhængige register viser tydeligt:
 
-At alle tre navne optræder i samme bind, og at de stemmer godt overens med de tre kendte sønner af Hans Christopher Gedde, gør identifikationerne lovende. Men dette er stadig et navne- og registermatch; det skal bekræftes ved at læse de tre håndskrevne officerskort og sammenholde fødselsdata, forældre, rang og tjenesteforløb. Henvisningen er ikke i sig selv bevis for kortarbejde.
+- **Gedde — Fredrich Christoffer**, bind **4-1**, side **27**.
+- **Gedde — Nicolaj Wilhelm**, bind **4-1**, side **30**.
+- **Gedde — Ove Samuel**, bind **4-1**, side **32**.
+- **Gedde — Joachim**, bind **4-1**, side **29** — en særskilt personpost, ikke en del af Ove Samuels navn.
 
-- Navneliste: https://slaegtsbibliotek.dk/900836.pdf
-- OCR-udgavens forklaring: https://slaegtsbibliotek.dk/samlinger/hirsch
-- Rigsarkivets originale digitale kartotek, afsnit “Geb–Gei”: https://arkivalieronline.rigsarkivet.dk/da/other/index-creator/81/17133051/17202077
-- Rigsarkivets vejledning: https://www.rigsarkivet.dk/vejledning/haerens-og-flaadens-mandskabslister/haerens-mandsskabslister-kom-godt-i-gang/
+Dette bekræfter, at Hirsch-kartotekets bind 4-1 indeholder særskilte poster for alle tre kendte Gedde-brødre. Registeret identificerer opslagene, men det dokumenterer endnu ikke i sig selv deres indhold eller tjenesteforløb; de håndskrevne originalkort skal aflæses.
+
+- Uafhængigt register (Norsk Slektshistorisk Forening, 2013): https://genealogi.no/nettbutikk/Hirschregister.pdf (trykt registerside 137; PDF-tekstlinjer 10326, 10351 og 10359).
+- OCR-register fra Danskernes Historie Online: https://slaegtsbibliotek.dk/900836.pdf — maskinlæsningen har her sammenblandet tabelrækker.
+- DHO's forklaring af Hirsch-kartoteket og OCR-udgaven: https://slaegtsbibliotek.dk/samlinger/hirsch.
+- Rigsarkivets originale digitale kartotek, alfabetisk afsnit “Geb–Gei”: https://arkivalieronline.rigsarkivet.dk/da/other/index-creator/81/17133051/17202077.
+- Katalogpost for Hirsch bind 4-1, “Ga–Grat”, biblionumber 20909: http://bibliotek.dis-danmark.dk/cgi-bin/koha/opac-detail.pl?biblionumber=20909.
 
 ## Søgestrategi
 
