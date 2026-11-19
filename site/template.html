@@ -155,8 +155,10 @@ button.linkish:focus-visible{outline:2px solid var(--accent)}
 .mapsvg .lbl{font:500 10.5px var(--f-body);fill:var(--ink)}
 .mapsvg .lbl-halo{font:500 10.5px var(--f-body);stroke:var(--sheet);stroke-width:3.5;fill:none;stroke-linejoin:round}
 .mapsvg .sea{fill:var(--sheet)}
-.world-land{fill:var(--paper);stroke:var(--rule-2);stroke-width:1.1;stroke-linejoin:round;vector-effect:non-scaling-stroke}\n.mapsvg .land.langeland{fill:var(--paper);stroke:var(--rule-2);stroke-width:1.15;stroke-linejoin:round}
+.world-land{fill:var(--paper);stroke:var(--rule-2);stroke-width:1.1;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+.mapsvg .land.langeland{fill:var(--paper);stroke:var(--rule-2);stroke-width:1.15;stroke-linejoin:round;vector-effect:non-scaling-stroke}
 #worldmap{display:block;width:100%;height:auto;min-height:300px;max-height:none;aspect-ratio:2.05/1;background:var(--sheet);border:1px solid var(--rule);border-radius:9px}
+#langeland-map{display:block;width:100%;max-height:560px}
 #worldmap [data-claim-id]{cursor:pointer;stroke:var(--sheet);stroke-width:2.5}
 .placelist{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:2px 16px;font-size:.84rem}
 .placelist button{all:unset;cursor:pointer;display:flex;justify-content:space-between;gap:8px;border-bottom:1px solid var(--rule);padding:4px 0}
@@ -1060,7 +1062,8 @@ function renderKort(){
     const coords=[...langelandPlaces].map(name=>pl[name]);
     const minLat=Math.min(54.66,...coords.map(c=>c[0]-.01)), maxLat=Math.max(55.16,...coords.map(c=>c[0]+.01));
     const minLon=Math.min(10.54,...coords.map(c=>c[1]-.01)), maxLon=Math.max(10.96,...coords.map(c=>c[1]+.01));
-    const [lx0,ly1]=prj(maxLat,minLon), [lx1,ly0]=prj(minLat,maxLon);
+    // prj() maps higher latitude to smaller y, so the north-west corner gives the top edge (ly0).
+    const [lx0,ly0]=prj(maxLat,minLon), [lx1,ly1]=prj(minLat,maxLon);
     const langelandLabels=[...langelandPlaces].map(name=>L(name,'start',5)).filter(Boolean);
     drawMap(document.getElementById('langeland-map'),[lx0,ly0,lx1-lx0,ly1-ly0],langelandLabels,langelandPlaces);
     const total=[...langelandPlaces].reduce((n,name)=>n+(ev[name]?.length||0),0);
