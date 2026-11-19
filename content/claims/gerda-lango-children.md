@@ -82,3 +82,8 @@ En gennemgang af alle eksplicitte udvandrerbemærkninger i den nuværende `famil
 Ingen af de tre er en direkte efterkommer af Marius Michelsen Christensen og Ane Marie Jørgensen. Gedde-personerne hører til Gedde/Kleist-grenen; Iver Holgersen er knyttet til Langø-familien gennem sin bror Axel Eriks ægteskab med Kristine. Det er derfor vigtigt ikke at tælle dem som Langø-descendenter.
 
 Denne kontrol betyder kun, at der ikke er en eksplicit udvandrerbemærkning i den aktuelle GEDCOM for den direkte Langø-descendantlinje. Den beviser ikke, at ingen efterkommere emigrerede: personposter, børnegrene og oversøiske efterkommere kan mangle i den offentlige fil, og de syv børns efterkommere er endnu ikke rekonstrueret fuldt ud.
+
+
+## Lokalarkivets samtidshistoriske familiekilde
+
+Nordlangelands Lokalarkivs register over *Øboer* 2011 beskriver Lisbeth Skovs artikel **"Langø og dæmningen"**. Registeret anfører, at Marius Christensen og Ane Marie købte Langø i 1894; at Marius med hjælp fra sønner og svigersøn byggede den 334 meter lange dæmning i 1911; at Ane Marie døde i 1930, Marius i 1934; og at børnene rejste en mindesten over dem i 1934. Det er en nyttig lokalhistorisk sekundær kilde til familiens liv på Langø, men ikke i sig selv dokumentation for udvandring blandt børnene. Selve artiklen i *Øboer* 2011, side 85–96, bør fremskaffes og gennemgås med sidetal.
