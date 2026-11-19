@@ -198,6 +198,7 @@ def build():
     # Validate all references so no orphaned or private person can leak onto the public map.
     public_people = {str(meta["id"]): meta for meta, _body, _path in people_records if not is_private(meta)}
     claim_index = {str(item["id"]): item for item in claims}
+    source_index = {str(meta["id"]): meta for meta, _body, _path in source_records}
     migration_events = []
     allowed_event_types = {
         "contract_destination",
@@ -224,6 +225,15 @@ def build():
         if not (-90 <= lat <= 90 and -180 <= lon <= 180):
             raise SystemExit(f"Migration event {event['id']} has coordinates outside valid ranges")
         event = dict(event)
+        source_ids = [str(value) for value in (event.get("source_ids") or [])]
+        missing_sources = [value for value in source_ids if value not in source_index]
+        if missing_sources:
+            raise SystemExit(f"Migration event {event['id']} references missing source records: {', '.join(missing_sources)}")
+        event["source_ids"] = source_ids
+        event["source_titles"] = [
+            str(source_index[value].get("label") or source_index[value].get("title") or value)
+            for value in source_ids
+        ]
         event["person_name"] = str(public_people[person_id].get("name") or person_id)
         event["claim_title"] = str(claim_index[claim_id].get("title") or claim_id)
         migration_events.append(event)
