@@ -16,7 +16,9 @@ sources:
 
 *Kancelliets Brevbøger* for 1657 nævner Knud Giedde i tre kongelige skrivelser: han skulle hverve 50 mænd i Lund; Ove Giedde modtog brev om Knud under sit kompagni; og Knud fik 6–8 ugers orlov til at rejse til Norge ved sin søsters begravelse.
 
-Det er første konkrete, samtidige arkivspor fundet her, som kan forbindes med den Major Knud Giedde, der optræder i den senere officerfamilies slægtshistorie. Identiteten er endnu ikke bevist. Især søsteren i Norge er en ny, unik søgenøgle.
+Det er et konkret, samtidigt arkivspor til **Knud Giedde, søn af Ove Giedde (d.1707)**: 1657-brevet omtaler ham under Oves kompagni, og en biografisk reference identificerer Oves søn Knud som død i 1707. Hans orlov til Norge for søsterens begravelse 26. marts 1657 matcher meget præcist **Regitze Ovesdatter Giedde**, som døde i Bergen 1. marts 1657. Brevet navngiver ikke søsteren, så identifikationen er meget stærk, men indirekte.
+
+Denne Knud skal holdes adskilt fra Major Knud Giedde (d.1658) i officerfamilien, som senere genealogier nævner. Det er sandsynligvis to forskellige personer.
 
 ## Christian Gedde før Samuel Christopher
 
@@ -48,7 +50,7 @@ Det er et vigtigt gennembrud i kildekritikken: den tilsyneladende middelalderlig
 
 Den dokumenterede Gedde-officerlinje kan føres tilbage til Samuel Christopher (1691) og sandsynligvis hans far Christian (ca.1639/1646/1648). En Major Knud Giedde er nævnt i senere genealogier, og en Knud Giedde er dokumenteret i kongelige militærskrivelser i 1657. Det er en reel, konkret vej til at undersøge generationen før 1691.
 
-**Der er derimod ikke grundlag for at føre slægten til Ove Giedde, Nils Gädda ca.1370 eller den middelalderlige adelsslægt.** Den direkte nevø-påstand blev allerede afvist i 1894, og den moderne faglige vurdering er, at familierne sandsynligvis er forskellige.
+**Der er derimod ikke grundlag for at føre slægten til Ove Giedde, Nils Gädda ca.1370 eller den middelalderlige adelsslægt.** Den direkte nevø-påstand blev allerede afvist i 1894, og den moderne faglige vurdering er, at familierne sandsynligvis er forskellige. Den nye 1657-identifikation vedrører Oves egen søn Knud og hans søster Regitze — en collateral adelsgren, ikke en dokumenteret forfaderlinje til den borgerlige Gedde-officerslægt.
 
 ## Næste handlinger
 

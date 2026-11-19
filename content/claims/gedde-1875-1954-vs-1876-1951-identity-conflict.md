@@ -101,3 +101,18 @@ A. Kann Rasmussen, *Danske i Siam 1858–1942* (1986), trykt s. 135, identificer
 Sammenholdt med 1944-fortegnelsens Emil Ludvig Eduard Gedde, født 15.11.1875 på Tyrstinggaard og omtalt som søn af “Forp. E.G.”, er **Edvard Hammer Gedde en stærk faderkandidat**. Initialerne, efternavnet, forpagterrollen og Tyrstinggaard i 1875 passer sammen. Dette kan også placere Emil i samme børneflok som Vilhelm og Oluf Christian.
 
 **Men:** Ingen af de fundne trykte kilder siger direkte, at Emil er søn af Edvard Hammer Gedde. Vi opretter derfor ikke faderskab eller søskenderelationer endnu. Den afgørende kilde er Tyrsting kirkebogs fødselsindførsel for 15. november 1875. Se særskilt kildepost om Edvard Hammer Gedde som faderkandidat.
+
+
+## Ny vurdering efter sammenfald med de allerede registrerede forældre
+
+Den eksisterende personpost `s_p54_3` angiver allerede **Edvard Hammer Gedde (p54)** og **Vitta Ludvigsen (p55)** som Emil Ludvig Edvard Geddes forældre. Dette er afgørende nyt i vurderingen:
+
+1. 1944-fortegnelsen siger, at Emil Ludvig Eduard Gedde er født 15.11.1875 på Tyrstinggaard og er “S. a. Forp. E.G.” — søn af forpagter E. Gedde.
+2. Trap 1926 dokumenterer en forpagter “E. H. Gedde paa Tyrstinggd.” i 1875.
+3. *Danske i Siam* (1986) identificerer Edvard Hammer Gedde (1845–1925) og Vitta Dorthea Henriette Mathilde Ludvigsen (1847–1927) som forældre til Vilhelm Gedde (født 1878) og Oluf Christian Kleist Gedde (født 1879), begge på Provstlund.
+4. Det eksisterende familiedossier placerer Emil som søn af netop Edvard Hammer og Vitta, og hans udvandring i 1922 passer kronologisk med 1944-biografiens oplysning om plantageejerskab i Argentina fra 1923.
+5. 1955-fortegnelsens dødsdato 19.07.1954 matches præcist af dødsnotitsen fra 1956 for “Gedde, Eduard, Plantageejer, Eldorado, Missiones, 19.7.”
+
+**Vurderingsskift:** Det er nu væsentligt mere sandsynligt, at de tre trykte kilder beskriver den samme Emil, som allerede findes i træet, og at familiens fødselsår 1876 og dødsår 1951 er forkerte eller forskudt. Muligheden for to personer er ikke helt udelukket, men den er nu en sekundær forklaring. De fælles forældre, fødselsstedet, forpagtersporet og Argentina-kronologien gør identiteten stærk.
+
+**Disposition:** Bevar stadig de eksisterende datoer 15.11.1876 og 1951, indtil den originale Tyrsting-kirkebog og argentinske dødsakt er kontrolleret. Men arbejdshypotesen opgraderes til: *meget sandsynligt samme person; fødsels- og dødsår i familieoptegnelsen sandsynligvis fejlbehæftede*. Ingen relationer ændres.

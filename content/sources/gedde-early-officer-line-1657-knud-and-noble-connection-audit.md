@@ -19,7 +19,7 @@ The published calendar *Kancelliets Brevbøger vedrørende Danmarks indre forhol
 - **16 February 1657:** Ove Giedde receives a letter concerning Knud Giedde serving under his company and the prescribed horses for the clergy and bailiff in Ove's fief.
 - **26 March 1657:** Knud Giedde is granted six to eight weeks' leave to travel to Norway for his sister's funeral.
 
-The printed calendar cites original Chancellery/Skånske Tegnelser references. The 26 March entry is especially distinctive: it establishes a named sister in Norway, although it does not name her. The 1657 Knud is a candidate for the Major Knud in later family genealogies, but the rank and identity match are not proven.
+The printed calendar cites original Chancellery/Skånske Tegnelser references. The 26 March entry is especially distinctive: it establishes a named sister in Norway, although it does not name her. The 1657 Knud is very likely **Knud Giedde, son of Ove Giedde, who died in 1707**, rather than the separate Major Knud (d.1658) in the later officer-family genealogy. The 26 March leave for his sister's funeral is a striking match for **Regitze Ovesdatter Giedde**, daughter of Ove and Dorthe Urne, who is independently recorded as dying in Bergen on 1 March 1657. The Chancellery letter does not name the sister, so this is a high-confidence identification by date, place and family structure, not a literal naming in the letter.
 
 Source: https://da.wikisource.org/wiki/Kancelliets_Brevb%C3%B8ger_vedr%C3%B8rende_Danmarks_indre_forhold._I_uddrag._(1657)
 
@@ -47,7 +47,7 @@ Source: https://runeberg.org/adelaarbog/1894/0167.html
 
 A separate Knud must not be confused with either of these men: the Riksarkivaren biographical dictionary *Eneveldets menn i Norge* (2000), p. 175, identifies Knud Giedde (d. 1707) as a son of Ove Giedde and an amtmann in Nordland and Vardøhus. This is a distinct person from a putative Major Knud d. 1658.
 
-The 1928 *Personalhistorisk Tidsskrift* list of Padua students also distinguishes Knud Giedde of Vadskærgaard (d. 1707) from Christoffer Giedde of Gundestrup (1637–1705), identified as a major. These repeated names and titles make identity conflation a serious risk.
+The 1928 *Personalhistorisk Tidsskrift* list of Padua students also distinguishes Knud Giedde of Vadskærgaard (d.1707) from Christoffer Giedde of Gundestrup (1637–1705), identified as a major. The 1657 Knud is a strong candidate for the former, not the separate Major Knud d.1658 in the officer-family account. These repeated names and titles make identity conflation a serious risk.
 
 ## 4. Modern expert assessment and the 1950 Brenner pedigree
 
@@ -63,7 +63,7 @@ https://ove-gedde.blogspot.com/2013/05/ove-geddes-dorthe-urnes-children.html
 
 - The direct officer-family line through Samuel Christopher and Hans Christopher is supported by separate biographical and cartographic sources.
 - Christian Gedde is a strong candidate for the earlier direct ancestor; his dates and parentage are conflicting.
-- A Knud Giedde was demonstrably active in royal military administration in 1657 and travelled to Norway for his sister's funeral. Whether he is the Major Knud of the Gedde family tradition remains to be proven.
+- A Knud Giedde was demonstrably active in royal military administration in 1657 and travelled to Norway for his sister's funeral. Cross-referencing his service under Ove Giedde with the 1707 biography of Ove's son Knud strongly identifies him as that son; the sister is very likely Regitze Ovesdatter Gedde, who died in Bergen on 1 March 1657.
 - The claimed nephew relationship between Christian Gedde and Ove Giedde was explicitly rejected in *Danmarks Adels Aarbog* (1894); the modern SNL assessment also says the families are probably unrelated.
 - The 1950 Personalhistorisk Institut tree is not admissible as proof of medieval descent without independent original sources.
 
@@ -71,6 +71,6 @@ https://ove-gedde.blogspot.com/2013/05/ove-geddes-dorthe-urnes-children.html
 
 1. Retrieve and transcribe the FamilySearch Stambog image (image 24, collection reference above) to verify Christian's age, origin, marital status, children and father.
 2. Retrieve the original Skånske Tegnelser records cited by the 1657 Chancellery calendar (references around volumes 9, folios 11, 22 and 30); establish Knud's rank, command and patronymic.
-3. Identify the sister whose funeral took Knud to Norway in March 1657 through Norwegian probate, church, estate and family records.
+3. Verify the sister's identity as Regitze Ovesdatter Giedde through Bergen burial, probate and Ove Bjelke family records; the 1 March 1657 death date matches the 26 March leave notice.
 4. Verify the death date of Ove Giedde's elder brother Knud in the original *Danmarks Adels Aarbog* 1894, p. 124, and compare with the Major Knud claim in *Norske Slægter* 1912, p. 128.
 5. Obtain the original 1950 Brenner family tree and H.H. Worsøe letter to Carlo Octavius Gede, if extant, and document exactly which generations were inserted or conflated.
