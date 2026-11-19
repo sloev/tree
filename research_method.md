@@ -85,3 +85,15 @@ Buildet må ikke importere eller kalde en separat statisk sidegenerator. Kontrol
 
 ## Capture er først DONE når
 Capture er klassificeret, arkiveret lokalt eller dokumenteret utilgængelig; original placering og adgangsdato er gemt; source + claims er opdateret; relevante personer/steder/billeder er knyttet; links er kontrolleret; leads og coop.log er opdateret.
+
+
+## 6. Migrationskort og geografiske hændelser
+
+- Den kanoniske migrationskilde er `content/migrations/migration-events.md` med schema `migration-events/v1`. Kortgeometrien i `content/maps/denmark.md` forbliver én separat `map/v1`-post; migrationshændelser må ikke lægges ind som ekstra geometri-records.
+- Hver hændelse skal have stabilt ID, person-ID, claim-ID, hændelsestype, sted/land, koordinater, evidenslabel, identitetsstatus, forklaring og provenance. Kildeposter angives med `source_ids`, når de findes; personpostens kildereferencer eller præcis claim-reference angives ellers i `source_reference`.
+- Hold mindst disse typer adskilt: kontraktens rejsemål, transskriberet protokolreference, dokumenteret afrejse, dokumenteret ankomst, senere bopæl/bosættelse, identifikationshypotese og arkivsøgeområde. Et kontraktmål er ikke bevis for faktisk ankomst; et havneanløb er ikke bevis for landgang eller familieforhold.
+- Tegn aldrig en rute alene ud fra et mål eller et forskningsspor. En rute kræver en dokumenteret afrejse og en særskilt dokumenteret ankomst, knyttet til samme person og rejseforløb. Hvis kun ét punkt er belagt, vis kun punktet og dets evidenslabel.
+- Arkivsøgeområder (fx Rio de Janeiro, Santos og São Paulo i Brasilien) vises med særskilt symbol og må aldrig fremstilles som personens destination eller ophold.
+- Koordinater er omtrentlige by-/områdereferencer, medmindre en præcis historisk adresse er dokumenteret. Vis koordinatforbeholdet i data og UI.
+- Langelands lokale afgangslisteoptællinger uden navne vises som lokale arkivspor, ikke som personhændelser eller oversøiske rejser. De må først forbindes med en person efter kontrol af den originale kirkebogsindførsel.
+- Nye poster skal automatisk indgå i den fælles `#kort`-visning via compilerlaget. Ingen hardcodede destinationslister i HTML-skabelonen.
