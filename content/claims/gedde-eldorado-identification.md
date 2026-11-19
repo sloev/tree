@@ -72,3 +72,8 @@ Club Argentino Danés' historie fortæller, at Eduardo Gedde havde ansvar for de
 Trap Danmark (1926) oplyser, at forpagter **E. H. Gedde** var på Tyrstinggaard i 1875. 1918-fortegnelsen angiver Eduard som søn af “Forp. E. G.” og født på Tyrstinggaard i 1875. Dette er en stærk kandidat til at forbinde den biografiske Eduard med Edvard Hammer Gedde, som er den foreslåede far i den eksisterende familietradition. Men fuldt navn og faderskab er ikke udtrykkeligt bevist i de to trykte kilder. Tyrsting kirkebog og folketællingen 1880 skal afgøre det.
 
 1911-udgaven angiver fødselsdagen som 13.11.1875, mens 1918-, 1944- og 1955-udgaverne angiver 15.11.1875. 1918-udgaven henviser til Landbohøjskolens protokoller for fødselsoplysninger, men original kirkebog skal stadig ses. Ingen personposter eller slægtskabsrelationer er ændret.
+
+
+## Datokorrektion: den anden notits står i 6. februar-udgaven, ikke 18. januar
+
+Kontrol af avisens masthead viser, at den anden notits er i *The Herald*, **Vol. VII, No. 76, mandag 6. februar 1922**. Notitsen om pakken tabt mellem Diamond School og Kingshill beder finderen kontakte “MR. CEDDE, Slob Experimental Station”. Datoen “January 18th, 1922”, som står længere nede på samme side, hører til en separat “To Let”-annonce og må ikke bruges som avisens dato. Den første notits står i *The Herald* torsdag 12. januar 1922 og læser tydeligt “MR. GEDDE”. Korrekt tidslinje er derfor 12. januar (GEDDE) og 6. februar (CEDDE); OCR-navnevarianten skal fortsat kontrolleres i billedet.

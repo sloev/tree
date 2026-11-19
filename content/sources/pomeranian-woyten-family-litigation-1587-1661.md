@@ -64,3 +64,39 @@ Arkivet oplyser, at en formel kwerende- eller reproduktionsbestilling kræver en
 Den mest præcise forespørgsel er at bede om de 13 aktuelle signaturer under Pawliks overskrift "WOITEN (Wojiten, Woyten), 13 j.a., 1587–1676", med særlig vægt på Martin Woitten mod Tobias (1587) og Wolfgang Woiten mod Conrad/Jakob (1595), samt at spørge om 65/6/0/20/1924 (1661) indgår i gruppen. Bed samtidig om muligheden for digitale reproduktioner eller læsesalsadgang og om dokumenterne opbevares i Szczecin eller Stargard.
 
 **Status:** Kontakt og bestillingskrav verificeret på arkivets officielle hjemmeside; ingen forespørgsel er sendt.
+
+
+## Otte konkrete arkivsignaturer fra den aktuelle registratur
+
+En gennemgang af den officielle serieliste **65/7/0/20.13** har nu identificeret otte enheder fra Woyte/Woite-familien:
+
+| Signatur | Datering | Registraturens sagsbeskrivelse |
+|---|---:|---|
+| 65/7/0/20.13/8414 | 1587 | Jürgen og Bartholomeus die Woiten mod Claus Zitzevitz, gæld |
+| 65/7/0/20.13/8415 | 1589 | Martin Woite mod Tobias Woiten, om len |
+| 65/7/0/20.13/8416 | 1591 | Curd Woite mod sine brødre |
+| **65/7/0/20.13/8417** | **1593–1599** | **Curt Woite mod sin tante, enken efter Benedict Woite i Vessin, om arv** |
+| 65/7/0/20.13/8418 | 1594–1600 | Martin Woyte mod Valtin von der Osten |
+| 65/7/0/20.13/8419 | 1594–1600 | Jacob Woite mod Curd og Wolff Woite, om ødelæggelse af tømmer |
+| 65/7/0/20.13/8420 | 1596–1598 | Wolff Woite mod Curd Woiten, regnskab og deling af gods |
+| 65/7/0/20.13/8421 | 1597 | Wolff Woite mod Curd Woiten, 30 taler |
+
+[Officiel serieliste, siderne med signatur 8414–8421](https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=53&_Seria_delta=20&_Seria_id_serii=550749&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal)
+
+### Den vigtigste enhed: 8417
+
+Katalogets beskrivelse af **65/7/0/20.13/8417 (1593–1599)** lyder:
+
+> "[Michael v. Klemptzen, Johann Colrepius vnd Wolf Puttkamer schutzen auf Wunsch des Curt Woite seinen beesitz ab Bertelmes Stojentin in Gieselitz contra seine Tante, die Witwe des Benedict Woite in Vessin wegen einer Erbschafft]"
+
+Registraturen identificerer dermed Benedict Woite fra Vessin, hans enke og Curt Woite, der omtales som hendes nevø, i en arvesag. Det er den hidtil stærkeste samtidige arkivregistratur for Benedicts familie. Enken kan være Elisabeth von Stojentin, som de genealogiske kilder angiver som Benedicts hustru, men det er ikke bevist, før akten er læst. Originalen kan muligvis identificere Curt Woites far, Benedicts søskende, arvingerne og de konkrete len.
+
+[Officiel arkivpost 8417](https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/20944619). Kataloget viser ingen scanninger.
+
+### Datoafvigelse i forhold til Pawlik 2016
+
+Pawliks artikel fra 2016 omtaler Martin Woitten mod Tobias i 1587 og Wolfgang Woiten mod brødrene Conrad og Jakob i 1595. Den aktuelle online-registratur daterer Martin–Tobias-sagen til **1589** (8415) og beskriver Jacob/Wolff/Curd-sager fra **1594–1598** (8419–8421). Det kan være de samme sager gengivet med forskellige datoer eller navne, eller Pawlik kan have omtalt yderligere enheder. De må ikke sammenblandes, før originalerne og de gamle signaturer er kontrolleret.
+
+Pawlik oplyser 13 WOITEN-enheder fra 1587–1676; otte konkrete enheder er nu identificeret i 65/7/0/20.13. De resterende fem skal fortsat findes og afstemmes med artiklen. Den tidligere nævnte 1661-post **65/6/0/20/1924** ligger i en anden arkivfond og er ikke bekræftet som en af de 13.
+
+**Bestillingsprioritet:** 8417 først, dernæst 8415–8416 og 8418–8421. Bed arkivet om at identificere de resterende fem WOITEN-enheder og forklare afvigelsen mellem Pawliks artikel og den aktuelle registratur. Ingen af de otte originalakter er endnu gennemset.

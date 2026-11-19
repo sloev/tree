@@ -89,3 +89,8 @@ Trap Danmark (1926) omtaler **forpagter E. H. Gedde på Tyrstinggaard** i 1875. 
 ## Arkivmål opgraderet
 
 Ud over Rigsarkivets serie “Landbrugsforsøgsstationen på Skt. Croix (1907–1917)” er der nu en konkret forespørgsel til Ordenskapitlet om ordensprotokollen for Eduard Geddes udnævnelse 2. maj 1953. Kongehuset oplyser, at de oprindelige ordensprotokoller fra 1808 og frem er bevaret. Da udenlandske modtagere ikke nødvendigvis blev bedt om levnedsbeskrivelser, skal en sådan selvbiografi ikke forudsættes.
+
+
+## Datokorrektion: den anden notits står i 6. februar-udgaven, ikke 18. januar
+
+Kontrol af avisens masthead viser, at den anden notits er i *The Herald*, **Vol. VII, No. 76, mandag 6. februar 1922**. Notitsen om pakken tabt mellem Diamond School og Kingshill beder finderen kontakte “MR. CEDDE, Slob Experimental Station”. Datoen “January 18th, 1922”, som står længere nede på samme side, hører til en separat “To Let”-annonce og må ikke bruges som avisens dato. Den første notits står i *The Herald* torsdag 12. januar 1922 og læser tydeligt “MR. GEDDE”. Korrekt tidslinje er derfor 12. januar (GEDDE) og 6. februar (CEDDE); OCR-navnevarianten skal fortsat kontrolleres i billedet.

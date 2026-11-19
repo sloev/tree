@@ -157,3 +157,25 @@ Dette kan være et konkret hjælpemiddel til at lokalisere Christoph Kiels afskr
 Bed bibliotekets Dr Janina Kosman om at søge i 65/16/0/60/405 efter Bolduan, Kiel, Kleist, Winther, *Schema amplissimae* og *Genealogia Kleistorum*, og oplyse sidetal, nuværende signatur og reproduktionsmuligheder. Mikrofilm 65/32404 N er en alternativ adgangsvej. [Officiel arkivpost](https://www.szukajwarchiwach.gov.pl/de/jednostka/-/jednostka/7907382).
 
 **Status:** Katalog identificeret; dets indhold er ikke gennemgået, og Kiel-afskriftens placering er fortsat uafklaret.
+
+
+## Første konkrete Woyten-akt om Benedictus' enke: 1593–1599
+
+Den officielle arkivregistratur i Szczecin har nu identificeret **65/7/0/20.13/8417 (1593–1599)**. Sagsbeskrivelsen nævner Curt Woite i en arvesag mod "seine Tante, die Witwe des Benedict Woite in Vessin" — hans tante, enken efter Benedict Woite i Vessin. Michael von Klemptzen, Johann Colrepius og Wolf Puttkamer optræder som beskyttere/partsrepræsentanter for Curt Woites besiddelse.
+
+Dette er en direkte samtidig registraturoplysning om Benedict Woite fra Vessin, hans enke og en nevø ved navn Curt Woite. Enken kan være Elisabeth von Stojentin, som de genealogiske kilder angiver som Benedicts hustru, men det kræver originalakten at bekræfte. Akten kan muligvis navngive Curt Woites far, Benedicts søskende, arvingerne og de omtvistede len.
+
+Yderligere enheder i samme subserie 65/7/0/20.13:
+- 8414 (1587): Jürgen og Bartholomeus die Woiten mod Claus Zitzevitz, gæld.
+- 8415 (1589): Martin Woite mod Tobias Woiten, om len.
+- 8416 (1591): Curd Woite mod sine brødre.
+- 8418 (1594–1600): Martin Woyte mod Valtin von der Osten.
+- 8419 (1594–1600): Jacob Woite mod Curd og Wolff Woite, om tømmer.
+- 8420 (1596–1598): Wolff Woite mod Curd Woiten, regnskab og deling af gods.
+- 8421 (1597): Wolff Woite mod Curd Woiten, 30 taler.
+
+Der er en dato-/navneafvigelse mellem Pawliks 2016-artikel (Martin–Tobias 1587; Wolfgang–brødrene Conrad/Jakob 1595) og den aktuelle registratur (Martin–Tobias 1589; Jacob/Wolff/Curd-sager 1594–1598). De kan være samme sager med forskellige katalogbeskrivelser, eller Pawlik kan have omtalt andre enheder. Det skal afklares i originalerne. Pawliks 13 WOITEN-enheder fra 1587–1676 er endnu ikke fuldt afstemt; otte konkrete enheder er nu identificeret. Den tidligere 1661-post 65/6/0/20/1924 er i en anden arkivfond og må ikke automatisk regnes blandt de 13.
+
+[Officiel serieliste 8414–8421](https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=53&_Seria_delta=20&_Seria_id_serii=550749&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal) · [Arkivpost 8417](https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/20944619).
+
+**Bestilling:** 8417 først; derefter 8415–8416 og 8418–8421. Ingen af originalakterne er endnu gennemset. Ingen personrelationer eller livsdatoer er ændret i træet.
