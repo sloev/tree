@@ -16,6 +16,7 @@ sources:
   - "Link-Lives: https://link-lives.dk/soeg/pa/12-4983047"
   - "Link-Lives: https://link-lives.dk/soeg/pa/12-4983393"
   - "Rigsarkivet: https://www.rigsarkivet.dk/vejledning/fra-dansk-demografisk-database-til-soeg-i-samlingerne/"
+  - "fyens-historien-om-en-daemning-2011"
   - "Dansk Demografisk Database: https://ddd.dda.dk/vejlelister/soeg_udvandrede.asp"
 ---
 
