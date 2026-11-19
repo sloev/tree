@@ -1,7 +1,7 @@
 ---
 slug: kleist-slaegten-i-pommern
 line: gedde
-title: Kleist-slægten i Pommern: dokumenter og tradition
+title: "Kleist-slægten i Pommern: dokumenter og tradition"
 people: [p3472, p1736]
 sort: 11
 ---
