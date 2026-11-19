@@ -72,3 +72,21 @@ CEEL-kopien fra 2012 viser “GEDDE EDUARDO A.” som medlem nr. 64, registreret
 4. Find grav- eller dødsoplysninger for Emil/Eduard i Eldorado og Misiones.
 
 **Foreløbig konklusion:** Emil Ludvig Eduard Gedde (1875–?) er nu stærkt identificeret som den danske agronom, der arbejdede på St. Croix og blev plantageejer og fremtrædende foreningsperson i Eldorado. Hans identitet som Eduardo fra 1932 er meget sandsynlig; CEEL-medlem nr. 64 er fortsat en kandidat; faderskab til Ejler er uafklaret.
+
+
+## Dødsdato nu dokumenteret: 19. juli 1954
+
+En anden, senere udgave af *Danske Landbrugskandidater* giver nu en eksplicit dødsdato. 1955-udgaven, trykt s. 90, nr. 711, anfører **Gedde, Emil Ludvig Eduard**, født 15. november 1875, landbrugskandidat 1896, **død 19. juli 1954**: https://slaegtsbibliotek.dk/931323.pdf.
+
+Forordet (s. 1–2) forklarer, at afdøde kandidater i denne udgave kun blev opført med navn, fødselsdag, dimissionsår og dødsdag. Kilden bekræfter derfor datoen, men ikke dødssted eller begravelsessted.
+
+Den samlede biografiske livsramme er nu **15.11.1875–19.07.1954**. Sammen med 1944-udgavens karriereoplysninger er dette et usædvanligt godt dokumenteret livsforløb for den argentinske Gedde-pioner. Dødsstedet bør stadig søges i Eldorados kirkegårds-/menighedsarkiv, argentinske civilregistre og eventuelle danske skifte-/dødsregistre.
+
+
+## Uafhængig dødsnotits: Eduard Gedde, plantageejer i Eldorado, 19. juli 1954
+
+En tredje kilde giver en bemærkelsesværdig krydskontrol. Niels Friis' *Dødsfald i Danmark i Aaret 1954*, tillæg til *Personalhistorisk Tidsskrift*, 76. årgang (1956), trykt s. 14, har posten: **“Gedde, Eduard, Plantageejer, Eldorado, Missiones, 19.7.”** Kilden er en dødsfaldsfortegnelse og anfører både erhverv, Eldorado/Misiones og datoen 19. juli. <Cite refs={["turn262941view0","turn468917view0"]} />
+
+Sammenholdt med 1944-biografien (fuldt navn Emil Ludvig Eduard Gedde, plantageejer i Argentina fra 1923) og 1955-fortegnelsen (fuldt navn, født 15.11.1875, død 19.07.1954) er identifikationen nu **meget stærk**: tre forskellige trykte kilder forbinder den fulde danske agronom med plantageejeren Eduard Gedde i Eldorado og den præcise dødsdato.
+
+Det er vigtigt at skelne mellem bopæl og dødssted: 1956-listen angiver Eldorado, Misiones, som hans stedlige tilknytning, men vi har endnu ikke en argentinsk civil dødsakt, der beviser, at selve dødsfaldet fandt sted dér. Begravelsessted og dødssted er fortsat åbne spørgsmål.
