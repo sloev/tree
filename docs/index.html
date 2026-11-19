@@ -6,6 +6,9 @@
 <title>Slægten Gårdsted og Gedde</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <style>
 /* Layout: en kirkebog som protokol. Faner øverst, ét emne ad gangen; personkortet glider ind fra højre (bundark på telefon). */
 :root{
@@ -162,6 +165,12 @@ button.linkish:focus-visible{outline:2px solid var(--accent)}
 .mapsvg .sea{fill:var(--sheet)}
 .world-land{fill:var(--paper);stroke:var(--rule-2);stroke-width:1.1;stroke-linejoin:round;vector-effect:non-scaling-stroke}
 .mapsvg .land.langeland{fill:var(--paper);stroke:var(--rule-2);stroke-width:1.15;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+
+.leaflet-map{width:100%;border:1px solid var(--rule);border-radius:9px;background:var(--sheet);z-index:0;min-height:280px}
+.leaflet-container{font:inherit;background:var(--sheet)}
+.place-pin{border-radius:50%;border:2px solid var(--sheet);box-shadow:0 1px 4px rgba(0,0,0,.35)}
+.route-line{stroke-opacity:.75}
+
 #worldmap{display:block;width:100%;height:auto;min-height:300px;max-height:none;aspect-ratio:2.05/1;background:var(--sheet);border:1px solid var(--rule);border-radius:9px}
 #langeland-map{display:block;width:100%;max-height:560px}
 #worldmap [data-claim-id]{cursor:pointer;stroke:var(--sheet);stroke-width:2.5}
@@ -507,12 +516,12 @@ body:not(.show-uncertain) .ft-item.uncertain>.ft-line{display:none}
   <div class="sec-head"><span class="eyebrow">Steder</span><h2>Hvor de levede</h2>
     <p class="muted">Alle fødsler, dødsfald og kendte bopæle sat på kortet. Linjerne går fra hver anes fødested til dødssted. Farfars slægt blev i to hundrede år inden for 25 km fra Kolind, og farmors kom fra hedesognene ved Herning og Varde. Morfars side spreder sig fra Flensborg Fjord til Nordsjælland, og mormors side er Sydlangeland. Klik på et sted for at se, hvem der hørte til der.</p></div>
   <div class="two">
-    <div class="panel"><svg id="map" class="mapsvg" role="img" aria-label="Kort over slægtens steder"></svg></div>
+    <div class="panel"><div id="denmark-map" class="leaflet-map" style="height:min(480px,60vh)" role="img" aria-label="Kort over slægtens steder"></div></div>
     <div style="display:flex;flex-direction:column;gap:24px;min-width:0">
-      <div class="panel"><h3>Djursland og Mols, forstørret</h3><svg id="inset" class="mapsvg" role="img" aria-label="Forstørret kort over Djursland"></svg></div>
-      <div class="panel"><h3>Langeland, forstørret</h3><p class="muted" style="font-size:.82rem">Fødesteder, dødssteder og registrerede ophold på øen. Klik på et punkt for at se personerne og hændelserne. De særskilte afgangsliste-spor nedenfor er endnu ikke knyttet til navngivne personer.</p><svg id="langeland-map" class="mapsvg" style="display:block;width:auto;height:min(72vh,640px);max-width:100%;margin:0 auto" role="img" aria-label="Forstørret kort over Langeland og slægtens steder"></svg><div class="place-detail" id="langeland-summary"></div><div class="place-detail" id="langeland-notes"></div></div>
+      <div class="panel"><h3>Djursland og Mols, forstørret</h3><div id="inset" class="leaflet-map" style="height:220px" role="img" aria-label="Indsatskort"></div></div>
+      <div class="panel"><h3>Langeland, forstørret</h3><p class="muted" style="font-size:.82rem">Fødesteder, dødssteder og registrerede ophold på øen. Klik på et punkt for at se personerne og hændelserne. De særskilte afgangsliste-spor nedenfor er endnu ikke knyttet til navngivne personer.</p><div id="langeland-map" class="leaflet-map" style="height:min(640px,72vh)" role="img" aria-label="Forstørret kort over Langeland og slægtens steder"></div><div class="place-detail" id="langeland-summary"></div><div class="place-detail" id="langeland-notes"></div></div>
       <div class="panel"><h3 id="pd-title">Steder efter antal hændelser</h3><div class="place-detail" id="placedetail" hidden></div><div class="placelist" id="placelist"></div></div>
-      <div class="panel"><h3>Oversøiske migrations- og forskningsspor</h3><p class="muted" style="font-size:.82rem">Kortet samler kildehenviste personspor og særskilte arkivsøgeområder. Et kontraktmål er ikke det samme som dokumenteret ankomst; en identifikationshypotese er ikke en bekræftet bosættelse. Brasilien vises kun som arkivsøgeområde for Lorenz — ingen rejse dertil er dokumenteret. Der tegnes ingen ruter uden både dokumenteret afrejse og ankomst.</p><svg id="worldmap" class="mapsvg" role="img" aria-label="Verdenskort med dokumentationsspor, hypoteser og arkivsøgeområder"></svg><ul class="links" id="migration-list" style="columns:1"></ul><p class="muted" style="font-size:.78rem">Punktform og tekst angiver evidenstypen. Klik på et punkt eller en post for at åbne det tilknyttede forskningsspor.</p></div>
+      <div class="panel"><h3>Oversøiske migrations- og forskningsspor</h3><p class="muted" style="font-size:.82rem">Kortet samler kildehenviste personspor og særskilte arkivsøgeområder. Et kontraktmål er ikke det samme som dokumenteret ankomst; en identifikationshypotese er ikke en bekræftet bosættelse. Brasilien vises kun som arkivsøgeområde for Lorenz — ingen rejse dertil er dokumenteret. Der tegnes ingen ruter uden både dokumenteret afrejse og ankomst.</p><div id="worldmap" class="leaflet-map" style="height:min(420px,55vh)" role="img" aria-label="Verdenskort med dokumentationsspor, hypoteser og arkivsøgeområder"></div><ul class="links" id="migration-list" style="columns:1"></ul><p class="muted" style="font-size:.78rem">Punktform og tekst angiver evidenstypen. Klik på et punkt eller en post for at åbne det tilknyttede forskningsspor.</p></div>
     </div>
   </div>
 </section>
@@ -1029,105 +1038,176 @@ function renderKort(){
     const detail=(DATA.place_details||[]).find(x=>x.name===pl); d.innerHTML=`<span class="muted">${esc(DATA.places[pl]?.[2]||detail?.meta?.region||"Sted")} · ${ev[pl].length} hændelser</span>`+(detail?.body?`<p style="white-space:pre-wrap">${esc(detail.body)}</p>`:"")+`<a class="linkish" href="${esc(DATA.place_urls?.[pl]||"#")}">Permanent link ↗</a>`+ev[pl].map(e=>`<span>${personLink(e.p)} <span class="muted">${esc(e.what)}</span></span>`).join('')+`<button class="linkish" id="pd-all" style="margin-top:6px">Vis alle steder</button>`;
     wire(d); document.getElementById('pd-all').addEventListener('click',()=>{d.hidden=true;document.getElementById('pd-title').textContent='Steder efter antal hændelser';}); }
   window.__showPlaceRecord=(id)=>{const rec=(DATA.place_details||[]).find(x=>x.id===String(id));if(rec)showPlace(rec.name);};
-  function drawMap(svg, vb, labelFor, onlyPlaces=null){
-    const s = MAP.W / vb[2];
-    svg.setAttribute('viewBox', vb.join(' '));
-    el('rect',{x:vb[0],y:vb[1],width:vb[2],height:vb[3],class:'sea'},svg);
-    [['de',''],['se',''],['dk',' dk']].forEach(([k,c])=>el('path',{d:MAP[k],class:'land'+c,style:`stroke-width:${.8/s}px`},svg));
-    // Langeland coastline (geographic outline) is drawn independently of the generalized Denmark mainland path.
-    const langelandCoast=[[55.13,10.89],[55.11,10.91],[55.08,10.92],[55.05,10.91],[55.02,10.90],[54.99,10.89],[54.96,10.88],[54.93,10.87],[54.90,10.86],[54.87,10.85],[54.84,10.84],[54.81,10.83],[54.78,10.82],[54.75,10.80],[54.72,10.78],[54.70,10.75],[54.70,10.71],[54.72,10.68],[54.75,10.66],[54.78,10.64],[54.81,10.62],[54.84,10.60],[54.87,10.59],[54.90,10.58],[54.93,10.57],[54.96,10.57],[54.99,10.58],[55.02,10.60],[55.05,10.62],[55.08,10.65],[55.11,10.69],[55.13,10.74],[55.14,10.80],[55.13,10.85],[55.13,10.89]];
-    const islandPath=langelandCoast.map(([lat,lon],i)=>{const [x,y]=prj(lat,lon);return `${i?'L':'M'}${x},${y}`;}).join(' ')+'Z';
-    el('path',{d:islandPath,class:'land langeland'},svg);
-    const routes=el('g',{},svg);
-    anc.forEach(p=>{ const a=DATA.places[p.bplace], b=DATA.places[p.dplace]; if(!a||!b||p.bplace===p.dplace) return;
-      const [x1,y1]=prj(a[0],a[1]), [x2,y2]=prj(b[0],b[1]); const mx=(x1+x2)/2+(y2-y1)*.18, my=(y1+y2)/2-(x2-x1)*.18;
-      el('path',{d:`M${x1},${y1}Q${mx},${my} ${x2},${y2}`,class:'route',stroke:lineVar(p.line),style:`stroke-width:${1.6/s}px`},routes); });
-    sorted.filter(pl=>!onlyPlaces||onlyPlaces.has(pl)).forEach(pl=>{ const [lat,lon]=DATA.places[pl]; const [x,y]=prj(lat,lon); const n=ev[pl].length;
-      const c=el('circle',{cx:x,cy:y,r:(4+Math.sqrt(n)*2.2)/s,class:'dot',style:`stroke-width:${2/s}px`,fill:lineVar(dom(pl)),tabindex:0,role:'button','aria-label':`${pl}: ${n} hændelser`},svg);
-      const html=`<b>${esc(pl)}</b> · ${esc(DATA.places[pl][2])}<br>`+ev[pl].slice(0,8).map(e=>`${esc(clean(e.p.name))} <span style="opacity:.7">${esc(e.what)}</span>`).join('<br>')+(n>8?`<br>+${n-8} flere`:'');
-      c.addEventListener('mousemove',e=>showTip(e,html)); c.addEventListener('mouseleave',hideTip);
-      c.addEventListener('click',()=>{hideTip();showPlace(pl);}); c.addEventListener('keydown',e=>{if(e.key==='Enter'){showPlace(pl);}}); });
-    labelFor.forEach(([text,lat,lon,anchor,dy])=>{ const [x,y]=prj(lat,lon); const r=(4+2.2)/s+5/s;
-      const o={x:anchor==='end'?x-r:x+r,y:y+(dy||4)/s,'text-anchor':anchor||'start'};
-      el('text',{...o,class:'lbl-halo',style:`font-size:${10.5/s}px;stroke-width:${3.5/s}px`},svg).textContent=text; el('text',{...o,class:'lbl',style:`font-size:${10.5/s}px`},svg).textContent=text; });
-  }
-  const pl=DATA.places, L=(n,a,dy)=>pl[n]?[short(n),pl[n][0],pl[n][1],a,dy]:null;
-  drawMap(document.getElementById('map'),[0,0,MAP.W,MAP.H],[
-    L('Hune'),L('Gjellerup / Hammerum','end'),L('Silkeborg','end',10),L('Hadsten','end'),['Djursland',56.42,10.62,'start',-6],L('Tamdrup','end'),
-    L('København','start',8),L('Helsingør'),L('Fredensborg','end',-4),L('Malmö'),L('Herlufmagle','end'),L('Næstved','start',8),
-    L('Slagelse','end'),L('Viby (Roskilde amt)','end',12),L('Svendborg'),L('Ollerup','end'),L('Lejrskov (Ferup)','end'),
-    L('Broager','start',10),L('Egernsund','end',8),L('Snogbæk','start',-6),L('Ulkebøl'),L('Rinkenæs','end',-6),
-    L('Nybøl (Paakjær)','start',-8),L('Magleby (Nordenbro), Langeland','start',8),L('Rudkøbing','end'),L('Humble (Kædeby), Langeland','end',10),
-    L('Sønder Felding'),L('Hoven','end'),L('Skarrild','start',-6),L('Vester Starup','end'),L('Syv (Roskilde amt)','start',-6)].filter(Boolean));
-  const [ix0,iy0]=prj(56.47,10.27), [ix1,iy1]=prj(56.15,10.86);
-  document.getElementById('inset').setAttribute('style','width:100%;height:auto');
-  drawMap(document.getElementById('inset'),[ix0,iy0,ix1-ix0,iy1-iy0],[
-    L('Kolind','start',-4),L('Tirstrup','start',-4),L('Fuglslev','start',14),L('Rosmus','end',12),L('Ebeltoft'),
-    L('Vosnæsgaard, Skødstrup','start',4),L('Bogensholm, Vistoft (Mols)','start',4)].filter(Boolean));
-  const langelandPlaces=new Set(Object.keys(pl).filter(name=>/langeland/i.test(pl[name]?.[2]||'')));
-  if(langelandPlaces.size){
-    const coords=[...langelandPlaces].map(name=>pl[name]);
-    const minLat=Math.min(54.66,...coords.map(c=>c[0]-.01)), maxLat=Math.max(55.16,...coords.map(c=>c[0]+.01));
-    const minLon=Math.min(10.54,...coords.map(c=>c[1]-.01)), maxLon=Math.max(10.96,...coords.map(c=>c[1]+.01));
-    // prj() maps higher latitude to smaller y, so the north-west corner gives the top edge (ly0).
-    const [lx0,ly0]=prj(maxLat,minLon), [lx1,ly1]=prj(minLat,maxLon);
-    const langelandLabels=[...langelandPlaces].map(name=>L(name,'start',5)).filter(Boolean);
-    drawMap(document.getElementById('langeland-map'),[lx0,ly0,lx1-lx0,ly1-ly0],langelandLabels,langelandPlaces);
-    const total=[...langelandPlaces].reduce((n,name)=>n+(ev[name]?.length||0),0);
-    document.getElementById('langeland-summary').innerHTML='<b>'+langelandPlaces.size+' sted(er) på Langeland</b> · '+total+' registrerede hændelser i den nuværende offentlige datamængde. Dette er et udsnit af de registrerede steder, ikke en fuldstændig opgørelse over øens udvandring.';
-  }else{
-    document.getElementById('langeland-map').setAttribute('viewBox','0 0 600 220');
-    document.getElementById('langeland-summary').textContent='Der er endnu ingen stedsposter med regionen Langeland i de aktuelle data.';
-  }
-  // World migration layer is compiled from content/migrations/migration-events.md.
-  // Points distinguish documentary contract references, identity hypotheses and archive targets.
-  // No route is drawn: no event pair currently establishes both a departure and an arrival.
-  const world=document.getElementById('worldmap'), ww=900, wh=440;
-  world.setAttribute('viewBox',`0 0 ${ww} ${wh}`);
-  el('rect',{x:0,y:0,width:ww,height:wh,class:'sea'},world);
-  const wx=lon=>(lon+180)/360*ww, wy=lat=>(90-lat)/180*wh;
-  const landGroup=el('g',{'aria-hidden':'true'},world);
-  const ringPath=ring=>ring.map(([lon,lat],i)=>`${i?'L':'M'}${wx(lon).toFixed(2)},${wy(lat).toFixed(2)}`).join(' ')+'Z';
-  (MAP.world_land||[]).forEach(geometry=>{
-    const polygons=geometry.type==='Polygon'?[geometry.coordinates]:geometry.coordinates;
-    polygons.forEach(poly=>{if(poly[0]?.length>3)el('path',{d:ringPath(poly[0]),class:'world-land'},landGroup);});
-  });
-  const migrationEvents=DATA.migrations?.events||[];
-  migrationEvents.forEach((d,i)=>{
-    const x=wx(Number(d.longitude)), y=wy(Number(d.latitude));
-    const target=d.layer==='research-target', hypothesis=d.layer==='hypothesis';
-    let marker;
-    if(target){
-      marker=el('rect',{x:x-5,y:y-5,width:10,height:10,rx:1,class:'dot research-target',fill:'var(--sheet)',stroke:'var(--muted)','stroke-dasharray':'3 2','data-claim-id':d.claim_id,tabindex:0,role:'button','aria-label':d.place+', '+d.country+', arkivsøgeområde'},world);
-    }else{
-      marker=el('circle',{cx:x,cy:y,r:hypothesis?7:6,class:'dot migration-point',fill:hypothesis?'var(--sheet)':'var(--accent)',stroke:hypothesis?'var(--muted)':'var(--sheet)','stroke-dasharray':hypothesis?'3 2':'none','data-claim-id':d.claim_id,tabindex:0,role:'button','aria-label':d.place+', '+d.country+', '+d.evidence_label},world);
-    }
-    const label=el('text',{x:x+9,y:y+(d.id==='brazil-sao-paulo-archive-search'?15:-8),class:'lbl'},world);
-    label.textContent=d.place;
-    const openClaim=()=>{
-      go('forskning');
-      requestAnimationFrame(()=>{
-        const card=document.getElementById('claim-'+d.claim_id);
-        if(card){card.querySelector('details')?.setAttribute('open','');card.scrollIntoView({block:'start'});}
-      });
-    };
-    marker.addEventListener('click',openClaim);
-    marker.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openClaim();}});
-    marker.addEventListener('mousemove',e=>showTip(e,`<b>${esc(d.place)}, ${esc(d.country)}</b><br>${esc(d.evidence_label)}<br>${esc(d.identity_label)}`));
-    marker.addEventListener('mouseleave',hideTip);
-  });
-  const migrationList=document.getElementById('migration-list');
-  migrationList.innerHTML=migrationEvents.map(d=>{
-    const sourceLinks=(d.source_ids||[]).map((id,i)=>`<a href="?source=${encodeURIComponent(id)}#kilder">${esc(d.source_titles?.[i]||id)}</a>`).join(' · ');
-    return `<li><a href="?claim=${encodeURIComponent(d.claim_id)}#forskning">${esc(d.place)}, ${esc(d.country)}${d.date?' · '+esc(d.date):''}</a> — <a href="?person=${encodeURIComponent(d.person_id)}">${esc(d.person_name)}</a><br><span class="muted">${esc(d.evidence_label)}; ${esc(d.identity_label)}</span><br><span class="muted">${esc(d.note)}</span><br><span class="muted">${esc(d.source_reference||'')} ${sourceLinks?' · Kildeposter: '+sourceLinks:''} · ${esc(d.coordinate_basis||'')}</span></li>`;
-  }).join('');
-  const localNotes=DATA.migrations?.local_notes||[];
-  document.getElementById('langeland-notes').innerHTML=localNotes.map(n=>`<p><b>${esc(n.place)} · ${esc(n.date)}</b> <span class="conf probable">${esc(n.evidence_label)}</span><br>${esc(n.note)} <span class="muted">${esc(n.source_reference||'')}</span> <a href="?claim=${encodeURIComponent(n.claim_id)}#forskning">Læs forskningssporet ↗</a></p>`).join('');
+  
+  // ========== Real maps (Leaflet, data-driven from compiled DATA) ==========
+  const TILE_LIGHT = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+  const TILE_DARK  = 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';
+  const TILE_ATTR  = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>';
 
-  const listEl=document.getElementById('placelist');
-  listEl.innerHTML = Object.keys(ev).sort((a,b)=>ev[b].length-ev[a].length).map(pl=>`<button type="button" data-pl="${esc(pl)}"><span><i class="sw" style="background:${lineVar(dom(pl))};width:9px;height:9px;margin-right:6px"></i>${esc(pl)}</span><span class="n">${ev[pl].length}</span></button>`).join('');
-  listEl.querySelectorAll('[data-pl]').forEach(b=>b.addEventListener('click',()=>showPlace(b.dataset.pl)));
-}
+  function isDarkTheme(){
+    return document.documentElement.dataset.theme === 'dark' ||
+      (!document.documentElement.dataset.theme && window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches);
+  }
+
+  function makeLeafletMap(elId, opts){
+    const el = document.getElementById(elId);
+    if(!el) return null;
+    // Avoid double-init on re-render
+    if(el._leaflet_map){ el._leaflet_map.remove(); el._leaflet_map = null; el.innerHTML = ''; }
+    const map = L.map(el, Object.assign({ scrollWheelZoom:false, attributionControl:true }, opts||{}));
+    const layer = L.tileLayer(isDarkTheme() ? TILE_DARK : TILE_LIGHT, { attribution: TILE_ATTR, maxZoom: 18 }).addTo(map);
+    map._tileLayer = layer;
+    el._leaflet_map = map;
+    return map;
+  }
+
+  function pinRadius(n){ return 5 + Math.sqrt(Math.max(1, n||1)) * 2.2; }
+
+  function addPlaceMarkers(map, placeNames){
+    const group = L.featureGroup();
+    (placeNames||[]).forEach(name=>{
+      const coords = DATA.places[name];
+      if(!coords || coords[0]==null || coords[1]==null) return;
+      const lat = +coords[0], lon = +coords[1];
+      if(!(lat>=-90 && lat<=90 && lon>=-180 && lon<=180)) return;
+      const n = (ev[name]||[]).length;
+      const color = lineVar(dom(name));
+      const marker = L.circleMarker([lat, lon], {
+        radius: pinRadius(n),
+        color: getComputedStyle(document.documentElement).getPropertyValue('--sheet').trim() || '#fff',
+        weight: 2,
+        fillColor: color,
+        fillOpacity: 0.92
+      });
+      const region = coords[2] || '';
+      const html = '<b>'+esc(name)+'</b> · '+esc(region)+'<br>'+
+        (ev[name]||[]).slice(0,8).map(e=>esc(clean(e.p.name))+' <span style="opacity:.7">'+esc(e.what)+'</span>').join('<br>')+
+        (n>8 ? '<br>+'+(n-8)+' flere' : '');
+      marker.bindTooltip(html, { sticky:true, opacity:0.95 });
+      marker.on('click', ()=>{ hideTip && hideTip(); showPlace(name); });
+      group.addLayer(marker);
+    });
+    if(group.getLayers().length) group.addTo(map);
+    return group;
+  }
+
+  function addMovementLines(map){
+    (typeof anc !== 'undefined' ? anc : []).forEach(p=>{
+      const a = DATA.places[p.bplace], b = DATA.places[p.dplace];
+      if(!a || !b || p.bplace === p.dplace) return;
+      if(a[0]==null || b[0]==null) return;
+      L.polyline([[+a[0], +a[1]], [+b[0], +b[1]]], {
+        color: lineVar(p.line),
+        weight: 2,
+        opacity: 0.7,
+        className: 'route-line'
+      }).addTo(map);
+    });
+  }
+
+  function addMigrationMarkers(map){
+    (DATA.migrations && DATA.migrations.events || []).forEach(evnt=>{
+      const lat = +evnt.latitude, lon = +evnt.longitude;
+      if(!(lat>=-90 && lat<=90 && lon>=-180 && lon<=180)) return;
+      const fill = evnt.layer === 'hypothesis' ? '#c9a227' : (evnt.layer === 'research-target' ? '#7a2e1f' : '#2a78d6');
+      const m = L.circleMarker([lat, lon], {
+        radius: 7, color: '#fff', weight: 2, fillColor: fill, fillOpacity: 0.9
+      });
+      m.bindTooltip('<b>'+esc(evnt.person_name||'')+'</b><br>'+esc(evnt.claim_title||'')+'<br><span style="opacity:.75">'+esc(evnt.layer||'')+'</span>', { sticky:true });
+      m.addTo(map);
+    });
+  }
+
+  function syncMapTheme(maps){
+    const url = isDarkTheme() ? TILE_DARK : TILE_LIGHT;
+    maps.forEach(m=>{ if(m && m._tileLayer) m._tileLayer.setUrl(url); });
+  }
+
+  // --- Denmark overview ---
+  const dkMap = makeLeafletMap('denmark-map');
+  if(dkMap){
+    addPlaceMarkers(dkMap, Object.keys(DATA.places||{}));
+    addMovementLines(dkMap);
+    dkMap.setView([55.4, 10.5], 7);
+  }
+
+  // --- Optional inset (if present) ---
+  const insetMap = makeLeafletMap('inset');
+  if(insetMap){
+    addPlaceMarkers(insetMap, Object.keys(DATA.places||{}));
+    insetMap.setView([55.7, 12.0], 8);
+  }
+
+  // --- Langeland detail (data-driven: any place whose region/name mentions Langeland) ---
+  const langelandNames = Object.keys(DATA.places||{}).filter(name=>{
+    const reg = (DATA.places[name][2]||'') + ' ' + name;
+    return /langeland/i.test(reg);
+  });
+  const langMap = makeLeafletMap('langeland-map');
+  if(langMap){
+    const g = addPlaceMarkers(langMap, langelandNames);
+    if(g && g.getLayers().length){
+      try { langMap.fitBounds(g.getBounds(), { padding:[40,40], maxZoom:12 }); }
+      catch(e){ langMap.setView([54.92, 10.78], 10); }
+    } else {
+      langMap.setView([54.92, 10.78], 10);
+    }
+    const total = langelandNames.reduce((n,name)=>n+(ev[name]?.length||0), 0);
+    const sumEl = document.getElementById('langeland-summary');
+    if(sumEl){
+      sumEl.innerHTML = langelandNames.length
+        ? '<b>'+langelandNames.length+' sted(er) på Langeland</b> · '+total+' registrerede hændelser i den nuværende offentlige datamængde. Dette er et udsnit af de steder, der har koordinater i de kompilerede place/v1-poster.'
+        : 'Der er endnu ingen stedsposter med regionen Langeland i de aktuelle data.';
+    }
+  }
+
+  // --- World / migration map ---
+  const worldMap = makeLeafletMap('worldmap', { worldCopyJump:true });
+  if(worldMap){
+    addMigrationMarkers(worldMap);
+    addPlaceMarkers(worldMap, Object.keys(DATA.places||{}));
+    const pts = [];
+    Object.values(DATA.places||{}).forEach(c=>{ if(c && c[0]!=null) pts.push([+c[0], +c[1]]); });
+    (DATA.migrations && DATA.migrations.events || []).forEach(e=>{ if(e.latitude!=null) pts.push([+e.latitude, +e.longitude]); });
+    if(pts.length){
+      try { worldMap.fitBounds(pts, { padding:[28,28], maxZoom:5 }); }
+      catch(e){ worldMap.setView([20,0], 2); }
+    } else {
+      worldMap.setView([20,0], 2);
+    }
+  }
+
+  // Theme sync
+  const allMaps = [dkMap, insetMap, langMap, worldMap].filter(Boolean);
+  if(!window.__mapThemeObserver){
+    window.__mapThemeObserver = new MutationObserver(()=>syncMapTheme(allMaps));
+    window.__mapThemeObserver.observe(document.documentElement, { attributes:true, attributeFilter:['data-theme'] });
+  } else {
+    syncMapTheme(allMaps);
+  }
+
+  // Migration list + local notes (unchanged data binding)
+  const migList = document.getElementById('migration-list');
+  if(migList){
+    migList.innerHTML = (DATA.migrations?.events||[]).map(d=>{
+      const sourceLinks = (d.source_ids||[]).map((id,i)=>`<a href="?source=${encodeURIComponent(id)}#kilder">${esc(d.source_titles?.[i]||id)}</a>`).join(' · ');
+      return `<li><a href="?claim=${encodeURIComponent(d.claim_id)}#forskning">${esc(d.place)}, ${esc(d.country)}${d.date?' · '+esc(d.date):''}</a> — <a href="?person=${encodeURIComponent(d.person_id)}">${esc(d.person_name)}</a><br><span class="muted">${esc(d.evidence_label)}; ${esc(d.identity_label)}</span><br><span class="muted">${esc(d.note)}</span><br><span class="muted">${esc(d.source_reference||'')} ${sourceLinks?' · Kildeposter: '+sourceLinks:''} · ${esc(d.coordinate_basis||'')}</span></li>`;
+    }).join('');
+  }
+  const localNotes = DATA.migrations?.local_notes||[];
+  const notesEl = document.getElementById('langeland-notes');
+  if(notesEl){
+    notesEl.innerHTML = localNotes.map(n=>`<p><b>${esc(n.place)} · ${esc(n.date)}</b> <span class="conf probable">${esc(n.evidence_label)}</span><br>${esc(n.note)} <span class="muted">${esc(n.source_reference||'')}</span> <a href="?claim=${encodeURIComponent(n.claim_id)}#forskning">Læs forskningssporet ↗</a></p>`).join('');
+  }
+
+  const listEl = document.getElementById('placelist');
+  if(listEl){
+    listEl.innerHTML = Object.keys(ev).sort((a,b)=>ev[b].length-ev[a].length).map(pl=>
+      `<button type="button" data-pl="${esc(pl)}"><span><i class="sw" style="background:${lineVar(dom(pl))};width:9px;height:9px;margin-right:6px"></i>${esc(pl)}</span><span class="n">${ev[pl].length}</span></button>`
+    ).join('');
+    listEl.querySelectorAll('[data-pl]').forEach(b=>b.addEventListener('click',()=>showPlace(b.dataset.pl)));
+  }
+
 
 // ================= TAL =================
 function hbars(svg, rows, color){
