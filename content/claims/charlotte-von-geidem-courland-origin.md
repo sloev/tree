@@ -6,6 +6,8 @@ title: "Charlotte von Geidem fra Kurland: en mulig baltisk gren i Gedde-linjen"
 status: "needs"
 validation: "geografisk oprindelse dokumenteret i 1782-familiebrev; identitet og familie uafklaret"
 sources:
+  - "rigsarkivet-bertouch-letter-archive-target"
+  - "riksarkivet-bertouch-general-in-folio-gedde-1782"
   - "gedde-christian-knud-charlotte-thiset-1882"
 ---
 

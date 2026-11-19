@@ -6,6 +6,8 @@ title: "Gedde-officerslægten før 1691: Christian Gedde, Major Knud og den afvi
 status: "needs"
 validation: "tidlig officerlinje sandsynlig; ældre parentage og noble relation omstridt"
 sources:
+  - "rigsarkivet-bertouch-letter-archive-target"
+  - "riksarkivet-bertouch-general-in-folio-gedde-1782"
   - "gedde-christian-knud-charlotte-thiset-1882"
   - "gedde-early-officer-line-1657-knud-and-noble-connection-audit"
   - "gedde-familie-korttradition-tre-generationer-1743-1802"
