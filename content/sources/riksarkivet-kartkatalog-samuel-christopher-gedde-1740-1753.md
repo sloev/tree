@@ -8,7 +8,7 @@ validation: "flere katalogposter navngiver Samuel Christopher Gedde som tegner; 
 url: "https://arkivportalen.no/api/digital-asset/download/9702d08c-b5c2-4b28-88a8-f3491a1a307c-2.pdf"
 ---
 
-# Riksarkivets topografiske katalog — Samuel Christopher Gedde (1740–1753)
+# Riksarkivets topografiske kataloger — Samuel Christopher Gedde (1740–1755)
 
 Riksarkivets *Kartsamling, topografisk katalog, område Fredrikstad* (Katalog nr. 1830/81) registrerer en række kort og tekniske fæstningstegninger med **Gedde, Samuel Christopher** som tegner. Det er katalogattributioner, ikke en visuel kontrol af hver originalsignatur.
 
