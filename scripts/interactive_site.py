@@ -104,7 +104,7 @@ def build():
     map_data = {k: map_meta[k] for k in ("W", "H", "bbox", "dk", "se", "de") if k in map_meta}
     world_land_path = ROOT / "content" / "maps" / "world-land.geojson"
     world_geo = json.loads(world_land_path.read_text(encoding="utf-8"))
-    map_data["world_land"] = [feature["geometry"]["coordinates"] for feature in world_geo.get("features", []) if feature.get("geometry") and feature["geometry"].get("type") in ("Polygon", "MultiPolygon")]
+    map_data["world_land"] = [feature["geometry"] for feature in world_geo.get("features", []) if feature.get("geometry") and feature["geometry"].get("type") in ("Polygon", "MultiPolygon")]
     if not all(k in map_data for k in ("W", "H", "bbox", "dk", "se", "de")):
         raise SystemExit("Map Markdown record is missing required geometry fields")
 
