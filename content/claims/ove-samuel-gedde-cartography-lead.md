@@ -1,3 +1,22 @@
+---
+id: "ove-samuel-gedde-cartography-lead"
+schema: claim/v1
+branch: "Kleist–Gedde"
+title: "Ove Samuel Gedde og de norske opmaalingskort"
+status: "needs"
+validation: "foreløbigt spor"
+person_ids:
+  - "p216"
+  - "p432"
+sources:
+  - "Kartverket: https://kartverket.no/en/about-kartverket/historie/historiske-kart/soketreff/mitt-kart?mapId=7631"
+  - "OldMapsOnline: https://www.oldmapsonline.org/_next/maps/d711d0ff-21da-5153-bc2c-ef3baad4047a"
+  - "Dansk Biografisk Leksikon: https://biografiskleksikon.lex.dk/H.C._Gedde"
+  - "Anker 1885: https://runeberg.org/acj330bio/0110.html"
+  - "Fædrenelandsk Nekrolog 1843: https://www.kb.dk/e-mat/dod/130012834358.pdf"
+  - "Kongelig Dansk Hof- og Stats-Calender 1829: https://slaegtsbibliotek.dk/918037.pdf"
+---
+
 # Ove Samuel Gedde og de norske opmaalingskort — foreløbigt kartografisk spor
 
 **Status: Foreløbigt spor / identiteten er ikke dokumenteret.** Kartverkets katalog anfører Ove Samuel Gedde som kartograf på to historiske kortværker. Det er et væsentligt biografisk spor, men katalogattributionen er endnu ikke kontrolleret mod en original signatur, militær personalmappe eller samtidig korrespondance.
@@ -22,6 +41,12 @@ Fødselsåret er ikke helt ens i litteraturen. *Fædrenelandsk Nekrolog* (1843),
 ## Originalkortet — foreløbig visuel kontrol
 
 Kartverkets 560 px-forhåndsvisning af 1805-kortet er åbnet. Den er for lav opløsning til at aflæse en eventuel signatur eller kolofon sikkert. Den tilgængelige visning viser kortets håndtegnede karakter, men giver ikke i sig selv bevis for, at navnet er skrevet på originalen. Der kræves højopløselig fil eller arkivets metadata-/bestillingsoplysninger. 1796-kortets original er endnu ikke visuelt kontrolleret.
+
+## Kontrol af den senere militære karriere
+
+En nyttig kontrol mod en for hurtig identifikation som ingeniørofficer: *Kongelig Dansk Hof- og Stats-Calender for Aar 1829* opfører Ove Samuel v. Gedde som major ved Kronens Regiment til Fods. Regimentets hovedkvarter var i Helsingør; kalenderen placerer ham blandt regimentets majorer. Det viser en senere regulær infanterikarriere, ikke en dokumenteret stilling i Ingeniørkorpset. Det udelukker ikke, at han kan have udført eller medvirket ved kortarbejde tidligere, men det gør det nødvendigt at finde hans konkrete tjenesteforløb 1796–1805, før kortene kan knyttes til en militær opmålingsopgave.
+
+Kilde: *Kongelig Dansk Hof- og Stats-Calender for Aar 1829*, afsnittet “Land-Militair-Etaten”, trykt s. 233–234 (PDF-sidetælling kan afvige), https://slaegtsbibliotek.dk/918037.pdf. Se også kalenderens udnævnelsesliste, som registrerer ham som major og bataljonskommandør i Kronens Regiment fra 1. august 1829: https://slaegtsbibliotek.dk/918090.pdf.
 
 ## Kilder og arkivveje
 
