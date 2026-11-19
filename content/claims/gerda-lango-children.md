@@ -106,6 +106,6 @@ Dette er en familieidentifikation af et fotografi og et nyttigt navnespor, ikke 
 
 ## Korrigeret descendant-oversigt efter GEDCOM-gennemgang
 
-En ny gennemgang af alle familieposter i `family-tree.ged` viser, at Kristines familiegren tidligere var overset i denne claim. Kristine (1884–1975) er gift med Axel Erik Holgersen; deres datter Karen Margrethe Holgersen (1906–1992) er registreret i GEDCOM. Valdemar har også en familiepost, men barnet er privatmarkeret. Christian Anton, Christian Jørgen, Martha, Georg og Jens har ingen registrerede ægtefælle-/børnefamilier i den offentlige GEDCOM.
+En ny maskinel gennemgang af samtlige familieposter i `family-tree.ged` viser, at Kristines familiegren tidligere var overset i denne claim. Kristine (1884–1975) er gift med Axel Erik Holgersen; deres datter Karen Margrethe Holgersen (1906–1992) er registreret i GEDCOM. Valdemar har også en familiepost, men barnet er privatmarkeret. Christian Anton, Christian Jørgen, Martha, Georg og Jens har ingen registrerede ægtefælle-/børnefamilier i den offentlige GEDCOM.
 
 Det ændrer ikke hovedkonklusionen om udvandring: der er fortsat ingen identificeret transatlantisk rejse blandt de dokumenterede direkte efterkommere. Men Kristine-grenen skal nu følges videre, og de fem øvrige søskendes familier skal rekonstrueres fra kirkebøger, folketællinger, vielser og dødsregistre. Ingen oplysninger om privatmarkerede efterkommere er gengivet.
