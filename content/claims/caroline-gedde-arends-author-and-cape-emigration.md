@@ -45,3 +45,26 @@ Dette er et konkret migrationsspor til Sydafrika, som kan indgå på kortet som 
 5. Kontroller Otto Frederik Arends' dåb og forældres vielse uafhængigt af hans egen slægtstavle.
 
 **Kildekritik:** Arends er en detaljeret sekundær genealog og selv efterkommer; hans egen slægtsinteresse er både en styrke og en grund til at kontrollere hans optegnelser. Ingen direkte linje til Lorenz eller Ove Samuel følger af denne collateral gren.
+
+
+## Carolines elleve børn — transskriberet fra trykt s. 18–24
+
+Arends angiver seks sønner og fem døtre. Den fulde børnerække i hans system er:
+
+1. **Elisabeth Maria Salome (Salomine) Fischer** (1796–1870), gift med Tønne Bloch Glahn.
+2. **Henriette Caroline (Eline) Fischer** (1798–1875), ugift.
+3. **Tycho Johan Fischer** (1800–1858), urtekræmmer; far til Edvard Gedde Victor Fischer (1827–1849), der deltog i krigen 1849.
+4. **Salomon Frederik Wilhelm Fischer** (1802–?), muligvis død ung og ugift.
+5. **Leonhard Christian Fischer** (1803–1882), hvis efterkommere behandles på s. 24–31.
+6. **Hans Christoffer Fischer** (1804–1861), gårdejer; fik to døtre.
+7. **Ernst Christian Fischer** (1806–1878), præst; far til Ingertha og Frederik Ernst Fristedt.
+8. **Emilie Louise Adelie Fischer** (1809–1872), ugift.
+9. **Celia (Cecilie) Lucie Charlotte Fischer** (1811–1879), ugift.
+10. **Julie Theodora Augusta Wilhelmine Fischer** (1813–?), dåbsbekræftelse og senere liv ikke fundet af Arends.
+11. **Dødfødt søn**, begravet 12. februar 1818.
+
+Arends' bog bruger bogstavrækken a, b, c, d, e, f, g, h, k, l, m; bogstavet i forekommer ikke i denne søskenderække. Børnerækken er gengivet efter trykt s. 18–24; datoer og ægtefæller er sekundære oplysninger, med de konkrete originalhenvisninger i bogens fodnoter.
+
+## Et andet udenlandsk spor: Frankrig
+
+Arends anfører på trykt s. 24, at **Maria Wilhelmine Mathilde Fischer** (født 16. april 1831), datter af Leonhard Christian Fischer (1803–1882) og dermed barnebarn af Caroline Gedde, i mange år opholdt sig i Frankrig og rimeligvis døde dér. Dette er en sekundær geografisk oplysning uden by, dato eller originalkilde. Den bør undersøges i franske civilregistre, folketællinger og eventuelle danske udrejseprotokoller, men må ikke vises som en dokumenteret migrationsrute.
