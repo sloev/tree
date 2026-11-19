@@ -1940,6 +1940,7 @@
 2 PLAC Herlufmagle
 1 DEAT
 2 DATE 27 DEC 1925
+1 OCCU Forpagter på Tyrstinggaard (1875; Trap 1926)
 1 OCCU Proprietær, Tamdrup (1880)
 1 OCCU Vognmand og foderstofhandler, København
 1 FAMS @F43@
@@ -2684,14 +2685,11 @@
 1 NAME Emil Ludvig Edvard /Gedde/
 1 SEX M
 1 BIRT
-2 DATE 15 NOV 1875
-2 PLAC Tyrstinggaard ved Brædstrup, Danmark
+2 DATE 15 NOV 1876
 1 DEAT
-2 DATE 19 JUL 1954
-1 OCCU Landbrugskandidat (1896)
-1 OCCU Forsøgsleder på St. Croix (1915–1922); formand for St. Croix danske Klub og Læseforening (1919–1922)
-1 OCCU Plantageejer i Argentina fra 1923; adresse Puerto Eldorado, Misiones
-1 OCCU Formand for Sygekassen i Eldorado (1926–1931); vicepræsident for den lutherske menighed i Eldorado (1931)
+2 DATE 1951
+1 OCCU Landbrugsuddannet
+1 OCCU Udvandrer til Argentina (1922)
 1 FAMC @F43@
 0 @I354@ INDI
 1 NAME Ove /Gedde/
