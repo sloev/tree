@@ -179,3 +179,17 @@ Der er en dato-/navneafvigelse mellem Pawliks 2016-artikel (Martin–Tobias 1587
 [Officiel serieliste 8414–8421](https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=53&_Seria_delta=20&_Seria_id_serii=550749&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal) · [Arkivpost 8417](https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/20944619).
 
 **Bestilling:** 8417 først; derefter 8415–8416 og 8418–8421. Ingen af originalakterne er endnu gennemset. Ingen personrelationer eller livsdatoer er ændret i træet.
+
+
+## Otto von Below og Pustamin: nye Below-arkivmål
+
+Den reviderede *Tychow-Dubberower Linie* omtaler Christina som enke efter Otto von Below på Pustamin. En ny gennemgang af AP Szczecins registratur har identificeret en relevant Below-sag fra 1619 i fonden **Sąd Kameralny Rzeszy w Wetzlar**:
+
+- **65/6/0/2/69**, bind I: Henning von Below på Pustamin mod Heinrich og Kasper von Below på Peest om besiddelsen af Georg von Krummels len. Registraturen angiver 194 sider og ældre signatur *Rep.23 Litt.B Nr.55*.
+- **65/6/0/2/70**, bind II: samme sag. Registraturen angiver 2.478 sider og samme ældre signatur; sidetallet bør bekræftes.
+
+Begge bind er registreret som fuldt mikrofilmede, men uden mikrofilmnummer og uden digitale kopier. Senere mål omfatter 65/8/0/5/85 (arvesager i Below-familien, 1753–1762), 65/8/0/5/86 (oplysninger om Pustamin, 1764–1766) og 65/8/0/5/89–90 (Pustamin/Grünhof/Gatz, 1781–1795).
+
+Disse sager kan belyse Below-familiens Pustamin-gren og eventuelle arve-/lensforhold omkring Otto. Men 1619-registraturen nævner ikke Otto eller Christina; Henning må ikke uden videre identificeres som Ottos far. Bestil bind I og II, få mikrofilmnumrene og spørg efter bilag eller ældre lensbreve, der nævner Otto, hans enke eller arvinger. Se [Below-familiens retssager og Pustamin-godset, 1619–1795](https://www.szukajwarchiwach.gov.pl/en/seria?_Seria_delta=200&_Seria_id_serii=382249&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal).
+
+**Status:** Arkivregistratur identificeret; originalakter ikke gennemset; ingen relation til Christina er bevist.
