@@ -146,3 +146,14 @@ Redaktøren oplyser desuden, at Bolduans originalmanuskripter sandsynligvis gik 
 Dette giver et nyt, konkret håndskriftsmål: få den nuværende signatur og opbevaringsinstitution for Kiel-afskriften og kontrollér den nøjagtige ordlyd om Gerson, Regina, Christina og Justus Zarte. Arkivbibliotekets Dr Janina Kosman er opført som kontakt (jkosman@szczecin.archiwa.gov.pl); Dr Radosław Pawlik kan hjælpe med arkivregistraturer. Se [Bolduans Kleist-genealogi fra 1613/14 og den bevarede Kiel-afskrift](https://www.v-kleist.com/FG/english/Kleist%20history%201289%20to%201477.pdf).
 
 **Status:** Nær-samtidig genealogisk kilde og mulig bevaret afskrift identificeret; Kiel-eksemplaret er endnu ikke lokaliseret eller gennemset. Ingen personrelation eller dato er ændret i træet.
+
+
+## Katalogspor til Kiel-afskriften: 65/16/0/60/405
+
+Archiwum Państwowe w Szczecinie har et digitaliseret katalog med titlen *Catalogus Bibliothecae Pomerianicae Brüggemaniae*, signatur **65/16/0/60/405**, ældre signatur **379 a**. Det er 533 sider med 541 scanninger og mikrofilm **65/32404 N**. Registraturen beskriver det som et katalog over Ziemstwo Pomorskies bibliotek, manuskript- og gammeltryksafdelingen, herunder enheder med signatur 380–600.
+
+Dette kan være et konkret hjælpemiddel til at lokalisere Christoph Kiels afskrift af Bolduans *Schema amplissimae nobilissimaeque familiae Kleistianae* og *Genealogia Kleistorum a Francisco Winthero scripta*. Det er dog endnu ikke bekræftet, at titlerne findes i kataloget, eller at denne samling er identisk med Generallandschaft-biblioteket omtalt i familiehistorien. Arkivets onlinevisning var midlertidigt utilgængelig; katalogets sider er ikke gennemgået.
+
+Bed bibliotekets Dr Janina Kosman om at søge i 65/16/0/60/405 efter Bolduan, Kiel, Kleist, Winther, *Schema amplissimae* og *Genealogia Kleistorum*, og oplyse sidetal, nuværende signatur og reproduktionsmuligheder. Mikrofilm 65/32404 N er en alternativ adgangsvej. [Officiel arkivpost](https://www.szukajwarchiwach.gov.pl/de/jednostka/-/jednostka/7907382).
+
+**Status:** Katalog identificeret; dets indhold er ikke gennemgået, og Kiel-afskriftens placering er fortsat uafklaret.
