@@ -23,9 +23,11 @@ The printed calendar cites original Chancellery/Skånske Tegnelser references. T
 
 Source: https://da.wikisource.org/wiki/Kancelliets_Brevb%C3%B8ger_vedr%C3%B8rende_Danmarks_indre_forhold._I_uddrag._(1657)
 
-## 2. The oldest claimed direct ancestor: Christian Gedde
+## 2. The oldest direct ancestor: Christian Gedde and his father Major Knud
 
-The line through Samuel Christopher Gedde (1691–1766) can be traced in biographical literature to his father Christian Gedde, but the older generation's dates and parentage vary:
+The line through Samuel Christopher Gedde (1691–1766) can now be traced to his father Christian Gedde and, through a family letter of 1782, to Major Knud Gedde. A. Thiset's 1882 article quotes the letter written by Generalmajor Hans Christopher Gedde to genealogist Bertouch on 17 February 1782. It says Christian died in 1707 aged 59, was married to Charlotte von Geidem from Courland, and was the son of Major Knud, who fell in the Ulfeldt War. This is the strongest evidence for the direct parent-child link, although the original letter in the Geheimearkiv's genealogical-heraldic archive still needs inspection.
+
+Other biographical sources give differing dates and details:
 
 - **Dansk biografisk Lexikon (1887):** identifies Samuel Christopher's father as Christian Gedde, described as colonel and commandant on Møn, born 1648 and died 1707, married to Charlotte von Geidern.
 - **Anker, Biografiske data om 330 norske... (1885):** gives a Christian Gedde born about 1646, died 2 May 1705 aged 59, son of Major Knud Gedde, and married to Charlotte von Geidern.
@@ -35,7 +37,7 @@ The line through Samuel Christopher Gedde (1691–1766) can be traced in biograp
 The 2022 compilation links to a FamilySearch image for the Stambog entry:
 https://www.familysearch.org/ark:/61903/3:1:3Q9M-C33K-LFZM-Y?i=24&cat=416356
 
-**Interpretation:** Christian is a strong candidate for the earliest known direct ancestor before Samuel Christopher, but his birth date (c.1639/1646/1648), death date (1705/1707) and exact parentage require original-source reconciliation. The 1693 Stambog image is the highest-value target.
+**Interpretation:** Christian is the earliest currently supported direct ancestor before Samuel Christopher. The 1782 family letter, as quoted by Thiset, supports death in 1707 aged 59 (birth c.1648) and father Major Knud; Anker and DBL agree on the 1648–1707 range. The 1693 Stambog transcription (age 54 in 1693, implying c.1639) conflicts and must be checked against the original. The strongest next target is the original 1782 letter, followed by the 1693 muster roll.
 
 ## 3. The old noble Gjedde connection: explicit refutation and later confusion
 

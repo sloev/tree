@@ -90,3 +90,12 @@ En vigtig afgrænsning: SNL-artiklen om Gedde-familien siger, at den norske offi
 2. Find Nicolais norske døds-/begravelsesindførsel for at afgøre 31. januar / 31. maj / 30. juni / 31. august 1833.
 3. Find Louise Geddes dåb i Trondheim 1817 og vielsen med Johan Henrik Dahl i Christiania 1844.
 4. Find Vilhelm Julius Kleist Geddes dåb omkring 15. oktober 1818; Marcus-kataloget bekræfter en person med navnet og fødselsår 1818, men ikke forældrene.
+
+
+## Uafhængig 1882-kontrol af Gedde-leddet
+
+*Personalhistorisk Tidsskrift* (1882), 1. række, 3. bind, s.170–174, indeholder en stamtavle over officersfamilien Gedde/Gjedde. Den angiver Ove Samuel Gedde (28. maj 1778–10. marts 1843), søn af Hans Christoffer Gjedde og Frederikke Christiane Fischer, og hans vielse 24. juni 1806 med Frederikke Louise Dorthea Kleist. Den viser også brødrene Nicolai Wilhelm og Frederik Christoffer Gedde.
+
+Kilden styrker den danske Gedde–Kleist-forbindelse uafhængigt af Harbou (1897). Samme bidrag citerer et brev fra Hans Christoffer, dateret 17. februar 1782, som retter Samuel Christoffers far til oberst Christian Gjedde, søn af major Knud Gjedde. Den tidligere påstand om nedstamning via kanselliråd Knud og admiral Ove Gjedde bør derfor ikke gentages som fastslået; den konkrete adelige forbindelse er uafklaret.
+
+Kilde: https://tidsskrift.dk/personalhistorisk_tidsskrift/article/download/79868/114992/166519, trykt s.170–174. Originalbrevet fra 1782 skal stadig lokaliseres.

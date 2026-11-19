@@ -78,3 +78,8 @@ Ingen kanonisk forældrekant ændres.
 ### 1657-identifikation af Ove Gieddes søn Knud
 
 Kancelliets Brevbøger omtaler Knud Giedde under Ove Gieddes kompagni og giver ham orlov til Norge for sin søsters begravelse 26. marts 1657. Riksarkivaren (2000, s.175) identificerer Knud Giedde d.1707 som Oves søn og siger, at han trådte i militærtjeneste som officer i 1657 og blev major fra 1659 — et præcist match til Chancellery-brevene. Regitze Ovesdatter Giedde døde i Bergen 1. marts 1657, 25 dage før orlovsbrevet. Det er en stærk indirekte identifikation af søsteren, men brevet nævner hende ikke ved navn.
+
+
+### 1782-familiebrevet adskiller de to Knud'er
+
+Thiset 1882 citerer Hans Christopher Geddes brev af 17.02.1782: Christian Geddes far var Major Knud, der faldt i Ulfeldt-krigen. Denne Major Knud er ikke Ove Gieddes søn Knud (d.1707), som Riksarkivaren dokumenterer som officer fra 1657 og major fra 1659. Den borgerlige officerlinjes Major Knud og Oves søn Knud er to forskellige mænd.
