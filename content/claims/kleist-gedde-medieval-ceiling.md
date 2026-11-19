@@ -73,3 +73,8 @@ Ingen kanonisk forældrekant ændres.
 - Store norske leksikon, “Gedde”: https://snl.no/Gedde
 - Store norske leksikon, “Gjedde – slekt” (adelsslægten, 1455–1848): https://snl.no/Gjedde_-_slekt
 - Kleist (adelsslægt), første omtale 1289: https://de.wikipedia.org/wiki/Kleist_(Adelsgeschlecht)
+
+
+### 1657-identifikation af Ove Gieddes søn Knud
+
+Kancelliets Brevbøger omtaler Knud Giedde under Ove Gieddes kompagni og giver ham orlov til Norge for sin søsters begravelse 26. marts 1657. Riksarkivaren identificerer Knud Giedde d.1707 som Oves søn. Regitze Ovesdatter Giedde døde i Bergen 1. marts 1657, 25 dage før orlovsbrevet. Det er en stærk indirekte identifikation af søsteren, men brevet nævner hende ikke ved navn.
