@@ -64,3 +64,28 @@ USDA's *Work and Expenditures of the Agricultural Experiment Stations, 1918* opl
 Årsrapporten for 1923 (udgivet juli 1924) oplister **John B. Thompson** som agronomist in charge, C. E. Wilson som entomolog og W. M. Perry som horticulturist. Gedde står ikke blandt de tre navngivne fagmedarbejdere. Det udelukker ikke en anden lokal tilknytning, men det understreger, at den biografiske formulering “Forsøgsleder 1915–1922” ikke uden videre kan læses som stationens øverste leder i hele perioden.
 
 Den bedste arbejdshypotese er nu: Eduard Gedde var reelt tilknyttet Slob Experimental Station i 1918 og muligvis fortsat tilknyttet i 1922, men hans formelle rolle skal findes i danske ansættelses-/lønakter og amerikanske stationens personalesager. Longfield Smith var i hvert fald den officielle agronomist in charge i 1918 og 1920; John B. Thompson var det i 1923.
+
+
+## Nyt hovedfund: samtidig fagfortegnelse fra maj 1918
+
+*Danske Landbrugskandidater* (1918), nr. 274, anfører **Eduard Gedde**, født 15. november 1875 på Tyrstinggaard ved Brædstrup, søn af “Forp. E. G.”, landbrugskandidat 1896, og **1915 forsøgsleder på St. Croix**. Bogen blev udgivet i maj 1918, mens hans caribiske karriere var aktuel. Forordet forklarer, at fødselsdag, fødselsår og fødested stammer fra Landbohøjskolens indskrivnings- og eksamensprotokoller. Dette er den stærkeste samtidige biografiske kilde til hans St. Croix-ansættelses startdato og hans fødested/familiebaggrund.
+
+1911-udgaven angiver imidlertid 13. november 1875, mens 1918-, 1944- og 1955-udgaverne angiver 15. november. 1918-udgavens kildeangivelse gør 15. november bedst understøttet i de trykte kilder, men Tyrsting kirkebog skal stadig kontrolleres.
+
+## Slob er geografisk indsnævret — men ikke endeligt identificeret
+
+Rigsarkivets estate-register skelner mellem **Body Slob / Slob, King's Quarter K 19 og K 11**, og en anden **Slob / Chastity Hall, East End EEB 28b, 29a og 37**. National Register of Historic Places placerer Estate Slob ved Centerline Road i det centrale landbrugsområde. *The Herald* 18. januar 1922 siger, at en pakke blev tabt på vejen mellem Diamond School og Kingshill, og beder finderen kontakte “Mr. Cedde” ved Slob Experimental Station. Den geografiske sammenhæng peger mest oplagt mod Body Slob i King's Quarter, men kort-/jordbogskontrol mangler.
+
+Der er nu to januar-notitser (12. og 18. januar 1922) med en kontakt ved Slob Experimental Station. Den ene OCR-læser GEDDE, den anden CEDDE. Det kan være samme person, men navnelæsningen og identiteten er ikke endeligt fastslået.
+
+## Et uafhængigt 1953-fund: Dannebrogordenen
+
+*De Kongelige Danske Ridderordener og Medailler*, bind III (1954), anfører **“Gedde, Eduard (R. 2/5 1953), plantageejer. Adr. Eldorado, Misiones, Argentina.”** Det dokumenterer, at en plantageejer Eduard Gedde stadig var registreret i Eldorado i maj 1953 og blev udnævnt til Ridder af Dannebrog den 2. maj 1953. Sammen med 1944-biografien og 1956-dødsnotitsen giver det en tæt, uafhængig tidslinje frem til dødsdatoen 19. juli 1954.
+
+## Nyt faderskabsspor ved Tyrstinggaard — kandidat, ikke bevis
+
+Trap Danmark (1926) omtaler **forpagter E. H. Gedde på Tyrstinggaard** i 1875. 1918-fortegnelsen siger, at Eduard var søn af “Forp. E. G.” og født på Tyrstinggaard samme år. Dette gør Edvard Hammer Gedde til en stærk kandidat til faderen i den eksisterende familietradition, men Trap bruger kun initialer, og kirkebog/folketælling er endnu ikke kontrolleret. Ingen forældre- eller personrelation ændres.
+
+## Arkivmål opgraderet
+
+Ud over Rigsarkivets serie “Landbrugsforsøgsstationen på Skt. Croix (1907–1917)” er der nu en konkret forespørgsel til Ordenskapitlet om ordensprotokollen for Eduard Geddes udnævnelse 2. maj 1953. Kongehuset oplyser, at de oprindelige ordensprotokoller fra 1808 og frem er bevaret. Da udenlandske modtagere ikke nødvendigvis blev bedt om levnedsbeskrivelser, skal en sådan selvbiografi ikke forudsættes.
