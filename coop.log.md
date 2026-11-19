@@ -174,3 +174,8 @@ Checked the official Arkivalieronline churchbook collection and DAISY catalogue 
 **Validation:** branch `main` confirmed. Claim and log re-fetched after writing. No local build, link checker, browser image inspection or deployment test was run in this GitHub-only pass. The automatic Nyhedsbulletin entry and relevant GitHub Actions result still need checking.
 
 **Next:** identify the exact Langeland Magleby HMB/KMB volumes for 1878 deceased women and 1877 born boys; inspect the original entries and marginal notes, then the 1877 tilgangsliste. Keep the claim unresolved until those records are read.
+
+
+## 2026-11-19 — Gerda claim bulletin verification
+
+The automatic Nyhedsbulletin entry for claim commit `29798800b998df28af57a315b1bd4ca50d544116` is now present at the top of `content/activity.md` (title: “Kresten Jørgensen: hvilken Marthe var hans mor?”; path: `content/claims/gerda-kresten-mother.md`). The activity file was re-fetched and the exact commit/path entry verified. The GitHub combined-status endpoint returned no status records; no local build, generated-index content check or live browser/Pages verification was possible in this pass. Do not claim deployment from the bulletin alone.
