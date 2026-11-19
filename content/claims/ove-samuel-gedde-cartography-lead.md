@@ -181,3 +181,69 @@ Rigsarkivets katalog giver nu en konkret, todelt arkivvej. Under Ingeniørkorpse
 En parallel indgang findes i kataloget over militære stambøger: Det danske militære Institut har navneregister til stambøger 1799–1810, stambøger 1799–1811, emneregister og listebog 1809–1811. [Militære stambøger og personalefortegnelser](https://arkivalieronline.rigsarkivet.dk/da/other/other-collection/70). Rigsarkivets vejledning oplyser, at stambøger kan indeholde fødested, alder ved indtræden, civilstand, funktion og tjenestetid, og anbefaler Hirsch' officerskartotek som indgang for officerer 1648–1814. [Vejledning til Hærens mandskabslister](https://www.rigsarkivet.dk/vejledning/haerens-og-flaadens-mandskabslister/haerens-mandsskabslister-kom-godt-i-gang/).
 
 **Status: foreløbigt arkivspor.** Katalogserierne er identificeret, men de underliggende registerbilleder og sager er endnu ikke gennemgået. Der er derfor endnu hverken et positivt eller et negativt navneopslag efter Ove Samuel Gedde. Næste kontrol er at læse registrene, følge deres konkrete henvisninger til hovedsagerne og sammenholde disse med hans militære personalefortegnelse. Kartografrollen forbliver en arbejdshypotese.
+
+
+## Supplerende kontrol: officerfortegnelser og 1835-kalenderen
+
+Den søgbare Hirsch-side beskriver kartoteket som 45 foliobind med ca. 14.000 danske og norske officerer, ordnet efter efternavn og tekstgenkendt med Transkribus. Det er en stærk søgeindgang, men selve katalogets samlede PDF-liste kunne ikke åbnes gennem den automatiserede adgang, som blev afvist af bibliotekets botbeskyttelse. Der er derfor endnu ikke udført et verificeret opslag på Ove Samuel i Hirsch. [Hirsch-kartotekets søgeindgang](https://www.slaegtsbibliotek.dk/samlinger/hirsch).
+
+En separat kontrol i den digitaliserede **Kongelig Dansk Hof- og Stats-Calender for 1835** viser Ove Samuel von Gedde som **Oberstlieutenant** ved Kronens Regiment til Fods, garnisoneret i Helsingør. Det supplerer de allerede registrerede kalenderfund fra 1820, 1831 og 1837 og gør hans sene tjenesteforløb mere sammenhængende. [Kalenderen 1835](https://slaegtsbibliotek.dk/908098.pdf). Det dokumenterer rang og regiment på kalenderens udgivelsestidspunkt, ikke hans kartografiske arbejde.
+
+**Kildekritisk note:** En søgemaskine returnerede også en OCR-tekst med Ove Samuel og fødselsdato 28. februar 1778, men PDF'en viste sig ved kontrol at være Harbous *Slægten von Kleist i Danmark* i *Personalhistorisk Tidsskrift* 1897 — altså den allerede kendte sekundærkilde, ikke Hirsch-kartoteket. Den må ikke tælles som et uafhængigt nyt bevis for fødselsåret. Modstriden mellem 1778 og 1788 står fortsat åben.
+
+
+## Nyt arkivfund: Hans Christopher Geddes Fredrikstad-kort fra 1793
+
+Riksarkivets officielle topografiske katalog for Fredrikstad registrerer kortet **KBK XVIII 11a**, *“Plan over Fæstningen Friderichstad og det Fort Kongsten samt en Deel af dens omkringliggende Egn”*, dateret 1793 og med **“Tegner: Gedde, Hans Christopher”**. Kortet er koloreret og måler 115,5 × 138,0 centimeter. Katalogposten står på trykt side 12 i [Riksarkivets katalog-PDF](https://arkivportalen.no/api/digital-asset/download/9702d08c-b5c2-4b28-88a8-f3491a1a307c-2.pdf).
+
+Det er et nyt og væsentligt familiehistorisk fund: Ove Samuels far var altså selv knyttet til et konkret militært kortarbejde i Fredrikstad tre år før Kartverkets 1796-kort, hvis metadata anfører skabernavnet “Ove Samuel”. NVE-rapporten bekræfter, at Hans Christopher blev direktør for Norges geografiske opmåling i 1796, og at sønnen Frederik Christopher blev ingeniørofficer samme år ([NVE, *Kanalforvaltningen rundt 1814*, s. 26](https://publikasjoner.nve.no/rapport/2014/rapport2014_32.pdf)).
+
+**Betydning og forbehold:** Fundet dokumenterer en tæt familie- og institutionsforbindelse til det norske militære opmålingsmiljø i 1793–1796. Det beviser ikke, at Hans Christopher, Frederik Christopher eller Ove Samuel fysisk tegnede 1796-kortet. Kartverkets metadata skal fortsat stå som katalogets attribution, indtil originalens titelblok, signatur og eventuelle opmålingsjournal er kontrolleret. Ingen personrelationer eller kanoniske datoer ændres på dette grundlag.
+
+Den særskilte kildepost er publiceringsklar i `riksarkivet-ostfold-kart-hans-christopher-gedde-1793.md`.
+
+
+## Nyt dobbeltfund: Hans Christopher Gedde som korttegner i 1775 og 1793
+
+Riksarkivets officielle topografiske katalog for Østfold registrerer to særskilte værker med **Gedde, Hans Christopher** som tegner:
+
+1. **1775, KHB m2-4:** “Plan over Fæstningen Friderichstad og det Fort Kongsteen samt endeel af dens omkringliggende Egn”, tegnet sammen med J. H. Sibrand og Hans Jacob Zernickow. Fem blade, 85,5 × 100 cm, papir og koloreret. Katalogets trykte s. 100.
+2. **1793, KBK XVIII 11a:** “Plan over Fæstningen Friderichstad og det Fort Kongsten samt en Deel af dens omkringliggende Egn”. 115,5 × 138 cm, papir og koloreret. Katalogets trykte s. 12.
+
+Det er et væsentligt fremskridt: Hans Christophers kartografiske virke er ikke længere kun knyttet til ét katalogfund i 1793. Kataloget peger på et samarbejdsværk i 1775 og et senere værk i 1793, altså en dokumenteret katalogattribueret aktivitet over mindst 18 år i samme fæstningsmiljø. I 1796 blev han ifølge NVE-rapporten direktør for Norges geografiske opmåling.
+
+**Hvad dette ændrer:** Det styrker den biografiske og institutionelle kontekst omkring Gedde-familiens norske opmålingsmiljø. Det giver en mere konkret forskningsretning: sammenlign 1775- og 1793-kortenes originale titelblokke, håndskrift, signaturer og eventuelle opmålingsjournaler; søg dernæst efter Hans Christophers korrespondance i de norske ingeniørarkiver.
+
+**Hvad det ikke ændrer:** Ingen kilde her dokumenterer, at Ove Samuel arbejdede med sin far, og fundet beviser ikke, at Ove Samuel tegnede 1796- eller 1805-kortene. Det er heller ikke grundlag for at tilskrive Hans Christopher sønnens kort. Alle tre kortattributioner skal kontrolleres mod originalerne, hvor det er muligt.
+
+Primær katalogkilde: Riksarkivets *Kartsamling, topografisk katalog, område Østfold* (1998), Katalog nr. 1830/81, trykt s. 12 og 100: https://arkivportalen.no/api/digital-asset/download/9702d08c-b5c2-4b28-88a8-f3491a1a307c-2.pdf.
+
+
+## Større familiehistorisk gennembrud: Hans Christopher Geddes kortarbejder 1773–1802
+
+En bredere gennemgang af Riksarkivets topografiske kataloger viser, at Ove Samuels far, Hans Christopher Gedde, var katalogiseret som tegner på flere militære kort og fæstningsplaner over næsten 30 år:
+
+- **1773, Elverum:** profil gennem den projekterede skanse, KHB m8-13.
+- **1775, Fredrikstad:** fæstningsplan med fire profiler, KHB m2-4, sammen med Sibrand og Zernickow.
+- **1787, Fredrikstad/Cicignon:** projekt til bombesikkert kornmagasin, KHB m2-17a, og tegning af Cicignons værker, KHB m2-17b.
+- **1793, Fredrikstad:** plan over fæstningen, Kongsten og det omkringliggende terræn, KBK XVIII 11a.
+- **ca. 1802, Akershus fæstning:** seks planer og profiler, KHB m1-6, syv blade.
+
+Katalogerne er fra Riksarkivets officielle topografiske samlinger: [Hedmark](https://arkivportalen.no/api/digital-asset/download/87c0277f-52de-4fb8-9763-4d1bca6e982b-2.pdf), [Østfold](https://arkivportalen.no/api/digital-asset/download/9702d08c-b5c2-4b28-88a8-f3491a1a307c-2.pdf) og [Oslo](https://arkivportalen.no/api/digital-asset/download/913b45e9-5879-4c02-abd9-4953bcc4f46a-2.pdf). Den samlede kildepost angiver trykte katalogsider og detaljer: `riksarkivet-hans-christopher-gedde-kart-1773-1802.md`.
+
+**Hvorfor det ændrer vurderingen:** Hans Christopher var ikke blot direktør for Norges geografiske opmåling fra 1796; han havde en lang, dokumenteret praksis som militær korttegner før og efter denne udnævnelse. Det gør Gedde-familiens adgang til militær kartografi og opmåling til en dokumenteret familiekontekst, ikke kun en antagelse ud fra hans embede.
+
+**Grænsen for konklusionen:** Det dokumenterer ikke, at Ove Samuel selv tegnede kortet fra 1796 eller kortene fra 1805. Kartverkets attribution til “Ove Samuel” og “Ove Samuel Gedde” skal fortsat gengives som katalogoplysninger, indtil originalkortenes signaturer og opmålingsjournaler er kontrolleret. Ingen personrelationer eller kanoniske datoer ændres.
+
+
+## Tre generationer: Samuel Christopher, Hans Christopher og Gedde-sønnerne
+
+En sammenstilling af Riksarkivets topografiske kataloger med biografiske kilder peger nu på en dokumenteret militær kartografisk familietradition gennem mindst tre generationer:
+
+1. **Samuel Christopher Gedde (1691–1766)** — Riksarkivet registrerer ham som tegner af GKK 157, et kort over Fredrikstad-fæstningen. Kortet er katalogiseret i 1750, og titlen henviser til det approberede fæstningsanlæg fra 1743. Anker identificerer Samuel Christopher som far til Hans Christopher. Denne identifikation er meget sandsynlig ud fra navn og kronologi, men bør endeligt kontrolleres mod originalkortets proveniens/signatur.
+2. **Hans Christopher Gedde (1738–1817)** — katalogiseret som tegner eller medtegner af militære kort og fæstningsplaner ved Elverum (1773), Fredrikstad (1775, 1787 og 1793) og Akershus fæstning (ca. 1802). Han blev direktør for Norges geografiske opmåling fra 1796.
+3. **Næste generation** — Frederik Christopher (1781–1840) blev ingeniørofficer og arbejdede som kartografisk tegner og kanal-/havneinspektør. Ove Samuel er også søn i Hans Christophers familiegren ifølge de genealogiske kilder og er katalogført ved Kartverkets 1796- og 1805-kort; hans personlige udførelse er stadig ikke dokumenteret.
+
+Den samlede kildepost er `gedde-familie-korttradition-tre-generationer-1743-1802.md`, med direkte links til Riksarkivets kataloger og biografiske kilder.
+
+**Vigtig sondring:** Dette er et stærkt fund om familiens militære kort- og ingeniørtradition. Det må ikke bruges som indirekte bevis for, at Ove Samuel tegnede 1796- eller 1805-kortene. De katalogførte attributioner skal stadig efterprøves i originalerne.

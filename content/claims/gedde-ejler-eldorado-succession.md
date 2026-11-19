@@ -6,12 +6,15 @@ title: "Ejler Gedde i Eldorado: argentinske retsakter, ægteskab og dansk koloni
 status: "needs"
 validation: "foreløbigt spor"
 sources:
+  - "argentina-eduardo-gedde-pioneer-roles"
   - "argentina-gedde-ejler-legal-and-community-records"
+  - "gallero-2018-eldorado-company-land-registers"
+  - "argentina-eldorado-ejler-street-neighbourhood"
 ---
 
 ## Foreløbigt spor
 
-To officielle publikationer i Misiones-provinsens Boletín Oficial (2005 og 2023) samt en lokalhistorisk artikel om den argentinsk-danske forening La Esperanza giver et nyt, konkret forskningsspor om Ejler Gedde i Eldorado, Argentina.
+To officielle publikationer i Misiones-provinsens Boletín Oficial (2005 og 2023), en lokalhistorisk artikel om den argentinsk-danske forening La Esperanza og en ny akademisk beskrivelse af Eldorados originale jordarkiv giver et konkret forskningsspor om Ejler Gedde og den mulige forbindelse til pioneren Eduard/Edouard Gedde.
 
 ### Hvad kilderne faktisk viser
 
@@ -35,6 +38,20 @@ De nye argentinske kilder gør det muligt at undersøge, om Eduardo i foreningsh
 4. Find Ejlers døds-/begravelsesindførsel og eventuelt skifte-/successionssag; brug den til at identificere alle navngivne arvinger uden at antage, at de er børn.
 5. Sammenhold Eduardo/Eduard/Edouard/Emil med danske udvandringsregistre, Udvandrerarkivets fotos B9886 og B9790 samt argentinske kirkebøger og koloniregistre.
 6. Kontakt Club Argentino Danés La Esperanza eller Museo Municipal de Eldorado for medlemslister, kirkegårdsregistre, nekrologer og historiske fotos med billedtekster.
+
+## Nyt afgørende arkivspor: selskabets originale jordregistre
+
+María Cecilia Gallero dokumenterer i sin akademiske undersøgelse af Eldorados kolonisering, at det private arkiv efter Compañía Colonización y Explotación de Bosques Eldorado bevarede salgsprotokol, købskontraktmapper og lotkartoteker. Registrerede felter omfatter køberens fulde navn, lotnummer, areal, salgsdato, skødedato, pris, overdragelser og i nogle tilfælde skødeoplysninger. Hendes database omfatter 1.710 solgte Eldorado-lodder fra 1919 til 1969. Dette er en direkte originalkildevej til at teste, om Eduard/Edouard Gedde købte jord, og om Ejlers senere ejendom kan føres tilbage til samme lod eller familie. Se claim 'gedde-eldorado-company-archive.md' og kildepost 'gallero-2018-eldorado-company-land-registers.md'.
+
+Eldorados kommunale historiske arkiv beskriver desuden 1925-kortet med 413 lodder og ejerens efternavn samt senere kort fra 1927, ca. 1930, 1938, 1939 og 1945: https://historia.eldorado.gob.ar/planos-historicos. Disse kort skal bruges som geografisk krydsreference, ikke som erstatning for skøderne.
+
+## Lokalt stednavnsspor
+
+En international kirkelig bulletin fra 2000 angiver Centro Bíblico Dabar på adressen “Ejler Gedde 145” i Eldorado. Lokalpressen omtaler Barrio Gedde i 2004, og en 2021-rapport om byrådets møde omtaler kvarteret og vejene omkring Avenida Formosa/Salto F. Peixoto — samme gadehjørne som 2023-ediktets ejendom. Det gør Ejler Gedde til en del af Eldorados lokale stednavne- og ejendomshistorie. Det beviser dog ikke, at gaden eller kvarteret blev opkaldt efter netop den Ejler Gedde, der nævnes i retssagen; den oprindelige kommunale navngivningsbeslutning mangler.
+
+## Mulig ældre generation: Eduardo Gedde
+
+Et nyt lokalt dossier samler tre spor: Eduardo Gedde talte ved grundstensceremonien for Martín Lutero-skolen i 1932; en kopi af CEEL's 2012-medlemsregister viser GEDDE EDUARDO (distrikt A), medlem nr. 64, registreret 26.09.1951; og Club Argentino Danés' historie siger, at Eduardo blev afløst af Ejler som kirkegårdsansvarlig. Det kan pege på en nær familierelation, men hverken identitet mellem Eduardo/Eduard/Edouard eller far-søn-forholdet er bevist. Se 'eduardo-gedde-eldorado-pioneer-identity.md'.
 
 ## Evidensstatus
 
