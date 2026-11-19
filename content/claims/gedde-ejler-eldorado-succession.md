@@ -24,11 +24,11 @@ To officielle publikationer i Misiones-provinsens Boletín Oficial (2005 og 2023
 
 ### Betydning for slægtsforskningen
 
-Den eksisterende Gedde-forskning peger på Emil Ludvig Edvard Gedde (1876–1951), som ifølge familiens dokumentation udvandrede til Argentina i 1922, og på en søn Ejler, der blev i Argentina. En trykt argentinsk-dansk kilde omtaler samtidig en Eduard/Edouard Gedde i Eldorado.
+Den eksisterende Gedde-forskning peger på familiepersonposten Emil Ludvig Edvard Gedde (1876–1951), som ifølge familiens dokumentation udvandrede til Argentina i 1922, samt på en særskilt trykt agronom Emil Ludvig Eduard Gedde (1875–1954), der blev plantageejer i Eldorado. Om disse to kildespor beskriver samme mand, er endnu uafklaret. Familiens dossier angiver en søn Ejler, der blev i Argentina. En trykt argentinsk-dansk kilde omtaler samtidig en Eduard/Edouard Gedde i Eldorado.
 
-De nye argentinske kilder gør det muligt at undersøge, om Eduardo i foreningshistorien er den samme person som Eduard/Edouard i De Danskes Vej og Emil Ludvig Edvard i den danske familieoptegnelse; om Ejler Gedde i de argentinske retsakter er den allerede registrerede søn af Emil; og om Ejler og Andresa Rotela fik børn eller andre efterkommere, som ikke er med i det danske træ.
+De nye argentinske kilder gør det muligt at undersøge, om Eduardo i foreningshistorien er den samme person som Eduard/Edouard i De Danskes Vej og Emil Ludvig Edvard i den danske familieoptegnelse; om Ejler Gedde i de argentinske retsakter er søn af den 1875–1954 agronom, eller om forbindelsen til familiepersonposten s_p54_3 skal forstås anderledes; og om Ejler og Andresa Rotela fik børn eller andre efterkommere, som ikke er med i det danske træ.
 
-**Ingen af disse identiteter eller forældre-/børn-relationer er endnu bevist.** Især indkaldelsen af “successors” er ikke i sig selv dokumentation for, at Ejler havde biologiske børn. Der er ikke oprettet nye personer eller ændret relationer.
+**Forbindelsen mellem Eduardo/Eduard og den 1875–1954 agronom er meget stærk; forbindelsen til familiepersonposten s_p54_3 og faderskabet til Ejler er endnu ikke bevist.** Især indkaldelsen af “successors” er ikke i sig selv dokumentation for, at Ejler havde biologiske børn. Der er ikke oprettet nye personer eller ændret relationer.
 
 ### Prioriteret næste kildearbejde
 

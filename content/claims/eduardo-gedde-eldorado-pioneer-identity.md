@@ -4,7 +4,7 @@ schema: claim/v1
 branch: "Gedde"
 title: "Eduardo Gedde: mulig forbindelse mellem Eldorados pioner og Ejler Gedde"
 status: "needs"
-validation: "flere uafhængige lokale spor; identitet og slægtskab uafklaret"
+validation: "identiteten med 1944-biografiens Eldorado-pioner er meget sandsynlig; forbindelsen til Ejler er uafklaret"
 sources:
   - "argentina-eduardo-gedde-pioneer-roles"
   - "gallero-2018-eldorado-company-land-registers"
@@ -99,3 +99,10 @@ Vigtigt: Den nye trykte person må ikke automatisk sammenlægges med træets **E
 Begge spor har landbrugsuddannelse og Argentina/Eldorado-tilknytning. Det kan være samme mand med fejl i familieoptegnelsen, men to forskellige mænd kan ikke udelukkes. 1944-biografien omtaler desuden hans far som “Forp. E.G.” (forpagter E.G.), hvilket giver et nyt testbart spor til Tyrstinggaards kirkebog og de eksisterende forældre `p54`/`p55`.
 
 **Disposition:** Identiteten med `s_p54_3` forbliver uafklaret. Ingen personposter, fødsels-/dødsdatoer eller slægtskabsrelationer er ændret. Se den særskilte claim om identitetskonflikten.
+
+
+## Dødsdato og identitetsafgrænsning — 19. juli 1954
+
+*Danske Landbrugskandidater* (1955), s. 90, nr. 711, anfører Emil Ludvig Eduard Gedde, født 15.11.1875, død 19.07.1954. Niels Friis' *Dødsfald i Danmark i Aaret 1954* (1956), s. 14, anfører uafhængigt “Gedde, Eduard, Plantageejer, Eldorado, Missiones, 19.7.”. Dette styrker identifikationen af den 1875–1954 agronom med Eldorados ældre Eduardo.
+
+Det må fortsat holdes adskilt fra spørgsmålet om, hvorvidt denne mand er identisk med den eksisterende familietræsperson s_p54_3 (født 1876, død 1951). Den særlige claim om identitetskonflikten fastholder begge muligheder, indtil Link-Lives-originaler og kirkebøger er kontrolleret. Forbindelsen mellem Eduardo og Ejler er fortsat uafklaret.
