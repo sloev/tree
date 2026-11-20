@@ -150,3 +150,27 @@ The current public person record `g_kresten` lists `father: p28` and `mother: g_
 This claim is specifically about **which woman named Marthe** was Kresten's mother. The earlier task wording “Do not encode Lars Thomsen Larsen as father until the original entry or corroborating evidence supports it” is inconsistent with the current public person record and should not be treated as a live instruction to erase that existing attribution. At the same time, a person-card field or an index summary is not proof of biological paternity. Keep the categories distinct: the later church/civil records may establish **recorded or legal paternity**; biological paternity is a separate claim. The underlying Link-Lives entries have not been visually inspected in this pass, and no canonical person or relationship field is changed here.
 
 **Status:** the identity of Marthe and the maternity claim remain unresolved. No original archival image or case entry was inspected; no person identity, parent-child edge or canonical record was changed.
+
+
+## Note: 20 November 2026 — original source of the Langeland death-index entry identified
+
+The earlier compiled-index quotation can now be tied to its actual public file: **Byhistorisk Arkiv, Langeland Kommune, *Døde og begravede på Langeland 1870–1899***, https://byarkivet.langelandkommune.dk/p/Byhistorisk_Arkiv/Links/D%C3%B8de%20p%C3%A5%20Langeland/D%C3%B8dsfald-p%C3%A5-Langeland-1870-1899%281%29.pdf.
+
+The PDF states that its Magleby register covers 1870–1891 and identifies the compiler/maintainer as Anders Gadegaard; it records that the register contains 7,750 people and was last updated 3 July 2025. Its alphabetic entry reads:
+
+> Jørgensen, Marthe Christine, tjenestepige, Søndenbro, Magleby, 26. + 27/8-1878.(MA)
+
+This confirms the exact wording and provenance of the previously cited compiled-index entry. It is **not** the original churchbook entry: the PDF does not supply a folio, page or image reference, and it does not prove the identity of this woman or her relationship to Kresten.
+
+**Age check:** if candidate B's reported birth date, 9 October 1852, is correct, she was 25 years, 10 months and 18 days old on 27 August 1878. The index's age 26 is therefore a small discrepancy; the reason (rounding, source transcription or a different birth date) is not established. It neither confirms nor rules out candidate B.
+
+### Route to the original parish entry
+
+Rigsarkivet's current churchbook guide says the relevant 1814–1960 churchbooks are scanned and available through Arkivalieronline; 1814–1892 counterministerial books are scanned in colour and divided by sex and event. The 1878 burial should therefore be checked in the **women's deaths** section of the Magleby Sogn churchbook, alongside the 1852 birth/baptism entry in the same parish's books. Official guides:
+
+- Rigsarkivet, *Kirkebøger — kom godt i gang*: https://www.rigsarkivet.dk/vejledning/kirkeboger-borgerlige-vielser-m-m/kirkeboeger-kom-godt-i-gang/
+- Arkivalieronline, *Kirkebøger fra hele landet*: https://arkivalieronline.rigsarkivet.dk/da/geo/geo-collection/5
+
+The collection guide confirms the available event categories and scanning conventions, but the exact 1878 volume/image and folio have **not** yet been identified or inspected. No primary burial entry was viewed in this pass.
+
+**Status unchanged:** the index supports a candidate lead and a precise parish-record search, not a verified identity or maternity claim. No canonical person or relationship data changed.
