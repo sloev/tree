@@ -223,3 +223,11 @@ The automatic Nyhedsbulletin entry for claim commit `f35da20b19a421439d70f464143
 - Public file updated: `content/claims/gerda-kresten-mother.md` (commit `28141886ed68b85288bd1a50883d3554789a3e03`; re-fetched at blob `c870711c625ffd2de105207c89f8a288ff078006`, 177 lines). Generated `content/activity.md` includes the claim commit (blob `a20191f02d3586cc290084071ccd60a93a995788`).
 - Validation: GitHub Actions workflow runs `44740852201` and `44740852202` for the claim commit completed successfully; generated-site/bulletin build advanced `main` to `81c17d1b0e9ab42f826df6ba510ba16cb3a7be5f`. No local build or independent browser/site check was run.
 - Next: search the 1875–1979 death-notice name index for Marthe Christine Jørgensen / Marthe Jørgensen and follow any reference into the 1856–1919 protocol; in parallel search the 1867–1917 alimentation name index for a 1877 case. Then inspect the original 1878 burial and 1852 baptism images and the separate Søndenbro movement list. Do not convert any catalogue lead into a parent-child edge.
+
+
+## 2026-11-20 — Daily public-tree audit / source-image blocker — ChatGPT automation — DONE
+
+- Branch rule: verified only existing `main`; no other branch was read or modified. Startup files read: README.md, AGENT_PROTOCOL.yaml, AGENTS.md, research_method.md, full coop.log.md, and the active Gerda/Langeland claim state.
+- Research result: no public genealogical claim was changed. The open Marthe/Jørgensen identity question remains blocked on original archival image inspection; catalogue descriptions and compiled indexes are leads, not proof. No person, date, parent-child edge, generated file or private-vault content was modified.
+- Verification: public repository remained publication-only. No private captures, review tiles, OCR, DNA/match data or living-person identifiers were copied here. No local build or live Pages check was performed in this GitHub-only pass.
+- Next handoff: inspect the Langeland death-notice/alimentation indexes and original Magleby churchbook entries at record/image level before changing the claim.
