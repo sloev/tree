@@ -126,3 +126,27 @@ Catalogue references (accessed 19 November 2026):
 **What the catalogue proves and does not prove:** it establishes that the archive describes these series, their creator, titles and date ranges. No package, folio, name entry or case contents have been inspected. It does not prove that Marthe, Lars or Kresten appears in either series or that any record confirms parentage.
 
 **Revised next order:** (1) locate and inspect the 1867–1917 name index; (2) follow any relevant entry into the 1857–1917 alimentation journal; (3) inspect the 1875–1919 Søndenbro district movement list; (4) compare the original 1878 burial and 1852 baptism entries. Keep all identity and relationship hypotheses open until the actual entries are read.
+
+
+## Note: 20 November 2026 — Langeland death-notice index found; paternal claim scope clarified
+
+A further DAISY check found a second, independent archival route for candidate B's reported death on 27 August 1878. Under the correct archive creator, **Langeland Herredsfoged (1684–1919)**, the catalogue lists:
+
+- **Dødsanmeldelsesprotokol, 1856–1919** — the date range includes 1878.
+- **Navneregister til dødsanmeldelsesprotokol, 1875–1979** — a name-index series that also includes 1878.
+
+The archive-creator list places these alongside the previously identified **Alimentationsjournal, 1857–1917**, **Navneregister til alimentationsjournal, 1867–1917**, and **Til- og afgangsliste for Søndenbro distrikt, Magleby sogn, 1875–1919**.
+
+**Source:** Rigsarkivet, DAISY, *Langeland Herredsfoged — arkivserier* (accessed 20 November 2026), https://daisy.rigsarkivet.dk/arkivskabers_arkivserier?a=langeland+her&b=skifte&c=&d=1&dir=&e=2019&ed=&ep=&epid=&es=&f=&faid=&g=&gsc=&h=&heid=3237358&henid=3237358&int=&m2rid=&meid=&ngid=857927&ngnid=&side=&sort= . The relevant catalogue rows are *Dødsanmeldelsesprotokol* (1856–1919; a second series 1901–1970), *Navneregister til dødsanmeldelsesprotokol* (1875–1979), and the previously recorded alimentation and Søndenbro movement series.
+
+**What this establishes:** the correct archive creator's catalogue describes these record series and date spans. It does **not** establish that Marthe appears in the index, that an individual case survives, what information the register contains, or that any record proves maternity. No package, folio, name entry or case contents have been inspected.
+
+**Research priority:** first search the 1875–1979 death-notice name index for Marthe Christine Jørgensen / Marthe Jørgensen and follow any reference into the 1856–1919 protocol. In parallel, retain the 1867–1917 alimentation name index as the best route to a possible maintenance case concerning Kresten's 1877 birth. Then inspect the original 1878 burial, 1852 baptism and the separate Søndenbro district movement list. Do not assume the death-notice and alimentation series describe the same proceeding.
+
+### Scope clarification — recorded paternity is separate from this maternal-identity claim
+
+The current public person record `g_kresten` lists `father: p28` and `mother: g_marthe`, with `conf: "record"`; its source list cites the 1877 baptism, 1893 confirmation and 1907 marriage. The person record says the later confirmation and marriage name Lars Thomsen Larsen as father. The `p28` record also describes Kresten as Lars's non-marital son, while noting that the family-chart field is partly obscured.
+
+This claim is specifically about **which woman named Marthe** was Kresten's mother. The earlier task wording “Do not encode Lars Thomsen Larsen as father until the original entry or corroborating evidence supports it” is inconsistent with the current public person record and should not be treated as a live instruction to erase that existing attribution. At the same time, a person-card field or an index summary is not proof of biological paternity. Keep the categories distinct: the later church/civil records may establish **recorded or legal paternity**; biological paternity is a separate claim. The underlying Link-Lives entries have not been visually inspected in this pass, and no canonical person or relationship field is changed here.
+
+**Status:** the identity of Marthe and the maternity claim remain unresolved. No original archival image or case entry was inspected; no person identity, parent-child edge or canonical record was changed.
