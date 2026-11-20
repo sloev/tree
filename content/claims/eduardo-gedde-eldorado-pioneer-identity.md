@@ -19,7 +19,7 @@ sources:
 ## Sammenfaldende spor
 
 - **1932:** Eduardo Gedde talte på vegne af Eldorados evangeliske menighed ved grundstensnedlæggelsen til den lutherske Martín Lutero-skole. Den senere lokalhistorie henviser til menighedens 1974-historik, s. 10.
-- **1951:** Et gengivet CEEL-medlemsregister, Padrón 2012, viser “GEDDE EDUARDO (distrikt A)” som medlem nr. 64 med registreringsdato 26. september 1951. CEEL blev grundlagt 5. august 1951 og havde 179 medlemmer ved afslutningen af første regnskabsår; Eduardo A. står dermed blandt de tidlige medlemmer, blot 52 dage efter stiftelsen. Det er en konkret søgenøgle til originalt medlemskort og ansøgning.
+- **1951:** Et gengivet CEEL-medlemsregister, Padrón 2012, viser “GEDDE EDUARDO” (distrikt A) som medlem nr. 64 med registreringsdato 26. september 1951. CEEL blev grundlagt 5. august 1951 og havde 179 medlemmer ved afslutningen af første regnskabsår; Eduardo står dermed blandt de tidlige medlemmer, blot 52 dage efter stiftelsen. Det er en konkret søgenøgle til originalt medlemskort og ansøgning. **Korrektion:** Kolonnen “A” er distriktskode, ikke et påvist mellemnavn eller initial. Formen “Eduardo A. Gedde” bør ikke bruges, medmindre en uafhængig kilde bekræfter initialet. (Foreløbigt spor baseret på tabelkorrektion af tredjepartskopi.)
 - **Dansk koloni:** Club Argentino Danés' centenariehistorie siger, at Eduardo Gedde modtog Dannebrogordenen og var ansvarlig for den danske kirkegård, indtil Ejler Gedde overtog opgaven.
 - **Dansk pionerkilde:** De Danskes Vej III, s. 80, omtaler “Plantageejer Eduard Gedde, Eldorado” og “Landbrugskandidaterne Edouard Gedde og Karl Schrøder”.
 
@@ -27,7 +27,7 @@ sources:
 
 Det kan være den manglende bro mellem den danske pioner Edouard/Eduard Gedde, den lokalt fremtrædende Eduardo Gedde og Ejler Gedde. Den tidsmæssige rækkefølge — Eduardo i 1932 og 1951, senere afløst af Ejler i kirkegårdsrollen — gør en nær familierelation til en rimelig arbejdshypotese.
 
-**Men der er endnu ikke bevis for, at Eduardo A. er den samme mand som Edouard/Eduard, eller at han var Ejlers far.** Overtagelsen af kirkegårdsopgaven er ikke i sig selv en forældre-barn-relation.
+**Men der er endnu ikke bevis for, at Eduardo er den samme mand som Edouard/Eduard, eller at han var Ejlers far.** Overtagelsen af kirkegårdsopgaven er ikke i sig selv en forældre-barn-relation.
 
 ## Afgørende arkivhandling
 
@@ -36,7 +36,7 @@ Bestil CEEL's originale medlemskort/ansøgning for medlem nr. 64, GEDDE EDUARDO 
 ## Evidensstatus
 
 - Eduardo Gedde ved skolens grundstensceremoni i 1932: **sekundær lokalhistorie med angivet 1974-kilde**.
-- Eduardo Gedde, CEEL-medlem nr.64, registreret 26.09.1951: **tredjepartshostet kopi af medlemsregister; original skal kontrolleres**.
+- Eduardo Gedde, CEEL-medlem nr.64, registreret 26.09.1951 (navn GEDDE EDUARDO, distrikt A): **tredjepartshostet kopi af medlemsregister; original skal kontrolleres. Foreløbigt spor.**
 - Eduardo før Ejler som kirkegårdsansvarlig: **sekundær foreningshistorie**.
 - Eduard/Edouard/Eduardo som én person: **arbejdshypotese**.
 - Eduardo som Ejlers far: **uafklaret hypotese**.
@@ -65,7 +65,7 @@ Det er også **meget sandsynligt**, at han er den Eduardo Gedde, som ifølge Fra
 
 Club Argentino Danés' centenariehistorie siger, at Eduardo Gedde var ansvarlig for den danske kirkegård og senere blev afløst af Ejler Gedde. Den nye 1944-kilde gør det nu muligt at identificere den ældre Eduardo med stor sandsynlighed som Emil Ludvig Eduard Gedde. **Den beviser dog ikke, at Eduardo var Ejlers far.** Kirkegårdsrollen kan være overdraget inden for familien, men også gennem en forening.
 
-CEEL-kopien fra 2012 viser “GEDDE EDUARDO A.” som medlem nr. 64, registreret 26.09.1951. Det kan være samme mand, som ville være 75 år, men originalt medlemskort med fødselsdato, adresse og underskrift skal indhentes, før identiteten knyttes sammen.
+CEEL-kopien fra 2012 viser “GEDDE EDUARDO” (distrikt A) som medlem nr. 64, registreret 26.09.1951. Det kan være samme mand, som ville være 75 år, men originalt medlemskort med fødselsdato, adresse og underskrift skal indhentes, før identiteten knyttes sammen. Distriktskoden A er ikke et mellemnavn.
 
 ### Næste afgørende kontroller
 
@@ -74,7 +74,7 @@ CEEL-kopien fra 2012 viser “GEDDE EDUARDO A.” som medlem nr. 64, registreret
 3. Søg i danske kirkebøger og familie-/skiftearkiver efter Ejlers forældre og sammenhold med Emil Ludvig Eduard Geddes familieoplysninger.
 4. Find grav- eller dødsoplysninger for Emil/Eduard i Eldorado og Misiones.
 
-**Foreløbig konklusion:** Emil Ludvig Eduard Gedde (1875–?) er nu stærkt identificeret som den danske agronom, der arbejdede på St. Croix og blev plantageejer og fremtrædende foreningsperson i Eldorado. Hans identitet som Eduardo fra 1932 er meget sandsynlig; CEEL-medlem nr. 64 er fortsat en kandidat; faderskab til Ejler er uafklaret.
+**Foreløbig konklusion:** Emil Ludvig Eduard Gedde (1875–1954) er nu stærkt identificeret som den danske agronom, der arbejdede på St. Croix og blev plantageejer og fremtrædende foreningsperson i Eldorado. Hans identitet som Eduardo fra 1932 er meget sandsynlig; CEEL-medlem nr. 64 er fortsat en kandidat; faderskab til Ejler er uafklaret.
 
 
 ## Dødsdato nu dokumenteret: 19. juli 1954
@@ -88,7 +88,7 @@ Den samlede biografiske livsramme er nu **15.11.1875–19.07.1954**. Sammen med 
 
 ## Uafhængig dødsnotits: Eduard Gedde, plantageejer i Eldorado, 19. juli 1954
 
-En tredje kilde giver en bemærkelsesværdig krydskontrol. Niels Friis' *Dødsfald i Danmark i Aaret 1954*, tillæg til *Personalhistorisk Tidsskrift*, 76. årgang (1956), trykt s. 14, har posten: **“Gedde, Eduard, Plantageejer, Eldorado, Missiones, 19.7.”** Kilden er en dødsfaldsfortegnelse og anfører både erhverv, Eldorado/Misiones og datoen 19. juli. <Cite refs={["turn262941view0","turn468917view0"]} />
+En tredje kilde giver en bemærkelsesværdig krydskontrol. Niels Friis' *Dødsfald i Danmark i Aaret 1954*, tillæg til *Personalhistorisk Tidsskrift*, 76. årgang (1956), trykt s. 14, har posten: **“Gedde, Eduard, Plantageejer, Eldorado, Missiones, 19.7.”** Kilden er en dødsfaldsfortegnelse og anfører både erhverv, Eldorado/Misiones og datoen 19. juli.
 
 Sammenholdt med 1944-biografien (fuldt navn Emil Ludvig Eduard Gedde, plantageejer i Argentina fra 1923) og 1955-fortegnelsen (fuldt navn, født 15.11.1875, død 19.07.1954) er identifikationen nu **meget stærk**: tre forskellige trykte kilder forbinder den fulde danske agronom med plantageejeren Eduard Gedde i Eldorado og den præcise dødsdato.
 
