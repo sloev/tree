@@ -22,9 +22,9 @@ person_ids:
 ## Hvad kilderne viser
 
 **1. Else Gedde Jensen var tjenestepige hos Sophus Petersens bror.**
-I folketællingen 5. november 1930 for Nybøl sogn (skema 4, familie 3) står *Jensen, Gedde*, født **31/8 1912**, ugift, med stillingen *Pige*. Fødselsdatoen er nøjagtig den samme som Else Gedde Jensens (født 31. august 1912 i Lejrskov). Hun boede i husstanden hos gårdmand **Jørgen Petersen**, født 2[6]/9 (dagstallet er utydeligt), gift 1929.
+I folketællingen 5. november 1930 for Nybøl sogn (skema 4, familie 3) står *Jensen, Gedde*, født **31/8 1912**, ugift, med stillingen *Pige*. Fødselsdatoen er nøjagtig den samme som Else Gedde Jensens (født 31. august 1912 i Lejrskov). Hun boede i husstanden hos gårdmand **Jørgen Petersen**, født 20/9, gift 1929.
 
-Nybøl kirkebogs dåbsregister 1904 nr. 12 viser, at Jørgen blev født 26. september 1904 og døbt 7. oktober 1904 som ægte søn af gårdmand (*Hufner*) Peter Petersen og Anna Catharine Marie født Petersen i Nybøl. Det er de samme forældre som Sophus Petersens (dåb 1903 nr. 12). **Jørgen var altså Sophus' helbror.** Folketællingen skriver årstallet 1905; måned, sogn og forældre stemmer med dåben fra 1904.
+Nybøl kirkebogs dåbsregister 1904 nr. 12 viser, at Jørgen blev født 20. september 1904 og døbt 7. oktober 1904 som ægte søn af gårdmand (*Hufner*) Peter Petersen og Anna Catharine Marie født Petersen i Nybøl. Det er de samme forældre som Sophus Petersens (dåb 1903 nr. 12). **Jørgen var altså Sophus' helbror.** Folketællingen skriver årstallet 1905; måned, sogn og forældre stemmer med dåben fra 1904.
 
 **2. Sophus var ugift og opholdt sig på Dalum Landbrugsskole.**
 I forældrenes husstand (skema 6, familie 12: gårdejer Peter Petersen, født 22/9 1866 i Nybøl, og Anna Cathrine Marie, født 12/8 1869 i Dybbøl) står *Petersen, Sophus*, født 28/6 1903 i Nybøl, ugift, søn, landmand. Han er markeret som midlertidigt fraværende med opholdsstedet **Dalum Landbrugsskole**. Skemaets forside angiver netop én midlertidigt fraværende person.
