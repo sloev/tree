@@ -818,17 +818,8 @@ Distinguishing these hypotheses requires:
 DNA EVIDENCE — WHAT HAS BEEN DONE, WHAT IS POSSIBLE
 ==============================================================================
 
-Per leads/family-tree.md:
-  "En af Vivis døtre har taget en DNA-test hos MyHeritage. Hun har 12.093
-   matches; de 94 nærmeste er gennemgået."
-
-Of the 94 closest matches:
-  • One grandchild of Lis Frederiksen (Else-side descendant) shares
-    66.5 cM with Vivis's daughter — consistent with half-cousin through
-    Else Gedde Jensen (so ELSE-side is confirmed).
-  • "Mange matches på Gerdas side (Langeland) passer med Cousin Finder"
-    — Gerda Frederiksen was Lorenz's wife; her Langeland side is
-    confirmed.
+A descendant of Lorenz has taken a DNA test. Match-level details are kept
+in the private research repository and are not published here.
 
 The DNA question that has NOT been resolved:
   • Are there matches to descendants of Wilhelm Krogh's siblings (Krogh
@@ -1046,7 +1037,7 @@ D. DNA TESTING
    2. Compile list of descendants of Sophus Petersen's siblings
       (Lorenz Peter, Peter, Jørgen, Marie, Hans, Viggo) and of Sophus's
       three documented daughters.
-   3. Cross-reference against MyHeritage DNA matches (12,093 matches
+   3. Cross-reference against the private DNA match list (
       already in the family database).
    4. Paternal-side matches (i.e., those NOT matching Else-side) are
       the relevant set.
@@ -1056,7 +1047,7 @@ D. DNA TESTING
       Petersen-side, that supports Wilhelm as biological father.
    7. Paternity can be confirmed with high probability if a known
       descendant of Wilhelm Krogh's siblings OR of Sophus Petersen's
-      siblings/daughters shares >100 cM with Lorenz's descendants.
+      siblings/daughters shares a substantial amount of DNA with Lorenz's descendants.
 
 E. ALTERNATIVE DNA APPROACH
    • Y-DNA test of a male-line descendant of Lorenz Heinrich Frederiksen
@@ -1205,8 +1196,7 @@ C. Rigsarkivet, Arkivalieronline (online)
 
 D. MyHeritage DNA
    Website: MyHeritage DNA (specific match/report URL not preserved)
-   Already done: One of Vivi's daughters has 12,093 matches, 94 closest
-   reviewed.
+   Already done: a descendant has tested; details are private.
    Remaining work: Cross-reference against Krogh-side and Petersen-side
    descendant lists.
 
