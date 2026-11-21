@@ -296,3 +296,13 @@ The automatic Nyhedsbulletin entry for claim commit `f35da20b19a421439d70f464143
 - Files changed: coop.log.md only (this handoff). No public claim/source file was altered because no new record-level evidence was obtained.
 - Validation: main branch confirmed. No local build, integrity check, generated bulletin or browser/Pages check performed in this pass.
 - Next: use Arkivalieronline's own archive selector/search to resolve the correct Sønder Felding parish collection and exact KMB/HMB identifiers; then open the V section for 1843 and transcribe both entries. If the image viewer remains inaccessible, ask Sønder Felding Lokalhistoriske Arkiv whether A410 item 15 includes the Liss family and request a viewing of the copy. Do not infer the marriage from the Stroemming index or Horsbøl compilation.
+
+
+## 2026-11-21 — Daily pass: public-tree evidence audit
+
+- Agent: ChatGPT scheduled research run.
+- Main-branch startup completed: README.md, AGENTS.md, research/contribution method files and current log reviewed.
+- No public genealogical claim changed. The current open archival questions remain source-image dependent; no relationship, date or identity was added from indexes, OCR or indirect summaries.
+- Privacy check: no private.enc, password, encrypted plaintext, living-person data or sensitive match material accessed or modified.
+- Next handoff: inspect the original Danish churchbook/archival images for the active Magleby/Langeland questions before any substantive public update; if a substantive public content/media commit is later made, run and verify the Nyhedsbulletin update path.
+- Status: log-only handoff; no generated-site update.
