@@ -231,3 +231,27 @@ The automatic Nyhedsbulletin entry for claim commit `f35da20b19a421439d70f464143
 - Research result: no public genealogical claim was changed. The open Marthe/Jørgensen identity question remains blocked on original archival image inspection; catalogue descriptions and compiled indexes are leads, not proof. No person, date, parent-child edge, generated file or private-vault content was modified.
 - Verification: public repository remained publication-only. No private captures, review tiles, OCR, DNA/match data or living-person identifiers were copied here. No local build or live Pages check was performed in this GitHub-only pass.
 - Next handoff: inspect the Langeland death-notice/alimentation indexes and original Magleby churchbook entries at record/image level before changing the claim.
+
+## 2026-11-21 — Liss line: Sønder Felding 1843 marriage source route
+
+**Repository and instructions:** Confirmed `sloev/tree` on `main`. Read complete `AGENTS.md`, `research_method.md`, `AGENT_PROTOCOL.yaml`, and latest `coop.log.md` entries. Attempted the legacy `leads/README.md` and grandparent dossier paths named in the automation; those paths are absent on current `main`. Followed the repository's current `content/claims` / `content/sources` Markdown workflow. Read the Liss archive-check dossier, 1843 marriage claim, related baptism claims, and relevant public person records. No private vault or living-person data accessed.
+
+**Research question:** Is the 1843 Sønder Felding marriage of the working couple Jens Peder Larsen and Kjersten Frederiksdatter the correct record, and can it resolve the conflicting spouse name Mette Pedersdatter?
+
+**New source checks:**
+- Horsbøl's compiled family page (dat16.htm, lines 415–439) lists Kjersten **Frederichsdatter**, born 20 April 1822 and baptised 28 April 1822 in Assing, married 8 October 1843 in Sønder Felding to Jens Peder Larsen; it gives his 1812 birth and 1870 death and Kjersten's later 1872 marriage to Niels Pedersen. It also lists daughter Mette Marie. This is a secondary compiled genealogy without primary citations; it supports the search hypothesis but does not prove the marriage or resolve Mette Pedersdatter.
+- Arkiv.dk record 4192887, archive A410 (Jens and Eli Kjær person archive), lists item 15 as a copy of the Sønder Felding churchbook 1826–1860 for **some families**, and item 22 as genealogical/local-history notes 1786–1844. It proves that these materials are catalogued, not that the Liss family is included or that the 1843 entry is present.
+- A third-party Stroemming index identifies a Sønder Felding **KMB 1836–1856 FKVDJTA** through an unrelated 1855 birth/baptism entry (p. 43, image 47, no. 5). This gives a concrete volume identifier covering 1843, but it is a finding aid, not the original register and not an entry for the target couple. The parallel HMB series remains to be identified.
+- Arkivvejviser lists the public contact for Sønder Felding Lokalhistoriske Arkiv (mail@sdrfeldingarkiv.dk; Thursday 15:30–17:30). No contact was sent.
+- Rigsarkivet's official churchbook guide directs pre-1874 searches to parish archives and HMB/KMB. Link-Lives returned 502; no original 1843 KMB/HMB image or A410 transcript was inspected.
+
+**Assessment:** The 1843 marriage and spouse identity remain **unresolved**. No person identity or parent-child edge changed, and no canonical data was edited. The best next action is to inspect the V section of Sønder Felding KMB 1836–1856, locate the HMB parallel, and ask the local archive which families are included in A410 item 15.
+
+**Files created/updated:**
+- Sources: `content/sources/liss-sf-a410.md` (commit `e67021bf4fe963c5ca9cd11b400cacf3d5186377`), `liss-horsboel-dat16.md` (`be13c61167d29c41e3070cd38be0eba09248a17a`), `liss-stroemming-kmb-1836-1856.md` (`3e1a08bd89ed228b00ca8d2ab4bcb82e914ce8bb`), `liss-sf-archive-contact.md` (`a114128c45b14aea2cda4cb2197d3833a345e158`).
+- Claim: `content/claims/liss-marriage.md` (`4936e64f85e8366c68a16130e4fba90556d357f3`), now with explicit `validation: lead` and source IDs.
+- Dossier/checklist: `content/claims/liss-open-archive-checks.md` (`d717933f8aa870327fc8ced17acb16d5adefe30c`).
+
+**Validation:** Each new source file was fetched back and compared byte-for-byte after creation. The claim and dossier were committed sequentially to `main`. No local build was run in this GitHub-only pass; check GitHub Actions, generated bulletin, content validation and Pages deployment before claiming those checks passed.
+
+**Next handoff:** Open the original 1843 marriage in the Sønder Felding KMB 1836–1856 (and identify its HMB counterpart); inspect A410 item 15 or request its family list; transcribe names, ages, residences, fathers and witnesses; preserve any discrepancy between the two registers. Do not change canonical data until the original evidence resolves the identity question.
