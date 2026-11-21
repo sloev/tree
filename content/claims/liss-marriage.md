@@ -4,6 +4,13 @@ schema: claim/v1
 branch: "Liss Pedersen"
 title: "Liss' vielse i 1843: uoverensstemmelse om ægtefællens navn"
 status: "needs"
+validation: "lead"
+sources:
+  - "liss-sf-a410"
+  - "liss-horsboel-dat16"
+  - "liss-stroemming-kmb-1836-1856"
+  - "liss-sf-archive-contact"
+  - "source_1"
 person_ids:
   - "a46"
   - "a47"
@@ -24,7 +31,7 @@ Den originale vielsesindførsel og sammenligning af alder, bopæl, forlovere og 
 
 ## Next
 
-Find vielsesindførslen i Sønder Felding og registrér dens præcise ordlyd og billedhenvisning.
+Find 1843-vielsen i Sønder Felding KMB 1836–1856 FKVDJTA (V-afsnittet), og identificér den parallelle HMB. Sammenhold begge indførsler ordret. Spørg derefter Sønder Felding Lokalhistoriske Arkiv, hvilke familier der er omfattet af A410 nr. 15, og om afskriften kan konsulteres.
 
 ## Note: Nyt arkivspor: Sønder Felding Lokalhistoriske Arkivs Jens og Eli Kjær-personarkiv
 
@@ -45,3 +52,18 @@ Rigsarkivets vejledning oplyser, at kirkebøger fra ca. 1814–1960 normalt find
 Rigsarkivets generelle vejledning siger, at kirkebøger fra ca. 1814–1960 normalt er ført i parallelle hoved- og kontraministerialbøger, systematisk med særskilt vielsesafsnit. Sønder Felding Sogns ældre enesteministerialbog slutter i 1815, så vielsen i 1843 skal findes i den efterfølgende kirkebogsserie og kontrolleres i begge parallelle bøger, hvis begge er bevaret. Arkiv.dk A410 (Jens og Eli Kjær-personarkivet) er et supplerende lokalt arkivspor, men katalogposten er ikke selve vielsesindførslen. Den navnemæssige konflikt Kjersten Frederiksdatter/Mette Pedersdatter er derfor stadig åben; hverken arkivkataloget eller slægtssiden kan afgøre den uden originalens ordlyd.
 
 *Provenance: Rigsarkivets kirkebogsvejledning, Arkivalieronline ENB-katalog og Arkiv.dk A410, kontrolleret 17.11.2026; vielsesindførslen er endnu ikke læst. · imported_on: 2026-11-17*
+
+
+## Note: 2026-11-21 — konkret bogserie og lokalarkivets adgangsvej
+
+Horsbøls sammenstillede slægtsside (linje 415–439) anfører Kjersten **Frederichsdatter** som født 20.04.1822 og døbt 28.04.1822 i Assing, gift 08.10.1843 i Sønder Felding med Jens Peder Larsen. Den anfører Jens Peder som født/døbt 29.02.1812 og død 25.05.1870, og Kjersten som senere gift med Niels Pedersen 11.06.1872; Mette Marie nævnes blandt børnene. Dette er en sekundær, sammenstillet slægtsside uden primærkildehenvisninger. Den støtter en søgehypotese, men beviser ikke vielsen og afklarer ikke den modstridende navneform Mette Pedersdatter.
+
+En uafhængig tredjeparts-kildeoversigt identificerer Sønder Felding **KMB 1836–1856 FKVDJTA** gennem en anden persons 1855-fødsel/dåb (s. 43, opslag 47, nr. 5). Det er en konkret bogidentifikation, som omfatter 1843, men ikke en indførsel for dette par. Hovedministerialbogens parallelle serie er endnu ikke identificeret.
+
+Arkiv.dk A410 (post 4192887) registrerer i Jens og Eli Kjær-personarkivet både nr. 15, en afskrift af Sønder Felding kirkebog 1826–1860 for **nogle familier**, og nr. 22, slægts-/lokalhistoriske optegnelser 1786–1844. Kataloget viser ikke, hvilke familier der er omfattet; materialet er ikke gennemset. Arkivvejviseren angiver Sønder Felding Lokalhistoriske Arkivs offentlige kontaktadresse **mail@sdrfeldingarkiv.dk** og torsdag 15:30–17:30. Ingen henvendelse er sendt.
+
+Rigsarkivets vejledning siger, at kirkebøger før 1874 skal findes i sognets arkiv og kontrolleres i hoved- og kontraministerialbog. Link-Lives' direkte side returnerede 502 i denne runde; ingen original KMB/HMB-side eller afskrift fra A410 blev læst. **Vielsen og ægtefælleidentiteten forbliver uafklarede.**
+
+Kilderegistreringer: [A410](../sources/liss-sf-a410.md), [Horsbøl](../sources/liss-horsboel-dat16.md), [KMB-finding aid](../sources/liss-stroemming-kmb-1836-1856.md), [lokalarkivets kontaktoplysninger](../sources/liss-sf-archive-contact.md).
+
+*Provenance: Arkiv.dk A410, Horsbøl dat16.htm, Stroemming-kildeoversigt, Arkivvejviseren og Rigsarkivets kirkebogsvejledning kontrolleret 21.11.2026. Ingen originalindførsel gennemset; ingen relation ændret.*
