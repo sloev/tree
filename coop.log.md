@@ -255,3 +255,31 @@ The automatic Nyhedsbulletin entry for claim commit `f35da20b19a421439d70f464143
 **Validation:** Each new source file was fetched back and compared byte-for-byte after creation. The claim and dossier were committed sequentially to `main`. No local build was run in this GitHub-only pass; check GitHub Actions, generated bulletin, content validation and Pages deployment before claiming those checks passed.
 
 **Next handoff:** Open the original 1843 marriage in the Sønder Felding KMB 1836–1856 (and identify its HMB counterpart); inspect A410 item 15 or request its family list; transcribe names, ages, residences, fathers and witnesses; preserve any discrepancy between the two registers. Do not change canonical data until the original evidence resolves the identity question.
+
+
+## 2026-11-21 — Liss line: identify one Mette Pedersdatter namesake; bounded local-history check
+
+**Status:** DONE / HANDOFF. Confirmed repository `sloev/tree`, branch `main`. Read AGENTS.md, AGENT_PROTOCOL.yaml, README.md, research_method.md, the complete coordination log, the active Liss marriage claim, archive-check claim, related public people/source records, and current public activity state. The legacy `leads/README.md` and grandparent dossier paths named in the automation are absent on current `main`; used the repository's current `content/claims` and `content/sources` workspaces. No private-vault or living-person data accessed.
+
+**Research question:** Can the conflicting name “Mette Pedersdatter” be tied to a specific local woman, and does that help resolve the 1843 Sønder Felding marriage?
+
+**New findings:**
+- A Strømming third-party genealogy profile identifies one Mette Pedersdatter born about 15 March 1797 in Skave, Skarrild Sogn, baptised 20 March 1797, married 10 October 1830 in Skarrild to Peder Clausen, and deceased 6 October 1886 in Bardehede. Peder Clausen's profile in the same database reports death on 18 February 1887. Both profiles cite Skarrild KMB 1814–1846 FKVD, p. 89, 1830 no. 4, new image 7, for the marriage: https://www.stroemming.dk/genealogy/gedweb/Public/da/Details/Details-I5814.html and https://www.stroemming.dk/genealogy/gedweb/Public/da/Details/Details-I5813.html.
+- This is one compiled database, not independent corroboration; the original 1830 marriage and 1887 death entries were not inspected. It is a **possible namesake**, not identified as the Mette in the conflicting Liss material. If it is the same woman, her recorded marriage to Peder Clausen and his reported survival until 1887 strongly conflict with her being Jens Peder Larsen's wife in 1843. Another Mette Pedersdatter remains possible.
+- DS-Wiki links Skarrild's churchbooks to Arkivalieronline collection `epid=17126352`; the Sønder Felding collection is `epid=17126832`. Both viewer URLs loaded only a minimal shell in this access route; no book list or page image was exposed. This is an access limitation, not a negative finding about the records.
+- Checked the 110-page 1966 local history *Brudstykker af Sdr. Feldings Sogns Historie* by Jens Kjær, Eli Kjær and S. K. Risbjerg Thomsen: https://slaegtsbibliotek.dk/2026/945301.pdf. Text-layer searches for `Kjersten`, `Frederichsdatter` and `Mette Pedersdatter` returned no hits. The `Jens Peder Larsen` search produced a false positive on p. 52: a historical list separately names Jens Jacobsen and Peder Larsen Bøuel, not the target couple. No page-by-page visual inspection was performed. The library notice restricts PDFs of copyrighted works to personal use; no local copy was made.
+- The 1843 marriage remains unresolved. The new Mette lead narrows one possible namesake but does not establish that she is the person in the conflicting upload or prove the spouse's identity.
+
+**Files created/updated:**
+- Created `content/sources/liss-mette-pedersdatter-1797.md` (commit `2dea54d88d3e4769ecaa66aaeb8e53ef5545b083`).
+- Created `content/sources/liss-brudstykker-1966.md` (commit `4a95ec9f26b232330e4d9dc30c525b1ef5e39ead`).
+- Updated `content/claims/liss-marriage.md` (commit `c47291656614c6f6491032296aa7a163a890dcc6`): added both sources and the namesake/negative-search note. Claim remains `validation: lead`.
+- No canonical person record, marriage relation, parent-child edge, GEDCOM or generated output changed.
+
+**Validation:** Re-fetch all three changed files and verify the source IDs, claim note, and GitHub commit metadata. Check GitHub Actions and the generated `content/activity.md` bulletin after the content commits. No local build was available in this GitHub-only pass; no deployment or browser verification is claimed.
+
+**HANDOFF / next actions:**
+1. Inspect Skarrild KMB 1814–1846, p. 89, 1830 no. 4, image 7, to verify the Mette/Peder marriage and identify Mette's residence/age/status; inspect Peder's 1887 death entry.
+2. Locate the V section around 8 October 1843 in Sønder Felding KMB 1836–1856 FKVDJTA and identify the parallel HMB; transcribe both entries exactly.
+3. Ask Sønder Felding Lokalhistoriske Arkiv whether the Liss family is among the families in A410 item 15 and whether the 1826–1860 transcript can be consulted. No email has been sent.
+4. Do not change canonical identity or spouse data until the original 1843 entry and any material contradiction have been checked.
