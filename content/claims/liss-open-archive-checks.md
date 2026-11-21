@@ -42,3 +42,10 @@ Arbejd hvert spørgsmål i dets eget spor; registrér også negative søgninger 
 - The broader West Jutland dossier contains other heath-parish families, but only retain them here if an exact record connects them to the Pedersen/Christensen ancestors listed above.
 
 *Provenance: Tidligere Liss-dossier, fuldt indarbejdet 16.11.2026 · imported_on: 2026-11-16*
+
+
+## Note: 2026-11-21 — Sønder Felding 1843-vielsen
+
+Den konkrete kontraministerialbog kan nu søges som **KMB 1836–1856 FKVDJTA**; en tredjeparts-kildeoversigt bruger den til en 1855-indførsel i Sønder Felding (s. 43, opslag 47, nr. 5). Det er kun en bogidentifikation, ikke vielsesindførslen. Find V-afsnittet omkring 8. oktober 1843 og identificér den parallelle hovedministerialbog. Arkiv.dk A410, nr. 15, er en mulig afskrift af kirkebogen 1826–1860 for nogle familier, men kataloget viser ikke hvilke. Spørg Sønder Felding Lokalhistoriske Arkiv (mail@sdrfeldingarkiv.dk), om Liss-familien er blandt dem, og om afskriften kan ses. Horsbøls side støtter Kjersten Frederichsdatter/Jens Peder Larsen som arbejdshypotese, men er sekundær. Ingen originalindførsel blev læst; ægtefælleidentiteten forbliver åben.
+
+*Provenance: Arkiv.dk A410, Horsbøl dat16.htm, Stroemming KMB-indeks og Arkivvejviseren, kontrolleret 21.11.2026.*
