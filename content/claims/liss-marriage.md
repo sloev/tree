@@ -11,6 +11,8 @@ sources:
   - "liss-stroemming-kmb-1836-1856"
   - "liss-sf-archive-contact"
   - "source_1"
+  - "liss-mette-pedersdatter-1797"
+  - "liss-brudstykker-1966"
 person_ids:
   - "a46"
   - "a47"
@@ -27,11 +29,11 @@ Den aktive Liss-dossier beskriver navneafvigelsen og peger på kirkebogens viels
 
 ## Missing
 
-Den originale vielsesindførsel og sammenligning af alder, bopæl, forlovere og forældrenavne med de øvrige personer i husstanden.
+Den originale 1843-vielsesindførsel og sammenligning af alder, bopæl, forlovere og forældrenavne med de øvrige personer i husstanden. Den citerede 1830-vielse for navnesøsteren Mette Pedersdatter skal også kontrolleres i original Skarrild KMB, før hun kan udelukkes som identisk med den modstridende Mette.
 
 ## Next
 
-Find 1843-vielsen i Sønder Felding KMB 1836–1856 FKVDJTA (V-afsnittet), og identificér den parallelle HMB. Sammenhold begge indførsler ordret. Spørg derefter Sønder Felding Lokalhistoriske Arkiv, hvilke familier der er omfattet af A410 nr. 15, og om afskriften kan konsulteres.
+Find 1843-vielsen i Sønder Felding KMB 1836–1856 FKVDJTA (V-afsnittet), og identificér den parallelle HMB. Sammenhold begge indførsler ordret. Kontrollér særskilt Skarrild KMB 1814–1846, s. 89, 1830 nr. 4, opslag ny 7, for navnesøsteren Mette Pedersdatter og Peder Clausen. Spørg derefter Sønder Felding Lokalhistoriske Arkiv, hvilke familier der er omfattet af A410 nr. 15, og om afskriften kan konsulteres.
 
 ## Note: Nyt arkivspor: Sønder Felding Lokalhistoriske Arkivs Jens og Eli Kjær-personarkiv
 
@@ -67,3 +69,20 @@ Rigsarkivets vejledning siger, at kirkebøger før 1874 skal findes i sognets ar
 Kilderegistreringer: [A410](../sources/liss-sf-a410.md), [Horsbøl](../sources/liss-horsboel-dat16.md), [KMB-finding aid](../sources/liss-stroemming-kmb-1836-1856.md), [lokalarkivets kontaktoplysninger](../sources/liss-sf-archive-contact.md).
 
 *Provenance: Arkiv.dk A410, Horsbøl dat16.htm, Stroemming-kildeoversigt, Arkivvejviseren og Rigsarkivets kirkebogsvejledning kontrolleret 21.11.2026. Ingen originalindførsel gennemset; ingen relation ændret.*
+
+
+## Note: 2026-11-21 — Mette Pedersdatter-navnesøster og afgrænset lokalhistorisk søgning
+
+En Strømming-profil identificerer én konkret Mette Pedersdatter i nærområdet: født ca. 15.03.1797 i Skave, Skarrild Sogn; døbt 20.03.1797; gift 10.10.1830 i Skarrild med Peder Clausen; død 06.10.1886 i Bardehede. Peder Clausen-profilen i samme database angiver hans død 18.02.1887. Begge profiler henviser til Skarrild KMB 1814–1846 FKVD, s. 89, 1830 nr. 4, opslag ny 7. Dette er én og samme tredjeparts-kompilation, ikke to uafhængige kilder, og originalindførslerne er endnu ikke læst.
+
+Denne Mette er en **mulig navnesøster**, ikke identificeret som den Mette, der optræder i den modstridende Liss-oplysning. Hvis det er samme kvinde, taler hendes registrerede ægteskab med Peder Clausen fra 1830 og hans registrerede død i 1887 stærkt imod, at hun også var Jens Peder Larsens hustru i 1843. En anden Mette Pedersdatter kan ikke udelukkes. Den præcise identitet i den modstridende oplysning er fortsat ukendt.
+
+Arkivalieronline-samlingen for Skarrild kan nås via `epid=17126352`; Sønder Felding via `epid=17126832`. Begge billedviser-sider returnerede i denne adgang kun en minimal viewer-skal uden bogliste eller sidebilleder. Det er en adgangsbegrænsning; ingen originalside blev inspiceret.
+
+Den digitale 1966-udgave af *Brudstykker af Sdr. Feldings Sogns Historie* (Jens Kjær, Eli Kjær og S. K. Risbjerg Thomsen) blev tekstsøgt. `Kjersten`, `Frederichsdatter` og `Mette Pedersdatter` gav ingen træffere. Søgningen efter `Jens Peder Larsen` gav en falsk positiv på s. 52: en historisk navneliste nævner separat Jens Jacobsen og Peder Larsen Bøuel; det er ikke Liss-parret. Ingen sidevisuel gennemgang blev udført. Bibliotekets ophavsretsmeddelelse begrænser PDF'er af værker med ophavsret til personligt brug; ingen lokal kopi blev lavet.
+
+**Vurdering:** Dette afgrænser én mulig navneforveksling, men afgør ikke 1843-vielsen. Claimens validation forbliver `lead`; ingen personidentitet, ægteskabsrelation eller canonical data ændret.
+
+Kilderegistreringer: [Mette Pedersdatter-navnesøster](../sources/liss-mette-pedersdatter-1797.md), [Brudstykker 1966 — negativ søgning](../sources/liss-brudstykker-1966.md).
+
+*Provenance: Strømming-profiler for Mette Pedersdatter og Peder Clausen; DS-Wiki/Arkivalieronline-samlingslinks; Danskernes Historie Online PDF af *Brudstykker af Sdr. Feldings Sogns Historie*, kontrolleret 21.11.2026. Ingen original vielsesindførsel blev læst.*
