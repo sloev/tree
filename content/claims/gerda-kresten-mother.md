@@ -19,11 +19,11 @@ Dossieret nævner dåbsindekset LL:12-16292169 og folketællingerne 1880 og 1890
 
 ## Missing
 
-Den fulde dåbsindførsel med alder, bopæl, tjenestested og marginalnoter samt kandidat B's begravelse og tilgangsliste 1877.
+Den fulde dåbsindførsel med alder, bopæl, tjenestested og marginalnoter; the relevant entry in the Magleby–Tryggelev midwife protocol (the catalogue lists two overlapping 1877 ranges); and candidate B's original burial entry. No original image has yet been inspected.
 
 ## Next
 
-Læs dåbsbilledet først, og sammenhold derefter begravelse, tilgangsliste og kandidat A's folketælling 1921.
+Inspect both Magleby–Tryggelev midwife-protocol ranges covering 1877 first, then the original baptism and burial entries; compare the mother's name, marital status and locality before changing either candidate identity.
 
 ## Note: 3. Kresten Henriksen Jørgensen — possible non-marital child
 
@@ -174,3 +174,18 @@ Rigsarkivet's current churchbook guide says the relevant 1814–1960 churchbooks
 The collection guide confirms the available event categories and scanning conventions, but the exact 1878 volume/image and folio have **not** yet been identified or inspected. No primary burial entry was viewed in this pass.
 
 **Status unchanged:** the index supports a candidate lead and a precise parish-record search, not a verified identity or maternity claim. No canonical person or relationship data changed.
+
+
+## Note: 22 November 2026 — exact Magleby–Tryggelev midwife protocol located
+
+A targeted search of Rigsarkivet's official Arkivalieronline catalogue located the exact geographically relevant series: **Langeland Lægedistrikt, Jordemoderprotokol for Magleby-Tryggelev distrikt (1862–1915)**, catalogue/series page identifier **20413180**. The page lists subranges including **1872–1877** and **1877–1883**. Kresten's reported birth date, 3 November 1877, lies in the calendar year shared by these two catalogue ranges; do not assume which volume contains the entry. Both range links were opened, but each returned only the Arkivalieronline viewer shell (iframe/logo) through this access route. No page image, folio or entry was inspected.
+
+Rigsarkivet's official guide says that from 1861 midwives were required to keep protocols of individual births. It describes the expected fields as including the mother's name, married/unmarried status, previous births, birth details and time, and parish/district. This makes the Magleby–Tryggelev series a particularly promising direct source for distinguishing the two Marthe candidates, if the relevant entry survives. The guide describes the record type; it does not prove what the 1877 entry says.
+
+**Source records:** [Langeland Lægedistrikt — Magleby-Tryggelev midwife protocol, 1862–1915](../sources/langeland-jordemoderprotokol-magleby-tryggelev-1862-1915.md); [Rigsarkivet — midwife/fødsel protocols guide](../sources/rigsarkivet-jordemoderprotokoller-guide.md). Original catalogue URL and access limitation are recorded in each source record; no local copy is available.
+
+**What this establishes:** the official catalogue describes a midwife-protocol series for the correct district and dates, and Rigsarkivet's guide explains why the record type may identify the mother. It does **not** establish that a particular entry for 3 November 1877 survives, which subrange contains it, what the mother's name is, or whether either candidate is Kresten's mother.
+
+**Next:** obtain access to both 1877 subranges, inspect the original page images visually, and transcribe the full entry diplomatically. Compare name, marital status, residence, date/time and any remarks with the baptism, candidate B's 1878 burial and any alimentation case. Keep candidates A, B and a third woman open until the record is read.
+
+**Status:** new archival route = strong lead; maternity and identity remain unresolved. No canonical person or relationship data changed.
