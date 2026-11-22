@@ -6,6 +6,7 @@ title: "Kresten Jørgensen: hvilken Marthe var hans mor?"
 status: "hypothesis"
 person_ids:
   - "g_kresten"
+  - "g_marthe"
   - "p28"
 ---
 
