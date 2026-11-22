@@ -331,3 +331,11 @@ The automatic Nyhedsbulletin entry for claim commit `f35da20b19a421439d70f464143
 - Build output: 501 people, 111 research claims, 54 mapped places, 11 photos; `family-tree.ged` written; 1,586 local HTML links checked across 793 pages, **0 broken**. Generated-output commit: https://github.com/sloev/tree/commit/53a3f5377cd7aa54520c6d7c4b40126d5d314c4a. Pages deployment for that commit completed successfully: https://github.com/sloev/tree/actions/runs/45026049030. This verifies the CI build/deployment workflow, not a separate manual browser inspection.
 - External-source checker warnings were unrelated to the two new records: existing Langeland death-index PDF URL in `content/claims/gerda-lango-children.md` returned 404; HathiTrust and Academia links returned 403; Fyens.dk returned 503; NMBU/Trap/Szczecin links were unverified due DNS/SSL errors. The new midwife-protocol and Rigsarkivet-guide sources are deliberately recorded with `local_copy: null` because the original viewer did not expose images and the guide remains at its official site; no false local copies were made.
 - No canonical person/relationship data changed. The Gerda maternity hypothesis remains unresolved pending inspection of both 1877 subranges.
+
+
+## 2026-11-22 14:36 UTC — DONE/HANDOFF — AGENT-ChatGPT-Automation
+
+- Repository/branch: sloev/tree, main. Startup protocol, repository instructions and current coordination state were inspected before work.
+- No speculative public genealogical edits made. No private plaintext, encrypted vault content, DNA/match data, raw captures, page images or living-person identifiers were copied across repositories.
+- Public repository remains publication-only; no claim/source/person record changed because no independently verified archival reading was available in this run.
+- Next handoff: inspect original Danish archival images for the open research questions before changing claims; verify Nyhedsbulletin only for substantive content changes.
