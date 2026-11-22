@@ -189,3 +189,12 @@ Rigsarkivet's official guide says that from 1861 midwives were required to keep 
 **Next:** obtain access to both 1877 subranges, inspect the original page images visually, and transcribe the full entry diplomatically. Compare name, marital status, residence, date/time and any remarks with the baptism, candidate B's 1878 burial and any alimentation case. Keep candidates A, B and a third woman open until the record is read.
 
 **Status:** new archival route = strong lead; maternity and identity remain unresolved. No canonical person or relationship data changed.
+
+
+## 22 November 2026 — second access check of the Magleby–Tryggelev viewer (bounded null)
+
+Reopened the official series page and followed both the 1872–1877 and 1877–1883 contents links. Through this access route, both still resolve to the same Arkivalieronline viewer endpoint (billedviser?epid=20413180) and expose only the viewer shell/iframe logo. No volume label, page image, folio, entry or diplomatic transcription is available in the returned page. A fresh exact-title search again surfaced the official series catalogue but no alternative public image or record copy.
+
+This is a bounded **access failure**, not evidence that either subrange or the 3 November 1877 birth entry is absent. The catalogue still establishes only the series description and date ranges; the Rigsarkivet guide still establishes only what a midwife protocol may record. No new fact about the identity of Marthe, Kresten's maternity or paternity was obtained. Candidates A, B and a possible third woman remain open; no canonical person or relationship data changed.
+
+**Next:** test the two catalogue ranges in a normal interactive Arkivalieronline browser session or request technical assistance from Rigsarkivet; inspect both ranges visually before transcribing the complete 3 November entry. If that remains blocked, seek an archive-assisted image consultation rather than substituting OCR or an index.
