@@ -198,3 +198,29 @@ Reopened the official series page and followed both the 1872–1877 and 1877–1
 This is a bounded **access failure**, not evidence that either subrange or the 3 November 1877 birth entry is absent. The catalogue still establishes only the series description and date ranges; the Rigsarkivet guide still establishes only what a midwife protocol may record. No new fact about the identity of Marthe, Kresten's maternity or paternity was obtained. Candidates A, B and a possible third woman remain open; no canonical person or relationship data changed.
 
 **Next:** test the two catalogue ranges in a normal interactive Arkivalieronline browser session or request technical assistance from Rigsarkivet; inspect both ranges visually before transcribing the complete 3 November entry. If that remains blocked, seek an archive-assisted image consultation rather than substituting OCR or an index.
+
+
+## Note: 22 November 2026 — three additional Langeland Herredsfoged archive routes
+
+A search of Rigsarkivet's official DAISY series list for **Langeland Herredsfoged (1684–1919)** identified three further record groups relevant to the open questions. The catalogue lists:
+
+- *Alimentationsjournal* **1857–1917**, with *Navneregister til alimentationsjournal* **1867–1917**.
+- *Dødsanmeldelsesprotokol* **1856–1919**, with *Navneregister til dødsanmeldelsesprotokol* **1875–1979**.
+- *Til- og afgangsliste for Søndenbro distrikt, Magleby sogn* **1875–1919**.
+
+These are **new archival search leads, not discoveries about the family**. No index entry, case, page or volume image has been inspected.
+
+**Why each matters:**
+1. The alimentation name index is the strongest new route for testing whether Lars Thomsen Larsen and/or Marthe Jørgensen were involved in a maintenance case relating to a child born outside marriage. Search both names and variants, then retrieve the journal entry if one is indexed.
+2. The death-notice name index may provide an independent administrative trail for the woman recorded in the local death index as Marthe Christine Jørgensen, tjenestepige, Søndenbro, who died 27 August 1878. It may help resolve identity or circumstances, but it cannot be assumed to name a child.
+3. The Søndenbro district arrival/departure list may clarify where Marthe, Lars or Kresten were resident around 1877–1880, and may expose a move that explains the foster placement. It may not cover every person or household event.
+
+The exact series list is the official DAISY catalogue for Langeland Herredsfoged: [source record](../sources/langeland-herredsfoged-alimentation-death-and-residence-registers.md). Its scope and limitations are recorded there. The catalogue establishes that the series are listed for these date ranges; it does not prove that a relevant case or entry survives, is name-indexed, or is digitised.
+
+**Updated research order:**
+1. Search the alimentation name index for Lars Thomsen Larsen and both Marthe name forms; retrieve any matching journal case.
+2. Search the death-notice name index for Marthe Jørgensen / Marthe Christine Jørgensen around 1878; retrieve the corresponding protocol entry.
+3. Inspect the Søndenbro arrival/departure list around 1877–1880.
+4. Continue to pursue the original 1877 baptism and the two overlapping 1877 midwife-protocol volumes; neither has been read.
+
+**Evidence disposition:** candidates A, B and a possible third woman remain open. The 1878 death-index entry still has an unresolved age discrepancy against candidate B's reported birth date. No maternity, paternity, person identity or canonical family edge is upgraded by this catalogue search.
