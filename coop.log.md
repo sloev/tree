@@ -389,3 +389,12 @@ No private raw captures, OCR, DNA/match material or living-person identifiers we
 **Validation:** branch `main` confirmed; source and claim writes used the latest fetched blob SHA sequentially. No canonical person/relationship data, GEDCOM, generated tree, or site output changed. No local build, test suite, GEDCOM validation, or browser/deployment verification was run. Living-person/private data were not accessed.
 
 **Next:** obtain and compare original Isgård G299 folios 58, 90 and 106, original Rolsøgård G302 folio 39, and the cited 1764 probate under the correct jurisdiction. Arkivalieronline viewer endpoints have returned only the viewer shell in this access route; use the archive selector/order process or request the exact original volumes from Rigsarkivet. Keep all parentage and identity links unresolved until the originals are read.
+
+
+## 2026-11-23 — Scheduled daily pass — public repository audit
+
+- Agent: ChatGPT scheduled research run.
+- Repository/branch: `sloev/tree`, `main`; verified `main` exists and read `AGENT_PROTOCOL.yaml`, `AGENTS.md`, `README.md`, `research_method.md` and the current log.
+- No public-safe genealogical claim was changed. The public repository remains publication-only; no original capture, OCR, page image, DNA/match data, living-person identifier, private vault content or encrypted plaintext was accessed or copied.
+- No substantive content/media commit was made, so no Nyhedsbulletin entry was required.
+- Next handoff: continue only from approved/public-safe evidence and preserve claim-level uncertainty.
