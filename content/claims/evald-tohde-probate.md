@@ -7,6 +7,9 @@ status: "needs"
 person_ids:
   - "p36"
 sources:
+  - "isgaard-g299-probate-index-1762-1812"
+  - "isgaard-g299-faesteregister-1719-1823"
+  - "rolsogaard-g302-probate-index-1778-1816"
 ---
 
 ## Claim
@@ -19,11 +22,11 @@ Evald-dossieret peger på Rolsøgård Gods, skifteprotokol G302, og skiftet i De
 
 ## Missing
 
-Originalt skifte fra 1764 efter Christen Christensen og originalen af Rolsøgård G302 nr. 11, 14. maj 1787, folio 39. Den præcise læsning af tilnavnet (Tohde?/Gårdsted?) og syntaksen i “afdødes stedbørn efter Christen Christensen” er uafklaret; det er ikke fastslået, om Karen og Claus er Christen Christensens biologiske børn, Niels Jensen Degns stedbørn eller i hvilket omfang de er hel-/halvsøskende. G299 nr. 56 er et publiceret uddrag. Original fol. 106 skal kontrollere personkredsen; det skal også bevises, om Niels Jensen i Vrinners er samme mand som Niels Jensen Degn i G302, og om Claus i 1775 er Claus Gaardsted i 1787. Karen Christensdatter efter Erik Hvol i G299 nr. 50 er en separat mulig navnebror.
+Originalt skifte fra 1764 efter Christen Christensen og originalen af Rolsøgård G302 nr. 11, 14. maj 1787, folio 39. Den præcise læsning af tilnavnet (Tohde?/Gårdsted?) og syntaksen i “afdødes stedbørn efter Christen Christensen” er uafklaret; det er ikke fastslået, om Karen og Claus er Christen Christensens biologiske børn, Niels Jensen Degns stedbørn eller i hvilket omfang de er hel-/halvsøskende. G299 nr. 56 er et publiceret uddrag. Original fol. 106 skal kontrollere personkredsen; det skal også bevises, om Niels Jensen i Vrinners er samme mand som Niels Jensen Degn i G302, og om Claus i 1775 er Claus Gaardsted i 1787. Det er uafklaret, om den voksne enke Karen Christensdatter efter Erik Hvol i G299 nr. 50 er samme person som datteren Karen i nr. 56/G302 nr. 11; hun må ikke sammenlægges uden originalkontrol. Datteren Karen, som nævnes i nr. 50, er et særskilt barn.
 
 ## Next
 
-Læs original G299 nr. 56, fol. 106, og G302 nr. 11, fol. 39, side om side. Undersøg det originale 1764-skifte, og sammenhold med G299 fæstebrev/protokol side 123 for Christen Christensen Gårdsted. Verificér om stedfaderen Niels Jensen i Vrinners i 1775 er Niels Jensen Degn i 1787, og om Claus (23 år i 1775) er Claus Gaardsted (forpagter på Vosnæsgård i 1787). Hold G299 nr. 50's enke Karen Christensdatter efter Erik Hvol adskilt.
+Læs original G299 nr. 56, fol. 106, og G302 nr. 11, fol. 39, side om side. Undersøg det originale 1764-skifte, og sammenhold med G299 fæstebrev/protokol side 123 for Christen Christensen Gårdsted. Verificér om stedfaderen Niels Jensen i Vrinners i 1775 er Niels Jensen Degn i 1787, og om Claus (23 år i 1775) er Claus Gaardsted (forpagter på Vosnæsgård i 1787). Sammenhold også G299 nr. 32, 50 og 56: afklar om den voksne enke efter Erik Hvol i nr. 50 er samme Karen som i nr. 56/G302 nr. 11; den yngre datter Karen i nr. 50 er en særskilt person. Ingen identitet må slås sammen før originalerne er læst.
 
 ## Note: 13. Clarification: Tohde was a stepfather, not an established biological father
 
@@ -131,3 +134,23 @@ Den publicerede G299-navneliste/skifteuddrag 1762–1812 blev tidligere kontroll
 **Afgrænsning:** Ingen original G299-registerside, G299-skifteside eller G302 fol. 39 blev læst i denne webkontrol. Ingen personrelationer eller GEDCOM-felter ændres. Det konkrete næste trin er at åbne G299's originale register og protokol via Arkivalieronline, søge under Christen/Christian Christensen samt varianterne Gårdsted/Tohde/Tode og kontrollere alle Dejret-/ladefogedposter omkring 1764. Hvis originalskanningen ikke kan tilgås, skal den præcise arkivsignatur bestilles hos Rigsarkivet.
 
 *Provenance: DS-Wiki Isgård og Rolsøgård; Danskernes Historie Online/Isgård fæsteregister; Rigsarkivets skiftevejledning, kontrolleret 18.11.2026. Dette er en arkivlocator-afklaring, ikke et nyt genealogisk fund.*
+
+
+## Note: 23.11.2026 — afgrænset identitetskontrol af Karen i G299 nr. 32, 50 og 56
+
+De publicerede G299-uddrag blev genåbnet og sammenholdt med G302-uddraget. Kontrollen præciserer identitetsspørgsmålet, men giver ikke grundlag for at ændre nogen familieforbindelse:
+
+1. **G299 nr. 32, 19.2.1772, fol. 58:** Rasmus Christensen i Dejret har ifølge uddraget en søster Karen Christensdatter, enke efter Erik Sørensen Hvol. Hendes lavværge er Jens Pedersen. Den kantede parentes/udfyldning om Erik er redaktionel.
+2. **G299 nr. 50, 2.6.1774, fol. 90:** Karen Christensdatter i Dejret er enke efter Erik [Sørensen] Hvol og har en datter Karen; datterens formynder angives som farbroderen Søren Sørensen Danmand. Den voksne enke og hendes datter er to forskellige personer.
+3. **G299 nr. 56, 27.1.1775, fol. 106:** Maren Jensdatter i Bjødstrup nævner sin søster Kirsten Jensdatter, gift med ladefoged Christen Christensen, og deres seks børn, herunder Claus og Karen. Karen opholder sig hos sin stedfader Niels Jensen i Vrinners.
+4. **G302 nr. 11, 14.5.1787, fol. 39:** I Niels Jensen Degns bo omtales arv til afdødes stedbørn efter Christen Christensen Tohde? foged i Dejret, herunder datteren Karen Christensdatter; hendes lavværge er broderen Claus Gaardsted.
+
+G299 nr. 32 og nr. 50 ser sandsynligvis ud til at handle om samme voksne enke efter Erik Hvol, fordi navn, sted og ægteskabsstatus stemmer. De tre G299-uddrag stammer dog fra samme publicerede sekundære kompilering og er ikke uafhængige kilder. Den voksne enke i nr. 50 **kan** være samme Karen som datteren i nr. 56 og den Karen, der omtales i G302 nr. 11: opholdet hos stedfaderen Niels Jensen i Vrinners og broderen Claus passer med den senere G302-personkreds. Men nr. 56 nævner ikke Erik Hvol eller den yngre datter, og nr. 50 nævner ikke Kirsten Jensdatter, Niels Jensen eller Claus. En navnebror er derfor stadig mulig. Den yngre datter Karen i nr. 50 må under alle omstændigheder ikke forveksles med sin voksne mor.
+
+**Opdateret vurdering:** identiteten mellem den voksne enke i G299 nr. 50 og Karen i nr. 56/G302 nr. 11 er uafklaret; den er hverken bevist eller afvist. Den tidligere formulering om en “separat mulig navnebror” var en forsigtighedsregel, ikke et dokumenteret afslag på identitet. Den må nu læses som “mulig samme person eller navnebror — ikke afgjort”.
+
+Kildekritisk begrænsning: G299- og G302-PDF'erne oplyser selv, at person- og stednavne er standardiserede, at oplysninger i skarpe parenteser ikke står i originalprotokollen, og at der ikke er læst korrektur. Ingen af originalfolierne 58, 90, 106 eller G302 fol. 39 er læst; det omtalte 1764-skifte er fortsat ikke lokaliseret i en original protokol.
+
+Tre kildeposter er nu oprettet under `content/sources/` for G299-skifteuddraget, G299-fæsteregisteret og G302-skifteuddraget og knyttet til denne claim. Ingen personidentitet eller relation er opgraderet til etableret; ingen forældre-/søskendekanter, kanoniske data eller genererede filer er ændret.
+
+*Provenance: genåbning og sammenstilling af de publicerede G299/G302-PDF'er 23.11.2026; originale arkivalier ikke tilgået.*
