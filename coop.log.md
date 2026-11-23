@@ -363,3 +363,29 @@ Updated `content/claims/gerda-kresten-mother.md` with the new routes and a prior
 The two identical Kresten bulletin rows already visible in `content/activity.md` are tied to two distinct commits on 22 November (13:09:43Z and 14:17:30Z), each touching the same claim path. The bulletin automation emits one row per substantive commit; this is duplicate-looking publication history, not two separate claims or two genealogical findings. The history was left intact rather than deleting an audit entry. The new public content changes should receive their own automatic bulletin entry; verify it and the build before treating publication as complete.
 
 No private raw captures, OCR, DNA/match material or living-person identifiers were accessed or published. No original Magleby churchbook, midwife-protocol, alimentation or death-notice entry was inspected. Build and site deployment were not run or verified in this session.
+
+
+## 2026-11-23 — Evald line: G299/G302 source audit and Karen identity question — ChatGPT — DONE / HANDOFF
+
+**Repository/branch:** confirmed `sloev/tree`, branch `main` (only branch listed). Current repository instructions were read in full: `AGENTS.md`, `AGENT_PROTOCOL.yaml`, and `research_method.md`. The legacy `leads/README.md` and four `leads/grandparent-*.md` paths are absent on current `main`; the current instructions define `content/claims/` and `content/sources/` as the public research layer. The active Evald claim `content/claims/evald-tohde-probate.md` was used as the relevant workspace. Public generated data was checked; no private-vault material was accessed.
+
+**Research question:** Is the adult Karen Christensdatter, widow after Erik Sørensen Hvol in Isgård G299 nr. 32/50, the same woman as the Karen named among the children of Kirsten Jensdatter and bailiff Christen Christensen in G299 nr. 56 and as Karen Christensdatter in Rolsøgård G302 nr. 11?
+
+**Source reinspection and interpretation:**
+- Hanne Vinter Henriksen's published G299 index/abstracts were reopened. Nr. 32 (19 February 1772, fol. 58) identifies a sister Karen Christensdatter, widow after Erik [Sørensen] Hvol; nr. 50 (2 June 1774, fol. 90) identifies Karen Christensdatter in Dejret, widow after Erik [Sørensen] Hvol, with a daughter Karen whose guardian is her paternal uncle Søren Sørensen Danmand; nr. 56 (27 January 1775, fol. 106) lists Kirsten Jensdatter married to bailiff Christen Christensen and six children, including Claus and Karen, with Karen staying at her stepfather Niels Jensen in Vrinners.
+- The separate G302 published extract, nr. 11 (14 May 1787, fol. 39), refers to Niels Jensen Degn's stepchildren after Christen Christensen Tohde? foged in Dejret, including daughter Karen Christensdatter, with brother Claus Gaardsted as guardian.
+- The G299 nr. 32 and nr. 50 references likely concern the same adult widow, but the 1774 daughter Karen is a separate child. The adult widow in nr. 50 could be the Karen in nr. 56/G302 nr. 11 because the name, Vrinners stepfather and Claus sibling clues are compatible; however the extracts do not explicitly connect these entries. A namesake remains possible. This is an unresolved identity question, not an established relationship.
+- Both PDFs state that person/place names are standardized, bracketed information is not in the original protocol, and the extracts have not been proofread. G299 entries are one compilation, not independent sources. No original folios were inspected.
+
+**Files changed (sequentially on main):**
+- Created `content/sources/isgaard-g299-probate-index-1762-1812.md` — commit `faac2a9ff1feff19f73ac60ebda2e9d1efa4d618`.
+- Created `content/sources/isgaard-g299-faesteregister-1719-1823.md` — commit `f716a01696fa648e3c0e9e4f2a42d6a19f24576f`.
+- Created `content/sources/rolsogaard-g302-probate-index-1778-1816.md` — commit `6d4f6d06cf1d3b8626ae23886562e7d1940ceacd`.
+- Updated `content/claims/evald-tohde-probate.md` with the source IDs, a clarified Missing/Next statement and the bounded identity reassessment — commit `09cd655d160a8a7d5abc1645bd0bbc5c8058afe1`.
+- Appending this handoff separately.
+
+**What the sources prove / do not prove:** the secondary G299 register identifies a 1750 Dejret lease-register entry for Christen Christensen Gårdsted, formerly a bailiff at Rolsøgård, page 123. The G299 abstracts report the 1772/1774/1775 family details above. The G302 abstract reports the 1787 inheritance wording. None of these secondary sources proves that the 1750 Christen is the 1764 decedent, that the adult Karen in nr. 50 is the Karen in nr. 56/1787, or any biological parentage. The 1764 original probate remains unlocated and unread.
+
+**Validation:** branch `main` confirmed; source and claim writes used the latest fetched blob SHA sequentially. No canonical person/relationship data, GEDCOM, generated tree, or site output changed. No local build, test suite, GEDCOM validation, or browser/deployment verification was run. Living-person/private data were not accessed.
+
+**Next:** obtain and compare original Isgård G299 folios 58, 90 and 106, original Rolsøgård G302 folio 39, and the cited 1764 probate under the correct jurisdiction. Arkivalieronline viewer endpoints have returned only the viewer shell in this access route; use the archive selector/order process or request the exact original volumes from Rigsarkivet. Keep all parentage and identity links unresolved until the originals are read.
