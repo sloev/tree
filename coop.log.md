@@ -407,3 +407,11 @@ No private raw captures, OCR, DNA/match material or living-person identifiers we
 - Result: No public genealogical claim or generated site file was changed. Original source-image verification remains required for the active archival questions; no relationship, date, identity, private-vault or encrypted data was changed.
 - Files: this log only.
 - Next: continue only from original Danish archival images or archive-provided facsimiles; keep unresolved identity and parentage questions open.
+
+## 2026-11-25 — Agent: ChatGPT (scheduled pass)
+
+- Branch: main; main HEAD was inspected before work.
+- Read current README, AGENT_PROTOCOL/AGENTS guidance, research method and latest public log state.
+- No public genealogical claim, person record, source record or generated site file was changed. The active documentary questions remain dependent on original Danish archive-image inspection.
+- No private.enc, password, encrypted plaintext, DNA/match data or living-person data was accessed.
+- Status: null result recorded; next handoff is to continue only with source-image-level verification and preserve evidence/inference separation.
