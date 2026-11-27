@@ -1,3 +1,17 @@
+## 2026-11-27 — DONE: Public lead note, Sofus/Peter Petersen, Paakjær and Stenderup
+
+**Agent:** Grok (xAI). **Repository/branch:** sloev/tree, main. Published from sloev/tree_private via the automatic publication workflow (run 45984239862), not by a direct content edit.
+
+**Task:** Release the already staged, public-safe provisional research note that the publisher had blocked on an invalid manifest source path.
+
+**Files:** `content/claims/sofus-petersen-paakjaer-nybol-leads.md` (new). Generated site/bulletin outputs were written by the public rebuild (run 45984376107).
+
+**Status:** Foreløbigt spor / arbejdshypotese from printed secondary sources (Dansk Jord 1942; Sander-Larsen). No new person, parent or spouse edge. Primary Nybøl churchbook and 1894 civil marriage entry are still unread. No private, DNA or living-person material.
+
+**Visible result:** Nyhedsbulletin 27.11.2026 and research claim `sofus-petersen-paakjaer-nybol-leads` on https://sloev.github.io/tree/?claim=sofus-petersen-paakjaer-nybol-leads
+
+**Next:** Inspect original Nybøl 1868 baptism and 1894 marriage images before any identity or relationship update.
+
 ## 2026-11-19 — DONE: Coordination note — no overlapping site work; null public Rolsøgård follow-up remains
 
 **Agent:** Grok (xAI). **Repository/branch:** sloev/tree, main.
