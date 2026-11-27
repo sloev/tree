@@ -4,7 +4,7 @@ schema: claim/v1
 branch: "Sundeved / Nybøl"
 title: "Sofus Petersen, Paakjær: nabopost i Dansk Jord er ikke et slægtskab"
 status: "hypothesis"
-validation: "trykt indeks og lokalhistorie visuelt læst; ingen primærkilde og intet slægtskab"
+validation: "trykte indeksblade og lokalhistorie visuelt læst; s. 450 kun to spalter; ingen primærkilde og intet slægtskab"
 person_ids:
   - "g_sofus_petersen_paakjaer"
 ---
@@ -33,3 +33,13 @@ Opslagene er sekundære. De understøtter navn, sted og (for #1658) erhverv. De 
 Hent og læs de to primærposter via Rigsarkivet Arkivalieronline (Nybøl, Sønderborg). Sammenlign eventuelle forældre med #1657 og #1658. Bevar de to mænd som adskilte kandidater, indtil en primærkilde forbinder dem.
 
 *Provenance: de to trykte blade er visuelt læst i private sideudsnit. Rigsarkivets vejledning om sønderjyske kirkebøger og personregistrering er set 2026-11-26/27. Ingen primærbilleder er hentet i denne note.*
+
+
+## Supplerende afgrænset opslag — trykt s. 450
+
+**Delvist dokumenteret negativt spor.** To læsbare spalter på trykt side 450 i samme bind af *Dansk Jord* er nu visuelt gennemgået. De indeholder 12 Petersen/Pedersen-opslag (#4226, #4228, #4239, #4241, #4246, #4252, #4258, #4264, #4265, #4279, #4280 og #4335). Ingen af disse 12 opslag angiver Paakjær/Nybøl, Stenderup pr. V. Sottrup eller Broager.
+
+Højre spalte begynder ved #4353, men er beskåret i det bevarede sideudsnit. Resultatet gælder derfor kun de to læsbare spalter på s. 450; det er ikke et fuldstændigt opslag i hele siden eller i hele kataloget. Det giver ingen ny oplysning om slægtskab og ændrer ikke vurderingen af #1658: identiteten med Peter Petersen (1870–1950) er fortsat en **arbejdshypotese**.
+
+- Kr. Kolding, *Dansk Jord*, bind 2 (1942), trykt s. 450; samme bindscanning: https://slaegtsbibliotek.dk/921441.pdf.
+- Proveniens: privat sidegennemgang af oversigt og alle fire detailudsnit; de to første spalter er læsbare, højre spalte er beskåret. Ingen person- eller slægtskabsidentifikation udledes af navnelighed.
